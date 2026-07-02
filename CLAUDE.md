@@ -29,6 +29,12 @@ tools/{predmet}/{tool-slug}/
 
 Tools of the same TYPE share render logic in `shared/python/{type}.py`. The pilot type is **labeled-location-quiz** (`shared/python/labeled_location_quiz.py`).
 
+### State persistence (localStorage) — scoped to "within a version"
+
+Interactive tools persist in-progress student state to `localStorage` (keyed on the page path) so a refresh or accidental close keeps progress. Each render module declares a `STATE_VERSION` const, and `loadState()` returns `null` when the saved `obj.v !== STATE_VERSION`.
+
+**A `STATE_VERSION` bump intentionally DROPS any in-progress state — there is no migration.** This is a deliberate decision, not an oversight: the persistence promise is scoped to *within a single version*. Bump `STATE_VERSION` whenever the saved-state shape changes so stale state is discarded cleanly rather than mis-read. If you ever need cross-version resume, add an explicit migration path in `loadState()` — do not assume one exists. Current versions: `labeled_location_quiz.py` = 5, `timeline_mcq_quiz.py` = 1.
+
 To create a new tool **of an existing type**: copy the corresponding template folder, edit `spec.yaml`, run `make.py`. Do not duplicate render logic.
 
 To create a new tool of a **new type**: introduce a new `shared/python/{type}.py` module + a new `templates/{type}/` folder with `README.md`, `spec.template.yaml`, and `make.py`. The first instance of the new type may live alongside the template authorship to validate the abstraction.

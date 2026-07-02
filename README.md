@@ -8,10 +8,7 @@ Svaki alat je samostalan — radi u browseru bez login-a, bez naloga, bez server
 
 Lista svih alata, organizovanih po predmetu: [classroom.tnosugar.github.io](https://classroom.tnosugar.github.io/) *(dostupno čim repo postane public + GitHub Pages se uključi)*
 
-Aktuelni katalog:
-
-- **Geografija**
-  - [Evropa — geografski kviz](tools/geografija/evropa-kviz/) — 42 geografska pojma na karti Evrope. Interaktivni HTML kviz + PDF radna verzija + PDF rešenja.
+Katalog se **generiše** iz `tools/*/*/spec.yaml` fajlova skriptom `scripts/regenerate_index.py` u `index.html` (u korenu repo-a) — otvori taj fajl lokalno ili poseti Pages link iznad. Katalog se **ne održava ručno**: ručna kopija izvedene liste neizbežno zastari (ranije je ovde nedostajao `tools/istorija/balkan-vremenska-osa/`), pa je izostavljena namerno. Posle dodavanja/izmene alata pokreni `python3 scripts/regenerate_index.py`.
 
 ## Struktura repo-a
 

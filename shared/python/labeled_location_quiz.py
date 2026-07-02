@@ -11,6 +11,10 @@ term from a list. This module renders three outputs from one spec:
       - Wrong input → shake + count miss + ask again. Right → lock green.
       - Per-box miss counter (badge) + total correct/miss in header.
       - localStorage persistence: refresh / accidental close keeps progress.
+        NOTE: persistence is scoped to within a STATE_VERSION. Bumping
+        STATE_VERSION intentionally DROPS saved progress (loadState() returns
+        null on version mismatch) — no migration. See CLAUDE.md
+        §"State persistence" before reusing this code.
       - Mode selector: "Sve (N)" or random subset (20 / 10 / 5).
       - CSV export of results after completion.
       - @media print stylesheet: clean printable layout, no controls.

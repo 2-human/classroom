@@ -28,6 +28,11 @@ UX flow:
      Rule: must select EXACTLY all correct options, no wrong ones.
      Wrong → shake + miss++ + retry. Correct → lock green.
   6. Total correct/miss tracked across all events + MCQ items.
+
+Progress persists to localStorage. NOTE: persistence is scoped to within a
+STATE_VERSION. Bumping STATE_VERSION intentionally DROPS saved progress
+(loadState() returns null on version mismatch) — no migration. See CLAUDE.md
+§"State persistence" before reusing this code.
 """
 import json as _json
 import math
