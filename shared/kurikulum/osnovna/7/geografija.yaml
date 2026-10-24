@@ -1,0 +1,24 @@
+# Geografija — 7. razred osnovne škole (regionalna geografija Evrope): lekcije po udžbeniku.
+# Za sada samo deo programa — strane 8–37 (bez 10–13 i 34). Brojevi su redosled lekcija u
+# udžbeniku među unetim stranama, ne zvanični brojevi lekcija; dopunjuje se kako stižu nove strane.
+# Beleške lekcija (privatne): tools/geografija/_source/lekcije-7/{NN-slug}.md
+# Alati se vezuju za lekcije poljem `lekcije: [broj, ...]` u svom spec.yaml.
+nivo: osnovna
+razred: 7
+predmet: geografija
+poglavlja:
+  - naslov: Uvod u regionalnu geografiju
+    lekcije:
+      - {broj: 1, naslov: Regionalna geografija}
+  - naslov: Južna Evropa
+    lekcije:
+      - {broj: 2, naslov: Južna Evropa}
+      - {broj: 3, naslov: Države bivše SFRJ}
+      - {broj: 4, naslov: Republika Srbija}
+      - {broj: 5, naslov: Republika Crna Gora}
+      - {broj: 6, naslov: Bosna i Hercegovina}
+      - {broj: 7, naslov: Republika Hrvatska}
+      - {broj: 8, naslov: Republika Slovenija}
+      - {broj: 9, naslov: Republika Severna Makedonija}
+      - {broj: 10, naslov: Republika Italija}
+      - {broj: 11, naslov: Kraljevina Španija}
