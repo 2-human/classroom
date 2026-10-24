@@ -6,9 +6,15 @@ Core mechanic, shared by every item type — the help ladder ("lestvica pomoći"
     question → attempt → mistake → help step 1 (drawer) → attempt → mistake → help step 2 → …
     → correct: points by mistakes (0 → 3, 1 → 2, 2+ → 1)
     → a mistake after the last help step reveals the answer (0 points) with its explanation.
-Modes: Učenje (help on) · Test (no help; same scoring) · Ispravka (the test items that were not
-answered without mistakes, again, with help; test score stays). In Učenje, revealed items can be
-repeated from the ⋯ menu.
+Modes: Učenje (all authored items, help on) · Test (no help; same scoring) · Ispravka (the test items
+that were not answered without mistakes, again, with help; test score stays). In Učenje, revealed
+items can be repeated from the ⋯ menu.
+
+Every test is new and recorded: `test.iz_dela` authored items drawn at random from each section, plus
+items generated from `baza.drzave` (`test.generisano`: glavni_gradovi, karta_drzava, poluostrvo,
+gde_glavni_grad). Each attempt keeps its items, every answer the pupil gave per item and the points
+(also for Ispravka) in localStorage; "Moji testovi" lists them, "Pregled rada" shows each item with
+the pupil's answers and the correct one, and CSV export is for the teacher. No server, no accounts.
 
 Item types (`vrsta`):
     izbor          A  one or more correct options (one correct → click checks at once)
@@ -86,6 +92,18 @@ def load_spec(path):
                 raise SystemExit(f"{where}: iz_udzbenika needs at least `tekst`")
             if v == "gde_sam" and len(z.get("tragovi") or []) < 2:
                 raise SystemExit(f"{where}: gde_sam needs at least 2 tragovi")
+    for d in ((spec.get("baza") or {}).get("drzave") or []):
+        for key in ("iso", "naziv", "grad", "lat", "lon", "more"):
+            if key not in d:
+                raise SystemExit(f"baza.drzave {d.get('naziv')!r}: missing {key}")
+        if not d.get("mini") and d["iso"] not in drzave:
+            raise SystemExit(f"baza.drzave {d['naziv']!r}: {d['iso']} is not in karta.drzave (needed for map items)")
+    gen = ((spec.get("test") or {}).get("generisano") or {})
+    unknown = set(gen) - {"glavni_gradovi", "karta_drzava", "poluostrvo", "gde_glavni_grad"}
+    if unknown:
+        raise SystemExit(f"test.generisano: unknown {sorted(unknown)}")
+    if gen and not (spec.get("baza") or {}).get("drzave"):
+        raise SystemExit("test.generisano needs baza.drzave")
     return spec
 
 
@@ -141,7 +159,8 @@ def _lesson_links(spec, output_path):
     root = next((p for p in out.parents if (p / "shared" / "python").is_dir()), None)
     if not root:
         return {}, {}, ""
-    predmet = out.parent.parent.name
+    tool = pathlib.Path(spec["_spec_dir"])
+    predmet = tool.parent.name
     nivo, razred = spec.get("nivo"), spec.get("razred")
     titles = {}
     kur = root / "shared" / "kurikulum" / str(nivo) / str(razred) / f"{predmet}.yaml"
@@ -151,7 +170,7 @@ def _lesson_links(spec, output_path):
             for l in pg.get("lekcije") or []:
                 titles[int(l["broj"])] = l["naslov"]
     concept_lessons = {}
-    graf = root / "tools" / predmet / "_source" / f"pojmovi-{razred}"
+    graf = tool.parent / "_source" / f"pojmovi-{razred}"
     for slug in (spec.get("pojmovi") or {}):
         p = graf / f"{slug}.md"
         if p.exists():
@@ -163,22 +182,36 @@ def _lesson_links(spec, output_path):
     return concept_lessons, titles, f"{catalog}#/{nivo}/{razred}/{predmet}/"
 
 
-def _textbook_images(spec, output_path):
-    """Base URL of the private textbook crops + their captions (from each crop's .md title).
-    The images are not embedded: the page loads them from the gitignored folder at run time."""
+def _textbook_images(spec, output_path, embed=False):
+    """Base URL of the private textbook crops, their captions (from each crop's .md title) and, with
+    `embed`, the crops themselves as data URIs (downscaled). The public page never embeds them: it
+    loads them from the gitignored folder at run time. Only the encrypted protected copy
+    (scripts/build_zasticeno.py) embeds them."""
     out = pathlib.Path(output_path).resolve()
-    folder = out.parent.parent / "_source" / f"slike-{spec.get('razred')}"
+    folder = pathlib.Path(spec["_spec_dir"]).parent / "_source" / f"slike-{spec.get('razred')}"
     base = os.path.relpath(folder, out.parent).replace(os.sep, "/") + "/"
-    captions = {}
-    for deo in spec["delovi"]:
-        for z in deo["zadaci"]:
-            img = (z.get("iz_udzbenika") or {}).get("slika")
-            md = folder / pathlib.Path(img).with_suffix(".md") if img else None
-            if md and md.exists():
-                m = re.search(r"^# (.+)$", md.read_text(), re.M)
-                if m:
-                    captions[img] = m.group(1).strip()
-    return base, captions
+    captions, data = {}, {}
+    refs = [z.get("iz_udzbenika") for deo in spec["delovi"] for z in deo["zadaci"]]
+    refs.append((spec.get("test") or {}).get("iz_udzbenika"))   # shared by the generated test items
+    for img in {(r or {}).get("slika") for r in refs} - {None}:
+        md = folder / pathlib.Path(img).with_suffix(".md")
+        if md.exists():
+            m = re.search(r"^# (.+)$", md.read_text(), re.M)
+            if m:
+                captions[img] = m.group(1).strip()
+        if embed and (folder / img).exists():
+            data[img] = _data_uri(folder / img)
+    return base, captions, data
+
+
+def _data_uri(path, max_px=1000):
+    import base64, io
+    from PIL import Image
+    im = Image.open(path).convert("RGB")
+    im.thumbnail((max_px, max_px))
+    buf = io.BytesIO()
+    im.save(buf, "JPEG", quality=80, optimize=True)
+    return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode("ascii")
 
 
 # ---------------------------------------------------------------------------
@@ -310,6 +343,11 @@ __SHELL_CSS__
  .sum h1{font-size:22px;margin:0 0 6px;color:#3a3528}
  .sum .big{font-size:30px;font-weight:700;color:var(--accent)}
  .sum .tbl{margin:14px 0}
+ .sum .sub{color:var(--muted);margin:0 0 6px} .sum .lead{color:var(--muted);max-width:640px;line-height:1.5}
+ .rv{border:1px solid var(--border);border-radius:8px;background:#fff;padding:10px 14px;margin:12px 0}
+ .rv .rq{margin:4px 0 8px;font-weight:600;color:#3a3528} .rv .rl{margin:0;font-size:12px;color:var(--muted)}
+ .rlog{margin:2px 0 8px;padding-left:18px;font-size:13.5px} .rlog .ok{color:var(--accent)} .rlog .bad{color:var(--edge)}
+ .rv .rc{margin:0;font-size:13.5px}
  #msg{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:var(--edge);color:#fff;padding:9px 18px;border-radius:24px;font-size:14px;font-weight:600;opacity:0;transition:opacity .25s;pointer-events:none;z-index:99}
  #msg.show{opacity:1}
  @media (max-width:760px){
@@ -359,9 +397,9 @@ __SHELL_CSS__
 <script>
 const SPEC = __SPEC_JSON__;
 const MAPI = __MAP_JSON__;            // {proj:{lon0,lat1,sx,sy,w,h}, drzave:{ISO:naziv}, mesta:{slug:{naziv,lat,lon,radius_km}}}
-const INFO = __INFO_JSON__;           // {pojmovi, lekcijePojma:{slug:[broj]}, naslovi:{broj:naslov}, katalog, lekcije:[broj], slike: base URL, slikeNaslovi:{path:caption}}
+const INFO = __INFO_JSON__;           // {pojmovi, lekcijePojma:{slug:[broj]}, naslovi:{broj:naslov}, katalog, lekcije:[broj], slike: base URL, slikeNaslovi:{path:caption}, slikeData:{path:dataURI} (protected copy only), zasticeno: href of the protected copy}
 const STATE_KEY = 'classroom:' + window.location.pathname;
-const STATE_VERSION = 1;
+const STATE_VERSION = 2;
 const VRSTA_LBL = {izbor:'Izbor', tacno_netacno:'Tačno / netačno', dopuni:'Dopuni', povezi:'Poveži', zakljuci:'Zaključi', karta_klik:'Na karti', gde_sam:'Gde sam?'};
 const UPUTSTVO = {
   izbor: 'Izaberi tačan odgovor. Ako ih je više, označi sve tačne pa klikni Proveri.',
@@ -374,7 +412,6 @@ const UPUTSTVO = {
 };
 const HELP_LBL = ['Usmeri', 'Suzi', 'Iz lekcije', 'Još'];
 const ITEMS = SPEC.delovi.flatMap((d, di) => d.zadaci.map(z => Object.assign({ deo: di }, z)));
-const BY_ID = Object.fromEntries(ITEMS.map(z => [z.id, z]));
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fmt = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
@@ -386,56 +423,148 @@ let msgT = null;
 function toast(t, ok) { const m = document.getElementById('msg'); m.textContent = t; m.style.background = ok ? '#1f7a3a' : '#b1271f'; m.classList.add('show'); clearTimeout(msgT); msgT = setTimeout(() => m.classList.remove('show'), 1300); }
 
 // ---------- state ----------
-function blankState() { return { v: STATE_VERSION, mode: 'ucenje', cur: ITEMS[0].id, b: { ucenje: {}, test: {}, ispravka: {} } }; }
+// Učenje: the authored items (state.b.ucenje). Test: every attempt is recorded in state.tests with its
+// own items (drawn from the authored pool + generated from SPEC.baza), the pupil's answers per item
+// (log) and points; its Ispravka lives in the same record.
+function blankState() { return { v: STATE_VERSION, mode: 'ucenje', cur: ITEMS[0].id, b: { ucenje: {} }, tests: [], active: null, ime: '' }; }
 function loadState() { try { const o = JSON.parse(localStorage.getItem(STATE_KEY)); return o && o.v === STATE_VERSION ? o : null; } catch (e) { return null; } }
 let state = loadState() || blankState();
 function save() { try { localStorage.setItem(STATE_KEY, JSON.stringify(state)); } catch (e) {} }
-const helpOn = () => state.mode !== 'test';
-function st(id) { const b = state.b[state.mode]; return b[id] || (b[id] = { miss: 0, status: 'open', pts: null, ui: {} }); }
-function listIds() {   // the items of the current mode
-  if (state.mode !== 'ispravka') return ITEMS.map(z => z.id);
-  return ITEMS.map(z => z.id).filter(id => { const t = state.b.test[id]; return t && t.status !== 'open' && t.pts < 3; });
+const att = () => state.tests.find(t => t.id === state.active) || null;
+const helpOn = () => state.mode === 'ucenje' || (att() && att().phase === 'ispravka');
+function curItems() { if (state.mode === 'ucenje') return ITEMS; const a = att(); return a ? a.items : []; }
+function byId(id) { return curItems().find(z => z.id === id) || null; }
+function bucket() { if (state.mode === 'ucenje') return state.b.ucenje; const a = att(); return a.phase === 'ispravka' ? a.fix : a.b; }
+function st(id) { const b = bucket(); return b[id] || (b[id] = { miss: 0, status: 'open', pts: null, ui: {}, log: [] }); }
+function listIds() {   // the items of the current mode / test phase
+  const items = curItems().map(z => z.id);
+  const a = state.mode === 'test' && att();
+  if (!a || a.phase !== 'ispravka') return items;
+  return items.filter(id => { const t = a.b[id]; return t && t.pts < 3; });
 }
+function sections() {
+  if (state.mode === 'ucenje') return SPEC.delovi.map(d => ({ naslov: d.naslov, ids: d.zadaci.map(z => z.id) }));
+  const a = att(); return a ? a.sections : [];
+}
+const deoNaslov = z => z.deoNaslov || SPEC.delovi[z.deo].naslov;
+const numOf = z => curItems().findIndex(x => x.id === z.id) + 1;
 const isDone = s => s.status !== 'open';
 function steps(z) { return z.vrsta === 'gde_sam' ? z.tragovi.length - 1 : (z.pomoc || []).length; }   // help steps before the reveal
 const ptsFor = miss => miss === 0 ? 3 : miss === 1 ? 2 : 1;
+function registerPlaces(items) { for (const z of items) if (z.cilj && z.cilj._mesto) MAPI.mesta[z.cilj.mesto] = z.cilj._mesto; }
+state.tests.forEach(t => registerPlaces(t.items));
+
+// ---------- a new test: authored items drawn per section + items generated from SPEC.baza ----------
+const LOK = { Pirinejsko: 'Pirinejskom', Apeninsko: 'Apeninskom', Balkansko: 'Balkanskom' };
+const polFraza = d => d.poluostrvo ? 'Leži na ' + LOK[d.poluostrvo] + ' poluostrvu.' : 'Ne leži ni na jednom od tri poluostrva.';
+function pickN(arr, n, r) { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a.slice(0, n); }
+function generate(kind, k, r, used) {
+  const B = (SPEC.baza || {}).drzave || [], book = (SPEC.test || {}).iz_udzbenika || null;
+  const free = B.filter(d => !used.has(d.iso));
+  const big = free.filter(d => !d.mini);
+  const take = list => { const d = pickN(list, 1, r)[0]; if (d) used.add(d.iso); return d; };
+  const base = { generisan: true, pojmovi: [], iz_udzbenika: book };
+  if (kind === 'glavni_gradovi') {
+    const ds = pickN(big.filter(d => d.grad !== d.naziv), 4, r); ds.forEach(d => used.add(d.iso));
+    return Object.assign({}, base, { id: 'g-gradovi-' + k, vrsta: 'povezi', pitanje: 'Poveži državu sa njenim glavnim gradom.',
+      parovi: ds.map(d => [d.naziv, d.grad]),
+      pomoc: ['Kreni od države koju najbolje znaš, pa isključuj.', 'Poluostrva: ' + ds.map(d => d.naziv + ' — ' + (d.poluostrvo || 'van poluostrva')).join(', ') + '.', 'Iz lekcije: tabela 17 država i njihovih glavnih gradova (str. 17).'],
+      objasnjenje: ds.map(d => d.naziv + ' — ' + d.grad).join(', ') + '.' });
+  }
+  if (kind === 'karta_drzava') {
+    const d = take(big); if (!d) return null;
+    return Object.assign({}, base, { id: 'g-karta-' + d.iso, vrsta: 'karta_klik', pitanje: 'Klikni na državu: ' + d.naziv + '.', cilj: { drzava: d.iso },
+      pomoc: [polFraza(d), 'Ova država ' + d.more + '.', 'Glavni grad joj je ' + d.grad + '.'],
+      objasnjenje: d.naziv + ': ' + polFraza(d).toLowerCase().replace(/\.$/, '') + '; ' + d.more + '; glavni grad ' + d.grad + '.' });
+  }
+  if (kind === 'poluostrvo') {
+    const d = take(free); if (!d) return null;
+    const opts = ['Pirinejsko', 'Apeninsko', 'Balkansko'].map(p => ({ tekst: p + ' poluostrvo', tacan: d.poluostrvo === p }))
+      .concat([{ tekst: 'Ni na jednom od tri poluostrva', tacan: !d.poluostrvo }]);
+    return Object.assign({}, base, { id: 'g-pol-' + d.iso, vrsta: 'izbor', pitanje: 'Na kom poluostrvu se nalazi ' + d.naziv + '?', odgovori: opts,
+      pomoc: ['Glavni grad joj je ' + d.grad + '.', 'Ova država ' + d.more + '.'], objasnjenje: d.naziv + ' — ' + polFraza(d).toLowerCase() });
+  }
+  if (kind === 'gde_glavni_grad') {
+    const d = take(big); if (!d) return null;
+    const slug = 'g-grad-' + d.iso, def = { naziv: d.grad, lat: d.lat, lon: d.lon, radius_km: 90 };
+    return Object.assign({}, base, { id: 'g-grad-' + d.iso, vrsta: 'gde_sam', pitanje: 'Gde sam? Pročitaj trag i klikni glavni grad na karti.',
+      cilj: { mesto: slug, _mesto: def },
+      tragovi: ['Ja sam glavni grad države koja ' + d.more + '.', 'Moja država ' + (d.poluostrvo ? 'leži na ' + LOK[d.poluostrvo] + ' poluostrvu.' : 'ne leži ni na jednom od tri poluostrva.'), 'Ja sam glavni grad države ' + d.naziv + '.'],
+      objasnjenje: d.grad + ', glavni grad države ' + d.naziv + '.' });
+  }
+  return null;
+}
+function startTest(ime) {
+  const seed = Date.now(), r = seeded(String(seed)), T = SPEC.test || {}, used = new Set();
+  const items = [], secs = [];
+  SPEC.delovi.forEach((d, di) => {
+    const pick = pickN(d.zadaci, Math.min(T.iz_dela || d.zadaci.length, d.zadaci.length), r)
+      .sort((a, b) => d.zadaci.indexOf(a) - d.zadaci.indexOf(b))
+      .map(z => Object.assign({ deo: di }, JSON.parse(JSON.stringify(z))));
+    pick.forEach(z => { if (z.cilj && z.cilj.drzava) used.add(z.cilj.drzava); });
+    items.push(...pick); secs.push({ naslov: d.naslov, ids: pick.map(z => z.id) });
+  });
+  const gen = [];
+  Object.entries(T.generisano || {}).forEach(([kind, n]) => { for (let k = 0; k < n; k++) { const z = generate(kind, k, r, used); if (z) gen.push(Object.assign(z, { deoNaslov: 'Iz baze: države' })); } });
+  if (gen.length) { items.push(...gen); secs.push({ naslov: 'Iz baze: države', ids: gen.map(z => z.id) }); }
+  registerPlaces(items);
+  const a = { id: 't' + seed, seed, start: new Date(seed).toISOString(), end: null, ime: ime || '', items, sections: secs, b: {}, fix: {}, phase: 'test' };
+  state.tests.push(a); state.active = a.id; state.ime = ime || state.ime;
+  state.cur = items[0].id; save();
+}
+function testScore(a, which) { const b = a[which || 'b']; return a.items.reduce((n, z) => n + ((b[z.id] || {}).pts || 0), 0); }
+function finishCheck() {   // a test attempt ends when all its items are answered
+  const a = state.mode === 'test' && att();
+  if (a && a.phase === 'test' && !a.end && a.items.every(z => isDone(a.b[z.id] || { status: 'open' }))) { a.end = new Date().toISOString(); a.score = testScore(a); a.max = a.items.length * 3; save(); }
+}
 
 // ---------- score + navigation ----------
 function refreshScore() {
   const ids = listIds();
   let n = 0;
-  for (const id of ids) { const s = state.b[state.mode][id]; if (s && s.pts) n += s.pts; }
-  document.getElementById('scoreN').textContent = n;
-  document.getElementById('scoreMax').textContent = ids.length * 3;
-  document.querySelectorAll('.ms-btn').forEach(b => b.classList.toggle('active', b.dataset.mode === (state.mode === 'ispravka' ? 'test' : state.mode)));
+  for (const id of ids) { const s = bucket && (state.mode === 'ucenje' || att()) ? bucket()[id] : null; if (s && s.pts) n += s.pts; }
+  document.getElementById('scoreN').textContent = state.mode === 'test' && !att() ? '—' : n;
+  document.getElementById('scoreMax').textContent = state.mode === 'test' && !att() ? '—' : ids.length * 3;
+  document.querySelectorAll('.ms-btn').forEach(b => b.classList.toggle('active', b.dataset.mode === state.mode));
   const rep = ITEMS.filter(z => (state.b.ucenje[z.id] || {}).status === 'revealed').length;
   const mr = document.getElementById('mRepeat');
   mr.textContent = 'Ponovi otkrivene (' + rep + ')'; mr.disabled = state.mode !== 'ucenje' || !rep;
+  document.getElementById('mReset').textContent = state.mode === 'ucenje' ? 'Počni učenje ispočetka' : 'Odustani od ovog testa';
+  document.getElementById('mReset').disabled = state.mode === 'test' && !(att() && !att().end);
 }
-const NUM = Object.fromEntries(ITEMS.map((z, i) => [z.id, i + 1]));
 function rowLabel(z) {
   if (z.vrsta === 'gde_sam') return 'Gde sam? ' + z.tragovi[0];
   return z.pitanje && !/^Dopuni rečenicu/.test(z.pitanje) ? z.pitanje : (z.tvrdnja || (z.tekst || '').replace(/\{\{(.+?)\}\}/g, '…'));
 }
+const fmtDate = iso => { const d = new Date(iso); return d.toLocaleDateString('sr-Latn') + ' ' + d.toLocaleTimeString('sr-Latn', { hour: '2-digit', minute: '2-digit' }); };
 function renderNav() {
   const ids = new Set(listIds());
   let h = '';
-  SPEC.delovi.forEach((d, di) => {
-    const zs = d.zadaci.filter(z => ids.has(z.id));
-    if (!zs.length) return;
-    const done = zs.filter(z => isDone(st(z.id))).length;
-    h += '<div data-filter-group><div class="sec"><span>' + esc(d.naslov) + '</span><span class="cnt">' + done + ' / ' + zs.length + '</span></div>';
-    for (const z of zs) {
-      const s = st(z.id), n = NUM[z.id];
-      const cls = s.status === 'ok' ? (s.pts === 3 ? 'ok' : 'part') : s.status === 'revealed' ? 'rev' : s.status === 'failed' ? 'fail' : '';
-      const icon = s.status === 'ok' ? '✓' : s.status === 'open' ? (s.miss ? '◐' : '○') : '✗';
-      h += '<button type="button" class="it-row ' + cls + (z.id === state.cur ? ' sel' : '') + '" data-id="' + z.id + '" data-filter="' + esc(rowLabel(z) + ' ' + VRSTA_LBL[z.vrsta]) + '">' +
-           '<span class="st">' + icon + '</span><span class="lbl">' + n + '. ' + esc(rowLabel(z)) + '</span><span class="pt">' + (s.pts != null ? s.pts + ' b' : '') + '</span></button>';
-    }
-    h += '</div>';
-  });
-  const allDone = listIds().every(id => isDone(st(id)));
-  h += '<div class="sec"><span>Kraj</span></div><button type="button" class="it-row' + (state.cur === '_sum' ? ' sel' : '') + (allDone ? ' ok' : '') + '" data-id="_sum"><span class="st">' + (allDone ? '★' : '·') + '</span><span class="lbl">Rezultat</span></button>';
+  const a = state.mode === 'test' && att();
+  if (state.mode === 'ucenje' || a) {
+    sections().forEach(d => {
+      const zs = d.ids.filter(id => ids.has(id)).map(byId);
+      if (!zs.length) return;
+      const done = zs.filter(z => isDone(st(z.id))).length;
+      h += '<div data-filter-group><div class="sec"><span>' + esc(d.naslov) + '</span><span class="cnt">' + done + ' / ' + zs.length + '</span></div>';
+      for (const z of zs) {
+        const s = st(z.id);
+        const cls = s.status === 'ok' ? (s.pts === 3 ? 'ok' : 'part') : s.status === 'revealed' ? 'rev' : s.status === 'failed' ? 'fail' : '';
+        const icon = s.status === 'ok' ? '✓' : s.status === 'open' ? (s.miss ? '◐' : '○') : '✗';
+        h += '<button type="button" class="it-row ' + cls + (z.id === state.cur ? ' sel' : '') + '" data-id="' + z.id + '" data-filter="' + esc(rowLabel(z) + ' ' + VRSTA_LBL[z.vrsta]) + '">' +
+             '<span class="st">' + icon + '</span><span class="lbl">' + numOf(z) + '. ' + esc(rowLabel(z)) + '</span><span class="pt">' + (s.pts != null ? s.pts + ' b' : '') + '</span></button>';
+      }
+      h += '</div>';
+    });
+    const allDone = listIds().every(id => isDone(st(id)));
+    h += '<div class="sec"><span>Kraj</span></div><button type="button" class="it-row' + (state.cur === '_sum' ? ' sel' : '') + (allDone ? ' ok' : '') + '" data-id="_sum"><span class="st">' + (allDone ? '★' : '·') + '</span><span class="lbl">Rezultat</span></button>';
+  }
+  if (state.mode === 'test') {
+    const fin = state.tests.filter(t => t.end).slice().reverse();
+    h += '<div class="sec"><span>Moji testovi</span><span class="cnt">' + fin.length + '</span></div>';
+    if (!a) h += '<button type="button" class="it-row' + (state.cur === '_start' ? ' sel' : '') + '" data-id="_start"><span class="st">+</span><span class="lbl">Novi test</span></button>';
+    for (const t of fin) h += '<button type="button" class="it-row' + (state.cur === 'r:' + t.id ? ' sel' : '') + '" data-id="r:' + t.id + '"><span class="st">▤</span><span class="lbl">' + fmtDate(t.start) + (t.ime ? ' · ' + esc(t.ime) : '') + '</span><span class="pt">' + t.score + '/' + t.max + '</span></button>';
+  }
   document.getElementById('navList').innerHTML = h;
   if (document.getElementById('app-filter').value) HubShell.applyFilter();
 }
@@ -452,7 +581,9 @@ function bookHTML(z) {   // "Iz udžbenika": page, section, summary; the crop lo
   const b = z.iz_udzbenika; if (!b) return '';
   const cap = b.slika ? (INFO.slikeNaslovi[b.slika] || '') : '';
   return '<h3>Iz udžbenika</h3><p class="ref">' + (b.strana ? 'str. ' + b.strana : '') + (b.odeljak ? (b.strana ? ' — ' : '') + esc(b.odeljak) : '') + '</p>' +
-    (b.slika ? '<figure><img src="' + esc(INFO.slike + b.slika) + '" alt="' + esc(cap) + '" loading="lazy" onerror="this.parentNode.remove()">' + (cap ? '<figcaption>' + esc(cap) + '</figcaption>' : '') + '</figure>' : '') +
+    (b.slika ? '<figure><img src="' + esc(INFO.slikeData[b.slika] || INFO.slike + b.slika) + '" alt="' + esc(cap) + '" onerror="' +
+      (INFO.zasticeno ? 'this.parentNode.outerHTML=\'<p class=&quot;ref&quot;>Slika: <a href=&quot;' + esc(INFO.zasticeno) + '&quot;>verzija sa slikama iz udžbenika (lozinka)</a></p>\'' : 'this.parentNode.remove()') +
+      '">' + (cap ? '<figcaption>' + esc(cap) + '</figcaption>' : '') + '</figure>' : '') +
     '<p class="book">' + fmt(b.tekst) + '</p>';
 }
 function moreHTML(z) {
@@ -482,7 +613,7 @@ function helpHTML(z, s, fresh) {
 }
 function renderDrawer(fresh) {
   if (drawer.dataset.intro) return;
-  const z = BY_ID[state.cur];
+  const z = byId(state.cur);
   const inl = document.getElementById('helpInline');
   if (!z) { document.getElementById('drawerTitle').textContent = 'Rezultat'; drawerBody.innerHTML = ''; return; }
   const s = st(z.id), h = helpHTML(z, s, fresh);
@@ -496,7 +627,7 @@ function showIntro() {
   drawerBody.innerHTML = '<div class="intro"><p>' + esc(SPEC.description || '') + '</p><ul>' +
     '<li><b>Učenje</b> — posle svake greške u ovoj fioci stiže sledeći stepenik pomoći: <i>usmeri</i> → <i>suzi</i> → <i>iz lekcije</i>. Greška posle poslednjeg stepenika otkriva odgovor.</li>' +
     '<li><b>Bodovi</b> — tačno bez greške 3, uz jednu pomoć 2, uz više pomoći 1, otkriveno 0.</li>' +
-    '<li><b>Test</b> — bez pomoći. Na kraju <b>Ispravka</b>: zadaci koji nisu rešeni iz prve, ponovo, sa pomoći.</li>' +
+    '<li><b>Test</b> — svaki put nov izbor zadataka (iz svakog dela lekcije i iz baze država), bez pomoći. Svaki test se beleži: u „Moji testovi” vidiš rezultat i pregled rada, i možeš ga preuzeti za nastavnika. Na kraju <b>Ispravka</b>: zadaci koji nisu rešeni iz prve, sa pomoći.</li>' +
     '<li>Levo su svi zadaci po delovima lekcije; možeš ih rešavati bilo kojim redom.</li></ul>' +
     '<button type="button" class="ok" id="introOk">Razumem</button></div>';
   openDrawer();
@@ -505,29 +636,31 @@ function showIntro() {
 document.getElementById('mIntro').addEventListener('click', showIntro);
 
 // ---------- outcome ----------
-function fail(z, text) {
+function fail(z, text, given) {
   const s = st(z.id);
   s.miss++;
+  (s.log = s.log || []).push({ v: given || '', ok: false });
   const ended = s.miss > steps(z);
   if (ended) { s.status = helpOn() ? 'revealed' : 'failed'; s.pts = 0; toast(helpOn() ? 'Evo odgovora' : 'Netačno', false); }
   else toast(text || 'Netačno — pokušaj ponovo', false);
-  save(); renderItem(true); renderNav(); refreshScore();
+  finishCheck(); save(); renderItem(true); renderNav(); refreshScore();
   if (ended ? s.status === 'revealed' : helpOn() && !mobile()) openDrawer();
 }
-function succeed(z) {
+function succeed(z, given) {
   const s = st(z.id);
   s.status = 'ok'; s.pts = ptsFor(s.miss);
+  (s.log = s.log || []).push({ v: given || '', ok: true });
   toast('Tačno! +' + s.pts, true);
-  save(); renderItem(false); renderNav(); refreshScore();
+  finishCheck(); save(); renderItem(false); renderNav(); refreshScore();
   openDrawer();
 }
 
 // ---------- item renderers ----------
 const main = document.getElementById('main');
 function frame(z, s, inner) {
-  const n = NUM[z.id];
+  const n = numOf(z);
   const pts = isDone(s) ? (s.status === 'ok' ? '✓ ' + s.pts + ' b' : s.status === 'failed' ? '✗ 0 b' : 'otkriveno · 0 b') : (s.miss ? 'sada ' + ptsFor(s.miss) + ' b' : 'do 3 b');
-  return '<div class="item"><div class="ihead"><span class="vchip">' + VRSTA_LBL[z.vrsta] + '</span><span>' + esc(SPEC.delovi[z.deo].naslov) + ' · zadatak ' + n + ' / ' + ITEMS.length + '</span><span>' + pts + '</span></div>' +
+  return '<div class="item"><div class="ihead"><span class="vchip">' + VRSTA_LBL[z.vrsta] + '</span><span>' + esc(deoNaslov(z)) + ' · zadatak ' + n + ' / ' + curItems().length + '</span><span>' + pts + '</span></div>' +
     inner + '<div class="help-inline" id="helpInline"></div><div class="iactions" id="actions"></div>' +
     (isDone(s) ? '<div class="expl' + (s.status === 'ok' ? '' : ' rev') + '">' + (s.status === 'failed' ? 'Netačno. Odgovor ćeš videti u Ispravci.' : fmt(z.objasnjenje || '')) + '</div>' : '') + '</div>';
 }
@@ -561,7 +694,7 @@ function renderChoice(z, s) {   // izbor + zakljuci (+ the correction step of ta
   if (!done && multi) actions([['btnCheck', 'Proveri', 'ok']]);
   main.querySelectorAll('.opt').forEach(b => b.addEventListener('click', () => {
     const i = +b.dataset.i;
-    if (!multi) { if (z.odgovori[i].tacan) succeed(z); else { ui.wrong.push(i); fail(z); } return; }
+    if (!multi) { if (z.odgovori[i].tacan) succeed(z, z.odgovori[i].tekst); else { ui.wrong.push(i); fail(z, undefined, z.odgovori[i].tekst); } return; }
     ui.pick = ui.pick.includes(i) ? ui.pick.filter(x => x !== i) : ui.pick.concat(i);
     b.classList.toggle('picked'); save();
   }));
@@ -570,9 +703,10 @@ function renderChoice(z, s) {   // izbor + zakljuci (+ the correction step of ta
     if (!ui.pick.length) { toast('Označi bar jedan odgovor', false); return; }
     const right = z.odgovori.map((o, i) => o.tacan ? i : -1).filter(i => i >= 0);
     const wrongPicked = ui.pick.filter(i => !z.odgovori[i].tacan);
-    if (!wrongPicked.length && right.every(i => ui.pick.includes(i))) { succeed(z); return; }
+    const given = ui.pick.map(i => z.odgovori[i].tekst).join('; ');
+    if (!wrongPicked.length && right.every(i => ui.pick.includes(i))) { succeed(z, given); return; }
     ui.wrong = ui.wrong.concat(wrongPicked); ui.pick = ui.pick.filter(i => z.odgovori[i].tacan);
-    fail(z, wrongPicked.length ? 'Neki od označenih nisu tačni' : 'Nedostaje još tačnih odgovora');
+    fail(z, wrongPicked.length ? 'Neki od označenih nisu tačni' : 'Nedostaje još tačnih odgovora', given);
   });
   nextButton(z);
 }
@@ -594,14 +728,15 @@ function renderTN(z, s) {
     if (v !== z.tacno) {   // a binary guess: a wrong one on a true statement leaves nothing to find → revealed;
       ui.tnWrong = v;       // on a false one the pupil still has to find the correction
       if (z.tacno) st(z.id).miss = steps(z); else ui.phase = 'fix';
-      fail(z); return;
+      fail(z, undefined, v ? 'Tačno' : 'Netačno'); return;
     }
-    if (z.tacno) { succeed(z); return; }
+    if (z.tacno) { succeed(z, 'Tačno'); return; }
+    st(z.id).log.push({ v: 'Netačno', ok: true });
     ui.phase = 'fix'; save(); renderItem(false); toast('Tačno — sad je ispravi', true);
   }));
   main.querySelectorAll('.opt.fix').forEach(b => b.addEventListener('click', () => {
     const i = +b.dataset.i;
-    if (z.ispravke[i].tacan) succeed(z); else { ui.wrong.push(i); fail(z); }
+    if (z.ispravke[i].tacan) succeed(z, 'ispravka: ' + z.ispravke[i].tekst); else { ui.wrong.push(i); fail(z, undefined, 'ispravka: ' + z.ispravke[i].tekst); }
   }));
   nextButton(z);
 }
@@ -647,8 +782,9 @@ function renderCloze(z, s) {
     const open = blanks.map((_, i) => i).filter(i => !ui.lock[i]);
     if (open.some(i => !norm(ui.val[i]))) { toast('Popuni sve praznine', false); return; }
     ui.bad = [];
+    const given = open.map(i => ui.val[i]).join(' / ');
     for (const i of open) { if (blanks[i].answers.map(norm).includes(norm(ui.val[i]))) ui.lock[i] = true; else { ui.bad.push(i); delete ui.val[i]; } }
-    if (!ui.bad.length) succeed(z); else fail(z, ui.bad.length === 1 ? 'Jedna praznina nije tačna' : 'Neke praznine nisu tačne');
+    if (!ui.bad.length) succeed(z, given); else fail(z, ui.bad.length === 1 ? 'Jedna praznina nije tačna' : 'Neke praznine nisu tačne', given);
   });
   nextButton(z);
 }
@@ -667,9 +803,9 @@ function renderMatch(z, s) {
   main.querySelectorAll('.mcell.L').forEach(b => b.addEventListener('click', () => { ui.left = +b.dataset.i; save(); renderItem(false); }));
   main.querySelectorAll('.mcell.R').forEach(b => b.addEventListener('click', () => {
     if (ui.left == null) { toast('Prvo klikni pojam levo', false); return; }
-    const i = +b.dataset.i;
-    if (i === ui.left) { ui.done.push(i); ui.left = null; if (ui.done.length === z.parovi.length) succeed(z); else { save(); renderItem(false); } }
-    else { b.classList.add('bad'); ui.left = null; setTimeout(() => fail(z, 'Nisu par'), 280); }
+    const i = +b.dataset.i, pair = z.parovi[ui.left][0] + ' → ' + z.parovi[i][1];
+    if (i === ui.left) { ui.done.push(i); ui.left = null; if (ui.done.length === z.parovi.length) succeed(z, pair); else { st(z.id).log.push({ v: pair, ok: true }); save(); renderItem(false); } }
+    else { b.classList.add('bad'); ui.left = null; setTimeout(() => fail(z, 'Nisu par', pair), 280); }
   }));
   nextButton(z);
 }
@@ -737,42 +873,111 @@ function renderMapItem(z, s) {
     if (tgt.drzava) { ok = c.iso === tgt.drzava; why = c.iso ? (MAPI.drzave[c.iso] ? 'To je ' + MAPI.drzave[c.iso] : 'To nije država Južne Evrope') : 'To je more'; }
     else { const d = km(ll, targetLonLat(tgt)); ok = d <= MAPI.mesta[tgt.mesto].radius_km; why = helpOn() ? 'Promašaj — oko ' + Math.round(d / 10) * 10 + ' km od cilja' : 'Promašaj'; }
     ui.clicks.push([c.x, c.y, ok ? 1 : 0, c.iso || '']);
-    if (ok) succeed(z); else fail(z, why);
+    const given = c.iso && MAPI.drzave[c.iso] ? MAPI.drzave[c.iso] : (tgt.drzava ? (c.iso ? 'država van regije' : 'more') : why);
+    if (ok) succeed(z, tgt.drzava ? given : 'pogođeno'); else fail(z, why, given);
   });
   for (const [x, y, ok, iso] of ui.clicks) { if (iso && tgt.drzava && !ok) m.country(iso, 'miss'); if (!tgt.drzava || !iso) m.mark(x, y, ok ? '#1f7a3a' : '#b1271f'); }
   if (done && s.status !== 'failed') {
     if (tgt.drzava) m.country(tgt.drzava, s.status === 'ok' ? 'hit' : 'revc');
     else { const [x, y] = toXY(MAPI.mesta[tgt.mesto].lon, MAPI.mesta[tgt.mesto].lat); m.mark(x, y, s.status === 'ok' ? '#1f7a3a' : '#c98a2c', MAPI.mesta[tgt.mesto].naziv); }
   }
-  if (gs && !done) { actions([['btnClue', 'Još jedan trag']]); document.getElementById('btnClue').addEventListener('click', () => fail(z, 'Novi trag')); }
+  if (gs && !done) { actions([['btnClue', 'Još jedan trag']]); document.getElementById('btnClue').addEventListener('click', () => fail(z, 'Novi trag', 'zatražen novi trag')); }
   nextButton(z);
 }
 
 // ---------- main view ----------
 function renderItem(fresh) {
-  const z = BY_ID[state.cur];
-  if (!z) { renderSummary(); renderDrawer(); return; }
+  const z = byId(state.cur);
+  if (!z) {
+    if (state.cur === '_start' || (state.mode === 'test' && !att() && !String(state.cur).startsWith('r:'))) renderStart();
+    else if (String(state.cur).startsWith('r:')) renderReview(state.tests.find(t => 'r:' + t.id === state.cur));
+    else renderSummary();
+    closeDrawer(); return;
+  }
   const s = st(z.id);
   ({ izbor: renderChoice, zakljuci: renderChoice, tacno_netacno: renderTN, dopuni: renderCloze, povezi: renderMatch, karta_klik: renderMapItem, gde_sam: renderMapItem })[z.vrsta](z, s);
   renderDrawer(fresh);
 }
 function renderSummary() {
-  const ids = listIds();
+  const ids = listIds(), a = state.mode === 'test' && att();
   let tot = 0, rows = '';
-  SPEC.delovi.forEach(d => {
-    const zs = d.zadaci.filter(z => ids.includes(z.id)); if (!zs.length) return;
-    const p = zs.reduce((a, z) => a + (st(z.id).pts || 0), 0); tot += p;
-    rows += '<tr><td>' + esc(d.naslov) + '</td><td class="num">' + zs.filter(z => isDone(st(z.id))).length + ' / ' + zs.length + '</td><td class="num">' + p + ' / ' + zs.length * 3 + '</td></tr>';
+  sections().forEach(d => {
+    const zs = d.ids.filter(id => ids.includes(id)); if (!zs.length) return;
+    const p = zs.reduce((n, id) => n + (st(id).pts || 0), 0); tot += p;
+    rows += '<tr><td>' + esc(d.naslov) + '</td><td class="num">' + zs.filter(id => isDone(st(id))).length + ' / ' + zs.length + '</td><td class="num">' + p + ' / ' + zs.length * 3 + '</td></tr>';
   });
   const left = ids.filter(id => !isDone(st(id))).length;
-  const failed = ITEMS.filter(z => { const t = state.b.test[z.id]; return t && isDone(t) && t.pts < 3; }).length;
-  const label = { ucenje: 'Učenje', test: 'Test', ispravka: 'Ispravka' }[state.mode];
-  main.innerHTML = '<div class="sum"><h1>Rezultat — ' + label + '</h1><p><span class="big">' + tot + '</span> / ' + ids.length * 3 + ' bodova' +
-    (left ? ' · nerešeno još ' + left : '') + '</p><table class="tbl"><thead><tr><th>Deo lekcije</th><th class="num">Urađeno</th><th class="num">Bodovi</th></tr></thead><tbody>' + rows + '</tbody></table>' +
-    '<div class="iactions">' + (state.mode === 'test' && !left && failed ? '<button type="button" class="ok" id="btnFix">Ispravka (' + failed + ')</button>' : '') +
-    (state.mode === 'ispravka' ? '<button type="button" id="btnBackTest">Nazad na rezultat testa</button>' : '') + '</div></div>';
-  const f = document.getElementById('btnFix'); if (f) f.addEventListener('click', () => { state.mode = 'ispravka'; state.b.ispravka = {}; state.cur = listIds()[0]; save(); refresh(); });
-  const bt = document.getElementById('btnBackTest'); if (bt) bt.addEventListener('click', () => { state.mode = 'test'; state.cur = '_sum'; save(); refresh(); });
+  const failed = a ? a.items.filter(z => (a.b[z.id] || {}).pts < 3).length : 0;
+  const label = state.mode === 'ucenje' ? 'Učenje' : (a.phase === 'ispravka' ? 'Ispravka' : 'Test');
+  main.innerHTML = '<div class="sum"><h1>Rezultat — ' + label + '</h1>' + (a ? '<p class="sub">' + fmtDate(a.start) + (a.ime ? ' · ' + esc(a.ime) : '') + '</p>' : '') +
+    '<p><span class="big">' + tot + '</span> / ' + ids.length * 3 + ' bodova' + (left ? ' · nerešeno još ' + left : '') + '</p>' +
+    '<table class="tbl"><thead><tr><th>Deo</th><th class="num">Urađeno</th><th class="num">Bodovi</th></tr></thead><tbody>' + rows + '</tbody></table>' +
+    '<div class="iactions">' +
+    (a && a.phase === 'test' && !left && failed ? '<button type="button" class="ok" id="btnFix">Ispravka (' + failed + ')</button>' : '') +
+    (a && a.phase === 'ispravka' ? '<button type="button" id="btnBackTest">Nazad na rezultat testa</button>' : '') +
+    (a && a.end ? '<button type="button" id="btnReview">Pregled rada</button><button type="button" id="btnCsv">Preuzmi (CSV)</button><button type="button" class="ok" id="btnNew">Novi test</button>' : '') +
+    '</div></div>';
+  const on = (id, f) => { const e = document.getElementById(id); if (e) e.addEventListener('click', f); };
+  on('btnFix', () => { a.phase = 'ispravka'; a.fix = {}; state.cur = listIds()[0]; save(); refresh(); });
+  on('btnBackTest', () => { a.phase = 'test'; state.cur = '_sum'; save(); refresh(); });
+  on('btnReview', () => go('r:' + a.id));
+  on('btnCsv', () => downloadCsv([a]));
+  on('btnNew', () => { state.active = null; go('_start'); });
+}
+function renderStart() {
+  const T = SPEC.test || {}, perDeo = T.iz_dela || 0;
+  const nGen = Object.values(T.generisano || {}).reduce((x, y) => x + y, 0);
+  const n = SPEC.delovi.reduce((x, d) => x + Math.min(perDeo || d.zadaci.length, d.zadaci.length), 0) + nGen;
+  const fin = state.tests.filter(t => t.end).slice().reverse();
+  main.innerHTML = '<div class="sum"><h1>Novi test</h1><p class="lead">' + n + ' zadataka: ' + (perDeo ? 'po ' + perDeo + ' nasumično iz svakog dela lekcije' : 'svi zadaci lekcije') +
+    (nGen ? ' i ' + nGen + ' novih iz baze država' : '') + '. Svaki test je drugačiji. Bez pomoći; posle testa sledi Ispravka.</p>' +
+    '<p><label>Ime i prezime (za nastavnika, opciono): <input id="testIme" class="app-filter" style="max-width:320px;display:block;margin-top:6px" value="' + esc(state.ime || '') + '"></label></p>' +
+    '<div class="iactions"><button type="button" class="ok" id="btnStart">Započni test</button></div>' +
+    (fin.length ? '<h2 style="margin-top:28px">Moji testovi</h2><table class="tbl"><thead><tr><th>Datum</th><th>Ime</th><th class="num">Bodovi</th><th class="num">Ispravka</th><th></th></tr></thead><tbody>' +
+      fin.map(t => '<tr><td>' + fmtDate(t.start) + '</td><td>' + esc(t.ime || '') + '</td><td class="num">' + t.score + ' / ' + t.max + '</td><td class="num">' +
+        (Object.keys(t.fix).length ? testScore(t, 'fix') : '—') + '</td><td><button type="button" data-r="' + t.id + '">Pregled</button></td></tr>').join('') +
+      '</tbody></table><div class="iactions"><button type="button" id="btnCsvAll">Preuzmi sve testove (CSV)</button></div>' : '') + '</div>';
+  document.getElementById('btnStart').addEventListener('click', () => { startTest(document.getElementById('testIme').value.trim()); closeDrawer(); refresh(); main.scrollTop = 0; });
+  main.querySelectorAll('[data-r]').forEach(b => b.addEventListener('click', () => go('r:' + b.dataset.r)));
+  const all = document.getElementById('btnCsvAll'); if (all) all.addEventListener('click', () => downloadCsv(fin.slice().reverse()));
+}
+function questionText(z) { return z.vrsta === 'tacno_netacno' ? z.tvrdnja : z.vrsta === 'dopuni' ? z.tekst.replace(/\{\{(.+?)\}\}/g, '____') : (z.vrsta === 'gde_sam' ? 'Gde sam? ' + z.tragovi.join(' · ') : z.pitanje); }
+function correctText(z) {
+  if (z.vrsta === 'izbor' || z.vrsta === 'zakljuci') return z.odgovori.filter(o => o.tacan).map(o => o.tekst).join('; ');
+  if (z.vrsta === 'tacno_netacno') return z.tacno ? 'Tačno' : 'Netačno — ' + z.ispravke.find(o => o.tacan).tekst;
+  if (z.vrsta === 'dopuni') return z.tekst.replace(/\{\{(.+?)\}\}/g, (m, x) => x.split('|')[0]);
+  if (z.vrsta === 'povezi') return z.parovi.map(p => p[0] + ' → ' + p[1]).join('; ');
+  return z.cilj.drzava ? MAPI.drzave[z.cilj.drzava] : (MAPI.mesta[z.cilj.mesto] || {}).naziv || z.cilj.mesto;
+}
+const outcome = s => !s || s.status === 'open' ? 'nije rađeno' : s.status === 'ok' ? 'tačno, ' + s.pts + ' b' : '0 b';
+function renderReview(t) {
+  if (!t) { renderStart(); return; }
+  const rows = t.items.map((z, i) => {
+    const s = t.b[z.id], f = t.fix[z.id];
+    const log = (s && s.log || []).map(l => '<li class="' + (l.ok ? 'ok' : 'bad') + '">' + (l.ok ? '✓ ' : '✗ ') + esc(l.v || '—') + '</li>').join('');
+    return '<div class="rv"><div class="ihead"><span class="vchip">' + VRSTA_LBL[z.vrsta] + '</span><span>' + (i + 1) + '. ' + esc(deoNaslov(z)) + '</span><span>' + outcome(s) + (f ? ' · ispravka: ' + outcome(f) : '') + '</span></div>' +
+      '<p class="rq">' + fmt(questionText(z)) + '</p><p class="rl">Odgovori učenika:</p><ul class="rlog">' + (log || '<li>—</li>') + '</ul>' +
+      '<p class="rc"><b>Tačan odgovor:</b> ' + fmt(correctText(z)) + '</p></div>';
+  }).join('');
+  main.innerHTML = '<div class="sum"><h1>Pregled rada</h1><p class="sub">' + fmtDate(t.start) + (t.ime ? ' · ' + esc(t.ime) : '') + ' · <b>' + t.score + ' / ' + t.max + '</b> bodova' +
+    (Object.keys(t.fix).length ? ' · ispravka ' + testScore(t, 'fix') : '') + '</p><div class="iactions"><button type="button" id="btnCsv">Preuzmi (CSV)</button><button type="button" id="btnBack">Moji testovi</button></div>' + rows + '</div>';
+  document.getElementById('btnCsv').addEventListener('click', () => downloadCsv([t]));
+  document.getElementById('btnBack').addEventListener('click', () => { if (!att()) go('_start'); else go('_sum'); });
+}
+function downloadCsv(tests) {   // one row per item of each test: for the teacher (opens in Excel / Sheets)
+  const q = v => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"';
+  const head = ['test', 'datum', 'ime', 'br', 'deo', 'vrsta', 'pitanje', 'odgovori_ucenika', 'tacan_odgovor', 'bodovi', 'ispravka_bodovi'];
+  const lines = [head.join(',')];
+  for (const t of tests) t.items.forEach((z, i) => {
+    const s = t.b[z.id] || {}, f = t.fix[z.id];
+    lines.push([t.id, fmtDate(t.start), t.ime, i + 1, deoNaslov(z), VRSTA_LBL[z.vrsta], questionText(z),
+      (s.log || []).map(l => (l.ok ? '✓ ' : '✗ ') + l.v).join(' | '), correctText(z), s.pts == null ? '' : s.pts, f && f.pts != null ? f.pts : ''].map(q).join(','));
+  });
+  const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'test-' + (SPEC.slug || 'kviz') + '-' + (tests.length === 1 ? tests[0].id : 'svi') + '.csv';
+  document.body.appendChild(a); a.click(); a.remove();
 }
 function go(id) { state.cur = id; save(); HubShell.setNav(false); if (!drawer.dataset.intro) closeDrawer(); refresh(); main.scrollTop = 0; }
 function goNext() {
@@ -785,13 +990,20 @@ function refresh() { renderNav(); refreshScore(); renderItem(false); }
 // ---------- bar ----------
 document.querySelectorAll('.ms-btn').forEach(b => b.addEventListener('click', () => {
   const m = b.dataset.mode;
-  if (m === state.mode || (m === 'test' && state.mode === 'ispravka')) return;
-  state.mode = m; state.cur = listIds().find(id => !isDone(st(id))) || '_sum'; save(); refresh();
+  if (m === state.mode) return;
+  state.mode = m;
+  state.cur = m === 'test' && !att() ? '_start' : (listIds().find(id => !isDone(st(id))) || '_sum');
+  closeDrawer(); save(); refresh();
 }));
 document.getElementById('mReset').addEventListener('click', () => {
-  if (!confirm('Obrisati odgovore u režimu „' + ({ ucenje: 'Učenje', test: 'Test', ispravka: 'Test' })[state.mode] + '”?')) return;
-  if (state.mode === 'ucenje') state.b.ucenje = {}; else { state.b.test = {}; state.b.ispravka = {}; state.mode = 'test'; }
-  state.cur = ITEMS[0].id; save(); refresh();
+  if (state.mode === 'ucenje') {
+    if (!confirm('Obrisati odgovore u Učenju?')) return;
+    state.b.ucenje = {}; state.cur = ITEMS[0].id;
+  } else {
+    const a = att(); if (!a || a.end || !confirm('Odustati od ovog testa? Neće biti zabeležen.')) return;
+    state.tests = state.tests.filter(t => t.id !== a.id); state.active = null; state.cur = '_start';
+  }
+  save(); refresh();
 });
 document.getElementById('mRepeat').addEventListener('click', () => {
   const rev = ITEMS.filter(z => (state.b.ucenje[z.id] || {}).status === 'revealed').map(z => z.id);
@@ -800,7 +1012,7 @@ document.getElementById('mRepeat').addEventListener('click', () => {
 });
 
 // ---------- init ----------
-if (!BY_ID[state.cur] && state.cur !== '_sum') state.cur = ITEMS[0].id;
+if (!byId(state.cur) && !['_sum', '_start'].includes(state.cur) && !String(state.cur).startsWith('r:')) state.cur = state.mode === 'test' ? '_start' : ITEMS[0].id;
 refresh();
 let introSeen = false; try { introSeen = localStorage.getItem(STATE_KEY + ':intro') === '1'; } catch (e) {}
 if (!introSeen) showIntro();
@@ -809,16 +1021,23 @@ if (!introSeen) showIntro();
 </html>"""
 
 
-def render_html(spec, output_path):
+def render_html(spec, output_path, embed_images=False, write=True):
+    """Write (or, with write=False, return) the quiz page for `output_path`'s location.
+    embed_images=True is for the protected copy only (see scripts/build_zasticeno.py)."""
     output_path = pathlib.Path(output_path).resolve()
     map_paths, proj = _render_map(spec) if spec.get("karta") else ("", {"w": 1, "h": 1})
     concept_lessons, titles, katalog = _lesson_links(spec, output_path)
     k = spec.get("karta") or {}
-    clean = {"description": spec.get("description", ""),
-             "delovi": [{"naslov": d["naslov"], "zadaci": d["zadaci"]} for d in spec["delovi"]]}
-    slike, naslovi_slika = _textbook_images(spec, output_path)
+    clean = {"description": spec.get("description", ""), "slug": output_path.parent.name,
+             "delovi": [{"naslov": d["naslov"], "zadaci": d["zadaci"]} for d in spec["delovi"]],
+             "baza": spec.get("baza") or {}, "test": spec.get("test") or {}}
+    slike, naslovi_slika, slike_data = _textbook_images(spec, output_path, embed_images)
+    tool = pathlib.Path(spec["_spec_dir"])
+    root = next((q for q in tool.parents if (q / "shared" / "python").is_dir()), tool)
+    prot = root / "zasticeno" / tool.parent.name / tool.name
+    zasticeno = "" if embed_images or not (prot / "bundle.enc").exists() else os.path.relpath(prot, output_path.parent).replace(os.sep, "/") + "/"
     info = {"pojmovi": spec.get("pojmovi") or {}, "lekcijePojma": concept_lessons, "naslovi": titles,
-            "katalog": katalog, "lekcije": spec.get("lekcije") or [], "slike": slike, "slikeNaslovi": naslovi_slika}
+            "katalog": katalog, "lekcije": spec.get("lekcije") or [], "slike": slike, "slikeNaslovi": naslovi_slika, "slikeData": slike_data, "zasticeno": zasticeno}
     mapj = {"proj": proj, "drzave": k.get("drzave") or {}, "mesta": k.get("mesta") or {}}
     js = lambda o: _json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
     repl = {
@@ -837,5 +1056,7 @@ def render_html(spec, output_path):
     html = _HTML_TPL
     for key, v in repl.items():
         html = html.replace(key, v)
+    if not write:
+        return html
     output_path.write_text(html, encoding="utf-8")
     return output_path

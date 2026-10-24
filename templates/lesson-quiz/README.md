@@ -17,6 +17,18 @@ Režimi: **Učenje** (pomoć) · **Test** (bez pomoći, isto bodovanje) · **Isp
 zadaci koji nisu rešeni iz prve, sa pomoći; rezultat testa se ne menja). U Učenju meni ⋯ ima
 „Ponovi otkrivene”.
 
+## Test: svaki put nov, svaki zabeležen
+
+- **Sastav:** po `test.iz_dela` nasumičnih zadataka iz svakog dela lekcije + zadaci generisani iz
+  `baza.drzave` prema `test.generisano` (`glavni_gradovi` — poveži 4 države i grada, `karta_drzava` —
+  klikni državu, `poluostrvo` — na kom poluostrvu je država, `gde_glavni_grad` — „Gde sam?” za glavni
+  grad). Odgovori se mešaju. Bez `test:` test sadrži sve zadatke.
+- **Beleženje:** svaki pokušaj (zadaci, svaki odgovor učenika po zadatku, bodovi, Ispravka, ime ako
+  ga upiše) čuva se u pregledaču (localStorage). „Moji testovi” u navigaciji → **Pregled rada**
+  (svaki zadatak: odgovori učenika ✓/✗ i tačan odgovor) i **Preuzmi (CSV)** za nastavnika (jedan red po
+  zadatku; „Preuzmi sve testove” na ekranu Novi test). Bez servera i naloga — rezultati su na uređaju
+  na kome je test rađen.
+
 ## Vrste zadataka
 
 | vrsta | šta | posebno |
@@ -41,3 +53,18 @@ cd ../../.. && python3 scripts/regenerate_index.py
 `load_spec` proverava: jedinstvene `id`, poznatu `vrsta`, bar jedan tačan odgovor (`zakljuci`
 tačno jedan), ispravke za netačne tvrdnje, praznine u `dopuni`, ciljeve karte.
 Bump `STATE_VERSION` u `lesson_quiz.py` kad se promeni oblik sačuvanog stanja (briše napredak).
+
+## Slike iz udžbenika i zaštićena verzija
+
+`iz_udzbenika.slika` pokazuje na isečak u privatnom `tools/{predmet}/_source/slike-{razred}/` (van
+git-a). Javni kviz ga učitava lokalno; gde ga nema (GitHub Pages), umesto slike stoji link ka
+zaštićenoj verziji. Zaštićena verzija (lozinka, šifrovano, slike ugrađene):
+
+```bash
+python3 scripts/build_zasticeno.py tools/{predmet}/{slug}    # → zasticeno/{predmet}/{slug}/
+python3 scripts/regenerate_index.py                         # katalog dobija link
+```
+
+Lozinka je u macOS Keychain-u (`classroom-zasticeno`); pogledaj je sa
+`security find-generic-password -s classroom-zasticeno -w`, promeni sa
+`security add-generic-password -U -s classroom-zasticeno -a classroom -w 'NOVA'` pa ponovo pokreni skriptu.

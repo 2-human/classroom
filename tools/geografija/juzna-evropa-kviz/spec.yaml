@@ -49,6 +49,39 @@ karta:
     beograd: {naziv: Beograd, lat: 44.82, lon: 20.46, radius_km: 80}
     barselona: {naziv: Barselona, lat: 41.39, lon: 2.17, radius_km: 90}
 
+# Baza znanja za test: činjenice iz lekcije (tabela 17 država, str. 17). Iz nje se svaki test
+# generišu novi zadaci (glavni gradovi, klikni državu, poluostrvo, „Gde sam?” za glavni grad).
+# `more` je nastavak rečenice „Ova država …”. `mini: true` = premala za klik na karti.
+baza:
+  drzave:
+    - {iso: PRT, naziv: Portugalija, grad: Lisabon, lat: 38.72, lon: -9.14, poluostrvo: Pirinejsko, more: izlazi na Atlantski okean}
+    - {iso: ESP, naziv: Španija, grad: Madrid, lat: 40.42, lon: -3.70, poluostrvo: Pirinejsko, more: izlazi i na Atlantski okean i na Sredozemno more}
+    - {iso: AND, naziv: Andora, grad: Andora la Velja, lat: 42.51, lon: 1.52, poluostrvo: Pirinejsko, more: nema izlaz na more — u planinama je, mini: true}
+    - {iso: ITA, naziv: Italija, grad: Rim, lat: 41.90, lon: 12.50, poluostrvo: Apeninsko, more: sa tri strane izlazi na Sredozemno more}
+    - {iso: VAT, naziv: Vatikan, grad: Vatikan, lat: 41.90, lon: 12.45, poluostrvo: Apeninsko, more: nema izlaz na more — nalazi se u jednom gradu, mini: true}
+    - {iso: SMR, naziv: San Marino, grad: San Marino, lat: 43.94, lon: 12.45, poluostrvo: Apeninsko, more: nema izlaz na more, mini: true}
+    - {iso: MCO, naziv: Monako, grad: Monako, lat: 43.73, lon: 7.42, poluostrvo: null, more: izlazi na Sredozemno more uz obalu Francuske, mini: true}
+    - {iso: MLT, naziv: Malta, grad: Valeta, lat: 35.90, lon: 14.51, poluostrvo: null, more: je ostrvo u Sredozemnom moru, mini: true}
+    - {iso: SVN, naziv: Slovenija, grad: Ljubljana, lat: 46.06, lon: 14.51, poluostrvo: Balkansko, more: izlazi na Jadransko more kratkom obalom}
+    - {iso: HRV, naziv: Hrvatska, grad: Zagreb, lat: 45.81, lon: 15.98, poluostrvo: Balkansko, more: ima dugu i razuđenu obalu Jadranskog mora}
+    - {iso: BIH, naziv: Bosna i Hercegovina, grad: Sarajevo, lat: 43.86, lon: 18.41, poluostrvo: Balkansko, more: izlazi na Jadransko more samo kod Neuma}
+    - {iso: SRB, naziv: Srbija, grad: Beograd, lat: 44.82, lon: 20.46, poluostrvo: Balkansko, more: nema izlaz na more}
+    - {iso: MNE, naziv: Crna Gora, grad: Podgorica, lat: 42.44, lon: 19.26, poluostrvo: Balkansko, more: izlazi na Jadransko more}
+    - {iso: MKD, naziv: Severna Makedonija, grad: Skoplje, lat: 42.00, lon: 21.43, poluostrvo: Balkansko, more: nema izlaz na more}
+    - {iso: ALB, naziv: Albanija, grad: Tirana, lat: 41.33, lon: 19.82, poluostrvo: Balkansko, more: izlazi na Jadransko i Jonsko more}
+    - {iso: GRC, naziv: Grčka, grad: Atina, lat: 37.98, lon: 23.73, poluostrvo: Balkansko, more: izlazi na Egejsko, Jonsko i Sredozemno more}
+    - {iso: BGR, naziv: Bugarska, grad: Sofija, lat: 42.70, lon: 23.32, poluostrvo: Balkansko, more: izlazi na Crno more}
+
+# Test: svaki put nov — po `iz_dela` nasumičnih zadataka iz svakog dela + generisani iz baze.
+test:
+  iz_dela: 2
+  generisano: {glavni_gradovi: 1, karta_drzava: 2, poluostrvo: 1, gde_glavni_grad: 1}
+  iz_udzbenika:
+    strana: 17
+    odeljak: Zadatak — tabela 17 država
+    tekst: U tabeli se za svaku od 17 država Južne Evrope upisuju glavni grad i poluostrvo na kome leži, a države se rednim brojevima označavaju na nemoj političkoj karti. Dve države nisu ni na jednom od tri poluostrva.
+    slika: 02-juzna-evropa/10-politicka-karta-juzne-evrope.jpg
+
 pojmovi:
   juzna-evropa: Južna Evropa
   balkansko-poluostrvo: Balkansko poluostrvo
