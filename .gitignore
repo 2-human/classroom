@@ -29,3 +29,8 @@ Geografija-Evropa-Kviz/
 crop_*.png
 preview_*.png
 _check.js
+
+# Per-tool _source/ folder — privatni materijali (skenirani udžbenici, lične beleške,
+# scratch fajlovi) koji se ne smeju deliti. Lokalna referenca samo.
+tools/*/*/_source/
+tools/*/_source/
