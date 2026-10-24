@@ -36,6 +36,7 @@ import yaml
 
 from projection import make_projection
 from geojson_utils import load_geojson, iter_polygon_rings
+from hub_shell import SHELL_CSS, SHELL_JS, brand_and_crumbs
 
 
 # ---------------------------------------------------------------------------
@@ -160,6 +161,17 @@ def _ui_default():
         "m_next": "Sledeći pojam ›",
         "m_next_desc": "Dalje na opis ›",
         "m_next_q": "Dalje na pitanja ›",
+        "filter_placeholder": "Nađi pojam",
+        "tab_map": "Karta",
+        "tab_results": "Rezultati",
+        "res_summary": "Locirano {lok} od {lokUk} (iz prve: {prve}) · pitanja tačno {pit} od {pitUk}, pogrešno {pog} · bonus {bon} od {bonUk}",
+        "res_term": "Pojam",
+        "res_kind": "Vrsta",
+        "res_located": "Lokacija",
+        "res_loc_miss": "Greške",
+        "res_questions": "Pitanja",
+        "res_bonus": "Bonus",
+        "res_revealed": "otkriveno",
     }
 
 
@@ -180,15 +192,20 @@ _HTML_TPL = r"""<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>__TITLE__</title>
 <style>
+__SHELL_CSS__
  :root{--sea:__SEA__;--land:__LAND__;--bord:__BORD__;--edge:__EDGE__;--mtn-col:__MTN_COL__;--riv-col:__RIV_COL__;--ink:#2b2b2b;}
  *{box-sizing:border-box}
  body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:#faf8f2}
- header{padding:14px 18px;background:#fff;border-bottom:1px solid #e6e0d2;position:sticky;top:0;z-index:50}
  h1{margin:0 0 4px;font-size:19px;color:#3a3528}
  .sub{font-size:13px;color:#6b6456;margin:0;max-width:900px}
  body:not(.drag-mode) .sub-drag{display:none}
  body.drag-mode .sub-number{display:none}
- .bar{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:10px;font-size:14px}
+ .bar{display:flex;gap:10px 12px;flex-wrap:wrap;align-items:center;font-size:14px}
+ /* ⋯ menu: the settings that used to fill the header row */
+ .bar-menu-btn{padding:5px 12px;font-size:16px;line-height:1;border-color:#6b6456;color:#3a3528}
+ .bar-menu-btn:hover{background:#f3ecd8;color:#3a3528}
+ .bar-menu button{width:100%;text-align:left}
+ .bar-menu .mode-selector{justify-content:space-between;padding:4px 2px}
  .stat{background:#f3ecd8;border:1px solid #e1d8c2;border-radius:8px;padding:6px 12px}
  .stat b{font-size:16px}
  .ok{color:#1f7a3a} .bad{color:#b1271f}
@@ -198,41 +215,36 @@ _HTML_TPL = r"""<!DOCTYPE html>
  button.secondary:hover{background:#1f7a3a;color:#fff}
  .mode-selector{display:inline-flex;gap:6px;align-items:center;font-size:13px;color:#3a3528}
  .mode-selector select{font:inherit;padding:4px 8px;border:1px solid #6b6456;border-radius:6px;background:#fff;color:#3a3528;cursor:pointer}
- .resume-banner{display:none;margin:14px 4px 0;background:#fffbe6;border:1px solid #f0d878;border-radius:8px;padding:6px 12px;font-size:13px;color:#7a5a00}
+ .resume-banner{display:none;margin:0 0 8px;background:#fffbe6;border:1px solid #f0d878;border-radius:8px;padding:6px 10px;font-size:12.5px;color:#7a5a00}
  .resume-banner.show{display:block}
- .layout{display:flex;align-items:flex-start;gap:0;width:100%}
- .qcol{flex:0 0 260px;width:260px;padding:12px 14px;border-right:1px solid #e6e0d2;background:#fff;position:sticky;top:var(--htop,0px);max-height:calc(100vh - var(--htop,0px));overflow:auto}
- .qcol h2{font-size:14px;color:#3a3528;margin:0 0 8px}
- .mapcol{flex:1 1 auto;min-width:0;padding:0}
- /* Info side panel (third column) — opens when a term is solved or its marker clicked */
- .panelcol{flex:0 0 440px;width:440px;padding:14px 16px;border-left:1px solid #e6e0d2;background:#fff;position:sticky;top:var(--htop,0px);max-height:calc(100vh - var(--htop,0px));overflow:auto}
- /* Panel column is ALWAYS present (reserves space right of the map). When idle,
-    only its header/footer hide; the body shows a placeholder. */
- .layout:not(.panel-open) .panelhead, .layout:not(.panel-open) .panelfoot{display:none}
- .panelhead{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:8px;border-bottom:1px solid #eee;padding-bottom:8px}
- .panelhead h2{margin:0;font-size:16px;color:#3a3528}
- .panelhead .vrsta{display:inline-block;margin-top:4px;font-size:11.5px;color:#6b6456;background:#f3ecd8;border:1px solid #e1d8c2;border-radius:10px;padding:1px 8px;text-transform:capitalize}
- .panel-x{border:none;background:transparent;color:#6b6456;font-size:22px;line-height:1;padding:0 4px;cursor:pointer}
- .panel-x:hover{background:transparent;color:#b1271f}
+ /* Three panels (hub_shell): .qcol = navigation (term list), .mapcol = main (map / results),
+    .panelcol = drawer (description in Učenje, questions in Test; opens on demand) */
+ .qcol{padding:10px 12px 40px}
+ .mapcol{padding:0}
+ .drawer-head > div{flex:1 1 auto;min-width:0}
+ .drawer-head .vrsta{display:inline-block;margin-top:4px;font-size:11.5px;color:#6b6456;background:#f3ecd8;border:1px solid #e1d8c2;border-radius:10px;padding:1px 8px;text-transform:capitalize}
  .panelbody{font-size:13px;line-height:1.55;color:#2b2b2b}
  .panelbody h4{font-size:12.5px;color:#3a3528;margin:12px 0 4px}
  .panelbody p{margin:0 0 8px} .panelbody ul{margin:0 0 8px;padding-left:18px} .panelbody li{margin:2px 0}
  .panelbody ol.hints{margin:4px 0 8px;padding-left:20px} .panelbody ol.hints li{margin:6px 0;line-height:1.5}
  .panelbody .placeholder{color:#9b9387;font-style:italic}
- .panelfoot{margin-top:12px;border-top:1px solid #eee;padding-top:8px;font-size:11px;color:#6b6456}
+ .panelfoot{font-size:11px;color:#6b6456}
  .panelfoot a{color:#6b6456}
- /* Title + description live in a dismissible modal; "Opis" button reopens it */
- .desc-btn{font-size:13px;padding:5px 12px}
- .desc-modal{position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;padding:20px}
- .desc-modal[hidden]{display:none}
- .desc-modal-box{background:#fff;max-width:640px;width:100%;border-radius:12px;padding:24px 26px 20px;box-shadow:0 10px 40px rgba(0,0,0,.32);position:relative}
- .desc-modal-box h1{margin:0 0 12px;font-size:21px;color:#3a3528}
- .desc-modal-box .sub{font-size:14px;color:#4a4434;line-height:1.6;margin:0;max-width:none}
- .desc-modal-x{position:absolute;top:10px;right:12px;border:none;background:transparent;font-size:26px;line-height:1;color:#6b6456;cursor:pointer;padding:0 4px}
- .desc-modal-x:hover{background:transparent;color:#b1271f}
+ /* "Kako se igra" — the title/description, shown in the drawer (first visit + "Opis" in the ⋯ menu) */
+ .intro p{font-size:14px;color:#4a4434;line-height:1.6;margin:0}
  .desc-ok{margin-top:18px}
- /* Performance analysis section below the map (test mode) */
- .analysis{margin:14px 4px 28px;padding:14px 16px;border:1px solid #e1d8c2;border-radius:10px;background:#fff}
+ /* Main tabs (Test): Karta · Rezultati */
+ body:not(.test-mode) #mainTabs, body.mobile #mainTabs{display:none}
+ .results{padding:18px 22px 40px;max-width:1100px}
+ .results h2{font-size:16px;color:#3a3528;margin:0 0 6px}
+ .results .lead{color:#6b6456;font-size:13px;margin:0 0 12px}
+ .results .scroll{overflow-x:auto}
+ .results .res-actions{margin:12px 0 4px}
+ .res-q{letter-spacing:2px;white-space:nowrap}
+ /* AI analysis is for teachers: shown only when the page is opened with ?nastavnik */
+ body:not(.teacher) .teacher-only{display:none!important}
+ /* Performance analysis (test mode, Rezultati tab) */
+ .analysis{margin:18px 0 0;padding:14px 16px;border:1px solid #e1d8c2;border-radius:10px;background:#fff}
  body:not(.test-mode) .analysis{display:none}
  .analysis-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:10px}
  .analysis-head h2{margin:0;font-size:16px;color:#3a3528;flex:1}
@@ -376,25 +388,25 @@ _HTML_TPL = r"""<!DOCTYPE html>
  body.bw #msg { background: #1a1a1a !important }
 
  @media (max-width:760px){
-   .layout{flex-direction:column}
-   .qcol{flex:none;width:auto;position:static;max-height:none;border-right:none;border-bottom:1px solid #e6e0d2}
-   .qcol ol.terms{columns:2;column-gap:22px}
-   .panelcol{flex:none;width:auto;position:static;max-height:none;border-left:none;border-top:1px solid #e6e0d2}
-   h1{font-size:17px}
    .ans{width:32px;height:32px;font-size:14px}
  }
  /* ===== MOBILE (class set by JS via matchMedia) — screen-at-a-time flow ===== */
+ /* The three panels become the three screens: list (nav) → map (main) → result (drawer). */
  .m-only{display:none}
  body.mobile .m-only{display:flex}
  body.mobile .layout{display:block}
  body.mobile .qcol,body.mobile .mapcol,body.mobile .panelcol{
-   position:fixed;left:0;right:0;top:var(--htop,52px);bottom:0;width:auto;max-height:none;
-   border:none;overflow:auto;background:#faf8f2;z-index:30}
+   position:fixed;left:0;right:0;top:var(--htop,52px);bottom:0;width:auto;max-width:none;max-height:none;
+   border:none;overflow:auto;background:#faf8f2;z-index:30;transform:none;transition:none;box-shadow:none}
+ body.mobile .brand,body.mobile .app-crumbs,body.mobile .bar-menu-wrap{display:none}
+ /* intro over any screen; bottom bars hidden meanwhile */
+ body.mobile.m-intro .panelcol{display:block!important;z-index:80}
+ body.mobile.m-intro .m-bottombar{display:none!important}
  body.mobile .qcol{padding:10px 14px}
  body.mobile .qcol ol.terms{columns:1;font-size:15px;line-height:1.7}
  body.mobile ol.terms li{padding:9px 8px;border-bottom:1px solid #eee}
  body.mobile .mapcol{padding:0}
- body.mobile .panelcol{padding:14px 16px 84px;border-top:none}
+ body.mobile .panelcol{padding:0 0 84px;border-top:none}
  body.mobile:not(.m-list) .qcol{display:none}
  body.mobile:not(.m-map) .mapcol{display:none}
  body.mobile:not(.m-result) .panelcol{display:none}
@@ -411,14 +423,13 @@ _HTML_TPL = r"""<!DOCTYPE html>
  body.mobile .panelhead .panel-x{display:none}                                 /* nav handles closing */
  /* compact top bar */
  body.mobile header{padding:8px 12px}
- body.mobile .bar{gap:6px 8px;align-items:center}
+ body.mobile .bar{gap:6px 8px;align-items:center;flex:1 1 auto;justify-content:flex-start;margin-left:0}
  body.mobile #statCorrect,body.mobile #statMiss,body.mobile #statAnswers,body.mobile #bonusStat{font-size:11px;padding:3px 7px}
  /* stats grouping: own row under the header in mobile portrait test; inline in landscape */
  .stats-group{display:inline-flex;gap:8px;align-items:center;flex-wrap:wrap}
  body:not(.test-mode) .stats-group{display:none}
  body.mobile.test-mode .stats-group{display:flex;flex-basis:100%;gap:6px;order:9}
  @media (orientation:landscape){ body.mobile.test-mode .stats-group{flex-basis:auto;order:0} }
- body.mobile .mode-selector,body.mobile #exportCsv,body.mobile #descBtn,body.mobile #reset,body.mobile #bordersBtn{display:none}
  #mobileBack,#mobileMenuBtn{display:none;align-items:center;justify-content:center;font-size:20px;line-height:1;padding:5px 10px;min-width:auto}
  body.mobile #mobileMenuBtn{display:inline-flex}
  /* Back-to-list is only an option BEFORE the term is placed (slot kept to avoid shift). */
@@ -467,11 +478,11 @@ _HTML_TPL = r"""<!DOCTYPE html>
  }
 </style>
 </head>
-<body>
-<header>
- <div class="bar">
-  <button id="mobileBack" type="button" aria-label="Nazad">&lsaquo;</button>
-  <button id="descBtn" class="desc-btn">__BTN_DESC__</button>
+<body class="app-body">
+<header class="app-bar">
+ <button id="mobileBack" type="button" aria-label="Nazad">&lsaquo;</button>
+ __BRAND_CRUMBS__
+ <div class="bar bar-right">
   <span class="mode-switch">__MODE_SWITCH_LABEL__:
    <button type="button" id="modeLearn" class="ms-btn active">__MODE_LEARN__</button><button type="button" id="modeTest" class="ms-btn">__MODE_TEST__</button>
   </span>
@@ -482,18 +493,23 @@ _HTML_TPL = r"""<!DOCTYPE html>
   <span class="stat" id="statMiss">__LBL_MISS__: <b class="bad" id="cMiss">0</b></span>
   <span class="stat bonus-stat" id="bonusStat" style="display:none">__LBL_BONUS__: <b class="ok" id="cBonus">0</b> / <b id="cBonusTotal">0</b></span>
   </span>
-  <button id="reset">__BTN_RESET__</button>
-  <button id="bordersBtn" class="secondary" title="__BTN_BORDERS_LOCKED_TITLE__">__BTN_BORDERS_ON__</button>
-  <button id="exportCsv" class="secondary" style="display:none">__BTN_CSV__</button>
-  <label class="mode-selector">__MODE_LABEL__:
-   <select id="mode">
-    <option value="all">__MODE_ALL__</option>
-    <option value="20">__MODE_20__</option>
-    <option value="10">__MODE_10__</option>
-    <option value="5">__MODE_5__</option>
-   </select>
-  </label>
   <span class="stat win" id="win" style="display:none"></span>
+  <span class="bar-menu-wrap">
+   <button type="button" class="bar-menu-btn" data-menu="barMenu" aria-label="Podešavanja" aria-expanded="false">&#8943;</button>
+   <div class="bar-menu" id="barMenu">
+    <button id="descBtn" class="desc-btn">__BTN_DESC__</button>
+    <button id="reset">__BTN_RESET__</button>
+    <button id="bordersBtn" class="secondary" title="__BTN_BORDERS_LOCKED_TITLE__">__BTN_BORDERS_ON__</button>
+    <label class="mode-selector">__MODE_LABEL__:
+     <select id="mode">
+      <option value="all">__MODE_ALL__</option>
+      <option value="20">__MODE_20__</option>
+      <option value="10">__MODE_10__</option>
+      <option value="5">__MODE_5__</option>
+     </select>
+    </label>
+   </div>
+  </span>
  </div>
 </header>
 <div id="mobileMenu">
@@ -512,21 +528,19 @@ _HTML_TPL = r"""<!DOCTYPE html>
 <div id="mobileMapBar" class="m-bottombar"><button id="mPotvrdi" type="button" class="secondary" disabled>__M_CONFIRM__</button></div>
 <div id="mobileResultBar" class="m-bottombar"><button id="mNext" type="button" class="secondary">__M_NEXT__</button></div>
 <div id="mobileHint"></div>
-<div id="descModal" class="desc-modal" hidden>
- <div class="desc-modal-box">
-  <button class="desc-modal-x" id="descClose" aria-label="__PANEL_CLOSE__">&times;</button>
-  <h1>__HDR_TITLE__</h1>
-  <p class="sub">__HDR_SUB_DRAG__</p>
-  <button id="descOk" class="desc-ok">__BTN_DESC_OK__</button>
- </div>
-</div>
-<div class="layout">
- <aside class="qcol">
-  <h2>__LIST_HEADING__</h2>
+<template id="introTpl"><div class="intro"><p>__HDR_SUB_DRAG__</p><button type="button" class="desc-ok" data-intro-ok>__BTN_DESC_OK__</button></div></template>
+<div class="app-grid layout">
+ <nav class="app-nav qcol" id="app-nav" aria-label="__LIST_HEADING__">
+  <div id="resumeBanner" class="resume-banner">__RESUME_MSG__</div>
+  <input class="app-filter" id="app-filter" type="search" placeholder="__FILTER_PH__" aria-label="__FILTER_PH__">
+  <div class="sec">__LIST_HEADING__ <span class="cnt" id="navCount"></span></div>
   <ol class="terms">__LEG__</ol>
   <p class="keyline"><span class="m">__LEG_MOUNTAINS__</span><br><span class="r">__LEG_RIVERS__</span><br>__LEG_CIRCLES__</p>
- </aside>
- <main class="mapcol">
+ </nav>
+ <main class="app-main mapcol">
+  <nav class="mtabs" id="mainTabs" aria-label="__TAB_MAP__ / __TAB_RESULTS__">
+   <a href="#karta" data-tab="map" aria-current="page">__TAB_MAP__</a><a href="#rezultati" data-tab="results">__TAB_RESULTS__</a>
+  </nav>
   <div id="stageWrap">
    <div id="mTermLabel"></div>
    <div class="zoombar">
@@ -548,8 +562,12 @@ _HTML_TPL = r"""<!DOCTYPE html>
    </div>
    <div id="overlay">__BOXES__</div>
   </div>
-  <div id="resumeBanner" class="resume-banner">__RESUME_MSG__</div>
-  <section id="analysis" class="analysis">
+  <div id="tabResults" class="results" hidden>
+   <h2>__TAB_RESULTS__</h2>
+   <p class="lead" id="resSummary"></p>
+   <div class="scroll"><table class="tbl" id="resTable"></table></div>
+   <div class="res-actions"><button id="exportCsv" class="secondary" style="display:none">__BTN_CSV__</button></div>
+  <section id="analysis" class="analysis teacher-only">
    <div class="analysis-head">
     <h2>__ANALYSIS_TITLE__</h2>
     <button id="analysisRun" class="secondary">__ANALYSIS_RUN__</button>
@@ -564,17 +582,19 @@ _HTML_TPL = r"""<!DOCTYPE html>
    <div id="analysisBody" class="analysis-body"><p class="placeholder">__ANALYSIS_IDLE__</p></div>
    <p class="analysis-note">__ANALYSIS_NOTE__</p>
   </section>
- </main>
- <aside class="panelcol" id="panelcol" aria-hidden="true">
-  <div class="panelhead">
-   <div><h2 id="panelTitle"></h2><span class="vrsta" id="panelVrsta" style="display:none"></span></div>
-   <button class="panel-x" id="panelClose" title="__PANEL_CLOSE__" aria-label="__PANEL_CLOSE__">&times;</button>
   </div>
-  <div class="panelbody" id="panelBody"></div>
-  <div class="panelfoot" id="panelFoot" style="display:none"></div>
+ </main>
+ <aside class="app-drawer panelcol" id="panelcol" aria-hidden="true">
+  <div class="drawer-head panelhead">
+   <div><h2 id="panelTitle"></h2><span class="vrsta" id="panelVrsta" style="display:none"></span></div>
+   <button class="drawer-close panel-x" id="panelClose" title="__PANEL_CLOSE__" aria-label="__PANEL_CLOSE__">&times;</button>
+  </div>
+  <div class="drawer-body panelbody" id="panelBody"></div>
+  <div class="drawer-foot panelfoot" id="panelFoot" style="display:none"></div>
  </aside>
 </div>
 <div id="msg"></div>
+<script>__SHELL_JS__</script>
 <script>
 const ALL_TERMS = __TERMS_JSON__;
 const STATE_KEY = 'classroom:' + window.location.pathname;
@@ -601,6 +621,8 @@ const exportBtn = document.getElementById('exportCsv');
 const modeSelect = document.getElementById('mode');
 const resumeBanner = document.getElementById('resumeBanner');
 const layoutEl = document.querySelector('.layout');
+const navCount = document.getElementById('navCount');
+const tabResults = document.getElementById('tabResults');
 const panelTitle = document.getElementById('panelTitle');
 const panelVrsta = document.getElementById('panelVrsta');
 const panelBody = document.getElementById('panelBody');
@@ -717,6 +739,8 @@ function recountCorrectMiss() {
   cCorrect.textContent = correct;
   cTotal.textContent = ids.length;
   cMiss.textContent = miss;
+  navCount.textContent = correct + ' / ' + ids.length;
+  if (!tabResults.hidden) renderResults();
   if (correct === ids.length && ids.length > 0) {
     showWin(correct, miss);
   } else {
@@ -760,7 +784,9 @@ function panelSetFoot(d) {
 }
 function panelOpenEl() {
   layoutEl.classList.add('panel-open');
-  document.getElementById('panelcol').setAttribute('aria-hidden', 'false');
+  const pc = document.getElementById('panelcol');
+  pc.classList.add('open');
+  pc.setAttribute('aria-hidden', 'false');
 }
 
 // Render the panel according to the term's current state:
@@ -822,12 +848,15 @@ function maybeHintPanel(canonId) {
 
 function closePanel() {
   layoutEl.classList.remove('panel-open');
-  document.getElementById('panelcol').setAttribute('aria-hidden', 'true');
+  const pc = document.getElementById('panelcol');
+  pc.classList.remove('open');
+  pc.setAttribute('aria-hidden', 'true');
+  document.body.classList.remove('m-intro');
   panelFoot.style.display = 'none';
   panelBody.innerHTML = '<p class="placeholder">' + PANEL_IDLE + '</p>';
 }
 
-panelClose.addEventListener('click', closePanel);
+panelClose.addEventListener('click', () => { if (panelBody.querySelector('.intro')) hideDescModal(); else closePanel(); });
 
 // Click any marker on the map to open its panel (full text if solved, else hints).
 document.getElementById('overlay').addEventListener('click', e => {
@@ -1132,6 +1161,7 @@ function setTestMode(on, opts) {
   modeTest.classList.toggle('active', on);
   modeLearn.classList.toggle('active', !on);
   closePanel();
+  if (!on && !tabResults.hidden) showMainTab('map');
   if (!opts.restore) {
     // Switching modes resets the board (different scoring model).
     quizProgress.clear();
@@ -1680,6 +1710,7 @@ function apply() {
   }
 }
 function fit() { computeFit(); if (!MOBILE()) wrap.style.height = (baseFit * MH) + 'px'; apply(); }
+if (window.ResizeObserver) new ResizeObserver(() => { if (!MOBILE() && wrap.clientWidth) fit(); }).observe(document.querySelector('.mapcol'));
 function zoomAt(cx, cy, factor) {
   const nz = Math.min(ZMAX, Math.max(ZMIN, zoom * factor));
   if (nz === zoom) return;
@@ -1864,8 +1895,8 @@ const DEMO_STEPS = [
   { l: 'Pitanje 3', t: 'Treće pitanje odgovaram tačno. Sva tri su odgovorena — otključava se <b>bonus</b>.', a: () => demoAnswerQuestion(2, true), at: 'panel' },
   { l: 'Bonus', t: 'Za bonus treba pregledati <b>sve izvore</b> iz kojih je nastao opis. Odgovaram tačno.', a: demoBonus, at: 'panel' },
   // --- alati posle kviza ---
-  { l: 'Analiza', t: 'Ispod mape je <b>Analiza znanja</b>: nastavnik unese svoj Claude API ključ i dobije kratak osvrt — gde je učenik dobar, a gde treba da vežba. Ključ ostaje samo u pregledaču, nikad u kodu.', a: null, at: 'analysis' },
-  { l: 'Rezultati', t: 'Po završetku se pojavi dugme <b>Preuzmi rezultate (CSV)</b>. A <b>Počni ispočetka</b> briše sve i kreće iz početka.', a: null, at: 'reset' },
+  { l: 'Rezultati', t: 'U testu kartica <b>Rezultati</b> pokazuje, za svaki pojam, lociranje, greške i odgovore na pitanja. Po završetku tu je i dugme <b>Preuzmi rezultate (CSV)</b>.', a: null, at: 'analysis' },
+  { l: 'Ispočetka', t: 'U meniju <b>⋯</b> je <b>Počni ispočetka</b> — briše sve i kreće iz početka.', a: null, at: 'reset' },
   { l: 'Kraj', t: 'To je ceo tok — podešavanja, učenje, test, bonus i analiza. Srbija sada nestaje sa spiska. Srećno!', a: null, at: 'mode' },
 ];
 
@@ -1873,6 +1904,8 @@ function demoPositionBubble(at) {
   // The bubble has a fixed size/position via CSS (bottom-left, over the legend),
   // so the "Dalje" button stays in the exact same spot on every step.
   // Here we only move the animated pointer to the relevant control.
+  // Borders, question count, Opis and reset live in the ⋯ menu: open it for those steps.
+  HubShell.setMenu(document.getElementById('barMenu'), ['borders', 'modesel', 'desc', 'reset'].includes(at));
   if (at === 'mode') {
     demoCursorToEl(modeTest);
   } else if (at === 'panel') {
@@ -1893,8 +1926,7 @@ function demoPositionBubble(at) {
   } else if (at === 'reset') {
     demoCursorToEl(resetBtn);
   } else if (at === 'analysis') {
-    const el = document.getElementById('analysis');
-    if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); setTimeout(() => demoCursorToEl(el), 350); }
+    demoCursorToEl(document.querySelector('#mainTabs [data-tab="results"]'));
   }
 }
 
@@ -1947,6 +1979,7 @@ function startDemo() {
   demoCursorEl.textContent = '👆';
   demoBubbleEl = document.createElement('div');
   demoBubbleEl.id = 'demoBubble';
+  demoBubbleEl.dataset.keepMenus = '1';   // "Dalje" must not close the ⋯ menu the step just opened
   document.body.appendChild(demoCursorEl);
   document.body.appendChild(demoBubbleEl);
   const li = legendItems.get(DEMO_TERM.id);
@@ -2098,6 +2131,7 @@ async function runAnalysis() {
 
 function maybeAutoAnalyze() {
   if (MOBILE()) return;   // mobile analysis is phase 2
+  if (!TEACHER) return;     // the API-key analysis is a teacher tool (?nastavnik)
   if (!isTestMode() || analysisDone || analysisRunning) return;
   const f = buildAnalysisData().faza;
   const complete = f.lokUkupno > 0 && f.lokPostavljeno === f.lokUkupno &&
@@ -2125,19 +2159,90 @@ analysisKeyClear.addEventListener('click', () => {
   analysisKey.value = '';
 });
 
-// --- title/description modal ---
-const descModal = document.getElementById('descModal');
+// --- main tabs (Test): Karta · Rezultati ---
+const RES_LBL = __RES_LBL__;
+const TEACHER = /(^|[?&#])nastavnik\b/.test(window.location.search + '#' + window.location.hash.slice(1));
+document.body.classList.toggle('teacher', TEACHER);
+const mainTabs = document.getElementById('mainTabs');
+function showMainTab(tab) {
+  const results = tab === 'results';
+  for (const a of mainTabs.querySelectorAll('a')) {
+    if (a.dataset.tab === tab) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+  }
+  tabResults.hidden = !results;
+  wrap.hidden = results;
+  if (results) renderResults(); else fit();
+}
+mainTabs.addEventListener('click', e => {
+  const a = e.target.closest('a[data-tab]');
+  if (!a) return;
+  e.preventDefault();
+  showMainTab(a.dataset.tab);
+});
+function resMark(status) {
+  return status === 'tacno' ? '<span class="qm-ok">●</span>'
+       : status === 'pogresno' ? '<span class="qm-bad">●</span>' : '<span class="qm-todo">○</span>';
+}
+// One row per counted term, from the same data the AI analysis uses; a row opens the term in the drawer.
+function renderResults() {
+  const d = buildAnalysisData(), f = d.faza;
+  document.getElementById('resSummary').textContent = RES_LBL.summary
+    .replace('{lok}', f.lokPostavljeno).replace('{lokUk}', f.lokUkupno).replace('{prve}', f.lokIzPrve)
+    .replace('{pit}', f.pitTacno).replace('{pitUk}', f.pitUkupno).replace('{pog}', f.pitPogresno)
+    .replace('{bon}', f.bonusTacno).replace('{bonUk}', f.bonusUkupno);
+  const rows = d.pojmovi.map(t => {
+    const term = ALL_TERMS.find(x => x.name === t.naziv);
+    const lok = t.otkriven ? '<span class="qm-bad">' + RES_LBL.revealed + '</span>'
+              : t.lociran ? '<span class="qm-ok">✓</span>' : '<span class="qm-todo">—</span>';
+    const open = t.lociran && term ? ' class="clk" data-id="' + term.id + '"' : '';   // questions only after placing
+    return '<tr' + open + '><td>' + esc(t.naziv) + '</td><td>' + esc(t.vrsta) + '</td>' +
+      '<td>' + lok + '</td><td class="num">' + t.greske_lociranja + '</td>' +
+      '<td class="res-q">' + t.pitanja.map(q => resMark(q.status)).join('') + '</td>' +
+      '<td class="res-q">' + (t.bonus ? resMark(t.bonus) : '') + '</td></tr>';
+  }).join('');
+  document.getElementById('resTable').innerHTML =
+    '<thead><tr><th>' + RES_LBL.term + '</th><th>' + RES_LBL.kind + '</th><th>' + RES_LBL.located +
+    '</th><th class="num">' + RES_LBL.locMiss + '</th><th>' + RES_LBL.questions + '</th><th>' + RES_LBL.bonus +
+    '</th></tr></thead><tbody>' + rows + '</tbody>';
+}
+document.getElementById('resTable').addEventListener('click', e => {
+  const tr = e.target.closest('tr[data-id]');
+  if (tr && tr.dataset.id) showPanelFor(parseInt(tr.dataset.id, 10));
+});
+
+// --- title/description ("Kako se igra") — shown in the drawer, over whatever it held ---
 const descBtn = document.getElementById('descBtn');
 const DESC_KEY = 'classroom-desc:' + window.location.pathname;
-function showDescModal() { descModal.hidden = false; }
+const INTRO_TITLE = __INTRO_TITLE__;
+let introPrev = null;   // what the drawer showed before the intro, restored when it closes
+function showDescModal() {
+  if (!panelBody.querySelector('.intro')) {
+    introPrev = { open: layoutEl.classList.contains('panel-open'), title: panelTitle.textContent,
+                  body: panelBody.innerHTML, foot: panelFoot.innerHTML, footShown: panelFoot.style.display,
+                  vrsta: panelVrsta.style.display };
+  }
+  panelTitle.textContent = INTRO_TITLE;
+  panelVrsta.style.display = 'none';
+  panelBody.innerHTML = document.getElementById('introTpl').innerHTML;
+  panelFoot.style.display = 'none';
+  document.body.classList.add('m-intro');
+  panelOpenEl();
+}
 function hideDescModal() {
-  descModal.hidden = true;
   try { localStorage.setItem(DESC_KEY, '1'); } catch (e) {}
+  if (!panelBody.querySelector('.intro')) return;
+  const prev = introPrev; introPrev = null;
+  if (prev && prev.open) {
+    document.body.classList.remove('m-intro');
+    panelTitle.textContent = prev.title; panelBody.innerHTML = prev.body;
+    panelFoot.innerHTML = prev.foot; panelFoot.style.display = prev.footShown;
+    panelVrsta.style.display = prev.vrsta;
+  } else {
+    closePanel();
+  }
 }
 descBtn.addEventListener('click', showDescModal);
-document.getElementById('descClose').addEventListener('click', hideDescModal);
-document.getElementById('descOk').addEventListener('click', hideDescModal);
-descModal.addEventListener('click', e => { if (e.target === descModal) hideDescModal(); });
+panelBody.addEventListener('click', e => { if (e.target.closest('[data-intro-ok]')) hideDescModal(); });
 
 // --- mobile mode (screen-at-a-time flow: list -> map -> result) ---
 function MOBILE() { return document.body.classList.contains('mobile'); }
@@ -2669,9 +2774,9 @@ def render_html(spec, output_path, map_width_px=1160.0):
 
     def _leg_row(t):
         if t.get("demo"):
-            return (f'<li class="demo-item" data-id="{t["id"]}" data-demo="1">'
+            return (f'<li class="demo-item" data-id="{t["id"]}" data-demo="1" data-filter="{_html.escape(t["name"], quote=True)}">'
                     f'<b>{t["id"]}.</b> {t["name"]} <span class="demo-badge">demo</span></li>')
-        return f'<li data-id="{t["id"]}"><b>{t["id"]}.</b> {t["name"]}</li>'
+        return f'<li data-id="{t["id"]}" data-filter="{_html.escape(t["name"], quote=True)}"><b>{t["id"]}.</b> {t["name"]}</li>'
 
     leg_rows = "".join(_leg_row(t) for t in spec["terms"])
 
@@ -2704,6 +2809,18 @@ def render_html(spec, output_path, map_width_px=1160.0):
 
     n_quiz = len([t for t in spec["terms"] if not t.get("demo")])
     repl = {
+        "__SHELL_CSS__": SHELL_CSS,
+        "__SHELL_JS__": SHELL_JS,
+        "__BRAND_CRUMBS__": brand_and_crumbs(output_path, spec.get("title_short") or ui["header_title"]),
+        "__FILTER_PH__": _html.escape(ui["filter_placeholder"], quote=True),
+        "__TAB_MAP__": _html.escape(ui["tab_map"]),
+        "__TAB_RESULTS__": _html.escape(ui["tab_results"]),
+        "__INTRO_TITLE__": _json.dumps(ui["header_title"]),
+        "__RES_LBL__": _json.dumps({
+            "summary": ui["res_summary"], "term": ui["res_term"], "kind": ui["res_kind"],
+            "located": ui["res_located"], "locMiss": ui["res_loc_miss"], "questions": ui["res_questions"],
+            "bonus": ui["res_bonus"], "revealed": ui["res_revealed"],
+        }, ensure_ascii=False),
         "__LOCALE__": spec.get("locale", "en"),
         "__TITLE__": ui.get("header_title", spec.get("title", "Quiz")),
         "__SEA__": colors["sea"], "__LAND__": colors["land"],

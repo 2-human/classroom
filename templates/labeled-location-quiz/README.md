@@ -53,8 +53,10 @@ Prva instanca ovog šablona: `tools/geografija/evropa-kviz/`.
 Render logika u `classroom/shared/python/labeled_location_quiz.py` produkuje HTML kviz sa sledećim feature-ima — sve aktivno bez ikakve konfiguracije u spec.yaml:
 
 - **localStorage persistencija** — učenik može slučajno da osveži stranicu; svi odgovori i greške se sačuvaju i vrate sa žutim banerom "Nastavak prethodne sesije". Dugme "Počni ispočetka" briše sačuvano stanje.
-- **Mod selektor** — header ima "Pitanja: Sve (N) / 20 nasumičnih / 10 nasumičnih / 5 nasumičnih". Default je "Sve". Promena moda nasumično bira podskup termina (algoritam: Fisher-Yates). Opcije sa N >= ukupnog broja termina se sakrivaju (npr. ako kviz ima 8 termina, opcija "10 nasumičnih" se ne prikazuje).
-- **CSV export** — dugme "Preuzmi rezultate (CSV)" se pojavi po završetku; CSV format: `id, name, correct, miss_count`.
+- **Hub raspored** — zajednička školjka `shared/python/hub_shell.py` (tri panela: spisak pojmova · karta · fioka sa opisom/pitanjima, meni ⋯, putanja do kataloga). Na telefonu ista tri panela postaju tri ekrana (spisak → karta → rezultat).
+- **Mod selektor** — meni ⋯ ima "Pitanja: Sve (N) / 20 nasumičnih / 10 nasumičnih / 5 nasumičnih". Default je "Sve". Promena moda nasumično bira podskup termina (algoritam: Fisher-Yates). Opcije sa N >= ukupnog broja termina se sakrivaju (npr. ako kviz ima 8 termina, opcija "10 nasumičnih" se ne prikazuje).
+- **Rezultati + AI analiza** — u Test modu kartica "Rezultati" sa tabelom po pojmu; AI analiza samo uz `?nastavnik` u adresi.
+- **CSV export** — dugme "Preuzmi rezultate (CSV)" se pojavi po završetku (kartica "Rezultati"); CSV format: `id, name, correct, miss_count`.
 - **@media print** — Ctrl+P daje čistu print verziju direktno iz browser-a (bez kontrola, bez zoom-a, bez bojica). PDF generator ostaje opcionalan ako je potreban formalniji output.
 - **Lokalizovani stringovi** — sav vidljiv tekst je u `spec.yaml.ui` sekciji. Za drugi jezik samo prepravi ui ključeve.
 

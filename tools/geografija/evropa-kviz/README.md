@@ -19,10 +19,12 @@
 - Pogrešno → polje crveno, zatrese se, traži ponovan unos. Broj grešaka po polju se prikazuje u uglu.
 - Ukupno tačnih i ukupno grešaka na vrhu.
 - Zumiranje: dugmad +/− gore desno, točkić miša, dvoklik, prevuci za pomeranje. Pinch na tabletu/telefonu.
-- Reset: dugme "Počni ispočetka".
-- **Mod izbora pitanja:** Selektor u headeru ("Pitanja: Sve (42) / 20 nasumičnih / 10 nasumičnih / 5 nasumičnih") dozvoljava kraći kviz sa nasumično odabranim podskupom termina. Default je "Sve (42)", pa se ponašanje ne menja ako nastavnik ništa ne pipa.
+- **Raspored (hub, tri panela):** levo spisak pojmova sa pretragom i brojačem, u sredini karta, desno fioka sa opisom (Učenje) ili pitanjima (Test) koja se otvara po potrebi. Gore putanja `classroom › Geografija › Evropa` vodi nazad na katalog.
+- Reset: "Počni ispočetka" u meniju ⋯.
+- **Mod izbora pitanja:** Selektor u meniju ⋯ ("Pitanja: Sve (42) / 20 nasumičnih / 10 nasumičnih / 5 nasumičnih") dozvoljava kraći kviz sa nasumično odabranim podskupom termina. Default je "Sve (42)", pa se ponašanje ne menja ako nastavnik ništa ne pipa.
 - **Sačuvan progres:** Stanje (uneseni odgovori, broj grešaka, izabrani mod) se automatski čuva u browser-u (localStorage). Ako učenik slučajno osveži stranicu, sve se vrati gde je bilo, sa žutim banerom "Nastavak prethodne sesije". "Počni ispočetka" briše sačuvano stanje.
-- **CSV export:** Po završetku kviza pojavi se dugme "Preuzmi rezultate (CSV)" — preuzme se fajl `rezultati-YYYY-MM-DD.csv` sa kolonama `id, name, correct, miss_count`. Korisno ako nastavnik želi izveštaj po učeniku.
+- **Rezultati (Test):** kartica "Rezultati" iznad karte — tabela po pojmu (lociranje, greške, pitanja, bonus). AI analiza (nastavnikov Claude API ključ) se vidi samo kad se stranica otvori sa `?nastavnik` (ili `#nastavnik`) na kraju adrese.
+- **CSV export:** Po završetku kviza u kartici "Rezultati" pojavi se dugme "Preuzmi rezultate (CSV)" — preuzme se fajl `rezultati-YYYY-MM-DD.csv` sa kolonama `id, name, correct, miss_count`. Korisno ako nastavnik želi izveštaj po učeniku.
 - **Štampa iz browser-a:** Ctrl+P / Cmd+P daje čistu print verziju (bez dugmadi, bez zoom kontrola, statički layout). PDF generator je i dalje dostupan ako je potreban (`radna.pdf` + `resenja.pdf` u istom folderu).
 
 ## Kako se regeneriše
