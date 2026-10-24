@@ -17,12 +17,22 @@ Režimi: **Učenje** (pomoć) · **Test** (bez pomoći, isto bodovanje) · **Isp
 zadaci koji nisu rešeni iz prve, sa pomoći; rezultat testa se ne menja). U Učenju meni ⋯ ima
 „Ponovi otkrivene”.
 
-## Test: svaki put nov, svaki zabeležen
+## Banka, težina i sastav
 
-- **Sastav:** po `test.iz_dela` nasumičnih zadataka iz svakog dela lekcije + zadaci generisani iz
-  `baza.drzave` prema `test.generisano` (`glavni_gradovi` — poveži 4 države i grada, `karta_drzava` —
-  klikni državu, `poluostrvo` — na kom poluostrvu je država, `gde_glavni_grad` — „Gde sam?” za glavni
-  grad). Odgovori se mešaju. Bez `test:` test sadrži sve zadatke.
+- **Banka:** svi zadaci lekcije — u `spec.yaml` (`delovi`) ili, za veliku banku, u posebnom fajlu
+  (`banka: banka.yaml` sa `delovi` i `mesta`). Cilj: iscrpeti lekciju — svaka činjenica, broj, pojam,
+  uzrok/posledica i mesto na karti bar jednom; svaka vrsta zadatka u sve tri težine.
+- **Težina** (`tezina`, obavezno): `lako` — jedna istaknuta činjenica, očigledni pogrešni odgovori;
+  `srednje` — detalji, brojevi, dve činjenice, uverljivi pogrešni odgovori; `tesko` — zaključivanje,
+  poređenje, primena, dopuna bez banke reči, male države i mesta na karti. U listi zadataka oznake
+  **L / S / T**, legenda sa brojem po težini.
+- **Sastav:** i sesija Učenja i svaki test se izvlače nanovo iz banke: `sastav.ucenje` / `sastav.test`
+  zadataka u odnosu `sastav.odnos` (podrazumevano 40/40/20), ravnomerno po delovima lekcije pa po
+  vrstama. Banci se pri svakom izvlačenju pridružuju i zadaci generisani iz `baza.drzave`
+  (`sastav.generisano`; njihova težina dolazi od `tezina` države). „Počni učenje ispočetka” = nova sesija.
+
+## Test: svaki zabeležen
+
 - **Beleženje:** svaki pokušaj (zadaci, svaki odgovor učenika po zadatku, bodovi, Ispravka, ime ako
   ga upiše) čuva se u pregledaču (localStorage). „Moji testovi” u navigaciji → **Pregled rada**
   (svaki zadatak: odgovori učenika ✓/✗ i tačan odgovor) i **Preuzmi (CSV)** za nastavnika (jedan red po

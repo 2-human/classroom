@@ -88,3 +88,12 @@ Datum: 2026-10-24 · Status: **urađeno (nije commit-ovano)**
 - [x] Provereno u pregledaču: dva testa različitog sastava (preklapanje 5/15), generisani zadaci rešeni kroz kartu, Ispravka, pregled, CSV (16 redova)
 - [x] Slike iz udžbenika: zaštićena (šifrovana, lozinka) verzija `zasticeno/geografija/juzna-evropa-kviz/` — `scripts/build_zasticeno.py`, lozinka u Keychain-u; javni kviz bez slika, sa linkom ka zaštićenoj; katalog nudi obe. Provereno: pogrešna lozinka odbijena, tačna otvara kviz sa 13 slika, reload ne traži ponovo (ključ u sessionStorage).
 - STATE_VERSION 1 → 2 (stari lokalni napredak se briše — bio je samo test)
+
+# Velika banka + težine (pilot Južna Evropa)
+
+Datum: 2026-10-24 · Status: **urađeno (nije commit-ovano)**
+
+- [x] banka.yaml: 136 zadataka (51 lako / 55 srednje / 30 teško), svih 7 vrsta u sve 3 težine; 28 starih zadržano; ispravljen presečen odgovor „agrumi (limun, pomorandža)”
+- [x] Generator: `tezina` obavezna, oznake L/S/T u listi i zaglavlju, Učenje = izvučena sesija (20), Test = 15, odnos 40/40/20, ravnomerno po delovima pa vrstama; generisani zadaci dobijaju težinu iz baze; `banka:` fajl; STATE_VERSION 3
+- [x] Provereno u pregledaču: 4 sesije 8/8/4 i test 6/6/3, 2–5 zadataka po delu, 6–7 vrsta
+- [ ] Ostalih 10 lekcija: isti obrazac (beleška → banka.yaml → kviz) posle provere pilota

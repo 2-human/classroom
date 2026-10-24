@@ -28,10 +28,12 @@ karta:
 # Opciono — baza znanja za generisane test-zadatke (vidi README › Test).
 baza:
   drzave:   # `more` = nastavak rečenice „Ova država …”; mini: true = premala za klik na karti
-    - {iso: ITA, naziv: Italija, grad: Rim, lat: 41.9, lon: 12.5, poluostrvo: Apeninsko, more: sa tri strane izlazi na Sredozemno more}
-test:
-  iz_dela: 2                       # nasumičnih zadataka iz svakog dela
-  generisano: {karta_drzava: 1}    # glavni_gradovi | karta_drzava | poluostrvo | gde_glavni_grad
+    - {iso: ITA, naziv: Italija, grad: Rim, lat: 41.9, lon: 12.5, poluostrvo: Apeninsko, more: sa tri strane izlazi na Sredozemno more, tezina: lako}
+sastav:                            # Učenje (sesija) i Test se svaki put izvlače iz banke
+  ucenje: 20
+  test: 15
+  odnos: [40, 40, 20]              # % lakih / srednjih / teških
+  generisano: {karta_drzava: 4}    # glavni_gradovi | karta_drzava | poluostrvo | gde_glavni_grad (kandidata po izvlačenju)
   iz_udzbenika: {strana: 1, odeljak: "{…}", tekst: "{zajednički odeljak za generisane zadatke}"}
 
 pojmovi:                 # slug → naziv; slugovi iz grafa lekcija (pojmovi-{razred}/)
@@ -40,10 +42,12 @@ pojmovi:                 # slug → naziv; slugovi iz grafa lekcija (pojmovi-{ra
 delovi:                  # delovi lekcije = grupe u navigaciji
   - naslov: "{Deo lekcije}"
     zadaci:
-      # Svaki zadatak: id, vrsta, pojmovi, pomoc (2–3 stepenika: usmeri → suzi → „Iz lekcije: …”),
+      # Zadaci mogu i u poseban fajl: `banka: banka.yaml` (ključevi `delovi` i `mesta`) — za veliku banku.
+      # Svaki zadatak: id, vrsta, tezina (lako | srednje | tesko), pojmovi, pomoc (2–3 stepenika: usmeri → suzi → „Iz lekcije: …”),
       # objasnjenje (prikazuje se posle tačnog ili otkrivenog odgovora).
       - id: primer-izbor
         vrsta: izbor                 # jedan tačan → klik proverava; više tačnih → Proveri
+        tezina: lako
         pojmovi: [italija]
         pitanje: "{Pitanje?}"
         odgovori:
@@ -53,6 +57,7 @@ delovi:                  # delovi lekcije = grupe u navigaciji
         objasnjenje: "{…}"
       - id: primer-tn
         vrsta: tacno_netacno
+        tezina: lako
         tvrdnja: "{Tvrdnja.}"
         tacno: false
         ispravke:                    # samo za netačnu tvrdnju; tačno jedna ispravna
@@ -62,6 +67,7 @@ delovi:                  # delovi lekcije = grupe u navigaciji
         objasnjenje: "{…}"
       - id: primer-dopuni
         vrsta: dopuni
+        tezina: lako
         pitanje: Dopuni rečenicu.
         tekst: "Glavni grad Italije je {{Rim}}; najveća reka je {{Po|reka Po}}."   # {{odgovor|drugi prihvatljiv}}
         ponudjene: [Rim, Milano, Po, Tibar]   # opciono: banka reči (inače se upisuje)
@@ -69,12 +75,14 @@ delovi:                  # delovi lekcije = grupe u navigaciji
         objasnjenje: "{…}"
       - id: primer-povezi
         vrsta: povezi
+        tezina: lako
         pitanje: Poveži …
         parovi: [[Italija, Rim], [Španija, Madrid]]
         pomoc: ["{…}"]
         objasnjenje: "{…}"
       - id: primer-zakljuci
         vrsta: zakljuci              # kao izbor sa jednim tačnim; pomoć su koraci rasuđivanja
+        tezina: lako
         pitanje: "Zašto …?"
         odgovori:
           - {tekst: "{najbolje objašnjenje}", tacan: true}
@@ -83,12 +91,14 @@ delovi:                  # delovi lekcije = grupe u navigaciji
         objasnjenje: "{model odgovor}"
       - id: primer-karta
         vrsta: karta_klik
+        tezina: lako
         pitanje: Klikni na Italiju.
         cilj: {drzava: ITA}          # ili {mesto: rim}
         pomoc: ["{…}", "{…}"]
         objasnjenje: "{…}"
       - id: primer-gde-sam
         vrsta: gde_sam               # tragovi od najtežeg ka najlakšem; svaki novi = manje bodova
+        tezina: lako
         pitanje: Gde sam? Pročitaj trag i klikni mesto na karti.
         cilj: {mesto: rim}
         tragovi: ["{trag 1}", "{trag 2}", "{trag 3}"]

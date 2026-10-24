@@ -1,6 +1,7 @@
 """Render a lesson quiz ("lesson-quiz"): many item types for one lesson, on the hub shell.
 
-One spec.yaml (see templates/lesson-quiz/spec.template.yaml) → one self-contained index.html.
+One spec.yaml (see templates/lesson-quiz/spec.template.yaml) → one self-contained index.html. The
+items can live in a separate file named by `banka:` (sections `delovi` + extra map points `mesta`).
 
 Core mechanic, shared by every item type — the help ladder ("lestvica pomoći"):
     question → attempt → mistake → help step 1 (drawer) → attempt → mistake → help step 2 → …
@@ -10,11 +11,17 @@ Modes: Učenje (all authored items, help on) · Test (no help; same scoring) · 
 that were not answered without mistakes, again, with help; test score stays). In Učenje, revealed
 items can be repeated from the ⋯ menu.
 
-Every test is new and recorded: `test.iz_dela` authored items drawn at random from each section, plus
-items generated from `baza.drzave` (`test.generisano`: glavni_gradovi, karta_drzava, poluostrvo,
-gde_glavni_grad). Each attempt keeps its items, every answer the pupil gave per item and the points
-(also for Ispravka) in localStorage; "Moji testovi" lists them, "Pregled rada" shows each item with
-the pupil's answers and the correct one, and CSV export is for the teacher. No server, no accounts.
+Every item has a difficulty (`tezina`: lako | srednje | tesko), shown in the navigation and the item
+header. Both an Učenje session and a Test are drawn fresh from the bank: `sastav.ucenje` / `sastav.test`
+items in the ratio `sastav.odnos` (default 40% lako, 40% srednje, 20% tesko), spread over the lesson's
+sections and item types. The bank = the authored items + items generated from `baza.drzave`
+(`sastav.generisano`: per kind, how many generated candidates join the bank for each draw — kinds
+glavni_gradovi, karta_drzava, poluostrvo, gde_glavni_grad; their difficulty comes from each state's
+`tezina`). "Počni učenje ispočetka" draws a new Učenje session.
+
+Every test is recorded: its items, every answer the pupil gave per item and the points (also for
+Ispravka) in localStorage; "Moji testovi" lists them, "Pregled rada" shows each item with the pupil's
+answers and the correct one, and CSV export is for the teacher. No server, no accounts.
 
 Item types (`vrsta`):
     izbor          A  one or more correct options (one correct → click checks at once)
@@ -49,6 +56,7 @@ from geojson_utils import load_geojson
 from hub_shell import SHELL_CSS, SHELL_JS, brand_and_crumbs
 
 VRSTE = {"izbor", "tacno_netacno", "dopuni", "povezi", "zakljuci", "karta_klik", "gde_sam"}
+TEZINE = ("lako", "srednje", "tesko")
 
 
 # ---------------------------------------------------------------------------
@@ -60,6 +68,12 @@ def load_spec(path):
     with open(path) as f:
         spec = yaml.safe_load(f)
     spec["_spec_dir"] = str(path.parent)
+    if spec.get("banka"):   # the items live in their own file next to the spec (sections + extra map points)
+        with open(path.parent / spec["banka"]) as f:
+            banka = yaml.safe_load(f) or {}
+        spec["delovi"] = banka["delovi"]
+        if banka.get("mesta"):
+            spec.setdefault("karta", {}).setdefault("mesta", {}).update(banka["mesta"])
     if spec.get("karta"):
         spec["karta"]["_geo_data_resolved"] = str((path.parent / spec["karta"]["geo_data"]).resolve())
     ids = set()
@@ -87,6 +101,8 @@ def load_spec(path):
                 c = z.get("cilj") or {}
                 if not ((c.get("drzava") in drzave) or (c.get("mesto") in mesta)):
                     raise SystemExit(f"{where}: cilj must name a karta.drzave ISO or a karta.mesta slug")
+            if z.get("tezina") not in TEZINE:
+                raise SystemExit(f"{where}: tezina must be one of {TEZINE}")
             iz = z.get("iz_udzbenika")
             if iz is not None and not (isinstance(iz, dict) and iz.get("tekst")):
                 raise SystemExit(f"{where}: iz_udzbenika needs at least `tekst`")
@@ -98,12 +114,18 @@ def load_spec(path):
                 raise SystemExit(f"baza.drzave {d.get('naziv')!r}: missing {key}")
         if not d.get("mini") and d["iso"] not in drzave:
             raise SystemExit(f"baza.drzave {d['naziv']!r}: {d['iso']} is not in karta.drzave (needed for map items)")
-    gen = ((spec.get("test") or {}).get("generisano") or {})
+    for d in ((spec.get("baza") or {}).get("drzave") or []):
+        if d.get("tezina") not in TEZINE:
+            raise SystemExit(f"baza.drzave {d['naziv']!r}: tezina must be one of {TEZINE}")
+    sastav = spec.get("sastav") or {}
+    if sum(sastav.get("odnos") or [40, 40, 20]) != 100:
+        raise SystemExit("sastav.odnos must add up to 100")
+    gen = sastav.get("generisano") or {}
     unknown = set(gen) - {"glavni_gradovi", "karta_drzava", "poluostrvo", "gde_glavni_grad"}
     if unknown:
-        raise SystemExit(f"test.generisano: unknown {sorted(unknown)}")
+        raise SystemExit(f"sastav.generisano: unknown {sorted(unknown)}")
     if gen and not (spec.get("baza") or {}).get("drzave"):
-        raise SystemExit("test.generisano needs baza.drzave")
+        raise SystemExit("sastav.generisano needs baza.drzave")
     return spec
 
 
@@ -192,7 +214,7 @@ def _textbook_images(spec, output_path, embed=False):
     base = os.path.relpath(folder, out.parent).replace(os.sep, "/") + "/"
     captions, data = {}, {}
     refs = [z.get("iz_udzbenika") for deo in spec["delovi"] for z in deo["zadaci"]]
-    refs.append((spec.get("test") or {}).get("iz_udzbenika"))   # shared by the generated test items
+    refs.append((spec.get("sastav") or {}).get("iz_udzbenika"))   # shared by the generated items
     for img in {(r or {}).get("slika") for r in refs} - {None}:
         md = folder / pathlib.Path(img).with_suffix(".md")
         if md.exists():
@@ -257,6 +279,9 @@ __SHELL_CSS__
  .it-row.ok .st{color:var(--accent)} .it-row.rev .st,.it-row.fail .st{color:var(--edge)} .it-row.part .st{color:var(--warn)}
  .it-row .lbl{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
  .it-row .pt{flex:0 0 auto;font-size:11px;color:var(--muted);font-weight:400;font-variant-numeric:tabular-nums}
+ .tz{flex:0 0 auto;display:inline-block;min-width:1.5em;text-align:center;font-size:10px;font-weight:700;border-radius:8px;padding:1px 5px;letter-spacing:.02em}
+ .tz-lako{background:#e3f2e8;color:#1f6b3a} .tz-srednje{background:#fbefd5;color:#8a5a14} .tz-tesko{background:#f8dcd8;color:#8a2a22}
+ .tz-legend{display:flex;gap:8px;flex-wrap:wrap;font-size:11px;color:var(--muted);padding:2px 6px 0}
  /* main: item */
  .item{padding:20px 24px 40px;max-width:1100px}
  .ihead{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:12.5px;color:var(--muted);margin-bottom:8px}
@@ -399,7 +424,7 @@ const SPEC = __SPEC_JSON__;
 const MAPI = __MAP_JSON__;            // {proj:{lon0,lat1,sx,sy,w,h}, drzave:{ISO:naziv}, mesta:{slug:{naziv,lat,lon,radius_km}}}
 const INFO = __INFO_JSON__;           // {pojmovi, lekcijePojma:{slug:[broj]}, naslovi:{broj:naslov}, katalog, lekcije:[broj], slike: base URL, slikeNaslovi:{path:caption}, slikeData:{path:dataURI} (protected copy only), zasticeno: href of the protected copy}
 const STATE_KEY = 'classroom:' + window.location.pathname;
-const STATE_VERSION = 2;
+const STATE_VERSION = 3;
 const VRSTA_LBL = {izbor:'Izbor', tacno_netacno:'Tačno / netačno', dopuni:'Dopuni', povezi:'Poveži', zakljuci:'Zaključi', karta_klik:'Na karti', gde_sam:'Gde sam?'};
 const UPUTSTVO = {
   izbor: 'Izaberi tačan odgovor. Ako ih je više, označi sve tačne pa klikni Proveri.',
@@ -411,6 +436,8 @@ const UPUTSTVO = {
   gde_sam: 'Pročitaj trag i klikni mesto na karti. Pogrešan klik ili „Još jedan trag” otkriva novi trag i nosi manje bodova.'
 };
 const HELP_LBL = ['Usmeri', 'Suzi', 'Iz lekcije', 'Još'];
+const TEZ = ['lako', 'srednje', 'tesko'], TEZ_LBL = { lako: 'lako', srednje: 'srednje', tesko: 'teško' }, TEZ_KR = { lako: 'L', srednje: 'S', tesko: 'T' };
+const tzBadge = z => '<span class="tz tz-' + z.tezina + '" title="' + TEZ_LBL[z.tezina] + '">' + TEZ_KR[z.tezina] + '</span>';
 const ITEMS = SPEC.delovi.flatMap((d, di) => d.zadaci.map(z => Object.assign({ deo: di }, z)));
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -423,18 +450,18 @@ let msgT = null;
 function toast(t, ok) { const m = document.getElementById('msg'); m.textContent = t; m.style.background = ok ? '#1f7a3a' : '#b1271f'; m.classList.add('show'); clearTimeout(msgT); msgT = setTimeout(() => m.classList.remove('show'), 1300); }
 
 // ---------- state ----------
-// Učenje: the authored items (state.b.ucenje). Test: every attempt is recorded in state.tests with its
-// own items (drawn from the authored pool + generated from SPEC.baza), the pupil's answers per item
-// (log) and points; its Ispravka lives in the same record.
-function blankState() { return { v: STATE_VERSION, mode: 'ucenje', cur: ITEMS[0].id, b: { ucenje: {} }, tests: [], active: null, ime: '' }; }
+// Učenje: one drawn session at a time (state.ucenje: items, sections, answers). Test: every attempt is
+// recorded in state.tests with its own drawn items, the pupil's answers per item (log) and points; its
+// Ispravka lives in the same record. Both are drawn by drawSession() from the bank (ITEMS + generated).
+function blankState() { return { v: STATE_VERSION, mode: 'ucenje', cur: '_sum', ucenje: null, tests: [], active: null, ime: '' }; }
 function loadState() { try { const o = JSON.parse(localStorage.getItem(STATE_KEY)); return o && o.v === STATE_VERSION ? o : null; } catch (e) { return null; } }
 let state = loadState() || blankState();
 function save() { try { localStorage.setItem(STATE_KEY, JSON.stringify(state)); } catch (e) {} }
 const att = () => state.tests.find(t => t.id === state.active) || null;
 const helpOn = () => state.mode === 'ucenje' || (att() && att().phase === 'ispravka');
-function curItems() { if (state.mode === 'ucenje') return ITEMS; const a = att(); return a ? a.items : []; }
+function curItems() { if (state.mode === 'ucenje') return state.ucenje.items; const a = att(); return a ? a.items : []; }
 function byId(id) { return curItems().find(z => z.id === id) || null; }
-function bucket() { if (state.mode === 'ucenje') return state.b.ucenje; const a = att(); return a.phase === 'ispravka' ? a.fix : a.b; }
+function bucket() { if (state.mode === 'ucenje') return state.ucenje.b; const a = att(); return a.phase === 'ispravka' ? a.fix : a.b; }
 function st(id) { const b = bucket(); return b[id] || (b[id] = { miss: 0, status: 'open', pts: null, ui: {}, log: [] }); }
 function listIds() {   // the items of the current mode / test phase
   const items = curItems().map(z => z.id);
@@ -442,10 +469,7 @@ function listIds() {   // the items of the current mode / test phase
   if (!a || a.phase !== 'ispravka') return items;
   return items.filter(id => { const t = a.b[id]; return t && t.pts < 3; });
 }
-function sections() {
-  if (state.mode === 'ucenje') return SPEC.delovi.map(d => ({ naslov: d.naslov, ids: d.zadaci.map(z => z.id) }));
-  const a = att(); return a ? a.sections : [];
-}
+function sections() { const a = state.mode === 'ucenje' ? state.ucenje : att(); return a ? a.sections : []; }
 const deoNaslov = z => z.deoNaslov || SPEC.delovi[z.deo].naslov;
 const numOf = z => curItems().findIndex(x => x.id === z.id) + 1;
 const isDone = s => s.status !== 'open';
@@ -453,27 +477,31 @@ function steps(z) { return z.vrsta === 'gde_sam' ? z.tragovi.length - 1 : (z.pom
 const ptsFor = miss => miss === 0 ? 3 : miss === 1 ? 2 : 1;
 function registerPlaces(items) { for (const z of items) if (z.cilj && z.cilj._mesto) MAPI.mesta[z.cilj.mesto] = z.cilj._mesto; }
 state.tests.forEach(t => registerPlaces(t.items));
+if (state.ucenje) registerPlaces(state.ucenje.items);
 
 // ---------- a new test: authored items drawn per section + items generated from SPEC.baza ----------
 const LOK = { Pirinejsko: 'Pirinejskom', Apeninsko: 'Apeninskom', Balkansko: 'Balkanskom' };
 const polFraza = d => d.poluostrvo ? 'Leži na ' + LOK[d.poluostrvo] + ' poluostrvu.' : 'Ne leži ni na jednom od tri poluostrva.';
 function pickN(arr, n, r) { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a.slice(0, n); }
 function generate(kind, k, r, used) {
-  const B = (SPEC.baza || {}).drzave || [], book = (SPEC.test || {}).iz_udzbenika || null;
+  const B = (SPEC.baza || {}).drzave || [], book = (SPEC.sastav || {}).iz_udzbenika || null;
   const free = B.filter(d => !used.has(d.iso));
   const big = free.filter(d => !d.mini);
   const take = list => { const d = pickN(list, 1, r)[0]; if (d) used.add(d.iso); return d; };
   const base = { generisan: true, pojmovi: [], iz_udzbenika: book };
+  const up = t => TEZ[Math.min(2, TEZ.indexOf(t) + 1)];   // one level harder (capped)
+  const hardest = ds => TEZ[Math.max(...ds.map(d => TEZ.indexOf(d.tezina)))];
   if (kind === 'glavni_gradovi') {
     const ds = pickN(big.filter(d => d.grad !== d.naziv), 4, r); ds.forEach(d => used.add(d.iso));
-    return Object.assign({}, base, { id: 'g-gradovi-' + k, vrsta: 'povezi', pitanje: 'Poveži državu sa njenim glavnim gradom.',
+    if (ds.length < 3) return null;
+    return Object.assign({}, base, { id: 'g-gradovi-' + k, vrsta: 'povezi', tezina: hardest(ds), pitanje: 'Poveži državu sa njenim glavnim gradom.',
       parovi: ds.map(d => [d.naziv, d.grad]),
       pomoc: ['Kreni od države koju najbolje znaš, pa isključuj.', 'Poluostrva: ' + ds.map(d => d.naziv + ' — ' + (d.poluostrvo || 'van poluostrva')).join(', ') + '.', 'Iz lekcije: tabela 17 država i njihovih glavnih gradova (str. 17).'],
       objasnjenje: ds.map(d => d.naziv + ' — ' + d.grad).join(', ') + '.' });
   }
   if (kind === 'karta_drzava') {
     const d = take(big); if (!d) return null;
-    return Object.assign({}, base, { id: 'g-karta-' + d.iso, vrsta: 'karta_klik', pitanje: 'Klikni na državu: ' + d.naziv + '.', cilj: { drzava: d.iso },
+    return Object.assign({}, base, { id: 'g-karta-' + d.iso, vrsta: 'karta_klik', tezina: d.tezina, pitanje: 'Klikni na državu: ' + d.naziv + '.', cilj: { drzava: d.iso },
       pomoc: [polFraza(d), 'Ova država ' + d.more + '.', 'Glavni grad joj je ' + d.grad + '.'],
       objasnjenje: d.naziv + ': ' + polFraza(d).toLowerCase().replace(/\.$/, '') + '; ' + d.more + '; glavni grad ' + d.grad + '.' });
   }
@@ -481,36 +509,65 @@ function generate(kind, k, r, used) {
     const d = take(free); if (!d) return null;
     const opts = ['Pirinejsko', 'Apeninsko', 'Balkansko'].map(p => ({ tekst: p + ' poluostrvo', tacan: d.poluostrvo === p }))
       .concat([{ tekst: 'Ni na jednom od tri poluostrva', tacan: !d.poluostrvo }]);
-    return Object.assign({}, base, { id: 'g-pol-' + d.iso, vrsta: 'izbor', pitanje: 'Na kom poluostrvu se nalazi ' + d.naziv + '?', odgovori: opts,
+    return Object.assign({}, base, { id: 'g-pol-' + d.iso, vrsta: 'izbor', tezina: d.tezina, pitanje: 'Na kom poluostrvu se nalazi ' + d.naziv + '?', odgovori: opts,
       pomoc: ['Glavni grad joj je ' + d.grad + '.', 'Ova država ' + d.more + '.'], objasnjenje: d.naziv + ' — ' + polFraza(d).toLowerCase() });
   }
   if (kind === 'gde_glavni_grad') {
     const d = take(big); if (!d) return null;
     const slug = 'g-grad-' + d.iso, def = { naziv: d.grad, lat: d.lat, lon: d.lon, radius_km: 90 };
-    return Object.assign({}, base, { id: 'g-grad-' + d.iso, vrsta: 'gde_sam', pitanje: 'Gde sam? Pročitaj trag i klikni glavni grad na karti.',
+    return Object.assign({}, base, { id: 'g-grad-' + d.iso, vrsta: 'gde_sam', tezina: up(d.tezina), pitanje: 'Gde sam? Pročitaj trag i klikni glavni grad na karti.',
       cilj: { mesto: slug, _mesto: def },
       tragovi: ['Ja sam glavni grad države koja ' + d.more + '.', 'Moja država ' + (d.poluostrvo ? 'leži na ' + LOK[d.poluostrvo] + ' poluostrvu.' : 'ne leži ni na jednom od tri poluostrva.'), 'Ja sam glavni grad države ' + d.naziv + '.'],
       objasnjenje: d.grad + ', glavni grad države ' + d.naziv + '.' });
   }
   return null;
 }
+// A session (Učenje) or an attempt (Test): n items from the bank in the ratio sastav.odnos, spread over
+// sections and item types (round-robin), ordered by section and, inside a section, by difficulty.
+function drawSession(n, seed) {
+  const r = seeded(String(seed)), S = SPEC.sastav || {}, used = new Set();
+  const bank = ITEMS.map(z => JSON.parse(JSON.stringify(z)));
+  const gdeo = { deoNaslov: 'Iz baze: države', deo: SPEC.delovi.length };
+  Object.entries(S.generisano || {}).forEach(([kind, cnt]) => { for (let k = 0; k < cnt; k++) { const z = generate(kind, k, r, used); if (z) bank.push(Object.assign(z, gdeo)); } });
+  n = Math.min(n, bank.length);
+  const odnos = S.odnos || [40, 40, 20];
+  const want = { lako: Math.round(n * odnos[0] / 100), tesko: Math.round(n * odnos[2] / 100) };
+  want.srednje = n - want.lako - want.tesko;
+  const rr = (list, key) => {   // shuffle, group by key, then take one from each group in turn
+    const groups = {};
+    for (const z of pickN(list, list.length, r)) (groups[key(z)] = groups[key(z)] || []).push(z);
+    const keys = pickN(Object.keys(groups), Object.keys(groups).length, r), out = [];
+    while (out.length < list.length) for (const k of keys) if (groups[k].length) out.push(groups[k].shift());
+    return out;
+  };
+  const spread = list => {   // even over sections first, then over item types inside each section
+    const bySec = {};
+    for (const z of list) (bySec[z.deo] = bySec[z.deo] || []).push(z);
+    const secs = Object.fromEntries(Object.entries(bySec).map(([d, zs]) => [d, rr(zs, z => z.vrsta)]));
+    const keys = pickN(Object.keys(secs), Object.keys(secs).length, r), out = [];
+    while (out.length < list.length) for (const k of keys) if (secs[k].length) out.push(secs[k].shift());
+    return out;
+  };
+  const byLevel = Object.fromEntries(TEZ.map(t => [t, spread(bank.filter(z => z.tezina === t))]));
+  const picked = [];
+  for (const t of TEZ) picked.push(...byLevel[t].splice(0, want[t]));
+  for (const t of ['srednje', 'lako', 'tesko']) while (picked.length < n && byLevel[t].length) picked.push(byLevel[t].shift());   // a level ran short
+  picked.sort((a, b) => a.deo - b.deo || TEZ.indexOf(a.tezina) - TEZ.indexOf(b.tezina));
+  const secs = [];
+  for (const z of picked) { const name = deoNaslov(z); let sec = secs.find(x => x.naslov === name); if (!sec) secs.push(sec = { naslov: name, ids: [] }); sec.ids.push(z.id); }
+  registerPlaces(picked);
+  return { items: picked, sections: secs };
+}
+function newLearning() {
+  const seed = Date.now(), d = drawSession((SPEC.sastav || {}).ucenje || 20, seed);
+  state.ucenje = { id: 'u' + seed, items: d.items, sections: d.sections, b: {} };
+  state.cur = d.items[0].id;
+}
 function startTest(ime) {
-  const seed = Date.now(), r = seeded(String(seed)), T = SPEC.test || {}, used = new Set();
-  const items = [], secs = [];
-  SPEC.delovi.forEach((d, di) => {
-    const pick = pickN(d.zadaci, Math.min(T.iz_dela || d.zadaci.length, d.zadaci.length), r)
-      .sort((a, b) => d.zadaci.indexOf(a) - d.zadaci.indexOf(b))
-      .map(z => Object.assign({ deo: di }, JSON.parse(JSON.stringify(z))));
-    pick.forEach(z => { if (z.cilj && z.cilj.drzava) used.add(z.cilj.drzava); });
-    items.push(...pick); secs.push({ naslov: d.naslov, ids: pick.map(z => z.id) });
-  });
-  const gen = [];
-  Object.entries(T.generisano || {}).forEach(([kind, n]) => { for (let k = 0; k < n; k++) { const z = generate(kind, k, r, used); if (z) gen.push(Object.assign(z, { deoNaslov: 'Iz baze: države' })); } });
-  if (gen.length) { items.push(...gen); secs.push({ naslov: 'Iz baze: države', ids: gen.map(z => z.id) }); }
-  registerPlaces(items);
-  const a = { id: 't' + seed, seed, start: new Date(seed).toISOString(), end: null, ime: ime || '', items, sections: secs, b: {}, fix: {}, phase: 'test' };
+  const seed = Date.now(), d = drawSession((SPEC.sastav || {}).test || 15, seed);
+  const a = { id: 't' + seed, seed, start: new Date(seed).toISOString(), end: null, ime: ime || '', items: d.items, sections: d.sections, b: {}, fix: {}, phase: 'test' };
   state.tests.push(a); state.active = a.id; state.ime = ime || state.ime;
-  state.cur = items[0].id; save();
+  state.cur = d.items[0].id; save();
 }
 function testScore(a, which) { const b = a[which || 'b']; return a.items.reduce((n, z) => n + ((b[z.id] || {}).pts || 0), 0); }
 function finishCheck() {   // a test attempt ends when all its items are answered
@@ -526,7 +583,7 @@ function refreshScore() {
   document.getElementById('scoreN').textContent = state.mode === 'test' && !att() ? '—' : n;
   document.getElementById('scoreMax').textContent = state.mode === 'test' && !att() ? '—' : ids.length * 3;
   document.querySelectorAll('.ms-btn').forEach(b => b.classList.toggle('active', b.dataset.mode === state.mode));
-  const rep = ITEMS.filter(z => (state.b.ucenje[z.id] || {}).status === 'revealed').length;
+  const rep = state.ucenje ? state.ucenje.items.filter(z => (state.ucenje.b[z.id] || {}).status === 'revealed').length : 0;
   const mr = document.getElementById('mRepeat');
   mr.textContent = 'Ponovi otkrivene (' + rep + ')'; mr.disabled = state.mode !== 'ucenje' || !rep;
   document.getElementById('mReset').textContent = state.mode === 'ucenje' ? 'Počni učenje ispočetka' : 'Odustani od ovog testa';
@@ -542,6 +599,8 @@ function renderNav() {
   let h = '';
   const a = state.mode === 'test' && att();
   if (state.mode === 'ucenje' || a) {
+    const cnt = TEZ.map(t => curItems().filter(z => z.tezina === t).length);
+    h += '<div class="tz-legend">' + TEZ.map((t, i) => '<span>' + tzBadge({ tezina: t }) + ' ' + TEZ_LBL[t] + ' ' + cnt[i] + '</span>').join('') + '</div>';
     sections().forEach(d => {
       const zs = d.ids.filter(id => ids.has(id)).map(byId);
       if (!zs.length) return;
@@ -551,8 +610,8 @@ function renderNav() {
         const s = st(z.id);
         const cls = s.status === 'ok' ? (s.pts === 3 ? 'ok' : 'part') : s.status === 'revealed' ? 'rev' : s.status === 'failed' ? 'fail' : '';
         const icon = s.status === 'ok' ? '✓' : s.status === 'open' ? (s.miss ? '◐' : '○') : '✗';
-        h += '<button type="button" class="it-row ' + cls + (z.id === state.cur ? ' sel' : '') + '" data-id="' + z.id + '" data-filter="' + esc(rowLabel(z) + ' ' + VRSTA_LBL[z.vrsta]) + '">' +
-             '<span class="st">' + icon + '</span><span class="lbl">' + numOf(z) + '. ' + esc(rowLabel(z)) + '</span><span class="pt">' + (s.pts != null ? s.pts + ' b' : '') + '</span></button>';
+        h += '<button type="button" class="it-row ' + cls + (z.id === state.cur ? ' sel' : '') + '" data-id="' + z.id + '" data-filter="' + esc(rowLabel(z) + ' ' + VRSTA_LBL[z.vrsta] + ' ' + TEZ_LBL[z.tezina]) + '">' +
+             '<span class="st">' + icon + '</span>' + tzBadge(z) + '<span class="lbl">' + numOf(z) + '. ' + esc(rowLabel(z)) + '</span><span class="pt">' + (s.pts != null ? s.pts + ' b' : '') + '</span></button>';
       }
       h += '</div>';
     });
@@ -628,7 +687,8 @@ function showIntro() {
     '<li><b>Učenje</b> — posle svake greške u ovoj fioci stiže sledeći stepenik pomoći: <i>usmeri</i> → <i>suzi</i> → <i>iz lekcije</i>. Greška posle poslednjeg stepenika otkriva odgovor.</li>' +
     '<li><b>Bodovi</b> — tačno bez greške 3, uz jednu pomoć 2, uz više pomoći 1, otkriveno 0.</li>' +
     '<li><b>Test</b> — svaki put nov izbor zadataka (iz svakog dela lekcije i iz baze država), bez pomoći. Svaki test se beleži: u „Moji testovi” vidiš rezultat i pregled rada, i možeš ga preuzeti za nastavnika. Na kraju <b>Ispravka</b>: zadaci koji nisu rešeni iz prve, sa pomoći.</li>' +
-    '<li>Levo su svi zadaci po delovima lekcije; možeš ih rešavati bilo kojim redom.</li></ul>' +
+    '<li>Svaka sesija Učenja i svaki test se sastavljaju nanovo iz velike banke: ' + esc(sastavText((SPEC.sastav || {}).ucenje || 20)) + '. Oznake <b>L</b> / <b>S</b> / <b>T</b> u listi su težina. „Počni učenje ispočetka” (meni ⋯) daje novi izbor.</li>' +
+    '<li>Levo su zadaci po delovima lekcije; možeš ih rešavati bilo kojim redom.</li></ul>' +
     '<button type="button" class="ok" id="introOk">Razumem</button></div>';
   openDrawer();
   document.getElementById('introOk').addEventListener('click', () => document.getElementById('drawerClose').click());
@@ -660,7 +720,7 @@ const main = document.getElementById('main');
 function frame(z, s, inner) {
   const n = numOf(z);
   const pts = isDone(s) ? (s.status === 'ok' ? '✓ ' + s.pts + ' b' : s.status === 'failed' ? '✗ 0 b' : 'otkriveno · 0 b') : (s.miss ? 'sada ' + ptsFor(s.miss) + ' b' : 'do 3 b');
-  return '<div class="item"><div class="ihead"><span class="vchip">' + VRSTA_LBL[z.vrsta] + '</span><span>' + esc(deoNaslov(z)) + ' · zadatak ' + n + ' / ' + curItems().length + '</span><span>' + pts + '</span></div>' +
+  return '<div class="item"><div class="ihead"><span class="vchip">' + VRSTA_LBL[z.vrsta] + '</span>' + tzBadge(z) + ' ' + TEZ_LBL[z.tezina] + '<span>' + esc(deoNaslov(z)) + ' · zadatak ' + n + ' / ' + curItems().length + '</span><span>' + pts + '</span></div>' +
     inner + '<div class="help-inline" id="helpInline"></div><div class="iactions" id="actions"></div>' +
     (isDone(s) ? '<div class="expl' + (s.status === 'ok' ? '' : ' rev') + '">' + (s.status === 'failed' ? 'Netačno. Odgovor ćeš videti u Ispravci.' : fmt(z.objasnjenje || '')) + '</div>' : '') + '</div>';
 }
@@ -916,6 +976,7 @@ function renderSummary() {
     (a && a.phase === 'test' && !left && failed ? '<button type="button" class="ok" id="btnFix">Ispravka (' + failed + ')</button>' : '') +
     (a && a.phase === 'ispravka' ? '<button type="button" id="btnBackTest">Nazad na rezultat testa</button>' : '') +
     (a && a.end ? '<button type="button" id="btnReview">Pregled rada</button><button type="button" id="btnCsv">Preuzmi (CSV)</button><button type="button" class="ok" id="btnNew">Novi test</button>' : '') +
+    (state.mode === 'ucenje' && !left ? '<button type="button" class="ok" id="btnNewLearn">Nova sesija učenja</button>' : '') +
     '</div></div>';
   const on = (id, f) => { const e = document.getElementById(id); if (e) e.addEventListener('click', f); };
   on('btnFix', () => { a.phase = 'ispravka'; a.fix = {}; state.cur = listIds()[0]; save(); refresh(); });
@@ -923,14 +984,16 @@ function renderSummary() {
   on('btnReview', () => go('r:' + a.id));
   on('btnCsv', () => downloadCsv([a]));
   on('btnNew', () => { state.active = null; go('_start'); });
+  on('btnNewLearn', () => { newLearning(); save(); go(state.cur); });
+}
+function sastavText(n) {
+  const o = (SPEC.sastav || {}).odnos || [40, 40, 20];
+  return n + ' zadataka (' + o[0] + '% lakih, ' + o[1] + '% srednjih, ' + o[2] + '% teških), nasumično iz banke od ' + ITEMS.length + ' zadataka i zadataka iz baze država';
 }
 function renderStart() {
-  const T = SPEC.test || {}, perDeo = T.iz_dela || 0;
-  const nGen = Object.values(T.generisano || {}).reduce((x, y) => x + y, 0);
-  const n = SPEC.delovi.reduce((x, d) => x + Math.min(perDeo || d.zadaci.length, d.zadaci.length), 0) + nGen;
+  const n = (SPEC.sastav || {}).test || 15;
   const fin = state.tests.filter(t => t.end).slice().reverse();
-  main.innerHTML = '<div class="sum"><h1>Novi test</h1><p class="lead">' + n + ' zadataka: ' + (perDeo ? 'po ' + perDeo + ' nasumično iz svakog dela lekcije' : 'svi zadaci lekcije') +
-    (nGen ? ' i ' + nGen + ' novih iz baze država' : '') + '. Svaki test je drugačiji. Bez pomoći; posle testa sledi Ispravka.</p>' +
+  main.innerHTML = '<div class="sum"><h1>Novi test</h1><p class="lead">' + sastavText(n) + '. Svaki test je drugačiji. Bez pomoći; posle testa sledi Ispravka.</p>' +
     '<p><label>Ime i prezime (za nastavnika, opciono): <input id="testIme" class="app-filter" style="max-width:320px;display:block;margin-top:6px" value="' + esc(state.ime || '') + '"></label></p>' +
     '<div class="iactions"><button type="button" class="ok" id="btnStart">Započni test</button></div>' +
     (fin.length ? '<h2 style="margin-top:28px">Moji testovi</h2><table class="tbl"><thead><tr><th>Datum</th><th>Ime</th><th class="num">Bodovi</th><th class="num">Ispravka</th><th></th></tr></thead><tbody>' +
@@ -955,7 +1018,7 @@ function renderReview(t) {
   const rows = t.items.map((z, i) => {
     const s = t.b[z.id], f = t.fix[z.id];
     const log = (s && s.log || []).map(l => '<li class="' + (l.ok ? 'ok' : 'bad') + '">' + (l.ok ? '✓ ' : '✗ ') + esc(l.v || '—') + '</li>').join('');
-    return '<div class="rv"><div class="ihead"><span class="vchip">' + VRSTA_LBL[z.vrsta] + '</span><span>' + (i + 1) + '. ' + esc(deoNaslov(z)) + '</span><span>' + outcome(s) + (f ? ' · ispravka: ' + outcome(f) : '') + '</span></div>' +
+    return '<div class="rv"><div class="ihead"><span class="vchip">' + VRSTA_LBL[z.vrsta] + '</span>' + tzBadge(z) + '<span>' + (i + 1) + '. ' + esc(deoNaslov(z)) + '</span><span>' + outcome(s) + (f ? ' · ispravka: ' + outcome(f) : '') + '</span></div>' +
       '<p class="rq">' + fmt(questionText(z)) + '</p><p class="rl">Odgovori učenika:</p><ul class="rlog">' + (log || '<li>—</li>') + '</ul>' +
       '<p class="rc"><b>Tačan odgovor:</b> ' + fmt(correctText(z)) + '</p></div>';
   }).join('');
@@ -966,11 +1029,11 @@ function renderReview(t) {
 }
 function downloadCsv(tests) {   // one row per item of each test: for the teacher (opens in Excel / Sheets)
   const q = v => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"';
-  const head = ['test', 'datum', 'ime', 'br', 'deo', 'vrsta', 'pitanje', 'odgovori_ucenika', 'tacan_odgovor', 'bodovi', 'ispravka_bodovi'];
+  const head = ['test', 'datum', 'ime', 'br', 'deo', 'vrsta', 'tezina', 'pitanje', 'odgovori_ucenika', 'tacan_odgovor', 'bodovi', 'ispravka_bodovi'];
   const lines = [head.join(',')];
   for (const t of tests) t.items.forEach((z, i) => {
     const s = t.b[z.id] || {}, f = t.fix[z.id];
-    lines.push([t.id, fmtDate(t.start), t.ime, i + 1, deoNaslov(z), VRSTA_LBL[z.vrsta], questionText(z),
+    lines.push([t.id, fmtDate(t.start), t.ime, i + 1, deoNaslov(z), VRSTA_LBL[z.vrsta], TEZ_LBL[z.tezina], questionText(z),
       (s.log || []).map(l => (l.ok ? '✓ ' : '✗ ') + l.v).join(' | '), correctText(z), s.pts == null ? '' : s.pts, f && f.pts != null ? f.pts : ''].map(q).join(','));
   });
   const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8' });
@@ -997,8 +1060,8 @@ document.querySelectorAll('.ms-btn').forEach(b => b.addEventListener('click', ()
 }));
 document.getElementById('mReset').addEventListener('click', () => {
   if (state.mode === 'ucenje') {
-    if (!confirm('Obrisati odgovore u Učenju?')) return;
-    state.b.ucenje = {}; state.cur = ITEMS[0].id;
+    if (!confirm('Počni učenje ispočetka — novi izbor zadataka?')) return;
+    newLearning();
   } else {
     const a = att(); if (!a || a.end || !confirm('Odustati od ovog testa? Neće biti zabeležen.')) return;
     state.tests = state.tests.filter(t => t.id !== a.id); state.active = null; state.cur = '_start';
@@ -1006,13 +1069,14 @@ document.getElementById('mReset').addEventListener('click', () => {
   save(); refresh();
 });
 document.getElementById('mRepeat').addEventListener('click', () => {
-  const rev = ITEMS.filter(z => (state.b.ucenje[z.id] || {}).status === 'revealed').map(z => z.id);
-  rev.forEach(id => { delete state.b.ucenje[id]; });
+  const rev = state.ucenje.items.filter(z => (state.ucenje.b[z.id] || {}).status === 'revealed').map(z => z.id);
+  rev.forEach(id => { delete state.ucenje.b[id]; });
   if (rev.length) { state.cur = rev[0]; save(); refresh(); }
 });
 
 // ---------- init ----------
-if (!byId(state.cur) && !['_sum', '_start'].includes(state.cur) && !String(state.cur).startsWith('r:')) state.cur = state.mode === 'test' ? '_start' : ITEMS[0].id;
+if (!state.ucenje) newLearning();
+if (!byId(state.cur) && !['_sum', '_start'].includes(state.cur) && !String(state.cur).startsWith('r:')) state.cur = state.mode === 'test' ? '_start' : state.ucenje.items[0].id;
 refresh();
 let introSeen = false; try { introSeen = localStorage.getItem(STATE_KEY + ':intro') === '1'; } catch (e) {}
 if (!introSeen) showIntro();
@@ -1030,7 +1094,7 @@ def render_html(spec, output_path, embed_images=False, write=True):
     k = spec.get("karta") or {}
     clean = {"description": spec.get("description", ""), "slug": output_path.parent.name,
              "delovi": [{"naslov": d["naslov"], "zadaci": d["zadaci"]} for d in spec["delovi"]],
-             "baza": spec.get("baza") or {}, "test": spec.get("test") or {}}
+             "baza": spec.get("baza") or {}, "sastav": spec.get("sastav") or {}}
     slike, naslovi_slika, slike_data = _textbook_images(spec, output_path, embed_images)
     tool = pathlib.Path(spec["_spec_dir"])
     root = next((q for q in tool.parents if (q / "shared" / "python").is_dir()), tool)
