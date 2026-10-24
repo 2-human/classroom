@@ -101,17 +101,20 @@
     return crypto.subtle.importKey('raw', new TextEncoder().encode(password), 'PBKDF2', false, ['deriveKey'])
       .then(function (base) { return crypto.subtle.deriveKey({ name: 'PBKDF2', hash: 'SHA-256', salt: b64(bundle.salt), iterations: bundle.iter }, base, { name: 'AES-GCM', length: 256 }, true, ['decrypt']); });
   }
-  fetch('bundle.enc', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(); return r.json(); }).then(function (bundle) {
+  // the form never submits natively: a password typed before the bundle arrives waits for it
+  var bundleP = fetch('bundle.enc', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(); return r.json(); });
+  form.onsubmit = function (e) {
+    e.preventDefault(); msg.textContent = 'Otvaram…'; form.querySelector('button').disabled = true;
+    bundleP.then(function (bundle) {
+      return derive(pw.value, bundle).then(function (k) {
+        return crypto.subtle.exportKey('raw', k).then(function (raw) { try { sessionStorage.setItem(KEY, enc(new Uint8Array(raw))); } catch (e2) {} return show(k, bundle); });
+      }).catch(function () { try { sessionStorage.removeItem(KEY); } catch (e3) {} msg.textContent = 'Lozinka nije tačna.'; form.querySelector('button').disabled = false; pw.select(); });
+    }, function () {});
+  };
+  bundleP.then(function (bundle) {
     var saved = null; try { saved = sessionStorage.getItem(KEY); } catch (e) {}
-    (saved ? crypto.subtle.importKey('raw', b64(saved), 'AES-GCM', true, ['decrypt']).then(function (k) { return show(k, bundle); }) : Promise.reject()).catch(function () {
-      try { sessionStorage.removeItem(KEY); } catch (e) {}
-      form.onsubmit = function (e) {
-        e.preventDefault(); msg.textContent = 'Otvaram…'; form.querySelector('button').disabled = true;
-        derive(pw.value, bundle).then(function (k) {
-          return crypto.subtle.exportKey('raw', k).then(function (raw) { try { sessionStorage.setItem(KEY, enc(new Uint8Array(raw))); } catch (e2) {} return show(k, bundle); });
-        }).catch(function () { try { sessionStorage.removeItem(KEY); } catch (e3) {} msg.textContent = 'Lozinka nije tačna.'; form.querySelector('button').disabled = false; pw.select(); });
-      };
-    });
+    if (saved) crypto.subtle.importKey('raw', b64(saved), 'AES-GCM', true, ['decrypt']).then(function (k) { return show(k, bundle); })
+      .catch(function () { try { sessionStorage.removeItem(KEY); } catch (e) {} });
   }).catch(function () { msg.textContent = 'Kviz nije dostupan (otvori ga preko veb adrese, ne kao fajl).'; form.querySelector('button').disabled = true; });
 })();
 </script>
