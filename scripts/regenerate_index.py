@@ -15,8 +15,9 @@ Information architecture: školski nivo › razred › predmet › lekcija › a
       also the ones that have no tool yet.
     - Levels come from hub_shell.NIVOI; a level without tools is listed as empty.
     - PDF links only when radna.pdf / resenja.pdf exist beside the tool's index.html.
-    - A link to the password-protected copy when zasticeno/{predmet}/{slug}/bundle.enc exists
-      (scripts/build_zasticeno.py).
+    - Where zasticeno/{predmet}/{slug}/bundle.enc exists (scripts/build_zasticeno.py), the
+      password-protected copy with the textbook images is the default "Otvori kviz"; the public
+      copy without images is the secondary link.
 
 The generated file is self-contained HTML on the same three-panel hub shell as the tools
 (shared/python/hub_shell.py): navigation = the tree, main = the chosen node, drawer = the
@@ -213,6 +214,7 @@ __SHELL_CSS__
  .dr p{margin:0 0 12px;color:#2b2b2b;line-height:1.55}
  .dr .chip{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);border:1px solid var(--border);border-radius:9px;padding:1px 8px;margin-bottom:12px}
  .dr h3{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:16px 0 6px}
+ .dr .ref{font-size:12.5px;color:var(--muted);margin:0 0 12px}
  .dr .open{display:inline-block;background:var(--accent);color:#fff!important;border-radius:8px;padding:9px 16px;font-weight:600;margin:4px 0 6px}
  .dr ul{margin:0;padding-left:18px} .dr li{margin:4px 0}
 </style>
@@ -331,8 +333,10 @@ function showTool(t, lv, g, s) {
   document.getElementById('drawerTitle').textContent = t.title;
   document.getElementById('drawerBody').innerHTML = '<span class="chip">' + esc(g.title) + ' · ' + esc(s.title) + '</span>' +
     (t.description ? '<p>' + esc(t.description) + '</p>' : '') +
-    (t.href ? '<a class="open" href="' + t.href + '">Otvori interaktivni alat ›</a>' : '') +
-    (t.zasticeno ? '<p><a href="' + t.zasticeno + '">Verzija sa slikama iz udžbenika (lozinka) ›</a></p>' : '') +
+    // the version with the textbook images (password) is the default where it exists
+    (t.zasticeno ? '<a class="open" href="' + t.zasticeno + '">Otvori kviz ›</a><p class="ref">Sa slikama iz udžbenika — lozinku daje nastavnik.' +
+      (t.href ? ' <a href="' + t.href + '">Verzija bez slika (bez lozinke)</a>' : '') + '</p>'
+      : (t.href ? '<a class="open" href="' + t.href + '">Otvori interaktivni alat ›</a>' : '')) +
     (les.length ? '<h3>Lekcije</h3><ul>' + les.map(l => '<li><a href="#/' + base + '/' + l.broj + '?t=' + t.slug + '">' + l.broj + '. ' + esc(l.naslov) + '</a></li>').join('') + '</ul>' : '') +
     (t.pdfs.length ? '<h3>Za štampu</h3><ul>' + t.pdfs.map(p => '<li><a href="' + p.href + '">' + esc(p.label) + '</a></li>').join('') + '</ul>' : '');
   drawer.classList.add('open'); drawer.setAttribute('aria-hidden', 'false');

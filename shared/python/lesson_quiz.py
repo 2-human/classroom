@@ -261,6 +261,7 @@ __SHELL_CSS__
  .bar-menu-btn{padding:5px 12px;font-size:16px;line-height:1;border-color:var(--muted);color:#3a3528}
  .bar-menu-btn:hover{background:#f3ecd8;color:#3a3528}
  .bar-menu button{width:100%;text-align:left}
+ .bar-menu .menu-link{display:block;font-size:13px;color:var(--edge);text-decoration:none;padding:7px 14px;border:1px dashed #e6b0b0;border-radius:8px}
  .mode-switch{display:inline-flex}
  .ms-btn{padding:5px 12px;border-color:#6b6456;color:#3a3528;min-width:5.5em}
  .ms-btn:first-child{border-radius:8px 0 0 8px} .ms-btn:last-child{border-radius:0 8px 8px 0;border-left:none}
@@ -401,6 +402,7 @@ __SHELL_CSS__
     <button type="button" id="mIntro">Kako se igra</button>
     <button type="button" id="mRepeat">Ponovi otkrivene</button>
     <button type="button" id="mReset">Počni ispočetka</button>
+    <a class="menu-link" id="mProt" hidden>Verzija sa slikama iz udžbenika (lozinka)</a>
    </div>
   </span>
  </div>
@@ -702,6 +704,7 @@ function showIntro() {
   document.getElementById('introOk').addEventListener('click', () => document.getElementById('drawerClose').click());
 }
 document.getElementById('mIntro').addEventListener('click', showIntro);
+if (INFO.zasticeno) { const l = document.getElementById('mProt'); l.href = INFO.zasticeno; l.hidden = false; }   // public copy → the one with images
 
 // ---------- outcome ----------
 function fail(z, text, given) {
