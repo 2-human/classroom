@@ -68,3 +68,13 @@ Datum: 2026-10-24 · Status: **urađeno (nije commit-ovano)**
 - [x] Provereno u pregledaču: početna (srednja škola prazna), predmet, lekcija + alat, filter, geografija bez kurikuluma; konzola čista
 
 **Sledeće:** operater dostavlja slike stranica udžbenika geografije za 6. razred (privatno, u `tools/geografija/_source/slike/`, gitignored) → `shared/kurikulum/osnovna/6/geografija.yaml` + `lekcije` za evropa-kviz.
+
+# Geografija 7: lekcije, slike, graf
+
+Datum: 2026-10-24 · Status: **urađeno (nije commit-ovano)**
+
+- [x] 25 skenova (str. 8–37; nedostaju 10–13 i 34) → `tools/geografija/_source/` (gitignored): `stranice-7/`, 11 beleški u `lekcije-7/`, 74 isečene slike + opisi u `slike-7/`
+- [x] Graf: `scripts/build_lekcije_graf.py` → `pojmovi-7/` (407 pojmova sa povratnim vezama), „Povezane lekcije” u svakoj belešci, `lekcije-7/INDEX.md`; spojene varijante slugova (klima ×2, romani, Šar-planina)
+- [x] `shared/kurikulum/osnovna/7/geografija.yaml` — 11 lekcija u 2 poglavlja; katalog prikazuje 7. razred
+- [ ] Za proveru u knjizi: str. 16 vrh i 17 dno odsečeni (tabela 17 država nepotpuna); str. 23 zadatak 2 (poveži) odsečen; T/N „najviša planina Crne Gore je Durmitor” (knjiga vs. Zla Kolata 2.534 m)
+- [x] Pilot kviz Južna Evropa (novi tip `lesson-quiz`): 28 zadataka, lestvica pomoći, Učenje/Test/Ispravka, karta (klikni, Gde sam?) — provereno u pregledaču (1440 i 375)

@@ -28,7 +28,7 @@ tools/{predmet}/{tool-slug}/
 └── resenja.pdf       # GENERATED if applicable, committed
 ```
 
-Tools of the same TYPE share render logic in `shared/python/{type}.py`. The pilot type is **labeled-location-quiz** (`shared/python/labeled_location_quiz.py`).
+Tools of the same TYPE share render logic in `shared/python/{type}.py`. The pilot type is **labeled-location-quiz** (`shared/python/labeled_location_quiz.py`). Types so far: `labeled-location-quiz`, `timeline-mcq-quiz`, `lesson-quiz` (`shared/python/lesson_quiz.py` — one lesson, many item types, the shared help ladder; see `templates/lesson-quiz/README.md`).
 
 Every tool page (and the catalog `index.html`) uses the shared **hub shell**, `shared/python/hub_shell.py`: the three-panel layout from the Crēdo Marketing Hub (bar with `classroom › predmet › alat` crumbs and a ⋯ menu · navigation with a filter · main · a drawer for the chosen item). It is inlined into each page (`SHELL_CSS`, `SHELL_JS`), so tools stay single files that work from `file://`. New tool types should use it rather than their own header/columns; the markup contract is in the module docstring.
 
@@ -36,7 +36,7 @@ Every tool page (and the catalog `index.html`) uses the shared **hub shell**, `s
 
 Interactive tools persist in-progress student state to `localStorage` (keyed on the page path) so a refresh or accidental close keeps progress. Each render module declares a `STATE_VERSION` const, and `loadState()` returns `null` when the saved `obj.v !== STATE_VERSION`.
 
-**A `STATE_VERSION` bump intentionally DROPS any in-progress state — there is no migration.** This is a deliberate decision, not an oversight: the persistence promise is scoped to *within a single version*. Bump `STATE_VERSION` whenever the saved-state shape changes so stale state is discarded cleanly rather than mis-read. If you ever need cross-version resume, add an explicit migration path in `loadState()` — do not assume one exists. Current versions: `labeled_location_quiz.py` = 5, `timeline_mcq_quiz.py` = 1.
+**A `STATE_VERSION` bump intentionally DROPS any in-progress state — there is no migration.** This is a deliberate decision, not an oversight: the persistence promise is scoped to *within a single version*. Bump `STATE_VERSION` whenever the saved-state shape changes so stale state is discarded cleanly rather than mis-read. If you ever need cross-version resume, add an explicit migration path in `loadState()` — do not assume one exists. Current versions: `labeled_location_quiz.py` = 5, `timeline_mcq_quiz.py` = 1, `lesson_quiz.py` = 1.
 
 To create a new tool **of an existing type**: copy the corresponding template folder, edit `spec.yaml`, run `make.py`. Do not duplicate render logic.
 
@@ -104,6 +104,7 @@ python3 make.py
   - CSV export of results (visible after completion)
   - `@media print` stylesheet for clean browser printing
   - All UI strings localized via `spec.ui` keys
+- Private textbook material (gitignored `tools/*/_source/`): scans `raw-{X}/` → page copies `stranice-{X}/sNN.jpg` → lesson notes `lekcije-{X}/{NN-slug}.md` (own words, every fact kept; never verbatim book text) + cropped figures `slike-{X}/{lekcija}/` with one `.md` note each. `python3 scripts/build_lekcije_graf.py tools/{predmet}/_source/lekcije-{X}` builds the lesson graph: `pojmovi-{X}/{slug}.md` (backlinks to lessons and images), a generated "Povezane lekcije" block in each note, and `INDEX.md`. Textbook images stay private — public tools use own or free-licence images.
 - One regenerator: `scripts/regenerate_index.py` — rebuilds top-level `index.html` from `tools/*/*/spec.yaml` + `shared/kurikulum/`. Run after adding a tool, after a tool's title/description/nivo/razred/lekcije change, or after a curriculum file changes. It warns about tools without `nivo`/`razred` and about `lekcije` missing from the curriculum.
 - Shared data: `shared/data/countries.geojson` (Natural Earth, ~3MB).
 - GitHub Pages: planned (not yet enabled). When enabled, root `index.html` becomes the tool index.
