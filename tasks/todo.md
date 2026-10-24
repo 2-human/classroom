@@ -78,3 +78,13 @@ Datum: 2026-10-24 · Status: **urađeno (nije commit-ovano)**
 - [x] `shared/kurikulum/osnovna/7/geografija.yaml` — 11 lekcija u 2 poglavlja; katalog prikazuje 7. razred
 - [ ] Za proveru u knjizi: str. 16 vrh i 17 dno odsečeni (tabela 17 država nepotpuna); str. 23 zadatak 2 (poveži) odsečen; T/N „najviša planina Crne Gore je Durmitor” (knjiga vs. Zla Kolata 2.534 m)
 - [x] Pilot kviz Južna Evropa (novi tip `lesson-quiz`): 28 zadataka, lestvica pomoći, Učenje/Test/Ispravka, karta (klikni, Gde sam?) — provereno u pregledaču (1440 i 375)
+
+# Kviz: testovi iz baze + beleženje
+
+Datum: 2026-10-24 · Status: **urađeno (nije commit-ovano)**
+
+- [x] Test se svaki put sastavlja nanovo: 2 nasumična zadatka po delu lekcije + 5 generisanih iz baze 17 država (glavni gradovi, klikni državu, poluostrvo, „Gde sam?” za glavni grad)
+- [x] Svaki test se beleži (localStorage): zadaci, svi odgovori učenika po zadatku, bodovi, Ispravka, ime; „Moji testovi”, Pregled rada, CSV za nastavnika
+- [x] Provereno u pregledaču: dva testa različitog sastava (preklapanje 5/15), generisani zadaci rešeni kroz kartu, Ispravka, pregled, CSV (16 redova)
+- [x] Slike iz udžbenika: zaštićena (šifrovana, lozinka) verzija `zasticeno/geografija/juzna-evropa-kviz/` — `scripts/build_zasticeno.py`, lozinka u Keychain-u; javni kviz bez slika, sa linkom ka zaštićenoj; katalog nudi obe. Provereno: pogrešna lozinka odbijena, tačna otvara kviz sa 13 slika, reload ne traži ponovo (ključ u sessionStorage).
+- STATE_VERSION 1 → 2 (stari lokalni napredak se briše — bio je samo test)

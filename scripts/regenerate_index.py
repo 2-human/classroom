@@ -15,6 +15,8 @@ Information architecture: školski nivo › razred › predmet › lekcija › a
       also the ones that have no tool yet.
     - Levels come from hub_shell.NIVOI; a level without tools is listed as empty.
     - PDF links only when radna.pdf / resenja.pdf exist beside the tool's index.html.
+    - A link to the password-protected copy when zasticeno/{predmet}/{slug}/bundle.enc exists
+      (scripts/build_zasticeno.py).
 
 The generated file is self-contained HTML on the same three-panel hub shell as the tools
 (shared/python/hub_shell.py): navigation = the tree, main = the chosen node, drawer = the
@@ -87,6 +89,7 @@ def collect_tools(repo_root):
             "description": (spec.get("description") or "").strip(),
             "href": rel + "index.html" if (folder / "index.html").exists() else "",
             "pdfs": pdfs,
+            "zasticeno": f"zasticeno/{predmet}/{slug}/" if (repo_root / "zasticeno" / predmet / slug / "bundle.enc").exists() else "",
         })
     return tools
 
@@ -329,6 +332,7 @@ function showTool(t, lv, g, s) {
   document.getElementById('drawerBody').innerHTML = '<span class="chip">' + esc(g.title) + ' · ' + esc(s.title) + '</span>' +
     (t.description ? '<p>' + esc(t.description) + '</p>' : '') +
     (t.href ? '<a class="open" href="' + t.href + '">Otvori interaktivni alat ›</a>' : '') +
+    (t.zasticeno ? '<p><a href="' + t.zasticeno + '">Verzija sa slikama iz udžbenika (lozinka) ›</a></p>' : '') +
     (les.length ? '<h3>Lekcije</h3><ul>' + les.map(l => '<li><a href="#/' + base + '/' + l.broj + '?t=' + t.slug + '">' + l.broj + '. ' + esc(l.naslov) + '</a></li>').join('') + '</ul>' : '') +
     (t.pdfs.length ? '<h3>Za štampu</h3><ul>' + t.pdfs.map(p => '<li><a href="' + p.href + '">' + esc(p.label) + '</a></li>').join('') + '</ul>' : '');
   drawer.classList.add('open'); drawer.setAttribute('aria-hidden', 'false');
