@@ -29,6 +29,8 @@ tools/{predmet}/{tool-slug}/
 
 Tools of the same TYPE share render logic in `shared/python/{type}.py`. The pilot type is **labeled-location-quiz** (`shared/python/labeled_location_quiz.py`).
 
+Every tool page (and the catalog `index.html`) uses the shared **hub shell**, `shared/python/hub_shell.py`: the three-panel layout from the Crēdo Marketing Hub (bar with `classroom › predmet › alat` crumbs and a ⋯ menu · navigation with a filter · main · a drawer for the chosen item). It is inlined into each page (`SHELL_CSS`, `SHELL_JS`), so tools stay single files that work from `file://`. New tool types should use it rather than their own header/columns; the markup contract is in the module docstring.
+
 ### State persistence (localStorage) — scoped to "within a version"
 
 Interactive tools persist in-progress student state to `localStorage` (keyed on the page path) so a refresh or accidental close keeps progress. Each render module declares a `STATE_VERSION` const, and `loadState()` returns `null` when the saved `obj.v !== STATE_VERSION`.
