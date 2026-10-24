@@ -540,18 +540,26 @@ function drawSession(n, seed) {
     while (out.length < list.length) for (const k of keys) if (groups[k].length) out.push(groups[k].shift());
     return out;
   };
-  const spread = list => {   // even over sections first, then over item types inside each section
+  // Per level, take items one at a time from the section that is furthest below its share of the
+  // whole bank (shares count across all levels, with a little randomness so draws differ); inside a
+  // section the items alternate by type (rr). A level that runs short is filled from the others.
+  const size = {}, taken = {};
+  for (const z of bank) size[z.deo] = (size[z.deo] || 0) + 1;
+  const pools = Object.fromEntries(TEZ.map(t => {
     const bySec = {};
-    for (const z of list) (bySec[z.deo] = bySec[z.deo] || []).push(z);
-    const secs = Object.fromEntries(Object.entries(bySec).map(([d, zs]) => [d, rr(zs, z => z.vrsta)]));
-    const keys = pickN(Object.keys(secs), Object.keys(secs).length, r), out = [];
-    while (out.length < list.length) for (const k of keys) if (secs[k].length) out.push(secs[k].shift());
-    return out;
+    for (const z of bank.filter(x => x.tezina === t)) (bySec[z.deo] = bySec[z.deo] || []).push(z);
+    return [t, Object.fromEntries(Object.entries(bySec).map(([d, zs]) => [d, rr(zs, x => x.vrsta)]))];
+  }));
+  const takeOne = t => {
+    const ks = Object.keys(pools[t]).filter(k => pools[t][k].length);
+    if (!ks.length) return null;
+    const k = ks.reduce((a, x) => ((taken[x] || 0) + r()) / size[x] < ((taken[a] || 0) + r()) / size[a] ? x : a);
+    taken[k] = (taken[k] || 0) + 1;
+    return pools[t][k].shift();
   };
-  const byLevel = Object.fromEntries(TEZ.map(t => [t, spread(bank.filter(z => z.tezina === t))]));
   const picked = [];
-  for (const t of TEZ) picked.push(...byLevel[t].splice(0, want[t]));
-  for (const t of ['srednje', 'lako', 'tesko']) while (picked.length < n && byLevel[t].length) picked.push(byLevel[t].shift());   // a level ran short
+  for (const t of TEZ) for (let i = 0; i < want[t]; i++) { const z = takeOne(t); if (z) picked.push(z); }
+  for (const t of ['srednje', 'lako', 'tesko']) { let z; while (picked.length < n && (z = takeOne(t))) picked.push(z); }   // a level ran short
   picked.sort((a, b) => a.deo - b.deo || TEZ.indexOf(a.tezina) - TEZ.indexOf(b.tezina));
   const secs = [];
   for (const z of picked) { const name = deoNaslov(z); let sec = secs.find(x => x.naslov === name); if (!sec) secs.push(sec = { naslov: name, ids: [] }); sec.ids.push(z.id); }
