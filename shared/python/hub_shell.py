@@ -42,9 +42,24 @@ PREDMET_TITLES = {
 
 BRAND = "classroom"
 
+# School levels, in catalog order. A level with no tools is still listed (as empty).
+NIVOI = [
+    ("osnovna", "Osnovna škola"),
+    ("srednja", "Srednja škola"),
+]
+NIVO_TITLES = dict(NIVOI)
+
 
 def predmet_title(predmet):
     return PREDMET_TITLES.get(predmet, predmet.replace("-", " ").title())
+
+
+def nivo_title(nivo):
+    return NIVO_TITLES.get(nivo, nivo.replace("-", " ").title())
+
+
+def razred_title(razred):
+    return f"{razred}. razred"
 
 
 def _repo_root(start):
@@ -55,23 +70,29 @@ def _repo_root(start):
     return None
 
 
-def brand_and_crumbs(output_path, title):
-    """Brand link to the catalog + `Predmet › Tool` crumbs for a tool at tools/{predmet}/{slug}/."""
+def brand_and_crumbs(output_path, title, spec=None):
+    """Brand link to the catalog + crumbs `Nivo › Razred › Predmet › Tool` for a tool at
+    tools/{predmet}/{slug}/; the crumbs link to the catalog's routes. Without `nivo`/`razred`
+    in the spec the level and grade crumbs are left out."""
     out = pathlib.Path(output_path).resolve()
     root = _repo_root(out.parent)
     catalog = os.path.relpath(root / "index.html", out.parent) if root else "index.html"
     catalog = catalog.replace(os.sep, "/")
     predmet = out.parent.parent.name
     slug = out.parent.name
+    spec = spec or {}
     esc = _html.escape
-    return (
-        f'<a class="brand" href="{esc(catalog)}">{BRAND}</a>'
-        '<nav class="app-crumbs" aria-label="Putanja">'
-        f'<a href="{esc(catalog)}#/{esc(predmet)}">{esc(predmet_title(predmet))}</a>'
-        '<span class="sep">›</span>'
-        f'<a class="cur" href="{esc(catalog)}#/{esc(predmet)}/{esc(slug)}">{esc(title)}</a>'
-        '</nav>'
-    )
+    sep = '<span class="sep">›</span>'
+    parts, path = [], ""
+    if spec.get("nivo") and spec.get("razred"):
+        path = f'{spec["nivo"]}/{spec["razred"]}'
+        parts.append(f'<a href="{esc(catalog)}#/{esc(spec["nivo"])}">{esc(nivo_title(spec["nivo"]))}</a>')
+        parts.append(f'<a href="{esc(catalog)}#/{esc(path)}">{esc(razred_title(spec["razred"]))}</a>')
+    subj = f"{path}/{predmet}" if path else predmet
+    parts.append(f'<a href="{esc(catalog)}#/{esc(subj)}">{esc(predmet_title(predmet))}</a>')
+    parts.append(f'<a class="cur" href="{esc(catalog)}#/{esc(subj)}?t={esc(slug)}">{esc(title)}</a>')
+    return (f'<a class="brand" href="{esc(catalog)}">{BRAND}</a>'
+            '<nav class="app-crumbs" aria-label="Putanja">' + sep.join(parts) + '</nav>')
 
 
 SHELL_CSS = r"""

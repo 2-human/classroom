@@ -2811,7 +2811,7 @@ def render_html(spec, output_path, map_width_px=1160.0):
     repl = {
         "__SHELL_CSS__": SHELL_CSS,
         "__SHELL_JS__": SHELL_JS,
-        "__BRAND_CRUMBS__": brand_and_crumbs(output_path, spec.get("title_short") or ui["header_title"]),
+        "__BRAND_CRUMBS__": brand_and_crumbs(output_path, spec.get("title_short") or ui["header_title"], spec),
         "__FILTER_PH__": _html.escape(ui["filter_placeholder"], quote=True),
         "__TAB_MAP__": _html.escape(ui["tab_map"]),
         "__TAB_RESULTS__": _html.escape(ui["tab_results"]),

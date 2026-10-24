@@ -1082,7 +1082,7 @@ def render_html(spec, output_path):
     repl = {
         "__SHELL_CSS__": SHELL_CSS,
         "__SHELL_JS__": SHELL_JS,
-        "__BRAND_CRUMBS__": brand_and_crumbs(output_path, spec.get("title_short") or ui["header_title"]),
+        "__BRAND_CRUMBS__": brand_and_crumbs(output_path, spec.get("title_short") or ui["header_title"], spec),
         "__NAV_HTML__": nav_html,
         "__FILTER_PH__": _escape(ui["filter_placeholder"]),
         "__BTN_DESC__": _escape(ui["btn_desc"]),
