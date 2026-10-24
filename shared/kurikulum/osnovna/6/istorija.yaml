@@ -1,0 +1,46 @@
+# Istorija — 6. razred osnovne škole: poglavlja i lekcije po udžbeniku.
+# Alati se vezuju za lekcije poljem `lekcije: [broj, ...]` u svom spec.yaml.
+# Katalog (scripts/regenerate_index.py) prikazuje sve lekcije — i one za koje još nema alata.
+nivo: osnovna
+razred: 6
+predmet: istorija
+udzbenik: Aleksandar Todosijević, Istorija 6, Eduka, 2021
+poglavlja:
+  - naslov: I — Osnovi proučavanja prošlosti
+    lekcije:
+      - {broj: 1, naslov: Osnovne odlike srednjeg veka}
+      - {broj: 2, naslov: Istorijski izvori za istoriju srednjeg veka}
+  - naslov: II — Evropa, Sredozemlje i srpske zemlje u ranom srednjem veku
+    lekcije:
+      - {broj: 3, naslov: Rađanje Evrope}
+      - {broj: 4, naslov: Nastanak feudalnog društva}
+      - {broj: 5, naslov: Hrišćanska crkva}
+      - {broj: 6, naslov: Vizantija do XII veka}
+      - {broj: 7, naslov: Islamski svet}
+      - {broj: 8, naslov: Sloveni i njihovo naseljavanje Balkanskog poluostrva}
+      - {broj: 9, naslov: Srbi od VII do XII veka}
+      - {broj: 10, naslov: Pokrštavanje Srba i drugih južnih Slovena i njihova rana kultura}
+  - naslov: III — Evropa, Sredozemlje i srpske zemlje u poznom srednjem veku
+    lekcije:
+      - {broj: 11, naslov: Evropske monarhije}
+      - {broj: 12, naslov: Krstaški ratovi}
+      - {broj: 13, naslov: Svakodnevni život u srednjem veku}
+      - {broj: 14, naslov: Srednjovekovna kultura}
+      - {broj: 15, naslov: Nastanak države Nemanjića}
+      - {broj: 16, naslov: Uspon srpske države}
+      - {broj: 17, naslov: Srpsko carstvo}
+      - {broj: 18, naslov: Kraj srpskog carstva}
+      - {broj: 19, naslov: Srednjovekovna Bosna}
+      - {broj: 20, naslov: Društvo i kultura Srba}
+      - {broj: 21, naslov: Turci Osmanlije i njihova osvajanja na Balkanu}
+      - {broj: 22, naslov: Država srpskih despota i okolne zemlje}
+  - naslov: IV — Evropa, svet i srpske zemlje u ranom novom veku
+    lekcije:
+      - {broj: 23, naslov: Osnovne odlike novog veka}
+      - {broj: 24, naslov: Doba velikih geografskih otkrića}
+      - {broj: 25, naslov: Humanizam i renesansa}
+      - {broj: 26, naslov: Reformacija}
+      - {broj: 27, naslov: Apsolutističke monarhije}
+      - {broj: 28, naslov: Osmansko carstvo na vrhuncu moći}
+      - {broj: 29, naslov: Srbi pod osmanskom vlašću}
+      - {broj: 30, naslov: Srbi pod Habzburškom i Mletačkom vlašću}

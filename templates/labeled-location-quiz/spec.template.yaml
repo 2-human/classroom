@@ -10,6 +10,10 @@
 title: "{Pun naziv kviza, npr. 'Azija — geografski kviz'}"
 title_short: "{Kratak naziv za HTML <title>, npr. 'Azija'}"
 locale: sr            # ili en, de, hr, bs, mk... — koristi se za <html lang="">
+nivo: osnovna         # osnovna | srednja — mesto u katalogu (nivo › razred › predmet › lekcija)
+razred: "{broj razreda, npr. 7}"
+# lekcije: [3, 4]     # opciono: brojevi lekcija iz shared/kurikulum/{nivo}/{razred}/{predmet}.yaml;
+#                     # bez ovog polja alat važi za ceo predmet
 
 # Default je true: brojevi pojmova se nasumično preraspoređuju pri svakom
 # fresh load-u / reset-u / promeni moda, pa učenik ne pamti unose po brojevima.

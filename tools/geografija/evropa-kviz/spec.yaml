@@ -1,6 +1,8 @@
 title: Evropa — geografski kviz
 title_short: Evropa
 locale: sr
+nivo: osnovna
+razred: 6
 randomize_numbers: true
 description: 'Učenik upisuje broj pojma sa spiska u kvadrat na karti koji označava njegovu geografsku lokaciju. Ako pogreši, sistem traži ponovan unos i broji greške po polju i ukupno.
 
