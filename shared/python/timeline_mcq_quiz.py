@@ -18,8 +18,12 @@ Spec.yaml schema (top-level keys):
 Output:
   render_html(spec, path) — single self-contained HTML page.
 
+Layout: the classroom hub shell (shared/python/hub_shell.py) — navigation = the events
+grouped by lane with their status, main = the timeline, drawer = the chosen event's card
+(date inputs + MCQs). An event is chosen in the navigation or by clicking it on the timeline.
+
 UX flow:
-  1. Student sees list of event cards on the left.
+  1. Student picks an event (navigation list or timeline); its card opens in the drawer.
   2. Each card has date input(s) + "Proveri datum" button.
   3. Wrong date → shake + miss++ + retry.
   4. Correct date → bar/dot appears on timeline lane;
@@ -38,6 +42,8 @@ import json as _json
 import math
 import pathlib
 import yaml
+
+from hub_shell import SHELL_CSS, SHELL_JS, brand_and_crumbs
 
 
 # ---------------------------------------------------------------------------
@@ -96,6 +102,12 @@ def _ui_default():
         "mcq_instruction": "Odaberi sve tačne odgovore (može biti više od jednog), pa klikni Proveri.",
         "label_event_name": "Događaj",
         "resume_indicator": "Nastavak prethodne sesije — tvoj progres je sačuvan.",
+        "filter_placeholder": "Nađi događaj",
+        "btn_desc": "Opis",
+        "btn_desc_ok": "Razumem",
+        "btn_close": "Zatvori",
+        "btn_prev": "Prethodni",
+        "btn_next": "Sledeći",
     }
 
 
@@ -116,29 +128,46 @@ _HTML_TPL = r"""<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>__TITLE__</title>
 <style>
+__SHELL_CSS__
  :root{--bg:#faf8f2;--ink:#2b2b2b;--muted:#6b6456;--edge:#b1271f;--accent:#1f7a3a;--border:#e6e0d2;--surface:#fff;--soft:#fefcf7;}
  *{box-sizing:border-box}
  body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.45}
- header{padding:14px 18px;background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:50}
- h1{margin:0 0 4px;font-size:19px;color:#3a3528}
- .sub{font-size:13px;color:var(--muted);margin:0;max-width:980px}
- .bar{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:10px;font-size:14px}
- .stat{background:#f3ecd8;border:1px solid #e1d8c2;border-radius:8px;padding:6px 12px}
- .stat b{font-size:16px}
+ .bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:14px}
+ .stat{background:#f3ecd8;border:1px solid #e1d8c2;border-radius:8px;padding:4px 10px}
+ .stat b{font-size:15px}
+ .bar-menu-btn{padding:5px 12px;font-size:16px;line-height:1;border-color:var(--muted);color:#3a3528}
+ .bar-menu-btn:hover{background:#f3ecd8;color:#3a3528}
+ .bar-menu button{width:100%;text-align:left}
+ .intro p{font-size:14px;color:#4a4434;line-height:1.6;margin:0}
+ .desc-ok{margin-top:18px}
  .ok{color:var(--accent)} .bad{color:var(--edge)}
  button{font:inherit;padding:7px 14px;border:1px solid var(--edge);background:var(--surface);color:var(--edge);border-radius:8px;cursor:pointer}
  button:hover{background:var(--edge);color:#fff}
  button.success{border-color:var(--accent);color:var(--accent)}
  button.success:hover{background:var(--accent);color:#fff}
- .resume-banner{display:none;margin-top:8px;background:#fffbe6;border:1px solid #f0d878;border-radius:8px;padding:6px 12px;font-size:13px;color:#7a5a00}
+ .resume-banner{display:none;margin:0 0 8px;background:#fffbe6;border:1px solid #f0d878;border-radius:8px;padding:6px 12px;font-size:13px;color:#7a5a00}
  .resume-banner.show{display:block}
 
- .layout{display:grid;grid-template-columns:minmax(360px, 480px) 1fr;align-items:flex-start;gap:0}
- .events-col{padding:14px 16px;border-right:1px solid var(--border);background:var(--surface);max-height:calc(100vh - var(--htop,0px));overflow:auto;position:sticky;top:var(--htop,0px)}
- .events-col h2{margin:0 0 12px;font-size:15px;color:#3a3528}
- .timeline-col{padding:16px;min-width:0}
-
+ /* Three panels (hub_shell): navigation = events by lane · main = timeline · drawer = the chosen event */
+ .app-nav .sec .sw{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px}
+ .ev-row{display:flex;align-items:center;gap:8px;width:100%;border:0;border-radius:5px;background:none;color:var(--ink);font:inherit;font-size:13px;text-align:left;padding:5px 6px;cursor:pointer}
+ .ev-row:hover{background:#f6f1e4;color:var(--ink)}
+ .ev-row.sel{background:#efe7d2;font-weight:600}
+ .ev-row .st{flex:0 0 14px;text-align:center;color:#b9b2a0}
+ .ev-row.part .st{color:#c98a2c}
+ .ev-row.done .st{color:var(--accent)}
+ .ev-row .name{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+ .ev-row .yr{flex:0 0 auto;font-size:11px;color:var(--muted);font-weight:400;font-variant-numeric:tabular-nums}
  ol.events{list-style:none;padding:0;margin:0}
+ ol.events > .event:not(.sel){display:none}
+ .drawer-body .event{background:none;border:0;padding:0;margin:0}
+ .drawer-body .event-name{display:none}
+ .app-drawer.intro-on ol.events, .app-drawer.intro-on .ev-nav{display:none}
+ .ev-nav{display:flex;justify-content:space-between;gap:8px}
+ .ev-nav button{padding:5px 12px;font-size:13px}
+ .ev-nav button:disabled{opacity:.4;cursor:default;background:var(--surface);color:var(--edge)}
+ svg .tl-event{cursor:pointer}
+ svg .tl-event.sel rect, svg .tl-event.sel circle{stroke:#3a3528;stroke-width:2}
  .event{background:var(--soft);border:1px solid var(--border);border-radius:10px;padding:12px 14px;margin-bottom:10px;transition:border-color .15s,background .15s}
  .event.locked{background:#d8f0dd;border-color:var(--accent)}
  .event-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
@@ -186,7 +215,7 @@ _HTML_TPL = r"""<!DOCTYPE html>
  .mcq-q.locked .feedback-locked{display:inline-block;color:var(--accent);font-size:12px;font-weight:600}
  .feedback-locked{display:none}
 
- .timeline-col{display:flex;flex-direction:column;height:calc(100vh - var(--htop,0px));position:sticky;top:var(--htop,0px)}
+ .timeline-col{display:flex;flex-direction:column;padding:14px 16px}
  .timeline-col h2{margin:0 0 8px;font-size:15px;color:#3a3528;flex:0 0 auto;padding:0 4px}
  .timeline-wrap{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 8px 8px;flex:1 1 auto;min-height:0;display:flex;flex-direction:column}
  svg.timeline{width:100%;height:100%;flex:1 1 auto;min-height:0;display:block;background:#faf8f2;border-radius:6px}
@@ -195,32 +224,40 @@ _HTML_TPL = r"""<!DOCTYPE html>
  #msg.show{opacity:1}
  .win{background:#d8f0dd;border-color:var(--accent);color:#13602c;font-weight:700;padding:6px 14px;border-radius:8px;display:none}
 
- @media (max-width:860px){
-   .layout{grid-template-columns:1fr}
-   .events-col{position:static;max-height:none;border-right:none;border-bottom:1px solid var(--border)}
-   .timeline-wrap{position:static}
+ @media (max-width:760px){
+   .timeline-col{padding:8px}
+   .bar{flex-wrap:nowrap;gap:6px}
+   .stat{padding:3px 7px;font-size:12px} .stat b{font-size:13px}
+   .bar-menu-btn{padding:4px 9px}
  }
 </style>
 </head>
-<body>
-<header>
- <h1>__HDR_TITLE__</h1>
- <p class="sub">__HDR_SUB__</p>
- <div class="bar">
+<body class="app-body">
+<header class="app-bar">
+ <button class="app-menu" id="app-menu" aria-label="__EVENTS_HEAD__" aria-expanded="false">&#9776;</button>
+ __BRAND_CRUMBS__
+ <div class="bar bar-right">
   <span class="stat">__LBL_CORRECT__: <b class="ok" id="cCorrect">0</b> / <b id="cTotal">__TOTAL__</b></span>
   <span class="stat">__LBL_MISS__: <b class="bad" id="cMiss">0</b></span>
-  <button id="reset">__BTN_RESET__</button>
   <span class="stat win" id="win"></span>
+  <span class="bar-menu-wrap">
+   <button type="button" class="bar-menu-btn" data-menu="barMenu" aria-label="Podešavanja" aria-expanded="false">&#8943;</button>
+   <div class="bar-menu" id="barMenu">
+    <button id="descBtn">__BTN_DESC__</button>
+    <button id="reset">__BTN_RESET__</button>
+   </div>
+  </span>
  </div>
- <div id="resumeBanner" class="resume-banner">__RESUME_MSG__</div>
 </header>
+<template id="introTpl"><div class="intro"><p>__HDR_SUB__</p><button type="button" class="desc-ok" data-intro-ok>__BTN_DESC_OK__</button></div></template>
 
-<div class="layout">
- <aside class="events-col">
-  <h2>__EVENTS_HEAD__</h2>
-  <ol class="events">__EVENTS_HTML__</ol>
- </aside>
- <main class="timeline-col">
+<div class="app-grid">
+ <nav class="app-nav" id="app-nav" aria-label="__EVENTS_HEAD__">
+  <div id="resumeBanner" class="resume-banner">__RESUME_MSG__</div>
+  <input class="app-filter" id="app-filter" type="search" placeholder="__FILTER_PH__" aria-label="__FILTER_PH__">
+  __NAV_HTML__
+ </nav>
+ <main class="app-main timeline-col">
   <div class="timeline-wrap">
    <h2>__TIMELINE_HEAD__</h2>
    <svg class="timeline" id="timeline" viewBox="0 0 __TL_W__ __TL_H__" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
@@ -229,9 +266,18 @@ _HTML_TPL = r"""<!DOCTYPE html>
   </div>
  </main>
 </div>
+<aside class="app-drawer" id="drawer" aria-hidden="true">
+ <div class="drawer-head"><h2 id="drawerTitle"></h2><button class="drawer-close" id="drawerClose" aria-label="__CLOSE__" title="__CLOSE__">&times;</button></div>
+ <div class="drawer-body" id="drawerBody">
+  <div id="drawerIntro"></div>
+  <ol class="events">__EVENTS_HTML__</ol>
+ </div>
+ <div class="drawer-foot ev-nav"><button type="button" id="evPrev">&lsaquo; __PREV__</button><button type="button" id="evNext">__NEXT__ &rsaquo;</button></div>
+</aside>
 
 <div id="msg"></div>
 
+<script>__SHELL_JS__</script>
 <script>
 const ALL_EVENTS = __EVENTS_JSON__;
 const LANES = __LANES_JSON__;
@@ -272,6 +318,7 @@ const win = document.getElementById('win');
 const resetBtn = document.getElementById('reset');
 const resumeBanner = document.getElementById('resumeBanner');
 const svg = document.getElementById('timeline');
+let selId = null;   // the event shown in the drawer
 
 let msgT = null;
 
@@ -394,6 +441,7 @@ function drawEventOnTimeline(ev) {
     lbl.textContent = ev.name + ' (' + yr + ')';
     g.appendChild(lbl);
   }
+  if (ev.id === selId) g.classList.add('sel');
   svg.appendChild(g);
 }
 
@@ -517,6 +565,7 @@ function recountAll() {
   }
   cCorrect.textContent = correct;
   cMiss.textContent = miss;
+  refreshNav();
   const total = parseInt(cTotal.textContent);
   if (correct === total) {
     win.style.display = 'inline-block';
@@ -659,6 +708,100 @@ resetBtn.addEventListener('click', () => {
   recountAll();
 });
 
+// --- navigation status: ○ open · ◐ date found · ✓ date + all questions ---
+function refreshNav() {
+  const lanes = {};
+  for (const card of document.querySelectorAll('.event')) {
+    const id = parseInt(card.dataset.id);
+    const ev = ALL_EVENTS.find(e => e.id === id);
+    const row = document.querySelector('#app-nav .ev-row[data-ev="' + id + '"]');
+    const dateOk = card.classList.contains('date-correct');
+    const done = dateOk && [...card.querySelectorAll('.mcq-q')].every(q => q.classList.contains('locked'));
+    row.classList.toggle('done', done);
+    row.classList.toggle('part', dateOk && !done);
+    row.querySelector('.st').textContent = done ? '✓' : (dateOk ? '◐' : '○');
+    row.querySelector('.yr').textContent = dateOk ? formatCorrectDate(ev) : '';
+    const l = lanes[ev.lane] = lanes[ev.lane] || [0, 0];
+    l[1]++; if (done) l[0]++;
+  }
+  for (const [lane, [d, n]] of Object.entries(lanes)) {
+    const c = document.querySelector('#app-nav [data-lane-cnt="' + lane + '"]');
+    if (c) c.textContent = d + ' / ' + n;
+  }
+}
+
+// --- drawer: the chosen event (or the "Kako se igra" intro) ---
+const drawer = document.getElementById('drawer');
+const drawerTitle = document.getElementById('drawerTitle');
+const drawerBody = document.getElementById('drawerBody');
+const drawerIntro = document.getElementById('drawerIntro');
+const evPrev = document.getElementById('evPrev'), evNext = document.getElementById('evNext');
+const INTRO_TITLE = __INTRO_TITLE__;
+const DESC_KEY = 'classroom-desc:' + window.location.pathname;
+function openDrawer() { drawer.classList.add('open'); drawer.setAttribute('aria-hidden', 'false'); }
+function closeDrawer() { drawer.classList.remove('open'); drawer.setAttribute('aria-hidden', 'true'); }
+function visibleRows() { return [...document.querySelectorAll('#app-nav .ev-row')].filter(r => !r.classList.contains('f-hide')); }
+function selectEvent(id) {
+  const ev = ALL_EVENTS.find(e => e.id === id);
+  if (!ev) return;
+  hideIntro(true);
+  selId = id;
+  for (const c of document.querySelectorAll('.event')) c.classList.toggle('sel', parseInt(c.dataset.id) === id);
+  for (const r of document.querySelectorAll('#app-nav .ev-row')) r.classList.toggle('sel', parseInt(r.dataset.ev) === id);
+  for (const g of svg.querySelectorAll('g.tl-event')) g.classList.toggle('sel', parseInt(g.dataset.eventId) === id);
+  drawerTitle.textContent = ev.name;
+  drawerBody.scrollTop = 0;
+  openDrawer();
+  HubShell.setNav(false);
+  const row = document.querySelector('#app-nav .ev-row[data-ev="' + id + '"]');
+  if (row) row.scrollIntoView({ block: 'nearest' });
+  const rows = visibleRows(), i = rows.indexOf(row);
+  evPrev.disabled = i <= 0;
+  evNext.disabled = i < 0 || i >= rows.length - 1;
+  const first = document.querySelector('.event.sel input[type=number]:not([readonly])');
+  if (first && !HubShell.navOverlay()) first.focus({ preventScroll: true });
+}
+function stepEvent(d) {
+  const rows = visibleRows();
+  const i = rows.findIndex(r => parseInt(r.dataset.ev) === selId);
+  const r = rows[i + d];
+  if (r) selectEvent(parseInt(r.dataset.ev));
+}
+function showIntro() {
+  drawerIntro.innerHTML = document.getElementById('introTpl').innerHTML;
+  drawer.classList.add('intro-on');
+  drawerTitle.textContent = INTRO_TITLE;
+  openDrawer();
+}
+function hideIntro(keepOpen) {
+  if (!drawer.classList.contains('intro-on')) return;
+  try { localStorage.setItem(DESC_KEY, '1'); } catch (e) {}
+  drawer.classList.remove('intro-on');
+  drawerIntro.innerHTML = '';
+  if (keepOpen) return;
+  const ev = ALL_EVENTS.find(e => e.id === selId);
+  if (ev) { drawerTitle.textContent = ev.name; return; }
+  closeDrawer();
+  if (HubShell.navOverlay()) HubShell.setNav(true);   // phone: start from the list
+}
+document.getElementById('app-nav').addEventListener('click', e => {
+  const r = e.target.closest('.ev-row');
+  if (r) selectEvent(parseInt(r.dataset.ev));
+});
+svg.addEventListener('click', e => {
+  const g = e.target.closest('g.tl-event');
+  if (g) selectEvent(parseInt(g.dataset.eventId));
+});
+evPrev.addEventListener('click', () => stepEvent(-1));
+evNext.addEventListener('click', () => stepEvent(1));
+document.getElementById('drawerClose').addEventListener('click', () => {
+  if (drawer.classList.contains('intro-on')) { hideIntro(false); return; }
+  closeDrawer();
+  if (HubShell.navOverlay()) HubShell.setNav(true);
+});
+drawerIntro.addEventListener('click', e => { if (e.target.closest('[data-intro-ok]')) hideIntro(false); });
+document.getElementById('descBtn').addEventListener('click', showIntro);
+
 // --- init ---
 function setHeaderTop() {
   const h = document.querySelector('header').offsetHeight;
@@ -669,6 +812,10 @@ setHeaderTop();
 const saved = loadState();
 if (saved) applyState(saved);
 recountAll();
+let introSeen = false;
+try { introSeen = localStorage.getItem(DESC_KEY) === '1'; } catch (e) {}
+if (!introSeen) showIntro();
+else if (HubShell.navOverlay()) HubShell.setNav(true);
 </script>
 </body>
 </html>"""
@@ -748,6 +895,24 @@ def _render_event_card(ev, lanes_by_id, ui):
         f'{mcq_html}'
         f'</li>'
     )
+
+
+def _render_nav(events, lanes):
+    """Navigation: one group per lane (spec order), its events in spec order."""
+    out = []
+    for lane in lanes:
+        rows = "".join(
+            f'<button type="button" class="ev-row" data-ev="{ev["id"]}" data-filter="{_escape(ev["name"])}">'
+            f'<span class="st">○</span><span class="name">{_escape(ev["name"])}</span><span class="yr"></span></button>'
+            for ev in events if ev["lane"] == lane["id"]
+        )
+        if not rows:
+            continue
+        out.append(
+            f'<div data-filter-group><div class="sec"><span><span class="sw" style="background:{lane["color"]}"></span>'
+            f'{_escape(lane["label"])}</span><span class="cnt" data-lane-cnt="{_escape(lane["id"])}"></span></div>{rows}</div>'
+        )
+    return "".join(out)
 
 
 def _escape(s):
@@ -892,8 +1057,9 @@ def render_html(spec, output_path):
         "lane_padding": lane_padding,
     }
 
-    # Events HTML
+    # Events HTML (cards live in the drawer, one shown at a time) + the navigation list
     events_html = "".join(_render_event_card(ev, lanes_by_id, ui) for ev in events)
+    nav_html = _render_nav(events, lanes)
 
     # Timeline background SVG
     timeline_bg = _render_timeline_bg(timeline, lanes, ui)
@@ -914,6 +1080,17 @@ def render_html(spec, output_path):
         })
 
     repl = {
+        "__SHELL_CSS__": SHELL_CSS,
+        "__SHELL_JS__": SHELL_JS,
+        "__BRAND_CRUMBS__": brand_and_crumbs(output_path, spec.get("title_short") or ui["header_title"]),
+        "__NAV_HTML__": nav_html,
+        "__FILTER_PH__": _escape(ui["filter_placeholder"]),
+        "__BTN_DESC__": _escape(ui["btn_desc"]),
+        "__BTN_DESC_OK__": _escape(ui["btn_desc_ok"]),
+        "__CLOSE__": _escape(ui["btn_close"]),
+        "__PREV__": _escape(ui["btn_prev"]),
+        "__NEXT__": _escape(ui["btn_next"]),
+        "__INTRO_TITLE__": _json.dumps(ui["header_title"], ensure_ascii=False),
         "__LOCALE__": spec.get("locale", "en"),
         "__TITLE__": ui["header_title"],
         "__HDR_TITLE__": ui["header_title"],
