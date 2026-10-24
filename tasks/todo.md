@@ -96,4 +96,8 @@ Datum: 2026-10-24 · Status: **urađeno (nije commit-ovano)**
 - [x] banka.yaml: 136 zadataka (51 lako / 55 srednje / 30 teško), svih 7 vrsta u sve 3 težine; 28 starih zadržano; ispravljen presečen odgovor „agrumi (limun, pomorandža)”
 - [x] Generator: `tezina` obavezna, oznake L/S/T u listi i zaglavlju, Učenje = izvučena sesija (20), Test = 15, odnos 40/40/20, ravnomerno po delovima pa vrstama; generisani zadaci dobijaju težinu iz baze; `banka:` fajl; STATE_VERSION 3
 - [x] Provereno u pregledaču: 4 sesije 8/8/4 i test 6/6/3, 2–5 zadataka po delu, 6–7 vrsta
-- [ ] Ostalih 10 lekcija: isti obrazac (beleška → banka.yaml → kviz) posle provere pilota
+- [x] Ostalih 10 lekcija (2026-10-24): po jedan agent po lekciji (zajednički brief), svaki kviz sa spec.yaml + banka.yaml + make.py; ukupno 11 kvizova i 1.071 zadatak (402 L / 424 S / 245 T), sve vrste u sve tri težine u svakom kvizu
+- [x] Provera: svi spec-ovi prolaze load_spec, bez duplih id-jeva, svi ciljevi karte unutar okvira, sve slike postoje; u pregledaču svaki kviz izvlači 8/8/4 (SFRJ 6/6/3) i crta kartu
+- [x] Izvlačenje: udeo dela lekcije srazmeran njegovoj veličini u celoj banci (preko svih težina, uz slučajnost) — mali delovi više nisu prenaglašeni
+- [x] Zaštićene kopije za svih 11 (zasticeno/geografija/*/), katalog sa linkovima
+- Napomene agenata: brojevi strana u iz_udzbenika su procena gde beleška ne deli strane (Crna Gora, Italija, Španija); nesigurna mesta iz skenova izostavljena (Crna Gora: najviša planina, odsečen zadatak str. 23)
