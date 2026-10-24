@@ -1,0 +1,86 @@
+# ============================================================================
+# {NAZIV KVIZA} (spec.yaml) — tip: lesson-quiz (kviz po lekciji)
+# ----------------------------------------------------------------------------
+# Kopiraj folder u tools/{predmet}/{slug}/, preimenuj ovaj fajl u spec.yaml, popuni, pa:
+#   python3 make.py
+# Pitanja piši SOPSTVENIM rečima (ne prepisuj udžbenik). Pun primer:
+# tools/geografija/juzna-evropa-kviz/spec.yaml
+# ============================================================================
+title: "{Lekcija} — kviz"
+title_short: "{Lekcija}"
+locale: sr
+nivo: osnovna            # osnovna | srednja
+razred: 7
+lekcije: [2]             # brojevi lekcija iz shared/kurikulum/{nivo}/{razred}/{predmet}.yaml
+description: >-
+  {Jedna-dve rečenice: šta kviz proverava.}
+
+# Opciono — samo ako ima zadataka na karti (karta_klik, gde_sam).
+karta:
+  extent: {lon: [-10.5, 30.5], lat: [34.3, 47.6]}
+  mid_lat_for_aspect: 41
+  geo_data: ../../../shared/data/countries.geojson
+  drzave: {ITA: Italija}           # ISO3 (ADM0_A3) → naziv; samo ove su klikabilne
+  spoji: {}                        # npr. {KOS: SRB}: crta se i broji kao druga država
+  mesta:                           # ciljevi-tačke (gradovi, ostrva, minijaturne države)
+    rim: {naziv: Rim, lat: 41.9, lon: 12.5, radius_km: 80}
+
+pojmovi:                 # slug → naziv; slugovi iz grafa lekcija (pojmovi-{razred}/)
+  italija: Italija
+
+delovi:                  # delovi lekcije = grupe u navigaciji
+  - naslov: "{Deo lekcije}"
+    zadaci:
+      # Svaki zadatak: id, vrsta, pojmovi, pomoc (2–3 stepenika: usmeri → suzi → „Iz lekcije: …”),
+      # objasnjenje (prikazuje se posle tačnog ili otkrivenog odgovora).
+      - id: primer-izbor
+        vrsta: izbor                 # jedan tačan → klik proverava; više tačnih → Proveri
+        pojmovi: [italija]
+        pitanje: "{Pitanje?}"
+        odgovori:
+          - {tekst: "{tačno}", tacan: true}
+          - {tekst: "{netačno}", tacan: false}
+        pomoc: ["{usmeri}", "{suzi}", "Iz lekcije: {…}"]
+        objasnjenje: "{…}"
+      - id: primer-tn
+        vrsta: tacno_netacno
+        tvrdnja: "{Tvrdnja.}"
+        tacno: false
+        ispravke:                    # samo za netačnu tvrdnju; tačno jedna ispravna
+          - {tekst: "{ispravka}", tacan: true}
+          - {tekst: "{pogrešna ispravka}", tacan: false}
+        pomoc: ["{…}", "{…}"]
+        objasnjenje: "{…}"
+      - id: primer-dopuni
+        vrsta: dopuni
+        pitanje: Dopuni rečenicu.
+        tekst: "Glavni grad Italije je {{Rim}}; najveća reka je {{Po|reka Po}}."   # {{odgovor|drugi prihvatljiv}}
+        ponudjene: [Rim, Milano, Po, Tibar]   # opciono: banka reči (inače se upisuje)
+        pomoc: ["{…}"]
+        objasnjenje: "{…}"
+      - id: primer-povezi
+        vrsta: povezi
+        pitanje: Poveži …
+        parovi: [[Italija, Rim], [Španija, Madrid]]
+        pomoc: ["{…}"]
+        objasnjenje: "{…}"
+      - id: primer-zakljuci
+        vrsta: zakljuci              # kao izbor sa jednim tačnim; pomoć su koraci rasuđivanja
+        pitanje: "Zašto …?"
+        odgovori:
+          - {tekst: "{najbolje objašnjenje}", tacan: true}
+          - {tekst: "{…}", tacan: false}
+        pomoc: ["Korak 1: {…}", "Korak 2: {…}", "Iz lekcije: {…}"]
+        objasnjenje: "{model odgovor}"
+      - id: primer-karta
+        vrsta: karta_klik
+        pitanje: Klikni na Italiju.
+        cilj: {drzava: ITA}          # ili {mesto: rim}
+        pomoc: ["{…}", "{…}"]
+        objasnjenje: "{…}"
+      - id: primer-gde-sam
+        vrsta: gde_sam               # tragovi od najtežeg ka najlakšem; svaki novi = manje bodova
+        pitanje: Gde sam? Pročitaj trag i klikni mesto na karti.
+        cilj: {mesto: rim}
+        tragovi: ["{trag 1}", "{trag 2}", "{trag 3}"]
+        objasnjenje: "{…}"
