@@ -1,0 +1,494 @@
+# Južna Evropa — kviz po lekciji (tip: lesson-quiz; vidi templates/lesson-quiz/README.md).
+# Pitanja su napisana sopstvenim rečima na osnovu lekcije „Južna Evropa” (7. razred, str. 14–17).
+title: Južna Evropa — kviz
+title_short: Južna Evropa
+locale: sr
+nivo: osnovna
+razred: 7
+lekcije: [2]
+description: >-
+  Kviz za lekciju Južna Evropa: činjenice, tačno/netačno sa ispravkom, dopunjavanje, povezivanje,
+  zaključivanje i karta (klikni državu, „Gde sam?”). Posle svake greške u fioci desno stiže sledeći
+  stepenik pomoći.
+
+karta:
+  extent: {lon: [-10.5, 30.5], lat: [34.3, 47.6]}
+  mid_lat_for_aspect: 41
+  geo_data: ../../../shared/data/countries.geojson
+  # Države Južne Evrope (klikabilne). KOS se crta i broji kao deo Srbije (stav udžbenika).
+  drzave:
+    PRT: Portugalija
+    ESP: Španija
+    AND: Andora
+    ITA: Italija
+    VAT: Vatikan
+    SMR: San Marino
+    MCO: Monako
+    MLT: Malta
+    SVN: Slovenija
+    HRV: Hrvatska
+    BIH: Bosna i Hercegovina
+    SRB: Srbija
+    MNE: Crna Gora
+    MKD: Severna Makedonija
+    ALB: Albanija
+    GRC: Grčka
+    BGR: Bugarska
+  spoji: {KOS: SRB}
+  # Tačke za zadatke kojima je cilj mesto (premale ili nisu država). Ne crtaju se dok se ne pogode.
+  mesta:
+    vatikan: {naziv: Vatikan, lat: 41.903, lon: 12.453, radius_km: 60}
+    andora: {naziv: Andora, lat: 42.55, lon: 1.58, radius_km: 60}
+    malta: {naziv: Malta, lat: 35.90, lon: 14.45, radius_km: 70}
+    san-marino: {naziv: San Marino, lat: 43.94, lon: 12.45, radius_km: 60}
+    lisabon: {naziv: Lisabon, lat: 38.72, lon: -9.14, radius_km: 90}
+    atina: {naziv: Atina, lat: 37.98, lon: 23.73, radius_km: 90}
+    santorini: {naziv: Santorini, lat: 36.40, lon: 25.43, radius_km: 80}
+    beograd: {naziv: Beograd, lat: 44.82, lon: 20.46, radius_km: 80}
+    barselona: {naziv: Barselona, lat: 41.39, lon: 2.17, radius_km: 90}
+
+pojmovi:
+  juzna-evropa: Južna Evropa
+  balkansko-poluostrvo: Balkansko poluostrvo
+  apeninsko-poluostrvo: Apeninsko poluostrvo
+  pirinejsko-poluostrvo: Pirinejsko poluostrvo
+  pirineji: Pirineji
+  alpi: Alpi
+  sava: Sava
+  dunav: Dunav
+  sredozemno-more: Sredozemno more
+  crno-more: Crno more
+  atlantski-okean: Atlantski okean
+  suecki-kanal: Suecki kanal
+  velika-geografska-otkrica: velika geografska otkrića
+  novi-svet: Novi svet
+  anticka-grcka: antička Grčka
+  mikenska-civilizacija: mikenska civilizacija
+  juzni-sloveni: Južni Sloveni
+  romani: romanski narodi
+  baski: Baski
+  semitski-narodi: semitski narodi
+  pravoslavlje: pravoslavlje
+  katolicanstvo: katoličanstvo
+  islam: islam
+  emigracija: emigracija
+  imigracija: imigracija
+  urbanizacija: urbanizacija
+  kraljica-turizma: kraljica turizma
+  mediteranska-poljoprivreda: mediteranska poljoprivreda
+  ribolov: ribolov
+  brodogradnja: brodogradnja
+  minijaturne-drzave: minijaturne države
+  spanija: Španija
+  portugalija: Portugalija
+  italija: Italija
+  grcka: Grčka
+  bugarska: Bugarska
+  albanija: Albanija
+  srbija: Srbija
+  vatikan: Vatikan
+  andora: Andora
+  malta: Malta
+  san-marino: San Marino
+  lisabon: Lisabon
+  atina: Atina
+  santorini: Santorini
+  beograd: Beograd
+  barselona: Barselona
+
+delovi:
+  - naslov: Položaj i granice
+    zadaci:
+      - id: polozaj-poluostrva
+        vrsta: izbor
+        pojmovi: [balkansko-poluostrvo, apeninsko-poluostrvo, pirinejsko-poluostrvo]
+        pitanje: Koja poluostrva čine Južnu Evropu? (Više tačnih.)
+        odgovori:
+          - {tekst: Pirinejsko, tacan: true}
+          - {tekst: Apeninsko, tacan: true}
+          - {tekst: Balkansko, tacan: true}
+          - {tekst: Skandinavsko, tacan: false}
+          - {tekst: Krimsko, tacan: false}
+        pomoc:
+          - Regija je „južna” — traži poluostrva koja zalaze u Sredozemno more.
+          - Tačna su tri poluostrva; jedno od ponuđenih je na severu Evrope, a jedno uz Crno more na istoku.
+          - "Iz lekcije: regiju čine tri velika poluostrva — od Atlantika na zapadu do Crnog mora na istoku."
+        objasnjenje: Južnu Evropu čine Pirinejsko, Apeninsko i Balkansko poluostrvo. Skandinavsko je na severu, a Krim pripada istočnoj Evropi.
+
+      - id: polozaj-dopuni-povrsina
+        vrsta: dopuni
+        pojmovi: [juzna-evropa]
+        pitanje: Dopuni rečenicu.
+        tekst: Južna Evropa zauzima oko {{1,4|1.4}} miliona km², što je oko {{14}} % površine Evrope; u njoj živi oko {{159}} miliona ljudi.
+        ponudjene: ["1,4", "14", "159", "4,1", "41", "59"]
+        pomoc:
+          - Površina je nešto veća od jednog miliona km².
+          - Udeo u Evropi je malo veći od desetine; stanovnika ima između 150 i 160 miliona.
+          - "Iz lekcije: 1,4 miliona km² — 14% Evrope; oko 159 miliona stanovnika."
+        objasnjenje: Oko 1,4 miliona km² (14% Evrope) i oko 159 miliona stanovnika.
+
+      - id: polozaj-tn-granica
+        vrsta: tacno_netacno
+        pojmovi: [pirineji, alpi, sava, dunav]
+        tvrdnja: Severnu granicu Južne Evrope čine Pirineji, Alpi, reka Sava i donji tok Dunava.
+        tacno: true
+        pomoc:
+          - Zamisli liniju od Atlantika do Crnog mora koja odvaja poluostrva od ostatka Evrope.
+          - Na zapadu je granica planinska, a na istoku je čine reke.
+          - "Iz lekcije: granica ide preko Pirineja i Alpa, pa rekom Savom i donjim tokom Dunava."
+        objasnjenje: Tačno — na severu regiju ograničavaju Pirineji, Alpi, Sava i donji tok Dunava; na jugu Sredozemno more.
+
+      - id: polozaj-tn-mora
+        vrsta: tacno_netacno
+        pojmovi: [sredozemno-more, crno-more, atlantski-okean]
+        tvrdnja: Južna Evropa izlazi samo na Sredozemno more.
+        tacno: false
+        ispravke:
+          - {tekst: "Izlazi na Sredozemno more, Crno more i Atlantski okean.", tacan: true}
+          - {tekst: "Izlazi samo na Atlantski okean.", tacan: false}
+          - {tekst: "Izlazi na Sredozemno more i Severno more.", tacan: false}
+        pomoc:
+          - Pogledaj obe krajnje tačke regije — Portugaliju na zapadu i Bugarsku na istoku.
+          - Na zapadu je okean, a na istoku jedno more koje nije deo Sredozemlja.
+          - "Iz lekcije: regija izlazi na tri vodene celine."
+        objasnjenje: Netačno — Južna Evropa izlazi na Sredozemno more, Crno more (Bugarska) i Atlantski okean (Portugalija, Španija).
+
+      - id: polozaj-klik-najveca
+        vrsta: karta_klik
+        pojmovi: [spanija]
+        pitanje: Klikni na kartu — najveća država Južne Evrope po površini.
+        cilj: {drzava: ESP}
+        pomoc:
+          - Najveća je država na najzapadnijem poluostrvu regije.
+          - Deli to poluostrvo sa jednom manjom državom na obali Atlantika.
+          - "Iz lekcije: najveća je Španija, a najmanja Vatikan."
+        objasnjenje: Španija je najveća država Južne Evrope; zauzima najveći deo Pirinejskog poluostrva.
+
+  - naslov: Istorija i kultura
+    zadaci:
+      - id: istorija-civilizacije
+        vrsta: izbor
+        pojmovi: [anticka-grcka]
+        pitanje: Koje su civilizacije imale najveći uticaj na Južnu Evropu? (Više tačnih.)
+        odgovori:
+          - {tekst: antički Grci, tacan: true}
+          - {tekst: Rimljani, tacan: true}
+          - {tekst: Vizantinci, tacan: true}
+          - {tekst: Vikinzi, tacan: false}
+          - {tekst: Asteci, tacan: false}
+        pomoc:
+          - Traži civilizacije koje su nastale oko Sredozemnog mora.
+          - Jedna od ponuđenih je sa severa Evrope, a jedna iz Amerike.
+          - "Iz lekcije: oni su podigli neke od današnjih najvećih gradova regije — Rim i Atinu."
+        objasnjenje: Najveći uticaj imali su antički Grci, Rimljani i Vizantinci.
+
+      - id: istorija-tn-grcka
+        vrsta: tacno_netacno
+        pojmovi: [anticka-grcka, mikenska-civilizacija]
+        tvrdnja: Antička grčka civilizacija trajala je od VIII veka p. n. e. do 146. godine p. n. e., kada ju je osvojila Rimska republika.
+        tacno: true
+        pomoc:
+          - Setimo se ko je posle Grka zavladao Sredozemljem.
+          - Grčku je osvojila država sa Apeninskog poluostrva.
+          - "Iz lekcije: posle mikenske civilizacije razvila se antička Grčka, koju je 146. p. n. e. osvojila Rimska republika."
+        objasnjenje: Tačno — antička Grčka (VIII v. p. n. e. – 146. p. n. e.) završava se rimskim osvajanjem.
+
+      - id: istorija-zakljuci-amerika
+        vrsta: zakljuci
+        pojmovi: [velika-geografska-otkrica, novi-svet, atlantski-okean]
+        pitanje: Posle otkrića Amerike značaj Južne Evrope u trgovini je opao. Zašto?
+        odgovori:
+          - {tekst: "Pomorstvo i trgovina preselili su se sa Sredozemnog mora na Atlantski okean.", tacan: true}
+          - {tekst: "Sredozemno more se tada zaledilo i postalo neplovno.", tacan: false}
+          - {tekst: "Stanovnici Južne Evrope prestali su da se bave pomorstvom zbog verskih razloga.", tacan: false}
+          - {tekst: "Gradovi Južne Evrope su tada napušteni.", tacan: false}
+        pomoc:
+          - "Korak 1: Gde se nalazi Amerika u odnosu na Evropu — preko kog mora ili okeana se do nje stiže?"
+          - "Korak 2: Ako se brodovi upute preko okeana, koje luke postaju najvažnije — sredozemne ili one na okeanu?"
+          - "Iz lekcije: radi istraživanja i osvajanja novih kontinenata, pomorstvo se premešta na Atlantik."
+        objasnjenje: Novi putevi su vodili preko Atlantskog okeana, pa su vodeću ulogu preuzele zemlje i luke na okeanu, a Sredozemlje je postalo sporedni put.
+
+      - id: istorija-zakljuci-suec
+        vrsta: zakljuci
+        pojmovi: [suecki-kanal, sredozemno-more]
+        pitanje: Izgradnja Sueckog kanala ponovo je povećala značaj Južne Evrope. Kako?
+        odgovori:
+          - {tekst: "Brodovi iz Evrope ka Indiji i Dalekom istoku sada idu kroz Sredozemno more, pa sredozemne luke ponovo leže na glavnom putu.", tacan: true}
+          - {tekst: "Kanal je spojio Sredozemno more sa Atlantskim okeanom.", tacan: false}
+          - {tekst: "Kanalom je Južna Evropa dobila vezu sa Amerikom.", tacan: false}
+          - {tekst: "Kanal je skratio put između Španije i Grčke.", tacan: false}
+        pomoc:
+          - "Korak 1: Koja dva mora povezuje Suecki kanal? (Pogledaj u atlasu — Egipat.)"
+          - "Korak 2: Kojim putem su brodovi išli u Indiju pre kanala — i koliko je on bio duži?"
+          - "Iz lekcije: kanalom Evropa dobija izlaz na Indijski okean i vezu sa Indijom i Dalekim istokom."
+        objasnjenje: Kanal spaja Sredozemno i Crveno more; put ka Indiji više ne ide oko Afrike, već kroz Sredozemlje — pored luka Južne Evrope.
+
+  - naslov: Stanovništvo i vere
+    zadaci:
+      - id: stanovnistvo-povezi-narodi
+        vrsta: povezi
+        pojmovi: [juzni-sloveni, romani, baski, semitski-narodi]
+        pitanje: Poveži deo Južne Evrope sa narodom ili grupom naroda koja tamo preovlađuje.
+        parovi:
+          - [Balkansko poluostrvo, Južni Sloveni]
+          - [Apeninsko i Pirinejsko poluostrvo, romanski narodi]
+          - [sever Španije, Baski]
+          - [Malta, semitski narod srodan Arapima]
+        pomoc:
+          - Italijani, Španci i Portugalci govore jezicima nastalim iz latinskog.
+          - Baski su izolovana grupa uz Biskajski zaliv; Maltežani nisu ni Sloveni ni Romani.
+          - "Iz lekcije: na Balkanu su najbrojniji Južni Sloveni, na druga dva poluostrva romanski narodi."
+        objasnjenje: Balkan — Južni Sloveni; Apeninsko i Pirinejsko — romanski narodi; sever Španije — Baski; Malta — semitski narod (malteški jezik, afroazijska porodica).
+
+      - id: stanovnistvo-vere-balkan
+        vrsta: izbor
+        pojmovi: [pravoslavlje, katolicanstvo, islam]
+        pitanje: Koje vere su zastupljene na Balkanskom poluostrvu? (Više tačnih.)
+        odgovori:
+          - {tekst: pravoslavlje, tacan: true}
+          - {tekst: katoličanstvo, tacan: true}
+          - {tekst: islam, tacan: true}
+          - {tekst: protestantizam (kao vera većine), tacan: false}
+        pomoc:
+          - Setimo se Srbije, Hrvatske i Bosne i Hercegovine — koje su vere tamo?
+          - Tačne su tri vere.
+          - "Iz lekcije: na Pirinejskom i Apeninskom većina su katolici, a na Balkanu ima više vera."
+        objasnjenje: Na Balkanu su zastupljeni pravoslavlje, katoličanstvo i islam.
+
+      - id: stanovnistvo-zakljuci-vere
+        vrsta: zakljuci
+        pojmovi: [pravoslavlje, katolicanstvo, islam, balkansko-poluostrvo]
+        pitanje: Zašto se na Balkanskom poluostrvu sreće više vera nego na Apeninskom i Pirinejskom?
+        odgovori:
+          - {tekst: "Balkan je vekovima bio granica velikih carstava i crkava — Vizantije, Rima i Osmanskog carstva.", tacan: true}
+          - {tekst: "Na Balkanu je hladnija klima, pa su se ljudi češće selili.", tacan: false}
+          - {tekst: "Na Balkan nikada nisu dolazili osvajači.", tacan: false}
+          - {tekst: "Balkan je najveće poluostrvo, pa ima i najviše vera.", tacan: false}
+        pomoc:
+          - "Korak 1: Koje su države (carstva) vladale Balkanom kroz istoriju?"
+          - "Korak 2: Koju je veru širila svaka od njih — Vizantija, Rim, Osmansko carstvo?"
+          - "Iz lekcije: Pirinejsko i Apeninsko su pretežno katolička, a Balkan je mešovit."
+        objasnjenje: Vizantija je širila pravoslavlje, Rim katoličanstvo, a Osmansko carstvo islam — na Balkanu su se sva tri uticaja susrela.
+
+      - id: stanovnistvo-tn-imigranti
+        vrsta: tacno_netacno
+        pojmovi: [imigracija]
+        tvrdnja: Danas se u Južnu Evropu najviše doseljavaju ljudi iz Severne Amerike.
+        tacno: false
+        ispravke:
+          - {tekst: "Danas se doseljavaju najviše iz Afrike i Azije.", tacan: true}
+          - {tekst: "Danas se niko ne doseljava u Južnu Evropu.", tacan: false}
+          - {tekst: "Danas se doseljavaju najviše iz Australije.", tacan: false}
+        pomoc:
+          - Pogledaj koji kontinenti su najbliži Sredozemnom moru.
+          - Doseljenici stižu preko Sredozemnog mora i sa istoka.
+          - "Iz lekcije: karta migracija u 21. veku pokazuje kretanja iz Afrike i Azije."
+        objasnjenje: Netačno — danas imigranti dolaze uglavnom iz Afrike i Azije; ranije su ljudi iz Južne Evrope odlazili u Ameriku.
+
+      - id: stanovnistvo-zakljuci-eu
+        vrsta: zakljuci
+        pojmovi: [emigracija]
+        pitanje: Iseljavanje iz Italije, Španije i Portugalije je usporilo, a sa Balkana se nastavlja. Šta je najbolje objašnjenje?
+        odgovori:
+          - {tekst: "Ulaskom u Evropsku uniju te tri države su dobile razvoj i posao kod kuće, a balkanske zemlje su siromašnije.", tacan: true}
+          - {tekst: "Na Balkanu je toplija klima nego u Italiji.", tacan: false}
+          - {tekst: "U Italiji, Španiji i Portugaliji je zabranjeno iseljavanje.", tacan: false}
+          - {tekst: "Balkanske zemlje imaju više stanovnika od Italije.", tacan: false}
+        pomoc:
+          - "Korak 1: Zašto se ljudi uopšte iseljavaju — šta traže?"
+          - "Korak 2: Šta je donelo članstvo u Evropskoj uniji Italiji, Španiji i Portugaliji?"
+          - "Iz lekcije: iseljavanje je delimično zaustavljeno ulaskom te tri države u EU."
+        objasnjenje: Ljudi odlaze zbog posla i boljeg života; razvoj posle ulaska u EU smanjio je potrebu za odlaskom, dok su balkanske zemlje i dalje siromašnije.
+
+      - id: stanovnistvo-gradovi
+        vrsta: izbor
+        pojmovi: [barselona, urbanizacija]
+        pitanje: Koji od ovih velikih gradova Južne Evrope NISU glavni gradovi svojih država? (Više tačnih.)
+        odgovori:
+          - {tekst: Barselona, tacan: true}
+          - {tekst: Napulj, tacan: true}
+          - {tekst: Milano, tacan: true}
+          - {tekst: Sofija, tacan: false}
+          - {tekst: Lisabon, tacan: false}
+        pomoc:
+          - Setimo se glavnih gradova Španije, Italije, Bugarske i Portugalije.
+          - Dva grada su u Italiji, a jedan u Španiji.
+          - "Iz lekcije: najveći gradovi su najčešće glavni gradovi — ali ne svi."
+        objasnjenje: Barselona (Španija), Napulj i Milano (Italija) su veliki gradovi, ali glavni gradovi su Madrid i Rim.
+
+  - naslov: Privreda
+    zadaci:
+      - id: privreda-dopuni-turizam
+        vrsta: dopuni
+        pojmovi: [kraljica-turizma]
+        pitanje: Dopuni rečenicu.
+        tekst: Evropsko Sredozemlje godišnje poseti više od {{200}} miliona turista, pa Južnu Evropu nazivaju „{{kraljica turizma|kraljicom turizma}}”.
+        ponudjene: ["200", "20", "kraljica turizma", "kolevka turizma", "2000"]
+        pomoc:
+          - Broj turista je veći od stanovništva cele regije.
+          - Nadimak je kraljevska titula.
+          - "Iz lekcije: preko 200 miliona turista godišnje — „kraljica turizma”."
+        objasnjenje: Više od 200 miliona turista godišnje — Južna Evropa je „kraljica turizma”.
+
+      - id: privreda-kulture
+        vrsta: izbor
+        pojmovi: [mediteranska-poljoprivreda]
+        pitanje: Koje kulture su tipične za mediteransku poljoprivredu Južne Evrope? (Više tačnih.)
+        odgovori:
+          - {tekst: masline, tacan: true}
+          - {tekst: vinova loza, tacan: true}
+          - {tekst: agrumi (limun, pomorandža), tacan: true}
+          - {tekst: kafa, tacan: false}
+          - {tekst: kakao, tacan: false}
+        pomoc:
+          - Traži biljke kojima prija toplo i suvo leto i blaga zima.
+          - Dve ponuđene uspevaju samo u tropima.
+          - "Iz lekcije: zbog povoljne klime gaje se mediteranske kulture."
+        objasnjenje: Masline, vinova loza i agrumi; kafa i kakao traže tropsku klimu.
+
+      - id: privreda-zakljuci-turizam
+        vrsta: zakljuci
+        pojmovi: [kraljica-turizma, sredozemno-more]
+        pitanje: Zašto je baš Južna Evropa turistički najrazvijenija regija sveta?
+        odgovori:
+          - {tekst: "Spaja toplu klimu i more sa bogatim kulturno-istorijskim nasleđem, a blizu je bogatih zemalja Evrope.", tacan: true}
+          - {tekst: "Ima najviše snega u Evropi.", tacan: false}
+          - {tekst: "U njoj nema gradova, pa je priroda netaknuta.", tacan: false}
+          - {tekst: "Ima najjeftinije letove na svetu.", tacan: false}
+        pomoc:
+          - "Korak 1: Šta turisti najčešće traže leti?"
+          - "Korak 2: Koje su civilizacije ostavile spomenike u ovoj regiji?"
+          - "Iz lekcije: turizam se razvio zbog klime, Sredozemnog mora i kulturno-istorijskog nasleđa."
+        objasnjenje: Klima, more i obale + nasleđe antičke Grčke, Rima i Vizantije, a sve to blizu bogate Zapadne i Srednje Evrope.
+
+      - id: privreda-zakljuci-ribolov
+        vrsta: zakljuci
+        pojmovi: [ribolov, brodogradnja]
+        pitanje: Zašto su ribolov i brodogradnja važni u Južnoj Evropi?
+        odgovori:
+          - {tekst: "Regija izlazi na Sredozemno more, Crno more i Atlantski okean i ima dugu obalu sa lukama.", tacan: true}
+          - {tekst: "U regiji ima mnogo velikih jezera, a malo mora.", tacan: false}
+          - {tekst: "Zato što je to najhladnija regija Evrope.", tacan: false}
+          - {tekst: "Zato što u regiji nema puteva, pa se sve prevozi brodom.", tacan: false}
+        pomoc:
+          - "Korak 1: Na koliko mora i okeana izlazi regija?"
+          - "Korak 2: Šta je potrebno da bi se razvio ribolov i gradili brodovi?"
+          - "Iz lekcije: ribolov i brodogradnja su razvijeni zbog izlaska na mora i okean."
+        objasnjenje: Okružena je morima i okeanom, sa dugom obalom i pomorskom tradicijom.
+
+  - naslov: Države i karta
+    zadaci:
+      - id: drzave-povezi-gradovi
+        vrsta: povezi
+        pojmovi: [portugalija, bugarska, albanija, malta, grcka]
+        pitanje: Poveži državu sa njenim glavnim gradom.
+        parovi:
+          - [Portugalija, Lisabon]
+          - [Bugarska, Sofija]
+          - [Albanija, Tirana]
+          - [Malta, Valeta]
+          - [Grčka, Atina]
+        pomoc:
+          - Kreni od gradova koje znaš iz Zadatka sa fotografijama — Lisabon i Sofija.
+          - Valeta je na ostrvu, a Tirana je na Balkanu, zapadno od Severne Makedonije.
+          - "Iz lekcije: tabela 17 država i njihovih glavnih gradova."
+        objasnjenje: Portugalija – Lisabon, Bugarska – Sofija, Albanija – Tirana, Malta – Valeta, Grčka – Atina.
+
+      - id: drzave-minijaturne
+        vrsta: izbor
+        pojmovi: [minijaturne-drzave]
+        pitanje: Koje su minijaturne države Južne Evrope? (Više tačnih.)
+        odgovori:
+          - {tekst: Vatikan, tacan: true}
+          - {tekst: San Marino, tacan: true}
+          - {tekst: Andora, tacan: true}
+          - {tekst: Monako, tacan: true}
+          - {tekst: Malta, tacan: true}
+          - {tekst: Albanija, tacan: false}
+          - {tekst: Slovenija, tacan: false}
+        pomoc:
+          - Tačnih je pet; dve ponuđene su obične, „velike” države Balkana.
+          - Dve minijaturne su unutar Italije, jedna u Pirinejima, jedna na obali uz Francusku, jedna je ostrvo.
+          - "Iz lekcije: minijaturne države su Andora, Vatikan, Monako, Malta i San Marino."
+        objasnjenje: Andora, Vatikan, Monako, Malta i San Marino.
+
+      - id: karta-portugalija
+        vrsta: karta_klik
+        pojmovi: [portugalija]
+        pitanje: Klikni na Portugaliju.
+        cilj: {drzava: PRT}
+        pomoc:
+          - Ona je najzapadnija država Južne Evrope.
+          - Leži na Pirinejskom poluostrvu, uz Atlantski okean.
+          - Uska je država na zapadnoj obali Pirinejskog poluostrva, zapadno od Španije.
+        objasnjenje: Portugalija je na zapadu Pirinejskog poluostrva, na obali Atlantskog okeana.
+
+      - id: karta-bugarska
+        vrsta: karta_klik
+        pojmovi: [bugarska, crno-more]
+        pitanje: Klikni na državu Južne Evrope koja izlazi na Crno more.
+        cilj: {drzava: BGR}
+        pomoc:
+          - Crno more je na krajnjem istoku karte.
+          - Država je na istoku Balkanskog poluostrva, južno od Dunava.
+          - Graniči se sa Srbijom na zapadu, a Dunav je odvaja od Rumunije na severu.
+        objasnjenje: Bugarska — jedina država regije na obali Crnog mora.
+
+      - id: karta-srbija
+        vrsta: karta_klik
+        pojmovi: [srbija, sava, dunav, beograd]
+        pitanje: Klikni na državu u kojoj se Sava uliva u Dunav.
+        cilj: {drzava: SRB}
+        pomoc:
+          - Sava je deo severne granice Južne Evrope; prati je od Slovenije ka istoku.
+          - Ušće je u glavnom gradu te države.
+          - Na ušću Save u Dunav je Beograd.
+        objasnjenje: Sava se uliva u Dunav u Beogradu — Srbija.
+
+      - id: gde-vatikan
+        vrsta: gde_sam
+        pojmovi: [vatikan, italija]
+        pitanje: Gde sam? Pročitaj trag i klikni mesto na karti. Svaki novi trag (ili greška) nosi manje bodova.
+        cilj: {mesto: vatikan}
+        tragovi:
+          - Ja sam najmanja država na svetu.
+          - Ceo sam okružen jednim gradom koji je glavni grad druge države.
+          - Taj grad je „Večni grad” na reci Tibru.
+          - Nalazim se na Apeninskom poluostrvu, u Rimu.
+        objasnjenje: Vatikan, unutar Rima — središte katoličke crkve i najmanja država sveta.
+
+      - id: gde-andora
+        vrsta: gde_sam
+        pojmovi: [andora, pirineji]
+        pitanje: Gde sam? Pročitaj trag i klikni mesto na karti.
+        cilj: {mesto: andora}
+        tragovi:
+          - Ja sam minijaturna država bez izlaza na more.
+          - Okružena sam visokim planinama.
+          - Te planine odvajaju Pirinejsko poluostrvo od ostatka Evrope.
+          - Nalazim se u Pirinejima, između Španije i Francuske.
+        objasnjenje: Andora, u Pirinejima između Španije i Francuske.
+
+      - id: gde-malta
+        vrsta: gde_sam
+        pojmovi: [malta, semitski-narodi]
+        pitanje: Gde sam? Pročitaj trag i klikni mesto na karti.
+        cilj: {mesto: malta}
+        tragovi:
+          - Moji stanovnici nisu ni Sloveni ni Romani — srodni su Arapima.
+          - Ja sam ostrvska država u Sredozemnom moru.
+          - Nalazim se između Evrope i Afrike, blizu velikog italijanskog ostrva.
+          - Ležim južno od Sicilije.
+        objasnjenje: Malta, ostrvska država južno od Sicilije; Maltežani su semitski narod.
+
+      - id: gde-santorini
+        vrsta: gde_sam
+        pojmovi: [santorini, grcka]
+        pitanje: Gde sam? Pročitaj trag i klikni mesto na karti.
+        cilj: {mesto: santorini}
+        tragovi:
+          - Ja sam ostrvo poznato po belim kućama i plavim kupolama — česta turistička razglednica.
+          - Pripadam državi na jugu Balkanskog poluostrva.
+          - Nalazim se u Egejskom moru.
+          - Ležim u južnom delu Egejskog mora, severno od Krita.
+        objasnjenje: Santorini, grčko ostrvo u južnom delu Egejskog mora.
