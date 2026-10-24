@@ -56,3 +56,15 @@ Odluke (operater, 2026-10-24): istorija → unos u fioci; boje classroom; UX 1, 
 - Provereno u pregledaču (1440 i 375): uvod, ⋯ meni, filter, ceo demo (18 koraka), Test → Rezultati, `#nastavnik`, mobilni tok geografije (spisak → karta), istorija unos → osa → pitanja → Sledeći, klik na osu, nastavak sesije, katalog sa rutom. Konzola bez grešaka.
 - **Nije provereno:** otvaranje sa `file://`, štampa (Ctrl+P), stvarno prevlačenje mišem (demo radi isto preko istog koda). PDF-ovi nisu regenerisani — lokalni Python nema matplotlib; render_pdf nije menjan.
 - Primećeno: osa u istoriji koristi `preserveAspectRatio="none"`, pa se tekst sabije kad je fioka otvorena (osa je uža) — bilo je i pre, sada je vidljivije. Kandidat za sledeći korak.
+
+# Katalog: nivo › razred › predmet › lekcija
+
+Datum: 2026-10-24 · Status: **urađeno (nije commit-ovano)**
+
+- [x] `shared/kurikulum/osnovna/6/istorija.yaml` — 30 lekcija u 4 poglavlja (Todosijević, Eduka 2021; naslovi iz `_source/lekcije`)
+- [x] `spec.yaml`: istorija `nivo: osnovna, razred: 6, lekcije: [17–22]`; geografija `nivo: osnovna, razred: 6` (operater; kviz pokriva deo programa, bez lekcija dok se ne unese kurikulum)
+- [x] `hub_shell`: `NIVOI` (osnovna, srednja), putanje alata `Nivo › Razred › Predmet › Alat`
+- [x] `scripts/regenerate_index.py`: stablo u navigaciji (lekcije izabranog predmeta se rasklope; filter traži lekcije i alate), pogledi za nivo / razred / predmet (poglavlja i sve lekcije, i one bez alata) / lekciju (alati, prethodna/sledeća), fioka alata sa listom lekcija
+- [x] Provereno u pregledaču: početna (srednja škola prazna), predmet, lekcija + alat, filter, geografija bez kurikuluma; konzola čista
+
+**Sledeće:** operater dostavlja slike stranica udžbenika geografije za 6. razred (privatno, u `tools/geografija/_source/slike/`, gitignored) → `shared/kurikulum/osnovna/6/geografija.yaml` + `lekcije` za evropa-kviz.

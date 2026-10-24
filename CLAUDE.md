@@ -10,6 +10,7 @@ A collection of self-contained interactive educational tools (HTML/JS) plus thei
 
 - **Folder naming:** kebab-case throughout (`tools/geografija/evropa-kviz/`, NOT `Geografija-Evropa-Kviz/` or `evropa_kviz`).
 - **Tool grouping:** nested by subject — `tools/{predmet}/{tool-slug}/`. Examples of predmet: `geografija`, `biologija`, `matematika`, `istorija`, `hemija`, `fizika`, `srpski`, `strani-jezici`, `umetnost`.
+- **Information architecture (catalog):** školski nivo › razred › predmet › lekcija › alati. Folders stay by subject; placement comes from data: every `spec.yaml` sets `nivo` (`osnovna` | `srednja`), `razred` and, when the tool covers specific lessons, `lekcije: [broj, ...]` (no `lekcije` = the whole subject). Lessons live in `shared/kurikulum/{nivo}/{razred}/{predmet}.yaml` (textbook, chapters, lessons); a subject without that file just lists its tools. Levels and their labels: `hub_shell.NIVOI`. Expect this IA to evolve.
 - **Languages:** UI strings and content in Serbian. Code identifiers in English. Comments may be in either as appropriate.
 - **Python:** Python 3.10+. Use stdlib + the small set listed in top-level README. Add a new dependency only with strong justification.
 - **JavaScript:** vanilla JS, no build step, no npm. Tools must work as a single self-contained HTML file opened directly in a browser (file://) without a local server.
@@ -103,7 +104,7 @@ python3 make.py
   - CSV export of results (visible after completion)
   - `@media print` stylesheet for clean browser printing
   - All UI strings localized via `spec.ui` keys
-- One regenerator: `scripts/regenerate_index.py` — rebuilds top-level `index.html` from `tools/*/*/spec.yaml`. Run after adding a tool or after a tool's title/description changes.
+- One regenerator: `scripts/regenerate_index.py` — rebuilds top-level `index.html` from `tools/*/*/spec.yaml` + `shared/kurikulum/`. Run after adding a tool, after a tool's title/description/nivo/razred/lekcije change, or after a curriculum file changes. It warns about tools without `nivo`/`razred` and about `lekcije` missing from the curriculum.
 - Shared data: `shared/data/countries.geojson` (Natural Earth, ~3MB).
 - GitHub Pages: planned (not yet enabled). When enabled, root `index.html` becomes the tool index.
 
