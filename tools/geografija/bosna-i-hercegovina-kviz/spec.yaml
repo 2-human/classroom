@@ -1,0 +1,109 @@
+# Bosna i Hercegovina — kviz po lekciji (tip: lesson-quiz; vidi templates/lesson-quiz/README.md).
+# Pitanja su napisana sopstvenim rečima na osnovu lekcije „Bosna i Hercegovina” (7. razred, str. 24–25).
+# `iz_udzbenika` (posle odgovora, u fioci): strana, odeljak, sažetak sopstvenim rečima i slika iz
+# privatnog tools/geografija/_source/slike-7/ (prikazuje se samo kad taj folder postoji — van git-a).
+title: Bosna i Hercegovina — kviz
+title_short: Bosna i Hercegovina
+locale: sr
+nivo: osnovna
+razred: 7
+lekcije: [6]
+description: >-
+  Kviz za lekciju Bosna i Hercegovina: položaj, reljef i reke, entiteti i narodi, privreda i gradovi —
+  činjenice, tačno/netačno sa ispravkom, dopunjavanje, povezivanje, zaključivanje i karta (klikni, „Gde sam?”).
+
+karta:
+  extent: {lon: [13.8, 21.8], lat: [42.1, 45.7]}
+  mid_lat_for_aspect: 43.9
+  geo_data: ../../../shared/data/countries.geojson
+  # BiH i susedi (klikabilni). KOS se crta i broji kao deo Srbije (stav udžbenika).
+  drzave:
+    BIH: Bosna i Hercegovina
+    HRV: Hrvatska
+    SRB: Srbija
+    MNE: Crna Gora
+  spoji: {KOS: SRB}
+  # Tačke za zadatke kojima je cilj mesto (gradovi, planine, tipična mesta na rekama). Ne crtaju se dok se ne pogode.
+  mesta:
+    sarajevo: {naziv: Sarajevo, lat: 43.86, lon: 18.41, radius_km: 35}
+    banja-luka: {naziv: Banja Luka, lat: 44.77, lon: 17.19, radius_km: 35}
+    mostar: {naziv: Mostar, lat: 43.34, lon: 17.81, radius_km: 30}
+    tuzla: {naziv: Tuzla, lat: 44.54, lon: 18.67, radius_km: 30}
+    zenica: {naziv: Zenica, lat: 44.20, lon: 17.91, radius_km: 30}
+    bihac: {naziv: Bihać, lat: 44.82, lon: 15.87, radius_km: 30}
+    bijeljina: {naziv: Bijeljina, lat: 44.76, lon: 19.21, radius_km: 30}
+    doboj: {naziv: Doboj, lat: 44.73, lon: 18.08, radius_km: 25}
+    trebinje: {naziv: Trebinje, lat: 42.71, lon: 18.34, radius_km: 30}
+    zvornik: {naziv: Zvornik, lat: 44.39, lon: 19.10, radius_km: 25}
+    visegrad: {naziv: Višegrad, lat: 43.78, lon: 19.29, radius_km: 25}
+    brcko: {naziv: Brčko distrikt, lat: 44.87, lon: 18.81, radius_km: 25}
+    neum: {naziv: Neum, lat: 42.92, lon: 17.62, radius_km: 25}
+    maglic: {naziv: Maglić, lat: 43.28, lon: 18.73, radius_km: 25}
+    volujak: {naziv: Volujak, lat: 43.30, lon: 18.72, radius_km: 25}
+    jahorina: {naziv: Jahorina, lat: 43.73, lon: 18.57, radius_km: 25}
+    sava: {naziv: Sava, lat: 45.10, lon: 17.70, radius_km: 50}
+    drina: {naziv: Drina, lat: 44.00, lon: 19.35, radius_km: 45}
+    una: {naziv: Una, lat: 45.00, lon: 16.30, radius_km: 35}
+    vrbas: {naziv: Vrbas, lat: 44.45, lon: 17.20, radius_km: 35}
+    bosna-reka: {naziv: reka Bosna, lat: 44.40, lon: 18.00, radius_km: 35}
+    neretva: {naziv: Neretva, lat: 43.10, lon: 17.70, radius_km: 35}
+
+sastav:
+  ucenje: 20
+  test: 15
+  odnos: [40, 40, 20]
+
+pojmovi:
+  bosna-i-hercegovina: Bosna i Hercegovina
+  balkansko-poluostrvo: Balkansko poluostrvo
+  kontinentalna-zemlja: kontinentalna zemlja
+  jadransko-more: Jadransko more
+  neum: Neum
+  dinarske-planine: Dinarske planine (Dinaridi)
+  maglic: Maglić
+  volujak: Volujak
+  jahorina: Jahorina
+  sava: Sava
+  drina: Drina
+  una: Una
+  vrbas: Vrbas
+  bosna-reka: reka Bosna
+  neretva: Neretva
+  sfrj: SFRJ
+  gradjanski-rat: građanski rat
+  dejtonski-sporazum: Dejtonski sporazum
+  entitet: entitet
+  federacija-bih: Federacija BiH
+  republika-srpska: Republika Srpska
+  brcko-distrikt: Brčko distrikt
+  bosnjaci: Bošnjaci
+  srbi: Srbi
+  hrvati: Hrvati
+  islam: islam
+  pravoslavlje: pravoslavlje
+  sarajevo: Sarajevo
+  zenica: Zenica
+  tuzla: Tuzla
+  mostar: Mostar
+  bihac: Bihać
+  banja-luka: Banja Luka
+  bijeljina: Bijeljina
+  doboj: Doboj
+  trebinje: Trebinje
+  zvornik: Zvornik
+  visegrad: Višegrad
+  bascarsija: Baščaršija
+  most-mehmed-pase-sokolovica: most Mehmed-paše Sokolovića
+  izmenjenosredozemna-klima: izmenjenosredozemna klima
+  poljoprivreda: poljoprivreda
+  vinova-loza: vinova loza
+  duvan: duvan
+  agrumi: agrumi
+  stocarstvo: stočarstvo
+  sumarstvo: šumarstvo
+  industrija: industrija
+  turizam: turizam
+  srbija: Srbija
+
+# Zadaci (banka): banka.yaml — delovi lekcije, svaki zadatak sa težinom (lako/srednje/tesko).
+banka: banka.yaml

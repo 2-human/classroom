@@ -1,0 +1,165 @@
+# Republika Srbija — kviz po lekciji (tip: lesson-quiz; vidi templates/lesson-quiz/README.md).
+# Pitanja su napisana sopstvenim rečima na osnovu lekcije „Republika Srbija” (7. razred, str. 18–21).
+# `iz_udzbenika` (posle odgovora, u fioci): strana, odeljak, sažetak sopstvenim rečima i slika iz
+# privatnog tools/geografija/_source/slike-7/ (prikazuje se samo kad taj folder postoji — van git-a).
+title: Republika Srbija — kviz
+title_short: Republika Srbija
+locale: sr
+nivo: osnovna
+razred: 7
+lekcije: [4]
+description: >-
+  Kviz za lekciju Republika Srbija: položaj i susedi, reljef, klima i reke, stanovništvo, privreda i
+  turizam — činjenice, tačno/netačno, dopunjavanje, povezivanje, zaključivanje i snalaženje na karti.
+
+karta:
+  extent: {lon: [15.4, 26.6], lat: [41.2, 46.6]}
+  mid_lat_for_aspect: 43.9
+  geo_data: ../../../shared/data/countries.geojson
+  # Srbija i njenih osam suseda (klikabilne). KOS se crta i broji kao deo Srbije (stav udžbenika).
+  drzave:
+    SRB: Srbija
+    HUN: Mađarska
+    ROU: Rumunija
+    BGR: Bugarska
+    MKD: Severna Makedonija
+    ALB: Albanija
+    MNE: Crna Gora
+    BIH: Bosna i Hercegovina
+    HRV: Hrvatska
+  spoji: {KOS: SRB}
+  # Tačke za zadatke kojima je cilj mesto. Reke: jedna tipična tačka na toku. Ne crtaju se dok se ne pogode.
+  mesta:
+    beograd: {naziv: Beograd, lat: 44.82, lon: 20.46, radius_km: 35}
+    novi-sad: {naziv: Novi Sad, lat: 45.25, lon: 19.84, radius_km: 30}
+    nis: {naziv: Niš, lat: 43.32, lon: 21.90, radius_km: 30}
+    vranje: {naziv: Vranje, lat: 42.55, lon: 21.90, radius_km: 25}
+    bor: {naziv: Bor, lat: 44.07, lon: 22.10, radius_km: 30}
+    vojvodina: {naziv: AP Vojvodina, lat: 45.40, lon: 20.20, radius_km: 110}
+    kosovo-i-metohija: {naziv: AP Kosovo i Metohija, lat: 42.60, lon: 20.90, radius_km: 75}
+    srem: {naziv: Srem, lat: 45.00, lon: 19.70, radius_km: 45}
+    backa: {naziv: Bačka, lat: 45.60, lon: 19.50, radius_km: 55}
+    banat: {naziv: Banat, lat: 45.30, lon: 20.85, radius_km: 60}
+    vlaska-nizija: {naziv: Vlaška nizija (deo u Srbiji), lat: 44.30, lon: 22.60, radius_km: 40}
+    fruska-gora: {naziv: Fruška gora, lat: 45.15, lon: 19.70, radius_km: 35}
+    vrsacke-planine: {naziv: Vršačke planine, lat: 45.12, lon: 21.40, radius_km: 25}
+    sar-planina: {naziv: Šar-planina, lat: 42.10, lon: 20.85, radius_km: 40}
+    prokletije: {naziv: Prokletije, lat: 42.55, lon: 20.00, radius_km: 40}
+    tara: {naziv: Tara, lat: 43.90, lon: 19.40, radius_km: 25}
+    kopaonik: {naziv: Kopaonik, lat: 43.28, lon: 20.80, radius_km: 35}
+    stara-planina: {naziv: Stara planina, lat: 43.38, lon: 22.65, radius_km: 40}
+    jastrebac: {naziv: Jastrebac, lat: 43.40, lon: 21.40, radius_km: 25}
+    niska-kotlina: {naziv: Niška kotlina, lat: 43.30, lon: 21.95, radius_km: 30}
+    leskovacka-kotlina: {naziv: Leskovačka kotlina, lat: 43.00, lon: 21.90, radius_km: 30}
+    kosovska-kotlina: {naziv: Kosovska kotlina, lat: 42.70, lon: 21.10, radius_km: 35}
+    metohijska-kotlina: {naziv: Metohijska kotlina, lat: 42.50, lon: 20.50, radius_km: 35}
+    dunav: {naziv: Dunav (kod Velikog Gradišta), lat: 44.76, lon: 21.45, radius_km: 40}
+    sava: {naziv: Sava (kod Sremske Mitrovice), lat: 44.97, lon: 19.62, radius_km: 35}
+    tisa: {naziv: Tisa (kod Bečeja), lat: 45.60, lon: 20.08, radius_km: 35}
+    drina: {naziv: Drina (granica sa BiH), lat: 44.18, lon: 19.35, radius_km: 35}
+    ibar: {naziv: Ibar (ibarska dolina kod Kraljeva), lat: 43.55, lon: 20.62, radius_km: 30}
+    velika-morava: {naziv: Velika Morava (kod Jagodine), lat: 44.10, lon: 21.25, radius_km: 35}
+    juzna-morava: {naziv: Južna Morava (kod Aleksinca), lat: 43.50, lon: 21.72, radius_km: 30}
+    zapadna-morava: {naziv: Zapadna Morava (između Čačka i Kraljeva), lat: 43.80, lon: 20.50, radius_km: 30}
+    lim: {naziv: Lim (kod Prijepolja), lat: 43.38, lon: 19.65, radius_km: 25}
+    meandri-uvca: {naziv: Meandri Uvca, lat: 43.37, lon: 19.92, radius_km: 25}
+    vrnjacka-banja: {naziv: Vrnjačka banja, lat: 43.62, lon: 20.89, radius_km: 25}
+    zlatibor: {naziv: Zlatibor, lat: 43.72, lon: 19.70, radius_km: 25}
+    djavolja-varos: {naziv: Đavolja varoš, lat: 42.99, lon: 21.40, radius_km: 25}
+    deliblatska-pescara: {naziv: Deliblatska peščara, lat: 44.92, lon: 21.05, radius_km: 25}
+    obedska-bara: {naziv: Obedska bara, lat: 44.73, lon: 19.98, radius_km: 20}
+
+sastav:
+  ucenje: 20
+  test: 15
+  odnos: [40, 40, 20]
+
+pojmovi:
+  srbija: Srbija
+  balkansko-poluostrvo: Balkansko poluostrvo
+  panonska-nizija: Panonska nizija
+  saobracajno-geografski-polozaj: saobraćajno-geografski položaj
+  ap-vojvodina: AP Vojvodina
+  ap-kosovo-i-metohija: AP Kosovo i Metohija
+  vojvodina: Vojvodina
+  srem: Srem
+  backa: Bačka
+  banat: Banat
+  fruska-gora: Fruška gora
+  vrsacke-planine: Vršačke planine
+  panonsko-more: Panonsko more
+  vlaska-nizija: Vlaška nizija
+  nabrane-planine: nabrane planine
+  sar-planina: Šar-planina
+  prokletije: Prokletije
+  tara: Tara
+  kopaonik: Kopaonik
+  stara-planina: Stara planina
+  srpsko-makedonska-masa: Srpsko-makedonska masa
+  rasedne-planine: rasedne planine
+  jastrebac: Jastrebac
+  dukat: Dukat
+  ruj: Ruj
+  niska-kotlina: Niška kotlina
+  leskovacka-kotlina: Leskovačka kotlina
+  vranjska-kotlina: Vranjska kotlina
+  metohijska-kotlina: Metohijska kotlina
+  kosovska-kotlina: Kosovska kotlina
+  kontinentalna-klima: kontinentalna klima
+  umerenokontinentalna-klima: umerenokontinentalna klima
+  planinska-klima: planinska klima
+  dunav: Dunav
+  sava: Sava
+  tisa: Tisa
+  drina: Drina
+  ibar: Ibar
+  velika-morava: Velika Morava
+  juzna-morava: Južna Morava
+  zapadna-morava: Zapadna Morava
+  lim: Lim
+  uvac: Uvac
+  crno-more: Crno more
+  jadransko-more: Jadransko more
+  egejsko-more: Egejsko more
+  emigracija: emigracija
+  odliv-mozgova: odliv mozgova
+  prirodni-prirastaj: prirodni priraštaj
+  gustina-naseljenosti: gustina naseljenosti
+  pravoslavlje: pravoslavlje
+  islam: islam
+  katolicanstvo: katoličanstvo
+  zemlja-u-razvoju: zemlja u razvoju
+  zemljoradnja: zemljoradnja
+  industrijsko-bilje: industrijsko bilje
+  vinogradarstvo: vinogradarstvo
+  stocarstvo: stočarstvo
+  nafta: nafta
+  zemni-gas: zemni gas
+  ugalj: ugalj
+  hidroelektrana: hidroelektrana
+  bakar: bakar
+  plemeniti-metali: plemeniti metali
+  tercijarni-sektor: tercijarni sektor
+  turizam: turizam
+  beograd: Beograd
+  novi-sad: Novi Sad
+  nis: Niš
+  vranje: Vranje
+  bor: Bor
+  vrnjacka-banja: Vrnjačka banja
+  zlatibor: Zlatibor
+  djavolja-varos: Đavolja varoš
+  meandri-uvca: meandri Uvca
+  deliblatska-pescara: Deliblatska peščara
+  obedska-bara: Obedska bara
+  madjarska: Mađarska
+  rumunija: Rumunija
+  bugarska: Bugarska
+  severna-makedonija: Severna Makedonija
+  albanija: Albanija
+  crna-gora: Crna Gora
+  bosna-i-hercegovina: Bosna i Hercegovina
+  hrvatska: Hrvatska
+
+# Zadaci (banka): banka.yaml — u 6 delova, svaki sa težinom (lako/srednje/tesko).
+banka: banka.yaml

@@ -1,0 +1,72 @@
+# Države bivše SFRJ — kviz po lekciji (tip: lesson-quiz; vidi templates/lesson-quiz/README.md).
+# Pitanja su napisana sopstvenim rečima na osnovu lekcije „Države bivše SFRJ” (7. razred, str. 18)
+# i okvira „Ponovi” sa zastavama bivših republika (str. 30).
+# `iz_udzbenika` (posle odgovora, u fioci): strana, odeljak, sažetak sopstvenim rečima i slika iz
+# privatnog tools/geografija/_source/slike-7/ (prikazuje se samo kad taj folder postoji — van git-a).
+title: Države bivše SFRJ — kviz
+title_short: Države bivše SFRJ
+locale: sr
+nivo: osnovna
+razred: 7
+lekcije: [3]
+description: >-
+  Kviz za lekciju Države bivše SFRJ: šest republika, redosled raspada 1991–2006, referendum u
+  Crnoj Gori, glavni gradovi i snalaženje na karti (klikni državu, „Gde sam?”).
+
+karta:
+  extent: {lon: [11.0, 25.5], lat: [40.2, 47.2]}
+  mid_lat_for_aspect: 43.7
+  geo_data: ../../../shared/data/countries.geojson
+  # Šest bivših republika SFRJ i njihovi susedi (klikabilne). KOS se crta i broji kao deo Srbije
+  # (stav udžbenika).
+  drzave:
+    SVN: Slovenija
+    HRV: Hrvatska
+    BIH: Bosna i Hercegovina
+    SRB: Srbija
+    MNE: Crna Gora
+    MKD: Severna Makedonija
+    ITA: Italija
+    AUT: Austrija
+    HUN: Mađarska
+    ROU: Rumunija
+    BGR: Bugarska
+    ALB: Albanija
+    GRC: Grčka
+  spoji: {KOS: SRB}
+  # Tačke za zadatke kojima je cilj mesto (glavni gradovi). Ne crtaju se dok se ne pogode.
+  mesta:
+    beograd: {naziv: Beograd, lat: 44.82, lon: 20.46, radius_km: 40}
+    ljubljana: {naziv: Ljubljana, lat: 46.06, lon: 14.51, radius_km: 35}
+    zagreb: {naziv: Zagreb, lat: 45.81, lon: 15.98, radius_km: 35}
+    sarajevo: {naziv: Sarajevo, lat: 43.86, lon: 18.41, radius_km: 35}
+    podgorica: {naziv: Podgorica, lat: 42.44, lon: 19.26, radius_km: 30}
+    skoplje: {naziv: Skoplje, lat: 42.00, lon: 21.43, radius_km: 35}
+
+# Sastav: Učenje (jedna sesija) i Test se svaki put izvlače nanovo iz banke u odnosu
+# `odnos` lako/srednje/teško. Kratka lekcija → manje zadataka po sesiji.
+sastav:
+  ucenje: 15
+  test: 10
+  odnos: [40, 40, 20]
+
+pojmovi:
+  sfrj: SFRJ
+  referendum: referendum
+  srbija: Srbija
+  crna-gora: Crna Gora
+  bosna-i-hercegovina: Bosna i Hercegovina
+  hrvatska: Hrvatska
+  slovenija: Slovenija
+  severna-makedonija: Severna Makedonija
+  juzna-evropa: Južna Evropa
+  balkansko-poluostrvo: Balkansko poluostrvo
+  beograd: Beograd
+  ljubljana: Ljubljana
+  zagreb: Zagreb
+  sarajevo: Sarajevo
+  podgorica: Podgorica
+  skoplje: Skoplje
+
+# Zadaci (banka): banka.yaml — 5 delova, svaki zadatak sa težinom (lako/srednje/tesko).
+banka: banka.yaml

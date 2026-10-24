@@ -1,0 +1,103 @@
+# Republika Crna Gora — kviz po lekciji (tip: lesson-quiz; vidi templates/lesson-quiz/README.md).
+# Pitanja su napisana sopstvenim rečima na osnovu lekcije „Republika Crna Gora” (7. razred, str. 21–23).
+# `iz_udzbenika` (posle odgovora, u fioci): strana, odeljak, sažetak sopstvenim rečima i slika iz
+# privatnog tools/geografija/_source/slike-7/ (prikazuje se samo kad taj folder postoji — van git-a).
+title: Republika Crna Gora — kviz
+title_short: Crna Gora
+locale: sr
+nivo: osnovna
+razred: 7
+lekcije: [5]
+description: >-
+  Kviz za lekciju Republika Crna Gora: položaj i nastanak države, obala, reljef, vode, stanovništvo
+  i privreda — sa kartom (klikni državu ili mesto, „Gde sam?”). Posle svake greške u fioci desno
+  stiže sledeći stepenik pomoći.
+
+karta:
+  extent: {lon: [15.9, 22.9], lat: [40.9, 44.3]}
+  mid_lat_for_aspect: 42.6
+  geo_data: ../../../shared/data/countries.geojson
+  # Crna Gora i njeni susedi (klikabilni). KOS se crta i broji kao deo Srbije (stav udžbenika).
+  drzave:
+    MNE: Crna Gora
+    HRV: Hrvatska
+    BIH: Bosna i Hercegovina
+    SRB: Srbija
+    ALB: Albanija
+  spoji: {KOS: SRB}
+  # Tačke za zadatke kojima je cilj mesto. Ne crtaju se dok se ne pogode.
+  mesta:
+    podgorica: {naziv: Podgorica, lat: 42.44, lon: 19.26, radius_km: 25}
+    kotor: {naziv: Kotor, lat: 42.42, lon: 18.77, radius_km: 15}
+    budva: {naziv: Budva, lat: 42.29, lon: 18.84, radius_km: 18}
+    risan: {naziv: Risan, lat: 42.51, lon: 18.70, radius_km: 12}
+    bokokotorski-zaliv: {naziv: Bokokotorski zaliv, lat: 42.45, lon: 18.65, radius_km: 25}
+    lustica: {naziv: Luštica, lat: 42.40, lon: 18.62, radius_km: 12}
+    sveti-stefan: {naziv: Sveti Stefan, lat: 42.26, lon: 18.89, radius_km: 12}
+    durmitor: {naziv: Durmitor, lat: 43.13, lon: 19.03, radius_km: 40}
+    crno-jezero: {naziv: Crno jezero, lat: 43.15, lon: 19.09, radius_km: 15}
+    prokletije: {naziv: Prokletije, lat: 42.50, lon: 19.80, radius_km: 45}
+    sinjajevina: {naziv: Sinjajevina, lat: 42.95, lon: 19.30, radius_km: 30}
+    bjelasica: {naziv: Bjelasica, lat: 42.85, lon: 19.68, radius_km: 28}
+    orjen: {naziv: Orjen, lat: 42.57, lon: 18.55, radius_km: 18}
+    lovcen: {naziv: Lovćen, lat: 42.40, lon: 18.82, radius_km: 18}
+    rumija: {naziv: Rumija, lat: 42.10, lon: 19.20, radius_km: 18}
+    bjelopavlicka-ravnica: {naziv: Bjelopavlićka ravnica, lat: 42.62, lon: 19.05, radius_km: 18}
+    zetska-nizija: {naziv: Zetska nizija, lat: 42.35, lon: 19.25, radius_km: 22}
+    kanjon-tare: {naziv: Kanjon Tare, lat: 43.20, lon: 19.30, radius_km: 30}
+    skadarsko-jezero: {naziv: Skadarsko jezero, lat: 42.20, lon: 19.30, radius_km: 32}
+    ada-bojana: {naziv: Ada Bojana, lat: 41.86, lon: 19.35, radius_km: 15}
+
+sastav:
+  ucenje: 20
+  test: 15
+  odnos: [40, 40, 20]
+
+pojmovi:
+  crna-gora: Crna Gora
+  balkansko-poluostrvo: Balkansko poluostrvo
+  referendum: referendum
+  podgorica: Podgorica
+  jadransko-more: Jadransko more
+  bokokotorski-zaliv: Bokokotorski zaliv
+  lustica: Luštica
+  sveti-stefan: Sveti Stefan
+  tombolo: tombolo (prevlaka)
+  durmitor: Durmitor
+  prokletije: Prokletije
+  sinjajevina: Sinjajevina
+  bjelasica: Bjelasica
+  orjen: Orjen
+  lovcen: Lovćen
+  rumija: Rumija
+  zeta: Zeta
+  moraca: Morača
+  bjelopavlicka-ravnica: Bjelopavlićka ravnica
+  zetska-nizija: Zetska nizija
+  lednicka-jezera: lednička jezera
+  crno-jezero: Crno jezero
+  jezerouzina: jezerouzina
+  tara: Tara
+  kanjon-tare: kanjon Tare
+  most-na-djurdjevica-tari: most na Đurđevića Tari
+  bojana: Bojana
+  skadarsko-jezero: Skadarsko jezero
+  ada-bojana: Ada Bojana
+  ada: ada (rečno ostrvo)
+  risan: Risan
+  nacionalni-park: nacionalni park
+  crnogorci: Crnogorci
+  bosnjaci: Bošnjaci
+  albanci: Albanci
+  ribolov: ribolov
+  duvan: duvan
+  masline: masline
+  vinova-loza: vinova loza
+  agrumi: agrumi
+  stocarstvo: stočarstvo
+  sumarstvo: šumarstvo
+  turizam: turizam
+  dinarske-planine: Dinarske planine
+
+# Zadaci (banka): banka.yaml — delovi po glavnim naslovima lekcije, svaki zadatak sa težinom.
+banka: banka.yaml

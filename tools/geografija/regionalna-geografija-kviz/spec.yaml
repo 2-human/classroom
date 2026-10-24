@@ -1,0 +1,95 @@
+# Regionalna geografija — kviz po lekciji (tip: lesson-quiz; vidi templates/lesson-quiz/README.md).
+# Pitanja su napisana sopstvenim rečima na osnovu lekcije „Regionalna geografija” (7. razred, str. 8–9;
+# strane 10–13 nedostaju u skenovima, pa se kviz oslanja samo na str. 8–9).
+# `iz_udzbenika` (posle odgovora, u fioci): strana, odeljak, sažetak sopstvenim rečima i slika iz
+# privatnog tools/geografija/_source/slike-7/ (prikazuje se samo kad taj folder postoji — van git-a).
+title: "Regionalna geografija — kviz"
+title_short: Regionalna geografija
+locale: sr
+nivo: osnovna
+razred: 7
+lekcije: [1]
+description: >-
+  Kviz za uvodnu lekciju Regionalna geografija: šta je regija, princip regionalizacije, fizionomske i
+  funkcionalne regije (Alpska, Padska, Panonska, Rur) i regionalna podela Azije i Jugozapadne Azije —
+  sa kartom Evrope i Jugozapadne Azije.
+
+karta:
+  # Široki okvir: Evropa + Jugozapadna i deo Centralne Azije (ciljevi su većinom tačke-regije).
+  extent: {lon: [-10, 74], lat: [12, 58]}
+  mid_lat_for_aspect: 35
+  geo_data: ../../../shared/data/countries.geojson
+  drzave:
+    DEU: Nemačka
+    FRA: Francuska
+    CHE: Švajcarska
+    AUT: Austrija
+    ITA: Italija
+    SVN: Slovenija
+    HUN: Mađarska
+    SRB: Srbija
+    HRV: Hrvatska
+    TUR: Turska
+    GEO: Gruzija
+    ARM: Jermenija
+    AZE: Azerbejdžan
+    IRN: Iran
+    AFG: Avganistan
+    IRQ: Irak
+    SYR: Sirija
+    LBN: Liban
+    ISR: Izrael
+    JOR: Jordan
+    SAU: Saudijska Arabija
+    YEM: Jemen
+    OMN: Oman
+    ARE: Ujedinjeni Arapski Emirati
+    QAT: Katar
+    BHR: Bahrein
+    KWT: Kuvajt
+    KAZ: Kazahstan
+    UZB: Uzbekistan
+  spoji: {KOS: SRB}
+  # Regije kao tačke-ciljevi (ne crtaju se dok se ne pogode). Poluprečnik prati veličinu regije.
+  mesta:
+    alpi: {naziv: Alpi (Alpska regija), lat: 46.6, lon: 10.5, radius_km: 230}
+    padska-nizija: {naziv: Padska nizija (Padska regija), lat: 45.1, lon: 10.0, radius_km: 130}
+    panonska-nizija: {naziv: Panonska nizija (Panonska regija), lat: 46.6, lon: 19.8, radius_km: 220}
+    rur: {naziv: Rur, lat: 51.45, lon: 7.2, radius_km: 100}
+    centralna-azija: {naziv: Centralna (Srednja) Azija, lat: 43.0, lon: 63.0, radius_km: 750}
+    jugozapadna-azija: {naziv: Jugozapadna Azija, lat: 30.0, lon: 45.0, radius_km: 1000}
+    zakavkazje: {naziv: Zakavkazje, lat: 41.3, lon: 45.0, radius_km: 280}
+    levant: {naziv: Levant, lat: 33.3, lon: 36.0, radius_km: 280}
+    mesopotamija: {naziv: Mesopotamija, lat: 33.0, lon: 44.0, radius_km: 330}
+    arabijsko-poluostrvo: {naziv: Arabijsko poluostrvo, lat: 23.0, lon: 47.0, radius_km: 800}
+
+sastav:
+  ucenje: 20
+  test: 15
+  odnos: [40, 40, 20]
+
+pojmovi:
+  regionalna-geografija: regionalna geografija
+  geografska-regija: geografska regija
+  homogen: homogen (jednorodan)
+  heterogen: heterogen (raznorodan)
+  princip-regionalizacije: princip regionalizacije
+  fizionomske-regije: fizionomske regije
+  funkcionalne-regije: funkcionalne regije
+  nacionalna-regionalna-geografija: nacionalna regionalna geografija
+  regionalna-geografija-sveta: regionalna geografija sveta
+  alpska-regija: Alpska regija
+  panonska-regija: Panonska regija
+  padska-regija: Padska regija
+  rur: Rur
+  regionalna-podela-azije: regionalna podela Azije
+  jugozapadna-azija: Jugozapadna Azija
+  zakavkazje: Zakavkazje
+  azijske-visoravni: Azijske visoravni
+  levant: Levant
+  mesopotamija: Mesopotamija
+  arabijsko-poluostrvo: Arabijsko poluostrvo
+  prelazne-granice: prelazne granice
+
+# Zadaci (banka): banka.yaml — 6 delova, svaki zadatak sa težinom (lako/srednje/tesko).
+banka: banka.yaml

@@ -1,0 +1,96 @@
+# Republika Severna Makedonija — kviz po lekciji (tip: lesson-quiz; vidi templates/lesson-quiz/README.md).
+# Pitanja su napisana sopstvenim rečima na osnovu lekcije „Republika Severna Makedonija” (7. razred, str. 29–30).
+# `iz_udzbenika` (posle odgovora, u fioci): strana, odeljak, sažetak sopstvenim rečima i slika iz
+# privatnog tools/geografija/_source/slike-7/ (prikazuje se samo kad taj folder postoji — van git-a).
+title: Republika Severna Makedonija — kviz
+title_short: Severna Makedonija
+locale: sr
+nivo: osnovna
+razred: 7
+lekcije: [9]
+description: >-
+  Kviz za lekciju Republika Severna Makedonija: položaj, reljef, klima i vode, stanovništvo, gradovi i
+  privreda, uz kartu (klikni državu ili mesto, „Gde sam?”) i ponavljanje zastava bivših republika SFRJ.
+
+karta:
+  extent: {lon: [18.3, 25.3], lat: [39.9, 43.2]}
+  mid_lat_for_aspect: 41.5
+  geo_data: ../../../shared/data/countries.geojson
+  # Severna Makedonija i susedi (klikabilni). KOS se crta i broji kao deo Srbije (stav udžbenika).
+  drzave:
+    MKD: Severna Makedonija
+    SRB: Srbija
+    BGR: Bugarska
+    GRC: Grčka
+    ALB: Albanija
+  spoji: {KOS: SRB}
+  # Tačke za zadatke kojima je cilj mesto. Ne crtaju se dok se ne pogode.
+  mesta:
+    skoplje: {naziv: Skoplje, lat: 42.00, lon: 21.43, radius_km: 35}
+    bitolj: {naziv: Bitolj, lat: 41.03, lon: 21.33, radius_km: 30}
+    kumanovo: {naziv: Kumanovo, lat: 42.13, lon: 21.71, radius_km: 25}
+    prilep: {naziv: Prilep, lat: 41.35, lon: 21.55, radius_km: 25}
+    tetovo: {naziv: Tetovo, lat: 42.01, lon: 20.97, radius_km: 25}
+    vardar: {naziv: reka Vardar, lat: 41.60, lon: 22.00, radius_km: 45}
+    strumica: {naziv: reka Strumica, lat: 41.43, lon: 22.65, radius_km: 30}
+    sar-planina: {naziv: Šar-planina (Šarske planine), lat: 42.05, lon: 20.80, radius_km: 50}
+    srpsko-makedonska-masa: {naziv: Srpsko-makedonska masa, lat: 41.80, lon: 22.50, radius_km: 70}
+    ohridsko-jezero: {naziv: Ohridsko jezero, lat: 41.00, lon: 20.75, radius_km: 30}
+    prespansko-jezero: {naziv: Prespansko jezero, lat: 40.90, lon: 21.05, radius_km: 25}
+    dojransko-jezero: {naziv: Dojransko jezero, lat: 41.20, lon: 22.73, radius_km: 20}
+    ohridska-kotlina: {naziv: Ohridska kotlina, lat: 41.12, lon: 20.80, radius_km: 30}
+    tikveska-kotlina: {naziv: Tikveška kotlina, lat: 41.43, lon: 22.00, radius_km: 30}
+    egejsko-more: {naziv: "Egejsko more (Solunski zaliv)", lat: 40.40, lon: 22.85, radius_km: 60}
+
+sastav:
+  ucenje: 20
+  test: 15
+  odnos: [40, 40, 20]
+
+pojmovi:
+  severna-makedonija: Severna Makedonija
+  balkansko-poluostrvo: Balkansko poluostrvo
+  kontinentalna-zemlja: kontinentalna zemlja
+  saobracajno-geografski-polozaj: saobraćajno-geografski položaj
+  grcka: Grčka
+  srbija: Srbija
+  albanija: Albanija
+  bugarska: Bugarska
+  planinsko-kotlinska-zemlja: planinsko-kotlinska zemlja
+  vardar: Vardar
+  sar-planina: Šar-planina
+  nabrane-planine: nabrane planine
+  srpsko-makedonska-masa: Srpsko-makedonska masa
+  gromadne-planine: gromadne planine
+  egejsko-more: Egejsko more
+  izmenjenosredozemna-klima: izmenjenosredozemna klima
+  planinska-klima: planinska klima
+  egejski-sliv: Egejski sliv
+  strumica: Strumica
+  ohridsko-jezero: Ohridsko jezero
+  dojransko-jezero: Dojransko jezero
+  prespansko-jezero: Prespansko jezero
+  makedonci: Makedonci
+  pravoslavlje: pravoslavlje
+  albanci: Albanci
+  islam: islam
+  vocarstvo: voćarstvo
+  vinogradarstvo: vinogradarstvo
+  stocarstvo: stočarstvo
+  ohridska-kotlina: Ohridska kotlina
+  prespanska-kotlina: Prespanska kotlina
+  tikveska-kotlina: Tikveška kotlina
+  turizam: turizam
+  skoplje: Skoplje
+  bitolj: Bitolj
+  kumanovo: Kumanovo
+  prilep: Prilep
+  tetovo: Tetovo
+  sfrj: SFRJ
+  slovenija: Slovenija
+  hrvatska: Hrvatska
+  crna-gora: Crna Gora
+  bosna-i-hercegovina: Bosna i Hercegovina
+
+# Zadaci (banka): banka.yaml — delovi po glavnim naslovima lekcije, svaki zadatak sa težinom.
+banka: banka.yaml

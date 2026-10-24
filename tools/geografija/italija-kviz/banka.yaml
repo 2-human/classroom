@@ -1,0 +1,2277 @@
+# Banka zadataka — Republika Italija (7. razred, str. 31–33). Spaja se u spec.yaml: `delovi`
+# zamenjuje spec-ove delove, `mesta` se dodaju u karta.mesta (ovde su sva mesta u spec.yaml).
+# Svaki zadatak ima `tezina` (lako | srednje | tesko). Pitanja su sopstvenim rečima, iz beleške lekcije.
+
+mesta: {}
+
+delovi:
+  - naslov: Položaj i osnovni podaci
+    zadaci:
+      - id: polozaj-izbor-poluostrvo
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [italija, apeninsko-poluostrvo]
+        pitanje: Na kom poluostrvu leži najveći deo Italije?
+        odgovori:
+          - {tekst: Apeninsko poluostrvo, tacan: true}
+          - {tekst: Skandinavsko poluostrvo, tacan: false}
+          - {tekst: Pirinejsko poluostrvo, tacan: false}
+          - {tekst: Krimsko poluostrvo, tacan: false}
+        pomoc:
+          - Italija je u sredini Južne Evrope, između dva druga velika poluostrva.
+          - Poluostrvo ima oblik čizme i dobilo je ime po planinama koje se pružaju kroz njega.
+          - "Iz lekcije: Italija pokriva najveći deo Apeninskog poluostrva."
+        objasnjenje: Italija zauzima najveći deo Apeninskog poluostrva, od Alpa na severu do Kalabrije na jugu. Pirinejsko je zapadnije (Španija), a Skandinavsko i Krimsko su van Južne Evrope.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Italija pokriva veći deo Apeninskog poluostrva i na severu dopire do Alpa. Na istom poluostrvu su još dve male države.
+          slika: 10-italija/01-italija-infookvir.jpg
+
+      - id: polozaj-izbor-glavni-grad
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [italija, rim]
+        pitanje: Koji je glavni grad Italije?
+        odgovori:
+          - {tekst: Rim, tacan: true}
+          - {tekst: Milano, tacan: false}
+          - {tekst: Venecija, tacan: false}
+          - {tekst: Napulj, tacan: false}
+        pomoc:
+          - Glavni grad leži u srednjoj Italiji, na reci Tibar.
+          - Zovu ga „Večni grad” jer postoji više od 2.500 godina.
+          - "Iz lekcije: glavni grad Italije je Rim."
+        objasnjenje: Glavni grad je Rim, na Tibru u srednjoj Italiji. Milano, Napulj i Venecija su veliki gradovi, ali nisu prestonica.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Osnovni podaci
+          tekst: Infookvir na početku lekcije navodi broj stanovnika, površinu, glavni grad Rim i službeni jezik — italijanski.
+          slika: 10-italija/01-italija-infookvir.jpg
+
+      - id: polozaj-izbor-mora
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [ligurijsko-more, tirensko-more, jadransko-more, jonsko-more, sredozemno-more]
+        pitanje: Koja mora zapljuskuju obale Italije? (Više tačnih.)
+        odgovori:
+          - {tekst: Ligurijsko more, tacan: true}
+          - {tekst: Tirensko more, tacan: true}
+          - {tekst: Jadransko more, tacan: true}
+          - {tekst: Jonsko more, tacan: true}
+          - {tekst: Egejsko more, tacan: false}
+          - {tekst: Crno more, tacan: false}
+        pomoc:
+          - Sva tačna mora su delovi Sredozemnog mora oko „čizme”.
+          - Tačna su četiri mora — dva na zapadnoj i dva na istočnoj obali. Mora oko Grčke i Turske ne dodiruju Italiju.
+          - "Iz lekcije: zapadno su Ligurijsko i Tirensko, istočno Jadransko i Jonsko more."
+        objasnjenje: Italiju okružuju Ligurijsko i Tirensko more (zapad) i Jadransko i Jonsko more (istok). Egejsko more je uz Grčku, a Crno more je daleko na istoku.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Zapadna obala Italije izlazi na Ligurijsko i Tirensko more, a istočnu zapljuskuju Jadransko i Jonsko more. Sva četiri su delovi Sredozemnog mora.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: polozaj-izbor-patuljaste
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [san-marino, vatikan, apeninsko-poluostrvo]
+        pitanje: Koje se još države, pored Italije, nalaze na Apeninskom poluostrvu? (Više tačnih.)
+        odgovori:
+          - {tekst: San Marino, tacan: true}
+          - {tekst: Vatikan, tacan: true}
+          - {tekst: Monako, tacan: false}
+          - {tekst: Malta, tacan: false}
+          - {tekst: Andora, tacan: false}
+        pomoc:
+          - Traži patuljaste države koje su sa svih strana okružene Italijom.
+          - Tačne su dve. Jedna od ponuđenih je ostrvo južno od Sicilije, jedna je na obali Francuske, a jedna u Pirinejima.
+          - "Iz lekcije: na Apeninskom poluostrvu su još San Marino i Vatikan."
+        objasnjenje: San Marino (na istočnim padinama Apenina) i Vatikan (u Rimu) nalaze se na Apeninskom poluostrvu. Malta je ostrvska država, Monako je na francuskoj obali, a Andora u Pirinejima.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Pored Italije, na Apeninskom poluostrvu su i dve patuljaste države — San Marino i Vatikan.
+
+      - id: polozaj-tn-povrsina
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [italija]
+        tvrdnja: Italija ima površinu od oko 301.340 km².
+        tacno: true
+        pomoc:
+          - Pogledaj infookvir na početku lekcije.
+          - Površina je nešto veća od 300 hiljada km², ali manja od 400 hiljada km².
+          - "Iz lekcije: površina Italije je 301.340 km²."
+        objasnjenje: Tačno — Italija ima 301.340 km².
+        iz_udzbenika:
+          strana: 31
+          odeljak: Osnovni podaci
+          tekst: Prema infookviru, Italija ima 58,8 miliona stanovnika i površinu od 301.340 km².
+          slika: 10-italija/01-italija-infookvir.jpg
+
+      - id: polozaj-tn-stanovnici
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [italija]
+        tvrdnja: Italija ima oko 5,8 miliona stanovnika.
+        tacno: false
+        ispravke:
+          - {tekst: "Italija ima oko 58,8 miliona stanovnika.", tacan: true}
+          - {tekst: "Italija ima oko 588 miliona stanovnika.", tacan: false}
+          - {tekst: "Italija ima oko 580 hiljada stanovnika.", tacan: false}
+        pomoc:
+          - Italija je jedna od najnaseljenijih država Evrope — da li bi to mogao biti manje od Srbije?
+          - Pravi broj je desetak puta veći, ali manji od 100 miliona.
+          - "Iz lekcije: Italija ima 58,8 miliona stanovnika."
+        objasnjenje: Netačno — Italija ima oko 58,8 miliona stanovnika i spada među najnaseljenije države Evrope.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Osnovni podaci
+          tekst: Infookvir navodi da Italija ima 58,8 miliona stanovnika.
+          slika: 10-italija/01-italija-infookvir.jpg
+
+      - id: polozaj-tn-jezik
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [italija]
+        tvrdnja: Službeni jezik u Italiji je italijanski.
+        tacno: true
+        pomoc:
+          - Jezik obično nosi ime po narodu koji čini većinu.
+          - Većina stanovnika su Italijani.
+          - "Iz lekcije: službeni jezik je italijanski."
+        objasnjenje: Tačno — službeni jezik je italijanski.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Osnovni podaci
+          tekst: U infookviru su glavni grad Rim i službeni jezik — italijanski.
+          slika: 10-italija/01-italija-infookvir.jpg
+
+      - id: polozaj-tn-zapadna-obala
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [ligurijsko-more, tirensko-more, jadransko-more, jonsko-more]
+        tvrdnja: Zapadnu obalu Italije zapljuskuju Jadransko i Jonsko more.
+        tacno: false
+        ispravke:
+          - {tekst: "Zapadnu obalu zapljuskuju Ligurijsko i Tirensko more.", tacan: true}
+          - {tekst: "Zapadnu obalu zapljuskuju Egejsko i Crno more.", tacan: false}
+          - {tekst: "Zapadnu obalu zapljuskuje samo Atlantski okean.", tacan: false}
+        pomoc:
+          - Jadran je more između Italije i Balkana — na kojoj je to strani „čizme”?
+          - Na zapadu je more uz Đenovu i more između kopna, Sardinije i Sicilije.
+          - "Iz lekcije: zapadno su Ligurijsko i Tirensko more, istočno Jadransko i Jonsko."
+        objasnjenje: Netačno — Jadransko i Jonsko more su na istoku. Zapadnu obalu zapljuskuju Ligurijsko i Tirensko more.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Zapadna obala izlazi na Ligurijsko i Tirensko more, a istočna na Jadransko i Jonsko more.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: polozaj-dopuni-infookvir
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [italija, rim]
+        pitanje: Dopuni rečenicu rečima iz banke.
+        tekst: Italija ima oko {{58,8|58.8}} miliona stanovnika, glavni grad je {{Rim}}, a službeni jezik je {{italijanski}}.
+        ponudjene: ["58,8", Rim, italijanski, "5,8", Milano, latinski]
+        pomoc:
+          - Italija je među najnaseljenijim državama Evrope — broj stanovnika je veći od 50 miliona.
+          - Glavni grad je „Večni grad” na Tibru; jezik nosi ime po narodu.
+          - "Iz lekcije: 58,8 miliona stanovnika, glavni grad Rim, jezik italijanski."
+        objasnjenje: Italija ima 58,8 miliona stanovnika, glavni grad je Rim, a službeni jezik italijanski.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Osnovni podaci
+          tekst: Infookvir navodi 58,8 miliona stanovnika, površinu 301.340 km², glavni grad Rim i italijanski jezik.
+          slika: 10-italija/01-italija-infookvir.jpg
+
+      - id: polozaj-dopuni-otrantska
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [otrantska-vrata, jadransko-more, jonsko-more]
+        pitanje: Dopuni rečenicu rečju iz banke.
+        tekst: Jadransko i Jonsko more razdvaja moreuz {{Otrantska vrata}}.
+        ponudjene: [Otrantska vrata, Mesinski moreuz, Gibraltarski moreuz, Bosfor]
+        pomoc:
+          - Moreuz je između „pete” italijanske čizme i obale Albanije.
+          - Gibraltar je kod Španije, Bosfor kod Istanbula, a Mesinski moreuz deli Siciliju od Kalabrije.
+          - "Iz lekcije: Jadransko i Jonsko more razdvajaju Otrantska vrata."
+        objasnjenje: Otrantska vrata su moreuz između jugoistoka Italije i Albanije; spajaju (i razdvajaju) Jadransko i Jonsko more.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Istočnu obalu zapljuskuju Jadransko i Jonsko more, a između njih je moreuz Otrantska vrata.
+
+      - id: polozaj-dopuni-mora
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [ligurijsko-more, tirensko-more, jadransko-more, jonsko-more]
+        pitanje: Dopuni rečenicu (bez ponuđenih reči).
+        tekst: Severozapadno, uz Đenovu, je {{Ligurijsko}} more, a između kopna, Sardinije i Sicilije {{Tirensko}} more. Istočno, prema Balkanu, je {{Jadransko}} more, a na jugoistoku, prema Grčkoj, {{Jonsko}} more.
+        pomoc:
+          - Na zapadu su dva mora, a na istoku dva — sva su delovi Sredozemnog mora.
+          - Severozapadno more nosi ime po oblasti Ligurija; istočno more uz Balkan zovemo i Jadran.
+          - "Iz lekcije: Ligurijsko i Tirensko (zapad), Jadransko i Jonsko more (istok)."
+        objasnjenje: Ligurijsko (kod Đenove) i Tirensko more su na zapadu, Jadransko (prema Balkanu) i Jonsko more (prema Grčkoj) na istoku.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Italiju sa tri strane okružuju četiri mora — Ligurijsko i Tirensko na zapadu, Jadransko i Jonsko na istoku.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: polozaj-povezi-infookvir
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [italija, rim]
+        pitanje: Poveži podatak iz infookvira sa njegovom vrednošću.
+        parovi:
+          - [Glavni grad, Rim]
+          - [Službeni jezik, italijanski]
+          - [Broj stanovnika, "58,8 miliona"]
+          - [Površina, "301.340 km²"]
+        pomoc:
+          - Kreni od podataka koje najlakše prepoznaješ — grad i jezik.
+          - Broj sa „km²” je površina, a broj sa „miliona” je broj stanovnika.
+          - "Iz lekcije: Rim, italijanski, 58,8 miliona stanovnika, 301.340 km²."
+        objasnjenje: Glavni grad Rim, jezik italijanski, 58,8 miliona stanovnika, površina 301.340 km².
+        iz_udzbenika:
+          strana: 31
+          odeljak: Osnovni podaci
+          tekst: Infookvir sa ikonicama daje četiri osnovna podatka o Italiji — stanovništvo, površinu, glavni grad i jezik.
+          slika: 10-italija/01-italija-infookvir.jpg
+
+      - id: polozaj-povezi-mora
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [ligurijsko-more, tirensko-more, jadransko-more, jonsko-more]
+        pitanje: Poveži more sa njegovim položajem uz Italiju.
+        parovi:
+          - [Ligurijsko more, "severozapad, uz Đenovu"]
+          - [Tirensko more, "između kopna, Sicilije i Sardinije"]
+          - [Jadransko more, "istočno, između Italije i Balkana"]
+          - [Jonsko more, "jugoistok, između Italije i Grčke"]
+        pomoc:
+          - Dva mora su na zapadnoj, a dva na istočnoj obali.
+          - Na zapadu je manje more na severu (kod Đenove) i veće južno od njega; na istoku je severnije more uže i duže.
+          - "Iz lekcije: Ligurijsko i Tirensko na zapadu, Jadransko i Jonsko na istoku."
+        objasnjenje: Ligurijsko — kod Đenove; Tirensko — između kopna i velikih ostrva; Jadransko — prema Balkanu; Jonsko — prema Grčkoj.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Na fizičkoj karti se vidi da Ligurijsko i Tirensko more zapljuskuju zapadnu, a Jadransko i Jonsko more istočnu obalu Italije.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: polozaj-zakljuci-more
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [italija, sredozemno-more]
+        pitanje: Italiju sa tri strane okružuje more. Šta to znači za ovu zemlju?
+        odgovori:
+          - {tekst: "Ima dugu morsku obalu, pa su joj važni luke i primorski turizam.", tacan: true}
+          - {tekst: "Nema izlaz na more.", tacan: false}
+          - {tekst: "Sve njene granice su na kopnu.", tacan: false}
+          - {tekst: "Okružena je pustinjom.", tacan: false}
+        pomoc:
+          - "Korak 1: Ako je more sa tri strane, koliko je dugačka obala?"
+          - "Korak 2: Šta ljudi rade uz more — setite se luke Đenova i turista."
+          - "Iz lekcije: Italija izlazi na četiri mora; Đenova je najveća luka, a more privlači turiste."
+        objasnjenje: Zbog mora sa tri strane Italija ima dugu obalu — razvijene su luke (Đenova) i primorski turizam.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Italija sa tri strane izlazi na more — Ligurijsko, Tirensko, Jadransko i Jonsko. Izlazak na more je i jedan od razloga velikog broja turista.
+
+      - id: polozaj-zakljuci-otrant
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [otrantska-vrata, venecija, jadransko-more, jonsko-more]
+        pitanje: Brod plovi iz Venecije ka zapadnoj obali Grčke. Kroz koji moreuz mora da prođe?
+        odgovori:
+          - {tekst: "Kroz Otrantska vrata", tacan: true}
+          - {tekst: "Kroz Gibraltarski moreuz", tacan: false}
+          - {tekst: "Kroz Bosfor", tacan: false}
+          - {tekst: "Ni kroz jedan — Venecija je na Tirenskom moru.", tacan: false}
+        pomoc:
+          - "Korak 1: Na kom moru je Venecija — na istočnoj ili zapadnoj strani Italije?"
+          - "Korak 2: Zapadna obala Grčke je na Jonskom moru. Kako se iz Jadrana stiže u Jonsko more?"
+          - "Iz lekcije: Jadransko i Jonsko more razdvajaju Otrantska vrata."
+        objasnjenje: Venecija je na severnom Jadranu; da bi stigao do Jonskog mora uz Grčku, brod prolazi kroz Otrantska vrata.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Istočnu obalu Italije zapljuskuju Jadransko i Jonsko more, koje razdvaja moreuz Otrantska vrata.
+
+      - id: polozaj-klik-italija
+        vrsta: karta_klik
+        tezina: lako
+        pojmovi: [italija, apeninsko-poluostrvo]
+        pitanje: Klikni na Italiju.
+        cilj: {drzava: ITA}
+        pomoc:
+          - Italija je u sredini Sredozemnog mora, južno od Alpa.
+          - Ima oblik čizme.
+          - Klikni na „čizmu”.
+        objasnjenje: Italija je „čizma” u središnjem Sredozemlju, od Alpa do Sicilije.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Osnovni podaci
+          tekst: Na maloj karti u infookviru Italija je obojena crveno, sa Sicilijom i Sardinijom.
+          slika: 10-italija/01-italija-infookvir.jpg
+
+      - id: polozaj-klik-jadransko
+        vrsta: karta_klik
+        tezina: lako
+        pojmovi: [jadransko-more]
+        pitanje: Klikni na Jadransko more.
+        cilj: {mesto: jadransko-more}
+        pomoc:
+          - Jadransko more je istočno od Italije.
+          - Nalazi se između Italije i Balkanskog poluostrva (Hrvatske, Crne Gore, Albanije).
+          - Klikni na izduženo more između „čizme” i Balkana.
+        objasnjenje: Jadransko more je između Italije i Balkana; u njega se uliva Po.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Istočnu obalu Italije zapljuskuju Jadransko i Jonsko more.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: polozaj-klik-tirensko
+        vrsta: karta_klik
+        tezina: lako
+        pojmovi: [tirensko-more]
+        pitanje: Klikni na Tirensko more.
+        cilj: {mesto: tirensko-more}
+        pomoc:
+          - Tirensko more je zapadno od Apeninskog poluostrva.
+          - Okruženo je kopnom Italije, Sicilijom, Sardinijom i Korzikom.
+          - Klikni na more između „čizme” i Sardinije.
+        objasnjenje: Tirensko more je između kopna Italije, Sicilije, Sardinije i Korzike.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Zapadna obala Italije izlazi na Ligurijsko i Tirensko more.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: polozaj-klik-ligurijsko
+        vrsta: karta_klik
+        tezina: srednje
+        pojmovi: [ligurijsko-more]
+        pitanje: Klikni na Ligurijsko more.
+        cilj: {mesto: ligurijsko-more}
+        pomoc:
+          - Ligurijsko more je na severozapadu, severno od Tirenskog.
+          - Nalazi se uz Đenovu, između italijanske obale i Korzike.
+          - Klikni na more severno od Korzike, kod Đenove.
+        objasnjenje: Ligurijsko more je na severozapadu Italije; na njemu je luka Đenova.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Zapadna obala Italije izlazi na Ligurijsko i Tirensko more; Ligurijsko je severnije, uz Đenovu.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: polozaj-klik-jonsko
+        vrsta: karta_klik
+        tezina: lako
+        pojmovi: [jonsko-more]
+        pitanje: Klikni na Jonsko more.
+        cilj: {mesto: jonsko-more}
+        pomoc:
+          - Jonsko more je na jugoistoku Italije.
+          - Nalazi se između „đona” čizme i Grčke, južno od Otrantskih vrata.
+          - Klikni na more između Kalabrije i Grčke.
+        objasnjenje: Jonsko more je između jugoistoka Italije i Grčke.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Istočnu obalu Italije zapljuskuju Jadransko i Jonsko more.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: polozaj-klik-otrantska
+        vrsta: karta_klik
+        tezina: srednje
+        pojmovi: [otrantska-vrata]
+        pitanje: Klikni na moreuz Otrantska vrata.
+        cilj: {mesto: otrantska-vrata}
+        pomoc:
+          - Moreuz spaja Jadransko i Jonsko more.
+          - Nalazi se između „pete” italijanske čizme i Albanije.
+          - Klikni na najuži deo mora između jugoistoka Italije i Albanije.
+        objasnjenje: Otrantska vrata su između „pete” Italije i Albanije.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Moreuz Otrantska vrata razdvaja Jadransko od Jonskog mora.
+
+      - id: polozaj-gde-san-marino
+        vrsta: gde_sam
+        tezina: tesko
+        pojmovi: [san-marino, apenini]
+        pitanje: Gde sam? Pročitaj trag i klikni mesto na karti.
+        cilj: {mesto: san-marino}
+        tragovi:
+          - Ja sam jedna od najmanjih država Evrope i nemam izlaz na more.
+          - Sa svih strana me okružuje jedna velika država.
+          - Ležim na istočnim padinama Apenina, nedaleko od Jadranskog mora.
+          - Ja sam patuljasta država na Apeninskom poluostrvu, ali nisam u Rimu.
+        objasnjenje: San Marino — patuljasta država na istočnim padinama Apenina, okružena Italijom.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Na Apeninskom poluostrvu su, pored Italije, San Marino i Vatikan.
+
+      - id: polozaj-gde-italija
+        vrsta: gde_sam
+        tezina: lako
+        pojmovi: [italija]
+        pitanje: Gde sam? Pročitaj trag i klikni na kartu.
+        cilj: {drzava: ITA}
+        tragovi:
+          - Na severu me zaklanjaju visoke planine, a sa tri strane me zapljuskuje more.
+          - Moja dva najveća ostrva su Sicilija i Sardinija.
+          - Ja sam država u obliku čizme, a glavni grad mi je Rim.
+        objasnjenje: Italija — „čizma” između Alpa i Sredozemnog mora, sa Sicilijom i Sardinijom.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Položaj
+          tekst: Italija zauzima veći deo Apeninskog poluostrva, od Alpa na severu do Sicilije na jugu.
+          slika: 10-italija/01-italija-infookvir.jpg
+
+  - naslov: Reljef, ostrva i vulkani
+    zadaci:
+      - id: reljef-izbor-planinska
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [italija, alpi, apenini]
+        pitanje: Kakav je reljef Italije uglavnom?
+        odgovori:
+          - {tekst: pretežno planinski, tacan: true}
+          - {tekst: pretežno ravničarski, tacan: false}
+          - {tekst: pretežno pustinjski, tacan: false}
+          - {tekst: pretežno močvaran, tacan: false}
+        pomoc:
+          - Seti se koje se planine pružaju na severu i kroz sredinu zemlje.
+          - Alpi i Apenini zauzimaju veći deo Italije; ravnica je uglavnom samo uz reku Po.
+          - "Iz lekcije: Italija je uglavnom planinska zemlja."
+        objasnjenje: Italija je pretežno planinska — Alpi su na severu, a Apenini kroz ceo središnji deo. Velika ravnica je samo Padska nizija.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Italija je uglavnom planinska zemlja; na severu se pružaju Alpi, a kroz središnji deo Apenini.
+          slika: 10-italija/04-apenini.jpg
+
+      - id: reljef-izbor-ostrva
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [sicilija, sardinija]
+        pitanje: Koja su dva najveća ostrva u sastavu Italije? (Više tačnih.)
+        odgovori:
+          - {tekst: Sicilija, tacan: true}
+          - {tekst: Sardinija, tacan: true}
+          - {tekst: Island, tacan: false}
+          - {tekst: Kipar, tacan: false}
+        pomoc:
+          - Traži ostrva u Sredozemnom moru, blizu „čizme”.
+          - Jedno je ispred „vrha čizme”, a drugo zapadno od poluostrva. Ostala ponuđena su daleko na severu ili istoku.
+          - "Iz lekcije: dva najveća ostrva Italije su Sicilija i Sardinija."
+        objasnjenje: Najveća italijanska ostrva su Sicilija (ispred „vrha čizme”) i Sardinija (zapadno od poluostrva). Island je u Atlantiku, a Kipar u istočnom Sredozemlju.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Dva najveća ostrva u sastavu Italije su Sicilija i Sardinija.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: reljef-izbor-nastanak
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [alpi, apenini]
+        pitanje: Kakve su planine Alpi i Apenini po načinu postanka?
+        odgovori:
+          - {tekst: "mlade nabrane (venačne) planine", tacan: true}
+          - {tekst: "planine nastale samo od vulkanske lave", tacan: false}
+          - {tekst: "stare, niske i zaravnjene planine", tacan: false}
+          - {tekst: "peščane dine koje je naneo vetar", tacan: false}
+        pomoc:
+          - Visoke, oštre vrhove obično imaju mlade planine.
+          - Nastale su nabiranjem Zemljine kore, kao i Pirineji i Dinaridi.
+          - "Iz lekcije: Alpi i Apenini su mlade nabrane (venačne) planine."
+        objasnjenje: Alpi i Apenini su mlade nabrane (venačne) planine — zato su visoke, sa oštrim vrhovima.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Tekst pita kako su nastali Alpi i Apenini — obe su mlade, nabrane planine.
+          slika: 10-italija/02-alpi.jpg
+
+      - id: reljef-izbor-vulkani
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [etna, vezuv, stromboli, vulkano]
+        pitanje: Koji od navedenih su aktivni vulkani u Italiji? (Više tačnih.)
+        odgovori:
+          - {tekst: Etna, tacan: true}
+          - {tekst: Vezuv, tacan: true}
+          - {tekst: Stromboli, tacan: true}
+          - {tekst: Vulkano, tacan: true}
+          - {tekst: Apenini, tacan: false}
+          - {tekst: Kalabrija, tacan: false}
+          - {tekst: Olimp, tacan: false}
+        pomoc:
+          - Vulkani su pojedinačni vrhovi na jugu Italije — planinski lanac i poluostrvo nisu vulkani.
+          - Tačna su četiri — jedan na Siciliji, jedan kraj Napulja i dva na Liparskim ostrvima. Olimp je planina u Grčkoj.
+          - "Iz lekcije: aktivni vulkani su Etna, Stromboli, Vulkano i Vezuv."
+        objasnjenje: Aktivni vulkani su Etna (Sicilija), Stromboli i Vulkano (Liparska ostrva) i Vezuv (kod Napulja). Apenini su planinski lanac, Kalabrija poluostrvo, a Olimp planina u Grčkoj.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Na jugu je pojas aktivnih vulkana — Etna na Siciliji, Stromboli i Vulkano na Liparskim ostrvima i Vezuv kraj Napulja.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: reljef-tn-padska
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [padska-nizija, po, alpi, apenini]
+        tvrdnja: Padska nizija leži između Alpa i Apenina, u dolini reke Po.
+        tacno: true
+        pomoc:
+          - Ime nizije dolazi od reke koja kroz nju teče.
+          - Na severu nizije su Alpi, a na jugu Apenini.
+          - "Iz lekcije: Padska nizija je u dolini Poa, između dva planinska masiva."
+        objasnjenje: Tačno — Padska nizija je u dolini Poa, između Alpa i Apenina; to je najplodniji i najnaseljeniji deo Italije.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Padska nizija leži u dolini reke Po, između Alpa i Apenina; najplodnija je i najgušće naseljena.
+          slika: 10-italija/03-delta-po-padska-nizija.jpg
+
+      - id: reljef-tn-apenini
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [apenini]
+        tvrdnja: Apenini se pružaju samo duž severne granice Italije.
+        tacno: false
+        ispravke:
+          - {tekst: "Apenini se pružaju kroz središnji deo zemlje, duž poluostrva.", tacan: true}
+          - {tekst: "Apenini su samo na Sardiniji.", tacan: false}
+          - {tekst: "Apenini su nizija uz reku Po.", tacan: false}
+        pomoc:
+          - Na severnoj granici Italije su druge, više planine.
+          - Apenini su „kičma” poluostrva.
+          - "Iz lekcije: na severu su Alpi, a kroz središnji deo Apenini."
+        objasnjenje: Netačno — na severu su Alpi, a Apenini se pružaju kroz središnji deo Italije, sve do Kalabrije.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Na severu se pružaju Alpi, a kroz središnji deo zemlje Apenini.
+          slika: 10-italija/04-apenini.jpg
+
+      - id: reljef-tn-vezuv
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [vezuv, napulj]
+        tvrdnja: Vulkan Vezuv nalazi se kraj Napulja.
+        tacno: true
+        pomoc:
+          - Vezuv je na kopnu, na zapadnoj obali južne Italije.
+          - Uzdiže se iznad zaliva koji nosi ime po velikom gradu.
+          - "Iz lekcije: Vezuv je kraj Napulja."
+        objasnjenje: Tačno — Vezuv je iznad Napuljskog zaliva, kraj Napulja.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Među aktivnim vulkanima je i Vezuv, koji se nalazi kraj Napulja.
+          slika: 10-italija/06-vezuv-pompeja.jpg
+
+      - id: reljef-tn-stromboli
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [stromboli, vulkano, liparska-ostrva]
+        tvrdnja: Stromboli i Vulkano su vulkani na Sardiniji.
+        tacno: false
+        ispravke:
+          - {tekst: "Nalaze se na Liparskim ostrvima, severno od Sicilije.", tacan: true}
+          - {tekst: "Nalaze se u Alpima.", tacan: false}
+          - {tekst: "Nalaze se u Padskoj niziji.", tacan: false}
+        pomoc:
+          - Ova dva vulkana su posebna ostrva, a ne vrhovi na velikom ostrvu.
+          - Pripadaju grupi malih ostrva u Tirenskom moru, blizu Sicilije.
+          - "Iz lekcije: Stromboli i Vulkano su na Liparskim ostrvima."
+        objasnjenje: Netačno — Stromboli i Vulkano su na Liparskim ostrvima, severno od Sicilije. Sardinija nema aktivne vulkane.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Pored Etne, veći aktivni vulkani su Stromboli i Vulkano na Liparskim ostrvima i Vezuv kraj Napulja.
+
+      - id: reljef-tn-pompeja-otkrice
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [pompeja]
+        tvrdnja: Ostaci Pompeje otkriveni su slučajno krajem XVI veka, pri kopanju kanala.
+        tacno: true
+        pomoc:
+          - Grad je posle erupcije bio zatrpan i dugo zaboravljen.
+          - Otkriće nije bilo planirano iskopavanje.
+          - "Iz lekcije: Pompeja je otkrivena slučajno krajem XVI veka, kad se kopao kanal."
+        objasnjenje: Tačno — zatrpana Pompeja otkrivena je slučajno krajem XVI veka, pri kopanju kanala; nađeni su ostaci okamenjenog grada.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Zanimljivosti
+          tekst: Pompeja je vekovima bila zaboravljena, dok krajem XVI veka nije slučajno otkrivena pri kopanju kanala.
+          slika: 10-italija/06-vezuv-pompeja.jpg
+
+      - id: reljef-tn-pompeja
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [pompeja, vezuv, etna]
+        tvrdnja: Pompeju je uništila erupcija Etne 79. godine.
+        tacno: false
+        ispravke:
+          - {tekst: "Pompeju je uništila erupcija Vezuva 79. godine.", tacan: true}
+          - {tekst: "Pompeju je uništila erupcija Strombolija 1979. godine.", tacan: false}
+          - {tekst: "Pompeju je uništio zemljotres u Alpima.", tacan: false}
+        pomoc:
+          - Godina je tačna — proveri koji vulkan je blizu Pompeje.
+          - Pompeja je bila jugoistočno od vulkana kraj Napulja, a ne na Siciliji.
+          - "Iz lekcije: erupcija Vezuva 79. godine razorila je Pompeju."
+        objasnjenje: Netačno — Pompeju je 79. godine uništila erupcija Vezuva, vulkana kraj Napulja. Etna je na Siciliji.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Zanimljivosti
+          tekst: Vezuv je 79. godine snažno eruptirao i razorio okolinu; najteže je stradala Pompeja.
+          slika: 10-italija/06-vezuv-pompeja.jpg
+
+      - id: reljef-dopuni-planine
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [alpi, apenini]
+        pitanje: Dopuni rečenicu rečima iz banke.
+        tekst: Na severu Italije pružaju se {{Alpi}}, a kroz središnji deo zemlje {{Apenini}}.
+        ponudjene: [Alpi, Apenini, Pirineji]
+        pomoc:
+          - Severne planine su najviše u Evropi i dele Italiju od Švajcarske i Austrije.
+          - Pirineji su između Španije i Francuske, pa nisu u Italiji.
+          - "Iz lekcije: na severu Alpi, kroz središnji deo Apenini."
+        objasnjenje: Alpi su na severu, Apenini kroz sredinu poluostrva.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Italija je uglavnom planinska — na severu su Alpi, a kroz središnji deo Apenini.
+          slika: 10-italija/02-alpi.jpg
+
+      - id: reljef-dopuni-zalivi
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [djenovski-zaliv, napuljski-zaliv, tarantski-zaliv]
+        pitanje: Dopuni rečenicu rečima iz banke.
+        tekst: Na severozapadu je {{Đenovski|Djenovski}} zaliv, na zapadnoj obali kod Vezuva {{Napuljski}} zaliv, a između „pete” i „prstiju” čizme {{Tarantski}} zaliv.
+        ponudjene: [Đenovski, Napuljski, Tarantski, Tršćanski, Bokokotorski]
+        pomoc:
+          - Zalivi nose imena gradova na njihovoj obali.
+          - Na severozapadu je najveća luka, na zapadu grad ispod Vezuva, a na jugu grad Taranto. Dva ponuđena zaliva nisu u lekciji.
+          - "Iz lekcije: ističu se Đenovski, Tarantski i Napuljski zaliv."
+        objasnjenje: Đenovski zaliv je na severozapadu, Napuljski na zapadnoj obali, a Tarantski na jugu, između „pete” i „prstiju” čizme.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Obala Italije ima tri istaknuta zaliva — Đenovski, Tarantski i Napuljski.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: reljef-dopuni-pompeja
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [vezuv, pompeja]
+        pitanje: Dopuni rečenicu rečima iz banke.
+        tekst: Vezuv je snažno eruptirao {{79}}. godine. Najteže je stradao grad {{Pompeja}}, u kome je živelo oko {{20.000|20000|20 000}} ljudi.
+        ponudjene: ["79", Pompeja, "20.000", "1979", Rim, "2.000"]
+        pomoc:
+          - Erupcija je bila u antičko doba, u prvom veku naše ere.
+          - Grad je bio blizu vulkana i imao je desetine hiljada stanovnika.
+          - "Iz lekcije: erupcija 79. godine; Pompeja, oko 20.000 stanovnika."
+        objasnjenje: Vezuv je eruptirao 79. godine i razorio Pompeju, u kojoj je živelo oko 20.000 ljudi; većina je poginula.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Zanimljivosti
+          tekst: Erupcija Vezuva 79. godine opustošila je okolinu; u Pompeji je tada živelo oko 20.000 ljudi i većina je stradala.
+          slika: 10-italija/06-vezuv-pompeja.jpg
+
+      - id: reljef-dopuni-vulkani
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [etna, sicilija, stromboli, vulkano, liparska-ostrva]
+        pitanje: Dopuni rečenicu (bez ponuđenih reči).
+        tekst: Najviši i najaktivniji vulkan Italije je {{Etna}} na ostrvu {{Sicilija|Siciliji}}. Na severoistočnom ostrvu Liparske grupe je vulkan {{Stromboli}}, a na južnom vulkan {{Vulkano}}.
+        pomoc:
+          - Najviši vulkan je na najvećem ostrvu Italije.
+          - Ostrvo-vulkan koje se zove skoro isto kao reč „vulkan” je južnije; drugo počinje slovom S.
+          - "Iz lekcije: Etna na Siciliji; Stromboli i Vulkano na Liparskim ostrvima."
+        objasnjenje: Etna (Sicilija) je najviši i najaktivniji vulkan; na Liparskim ostrvima su Stromboli (severoistok) i Vulkano (jug).
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Po visini i aktivnosti prednjači Etna na Siciliji; ostali veći aktivni vulkani su Stromboli i Vulkano na Liparskim ostrvima i Vezuv.
+
+      - id: reljef-povezi-oblici
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [alpi, padska-nizija, sicilija, kalabrija]
+        pitanje: Poveži naziv sa opisom.
+        parovi:
+          - [Alpi, visoke planine na severu]
+          - [Padska nizija, ravnica u dolini Poa]
+          - [Sicilija, najveće ostrvo Italije]
+          - [Kalabrija, "poluostrvo — „prsti” čizme"]
+        pomoc:
+          - Jedno su planine, jedno ravnica, jedno ostrvo i jedno poluostrvo.
+          - Nizija nosi ime po reci; poluostrvo je na krajnjem jugu kopna.
+          - "Iz lekcije: Alpi na severu, Padska nizija u dolini Poa, ostrvo Sicilija, poluostrvo Kalabrija."
+        objasnjenje: Alpi — planine na severu; Padska nizija — dolina Poa; Sicilija — najveće ostrvo; Kalabrija — poluostrvo na jugu.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Na fizičkoj karti se vide Alpi na severu, zelena Padska nizija, Apenini duž poluostrva, Kalabrija na jugu i ostrva Sicilija i Sardinija.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: reljef-povezi-vulkani
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [etna, vezuv, stromboli, vulkano]
+        pitanje: Poveži vulkan sa mestom gde se nalazi.
+        parovi:
+          - [Etna, istočna Sicilija]
+          - [Vezuv, iznad Napuljskog zaliva]
+          - [Stromboli, severoistočno ostrvo Liparske grupe]
+          - [Vulkano, južno ostrvo Liparske grupe]
+        pomoc:
+          - Dva vulkana su na Liparskim ostrvima, jedan na velikom ostrvu, a jedan na kopnu.
+          - Najviši je na Siciliji, a onaj kod Napulja je razorio Pompeju.
+          - "Iz lekcije: Etna na Siciliji, Vezuv kraj Napulja, Stromboli i Vulkano na Liparskim ostrvima."
+        objasnjenje: Etna — Sicilija; Vezuv — kod Napulja; Stromboli — severoistočno Liparsko ostrvo; Vulkano — južno Liparsko ostrvo.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Aktivni vulkani na jugu Italije su Etna na Siciliji, Stromboli i Vulkano na Liparskim ostrvima i Vezuv kraj Napulja.
+
+      - id: reljef-povezi-obala
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [kalabrija, tarantski-zaliv, napuljski-zaliv, djenovski-zaliv, liparska-ostrva]
+        pitanje: Poveži deo obale sa opisom.
+        parovi:
+          - [Kalabrija, "poluostrvo — „prsti” čizme"]
+          - [Tarantski zaliv, "zaliv između „pete” i „prstiju” čizme"]
+          - [Napuljski zaliv, zaliv iznad koga je Vezuv]
+          - [Đenovski zaliv, severni deo Ligurijskog mora]
+          - [Liparska ostrva, vulkanska ostrva severno od Sicilije]
+        pomoc:
+          - Zalivi nose imena po gradovima — seti se gde su Đenova, Napulj i Taranto.
+          - Kalabrija je kopno, a Liparska ostrva su u Tirenskom moru.
+          - "Iz lekcije: Kalabrija je poluostrvo; zalivi su Đenovski, Tarantski i Napuljski; Liparska ostrva imaju vulkane."
+        objasnjenje: Kalabrija — „prsti” čizme; Tarantski zaliv — između pete i prstiju; Napuljski — pod Vezuvom; Đenovski — sever Ligurijskog mora; Liparska ostrva — vulkani severno od Sicilije.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Zadatak — nema karta
+          tekst: Na nemoj karti treba označiti planine, niziju, četiri mora, Sardiniju, Siciliju, Kalabriju, tri zaliva i četiri vulkana.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: reljef-zakljuci-jug
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [etna, vezuv]
+        pitanje: U kom delu Italije su najverovatnije erupcije vulkana?
+        odgovori:
+          - {tekst: "Na jugu — kod Napulja, na Siciliji i Liparskim ostrvima.", tacan: true}
+          - {tekst: "U Padskoj niziji.", tacan: false}
+          - {tekst: "Kod alpskih jezera na severu.", tacan: false}
+          - {tekst: "Nigde — Italija nema vulkane.", tacan: false}
+        pomoc:
+          - "Korak 1: Seti se imena vulkana iz lekcije — Etna, Vezuv, Stromboli, Vulkano."
+          - "Korak 2: Gde su oni — na severu ili na jugu?"
+          - "Iz lekcije: na jugu Italije je pojas aktivnih vulkana."
+        objasnjenje: Aktivni vulkani su na jugu — Vezuv kod Napulja, Etna na Siciliji, Stromboli i Vulkano na Liparskim ostrvima.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Na jugu Italije se nalazi pojas aktivnih vulkana.
+
+      - id: reljef-zakljuci-padska
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [padska-nizija, po]
+        pitanje: Zašto je Padska nizija najnaseljeniji deo Italije?
+        odgovori:
+          - {tekst: "Ravna je i plodna i ima vode, pa je pogodna za poljoprivredu, saobraćaj i gradove.", tacan: true}
+          - {tekst: "Najviši je deo Italije, pa je tamo najsvežije.", tacan: false}
+          - {tekst: "Tamo je najviše aktivnih vulkana.", tacan: false}
+          - {tekst: "Najbliža je Africi.", tacan: false}
+        pomoc:
+          - "Korak 1: Kakav je reljef nizije — ravan ili planinski?"
+          - "Korak 2: Šta donosi reka Po — vodu i plodno tlo? Šta se na takvom mestu lako gradi?"
+          - "Iz lekcije: Padska nizija je najplodniji i najgušće naseljen deo Italije."
+        objasnjenje: Padska nizija je ravna, plodna (nanosi Poa) i ima vode, pa su se tu razvili poljoprivreda, saobraćaj, industrija i veliki gradovi.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Padska nizija u dolini Poa najplodniji je i najgušće naseljen deo zemlje.
+          slika: 10-italija/03-delta-po-padska-nizija.jpg
+
+      - id: reljef-zakljuci-vezuv
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [vezuv, pompeja]
+        pitanje: Zašto je erupcija Vezuva 79. godine iznenadila stanovnike Pompeje?
+        odgovori:
+          - {tekst: "Niko nije znao da je Vezuv vulkan, pa nisu očekivali erupciju.", tacan: true}
+          - {tekst: "Pompeja je bila na vrhu Etne, daleko od Vezuva.", tacan: false}
+          - {tekst: "Vezuv je tada bio pod morem.", tacan: false}
+          - {tekst: "Pompeja je u to vreme bila nenaseljena.", tacan: false}
+        pomoc:
+          - "Korak 1: Šta lekcija kaže — da li se pre 79. godine znalo da je Vezuv vulkan?"
+          - "Korak 2: Ako ne znaš da je planina vulkan, da li ćeš se skloniti?"
+          - "Iz lekcije: za Vezuv se nije znalo da je vulkan sve do erupcije 79. godine."
+        objasnjenje: Za Vezuv se nije znalo da je vulkan, pa se ljudi nisu sklonili; Pompeja sa oko 20.000 stanovnika je najteže stradala.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Zanimljivosti
+          tekst: Sve do erupcije 79. godine nije se znalo da je Vezuv vulkan. Erupcija je opustošila krug prečnika oko 70 km.
+          slika: 10-italija/06-vezuv-pompeja.jpg
+
+      - id: reljef-klik-alpi
+        vrsta: karta_klik
+        tezina: lako
+        pojmovi: [alpi]
+        pitanje: Klikni na Alpe.
+        cilj: {mesto: alpi}
+        pomoc:
+          - Alpi su na severu Italije.
+          - Pružaju se lukom duž granice sa Francuskom, Švajcarskom i Austrijom.
+          - Klikni na sever Italije, iznad Padske nizije.
+        objasnjenje: Alpi su luk visokih planina na severnoj granici Italije.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Na severu Italije se pružaju Alpi — visoki stenoviti vrhovi sa snegom, livadama i četinarima.
+          slika: 10-italija/02-alpi.jpg
+
+      - id: reljef-klik-apenini
+        vrsta: karta_klik
+        tezina: lako
+        pojmovi: [apenini]
+        pitanje: Klikni na Apenine.
+        cilj: {mesto: apenini}
+        pomoc:
+          - Apenini su „kičma” Apeninskog poluostrva.
+          - Pružaju se sredinom „čizme”, od severa do Kalabrije.
+          - Klikni na sredinu poluostrva, istočno od Firence i Rima.
+        objasnjenje: Apenini se pružaju kroz središnji deo poluostrva.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Kroz središnji deo Italije pružaju se Apenini — oštri, delom ogoljeni vrhovi.
+          slika: 10-italija/04-apenini.jpg
+
+      - id: reljef-klik-sicilija
+        vrsta: karta_klik
+        tezina: lako
+        pojmovi: [sicilija]
+        pitanje: Klikni na Siciliju.
+        cilj: {mesto: sicilija}
+        pomoc:
+          - Sicilija je najveće ostrvo Italije.
+          - Nalazi se ispred „vrha čizme”, na jugu.
+          - Klikni na veliko trouglasto ostrvo kod Kalabrije.
+        objasnjenje: Sicilija je ispred „vrha čizme”; na njoj je Etna.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Dva najveća ostrva Italije su Sicilija i Sardinija.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: reljef-klik-sardinija
+        vrsta: karta_klik
+        tezina: lako
+        pojmovi: [sardinija]
+        pitanje: Klikni na Sardiniju.
+        cilj: {mesto: sardinija}
+        pomoc:
+          - Sardinija je drugo veliko ostrvo Italije.
+          - Nalazi se zapadno od Apeninskog poluostrva, u Tirenskom moru.
+          - Klikni na veliko ostrvo južno od Korzike.
+        objasnjenje: Sardinija je zapadno od poluostrva, južno od Korzike.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Dva najveća ostrva Italije su Sicilija i Sardinija.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: reljef-klik-padska
+        vrsta: karta_klik
+        tezina: lako
+        pojmovi: [padska-nizija]
+        pitanje: Klikni na Padsku niziju.
+        cilj: {mesto: padska-nizija}
+        pomoc:
+          - Nizija je na severu Italije.
+          - Leži između Alpa i Apenina, duž reke Po.
+          - Klikni na ravnicu između Torina i Venecije, oko Milana.
+        objasnjenje: Padska nizija je između Alpa i Apenina, u dolini Poa.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Padska nizija leži na severu, u dolini reke Po, između Alpa i Apenina.
+          slika: 10-italija/03-delta-po-padska-nizija.jpg
+
+      - id: reljef-klik-kalabrija
+        vrsta: karta_klik
+        tezina: srednje
+        pojmovi: [kalabrija]
+        pitanje: Klikni na poluostrvo Kalabriju.
+        cilj: {mesto: kalabrija}
+        pomoc:
+          - Kalabrija je na krajnjem jugu kopna Italije.
+          - To su „prsti” čizme, tik uz Siciliju.
+          - Klikni na jugozapadni kraj „čizme”, severno od Sicilije.
+        objasnjenje: Kalabrija je „prsti” čizme, na jugozapadnom kraju kopna.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Veće poluostrvo u sastavu Italije je Kalabrija.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: reljef-klik-etna
+        vrsta: karta_klik
+        tezina: srednje
+        pojmovi: [etna]
+        pitanje: Klikni na vulkan Etnu.
+        cilj: {mesto: etna}
+        pomoc:
+          - Etna je na najvećem italijanskom ostrvu.
+          - Nalazi se na istočnoj strani Sicilije.
+          - Klikni na istočni deo Sicilije, blizu obale Jonskog mora.
+        objasnjenje: Etna je na istočnoj Siciliji.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Etna na Siciliji je najviši i najaktivniji vulkan Italije.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: reljef-klik-tarantski
+        vrsta: karta_klik
+        tezina: srednje
+        pojmovi: [tarantski-zaliv]
+        pitanje: Klikni na Tarantski zaliv.
+        cilj: {mesto: tarantski-zaliv}
+        pomoc:
+          - Zaliv je na jugu Italije, na strani Jonskog mora.
+          - Nalazi se između „pete” i „prstiju” čizme.
+          - Klikni na udubljenje mora između Kalabrije i „pete”.
+        objasnjenje: Tarantski zaliv je između „pete” i „prstiju” čizme.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Među zalivima se ističu Đenovski, Tarantski i Napuljski.
+          slika: 10-italija/05-fizicka-karta-italije.jpg
+
+      - id: reljef-klik-napuljski
+        vrsta: karta_klik
+        tezina: srednje
+        pojmovi: [napuljski-zaliv]
+        pitanje: Klikni na Napuljski zaliv.
+        cilj: {mesto: napuljski-zaliv}
+        pomoc:
+          - Zaliv je na zapadnoj obali, uz Tirensko more.
+          - Iznad njega se uzdiže Vezuv; nosi ime velikog grada na jugu.
+          - Klikni na obalu oko Napulja.
+        objasnjenje: Napuljski zaliv je na zapadnoj obali, kod Napulja i Vezuva.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Među zalivima se ističu Đenovski, Tarantski i Napuljski.
+
+      - id: reljef-klik-stromboli
+        vrsta: karta_klik
+        tezina: tesko
+        pojmovi: [stromboli, liparska-ostrva]
+        pitanje: Klikni na vulkan Stromboli.
+        cilj: {mesto: stromboli}
+        pomoc:
+          - Stromboli je ostrvo-vulkan u Liparskoj grupi.
+          - Liparska ostrva su severno od Sicilije; Stromboli je na njihovom severoistoku.
+          - Klikni na najistočnije ostrvo Liparske grupe, prema Kalabriji.
+        objasnjenje: Stromboli je severoistočno ostrvo Liparske grupe.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Stromboli i Vulkano su aktivni vulkani na Liparskim ostrvima.
+
+      - id: reljef-gde-etna
+        vrsta: gde_sam
+        tezina: lako
+        pojmovi: [etna, sicilija]
+        pitanje: Gde sam? Pročitaj trag i klikni mesto na karti.
+        cilj: {mesto: etna}
+        tragovi:
+          - Ja sam najviši i najaktivniji vulkan Italije.
+          - Stojim na najvećem italijanskom ostrvu.
+          - Ja sam Etna, na istočnoj Siciliji.
+        objasnjenje: Etna — najviši i najaktivniji vulkan Italije, na Siciliji.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Po visini i aktivnosti među italijanskim vulkanima prednjači Etna na Siciliji.
+
+      - id: reljef-gde-vezuv
+        vrsta: gde_sam
+        tezina: srednje
+        pojmovi: [vezuv, napulj, pompeja]
+        pitanje: Gde sam? Pročitaj trag i klikni mesto na karti.
+        cilj: {mesto: vezuv}
+        tragovi:
+          - Dugo niko nije znao šta sam zapravo.
+          - Godine 79. sam se probudio i opustošio sve u krugu od desetina kilometara.
+          - Uzdižem se iznad zaliva na zapadnoj obali južne Italije.
+          - Ja sam vulkan kraj Napulja koji je zatrpao Pompeju.
+        objasnjenje: Vezuv — vulkan kraj Napulja; erupcija 79. godine razorila je Pompeju.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Zanimljivosti
+          tekst: Za Vezuv se nije znalo da je vulkan sve do erupcije 79. godine, kad je najteže stradala Pompeja.
+          slika: 10-italija/06-vezuv-pompeja.jpg
+
+      - id: reljef-gde-pompeja
+        vrsta: gde_sam
+        tezina: tesko
+        pojmovi: [pompeja, vezuv]
+        pitanje: Gde sam? Pročitaj trag i klikni mesto na karti.
+        cilj: {mesto: pompeja}
+        tragovi:
+          - Vekovima sam bila zaboravljena, a otkrivena sam slučajno, kad se kopao kanal.
+          - U meni je živelo oko 20.000 ljudi kada me je zadesila nesreća.
+          - Pepeo vulkana me je zatrpao 79. godine.
+          - Ja sam antički grad jugoistočno od Vezuva, blizu Napulja.
+        objasnjenje: Pompeja — antički grad jugoistočno od Vezuva, zatrpan erupcijom 79. godine.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Zanimljivosti
+          tekst: Pompeja je stradala u erupciji Vezuva 79. godine, a otkrivena je slučajno krajem XVI veka.
+          slika: 10-italija/06-vezuv-pompeja.jpg
+
+  - naslov: Klima i vode
+    zadaci:
+      - id: klima-izbor-primorje
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [sredozemna-klima, sicilija, sardinija]
+        pitanje: Koja klima vlada u primorju Italije i na Siciliji i Sardiniji?
+        odgovori:
+          - {tekst: sredozemna klima, tacan: true}
+          - {tekst: polarna klima, tacan: false}
+          - {tekst: pustinjska klima, tacan: false}
+          - {tekst: kontinentalna klima, tacan: false}
+        pomoc:
+          - Italija leži uz Sredozemno more.
+          - Klima nosi ime po moru koje okružuje Italiju — duga topla leta, blage zime.
+          - "Iz lekcije: u primorju i na ostrvima je sredozemna klima."
+        objasnjenje: U primorju, na Siciliji i Sardiniji vlada sredozemna klima, sa makijom.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Primorje, Sardinija i Sicilija imaju sredozemnu klimu, a vegetaciju čini makija.
+
+      - id: klima-izbor-makija
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [makija, sredozemna-klima]
+        pitanje: Šta je makija?
+        odgovori:
+          - {tekst: "niska, žbunasta, zimzelena vegetacija sredozemnih predela", tacan: true}
+          - {tekst: "listopadna šuma u unutrašnjosti Italije", tacan: false}
+          - {tekst: "četinarska šuma visoko u Alpima", tacan: false}
+          - {tekst: "vrsta vulkanske stene na Siciliji", tacan: false}
+        pomoc:
+          - Makija raste tamo gde je sredozemna klima — u primorju i na ostrvima.
+          - Biljke su niske i ne gube lišće zimi.
+          - "Iz lekcije: makija je niska, žbunasta, zimzelena vegetacija."
+        objasnjenje: Makija je niska, žbunasta, zimzelena vegetacija koja raste u predelima sa sredozemnom klimom.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: U primorju i na ostrvima uz sredozemnu klimu raste makija — niska, žbunasta i zimzelena vegetacija.
+
+      - id: klima-izbor-alpi
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [alpi]
+        pitanje: Koji tip klime vlada na Alpima?
+        odgovori:
+          - {tekst: planinska klima, tacan: true}
+          - {tekst: sredozemna klima, tacan: false}
+          - {tekst: izmenjenosredozemna klima, tacan: false}
+          - {tekst: pustinjska klima, tacan: false}
+        pomoc:
+          - Alpi su najviše planine Italije, sa snegom na vrhovima.
+          - Klima se određuje po visini — ni more ni unutrašnjost nisu presudni.
+          - "Iz lekcije: na Alpima vlada planinska klima."
+        objasnjenje: Na Alpima je planinska klima — sa visinom je sve hladnije, pa vrhovi imaju sneg.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Tekst pita koji tip klime je na Alpima — odgovor je planinska klima. Na fotografiji su vrhovi sa snegom, livade i četinari.
+          slika: 10-italija/02-alpi.jpg
+
+      - id: klima-izbor-reka
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [po]
+        pitanje: Koja je najveća reka Italije?
+        odgovori:
+          - {tekst: Po, tacan: true}
+          - {tekst: Dunav, tacan: false}
+          - {tekst: Sava, tacan: false}
+          - {tekst: Volga, tacan: false}
+        pomoc:
+          - Ova reka teče kroz najveću niziju Italije.
+          - Nizija nosi ime po njoj — Padska nizija.
+          - "Iz lekcije: najveća reka Italije je Po."
+        objasnjenje: Najveća reka Italije je Po; teče kroz Padsku niziju i uliva se u Jadransko more.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Najveća reka je Po, koja se uliva u Jadransko more; drugi veći tok je Tibar.
+          slika: 10-italija/03-delta-po-padska-nizija.jpg
+
+      - id: klima-izbor-jezera
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [glacijalna-jezera, garda, komo, madjore, lugano]
+        pitanje: Koja od navedenih jezera su glacijalna jezera na severu Italije? (Više tačnih.)
+        odgovori:
+          - {tekst: Garda, tacan: true}
+          - {tekst: Komo, tacan: true}
+          - {tekst: Mađore, tacan: true}
+          - {tekst: Lugano, tacan: true}
+          - {tekst: Skadarsko jezero, tacan: false}
+          - {tekst: Ohridsko jezero, tacan: false}
+          - {tekst: Bledsko jezero, tacan: false}
+        pomoc:
+          - Traži jezera u Alpima i njihovom podnožju u Italiji — ne na Balkanu.
+          - Tačna su četiri; jedno je na granici sa Švajcarskom. Skadarsko i Ohridsko su na Balkanu, a Bledsko u Sloveniji.
+          - "Iz lekcije: najveća glacijalna jezera su Garda, Komo i Mađore, a na granici sa Švajcarskom je Lugano."
+        objasnjenje: Glacijalna jezera Italije su Garda, Komo, Mađore i Lugano. Skadarsko i Ohridsko su na Balkanu, a Bledsko u Sloveniji.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Alpi su bili pod lednicima, pa ima mnogo glacijalnih jezera — najveća su Garda, Komo i Mađore, a Lugano je na granici sa Švajcarskom.
+
+      - id: klima-tn-po
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [po, jadransko-more]
+        tvrdnja: Reka Po se uliva u Jadransko more.
+        tacno: true
+        pomoc:
+          - Po teče kroz Padsku niziju od zapada ka istoku.
+          - Na istočnom kraju nizije je more između Italije i Balkana.
+          - "Iz lekcije: Po se uliva u Jadransko more."
+        objasnjenje: Tačno — Po teče na istok kroz Padsku niziju i deltom se uliva u Jadransko more.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Najveća reka Po uliva se u Jadransko more; na fotografiji je njena ravna delta sa kanalima i njivama.
+          slika: 10-italija/03-delta-po-padska-nizija.jpg
+
+      - id: klima-tn-tibar
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [tibar, rim, tirensko-more]
+        tvrdnja: Tibar se uliva u Jadransko more i protiče kroz Milano.
+        tacno: false
+        ispravke:
+          - {tekst: "Tibar se uliva u Tirensko more i protiče kroz Rim.", tacan: true}
+          - {tekst: "Tibar se uliva u Jonsko more i protiče kroz Napulj.", tacan: false}
+          - {tekst: "Tibar se uliva u Ligurijsko more i protiče kroz Đenovu.", tacan: false}
+        pomoc:
+          - Tibar je reka srednje Italije, a Milano je na severu, u Padskoj niziji.
+          - Na Tibru leži glavni grad; reka teče ka zapadnoj obali.
+          - "Iz lekcije: Tibar se uliva u Tirensko more, a na njemu je Rim."
+        objasnjenje: Netačno — Tibar protiče kroz Rim i uliva se u Tirensko more.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Drugi veći tok je Tibar; uliva se u Tirensko more, a na njemu leži Rim.
+
+      - id: klima-tn-unutrasnjost
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [izmenjenosredozemna-klima, makija]
+        tvrdnja: U unutrašnjosti Italije raste makija, kao i u primorju.
+        tacno: false
+        ispravke:
+          - {tekst: "U unutrašnjosti je izmenjenosredozemna klima, sa listopadnom vegetacijom.", tacan: true}
+          - {tekst: "U unutrašnjosti je pustinja bez vegetacije.", tacan: false}
+          - {tekst: "U unutrašnjosti je polarna klima sa tundrom.", tacan: false}
+        pomoc:
+          - Unutrašnjost je viša i dalje od mora nego primorje.
+          - Zato je klima tamo „izmenjena”, a drveće zimi gubi lišće.
+          - "Iz lekcije: u unutrašnjosti je izmenjenosredozemna klima sa listopadnom vegetacijom."
+        objasnjenje: Netačno — makija raste u primorju. U unutrašnjosti je izmenjenosredozemna klima i listopadna vegetacija.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Zbog veće nadmorske visine i udaljenosti od mora, unutrašnjost ima izmenjenosredozemnu klimu i listopadnu vegetaciju.
+
+      - id: klima-tn-razvodje
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [apenini]
+        tvrdnja: Apenini su razvođe jer se pružaju sredinom poluostrva, pa reke sa njihovih padina teku ka različitim morima.
+        tacno: true
+        pomoc:
+          - Razvođe je linija koja deli slivove — vode sa jedne strane teku u jedno, a sa druge u drugo more.
+          - Sa zapadnih padina Apenina reke teku ka Tirenskom, a sa istočnih ka Jadranskom moru.
+          - "Iz lekcije: Apenini zbog centralnog položaja čine razvođe između morskih slivova."
+        objasnjenje: Tačno — Apenini su u sredini poluostrva, pa dele reke na one koje teku ka zapadnim i one koje teku ka istočnim morima.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Zbog centralnog položaja Apenini čine razvođe između morskih slivova.
+          slika: 10-italija/04-apenini.jpg
+
+      - id: klima-dopuni-klime
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [sredozemna-klima, izmenjenosredozemna-klima]
+        pitanje: Dopuni rečenicu rečima iz banke.
+        tekst: U primorju i na ostrvima vlada {{sredozemna}} klima, a u unutrašnjosti {{izmenjenosredozemna}} klima.
+        ponudjene: [sredozemna, izmenjenosredozemna, polarna]
+        pomoc:
+          - Uz more je klima „prava” sredozemna, a dalje od mora je ona malo izmenjena.
+          - Polarne klime u Italiji nema.
+          - "Iz lekcije: primorje i ostrva — sredozemna, unutrašnjost — izmenjenosredozemna klima."
+        objasnjenje: Primorje, Sicilija i Sardinija imaju sredozemnu, a unutrašnjost izmenjenosredozemnu klimu.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: U primorju i na ostrvima je sredozemna klima, a u unutrašnjosti izmenjenosredozemna.
+
+      - id: klima-dopuni-reke
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [po, tibar, jadransko-more, rim]
+        pitanje: Dopuni rečenicu rečima iz banke.
+        tekst: Najveća reka Italije je {{Po}}, koja se uliva u {{Jadransko}} more. Kroz Rim protiče reka {{Tibar}}.
+        ponudjene: [Po, Jadransko, Tibar, Tirensko, Dunav]
+        pomoc:
+          - Najveća reka daje ime najvećoj niziji; uliva se u more na istoku.
+          - Reka kroz Rim se uliva u Tirensko more — ta reč ovde ne ide u prvu rečenicu.
+          - "Iz lekcije: Po se uliva u Jadransko more, a Tibar protiče kroz Rim."
+        objasnjenje: Po je najveća reka i uliva se u Jadransko more; Tibar protiče kroz Rim i uliva se u Tirensko more.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Najveća reka je Po (uliva se u Jadransko more); drugi veći tok je Tibar, na kome leži Rim.
+
+      - id: klima-dopuni-jezera
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [glacijalna-jezera, alpi, garda]
+        pitanje: Dopuni rečenicu (bez ponuđenih reči).
+        tekst: Alpi su nekada bili pod {{lednicima|lednikom|ledom}}, pa na severu Italije ima mnogo {{glacijalnih|ledničkih}} jezera. Najveće među njima je jezero {{Garda}}.
+        pomoc:
+          - Seti se šta je u ledeno doba prekrivalo visoke planine.
+          - Jezera koja su nastala radom lednika zovemo glacijalna; najveće je između Milana i Verone.
+          - "Iz lekcije: zbog glacijacije Alpa ima mnogo glacijalnih jezera — Garda, Komo, Mađore, Lugano."
+        objasnjenje: Lednici su izdubili udoline u Alpima koje su ispunjene vodom — tako su nastala glacijalna jezera; najveće je Garda.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Pošto su Alpi bili pod uticajem glacijacije, ima mnogo glacijalnih jezera; najveća su Garda, Komo i Mađore.
+
+      - id: klima-povezi-vode
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [po, tibar, lugano, garda]
+        pitanje: Poveži reku ili jezero sa opisom.
+        parovi:
+          - [Po, najveća reka Italije]
+          - [Tibar, reka koja protiče kroz Rim]
+          - [Lugano, jezero na granici sa Švajcarskom]
+          - [Garda, najveće glacijalno jezero]
+        pomoc:
+          - Dve su reke, a dva jezera.
+          - Najveća reka daje ime Padskoj niziji; reka kroz prestonicu teče ka Tirenskom moru.
+          - "Iz lekcije: Po je najveća reka, Tibar teče kroz Rim; Garda je najveće jezero, Lugano je na granici sa Švajcarskom."
+        objasnjenje: Po — najveća reka; Tibar — kroz Rim; Lugano — na granici sa Švajcarskom; Garda — najveće glacijalno jezero.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Najveća reka je Po, a Tibar teče kroz Rim. Najveća glacijalna jezera su Garda, Komo i Mađore, a Lugano je na granici sa Švajcarskom.
+
+      - id: klima-povezi-klime
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [sredozemna-klima, izmenjenosredozemna-klima, makija, alpi]
+        pitanje: Poveži klimu ili vegetaciju sa mestom ili opisom.
+        parovi:
+          - [sredozemna klima, "primorje, Sicilija i Sardinija"]
+          - [izmenjenosredozemna klima, "unutrašnjost — viša i dalje od mora"]
+          - [planinska klima, Alpi]
+          - [makija, "niska, žbunasta, zimzelena vegetacija"]
+        pomoc:
+          - Tri su tipa klime, a jedan pojam je vrsta vegetacije.
+          - Klima se menja sa udaljenošću od mora i sa visinom.
+          - "Iz lekcije: sredozemna (primorje, ostrva, makija), izmenjenosredozemna (unutrašnjost), planinska (Alpi)."
+        objasnjenje: Sredozemna — primorje i ostrva; izmenjenosredozemna — unutrašnjost; planinska — Alpi; makija — zimzeleno žbunje sredozemnih predela.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: U Italiji se smenjuju sredozemna klima sa makijom (primorje, ostrva), izmenjenosredozemna sa listopadnom vegetacijom (unutrašnjost) i planinska (Alpi).
+
+      - id: klima-povezi-jezera
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [garda, komo, madjore, lugano]
+        pitanje: Poveži jezero sa njegovim položajem.
+        parovi:
+          - [Garda, "najistočnije, između Milana i Verone"]
+          - [Komo, "severno od Milana, oblika obrnutog slova Y"]
+          - [Mađore, "najzapadnije, delom u Švajcarskoj"]
+          - [Lugano, "između Koma i Mađorea, na granici sa Švajcarskom"]
+        pomoc:
+          - Poređaj jezera od zapada ka istoku — Mađore, Lugano, Komo, Garda.
+          - Najveće jezero je najbliže Veroni; Lugano je između dva druga.
+          - "Iz lekcije (atlas): Garda, Komo, Mađore i Lugano su glacijalna jezera u podnožju Alpa."
+        objasnjenje: Od zapada ka istoku — Mađore (delom u Švajcarskoj), Lugano (na granici), Komo (severno od Milana), Garda (kod Verone).
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Tekst traži da se u atlasu pronađu glacijalna jezera Garda, Komo, Mađore i Lugano.
+
+      - id: klima-zakljuci-alpi-slika
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [alpi]
+        pitanje: Na fotografiji su visoki stenoviti vrhovi sa snegom, livade i četinari. Kakva je klima na tom mestu?
+        odgovori:
+          - {tekst: "planinska klima", tacan: true}
+          - {tekst: "sredozemna klima", tacan: false}
+          - {tekst: "pustinjska klima", tacan: false}
+          - {tekst: "tropska klima", tacan: false}
+        pomoc:
+          - "Korak 1: Gde u Italiji ima snega na vrhovima — u primorju ili na visokim planinama?"
+          - "Korak 2: Kako se zove klima visokih planina?"
+          - "Iz lekcije: na Alpima vlada planinska klima."
+        objasnjenje: Snežni vrhovi, livade i četinari su odlike Alpa, gde je planinska klima.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Fizičko-geografske odlike
+          tekst: Fotografija Alpa pokazuje stenovite vrhove sa ostacima snega, livade i četinare u planinskoj dolini.
+          slika: 10-italija/02-alpi.jpg
+
+      - id: klima-zakljuci-jezera
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [glacijalna-jezera, alpi]
+        pitanje: Zašto Italija ima mnogo jezera baš na severu?
+        odgovori:
+          - {tekst: "Lednici u Alpima su izdubili udoline koje su posle ispunjene vodom.", tacan: true}
+          - {tekst: "Vulkani su napravili kratere koji su se napunili vodom.", tacan: false}
+          - {tekst: "More je poplavilo Padsku niziju.", tacan: false}
+          - {tekst: "Ljudi su iskopali jezera za navodnjavanje pirinča.", tacan: false}
+        pomoc:
+          - "Korak 1: Kako se zovu ta jezera — glacijalna. Na šta upućuje ta reč?"
+          - "Korak 2: Gde je u ledenom doba bilo lednika — u Alpima ili na jugu kod vulkana?"
+          - "Iz lekcije: Alpi su bili pod glacijacijom, pa ima mnogo glacijalnih jezera."
+        objasnjenje: Lednici u Alpima su u ledenom dobu izdubili udoline koje su se zatim ispunile vodom — tako su nastali Garda, Komo, Mađore i Lugano.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Pošto su Alpi bili pod uticajem glacijacije, na severu ima mnogo glacijalnih jezera.
+
+      - id: klima-zakljuci-razvodje
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [apenini, tirensko-more]
+        pitanje: Reka izvire na zapadnoj padini Apenina u srednjoj Italiji. U koje more će se najverovatnije uliti?
+        odgovori:
+          - {tekst: "u Tirensko more", tacan: true}
+          - {tekst: "u Jadransko more", tacan: false}
+          - {tekst: "u Crno more", tacan: false}
+          - {tekst: "u Severno more", tacan: false}
+        pomoc:
+          - "Korak 1: Apenini su razvođe — reke sa jedne strane teku u jedno more, a sa druge u drugo."
+          - "Korak 2: Koje more je zapadno od srednje Italije? Tim putem teče i Tibar."
+          - "Iz lekcije: Apenini čine razvođe; Tibar se uliva u Tirensko more."
+        objasnjenje: Sa zapadnih padina Apenina reke teku ka Tirenskom moru (kao Tibar); sa istočnih ka Jadranskom.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Apenini zbog centralnog položaja čine razvođe između morskih slivova; Tibar se uliva u Tirensko more.
+
+      - id: klima-zakljuci-hidro
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [alpi, razvijeni-sever]
+        pitanje: Zašto su reke Alpa važne za industriju severa Italije?
+        odgovori:
+          - {tekst: "Imaju veliki pad i mnogo vode, pa iz njih može da se dobije mnogo struje.", tacan: true}
+          - {tekst: "Po njima plove okeanski brodovi do Milana.", tacan: false}
+          - {tekst: "Tople su, pa se koriste za grejanje gradova.", tacan: false}
+          - {tekst: "Donose pesak za izgradnju vulkana.", tacan: false}
+        pomoc:
+          - "Korak 1: Šta lekcija kaže o alpskim rekama — kakav potencijal imaju?"
+          - "Korak 2: Šta je fabrikama potrebno da bi radile? Kako se to dobija od vode koja brzo teče?"
+          - "Iz lekcije: alpske reke su brojne i imaju veliki hidroenergetski potencijal."
+        objasnjenje: Brze, vodom bogate alpske reke daju hidroenergiju — struju za fabrike na severu.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Alpske reke su brojne i imaju veliki hidroenergetski potencijal.
+          slika: 10-italija/02-alpi.jpg
+
+      - id: klima-klik-po
+        vrsta: karta_klik
+        tezina: srednje
+        pojmovi: [po]
+        pitanje: Klikni na reku Po (njen srednji tok).
+        cilj: {mesto: po}
+        pomoc:
+          - Po teče kroz najveću niziju Italije.
+          - Teče od zapada ka istoku, između Alpa i Apenina, do Jadrana.
+          - Klikni na sredinu Padske nizije, južno od Verone.
+        objasnjenje: Po teče kroz Padsku niziju i uliva se u Jadransko more.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Najveća reka Italije je Po, koja se uliva u Jadransko more.
+          slika: 10-italija/03-delta-po-padska-nizija.jpg
+
+      - id: klima-klik-tibar
+        vrsta: karta_klik
+        tezina: srednje
+        pojmovi: [tibar]
+        pitanje: Klikni na reku Tibar.
+        cilj: {mesto: tibar}
+        pomoc:
+          - Tibar je reka srednje Italije.
+          - Teče sa Apenina ka Tirenskom moru i prolazi kroz glavni grad.
+          - Klikni na srednju Italiju, severno od Rima.
+        objasnjenje: Tibar teče kroz srednju Italiju i Rim do Tirenskog mora.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Tibar se uliva u Tirensko more, a na njemu leži Rim.
+
+      - id: klima-klik-garda
+        vrsta: karta_klik
+        tezina: srednje
+        pojmovi: [garda]
+        pitanje: Klikni na jezero Garda.
+        cilj: {mesto: garda}
+        pomoc:
+          - Garda je najveće glacijalno jezero na severu Italije.
+          - Nalazi se u podnožju Alpa, između Milana i Venecije.
+          - Klikni malo zapadno od Verone.
+        objasnjenje: Garda je najveće jezero, zapadno od Verone.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Najveća glacijalna jezera su Garda, Komo i Mađore.
+
+      - id: klima-klik-komo
+        vrsta: karta_klik
+        tezina: tesko
+        pojmovi: [komo]
+        pitanje: Klikni na jezero Komo.
+        cilj: {mesto: komo}
+        pomoc:
+          - Komo je glacijalno jezero u podnožju Alpa.
+          - Nalazi se severno od Milana, istočno od Lugana.
+          - Klikni malo severno od Milana.
+        objasnjenje: Komo je severno od Milana, oblika obrnutog slova Y.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Najveća glacijalna jezera su Garda, Komo i Mađore.
+
+      - id: klima-klik-svajcarska
+        vrsta: karta_klik
+        tezina: srednje
+        pojmovi: [lugano]
+        pitanje: Klikni na državu na čijoj granici sa Italijom leži jezero Lugano.
+        cilj: {drzava: CHE}
+        pomoc:
+          - Lugano je na severu Italije, u podnožju Alpa.
+          - Traži malu planinsku državu bez izlaza na more, severno od Milana.
+          - Klikni na Švajcarsku.
+        objasnjenje: Lugano je na granici Italije i Švajcarske.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Na granici sa Švajcarskom nalazi se glacijalno jezero Lugano.
+
+      - id: klima-gde-po
+        vrsta: gde_sam
+        tezina: lako
+        pojmovi: [po, padska-nizija]
+        pitanje: Gde sam? Pročitaj trag i klikni mesto na karti.
+        cilj: {mesto: po}
+        tragovi:
+          - Ja sam najveća reka Italije.
+          - Po meni je dobila ime najplodnija nizija u zemlji.
+          - Ja sam reka Po — tečem kroz Padsku niziju ka Jadranu.
+        objasnjenje: Po — najveća reka Italije; teče kroz Padsku niziju do Jadranskog mora.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Najveća reka je Po; Padska nizija leži u njenoj dolini.
+          slika: 10-italija/03-delta-po-padska-nizija.jpg
+
+      - id: klima-gde-garda
+        vrsta: gde_sam
+        tezina: srednje
+        pojmovi: [garda, glacijalna-jezera]
+        pitanje: Gde sam? Pročitaj trag i klikni mesto na karti.
+        cilj: {mesto: garda}
+        tragovi:
+          - Napravio me je led — lednik je izdubio moju udolinu.
+          - Ja sam najveće jezero Italije.
+          - Nalazim se u podnožju Alpa, između Milana i Venecije.
+          - Ja sam jezero odmah zapadno od Verone.
+        objasnjenje: Garda — najveće glacijalno jezero Italije, zapadno od Verone.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Fizičko-geografske odlike
+          tekst: Na severu ima mnogo glacijalnih jezera; najveća su Garda, Komo i Mađore.
+
+  - naslov: Stanovništvo i gradovi
+    zadaci:
+      - id: stan-izbor-vera
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [katolicanstvo]
+        pitanje: Koje su vere uglavnom Italijani?
+        odgovori:
+          - {tekst: katolici, tacan: true}
+          - {tekst: muslimani, tacan: false}
+          - {tekst: budisti, tacan: false}
+          - {tekst: hindusi, tacan: false}
+        pomoc:
+          - U Rimu, odnosno Vatikanu, je sedište pape.
+          - To je hrišćanska vera kojoj pripadaju i Hrvati i Slovenci.
+          - "Iz lekcije: većina stanovnika su Italijani, i to katolici."
+        objasnjenje: Italijani su većinom katolici; sastav stanovništva je i nacionalno i verski homogen.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Društveno-geografske odlike
+          tekst: Nacionalni i verski sastav je homogen — većinu čine Italijani, koji su katolici.
+
+      - id: stan-izbor-narodi
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [romani]
+        pitanje: Kojoj grupi naroda pripadaju Italijani?
+        odgovori:
+          - {tekst: romanskim narodima, tacan: true}
+          - {tekst: slovenskim narodima, tacan: false}
+          - {tekst: germanskim narodima, tacan: false}
+          - {tekst: ugro-finskim narodima, tacan: false}
+        pomoc:
+          - Ime grupe dolazi od jednog antičkog grada koji je danas glavni grad Italije.
+          - Ovoj grupi pripadaju i Španci i Portugalci.
+          - "Iz lekcije: Italijani spadaju u romanske narode."
+        objasnjenje: Italijani su romanski narod, kao i Španci, Portugalci i Francuzi; naziv dolazi od Rima.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Društveno-geografske odlike
+          tekst: Tekst pita kojoj grupi naroda pripadaju Italijani — oni su romanski narod.
+
+      - id: stan-izbor-gradovi
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [milano, napulj, torino]
+        pitanje: Koji su najveći gradovi Italije posle Rima? (Više tačnih.)
+        odgovori:
+          - {tekst: Milano, tacan: true}
+          - {tekst: Napulj, tacan: true}
+          - {tekst: Torino, tacan: true}
+          - {tekst: Verona, tacan: false}
+          - {tekst: Bari, tacan: false}
+          - {tekst: Sanremo, tacan: false}
+        pomoc:
+          - Svi ponuđeni gradovi su u Italiji, ali lekcija ističe samo tri kao najveće posle Rima.
+          - Dva su na severu (jedan u središtu Padske nizije, jedan u podnožju Alpa), a jedan na jugu, kod Vezuva.
+          - "Iz lekcije: najveći gradovi posle Rima su Milano, Napulj i Torino."
+        objasnjenje: Posle Rima najveći su Milano, Napulj i Torino. Verona, Bari i Sanremo su poznati, ali manji gradovi.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Društveno-geografske odlike
+          tekst: Najveći gradovi posle Rima su Milano, Napulj i Torino.
+
+      - id: stan-tn-homogen
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [italija]
+        tvrdnja: Većina stanovnika Italije su Italijani.
+        tacno: true
+        pomoc:
+          - Razmisli da li je sastav stanovništva šarolik ili ujednačen.
+          - Lekcija kaže da je nacionalni sastav homogen (ujednačen).
+          - "Iz lekcije: većinu stanovnika čine Italijani."
+        objasnjenje: Tačno — sastav je homogen; većina su Italijani, katoličke vere.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Društveno-geografske odlike
+          tekst: Nacionalni i verski sastav Italije je homogen — većina su Italijani katolici.
+
+      - id: stan-tn-ravnomerno
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [padska-nizija]
+        tvrdnja: Stanovništvo Italije je ravnomerno raspoređeno po celoj zemlji.
+        tacno: false
+        ispravke:
+          - {tekst: "Raspoređeno je neravnomerno — najgušće u Padskoj niziji i primorju, a najređe u planinama.", tacan: true}
+          - {tekst: "Raspoređeno je neravnomerno — najgušće u Alpima, a najređe u Padskoj niziji.", tacan: false}
+          - {tekst: "Gotovo svi stanovnici žive u Rimu.", tacan: false}
+        pomoc:
+          - Italija ima i visoke planine i plodnu niziju — da li ljudi jednako rado žive i tu i tamo?
+          - Najviše ljudi živi tamo gde je ravno i plodno, a najmanje u planinama.
+          - "Iz lekcije: stanovništvo je neravnomerno raspoređeno."
+        objasnjenje: Netačno — raspored je neravnomeran; najgušće su naseljeni Padska nizija i primorje, a najređe Alpi i Apenini.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Društveno-geografske odlike
+          tekst: Italija je među najnaseljenijim državama Evrope, ali je stanovništvo neravnomerno raspoređeno; najređe su naseljene planinske oblasti.
+
+      - id: stan-tn-sever
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [razvijeni-sever]
+        tvrdnja: Najveći deo gradskog stanovništva Italije živi na jugu zemlje.
+        tacno: false
+        ispravke:
+          - {tekst: "Najviše gradskog stanovništva živi na severu.", tacan: true}
+          - {tekst: "Najviše gradskog stanovništva živi na Sardiniji.", tacan: false}
+          - {tekst: "Najviše gradskog stanovništva živi u Alpima.", tacan: false}
+        pomoc:
+          - Seti se gde su industrija i veliki gradovi poput Milana i Torina.
+          - Oko 70% ljudi živi u gradovima, a najviše u razvijenom delu zemlje.
+          - "Iz lekcije: oko 70% stanovnika živi u gradovima, najviše na severu."
+        objasnjenje: Netačno — oko 70% stanovnika živi u gradovima, i to najviše na razvijenom severu.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Društveno-geografske odlike
+          tekst: Oko 70% stanovnika Italije živi u gradovima, i to najviše na severu.
+
+      - id: stan-dopuni-sastav
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [katolicanstvo, romani]
+        pitanje: Dopuni rečenicu rečima iz banke.
+        tekst: Većina stanovnika su {{Italijani}}, po veri {{katolici}}, a oko {{70}} % stanovnika živi u gradovima.
+        ponudjene: [Italijani, katolici, "70", pravoslavci, "17"]
+        pomoc:
+          - Narod nosi ime po državi; vera je ista kao u Vatikanu.
+          - U gradovima živi većina — više od dve trećine.
+          - "Iz lekcije: većina su Italijani katolici; oko 70% živi u gradovima."
+        objasnjenje: Većina su Italijani, katolici; oko 70% stanovnika živi u gradovima.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Društveno-geografske odlike
+          tekst: Većinu čine Italijani katoličke vere; oko 70% stanovnika živi u gradovima.
+
+      - id: stan-dopuni-gradovi
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [milano, napulj, torino]
+        pitanje: Dopuni rečenicu rečima iz banke.
+        tekst: Posle Rima najveći gradovi su {{Milano}} u središtu Padske nizije, {{Napulj}} na zapadnoj obali kod Vezuva i {{Torino}} u podnožju Alpa na severozapadu.
+        ponudjene: [Milano, Napulj, Torino, Bari, Verona]
+        pomoc:
+          - Tri najveća grada posle Rima su dva na severu i jedan na jugu.
+          - Grad kod Vezuva nosi isto ime kao zaliv; grad najbliži Francuskoj od ova tri je Torino.
+          - "Iz lekcije: najveći gradovi posle Rima su Milano, Napulj i Torino."
+        objasnjenje: Milano (Padska nizija), Napulj (kod Vezuva) i Torino (podnožje Alpa) su najveći gradovi posle Rima.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Društveno-geografske odlike
+          tekst: Tekst traži da se u atlasu pronađu Milano, Napulj i Torino — najveći gradovi posle Rima.
+
+      - id: stan-povezi-gradovi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [milano, napulj, torino, venecija, bari]
+        pitanje: Poveži grad sa njegovim položajem.
+        parovi:
+          - [Milano, "Padska nizija, središte industrijskog trougla"]
+          - [Napulj, "zapadna obala, ispod Vezuva"]
+          - [Torino, "severozapad, podnožje Alpa"]
+          - [Venecija, lagune severnog Jadrana]
+          - [Bari, "jugoistočna obala Jadrana"]
+        pomoc:
+          - Tri grada su na severu, dva na jugu.
+          - Grad na lagunama je na istoku severa, a grad uz maslinjake na jugu, uz Jadran.
+          - "Iz lekcije (karta): Milano i Torino u Padskoj niziji, Venecija na Jadranu, Napulj kod Vezuva, Bari na jugoistoku."
+        objasnjenje: Milano — Padska nizija; Napulj — pod Vezuvom; Torino — podnožje Alpa; Venecija — lagune severnog Jadrana; Bari — jugoistočna obala.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Društveno-geografske odlike
+          tekst: Najveći gradovi posle Rima su Milano, Napulj i Torino; na Jadranu su Venecija na severu i Bari na jugu.
+
+      - id: stan-zakljuci-retko
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [alpi, apenini]
+        pitanje: Na osnovu reljefa zaključi — koje su oblasti Italije najređe naseljene?
+        odgovori:
+          - {tekst: "planinske oblasti — Alpi i Apenini", tacan: true}
+          - {tekst: "Padska nizija", tacan: false}
+          - {tekst: "primorje", tacan: false}
+          - {tekst: "okolina Milana", tacan: false}
+        pomoc:
+          - "Korak 1: Gde je teško graditi, obrađivati zemlju i putovati?"
+          - "Korak 2: Ravnice i obale su naseljene gusto; šta ostaje?"
+          - "Iz lekcije: najređe su naseljene planinske oblasti."
+        objasnjenje: Planine (Alpi, Apenini) su najređe naseljene; najgušće su Padska nizija i primorje.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Društveno-geografske odlike
+          tekst: Stanovništvo je neravnomerno raspoređeno; tekst traži da se iz reljefa zaključi da su planinske oblasti najređe naseljene.
+
+      - id: stan-zakljuci-sever
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [razvijeni-sever, industrijski-trougao, padska-nizija]
+        pitanje: Zašto na severu Italije živi najviše gradskog stanovništva?
+        odgovori:
+          - {tekst: "Tu su plodna Padska nizija i industrija oko Milana, Torina i Đenove, pa ima najviše posla.", tacan: true}
+          - {tekst: "Na severu nema planina.", tacan: false}
+          - {tekst: "Sever je sa svih strana okružen morem.", tacan: false}
+          - {tekst: "Na severu su svi aktivni vulkani, koji privlače ljude.", tacan: false}
+        pomoc:
+          - "Korak 1: Proveri netačne tvrdnje — da li su na severu Alpi? Gde su vulkani?"
+          - "Korak 2: Gde je industrijski trougao i gde ljudi nalaze posao?"
+          - "Iz lekcije: industrija je skoncentrisana na severu, a najveći deo gradskog stanovništva živi na severu."
+        objasnjenje: Na severu su plodna nizija, industrija i najveća luka, pa tu nastaju veliki gradovi i ljudi nalaze posao.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Industrija je skoncentrisana na severu, oko Milana, Torina i Đenove; tu živi i najviše gradskog stanovništva.
+
+      - id: stan-klik-rim
+        vrsta: karta_klik
+        tezina: lako
+        pojmovi: [rim]
+        pitanje: Klikni na Rim, glavni grad Italije.
+        cilj: {mesto: rim}
+        pomoc:
+          - Rim je u srednjoj Italiji.
+          - Leži na reci Tibar, blizu Tirenskog mora.
+          - Klikni na zapadnu stranu „čizme”, na pola puta između Firence i Napulja.
+        objasnjenje: Rim je u srednjoj Italiji, na Tibru, blizu Tirenskog mora.
+        iz_udzbenika:
+          strana: 31
+          odeljak: Osnovni podaci
+          tekst: Glavni grad Italije je Rim, na reci Tibar.
+          slika: 10-italija/01-italija-infookvir.jpg
+
+      - id: stan-klik-milano
+        vrsta: karta_klik
+        tezina: lako
+        pojmovi: [milano]
+        pitanje: Klikni na Milano.
+        cilj: {mesto: milano}
+        pomoc:
+          - Milano je najveći grad severa Italije.
+          - Nalazi se u Padskoj niziji, južno od alpskih jezera.
+          - Klikni na zapadni deo Padske nizije, južno od jezera Komo.
+        objasnjenje: Milano je u Padskoj niziji, južno od jezera Komo.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Društveno-geografske odlike
+          tekst: Najveći gradovi posle Rima su Milano, Napulj i Torino.
+
+      - id: stan-klik-napulj
+        vrsta: karta_klik
+        tezina: srednje
+        pojmovi: [napulj]
+        pitanje: Klikni na Napulj.
+        cilj: {mesto: napulj}
+        pomoc:
+          - Napulj je najveći grad juga Italije.
+          - Nalazi se na zapadnoj obali, na zalivu istog imena, kraj Vezuva.
+          - Klikni na obalu Tirenskog mora, jugoistočno od Rima.
+        objasnjenje: Napulj je na Napuljskom zalivu, kraj Vezuva.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Društveno-geografske odlike
+          tekst: Napulj je, posle Rima i Milana, jedan od najvećih gradova Italije; kraj njega je Vezuv.
+
+  - naslov: Privreda i turizam
+    zadaci:
+      - id: priv-izbor-podela
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [razvijeni-sever, siromasni-jug]
+        pitanje: Šta je glavna odlika privrede Italije?
+        odgovori:
+          - {tekst: "Podela na razvijeni sever i siromašni jug", tacan: true}
+          - {tekst: "Podela na siromašni sever i razvijeni jug", tacan: false}
+          - {tekst: "Svi delovi zemlje su podjednako razvijeni", tacan: false}
+          - {tekst: "Italija nema industriju", tacan: false}
+        pomoc:
+          - Razvoj nije svuda isti — jedan deo zemlje je mnogo bogatiji.
+          - Na severu su Padska nizija, industrija i najveća luka.
+          - "Iz lekcije: privreda je neravnomerno razvijena — razvijeni sever i siromašni jug."
+        objasnjenje: Glavna odlika je neravnomeran razvoj — razvijeni sever i siromašni jug.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Privredni razvoj Italije je neravnomeran — deli se na razvijeni sever i siromašni jug.
+
+      - id: priv-izbor-trougao
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [industrijski-trougao, milano, torino, djenova]
+        pitanje: Koji gradovi čine „industrijski trougao Italije”?
+        odgovori:
+          - {tekst: "Milano, Torino i Đenova", tacan: true}
+          - {tekst: "Rim, Napulj i Bari", tacan: false}
+          - {tekst: "Firenca, Rim i Napulj", tacan: false}
+          - {tekst: "Sicilija, Sardinija i Kalabrija", tacan: false}
+        pomoc:
+          - Industrija je skoncentrisana na severu.
+          - Dva grada su u Padskoj niziji, a treći je najveća luka na Ligurijskom moru.
+          - "Iz lekcije: prostor između Milana, Torina i Đenove je industrijski trougao."
+        objasnjenje: Industrijski trougao čine Milano, Torino i Đenova, na severu Italije.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Industrija je skoncentrisana oko Milana, Torina i Đenove; prostor između ova tri grada zove se industrijski trougao Italije.
+          slika: 10-italija/09-luka-djenova.jpg
+
+      - id: priv-izbor-luka
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [djenova]
+        pitanje: Koja je najveća luka Italije?
+        odgovori:
+          - {tekst: Đenova, tacan: true}
+          - {tekst: Venecija, tacan: false}
+          - {tekst: Napulj, tacan: false}
+          - {tekst: Bari, tacan: false}
+        pomoc:
+          - Najveća luka je i jedno od temena industrijskog trougla.
+          - Nalazi se na Ligurijskom moru, na severozapadu.
+          - "Iz lekcije: Đenova je najveća italijanska luka."
+        objasnjenje: Đenova, na Ligurijskom moru, je najveća luka Italije i deo industrijskog trougla.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Đenova je najveća luka Italije; na fotografiji su gusto zbijene stare zgrade, lučke dizalice i brodovi.
+          slika: 10-italija/09-luka-djenova.jpg
+
+      - id: priv-izbor-turizam
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [italija]
+        pitanje: Šta od navedenog NIJE razlog što je Italija jedna od turistički najposećenijih zemalja?
+        odgovori:
+          - {tekst: "Italija nema izlaz na more.", tacan: true}
+          - {tekst: "Ima povoljnu klimu.", tacan: false}
+          - {tekst: "Ima visoke planine.", tacan: false}
+          - {tekst: "Ima stare gradove sa spomenicima.", tacan: false}
+        pomoc:
+          - Lekcija navodi četiri razloga — klima, more, planine i stari gradovi.
+          - Pronađi tvrdnju koja uopšte nije tačna za Italiju.
+          - "Iz lekcije: turiste privlače povoljna klima, izlazak na more, visoke planine i stari gradovi."
+        objasnjenje: Italija sa tri strane izlazi na more, pa je ta tvrdnja netačna; klima, planine i stari gradovi jesu razlozi dolaska turista.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Zbog povoljne klime, izlaska na more, visokih planina i starih gradova, Italija je među turistički najposećenijim državama sveta.
+
+      - id: priv-tn-razvijenost
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [italija]
+        tvrdnja: Italija je najrazvijenija država Južne Evrope i jedna od najrazvijenijih država sveta.
+        tacno: true
+        pomoc:
+          - Iako ima siromašniji jug, Italija u celini je bogata zemlja.
+          - Uporedi je sa ostalim državama regiona — Španijom, Grčkom, Portugalijom.
+          - "Iz lekcije: Italija je najrazvijenija država regiona i jedna od najrazvijenijih na svetu."
+        objasnjenje: Tačno — uprkos razlici sever–jug, Italija je najrazvijenija država Južne Evrope i jedna od najrazvijenijih u svetu.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Iako je razvoj neravnomeran, Italija je najrazvijenija država regiona i jedna od najrazvijenijih na svetu.
+
+      - id: priv-tn-stocarstvo
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [italija]
+        tvrdnja: Stočarstvo u Italiji je slabo razvijeno.
+        tacno: false
+        ispravke:
+          - {tekst: "Stočarstvo je veoma razvijeno — najviše se gaje goveda, svinje i ovce.", tacan: true}
+          - {tekst: "Stočarstvo je razvijeno, ali se gaje samo kamile.", tacan: false}
+          - {tekst: "U Italiji se uopšte ne gaji stoka.", tacan: false}
+        pomoc:
+          - Seti se poznatih italijanskih sireva i suhomesnatih proizvoda.
+          - Lekcija kaže suprotno — stočarstvo je jako razvijeno.
+          - "Iz lekcije: stočarstvo je veoma razvijeno; gaje se goveda, svinje i ovce."
+        objasnjenje: Netačno — stočarstvo je veoma razvijeno; najviše se gaje goveda, svinje i ovce.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Stočarstvo je veoma razvijeno; najviše se gaje goveda, svinje i ovce.
+
+      - id: priv-tn-industrija
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [industrijski-trougao, siromasni-jug]
+        tvrdnja: Industrija Italije je skoncentrisana na jugu, oko Napulja i Barija.
+        tacno: false
+        ispravke:
+          - {tekst: "Industrija je skoncentrisana na severu, oko Milana, Torina i Đenove.", tacan: true}
+          - {tekst: "Industrija je skoncentrisana na Sardiniji.", tacan: false}
+          - {tekst: "Industrija je skoncentrisana na Liparskim ostrvima.", tacan: false}
+        pomoc:
+          - Jug je siromašniji deo zemlje.
+          - Industrija je u delu koji ima industrijski trougao.
+          - "Iz lekcije: industrija je na severu, oko Milana, Torina i Đenove."
+        objasnjenje: Netačno — industrija je na severu, u industrijskom trouglu Milano–Torino–Đenova.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Industrija je skoncentrisana na severu, oko Milana, Torina i Đenove.
+
+      - id: priv-tn-pirinac
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [po, padska-nizija]
+        tvrdnja: Pirinač se u Italiji gaji visoko u Alpima, u gornjem toku Poa.
+        tacno: false
+        ispravke:
+          - {tekst: "Pirinač se gaji u donjem toku Poa, u ravnici.", tacan: true}
+          - {tekst: "Pirinač se gaji na vrhu Etne.", tacan: false}
+          - {tekst: "Pirinač se gaji samo na Sardiniji.", tacan: false}
+        pomoc:
+          - Pirinču treba mnogo vode i ravno zemljište koje se lako plavi.
+          - Takvo zemljište je pri kraju toka reke, blizu delte.
+          - "Iz lekcije: u donjem toku Poa gaji se pirinač."
+        objasnjenje: Netačno — pirinač se gaji u donjem toku Poa, u ravnom i vodom bogatom delu Padske nizije.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: U Padskoj niziji se gaje žitarice, šećerna repa, voće i povrće, a u donjem toku Poa pirinač.
+          slika: 10-italija/03-delta-po-padska-nizija.jpg
+
+      - id: priv-dopuni-proizvodi
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [sredozemna-klima]
+        pitanje: Dopuni rečenicu rečima iz banke.
+        tekst: Italija je jedan od najvećih proizvođača {{maslinovog ulja}} i {{vina}} u svetu, a od stoke se najviše gaje goveda, svinje i {{ovce}}.
+        ponudjene: [maslinovog ulja, vina, ovce, kafe, kamile]
+        pomoc:
+          - Seti se fotografija maslinjaka kod Barija i vinograda u Toskani.
+          - Kafa i kamile pripadaju toplijim i sušnijim krajevima izvan Evrope.
+          - "Iz lekcije: Italija je među najvećim proizvođačima maslinovog ulja i vina; gaje se goveda, svinje i ovce."
+        objasnjenje: Italija je jedan od najvećih proizvođača maslinovog ulja i vina; gaje se goveda, svinje i ovce.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Važno je gajenje maslina i vinove loze — Italija je među najvećim proizvođačima maslinovog ulja i vina. Stočarstvo je veoma razvijeno.
+          slika: 10-italija/07-vinograd-toskana.jpg
+
+      - id: priv-dopuni-padska
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [padska-nizija, po]
+        pitanje: Dopuni rečenicu rečima iz banke.
+        tekst: U Padskoj niziji gaje se žitarice, {{šećerna repa|secerna repa}}, voće i povrće, a u donjem toku Poa {{pirinač|pirinac}}.
+        ponudjene: [šećerna repa, pirinač, kakao, pamuk]
+        pomoc:
+          - Traži kulture koje uspevaju u plodnoj ravnici umerenog pojasa.
+          - Kakao i pamuk traže tropsku ili mnogo topliju klimu; uz vodu na kraju toka reke gaji se žitarica iz Azije.
+          - "Iz lekcije: žitarice, šećerna repa, voće i povrće; u donjem toku Poa pirinač."
+        objasnjenje: Padska nizija daje žitarice, šećernu repu, voće i povrće, a u donjem toku Poa gaji se pirinač.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: U Padskoj niziji se gaje žitarice, šećerna repa, voće i povrće; u donjem toku Poa — pirinač.
+
+      - id: priv-dopuni-turizam
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [italija]
+        pitanje: Dopuni rečenicu (bez ponuđenih reči).
+        tekst: Turiste u Italiju privlače povoljna {{klima}}, izlazak na {{more}}, visoke {{planine}} i stari {{gradovi}}.
+        pomoc:
+          - Seti se šta smo učili o Italiji — vreme, obala, Alpi i istorija.
+          - Jedan razlog je vezan za vreme, jedan za obalu, jedan za reljef i jedan za naselja sa spomenicima.
+          - "Iz lekcije: povoljna klima, izlazak na more, visoke planine i stari gradovi."
+        objasnjenje: Povoljna klima, more, visoke planine (Alpi) i stari gradovi čine Italiju jednom od turistički najposećenijih zemalja.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Zahvaljujući povoljnoj klimi, moru, visokim planinama i starim gradovima, Italija je među turistički najposećenijim zemljama sveta.
+
+      - id: priv-povezi-industrije
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [industrijski-trougao]
+        pitanje: Poveži granu industrije sa poznatim proizvodom.
+        parovi:
+          - [prehrambena industrija, "testenina i sirevi"]
+          - [tekstilna industrija, modna odeća]
+          - [automobilska industrija, automobili]
+        pomoc:
+          - Svaka grana proizvodi nešto drugo — hranu, odeću ili vozila.
+          - Testenina je hrana, odeća se pravi od tkanina.
+          - "Iz lekcije: razvijene su prehrambena, tekstilna, hemijska i automobilska industrija."
+        objasnjenje: Prehrambena — testenina i sirevi; tekstilna — modna odeća; automobilska — automobili.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Razvijene grane industrije su prehrambena, tekstilna, hemijska i automobilska; zadatak traži da se istraže njihovi poznati proizvodi.
+
+      - id: priv-povezi-turizam
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [rim, venecija, firenca, verona, sanremo]
+        pitanje: Poveži turistički grad sa opisom.
+        parovi:
+          - [Rim, "Koloseum, Panteon i Rimski forum"]
+          - [Venecija, grad na lagunama severnog Jadrana]
+          - [Firenca, glavni grad Toskane]
+          - [Verona, grad istočno od jezera Garda]
+          - [Sanremo, "Ligurijska obala, blizu Francuske"]
+        pomoc:
+          - Kreni od najpoznatijeg — Koloseum je u prestonici.
+          - Dva grada su kod Alpa i jezera (Verona) i na moru na severozapadu (Sanremo); Firenca je u srednjoj Italiji.
+          - "Iz lekcije: najposećeniji gradovi su Rim, Venecija, Firenca, Verona i Sanremo."
+        objasnjenje: Rim — Koloseum i Forum; Venecija — lagune; Firenca — Toskana; Verona — kod Garde; Sanremo — Ligurijska obala.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Najposećeniji turistički gradovi Italije su Rim, Venecija, Firenca, Verona i Sanremo.
+
+      - id: priv-povezi-kulture
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [padska-nizija, po, toskana, bari, industrijski-trougao]
+        pitanje: Poveži kraj Italije sa onim što se tu najviše proizvodi.
+        parovi:
+          - [Padska nizija, "žitarice i šećerna repa"]
+          - [donji tok Poa, pirinač]
+          - [Toskana, vinova loza]
+          - [okolina Barija, masline]
+          - ["Milano, Torino, Đenova", industrija]
+        pomoc:
+          - Jedan kraj je industrijski, a ostali su poljoprivredni.
+          - Pirinču treba najviše vode (kraj toka reke); fotografije u lekciji pokazuju vinograd u Toskani i maslinjak kod Barija.
+          - "Iz lekcije: Padska nizija — žitarice, šećerna repa; donji tok Poa — pirinač; vinova loza i masline; industrijski trougao."
+        objasnjenje: Padska nizija — žitarice i repa; donji tok Poa — pirinač; Toskana — vinogradi; Bari — maslinjaci; Milano–Torino–Đenova — industrija.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Fotografije prikazuju vinograd u Toskani i maslinjak kod Barija; Padska nizija daje žitarice, a donji tok Poa pirinač.
+          slika: 10-italija/08-maslinjak-bari.jpg
+
+      - id: priv-zakljuci-jug
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [siromasni-jug, razvijeni-sever]
+        pitanje: Zašto je jug Italije siromašniji od severa?
+        odgovori:
+          - {tekst: "Jug je planinski, vulkanski, sušniji i daleko od ostatka Evrope, pa se oslanja na poljoprivredu.", tacan: true}
+          - {tekst: "Na jugu je Padska nizija sa najplodnijim zemljištem.", tacan: false}
+          - {tekst: "Na jugu je industrijski trougao.", tacan: false}
+          - {tekst: "Jug nema izlaz na more.", tacan: false}
+        pomoc:
+          - "Korak 1: Gde su Padska nizija, industrijski trougao i najveća luka — na severu ili na jugu?"
+          - "Korak 2: Kakav je reljef juga i čime se ljudi tamo bave (masline, vinova loza)?"
+          - "Iz lekcije: Italija se deli na razvijeni sever i siromašni jug."
+        objasnjenje: Sever ima niziju, vodu, struju iz alpskih reka, industriju i luku; jug je planinski, vulkanski i sušniji, pa se oslanja na poljoprivredu.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Privreda je neravnomerno razvijena — razvijeni sever, sa industrijskim trouglom, i siromašni jug.
+
+      - id: priv-zakljuci-turista
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [napulj, vezuv, pompeja]
+        pitanje: Turistkinja želi da na jednom putovanju vidi vulkan i antički grad zatrpan pepelom. U koji grad da otputuje?
+        odgovori:
+          - {tekst: "u Napulj — tu su Vezuv i Pompeja", tacan: true}
+          - {tekst: "u Milano", tacan: false}
+          - {tekst: "u Torino", tacan: false}
+          - {tekst: "u Veneciju", tacan: false}
+        pomoc:
+          - "Korak 1: Koji vulkan je zatrpao antički grad?"
+          - "Korak 2: Pored kog velikog grada se nalazi taj vulkan?"
+          - "Iz lekcije: Vezuv je kraj Napulja; erupcija 79. godine razorila je Pompeju."
+        objasnjenje: Kraj Napulja su Vezuv i ruševine Pompeje.
+        iz_udzbenika:
+          strana: 32
+          odeljak: Zanimljivosti
+          tekst: Na fotografiji su ruševine Pompeje sa Vezuvom u pozadini.
+          slika: 10-italija/06-vezuv-pompeja.jpg
+
+      - id: priv-zakljuci-izvoz
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [industrijski-trougao, djenova]
+        pitanje: Fabrika automobila u Torinu želi da izvozi automobile brodovima u svet. Preko kog grada industrijskog trougla će ih najverovatnije slati?
+        odgovori:
+          - {tekst: "preko Đenove — najveće luke, na Ligurijskom moru", tacan: true}
+          - {tekst: "preko Milana — najvećeg grada trougla", tacan: false}
+          - {tekst: "preko Torina — tu je i fabrika", tacan: false}
+          - {tekst: "preko Barija — na jugu Italije", tacan: false}
+        pomoc:
+          - "Korak 1: Za izvoz brodom potrebna je luka na moru. Koji grad trougla je na moru?"
+          - "Korak 2: Bari jeste luka, ali nije u industrijskom trouglu i daleko je od Torina."
+          - "Iz lekcije: Đenova je najveća luka i jedno od temena industrijskog trougla."
+        objasnjenje: Đenova je jedini grad trougla na moru i najveća luka Italije, pa je najpogodnija za izvoz.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Industrija severa je oko Milana, Torina i Đenove; Đenova je najveća luka Italije.
+          slika: 10-italija/09-luka-djenova.jpg
+
+      - id: priv-klik-torino
+        vrsta: karta_klik
+        tezina: srednje
+        pojmovi: [torino, industrijski-trougao]
+        pitanje: Klikni na Torino, jedno od temena industrijskog trougla.
+        cilj: {mesto: torino}
+        pomoc:
+          - Torino je na severozapadu Italije.
+          - Leži u podnožju Alpa, blizu granice sa Francuskom, zapadno od Milana.
+          - Klikni na zapadni kraj Padske nizije.
+        objasnjenje: Torino je na severozapadu, u podnožju Alpa.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Tekst traži da se pronađu Milano, Torino i Đenova i spoje linijama — nastaje industrijski trougao.
+
+      - id: priv-klik-djenova
+        vrsta: karta_klik
+        tezina: srednje
+        pojmovi: [djenova, ligurijsko-more]
+        pitanje: Klikni na Đenovu, najveću luku Italije.
+        cilj: {mesto: djenova}
+        pomoc:
+          - Đenova je na moru, na severozapadu Italije.
+          - Leži na Ligurijskom moru, južno od Milana.
+          - Klikni na najsevernijoj tački obale Ligurijskog mora.
+        objasnjenje: Đenova je na Đenovskom zalivu Ligurijskog mora.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Đenova je najveća italijanska luka i jedno od temena industrijskog trougla.
+          slika: 10-italija/09-luka-djenova.jpg
+
+      - id: priv-klik-firenca
+        vrsta: karta_klik
+        tezina: srednje
+        pojmovi: [firenca, toskana]
+        pitanje: Klikni na Firencu.
+        cilj: {mesto: firenca}
+        pomoc:
+          - Firenca je u srednjoj Italiji, u Toskani.
+          - Nalazi se severno od Rima, južno od Apenina koji zatvaraju Padsku niziju.
+          - Klikni na sredinu Toskane, na pola puta između Đenove i Rima, malo u unutrašnjosti.
+        objasnjenje: Firenca je u Toskani, u srednjoj Italiji.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Među turistički najposećenijim gradovima su Rim, Venecija, Firenca, Verona i Sanremo.
+
+      - id: priv-klik-toskana
+        vrsta: karta_klik
+        tezina: srednje
+        pojmovi: [toskana]
+        pitanje: Klikni na Toskanu, oblast poznatu po vinogradima.
+        cilj: {mesto: toskana}
+        pomoc:
+          - Toskana je u srednjoj Italiji.
+          - Nalazi se na zapadnoj strani poluostrva, oko Firence.
+          - Klikni na srednju Italiju, severozapadno od Rima.
+        objasnjenje: Toskana je oblast u srednjoj Italiji, oko Firence, poznata po vinogradima.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Fotografija vinograda u Toskani pokazuje gajenje vinove loze — Italija je među najvećim proizvođačima vina.
+          slika: 10-italija/07-vinograd-toskana.jpg
+
+      - id: priv-klik-bari
+        vrsta: karta_klik
+        tezina: tesko
+        pojmovi: [bari]
+        pitanje: Klikni na Bari, grad okružen maslinjacima.
+        cilj: {mesto: bari}
+        pomoc:
+          - Bari je na jugu Italije.
+          - Leži na obali Jadranskog mora, severno od „pete” čizme.
+          - Klikni na jadransku obalu jugoistočne Italije, istočno od Napulja.
+        objasnjenje: Bari je na jugoistočnoj obali Jadrana; okolina je puna maslinjaka.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Fotografija maslinjaka kod Barija pokazuje značaj maslina na jugu Italije.
+          slika: 10-italija/08-maslinjak-bari.jpg
+
+      - id: priv-klik-verona
+        vrsta: karta_klik
+        tezina: tesko
+        pojmovi: [verona]
+        pitanje: Klikni na Veronu.
+        cilj: {mesto: verona}
+        pomoc:
+          - Verona je turistički grad na severu Italije.
+          - Nalazi se u Padskoj niziji, između Milana i Venecije.
+          - Klikni odmah istočno od jezera Garda.
+        objasnjenje: Verona je istočno od jezera Garda, između Milana i Venecije.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Među najposećenijim gradovima su Rim, Venecija, Firenca, Verona i Sanremo.
+
+      - id: priv-gde-rim
+        vrsta: gde_sam
+        tezina: lako
+        pojmovi: [rim]
+        pitanje: Gde sam? Pročitaj trag i klikni mesto na karti.
+        cilj: {mesto: rim}
+        tragovi:
+          - Zovu me „Večni grad”, jer postojim više od 2.500 godina.
+          - Kod mene su Koloseum, Panteon, Fontana di Trevi i Rimski forum.
+          - Ja sam glavni grad Italije, na reci Tibar.
+        objasnjenje: Rim — „Večni grad” i glavni grad Italije, na Tibru.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Zanimljivosti
+          tekst: Rim postoji duže od 2.500 godina; veći deo grada je pod zaštitom Uneska, a Koloseum, Fontana di Trevi, Panteon i Rimski forum privlače turiste.
+
+      - id: priv-gde-venecija
+        vrsta: gde_sam
+        tezina: srednje
+        pojmovi: [venecija]
+        pitanje: Gde sam? Pročitaj trag i klikni mesto na karti.
+        cilj: {mesto: venecija}
+        tragovi:
+          - Ja sam jedan od turistički najposećenijih gradova Italije.
+          - Nalazim se na severu, na obali mora u koje se uliva Po.
+          - Moje kuće stoje na lagunama severnog Jadrana.
+          - Ja sam Venecija.
+        objasnjenje: Venecija — turistički grad na lagunama severnog Jadrana.
+        iz_udzbenika:
+          strana: 33
+          odeljak: Privreda
+          tekst: Među najposećenijim gradovima Italije je i Venecija.
+

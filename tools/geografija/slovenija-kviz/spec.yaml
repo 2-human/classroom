@@ -1,0 +1,112 @@
+# Republika Slovenija — kviz po lekciji (tip: lesson-quiz; vidi templates/lesson-quiz/README.md).
+# Pitanja su napisana sopstvenim rečima na osnovu lekcije „Republika Slovenija” (7. razred, str. 27–29).
+# `iz_udzbenika` (posle odgovora, u fioci): strana, odeljak, sažetak sopstvenim rečima i slika iz
+# privatnog tools/geografija/_source/slike-7/ (prikazuje se samo kad taj folder postoji — van git-a).
+title: Republika Slovenija — kviz
+title_short: Slovenija
+locale: sr
+nivo: osnovna
+razred: 7
+lekcije: [8]
+description: >-
+  Kviz za lekciju Republika Slovenija: položaj, reljef i kras, klima i reke, stanovništvo, privreda i
+  gradovi, uz mnogo zadataka na karti (klikni mesto, „Gde sam?”). Posle svake greške u fioci desno
+  stiže sledeći stepenik pomoći.
+
+karta:
+  # Slovenija je mala, pa je okvir tesan: Slovenija sa delovima Italije, Austrije, Mađarske i Hrvatske.
+  extent: {lon: [12.5, 17.5], lat: [44.8, 47.2]}
+  mid_lat_for_aspect: 46
+  geo_data: ../../../shared/data/countries.geojson
+  drzave:
+    SVN: Slovenija
+    ITA: Italija
+    AUT: Austrija
+    HUN: Mađarska
+    HRV: Hrvatska
+  # Tačke za zadatke kojima je cilj mesto. Ne crtaju se dok se ne pogode. Poluprečnici su manji
+  # nego na karti regije, jer je cela Slovenija široka samo oko 250 km.
+  mesta:
+    ljubljana: {naziv: Ljubljana, lat: 46.06, lon: 14.51, radius_km: 25}
+    maribor: {naziv: Maribor, lat: 46.56, lon: 15.65, radius_km: 20}
+    celje: {naziv: Celje, lat: 46.23, lon: 15.26, radius_km: 15}
+    kranj: {naziv: Kranj, lat: 46.24, lon: 14.36, radius_km: 12}
+    koper: {naziv: Koper, lat: 45.55, lon: 13.73, radius_km: 12}
+    piran: {naziv: Piran, lat: 45.53, lon: 13.57, radius_km: 8}
+    bled: {naziv: Bled i Bledsko jezero, lat: 46.365, lon: 14.10, radius_km: 10}
+    julijski-alpi: {naziv: Julijski Alpi, lat: 46.35, lon: 13.85, radius_km: 35}
+    triglav: {naziv: Triglav, lat: 46.38, lon: 13.84, radius_km: 10}
+    panonski-deo: {naziv: Panonska nizija (slovenački deo), lat: 46.60, lon: 16.10, radius_km: 35}
+    jadranska-obala: {naziv: Jadranska obala Slovenije (Tršćanski zaliv), lat: 45.55, lon: 13.65, radius_km: 18}
+    postojnska-jama: {naziv: Postojnska jama, lat: 45.78, lon: 14.20, radius_km: 12}
+    skocjanske-jame: {naziv: Škocjanske jame, lat: 45.66, lon: 13.99, radius_km: 8}
+    sava-dolinka: {naziv: Sava Dolinka, lat: 46.45, lon: 13.90, radius_km: 10}
+    bohinjsko-jezero: {naziv: Bohinjsko jezero, lat: 46.28, lon: 13.86, radius_km: 8}
+    drava: {naziv: Drava, lat: 46.48, lon: 15.80, radius_km: 25}
+    soca: {naziv: Soča, lat: 46.10, lon: 13.65, radius_km: 20}
+    kupa: {naziv: Kupa, lat: 45.50, lon: 15.20, radius_km: 20}
+
+sastav:
+  ucenje: 20
+  test: 15
+  odnos: [40, 40, 20]
+
+pojmovi:
+  slovenija: Slovenija
+  balkansko-poluostrvo: Balkansko poluostrvo
+  alpi: Alpi
+  julijski-alpi: Julijski Alpi
+  triglav: Triglav
+  dinarske-planine: Dinaridi (Dinarske planine)
+  panonska-nizija: Panonska nizija
+  jadransko-more: Jadransko more
+  kras: kras (kraški reljef)
+  postojnska-jama: Postojnska jama
+  covecja-ribica: čovečja ribica
+  dinarski-endemit: dinarski endemit
+  planinska-klima: planinska klima
+  izmenjenosredozemna-klima: izmenjenosredozemna klima
+  umerenokontinentalna-klima: umerenokontinentalna klima
+  crnomorski-sliv: Crnomorski sliv
+  jadranski-sliv: Jadranski sliv
+  sava: Sava
+  sava-bohinjka: Sava Bohinjka
+  sava-dolinka: Sava Dolinka
+  drava: Drava
+  krka: Krka
+  soca: Soča
+  kupa: Kupa
+  ljubljanica: Ljubljanica
+  bohinjsko-jezero: Bohinjsko jezero
+  bledsko-jezero: Bledsko jezero
+  slovenci: Slovenci
+  katolicanstvo: katoličanstvo
+  sfrj: SFRJ
+  sumarstvo: šumarstvo
+  drvna-industrija: drvna industrija
+  papirna-industrija: papirna industrija
+  prehrambena-industrija: prehrambena industrija
+  elektroindustrija: elektroindustrija
+  turizam: turizam
+  ljubljana: Ljubljana
+  maribor: Maribor
+  celje: Celje
+  kranj: Kranj
+  bled: Bled
+  skocjanske-jame: Škocjanske jame
+  koper: Koper
+  piran: Piran
+  juzni-sloveni: Južni Sloveni
+  dunav: Dunav
+  beograd: Beograd
+  srbija: Srbija
+  hrvatska: Hrvatska
+  bosna-i-hercegovina: Bosna i Hercegovina
+  plitvicka-jezera: Plitvička jezera
+  skadarsko-jezero: Skadarsko jezero
+  jahorina: Jahorina
+  sar-planina: Šar-planina
+  madjarska: Mađarska
+
+# Zadaci (banka): banka.yaml — zadaci u 5 delova, svaki sa težinom (lako/srednje/tesko).
+banka: banka.yaml

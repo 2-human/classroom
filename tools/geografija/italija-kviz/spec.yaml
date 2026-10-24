@@ -1,0 +1,134 @@
+# Republika Italija — kviz po lekciji (tip: lesson-quiz; vidi templates/lesson-quiz/README.md).
+# Pitanja su napisana sopstvenim rečima na osnovu lekcije „Republika Italija” (7. razred, str. 31–33;
+# strana 34 nije skenirana i nije obuhvaćena).
+# `iz_udzbenika` (posle odgovora, u fioci): strana, odeljak, sažetak sopstvenim rečima i slika iz
+# privatnog tools/geografija/_source/slike-7/ (prikazuje se samo kad taj folder postoji — van git-a).
+title: "Republika Italija — kviz"
+title_short: Italija
+locale: sr
+nivo: osnovna
+razred: 7
+lekcije: [10]
+description: >-
+  Kviz za lekciju Republika Italija: položaj i mora, reljef i vulkani, klima i vode, stanovništvo,
+  privreda i turizam — sa mnogo zadataka na karti (klikni mesto, „Gde sam?”).
+
+karta:
+  # Italija sa susedima; okvir je proširen po dužini da karta ne bude viša nego šira.
+  extent: {lon: [1.5, 23.5], lat: [36.0, 47.5]}
+  mid_lat_for_aspect: 41.75
+  geo_data: ../../../shared/data/countries.geojson
+  drzave:
+    ITA: Italija
+    FRA: Francuska
+    CHE: Švajcarska
+    AUT: Austrija
+    SVN: Slovenija
+    SMR: San Marino
+    VAT: Vatikan
+    MLT: Malta
+    MCO: Monako
+    HRV: Hrvatska
+    BIH: Bosna i Hercegovina
+    MNE: Crna Gora
+    ALB: Albanija
+    GRC: Grčka
+  # Tačke za zadatke kojima je cilj mesto. Ne crtaju se dok se ne pogode.
+  mesta:
+    # reljef, ostrva, vulkani
+    alpi: {naziv: Alpi, lat: 46.3, lon: 10.5, radius_km: 140}
+    apenini: {naziv: Apenini, lat: 43.0, lon: 12.8, radius_km: 120}
+    padska-nizija: {naziv: Padska nizija, lat: 45.1, lon: 10.0, radius_km: 100}
+    sicilija: {naziv: Sicilija, lat: 37.5, lon: 14.0, radius_km: 120}
+    sardinija: {naziv: Sardinija, lat: 40.1, lon: 9.0, radius_km: 110}
+    kalabrija: {naziv: Kalabrija, lat: 39.0, lon: 16.4, radius_km: 70}
+    etna: {naziv: Etna, lat: 37.75, lon: 15.0, radius_km: 35}
+    vezuv: {naziv: Vezuv, lat: 40.82, lon: 14.43, radius_km: 25}
+    stromboli: {naziv: Stromboli, lat: 38.79, lon: 15.21, radius_km: 20}
+    pompeja: {naziv: Pompeja, lat: 40.75, lon: 14.49, radius_km: 20}
+    # mora, zalivi, moreuz
+    ligurijsko-more: {naziv: Ligurijsko more, lat: 43.5, lon: 9.0, radius_km: 80}
+    tirensko-more: {naziv: Tirensko more, lat: 40.0, lon: 12.5, radius_km: 150}
+    jadransko-more: {naziv: Jadransko more, lat: 43.0, lon: 15.5, radius_km: 130}
+    jonsko-more: {naziv: Jonsko more, lat: 38.5, lon: 18.5, radius_km: 150}
+    otrantska-vrata: {naziv: Otrantska vrata, lat: 40.3, lon: 18.9, radius_km: 50}
+    tarantski-zaliv: {naziv: Tarantski zaliv, lat: 40.0, lon: 17.0, radius_km: 60}
+    napuljski-zaliv: {naziv: Napuljski zaliv, lat: 40.7, lon: 14.2, radius_km: 35}
+    # reke i jezera
+    po: {naziv: reka Po, lat: 45.0, lon: 11.0, radius_km: 70}
+    tibar: {naziv: reka Tibar, lat: 42.3, lon: 12.4, radius_km: 60}
+    garda: {naziv: jezero Garda, lat: 45.6, lon: 10.65, radius_km: 25}
+    komo: {naziv: jezero Komo, lat: 46.0, lon: 9.25, radius_km: 15}
+    # gradovi, oblasti, patuljaste države
+    rim: {naziv: Rim, lat: 41.9, lon: 12.5, radius_km: 40}
+    milano: {naziv: Milano, lat: 45.46, lon: 9.19, radius_km: 35}
+    torino: {naziv: Torino, lat: 45.07, lon: 7.69, radius_km: 35}
+    djenova: {naziv: Đenova, lat: 44.41, lon: 8.93, radius_km: 35}
+    napulj: {naziv: Napulj, lat: 40.85, lon: 14.27, radius_km: 35}
+    venecija: {naziv: Venecija, lat: 45.44, lon: 12.33, radius_km: 35}
+    firenca: {naziv: Firenca, lat: 43.77, lon: 11.25, radius_km: 35}
+    verona: {naziv: Verona, lat: 45.44, lon: 10.99, radius_km: 25}
+    bari: {naziv: Bari, lat: 41.12, lon: 16.87, radius_km: 35}
+    toskana: {naziv: Toskana, lat: 43.4, lon: 11.0, radius_km: 80}
+    san-marino: {naziv: San Marino, lat: 43.94, lon: 12.45, radius_km: 25}
+
+sastav:
+  ucenje: 20
+  test: 15
+  odnos: [40, 40, 20]
+
+pojmovi:
+  italija: Italija
+  apeninsko-poluostrvo: Apeninsko poluostrvo
+  sicilija: Sicilija
+  sardinija: Sardinija
+  apenini: Apenini
+  alpi: Alpi
+  padska-nizija: Padska nizija
+  po: Po
+  tibar: Tibar
+  etna: Etna
+  vezuv: Vezuv
+  stromboli: Stromboli
+  vulkano: Vulkano
+  liparska-ostrva: Liparska ostrva
+  rim: Rim
+  milano: Milano
+  napulj: Napulj
+  torino: Torino
+  djenova: Đenova
+  venecija: Venecija
+  firenca: Firenca
+  verona: Verona
+  sanremo: Sanremo
+  bari: Bari
+  toskana: Toskana
+  kalabrija: Kalabrija
+  djenovski-zaliv: Đenovski zaliv
+  tarantski-zaliv: Tarantski zaliv
+  napuljski-zaliv: Napuljski zaliv
+  ligurijsko-more: Ligurijsko more
+  tirensko-more: Tirensko more
+  jadransko-more: Jadransko more
+  jonsko-more: Jonsko more
+  otrantska-vrata: Otrantska vrata
+  garda: Garda
+  komo: Komo
+  madjore: Mađore
+  lugano: Lugano
+  sredozemna-klima: sredozemna klima
+  izmenjenosredozemna-klima: izmenjenosredozemna klima
+  makija: makija
+  glacijalna-jezera: glacijalna jezera
+  razvijeni-sever: razvijeni sever
+  siromasni-jug: siromašni jug
+  industrijski-trougao: industrijski trougao Italije
+  pompeja: Pompeja
+  katolicanstvo: katoličanstvo
+  romani: romanski narodi
+  san-marino: San Marino
+  vatikan: Vatikan
+  sredozemno-more: Sredozemno more
+
+# Zadaci (banka): banka.yaml.
+banka: banka.yaml

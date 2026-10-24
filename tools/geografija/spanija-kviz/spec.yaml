@@ -1,0 +1,126 @@
+# Kraljevina Španija — kviz po lekciji (tip: lesson-quiz; vidi templates/lesson-quiz/README.md).
+# Pitanja su napisana sopstvenim rečima na osnovu lekcije „Kraljevina Španija” (7. razred, str. 35–37).
+# `iz_udzbenika` (posle odgovora, u fioci): strana, odeljak, sažetak sopstvenim rečima i slika iz
+# privatnog tools/geografija/_source/slike-7/ (prikazuje se samo kad taj folder postoji — van git-a).
+title: Kraljevina Španija — kviz
+title_short: Španija
+locale: sr
+nivo: osnovna
+razred: 7
+lekcije: [11]
+description: >-
+  Kviz za lekciju Kraljevina Španija: položaj, reljef, klima i reke, stanovništvo, privreda i
+  ukrštenica „Ponovi”, uz zadatke na karti (klikni mesto, „Gde sam?”). Posle svake greške u fioci
+  desno stiže sledeći stepenik pomoći.
+
+karta:
+  # Pirinejsko poluostrvo sa Balearskim ostrvima i severom Maroka (Seuta, Melilja).
+  # Kanarska ostrva su predaleko na jugozapadu, pa se o njima pita bez klika na karti.
+  extent: {lon: [-12.0, 7.0], lat: [34.8, 45.2]}
+  mid_lat_for_aspect: 40
+  geo_data: ../../../shared/data/countries.geojson
+  drzave:
+    ESP: Španija
+    PRT: Portugalija
+    FRA: Francuska
+    AND: Andora
+    MAR: Maroko
+  # Tačke za zadatke kojima je cilj mesto. Ne crtaju se dok se ne pogode.
+  mesta:
+    madrid: {naziv: Madrid, lat: 40.42, lon: -3.70, radius_km: 50}
+    barselona: {naziv: Barselona, lat: 41.39, lon: 2.17, radius_km: 50}
+    valensija: {naziv: Valensija, lat: 39.47, lon: -0.38, radius_km: 50}
+    sevilja: {naziv: Sevilja, lat: 37.39, lon: -5.98, radius_km: 50}
+    saragosa: {naziv: Saragosa, lat: 41.65, lon: -0.88, radius_km: 50}
+    malaga: {naziv: Malaga, lat: 36.72, lon: -4.42, radius_km: 45}
+    pirineji: {naziv: Pirineji, lat: 42.70, lon: 0.60, radius_km: 130}
+    kantabrijske-planine: {naziv: Kantabrijske planine, lat: 43.00, lon: -5.00, radius_km: 110}
+    iberijske-planine: {naziv: Iberijske planine, lat: 41.30, lon: -2.00, radius_km: 100}
+    kastiljske-planine: {naziv: Kastiljske planine, lat: 40.70, lon: -4.60, radius_km: 70}
+    sijera-morena: {naziv: Sijera Morena, lat: 38.20, lon: -5.00, radius_km: 100}
+    betijske-planine: {naziv: Betijske planine, lat: 37.10, lon: -3.30, radius_km: 100}
+    mezeta: {naziv: Mezeta, lat: 40.00, lon: -3.80, radius_km: 160}
+    andaluzija: {naziv: Andaluzija, lat: 37.40, lon: -5.50, radius_km: 120}
+    aragonija: {naziv: Aragonija, lat: 41.50, lon: -0.90, radius_km: 100}
+    zelena-spanija: {naziv: „Zelena Španija” (severozapad), lat: 43.00, lon: -7.00, radius_km: 150}
+    gvadalkivir: {naziv: Gvadalkivir, lat: 37.85, lon: -4.78, radius_km: 70}
+    gvadijana: {naziv: Gvadijana, lat: 38.88, lon: -6.97, radius_km: 70}
+    taho: {naziv: Taho, lat: 39.86, lon: -4.50, radius_km: 70}
+    duero: {naziv: Duero, lat: 41.50, lon: -4.70, radius_km: 70}
+    ebro: {naziv: Ebro, lat: 41.23, lon: -0.04, radius_km: 70}
+    biskajski-zaliv: {naziv: Biskajski zaliv, lat: 44.20, lon: -4.00, radius_km: 140}
+    gibraltarski-moreuz: {naziv: Gibraltarski moreuz, lat: 36.00, lon: -5.75, radius_km: 40}
+    balearska-ostrva: {naziv: Balearska ostrva, lat: 39.50, lon: 2.90, radius_km: 160}
+    majorka: {naziv: Majorka, lat: 39.60, lon: 3.00, radius_km: 50}
+    menorka: {naziv: Menorka, lat: 39.95, lon: 4.10, radius_km: 40}
+    ibica: {naziv: Ibica, lat: 38.98, lon: 1.43, radius_km: 40}
+    seuta: {naziv: Seuta, lat: 35.89, lon: -5.32, radius_km: 30}
+    melilja: {naziv: Melilja, lat: 35.29, lon: -2.94, radius_km: 35}
+
+# Sastav: Učenje (jedna sesija) i Test se svaki put izvlače nanovo iz banke u odnosu
+# `odnos` lako/srednje/teško.
+sastav:
+  ucenje: 20
+  test: 15
+  odnos: [40, 40, 20]
+
+pojmovi:
+  spanija: Španija
+  pirinejsko-poluostrvo: Pirinejsko poluostrvo
+  pirineji: Pirineji
+  mezeta: Mezeta
+  andaluzija: Andaluzija
+  aragonija: Aragonija
+  gvadalkivir: Gvadalkivir
+  gvadijana: Gvadijana
+  taho: Taho (Težo)
+  duero: Duero
+  ebro: Ebro
+  kantabrijske-planine: Kantabrijske planine
+  iberijske-planine: Iberijske planine
+  kastiljske-planine: Kastiljske planine
+  sijera-morena: Sijera Morena
+  betijske-planine: Betijske planine
+  biskajski-zaliv: Biskajski zaliv
+  balearska-ostrva: Balearska ostrva
+  ibica: Ibica
+  majorka: Majorka
+  menorka: Menorka
+  kanarska-ostrva: Kanarska ostrva
+  seuta: Seuta
+  melilja: Melilja
+  maroko: Maroko
+  gibraltarski-moreuz: Gibraltarski moreuz
+  atlantski-okean: Atlantski okean
+  sredozemno-more: Sredozemno more
+  transkontinentalna-zemlja: transkontinentalna zemlja
+  eksklava: eksklava
+  atlantska-klima: atlantska (okeanska) klima
+  zelena-spanija: „zelena Španija”
+  kontinentalna-klima: kontinentalna klima
+  sredozemna-klima: sredozemna klima
+  planinska-klima: planinska klima
+  stepa: stepa
+  makija: makija
+  madrid: Madrid
+  barselona: Barselona
+  valensija: Valensija
+  sevilja: Sevilja
+  saragosa: Saragosa
+  malaga: Malaga
+  katalonski-jezik: katalonski jezik
+  galicijski-jezik: galicijski jezik
+  baskijski-jezik: baskijski jezik
+  imigracija: imigracija
+  hrast-plutnjak: hrast plutnjak
+  seat: Seat
+  flamenko: flamenko
+  korida: korida
+  sagrada-familija: Sagrada familija
+  park-gvelj: Park Gvelj
+  romani: romanski narodi
+  katolicanstvo: katoličanstvo
+  portugalija: Portugalija
+
+# Zadaci (banka): banka.yaml — zadaci u 6 delova, svaki sa težinom (lako/srednje/tesko).
+banka: banka.yaml

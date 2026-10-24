@@ -1,0 +1,128 @@
+# Republika Hrvatska — kviz po lekciji (tip: lesson-quiz; vidi templates/lesson-quiz/README.md).
+# Pitanja su napisana sopstvenim rečima na osnovu lekcije „Republika Hrvatska” (7. razred, str. 25–27).
+# `iz_udzbenika` (posle odgovora, u fioci): strana, odeljak, sažetak sopstvenim rečima i slika iz
+# privatnog tools/geografija/_source/slike-7/ (prikazuje se samo kad taj folder postoji — van git-a).
+title: Republika Hrvatska — kviz
+title_short: Hrvatska
+locale: sr
+nivo: osnovna
+razred: 7
+lekcije: [7]
+description: >-
+  Kviz za lekciju Republika Hrvatska: položaj i oblik „potkovice”, tri reljefne celine, reke i klima,
+  stanovništvo, privreda i turizam — uz snalaženje na karti (planine, ostrva, reke, gradovi).
+
+karta:
+  extent: {lon: [11.6, 21.4], lat: [41.9, 46.9]}
+  mid_lat_for_aspect: 44.4
+  geo_data: ../../../shared/data/countries.geojson
+  # Hrvatska i susedi (klikabilne). KOS se crta i broji kao deo Srbije (stav udžbenika).
+  drzave:
+    HRV: Hrvatska
+    SVN: Slovenija
+    HUN: Mađarska
+    SRB: Srbija
+    BIH: Bosna i Hercegovina
+    MNE: Crna Gora
+    ITA: Italija
+  spoji: {KOS: SRB}
+  # Tačke za zadatke kojima je cilj mesto. Ne crtaju se dok se ne pogode.
+  mesta:
+    zagreb: {naziv: Zagreb, lat: 45.81, lon: 15.98, radius_km: 30}
+    slavonija: {naziv: Panonska nizija (Slavonija), lat: 45.50, lon: 17.50, radius_km: 90}
+    psunj: {naziv: Psunj, lat: 45.38, lon: 17.33, radius_km: 25}
+    velebit: {naziv: Velebit, lat: 44.55, lon: 15.20, radius_km: 45}
+    dinara: {naziv: Dinara, lat: 44.06, lon: 16.39, radius_km: 30}
+    biokovo: {naziv: Biokovo, lat: 43.32, lon: 17.05, radius_km: 20}
+    istra: {naziv: Istra, lat: 45.20, lon: 13.90, radius_km: 45}
+    krk: {naziv: Krk, lat: 45.08, lon: 14.59, radius_km: 15}
+    brac: {naziv: Brač, lat: 43.32, lon: 16.63, radius_km: 15}
+    hvar: {naziv: Hvar, lat: 43.15, lon: 16.70, radius_km: 15}
+    korcula: {naziv: Korčula, lat: 42.95, lon: 16.88, radius_km: 18}
+    jadransko-more: {naziv: Jadransko more, lat: 43.20, lon: 15.20, radius_km: 150}
+    drava: {naziv: Drava, lat: 45.80, lon: 17.50, radius_km: 40}
+    sava: {naziv: Sava, lat: 45.30, lon: 16.50, radius_km: 40}
+    kupa: {naziv: Kupa, lat: 45.50, lon: 15.50, radius_km: 35}
+    cetina: {naziv: Cetina, lat: 43.44, lon: 16.69, radius_km: 25}
+    dunav: {naziv: Dunav, lat: 45.35, lon: 19.00, radius_km: 40}
+    plitvice: {naziv: NP Plitvička jezera, lat: 44.88, lon: 15.62, radius_km: 25}
+    dubrovnik: {naziv: Dubrovnik, lat: 42.65, lon: 18.09, radius_km: 30}
+    pula: {naziv: Pula, lat: 44.87, lon: 13.85, radius_km: 25}
+    split: {naziv: Split, lat: 43.51, lon: 16.44, radius_km: 25}
+    rijeka: {naziv: Rijeka, lat: 45.33, lon: 14.44, radius_km: 25}
+    osijek: {naziv: Osijek, lat: 45.55, lon: 18.69, radius_km: 25}
+    zadar: {naziv: Zadar, lat: 44.12, lon: 15.23, radius_km: 25}
+
+# Sastav: Učenje (jedna sesija) i Test se svaki put izvlače nanovo iz banke u odnosu
+# `odnos` lako/srednje/teško.
+sastav:
+  ucenje: 20
+  test: 15
+  odnos: [40, 40, 20]
+
+pojmovi:
+  hrvatska: Hrvatska
+  balkansko-poluostrvo: Balkansko poluostrvo
+  jadransko-more: Jadransko more
+  potkovica: oblik potkovice
+  panonska-nizija: Panonska nizija
+  ostrvske-planine: ostrvske planine
+  psunj: Psunj
+  dinarske-planine: Dinarske planine
+  velebit: Velebit
+  dinara: Dinara
+  biokovo: Biokovo
+  primorska-oblast: primorska oblast
+  razudjena-obala: razuđena obala
+  krk: Krk
+  cres: Cres
+  brac: Brač
+  hvar: Hvar
+  pag: Pag
+  korcula: Korčula
+  istra: Istra
+  drava: Drava
+  sava: Sava
+  kupa: Kupa
+  cetina: Cetina
+  dunav: Dunav
+  crnomorski-sliv: crnomorski sliv
+  jadranski-sliv: jadranski sliv
+  umerenokontinentalna-klima: umerenokontinentalna klima
+  planinska-klima: planinska klima
+  sredozemna-klima: sredozemna klima
+  hrvati: Hrvati
+  juzni-sloveni: Južni Sloveni
+  katolicanstvo: katoličanstvo
+  primarni-sektor: primarni sektor
+  sekundarni-sektor: sekundarni sektor
+  tercijarni-sektor: tercijarni sektor
+  zitarice: žitarice
+  industrijsko-bilje: industrijsko bilje
+  vinova-loza: vinova loza
+  agrumi: agrumi
+  masline: masline
+  nafta: nafta
+  zemni-gas: zemni gas
+  boksit: boksit
+  bakar: bakar
+  ruda-gvozdja: ruda gvožđa
+  mermer: mermer
+  prehrambena-industrija: prehrambena industrija
+  tekstilna-industrija: tekstilna industrija
+  hemijska-industrija: hemijska industrija
+  turizam: turizam
+  zagreb: Zagreb
+  dubrovnik: Dubrovnik
+  pula: Pula
+  plitvicka-jezera: Plitvička jezera
+  nacionalni-park: nacionalni park
+  korana: Korana
+  krecnjak: krečnjak
+  split: Split
+  rijeka: Rijeka
+  osijek: Osijek
+  zadar: Zadar
+
+# Zadaci (banka): banka.yaml — delovi po naslovima lekcije, svaki zadatak sa težinom.
+banka: banka.yaml
