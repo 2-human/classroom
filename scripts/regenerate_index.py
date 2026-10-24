@@ -14,12 +14,20 @@ What it does:
     4. Detects whether radna.pdf / resenja.pdf exist beside the tool's index.html;
        only emits PDF links if the files are there.
 
-The generated file is fully self-contained HTML; no build, no JS framework.
+The generated file is fully self-contained HTML; no build, no JS framework. It uses the same
+three-panel hub shell as the tools (shared/python/hub_shell.py): navigation = subjects and their
+tools, main = the tools of the chosen subject (all subjects by default), drawer = the chosen
+tool's description and links. Routes: #/{predmet} and #/{predmet}/{slug} (the tools' crumbs
+link here).
 """
 import html
+import json
 import pathlib
 import sys
 import yaml
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / "shared" / "python"))
+from hub_shell import SHELL_CSS, SHELL_JS, BRAND, predmet_title  # noqa: E402
 
 
 # Predmet ordering for the catalog. Predmeti not in this list appear after,
@@ -38,19 +46,7 @@ PREDMET_ORDER = [
     "informatika",
 ]
 
-PREDMET_TITLES = {
-    "geografija": "Geografija",
-    "biologija": "Biologija",
-    "hemija": "Hemija",
-    "fizika": "Fizika",
-    "matematika": "Matematika",
-    "istorija": "Istorija",
-    "srpski": "Srpski jezik",
-    "strani-jezici": "Strani jezici",
-    "umetnost": "Likovna kultura",
-    "muzicka-kultura": "Muzička kultura",
-    "informatika": "Informatika",
-}
+# Subject titles live in shared/python/hub_shell.py (PREDMET_TITLES), shared with the tools' crumbs.
 
 
 def find_repo_root(start):
@@ -105,98 +101,145 @@ def ordered_predmeti(tools):
     return known + unknown
 
 
-def render_tool_li(tool):
-    title = html.escape(tool["title"])
-    desc = html.escape(tool["description"])
-    rel = tool["rel_path"]
-    links = []
-    if tool["has_html"]:
-        links.append(f'<a href="{rel}">Interaktivni alat</a>')
-    if tool["has_radna_pdf"]:
-        links.append(f'<a href="{rel}radna.pdf">PDF (radna)</a>')
-    if tool["has_resenja_pdf"]:
-        links.append(f'<a href="{rel}resenja.pdf">PDF (rešenja)</a>')
-    links_html = " · ".join(links) if links else '<span class="muted">(nema generisanih fajlova)</span>'
-
-    desc_html = f'<p>{desc}</p>' if desc else ""
-    primary_href = rel if tool["has_html"] else (rel + "radna.pdf" if tool["has_radna_pdf"] else rel)
-
-    return (
-        '<li class="tool">'
-        f'<a class="title" href="{primary_href}">{title}</a>'
-        f'{desc_html}'
-        f'<span class="links">{links_html}</span>'
-        '</li>'
-    )
+def render_nav(tools):
+    out = []
+    for predmet in ordered_predmeti(tools):
+        rows = "".join(
+            f'<a class="row" href="#/{predmet}/{t["slug"]}" data-route="{predmet}/{t["slug"]}" '
+            f'data-filter="{html.escape(t["title"])}">{html.escape(t["title"])}</a>'
+            for t in tools[predmet]
+        )
+        out.append(
+            f'<div data-filter-group><a class="sec" href="#/{predmet}" data-route="{predmet}">'
+            f'{html.escape(predmet_title(predmet))} <span class="cnt">{len(tools[predmet])}</span></a>{rows}</div>'
+        )
+    return "".join(out)
 
 
-def render_section(predmet, predmet_title, tools_in_section):
-    items = "\n  ".join(render_tool_li(t) for t in tools_in_section)
-    return (
-        f'<section class="subject">\n'
-        f' <h2>{html.escape(predmet_title)}</h2>\n'
-        f' <ul class="tools">\n  {items}\n </ul>\n'
-        f'</section>'
-    )
-
-
-HEAD = """<!DOCTYPE html>
+PAGE = r"""<!DOCTYPE html>
 <html lang="sr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>classroom — interaktivni alati za nastavu</title>
 <style>
- :root{--bg:#faf8f2;--surface:#fff;--ink:#2b2b2b;--muted:#6b6456;--edge:#b1271f;--accent:#1f7a3a;--border:#e6e0d2;}
- *{box-sizing:border-box}
- body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}
- .wrap{max-width:880px;margin:0 auto;padding:32px 22px 64px}
- header h1{font-size:28px;margin:0 0 8px;color:#3a3528}
- header p{margin:0 0 6px;color:var(--muted);max-width:680px}
- .meta{font-size:13px;color:var(--muted);margin-top:14px}
- .meta a{color:var(--edge);text-decoration:none}
- .meta a:hover{text-decoration:underline}
- main{margin-top:36px}
- section.subject{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:20px 22px;margin-bottom:18px}
- section.subject > h2{font-size:18px;margin:0 0 14px;color:var(--edge);border-bottom:1px solid var(--border);padding-bottom:8px}
- ul.tools{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr;gap:14px}
- @media (min-width:600px){ ul.tools{grid-template-columns:1fr 1fr;gap:18px} }
- li.tool{border:1px solid var(--border);border-radius:8px;padding:14px 16px;background:#fefcf7;transition:border-color .15s,background .15s}
- li.tool:hover{border-color:var(--accent);background:#fff}
- li.tool a.title{display:block;font-weight:700;font-size:15.5px;color:#3a3528;text-decoration:none;margin-bottom:6px}
- li.tool a.title:hover{color:var(--accent)}
- li.tool p{margin:0 0 8px;font-size:13.5px;color:var(--muted)}
- li.tool .links{font-size:12.5px;color:var(--muted)}
- li.tool .links a{color:var(--edge);text-decoration:none}
- li.tool .links a:hover{text-decoration:underline}
- .muted{color:var(--muted);font-style:italic}
- .empty{padding:20px 22px;background:var(--surface);border:1px dashed var(--border);border-radius:10px;color:var(--muted);text-align:center}
- footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--border);font-size:12.5px;color:var(--muted);text-align:center}
- footer a{color:var(--edge);text-decoration:none}
+__SHELL_CSS__
+ :root{--muted:#6b6456;--edge:#b1271f;--accent:#1f7a3a;--border:#e6e0d2}
+ .app-nav a.sec{text-decoration:none;border-radius:5px}
+ .app-nav a.sec:hover{background:#f6f1e4}
+ .app-nav a.row{display:block;color:#2b2b2b;text-decoration:none;font-size:13px;padding:5px 8px;border-radius:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+ .app-nav a.row:hover{background:#f6f1e4}
+ .app-nav .cur{background:#efe7d2;font-weight:600}
+ .cat{padding:26px 28px 60px;max-width:980px}
+ .cat h1{font-size:24px;margin:0 0 6px;color:#3a3528}
+ .cat .lead{margin:0 0 6px;color:var(--muted);max-width:680px;line-height:1.5}
+ .cat .meta{font-size:12.5px;color:var(--muted);margin:10px 0 0}
+ .cat .meta a,.dr a{color:var(--edge);text-decoration:none}
+ .cat h2{font-size:15px;color:var(--edge);margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+ .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+ .tile{display:block;text-align:left;font:inherit;color:inherit;cursor:pointer;border:1px solid var(--border);border-radius:8px;padding:14px 16px;background:#fefcf7;text-decoration:none}
+ .tile:hover{border-color:var(--accent);background:#fff}
+ .tile.sel{border-color:var(--accent);background:#fff;box-shadow:0 0 0 2px rgba(31,122,58,.15)}
+ .tile b{display:block;font-size:15px;color:#3a3528;margin-bottom:6px}
+ .tile span{font-size:13px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+ .empty{padding:20px 22px;background:#fff;border:1px dashed var(--border);border-radius:10px;color:var(--muted);text-align:center}
+ .dr p{margin:0 0 12px;color:#2b2b2b;line-height:1.55}
+ .dr .chip{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);border:1px solid var(--border);border-radius:9px;padding:1px 8px;margin-bottom:12px}
+ .dr .open{display:inline-block;background:var(--accent);color:#fff!important;border-radius:8px;padding:9px 16px;font-weight:600;margin:4px 0 14px}
+ .dr ul{margin:0;padding-left:18px} .dr li{margin:4px 0}
 </style>
 </head>
-<body>
-<div class="wrap">
-
-<header>
- <h1>classroom</h1>
- <p>Interaktivni alati za nastavu u osnovnoj školi, srednjoj školi i edukaciji odraslih. Svaki alat radi u browseru bez login-a i bez naloga. Mnogi imaju i verziju za štampu.</p>
- <p class="meta">Repo: <a href="https://github.com/tnosugar/classroom">github.com/tnosugar/classroom</a> · Generisano automatski pomoću scripts/regenerate_index.py</p>
+<body class="app-body">
+<header class="app-bar">
+ <button class="app-menu" id="app-menu" aria-label="Predmeti" aria-expanded="false">&#9776;</button>
+ <a class="brand" href="#/">__BRAND__</a>
+ <nav class="app-crumbs" id="app-crumbs" aria-label="Putanja"></nav>
 </header>
-
-<main>
-"""
-
-FOOT = """</main>
-
-<footer>
- classroom · otvoreni alati za nastavu · <a href="https://github.com/tnosugar/classroom">izvorni kod</a>
-</footer>
-
+<div class="app-grid">
+ <nav class="app-nav" id="app-nav" aria-label="Predmeti i alati">
+  <input class="app-filter" id="app-filter" type="search" placeholder="Nađi alat" aria-label="Nađi alat">
+  __NAV__
+ </nav>
+ <main class="app-main" id="app-main"></main>
 </div>
+<aside class="app-drawer" id="drawer" aria-hidden="true">
+ <div class="drawer-head"><h2 id="drawerTitle"></h2><button class="drawer-close" id="drawerClose" aria-label="Zatvori" title="Zatvori">&times;</button></div>
+ <div class="drawer-body dr" id="drawerBody"></div>
+</aside>
+<script>__SHELL_JS__</script>
+<script>
+const TOOLS = __TOOLS_JSON__;   // [{predmet, predmetTitle, slug, title, description, href, pdfs:[{label, href}]}]
+const main = document.getElementById('app-main');
+const crumbs = document.getElementById('app-crumbs');
+const drawer = document.getElementById('drawer');
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const subjects = [...new Set(TOOLS.map(t => t.predmet))];
+function tiles(list, selSlug) {
+  return '<div class="tiles">' + list.map(t =>
+    '<a class="tile' + (t.slug === selSlug ? ' sel' : '') + '" href="#/' + t.predmet + '/' + t.slug + '"><b>' + esc(t.title) +
+    '</b><span>' + esc(t.description) + '</span></a>').join('') + '</div>';
+}
+function route() {
+  const [predmet, slug] = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
+  const inSubject = predmet && subjects.includes(predmet);
+  const tool = inSubject && slug ? TOOLS.find(t => t.predmet === predmet && t.slug === slug) : null;
+  // main: one subject, or every subject
+  if (!TOOLS.length) {
+    main.innerHTML = '<div class="cat"><h1>__BRAND__</h1><div class="empty">Još uvek nema alata. Dodaj prvi alat u <code>tools/{predmet}/{slug}/</code>.</div></div>';
+  } else if (inSubject) {
+    const list = TOOLS.filter(t => t.predmet === predmet);
+    main.innerHTML = '<div class="cat"><h1>' + esc(list[0].predmetTitle) + '</h1>' + tiles(list, slug) + '</div>';
+  } else {
+    main.innerHTML = '<div class="cat"><h1>__BRAND__</h1>' + INTRO +
+      subjects.map(p => { const list = TOOLS.filter(t => t.predmet === p);
+        return '<h2>' + esc(list[0].predmetTitle) + '</h2>' + tiles(list); }).join('') + '</div>';
+  }
+  // crumbs + navigation highlight
+  let c = '';
+  if (inSubject) c += '<a href="#/' + predmet + '">' + esc(TOOLS.find(t => t.predmet === predmet).predmetTitle) + '</a>';
+  if (tool) c += '<span class="sep">›</span><span class="cur">' + esc(tool.title) + '</span>';
+  crumbs.innerHTML = c;
+  const cur = tool ? predmet + '/' + slug : (inSubject ? predmet : '');
+  document.querySelectorAll('#app-nav [data-route]').forEach(a => a.classList.toggle('cur', a.dataset.route === cur));
+  // drawer: the chosen tool
+  if (tool) {
+    document.getElementById('drawerTitle').textContent = tool.title;
+    document.getElementById('drawerBody').innerHTML = '<span class="chip">' + esc(tool.predmetTitle) + '</span>' +
+      (tool.description ? '<p>' + esc(tool.description) + '</p>' : '') +
+      (tool.href ? '<a class="open" href="' + tool.href + '">Otvori interaktivni alat ›</a>' : '') +
+      (tool.pdfs.length ? '<ul>' + tool.pdfs.map(p => '<li><a href="' + p.href + '">' + esc(p.label) + '</a></li>').join('') + '</ul>' : '');
+    drawer.classList.add('open'); drawer.setAttribute('aria-hidden', 'false');
+  } else {
+    drawer.classList.remove('open'); drawer.setAttribute('aria-hidden', 'true');
+  }
+  HubShell.setNav(false);
+}
+const INTRO = '<p class="lead">Interaktivni alati za nastavu u osnovnoj školi, srednjoj školi i edukaciji odraslih. Svaki alat radi u browseru bez login-a i bez naloga. Mnogi imaju i verziju za štampu.</p>' +
+  '<p class="meta">Repo: <a href="https://github.com/tnosugar/classroom">github.com/tnosugar/classroom</a> · Generisano automatski pomoću scripts/regenerate_index.py</p>';
+document.getElementById('drawerClose').addEventListener('click', () => {
+  const [predmet] = location.hash.replace(/^#\/?/, '').split('/');
+  location.hash = predmet ? '#/' + predmet : '#/';
+});
+window.addEventListener('hashchange', route);
+route();
+</script>
 </body>
 </html>
 """
+
+
+def tool_json(t):
+    rel = t["rel_path"]
+    pdfs = []
+    if t["has_radna_pdf"]:
+        pdfs.append({"label": "PDF (radna)", "href": rel + "radna.pdf"})
+    if t["has_resenja_pdf"]:
+        pdfs.append({"label": "PDF (rešenja)", "href": rel + "resenja.pdf"})
+    return {
+        "predmet": t["predmet"], "predmetTitle": predmet_title(t["predmet"]), "slug": t["slug"],
+        "title": t["title"], "description": t["description"],
+        "href": rel + "index.html" if t["has_html"] else "", "pdfs": pdfs,
+    }
 
 
 def main():
@@ -204,17 +247,13 @@ def main():
     tools = collect_tools(repo_root)
     out_path = repo_root / "index.html"
 
-    sections = []
-    if not tools:
-        sections.append(
-            '<div class="empty">Još uvek nema alata. Dodaj prvi alat u <code>tools/{predmet}/{slug}/</code>.</div>'
-        )
-    else:
-        for predmet in ordered_predmeti(tools):
-            title = PREDMET_TITLES.get(predmet, predmet.title())
-            sections.append(render_section(predmet, title, tools[predmet]))
-
-    html_out = HEAD + "\n".join(sections) + "\n" + FOOT
+    tool_list = [tool_json(t) for p in ordered_predmeti(tools) for t in tools[p]]
+    html_out = (PAGE
+                .replace("__SHELL_CSS__", SHELL_CSS)
+                .replace("__SHELL_JS__", SHELL_JS)
+                .replace("__NAV__", render_nav(tools))
+                .replace("__TOOLS_JSON__", json.dumps(tool_list, ensure_ascii=False).replace("</", "<\\/"))
+                .replace("__BRAND__", BRAND))
 
     # Only write if content actually changed (helps git diff stay clean)
     if out_path.exists():
