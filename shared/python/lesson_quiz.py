@@ -21,8 +21,12 @@ Item types (`vrsta`):
     gde_sam        I  clues appear one by one (each wrong click or "još jedan trag" = next clue)
 
 Layout (hub shell): navigation = the items by lesson section with status and points · main = the
-current item (map items get the map) · drawer = help ladder, then "Saznaj više" (explanation,
-concepts, other lessons where they appear — read from the private lesson graph when present).
+current item (map items get the map) · drawer = help ladder, then — opened after every answer —
+"Saznaj više": explanation, `iz_udzbenika` (page, section, own-words summary, and an image loaded
+at run time from the private tools/{predmet}/_source/slike-{razred}/, so it shows only where that
+gitignored folder exists), concepts, and the other lessons where they appear (from the private
+lesson graph when present). "Sledeći" and moving to another item close the drawer; the item's
+"Iz udžbenika" / "Pomoć" button reopens it.
 
 Progress persists to localStorage per STATE_VERSION (a bump drops saved progress; see CLAUDE.md).
 """
@@ -77,6 +81,9 @@ def load_spec(path):
                 c = z.get("cilj") or {}
                 if not ((c.get("drzava") in drzave) or (c.get("mesto") in mesta)):
                     raise SystemExit(f"{where}: cilj must name a karta.drzave ISO or a karta.mesta slug")
+            iz = z.get("iz_udzbenika")
+            if iz is not None and not (isinstance(iz, dict) and iz.get("tekst")):
+                raise SystemExit(f"{where}: iz_udzbenika needs at least `tekst`")
             if v == "gde_sam" and len(z.get("tragovi") or []) < 2:
                 raise SystemExit(f"{where}: gde_sam needs at least 2 tragovi")
     return spec
@@ -154,6 +161,24 @@ def _lesson_links(spec, output_path):
             concept_lessons[slug] = nums
     catalog = os.path.relpath(root / "index.html", out.parent).replace(os.sep, "/")
     return concept_lessons, titles, f"{catalog}#/{nivo}/{razred}/{predmet}/"
+
+
+def _textbook_images(spec, output_path):
+    """Base URL of the private textbook crops + their captions (from each crop's .md title).
+    The images are not embedded: the page loads them from the gitignored folder at run time."""
+    out = pathlib.Path(output_path).resolve()
+    folder = out.parent.parent / "_source" / f"slike-{spec.get('razred')}"
+    base = os.path.relpath(folder, out.parent).replace(os.sep, "/") + "/"
+    captions = {}
+    for deo in spec["delovi"]:
+        for z in deo["zadaci"]:
+            img = (z.get("iz_udzbenika") or {}).get("slika")
+            md = folder / pathlib.Path(img).with_suffix(".md") if img else None
+            if md and md.exists():
+                m = re.search(r"^# (.+)$", md.read_text(), re.M)
+                if m:
+                    captions[img] = m.group(1).strip()
+    return base, captions
 
 
 # ---------------------------------------------------------------------------
@@ -276,6 +301,10 @@ __SHELL_CSS__
  .hl .pchip{font-size:12px;border:1px solid var(--border);border-radius:10px;padding:1px 9px;background:#fefcf7}
  .hl a{color:var(--edge);text-decoration:none}
  .hl ul{margin:0;padding-left:18px} .hl ul li{margin:3px 0}
+ .hl .ref{font-size:12px;color:var(--muted);margin:0 0 6px}
+ .hl figure{margin:6px 0 10px} .hl figure img{display:block;max-width:100%;border-radius:6px;border:1px solid var(--border)}
+ .hl figcaption{font-size:11.5px;color:var(--muted);margin-top:4px}
+ .hl .book{border-left:3px solid #e1d8c2;padding:2px 0 2px 12px;margin:6px 0 4px}
  /* summary */
  .sum{padding:22px 26px 40px;max-width:860px}
  .sum h1{font-size:22px;margin:0 0 6px;color:#3a3528}
@@ -330,7 +359,7 @@ __SHELL_CSS__
 <script>
 const SPEC = __SPEC_JSON__;
 const MAPI = __MAP_JSON__;            // {proj:{lon0,lat1,sx,sy,w,h}, drzave:{ISO:naziv}, mesta:{slug:{naziv,lat,lon,radius_km}}}
-const INFO = __INFO_JSON__;           // {pojmovi:{slug:naziv}, lekcijePojma:{slug:[broj]}, naslovi:{broj:naslov}, katalog, lekcije:[broj]}
+const INFO = __INFO_JSON__;           // {pojmovi, lekcijePojma:{slug:[broj]}, naslovi:{broj:naslov}, katalog, lekcije:[broj], slike: base URL, slikeNaslovi:{path:caption}}
 const STATE_KEY = 'classroom:' + window.location.pathname;
 const STATE_VERSION = 1;
 const VRSTA_LBL = {izbor:'Izbor', tacno_netacno:'Tačno / netačno', dopuni:'Dopuni', povezi:'Poveži', zakljuci:'Zaključi', karta_klik:'Na karti', gde_sam:'Gde sam?'};
@@ -419,9 +448,16 @@ const mobile = () => HubShell.navOverlay();
 function openDrawer() { drawer.classList.add('open'); drawer.setAttribute('aria-hidden', 'false'); }
 function closeDrawer() { drawer.classList.remove('open'); drawer.setAttribute('aria-hidden', 'true'); }
 document.getElementById('drawerClose').addEventListener('click', () => { closeDrawer(); if (drawer.dataset.intro) { delete drawer.dataset.intro; try { localStorage.setItem(STATE_KEY + ':intro', '1'); } catch (e) {} renderDrawer(); } });
+function bookHTML(z) {   // "Iz udžbenika": page, section, summary; the crop loads only where the private folder exists
+  const b = z.iz_udzbenika; if (!b) return '';
+  const cap = b.slika ? (INFO.slikeNaslovi[b.slika] || '') : '';
+  return '<h3>Iz udžbenika</h3><p class="ref">' + (b.strana ? 'str. ' + b.strana : '') + (b.odeljak ? (b.strana ? ' — ' : '') + esc(b.odeljak) : '') + '</p>' +
+    (b.slika ? '<figure><img src="' + esc(INFO.slike + b.slika) + '" alt="' + esc(cap) + '" loading="lazy" onerror="this.parentNode.remove()">' + (cap ? '<figcaption>' + esc(cap) + '</figcaption>' : '') + '</figure>' : '') +
+    '<p class="book">' + fmt(b.tekst) + '</p>';
+}
 function moreHTML(z) {
   const slugs = z.pojmovi || [];
-  let h = '';
+  let h = bookHTML(z);
   if (slugs.length) h += '<h3>Pojmovi</h3><div class="chips">' + slugs.map(s => '<span class="pchip">' + esc(INFO.pojmovi[s] || s) + '</span>').join('') + '</div>';
   const other = {};
   for (const s of slugs) for (const b of INFO.lekcijePojma[s] || []) if (!INFO.lekcije.includes(b)) (other[b] = other[b] || []).push(INFO.pojmovi[s] || s);
@@ -472,17 +508,18 @@ document.getElementById('mIntro').addEventListener('click', showIntro);
 function fail(z, text) {
   const s = st(z.id);
   s.miss++;
-  if (s.miss > steps(z)) { s.status = helpOn() ? 'revealed' : 'failed'; s.pts = 0; toast(helpOn() ? 'Evo odgovora' : 'Netačno', false); }
+  const ended = s.miss > steps(z);
+  if (ended) { s.status = helpOn() ? 'revealed' : 'failed'; s.pts = 0; toast(helpOn() ? 'Evo odgovora' : 'Netačno', false); }
   else toast(text || 'Netačno — pokušaj ponovo', false);
   save(); renderItem(true); renderNav(); refreshScore();
-  if (helpOn() && !mobile()) openDrawer();
+  if (ended ? s.status === 'revealed' : helpOn() && !mobile()) openDrawer();
 }
 function succeed(z) {
   const s = st(z.id);
   s.status = 'ok'; s.pts = ptsFor(s.miss);
   toast('Tačno! +' + s.pts, true);
   save(); renderItem(false); renderNav(); refreshScore();
-  if (!mobile()) openDrawer();
+  openDrawer();
 }
 
 // ---------- item renderers ----------
@@ -498,11 +535,17 @@ function actions(btns) {
   const a = document.getElementById('actions');
   a.innerHTML = btns.map(b => '<button type="button" id="' + b[0] + '"' + (b[2] ? ' class="' + b[2] + '"' : '') + '>' + b[1] + '</button>').join('');
 }
-function nextButton(z) {
-  const s = st(z.id);
-  if (!isDone(s)) return;
-  const a = document.getElementById('actions');
-  a.insertAdjacentHTML('beforeend', '<button type="button" class="ok" id="btnNext">Sledeći ›</button>' + (mobile() ? '<button type="button" id="btnMore">Saznaj više</button>' : ''));
+function nextButton(z) {   // done: Sledeći + reopen the drawer; in progress with help used: reopen the help
+  const s = st(z.id), a = document.getElementById('actions');
+  if (!isDone(s)) {
+    if (s.miss && helpOn() && z.vrsta !== 'gde_sam' && !mobile()) {
+      a.insertAdjacentHTML('beforeend', '<button type="button" id="btnHelp">Pomoć</button>');
+      document.getElementById('btnHelp').addEventListener('click', openDrawer);
+    }
+    return;
+  }
+  a.insertAdjacentHTML('beforeend', '<button type="button" class="ok" id="btnNext">Sledeći ›</button>' +
+    (s.status !== 'failed' ? '<button type="button" id="btnMore">' + (z.iz_udzbenika ? 'Iz udžbenika' : 'Saznaj više') + '</button>' : ''));
   document.getElementById('btnNext').addEventListener('click', goNext);
   const m = document.getElementById('btnMore'); if (m) m.addEventListener('click', openDrawer);
 }
@@ -731,13 +774,13 @@ function renderSummary() {
   const f = document.getElementById('btnFix'); if (f) f.addEventListener('click', () => { state.mode = 'ispravka'; state.b.ispravka = {}; state.cur = listIds()[0]; save(); refresh(); });
   const bt = document.getElementById('btnBackTest'); if (bt) bt.addEventListener('click', () => { state.mode = 'test'; state.cur = '_sum'; save(); refresh(); });
 }
-function go(id) { state.cur = id; save(); HubShell.setNav(false); refresh(); main.scrollTop = 0; }
+function go(id) { state.cur = id; save(); HubShell.setNav(false); if (!drawer.dataset.intro) closeDrawer(); refresh(); main.scrollTop = 0; }
 function goNext() {
   const ids = listIds(), i = ids.indexOf(state.cur);
   const next = ids.slice(i + 1).concat(ids.slice(0, i)).find(id => !isDone(st(id)));
   go(next || '_sum');
 }
-function refresh() { renderNav(); refreshScore(); renderItem(false); if (!BY_ID[state.cur] || !isDone(st(state.cur))) { if (!drawer.dataset.intro && !(st(state.cur || '').miss)) closeDrawer(); } }
+function refresh() { renderNav(); refreshScore(); renderItem(false); }
 
 // ---------- bar ----------
 document.querySelectorAll('.ms-btn').forEach(b => b.addEventListener('click', () => {
@@ -773,8 +816,9 @@ def render_html(spec, output_path):
     k = spec.get("karta") or {}
     clean = {"description": spec.get("description", ""),
              "delovi": [{"naslov": d["naslov"], "zadaci": d["zadaci"]} for d in spec["delovi"]]}
+    slike, naslovi_slika = _textbook_images(spec, output_path)
     info = {"pojmovi": spec.get("pojmovi") or {}, "lekcijePojma": concept_lessons, "naslovi": titles,
-            "katalog": katalog, "lekcije": spec.get("lekcije") or []}
+            "katalog": katalog, "lekcije": spec.get("lekcije") or [], "slike": slike, "slikeNaslovi": naslovi_slika}
     mapj = {"proj": proj, "drzave": k.get("drzave") or {}, "mesta": k.get("mesta") or {}}
     js = lambda o: _json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
     repl = {
