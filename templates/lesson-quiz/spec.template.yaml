@@ -33,8 +33,17 @@ sastav:                            # Učenje (sesija) i Test se svaki put izvla�
   ucenje: 20
   test: 15
   odnos: [40, 40, 20]              # % lakih / srednjih / teških
+  ponavljanje: 50                  # % sesije Učenja iz pojmova koji su na redu (Moje znanje)
   generisano: {karta_drzava: 4}    # glavni_gradovi | karta_drzava | poluostrvo | gde_glavni_grad (kandidata po izvlačenju)
   iz_udzbenika: {strana: 1, odeljak: "{…}", tekst: "{zajednički odeljak za generisane zadatke}"}
+
+# Opciono — vremenska osa (istorija): trake i raspon godina.
+# osa:
+#   od: 1680
+#   do: 1800
+#   trake:
+#     - {id: vladari, label: Vladari, color: '#9c5a2c'}
+#     - {id: dogadjaji, label: Događaji, color: '#3a6ba5'}
 
 pojmovi:                 # slug → naziv; slugovi iz grafa lekcija (pojmovi-{razred}/)
   italija: Italija
@@ -96,6 +105,73 @@ delovi:                  # delovi lekcije = grupe u navigaciji
         cilj: {drzava: ITA}          # ili {mesto: rim}
         pomoc: ["{…}", "{…}"]
         objasnjenje: "{…}"
+      - id: primer-datum
+        vrsta: datum                 # godina: 1781  ili  od: 1740 + do: 1780
+        tezina: srednje
+        dogadjaj: "{Događaj}"
+        pitanje: "Kada …?"
+        od: 1740
+        do: 1780
+        traka: vladari               # traka na osi (spec › osa.trake)
+        pomoc: ["{…}", "{…}"]
+        objasnjenje: "{…}"
+      - id: primer-poredjaj
+        vrsta: poredjaj              # stavke u TAČNOM redu; prikazuju se izmešane
+        tezina: srednje
+        pitanje: Poređaj događaje hronološki.
+        stavke:
+          - {tekst: "{prvi}", godina: 1682, naziv: "{naziv na osi}", traka: vladari}
+          - {tekst: "{drugi}", godina: 1740, naziv: "{…}", traka: vladari}
+          - {tekst: "{treći}", godina: 1781, naziv: "{…}", traka: dogadjaji}
+        pomoc: ["{…}"]
+        objasnjenje: "{…}"
+      - id: primer-lanac
+        vrsta: lanac                 # uzrok → posledica; praznina = indeks prazne karike
+        tezina: srednje
+        karike: ["{uzrok}", "?", "{posledica}"]
+        praznina: 1
+        odgovori:
+          - {tekst: "{karika}", tacan: true}
+          - {tekst: "{pogrešna}", tacan: false, zasto: "{zašto nije}"}
+        pomoc: ["Korak 1: {…}", "Iz lekcije: {…}"]
+        objasnjenje: "{…}"
+      - id: primer-izvor
+        vrsta: izvor
+        tezina: srednje
+        izvor: {autor: "{…}", naslov: "{…}", tekst: "{odlomak, sopstvenim rečima}", napomena: "Odlomak je prepričan; udžbenik, str. …"}
+        pitanje: "{Šta izvor pokazuje?}"
+        odgovori:
+          - {tekst: "{…}", tacan: true}
+          - {tekst: "{…}", tacan: false, zasto: "{…}"}
+        pomoc: ["{…}"]
+        objasnjenje: "{…}"
+      - id: primer-uporedi
+        vrsta: uporedi
+        tezina: srednje
+        a: "{A}"
+        b: "{B}"
+        pitanje: "Na koga se odnosi tvrdnja — A, B, oba ili nijedan?"
+        tvrdnje:
+          - {tekst: "{…}", odgovor: a, zasto: "{…}"}          # a | b | oba | nijedan
+          - {tekst: "{…}", odgovor: oba, zasto: "{…}"}
+        pomoc: ["{…}"]
+        objasnjenje: "{…}"
+      - id: primer-ko-sam
+        vrsta: ko_sam                # tragovi od najtežeg ka najlakšem
+        tezina: srednje
+        tragovi: ["{trag 1}", "{trag 2}", "{trag 3}"]
+        odgovori:
+          - {tekst: "{ličnost}", tacan: true}
+          - {tekst: "{druga}", tacan: false, zasto: "{…}"}
+        objasnjenje: "{…}"
+      - id: primer-objasni
+        vrsta: objasni               # samoprocena; nema ga u testu
+        tezina: srednje
+        pitanje: "Zašto …? Objasni svojim rečima."
+        uzor: "{uzorni odgovor}"
+        ideje: ["{ključna ideja 1}", "{ključna ideja 2}", "{ključna ideja 3}"]
+        objasnjenje: "{…}"
+        osa: {naziv: "{događaj}", od: 1751, do: 1772, traka: ideje}   # bilo koji zadatak može da stavi događaj na osu
       - id: primer-gde-sam
         vrsta: gde_sam               # tragovi od najtežeg ka najlakšem; svaki novi = manje bodova
         tezina: lako

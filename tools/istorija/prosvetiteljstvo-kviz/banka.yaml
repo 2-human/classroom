@@ -62,7 +62,7 @@ delovi:
           - {tekst: "Najbolje uređenje je prosvećeni apsolutizam, „savez filozofa i kraljeva”.", odgovor: a, zasto: "To je Volterova ideja; Ruso je za republiku."}
           - {tekst: Zakoni se mogu donositi samo uz odobrenje naroda., odgovor: b, zasto: "Ruso u „Društvenom ugovoru” — odatle mu je republika najbolje uređenje."}
           - {tekst: Pisao je za Enciklopediju., odgovor: oba, zasto: "Enciklopediju su pisali najpoznatiji prosvetitelji — Volter, Ruso i Monteskje."}
-          - {tekst: Zalagao se za podelu vlasti na izvršnu, zakonodavnu i sudsku., odgovor: nijedan, zasto: "Podelu vlasti je zastupao Monteskje."}
+          - {tekst: "Zalagao se za podelu vlasti na izvršnu, zakonodavnu i sudsku.", odgovor: nijedan, zasto: "Podelu vlasti je zastupao Monteskje."}
           - {tekst: Dopisivao se sa ruskom caricom Katarinom II., odgovor: a, zasto: "Volter je sa Katarinom vodio dugogodišnju prepisku; ona je posle njegove smrti otkupila njegovu biblioteku."}
         pomoc:
           - Ko je verovao vladarima, a ko narodu?
@@ -127,7 +127,7 @@ delovi:
         pojmovi: [josif-ii, kmetstvo, reforma]
         pitanje: Zašto je Josif II na samrti morao da povuče većinu svojih zakona?
         odgovori:
-          - {tekst: Njegove reforme su naišle na veliki otpor, posebno ugarskog plemstva, tacan: true}
+          - {tekst: "Njegove reforme su naišle na veliki otpor, posebno ugarskog plemstva", tacan: true}
           - {tekst: Izgubio je rat sa Rusijom, tacan: false, zasto: "Lekcija ne govori o takvom ratu; razlog je bio otpor unutar carstva."}
           - {tekst: Narod je tražio republiku, tacan: false, zasto: "Ideju republike zastupao je Ruso u Francuskoj; Josifu su se suprotstavili plemići."}
           - {tekst: Zakoni su bili previše blagi prema plemstvu, tacan: false, zasto: "Bilo je obrnuto — ukidanje kmetstva i nemački jezik ugrožavali su moć i običaje plemstva."}

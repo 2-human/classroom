@@ -50,6 +50,26 @@ zadaci koji nisu rešeni iz prve, sa pomoći; rezultat testa se ne menja). U Uč
 | `zakljuci` | rasuđivanje, jedan tačan | `pomoc` piši kao korake („Korak 1: …”) |
 | `karta_klik` | klikni državu (`drzava: ISO3`) ili mesto (`mesto: slug`) | u Učenju promašaj kaže koja je država / koliko km |
 | `gde_sam` | `tragovi` jedan po jedan, klik na kartu | svaki pogrešan klik ili „Još jedan trag” = sledeći trag |
+| `datum` | godina (`godina`) ili raspon (`od`/`do`) događaja `dogadjaj` | pogrešna godina kaže ranije/kasnije i koliko blizu; stavlja događaj na osu |
+| `poredjaj` | poređaj `stavke` hronološki (u spec-u u tačnom redu, svaka sa `godina`) | tačne pozicije se zaključaju; sve stavke idu na osu |
+| `lanac` | uzrok → posledica: `karike` sa jednom praznom (`praznina`) | biraš kariku iz `odgovori`; `pomoc` kao koraci rasuđivanja |
+| `izvor` | odlomak `izvor: {autor, naslov, tekst, napomena}` + pitanje | odlomak sopstvenim rečima ili javno dobro, uz napomenu |
+| `uporedi` | razvrstaj `tvrdnje` u `a` / `b` / oba / nijedan | svaka tvrdnja ima `odgovor` i `zasto` |
+| `ko_sam` | ličnost iz `tragova` jedan po jedan, odgovor iz `odgovori` | svaki trag ili greška = manje bodova |
+| `objasni` | učenik napiše odgovor, pa vidi `uzor` i štiklira `ideje` | samoprocena (sve → 3, bar pola → 2, neke → 1); nema ga u testu |
+
+**Zašto (`zasto`):** svaki pogrešan ponuđeni odgovor (`odgovori`, `ispravke`, `uporedi.tvrdnje`) može da
+objasni zašto nije tačan. Učenik to vidi u fioci čim ga izabere, a tekst odgovora se precrta.
+
+**Vremenska osa:** u spec-u `osa: {od, do, trake: [{id, label, color}]}`. Zadaci sa datumom (`datum`,
+stavke `poredjaj`, ili bilo koji zadatak sa `osa: {naziv, od, do?, traka?}`) posle odgovora stavljaju
+događaj na učenikovu osu (pregled „Vremenska osa”). Isti `naziv` = jedna tačka, ma koji zadatak je
+postavio; bledo = otkriven odgovor. Isti događaj u svim zadacima piši sa istim `naziv`/`od`/`do`.
+
+**Moje znanje:** svaki pojam (`pojmovi`) ima nivo 0–4 (Leitner); tačno iz prve → nivo gore, vraća se
+posle 1, 3, 7, 14 dana; greška → nazad na 0. Nova sesija Učenja izvlači `sastav.ponavljanje`%
+(podrazumevano 50) zadataka iz pojmova koji su na redu, po mogućstvu kroz drugu vrstu zadatka nego
+prošli put (oznaka ↻). Ispravka ne menja nivo.
 
 ## Novi kviz
 

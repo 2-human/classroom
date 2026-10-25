@@ -32,6 +32,28 @@ Item types (`vrsta`):
     zakljuci       K  reasoning: like izbor (one correct), help steps are reasoning steps
     karta_klik     H  click a country (`cilj: {drzava: ISO3}`) or a place (`cilj: {mesto: slug}`)
     gde_sam        I  clues appear one by one (each wrong click or "još jedan trag" = next clue)
+    datum             year (`godina`) or range (`od`/`do`) of an event (`dogadjaj`); a wrong year says
+                      earlier/later and how close; places the event on the timeline (`traka`)
+    poredjaj          put `stavke` (each with `godina`, optional `do`, `naziv`, `traka`) in chronological
+                      order (listed in the right order in the spec); correct positions lock
+    lanac             cause → effect chain (`karike`) with one missing link (`praznina` index); like izbor
+    izvor             a short source (`izvor: {autor, naslov, tekst, napomena}`) + a question; like izbor
+    uporedi           sort `tvrdnje` into a / b / oba / nijedan (`a`, `b` = the two compared)
+    ko_sam            identify a person from `tragovi` revealed one by one; answer from `odgovori`
+    objasni           free text, then the model answer (`uzor`) and key ideas (`ideje`) the pupil ticks
+                      (self-graded: all → 3, at least half → 2, some → 1); left out of tests
+
+Understanding, not just recall: every wrong option (`odgovori`, `ispravke`, `uporedi.tvrdnje`) can have
+a `zasto` — shown in the drawer when it is chosen, and the option text is struck through.
+
+Timeline (optional): spec-level `osa: {od, do, trake: [{id, label, color}]}`; dated items (`datum`,
+`poredjaj` stavke, or any item with `osa: {naziv, od, do?, traka?}`) place their event on the pupil's
+"Vremenska osa" (_osa) when answered — one point per `naziv`, faded when the answer was revealed.
+
+Moje znanje (_znanje): spaced reinforcement per concept (`pojmovi`), Leitner boxes 0–4, due again after
+0/1/3/7/14 days; correct at first try = one box up, a mistake = back to 0. A new Učenje session draws
+`sastav.ponavljanje`% (default 50) of its items from due concepts, preferring a different item type
+than last time, marked ↻. Ispravka does not change mastery.
 
 Layout (hub shell): navigation = the items by lesson section with status and points · main = the
 current item (map items get the map) · drawer = help ladder, then — opened after every answer —
@@ -66,6 +88,21 @@ ONE_CORRECT = {"zakljuci", "lanac", "ko_sam"}   # choice-like types with exactly
 # Spec loading + validation
 # ---------------------------------------------------------------------------
 
+def _stray_keys(x, where="", bad=None):
+    """Keys that are not field names: an unquoted ', ' + ': ' inside a YAML flow mapping
+    ({tekst: a, b: c}) silently splits the text into a junk key with a null value."""
+    bad = [] if bad is None else bad
+    if isinstance(x, dict):
+        for k, v in x.items():
+            if not isinstance(k, str) or " " in k or (v is None and k not in ("do", "slika", "zasto")):
+                bad.append(f"{x.get('id', where)}: {str(k)[:40]!r}")
+            _stray_keys(v, x.get("id", where), bad)
+    elif isinstance(x, list):
+        for v in x:
+            _stray_keys(v, where, bad)
+    return bad
+
+
 def load_spec(path):
     path = pathlib.Path(path).resolve()
     with open(path) as f:
@@ -79,6 +116,9 @@ def load_spec(path):
             spec.setdefault("karta", {}).setdefault("mesta", {}).update(banka["mesta"])
     if spec.get("karta"):
         spec["karta"]["_geo_data_resolved"] = str((path.parent / spec["karta"]["geo_data"]).resolve())
+    stray = _stray_keys(spec["delovi"])
+    if stray:
+        raise SystemExit("broken YAML (quote text containing ', ' or ': '): " + "; ".join(stray[:5]))
     ids = set()
     mesta = (spec.get("karta") or {}).get("mesta") or {}
     drzave = (spec.get("karta") or {}).get("drzave") or {}
@@ -452,6 +492,7 @@ __SHELL_CSS__
  .osa .row{position:relative;height:26px}
  .osa .ev{position:absolute;top:6px;height:14px;min-width:12px;border-radius:7px}
  .osa .ev span{position:absolute;left:calc(100% + 5px);top:-3px;font-size:11.5px;line-height:20px;white-space:nowrap;color:#3a3528}
+ .osa .ev.lft span{left:auto;right:calc(100% + 5px)}   /* label to the left when it would run past the end of the axis */
  .osa .ev span small{color:var(--muted)}
  .osa .ev.rv{opacity:.45} .osa .ev.rv span{font-style:italic}
  .osa .ticks{position:relative;height:22px;margin-left:110px;border-top:2px solid #3a3528}
@@ -1311,12 +1352,14 @@ function renderOsa() {   // every placed event, by lane; a range is a bar, one y
   const lanes = trake.map(t => {
     const evs = placed.filter(e => (e.traka || trake[0].id) === t.id).sort((a, b) => a.od - b.od), rows = [];
     for (const e of evs) {
-      const x = pct(e.od), w = e.do != null ? pct(e.do) - x : 0, end = x + w + 1.5 + String(e.naziv).length * 0.68;
-      let r = rows.findIndex(last => last < x); if (r < 0) { r = rows.length; rows.push(0); }
+      const x = pct(e.od), w = e.do != null ? pct(e.do) - x : 0, lab = 1.5 + (String(e.naziv).length + yrs(e).length) * 0.62;
+      e._lft = x + w + lab > 100;   // label would run past the axis end → draw it left of the bar
+      const start = e._lft ? x - lab : x, end = e._lft ? x + w : x + w + lab;
+      let r = rows.findIndex(last => last < start); if (r < 0) { r = rows.length; rows.push(-Infinity); }
       rows[r] = end; e._r = r; e._x = x; e._w = w;
     }
     const rowHtml = rows.map((_, r) => '<div class="row">' + evs.filter(e => e._r === r).map(e =>
-      '<div class="ev' + (e.ok ? '' : ' rv') + '" title="' + esc(e.naziv + ' · ' + yrs(e)) + '" style="left:' + e._x + '%;' + (e._w ? 'width:' + e._w + '%;' : 'width:12px;margin-left:-6px;') + 'background:' + (t.color || '#3a6ba5') + '"><span>' + esc(e.naziv) + ' <small>' + yrs(e) + '</small></span></div>').join('') + '</div>').join('');
+      '<div class="ev' + (e.ok ? '' : ' rv') + (e._lft ? ' lft' : '') + '" title="' + esc(e.naziv + ' · ' + yrs(e)) + '" style="left:' + e._x + '%;' + (e._w ? 'width:' + e._w + '%;' : 'width:12px;margin-left:-6px;') + 'background:' + (t.color || '#3a6ba5') + '"><span>' + esc(e.naziv) + ' <small>' + yrs(e) + '</small></span></div>').join('') + '</div>').join('');
     return '<div class="lane"><div class="ll" style="color:' + (t.color || '#3a3528') + '">' + esc(t.label) + '</div>' + (rowHtml || '<div class="row"></div>') + '</div>';
   }).join('');
   main.innerHTML = '<div class="sum" style="max-width:1200px"><h1>Moja vremenska osa</h1><p class="lead">Svaki tačno rešen zadatak sa datumom stavlja svoj događaj na osu (bledo = otkriven odgovor). Na osi: <b>' + placed.length + '</b> od ' + total + ' događaja iz lekcije.</p>' +
