@@ -65,6 +65,8 @@ objasni zašto nije tačan. Učenik to vidi u fioci čim ga izabere, a tekst odg
 stavke `poredjaj`, ili bilo koji zadatak sa `osa: {naziv, od, do?, traka?}`) posle odgovora stavljaju
 događaj na učenikovu osu (pregled „Vremenska osa”). Isti `naziv` = jedna tačka, ma koji zadatak je
 postavio; bledo = otkriven odgovor. Isti događaj u svim zadacima piši sa istim `naziv`/`od`/`do`.
+Događaj koji knjiga datira samo delom veka dobija `oznaka: "kraj XVIII veka"` (reči knjige): na osi se
+crta šrafirano, sa tom oznakom umesto godina (`od`/`do` ga samo približno smeštaju); `datum` ga ne sme tražiti.
 
 **Moje znanje:** svaki pojam (`pojmovi`) ima nivo 0–4 (Leitner); tačno iz prve → nivo gore, vraća se
 posle 1, 3, 7, 14 dana; greška → nazad na 0. Nova sesija Učenja izvlači `sastav.ponavljanje`%

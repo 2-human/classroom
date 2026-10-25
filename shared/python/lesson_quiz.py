@@ -47,8 +47,9 @@ Understanding, not just recall: every wrong option (`odgovori`, `ispravke`, `upo
 a `zasto` — shown in the drawer when it is chosen, and the option text is struck through.
 
 Timeline (optional): spec-level `osa: {od, do, trake: [{id, label, color}]}`; dated items (`datum`,
-`poredjaj` stavke, or any item with `osa: {naziv, od, do?, traka?}`) place their event on the pupil's
-"Vremenska osa" (_osa) when answered — one point per `naziv`, faded when the answer was revealed.
+`poredjaj` stavke, or any item with `osa: {naziv, od, do?, traka?, oznaka?}`) place their event on the
+pupil's "Vremenska osa" (_osa) when answered — one point per `naziv`, faded when the answer was revealed.
+`oznaka` ("kraj XVIII veka") = the book gives no years: drawn hatched with that label, od/do only place it.
 
 Moje znanje (_znanje): spaced reinforcement per concept (`pojmovi`), Leitner boxes 0–4, due again after
 0/1/3/7/14 days; correct at first try = one box up, a mistake = back to 0. A new Učenje session draws
@@ -152,6 +153,8 @@ def load_spec(path):
                 raise SystemExit(f"{where}: objasni needs `uzor` and at least 2 `ideje`")
             if v == "ko_sam" and len(z.get("tragovi") or []) < 2:
                 raise SystemExit(f"{where}: ko_sam needs at least 2 tragovi")
+            if v == "datum" and z.get("oznaka"):
+                raise SystemExit(f"{where}: a datum item cannot ask for a year the book does not give (oznaka)")
             o = z.get("osa")
             if o is not None and not (isinstance(o, dict) and o.get("naziv") and isinstance(o.get("od"), int)):
                 raise SystemExit(f"{where}: osa needs `naziv` and `od` (year)")
@@ -475,6 +478,7 @@ __SHELL_CSS__
  .cmp td{border-top:1px solid var(--border);padding:8px 6px;vertical-align:top;font-size:14px;line-height:1.4}
  .cmp td.bt{white-space:nowrap;text-align:right}
  .cmp .cb{padding:4px 9px;margin:2px;font-size:12.5px;border-color:#6b6456;color:#3a3528}
+ .cmp-key{font-size:14px;line-height:1.6;margin:0 0 8px;padding:6px 10px;background:#fff;border-left:3px solid #e1d8c2;max-width:900px}
  .cmp .cb:hover{background:#f3ecd8;color:#3a3528} .cmp .cb.on{background:#3a3528;color:#fff}
  .cmp .cb.right{background:var(--accent);border-color:var(--accent);color:#fff} .cmp .cb.wrong{background:#fdecec;border-color:#e6b0b0;color:#8a2a22}
  .cmp tr.lock td:first-child{color:#13602c} .cmp tr.bad td:first-child{color:#8a2a22}
@@ -495,6 +499,7 @@ __SHELL_CSS__
  .osa .ev.lft span{left:auto;right:calc(100% + 5px)}   /* label to the left when it would run past the end of the axis */
  .osa .ev span small{color:var(--muted)}
  .osa .ev.rv{opacity:.45} .osa .ev.rv span{font-style:italic}
+ .osa .ev.vague{background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.55) 0 4px,transparent 4px 8px)}   /* dated by the book only as part of a century */
  .osa .ticks{position:relative;height:22px;margin-left:110px;border-top:2px solid #3a3528}
  .osa .ticks span{position:absolute;top:3px;font-size:11px;color:var(--muted);transform:translateX(-50%)}
  .osa .ticks span::before{content:'';position:absolute;left:50%;top:-6px;height:5px;border-left:1px solid #3a3528}
@@ -690,7 +695,7 @@ function osaEvents(z) {
   const ev = [];
   if (z.osa) ev.push(z.osa);
   if (z.vrsta === 'datum') ev.push({ naziv: z.dogadjaj, od: z.godina != null ? z.godina : z.od, do: z.do, traka: z.traka });
-  if (z.vrsta === 'poredjaj') for (const s of z.stavke) if (s.godina != null) ev.push({ naziv: s.naziv || s.tekst, od: s.godina, do: s.do, traka: s.traka || z.traka });
+  if (z.vrsta === 'poredjaj') for (const s of z.stavke) if (s.godina != null) ev.push({ naziv: s.naziv || s.tekst, od: s.godina, do: s.do, traka: s.traka || z.traka, oznaka: s.oznaka });
   return SPEC.osa ? ev : [];
 }
 const osaKey = e => e.naziv + '|' + e.od;
@@ -1118,7 +1123,9 @@ function renderMatch(z, s) {
 }
 
 // ---------- history: datum, poredjaj, uporedi, objasni ----------
-const yrs = z => z.godina != null ? String(z.godina) : z.od + (z.do != null ? '–' + z.do : '');
+// `oznaka` = how the book dates an event it gives no years for ("kraj XVIII veka"): shown instead of the
+// (approximate) years, which only place it on the axis.
+const yrs = z => z.oznaka ? z.oznaka : z.godina != null ? String(z.godina) : z.od + (z.do != null ? '–' + z.do : '');
 function renderDate(z, s) {   // one year (`godina`) or a range (`od`, `do`), ± `tolerancija` years
   const ui = s.ui, done = isDone(s), range = z.godina == null && z.do != null, tol = z.tolerancija || 0;
   ui.v = ui.v || {};
@@ -1172,22 +1179,25 @@ function renderOrder(z, s) {   // stavke are authored in the right order; the pu
   });
   nextButton(z);
 }
+const cmpShort = z => z.a.length <= 14 && z.b.length <= 14;   // short names fit on the buttons; long ones → A / B + legend
 function renderCompare(z, s) {   // tvrdnje → a | b | oba | nijedan
   const ui = s.ui, done = isDone(s); ui.ans = ui.ans || {}; ui.lock = ui.lock || {}; ui.bad = ui.bad || [];
-  const L = { a: z.a, b: z.b, oba: 'Oba', nijedan: 'Nijedan' };
+  const short = cmpShort(z), L = { a: short ? z.a : 'A', b: short ? z.b : 'B', oba: 'Oba', nijedan: 'Nijedan' };
   const rows = z.tvrdnje.map((t, i) => {
     const lock = ui.lock[i], showAns = lock || (done && s.status !== 'failed');
     return '<tr class="' + (lock ? 'lock' : ui.bad.includes(i) ? 'bad' : '') + '"><td>' + fmt(t.tekst) + (ui.bad.includes(i) && helpOn() && t.zasto ? '<span class="why">' + fmt(t.zasto) + '</span>' : '') + '</td><td class="bt">' +
       Object.keys(L).map(k => '<button type="button" class="cb' + (showAns && t.odgovor === k ? ' right' : (!showAns && ui.ans[i] === k ? ' on' : '')) + '" data-i="' + i + '" data-k="' + k + '"' + (done || lock ? ' disabled' : '') + '>' + esc(L[k]) + '</button>').join('') + '</td></tr>';
   }).join('');
-  main.innerHTML = frame(z, s, '<h2 class="q">' + fmt(z.pitanje || ('Na koga se odnosi: ' + z.a + ' ili ' + z.b + '?')) + '</h2><table class="cmp"><tbody>' + rows + '</tbody></table>');
+  main.innerHTML = frame(z, s, '<h2 class="q">' + fmt(z.pitanje || ('Na koga se odnosi: ' + z.a + ' ili ' + z.b + '?')) + '</h2>' +
+    (short ? '' : '<p class="cmp-key"><b>A</b> = ' + fmt(z.a) + '<br><b>B</b> = ' + fmt(z.b) + '</p>') + '<table class="cmp"><tbody>' + rows + '</tbody></table>');
   if (!done) actions([['btnCheck', 'Proveri', 'ok']]);
   main.querySelectorAll('.cb').forEach(b => b.addEventListener('click', () => { ui.ans[+b.dataset.i] = b.dataset.k; save(); renderItem(false); }));
   const chk = document.getElementById('btnCheck');
   if (chk) chk.addEventListener('click', () => {
     const open = z.tvrdnje.map((_, i) => i).filter(i => !ui.lock[i]);
     if (open.some(i => !ui.ans[i])) { toast('Odgovori za svaku tvrdnju', false); return; }
-    const given = open.map(i => (i + 1) + ': ' + L[ui.ans[i]]).join('; ');
+    const NAME = { a: z.a, b: z.b, oba: 'oba', nijedan: 'nijedan' };   // full names in the answer log (review, CSV)
+    const given = open.map(i => (i + 1) + ': ' + NAME[ui.ans[i]]).join('; ');
     ui.bad = [];
     for (const i of open) { if (ui.ans[i] === z.tvrdnje[i].odgovor) ui.lock[i] = true; else { ui.bad.push(i); delete ui.ans[i]; } }
     ui.why = ui.bad.map(i => z.tvrdnje[i].zasto).filter(Boolean).join(' ') || null;
@@ -1359,7 +1369,7 @@ function renderOsa() {   // every placed event, by lane; a range is a bar, one y
       rows[r] = end; e._r = r; e._x = x; e._w = w;
     }
     const rowHtml = rows.map((_, r) => '<div class="row">' + evs.filter(e => e._r === r).map(e =>
-      '<div class="ev' + (e.ok ? '' : ' rv') + (e._lft ? ' lft' : '') + '" title="' + esc(e.naziv + ' · ' + yrs(e)) + '" style="left:' + e._x + '%;' + (e._w ? 'width:' + e._w + '%;' : 'width:12px;margin-left:-6px;') + 'background:' + (t.color || '#3a6ba5') + '"><span>' + esc(e.naziv) + ' <small>' + yrs(e) + '</small></span></div>').join('') + '</div>').join('');
+      '<div class="ev' + (e.ok ? '' : ' rv') + (e._lft ? ' lft' : '') + (e.oznaka ? ' vague' : '') + '" title="' + esc(e.naziv + ' · ' + yrs(e)) + '" style="left:' + e._x + '%;' + (e._w ? 'width:' + e._w + '%;' : 'width:12px;margin-left:-6px;') + 'background:' + (t.color || '#3a6ba5') + '"><span>' + esc(e.naziv) + ' <small>' + yrs(e) + '</small></span></div>').join('') + '</div>').join('');
     return '<div class="lane"><div class="ll" style="color:' + (t.color || '#3a3528') + '">' + esc(t.label) + '</div>' + (rowHtml || '<div class="row"></div>') + '</div>';
   }).join('');
   main.innerHTML = '<div class="sum" style="max-width:1200px"><h1>Moja vremenska osa</h1><p class="lead">Svaki tačno rešen zadatak sa datumom stavlja svoj događaj na osu (bledo = otkriven odgovor). Na osi: <b>' + placed.length + '</b> od ' + total + ' događaja iz lekcije.</p>' +
@@ -1412,7 +1422,7 @@ function questionText(z) {
 function correctText(z) {
   if (['izbor', 'zakljuci', 'lanac', 'izvor', 'ko_sam'].includes(z.vrsta)) return z.odgovori.filter(o => o.tacan).map(o => o.tekst).join('; ');
   if (z.vrsta === 'datum') return yrs(z);
-  if (z.vrsta === 'poredjaj') return z.stavke.map(s => s.tekst + (s.godina != null ? ' (' + s.godina + ')' : '')).join(' → ');
+  if (z.vrsta === 'poredjaj') return z.stavke.map(s => s.tekst + (s.godina != null ? ' (' + (s.oznaka || s.godina) + ')' : '')).join(' → ');
   if (z.vrsta === 'uporedi') { const L = { a: z.a, b: z.b, oba: 'oba', nijedan: 'nijedan' }; return z.tvrdnje.map((t, i) => (i + 1) + ': ' + L[t.odgovor]).join('; '); }
   if (z.vrsta === 'objasni') return z.uzor;
   if (z.vrsta === 'tacno_netacno') return z.tacno ? 'Tačno' : 'Netačno — ' + z.ispravke.find(o => o.tacan).tekst;
