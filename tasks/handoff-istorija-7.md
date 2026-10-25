@@ -53,3 +53,12 @@ The operator chose:
    Don't touch `_commit-h11-cleanups.sh`, which isn't ours.
 
 Working style (operator): Serbian UI and content, Socratic — ask before design decisions, verify before calling anything done.
+
+## Stanje 2026-10-25 (urađeno — „Next” 1–6)
+- Provereno u pregledaču (1440 i 375): sve nove vrste, osa, Moje znanje, test bez objasni, pregled rada, CSV, precrtavanje.
+  Popravljeno: natpisi na osi blizu kraja (sada levo od trake), pokvaren YAML u pilotu (load_spec sada odbija takve ključeve),
+  uporedi sa dugim nazivima (A/B + legenda).
+- Operater: `objasni` ostaje samoprocena u Učenju, bez testa. Događaji koje knjiga datira delom veka: `oznaka` (reči knjige) na osi.
+- Banke: 1.1 = 139, 1.2 = 123, 2.1 = 136, 2.2 = 140 zadataka; svi pogrešni odgovori imaju zasto; osa dosledna.
+- Regresija geografije OK; katalog i zaštićene kopije (istorija + geografija) napravljeni; 14 commit-a ispred origin, ništa push-ovano.
+- Otvoreno: str. 15, 20–27, 33, 39 nisu snimljene (rezimei, pitanja na kraju lekcija, moguća lekcija 1.3).
