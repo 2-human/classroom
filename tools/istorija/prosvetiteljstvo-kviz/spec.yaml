@@ -64,6 +64,28 @@ pojmovi:
   sankt-peterburg: Sankt Peterburg
   podela-poljske: podela Poljske
   velika-britanija: Velika Britanija
+  francuska: Francuska
+  venecija: Venecija
+  djenova: Đenova
+  svajcarska: Švajcarska
+  holandija: Holandija
+  svestenstvo: sveštenstvo
+  plemstvo: plemstvo
+  seljastvo: seljaštvo
+  manufaktura: manufaktura
+  habzburzi: Habzburzi
+  austrija: Austrija
+  ceska: Češka
+  ugarska: Ugarska
+  marija-antoaneta: Marija Antoaneta
+  lavov: Lavov
+  neva: Neva
+  baltisko-more: Baltičko more
+  crno-more: Crno more
+  svedska: Švedska
+  osmansko-carstvo: Osmansko carstvo
+  poljska: Poljska
+  vakcinacija: vakcinacija
 
 # Zadaci (banka): banka.yaml — po delovima lekcije, svaki sa težinom (lako/srednje/tesko).
 banka: banka.yaml
