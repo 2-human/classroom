@@ -1,0 +1,107 @@
+# Osnovne odlike perioda 1780–1918 — kviz po lekciji (tip: lesson-quiz; vidi templates/lesson-quiz/README.md).
+# Pitanja su napisana sopstvenim rečima na osnovu lekcije „1.1. Osnovne odlike perioda 1780–1918.”
+# (istorija, 7. razred, str. 10–14; str. 15 nije snimljena). Težište je na razumevanju: zašto, šta je
+# iz čega proisteklo, kako to znamo iz izvora — ne na pamćenju.
+title: Osnovne odlike perioda 1780–1918 — kviz
+title_short: Osnovne odlike 1780–1918
+locale: sr
+nivo: osnovna
+razred: 7
+lekcije: [1]
+description: >-
+  Kviz za lekciju Osnovne odlike perioda 1780–1918: novi vek i njegove granice, industrijska
+  revolucija, napredak tehnike i medicine, društvo i velike sile, kolonije na drugim kontinentima,
+  Istočno pitanje i srpski narod — uzroci i posledice, izvori (karte, karikature, slike), poređenja,
+  vremenska osa i objašnjavanje svojim rečima.
+
+# Vremenska osa lekcije. Događaji koje udžbenik datira samo vekom („krajem XVIII veka”) stoje na osi
+# kao raspon tog dela veka, uvek sa istim nazivom i godinama.
+osa:
+  od: 1480
+  do: 1920
+  trake:
+    - {id: svet, label: Evropa i svet, color: '#3a6ba5'}
+    - {id: otkrica, label: Pronalasci i otkrića, color: '#1f7a3a'}
+    - {id: srbi, label: Srbi, color: '#9c5a2c'}
+
+sastav:
+  ucenje: 20
+  test: 15
+  odnos: [40, 40, 20]
+  ponavljanje: 50
+
+pojmovi:
+  novi-vek: novi vek
+  rani-novi-vek: rani novi vek
+  predindustrijsko-doba: predindustrijsko doba
+  velika-geografska-otkrica: velika geografska otkrića
+  kristifor-kolumbo: Kristifor Kolumbo
+  dzejms-vat: Džejms Vat
+  parna-masina: parna mašina
+  industrija: industrija
+  revolucija: revolucija
+  industrijska-revolucija: industrijska revolucija
+  parobrod: parobrod
+  zeleznica: železnica
+  elektricna-energija: električna energija
+  motor-sa-unutrasnjim-sagorevanjem: motor sa unutrašnjim sagorevanjem
+  edvard-dzener: Edvard Džener
+  dzozef-lister: Džozef Lister
+  robert-koh: Robert Koh
+  luj-paster: Luj Paster
+  vilhelm-konrad-rendgen: Vilhelm Konrad Rendgen
+  gradjanstvo: građanstvo
+  seljastvo: seljaštvo
+  plemstvo: plemstvo
+  svestenstvo: sveštenstvo
+  francuska-revolucija: Francuska revolucija
+  apsolutizam: apsolutizam
+  apsolutisticka-monarhija: apsolutistička monarhija
+  feudalizam: feudalizam
+  radnistvo: radništvo
+  london: London
+  velike-sile: velike sile
+  kolonija: kolonija
+  kolonijalizam: kolonijalizam
+  velika-britanija: Velika Britanija
+  francuska: Francuska
+  nemacka: Nemačka
+  rusija: Rusija
+  habzburska-monarhija: Habzburška monarhija
+  italija: Italija
+  americki-rat-za-nezavisnost: Američki rat za nezavisnost
+  sjedinjene-americke-drzave: Sjedinjene Američke Države
+  spanija: Španija
+  portugalija: Portugalija
+  brazil: Brazil
+  latinska-amerika: Latinska Amerika
+  afrika: Afrika
+  jagma-za-afrikom: jagma za Afrikom
+  robovlasnistvo: robovlasništvo
+  kina: Kina
+  japan: Japan
+  koreja: Koreja
+  osmansko-carstvo: Osmansko carstvo
+  istocno-pitanje: Istočno pitanje
+  balkansko-poluostrvo: Balkansko poluostrvo
+  mletacka-republika: Mletačka republika
+  prvi-srpski-ustanak: Prvi srpski ustanak
+  drugi-srpski-ustanak: Drugi srpski ustanak
+  knezevina-srbija: Kneževina Srbija
+  berlinski-kongres: Berlinski kongres
+  karadjordjevici: Karađorđevići
+  obrenovici: Obrenovići
+  crna-gora: Crna Gora
+  petrovici-njegosi: Petrovići Njegoši
+  karlovacka-mitropolija: Karlovačka mitropolija
+  bosna-i-hercegovina: Bosna i Hercegovina
+  raska-oblast: Raška oblast
+  kosovo-i-metohija: Kosovo i Metohija
+  severna-makedonija: Severna Makedonija
+  balkanski-ratovi: balkanski ratovi
+  prvi-svetski-rat: Prvi svetski rat
+  katarina-ivanovic: Katarina Ivanović
+  beograd: Beograd
+
+# Zadaci (banka): banka.yaml — po delovima lekcije, svaki sa težinom (lako/srednje/tesko).
+banka: banka.yaml

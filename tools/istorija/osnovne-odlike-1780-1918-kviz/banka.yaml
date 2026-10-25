@@ -1,0 +1,2953 @@
+# Banka zadataka — 1.1. Osnovne odlike perioda 1780–1918. (istorija, 7. razred, str. 10–14). Spaja se u spec.yaml.
+# Pitanja sopstvenim rečima na osnovu beleške tools/istorija/_source/lekcije-7/01-osnovne-odlike-perioda-1780-1918.md.
+# Str. 15 (kraj odeljka o Srbima, rezime i pitanja) nije snimljena — nijedan zadatak ne zavisi od nje.
+# Svaki pogrešan ponuđeni odgovor ima `zasto` — greška treba da nauči, ne samo da kazni.
+# Događaji datirani samo vekom stoje na osi kao raspon (npr. „krajem XVIII veka” = 1770–1800), uvek isto.
+
+delovi:
+  - naslov: Novi vek i industrijska revolucija
+    zadaci:
+      - id: nv-izbor-pocetak
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [novi-vek, kristifor-kolumbo]
+        pitanje: Kojim događajem počinje novi vek?
+        odgovori:
+          - {tekst: "Kolumbovim otkrićem Amerike", tacan: true}
+          - {tekst: "Pronalaskom Vatove parne mašine", tacan: false, zasto: "Parna mašina (1769) ne otvara novi vek, nego zatvara njegov prvi deo — rani novi vek."}
+          - {tekst: "Francuskom revolucijom", tacan: false, zasto: "Francuska revolucija izbija krajem XVIII veka, gotovo tri veka posle početka novog veka."}
+          - {tekst: "Krajem Prvog svetskog rata", tacan: false, zasto: "Kraj Prvog svetskog rata (1918) je kraj novog veka, a ne njegov početak."}
+        pomoc:
+          - Novi vek dolazi posle srednjeg veka — traži događaj s kraja XV veka.
+          - Reč je o putovanju preko Atlantika.
+          - "Iz lekcije: novi vek traje od Kolumbovog otkrića Amerike 1492. do kraja Prvog svetskog rata 1918."
+        objasnjenje: Novi vek počinje Kolumbovim otkrićem Amerike 1492, a završava se krajem Prvog svetskog rata 1918.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Novi vek – pojam i hronološki okviri
+          tekst: Novi vek je period posle srednjeg veka; počinje Kolumbovim otkrićem Amerike 1492. i traje do kraja Prvog svetskog rata 1918.
+        osa: {naziv: "Kolumbovo otkriće Amerike", od: 1492, traka: svet}
+
+      - id: nv-datum-kolumbo
+        vrsta: datum
+        tezina: lako
+        pojmovi: [novi-vek, kristifor-kolumbo, velika-geografska-otkrica]
+        dogadjaj: "Kolumbovo otkriće Amerike"
+        pitanje: Koje godine je Kolumbo otkrio Ameriku i tako započeo novi vek?
+        godina: 1492
+        traka: svet
+        pomoc:
+          - Bilo je to pri samom kraju XV veka.
+          - Samo dve godine posle karte sveta iz 1490. na kojoj Amerike još nema.
+          - "Iz lekcije: Kolumbovo otkriće Amerike, 1492."
+        objasnjenje: Kolumbo je stigao do Amerike 1492; ta godina je početak novog veka.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Novi vek – pojam i hronološki okviri
+          tekst: Početak novog veka udžbenik vezuje za Kolumbovo otkriće Amerike 1492. godine.
+
+      - id: nv-datum-kraj
+        vrsta: datum
+        tezina: lako
+        pojmovi: [novi-vek, prvi-svetski-rat]
+        dogadjaj: "Kraj Prvog svetskog rata"
+        pitanje: Koje godine se završio Prvi svetski rat, a s njim i novi vek?
+        godina: 1918
+        traka: svet
+        pomoc:
+          - Ista godina je i u naslovu lekcije.
+          - Period koji učimo traje od 1780. do te godine.
+          - "Iz lekcije: kraj Prvog svetskog rata 1918. je kraj novog veka."
+        objasnjenje: Novi vek se završava 1918. godine, krajem Prvog svetskog rata.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Novi vek – pojam i hronološki okviri
+          tekst: Novi vek traje do kraja Prvog svetskog rata, 1918. godine.
+
+      - id: nv-datum-vat
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [parna-masina, dzejms-vat, rani-novi-vek]
+        dogadjaj: "Vatova parna mašina"
+        pitanje: Koje godine je Džejms Vat napravio parnu mašinu kojom se završava rani novi vek?
+        godina: 1769
+        traka: otkrica
+        pomoc:
+          - Bilo je to u drugoj polovini XVIII veka, malo pre 1780.
+          - Samo jedanaest godina pre početka perioda koji učimo.
+          - "Iz lekcije: Vatova parna mašina, 1769."
+        objasnjenje: Vatova parna mašina (1769) zatvara rani novi vek i pokreće industrijsku revoluciju.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Novi vek – pojam i hronološki okviri
+          tekst: Rani novi vek traje od velikih geografskih otkrića do pronalaska Vatove parne mašine 1769.
+
+      - id: nv-datum-rani
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [rani-novi-vek, predindustrijsko-doba]
+        dogadjaj: "Rani novi vek"
+        pitanje: Od koje do koje godine traje rani novi vek (predindustrijsko doba)? Upiši početnu i završnu godinu.
+        od: 1492
+        do: 1769
+        traka: svet
+        pomoc:
+          - Počinje kad i ceo novi vek.
+          - Završava se jednim pronalaskom britanskog pronalazača.
+          - "Iz lekcije: od Kolumbovog otkrića (1492) do Vatove parne mašine (1769)."
+        objasnjenje: Rani novi vek traje od 1492. do 1769, od početka velikih geografskih otkrića do Vatove parne mašine.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Novi vek – pojam i hronološki okviri
+          tekst: U 6. razredu učeni su događaji ranog novog veka, od velikih geografskih otkrića krajem XV veka do Vatove parne mašine 1769.
+
+      - id: nv-tn-predindustrijsko
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [rani-novi-vek, predindustrijsko-doba]
+        tvrdnja: "Rani novi vek se naziva i predindustrijsko doba, jer je trajao do početka industrije."
+        tacno: true
+        pomoc:
+          - „Pred” znači „pre”.
+          - Rani novi vek se završava parnom mašinom, a sa njom počinje industrija.
+          - "Iz lekcije: rani novi vek = predindustrijsko doba, do Vatove parne mašine 1769."
+        objasnjenje: Tačno. Rani novi vek je doba pre industrije — završava se pronalaskom parne mašine.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Novi vek – pojam i hronološki okviri
+          tekst: Rani novi vek udžbenik naziva i predindustrijskim dobom; traje do Vatove parne mašine.
+        osa: {naziv: "Rani novi vek", od: 1492, do: 1769, traka: svet}
+
+      - id: nv-tn-britanija
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [industrija, velika-britanija, parna-masina]
+        tvrdnja: Industrija zasnovana na parnoj mašini počela je da se razvija najpre u Francuskoj.
+        tacno: false
+        ispravke:
+          - {tekst: "Industrija je najpre počela da se razvija u Velikoj Britaniji, gde je parna mašina primenjena u preradi tkanina, metala i drveta.", tacan: true}
+          - {tekst: "Industrija je najpre počela da se razvija u Rusiji.", tacan: false, zasto: "Rusija se u lekciji javlja kao velika sila, ali razvoj industrije počinje u Velikoj Britaniji, domovini Džejmsa Vata."}
+          - {tekst: "Industrija je najpre počela da se razvija u Sjedinjenim Američkim Državama.", tacan: false, zasto: "SAD nastaju tek krajem XVIII veka; parna mašina se prvo koristi u Velikoj Britaniji."}
+        pomoc:
+          - Odakle je bio Džejms Vat?
+          - Industrija je krenula tamo gde je mašina prvo primenjena.
+          - "Iz lekcije: parnom mašinom u Velikoj Britaniji počinje razvoj industrije."
+        objasnjenje: Vat je bio britanski pronalazač, pa se industrija najpre razvija u Velikoj Britaniji.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Novi vek – pojam i hronološki okviri
+          tekst: Parna mašina se krajem XVIII veka koristi u preradi tkanina, metala i drveta, čime u Velikoj Britaniji počinje razvoj industrije.
+
+      - id: nv-dopuni-pojmovi
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [industrija, revolucija, industrijska-revolucija]
+        pitanje: Dopuni rečenice.
+        tekst: "Industrija je privredna grana zasnovana na korišćenju {{mašina}} u proizvodnji. Industrijska revolucija je masovni prelazak sa {{ručne}} na mašinsku proizvodnju. Revolucija je {{nagla}} i često nasilna promena postojećeg poretka."
+        ponudjene: [mašina, ručne, nagla, životinja, spora, mašinske]
+        pomoc:
+          - Industrija = proizvodnja uz pomoć …?
+          - Revolucija je suprotno od spore, postepene promene.
+          - "Iz lekcije: industrija koristi mašine; industrijska revolucija = prelazak sa ručne na mašinsku proizvodnju."
+        objasnjenje: Industrija koristi mašine; industrijska revolucija je nagli, masovni prelazak sa ručne na mašinsku proizvodnju.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Definicije
+          tekst: Revolucija je prevrat, nagla i često nasilna promena poretka; industrijska revolucija je preokret u proizvodnji — prelazak sa ručne na mašinsku.
+
+      - id: nv-dopuni-okviri
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [novi-vek, rani-novi-vek, velika-geografska-otkrica]
+        pitanje: Dopuni rečenice o granicama novog veka.
+        tekst: "Novi vek dolazi posle {{srednjeg}} veka. Rani novi vek počinje velikim geografskim otkrićima krajem {{XV}} veka, a završava se pronalaskom parne mašine britanskog pronalazača {{Džejmsa Vata|Vata|Džejms Vat}}."
+        ponudjene: [srednjeg, starog, XV, XVIII, Džejmsa Vata, Kristifora Kolumba]
+        pomoc:
+          - Koji vek prethodi novom?
+          - Kolumbo plovi 1492 — u kom je to veku?
+          - "Iz lekcije: rani novi vek traje od velikih geografskih otkrića krajem XV veka do Vatove parne mašine."
+        objasnjenje: Novi vek sledi posle srednjeg; njegov rani deo traje od otkrića krajem XV veka do Vatove parne mašine 1769.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Novi vek – pojam i hronološki okviri
+          tekst: Novi vek dolazi posle srednjeg veka; rani novi vek obuhvata period od velikih geografskih otkrića do Vatove parne mašine.
+
+      - id: nv-povezi-definicije
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [revolucija, industrijska-revolucija, industrija, kolonija, istocno-pitanje]
+        pitanje: Poveži pojam sa njegovim značenjem.
+        parovi:
+          - ["revolucija", "nagla, često nasilna promena političkog ili društvenog poretka"]
+          - ["industrijska revolucija", "masovni prelazak sa ručne na mašinsku proizvodnju"]
+          - ["industrija", "privredna grana zasnovana na korišćenju mašina"]
+          - ["kolonija", "posed strane sile u dalekim, prekomorskim krajevima"]
+          - ["Istočno pitanje", "pitanje opstanka Osmanskog carstva na Balkanu i Bliskom istoku"]
+        pomoc:
+          - Kreni od pojma koji je najlakši — kolonija ili industrija.
+          - Industrija je grana privrede; industrijska revolucija je preokret, promena.
+          - "Iz lekcije: „?” kućice na str. 11–13 objašnjavaju ove pojmove."
+        objasnjenje: Revolucija je nagla promena; industrijska revolucija je takva promena u proizvodnji; kolonija je prekomorski posed; Istočno pitanje se tiče opstanka Osmanskog carstva.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Definicije
+          tekst: Udžbenik u „?” kućicama objašnjava pojmove revolucija, industrijska revolucija, kolonija i Istočno pitanje.
+
+      - id: nv-zakljuci-revolucija
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [industrijska-revolucija, parna-masina, revolucija]
+        pitanje: Zašto se promene koje je pokrenula Vatova parna mašina nazivaju „revolucijom”, iako u njima nije bilo oružane borbe?
+        odgovori:
+          - {tekst: "Zato što je širenje industrijske proizvodnje naglo i duboko promenilo privredu i društvo Evrope, a zatim i drugih kontinenata", tacan: true}
+          - {tekst: "Zato što su radnici odmah srušili vlast kraljeva", tacan: false, zasto: "Lekcija tako nešto ne kaže; borba za radnička prava je trajala dugo, a ne kao brzo rušenje vlasti."}
+          - {tekst: "Zato što je parna mašina prvo korišćena u ratu", tacan: false, zasto: "Prvo je korišćena u preradi tkanina, metala i drveta — u proizvodnji, ne u ratu."}
+          - {tekst: "Zato što se desila u isto vreme kad i Francuska revolucija", tacan: false, zasto: "Vreme nije razlog naziva; „revolucija” ovde znači preokret — u proizvodnji."}
+        pomoc:
+          - "Korak 1: Šta reč revolucija znači — mora li uvek da bude nasilna?"
+          - "Korak 2: Šta je industrija promenila — samo fabrike ili i život ljudi i država?"
+          - "Iz lekcije: širenje industrijske proizvodnje imalo je dalekosežne posledice na privredni i društveni razvoj."
+        objasnjenje: Revolucija je preokret. Prelazak sa ručne na mašinsku proizvodnju toliko je promenio privredu i društvo da se zove industrijska revolucija.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Novi vek – pojam i hronološki okviri
+          tekst: Širenje industrijske proizvodnje imalo je dalekosežne posledice na privredu i društvo Evrope i drugih kontinenata, pa se kaže da je Vatov pronalazak pokrenuo industrijsku revoluciju.
+
+      - id: nv-zakljuci-granica
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [rani-novi-vek, parna-masina, industrijska-revolucija]
+        pitanje: Zašto udžbenik granicu između ranog novog veka i perioda 1780–1918 stavlja kod jednog pronalaska, a ne kod rata ili smene vladara?
+        odgovori:
+          - {tekst: "Zato što je taj pronalazak pokrenuo industrijsku revoluciju, a ona je najvažnija odlika celog novog perioda", tacan: true}
+          - {tekst: "Zato što u to vreme nije bilo nijednog rata", tacan: false, zasto: "Lekcija ne tvrdi da nije bilo ratova; granica je pronalazak zbog njegovih dalekosežnih posledica."}
+          - {tekst: "Zato što je Džejms Vat bio kralj Velike Britanije", tacan: false, zasto: "Vat je bio pronalazač, ne vladar."}
+          - {tekst: "Zato što je parna mašina odmah ukinula feudalizam u celoj Evropi", tacan: false, zasto: "Feudalizam je ukinut tek u prvoj polovini XIX veka, pod uticajem promena posle Francuske revolucije."}
+        pomoc:
+          - "Korak 1: Po čemu se period posle 1780. najviše razlikuje od ranijeg? (rast gradova, fabrike, železnica…)"
+          - "Korak 2: Šta je pokrenulo sve te promene?"
+          - "Iz lekcije: rani novi vek je predindustrijsko doba; Vatova mašina pokreće industrijsku revoluciju."
+        objasnjenje: Period 1780–1918 je doba industrije. Zato ga od predindustrijskog doba odvaja pronalazak koji je pokrenuo industrijsku revoluciju.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Novi vek – pojam i hronološki okviri
+          tekst: Rani novi vek, predindustrijsko doba, završava se Vatovom parnom mašinom 1769, koja pokreće industrijsku revoluciju.
+        osa: {naziv: "Vatova parna mašina", od: 1769, traka: otkrica}
+
+      - id: nv-lanac-vat
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [parna-masina, dzejms-vat, industrija]
+        karike:
+          - Džejms Vat pronalazi parnu mašinu
+          - "?"
+          - U Velikoj Britaniji počinje razvoj industrije
+        praznina: 1
+        odgovori:
+          - {tekst: "Mašina počinje da se koristi u preradi tkanina, metala i drveta", tacan: true}
+          - {tekst: "Kolumbo otkriva Ameriku", tacan: false, zasto: "Kolumbovo otkriće (1492) je skoro tri veka starije i nema veze sa parnom mašinom."}
+          - {tekst: "Izbija Francuska revolucija", tacan: false, zasto: "Francuska revolucija je posledica nezadovoljstva seljaštva i građanstva, a ne korak od mašine do industrije."}
+          - {tekst: "Gradi se automobil", tacan: false, zasto: "Automobilski saobraćaj se razvija tek krajem XIX veka, uz motor sa unutrašnjim sagorevanjem."}
+        pomoc:
+          - "Korak 1: Pronalazak sam po sebi ne menja ništa — mora negde da se upotrebi."
+          - "Korak 2: Gde je parna mašina prvo radila?"
+          - "Iz lekcije: koristila se u preradi tkanina, metala i drveta."
+        objasnjenje: Kad je parna mašina počela da se koristi u preradi tkanina, metala i drveta, u Velikoj Britaniji je počeo razvoj industrije.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Novi vek – pojam i hronološki okviri
+          tekst: Vatova parna mašina se krajem XVIII veka koristi u preradi tkanina, metala i drveta, čime počinje razvoj industrije.
+        osa: {naziv: "Vatova parna mašina", od: 1769, traka: otkrica}
+
+      - id: nv-lanac-revolucija
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [industrija, industrijska-revolucija]
+        karike:
+          - Parna mašina u preradi tkanina, metala i drveta
+          - Razvoj industrije u Velikoj Britaniji
+          - "?"
+          - Kaže se da je Vatov pronalazak pokrenuo industrijsku revoluciju
+        praznina: 2
+        odgovori:
+          - {tekst: "Industrijska proizvodnja se širi i menja privredu i društvo Evrope, pa i drugih kontinenata", tacan: true}
+          - {tekst: "Industrija ostaje samo u jednoj britanskoj radionici", tacan: false, zasto: "Da je ostala u jednoj radionici, ne bi bilo „revolucije” — upravo širenje proizvodnje daje taj naziv."}
+          - {tekst: "Britanija gubi trinaest kolonija u Severnoj Americi", tacan: false, zasto: "Gubitak kolonija je posledica Američkog rata za nezavisnost, ne širenja industrije."}
+          - {tekst: "Plemstvo zabranjuje mašine", tacan: false, zasto: "Lekcija to ne kaže; plemstvo gubi prevlast zbog promena posle Francuske revolucije."}
+        pomoc:
+          - "Korak 1: Šta se mora desiti sa industrijom da bi se promena nazvala revolucijom?"
+          - "Korak 2: Na koje države i kontinente se promena proširila?"
+          - "Iz lekcije: širenje industrijske proizvodnje imalo je dalekosežne posledice na privredni i društveni razvoj."
+        objasnjenje: Industrija se proširila iz Britanije na Evropu i druge kontinente i promenila privredu i društvo — zato govorimo o industrijskoj revoluciji.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Novi vek – pojam i hronološki okviri
+          tekst: Širenje industrijske proizvodnje imalo je dalekosežne posledice na evropske države, a zatim i na zemlje drugih kontinenata.
+
+      - id: nv-izvor-karta-1490
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [velika-geografska-otkrica, novi-vek]
+        izvor:
+          autor: Nepoznati kartograf
+          naslov: Karta sveta iz 1490. (opis slike)
+          tekst: Stara ovalna karta sveta. Na njoj su ucrtane samo Evropa, Azija i Afrika — svet koji su Evropljani tada poznavali. Amerike i Australije na karti nema.
+          napomena: "Odlomak je prepričan; udžbenik, str. 10 (slika levo)."
+        pitanje: Koji kontinenti su ucrtani na karti iz 1490?
+        odgovori:
+          - {tekst: "Evropa, Azija i Afrika", tacan: true}
+          - {tekst: "Evropa, Amerika i Australija", tacan: false, zasto: "Amerika i Australija još nisu bile poznate Evropljanima; otkrivene su tokom ranog novog veka."}
+          - {tekst: "Svi kontinenti", tacan: false, zasto: "Karta je nastala pre Kolumbovog putovanja 1492, pa Ameriku ne prikazuje."}
+          - {tekst: "Samo Evropa", tacan: false, zasto: "Evropljani su tada poznavali i Aziju i Afriku — ceo Stari svet."}
+        pomoc:
+          - Karta je nastala dve godine pre Kolumbovog putovanja.
+          - Koji svet su Evropljani poznavali pre velikih otkrića?
+          - "Iz lekcije: na karti iz 1490. je Stari svet — Evropa, Azija, Afrika."
+        objasnjenje: Karta iz 1490. prikazuje Stari svet — Evropu, Aziju i Afriku; Amerike još nema, jer je Kolumbo stigao do nje tek 1492.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Karte sveta iz 1490. i 1794.
+          tekst: Na str. 10 su dve karte sveta, iz 1490. i 1794; udžbenik pita koji su kontinenti ucrtani na starijoj karti.
+          slika: 01-osnovne-odlike-perioda-1780-1918/01-karta-sveta-1490.jpg
+        osa: {naziv: "Karta sveta iz 1490.", od: 1490, traka: svet}
+
+      - id: nv-izvor-karta-1794
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [velika-geografska-otkrica, rani-novi-vek]
+        izvor:
+          autor: Nepoznati kartograf
+          naslov: Karta sveta iz 1794. (opis slike)
+          tekst: Karta sveta u dve polulopte, ukrašena nebeskim kartama u uglovima. Ucrtane su Amerika, Afrika, Evropa i Azija, ali i Australija.
+          napomena: "Odlomak je prepričan; udžbenik, str. 10 (slika desno)."
+        pitanje: Šta možemo da zaključimo kad ovu kartu uporedimo sa kartom iz 1490?
+        odgovori:
+          - {tekst: "Da su Evropljani tokom ranog novog veka otkrili Severnu i Južnu Ameriku i Australiju", tacan: true}
+          - {tekst: "Da su Afrika i Azija otkrivene tek posle 1490.", tacan: false, zasto: "Afrika i Azija su ucrtane već na karti iz 1490 — one pripadaju Starom svetu."}
+          - {tekst: "Da se oblik kontinenata promenio za tri veka", tacan: false, zasto: "Kontinenti se nisu menjali; menjalo se ono što su Evropljani znali o svetu."}
+          - {tekst: "Da je Amerika otkrivena posle 1794.", tacan: false, zasto: "Amerika je već na ovoj karti, a otkrivena je 1492."}
+        pomoc:
+          - Šta ima na karti iz 1794, a nema na karti iz 1490?
+          - Ti kontinenti su otkriveni između dve karte — u kom periodu?
+          - "Iz lekcije: tokom ranog novog veka otkriveni su Amerika i Australija (Okeanija)."
+        objasnjenje: Poređenje karata pokazuje šta je otkriveno između 1490. i 1794 — Severna i Južna Amerika i Australija.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Karte sveta iz 1490. i 1794.
+          tekst: Udžbenik traži da se karte uporede i da se kaže koje su kontinente evropski istraživači otkrili tokom ranog novog veka.
+          slika: 01-osnovne-odlike-perioda-1780-1918/02-karta-sveta-1794.jpg
+        osa: {naziv: "Karta sveta iz 1794.", od: 1794, traka: svet}
+
+      - id: nv-izvor-brodovi
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [parobrod, industrijska-revolucija, kristifor-kolumbo]
+        izvor:
+          autor: Udžbenik (potpisi uz tri slike broda)
+          naslov: Karavela, Savana i Luzitanija
+          tekst: Kolumbo je sa tri karavele putovao od Španije do San Salvadora dva meseca. Prvi američki parobrod Savana prešao je Atlantik do Liverpula 1819. za 27 dana. Brod Luzitanija sa četiri dimnjaka plovio je 1907. od Liverpula do Njujorka od 7. do 13. septembra.
+          napomena: "Odlomak je prepričan; udžbenik, str. 10."
+        pitanje: Koju promenu u pomorskom saobraćaju pokazuju ove tri slike?
+        odgovori:
+          - {tekst: "Brodovi pokretani parom postaju sve veći i brži, pa putovanje preko okeana traje sve kraće", tacan: true}
+          - {tekst: "Putovanja traju sve duže jer su brodovi sve teži", tacan: false, zasto: "Obrnuto: od dva meseca, preko 27 dana, do oko nedelju dana."}
+          - {tekst: "Brodovi i dalje zavise samo od vetra", tacan: false, zasto: "Savana i Luzitanija imaju dimnjake — pokreće ih para, pa ne zavise od vetra kao karavela."}
+          - {tekst: "Preko Atlantika se plovi samo iz Španije", tacan: false, zasto: "Savana i Luzitanija plove između Amerike i Liverpula u Velikoj Britaniji."}
+        pomoc:
+          - Uporedi trajanje putovanja.
+          - Šta imaju Savana i Luzitanija, a karavela nema?
+          - "Iz lekcije: dva meseca (karavela) → 27 dana (Savana, 1819) → oko šest dana (Luzitanija, 1907)."
+        objasnjenje: Industrija je donela parobrode — veće, brže i nezavisne od vetra; put preko Atlantika skraćen je sa dva meseca na nekoliko dana.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Brodovi kroz novi vek
+          tekst: Udžbenik prikazuje Kolumbovu karavelu, parobrod Savanu i Luzitaniju i traži da se opišu promene koje je industrijski napredak doneo u pomorskom saobraćaju.
+          slika: 01-osnovne-odlike-perioda-1780-1918/03-brodovi-karavela-savana-luzitanija.jpg
+
+      - id: nv-izbor-savana
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [parobrod]
+        pitanje: Koliko je prvom američkom parobrodu Savana 1819. trebalo da pređe Atlantik do Liverpula?
+        odgovori:
+          - {tekst: "27 dana", tacan: true}
+          - {tekst: "Dva meseca", tacan: false, zasto: "Dva meseca je trajalo Kolumbovo putovanje karavelama, pre pojave parobroda."}
+          - {tekst: "Oko šest dana", tacan: false, zasto: "Toliko je 1907. trajala plovidba Luzitanije, mnogo većeg i bržeg broda."}
+          - {tekst: "Jedan dan", tacan: false, zasto: "Ni najbrži brod iz lekcije nije prešao Atlantik za dan; Savana je plovila skoro mesec dana."}
+        pomoc:
+          - Bilo je kraće od Kolumbovih dva meseca, ali duže od Luzitanije.
+          - Skoro mesec dana.
+          - "Iz lekcije: Savana — preko Atlantika za 27 dana, 1819."
+        objasnjenje: Savana je Atlantik prešla za 27 dana — upola brže od karavela, ali mnogo sporije od Luzitanije 1907.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Brodovi kroz novi vek
+          tekst: Prvi američki parobrod Savana preplovio je 1819. Atlantik od američke obale do Liverpula za 27 dana.
+          slika: 01-osnovne-odlike-perioda-1780-1918/03-brodovi-karavela-savana-luzitanija.jpg
+        osa: {naziv: "Parobrod Savana preko Atlantika", od: 1819, traka: otkrica}
+
+      - id: nv-datum-savana
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [parobrod]
+        dogadjaj: "Parobrod Savana preko Atlantika"
+        pitanje: Koje godine je prvi američki parobrod Savana preplovio Atlantik?
+        godina: 1819
+        traka: otkrica
+        pomoc:
+          - Bilo je to pola veka posle Vatove parne mašine.
+          - U drugoj deceniji XIX veka.
+          - "Iz lekcije: Savana, 1819, 27 dana do Liverpula."
+        objasnjenje: Savana je 1819. preplovila Atlantik za 27 dana — jedan od prvih plodova parne mašine na moru.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Brodovi kroz novi vek
+          tekst: Potpis uz sliku kaže da je Savana 1819. stigla od američke obale do Liverpula za 27 dana.
+          slika: 01-osnovne-odlike-perioda-1780-1918/03-brodovi-karavela-savana-luzitanija.jpg
+
+      - id: nv-poredjaj-brodovi
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [parobrod, kristifor-kolumbo]
+        pitanje: Poređaj putovanja preko Atlantika od najranijeg do najkasnijeg.
+        stavke:
+          - {tekst: "Kolumbo sa tri karavele stiže do San Salvadora", godina: 1492, naziv: "Kolumbovo otkriće Amerike", traka: svet}
+          - {tekst: "Parobrod Savana prelazi Atlantik za 27 dana", godina: 1819, naziv: "Parobrod Savana preko Atlantika", traka: otkrica}
+          - {tekst: "Luzitanija plovi od Liverpula do Njujorka", godina: 1907, naziv: "Luzitanija: Liverpul–Njujork", traka: otkrica}
+        pomoc:
+          - Najranije je putovanje na jedrima.
+          - Parobrod sa jedrima i jednim dimnjakom stariji je od broda sa četiri dimnjaka.
+          - "Iz lekcije: karavela 1492 → Savana 1819 → Luzitanija 1907."
+        objasnjenje: Karavela (1492) → Savana (1819) → Luzitanija (1907); svako sledeće putovanje bilo je kraće.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Brodovi kroz novi vek
+          tekst: Tri slike brodova pokazuju kako se pomorski saobraćaj menjao od Kolumba do početka XX veka.
+          slika: 01-osnovne-odlike-perioda-1780-1918/03-brodovi-karavela-savana-luzitanija.jpg
+
+      - id: nv-poredjaj-okviri
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [novi-vek, rani-novi-vek, parna-masina]
+        pitanje: Poređaj događaje i izvore hronološki, od najranijeg do najkasnijeg.
+        stavke:
+          - {tekst: "Nastaje karta sveta bez Amerike", godina: 1490, naziv: "Karta sveta iz 1490.", traka: svet}
+          - {tekst: "Kolumbo otkriva Ameriku", godina: 1492, naziv: "Kolumbovo otkriće Amerike", traka: svet}
+          - {tekst: "Vat pravi parnu mašinu", godina: 1769, naziv: "Vatova parna mašina", traka: otkrica}
+          - {tekst: "Nastaje karta sveta sa Amerikom i Australijom", godina: 1794, naziv: "Karta sveta iz 1794.", traka: svet}
+          - {tekst: "Završava se Prvi svetski rat", godina: 1918, naziv: "Kraj Prvog svetskog rata", traka: svet}
+        pomoc:
+          - Karta bez Amerike morala je nastati pre Kolumbovog otkrića.
+          - Parna mašina je nekoliko decenija starija od druge karte.
+          - "Iz lekcije: 1490 karta → 1492 Kolumbo → 1769 Vat → 1794 karta → 1918 kraj rata."
+        objasnjenje: Karta iz 1490. → Kolumbo 1492 → Vat 1769 → karta iz 1794 → kraj Prvog svetskog rata 1918.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Novi vek – pojam i hronološki okviri
+          tekst: Novi vek traje od 1492. do 1918; rani novi vek se završava 1769; na str. 10 su karte iz 1490. i 1794.
+
+      - id: nv-uporedi-karte
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [velika-geografska-otkrica, novi-vek, rani-novi-vek]
+        a: Karta sveta iz 1490.
+        b: Karta sveta iz 1794.
+        pitanje: Na koju kartu se odnosi tvrdnja — A, B, obe ili nijednu?
+        tvrdnje:
+          - {tekst: "Na njoj je ucrtana Afrika.", odgovor: oba, zasto: "Afrika je deo Starog sveta i poznata je Evropljanima i pre 1490."}
+          - {tekst: "Na njoj su ucrtane Amerika i Australija.", odgovor: b, zasto: "Ti kontinenti su otkriveni tokom ranog novog veka, posle 1490."}
+          - {tekst: "Nastala je pre početka novog veka.", odgovor: a, zasto: "Novi vek počinje 1492, a karta je iz 1490."}
+          - {tekst: "Nastala je posle Vatove parne mašine.", odgovor: b, zasto: "Parna mašina je iz 1769, a karta iz 1794."}
+          - {tekst: "Nastala je posle kraja novog veka.", odgovor: nijedan, zasto: "Novi vek se završava 1918; obe karte su mnogo starije."}
+        pomoc:
+          - Uporedi godine karata sa 1492. i 1769.
+          - Stari svet (Evropa, Azija, Afrika) poznat je od ranije.
+          - "Iz lekcije: novi vek 1492–1918; rani novi vek do 1769."
+        objasnjenje: Starija karta je nastala neposredno pre novog veka i prikazuje Stari svet; mlađa je iz vremena posle parne mašine i prikazuje i otkrivene kontinente.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Karte sveta iz 1490. i 1794.
+          tekst: Udžbenik stavlja jednu do druge karte sveta iz 1490. i 1794. i traži da se uporede.
+          slika: 01-osnovne-odlike-perioda-1780-1918/02-karta-sveta-1794.jpg
+
+      - id: nv-uporedi-brodovi
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [parobrod, kristifor-kolumbo]
+        a: Kolumbova karavela
+        b: Luzitanija
+        pitanje: Na koji brod se odnosi tvrdnja — A, B, oba ili nijedan?
+        tvrdnje:
+          - {tekst: "Pokreće je vetar u jedrima.", odgovor: a, zasto: "Karavela je jedrenjak; Luzitanija ima četiri dimnjaka i pokreće je para."}
+          - {tekst: "Preplovila je Atlantik.", odgovor: oba, zasto: "Oba broda su plovila preko Atlantika — karavela do San Salvadora, Luzitanija do Njujorka."}
+          - {tekst: "Put je trajao oko nedelju dana.", odgovor: b, zasto: "Luzitanija je plovila od 7. do 13. septembra 1907; karavelama je trebalo dva meseca."}
+          - {tekst: "Isplovila je iz Liverpula.", odgovor: b, zasto: "Kolumbo je krenuo iz Španije; Luzitanija iz Liverpula."}
+          - {tekst: "Bila je prvi američki parobrod.", odgovor: nijedan, zasto: "Prvi američki parobrod je Savana (1819)."}
+        pomoc:
+          - Jedan brod je iz 1492, drugi iz 1907.
+          - Šta je industrija donela brodovima?
+          - "Iz lekcije: karavela — Španija–San Salvador, dva meseca; Luzitanija — Liverpul–Njujork, 7–13. septembar 1907."
+        objasnjenje: Karavela je jedrenjak kome je trebalo dva meseca; Luzitanija je parni brod koji je 1907. Atlantik prešao za oko šest dana.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Brodovi kroz novi vek
+          tekst: Potpisi uz slike porede Kolumbove karavele i brod Luzitaniju po trajanju plovidbe.
+          slika: 01-osnovne-odlike-perioda-1780-1918/03-brodovi-karavela-savana-luzitanija.jpg
+        osa: {naziv: "Luzitanija: Liverpul–Njujork", od: 1907, traka: otkrica}
+
+      - id: nv-ko-sam-vat
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [dzejms-vat, parna-masina, industrijska-revolucija]
+        tragovi:
+          - Moj pronalazak je granica između ranog novog veka i perioda koji učiš.
+          - Bio sam britanski pronalazač.
+          - Moja mašina je počela da radi u preradi tkanina, metala i drveta.
+          - Godine 1769. napravio sam parnu mašinu.
+        odgovori:
+          - {tekst: "Džejms Vat", tacan: true}
+          - {tekst: "Kristifor Kolumbo", tacan: false, zasto: "Kolumbo je moreplovac koji je 1492. stigao do Amerike; njime novi vek počinje."}
+          - {tekst: "Vilhelm Konrad Rendgen", tacan: false, zasto: "Rendgen je 1895. otkrio iks-zrake, više od veka posle parne mašine."}
+          - {tekst: "Robert Koh", tacan: false, zasto: "Koh je otkrio uzročnike tuberkuloze i kolere (1882, 1884)."}
+        objasnjenje: To je Džejms Vat; njegova parna mašina (1769) pokrenula je industrijsku revoluciju.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Novi vek – pojam i hronološki okviri
+          tekst: Parna mašina britanskog pronalazača Džejmsa Vata krajem XVIII veka počinje da se koristi u preradi tkanina, metala i drveta.
+        osa: {naziv: "Vatova parna mašina", od: 1769, traka: otkrica}
+
+      - id: nv-ko-sam-kolumbo
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [kristifor-kolumbo, novi-vek, velika-geografska-otkrica]
+        tragovi:
+          - Moje putovanje je trajalo oko dva meseca.
+          - Plovio sam sa tri karavele od Španije do San Salvadora.
+          - Mojim otkrićem počinje novi vek.
+          - Godine 1492. stigao sam do Amerike.
+        odgovori:
+          - {tekst: "Kristifor Kolumbo", tacan: true}
+          - {tekst: "Džejms Vat", tacan: false, zasto: "Vat je pronalazač parne mašine (1769); njime se rani novi vek završava, ne počinje."}
+          - {tekst: "Kapetan Luzitanije", tacan: false, zasto: "Luzitanija je plovila 1907. od Liverpula do Njujorka za oko šest dana."}
+          - {tekst: "Kapetan parobroda Savana", tacan: false, zasto: "Savana je 1819. prešla Atlantik za 27 dana, pokretana parom."}
+        objasnjenje: To je Kristifor Kolumbo; njegovim dolaskom u Ameriku 1492. počinju novi vek i velika geografska otkrića.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Brodovi kroz novi vek
+          tekst: Kolumbu je trebalo dva meseca da sa tri karavele stigne od Španije do San Salvadora.
+          slika: 01-osnovne-odlike-perioda-1780-1918/03-brodovi-karavela-savana-luzitanija.jpg
+        osa: {naziv: "Kolumbovo otkriće Amerike", od: 1492, traka: svet}
+
+      - id: nv-objasni-dve-celine
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [novi-vek, rani-novi-vek, predindustrijsko-doba, industrijska-revolucija]
+        pitanje: Na koja dva dela se deli novi vek i šta ih razdvaja? Objasni svojim rečima.
+        uzor: Novi vek traje od Kolumbovog otkrića Amerike 1492. do kraja Prvog svetskog rata 1918. Prvi deo je rani novi vek ili predindustrijsko doba, do Vatove parne mašine 1769. Drugi deo, od 1780. do 1918, obeležava industrijska revolucija koju je ta mašina pokrenula.
+        ideje:
+          - Novi vek traje od 1492. do 1918.
+          - Prvi deo je rani novi vek (predindustrijsko doba).
+          - Granica je Vatova parna mašina (1769).
+          - Drugi deo obeležava industrijska revolucija.
+        objasnjenje: Granica između dva dela novog veka je pronalazak koji je pokrenuo industrijsku revoluciju.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Novi vek – pojam i hronološki okviri
+          tekst: Novi vek se deli na rani novi vek (do 1769) i period 1780–1918, koji obeležava industrijska revolucija.
+        osa: {naziv: "Novi vek", od: 1492, do: 1918, traka: svet}
+
+      - id: nv-objasni-brodovi
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [parobrod, industrijska-revolucija]
+        pitanje: Opiši kako je industrijski napredak promenio pomorski saobraćaj od Kolumba do 1907. Koristi primere brodova iz lekcije.
+        uzor: Kolumbo je jedrenjacima plovio do Amerike dva meseca, a brzina je zavisila od vetra. Parobrod Savana je 1819. prešao Atlantik za 27 dana. Luzitanija, veliki brod sa četiri dimnjaka, plovila je 1907. od Liverpula do Njujorka za oko šest dana. Para je brodove učinila većim, bržim i nezavisnim od vetra.
+        ideje:
+          - Jedrenjaci su zavisili od vetra i plovili dugo (dva meseca).
+          - Parobrod Savana (1819) — 27 dana.
+          - Luzitanija (1907) — oko šest dana.
+          - Brodovi postaju veći, brži i ne zavise od vetra.
+        objasnjenje: Industrija je na more donela paru — put preko Atlantika skraćen je sa dva meseca na oko nedelju dana.
+        iz_udzbenika:
+          strana: 10
+          odeljak: Brodovi kroz novi vek
+          tekst: Udžbenik pita kakve je promene industrijski napredak doneo u pomorskom saobraćaju i za to daje tri broda.
+          slika: 01-osnovne-odlike-perioda-1780-1918/03-brodovi-karavela-savana-luzitanija.jpg
+
+  - naslov: Napredak tehnike i medicine
+    zadaci:
+      - id: ev-izbor-gradovi
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [industrija]
+        pitanje: Zašto je u XIX veku raslo gradsko stanovništvo?
+        odgovori:
+          - {tekst: "Zbog razvoja poljoprivrede i industrije", tacan: true}
+          - {tekst: "Zbog trgovine robljem u Africi", tacan: false, zasto: "Trgovina robljem je posledica prisustva Evropljana u Africi; rast gradova lekcija vezuje za poljoprivredu i industriju."}
+          - {tekst: "Zato što su seljaci postali najmanji sloj", tacan: false, zasto: "Seljaštvo je i dalje bilo najbrojniji sloj."}
+          - {tekst: "Zbog ukidanja železnice", tacan: false, zasto: "Železnička mreža se tada gradila, a ne ukidala."}
+        pomoc:
+          - Gde su nastajale fabrike?
+          - Ko je hranio sve veće gradove?
+          - "Iz lekcije: razvoj poljoprivrede i industrije doveo je do porasta gradskog stanovništva."
+        objasnjenje: Fabrike su privlačile ljude u gradove, a bolja poljoprivreda je mogla da ih prehrani — gradovi su rasli.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Evropa od kraja XVIII do početka XX veka
+          tekst: Razvoj poljoprivrede i industrije doveo je u XIX veku do porasta gradskog stanovništva.
+
+      - id: ev-izbor-vazdusni
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [motor-sa-unutrasnjim-sagorevanjem, elektricna-energija]
+        pitanje: Koja vrsta saobraćaja počinje da se razvija na samom početku XX veka?
+        odgovori:
+          - {tekst: "Vazdušni saobraćaj", tacan: true}
+          - {tekst: "Železnički saobraćaj", tacan: false, zasto: "Železnička mreža se gradi već tokom XIX veka."}
+          - {tekst: "Pomorski saobraćaj jedrenjacima", tacan: false, zasto: "Jedrenjaci su stari — Kolumbo je njima plovio još 1492."}
+          - {tekst: "Parobrodski saobraćaj preko Atlantika", tacan: false, zasto: "Parobrod Savana je prešao Atlantik već 1819."}
+        pomoc:
+          - Motor sa unutrašnjim sagorevanjem je pokrenuo i automobile i nešto što leti.
+          - Reč je o najmlađoj vrsti saobraćaja u lekciji.
+          - "Iz lekcije: uz automobilski, na samom početku XX veka razvija se i vazdušni saobraćaj."
+        objasnjenje: Krajem XIX veka razvija se automobilski, a na samom početku XX veka i vazdušni saobraćaj.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Evropa od kraja XVIII do početka XX veka
+          tekst: Pored železnice razvija se automobilski, a na samom početku XX veka i vazdušni saobraćaj.
+
+      - id: ev-tn-smrtnost
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [industrijska-revolucija]
+        tvrdnja: Zbog napretka medicine i tehnologije u XIX veku smrtnost je porasla, a ljudi su živeli kraće.
+        tacno: false
+        ispravke:
+          - {tekst: "Napredak medicine i tehnologije produžio je ljudski vek i smanjio smrtnost.", tacan: true}
+          - {tekst: "Napredak medicine nije uticao na dužinu života.", tacan: false, zasto: "Uticao je — lekcija kaže da je ljudski vek produžen."}
+          - {tekst: "Smrtnost je porasla zbog vakcina.", tacan: false, zasto: "Vakcine (Džener, Paster) štite od bolesti i smanjuju smrtnost."}
+        pomoc:
+          - Šta rade vakcine i lekovi?
+          - Ljudi su počeli da žive duže ili kraće?
+          - "Iz lekcije: produžen je ljudski vek i smanjena smrtnost."
+        objasnjenje: Napredak medicine i tehnologije produžio je život i smanjio smrtnost.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Evropa od kraja XVIII do početka XX veka
+          tekst: Napredak medicine i tehnologije produžio je ljudski vek i smanjio smrtnost.
+
+      - id: ev-tn-motor
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [elektricna-energija, motor-sa-unutrasnjim-sagorevanjem]
+        tvrdnja: Električna energija i motor sa unutrašnjim sagorevanjem počeli su da se koriste u prvim decenijama XIX veka.
+        tacno: false
+        ispravke:
+          - {tekst: "Počeli su da se koriste u poslednjim decenijama XIX veka.", tacan: true}
+          - {tekst: "Počeli su da se koriste još u XVIII veku, uz parnu mašinu.", tacan: false, zasto: "U XVIII veku se pojavljuje parna mašina; električna energija i motor su stvar kraja XIX veka."}
+          - {tekst: "Počeli su da se koriste tek posle Prvog svetskog rata.", tacan: false, zasto: "Već pre 1918. omogućili su automobile, pa i avione početkom XX veka."}
+        pomoc:
+          - Automobil i avion dolaze na samom kraju perioda.
+          - Električna energija i motor su ih omogućili malo pre toga.
+          - "Iz lekcije: poslednje decenije XIX veka — električna energija i motor sa unutrašnjim sagorevanjem."
+        objasnjenje: Električna energija i motor sa unutrašnjim sagorevanjem stižu u poslednjim decenijama XIX veka.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Evropa od kraja XVIII do početka XX veka
+          tekst: U poslednjim decenijama XIX veka počinje upotreba električne energije i motora sa unutrašnjim sagorevanjem.
+
+      - id: ev-dopuni-saobracaj
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [zeleznica, motor-sa-unutrasnjim-sagorevanjem]
+        pitanje: Dopuni rečenice o saobraćaju.
+        tekst: "Izgradnja {{železničke}} mreže olakšala je kretanje ljudi i robe. Krajem XIX veka, zahvaljujući motoru sa unutrašnjim sagorevanjem, razvija se {{automobilski}} saobraćaj, a na samom početku XX veka i {{vazdušni}}."
+        ponudjene: [železničke, automobilski, vazdušni, rečne, konjski, podzemni]
+        pomoc:
+          - Šta je u XIX veku povezivalo gradove šinama?
+          - Motor pokreće vozila na putu i u vazduhu.
+          - "Iz lekcije: železnica; automobilski i vazdušni saobraćaj."
+        objasnjenje: Železnica (XIX vek), pa automobil (kraj XIX veka) i avion (početak XX veka).
+        iz_udzbenika:
+          strana: 11
+          odeljak: Evropa od kraja XVIII do početka XX veka
+          tekst: Železnička mreža je olakšala kretanje ljudi i robe; krajem XIX veka razvija se automobilski, a početkom XX veka i vazdušni saobraćaj.
+
+      - id: ev-povezi-naucnici
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [edvard-dzener, dzozef-lister, robert-koh, luj-paster, vilhelm-konrad-rendgen]
+        pitanje: Poveži naučnika sa njegovim otkrićem.
+        parovi:
+          - ["Edvard Džener", "vakcina protiv velikih boginja"]
+          - ["Džozef Lister", "sterilisanje medicinskih instrumenata"]
+          - ["Robert Koh", "uzročnici tuberkuloze i kolere"]
+          - ["Luj Paster", "vakcina protiv besnila"]
+          - ["Vilhelm Konrad Rendgen", "iks-zraci"]
+        pomoc:
+          - Rendgenski snimak nosi ime po jednom od njih.
+          - Dvojica su napravila vakcine — Džener protiv boginja, drugi protiv besnila.
+          - "Iz lekcije: tabela važnijih medicinskih otkrića, str. 11."
+        objasnjenje: Džener — velike boginje; Lister — sterilisanje; Koh — tuberkuloza i kolera; Paster — besnilo; Rendgen — iks-zraci.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Važnija medicinska otkrića (tabela)
+          tekst: Tabela navodi šest otkrića, naučnike koji su ih napravili i godine.
+          slika: 01-osnovne-odlike-perioda-1780-1918/04-tabela-medicinskih-otkrica.jpg
+
+      - id: ev-povezi-godine
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [edvard-dzener, dzozef-lister, robert-koh, luj-paster, vilhelm-konrad-rendgen]
+        pitanje: Poveži godinu sa medicinskim otkrićem.
+        parovi:
+          - ["1796.", "vakcina protiv velikih boginja"]
+          - ["1861.", "sterilisanje medicinskih instrumenata"]
+          - ["1882.", "uzročnik tuberkuloze"]
+          - ["1884.", "uzročnik kolere"]
+          - ["1885.", "vakcina protiv besnila"]
+          - ["1895.", "iks-zraci"]
+        pomoc:
+          - Jedino otkriće iz XVIII veka je prva vakcina.
+          - Koh je dva uzročnika otkrio u razmaku od dve godine — prvo tuberkulozu.
+          - "Iz lekcije: 1796 Džener, 1861 Lister, 1882 i 1884 Koh, 1885 Paster, 1895 Rendgen."
+        objasnjenje: 1796 boginje · 1861 sterilisanje · 1882 tuberkuloza · 1884 kolera · 1885 besnilo · 1895 iks-zraci.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Važnija medicinska otkrića (tabela)
+          tekst: Tabela daje godine otkrića od 1796. do 1895.
+          slika: 01-osnovne-odlike-perioda-1780-1918/04-tabela-medicinskih-otkrica.jpg
+
+      - id: ev-datum-dzener
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [edvard-dzener]
+        dogadjaj: "Džener: vakcina protiv velikih boginja"
+        pitanje: Koje godine je Edvard Džener napravio vakcinu protiv velikih boginja?
+        godina: 1796
+        traka: otkrica
+        pomoc:
+          - To je najstarije otkriće u tabeli — još u XVIII veku.
+          - Godinu dana pre ukidanja Mletačke republike.
+          - "Iz lekcije: Džener, 1796."
+        objasnjenje: Džener je vakcinu protiv velikih boginja napravio 1796 — prvo otkriće iz tabele.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Važnija medicinska otkrića (tabela)
+          tekst: Prva vakcina u tabeli je Dženerova vakcina protiv velikih boginja iz 1796.
+          slika: 01-osnovne-odlike-perioda-1780-1918/04-tabela-medicinskih-otkrica.jpg
+
+      - id: ev-poredjaj-mesano
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [edvard-dzener, parobrod, dzozef-lister, vilhelm-konrad-rendgen]
+        pitanje: Poređaj pronalaske i otkrića hronološki.
+        stavke:
+          - {tekst: "Džener pravi vakcinu protiv velikih boginja", godina: 1796, naziv: "Džener: vakcina protiv velikih boginja", traka: otkrica}
+          - {tekst: "Parobrod Savana prelazi Atlantik", godina: 1819, naziv: "Parobrod Savana preko Atlantika", traka: otkrica}
+          - {tekst: "Lister ukazuje na sterilisanje instrumenata", godina: 1861, naziv: "Lister: sterilisanje instrumenata", traka: otkrica}
+          - {tekst: "Rendgen otkriva iks-zrake", godina: 1895, naziv: "Rendgen: iks-zraci", traka: otkrica}
+          - {tekst: "Luzitanija plovi od Liverpula do Njujorka", godina: 1907, naziv: "Luzitanija: Liverpul–Njujork", traka: otkrica}
+        pomoc:
+          - Samo jedno je iz XVIII veka, samo jedno iz XX veka.
+          - Savana je iz prve polovine XIX veka, Lister iz sredine.
+          - "Iz lekcije: 1796 → 1819 → 1861 → 1895 → 1907."
+        objasnjenje: Džener 1796 → Savana 1819 → Lister 1861 → Rendgen 1895 → Luzitanija 1907.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Evropa od kraja XVIII do početka XX veka
+          tekst: Tabela medicinskih otkrića i potpisi uz brodove na str. 10–11 daju godine napretka tehnike i medicine.
+
+      - id: ev-poredjaj-medicina
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [dzozef-lister, robert-koh, luj-paster, vilhelm-konrad-rendgen]
+        pitanje: Poređaj medicinska otkrića hronološki (godine su blizu!).
+        stavke:
+          - {tekst: "Sterilisanje medicinskih instrumenata", godina: 1861, naziv: "Lister: sterilisanje instrumenata", traka: otkrica}
+          - {tekst: "Uzročnik tuberkuloze", godina: 1882, naziv: "Koh: uzročnik tuberkuloze", traka: otkrica}
+          - {tekst: "Uzročnik kolere", godina: 1884, naziv: "Koh: uzročnik kolere", traka: otkrica}
+          - {tekst: "Vakcina protiv besnila", godina: 1885, naziv: "Paster: vakcina protiv besnila", traka: otkrica}
+          - {tekst: "Iks-zraci", godina: 1895, naziv: "Rendgen: iks-zraci", traka: otkrica}
+        pomoc:
+          - Najranije je otkriće o instrumentima, najkasnije iks-zraci.
+          - Koh je prvo otkrio uzročnika tuberkuloze, a Paster je odmah posle Koha.
+          - "Iz lekcije: 1861, 1882, 1884, 1885, 1895."
+        objasnjenje: Lister 1861 → Koh 1882 (tuberkuloza) → Koh 1884 (kolera) → Paster 1885 → Rendgen 1895.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Važnija medicinska otkrića (tabela)
+          tekst: Pet od šest otkrića iz tabele pada u drugu polovinu XIX veka, između 1861. i 1895.
+          slika: 01-osnovne-odlike-perioda-1780-1918/04-tabela-medicinskih-otkrica.jpg
+
+      - id: ev-zakljuci-medicina
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [edvard-dzener, luj-paster, robert-koh]
+        pitanje: Šta je bila zajednička posledica otkrića kao što su vakcine, sterilisanje instrumenata i otkrivanje uzročnika bolesti?
+        odgovori:
+          - {tekst: "Ljudi su živeli duže, a smrtnost se smanjila", tacan: true}
+          - {tekst: "Gradovi su se ispraznili", tacan: false, zasto: "Gradsko stanovništvo je u XIX veku raslo, a ne opadalo."}
+          - {tekst: "Seljaštvo je prestalo da bude najbrojniji sloj", tacan: false, zasto: "Seljaštvo je i dalje bilo najbrojnije; medicina nije menjala odnose među slojevima."}
+          - {tekst: "Počela je industrijska revolucija", tacan: false, zasto: "Industrijsku revoluciju pokreće Vatova parna mašina, ne medicinska otkrića."}
+        pomoc:
+          - "Korak 1: Šta svako od ovih otkrića sprečava ili leči?"
+          - "Korak 2: Šta to znači za dužinu života?"
+          - "Iz lekcije: napredak medicine i tehnologije produžio je ljudski vek i smanjio smrtnost."
+        objasnjenje: Vakcine štite od bolesti, sterilisanje sprečava zaraze, a poznavanje uzročnika pomaže lečenju — zato ljudi žive duže.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Evropa od kraja XVIII do početka XX veka
+          tekst: Napredak medicine i tehnologije produžio je ljudski vek i smanjio smrtnost; tabela navodi najvažnija otkrića.
+          slika: 01-osnovne-odlike-perioda-1780-1918/04-tabela-medicinskih-otkrica.jpg
+
+      - id: ev-zakljuci-gradovi
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [industrija, radnistvo, zeleznica]
+        pitanje: Koje objašnjenje najbolje povezuje rast gradova u XIX veku sa ostalim promenama iz lekcije?
+        odgovori:
+          - {tekst: "Fabrike u gradovima trebale su radnike, bolja poljoprivreda mogla je da prehrani više ljudi, a železnica je olakšala kretanje ljudi i robe", tacan: true}
+          - {tekst: "Ljudi su bežali u gradove od vazdušnog saobraćaja", tacan: false, zasto: "Vazdušni saobraćaj se javlja tek početkom XX veka, a rast gradova počinje u XIX."}
+          - {tekst: "Gradovi su rasli jer su plemići dobili više vlasti", tacan: false, zasto: "Plemstvo je u XIX veku gubilo prevlast, a ne dobijalo vlast."}
+          - {tekst: "Gradovi su rasli samo zbog vakcina", tacan: false, zasto: "Medicina je produžila život svima, ali lekcija rast gradova vezuje za industriju i poljoprivredu."}
+        pomoc:
+          - "Korak 1: Šta lekcija navodi kao uzrok rasta gradova?"
+          - "Korak 2: Ko je radio u fabrikama i kako su ljudi i roba stizali u grad?"
+          - "Iz lekcije: razvoj poljoprivrede i industrije → porast gradskog stanovništva; železnica → lakše kretanje ljudi i robe."
+        objasnjenje: Industrija je stvarala posao u gradovima (radništvo), poljoprivreda je hranila više ljudi, a železnica ih je povezivala — sve zajedno je uvećalo gradove.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Evropa od kraja XVIII do početka XX veka
+          tekst: Razvoj poljoprivrede i industrije uvećao je gradsko stanovništvo; železnička mreža je olakšala kretanje ljudi i robe.
+
+      - id: ev-lanac-medicina
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [edvard-dzener, luj-paster]
+        karike:
+          - Džener i Paster prave vakcine
+          - Napreduju medicina i tehnologija
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Ljudi žive duže, a smrtnost opada", tacan: true}
+          - {tekst: "Ljudi se masovno iseljavaju iz Evrope", tacan: false, zasto: "Lekcija ne povezuje medicinu sa iseljavanjem; posledica je duži život."}
+          - {tekst: "Velike sile gube kolonije", tacan: false, zasto: "Kolonije se gube iz drugih razloga (npr. pobuna u 13 kolonija); medicina produžava život."}
+          - {tekst: "Počinje rani novi vek", tacan: false, zasto: "Rani novi vek počinje 1492, mnogo pre ovih otkrića."}
+        pomoc:
+          - "Korak 1: Čemu služi vakcina?"
+          - "Korak 2: Ako manje ljudi umire od bolesti, šta se dešava sa dužinom života?"
+          - "Iz lekcije: produžen ljudski vek, smanjena smrtnost."
+        objasnjenje: Vakcine i ostala otkrića doveli su do dužeg života i manje smrtnosti.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Evropa od kraja XVIII do početka XX veka
+          tekst: Napredak medicine i tehnologije produžio je ljudski vek i smanjio smrtnost.
+          slika: 01-osnovne-odlike-perioda-1780-1918/04-tabela-medicinskih-otkrica.jpg
+
+      - id: ev-lanac-gradovi
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [industrija, radnistvo]
+        karike:
+          - Razvijaju se poljoprivreda i industrija
+          - "?"
+          - U gradovima nastaje novi sloj — radništvo
+        praznina: 1
+        odgovori:
+          - {tekst: "Raste gradsko stanovništvo", tacan: true}
+          - {tekst: "Gradovi se prazne", tacan: false, zasto: "Obrnuto: u XIX veku gradsko stanovništvo raste."}
+          - {tekst: "Ukida se železnica", tacan: false, zasto: "Železnička mreža se tada širi."}
+          - {tekst: "Plemstvo preuzima fabrike", tacan: false, zasto: "Lekcija to ne kaže; plemstvo gubi prevlast, a privredne promene jačaju građanstvo."}
+        pomoc:
+          - "Korak 1: Gde su fabrike?"
+          - "Korak 2: Šta se dešava sa brojem ljudi u gradovima?"
+          - "Iz lekcije: razvoj poljoprivrede i industrije → porast gradskog stanovništva u XIX veku."
+        objasnjenje: Industrija i poljoprivreda su uvećale gradove, a u njima je nastalo radništvo — ljudi koji žive od rada u fabrikama.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Evropa od kraja XVIII do početka XX veka
+          tekst: U XIX veku raste gradsko stanovništvo, a pojavljuje se i radništvo, gradski sloj koji živi od rada u fabrikama.
+
+      - id: ev-lanac-motor
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [elektricna-energija, motor-sa-unutrasnjim-sagorevanjem]
+        karike:
+          - Tehnološki napredak krajem XIX veka
+          - Počinje upotreba motora sa unutrašnjim sagorevanjem
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Razvija se automobilski, a početkom XX veka i vazdušni saobraćaj", tacan: true}
+          - {tekst: "Gradi se prva železnička mreža", tacan: false, zasto: "Železnica je starija — gradi se tokom XIX veka, uz paru."}
+          - {tekst: "Vat pravi parnu mašinu", tacan: false, zasto: "Parna mašina je iz 1769, više od veka ranije."}
+          - {tekst: "Kolumbo plovi do Amerike", tacan: false, zasto: "Kolumbo je plovio 1492, na jedrima."}
+        pomoc:
+          - "Korak 1: Šta pokreće motor sa unutrašnjim sagorevanjem?"
+          - "Korak 2: Koje nove vrste saobraćaja nastaju na kraju perioda?"
+          - "Iz lekcije: pored železnice razvija se automobilski, a na samom početku XX veka i vazdušni saobraćaj."
+        objasnjenje: Motor sa unutrašnjim sagorevanjem omogućio je automobile, a početkom XX veka i letelice.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Evropa od kraja XVIII do početka XX veka
+          tekst: Poslednjih decenija XIX veka koriste se električna energija i motor sa unutrašnjim sagorevanjem; razvijaju se automobilski i vazdušni saobraćaj.
+
+      - id: ev-izvor-tabela
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [robert-koh, luj-paster, dzozef-lister, vilhelm-konrad-rendgen, edvard-dzener]
+        izvor:
+          autor: Udžbenik (tabela)
+          naslov: Važnija medicinska otkrića
+          tekst: "Vakcina protiv velikih boginja — Džener, 1796. Sterilisanje instrumenata — Lister, 1861. Uzročnik tuberkuloze — Koh, 1882. Uzročnik kolere — Koh, 1884. Vakcina protiv besnila — Paster, 1885. Iks-zraci — Rendgen, 1895."
+          napomena: "Odlomak je prepričan; udžbenik, str. 11."
+        pitanje: Šta tabela pokazuje o tome kada su se medicinska otkrića nizala?
+        odgovori:
+          - {tekst: "Većina otkrića (pet od šest) pada u drugu polovinu XIX veka, a četiri između 1882. i 1895.", tacan: true}
+          - {tekst: "Sva otkrića su iz XVIII veka", tacan: false, zasto: "Samo Dženerova vakcina (1796) je iz XVIII veka; ostale su iz XIX."}
+          - {tekst: "Otkrića su ravnomerno raspoređena kroz ceo novi vek, od 1492.", tacan: false, zasto: "Najranije otkriće u tabeli je iz 1796, a većina je zbijena između 1861. i 1895."}
+          - {tekst: "Sva otkrića je napravio jedan naučnik", tacan: false, zasto: "U tabeli je pet naučnika; samo Koh ima dva otkrića."}
+        pomoc:
+          - Prebroj otkrića posle 1860.
+          - Koliko ih je između 1880. i 1895?
+          - "Iz lekcije: 1796, 1861, 1882, 1884, 1885, 1895."
+        objasnjenje: Otkrića se gomilaju krajem XIX veka (1882, 1884, 1885, 1895) — medicina tada napreduje sve brže.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Važnija medicinska otkrića (tabela)
+          tekst: Tabela na str. 11 navodi šest otkrića od 1796. do 1895, sa naučnicima i godinama.
+          slika: 01-osnovne-odlike-perioda-1780-1918/04-tabela-medicinskih-otkrica.jpg
+
+      - id: ev-uporedi-dzener-koh
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [edvard-dzener, robert-koh]
+        a: Edvard Džener
+        b: Robert Koh
+        pitanje: Na koga se odnosi tvrdnja — Dženera, Koha, obojicu ili nijednog?
+        tvrdnje:
+          - {tekst: "Napravio je vakcinu.", odgovor: a, zasto: "Džener je napravio vakcinu protiv velikih boginja; Koh je otkrivao uzročnike bolesti."}
+          - {tekst: "Otkrio je uzročnike tuberkuloze i kolere.", odgovor: b, zasto: "To su Kohova otkrića iz 1882. i 1884."}
+          - {tekst: "Njegovo otkriće je iz XVIII veka.", odgovor: a, zasto: "Džener — 1796; Koh je radio krajem XIX veka."}
+          - {tekst: "Doprineo je smanjenju smrtnosti.", odgovor: oba, zasto: "Svako medicinsko otkriće iz tabele doprinelo je dužem životu i manjoj smrtnosti."}
+          - {tekst: "Otkrio je iks-zrake.", odgovor: nijedan, zasto: "Iks-zrake je otkrio Rendgen 1895."}
+        pomoc:
+          - Jedan je napravio vakcinu, drugi je otkrivao uzročnike.
+          - Pogledaj godine — XVIII ili XIX vek?
+          - "Iz lekcije: Džener 1796 (velike boginje); Koh 1882 i 1884 (tuberkuloza, kolera)."
+        objasnjenje: Džener (1796) je napravio prvu vakcinu iz tabele; Koh je krajem XIX veka otkrio dva uzročnika bolesti. Obojica su doprineli manjoj smrtnosti.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Važnija medicinska otkrića (tabela)
+          tekst: Tabela navodi Dženerovu vakcinu (1796) i Kohova otkrića uzročnika tuberkuloze (1882) i kolere (1884).
+          slika: 01-osnovne-odlike-perioda-1780-1918/04-tabela-medicinskih-otkrica.jpg
+
+      - id: ev-ko-sam-dzener
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [edvard-dzener]
+        tragovi:
+          - Moje otkriće je najstarije u tabeli medicinskih otkrića.
+          - Napravio sam ga još u XVIII veku, 1796.
+          - Napravio sam vakcinu protiv velikih boginja.
+        odgovori:
+          - {tekst: "Edvard Džener", tacan: true}
+          - {tekst: "Luj Paster", tacan: false, zasto: "Paster je napravio vakcinu protiv besnila, 1885."}
+          - {tekst: "Robert Koh", tacan: false, zasto: "Koh nije pravio vakcine, nego je otkrio uzročnike tuberkuloze i kolere."}
+          - {tekst: "Džozef Lister", tacan: false, zasto: "Lister je 1861. ukazao na potrebu sterilisanja instrumenata."}
+        objasnjenje: To je Edvard Džener — vakcina protiv velikih boginja, 1796.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Važnija medicinska otkrića (tabela)
+          tekst: Prvo otkriće u tabeli je Dženerova vakcina protiv velikih boginja, 1796.
+          slika: 01-osnovne-odlike-perioda-1780-1918/04-tabela-medicinskih-otkrica.jpg
+        osa: {naziv: "Džener: vakcina protiv velikih boginja", od: 1796, traka: otkrica}
+
+      - id: ev-ko-sam-koh
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [robert-koh]
+        tragovi:
+          - Jedini sam naučnik koji se u tabeli otkrića javlja dva puta.
+          - Nisam pravio vakcine, nego sam tražio ono što izaziva bolesti.
+          - Godine 1882. otkrio sam uzročnika tuberkuloze, a 1884. uzročnika kolere.
+        odgovori:
+          - {tekst: "Robert Koh", tacan: true}
+          - {tekst: "Luj Paster", tacan: false, zasto: "Paster je napravio vakcinu protiv besnila 1885; u tabeli je jednom."}
+          - {tekst: "Vilhelm Konrad Rendgen", tacan: false, zasto: "Rendgen je otkrio iks-zrake 1895."}
+          - {tekst: "Edvard Džener", tacan: false, zasto: "Džener je 1796. napravio vakcinu protiv velikih boginja."}
+        objasnjenje: To je Robert Koh — uzročnici tuberkuloze (1882) i kolere (1884).
+        iz_udzbenika:
+          strana: 11
+          odeljak: Važnija medicinska otkrića (tabela)
+          tekst: Robert Koh je otkrio uzročnika tuberkuloze 1882. i uzročnika kolere 1884.
+          slika: 01-osnovne-odlike-perioda-1780-1918/04-tabela-medicinskih-otkrica.jpg
+        osa: {naziv: "Koh: uzročnik tuberkuloze", od: 1882, traka: otkrica}
+
+      - id: ev-ko-sam-lister
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [dzozef-lister]
+        tragovi:
+          - Moje otkriće nije ni vakcina ni uzročnik bolesti, nego način rada lekara.
+          - Ukazao sam na nešto što je moralo da se radi sa alatom pre operacije.
+          - Godine 1861. pokazao sam da medicinske instrumente treba sterilisati.
+        odgovori:
+          - {tekst: "Džozef Lister", tacan: true}
+          - {tekst: "Robert Koh", tacan: false, zasto: "Koh je otkrio uzročnike tuberkuloze i kolere — to su uzročnici bolesti."}
+          - {tekst: "Luj Paster", tacan: false, zasto: "Paster je napravio vakcinu protiv besnila (1885)."}
+          - {tekst: "Vilhelm Konrad Rendgen", tacan: false, zasto: "Rendgen je otkrio iks-zrake (1895), a ne pravilo o instrumentima."}
+        objasnjenje: To je Džozef Lister — 1861. ukazao je na potrebu sterilisanja medicinskih instrumenata.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Važnija medicinska otkrića (tabela)
+          tekst: Džozef Lister je 1861. ukazao na potrebu sterilisanja medicinskih instrumenata.
+          slika: 01-osnovne-odlike-perioda-1780-1918/04-tabela-medicinskih-otkrica.jpg
+        osa: {naziv: "Lister: sterilisanje instrumenata", od: 1861, traka: otkrica}
+
+      - id: ev-objasni-promene
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [industrija, zeleznica, elektricna-energija]
+        pitanje: Navedi bar tri promene koje su obeležile Evropu XIX veka i za jednu objasni zašto se desila.
+        uzor: U XIX veku rastu gradovi, jer se razvijaju industrija i poljoprivreda. Napredak medicine produžava život i smanjuje smrtnost. Železnica olakšava kretanje ljudi i robe, a krajem veka električna energija i motor sa unutrašnjim sagorevanjem donose automobile, pa početkom XX veka i avione.
+        ideje:
+          - Rast gradova zbog razvoja industrije i poljoprivrede.
+          - Duži život i manja smrtnost zbog napretka medicine.
+          - Železnica olakšava kretanje ljudi i robe.
+          - Električna energija i motor donose automobilski i vazdušni saobraćaj.
+        objasnjenje: Promene XIX veka su povezane — industrija, nauka i saobraćaj menjaju način života.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Evropa od kraja XVIII do početka XX veka
+          tekst: Udžbenik nabraja rast gradova, napredak medicine, železnicu, električnu energiju i motor kao odlike XIX veka.
+
+  - naslov: Društvo i velike sile
+    zadaci:
+      - id: dr-izbor-najbrojniji
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [seljastvo, gradjanstvo]
+        pitanje: Koji društveni sloj je u XIX veku i dalje bio najbrojniji?
+        odgovori:
+          - {tekst: "Seljaštvo", tacan: true}
+          - {tekst: "Građanstvo", tacan: false, zasto: "Uloga građanstva je jačala, ali seljaka je i dalje bilo najviše."}
+          - {tekst: "Plemstvo", tacan: false, zasto: "Plemstvo je malobrojno i u XIX veku gubi prevlast."}
+          - {tekst: "Radništvo", tacan: false, zasto: "Radništvo je nov sloj XIX veka; još nije bilo najbrojnije."}
+        pomoc:
+          - Većina ljudi je i dalje živela na selu.
+          - Ko obrađuje zemlju?
+          - "Iz lekcije: seljaštvo je i dalje najbrojniji sloj."
+        objasnjenje: Iako gradovi rastu, većina ljudi su i dalje seljaci.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Društvo
+          tekst: Seljaštvo je i dalje najbrojniji sloj, ali privredne promene jačaju ulogu građanstva.
+
+      - id: dr-izbor-prevlast
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [plemstvo, svestenstvo, feudalizam, apsolutizam]
+        pitanje: Koji slojevi su u prvoj polovini XIX veka izgubili prevlast koju su imali od srednjeg veka? (Više tačnih.)
+        odgovori:
+          - {tekst: "Plemstvo", tacan: true}
+          - {tekst: "Sveštenstvo", tacan: true}
+          - {tekst: "Građanstvo", tacan: false, zasto: "Građanstvo je tada jačalo i želelo da sačuva uticaj i bogatstvo."}
+          - {tekst: "Seljaštvo", tacan: false, zasto: "Seljaštvo nikad nije imalo prevlast — bilo je najbrojnije, ali ne i najmoćnije."}
+          - {tekst: "Radništvo", tacan: false, zasto: "Radništvo je novi sloj XIX veka i tek počinje borbu za svoja prava."}
+        pomoc:
+          - Ko je imao povlastice u feudalnom poretku?
+          - Dva sloja — jedan se bori, drugi se moli.
+          - "Iz lekcije: plemstvo i sveštenstvo gube prevlast koju su imali od srednjeg veka."
+        objasnjenje: Ukidanjem apsolutizma i feudalizma plemstvo i sveštenstvo gube prevlast; jača građanstvo.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Društvo
+          tekst: Posle ukidanja apsolutističke monarhije i feudalnog uređenja plemstvo i sveštenstvo gube prevlast koju su imali od srednjeg veka.
+        osa: {naziv: "Ukidanje apsolutizma i feudalizma", od: 1800, do: 1850, traka: svet, oznaka: "prva polovina XIX veka"}
+
+      - id: dr-izbor-sile
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [velike-sile, velika-britanija, francuska, nemacka, rusija, habzburska-monarhija, italija]
+        pitanje: Koje države su krajem XIX veka bile evropske velike sile? (Više tačnih.)
+        odgovori:
+          - {tekst: "Velika Britanija", tacan: true}
+          - {tekst: "Francuska", tacan: true}
+          - {tekst: "Nemačka", tacan: true}
+          - {tekst: "Rusija", tacan: true}
+          - {tekst: "Habzburška monarhija", tacan: true}
+          - {tekst: "Italija", tacan: true}
+          - {tekst: "Osmansko carstvo", tacan: false, zasto: "Osmansko carstvo slabi; o njegovom opstanku se vodi Istočno pitanje."}
+          - {tekst: "Španija", tacan: false, zasto: "Španija je u prvim decenijama XIX veka izgubila većinu kolonija i nije među velikim silama."}
+        pomoc:
+          - Ima ih šest.
+          - Dve od njih su zainteresovane za Balkan, dve žele da održe Osmansko carstvo.
+          - "Iz lekcije: V. Britanija, Francuska, Nemačka, Rusija, Habzburška monarhija i Italija."
+        objasnjenje: Šest velikih sila — V. Britanija, Francuska, Nemačka, Rusija, Habzburška monarhija i Italija — imalo je četiri petine stanovnika Evrope.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Velike sile
+          tekst: Krajem XIX veka četiri petine stanovnika Evrope živelo je u šest velikih sila.
+
+      - id: dr-tn-revolucija
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [francuska-revolucija, seljastvo, gradjanstvo]
+        tvrdnja: Nezadovoljstvo seljaštva i građanstva postojećim poretkom dovelo je krajem XVIII veka do Francuske revolucije.
+        tacno: true
+        pomoc:
+          - Ko su bili najbrojniji i sve jači slojevi?
+          - Šta se dešava kad oni nisu zadovoljni poretkom?
+          - "Iz lekcije: nezadovoljstvo ovih slojeva dovelo je do Francuske revolucije."
+        objasnjenje: Tačno — seljaštvo i građanstvo, nezadovoljni poretkom, pokrenuli su promene koje su dovele do Francuske revolucije.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Društvo
+          tekst: Nezadovoljstvo seljaštva i građanstva postojećim poretkom dovelo je krajem XVIII veka do Francuske revolucije.
+        osa: {naziv: "Francuska revolucija", od: 1770, do: 1800, traka: svet, oznaka: "kraj XVIII veka"}
+
+      - id: dr-tn-radnicka-prava
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [radnistvo]
+        tvrdnja: Borba za radnička prava brzo je uspela i završila se do sredine XIX veka.
+        tacno: false
+        ispravke:
+          - {tekst: "Borba za radnička prava trajala je dugo i nastavila se i u XX veku.", tacan: true}
+          - {tekst: "Radnici se nisu borili za svoja prava jer su uslovi u fabrikama bili dobri.", tacan: false, zasto: "Život i rad u prvim fabrikama bili su veoma teški — zato je i počela borba."}
+          - {tekst: "Borba za radnička prava počela je tek posle Prvog svetskog rata.", tacan: false, zasto: "Radničke demonstracije u Londonu bile su već sredinom XIX veka."}
+        pomoc:
+          - Kakvi su bili uslovi u prvim fabrikama?
+          - Da li se borba završila u XIX veku?
+          - "Iz lekcije: borba za radnička prava trajala je dugo i nastavila se u XX veku."
+        objasnjenje: Uslovi u fabrikama bili su teški, a borba radnika duga — nastavila se i u XX veku.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Društvo
+          tekst: Život i rad u prvim fabrikama bili su veoma teški; borba za radnička prava trajala je dugo i nastavila se u XX veku.
+
+      - id: dr-tn-sile-stanovnistvo
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [velike-sile]
+        tvrdnja: Krajem XIX veka u šest velikih sila živela je oko polovina stanovnika Evrope.
+        tacno: false
+        ispravke:
+          - {tekst: "U velikim silama živele su četiri petine stanovnika Evrope.", tacan: true}
+          - {tekst: "U velikim silama živela je jedna petina stanovnika Evrope.", tacan: false, zasto: "Bilo je obrnuto — samo petina je živela van velikih sila."}
+          - {tekst: "U velikim silama živelo je celo stanovništvo Evrope.", tacan: false, zasto: "Postojale su i manje zemlje kojima su sile nametale volju."}
+        pomoc:
+          - Bilo je mnogo više od polovine.
+          - Razlomak sa imeniocem pet.
+          - "Iz lekcije: četiri petine stanovništva Evrope."
+        objasnjenje: Četiri petine (80%) Evropljana živelo je u šest velikih sila — zato su one mogle da nameću volju ostalima.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Velike sile
+          tekst: Krajem XIX veka četiri petine stanovništva Evrope živelo je u Velikoj Britaniji, Francuskoj, Nemačkoj, Rusiji, Habzburškoj monarhiji i Italiji.
+
+      - id: dr-dopuni-slojevi
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [seljastvo, gradjanstvo, radnistvo]
+        pitanje: Dopuni rečenice o društvu XIX veka.
+        tekst: "Najbrojniji sloj je i dalje bilo {{seljaštvo}}, ali su privredne promene jačale ulogu {{građanstva}}. Novi sloj koji živi od rada u fabrikama zove se {{radništvo}}."
+        ponudjene: [seljaštvo, građanstva, radništvo, plemstva, sveštenstvo]
+        pomoc:
+          - Selo, grad, fabrika — tri sloja.
+          - Novi sloj je nastao u fabrikama.
+          - "Iz lekcije: seljaštvo najbrojnije; građanstvo jača; radništvo je novina XIX veka."
+        objasnjenje: Seljaštvo je najbrojnije, građanstvo jača, a radništvo je nov sloj XIX veka.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Društvo
+          tekst: Seljaštvo je najbrojnije, građanstvo jača, a važna novina XIX veka je radništvo.
+
+      - id: dr-povezi-slojevi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [seljastvo, gradjanstvo, plemstvo, radnistvo]
+        pitanje: Poveži društveni sloj sa onim što se s njim dešava u XIX veku.
+        parovi:
+          - ["seljaštvo", "i dalje najbrojniji sloj"]
+          - ["građanstvo", "jača zbog privrednih promena i čuva stečeno bogatstvo"]
+          - ["plemstvo", "gubi prevlast koju je imalo od srednjeg veka"]
+          - ["radništvo", "novi gradski sloj koji živi od rada u fabrikama"]
+        pomoc:
+          - Jedan sloj je nov, jedan gubi, jedan jača.
+          - Najbrojniji sloj živi na selu.
+          - "Iz lekcije: str. 11–12, odeljak o društvu."
+        objasnjenje: Seljaštvo — najbrojnije; građanstvo — jača; plemstvo — gubi prevlast; radništvo — nastaje u fabrikama.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Društvo
+          tekst: Udžbenik opisuje kako se u XIX veku menja položaj seljaštva, građanstva, plemstva i sveštenstva i kako nastaje radništvo.
+
+      - id: dr-povezi-uzroci
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [gradjanstvo, francuska-revolucija, radnistvo, velike-sile]
+        pitanje: Poveži uzrok sa njegovom posledicom.
+        parovi:
+          - ["privredne promene", "jačanje uloge građanstva"]
+          - ["nezadovoljstvo seljaštva i građanstva poretkom", "Francuska revolucija"]
+          - ["promene posle Francuske revolucije", "ukidanje apsolutizma i feudalizma"]
+          - ["teški uslovi rada u fabrikama", "duga borba za radnička prava"]
+          - ["rivalstvo velikih sila", "sukobljeni savezi i trka za kolonijama"]
+        pomoc:
+          - Kreni od revolucije — šta joj prethodi, a šta iz nje sledi?
+          - Radnici se bore zato što … ; sile sklapaju saveze zato što …
+          - "Iz lekcije: odeljak „Uzrok → posledica”, str. 11–12."
+        objasnjenje: Privreda jača građanstvo; nezadovoljstvo vodi u revoluciju, a ona u ukidanje feudalizma; teški uslovi vode u borbu radnika; rivalstvo u saveze i kolonije.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Društvo i Velike sile
+          tekst: Udžbenik povezuje privredne promene, nezadovoljstvo slojeva, Francusku revoluciju, rad u fabrikama i rivalstvo velikih sila.
+
+      - id: dr-zakljuci-volja
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [velike-sile]
+        pitanje: Zašto su velike sile mogle da nameću volju manjim zemljama?
+        odgovori:
+          - {tekst: "Zbog svoje privredne i vojne snage", tacan: true}
+          - {tekst: "Zato što su sve imale istu veru", tacan: false, zasto: "Lekcija ne govori o veri kao izvoru moći; razlog je privredna i vojna snaga."}
+          - {tekst: "Zato što su bile međusobno složne", tacan: false, zasto: "Bile su suparnice — sklapale su sukobljene saveze."}
+          - {tekst: "Zato što su manje zemlje to tražile", tacan: false, zasto: "Volja se nameće onome ko to ne želi; manje zemlje nisu imale snage da se odupru."}
+        pomoc:
+          - "Korak 1: Šta čini državu jakom?"
+          - "Korak 2: Novac i oružje."
+          - "Iz lekcije: zahvaljujući privrednoj i vojnoj snazi nametale su volju manjim zemljama."
+        objasnjenje: Bogatstvo i vojska davali su velikim silama moć da odlučuju umesto manjih zemalja.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Velike sile
+          tekst: Zahvaljujući privrednoj i vojnoj snazi velike sile su nametale volju manjim zemljama.
+
+      - id: dr-zakljuci-feudalizam
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [francuska-revolucija, apsolutisticka-monarhija, feudalizam]
+        pitanje: Zašto su u prvoj polovini XIX veka u većini evropskih zemalja ukinuti apsolutistička monarhija i feudalno uređenje?
+        odgovori:
+          - {tekst: "Pod uticajem promena koje je donela Francuska revolucija", tacan: true}
+          - {tekst: "Zbog otkrića vakcine protiv velikih boginja", tacan: false, zasto: "Vakcina je produžila život, ali nije menjala politički poredak."}
+          - {tekst: "Zato što je to naredio Berlinski kongres", tacan: false, zasto: "Berlinski kongres je 1878, decenijama kasnije, i tiče se Balkana."}
+          - {tekst: "Zato što su plemići sami tražili da izgube povlastice", tacan: false, zasto: "Plemstvo je gubilo prevlast, a ne tražilo da je izgubi."}
+        pomoc:
+          - "Korak 1: Koji veliki događaj s kraja XVIII veka je srušio stari poredak u jednoj zemlji?"
+          - "Korak 2: Kako su se njegove ideje proširile?"
+          - "Iz lekcije: pod uticajem promena koje je donela Francuska revolucija ukinuti su apsolutizam i feudalizam."
+        objasnjenje: Francuska revolucija je pokazala da se stari poredak može srušiti; pod njenim uticajem apsolutizam i feudalizam nestaju u većini Evrope.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Društvo
+          tekst: Pod uticajem promena koje je donela Francuska revolucija, u prvoj polovini XIX veka u većini evropskih zemalja ukinuti su apsolutistička monarhija i feudalno uređenje.
+        osa: {naziv: "Ukidanje apsolutizma i feudalizma", od: 1800, do: 1850, traka: svet, oznaka: "prva polovina XIX veka"}
+
+      - id: dr-zakljuci-gradjanstvo
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [gradjanstvo, francuska-revolucija]
+        pitanje: Građanstvo je krajem XVIII veka bilo nezadovoljno poretkom, a u XIX veku je želelo da sačuva postojeće stanje. Kako to objasniti?
+        odgovori:
+          - {tekst: "Kada je posle promena steklo uticaj i bogatstvo, građanstvu je više bilo stalo da ih zaštiti nego da menja poredak", tacan: true}
+          - {tekst: "Građanstvo je u XIX veku izgubilo svo bogatstvo", tacan: false, zasto: "Naprotiv — imućno građanstvo je imalo šta da zaštiti."}
+          - {tekst: "Građanstvo je postalo deo plemstva", tacan: false, zasto: "Lekcija to ne kaže; plemstvo je gubilo prevlast, a građanstvo jačalo kao poseban sloj."}
+          - {tekst: "Građanstvo nikada nije bilo nezadovoljno", tacan: false, zasto: "Lekcija kaže da je nezadovoljstvo seljaštva i građanstva dovelo do Francuske revolucije."}
+        pomoc:
+          - "Korak 1: Šta je građanstvo dobilo kad su ukinuti apsolutizam i feudalizam?"
+          - "Korak 2: Kako se ponaša neko ko je stekao ono što je želeo?"
+          - "Iz lekcije: imućno građanstvo želi da sačuva uticaj i zaštiti stečeno bogatstvo."
+        objasnjenje: Dok je bilo bez moći, građanstvo je tražilo promenu; kad je steklo uticaj i bogatstvo, htelo je da ih sačuva.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Društvo
+          tekst: Posle ukidanja feudalnog uređenja imućno građanstvo nastoji da sačuva uticaj i zaštiti stečeno bogatstvo.
+
+      - id: dr-lanac-revolucija
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [francuska-revolucija, seljastvo, gradjanstvo]
+        karike:
+          - Seljaštvo i građanstvo nezadovoljni su postojećim poretkom
+          - "?"
+          - U većini zemalja ukidaju se apsolutizam i feudalizam
+        praznina: 1
+        odgovori:
+          - {tekst: "Izbija Francuska revolucija", tacan: true}
+          - {tekst: "Počinje Američki rat za nezavisnost", tacan: false, zasto: "Taj rat je pobuna naseljenika u 13 kolonija protiv Britanije, ne pobuna slojeva protiv evropskog poretka."}
+          - {tekst: "Džener pravi vakcinu", tacan: false, zasto: "Vakcina je medicinsko otkriće i ne ruši poredak."}
+          - {tekst: "Održava se Berlinski kongres", tacan: false, zasto: "Berlinski kongres je 1878. i tiče se Balkana."}
+        pomoc:
+          - "Korak 1: Nezadovoljstvo → nagla promena poretka. Kako se to zove?"
+          - "Korak 2: U kojoj zemlji se to desilo krajem XVIII veka?"
+          - "Iz lekcije: nezadovoljstvo je dovelo do Francuske revolucije."
+        objasnjenje: Nezadovoljstvo seljaštva i građanstva → Francuska revolucija → ukidanje apsolutizma i feudalizma.
+        iz_udzbenika:
+          strana: 11
+          odeljak: Društvo
+          tekst: Nezadovoljstvo seljaštva i građanstva dovelo je do Francuske revolucije, a pod njenim uticajem ukinuti su apsolutizam i feudalizam.
+        osa: {naziv: "Francuska revolucija", od: 1770, do: 1800, traka: svet, oznaka: "kraj XVIII veka"}
+
+      - id: dr-lanac-radnici
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [radnistvo]
+        karike:
+          - Nastaju fabrike
+          - Pojavljuje se radništvo
+          - Život i rad u prvim fabrikama su veoma teški
+          - "?"
+        praznina: 3
+        odgovori:
+          - {tekst: "Počinje duga borba za radnička prava", tacan: true}
+          - {tekst: "Radnici se vraćaju na selo i fabrike se zatvaraju", tacan: false, zasto: "Lekcija to ne kaže — gradovi i industrija rastu tokom celog XIX veka."}
+          - {tekst: "Radništvo postaje najbrojniji sloj", tacan: false, zasto: "Najbrojniji je i dalje seljaštvo."}
+          - {tekst: "Ukida se feudalizam", tacan: false, zasto: "Feudalizam se ukida pod uticajem Francuske revolucije, ne zbog uslova u fabrikama."}
+        pomoc:
+          - "Korak 1: Šta rade ljudi kad su im uslovi rada teški?"
+          - "Korak 2: Pogledaj sliku demonstracija u Londonu."
+          - "Iz lekcije: borba za radnička prava trajala je dugo i nastavila se u XX veku."
+        objasnjenje: Teški uslovi u fabrikama pokrenuli su borbu radnika za svoja prava — dugu, sve do XX veka.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Društvo
+          tekst: Radništvo živi od rada u fabrikama; uslovi su bili teški, a borba za radnička prava duga.
+          slika: 01-osnovne-odlike-perioda-1780-1918/05-radnicke-demonstracije-london.jpg
+
+      - id: dr-lanac-kolonije
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [velike-sile, kolonija, jagma-za-afrikom, kina]
+        karike:
+          - Velike sile imaju veliku privrednu i vojnu snagu
+          - Među njima raste rivalstvo
+          - "?"
+          - Dele se Afrika i Kina
+        praznina: 2
+        odgovori:
+          - {tekst: "Nadmeću se za nove kolonije", tacan: true}
+          - {tekst: "Ukidaju svoje vojske", tacan: false, zasto: "Vojna snaga je izvor njihove moći — ne ukidaju je."}
+          - {tekst: "Sklapaju jedan zajednički savez svih sila", tacan: false, zasto: "Savezi su bili međusobno sukobljeni, ne jedan zajednički."}
+          - {tekst: "Otvaraju svoje luke kineskoj trgovini", tacan: false, zasto: "Bilo je obrnuto: Kina i Japan su primorani da otvore luke evropskim silama i SAD."}
+        pomoc:
+          - "Korak 1: Kako se vidi rivalstvo velikih sila?"
+          - "Korak 2: Šta su Afrika i Kina za velike sile — saveznici ili plen?"
+          - "Iz lekcije: rivalstvo se ogledalo u sukobljenim savezima i nadmetanju za nove kolonije."
+        objasnjenje: Snaga → rivalstvo → trka za kolonijama → podela Afrike i pokušaji podele Kine.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Velike sile
+          tekst: Rivalstvo velikih sila ogledalo se u sklapanju sukobljenih saveza i u nadmetanju za nove kolonije.
+
+      - id: dr-izvor-demonstracije
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [radnistvo, london]
+        izvor:
+          autor: Udžbenik (slika sa potpisom)
+          naslov: Radničke demonstracije u Londonu sredinom XIX veka
+          tekst: Velika masa ljudi okupljena na otvorenom prostoru u Londonu. Prema potpisu, to su radnici koji demonstriraju sredinom XIX veka.
+          napomena: "Odlomak je prepričan; udžbenik, str. 12 (potpis je slabo čitljiv)."
+        pitanje: Šta nam ova slika govori o radništvu XIX veka?
+        odgovori:
+          - {tekst: "Da su se radnici zbog teških uslova rada okupljali i javno borili za svoja prava", tacan: true}
+          - {tekst: "Da su radnici slavili kraj borbe za radnička prava", tacan: false, zasto: "Borba je tek trajala — nastavila se i u XX veku."}
+          - {tekst: "Da su radnici bili najbrojniji sloj u Evropi", tacan: false, zasto: "Masa na jednoj slici ne dokazuje to; najbrojnije je bilo seljaštvo."}
+          - {tekst: "Da su demonstrirali plemići koji su gubili prevlast", tacan: false, zasto: "Potpis kaže da su to radničke demonstracije."}
+        pomoc:
+          - Ko demonstrira, po potpisu?
+          - Zašto bi radnici izašli na ulice?
+          - "Iz lekcije: život i rad u prvim fabrikama bili su veoma teški; borba za radnička prava trajala je dugo."
+        objasnjenje: Slika svedoči o borbi radnika za prava; uzrok su teški uslovi u prvim fabrikama.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Društvo
+          tekst: Uz odeljak o radništvu udžbenik donosi sliku radničkih demonstracija u Londonu sredinom XIX veka.
+          slika: 01-osnovne-odlike-perioda-1780-1918/05-radnicke-demonstracije-london.jpg
+        osa: {naziv: "Radničke demonstracije u Londonu", od: 1840, do: 1860, traka: svet, oznaka: "sredina XIX veka"}
+
+      - id: dr-izvor-klackalica
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [velike-sile, velika-britanija, sjedinjene-americke-drzave]
+        izvor:
+          autor: Američki satirični časopis, 1898.
+          naslov: Klackalica nacija (opis karikature)
+          tekst: Na jednom kraju daske su Velika Britanija i SAD, na drugom Rusija, Nemačka i Francuska, a Kina visi na kraju daske. Ženska figura „Istorija” pokušava da održi ravnotežu. U središtu klackalice je top. Strana Britanije i SAD je pretegla.
+          napomena: "Odlomak je prepričan; udžbenik, str. 12."
+        pitanje: Koje države karikatura prikazuje kao najmoćnije?
+        odgovori:
+          - {tekst: "Veliku Britaniju i SAD", tacan: true}
+          - {tekst: "Rusiju, Nemačku i Francusku", tacan: false, zasto: "One su na drugoj strani daske, koja je lakša."}
+          - {tekst: "Kinu", tacan: false, zasto: "Kina samo visi na kraju daske — ona nije igrač, nego je predmet nadmetanja."}
+          - {tekst: "Sve države su prikazane kao jednako jake", tacan: false, zasto: "Klackalica nije u ravnoteži — jedna strana je pretegla."}
+        pomoc:
+          - Na klackalici je jača strana ona koja je pretegla.
+          - Ko sedi na težoj strani?
+          - "Iz lekcije: kao najmoćnije prikazane su V. Britanija i SAD."
+        objasnjenje: Strana Velike Britanije i SAD je pretegla — karikaturista ih vidi kao najmoćnije.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Velike sile
+          tekst: Karikatura „Klackalica nacija” iz američkog časopisa (1898) prikazuje borbu velikih sila za prevlast u svetu.
+          slika: 01-osnovne-odlike-perioda-1780-1918/06-karikatura-klackalica-nacija.jpg
+        osa: {naziv: "Karikatura „Klackalica nacija”", od: 1898, traka: svet}
+
+      - id: dr-izvor-top
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [velike-sile]
+        izvor:
+          autor: Američki satirični časopis, 1898.
+          naslov: Klackalica nacija (opis karikature)
+          tekst: Velike sile sede na dve strane klackalice, a „Istorija” pokušava da ih održi u ravnoteži. Klackalica se oslanja na top postavljen u njenom središtu.
+          napomena: "Odlomak je prepričan; udžbenik, str. 12."
+        pitanje: Šta karikaturista poručuje time što je klackalica postavljena na top?
+        odgovori:
+          - {tekst: "Da ravnoteža među velikim silama počiva na vojnoj sili i pretnji ratom", tacan: true}
+          - {tekst: "Da su velike sile odustale od oružja", tacan: false, zasto: "Top u središtu znači suprotno — oružje drži ceo odnos."}
+          - {tekst: "Da je top Kinin, pa je Kina najjača", tacan: false, zasto: "Kina visi na kraju daske i nema moć; top predstavlja vojnu silu na kojoj počiva odnos sila."}
+          - {tekst: "Da se sile takmiče samo u trgovini", tacan: false, zasto: "Top nije simbol trgovine nego vojne snage."}
+        pomoc:
+          - Šta je top — alat za trgovinu ili oružje?
+          - Na čemu se oslanja cela klackalica?
+          - "Iz lekcije: velike sile su volju nametale i vojnom snagom; odnos sila počiva na oružju."
+        objasnjenje: Top u središtu govori da odnos velikih sila drži vojna sila — ravnoteža može da se prekine ratom.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Velike sile
+          tekst: Udžbenik uz karikaturu traži da se objasni simbolika topa u središtu klackalice.
+          slika: 01-osnovne-odlike-perioda-1780-1918/06-karikatura-klackalica-nacija.jpg
+        osa: {naziv: "Karikatura „Klackalica nacija”", od: 1898, traka: svet}
+
+      - id: dr-uporedi-plemstvo-gradjanstvo
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [plemstvo, gradjanstvo, francuska-revolucija]
+        a: Plemstvo
+        b: Građanstvo
+        pitanje: Na koji sloj se odnosi tvrdnja — A, B, oba ili nijedan?
+        tvrdnje:
+          - {tekst: "Imalo je prevlast još od srednjeg veka.", odgovor: a, zasto: "Plemstvo (uz sveštenstvo) je imalo prevlast od srednjeg veka."}
+          - {tekst: "Jača zbog privrednih promena.", odgovor: b, zasto: "Privredne promene jačaju ulogu građanstva."}
+          - {tekst: "Gubi prevlast u prvoj polovini XIX veka.", odgovor: a, zasto: "Ukidanjem feudalizma plemstvo gubi prevlast."}
+          - {tekst: "Njegovo nezadovoljstvo doprinelo je Francuskoj revoluciji.", odgovor: b, zasto: "Do revolucije je dovelo nezadovoljstvo seljaštva i građanstva."}
+          - {tekst: "Bilo je najbrojniji sloj.", odgovor: nijedan, zasto: "Najbrojnije je bilo seljaštvo."}
+        pomoc:
+          - Jedan sloj je stari, povlašćeni; drugi je u usponu.
+          - Ko je bio nezadovoljan starim poretkom?
+          - "Iz lekcije: plemstvo gubi prevlast; građanstvo jača."
+        objasnjenje: Plemstvo je stari povlašćeni sloj koji gubi prevlast; građanstvo jača i posle revolucije čuva svoj uticaj.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Društvo
+          tekst: Privredne promene jačaju građanstvo, a posle ukidanja feudalizma plemstvo i sveštenstvo gube prevlast.
+
+      - id: dr-uporedi-seljastvo-radnistvo
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [seljastvo, radnistvo, knezevina-srbija]
+        a: Seljaštvo
+        b: Radništvo
+        pitanje: Na koji sloj se odnosi tvrdnja — A, B, oba ili nijedan?
+        tvrdnje:
+          - {tekst: "Najbrojniji sloj u XIX veku.", odgovor: a, zasto: "Seljaštvo je i dalje najbrojnije."}
+          - {tekst: "Gradski sloj koji živi od rada u fabrikama.", odgovor: b, zasto: "To je definicija radništva."}
+          - {tekst: "Nova pojava XIX veka.", odgovor: b, zasto: "Seljaka je bilo oduvek; radništvo nastaje sa fabrikama."}
+          - {tekst: "Njegovo nezadovoljstvo dovelo je do Francuske revolucije.", odgovor: a, zasto: "Do revolucije su doveli nezadovoljni seljaštvo i građanstvo; radništvo je tada tek nastajalo."}
+          - {tekst: "U Srbiji je posle ukidanja turskog feudalnog uređenja postalo slobodno.", odgovor: a, zasto: "Srbija postaje zemlja slobodnih seljaka."}
+          - {tekst: "Imalo je prevlast od srednjeg veka.", odgovor: nijedan, zasto: "Prevlast su imali plemstvo i sveštenstvo."}
+        pomoc:
+          - Jedan sloj je star i živi na selu, drugi je nov i živi u gradu.
+          - Ko je postojao krajem XVIII veka, pre fabrika?
+          - "Iz lekcije: seljaštvo najbrojnije; radništvo — novina XIX veka."
+        objasnjenje: Seljaštvo je stari, najbrojniji sloj; radništvo je novi gradski sloj nastao sa fabrikama.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Društvo
+          tekst: Seljaštvo je najbrojniji sloj, a radništvo je gradski sloj koji živi od rada u fabrikama, važna novina XIX veka.
+
+      - id: dr-objasni-radnistvo
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [radnistvo, industrija]
+        pitanje: Ko su bili radnici u XIX veku i zašto su se borili za svoja prava? Objasni svojim rečima.
+        uzor: Radništvo je novi gradski sloj koji je nastao sa fabrikama i živi od svog rada u njima. Život i rad u prvim fabrikama bili su veoma teški, pa su radnici počeli da se bore za svoja prava, na primer demonstracijama kao u Londonu sredinom XIX veka. Ta borba je trajala dugo i nastavila se u XX veku.
+        ideje:
+          - Radništvo živi od rada u fabrikama, u gradu.
+          - Nastalo je kao nov sloj u XIX veku.
+          - Uslovi rada i života bili su veoma teški.
+          - Borba za prava trajala je dugo, i u XX veku.
+        objasnjenje: Radništvo je dete industrije, a njegova borba — posledica teških uslova u prvim fabrikama.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Društvo
+          tekst: Radništvo je gradski sloj koji živi od rada u fabrikama; borba za radnička prava trajala je dugo.
+          slika: 01-osnovne-odlike-perioda-1780-1918/05-radnicke-demonstracije-london.jpg
+
+      - id: dr-objasni-klackalica
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [velike-sile, kina]
+        pitanje: Opiši karikaturu „Klackalica nacija” (1898) i objasni šta poručuje o odnosima velikih sila.
+        uzor: Na klackalici sede velike sile — na jednoj strani Velika Britanija i SAD, na drugoj Rusija, Nemačka i Francuska, a Kina visi na kraju daske. Strana Britanije i SAD je pretegla, pa su one prikazane kao najmoćnije. „Istorija” pokušava da održi ravnotežu, ali klackalica stoji na topu, što znači da odnos sila počiva na vojnoj sili i pretnji ratom.
+        ideje:
+          - Dve grupe sila na dve strane klackalice.
+          - V. Britanija i SAD su pretegle — najmoćnije su.
+          - Top u središtu = ravnoteža počiva na vojnoj sili.
+          - Kina visi na kraju daske — ona je predmet nadmetanja sila.
+        objasnjenje: Karikatura prikazuje rivalstvo velikih sila kao krhku ravnotežu koju drži oružje.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Velike sile
+          tekst: Udžbenik pita koje su države predstavljene kao najmoćnije i šta znači top na karikaturi.
+          slika: 01-osnovne-odlike-perioda-1780-1918/06-karikatura-klackalica-nacija.jpg
+        osa: {naziv: "Karikatura „Klackalica nacija”", od: 1898, traka: svet}
+
+  - naslov: Evropa i drugi kontinenti
+    zadaci:
+      - id: sv-izbor-sad
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [americki-rat-za-nezavisnost, sjedinjene-americke-drzave, kolonija]
+        pitanje: Kako su krajem XVIII veka nastale Sjedinjene Američke Države?
+        odgovori:
+          - {tekst: "Pobunom evropskih naseljenika u trinaest britanskih kolonija — u Američkom ratu za nezavisnost", tacan: true}
+          - {tekst: "Raspadom španskog carstva u Americi", tacan: false, zasto: "Od španskih kolonija nastale su latinoameričke države, od Meksika do Argentine."}
+          - {tekst: "Odlukom Berlinskog kongresa", tacan: false, zasto: "Berlinski kongres je 1878. i odlučivao je o Balkanu, ne o Americi."}
+          - {tekst: "Odvajanjem od Portugalije", tacan: false, zasto: "Od Portugalije se odvojio Brazil."}
+        pomoc:
+          - Čije su kolonije bile u Severnoj Americi?
+          - Naseljenici su se pobunili protiv vlasti Velike Britanije.
+          - "Iz lekcije: u Američkom ratu za nezavisnost od trinaest kolonija nastaju SAD."
+        objasnjenje: Naseljenici trinaest kolonija pobunili su se protiv Britanije; u Američkom ratu za nezavisnost nastale su SAD.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Prostorni okviri novog veka
+          tekst: Krajem XVIII veka pobuna naseljenika u trinaest kolonija u Severnoj Americi uzdrmala je britansku vlast; u Američkom ratu za nezavisnost nastaju SAD.
+        osa: {naziv: "Američki rat za nezavisnost", od: 1770, do: 1800, traka: svet, oznaka: "kraj XVIII veka"}
+
+      - id: sv-izbor-brazil
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [brazil, portugalija]
+        pitanje: Od koje države je Brazil u prvim decenijama XIX veka proglasio nezavisnost?
+        odgovori:
+          - {tekst: "Od Portugalije", tacan: true}
+          - {tekst: "Od Španije", tacan: false, zasto: "Od španskih kolonija nastale su druge latinoameričke države; Brazil je bio portugalski."}
+          - {tekst: "Od Velike Britanije", tacan: false, zasto: "Britanija je izgubila trinaest kolonija u Severnoj Americi, ne Brazil."}
+          - {tekst: "Od Francuske", tacan: false, zasto: "Francuze su Britanci istisnuli iz Severne Amerike i Indije; Brazil nije bio francuski."}
+        pomoc:
+          - Brazil je jedina velika zemlja Južne Amerike koja nije bila španska.
+          - Bila je to druga iberijska kolonijalna sila.
+          - "Iz lekcije: Brazil proglašava nezavisnost od Portugalije."
+        objasnjenje: Brazil je bio portugalska kolonija i nezavisnost je proglasio u isto vreme kad i Španija gubi svoje kolonije.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Prostorni okviri novog veka
+          tekst: U prvim decenijama XIX veka Španija gubi većinu kolonija, a Brazil proglašava nezavisnost od Portugalije.
+        osa: {naziv: "Španija gubi kolonije, nezavisnost Brazila", od: 1800, do: 1830, traka: svet, oznaka: "prve decenije XIX veka"}
+
+      - id: sv-izbor-roblje
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [afrika, robovlasnistvo]
+        pitanje: Šta je pokrenulo prisustvo evropskih moreplovaca u Africi od kraja XV veka?
+        odgovori:
+          - {tekst: "Trgovinu crnim robljem", tacan: true}
+          - {tekst: "Nastanak latinoameričkih država", tacan: false, zasto: "Latinoameričke države nastaju od španskih kolonija u Americi, početkom XIX veka."}
+          - {tekst: "Odmah podelu cele Afrike", tacan: false, zasto: "Podela gotovo cele Afrike desila se tek do početka XX veka, četiri veka kasnije."}
+          - {tekst: "Ukidanje feudalizma u Africi", tacan: false, zasto: "Lekcija o tome ništa ne kaže; feudalne odnose je ukinuo Japan."}
+        pomoc:
+          - Afrika je od kraja XV veka bila meta trgovačkih poduhvata.
+          - Čime su Evropljani trgovali — a što je ljude pretvaralo u robu?
+          - "Iz lekcije: prisustvo evropskih moreplovaca pokrenulo je trgovinu crnim robljem."
+        objasnjenje: Evropski moreplovci su u Africi pokrenuli trgovinu robljem; mnogo kasnije sile su podelile i sam kontinent.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Afrika je od kraja XV veka meta trgovačkih poduhvata evropskih moreplovaca, čije je prisustvo pokrenulo trgovinu crnim robljem.
+
+      - id: sv-izbor-japan
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [japan, koreja, kolonijalizam]
+        pitanje: Šta važi za Japan u XIX veku? (Više tačnih.)
+        odgovori:
+          - {tekst: "Ukinuo je feudalne odnose", tacan: true}
+          - {tekst: "Modernizovao je privredu i vojsku po uzoru na Zapad", tacan: true}
+          - {tekst: "Krajem veka je pretvorio Koreju u koloniju", tacan: true}
+          - {tekst: "Ostao je ekonomski i vojno zaostalo carstvo", tacan: false, zasto: "To lekcija kaže za Kinu; Japan se reformama modernizovao."}
+          - {tekst: "Nikada nije otvorio luke za strance", tacan: false, zasto: "Sredinom XIX veka i Japan je bio primoran da otvori luke evropskim silama i SAD."}
+        pomoc:
+          - Japan je krenuo drugim putem od Kine.
+          - Reforme → snaga → i sam osvaja.
+          - "Iz lekcije: Japan ukida feudalne odnose, modernizuje privredu i vojsku, pretvara Koreju u koloniju."
+        objasnjenje: Japan je reformama po uzoru na Zapad ukinuo feudalizam, modernizovao privredu i vojsku i postao kolonijalna sila (Koreja).
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Japan je reformama po uzoru na Zapad ukinuo feudalne odnose, modernizovao privredu i vojsku i krajem XIX veka pretvorio Koreju u koloniju.
+        osa: {naziv: "Japan pretvara Koreju u koloniju", od: 1870, do: 1900, traka: svet, oznaka: "kraj XIX veka"}
+
+      - id: sv-tn-jagma
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [jagma-za-afrikom, afrika, kolonija]
+        tvrdnja: Do početka XX veka evropske sile podelile su gotovo ceo afrički kontinent.
+        tacno: true
+        pomoc:
+          - Kako se zove trka sila za Afrikom?
+          - Da li je ostalo mnogo slobodnih afričkih zemalja?
+          - "Iz lekcije: podela gotovo cele Afrike — „jagma za Afrikom”."
+        objasnjenje: Tačno — to je „jagma za Afrikom”; kolonizacija je donela surovo iskorišćavanje ljudi i bogatstava.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Do početka XX veka evropske sile podelile su gotovo celu Afriku; to se naziva „jagma za Afrikom”.
+        osa: {naziv: "Jagma za Afrikom", od: 1870, do: 1910, traka: svet, oznaka: "do početka XX veka"}
+
+      - id: sv-tn-luke
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [kina, japan]
+        tvrdnja: Kina i Japan su sredinom XIX veka dobrovoljno otvorili luke jer su želeli zapadni uticaj.
+        tacno: false
+        ispravke:
+          - {tekst: "Bili su primorani da otvore luke za trgovinu sa evropskim silama i SAD.", tacan: true}
+          - {tekst: "Otvorili su luke tek posle Prvog svetskog rata.", tacan: false, zasto: "Luke su otvorene sredinom XIX veka."}
+          - {tekst: "Luke su otvorili samo za trgovinu sa Afrikom.", tacan: false, zasto: "Luke su otvorene evropskim silama i SAD."}
+        pomoc:
+          - Do početka XIX veka obe zemlje su se opirale evropskom uticaju.
+          - Da li je onda otvaranje bilo dobrovoljno?
+          - "Iz lekcije: sredinom XIX veka bili su primorani da otvore luke."
+        objasnjenje: Kina i Japan su se dugo opirali; luke su otvorili pod pritiskom evropskih sila i SAD.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Kina i Japan su se do početka XIX veka opirali evropskom uticaju, a sredinom XIX veka bili su primorani da otvore luke.
+        osa: {naziv: "Kina i Japan otvaraju luke", od: 1840, do: 1860, traka: svet, oznaka: "sredina XIX veka"}
+
+      - id: sv-tn-japan-kolonija
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [japan, kolonijalizam, koreja]
+        tvrdnja: Krajem XIX veka Japan je, kao i Kina, postao plen evropskih sila koje su ga delile.
+        tacno: false
+        ispravke:
+          - {tekst: "Japan je i sam postao kolonijalna sila — pretvorio je Koreju u koloniju i pokušao da se širi na račun Kine.", tacan: true}
+          - {tekst: "Japan je postao kolonija Koreje.", tacan: false, zasto: "Obrnuto — Japan je Koreju pretvorio u svoju koloniju."}
+          - {tekst: "Japan je postao kolonija SAD.", tacan: false, zasto: "Japan je otvorio luke za trgovinu, ali nije postao kolonija; reformisao se i sam osvajao."}
+        pomoc:
+          - Šta je Japan uradio posle otvaranja luka?
+          - Na karikaturi o Kini, ko pored evropskih vladara seče kolač?
+          - "Iz lekcije: Japan je pretvorio Koreju u koloniju i postao kolonijalna sila."
+        objasnjenje: Za razliku od Kine, Japan se modernizovao i sam postao kolonijalna sila.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Japan je krajem XIX veka pretvorio Koreju u koloniju i pokušao da se proširi na račun Kine, pa i on postaje kolonijalna sila.
+        osa: {naziv: "Japan pretvara Koreju u koloniju", od: 1870, do: 1900, traka: svet, oznaka: "kraj XIX veka"}
+
+      - id: sv-dopuni-afrika
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [jagma-za-afrikom, kolonija]
+        pitanje: Dopuni rečenicu.
+        tekst: "Podela gotovo cele Afrike među evropskim silama do početka XX veka naziva se {{jagma za Afrikom}}. Kolonizacija je donela surovo {{iskorišćavanje}} stanovništva i prirodnih bogatstava."
+        ponudjene: [jagma za Afrikom, Istočno pitanje, iskorišćavanje, prosvećivanje]
+        pomoc:
+          - „Jagma” znači otimanje, grabljenje.
+          - Šta su sile radile sa ljudima i bogatstvima kolonija?
+          - "Iz lekcije: „jagma za Afrikom”; surovo iskorišćavanje."
+        objasnjenje: Jagma za Afrikom je grabljenje afričkog kontinenta; za Afrikance je značila surovo iskorišćavanje.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Evropske sile su do početka XX veka podelile gotovo celu Afriku; kolonizacija je donela surovo iskorišćavanje ljudi i bogatstava.
+        osa: {naziv: "Jagma za Afrikom", od: 1870, do: 1910, traka: svet, oznaka: "do početka XX veka"}
+
+      - id: sv-dopuni-spanija
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [spanija, latinska-amerika]
+        pitanje: Dopuni rečenice o španskom carstvu.
+        tekst: "Španija je početkom {{XVI}} veka stvorila veliko carstvo u Srednjoj i Južnoj Americi. U prvim decenijama {{XIX}} veka ostala je bez većine kolonija, od kojih su nastale nezavisne države od {{Meksika}} do {{Argentine}}."
+        ponudjene: [XVI, XIX, XVIII, Meksika, Argentine, Kanade, Brazila]
+        pomoc:
+          - Carstvo je nastalo ubrzo posle Kolumba.
+          - Najsevernija i najjužnija od tih država.
+          - "Iz lekcije: carstvo početkom XVI veka; gubitak u prvim decenijama XIX veka; od Meksika do Argentine."
+        objasnjenje: Špansko carstvo u Americi trajalo je od početka XVI do prvih decenija XIX veka; od njega su nastale države od Meksika do Argentine.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Prostorni okviri novog veka
+          tekst: Španija, koja je početkom XVI veka stvorila carstvo u Americi, izgubila je većinu kolonija u prvim decenijama XIX veka.
+        osa: {naziv: "Španija gubi kolonije, nezavisnost Brazila", od: 1800, do: 1830, traka: svet, oznaka: "prve decenije XIX veka"}
+
+      - id: sv-dopuni-japan
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [japan, koreja, kina]
+        pitanje: Dopuni rečenice (bez ponuđenih reči).
+        tekst: "Japan je sproveo reforme po uzoru na {{Zapad|zapad}}: ukinuo je feudalne odnose i modernizovao privredu i vojsku. Krajem XIX veka pretvorio je {{Koreju|Koreja}} u koloniju i pokušao da se proširi na račun {{Kine|Kina}}."
+        pomoc:
+          - Po čijem uzoru — Istoka ili Zapada?
+          - Jedna susedna zemlja je postala japanska kolonija, a druga, veća, bila je meta širenja.
+          - "Iz lekcije: reforme po uzoru na Zapad; Koreja; širenje na račun Kine."
+        objasnjenje: Japan je reformama po uzoru na Zapad postao jak i sam se širio — na Koreju i na račun Kine.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Japan se reformisao po uzoru na Zapad, krajem XIX veka pretvorio Koreju u koloniju i pokušao da se proširi na račun Kine.
+
+      - id: sv-povezi-kolonije
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [spanija, portugalija, velika-britanija, japan]
+        pitanje: Poveži državu sa onim što joj se desilo sa kolonijama.
+        parovi:
+          - ["Španija", "izgubila većinu kolonija u Srednjoj i Južnoj Americi"]
+          - ["Portugalija", "Brazil proglašava nezavisnost od nje"]
+          - ["Velika Britanija", "izgubila trinaest kolonija, a širila se u Indiji i Australiji"]
+          - ["Japan", "pretvorio Koreju u koloniju"]
+        pomoc:
+          - Jedna od ovih država nije gubila, nego je stekla koloniju.
+          - Brazil je bio portugalski, Meksiko i Argentina španski.
+          - "Iz lekcije: str. 12–13, prostorni okviri novog veka."
+        objasnjenje: Španija i Portugalija gube Ameriku, Britanija gubi 13 kolonija ali dobija nove, Japan postaje kolonijalna sila.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Prostorni okviri novog veka
+          tekst: Udžbenik opisuje kako su Britanija, Španija i Portugalija gubile, a Britanija i Japan sticale kolonije.
+
+      - id: sv-povezi-oblasti
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [sjedinjene-americke-drzave, latinska-amerika, afrika, kina]
+        pitanje: Poveži oblast sveta sa onim što se u njoj dešava u XVIII i XIX veku.
+        parovi:
+          - ["Severna Amerika", "trinaest kolonija se odvaja i nastaju SAD"]
+          - ["Srednja i Južna Amerika", "nastaju države od Meksika do Argentine"]
+          - ["Afrika", "sile do početka XX veka dele gotovo ceo kontinent"]
+          - ["Kina", "ostaje ogromno, ali zaostalo carstvo koje se opire strancima"]
+          - ["Indija", "Britanci istiskuju Francuze i šire kolonije"]
+        pomoc:
+          - Krenite od Amerike — severni i južni deo su imali različite gospodare.
+          - Koji kontinent je bio meta „jagme”?
+          - "Iz lekcije: str. 12–13."
+        objasnjenje: Amerika se oslobađa (SAD, Latinska Amerika), Afrika se deli, Kina se opire, a u Indiji jača Britanija.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Lekcija prati kolonije i nezavisnost na više kontinenata — u Americi, Africi i Aziji.
+
+      - id: sv-zakljuci-britanija
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [velika-britanija, kolonija, americki-rat-za-nezavisnost]
+        pitanje: Zašto je Velika Britanija posle Američkog rata za nezavisnost širila kolonije u Indiji, Kanadi i Australiji?
+        odgovori:
+          - {tekst: "Da nadoknadi gubitak trinaest kolonija u Severnoj Americi", tacan: true}
+          - {tekst: "Da bi pomogla Španiji da sačuva svoje carstvo", tacan: false, zasto: "Lekcija ne govori o takvoj pomoći; Britanija je nadoknađivala sopstveni gubitak."}
+          - {tekst: "Zato što je Berlinski kongres to odobrio", tacan: false, zasto: "Berlinski kongres je 1878. i tiče se Balkana."}
+          - {tekst: "Da bi oslobodila te zemlje", tacan: false, zasto: "Kolonije se osnivaju radi iskorišćavanja bogatstava, ne radi oslobađanja."}
+        pomoc:
+          - "Korak 1: Šta je Britanija izgubila krajem XVIII veka?"
+          - "Korak 2: Kako se nadoknađuje gubitak?"
+          - "Iz lekcije: gubitak je nadoknadila širenjem kolonija u Indiji, Kanadi, na Pacifiku, u Australiji i Novom Zelandu."
+        objasnjenje: Izgubivši trinaest kolonija, Britanija je nove posede tražila na drugim stranama sveta.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Prostorni okviri novog veka
+          tekst: Gubitak trinaest kolonija Britanija je nadoknadila širenjem kolonija u Indiji, Kanadi, na Tihom okeanu, u Australiji i Novom Zelandu.
+        osa: {naziv: "Američki rat za nezavisnost", od: 1770, do: 1800, traka: svet, oznaka: "kraj XVIII veka"}
+
+      - id: sv-zakljuci-japan
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [japan, kina, kolonijalizam]
+        pitanje: Zašto je Japan krajem XIX veka postao kolonijalna sila, a Kina nije?
+        odgovori:
+          - {tekst: "Japan je sproveo reforme po uzoru na Zapad i modernizovao privredu i vojsku, a Kina je ostala zaostala i opirala se zapadnim uticajima", tacan: true}
+          - {tekst: "Japan nikada nije morao da otvori luke strancima", tacan: false, zasto: "I Japan je sredinom XIX veka bio primoran da otvori luke."}
+          - {tekst: "Kina je bila mnogo manja od Japana", tacan: false, zasto: "Kina je bila ogromno carstvo — veličina nije bila problem, nego zaostalost."}
+          - {tekst: "Velike sile su Kini zabranile da ima vojsku", tacan: false, zasto: "Lekcija to ne kaže; Kina je ostala ekonomski i vojno zaostala."}
+        pomoc:
+          - "Korak 1: Kako je svaka od njih reagovala na zapadni uticaj?"
+          - "Korak 2: Šta Japanu daje snagu da osvaja?"
+          - "Iz lekcije: Japan — reforme, modernizacija, Koreja; Kina — zaostala, protiv stranaca."
+        objasnjenje: Japan je od Zapada preuzeo modernu privredu i vojsku i postao kolonijalna sila; Kina je odbijala promene i postala meta sila.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Kina je ostala ekonomski i vojno zaostala, a Japan je reformama po uzoru na Zapad postao kolonijalna sila.
+
+      - id: sv-zakljuci-kolonija
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [kolonija, kolonijalizam, afrika]
+        pitanje: Na osnovu definicije kolonije, šta je bio glavni cilj evropskih sila kada su delile Afriku?
+        odgovori:
+          - {tekst: "Iskorišćavanje prirodnih bogatstava i stanovništva dalekih krajeva", tacan: true}
+          - {tekst: "Širenje medicinskih otkrića u Afriku", tacan: false, zasto: "Lekcija o tome ne govori; kolonizacija je donela surovo iskorišćavanje."}
+          - {tekst: "Pomoć afričkim narodima da stvore nezavisne države", tacan: false, zasto: "Obrnuto — sile su podelile kontinent među sobom."}
+          - {tekst: "Zaštita Osmanskog carstva", tacan: false, zasto: "Zaštita Osmanskog carstva je deo Istočnog pitanja i nema veze sa podelom Afrike."}
+        pomoc:
+          - "Korak 1: Pročitaj definiciju — zbog čega se osniva kolonija?"
+          - "Korak 2: Šta je kolonizacija donela Africi?"
+          - "Iz lekcije: kolonija je naselje osnovano radi iskorišćavanja prirodnih bogatstava; kolonizacija je donela surovo iskorišćavanje ljudi i bogatstava."
+        objasnjenje: Kolonije su osnivane radi bogatstava; podela Afrike značila je surovo iskorišćavanje njenih ljudi i prirode.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Kolonija je posed strane sile osnovan radi iskorišćavanja prirodnih bogatstava; kolonizacija Afrike donela je surovo iskorišćavanje.
+          slika: 01-osnovne-odlike-perioda-1780-1918/07-podela-afrike.jpg
+        osa: {naziv: "Jagma za Afrikom", od: 1870, do: 1910, traka: svet, oznaka: "do početka XX veka"}
+
+      - id: sv-lanac-sad
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [americki-rat-za-nezavisnost, sjedinjene-americke-drzave, velika-britanija]
+        karike:
+          - Naseljenici u trinaest kolonija dižu pobunu protiv Britanije
+          - "?"
+          - Britanija širi kolonije u Indiji, Kanadi, Australiji i Novom Zelandu
+        praznina: 1
+        odgovori:
+          - {tekst: "U Američkom ratu za nezavisnost nastaju SAD", tacan: true}
+          - {tekst: "Španija gubi Meksiko", tacan: false, zasto: "Meksiko se odvaja od Španije, ne od Britanije; to ne objašnjava britansko širenje."}
+          - {tekst: "Počinje jagma za Afrikom", tacan: false, zasto: "Podela Afrike je krajem XIX veka, mnogo kasnije."}
+          - {tekst: "Japan zauzima Koreju", tacan: false, zasto: "To se dešava krajem XIX veka u Aziji."}
+        pomoc:
+          - "Korak 1: Kako se završila pobuna?"
+          - "Korak 2: Šta je Britanija izgubila?"
+          - "Iz lekcije: u Američkom ratu za nezavisnost nastaju SAD; Britanija gubitak nadoknađuje drugde."
+        objasnjenje: Pobuna → SAD → Britanija traži nove kolonije.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Prostorni okviri novog veka
+          tekst: Pobuna u trinaest kolonija dovela je do nastanka SAD, a Britanija je gubitak nadoknadila drugim kolonijama.
+        osa: {naziv: "Američki rat za nezavisnost", od: 1770, do: 1800, traka: svet, oznaka: "kraj XVIII veka"}
+
+      - id: sv-lanac-japan
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [japan, koreja, kolonijalizam]
+        karike:
+          - Sredinom XIX veka Japan je primoran da otvori luke
+          - "?"
+          - Japan pretvara Koreju u koloniju
+        praznina: 1
+        odgovori:
+          - {tekst: "Japan sprovodi reforme po uzoru na Zapad — ukida feudalizam, modernizuje privredu i vojsku", tacan: true}
+          - {tekst: "Japan se odriče vojske", tacan: false, zasto: "Bez vojske ne bi mogao da osvoji Koreju; vojsku je modernizovao."}
+          - {tekst: "Japan zatvara sve luke zauvek", tacan: false, zasto: "Luke su ostale otvorene; Japan je umesto toga učio od Zapada."}
+          - {tekst: "Japan postaje britanska kolonija", tacan: false, zasto: "Japan nije postao kolonija; postao je kolonijalna sila."}
+        pomoc:
+          - "Korak 1: Šta Japanu treba da bi mogao da osvaja?"
+          - "Korak 2: Odakle je preuzeo uzor?"
+          - "Iz lekcije: reforme po uzoru na Zapad → Japan postaje kolonijalna sila."
+        objasnjenje: Otvaranje luka → reforme po uzoru na Zapad → Japan i sam osvaja Koreju.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Posle otvaranja luka Japan je sproveo reforme po uzoru na Zapad i krajem XIX veka pretvorio Koreju u koloniju.
+        osa: {naziv: "Japan pretvara Koreju u koloniju", od: 1870, do: 1900, traka: svet, oznaka: "kraj XIX veka"}
+
+      - id: sv-lanac-afrika
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [afrika, robovlasnistvo, jagma-za-afrikom]
+        karike:
+          - Od kraja XV veka evropski moreplovci stižu u Afriku
+          - Počinje trgovina crnim robljem
+          - Do početka XX veka sile dele gotovo ceo kontinent
+          - "?"
+        praznina: 3
+        odgovori:
+          - {tekst: "Stanovništvo i prirodna bogatstva Afrike surovo se iskorišćavaju", tacan: true}
+          - {tekst: "Afrika postaje velika sila", tacan: false, zasto: "Velike sile su evropske; Afrika je bila njihov plen."}
+          - {tekst: "U Africi nastaju države od Meksika do Argentine", tacan: false, zasto: "Te države su u Latinskoj Americi."}
+          - {tekst: "Afrika otvara luke kao Kina i Japan", tacan: false, zasto: "Otvaranje luka lekcija vezuje za Kinu i Japan; Afrika je podeljena."}
+        pomoc:
+          - "Korak 1: Šta je bio cilj osnivanja kolonija?"
+          - "Korak 2: Šta je to značilo za ljude u Africi?"
+          - "Iz lekcije: kolonizacija je donela surovo iskorišćavanje stanovništva i prirodnih bogatstava."
+        objasnjenje: Od trgovine robljem do podele kontinenta — Afrika je za Evropljane bila izvor bogatstva, a za Afrikance surovo iskorišćavanje.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Evropljani u Africi pokreću trgovinu robljem; do početka XX veka dele kontinent, a kolonizacija donosi surovo iskorišćavanje.
+        osa: {naziv: "Jagma za Afrikom", od: 1870, do: 1910, traka: svet, oznaka: "do početka XX veka"}
+
+      - id: sv-izvor-afrika
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [afrika, jagma-za-afrikom, velike-sile]
+        izvor:
+          autor: Gravira s kraja XIX veka (opis slike)
+          naslov: Predstavnici sila raspravljaju o podeli Afrike
+          tekst: U svečanoj dvorani muškarci u odelima sede oko velikog stola, a iza njih visi velika karta. Prema potpisu, to su predstavnici evropskih sila i SAD koji krajem XIX veka raspravljaju o podeli afričkog kontinenta.
+          napomena: "Odlomak je prepričan; udžbenik, str. 13."
+        pitanje: Ko, prema ovoj slici, odlučuje o sudbini Afrike?
+        odgovori:
+          - {tekst: "Predstavnici evropskih sila i SAD", tacan: true}
+          - {tekst: "Afrički vladari", tacan: false, zasto: "Potpis govori samo o predstavnicima evropskih sila i SAD."}
+          - {tekst: "Osmanski sultan", tacan: false, zasto: "Osmansko carstvo nije među onima koji dele Afriku na ovoj slici."}
+          - {tekst: "Japanski car", tacan: false, zasto: "Japan se širio u Aziji; o Africi raspravljaju evropske sile i SAD."}
+        pomoc:
+          - Pročitaj potpis — ko sedi za stolom?
+          - Zašto im treba velika karta?
+          - "Iz lekcije: predstavnici evropskih sila i SAD raspravljaju o podeli Afrike krajem XIX veka."
+        objasnjenje: O Africi odlučuju predstavnici sila za stolom, daleko od nje — to je „jagma za Afrikom”.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Gravira prikazuje predstavnike evropskih sila i SAD koji krajem XIX veka raspravljaju o podeli Afrike.
+          slika: 01-osnovne-odlike-perioda-1780-1918/07-podela-afrike.jpg
+        osa: {naziv: "Jagma za Afrikom", od: 1870, do: 1910, traka: svet, oznaka: "do početka XX veka"}
+
+      - id: sv-izvor-kina
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [kina, velike-sile, kolonija]
+        izvor:
+          autor: Francuska karikatura, 1898.
+          naslov: Kina – kolač kraljeva i careva (opis karikature)
+          tekst: Iza stola kineski mandarin, visoki državni službenik, očajno diže ruke. Pred njim kraljica Viktorija, car Vilhelm II, car Nikolaj II, Marijana kao simbol Francuske i japanski samuraj nožem seku pitu na kojoj piše „Kina”.
+          napomena: "Odlomak je prepričan; udžbenik, str. 13."
+        pitanje: Šta rade predstavnici velikih sila Kini, prema karikaturi?
+        odgovori:
+          - {tekst: "Dele je među sobom kao kolač, na svoje interesne zone", tacan: true}
+          - {tekst: "Pomažu joj da se modernizuje", tacan: false, zasto: "Nož i pita pokazuju deljenje plena, ne pomoć; mandarin je očajan."}
+          - {tekst: "Brane je od Japana", tacan: false, zasto: "Japanski samuraj i sam seče kolač zajedno sa ostalima."}
+          - {tekst: "Slave sa Kinom zajednički praznik", tacan: false, zasto: "Mandarin očajno diže ruke — Kina je žrtva, ne domaćin slavlja."}
+        pomoc:
+          - Šta se radi sa kolačem?
+          - Kako se oseća kineski mandarin?
+          - "Iz lekcije: vladari sila seku Kinu kao kolač — dele je među sobom."
+        objasnjenje: Karikatura prikazuje Kinu kao kolač koji vladari velikih sila i Japan seku i dele, a Kina je bespomoćna.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Francuska karikatura iz 1898. prikazuje vladare velikih sila i japanskog samuraja kako dele Kinu, dok mandarin bespomoćno gleda.
+          slika: 01-osnovne-odlike-perioda-1780-1918/08-karikatura-kina-kolac.jpg
+        osa: {naziv: "Karikatura „Kina – kolač kraljeva i careva”", od: 1898, traka: svet}
+
+      - id: sv-izvor-samuraj
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [japan, kolonijalizam, kina]
+        izvor:
+          autor: Francuska karikatura, 1898.
+          naslov: Kina – kolač kraljeva i careva (opis karikature)
+          tekst: Kinu kao pitu seku, sleva nadesno, britanska kraljica Viktorija, nemački car Vilhelm II, ruski car Nikolaj II, Marijana kao simbol Francuske — i japanski samuraj.
+          napomena: "Odlomak je prepričan; udžbenik, str. 13."
+        pitanje: Šta nam prisustvo japanskog samuraja među evropskim vladarima govori o Japanu krajem XIX veka?
+        odgovori:
+          - {tekst: "Da je Japan i sam postao kolonijalna sila koja se širi na račun Kine", tacan: true}
+          - {tekst: "Da je Japan bio evropska država", tacan: false, zasto: "Japan je azijska država; za stolom je jer se ponaša kao velike sile."}
+          - {tekst: "Da Japan štiti Kinu od Evropljana", tacan: false, zasto: "Samuraj seče kolač zajedno sa ostalima — ne štiti Kinu."}
+          - {tekst: "Da je Japan bio kolonija Velike Britanije", tacan: false, zasto: "Japan nije bio kolonija; karikatura ga prikazuje kao ravnopravnog sa silama."}
+        pomoc:
+          - Šta samuraj radi — brani ili seče?
+          - Šta je Japan uradio sa Korejom?
+          - "Iz lekcije: Japan je pretvorio Koreju u koloniju i pokušao da se proširi na račun Kine."
+        objasnjenje: Samuraj za stolom pokazuje da je Japan posle reformi postao kolonijalna sila i učestvovao u deljenju Kine.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Na karikaturi Kinu dele vladari Britanije, Nemačke, Rusije, Francuske i japanski samuraj.
+          slika: 01-osnovne-odlike-perioda-1780-1918/08-karikatura-kina-kolac.jpg
+        osa: {naziv: "Karikatura „Kina – kolač kraljeva i careva”", od: 1898, traka: svet}
+
+      - id: sv-uporedi-kina-japan
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [kina, japan]
+        a: Kina
+        b: Japan
+        pitanje: Na koju državu se odnosi tvrdnja — A, B, obe ili nijednu?
+        tvrdnje:
+          - {tekst: "Do početka XIX veka opirala se većem uticaju evropskih sila.", odgovor: oba, zasto: "Obe države su se opirale evropskom uticaju."}
+          - {tekst: "Sredinom XIX veka morala je da otvori luke.", odgovor: oba, zasto: "I Kina i Japan su bili primorani da otvore luke evropskim silama i SAD."}
+          - {tekst: "Sprovela je reforme po uzoru na Zapad.", odgovor: b, zasto: "Japan se reformisao; Kina se opirala zapadnim uticajima."}
+          - {tekst: "Ostala je ogromno, ali ekonomski i vojno zaostalo carstvo.", odgovor: a, zasto: "To je opis Kine."}
+          - {tekst: "Pretvorila je Koreju u koloniju.", odgovor: b, zasto: "Koreju je u koloniju pretvorio Japan."}
+          - {tekst: "Proglasila je nezavisnost od Portugalije.", odgovor: nijedan, zasto: "To je uradio Brazil."}
+        pomoc:
+          - Do sredine XIX veka imaju istu sudbinu.
+          - Posle otvaranja luka idu različitim putem.
+          - "Iz lekcije: Kina — zaostala, protiv stranaca; Japan — reforme, Koreja."
+        objasnjenje: Kina i Japan su do sredine XIX veka slični, a onda se razilaze — Japan se modernizuje i osvaja, Kina zaostaje.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Kina i Japan su otvorili luke sredinom XIX veka; Kina je ostala zaostala, a Japan se reformisao.
+
+      - id: sv-uporedi-spanija-britanija
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [spanija, velika-britanija, kolonija, velike-sile]
+        a: Španija
+        b: Velika Britanija
+        pitanje: Na koju državu se odnosi tvrdnja — A, B, obe ili nijednu?
+        tvrdnje:
+          - {tekst: "Izgubila je kolonije u Americi.", odgovor: oba, zasto: "Britanija je izgubila trinaest kolonija, a Španija većinu kolonija u Srednjoj i Južnoj Americi."}
+          - {tekst: "Gubitak je nadoknadila u Indiji, Kanadi i Australiji.", odgovor: b, zasto: "To je britanski put; Španija nije nadoknadila gubitak."}
+          - {tekst: "Od njenih kolonija nastale su države od Meksika do Argentine.", odgovor: a, zasto: "To su bivše španske kolonije."}
+          - {tekst: "Početkom XVI veka stvorila je veliko carstvo u Americi.", odgovor: a, zasto: "Špansko carstvo u Srednjoj i Južnoj Americi nastaje početkom XVI veka."}
+          - {tekst: "Krajem XIX veka bila je velika sila.", odgovor: b, zasto: "Britanija je među šest velikih sila; Španija nije."}
+          - {tekst: "Brazil je proglasio nezavisnost od nje.", odgovor: nijedan, zasto: "Brazil se odvojio od Portugalije."}
+        pomoc:
+          - Obe su izgubile deo Amerike, ali je samo jedna našla zamenu.
+          - Koja je na spisku velikih sila?
+          - "Iz lekcije: str. 12 — Britanija i Španija posle gubitka kolonija."
+        objasnjenje: Obe gube Ameriku; Britanija nadoknađuje gubitak i ostaje velika sila, Španija gubi carstvo.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Prostorni okviri novog veka
+          tekst: Britanija gubi trinaest kolonija ali se širi drugde; Španija gubi većinu kolonija i od njih nastaju latinoameričke države.
+
+      - id: sv-objasni-kolonija
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [kolonija, kolonijalizam]
+        pitanje: Šta je kolonija i zašto su evropske sile osnivale kolonije? Objasni svojim rečima.
+        uzor: Kolonija je posed neke strane sile u dalekim, prekomorskim krajevima. Sile su ih osnivale da bi iskorišćavale prirodna bogatstva tih krajeva, ali i njihovo stanovništvo. Krajem XIX veka velike sile su se nadmetale za nove kolonije.
+        ideje:
+          - Kolonija je posed strane sile daleko, preko mora.
+          - Cilj je iskorišćavanje prirodnih bogatstava.
+          - Iskorišćavano je i stanovništvo.
+        objasnjenje: Kolonija je prekomorski posed osnovan radi bogatstava; zato su se sile za njih takmičile.
+        iz_udzbenika:
+          strana: 12
+          odeljak: Definicije
+          tekst: Kolonija je posed strane sile u prekomorskim krajevima, naselje osnovano radi iskorišćavanja prirodnih bogatstava.
+
+      - id: sv-objasni-kina-kolac
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [kina, velike-sile, japan]
+        pitanje: Opiši karikaturu „Kina – kolač kraljeva i careva” (1898) i objasni njen naziv.
+        uzor: Na karikaturi kraljica Viktorija, car Vilhelm II, car Nikolaj II, Marijana kao simbol Francuske i japanski samuraj nožem seku pitu na kojoj piše Kina, a kineski mandarin očajno diže ruke. Naziv znači da je Kina za kraljeve i careve velikih sila kolač koji dele među sobom, na interesne zone ili kolonije, a Kina ne može da se odupre.
+        ideje:
+          - Vladari velikih sila (i Japan) seku Kinu kao kolač.
+          - Kineski mandarin je bespomoćan i očajan.
+          - Naziv znači da sile dele Kinu među sobom.
+        objasnjenje: Karikatura ismeva sile koje dele Kinu kao plen.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Udžbenik traži da se karikatura opiše, kaže šta sile rade Kini i objasni njen naziv.
+          slika: 01-osnovne-odlike-perioda-1780-1918/08-karikatura-kina-kolac.jpg
+        osa: {naziv: "Karikatura „Kina – kolač kraljeva i careva”", od: 1898, traka: svet}
+
+      - id: sv-objasni-japan
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [japan, kina, kolonijalizam]
+        pitanje: Kina i Japan su sredinom XIX veka imali sličnu sudbinu, a krajem veka jedna je bila plen, a druga osvajač. Objasni kako je do toga došlo.
+        uzor: Obe zemlje su se dugo opirale evropskom uticaju i obe su sredinom XIX veka bile primorane da otvore luke evropskim silama i SAD. Japan je zatim sproveo reforme po uzoru na Zapad — ukinuo feudalne odnose i modernizovao privredu i vojsku — pa je postao dovoljno jak da Koreju pretvori u koloniju i da se širi na račun Kine. Kina se opirala zapadnim uticajima i ostala ekonomski i vojno zaostala, pa su je velike sile delile.
+        ideje:
+          - Obe su bile primorane da otvore luke.
+          - Japan se reformisao po uzoru na Zapad.
+          - Japan postaje kolonijalna sila (Koreja).
+          - Kina ostaje zaostala i postaje meta sila.
+        objasnjenje: Razlika je u odgovoru na Zapad — Japan je preuzeo modernizaciju, Kina ju je odbijala.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Kina je ostala zaostalo carstvo, a Japan je reformama postao kolonijalna sila.
+
+  - naslov: Osmansko carstvo i Istočno pitanje
+    zadaci:
+      - id: ip-izbor-definicija
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [istocno-pitanje, osmansko-carstvo]
+        pitanje: Šta je Istočno pitanje?
+        odgovori:
+          - {tekst: "Pitanje opstanka Osmanskog carstva na Balkanu i Bliskom istoku", tacan: true}
+          - {tekst: "Pitanje podele Kine među velikim silama", tacan: false, zasto: "Podelu Kine prikazuje karikatura „Kina – kolač”; Istočno pitanje se tiče Osmanskog carstva."}
+          - {tekst: "Pitanje nezavisnosti trinaest kolonija", tacan: false, zasto: "To je rešeno u Američkom ratu za nezavisnost, krajem XVIII veka."}
+          - {tekst: "Pitanje otvaranja japanskih luka", tacan: false, zasto: "Otvaranje luka u Japanu i Kini nije deo Istočnog pitanja."}
+        pomoc:
+          - „Istok” je ovde Balkan i Bliski istok.
+          - Koje carstvo je tamo vladalo i slabilo?
+          - "Iz lekcije: Istočno pitanje = pitanje opstanka Osmanskog carstva."
+        objasnjenje: Istočno pitanje je diplomatski naziv za problem opstanka Osmanskog carstva.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Definicije
+          tekst: Istočno pitanje je pitanje opstanka Osmanskog carstva na Balkanu i na Bliskom istoku.
+
+      - id: ip-izbor-oblasti
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [osmansko-carstvo, balkansko-poluostrvo]
+        pitanje: Kojim oblastima je Osmansko carstvo i dalje vladalo krajem XVIII veka? (Više tačnih.)
+        odgovori:
+          - {tekst: "Većim delom Balkanskog poluostrva", tacan: true}
+          - {tekst: "Bliskim istokom", tacan: true}
+          - {tekst: "Severnom Afrikom", tacan: true}
+          - {tekst: "Indijom", tacan: false, zasto: "U Indiji su se borili Britanci i Francuzi; tamo nije bilo osmanske vlasti."}
+          - {tekst: "Korejom", tacan: false, zasto: "Koreja je krajem XIX veka postala japanska kolonija."}
+        pomoc:
+          - Tri oblasti oko istočnog Sredozemlja.
+          - Jedna je u Evropi, jedna u Aziji, jedna u Africi.
+          - "Iz lekcije: veći deo Balkana, Bliski istok i severna Afrika."
+        objasnjenje: Krajem XVIII veka Osmansko carstvo i dalje drži veći deo Balkana, Bliski istok i severnu Afriku.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Osmansko carstvo krajem XVIII veka i dalje vlada većim delom Balkanskog poluostrva, Bliskog istoka i severne Afrike.
+
+      - id: ip-izbor-zasto-odrzati
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [francuska, velika-britanija, osmansko-carstvo]
+        pitanje: Zašto su Francuska i Velika Britanija nastojale da održe Osmansko carstvo?
+        odgovori:
+          - {tekst: "Zbog svojih trgovačkih i političkih interesa", tacan: true}
+          - {tekst: "Zato što su želele da balkanski narodi ostanu bez države zbog vere", tacan: false, zasto: "Lekcija ne navodi veru; razlog su trgovački i politički interesi."}
+          - {tekst: "Zato što su bile saveznice Japana", tacan: false, zasto: "Japan nema veze sa Istočnim pitanjem u ovoj lekciji."}
+          - {tekst: "Zato što su želele same da osvoje Balkan", tacan: false, zasto: "Za osmanske teritorije na Balkanu bile su zainteresovane Rusija i Habzburška monarhija."}
+        pomoc:
+          - Ove dve sile žive od trgovine i kolonija.
+          - Kome bi pripao Balkan da carstvo propadne — i da li bi to odgovaralo Britaniji?
+          - "Iz lekcije: Francuska i V. Britanija nastoje da ga održe zbog trgovačkih i političkih interesa."
+        objasnjenje: Francuskoj i Britaniji je opstanak Osmanskog carstva odgovarao zbog trgovine i politike — da Balkan ne pripadne suparnicima.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Francuska i Velika Britanija nastoje da održe Osmansko carstvo zbog svojih trgovačkih i političkih interesa.
+
+      - id: ip-tn-interesi
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [habzburska-monarhija, rusija, osmansko-carstvo]
+        tvrdnja: Habzburška monarhija i Rusija bile su zainteresovane za osmanske teritorije na Balkanu.
+        tacno: true
+        pomoc:
+          - Koje velike sile su susedi Balkana?
+          - Jedna sa severa, jedna sa severoistoka.
+          - "Iz lekcije: Habzburška monarhija i Rusija zainteresovane su za osmanske teritorije na Balkanu."
+        objasnjenje: Tačno — susedne sile, Habzburška monarhija i Rusija, želele su osmanske teritorije na Balkanu.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Habzburška monarhija i Rusija zainteresovane su za osmanske teritorije na Balkanu.
+
+      - id: ip-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [istocno-pitanje, rusija, habzburska-monarhija, francuska]
+        pitanje: Dopuni rečenice o Istočnom pitanju.
+        tekst: "Za osmanske teritorije na Balkanu zanimale su se {{Rusija}} i Habzburška monarhija, dok su {{Francuska}} i Velika Britanija nastojale da carstvo održe. Balkanski narodi su težili {{oslobođenju}} i stvaranju nezavisnih država. Problem opstanka carstva u diplomatiji se zvao {{Istočno pitanje}}."
+        ponudjene: [Rusija, Francuska, Italija, oslobođenju, ujedinjenju sa Turskom, Istočno pitanje, jagma za Afrikom]
+        pomoc:
+          - Jedna sila je istočno, druga zapadno.
+          - Šta žele narodi pod tuđom vlašću?
+          - "Iz lekcije: Rusija i Habzburgovci — teritorije; Francuska i Britanija — održati carstvo; balkanski narodi — oslobođenje."
+        objasnjenje: Tri strane — sile koje žele teritorije, sile koje žele da održe carstvo i narodi koji žele slobodu — čine Istočno pitanje.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Rusija i Habzburška monarhija žele osmanske teritorije, Francuska i Britanija carstvo održavaju, a balkanski narodi teže oslobođenju.
+
+      - id: ip-povezi-strane
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [istocno-pitanje, rusija, francuska, balkansko-poluostrvo]
+        pitanje: Poveži učesnika Istočnog pitanja sa onim što želi.
+        parovi:
+          - ["Rusija i Habzburška monarhija", "osmanske teritorije na Balkanu"]
+          - ["Francuska i Velika Britanija", "da se Osmansko carstvo održi"]
+          - ["balkanski narodi", "oslobođenje i nezavisne države"]
+        pomoc:
+          - Ko živi pod osmanskom vlašću?
+          - Ko ima trgovačke interese?
+          - "Iz lekcije: str. 13 — tri strane Istočnog pitanja."
+        objasnjenje: Jedni hoće teritorije, drugi opstanak carstva, treći slobodu.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Udžbenik opisuje suprotstavljene interese sila i balkanskih naroda prema Osmanskom carstvu.
+
+      - id: ip-zakljuci-narodi
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [balkansko-poluostrvo, osmansko-carstvo]
+        pitanje: Zašto su balkanski narodi bili protiv održavanja Osmanskog carstva?
+        odgovori:
+          - {tekst: "Težili su oslobođenju od turske vlasti i stvaranju svojih nezavisnih država", tacan: true}
+          - {tekst: "Želeli su da postanu britanske kolonije", tacan: false, zasto: "Težili su nezavisnosti, ne novoj tuđoj vlasti."}
+          - {tekst: "Želeli su da se Osmansko carstvo proširi na Afriku", tacan: false, zasto: "Carstvo je već vladalo severnom Afrikom; narodi su želeli slobodu."}
+          - {tekst: "Bili su zadovoljni turskom vlašću", tacan: false, zasto: "Da su bili zadovoljni, ne bi težili oslobođenju."}
+        pomoc:
+          - "Korak 1: Pod čijom vlašću su živeli?"
+          - "Korak 2: Šta želi narod pod tuđom vlašću?"
+          - "Iz lekcije: balkanski narodi teže oslobođenju od turske vlasti i stvaranju nezavisnih država."
+        objasnjenje: Balkanski narodi su želeli svoje države, pa im opstanak Osmanskog carstva nije odgovarao.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Balkanski narodi teže oslobođenju od turske vlasti i stvaranju nezavisnih država.
+
+      - id: ip-zakljuci-tesko
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [istocno-pitanje, velike-sile]
+        pitanje: Zašto se opstanak Osmanskog carstva u diplomatiji zvao „pitanje” — nešto što se dugo nije moglo rešiti?
+        odgovori:
+          - {tekst: "Zato što su se interesi velikih sila i balkanskih naroda sudarali, pa nijedno rešenje nije odgovaralo svima", tacan: true}
+          - {tekst: "Zato što niko nije znao gde se carstvo nalazi", tacan: false, zasto: "Carstvo je bilo poznato — vladalo je Balkanom, Bliskim istokom i severnom Afrikom."}
+          - {tekst: "Zato što su sve sile želele isto", tacan: false, zasto: "Upravo suprotno — jedne su htele teritorije, druge opstanak carstva."}
+          - {tekst: "Zato što je Osmansko carstvo bilo velika sila", tacan: false, zasto: "Nije bilo među šest velikih sila; slabilo je."}
+        pomoc:
+          - "Korak 1: Šta žele Rusija i Habzburgovci, a šta Francuska i Britanija?"
+          - "Korak 2: Šta žele balkanski narodi? Može li se svima udovoljiti?"
+          - "Iz lekcije: problem opstanka Osmanskog carstva u diplomatiji se zove Istočno pitanje."
+        objasnjenje: Svaka strana je htela nešto drugo, pa je opstanak carstva ostao otvoreno „pitanje” diplomatije.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Suprotstavljeni interesi sila i težnje balkanskih naroda čine problem opstanka Osmanskog carstva — Istočno pitanje.
+
+      - id: ip-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [istocno-pitanje, osmansko-carstvo]
+        karike:
+          - Rusija i Habzburška monarhija žele osmanske teritorije na Balkanu
+          - Francuska i Britanija žele da održe Osmansko carstvo
+          - Balkanski narodi teže oslobođenju
+          - "?"
+        praznina: 3
+        odgovori:
+          - {tekst: "Opstanak Osmanskog carstva postaje Istočno pitanje", tacan: true}
+          - {tekst: "Počinje jagma za Afrikom", tacan: false, zasto: "Jagma za Afrikom je trka za afričke kolonije, ne problem Osmanskog carstva."}
+          - {tekst: "Nastaju SAD", tacan: false, zasto: "SAD nastaju u Američkom ratu za nezavisnost, daleko od Balkana."}
+          - {tekst: "Osmansko carstvo postaje velika sila", tacan: false, zasto: "Ono slabi; o njegovom opstanku se raspravlja."}
+        pomoc:
+          - "Korak 1: Tri strane žele tri različite stvari."
+          - "Korak 2: Kako diplomatija zove taj problem?"
+          - "Iz lekcije: problem opstanka Osmanskog carstva = Istočno pitanje."
+        objasnjenje: Sukob interesa oko Osmanskog carstva naziva se Istočno pitanje.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Interesi sila i težnje balkanskih naroda oko Osmanskog carstva čine Istočno pitanje.
+
+      - id: ip-uporedi
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [istocno-pitanje, rusija, habzburska-monarhija, francuska, velika-britanija]
+        a: Rusija i Habzburška monarhija
+        b: Francuska i Velika Britanija
+        pitanje: Na koju grupu se odnosi tvrdnja — A, B, obe ili nijednu?
+        tvrdnje:
+          - {tekst: "Zainteresovane su za osmanske teritorije na Balkanu.", odgovor: a, zasto: "To su sile susedne Balkanu."}
+          - {tekst: "Nastoje da održe Osmansko carstvo.", odgovor: b, zasto: "Francuska i Britanija ga održavaju zbog trgovačkih i političkih interesa."}
+          - {tekst: "Ubrajaju se u velike sile.", odgovor: oba, zasto: "Sve četiri su među šest velikih sila."}
+          - {tekst: "Teže stvaranju sopstvenih nezavisnih država na Balkanu.", odgovor: nijedan, zasto: "To je težnja balkanskih naroda."}
+          - {tekst: "Njihova volja je ključna za Istočno pitanje.", odgovor: oba, zasto: "Upravo sukob ove dve grupe sila čini Istočno pitanje teško rešivim."}
+        pomoc:
+          - Jedna grupa želi, druga brani.
+          - Ko sve od njih je velika sila?
+          - "Iz lekcije: Rusija i Habzburgovci — teritorije; Francuska i Britanija — održavanje carstva."
+        objasnjenje: Dve grupe velikih sila imale su suprotne ciljeve; balkanski narodi su treća strana.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Habzburška monarhija i Rusija žele osmanske teritorije, a Francuska i Britanija nastoje da održe carstvo.
+
+      - id: ip-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [istocno-pitanje, osmansko-carstvo, balkansko-poluostrvo]
+        pitanje: Objasni svojim rečima šta je Istočno pitanje i ko je u njemu šta želeo.
+        uzor: Istočno pitanje je pitanje opstanka Osmanskog carstva na Balkanu i Bliskom istoku. Rusija i Habzburška monarhija želele su osmanske teritorije na Balkanu, a Francuska i Velika Britanija su nastojale da carstvo održe zbog trgovačkih i političkih interesa. Balkanski narodi su težili oslobođenju i stvaranju nezavisnih država.
+        ideje:
+          - Pitanje opstanka Osmanskog carstva.
+          - Rusija i Habzburška monarhija žele njegove teritorije.
+          - Francuska i Britanija žele da ga održe.
+          - Balkanski narodi žele oslobođenje.
+        objasnjenje: Istočno pitanje je čvor suprotstavljenih interesa oko slabog Osmanskog carstva.
+        iz_udzbenika:
+          strana: 13
+          odeljak: Prostorni okviri novog veka
+          tekst: Udžbenik objašnjava interese sila i balkanskih naroda prema Osmanskom carstvu i naziva taj problem Istočnim pitanjem.
+
+  - naslov: Srpski narod 1780–1918
+    zadaci:
+      - id: sr-izbor-carstva
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [habzburska-monarhija, osmansko-carstvo]
+        pitanje: Na području kojih velikih carstava su Srbi živeli na početku perioda 1780–1918?
+        odgovori:
+          - {tekst: "Habzburškog i Osmanskog", tacan: true}
+          - {tekst: "Ruskog i Britanskog", tacan: false, zasto: "Srbi su živeli na Balkanu i u Podunavlju — pod Habzburzima i Osmanlijama."}
+          - {tekst: "Španskog i Portugalskog", tacan: false, zasto: "To su kolonijalna carstva u Americi."}
+          - {tekst: "Samo Osmanskog", tacan: false, zasto: "Značajan deo Srba živeo je i u Habzburškoj monarhiji (a do 1797. i u Mletačkoj republici)."}
+        pomoc:
+          - Dva carstva su se graničila na Savi i Dunavu.
+          - Jedno hrišćansko, sa sedištem u Beču; drugo tursko.
+          - "Iz lekcije: Srbi žive u Habzburškom i Osmanskom carstvu."
+        objasnjenje: Srbi su na početku perioda bili podeljeni između Habzburškog i Osmanskog carstva (i Mletačke republike do 1797).
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Na početku perioda Srbi žive na području Habzburškog i Osmanskog carstva, a do 1797. i u Mletačkoj republici.
+
+      - id: sr-izbor-knezevina
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [knezevina-srbija, prvi-srpski-ustanak, drugi-srpski-ustanak]
+        pitanje: Kako je početkom XIX veka nastala Kneževina Srbija?
+        odgovori:
+          - {tekst: "Kao rezultat Prvog i Drugog srpskog ustanka", tacan: true}
+          - {tekst: "Odlukom Berlinskog kongresa", tacan: false, zasto: "Berlinski kongres (1878) priznao je nezavisnost već postojeće Kneževine."}
+          - {tekst: "U balkanskim ratovima", tacan: false, zasto: "Balkanski ratovi su početkom XX veka i u njima Srbija oslobađa druge krajeve."}
+          - {tekst: "Ukidanjem Mletačke republike", tacan: false, zasto: "Mletačka republika je ukinuta 1797, ali to nije stvorilo Srbiju."}
+        pomoc:
+          - Srbi su se podigli protiv turske vlasti — dva puta.
+          - Slika Katarine Ivanović prikazuje jedan događaj iz te borbe.
+          - "Iz lekcije: Kneževina Srbija nastaje kao rezultat Prvog i Drugog srpskog ustanka."
+        objasnjenje: Ustanci početkom XIX veka stvorili su Kneževinu Srbiju.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Početkom XIX veka, kao rezultat Prvog i Drugog srpskog ustanka, nastaje Kneževina Srbija.
+        osa: {naziv: "Srpski ustanci i Kneževina Srbija", od: 1800, do: 1830, traka: srbi, oznaka: "početak XIX veka"}
+
+      - id: sr-izbor-mitropolija
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [karlovacka-mitropolija, habzburska-monarhija]
+        pitanje: Kako je bila organizovana srpska crkva u Habzburškoj monarhiji, koja je čuvala nacionalni i verski identitet Srba?
+        odgovori:
+          - {tekst: "U Karlovačku mitropoliju", tacan: true}
+          - {tekst: "Pod vođstvom cetinjskih mitropolita Petrovića Njegoša", tacan: false, zasto: "Cetinjski mitropoliti su vodili Crnu Goru, ne Srbe u Habzburškoj monarhiji."}
+          - {tekst: "Bila je deo rimokatoličke crkve", tacan: false, zasto: "Srpska crkva je bila zasebna i čuvala je srpski verski identitet."}
+          - {tekst: "Nije postojala nikakva srpska crkva", tacan: false, zasto: "Postojala je — Karlovačka mitropolija."}
+        pomoc:
+          - Ime dolazi od grada na Dunavu, u Sremu.
+          - Mitropolija je crkvena oblast.
+          - "Iz lekcije: srpska crkva organizovana u Karlovačku mitropoliju."
+        objasnjenje: Karlovačka mitropolija je čuvala nacionalni i verski identitet Srba u Habzburškoj monarhiji.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Nacionalni i verski identitet Srba u Habzburškoj monarhiji čuva srpska crkva organizovana u Karlovačku mitropoliju.
+
+      - id: sr-izbor-osmanski-krajevi
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [raska-oblast, kosovo-i-metohija, severna-makedonija, balkanski-ratovi]
+        pitanje: Koji krajevi sa srpskim stanovništvom su posle 1878. ostali pod osmanskom vlašću sve do balkanskih ratova? (Više tačnih.)
+        odgovori:
+          - {tekst: "Raška oblast", tacan: true}
+          - {tekst: "Kosovo i Metohija", tacan: true}
+          - {tekst: "Severni i severozapadni delovi današnje Severne Makedonije", tacan: true}
+          - {tekst: "Bosna i Hercegovina", tacan: false, zasto: "BiH je 1878. okupirala Habzburška monarhija — više nije bila pod turskom upravom."}
+          - {tekst: "Crna Gora", tacan: false, zasto: "Crna Gora je 1878. priznata kao nezavisna država."}
+        pomoc:
+          - Traži krajeve južno od Srbije.
+          - Jedan kraj je 1878. promenio vlast, ali ne ka slobodi.
+          - "Iz lekcije: pod osmanskom vlašću ostaju Raška oblast, Kosovo, Metohija i delovi današnje Severne Makedonije."
+        objasnjenje: Raška, Kosovo, Metohija i delovi Severne Makedonije oslobođeni su tek u balkanskim ratovima; BiH je 1878. prešla pod Austrougarsku.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Deo Srba i dalje živi pod osmanskom vlašću — u Raškoj oblasti, na Kosovu, u Metohiji i u delovima današnje Severne Makedonije.
+
+      - id: sr-tn-berlinski
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [berlinski-kongres, knezevina-srbija, crna-gora]
+        tvrdnja: Na Berlinskom kongresu 1878. Srbija i Crna Gora priznate su kao nezavisne države.
+        tacno: true
+        pomoc:
+          - Šta je Srbija do 1878. priznavala?
+          - Šta se 1878. promenilo za obe srpske države?
+          - "Iz lekcije: Srbija i Crna Gora priznate su za nezavisne na Berlinskom kongresu 1878."
+        objasnjenje: Tačno — 1878. obe srpske države postaju i zvanično nezavisne.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Kneževina Srbija je do Berlinskog kongresa 1878. priznavala vrhovnu vlast sultana; Crna Gora je, kao i Srbija, tada priznata za nezavisnu.
+        osa: {naziv: "Berlinski kongres", od: 1878, traka: srbi}
+
+      - id: sr-tn-sultan
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [knezevina-srbija, berlinski-kongres, osmansko-carstvo]
+        tvrdnja: Kneževina Srbija je od svog nastanka bila potpuno nezavisna država.
+        tacno: false
+        ispravke:
+          - {tekst: "Kneževina Srbija je do Berlinskog kongresa 1878. priznavala vrhovnu vlast osmanskog sultana.", tacan: true}
+          - {tekst: "Kneževina Srbija je do 1878. bila deo Habzburške monarhije.", tacan: false, zasto: "Srbija je nastala ustancima protiv Turaka i priznavala je vlast sultana, ne Habzburga."}
+          - {tekst: "Kneževina Srbija je nezavisnost dobila tek u balkanskim ratovima.", tacan: false, zasto: "Nezavisnost je priznata 1878; u balkanskim ratovima Srbija oslobađa druge krajeve."}
+        pomoc:
+          - Kneževina nije isto što i nezavisna država.
+          - Čiju je vrhovnu vlast priznavala?
+          - "Iz lekcije: do Berlinskog kongresa 1878. priznavala je vrhovnu vlast osmanskog sultana."
+        objasnjenje: Kneževina Srbija je imala svoju vlast, ali je do 1878. priznavala vrhovnu vlast sultana.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Kneževina Srbija je do Berlinskog kongresa 1878. priznavala vrhovnu vlast osmanskog sultana.
+        osa: {naziv: "Berlinski kongres", od: 1878, traka: srbi}
+
+      - id: sr-tn-bih
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [bosna-i-hercegovina, habzburska-monarhija]
+        tvrdnja: Godine 1878. Bosna i Hercegovina oslobođena je i pripojena Srbiji.
+        tacno: false
+        ispravke:
+          - {tekst: "Godine 1878. Habzburška monarhija je okupirala Bosnu i Hercegovinu, koja je dotad bila pod turskom upravom.", tacan: true}
+          - {tekst: "Godine 1878. Bosna i Hercegovina postala je nezavisna kneževina.", tacan: false, zasto: "Nezavisne su postale Srbija i Crna Gora; BiH je okupirala Habzburška monarhija."}
+          - {tekst: "Godine 1878. Bosnu i Hercegovinu je zauzela Crna Gora.", tacan: false, zasto: "BiH je okupirala Habzburška (Austrougarska) monarhija."}
+        pomoc:
+          - Pod čiju vlast je BiH prešla 1878?
+          - Zbog toga se povećao broj Srba pod austrougarskom vlašću.
+          - "Iz lekcije: 1878. Habzburška monarhija okupira BiH."
+        objasnjenje: BiH je 1878. iz turske prešla pod austrougarsku vlast — zato je više Srba živelo u Austrougarskoj.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Broj Srba pod austrougarskom vlašću povećao se kada je Habzburška monarhija 1878. okupirala Bosnu i Hercegovinu.
+        osa: {naziv: "Okupacija Bosne i Hercegovine", od: 1878, traka: srbi}
+
+      - id: sr-tn-crna-gora
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [crna-gora, petrovici-njegosi, obrenovici]
+        tvrdnja: Crna Gora se borila za osamostaljenje pod vođstvom knezova iz dinastije Obrenović.
+        tacno: false
+        ispravke:
+          - {tekst: "Crnu Goru su vodili cetinjski mitropoliti iz porodice Petrović Njegoš.", tacan: true}
+          - {tekst: "Crnu Goru su vodili Karađorđevići.", tacan: false, zasto: "Karađorđevići i Obrenovići su naizmenično vladali Srbijom."}
+          - {tekst: "Crnu Goru je vodio osmanski sultan.", tacan: false, zasto: "Crna Gora se upravo borila za osamostaljenje od turske vlasti."}
+        pomoc:
+          - Obrenovići su jedna od dve srpske dinastije u Srbiji.
+          - Crnu Goru su vodili crkveni poglavari sa Cetinja.
+          - "Iz lekcije: cetinjski mitropoliti iz porodice Petrovića Njegoša."
+        objasnjenje: Crnu Goru vode mitropoliti iz porodice Petrović Njegoš; Obrenovići i Karađorđevići vladaju Srbijom.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Crna Gora se pod vođstvom cetinjskih mitropolita iz porodice Petrovića Njegoša borila za osamostaljenje od turske vlasti.
+
+      - id: sr-dopuni-srbija
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [knezevina-srbija, karadjordjevici, obrenovici]
+        pitanje: Dopuni rečenice o Kneževini Srbiji.
+        tekst: "Ukidanjem turskog feudalnog uređenja Srbija je postala zemlja {{slobodnih seljaka}}. Srbijom su naizmenično vladale dve dinastije — {{Karađorđevići}} i {{Obrenovići}}."
+        ponudjene: [slobodnih seljaka, kmetova, Karađorđevići, Obrenovići, Habzburgovci, Petrovići Njegoši]
+        pomoc:
+          - Kad nestane feudalnog gospodara, seljak postaje …
+          - Dinastije nose imena po vođama ustanaka.
+          - "Iz lekcije: zemlja slobodnih seljaka; Karađorđevići i Obrenovići."
+        objasnjenje: Srbija postaje zemlja slobodnih seljaka; vladaju je naizmenično Karađorđevići i Obrenovići.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Ukidanjem turskog feudalnog uređenja Srbija postaje zemlja slobodnih seljaka; do početka XX veka naizmenično vladaju Karađorđevići i Obrenovići.
+
+      - id: sr-dopuni-habzburg
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [gradjanstvo, karlovacka-mitropolija, habzburska-monarhija]
+        pitanje: Dopuni rečenice o Srbima u Habzburškoj monarhiji.
+        tekst: "Najimućniji i najobrazovaniji sloj Srba u Habzburškoj monarhiji bilo je {{građanstvo}}, koje je ulagalo u kulturne i {{prosvetne}} ustanove. Nacionalni i verski identitet čuvala je {{Karlovačka mitropolija}}."
+        ponudjene: [građanstvo, plemstvo, prosvetne, vojne, Karlovačka mitropolija, Pećka patrijaršija]
+        pomoc:
+          - Isti sloj koji jača i u ostatku Evrope.
+          - Ustanove za školovanje su …
+          - "Iz lekcije: građanstvo ulaže u kulturne i prosvetne ustanove; Karlovačka mitropolija."
+        objasnjenje: Srpsko građanstvo i Karlovačka mitropolija čuvali su identitet Srba u Habzburškoj monarhiji.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Srpsko građanstvo u Habzburškoj monarhiji ulaže u kulturne i prosvetne ustanove, a identitet čuva i Karlovačka mitropolija.
+
+      - id: sr-dopuni-tesko
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [mletacka-republika, katarina-ivanovic, crna-gora]
+        pitanje: Dopuni rečenice (bez ponuđenih reči).
+        tekst: "Pored Habzburškog i Osmanskog carstva, Srbi su do 1797. živeli i u {{Mletačkoj republici|Mletačkoj|Veneciji}}. Crna Gora je sredinom XIX veka postala {{kneževina|knezevina}}. Sliku „Oslobođenje Beograda u Prvom srpskom ustanku” naslikala je prva srpska slikarka {{Katarina Ivanović|Ivanović}}."
+        pomoc:
+          - Republika sa sedištem u Veneciji ukinuta je 1797.
+          - Crna Gora je dobila isti oblik vladavine kao Srbija posle ustanka.
+          - "Iz lekcije: Mletačka republika; Crna Gora kneževina; Katarina Ivanović."
+        objasnjenje: Mletačka republika (do 1797), Crna Gora kao kneževina (sredina XIX veka), Katarina Ivanović — prva srpska slikarka.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Srbi su do 1797. živeli i u Mletačkoj republici; Crna Gora sredinom veka postaje kneževina; sliku Oslobođenje Beograda naslikala je Katarina Ivanović.
+
+      - id: sr-povezi-drzave
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [knezevina-srbija, crna-gora, karlovacka-mitropolija, osmansko-carstvo]
+        pitanje: Poveži oblast sa onim što je za nju karakteristično.
+        parovi:
+          - ["Kneževina Srbija", "nastala iz Prvog i Drugog srpskog ustanka"]
+          - ["Crna Gora", "vodili su je cetinjski mitropoliti Petrovići Njegoši"]
+          - ["Habzburška monarhija", "srpska crkva organizovana u Karlovačku mitropoliju"]
+          - ["Osmansko carstvo", "Raška oblast, Kosovo i Metohija ostaju pod njegovom vlašću"]
+        pomoc:
+          - Dve srpske države i dva carstva.
+          - Mitropolija na Cetinju i mitropolija u Karlovcima su različite.
+          - "Iz lekcije: str. 14."
+        objasnjenje: Srbija — ustanci; Crna Gora — Petrovići Njegoši; Habzburška monarhija — Karlovačka mitropolija; Osmansko carstvo — Raška, Kosovo, Metohija.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Udžbenik opisuje Srbe u Srbiji, Crnoj Gori, Habzburškoj monarhiji i Osmanskom carstvu.
+
+      - id: sr-povezi-posledice
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [prvi-srpski-ustanak, knezevina-srbija, bosna-i-hercegovina, balkanski-ratovi]
+        pitanje: Poveži uzrok sa posledicom.
+        parovi:
+          - ["Prvi i Drugi srpski ustanak", "nastanak Kneževine Srbije"]
+          - ["ukidanje turskog feudalnog uređenja", "Srbija postaje zemlja slobodnih seljaka"]
+          - ["okupacija BiH 1878.", "više Srba pod austrougarskom vlašću"]
+          - ["pritisci turskih vlasti i muslimanskih suseda", "iseljavanje Srba u Srbiju"]
+          - ["balkanski ratovi", "oslobođenje Raške, Kosova, Metohije i delova Makedonije"]
+        pomoc:
+          - Kreni od najranijeg događaja — ustanaka.
+          - Šta se desi kad carstvo zauzme novu oblast sa Srbima?
+          - "Iz lekcije: odeljak „Uzrok → posledica” o srpskom narodu."
+        objasnjenje: Ustanci → Kneževina; ukidanje feudalizma → slobodni seljaci; okupacija BiH → više Srba u Austrougarskoj; pritisci → iseljavanje; balkanski ratovi → oslobođenje.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Lekcija prati kako su ustanci, okupacija BiH, pritisci i balkanski ratovi menjali položaj Srba.
+
+      - id: sr-datum-berlinski
+        vrsta: datum
+        tezina: lako
+        pojmovi: [berlinski-kongres]
+        dogadjaj: "Berlinski kongres"
+        pitanje: Koje godine je održan Berlinski kongres na kome su Srbija i Crna Gora priznate kao nezavisne?
+        godina: 1878
+        traka: srbi
+        pomoc:
+          - Bilo je to u drugoj polovini XIX veka, u sedamdesetim godinama.
+          - Iste godine Habzburška monarhija okupira BiH.
+          - "Iz lekcije: Berlinski kongres, 1878."
+        objasnjenje: Berlinski kongres je 1878; Srbija i Crna Gora tada postaju nezavisne.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Srbija i Crna Gora priznate su kao nezavisne države na Berlinskom kongresu 1878.
+
+      - id: sr-datum-mletacka
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [mletacka-republika]
+        dogadjaj: "Ukidanje Mletačke republike"
+        pitanje: Koje godine je ukinuta Mletačka republika, na čijem prostoru su takođe živeli Srbi?
+        godina: 1797
+        traka: srbi
+        pomoc:
+          - Pred sam kraj XVIII veka.
+          - Godinu dana posle Dženerove vakcine.
+          - "Iz lekcije: Mletačka republika je ukinuta 1797."
+        objasnjenje: Mletačka republika je ukinuta 1797; do tada su i u njoj živeli Srbi.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Srbi su živeli i na prostoru Mletačke republike do njenog ukidanja 1797.
+
+      - id: sr-poredjaj-srbi
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [knezevina-srbija, berlinski-kongres, balkanski-ratovi]
+        pitanje: Poređaj događaje iz srpske istorije hronološki.
+        stavke:
+          - {tekst: "Prvi i Drugi srpski ustanak — nastaje Kneževina Srbija", godina: 1800, do: 1830, naziv: "Srpski ustanci i Kneževina Srbija", traka: srbi, oznaka: "početak XIX veka"}
+          - {tekst: "Berlinski kongres priznaje nezavisnost Srbije i Crne Gore", godina: 1878, naziv: "Berlinski kongres", traka: srbi}
+          - {tekst: "Balkanski ratovi oslobađaju Rašku, Kosovo i Metohiju", godina: 1900, do: 1914, naziv: "Balkanski ratovi", traka: srbi, oznaka: "početak XX veka"}
+        pomoc:
+          - Prvo mora nastati država, pa tek onda biti priznata.
+          - Balkanski ratovi su početkom XX veka.
+          - "Iz lekcije: ustanci (početak XIX veka) → Berlinski kongres (1878) → balkanski ratovi (početak XX veka)."
+        objasnjenje: Ustanci (početak XIX veka) → Berlinski kongres 1878 → balkanski ratovi (početak XX veka).
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Kneževina Srbija nastaje početkom XIX veka, nezavisna je od 1878, a u balkanskim ratovima oslobađa preostale krajeve.
+
+      - id: sr-poredjaj-srednje
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [mletacka-republika, crna-gora, berlinski-kongres, balkanski-ratovi]
+        pitanje: Poređaj događaje hronološki.
+        stavke:
+          - {tekst: "Ukinuta je Mletačka republika", godina: 1797, naziv: "Ukidanje Mletačke republike", traka: srbi}
+          - {tekst: "Ustanci stvaraju Kneževinu Srbiju", godina: 1800, do: 1830, naziv: "Srpski ustanci i Kneževina Srbija", traka: srbi, oznaka: "početak XIX veka"}
+          - {tekst: "Crna Gora postaje kneževina", godina: 1840, do: 1860, naziv: "Crna Gora postaje kneževina", traka: srbi, oznaka: "sredina XIX veka"}
+          - {tekst: "Habzburška monarhija okupira Bosnu i Hercegovinu", godina: 1878, naziv: "Okupacija Bosne i Hercegovine", traka: srbi}
+          - {tekst: "Počinju balkanski ratovi", godina: 1900, do: 1914, naziv: "Balkanski ratovi", traka: srbi, oznaka: "početak XX veka"}
+        pomoc:
+          - Jedini događaj iz XVIII veka je kraj jedne republike.
+          - Srbija postaje kneževina pre Crne Gore.
+          - "Iz lekcije: 1797 → početak XIX veka → sredina XIX veka → 1878 → početak XX veka."
+        objasnjenje: Mletačka republika (1797) → Kneževina Srbija (početak XIX veka) → Crna Gora kneževina (sredina veka) → okupacija BiH (1878) → balkanski ratovi.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Lekcija prati Srbe od ukidanja Mletačke republike 1797. do balkanskih ratova početkom XX veka.
+
+      - id: sr-poredjaj-tesko
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [katarina-ivanovic, berlinski-kongres, mletacka-republika, dzozef-lister]
+        pitanje: Poređaj događaje iz cele lekcije hronološki — srpske i svetske.
+        stavke:
+          - {tekst: "Ukinuta je Mletačka republika", godina: 1797, naziv: "Ukidanje Mletačke republike", traka: srbi}
+          - {tekst: "Katarina Ivanović slika „Oslobođenje Beograda”", godina: 1844, do: 1845, naziv: "Slika „Oslobođenje Beograda”", traka: srbi}
+          - {tekst: "Lister ukazuje na sterilisanje instrumenata", godina: 1861, naziv: "Lister: sterilisanje instrumenata", traka: otkrica}
+          - {tekst: "Održava se Berlinski kongres", godina: 1878, naziv: "Berlinski kongres", traka: srbi}
+          - {tekst: "Rendgen otkriva iks-zrake", godina: 1895, naziv: "Rendgen: iks-zraci", traka: otkrica}
+        pomoc:
+          - Najraniji događaj je iz XVIII veka.
+          - Slika je iz sredine četrdesetih godina XIX veka; Lister iz šezdesetih.
+          - "Iz lekcije: 1797 → oko 1844/45 → 1861 → 1878 → 1895."
+        objasnjenje: 1797 Mletačka → 1844/45 slika → 1861 Lister → 1878 Berlinski kongres → 1895 Rendgen.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Godine iz lekcije — Mletačka republika 1797, slika Katarine Ivanović oko 1844/45, Lister 1861, Berlinski kongres 1878, Rendgen 1895.
+
+      - id: sr-zakljuci-bih
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [bosna-i-hercegovina, habzburska-monarhija]
+        pitanje: Zašto se 1878. povećao broj Srba pod austrougarskom vlašću?
+        odgovori:
+          - {tekst: "Zato što je Habzburška monarhija okupirala Bosnu i Hercegovinu", tacan: true}
+          - {tekst: "Zato što su se Srbi iz Srbije masovno iselili u Austrougarsku", tacan: false, zasto: "Lekcija govori o iseljavanju Srba iz osmanskih krajeva u Srbiju, ne iz Srbije."}
+          - {tekst: "Zato što je Srbija postala deo Austrougarske", tacan: false, zasto: "Srbija je 1878. postala nezavisna država."}
+          - {tekst: "Zato što je ukinuta Mletačka republika", tacan: false, zasto: "Mletačka republika je ukinuta 1797, osamdeset godina ranije."}
+        pomoc:
+          - "Korak 1: Koja oblast sa mnogo Srba je 1878. promenila vlast?"
+          - "Korak 2: Ko ju je zauzeo?"
+          - "Iz lekcije: 1878. Habzburška monarhija okupira Bosnu i Hercegovinu."
+        objasnjenje: Okupacijom BiH Srbi koji su tamo živeli našli su se pod austrougarskom vlašću.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Broj Srba pod austrougarskom vlašću povećao se kada je Habzburška monarhija 1878. okupirala BiH.
+        osa: {naziv: "Okupacija Bosne i Hercegovine", od: 1878, traka: srbi}
+
+      - id: sr-zakljuci-iseljavanje
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [raska-oblast, kosovo-i-metohija, knezevina-srbija]
+        pitanje: Zašto su se Srbi iz Raške oblasti, sa Kosova i iz Metohije stalno iseljavali u Srbiju?
+        odgovori:
+          - {tekst: "Zbog pritisaka turskih vlasti i muslimanskih suseda", tacan: true}
+          - {tekst: "Zato što su u Srbiji bile fabrike i radnička prava", tacan: false, zasto: "Lekcija razlog vidi u pritiscima, ne u fabrikama."}
+          - {tekst: "Zato što je Austrougarska okupirala te krajeve", tacan: false, zasto: "Austrougarska je okupirala BiH; Raška, Kosovo i Metohija ostaju pod Osmanlijama."}
+          - {tekst: "Zato što je to naredio Berlinski kongres", tacan: false, zasto: "Berlinski kongres je priznao nezavisnost Srbije i Crne Gore, a nije naređivao seobe."}
+        pomoc:
+          - "Korak 1: Pod čijom su vlašću ti krajevi ostali?"
+          - "Korak 2: Zašto bi neko napuštao dom?"
+          - "Iz lekcije: zbog pritisaka turskih vlasti i muslimanskih suseda srpsko stanovništvo se iseljavalo u Srbiju."
+        objasnjenje: Pod osmanskom vlašću Srbi su trpeli pritiske, pa su se selili u slobodnu Srbiju.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Zbog pritisaka turskih vlasti i muslimanskih suseda srpsko stanovništvo iz osmanskih krajeva stalno se iseljavalo u Srbiju.
+
+      - id: sr-zakljuci-identitet
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [gradjanstvo, karlovacka-mitropolija, habzburska-monarhija]
+        pitanje: Srbi u Habzburškoj monarhiji nisu imali svoju državu. Kako su ipak sačuvali nacionalni identitet?
+        odgovori:
+          - {tekst: "Građanstvo je ulagalo u kulturne i prosvetne ustanove, a Karlovačka mitropolija je čuvala veru i narodnost", tacan: true}
+          - {tekst: "Iselili su se svi u Kneževinu Srbiju", tacan: false, zasto: "Značajan deo Srba živeo je i dalje u Habzburškoj monarhiji — njihov broj je čak rastao."}
+          - {tekst: "Prihvatili su nemački jezik kao svoj", tacan: false, zasto: "Lekcija o tome ne govori; identitet su čuvale srpske kulturne ustanove i crkva."}
+          - {tekst: "Vodili su ih cetinjski mitropoliti", tacan: false, zasto: "Cetinjski mitropoliti su vodili Crnu Goru; u Habzburškoj je bila Karlovačka mitropolija."}
+        pomoc:
+          - "Korak 1: Koji je sloj bio najbogatiji i najobrazovaniji? U šta je ulagao?"
+          - "Korak 2: Koja ustanova čuva veru?"
+          - "Iz lekcije: građanstvo — kulturne i prosvetne ustanove; Karlovačka mitropolija — nacionalni i verski identitet."
+        objasnjenje: Bez države, Srbi su identitet čuvali kroz kulturu, škole i crkvu.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Srpsko građanstvo u Habzburškoj monarhiji ulaže u kulturne i prosvetne ustanove, a Karlovačka mitropolija čuva nacionalni i verski identitet.
+
+      - id: sr-zakljuci-1878
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [berlinski-kongres, knezevina-srbija, osmansko-carstvo]
+        pitanje: Šta se promenilo u odnosu Srbije i osmanskog sultana posle Berlinskog kongresa 1878?
+        odgovori:
+          - {tekst: "Srbija više nije priznavala vrhovnu vlast sultana — postala je nezavisna", tacan: true}
+          - {tekst: "Srbija je tek tada nastala kao kneževina", tacan: false, zasto: "Kneževina je nastala početkom XIX veka, iz ustanaka."}
+          - {tekst: "Sultan je postao vladar Srbije", tacan: false, zasto: "Obrnuto — vlast sultana nad Srbijom je tada prestala."}
+          - {tekst: "Srbija je oslobodila Kosovo i Metohiju", tacan: false, zasto: "Kosovo i Metohija oslobođeni su tek u balkanskim ratovima."}
+        pomoc:
+          - "Korak 1: Šta je Srbija priznavala do 1878?"
+          - "Korak 2: Šta znači biti priznat za nezavisnu državu?"
+          - "Iz lekcije: do Berlinskog kongresa priznavala je vrhovnu vlast sultana; tada je priznata za nezavisnu."
+        objasnjenje: Berlinski kongres je okončao vrhovnu vlast sultana nad Srbijom.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Do Berlinskog kongresa 1878. Kneževina Srbija priznavala je vrhovnu vlast sultana.
+        osa: {naziv: "Berlinski kongres", od: 1878, traka: srbi}
+
+      - id: sr-lanac-ustanci
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [prvi-srpski-ustanak, drugi-srpski-ustanak, knezevina-srbija, berlinski-kongres]
+        karike:
+          - Prvi i Drugi srpski ustanak
+          - "?"
+          - Na Berlinskom kongresu 1878. Srbija je priznata kao nezavisna
+        praznina: 1
+        odgovori:
+          - {tekst: "Nastaje Kneževina Srbija koja priznaje vrhovnu vlast sultana", tacan: true}
+          - {tekst: "Habzburška monarhija okupira Srbiju", tacan: false, zasto: "Habzburška monarhija je 1878. okupirala BiH, ne Srbiju."}
+          - {tekst: "Počinju balkanski ratovi", tacan: false, zasto: "Balkanski ratovi su posle 1878, početkom XX veka."}
+          - {tekst: "Crna Gora postaje deo Srbije", tacan: false, zasto: "Crna Gora je bila druga, posebna srpska država."}
+        pomoc:
+          - "Korak 1: Šta su ustanici stvorili?"
+          - "Korak 2: Zašto je trebalo da je kasnije neko prizna za nezavisnu?"
+          - "Iz lekcije: kao rezultat ustanaka nastaje Kneževina Srbija; do 1878. priznaje vrhovnu vlast sultana."
+        objasnjenje: Ustanci → Kneževina Srbija pod vrhovnom vlašću sultana → nezavisnost 1878.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Kneževina Srbija nastaje iz ustanaka i do 1878. priznaje vrhovnu vlast sultana.
+        osa: {naziv: "Srpski ustanci i Kneževina Srbija", od: 1800, do: 1830, traka: srbi, oznaka: "početak XIX veka"}
+
+      - id: sr-lanac-iseljavanje
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [raska-oblast, kosovo-i-metohija, osmansko-carstvo]
+        karike:
+          - Raška oblast, Kosovo i Metohija ostaju pod osmanskom vlašću
+          - "?"
+          - Srpsko stanovništvo se stalno iseljava u Srbiju
+        praznina: 1
+        odgovori:
+          - {tekst: "Srbi trpe pritiske turskih vlasti i muslimanskih suseda", tacan: true}
+          - {tekst: "Srbi dobijaju slobodu i zemlju", tacan: false, zasto: "Da su dobili slobodu, ne bi se iseljavali; slobodni seljaci su bili u Srbiji."}
+          - {tekst: "Austrougarska okupira te krajeve", tacan: false, zasto: "Austrougarska je okupirala BiH; ovi krajevi ostaju osmanski."}
+          - {tekst: "Počinje industrijska revolucija", tacan: false, zasto: "Industrijska revolucija nije razlog iseljavanja koji lekcija navodi."}
+        pomoc:
+          - "Korak 1: Zašto ljudi napuštaju svoje domove?"
+          - "Korak 2: Ko ih je pritiskao?"
+          - "Iz lekcije: zbog pritisaka turskih vlasti i muslimanskih suseda srpsko stanovništvo se iseljavalo u Srbiju."
+        objasnjenje: Pritisci pod osmanskom vlašću terali su Srbe da se sele u Srbiju.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Srbi pod osmanskom vlašću trpe pritiske turskih vlasti i muslimanskih suseda i iseljavaju se u Srbiju.
+
+      - id: sr-lanac-balkanski
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [balkanski-ratovi, raska-oblast, kosovo-i-metohija, severna-makedonija]
+        karike:
+          - Srbija i Crna Gora su 1878. priznate kao nezavisne
+          - Raška, Kosovo, Metohija i delovi Makedonije ostaju pod osmanskom vlašću
+          - "?"
+          - Ovi krajevi su oslobođeni viševekovne osmanske vlasti
+        praznina: 2
+        odgovori:
+          - {tekst: "Početkom XX veka Srbija i Crna Gora vode balkanske ratove", tacan: true}
+          - {tekst: "Habzburška monarhija okupira ove krajeve", tacan: false, zasto: "Habzburška monarhija je okupirala BiH, a ovi krajevi su oslobođeni ratom Srbije i Crne Gore."}
+          - {tekst: "Održava se Berlinski kongres", tacan: false, zasto: "Berlinski kongres je bio 1878 — posle njega su ovi krajevi i dalje bili osmanski."}
+          - {tekst: "Izbija Prvi srpski ustanak", tacan: false, zasto: "Prvi ustanak je početkom XIX veka i stvara Kneževinu Srbiju."}
+        pomoc:
+          - "Korak 1: Šta je bilo potrebno da se oslobode krajevi koje sultan nije hteo da pusti?"
+          - "Korak 2: Kako se zovu ratovi s početka XX veka na Balkanu?"
+          - "Iz lekcije: u balkanskim ratovima Srbija i Crna Gora oslobađaju ove krajeve."
+        objasnjenje: Ono što 1878. nije rešeno, Srbija i Crna Gora su rešile u balkanskim ratovima.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Početkom XX veka, u balkanskim ratovima, Srbija i Crna Gora oslobađaju Rašku, Kosovo, Metohiju i delove Makedonije.
+        osa: {naziv: "Balkanski ratovi", od: 1900, do: 1914, traka: srbi, oznaka: "početak XX veka"}
+
+      - id: sr-izvor-beograd
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [prvi-srpski-ustanak, katarina-ivanovic, beograd]
+        izvor:
+          autor: Katarina Ivanović
+          naslov: Oslobođenje Beograda u Prvom srpskom ustanku (opis slike)
+          tekst: Uljana slika burne bitke — ustanici i Turci se bore, svuda su dim i vatra, žene i deca, a u pozadini zgrade grada. Naslikala ju je prva srpska slikarka, oko 1844/45.
+          napomena: "Odlomak je prepričan; udžbenik, str. 14."
+        pitanje: Koji događaj prikazuje ova slika?
+        odgovori:
+          - {tekst: "Oslobođenje Beograda u Prvom srpskom ustanku", tacan: true}
+          - {tekst: "Bitku iz balkanskih ratova", tacan: false, zasto: "Balkanski ratovi su početkom XX veka; slika je nastala oko 1844/45."}
+          - {tekst: "Berlinski kongres", tacan: false, zasto: "Kongres je diplomatski skup za stolom, a ne bitka."}
+          - {tekst: "Francusku revoluciju", tacan: false, zasto: "Na slici su srpski ustanici i Turci."}
+        pomoc:
+          - Ko se bori na slici?
+          - Naziv slike kaže koji grad i koji ustanak.
+          - "Iz lekcije: „Oslobođenje Beograda u Prvom srpskom ustanku”, Katarina Ivanović."
+        objasnjenje: Slika Katarine Ivanović prikazuje oslobođenje Beograda u Prvom srpskom ustanku.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Uz odeljak o Srbima je slika Oslobođenje Beograda u Prvom srpskom ustanku, delo Katarine Ivanović.
+          slika: 01-osnovne-odlike-perioda-1780-1918/09-oslobodjenje-beograda.jpg
+        osa: {naziv: "Slika „Oslobođenje Beograda”", od: 1844, do: 1845, traka: srbi}
+
+      - id: sr-izvor-beograd-tesko
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [prvi-srpski-ustanak, katarina-ivanovic]
+        izvor:
+          autor: Katarina Ivanović
+          naslov: Oslobođenje Beograda u Prvom srpskom ustanku (opis slike)
+          tekst: Slika prikazuje bitku za Beograd u Prvom srpskom ustanku, s početka XIX veka. Naslikana je uljem oko 1844/45, rukom prve srpske slikarke.
+          napomena: "Odlomak je prepričan; udžbenik, str. 14."
+        pitanje: Šta treba imati na umu kada ovu sliku koristimo da saznamo kako je izgledalo oslobođenje Beograda?
+        odgovori:
+          - {tekst: "Naslikana je nekoliko decenija posle događaja, pa pokazuje kako je slikarka zamislila bitku, a ne snimak sa lica mesta", tacan: true}
+          - {tekst: "To je fotografija nastala tokom bitke", tacan: false, zasto: "To je uljana slika iz oko 1844/45, a ne fotografija."}
+          - {tekst: "Naslikana je pre ustanka, pa ga predviđa", tacan: false, zasto: "Ustanak je bio početkom XIX veka, a slika je nastala kasnije."}
+          - {tekst: "Ne može nam reći ništa o prošlosti", tacan: false, zasto: "I umetničko delo je izvor — govori o događaju i o tome kako su ga ljudi kasnije pamtili."}
+        pomoc:
+          - Kada je bio ustanak, a kada je nastala slika?
+          - Da li je slikarka morala da zamišlja prizor?
+          - "Iz lekcije: ustanak — početak XIX veka; slika — oko 1844/45."
+        objasnjenje: Slika nastala decenijama kasnije je umetnički prikaz — korisna, ali je treba čitati kao sliku sećanja, ne kao snimak.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Slika Oslobođenje Beograda nastala je oko 1844/45, a prikazuje događaj iz Prvog srpskog ustanka s početka XIX veka.
+          slika: 01-osnovne-odlike-perioda-1780-1918/09-oslobodjenje-beograda.jpg
+        osa: {naziv: "Slika „Oslobođenje Beograda”", od: 1844, do: 1845, traka: srbi}
+
+      - id: sr-uporedi-srbija-cg
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [knezevina-srbija, crna-gora, petrovici-njegosi, karadjordjevici, obrenovici]
+        a: Kneževina Srbija
+        b: Crna Gora
+        pitanje: Na koju državu se odnosi tvrdnja — A, B, obe ili nijednu?
+        tvrdnje:
+          - {tekst: "Nastala je kao rezultat Prvog i Drugog srpskog ustanka.", odgovor: a, zasto: "Ustanci su stvorili Kneževinu Srbiju."}
+          - {tekst: "Vodili su je cetinjski mitropoliti iz porodice Petrović Njegoš.", odgovor: b, zasto: "To je Crna Gora."}
+          - {tekst: "Priznata je kao nezavisna na Berlinskom kongresu 1878.", odgovor: oba, zasto: "Obe srpske države postale su nezavisne 1878."}
+          - {tekst: "Naizmenično su njome vladali Karađorđevići i Obrenovići.", odgovor: a, zasto: "Te dve dinastije su vladale Srbijom."}
+          - {tekst: "U balkanskim ratovima oslobađala je krajeve pod osmanskom vlašću.", odgovor: oba, zasto: "Srbija i Crna Gora su zajedno vodile balkanske ratove."}
+          - {tekst: "U njoj je srpska crkva bila organizovana u Karlovačku mitropoliju.", odgovor: nijedan, zasto: "Karlovačka mitropolija je bila u Habzburškoj monarhiji."}
+        pomoc:
+          - Dve srpske države — jedna iz ustanaka, druga pod mitropolitima.
+          - Šta im je bilo zajedničko 1878. i početkom XX veka?
+          - "Iz lekcije: str. 14 — Srbija i Crna Gora."
+        objasnjenje: Različitog porekla i dinastija, Srbija i Crna Gora zajedno dobijaju nezavisnost 1878. i zajedno ratuju u balkanskim ratovima.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Udžbenik opisuje Kneževinu Srbiju i Crnu Goru kao dve srpske države, obe priznate kao nezavisne 1878.
+
+      - id: sr-uporedi-dva-carstva
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [habzburska-monarhija, osmansko-carstvo, karlovacka-mitropolija, raska-oblast]
+        a: Srbi u Habzburškoj (Austrougarskoj) monarhiji
+        b: Srbi pod osmanskom vlašću (posle 1878)
+        pitanje: Na koju grupu Srba se odnosi tvrdnja — A, B, obe ili nijednu?
+        tvrdnje:
+          - {tekst: "Najimućniji sloj, građanstvo, ulaže u kulturne i prosvetne ustanove.", odgovor: a, zasto: "To lekcija kaže za Srbe u Habzburškoj monarhiji."}
+          - {tekst: "Identitet čuva Karlovačka mitropolija.", odgovor: a, zasto: "Karlovačka mitropolija je srpska crkva u Habzburškoj monarhiji."}
+          - {tekst: "Zbog pritisaka se stalno iseljavaju u Srbiju.", odgovor: b, zasto: "Pritisci turskih vlasti i muslimanskih suseda teraju Srbe iz osmanskih krajeva."}
+          - {tekst: "Njihov broj se povećao 1878. okupacijom Bosne i Hercegovine.", odgovor: a, zasto: "Okupacijom BiH više Srba je došlo pod austrougarsku vlast."}
+          - {tekst: "Oslobođeni su u balkanskim ratovima.", odgovor: b, zasto: "Balkanski ratovi oslobađaju Rašku, Kosovo, Metohiju i delove Makedonije."}
+          - {tekst: "Žive u državi koju vode Karađorđevići i Obrenovići.", odgovor: nijedan, zasto: "Tim dinastijama vlada Kneževina Srbija, ne carstva."}
+        pomoc:
+          - Jedna grupa je bogatija i ima crkvenu organizaciju, druga trpi pritiske.
+          - Šta se desilo 1878. sa BiH?
+          - "Iz lekcije: Srbi u Habzburškoj — građanstvo, Karlovačka mitropolija; pod Osmanlijama — Raška, Kosovo, Metohija, iseljavanje."
+        objasnjenje: Srbi u Habzburškoj monarhiji čuvaju identitet kroz kulturu i crkvu; Srbi pod Osmanlijama trpe pritiske dok ih ne oslobode balkanski ratovi.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Udžbenik opisuje položaj Srba u Habzburškoj monarhiji i pod osmanskom vlašću posle 1878.
+
+      - id: sr-ko-sam-katarina
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [katarina-ivanovic, prvi-srpski-ustanak]
+        tragovi:
+          - Moje delo je u udžbeniku uz odeljak o srpskom narodu.
+          - Oko 1844/45. naslikala sam uljem burnu bitku sa dimom i vatrom.
+          - Moja slika prikazuje oslobođenje Beograda u Prvom srpskom ustanku.
+          - Bila sam prva srpska slikarka.
+        odgovori:
+          - {tekst: "Katarina Ivanović", tacan: true}
+          - {tekst: "Marijana", tacan: false, zasto: "Marijana je simbol Francuske na karikaturi „Kina – kolač”, a ne slikarka."}
+          - {tekst: "Kraljica Viktorija", tacan: false, zasto: "Viktorija je britanska kraljica, prikazana na karikaturi o Kini."}
+          - {tekst: "„Istorija” sa karikature", tacan: false, zasto: "„Istorija” je ženska figura na karikaturi „Klackalica nacija”."}
+        objasnjenje: To je Katarina Ivanović, prva srpska slikarka, autorka slike „Oslobođenje Beograda u Prvom srpskom ustanku”.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Sliku Oslobođenje Beograda u Prvom srpskom ustanku naslikala je prva srpska slikarka Katarina Ivanović, oko 1844/45.
+          slika: 01-osnovne-odlike-perioda-1780-1918/09-oslobodjenje-beograda.jpg
+        osa: {naziv: "Slika „Oslobođenje Beograda”", od: 1844, do: 1845, traka: srbi}
+
+      - id: sr-objasni-podeljen
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [habzburska-monarhija, osmansko-carstvo, knezevina-srbija, crna-gora]
+        pitanje: Zašto kažemo da je srpski narod u periodu 1780–1918. živeo podeljen? Objasni svojim rečima.
+        uzor: Srbi su živeli u više država istovremeno. Na početku perioda bili su podeljeni između Habzburškog i Osmanskog carstva (i Mletačke republike do 1797). Kasnije su nastale dve srpske države, Srbija i Crna Gora, ali je mnogo Srba i dalje živelo u Austrougarskoj i pod osmanskom vlašću.
+        ideje:
+          - Srbi žive u Habzburškom i Osmanskom carstvu.
+          - Nastaju dve srpske države — Srbija i Crna Gora.
+          - Deo Srba ostaje u Austrougarskoj i pod Osmanlijama.
+        objasnjenje: Srpski narod je bio rasut po više država i carstava — zato govorimo o podeljenom narodu.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Srbi žive u Habzburškom i Osmanskom carstvu, u Srbiji i u Crnoj Gori.
+
+      - id: sr-objasni-1878
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [berlinski-kongres, bosna-i-hercegovina, knezevina-srbija, crna-gora]
+        pitanje: Zašto je 1878. jedna od najvažnijih godina za srpski narod u ovom periodu? Navedi bar dve posledice.
+        uzor: Na Berlinskom kongresu 1878. Srbija i Crna Gora priznate su kao nezavisne države; Srbija više ne priznaje vrhovnu vlast sultana. Iste godine Habzburška monarhija okupira Bosnu i Hercegovinu, pa se povećava broj Srba pod austrougarskom vlašću. Raška, Kosovo, Metohija i delovi Makedonije ostaju pod Osmanlijama sve do balkanskih ratova.
+        ideje:
+          - Nezavisnost Srbije i Crne Gore na Berlinskom kongresu.
+          - Kraj vrhovne vlasti sultana nad Srbijom.
+          - Okupacija BiH — više Srba pod Austrougarskom.
+          - Deo Srba i dalje ostaje pod osmanskom vlašću.
+        objasnjenje: Godina 1878. donosi nezavisnost, ali i novu podelu — zato je prelomna.
+        iz_udzbenika:
+          strana: 14
+          odeljak: Srpski narod od kraja XVIII veka do Prvog svetskog rata
+          tekst: Berlinski kongres 1878. priznaje nezavisnost Srbije i Crne Gore, a iste godine Habzburška monarhija okupira BiH.
+        osa: {naziv: "Berlinski kongres", od: 1878, traka: srbi}
