@@ -103,4 +103,6 @@ Lozinka je u macOS Keychain-u (`classroom-zasticeno`); pogledaj je sa
 
 Fioka „Iz udžbenika” vodi i na zaštićenu stranicu lekcije (`scripts/build_lekcije.py`): link na odeljak beleški
 (`iz_udzbenika.odeljak`, inače po strani) i na stranu udžbenika; u zaštićenoj kopiji kviza fioka prikazuje i
-beleške tog odeljka. Stranice lekcija napravi pre zaštićenih kopija kvizova.
+beleške tog odeljka, a oba linka otvaraju taj deo lekcije (odeljak sa njegovim stranama, ili stranu) u
+proširenoj fioci; „Otvori u lekciji” ga prikazuje u glavnoj koloni, gde je i cela lekcija (grupa „Lekcija” u
+navigaciji). Stranice lekcija napravi pre zaštićenih kopija kvizova.

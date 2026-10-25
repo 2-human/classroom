@@ -191,3 +191,110 @@ def pojmovi_titles(root, predmet, razred):
         if m:
             out[p.stem] = m.group(1).strip()
     return out
+
+
+INTRO = {"vec-smo-ucili", "kljucni-pojmovi", "ukratko"}
+
+# Styles of the lesson body (.les): the protected lesson page and the protected quiz's "Lekcija" view
+LESSON_CSS = r"""
+ .les{max-width:860px;padding:22px 28px 80px;line-height:1.6;color:#2b2b2b}
+ .les h1{font-size:25px;margin:0 0 4px;color:#3a3528}
+ .les .meta{color:#6b6456;font-size:13.5px;margin:0 0 6px}
+ .les .meta a{color:#b1271f;text-decoration:none}
+ .les section{margin:22px 0;scroll-margin-top:12px}
+ .les h2{font-size:18px;color:#3a3528;margin:0 0 8px;padding-bottom:5px;border-bottom:1px solid #e6e0d2}
+ .les h3{font-size:15.5px;color:#3a3528;margin:0 0 6px}
+ .les section.l3{margin-left:14px;padding-left:12px;border-left:3px solid #f3ecd8}
+ .les .str{font-size:12px;font-weight:400;color:#6b6456;margin-left:6px;white-space:nowrap}
+ .les ul,.les ol{padding-left:22px;margin:6px 0} .les li{margin:3px 0}
+ .les p{margin:6px 0}
+ .les a{color:#b1271f}
+ .les .pojam{border-bottom:1px dotted #b9b2a0}
+ .les blockquote{margin:8px 0;padding:6px 14px;border-left:3px solid #c98a2c;background:#fefcf7}
+ .les .tbl{overflow-x:auto} .les table{border-collapse:collapse;font-size:14px;margin:8px 0}
+ .les th,.les td{border:1px solid #e6e0d2;padding:4px 8px;text-align:left;vertical-align:top} .les th{background:#f3ecd8}
+ .strana{margin:26px 0 14px;scroll-margin-top:12px;background:#fff;border:1px solid #e6e0d2;border-radius:10px;overflow:hidden}
+ .strana .pg{display:flex;justify-content:space-between;align-items:center;padding:7px 12px;font-size:12.5px;color:#6b6456;background:#fbf7ec;border-bottom:1px solid #e6e0d2}
+ .strana .pg b{color:#3a3528}
+ .strana .pg button{font:inherit;font-size:12px;border:1px solid #e6e0d2;background:#fff;border-radius:6px;padding:2px 9px;cursor:pointer;color:#3a3528}
+ .strana img{display:block;width:100%;height:auto;cursor:zoom-in}
+ .strana.zoom{overflow-x:auto} .strana.zoom img{width:auto;max-width:none;cursor:zoom-out}
+ .strana.nema{padding:12px;color:#9b9387;font-size:13.5px;background:#fefcf7}
+ .notes-lbl{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:#1f7a3a;margin:0 0 -12px}
+ .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin-top:8px}
+ .gal figure{margin:0;background:#fff;border:1px solid #e6e0d2;border-radius:8px;overflow:hidden;scroll-margin-top:12px}
+ .gal img{display:block;width:100%;height:auto} .gal figcaption{font-size:12.5px;color:#6b6456;padding:6px 9px}
+ .hit{animation:hit 2.4s ease-out} @keyframes hit{0%{box-shadow:0 0 0 4px rgba(201,138,44,.55)}100%{box-shadow:0 0 0 4px rgba(201,138,44,0)}}
+"""
+
+# Page scans: click (or "Uvećaj") toggles full size
+LESSON_JS = r"""
+function bindLesson(root) {
+  root.querySelectorAll('.strana button, .strana img').forEach(el => el.addEventListener('click', () => {
+    const f = el.closest('.strana'); f.classList.toggle('zoom');
+    const b = f.querySelector('button'); if (b) b.textContent = f.classList.contains('zoom') ? 'Umanji' : 'Uvećaj';
+  }));
+}
+"""
+
+
+def lesson_body(root, note_file, note=None):
+    """The lesson's body HTML: the page scans in order with the notes under their page (book sections
+    with pages in their heading), the crops in "Slike i karte". Anchors #str-N and #o-{section}.
+    Embeds the images (data URIs): for protected pages only."""
+    from lesson_quiz import _data_uri
+    esc = _html.escape
+    note_file = pathlib.Path(note_file)
+    note = note or parse_note(note_file)
+    fm, stem, src = note["fm"], note_file.stem, note_file.parents[1]
+    predmet, razred = note_file.parents[2].name, int(fm.get("razred") or 7)
+    ctx = {"pojmovi": pojmovi_titles(root, predmet, razred)}
+    # pages: scans that exist, in the lesson's page range
+    od, do = (fm.get("strane") or [None, None])[:2]
+    scans = {int(m.group(1)): p for p in (src / f"stranice-{razred}").glob("s*.jpg") if (m := re.match(r"s(\d+)$", p.stem))}
+    pages = list(range(int(od), int(do) + 1)) if od and do else sorted(scans)
+
+    def page_html(n):
+        if n not in scans:
+            return f'<div class="strana nema" id="str-{n}">Strana {n} nije snimljena.</div>'
+        return (f'<figure class="strana" id="str-{n}"><div class="pg"><b>Strana {n}</b><button type="button">Uvećaj</button></div>'
+                f'<img src="{_data_uri(scans[n], 1500)}" alt="Udžbenik, strana {n}" loading="lazy"></figure>')
+
+    crops = sorted((src / f"slike-{razred}" / stem).glob("*.jpg"))
+
+    def gallery():
+        figs = []
+        for c in crops:
+            md = c.with_suffix(".md")
+            m = re.search(r"^# (.+)$", md.read_text(encoding="utf-8"), re.M) if md.exists() else None
+            cap = m.group(1).strip() if m else c.stem
+            figs.append(f'<figure id="sl-{esc(c.stem)}"><img src="{_data_uri(c, 900)}" alt="{esc(cap)}" loading="lazy"><figcaption>{esc(cap)}</figcaption></figure>')
+        return '<div class="gal">' + "".join(figs) + "</div>"
+
+    def section_html(s):
+        body = gallery() if s["naslov"].lower().startswith("slike i karte") and crops else md_to_html(s["body"], ctx)
+        st = s["strane"]
+        tag = f'<span class="str">str. {st[0]}{"–" + str(st[1]) if st[1] != st[0] else ""}</span>' if st and s["level"] == 2 else ""
+        h = "h2" if s["level"] == 2 else "h3"
+        return f'<section class="l{s["level"]}" id="{s["id"]}"><{h}>{esc(s["naslov"])}{tag}</{h}>{body}</section>'
+
+    secs = note["sections"]
+    paged = any(s["strane"] for s in secs)
+    body, shown = [], set()
+
+    def pages_upto(n):
+        out = [p for p in pages if p not in shown and (n is None or p <= n)]
+        shown.update(out)
+        return "".join(page_html(p) for p in out)
+
+    for s in secs:
+        if paged and s["strane"] and s["level"] == 2:
+            body.append(pages_upto(s["strane"][0]))
+        elif not paged and slugify(s["naslov"]) not in INTRO and not shown:
+            body.append('<p class="notes-lbl">Udžbenik</p>' + pages_upto(None) + '<p class="notes-lbl">Beleške</p>')
+        elif paged and not s["strane"] and s["level"] == 2 and any(x["strane"] for x in secs[:secs.index(s)]):
+            body.append(pages_upto(None))
+        body.append(section_html(s))
+    body.append(pages_upto(None))
+    return {"html": "".join(body), "pages": pages, "skenova": len([p for p in pages if p in scans]), "slika": len(crops),
+            "od": od, "do": do}

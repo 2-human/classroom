@@ -77,6 +77,7 @@ import yaml
 from projection import make_projection
 from geojson_utils import load_geojson
 from hub_shell import SHELL_CSS, SHELL_JS, brand_and_crumbs
+from lekcija import LESSON_CSS, LESSON_JS
 
 VRSTE = {"izbor", "tacno_netacno", "dopuni", "povezi", "zakljuci", "karta_klik", "gde_sam",
          "datum", "poredjaj", "lanac", "izvor", "uporedi", "ko_sam", "objasni"}
@@ -298,9 +299,10 @@ def _textbook_images(spec, output_path, embed=False):
 
 def _lesson_text(spec, output_path, root, embed=False):
     """Where each item's `iz_udzbenika` sits on the protected lesson page (scripts/build_lekcije.py):
-    {"url": lesson page, "odeljci": {"odeljak|strana": {"id", "naslov", "html" (protected copy only)}}}.
+    {"url": lesson page, "odeljci": {"odeljak|strana": {"id", "naslov", "html" (protected copy only)}},
+     "lekcija" (protected copy only): {naslov, html, od, do, toc} — the lesson page's body, shown in the quiz}.
     The section's notes (private, our own words) are embedded only in the encrypted copy."""
-    from lekcija import note_path, parse_note, match_section, md_to_html, lesson_dir, pojmovi_titles
+    from lekcija import note_path, parse_note, match_section, md_to_html, lesson_dir, pojmovi_titles, lesson_body
     tool = pathlib.Path(spec["_spec_dir"])
     predmet, razred = tool.parent.name, spec.get("razred")
     nums = spec.get("lekcije") or []
@@ -324,7 +326,12 @@ def _lesson_text(spec, output_path, root, embed=False):
             odeljci[key] = {"id": s["id"], "naslov": s["naslov"]}
             if embed:
                 odeljci[key]["html"] = md_to_html(s["body"], ctx)
-    return {"url": os.path.relpath(page, pathlib.Path(output_path).parent).replace(os.sep, "/") + "/", "odeljci": odeljci}
+    out = {"url": os.path.relpath(page, pathlib.Path(output_path).parent).replace(os.sep, "/") + "/", "odeljci": odeljci}
+    if embed:   # the whole lesson for the "Lekcija" view and the wide drawer (protected copy only)
+        les = lesson_body(root, note, parsed)
+        out["lekcija"] = {"naslov": parsed["naslov"], "html": les["html"], "od": les["od"], "do": les["do"],
+                          "toc": [{"id": s["id"], "naslov": s["naslov"], "strane": s["strane"]} for s in parsed["sections"] if s["level"] == 2]}
+    return out
 
 
 def _data_uri(path, max_px=1000):
@@ -471,6 +478,12 @@ __SHELL_CSS__
  .hl .odeljak table{border-collapse:collapse;font-size:13px} .hl .odeljak th,.hl .odeljak td{border:1px solid #e6e0d2;padding:3px 6px}
  .hl .tekst-links{display:flex;flex-wrap:wrap;gap:6px 14px;margin:8px 0 4px;font-size:13.5px}
  .hl .tekst-links a{color:var(--edge);font-weight:600;text-decoration:none}
+ /* the lesson (protected copy): main column via the nav, or one part of it in the wide drawer */
+ .app-drawer.wide{width:min(820px,100vw)}
+ .app-drawer .les{padding:0;max-width:none}
+ .app-drawer .les section,.app-drawer .les .strana{margin:0 0 16px}
+ .lekbar{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+ .lekbar button{font-size:13px;padding:6px 12px}
  /* summary */
  .sum{padding:22px 26px 40px;max-width:860px}
  .sum h1{font-size:22px;margin:0 0 6px;color:#3a3528}
@@ -595,6 +608,7 @@ __SHELL_CSS__
 <template id="mapTpl"><svg viewBox="0 0 __MAP_W__ __MAP_H__" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"><rect width="__MAP_W__" height="__MAP_H__" fill="var(--sea)"/>__MAP_PATHS__<g class="marks"></g></svg></template>
 <div id="msg"></div>
 <script>__SHELL_JS__</script>
+<script>__LESSON_JS__</script>
 <script>
 const SPEC = __SPEC_JSON__;
 const MAPI = __MAP_JSON__;            // {proj:{lon0,lat1,sx,sy,w,h}, drzave:{ISO:naziv}, mesta:{slug:{naziv,lat,lon,radius_km}}}
@@ -878,6 +892,13 @@ function renderNav() {
   const due = dueConcepts().length;
   h += '<div class="sec"><span>Pregled</span></div><button type="button" class="it-row' + (state.cur === '_znanje' ? ' sel' : '') + '" data-id="_znanje"><span class="st">◔</span><span class="lbl">Moje znanje</span><span class="pt">' + (due ? due + ' na redu' : '') + '</span></button>' +
     (SPEC.osa ? '<button type="button" class="it-row' + (state.cur === '_osa' ? ' sel' : '') + '" data-id="_osa"><span class="st">⟷</span><span class="lbl">Vremenska osa</span><span class="pt">' + Object.keys(state.osa || {}).length + ' / ' + Object.keys(OSA_ALL).length + '</span></button>' : '');
+  if (LEK) {
+    const cur = String(state.cur);
+    h += '<div data-filter-group><div class="sec"><span>Lekcija</span><span class="cnt">' + (LEK.od ? 'str. ' + LEK.od + '–' + LEK.do : '') + '</span></div>' +
+      '<button type="button" class="it-row' + (cur === '_lek' ? ' sel' : '') + '" data-id="_lek" data-filter="Cela lekcija"><span class="st">▤</span><span class="lbl">Cela lekcija</span></button>' +
+      LEK.toc.map(t => '<button type="button" class="it-row' + (cur === '_lek:' + t.id ? ' sel' : '') + '" data-id="_lek:' + t.id + '" data-filter="' + esc(t.naslov) + '"><span class="st">·</span><span class="lbl">' + esc(t.naslov) +
+        '</span><span class="pt">' + (t.strane ? 'str. ' + t.strane[0] : '') + '</span></button>').join('') + '</div>';
+  }
   if (state.mode === 'test') {
     const fin = state.tests.filter(t => t.end).slice().reverse();
     h += '<div class="sec"><span>Moji testovi</span><span class="cnt">' + fin.length + '</span></div>';
@@ -894,7 +915,7 @@ const drawer = document.getElementById('drawer');
 const drawerBody = document.getElementById('drawerBody');
 const mobile = () => HubShell.navOverlay();
 function openDrawer() { drawer.classList.add('open'); drawer.setAttribute('aria-hidden', 'false'); }
-function closeDrawer() { drawer.classList.remove('open'); drawer.setAttribute('aria-hidden', 'true'); }
+function closeDrawer() { drawer.classList.remove('open', 'wide'); drawer.setAttribute('aria-hidden', 'true'); }
 document.getElementById('drawerClose').addEventListener('click', () => { closeDrawer(); if (drawer.dataset.intro) { delete drawer.dataset.intro; try { localStorage.setItem(STATE_KEY + ':intro', '1'); } catch (e) {} renderDrawer(); } });
 function bookHTML(z) {   // "Iz udžbenika": page, section, summary; the crop loads only where the private folder exists
   const b = z.iz_udzbenika; if (!b) return '';
@@ -905,13 +926,38 @@ function bookHTML(z) {   // "Iz udžbenika": page, section, summary; the crop lo
       '">' + (cap ? '<figcaption>' + esc(cap) + '</figcaption>' : '') + '</figure>' : '') +
     '<p class="book">' + fmt(b.tekst) + '</p>' + lessonHTML(b);
 }
-function lessonHTML(b) {   // more from the lesson: the section's notes (protected copy) + links into the protected lesson page
+const LEK = (INFO.tekst || {}).lekcija || null;   // the whole lesson (protected copy only)
+let lekDom = null;
+function lekPart(id) {   // a section or page of the lesson, as a fresh copy without ids
+  if (!lekDom) { lekDom = document.createElement('div'); lekDom.innerHTML = LEK.html; }
+  const el = lekDom.querySelector('[id="' + id + '"]'); if (!el) return '';
+  const c = el.cloneNode(true); c.removeAttribute('id'); c.querySelectorAll('[id]').forEach(x => x.removeAttribute('id'));
+  return c.outerHTML;
+}
+function showLekDrawer(id, title) {   // "Ceo tekst ovog dela lekcije" / "Strana N": that part in the wide drawer
+  const t = LEK.toc.find(x => x.id === id);
+  let h = lekPart(id);
+  if (t && t.strane) for (let n = t.strane[0]; n <= t.strane[1]; n++) h += lekPart('str-' + n);   // the section's book pages
+  document.getElementById('drawerTitle').textContent = title;
+  drawerBody.innerHTML = '<div class="lekbar"><button type="button" id="lekBack">‹ Nazad na zadatak</button>' +
+    '<button type="button" id="lekMain">Otvori u lekciji ›</button></div><article class="les">' + h + '</article>';
+  bindLesson(drawerBody); drawerBody.scrollTop = 0;
+  drawer.classList.add('wide'); openDrawer();
+  document.getElementById('lekBack').addEventListener('click', () => { drawer.classList.remove('wide'); renderDrawer(); });
+  document.getElementById('lekMain').addEventListener('click', () => go('_lek:' + id));
+}
+drawerBody.addEventListener('click', e => {
+  const a = e.target.closest('[data-lek]'); if (!a || !LEK) return;
+  e.preventDefault(); showLekDrawer(a.dataset.lek, a.dataset.title);
+});
+function lessonHTML(b) {   // more from the lesson: the section's notes (protected copy) + its full text and book page
   const T = INFO.tekst || {}; if (!T.url) return '';
   const o = (T.odeljci || {})[(b.odeljak || '') + '|' + (b.strana || '')];
-  const a = (hash, txt) => '<a href="' + esc(T.url + '#' + hash) + '" target="_blank" rel="opener">' + txt + '</a>';
+  const a = (hash, txt, title) => LEK ? '<a href="#" data-lek="' + esc(hash) + '" data-title="' + esc(title) + '">' + txt + '</a>'
+    : '<a href="' + esc(T.url + '#' + hash) + '" target="_blank" rel="opener">' + txt + '</a>';
   return (o && o.html ? '<details class="odeljak" open><summary>Iz beleški lekcije: ' + esc(o.naslov) + '</summary>' + o.html + '</details>' : '') +
-    '<p class="tekst-links">' + (o ? a(o.id, 'Ceo tekst ovog dela lekcije ›') : '') +
-    (b.strana ? a('str-' + b.strana, 'Strana ' + esc(b.strana) + ' u udžbeniku ›') : '') + '</p>';
+    '<p class="tekst-links">' + (o ? a(o.id, 'Ceo tekst ovog dela lekcije ›', o.naslov) : '') +
+    (b.strana ? a('str-' + b.strana, 'Strana ' + esc(b.strana) + ' u udžbeniku ›', 'Strana ' + b.strana) : '') + '</p>';
 }
 function moreHTML(z) {
   const slugs = z.pojmovi || [];
@@ -947,6 +993,7 @@ function whyListHTML(z, s) {   // after the answer: why each option the pupil pi
 }
 function renderDrawer(fresh) {
   if (drawer.dataset.intro) return;
+  drawer.classList.remove('wide');
   const z = byId(state.cur);
   const inl = document.getElementById('helpInline');
   if (!z) { document.getElementById('drawerTitle').textContent = 'Rezultat'; drawerBody.innerHTML = ''; return; }
@@ -1358,7 +1405,8 @@ function renderMapItem(z, s) {
 function renderItem(fresh) {
   const z = byId(state.cur);
   if (!z) {
-    if (state.cur === '_osa' && SPEC.osa) renderOsa();
+    if (String(state.cur).startsWith('_lek') && LEK) renderLesson(String(state.cur).slice(5));
+    else if (state.cur === '_osa' && SPEC.osa) renderOsa();
     else if (state.cur === '_znanje') renderZnanje();
     else if (state.cur === '_start' || (state.mode === 'test' && !att() && !String(state.cur).startsWith('r:'))) renderStart();
     else if (String(state.cur).startsWith('r:')) renderReview(state.tests.find(t => 'r:' + t.id === state.cur));
@@ -1397,6 +1445,13 @@ function renderSummary() {
   on('btnCsv', () => downloadCsv([a]));
   on('btnNew', () => { state.active = null; go('_start'); });
   on('btnNewLearn', () => { newLearning(); save(); go(state.cur); });
+}
+function renderLesson(id) {   // the whole lesson in the main column (protected copy), scrolled to a section
+  main.innerHTML = '<article class="les"><h1>' + esc(LEK.naslov) + '</h1><p class="meta">Iz udžbenika' + (LEK.od ? ', str. ' + LEK.od + '–' + LEK.do : '') +
+    ' · strane knjige redom, ispod svake beleške za taj deo</p>' + LEK.html + '</article>';
+  bindLesson(main);
+  const el = id && document.getElementById(id);
+  if (el) requestAnimationFrame(() => { el.scrollIntoView({ block: 'start' }); el.classList.add('hit'); });
 }
 function renderOsa() {   // every placed event, by lane; a range is a bar, one year a dot; labels stack in rows
   const O = SPEC.osa, y0 = O.od, y1 = O.do, span = y1 - y0, pct = y => Math.max(0, Math.min(100, (y - y0) / span * 100));
@@ -1539,7 +1594,7 @@ document.getElementById('mRepeat').addEventListener('click', () => {
 
 // ---------- init ----------
 if (!state.ucenje) newLearning();
-if (!byId(state.cur) && !['_sum', '_start', '_znanje', '_osa'].includes(state.cur) && !String(state.cur).startsWith('r:')) state.cur = state.mode === 'test' ? '_start' : state.ucenje.items[0].id;
+if (!byId(state.cur) && !['_sum', '_start', '_znanje', '_osa'].includes(state.cur) && !String(state.cur).startsWith('r:') && !(LEK && String(state.cur).startsWith('_lek'))) state.cur = state.mode === 'test' ? '_start' : state.ucenje.items[0].id;
 refresh();
 let introSeen = false; try { introSeen = localStorage.getItem(STATE_KEY + ':intro') === '1'; } catch (e) {}
 if (!introSeen) showIntro();
@@ -1569,8 +1624,9 @@ def render_html(spec, output_path, embed_images=False, write=True):
     mapj = {"proj": proj, "drzave": k.get("drzave") or {}, "mesta": k.get("mesta") or {}}
     js = lambda o: _json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
     repl = {
-        "__SHELL_CSS__": SHELL_CSS,
+        "__SHELL_CSS__": SHELL_CSS + LESSON_CSS,
         "__SHELL_JS__": SHELL_JS,
+        "__LESSON_JS__": LESSON_JS,
         "__BRAND_CRUMBS__": brand_and_crumbs(output_path, spec.get("title_short") or spec["title"], spec),
         "__LOCALE__": spec.get("locale", "sr"),
         "__TITLE__": spec["title"],
