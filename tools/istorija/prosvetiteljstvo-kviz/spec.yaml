@@ -1,0 +1,69 @@
+# Doba prosvetiteljstva — kviz po lekciji (tip: lesson-quiz; vidi templates/lesson-quiz/README.md).
+# Pitanja su napisana sopstvenim rečima na osnovu lekcije „2.2. Doba prosvetiteljstva” (istorija,
+# 7. razred, str. 34–38; str. 39 nije snimljena). Težište je na razumevanju: zašto, šta je iz čega
+# proisteklo, kako to znamo iz izvora — ne na pamćenju.
+title: Doba prosvetiteljstva — kviz
+title_short: Doba prosvetiteljstva
+locale: sr
+nivo: osnovna
+razred: 7
+lekcije: [4]
+description: >-
+  Kviz za lekciju Doba prosvetiteljstva: prosvetitelji i njihove ideje, prosvećeni apsolutizam,
+  Habzburška monarhija, Pruska i Rusija — uzroci i posledice, istorijski izvori, poređenja,
+  vremenska osa i objašnjavanje svojim rečima.
+
+# Vremenska osa lekcije: rešeni zadaci sa datumom stavljaju svoj događaj na osu (kartica u Pregledu).
+osa:
+  od: 1680
+  do: 1800
+  trake:
+    - {id: vladari, label: Vladari, color: '#9c5a2c'}
+    - {id: ideje, label: Ideje i dela, color: '#1f7a3a'}
+    - {id: dogadjaji, label: Događaji, color: '#3a6ba5'}
+
+sastav:
+  ucenje: 20
+  test: 15
+  odnos: [40, 40, 20]
+  ponavljanje: 50
+
+pojmovi:
+  prosvetiteljstvo: prosvetiteljstvo
+  prosvetitelji: prosvetitelji
+  apsolutizam: apsolutizam
+  apsolutisticka-monarhija: apsolutistička monarhija
+  republika: republika
+  parlamentarna-monarhija: parlamentarna monarhija
+  prosveceni-apsolutizam: prosvećeni apsolutizam
+  reforma: reforma
+  feudalizam: feudalizam
+  enciklopedija: Enciklopedija
+  volter: Volter
+  ruso: Ruso
+  monteskje: Monteskje
+  podela-vlasti: podela vlasti
+  drustveni-ugovor: Društveni ugovor
+  bastilja: Bastilja
+  ermitaz: Ermitaž
+  habzburska-monarhija: Habzburška monarhija
+  sveto-rimsko-carstvo: Sveto rimsko carstvo
+  marija-terezija: Marija Terezija
+  karlo-vi: Karlo VI
+  josif-ii: Josif II
+  patent-o-verskoj-toleranciji: Patent o verskoj toleranciji
+  sloboda-vere: sloboda vere
+  kmetstvo: kmetstvo
+  pruska: Pruska
+  fridrih-ii-veliki: Fridrih II Veliki
+  hoencolerni: Hoencolerni
+  rusija: Rusija
+  romanovi: Romanovi
+  petar-i-veliki: Petar I Veliki
+  katarina-ii-velika: Katarina II Velika
+  sankt-peterburg: Sankt Peterburg
+  podela-poljske: podela Poljske
+  velika-britanija: Velika Britanija
+
+# Zadaci (banka): banka.yaml — po delovima lekcije, svaki sa težinom (lako/srednje/tesko).
+banka: banka.yaml
