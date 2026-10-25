@@ -296,6 +296,37 @@ def _textbook_images(spec, output_path, embed=False):
     return base, captions, data
 
 
+def _lesson_text(spec, output_path, root, embed=False):
+    """Where each item's `iz_udzbenika` sits on the protected lesson page (scripts/build_lekcije.py):
+    {"url": lesson page, "odeljci": {"odeljak|strana": {"id", "naslov", "html" (protected copy only)}}}.
+    The section's notes (private, our own words) are embedded only in the encrypted copy."""
+    from lekcija import note_path, parse_note, match_section, md_to_html, lesson_dir, pojmovi_titles
+    tool = pathlib.Path(spec["_spec_dir"])
+    predmet, razred = tool.parent.name, spec.get("razred")
+    nums = spec.get("lekcije") or []
+    note = note_path(root, predmet, razred, nums[0]) if len(nums) == 1 and razred else None
+    if not note:
+        return {}
+    page = root / lesson_dir(predmet, razred, note.stem)
+    if not (page / "bundle.enc").exists():
+        return {}
+    parsed = parse_note(note)
+    ctx = {"pojmovi": pojmovi_titles(root, predmet, razred)} if embed else {}
+    refs = [z.get("iz_udzbenika") for deo in spec["delovi"] for z in deo["zadaci"]]
+    refs.append((spec.get("sastav") or {}).get("iz_udzbenika"))
+    odeljci = {}
+    for r in filter(None, refs):
+        key = f"{r.get('odeljak') or ''}|{r.get('strana') or ''}"
+        if key in odeljci:
+            continue
+        s = match_section(parsed["sections"], r.get("odeljak"), r.get("strana"))
+        if s:
+            odeljci[key] = {"id": s["id"], "naslov": s["naslov"]}
+            if embed:
+                odeljci[key]["html"] = md_to_html(s["body"], ctx)
+    return {"url": os.path.relpath(page, pathlib.Path(output_path).parent).replace(os.sep, "/") + "/", "odeljci": odeljci}
+
+
 def _data_uri(path, max_px=1000):
     import base64, io
     from PIL import Image
@@ -434,6 +465,12 @@ __SHELL_CSS__
  .hl figure{margin:6px 0 10px} .hl figure img{display:block;max-width:100%;border-radius:6px;border:1px solid var(--border)}
  .hl figcaption{font-size:11.5px;color:var(--muted);margin-top:4px}
  .hl .book{border-left:3px solid #e1d8c2;padding:2px 0 2px 12px;margin:6px 0 4px}
+ .hl .odeljak{margin:10px 0 4px;padding:8px 12px;background:#fefcf7;border:1px solid #e6e0d2;border-radius:8px;font-size:14px;line-height:1.5}
+ .hl .odeljak summary{cursor:pointer;font-weight:600;color:#3a3528;font-size:13px}
+ .hl .odeljak ul,.hl .odeljak ol{padding-left:20px;margin:6px 0} .hl .odeljak li{margin:3px 0} .hl .odeljak p{margin:6px 0}
+ .hl .odeljak table{border-collapse:collapse;font-size:13px} .hl .odeljak th,.hl .odeljak td{border:1px solid #e6e0d2;padding:3px 6px}
+ .hl .tekst-links{display:flex;flex-wrap:wrap;gap:6px 14px;margin:8px 0 4px;font-size:13.5px}
+ .hl .tekst-links a{color:var(--edge);font-weight:600;text-decoration:none}
  /* summary */
  .sum{padding:22px 26px 40px;max-width:860px}
  .sum h1{font-size:22px;margin:0 0 6px;color:#3a3528}
@@ -561,7 +598,7 @@ __SHELL_CSS__
 <script>
 const SPEC = __SPEC_JSON__;
 const MAPI = __MAP_JSON__;            // {proj:{lon0,lat1,sx,sy,w,h}, drzave:{ISO:naziv}, mesta:{slug:{naziv,lat,lon,radius_km}}}
-const INFO = __INFO_JSON__;           // {pojmovi, lekcijePojma:{slug:[broj]}, naslovi:{broj:naslov}, katalog, lekcije:[broj], slike: base URL, slikeNaslovi:{path:caption}, slikeData:{path:dataURI} (protected copy only), zasticeno: href of the protected copy}
+const INFO = __INFO_JSON__;           // {pojmovi, lekcijePojma:{slug:[broj]}, naslovi:{broj:naslov}, katalog, lekcije:[broj], slike: base URL, slikeNaslovi:{path:caption}, slikeData:{path:dataURI} (protected copy only), zasticeno: href of the protected copy, tekst: {url, odeljci:{"odeljak|strana": {id, naslov, html (protected only)}}} → the protected lesson page}
 const STATE_KEY = 'classroom:' + window.location.pathname;
 const STATE_VERSION = 4;
 const VRSTA_LBL = {izbor:'Izbor', tacno_netacno:'Tačno / netačno', dopuni:'Dopuni', povezi:'Poveži', zakljuci:'Zaključi', karta_klik:'Na karti', gde_sam:'Gde sam?',
@@ -866,7 +903,15 @@ function bookHTML(z) {   // "Iz udžbenika": page, section, summary; the crop lo
     (b.slika ? '<figure><img src="' + esc(INFO.slikeData[b.slika] || INFO.slike + b.slika) + '" alt="' + esc(cap) + '" onerror="' +
       (INFO.zasticeno ? 'this.parentNode.outerHTML=\'<p class=&quot;ref&quot;>Slika: <a href=&quot;' + esc(INFO.zasticeno) + '&quot;>verzija sa slikama iz udžbenika (lozinka)</a></p>\'' : 'this.parentNode.remove()') +
       '">' + (cap ? '<figcaption>' + esc(cap) + '</figcaption>' : '') + '</figure>' : '') +
-    '<p class="book">' + fmt(b.tekst) + '</p>';
+    '<p class="book">' + fmt(b.tekst) + '</p>' + lessonHTML(b);
+}
+function lessonHTML(b) {   // more from the lesson: the section's notes (protected copy) + links into the protected lesson page
+  const T = INFO.tekst || {}; if (!T.url) return '';
+  const o = (T.odeljci || {})[(b.odeljak || '') + '|' + (b.strana || '')];
+  const a = (hash, txt) => '<a href="' + esc(T.url + '#' + hash) + '" target="_blank" rel="opener">' + txt + '</a>';
+  return (o && o.html ? '<details class="odeljak" open><summary>Iz beleški lekcije: ' + esc(o.naslov) + '</summary>' + o.html + '</details>' : '') +
+    '<p class="tekst-links">' + (o ? a(o.id, 'Ceo tekst ovog dela lekcije ›') : '') +
+    (b.strana ? a('str-' + b.strana, 'Strana ' + esc(b.strana) + ' u udžbeniku ›') : '') + '</p>';
 }
 function moreHTML(z) {
   const slugs = z.pojmovi || [];
@@ -1519,7 +1564,8 @@ def render_html(spec, output_path, embed_images=False, write=True):
     prot = root / "zasticeno" / tool.parent.name / tool.name
     zasticeno = "" if embed_images or not (prot / "bundle.enc").exists() else os.path.relpath(prot, output_path.parent).replace(os.sep, "/") + "/"
     info = {"pojmovi": spec.get("pojmovi") or {}, "lekcijePojma": concept_lessons, "naslovi": titles,
-            "katalog": katalog, "lekcije": spec.get("lekcije") or [], "slike": slike, "slikeNaslovi": naslovi_slika, "slikeData": slike_data, "zasticeno": zasticeno}
+            "katalog": katalog, "lekcije": spec.get("lekcije") or [], "slike": slike, "slikeNaslovi": naslovi_slika, "slikeData": slike_data, "zasticeno": zasticeno,
+            "tekst": _lesson_text(spec, output_path, root, embed_images)}
     mapj = {"proj": proj, "drzave": k.get("drzave") or {}, "mesta": k.get("mesta") or {}}
     js = lambda o: _json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
     repl = {

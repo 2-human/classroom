@@ -69,7 +69,7 @@
  .gate{max-width:420px;margin:12vh auto 0;padding:26px 28px;background:#fff;border:1px solid #e6e0d2;border-radius:12px}
  .gate h1{font-size:20px;margin:0 0 8px;color:#3a3528}
  .gate p{color:#6b6456;font-size:14px;line-height:1.5;margin:0 0 14px}
- .gate input{width:100%;font:inherit;padding:9px 11px;border:1px solid #b9b2a0;border-radius:8px;margin:0 0 12px}
+ .gate input{width:100%;box-sizing:border-box;font:inherit;padding:9px 11px;border:1px solid #b9b2a0;border-radius:8px;margin:0 0 12px}
  .gate button{font:inherit;padding:9px 18px;border:1px solid #1f7a3a;background:#1f7a3a;color:#fff;border-radius:8px;cursor:pointer}
  .gate button:disabled{opacity:.5}
  .gate .msg{min-height:1.3em;color:#b1271f;font-size:13.5px;margin-top:10px}
@@ -88,7 +88,7 @@
 </main>
 <script>
 (function () {
-  var KEY = 'classroom-gate:' + location.pathname;
+  var KEY = 'classroom-gate';   // one key for every protected page (same salt), per tab
   var b64 = function (s) { return Uint8Array.from(atob(s), function (c) { return c.charCodeAt(0); }); };
   var enc = function (u) { var s = ''; u.forEach(function (b) { s += String.fromCharCode(b); }); return btoa(s); };
   var form = document.getElementById('gate'), pw = document.getElementById('pw'), msg = document.getElementById('msg');
@@ -115,7 +115,7 @@
     var saved = null; try { saved = sessionStorage.getItem(KEY); } catch (e) {}
     if (saved) crypto.subtle.importKey('raw', b64(saved), 'AES-GCM', true, ['decrypt']).then(function (k) { return show(k, bundle); })
       .catch(function () { try { sessionStorage.removeItem(KEY); } catch (e) {} });
-  }).catch(function () { msg.textContent = 'Kviz nije dostupan (otvori ga preko veb adrese, ne kao fajl).'; form.querySelector('button').disabled = true; });
+  }).catch(function () { msg.textContent = 'Stranica nije dostupna (otvori je preko veb adrese, ne kao fajl).'; form.querySelector('button').disabled = true; });
 })();
 </script>
 </body>

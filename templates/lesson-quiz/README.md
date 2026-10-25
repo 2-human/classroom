@@ -100,3 +100,7 @@ python3 scripts/regenerate_index.py                         # katalog dobija lin
 Lozinka je u macOS Keychain-u (`classroom-zasticeno`); pogledaj je sa
 `security find-generic-password -s classroom-zasticeno -w`, promeni sa
 `security add-generic-password -U -s classroom-zasticeno -a classroom -w 'NOVA'` pa ponovo pokreni skriptu.
+
+Fioka „Iz udžbenika” vodi i na zaštićenu stranicu lekcije (`scripts/build_lekcije.py`): link na odeljak beleški
+(`iz_udzbenika.odeljak`, inače po strani) i na stranu udžbenika; u zaštićenoj kopiji kviza fioka prikazuje i
+beleške tog odeljka. Stranice lekcija napravi pre zaštićenih kopija kvizova.
