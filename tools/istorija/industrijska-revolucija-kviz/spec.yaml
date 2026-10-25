@@ -1,0 +1,86 @@
+# Industrijska revolucija — kviz po lekciji (tip: lesson-quiz; vidi templates/lesson-quiz/README.md).
+# Pitanja su napisana sopstvenim rečima na osnovu lekcije „2.1. Industrijska revolucija” (istorija,
+# 7. razred, str. 28–32; str. 33 nije snimljena). Težište je na razumevanju: zašto, šta je iz čega
+# proisteklo, kako to znamo iz izvora — ne na pamćenju.
+title: Industrijska revolucija — kviz
+title_short: Industrijska revolucija
+locale: sr
+nivo: osnovna
+razred: 7
+lekcije: [3]
+description: >-
+  Kviz za lekciju Industrijska revolucija: od manufakture do fabrike, uzroci u Velikoj Britaniji,
+  parna mašina, lokomotiva i parobrod, nastanak radništva, luditi i prvi zakoni u korist radnika —
+  uzroci i posledice, istorijski izvori, poređenja, vremenska osa i objašnjavanje svojim rečima.
+
+# Vremenska osa lekcije: rešeni zadaci sa datumom stavljaju svoj događaj na osu (kartica u Pregledu).
+osa:
+  od: 1700
+  do: 1860
+  trake:
+    - {id: pronalasci, label: Pronalasci, color: '#9c5a2c'}
+    - {id: saobracaj, label: Saobraćaj, color: '#3a6ba5'}
+    - {id: drustvo, label: Društvo, color: '#1f7a3a'}
+
+sastav:
+  ucenje: 20
+  test: 15
+  odnos: [40, 40, 20]
+  ponavljanje: 50
+
+pojmovi:
+  industrijska-revolucija: industrijska revolucija
+  prva-industrijska-revolucija: Prva industrijska revolucija
+  manufaktura: manufaktura
+  manufakturna-radionica: manufakturna radionica
+  velika-britanija: Velika Britanija
+  kolonija: kolonija
+  pamuk: pamuk
+  tkanine: tkanine
+  robovlasnistvo: robovlasništvo
+  fabrika: fabrika
+  leteci-cunak: leteći čunak
+  dzon-kej: Džon Kej
+  predilica: predilica
+  razboj: razboj
+  rudarstvo: rudarstvo
+  kameni-ugalj: kameni ugalj
+  gvozdje: gvožđe
+  parna-masina: parna mašina
+  dzejms-vat: Džejms Vat
+  tekstilna-industrija: tekstilna industrija
+  metalna-industrija: metalna industrija
+  masinska-industrija: mašinska industrija
+  saobracaj: saobraćaj
+  dzordz-stivenson: Džordž Stivenson
+  parna-lokomotiva: parna lokomotiva
+  zeleznica: železnica
+  stokton-darlington: pruga Stokton–Darlington
+  mancester-liverpul: pruga Mančester–Liverpul
+  raketa: Raketa (lokomotiva)
+  robert-fulton: Robert Fulton
+  parobrod: parobrod
+  klermont: Klermont
+  hadson: Hadson
+  njujork: Njujork
+  olbani: Olbani
+  jedrenjaci: jedrenjaci
+  gradjanstvo: građanstvo
+  burzoazija: buržoazija
+  radnistvo: radništvo
+  radnicka-klasa: radnička klasa
+  decji-rad: dečji rad
+  radnicka-naselja: radnička naselja
+  mancester: Mančester
+  liverpul: Liverpul
+  grad-pamuka: „Grad pamuka”
+  radnicki-nemiri: radnički nemiri
+  luditi: luditi
+  ned-lud: Ned Lud
+  radnicka-udruzenja: radnička udruženja
+  britanski-parlament: britanski parlament
+  zagadjenje-zivotne-sredine: zagađenje životne sredine
+  london: London
+
+# Zadaci (banka): banka.yaml — po delovima lekcije, svaki sa težinom (lako/srednje/tesko).
+banka: banka.yaml
