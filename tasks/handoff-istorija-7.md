@@ -1,4 +1,4 @@
-Continue building the grade 7 history quiz in `~/work/projects/classroom` (read `CLAUDE.md`, `templates/lesson-quiz/README.md` and `tasks/kviz-istorija-7.md` first). Everything is uncommitted.
+Continue building the grade 7 history quiz in `~/work/projects/classroom` (read `CLAUDE.md`, `templates/lesson-quiz/README.md` and `tasks/kviz-istorija-7.md` first). The work so far is committed on `main` (b8f16d1…c5d1e91); nothing is pushed.
 
 ## Goal
 Lesson quizzes for the grade 7 history textbook (1780–1918, Cyrillic book, quizzes in Serbian Latin) that build understanding, not memorisation. The design extends the shared `lesson-quiz` engine and combines the grade 6 history timeline (`tools/istorija/balkan-vremenska-osa`) with the grade 7 geography lesson quizzes (help ladder, L/S/T banks, Učenje/Test/Ispravka, saved tests).
@@ -49,7 +49,7 @@ The operator chose:
 6. Commit one coherent change at a time, following the repo's message convention:
    - `shared/python/lesson_quiz: …`;
    - each tool;
-   - the curriculum + `index.html`.
+   - `index.html`.
    Don't touch `_commit-h11-cleanups.sh`, which isn't ours.
 
 Working style (operator): Serbian UI and content, Socratic — ask before design decisions, verify before calling anything done.
