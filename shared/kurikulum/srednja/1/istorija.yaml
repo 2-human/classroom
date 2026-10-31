@@ -1,0 +1,25 @@
+# Istorija — 1. razred srednje škole (trogodišnje stručne škole; učenik Grafičko-medijske škole).
+# Udžbenik: Danilo Šarenac, Istorija za prvi razred trogodišnjih stručnih škola. Lekcije po sadržaju
+# knjige; snimljene su str. 2–49 (delovi I i II). Dalje lekcije se dodaju kako stižu nove strane.
+# Beleške lekcija (privatne): tools/istorija/_source/lekcije-1/{NN-slug}.md
+nivo: srednja
+razred: 1
+predmet: istorija
+udzbenik: Danilo Šarenac, Istorija za prvi razred trogodišnjih stručnih škola
+poglavlja:
+  - naslov: I — Preistorija i stari vek
+    lekcije:
+      - {broj: 1, naslov: Balkansko poluostrvo u preistoriji}
+      - {broj: 2, naslov: Balkanske teritorije u antičkom dobu}
+  - naslov: II — Srbi i njihovo okruženje u srednjem veku
+    lekcije:
+      - {broj: 3, naslov: Doseljavanje Srba na Balkan}
+      - {broj: 4, naslov: Srbi i njihovo okruženje u ranom srednjem veku}
+      - {broj: 5, naslov: Srpska država u doba prvih Nemanjića}
+      - {broj: 6, naslov: Uspon Srbije u XIII i XIV veku}
+      - {broj: 7, naslov: Bosna od XII do XIV veka}
+      - {broj: 8, naslov: Dubrovnik u srednjem veku}
+      - {broj: 9, naslov: Srpska srednjovekovna kultura}
+      - {broj: 10, naslov: Srbi i ostali balkanski narodi u borbi protiv Turaka Osmanlija}
+      - {broj: 11, naslov: Srbija i Bosna u XV veku}
+      - {broj: 12, naslov: Pad balkanskih zemalja pod osmanlijsku vlast}
