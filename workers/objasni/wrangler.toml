@@ -1,0 +1,8 @@
+name = "classroom-objasni"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ALLOWED_ORIGIN = "https://2-human.github.io"
+MODEL = "claude-opus-5-5"

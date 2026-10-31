@@ -39,8 +39,8 @@ Item types (`vrsta`):
     izvor             a short source (`izvor: {autor, naslov, tekst, napomena}`) + a question; like izbor
     uporedi           sort `tvrdnje` into a / b / oba / nijedan (`a`, `b` = the two compared)
     ko_sam            identify a person from `tragovi` revealed one by one; answer from `odgovori`
-    objasni           free text, then the model answer (`uzor`) and key ideas (`ideje`) the pupil ticks
-                      (self-graded: all ideas = tačno)
+    objasni           free text; the AI worker (workers/objasni, protected copy) compares it with `uzor`
+                      and `ideje` and may ask follow-up questions; without it the pupil ticks the ideas
 
 Understanding, not just recall: every wrong option (`odgovori`, `ispravke`, `uporedi.tvrdnje`) can have
 a `zasto` — shown in the drawer when it is chosen, and the option text is struck through.
@@ -365,6 +365,20 @@ def _lesson_text(spec, output_path, root, embed=False):
             if embed:
                 odeljci[key]["html"] = md_to_html(s["body"], ctx)
     return {"lekcije": lekcije, "odeljci": odeljci}
+
+
+def _ai_config():
+    """Where the protected quiz sends `objasni` answers (workers/objasni): $CLASSROOM_AI_URL / $CLASSROOM_AI_TOKEN
+    or the Keychain items classroom-ai-url / classroom-ai-token. Without them the pupil self-grades."""
+    import subprocess
+
+    def secret(env, item):
+        if os.environ.get(env):
+            return os.environ[env]
+        r = subprocess.run(["security", "find-generic-password", "-s", item, "-w"], capture_output=True, text=True)
+        return r.stdout.strip() if r.returncode == 0 else ""
+    url, token = secret("CLASSROOM_AI_URL", "classroom-ai-url"), secret("CLASSROOM_AI_TOKEN", "classroom-ai-token")
+    return {"url": url, "token": token} if url and token else {}
 
 
 def _bank_links(spec, output_path, root):
@@ -1388,30 +1402,52 @@ function renderCompare(z, s) {   // tvrdnje → a | b | oba | nijedan
   });
   nextButton(z);
 }
-function renderExplain(z, s) {   // write → compare with the model answer → tick the key ideas you named (self-graded)
-  const ui = s.ui, done = isDone(s); ui.chk = ui.chk || [];
-  const n = z.ideje.length;
+function explainEnd(z, ok, given) {
+  if (ok) { succeed(z, given, 3); return; }
+  const s = st(z.id); s.status = 'revealed'; s.pts = 0; record(z, s, false, given); learnFrom(z, 0);
+  toast('Pročitaj uzorni odgovor još jednom', false); finishCheck(); save(); renderItem(false); renderNav(); refreshScore(); openDrawer();
+}
+function askAI(z, s) {   // the worker compares the answer with the model answer: tačno, or a follow-up question, or netačno
+  const ui = s.ui, A = INFO.ai;
+  return fetch(A.url, { method: 'POST', headers: { 'content-type': 'application/json', 'x-classroom': A.token },
+    body: JSON.stringify({ pitanje: z.pitanje, uzor: z.uzor, ideje: z.ideje, odgovor: ui.txt, potpitanja: ui.sub.filter(x => x.odgovor).map(x => ({ pitanje: x.pitanje, odgovor: x.odgovor })) }) })
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+}
+function renderExplain(z, s) {   // write → AI grades it (with follow-up questions); without the AI: compare with the model answer and tick the key ideas
+  const ui = s.ui, done = isDone(s), n = z.ideje.length, ai = !!(INFO.ai || {}).url && ui.phase !== 'self';
+  ui.chk = ui.chk || []; ui.sub = ui.sub || [];
+  const open = ui.sub.length && !ui.sub[ui.sub.length - 1].odgovor;
+  const thread = ui.sub.map((x, i) => '<p class="sub-q">Potpitanje</p><div class="uzor">' + esc(x.pitanje) + '</div>' + (x.odgovor ? '<div class="mine">' + esc(x.odgovor) + '</div>' : '')).join('');
   let inner = '<h2 class="q">' + fmt(z.pitanje) + '</h2><div class="exp">';
-  if (!ui.phase && !done) inner += '<textarea id="expTxt" placeholder="Napiši svojim rečima…">' + esc(ui.txt || '') + '</textarea>';
+  if (ai && !done) {
+    inner += ui.sub.length ? '<p class="sub-q">Tvoj odgovor</p><div class="mine">' + esc(ui.txt || '—') + '</div>' + (ui.povratna ? '<div class="uzor">' + esc(ui.povratna) + '</div>' : '') + thread : '';
+    inner += '<textarea id="expTxt" placeholder="' + (open ? 'Odgovori na potpitanje…' : 'Napiši svojim rečima…') + '">' + esc(open ? (ui.draft || '') : (ui.txt || '')) + '</textarea>';
+  } else if (!ui.phase && !done) inner += '<textarea id="expTxt" placeholder="Napiši svojim rečima…">' + esc(ui.txt || '') + '</textarea>';
   else {
-    inner += '<p class="sub-q">Tvoj odgovor</p><div class="mine">' + esc(ui.txt || '—') + '</div><p class="sub-q">Uzorni odgovor</p><div class="uzor">' + fmt(z.uzor) + '</div>' +
-      '<p class="sub-q">Koje ključne ideje si naveo? (budi pošten — ovo je za tebe)</p>' +
+    inner += '<p class="sub-q">Tvoj odgovor</p><div class="mine">' + esc(ui.txt || '—') + '</div>' + thread + (ui.povratna ? '<p class="sub-q">Ocena</p><div class="uzor">' + esc(ui.povratna) + '</div>' : '') + '<p class="sub-q">Uzorni odgovor</p><div class="uzor">' + fmt(z.uzor) + '</div>';
+    if (ui.phase === 'self') inner += '<p class="sub-q">Koje ključne ideje si naveo? (budi pošten, ovo je za tebe)</p>' +
       z.ideje.map((t, i) => '<label><input type="checkbox" data-i="' + i + '"' + (ui.chk.includes(i) ? ' checked' : '') + (done ? ' disabled' : '') + '><span>' + fmt(t) + '</span></label>').join('');
   }
   main.innerHTML = frame(z, s, inner + '</div>');
-  if (!done) actions(ui.phase ? [['btnDone', 'Gotovo', 'ok']] : [['btnCmp', 'Uporedi sa uzornim odgovorom', 'ok']]);
+  if (!done) actions(ui.phase === 'self' ? [['btnDone', 'Gotovo', 'ok']] : [['btnCmp', ai ? 'Proveri odgovor' : 'Uporedi sa uzornim odgovorom', 'ok']]);
   const ta = document.getElementById('expTxt');
-  if (ta) ta.addEventListener('input', () => { ui.txt = ta.value; save(); });
+  if (ta) ta.addEventListener('input', () => { if (open) ui.draft = ta.value; else ui.txt = ta.value; save(); });
   const c = document.getElementById('btnCmp');
-  if (c) c.addEventListener('click', () => { if ((ui.txt || '').trim().length < 15) { toast('Napiši bar jednu celu rečenicu', false); return; } ui.phase = 'self'; save(); renderItem(false); });
+  if (c) c.addEventListener('click', () => {
+    if ((open ? ui.draft || '' : ui.txt || '').trim().length < (open ? 3 : 15)) { toast('Napiši bar jednu celu rečenicu', false); return; }
+    if (!ai) { ui.phase = 'self'; save(); renderItem(false); return; }
+    if (open) { ui.sub[ui.sub.length - 1].odgovor = ui.draft; ui.draft = ''; }
+    c.disabled = true; c.textContent = 'Proveravam…';
+    askAI(z, s).then(r => {
+      ui.povratna = r.povratna;
+      const given = [ui.txt].concat(ui.sub.map(x => x.odgovor)).join(' / ');
+      if (r.ocena === 'delimicno' && r.potpitanje) { ui.sub.push({ pitanje: r.potpitanje }); save(); renderItem(false); return; }
+      explainEnd(z, r.ocena === 'tacno', given);
+    }).catch(() => { toast('Provera nije dostupna: uporedi sam', false); ui.phase = 'self'; save(); renderItem(false); });
+  });
   main.querySelectorAll('.exp input[type=checkbox]').forEach(b => b.addEventListener('change', () => { const i = +b.dataset.i; ui.chk = b.checked ? ui.chk.concat(i) : ui.chk.filter(x => x !== i); save(); }));
   const d = document.getElementById('btnDone');
-  if (d) d.addEventListener('click', () => {
-    const k = ui.chk.length, given = ui.txt + ' [ideje ' + k + '/' + n + ']';
-    if (k === n) { succeed(z, given, 3); return; }
-    const st_ = st(z.id); st_.status = 'revealed'; st_.pts = 0; record(z, st_, false, given); learnFrom(z, 0);
-    toast('Pročitaj uzorni odgovor još jednom', false); finishCheck(); save(); renderItem(false); renderNav(); refreshScore(); openDrawer();
-  });
+  if (d) d.addEventListener('click', () => explainEnd(z, ui.chk.length === n, ui.txt + ' [ideje ' + ui.chk.length + '/' + n + ']'));
   nextButton(z);
 }
 
@@ -1674,7 +1710,8 @@ def render_html(spec, output_path, embed_images=False, write=True):
     info = {"pojmovi": spec.get("pojmovi") or {}, "lekcijePojma": concept_lessons, "naslovi": titles,
             "katalog": katalog, "lekcije": spec.get("lekcije") or [], "slike": slike, "slikeNaslovi": naslovi_slika, "slikeData": slike_data, "zasticeno": zasticeno,
             "tekst": _lesson_text(spec, output_path, root, embed_images), "banka": _bank_links(spec, output_path, root),
-            "predmet": f'{spec.get("nivo")}/{spec.get("razred")}/{tool.parent.name}'}
+            "predmet": f'{spec.get("nivo")}/{spec.get("razred")}/{tool.parent.name}',
+            "ai": _ai_config() if embed_images else {}}
     mapj = {"proj": proj, "drzave": k.get("drzave") or {}, "mesta": k.get("mesta") or {}}
     js = lambda o: _json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
     repl = {

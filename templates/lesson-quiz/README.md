@@ -58,7 +58,7 @@ Jedan kviz, bez režima. Instanca se izvlači iz banke; u rezultat ide **prvi od
 | `izvor` | odlomak `izvor: {autor, naslov, tekst, napomena}` + pitanje | odlomak sopstvenim rečima ili javno dobro, uz napomenu |
 | `uporedi` | razvrstaj `tvrdnje` u `a` / `b` / oba / nijedan | svaka tvrdnja ima `odgovor` i `zasto` |
 | `ko_sam` | ličnost iz `tragova` jedan po jedan, odgovor iz `odgovori` | svaki trag ili greška = manje bodova |
-| `objasni` | učenik napiše odgovor, pa vidi `uzor` i štiklira `ideje` | samoprocena (sve ideje = tačno; neke → 1); nema ga u testu |
+| `objasni` | učenik napiše odgovor, pa vidi `uzor` i štiklira `ideje` | AI ocena (`workers/objasni`, zaštićena kopija), inače samoprocena (sve ideje = tačno; neke → 1); nema ga u testu |
 
 **Zašto (`zasto`):** svaki pogrešan ponuđeni odgovor (`odgovori`, `ispravke`, `uporedi.tvrdnje`) može da
 objasni zašto nije tačan. Učenik to vidi u fioci čim ga izabere, a tekst odgovora se precrta.
