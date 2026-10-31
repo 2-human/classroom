@@ -79,6 +79,7 @@ export default {
       if (last && o.ocena === "delimicno") o.ocena = "netacno";
       return json({ ocena: o.ocena, povratna: clip(o.povratna, 500), potpitanje: o.ocena === "delimicno" ? clip(o.potpitanje, 300) : "" });
     } catch (e) {
+      console.error("ocena", e.status, e.message);
       const status = e instanceof Anthropic.RateLimitError ? 429 : 502;
       return json({ greska: "ocena" }, status);
     }
