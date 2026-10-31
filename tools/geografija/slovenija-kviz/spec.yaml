@@ -7,7 +7,7 @@ title_short: Slovenija
 locale: sr
 nivo: osnovna
 razred: 7
-lekcije: [8]
+banka_lekcije: [8]
 description: >-
   Kviz za lekciju Republika Slovenija: položaj, reljef i kras, klima i reke, stanovništvo, privreda i
   gradovi, uz mnogo zadataka na karti (klikni mesto, „Gde sam?”). Posle svake greške u fioci desno
@@ -50,63 +50,3 @@ sastav:
   ucenje: 20
   test: 15
   odnos: [40, 40, 20]
-
-pojmovi:
-  slovenija: Slovenija
-  balkansko-poluostrvo: Balkansko poluostrvo
-  alpi: Alpi
-  julijski-alpi: Julijski Alpi
-  triglav: Triglav
-  dinarske-planine: Dinaridi (Dinarske planine)
-  panonska-nizija: Panonska nizija
-  jadransko-more: Jadransko more
-  kras: kras (kraški reljef)
-  postojnska-jama: Postojnska jama
-  covecja-ribica: čovečja ribica
-  dinarski-endemit: dinarski endemit
-  planinska-klima: planinska klima
-  izmenjenosredozemna-klima: izmenjenosredozemna klima
-  umerenokontinentalna-klima: umerenokontinentalna klima
-  crnomorski-sliv: Crnomorski sliv
-  jadranski-sliv: Jadranski sliv
-  sava: Sava
-  sava-bohinjka: Sava Bohinjka
-  sava-dolinka: Sava Dolinka
-  drava: Drava
-  krka: Krka
-  soca: Soča
-  kupa: Kupa
-  ljubljanica: Ljubljanica
-  bohinjsko-jezero: Bohinjsko jezero
-  bledsko-jezero: Bledsko jezero
-  slovenci: Slovenci
-  katolicanstvo: katoličanstvo
-  sfrj: SFRJ
-  sumarstvo: šumarstvo
-  drvna-industrija: drvna industrija
-  papirna-industrija: papirna industrija
-  prehrambena-industrija: prehrambena industrija
-  elektroindustrija: elektroindustrija
-  turizam: turizam
-  ljubljana: Ljubljana
-  maribor: Maribor
-  celje: Celje
-  kranj: Kranj
-  bled: Bled
-  skocjanske-jame: Škocjanske jame
-  koper: Koper
-  piran: Piran
-  juzni-sloveni: Južni Sloveni
-  dunav: Dunav
-  beograd: Beograd
-  srbija: Srbija
-  hrvatska: Hrvatska
-  bosna-i-hercegovina: Bosna i Hercegovina
-  plitvicka-jezera: Plitvička jezera
-  skadarsko-jezero: Skadarsko jezero
-  jahorina: Jahorina
-  sar-planina: Šar-planina
-  madjarska: Mađarska
-
-# Zadaci (banka): banka.yaml — zadaci u 5 delova, svaki sa težinom (lako/srednje/tesko).
-banka: banka.yaml

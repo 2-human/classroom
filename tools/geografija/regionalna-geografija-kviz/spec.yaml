@@ -8,7 +8,7 @@ title_short: Regionalna geografija
 locale: sr
 nivo: osnovna
 razred: 7
-lekcije: [1]
+banka_lekcije: [1]
 description: >-
   Kviz za uvodnu lekciju Regionalna geografija: šta je regija, princip regionalizacije, fizionomske i
   funkcionalne regije (Alpska, Padska, Panonska, Rur) i regionalna podela Azije i Jugozapadne Azije —
@@ -67,29 +67,3 @@ sastav:
   ucenje: 20
   test: 15
   odnos: [40, 40, 20]
-
-pojmovi:
-  regionalna-geografija: regionalna geografija
-  geografska-regija: geografska regija
-  homogen: homogen (jednorodan)
-  heterogen: heterogen (raznorodan)
-  princip-regionalizacije: princip regionalizacije
-  fizionomske-regije: fizionomske regije
-  funkcionalne-regije: funkcionalne regije
-  nacionalna-regionalna-geografija: nacionalna regionalna geografija
-  regionalna-geografija-sveta: regionalna geografija sveta
-  alpska-regija: Alpska regija
-  panonska-regija: Panonska regija
-  padska-regija: Padska regija
-  rur: Rur
-  regionalna-podela-azije: regionalna podela Azije
-  jugozapadna-azija: Jugozapadna Azija
-  zakavkazje: Zakavkazje
-  azijske-visoravni: Azijske visoravni
-  levant: Levant
-  mesopotamija: Mesopotamija
-  arabijsko-poluostrvo: Arabijsko poluostrvo
-  prelazne-granice: prelazne granice
-
-# Zadaci (banka): banka.yaml — 6 delova, svaki zadatak sa težinom (lako/srednje/tesko).
-banka: banka.yaml

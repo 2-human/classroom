@@ -7,7 +7,7 @@ title_short: Severna Makedonija
 locale: sr
 nivo: osnovna
 razred: 7
-lekcije: [9]
+banka_lekcije: [9]
 description: >-
   Kviz za lekciju Republika Severna Makedonija: položaj, reljef, klima i vode, stanovništvo, gradovi i
   privreda, uz kartu (klikni državu ili mesto, „Gde sam?”) i ponavljanje zastava bivših republika SFRJ.
@@ -46,51 +46,3 @@ sastav:
   ucenje: 20
   test: 15
   odnos: [40, 40, 20]
-
-pojmovi:
-  severna-makedonija: Severna Makedonija
-  balkansko-poluostrvo: Balkansko poluostrvo
-  kontinentalna-zemlja: kontinentalna zemlja
-  saobracajno-geografski-polozaj: saobraćajno-geografski položaj
-  grcka: Grčka
-  srbija: Srbija
-  albanija: Albanija
-  bugarska: Bugarska
-  planinsko-kotlinska-zemlja: planinsko-kotlinska zemlja
-  vardar: Vardar
-  sar-planina: Šar-planina
-  nabrane-planine: nabrane planine
-  srpsko-makedonska-masa: Srpsko-makedonska masa
-  gromadne-planine: gromadne planine
-  egejsko-more: Egejsko more
-  izmenjenosredozemna-klima: izmenjenosredozemna klima
-  planinska-klima: planinska klima
-  egejski-sliv: Egejski sliv
-  strumica: Strumica
-  ohridsko-jezero: Ohridsko jezero
-  dojransko-jezero: Dojransko jezero
-  prespansko-jezero: Prespansko jezero
-  makedonci: Makedonci
-  pravoslavlje: pravoslavlje
-  albanci: Albanci
-  islam: islam
-  vocarstvo: voćarstvo
-  vinogradarstvo: vinogradarstvo
-  stocarstvo: stočarstvo
-  ohridska-kotlina: Ohridska kotlina
-  prespanska-kotlina: Prespanska kotlina
-  tikveska-kotlina: Tikveška kotlina
-  turizam: turizam
-  skoplje: Skoplje
-  bitolj: Bitolj
-  kumanovo: Kumanovo
-  prilep: Prilep
-  tetovo: Tetovo
-  sfrj: SFRJ
-  slovenija: Slovenija
-  hrvatska: Hrvatska
-  crna-gora: Crna Gora
-  bosna-i-hercegovina: Bosna i Hercegovina
-
-# Zadaci (banka): banka.yaml — delovi po glavnim naslovima lekcije, svaki zadatak sa težinom.
-banka: banka.yaml

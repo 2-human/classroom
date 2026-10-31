@@ -7,7 +7,7 @@ title_short: Republika Srbija
 locale: sr
 nivo: osnovna
 razred: 7
-lekcije: [4]
+banka_lekcije: [4]
 description: >-
   Kviz za lekciju Republika Srbija: položaj i susedi, reljef, klima i reke, stanovništvo, privreda i
   turizam — činjenice, tačno/netačno, dopunjavanje, povezivanje, zaključivanje i snalaženje na karti.
@@ -73,93 +73,3 @@ sastav:
   ucenje: 20
   test: 15
   odnos: [40, 40, 20]
-
-pojmovi:
-  srbija: Srbija
-  balkansko-poluostrvo: Balkansko poluostrvo
-  panonska-nizija: Panonska nizija
-  saobracajno-geografski-polozaj: saobraćajno-geografski položaj
-  ap-vojvodina: AP Vojvodina
-  ap-kosovo-i-metohija: AP Kosovo i Metohija
-  vojvodina: Vojvodina
-  srem: Srem
-  backa: Bačka
-  banat: Banat
-  fruska-gora: Fruška gora
-  vrsacke-planine: Vršačke planine
-  panonsko-more: Panonsko more
-  vlaska-nizija: Vlaška nizija
-  nabrane-planine: nabrane planine
-  sar-planina: Šar-planina
-  prokletije: Prokletije
-  tara: Tara
-  kopaonik: Kopaonik
-  stara-planina: Stara planina
-  srpsko-makedonska-masa: Srpsko-makedonska masa
-  rasedne-planine: rasedne planine
-  jastrebac: Jastrebac
-  dukat: Dukat
-  ruj: Ruj
-  niska-kotlina: Niška kotlina
-  leskovacka-kotlina: Leskovačka kotlina
-  vranjska-kotlina: Vranjska kotlina
-  metohijska-kotlina: Metohijska kotlina
-  kosovska-kotlina: Kosovska kotlina
-  kontinentalna-klima: kontinentalna klima
-  umerenokontinentalna-klima: umerenokontinentalna klima
-  planinska-klima: planinska klima
-  dunav: Dunav
-  sava: Sava
-  tisa: Tisa
-  drina: Drina
-  ibar: Ibar
-  velika-morava: Velika Morava
-  juzna-morava: Južna Morava
-  zapadna-morava: Zapadna Morava
-  lim: Lim
-  uvac: Uvac
-  crno-more: Crno more
-  jadransko-more: Jadransko more
-  egejsko-more: Egejsko more
-  emigracija: emigracija
-  odliv-mozgova: odliv mozgova
-  prirodni-prirastaj: prirodni priraštaj
-  gustina-naseljenosti: gustina naseljenosti
-  pravoslavlje: pravoslavlje
-  islam: islam
-  katolicanstvo: katoličanstvo
-  zemlja-u-razvoju: zemlja u razvoju
-  zemljoradnja: zemljoradnja
-  industrijsko-bilje: industrijsko bilje
-  vinogradarstvo: vinogradarstvo
-  stocarstvo: stočarstvo
-  nafta: nafta
-  zemni-gas: zemni gas
-  ugalj: ugalj
-  hidroelektrana: hidroelektrana
-  bakar: bakar
-  plemeniti-metali: plemeniti metali
-  tercijarni-sektor: tercijarni sektor
-  turizam: turizam
-  beograd: Beograd
-  novi-sad: Novi Sad
-  nis: Niš
-  vranje: Vranje
-  bor: Bor
-  vrnjacka-banja: Vrnjačka banja
-  zlatibor: Zlatibor
-  djavolja-varos: Đavolja varoš
-  meandri-uvca: meandri Uvca
-  deliblatska-pescara: Deliblatska peščara
-  obedska-bara: Obedska bara
-  madjarska: Mađarska
-  rumunija: Rumunija
-  bugarska: Bugarska
-  severna-makedonija: Severna Makedonija
-  albanija: Albanija
-  crna-gora: Crna Gora
-  bosna-i-hercegovina: Bosna i Hercegovina
-  hrvatska: Hrvatska
-
-# Zadaci (banka): banka.yaml — u 6 delova, svaki sa težinom (lako/srednje/tesko).
-banka: banka.yaml

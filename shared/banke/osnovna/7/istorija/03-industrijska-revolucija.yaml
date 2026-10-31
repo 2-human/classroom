@@ -1,0 +1,2430 @@
+# Banka zadataka — 2.1. Industrijska revolucija (istorija, 7. razred, str. 28–32). Spaja se u spec.yaml.
+# Pitanja sopstvenim rečima na osnovu beleške tools/istorija/_source/lekcije-7/03-industrijska-revolucija.md.
+# Svaki pogrešan ponuđeni odgovor ima `zasto` — greška treba da nauči, ne samo da kazni.
+
+lekcija: 3
+naslov: "2.1. Industrijska revolucija"
+pojmovi:
+  industrijska-revolucija: industrijska revolucija
+  prva-industrijska-revolucija: Prva industrijska revolucija
+  manufaktura: manufaktura
+  manufakturna-radionica: manufakturna radionica
+  velika-britanija: Velika Britanija
+  kolonija: kolonija
+  pamuk: pamuk
+  tkanine: tkanine
+  robovlasnistvo: robovlasništvo
+  fabrika: fabrika
+  leteci-cunak: leteći čunak
+  dzon-kej: Džon Kej
+  predilica: predilica
+  razboj: razboj
+  rudarstvo: rudarstvo
+  kameni-ugalj: kameni ugalj
+  gvozdje: gvožđe
+  parna-masina: parna mašina
+  dzejms-vat: Džejms Vat
+  tekstilna-industrija: tekstilna industrija
+  metalna-industrija: metalna industrija
+  masinska-industrija: mašinska industrija
+  saobracaj: saobraćaj
+  dzordz-stivenson: Džordž Stivenson
+  parna-lokomotiva: parna lokomotiva
+  zeleznica: železnica
+  stokton-darlington: pruga Stokton–Darlington
+  mancester-liverpul: pruga Mančester–Liverpul
+  raketa: Raketa (lokomotiva)
+  robert-fulton: Robert Fulton
+  parobrod: parobrod
+  klermont: Klermont
+  hadson: Hadson
+  njujork: Njujork
+  olbani: Olbani
+  jedrenjaci: jedrenjaci
+  gradjanstvo: građanstvo
+  burzoazija: buržoazija
+  radnistvo: radništvo
+  radnicka-klasa: radnička klasa
+  decji-rad: dečji rad
+  radnicka-naselja: radnička naselja
+  mancester: Mančester
+  liverpul: Liverpul
+  grad-pamuka: „Grad pamuka”
+  radnicki-nemiri: radnički nemiri
+  luditi: luditi
+  ned-lud: Ned Lud
+  radnicka-udruzenja: radnička udruženja
+  britanski-parlament: britanski parlament
+  zagadjenje-zivotne-sredine: zagađenje životne sredine
+  london: London
+delovi:
+  - naslov: Od manufakture do mašina
+    zadaci:
+      - id: uvod-izbor-manufaktura
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [manufaktura]
+        pitanje: Kako se proizvodilo u manufakturi?
+        odgovori:
+          - {tekst: "Ručno, a posao je bio podeljen tako da svaki radnik izrađuje jedan deo proizvoda", tacan: true}
+          - {tekst: "Mašinama koje pokreće parna mašina", tacan: false, zasto: "To je fabrika — mašine na paru dolaze tek sa industrijskom revolucijom, posle manufakture."}
+          - {tekst: "Kod kuće, gde jedan zanatlija sam pravi ceo proizvod", tacan: false, zasto: "U manufakturi je više radnika radilo zajedno, a posao je bio podeljen na delove."}
+          - {tekst: "Robovi na plantažama u kolonijama", tacan: false, zasto: "Robovi su na plantažama gajili sirovi pamuk; manufaktura je radionica u kojoj se proizvod pravi ručno."}
+        pomoc:
+          - "Reč „manufaktura” u sebi ima latinsku reč za ruku."
+          - "Mašina još nema — ali radnici dele posao među sobom."
+          - "Iz lekcije: radilo se ručno, a svaki radnik je izrađivao samo deo proizvoda."
+        objasnjenje: U manufakturi se radilo ručno, ali uz podelu rada — svaki radnik je pravio samo jedan deo proizvoda.
+        iz_udzbenika: {strana: 28, odeljak: Uvod, tekst: "Od XVI do XVIII veka razvijala se manufakturna proizvodnja: ručni rad podeljen na delove, gde svaki radnik izrađuje deo proizvoda.", slika: 03-industrijska-revolucija/02-manufakturna-radionica.jpg}
+
+      - id: uvod-izbor-gde-pocela
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [prva-industrijska-revolucija, velika-britanija]
+        pitanje: U kojoj zemlji je počela Prva industrijska revolucija?
+        odgovori:
+          - {tekst: "U Velikoj Britaniji", tacan: true}
+          - {tekst: "U Rusiji", tacan: false, zasto: "Istok Evrope industrijski razvoj je do sredine XIX veka uglavnom zaobišao."}
+          - {tekst: "U Italiji", tacan: false, zasto: "Apeninsko poluostrvo spada u delove Evrope koje je industrijski razvoj tada zaobišao."}
+          - {tekst: "U Sjedinjenim Američkim Državama", tacan: false, zasto: "Iz Amerike je pronalazač Fulton, ali revolucija je počela u Britaniji pa se širila po Evropi."}
+        pomoc:
+          - "Seti se zemlje koja je imala najviše kolonija i najjaču trgovačku flotu."
+          - "Tamo su radili Vat i Stivenson, a nalaze se i Mančester i Liverpul."
+          - "Iz lekcije: počela je u Velikoj Britaniji, pa zahvatila zapadnu i srednju Evropu."
+        objasnjenje: Prva industrijska revolucija počela je u Velikoj Britaniji, a zatim se proširila na druge delove zapadne i srednje Evrope.
+        iz_udzbenika: {strana: 28, odeljak: Uvod, tekst: "Prva industrijska revolucija počela je u Velikoj Britaniji, a potom zahvatila zapadnu i srednju Evropu."}
+
+      - id: uvod-izbor-zaobisla
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [industrijska-revolucija]
+        pitanje: "Koje oblasti je industrijski razvoj do sredine XIX veka uglavnom zaobišao? (više tačnih)"
+        odgovori:
+          - {tekst: "Balkansko poluostrvo", tacan: true}
+          - {tekst: "Rusiju i istok Evrope", tacan: true}
+          - {tekst: "Pirinejsko i Apeninsko poluostrvo", tacan: true}
+          - {tekst: "Belgiju", tacan: false, zasto: "Belgija je na karti među najrazvijenijim industrijskim teritorijama, odmah posle Britanije."}
+          - {tekst: "Češku", tacan: false, zasto: "Češka (deo Habzburške monarhije) je na karti šrafirana kao razvijena industrijska oblast."}
+          - {tekst: "Sever Francuske", tacan: false, zasto: "Sever Francuske pripada pojasu industrijskih oblasti od Belgije prema nemačkim zemljama."}
+        pomoc:
+          - "Razvijene oblasti čine pojas od Britanije preko Belgije do Češke — šta je izvan njega?"
+          - "Pogledaj jug i istok karte."
+          - "Iz lekcije: zaobiđeni su jug (tri poluostrva), istok (Rusija) i sever Evrope."
+        objasnjenje: Do sredine XIX veka industrija je bila jaka u Britaniji i pojasu od Belgije do Češke; jug, istok i sever Evrope su uglavnom zaobiđeni.
+        iz_udzbenika: {strana: 28, odeljak: Karta — Industrijska revolucija do sredine XIX veka, tekst: "Uz kartu udžbenik pita koje je zemlje zahvatila industrijska revolucija, a koje delove Evrope je zaobišla.", slika: 03-industrijska-revolucija/01-karta-industrijska-revolucija.jpg}
+
+      - id: uvod-tn-masine
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [industrijska-revolucija]
+        tvrdnja: U drugoj polovini XVIII veka mašine su počele da zamenjuju rad ljudske ruke.
+        tacno: true
+        pomoc:
+          - "Šta je novo u odnosu na manufakturu?"
+          - "Iz lekcije: u drugoj polovini XVIII veka mašine zamenjuju ljudsku ruku."
+        objasnjenje: Tačno — to je suština industrijske revolucije; manufakturu sa ručnim radom smenjuje mašinska proizvodnja.
+        iz_udzbenika: {strana: 28, odeljak: Uvod, tekst: "U drugoj polovini XVIII veka mašine su počele da zamenjuju rad ljudske ruke."}
+        osa: {naziv: Mašine zamenjuju ljudsku ruku, od: 1750, do: 1800, traka: pronalasci}
+
+      - id: uvod-dopuni-manufaktura
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [manufaktura, industrijska-revolucija, velika-britanija]
+        pitanje: Dopuni rečenice.
+        tekst: "Od XVI do XVIII veka proizvodilo se u {{manufakturama}}, gde se radilo {{ručno}}. U drugoj polovini XVIII veka ljudsku ruku zamenjuju {{mašine}}, a promena počinje u {{Velikoj Britaniji}}."
+        ponudjene: [manufakturama, ručno, mašine, Velikoj Britaniji, fabrikama, Rusiji, parom]
+        pomoc:
+          - "Prvo je bio ručni rad, pa onda mašine."
+          - "Iz lekcije: manufaktura (ručno) → mašine; početak u Britaniji."
+        objasnjenje: Manufaktura je ručna proizvodnja sa podelom rada; industrijska revolucija uvodi mašine, prvo u Velikoj Britaniji.
+        iz_udzbenika: {strana: 28, odeljak: Uvod, tekst: "Posle manufakturnog razdoblja (XVI–XVIII vek) mašine zamenjuju ruku; revolucija počinje u Britaniji."}
+
+      - id: uvod-datum-masine
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [industrijska-revolucija]
+        dogadjaj: Mašine zamenjuju ljudsku ruku
+        pitanje: U kom razdoblju su mašine počele da zamenjuju rad ljudske ruke? (upiši raspon godina)
+        od: 1750
+        do: 1800
+        traka: pronalasci
+        pomoc:
+          - "Bilo je to u XVIII veku — u kojoj polovini?"
+          - "Vatova mašina je iz 1769, usred tog razdoblja."
+          - "Iz lekcije: druga polovina XVIII veka (oko 1750–1800)."
+        objasnjenje: Druga polovina XVIII veka, otprilike 1750–1800 — u to vreme pada i Vatova mašina (1769).
+        iz_udzbenika: {strana: 28, odeljak: Uvod, tekst: "Velika promena dolazi u drugoj polovini XVIII veka, kada mašine zamenjuju ljudsku ruku."}
+
+      - id: uvod-zakljuci-revolucija
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [industrijska-revolucija]
+        pitanje: Zašto se promena u proizvodnji naziva „revolucija”, a ne samo napredak?
+        odgovori:
+          - {tekst: "Zato što je donela duboke, korenite promene u svim oblastima društva, ne samo u radionicama", tacan: true}
+          - {tekst: "Zato što je počela nasilnim ustankom protiv kralja", tacan: false, zasto: "Ovde „revolucija” ne znači pobunu; znači korenit preokret u proizvodnji i načinu života."}
+          - {tekst: "Zato što se desila preko noći, za jednu godinu", tacan: false, zasto: "Trajala je decenijama — od Vatove mašine (1769) do sredine XIX veka i dalje."}
+          - {tekst: "Zato što je zahvatila samo proizvodnju tkanina", tacan: false, zasto: "Zahvatila je i metalnu i mašinsku industriju, saobraćaj, gradove i odnose među ljudima."}
+        pomoc:
+          - "Korak 1: Šta znači reč revolucija — mala ili velika promena?"
+          - "Korak 2: Na šta je sve uticala — samo na mašine, ili i na gradove, porodice, rad dece?"
+          - "Iz lekcije: donela je dalekosežne i korenite promene u svim poljima društvenog razvoja."
+        objasnjenje: Revolucija je korenit preokret; mašine su promenile ne samo proizvodnju nego i gradove, društvene grupe i svakodnevni život.
+        iz_udzbenika: {strana: 28, odeljak: Uvod, tekst: "Prva industrijska revolucija donela je dalekosežne i korenite promene u svim poljima društvenog razvoja."}
+
+      - id: uvod-izvor-manufaktura
+        vrsta: izvor
+        slika_u_pitanju: true
+        tezina: lako
+        pojmovi: [manufaktura, manufakturna-radionica]
+        izvor:
+          autor: Nepoznati crtač
+          naslov: Manufakturna radionica (crtež)
+          tekst: Na crtežu je radionica u kojoj više radnika stoji za stolovima. Svako ručno radi svoj deo posla — jedan izrađuje, drugi slaže gotove listove. Mašina na crtežu nema.
+          napomena: Opis slike je prepričan; udžbenik, str. 28.
+        pitanje: Šta ovaj crtež pokazuje o radu u manufakturi?
+        odgovori:
+          - {tekst: "Radilo se ručno, a posao je bio podeljen među radnicima", tacan: true}
+          - {tekst: "Mašine su obavljale ceo posao, a radnici su ih samo nadgledali", tacan: false, zasto: "Na crtežu nema mašina — to bi bila fabrika iz doba industrijske revolucije."}
+          - {tekst: "Jedan majstor je sam pravio ceo proizvod", tacan: false, zasto: "Na crtežu radi više ljudi i svako radi svoj deo — to je podela rada."}
+          - {tekst: "Radnici su bili robovi doneti iz kolonija", tacan: false, zasto: "Robovi su radili na plantažama pamuka u kolonijama, a ne u britanskim radionicama."}
+        pomoc:
+          - "Prebroj ljude na crtežu i pogledaj da li rade isto."
+          - "Ima li na crtežu mašina?"
+          - "Iz lekcije: manufaktura = ručni rad uz podelu posla."
+        objasnjenje: Crtež pokazuje dva obeležja manufakture — ručni rad i podelu posla među više radnika.
+        iz_udzbenika: {strana: 28, odeljak: Manufakturna radionica, tekst: "Crtež prikazuje radnike koji ručno izrađuju i slažu proizvode, svako svoj deo posla.", slika: 03-industrijska-revolucija/02-manufakturna-radionica.jpg}
+
+      - id: uvod-izvor-karta
+        vrsta: izvor
+        slika_u_pitanju: true
+        tezina: lako
+        pojmovi: [industrijska-revolucija, velika-britanija, zeleznica]
+        izvor:
+          autor: Istorijska karta u udžbeniku
+          naslov: Industrijska revolucija i razvoj industrije do sredine XIX veka
+          tekst: Na karti Evrope znakovima su označene metalna i tekstilna industrija i pruge. Šrafurom su obeležene najrazvijenije industrijske teritorije — Velika Britanija i pojas od Belgije, preko severa Francuske i nemačkih zemalja, do Češke.
+          napomena: Opis karte je prepričan; udžbenik, str. 28.
+        pitanje: Koja oblast je, prema karti, bila najrazvijenija industrijska teritorija Evrope?
+        odgovori:
+          - {tekst: "Velika Britanija, zajedno sa pojasom od Belgije do Češke", tacan: true}
+          - {tekst: "Balkansko poluostrvo", tacan: false, zasto: "Balkan nije šrafiran — industrijski razvoj ga je do sredine XIX veka zaobišao."}
+          - {tekst: "Rusija oko Moskve", tacan: false, zasto: "Moskva je ucrtana na karti, ali Rusija nije među šrafiranim industrijskim oblastima."}
+          - {tekst: "Jug Italije i Španije", tacan: false, zasto: "Pirinejsko i Apeninsko poluostrvo su van najrazvijenijih oblasti."}
+        pomoc:
+          - "Šrafura označava najrazvijenije teritorije — gde je ima?"
+          - "Počni od zemlje u kojoj je revolucija počela."
+          - "Iz lekcije: Britanija i pojas od Belgije do Češke."
+        objasnjenje: Karta je izvor koji prikazuje rasprostranjenost — najrazvijenija je Britanija, a zatim pojas od Belgije do Češke.
+        iz_udzbenika: {strana: 28, odeljak: Karta, tekst: "Karta pokazuje industriju i pruge do sredine XIX veka i šrafurom ističe najrazvijenije teritorije.", slika: 03-industrijska-revolucija/01-karta-industrijska-revolucija.jpg}
+
+      - id: uvod-uporedi-manufaktura-fabrika
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [manufaktura, fabrika]
+        a: Manufaktura
+        b: Fabrika
+        pitanje: Na šta se odnosi tvrdnja — na manufakturu, fabriku, obe ili nijednu?
+        tvrdnje:
+          - {tekst: "Proizvodi se ručno.", odgovor: a, zasto: "Ručni rad je obeležje manufakture; u fabrici rade mašine."}
+          - {tekst: "Proizvodnju pokreću mašine, često na paru.", odgovor: b, zasto: "Fabrika je ustanova mašinske proizvodnje iz doba industrijske revolucije."}
+          - {tekst: "Više radnika radi zajedno i svako radi svoj deo posla.", odgovor: oba, zasto: "Podela rada postoji već u manufakturi i zadržava se u fabrici."}
+          - {tekst: "Proizvodi postaju jeftiniji pa zanatlije propadaju.", odgovor: b, zasto: "Mašinska proizvodnja u fabrikama je pojeftinila robu i uništila sitne zanatlije i manufakture."}
+          - {tekst: "Nalazi se na plantaži u koloniji.", odgovor: nijedan, zasto: "Na plantažama robovi gaje sirovi pamuk; i manufakture i fabrike su u Britaniji."}
+        pomoc:
+          - "Šta je glavna razlika — ruka ili mašina?"
+          - "Podela rada postoji od manufakture nadalje."
+          - "Iz lekcije: manufaktura = ručno + podela rada; fabrika = mašine."
+        objasnjenje: Obe imaju podelu rada, ali manufaktura radi rukom, a fabrika mašinama — i zato fabrika proizvodi jeftinije.
+        iz_udzbenika: {strana: 28, odeljak: Uvod, tekst: "Manufaktura je ručni rad podeljen na delove; mašinska proizvodnja u fabrikama dolazi u drugoj polovini XVIII veka."}
+
+      - id: uvod-objasni-manufaktura-fabrika
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [manufaktura, fabrika, industrijska-revolucija]
+        pitanje: Po čemu se rad u fabrici razlikuje od rada u manufakturi? Objasni svojim rečima.
+        uzor: U manufakturi se radilo ručno, ali je posao bio podeljen među radnicima. U fabrici posao obavljaju mašine, koje pokreće voda ili para, a radnici ih opslužuju. Zato fabrika proizvodi brže i jeftinije.
+        ideje:
+          - Manufaktura — ručni rad.
+          - U oba slučaja postoji podela rada.
+          - Fabrika — mašine (voda, para).
+          - Fabrika proizvodi brže i jeftinije.
+        objasnjenje: Ključna razlika je izvor snage — ljudska ruka ili mašina.
+        iz_udzbenika: {strana: 28, odeljak: Uvod, tekst: "Manufakturu (ručni rad, podela posla) smenjuje mašinska proizvodnja."}
+
+  - naslov: Uzroci industrijske revolucije
+    zadaci:
+      - id: uzr-izbor-pomorska-sila
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [velika-britanija, kolonija]
+        pitanje: Kakva je bila Velika Britanija početkom XVIII veka?
+        odgovori:
+          - {tekst: "Jedna od vodećih pomorskih i kolonijalnih sila", tacan: true}
+          - {tekst: "Mala država bez kolonija i flote", tacan: false, zasto: "Upravo suprotno — Britanija je imala kolonije i jaku flotu, pa je trgovala na svim kontinentima."}
+          - {tekst: "Zemlja koja je samo kupovala tuđu robu", tacan: false, zasto: "Britanski trgovci su višak svojih proizvoda prodavali u Evropi i na drugim kontinentima."}
+          - {tekst: "Kolonija neke druge evropske sile", tacan: false, zasto: "Britanija je sama imala kolonije — na primer plantaže pamuka."}
+        pomoc:
+          - "Britanija je ostrvo — po čemu je bila jaka?"
+          - "Odakle je dobijala jeftin pamuk?"
+          - "Iz lekcije: vodeća pomorska i kolonijalna sila."
+        objasnjenje: Britanija je bila pomorska i kolonijalna sila — to joj je donelo tržišta, sirovine i bogatstvo, uslove za industrijsku revoluciju.
+        iz_udzbenika: {strana: 29, odeljak: Uzroci industrijske revolucije, tekst: "Početkom XVIII veka Britanija je jedna od vodećih pomorskih i kolonijalnih sila."}
+
+      - id: uzr-izbor-uzroci-vise
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [velika-britanija, pamuk, kolonija, fabrika]
+        pitanje: "Šta je doprinelo da industrijska revolucija počne baš u Britaniji? (više tačnih)"
+        odgovori:
+          - {tekst: "Bila je pomorska i kolonijalna sila koja je trgovala na svim kontinentima", tacan: true}
+          - {tekst: "Iz kolonija je dobijala jeftin sirovi pamuk", tacan: true}
+          - {tekst: "Vlasnici radionica su prihod od tkanina ulagali u nove fabrike", tacan: true}
+          - {tekst: "Imala je obilje šuma, pa je drvo bilo glavno gorivo", tacan: false, zasto: "Obrnuto — zbog nedostatka šuma glavno gorivo je postao kameni ugalj."}
+          - {tekst: "Lanene i vunene tkanine bile su najjeftinije na svetu", tacan: false, zasto: "Najtraženije zbog povoljne cene bile su pamučne tkanine, a lanene i vunene bile su najcenjenije."}
+        pomoc:
+          - "Misli o trgovini, sirovinama i novcu."
+          - "Jedan ponuđeni odgovor govori o šumama — kako je zapravo bilo?"
+          - "Iz lekcije: pomorska i kolonijalna sila, jeftin pamuk iz kolonija, prihod uložen u fabrike."
+        objasnjenje: Trgovina i kolonije dale su tržište i jeftinu sirovinu, a zarada od pamuka kapital za fabrike.
+        iz_udzbenika: {strana: 29, odeljak: Uzroci industrijske revolucije, tekst: "Britanija trguje na svim kontinentima, pamuk dobija sa plantaža u kolonijama, a prihod od tkanina ulaže se u fabrike."}
+
+      - id: uzr-tn-robovi
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [pamuk, kolonija, robovlasnistvo]
+        tvrdnja: Jeftin sirovi pamuk dobijao se sa plantaža u britanskim kolonijama, na kojima su radili crni robovi.
+        tacno: true
+        pomoc:
+          - "Odakle dolazi sirovina i ko je tamo radio?"
+          - "Iz lekcije: plantaže u kolonijama, rad crnih robova."
+        objasnjenje: Tačno — pamuk je bio jeftin i zato što su ga na plantažama gajili robovi.
+        iz_udzbenika: {strana: 29, odeljak: Uzroci industrijske revolucije, tekst: "Sirovi pamuk dolazi sa plantaža u britanskim kolonijama na kojima rade crni robovi."}
+
+      - id: uzr-tn-prerada
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [pamuk, tkanine, kolonija]
+        tvrdnja: Pamuk se prerađivao u tkaninu u kolonijama, a Britanija je uvozila samo gotove tkanine.
+        tacno: false
+        ispravke:
+          - {tekst: "Sirovi pamuk se dovozio iz kolonija i prerađivao u britanskim radionicama.", tacan: true}
+          - {tekst: "Pamuk se i gajio i prerađivao u Britaniji.", tacan: false, zasto: "Pamuk se gajio na plantažama u kolonijama, a ne u Britaniji."}
+          - {tekst: "Britanija je pamuk kupovala od Rusije.", tacan: false, zasto: "Pamuk je dolazio sa plantaža u britanskim kolonijama."}
+        pomoc:
+          - "Gde je sirovina, a gde radionice?"
+          - "Iz lekcije: pamuk iz kolonija prerađuje se u britanskim radionicama."
+        objasnjenje: Kolonije daju sirovinu, a Britanija je prerađuje — zato su britanske radionice, pa fabrike, toliko zarađivale.
+        iz_udzbenika: {strana: 29, odeljak: Uzroci industrijske revolucije, tekst: "Sirovi pamuk iz kolonija prerađuje se u britanskim radionicama."}
+
+      - id: uzr-dopuni-pamuk
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [pamuk, kolonija, robovlasnistvo, tkanine]
+        pitanje: Dopuni rečenice.
+        tekst: "U XVIII veku najtraženije su postale {{pamučne}} tkanine zbog povoljne {{cene}}. Sirovina je stizala sa {{plantaža}} u britanskim kolonijama, gde su radili {{robovi}}."
+        ponudjene: [pamučne, cene, plantaža, robovi, vunene, boje, rudnika, zanatlije]
+        pomoc:
+          - "Koja tkanina je bila jeftina, a koja cenjena?"
+          - "Ko je radio na plantažama?"
+          - "Iz lekcije: pamučne tkanine, povoljna cena, plantaže, crni robovi."
+        objasnjenje: Jeftina sirovina (rad robova) → jeftina pamučna tkanina → velika potražnja.
+        iz_udzbenika: {strana: 29, odeljak: Uzroci industrijske revolucije, tekst: "Pamučne tkanine najtraženije su zbog cene; sirovina dolazi sa plantaža na kojima rade robovi."}
+
+      - id: uzr-povezi-uzroci
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [pamuk, kolonija, fabrika, velika-britanija]
+        pitanje: Poveži uzrok sa njegovom posledicom.
+        parovi:
+          - [Povoljna cena pamučnih tkanina, Pamučne tkanine postaju najtraženije]
+          - [Rad robova na plantažama, Sirovi pamuk je jeftin]
+          - [Veliki prihod od pamučnih tkanina, Vlasnici radionica otvaraju fabrike]
+          - [Britanija ima višak proizvoda, Trgovci ih prodaju i na drugim kontinentima]
+        pomoc:
+          - "Za svaki uzrok pitaj: šta se zbog toga desilo?"
+          - "Iz lekcije: novac od tkanina ulaže se u fabrike."
+        objasnjenje: Svaki korak vodi sledećem — jeftina sirovina, jeftina tkanina, velika prodaja, zarada, nove fabrike.
+        iz_udzbenika: {strana: 29, odeljak: Uzroci industrijske revolucije, tekst: "Prihod od pamučnih tkanina vlasnici radionica ulažu u razvoj proizvodnje i otvaranje fabrika."}
+
+      - id: uzr-lanac-prihod
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [pamuk, fabrika, tkanine]
+        karike:
+          - Pamučne tkanine se dobro prodaju u Evropi i na drugim kontinentima
+          - "?"
+          - Vlasnici radionica otvaraju fabrike
+        praznina: 1
+        odgovori:
+          - {tekst: "Vlasnici radionica ostvaruju veliki prihod", tacan: true}
+          - {tekst: "Zanatlije propadaju", tacan: false, zasto: "Propast zanatlija je kasnija posledica fabrika koje proizvode jeftinije, a ne uzrok njihovog otvaranja."}
+          - {tekst: "Nestaju šume u Britaniji", tacan: false, zasto: "Nedostatak šuma je razlog prelaska na kameni ugalj, a ne veza između prodaje i fabrika."}
+          - {tekst: "Radnici lome mašine", tacan: false, zasto: "Lomljenje mašina dolazi kasnije, kao odgovor radnika na loš položaj u fabrikama."}
+        pomoc:
+          - "Korak 1: Šta trgovac dobija kad mnogo proda?"
+          - "Korak 2: Čime se plaća gradnja fabrike?"
+          - "Iz lekcije: pamučna tkanina je donosila veliki prihod, koji se ulagao u fabrike."
+        objasnjenje: Dobra prodaja → veliki prihod → novac za nove fabrike.
+        iz_udzbenika: {strana: 29, odeljak: Uzroci industrijske revolucije, tekst: "Pamučna tkanina donosi veliki prihod, koji vlasnici radionica ulažu u fabrike."}
+
+      - id: uzr-lanac-pamuk
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [pamuk, robovlasnistvo, kolonija, tkanine]
+        karike:
+          - Na plantažama u kolonijama rade crni robovi
+          - Sirovi pamuk je jeftin
+          - "?"
+          - Potražnja za pamučnim tkaninama je ogromna
+        praznina: 2
+        odgovori:
+          - {tekst: "Pamučne tkanine iz britanskih radionica su jeftine", tacan: true}
+          - {tekst: "Lanene i vunene tkanine postaju jeftinije", tacan: false, zasto: "Lan i vuna nisu iz kolonija; jeftin je pamuk, pa su jeftine pamučne tkanine."}
+          - {tekst: "Britanija gubi svoje kolonije", tacan: false, zasto: "Lekcija ne govori o gubitku kolonija — one su bile izvor jeftine sirovine."}
+          - {tekst: "Radnici traže veće plate", tacan: false, zasto: "Borba radnika za bolji položaj je posledica fabrika, a ne veza u ovom lancu o ceni."}
+        pomoc:
+          - "Korak 1: Ako je sirovina jeftina, kakav će biti gotov proizvod?"
+          - "Korak 2: Zašto ljudi kupuju više neke robe?"
+          - "Iz lekcije: pamučne tkanine su najtraženije zbog povoljne cene."
+        objasnjenje: Rad robova → jeftina sirovina → jeftine pamučne tkanine → velika potražnja. Bogatstvo britanske industrije počivalo je i na ropstvu.
+        iz_udzbenika: {strana: 29, odeljak: Uzroci industrijske revolucije, tekst: "Jeftin pamuk sa plantaža na kojima rade robovi čini pamučne tkanine najtraženijim."}
+
+      - id: uzr-zakljuci-pamuk
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [pamuk, tkanine]
+        pitanje: Zašto su pamučne tkanine u XVIII veku postale najtraženije?
+        odgovori:
+          - {tekst: "Zbog povoljne, niske cene", tacan: true}
+          - {tekst: "Zato što su bile najskuplje i najotmenije", tacan: false, zasto: "Najcenjenije su bile tkanine od lana i vune; pamuk je pobedio cenom."}
+          - {tekst: "Zato što su se pravile u Rusiji", tacan: false, zasto: "Pamuk se prerađivao u britanskim radionicama, a gajio u britanskim kolonijama."}
+          - {tekst: "Zato što ih je zakon jedine dozvoljavao", tacan: false, zasto: "Lekcija ne pominje takav zakon; ljudi su ih kupovali jer su bile jeftine."}
+        pomoc:
+          - "Korak 1: Šta je najvažnije većini kupaca?"
+          - "Korak 2: Sirovina je bila jeftina — kakva je onda tkanina?"
+          - "Iz lekcije: najtraženije zbog povoljne cene."
+        objasnjenje: Pamuk iz kolonija bio je jeftin, pa su i tkanine bile jeftine — i zato najtraženije.
+        iz_udzbenika: {strana: 29, odeljak: Uzroci industrijske revolucije, tekst: "U XVIII veku najtraženije su pamučne tkanine zbog povoljne cene."}
+
+      - id: uzr-zakljuci-britanija
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [velika-britanija, kolonija, prva-industrijska-revolucija]
+        pitanje: Kako je to što je Britanija bila kolonijalna sila pomoglo da baš ona započne industrijsku revoluciju?
+        odgovori:
+          - {tekst: "Kolonije su davale jeftinu sirovinu i tržište, pa je trgovina donosila novac za fabrike", tacan: true}
+          - {tekst: "Iz kolonija su stizale gotove mašine", tacan: false, zasto: "Mašine su izmislili britanski pronalazači; iz kolonija je stizala sirovina — pamuk."}
+          - {tekst: "Kolonije su slale radnike za britanske fabrike", tacan: false, zasto: "U fabrike su dolazili ljudi sa britanskih sela; robovi su radili na plantažama u kolonijama."}
+          - {tekst: "Kolonije su bile hladne, pa je trebalo više tkanina", tacan: false, zasto: "Lekcija to ne kaže; važno je da su kolonije davale jeftin pamuk i da je Britanija trgovala svuda."}
+        pomoc:
+          - "Korak 1: Šta je Britanija dobijala iz kolonija?"
+          - "Korak 2: Šta je radila sa viškom robe?"
+          - "Korak 3: Gde je završavao novac od trgovine? Iz lekcije: u razvoju proizvodnje i fabrikama."
+        objasnjenje: Kolonije i flota značile su jeftinu sirovinu i kupce širom sveta; zarada je uložena u fabrike.
+        iz_udzbenika: {strana: 29, odeljak: Uzroci industrijske revolucije, tekst: "Kao pomorska i kolonijalna sila, Britanija prodaje višak robe svuda i dobija jeftin pamuk iz kolonija."}
+
+      - id: uzr-uporedi-tkanine
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [tkanine, pamuk, kolonija]
+        a: Tkanine od lana i vune
+        b: Pamučne tkanine
+        pitanje: Na koje tkanine se odnosi tvrdnja — A, B, obe ili nijedne?
+        tvrdnje:
+          - {tekst: "Bile su najcenjeniji britanski proizvod.", odgovor: a, zasto: "Lan i vuna su bili najcenjeniji; pamuk je postao najtraženiji."}
+          - {tekst: "U XVIII veku postale su najtraženije zbog povoljne cene.", odgovor: b, zasto: "Pamuk je pobedio cenom."}
+          - {tekst: "Sirovina je stizala sa plantaža u kolonijama.", odgovor: b, zasto: "Sirovi pamuk se gajio na plantažama u kolonijama."}
+          - {tekst: "Bile su britanski proizvod.", odgovor: oba, zasto: "I jedne i druge su izrađivane u Britaniji."}
+          - {tekst: "Izrađivale su se u kolonijama pa uvozile u Britaniju.", odgovor: nijedan, zasto: "Tkanine su se izrađivale u britanskim radionicama; iz kolonija je dolazila samo sirovina."}
+        pomoc:
+          - "Cenjeno nije isto što i traženo."
+          - "Koja sirovina dolazi iz kolonija?"
+          - "Iz lekcije: lan i vuna najcenjeniji; pamuk najtraženiji zbog cene."
+        objasnjenje: Lan i vuna — najcenjeniji; pamuk — najtraženiji i najunosniji, zahvaljujući jeftinoj sirovini iz kolonija.
+        iz_udzbenika: {strana: 29, odeljak: Uzroci industrijske revolucije, tekst: "Lanene i vunene tkanine su najcenjenije, a pamučne najtraženije zbog cene."}
+
+      - id: uzr-objasni-britanija
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [velika-britanija, pamuk, kolonija, fabrika]
+        pitanje: Zašto je industrijska revolucija počela baš u Velikoj Britaniji? Navedi bar dva uzroka.
+        uzor: Britanija je bila pomorska i kolonijalna sila, pa je višak robe prodavala po celom svetu. Iz kolonija je dobijala jeftin pamuk, pa su pamučne tkanine bile jeftine i tražene. Veliki prihod od njih vlasnici radionica uložili su u nove fabrike.
+        ideje:
+          - Pomorska i kolonijalna sila, trgovina na svim kontinentima.
+          - Jeftin pamuk sa plantaža u kolonijama.
+          - Pamučne tkanine najtraženije zbog cene.
+          - Prihod uložen u razvoj proizvodnje i fabrike.
+        objasnjenje: Trgovina, sirovine i kapital zajedno su stvorili uslove za mašine i fabrike.
+        iz_udzbenika: {strana: 29, odeljak: Uzroci industrijske revolucije, tekst: "Lekcija navodi trgovinu, jeftin pamuk iz kolonija i ulaganje prihoda u fabrike kao uzroke."}
+
+      - id: uzr-objasni-robovi
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [robovlasnistvo, pamuk, kolonija, fabrika]
+        pitanje: Kako su rad robova na plantažama i bogatstvo britanskih fabrika bili povezani? Objasni svojim rečima.
+        uzor: Robovi na plantažama u kolonijama nisu bili plaćeni, pa je sirovi pamuk bio jeftin. Od jeftinog pamuka britanske radionice su pravile jeftine tkanine koje su se dobro prodavale. Prihod od te prodaje uložen je u fabrike — industrijsko bogatstvo počivalo je i na ropstvu.
+        ideje:
+          - Robovi su gajili pamuk na plantažama u kolonijama.
+          - Zato je sirovina bila jeftina.
+          - Jeftine tkanine su donele veliki prihod.
+          - Prihod je uložen u fabrike.
+        objasnjenje: Lanac vodi od plantaže do fabrike — tuđa neslobodna radna snaga omogućila je britansku zaradu.
+        iz_udzbenika: {strana: 29, odeljak: Uzroci industrijske revolucije, tekst: "Jeftin pamuk sa plantaža na kojima rade crni robovi prerađuje se u britanskim radionicama i donosi veliki prihod."}
+
+  - naslov: Pojava parne mašine
+    zadaci:
+
+      - id: par-izbor-cunak
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [leteci-cunak, dzon-kej]
+        pitanje: Šta je ubrzao „leteći čunak” Džona Keja?
+        odgovori:
+          - {tekst: "Tkanje", tacan: true}
+          - {tekst: "Kopanje uglja", tacan: false, zasto: "U rudnicima su korišćene parne mašine za ispumpavanje vode; čunak je deo tkačkog posla."}
+          - {tekst: "Vožnju vagona", tacan: false, zasto: "Vagone je kasnije vukla Stivensonova lokomotiva."}
+          - {tekst: "Topljenje gvožđa", tacan: false, zasto: "Proizvodnja gvožđa se razvijala odvojeno; čunak služi za tkanje."}
+        pomoc:
+          - "Čunak je deo tkačkog posla."
+          - "Posle njega je trebalo brže praviti konac — za šta?"
+          - "Iz lekcije: leteći čunak je ubrzao tkanje."
+        objasnjenje: Leteći čunak je ubrzao tkanje, pa je odjednom trebalo mnogo više konca.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Leteći čunak Džona Keja ubrzao je tkanje, pa je trebalo brže praviti konac."}
+
+      - id: par-izbor-zasto-prekretnica
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [parna-masina, dzejms-vat]
+        pitanje: Zašto je Vatova parna mašina bila prekretnica, iako joj je snaga u početku bila skromna?
+        odgovori:
+          - {tekst: "Trošila je dve trećine goriva manje od prethodnih mašina", tacan: true}
+          - {tekst: "Bila je prva parna mašina uopšte", tacan: false, zasto: "Primitivne parne mašine u rudnicima postojale su već krajem XVII veka."}
+          - {tekst: "Mogla je da radi bez ikakvog goriva", tacan: false, zasto: "I Vatova mašina troši gorivo (ugalj) — samo mnogo manje."}
+          - {tekst: "Odmah je pokretala lokomotive i brodove", tacan: false, zasto: "Za vozila je primenjena tek kasnije — lokomotiva 1814, parobrod 1807."}
+        pomoc:
+          - "Nije bila jača — u čemu je onda bila bolja?"
+          - "Misli na troškove rada mašine."
+          - "Iz lekcije: troši dve trećine goriva manje od prethodnih modela."
+        objasnjenje: Ušteda goriva učinila je paru isplativom svuda — u rudnicima, radionicama i proizvodnji tkanina.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Snaga Vatove mašine je u početku skromna, ali troši dve trećine goriva manje od prethodnih.", slika: 03-industrijska-revolucija/03-parna-masina-dzejmsa-vata.jpg}
+        osa: {naziv: Vatova parna mašina, od: 1769, traka: pronalasci}
+
+      - id: par-izbor-gde-koriscena
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [parna-masina, rudarstvo, tekstilna-industrija]
+        pitanje: "Gde se Vatova parna mašina koristila u prvo vreme? (više tačnih)"
+        odgovori:
+          - {tekst: "U rudnicima", tacan: true}
+          - {tekst: "Za pokretanje mašina za obradu drveta i metala", tacan: true}
+          - {tekst: "U proizvodnji tkanina", tacan: true}
+          - {tekst: "Za pokretanje automobila", tacan: false, zasto: "Automobili nisu deo ove lekcije; para se kasnije primenila na lokomotive i parobrode."}
+          - {tekst: "Samo na plantažama pamuka", tacan: false, zasto: "Na plantažama su radili robovi; mašina je radila u Britaniji — u rudnicima i radionicama."}
+        pomoc:
+          - "Tri mesta: ispod zemlje, u radionici, u najrazvijenijoj grani."
+          - "Najrazvijenija grana britanske proizvodnje bile su tkanine."
+          - "Iz lekcije: rudnici, mašine za drvo i metal, proizvodnja tkanina."
+        objasnjenje: Vatova mašina je radila u rudnicima, pokretala mašine za drvo i metal i ubrzo ušla u proizvodnju tkanina.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Vatova mašina se koristi u rudnicima, za mašine za obradu drveta i metala i u proizvodnji tkanina."}
+
+      - id: par-tn-gvozdje
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [gvozdje]
+        tvrdnja: Krajem XVIII veka gvožđe je počelo da se koristi i u gradnji mostova i brodova.
+        tacno: true
+        pomoc:
+          - "Za šta se sve koristilo gvožđe kad ga je bilo više?"
+          - "Iz lekcije: alati, oružje, mašine, a zatim mostovi i brodovi."
+        objasnjenje: Tačno — bolja i brža proizvodnja gvožđa omogućila je da se od njega grade i mostovi i brodovi.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Do kraja XVIII veka proizvodnja gvožđa je ubrzana; koristi se za alate, oružje, mašine, mostove i brodove."}
+
+      - id: par-tn-snaga
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [parna-masina, dzejms-vat]
+        tvrdnja: Vatova parna mašina je od početka bila mnogo snažnija od svih prethodnih.
+        tacno: false
+        ispravke:
+          - {tekst: "Snaga joj je u početku bila skromna, ali je trošila mnogo manje goriva.", tacan: true}
+          - {tekst: "Bila je slabija, pa se nije nigde koristila.", tacan: false, zasto: "Koristila se u rudnicima, za mašine za drvo i metal i u proizvodnji tkanina."}
+          - {tekst: "Bila je snažnija, ali je trošila više goriva.", tacan: false, zasto: "Obrnuto — trošila je dve trećine goriva manje."}
+        pomoc:
+          - "Prednost nije bila u snazi."
+          - "Iz lekcije: snaga skromna, gorivo dve trećine manje."
+        objasnjenje: Vatova prednost bila je štedljivost, ne snaga.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Snaga mašine je u početku skromna, ali je štedljiva."}
+
+      - id: par-tn-primitivne
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [parna-masina, rudarstvo]
+        tvrdnja: Parne mašine nisu postojale pre Džejmsa Vata.
+        tacno: false
+        ispravke:
+          - {tekst: "Već krajem XVII veka primitivne parne mašine ispumpavale su vodu iz rudnika.", tacan: true}
+          - {tekst: "Pre Vata parne mašine su vukle vagone u rudnicima.", tacan: false, zasto: "Vagone sa rudom kasnije vuče Stivensonova lokomotiva (1814); starije mašine su ispumpavale vodu."}
+          - {tekst: "Pre Vata parne mašine su pokretale parobrode.", tacan: false, zasto: "Parobrodi se javljaju krajem XVIII veka i 1807, posle Vata."}
+        pomoc:
+          - "Šta je Vat zapravo uradio — izmislio ili poboljšao?"
+          - "Iz lekcije: krajem XVII veka, ispumpavanje vode iz rudnika."
+        objasnjenje: Vat nije izmislio paru — poboljšao je mašinu tako da troši mnogo manje goriva.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Već krajem XVII veka primitivne parne mašine služe za ispumpavanje vode iz rudnika."}
+
+      - id: par-dopuni-vat
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [parna-masina, dzejms-vat]
+        pitanje: Dopuni rečenicu.
+        tekst: "Parnu mašinu je {{1769}}. napravio {{Džejms Vat|Vat}}; trošila je {{dve trećine}} goriva manje od prethodnih."
+        ponudjene: ["1769", "1814", Džejms Vat, Robert Fulton, dve trećine, polovinu]
+        pomoc:
+          - "Godina je u drugoj polovini XVIII veka."
+          - "Iz lekcije: Džejms Vat, 1769, dve trećine goriva manje."
+        objasnjenje: Džejms Vat, 1769 — mašina koja štedi gorivo.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Parna mašina Džejmsa Vata iz 1769. troši dve trećine goriva manje."}
+        osa: {naziv: Vatova parna mašina, od: 1769, traka: pronalasci}
+
+      - id: par-dopuni-grane
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [prva-industrijska-revolucija, tekstilna-industrija, metalna-industrija, masinska-industrija, saobracaj]
+        pitanje: Dopuni rečenicu.
+        tekst: "Prva industrijska revolucija, zasnovana na {{parnoj mašini}}, donela je pored tekstilne i razvoj {{metalne}} i {{mašinske}} industrije, a naročito {{saobraćaja}}."
+        ponudjene: [parnoj mašini, metalne, mašinske, saobraćaja, poljoprivrede, električnoj struji, hemijske]
+        pomoc:
+          - "Dve grane industrije prave metal i mašine."
+          - "Lokomotiva i parobrod spadaju u koju oblast?"
+          - "Iz lekcije: tekstilna, metalna, mašinska industrija i saobraćaj."
+        objasnjenje: Para je pokrenula tekstil, metalnu i mašinsku industriju i — najvidljivije — saobraćaj.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Revolucija zasnovana na parnoj mašini donela je razvoj tekstilne, metalne i mašinske industrije i saobraćaja."}
+
+      - id: par-dopuni-gorivo
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [kameni-ugalj, rudarstvo, parna-masina]
+        pitanje: Dopuni rečenice (bez ponuđenih reči).
+        tekst: "Zbog nedostatka {{šuma|šume}} glavno čvrsto gorivo u Britaniji postaje {{kameni ugalj|ugalj}}. Već krajem XVII veka primitivne parne mašine služile su za ispumpavanje {{vode}} iz {{rudnika}}."
+        pomoc:
+          - "Čega je nedostajalo, pa nije bilo dovoljno drva?"
+          - "Šta se kopa iz zemlje i gori?"
+          - "Iz lekcije: nedostatak šuma → kameni ugalj; parne mašine ispumpavaju vodu iz rudnika."
+        objasnjenje: Bez šuma nema drva, pa ugalj postaje gorivo; a rudnici uglja su prvo mesto gde se para koristila.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Zbog nedostatka šuma glavno gorivo je kameni ugalj; primitivne parne mašine ispumpavaju vodu iz rudnika."}
+
+      - id: par-povezi-pronalasci
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [dzon-kej, dzejms-vat, dzordz-stivenson, robert-fulton]
+        pitanje: Poveži pronalazača sa pronalaskom.
+        parovi:
+          - [Džon Kej, leteći čunak]
+          - [Džejms Vat, parna mašina]
+          - [Džordž Stivenson, parna lokomotiva]
+          - [Robert Fulton, parobrod]
+        pomoc:
+          - "Jedan je Amerikanac i vezan je za vodu."
+          - "Iz lekcije: Kej – čunak, Vat – mašina, Stivenson – lokomotiva, Fulton – parobrod."
+        objasnjenje: Kej (tkanje), Vat (para), Stivenson (železnica), Fulton (brodovi).
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine; Razvoj saobraćaja, tekst: "Lekcija navodi Keja, Vata, Stivensona i Fultona kao pronalazače."}
+
+      - id: par-povezi-materijali
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [kameni-ugalj, gvozdje, predilica, parna-masina]
+        pitanje: Poveži materijal ili izvor snage sa njegovom ulogom.
+        parovi:
+          - [Kameni ugalj, glavno čvrsto gorivo]
+          - [Gvožđe, "alati, oružje, mašine, mostovi i brodovi"]
+          - [Snaga vode, pokreće predilice]
+          - [Para, pokreće Vatovu mašinu]
+        pomoc:
+          - "Šta gori, od čega se gradi, šta okreće točak predilice?"
+          - "Iz lekcije: ugalj = gorivo; gvožđe = alati, mašine, mostovi; voda = predilice."
+        objasnjenje: Ugalj daje toplotu, para pokreće mašine, voda je pokretala predilice, a gvožđe je materijal za mašine i gradnju.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Predilice pokreće i snaga vode, kameni ugalj postaje gorivo, a gvožđe se koristi za alate, mašine, mostove i brodove."}
+
+      - id: par-lanac-cunak
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [leteci-cunak, predilica, dzon-kej]
+        karike:
+          - Leteći čunak Džona Keja ubrzava tkanje
+          - "?"
+          - Predilice počinje da pokreće snaga vode
+        praznina: 1
+        odgovori:
+          - {tekst: "Potrebno je mnogo brže praviti konac", tacan: true}
+          - {tekst: "Tkanine postaju skuplje", tacan: false, zasto: "Brže tkanje vodi jeftinijoj proizvodnji, a ne skupljoj; ovde je problem što nema dovoljno konca."}
+          - {tekst: "Zatvaraju se rudnici", tacan: false, zasto: "Rudnici se razvijaju zbog potrebe za metalima; ovaj lanac je o tkanju i predenju."}
+          - {tekst: "Radnici lome razboje", tacan: false, zasto: "Lomljenje mašina je kasnija pobuna radnika, ne korak između tkanja i predenja."}
+        pomoc:
+          - "Korak 1: Da bi se tkalo, potreban je konac."
+          - "Korak 2: Ako tkanje ide brže, čega ponestaje?"
+          - "Iz lekcije: brže tkanje → potreba za bržom izradom konca → predilice na vodu."
+        objasnjenje: Jedan pronalazak stvara potrebu za drugim — brže tkanje traži brže predenje.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Leteći čunak ubrzava tkanje, javlja se potreba za bržom izradom konca, pa predilice pokreće i voda."}
+
+      - id: par-lanac-rudnici
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [rudarstvo, parna-masina]
+        karike:
+          - Raste potreba za metalima
+          - "?"
+          - Primitivne parne mašine ispumpavaju vodu iz rudnika
+        praznina: 1
+        odgovori:
+          - {tekst: "Razvija se rudarstvo", tacan: true}
+          - {tekst: "Grade se parobrodi", tacan: false, zasto: "Parobrodi su kasniji (1807) i vezani su za vodeni saobraćaj, ne za rudnike."}
+          - {tekst: "Uvozi se pamuk iz kolonija", tacan: false, zasto: "Pamuk je sirovina za tkanine, a metali se vade iz rudnika."}
+          - {tekst: "Sade se nove šume", tacan: false, zasto: "Lekcija govori o nedostatku šuma, a ne o sadnji; metali se dobijaju iz rudnika."}
+        pomoc:
+          - "Korak 1: Odakle se dobijaju metali?"
+          - "Korak 2: Šta smeta kopanju duboko pod zemljom?"
+          - "Iz lekcije: potreba za metalima → rudarstvo → parne mašine za ispumpavanje vode."
+        objasnjenje: Metali traže rudnike, a duboke rudnike plavi voda — zato su prve parne mašine radile u rudnicima.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Zbog potrebe za metalima razvija se rudarstvo; primitivne parne mašine ispumpavaju vodu iz rudnika."}
+
+      - id: par-lanac-vat
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [parna-masina, dzejms-vat, prva-industrijska-revolucija]
+        karike:
+          - Vat 1769. pravi parnu mašinu koja štedi gorivo
+          - "?"
+          - Razvijaju se tekstilna, metalna i mašinska industrija i saobraćaj
+        praznina: 1
+        odgovori:
+          - {tekst: "Počinje Prva industrijska revolucija, zasnovana na pari", tacan: true}
+          - {tekst: "Počinje manufakturna proizvodnja", tacan: false, zasto: "Manufakture postoje od XVI veka; Vatova mašina ih upravo potiskuje."}
+          - {tekst: "Ukida se ropstvo na plantažama", tacan: false, zasto: "Lekcija ne povezuje Vatovu mašinu sa ukidanjem ropstva."}
+          - {tekst: "Prestaje upotreba uglja", tacan: false, zasto: "Parna mašina radi na ugalj — njegova upotreba raste."}
+        pomoc:
+          - "Korak 1: Kako lekcija naziva doba koje počinje Vatovim pronalaskom?"
+          - "Korak 2: Na čemu je to doba zasnovano?"
+          - "Iz lekcije: Vatov pronalazak označio je početak Prve industrijske revolucije."
+        objasnjenje: Vatova mašina je pokrenula Prvu industrijsku revoluciju, a ona je razvila mnoge grane industrije i saobraćaj.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Vatov pronalazak označio je početak Prve industrijske revolucije zasnovane na parnoj mašini."}
+        osa: {naziv: Vatova parna mašina, od: 1769, traka: pronalasci}
+
+      - id: par-lanac-gvozdje
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [gvozdje, kameni-ugalj, rudarstvo]
+        karike:
+          - U Britaniji nedostaje šuma
+          - "?"
+          - Rudarstvo dobija još veći značaj
+        praznina: 1
+        odgovori:
+          - {tekst: "Kameni ugalj postaje glavno čvrsto gorivo", tacan: true}
+          - {tekst: "Gvožđe se prestaje koristiti", tacan: false, zasto: "Upotreba gvožđa je rasla — za alate, mašine, mostove i brodove."}
+          - {tekst: "Pamuk zamenjuje drvo kao gorivo", tacan: false, zasto: "Pamuk je sirovina za tkanine, ne gorivo."}
+          - {tekst: "Fabrike se sele u kolonije", tacan: false, zasto: "Fabrike su ostale u Britaniji, blizu luka i rudnika."}
+        pomoc:
+          - "Korak 1: Ako nema drva, šta se loži?"
+          - "Korak 2: Odakle se to gorivo vadi?"
+          - "Iz lekcije: zbog nedostatka šuma glavno gorivo postaje kameni ugalj."
+        objasnjenje: Nedostatak šuma → ugalj kao gorivo → ugalj se vadi iz rudnika, pa rudarstvo raste.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Zbog nedostatka šuma glavno čvrsto gorivo postaje kameni ugalj."}
+
+      - id: par-lanac-niz
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [parna-masina, prva-industrijska-revolucija, saobracaj]
+        karike:
+          - Vatova mašina troši mnogo manje goriva
+          - "?"
+          - Pronalazači pokušavaju da je upotrebe i za vozila
+          - Nastaju lokomotiva i parobrod
+        praznina: 1
+        odgovori:
+          - {tekst: "Mašina se širi iz rudnika u radionice i proizvodnju tkanina", tacan: true}
+          - {tekst: "Mašina se zabranjuje u Britaniji", tacan: false, zasto: "Zakoni su kažnjavali lomljenje mašina, a ne njihovu upotrebu."}
+          - {tekst: "Radnici prestaju da rade u fabrikama", tacan: false, zasto: "Fabrike se umnožavaju i zapošljavaju sve više ljudi sa sela."}
+          - {tekst: "Ponovo se gradi više manufaktura", tacan: false, zasto: "Mašina potiskuje manufakture, a ne obnavlja ih."}
+        pomoc:
+          - "Korak 1: Ako je mašina jeftinija za rad, šta se dešava sa njenom upotrebom?"
+          - "Korak 2: Gde je sve radila pre nego što je stavljena na vozila?"
+          - "Iz lekcije: rudnici, mašine za drvo i metal, proizvodnja tkanina — pa pokušaji sa vozilima."
+        objasnjenje: Ušteda goriva proširila je upotrebu pare; kad se pokazala svuda, pronalazači su je stavili na kola i brodove.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine; Razvoj saobraćaja, tekst: "Vatova mašina se širi u rudnike i tkanje; bilo je i više pokušaja da pokreće vozila."}
+
+      - id: par-zakljuci-ugalj
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [kameni-ugalj]
+        pitanje: Zašto je u Britaniji kameni ugalj postao glavno čvrsto gorivo?
+        odgovori:
+          - {tekst: "Zato što je nedostajalo šuma, pa i drva", tacan: true}
+          - {tekst: "Zato što je bio uvožen iz kolonija", tacan: false, zasto: "Iz kolonija je stizao pamuk; ugalj se vadio iz britanskih rudnika."}
+          - {tekst: "Zato što ga je propisao parlament", tacan: false, zasto: "Parlament je donosio zakone o mašinama i radu dece, ne o gorivu."}
+          - {tekst: "Zato što ne proizvodi dim", tacan: false, zasto: "Ugalj stvara mnogo dima — zato su fabrički gradovi bili zadimljeni i zagađeni."}
+        pomoc:
+          - "Korak 1: Šta se ložilo pre uglja?"
+          - "Korak 2: Zašto toga nije bilo dovoljno?"
+          - "Iz lekcije: zbog nedostatka šuma."
+        objasnjenje: Nedostatak šuma je naterao Britance da lože ugalj — što je dalje razvilo rudarstvo.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Zbog nedostatka šuma glavno čvrsto gorivo postaje kameni ugalj."}
+
+      - id: par-zakljuci-prekretnica
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [parna-masina, dzejms-vat, prva-industrijska-revolucija]
+        pitanje: Parne mašine su postojale i ranije. Zašto se baš Vatova smatra početkom Prve industrijske revolucije?
+        odgovori:
+          - {tekst: "Zato što je bila štedljiva, pa se isplatila u mnogim granama, a ne samo u rudnicima", tacan: true}
+          - {tekst: "Zato što je bila najveća mašina u Evropi", tacan: false, zasto: "Lekcija ne meri veličinu; važna je ušteda od dve trećine goriva."}
+          - {tekst: "Zato što je Vat bio kralj Britanije", tacan: false, zasto: "Vat je bio pronalazač, ne vladar."}
+          - {tekst: "Zato što je odmah bila jača od svih drugih", tacan: false, zasto: "Snaga joj je u početku bila skromna."}
+        pomoc:
+          - "Korak 1: Gde su radile starije parne mašine? (samo u rudnicima)"
+          - "Korak 2: Šta je Vatovu mašinu učinilo isplativom i drugde?"
+          - "Iz lekcije: 2/3 manje goriva → rudnici, mašine za drvo i metal, tkanine."
+        objasnjenje: Prednost nije bila sama para nego ušteda — tek tada se mašina isplatila u celoj privredi.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Vatova mašina troši 2/3 manje goriva i širi se iz rudnika u proizvodnju tkanina; označila je početak revolucije."}
+        osa: {naziv: Vatova parna mašina, od: 1769, traka: pronalasci}
+
+      - id: par-zakljuci-niz
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [leteci-cunak, predilica, parna-masina]
+        pitanje: Šta priča o letećem čunku i predilicama pokazuje o tome kako su nastajali pronalasci u industrijskoj revoluciji?
+        odgovori:
+          - {tekst: "Jedan pronalazak stvara novu potrebu, a ona podstiče sledeći pronalazak", tacan: true}
+          - {tekst: "Svi pronalasci su nastali iste godine, nezavisno jedan od drugog", tacan: false, zasto: "Nastajali su postepeno: čunak, pa predilice na vodu, pa para."}
+          - {tekst: "Pronalasci su dolazili iz kolonija", tacan: false, zasto: "Iz kolonija je dolazila sirovina; pronalazači su bili britanski (i Fulton iz Amerike)."}
+          - {tekst: "Pronalasci su usporili proizvodnju tkanina", tacan: false, zasto: "Ubrzali su je — prvo tkanje, pa predenje."}
+        pomoc:
+          - "Korak 1: Šta je čunak promenio u tkanju?"
+          - "Korak 2: Kakav je problem time nastao kod konca?"
+          - "Korak 3: Kako je problem rešen? Iz lekcije: predilice na snagu vode."
+        objasnjenje: Brže tkanje je tražilo brže predenje, ono veću snagu — pronalasci su se nadovezivali jedan na drugi.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Leteći čunak ubrzava tkanje, pa nastaje potreba za bržom izradom konca i predilicama na vodu."}
+
+      - id: par-ko-sam-vat
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [dzejms-vat, parna-masina]
+        tragovi:
+          - Moju mašinu danas možeš videti u muzeju — ima ogroman zamajac.
+          - Moja mašina u početku nije bila snažna, ali je trošila dve trećine goriva manje.
+          - Moj pronalazak iz 1769. smatra se početkom Prve industrijske revolucije.
+        odgovori:
+          - {tekst: "Džejms Vat", tacan: true}
+          - {tekst: "Džordž Stivenson", tacan: false, zasto: "Stivensonov pronalazak je lokomotiva iz 1814, a ne mašina iz 1769."}
+          - {tekst: "Džon Kej", tacan: false, zasto: "Kej je izumeo leteći čunak za tkanje."}
+          - {tekst: "Ned Lud", tacan: false, zasto: "Ned Lud nije pronalazač — on je u znak protesta polomio razboj."}
+        objasnjenje: To je Džejms Vat; njegova parna mašina (1769) pokrenula je industrijsku revoluciju.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Fotografija prikazuje Vatovu parnu mašinu kao muzejski eksponat.", slika: 03-industrijska-revolucija/03-parna-masina-dzejmsa-vata.jpg}
+
+      - id: par-ko-sam-kej
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [dzon-kej, leteci-cunak]
+        tragovi:
+          - Bio sam britanski pronalazač u XVIII veku, pre Vatove mašine.
+          - Zbog mog pronalaska tkači su odjednom trošili mnogo više konca.
+          - Izumeo sam „leteći čunak”.
+        odgovori:
+          - {tekst: "Džon Kej", tacan: true}
+          - {tekst: "Džejms Vat", tacan: false, zasto: "Vat je unapredio parnu mašinu, a ne tkački pribor."}
+          - {tekst: "Robert Fulton", tacan: false, zasto: "Fulton je američki pronalazač parobroda."}
+          - {tekst: "Ned Lud", tacan: false, zasto: "Ned Lud je radnik koji je polomio razboj, a ne pronalazač."}
+        objasnjenje: Džon Kej je izumeo leteći čunak, koji je ubrzao tkanje i stvorio potrebu za bržim predenjem.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Leteći čunak Džona Keja ubrzao je tkanje."}
+
+      - id: par-datum-vat
+        vrsta: datum
+        tezina: lako
+        pojmovi: [parna-masina, dzejms-vat]
+        dogadjaj: Vatova parna mašina
+        pitanje: Koje godine je Džejms Vat napravio svoju parnu mašinu?
+        godina: 1769
+        traka: pronalasci
+        pomoc:
+          - "Druga polovina XVIII veka."
+          - "Kraj sedme decenije veka — 176…"
+          - "Iz lekcije: 1769."
+        objasnjenje: 1769 — godina Vatove mašine i početak Prve industrijske revolucije.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Parna mašina Džejmsa Vata je iz 1769."}
+
+      - id: par-izvor-vat
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [parna-masina, dzejms-vat]
+        izvor:
+          autor: Fotografija muzejskog eksponata
+          naslov: Parna mašina Džejmsa Vata
+          tekst: U muzejskoj dvorani stoji velika metalna mašina sa ogromnim točkom-zamajcem. Udžbenik navodi da je to parna mašina Džejmsa Vata.
+          napomena: Opis fotografije je prepričan; udžbenik, str. 29.
+        pitanje: Kakav je ovaj izvor i šta nam pokazuje?
+        odgovori:
+          - {tekst: "To je sačuvan predmet (mašina) koji pokazuje kako je izgledao pronalazak iz 1769", tacan: true}
+          - {tekst: "To je pismo u kome Vat opisuje svoj život", tacan: false, zasto: "Na fotografiji je predmet, a ne pisani tekst."}
+          - {tekst: "To je karta Britanije sa rudnicima", tacan: false, zasto: "Karta je drugi izvor u lekciji (str. 28); ovde je mašina."}
+          - {tekst: "To je slika radnika koji lome mašine", tacan: false, zasto: "To je ilustracija ludita na str. 32; ovde je cela mašina u muzeju."}
+        pomoc:
+          - "Šta se čuva u muzeju — tekst ili predmet?"
+          - "Šta možemo da vidimo na samom predmetu?"
+          - "Iz lekcije: fotografija Vatove mašine, muzejskog eksponata."
+        objasnjenje: Sačuvana mašina je predmet iz prošlosti — po njoj vidimo veličinu i izgled Vatovog pronalaska.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Fotografija prikazuje Vatovu parnu mašinu izloženu u muzeju.", slika: 03-industrijska-revolucija/03-parna-masina-dzejmsa-vata.jpg}
+
+      - id: par-uporedi-kej-vat
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [dzon-kej, dzejms-vat, leteci-cunak, parna-masina]
+        a: Džon Kej
+        b: Džejms Vat
+        pitanje: Na koga se odnosi tvrdnja — Keja, Vata, obojicu ili nijednog?
+        tvrdnje:
+          - {tekst: "Njegov pronalazak je ubrzao tkanje.", odgovor: a, zasto: "Leteći čunak Džona Keja ubrzao je tkanje."}
+          - {tekst: "Njegov pronalazak troši dve trećine goriva manje od starijih.", odgovor: b, zasto: "To je Vatova parna mašina iz 1769."}
+          - {tekst: "Bio je britanski pronalazač XVIII veka.", odgovor: oba, zasto: "I Kej i Vat su britanski pronalazači XVIII veka."}
+          - {tekst: "Njegov pronalazak označava početak Prve industrijske revolucije.", odgovor: b, zasto: "Lekcija početak revolucije vezuje za Vatovu mašinu."}
+          - {tekst: "Prikazao je parobrod na reci Hadson.", odgovor: nijedan, zasto: "Parobrod Klermont je prikazao Amerikanac Robert Fulton 1807."}
+        pomoc:
+          - "Jedan je vezan za tkanje, drugi za paru."
+          - "Parobrod nije ni od jednog od njih."
+          - "Iz lekcije: Kej – leteći čunak; Vat – parna mašina 1769."
+        objasnjenje: Kej je ubrzao tkanje, Vat je dao štedljivu parnu mašinu; parobrod je Fultonov.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Kej je ubrzao tkanje letećim čunkom, a Vat je 1769. napravio štedljivu parnu mašinu."}
+
+      - id: par-objasni-prekretnica
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [parna-masina, dzejms-vat, prva-industrijska-revolucija]
+        pitanje: Zašto se Vatova parna mašina smatra prekretnicom? Objasni svojim rečima.
+        uzor: Starije parne mašine su samo ispumpavale vodu iz rudnika. Vatova mašina iz 1769. trošila je dve trećine goriva manje, pa se isplatila i u radionicama i u proizvodnji tkanina. Na njoj je zasnovana Prva industrijska revolucija, koja je razvila industriju i saobraćaj.
+        ideje:
+          - Parne mašine su postojale i ranije (rudnici).
+          - Vatova troši dve trećine goriva manje.
+          - Zato se proširila u druge grane (tkanine, drvo, metal).
+          - Na njoj se zasniva Prva industrijska revolucija i razvoj saobraćaja.
+        objasnjenje: Prekretnica nije sama para nego isplativost pare.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Vatova mašina štedi gorivo, širi se u proizvodnju i označava početak revolucije."}
+        osa: {naziv: Vatova parna mašina, od: 1769, traka: pronalasci}
+
+      - id: par-objasni-niz
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [leteci-cunak, predilica, rudarstvo, kameni-ugalj, parna-masina]
+        pitanje: Pokaži na jednom primeru iz lekcije kako je jedna promena izazvala sledeću, sve do parne mašine.
+        uzor: Leteći čunak je ubrzao tkanje, pa je trebalo brže praviti konac; zato su predilice pokretane snagom vode. Slično, potreba za metalima razvila je rudarstvo, a rudnike je trebalo čistiti od vode — tu su radile prve parne mašine. Pošto nije bilo dovoljno šuma, gorivo je postao ugalj iz tih istih rudnika.
+        ideje:
+          - Brže tkanje → potreba za koncem → predilice na vodu.
+          - Potreba za metalima → rudarstvo → parne mašine za vodu.
+          - Nedostatak šuma → kameni ugalj.
+          - Promene se nadovezuju jedna na drugu.
+        objasnjenje: Industrijska revolucija je niz povezanih koraka, a ne jedan izum.
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine, tekst: "Lekcija opisuje kako čunak, rudarstvo, ugalj i gvožđe vode do Vatove mašine."}
+
+  - naslov: Razvoj saobraćaja
+    zadaci:
+
+      - id: sao-izbor-lokomotiva-rudnik
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [parna-lokomotiva, rudarstvo, zeleznica]
+        pitanje: Za šta se Stivensonova lokomotiva koristila u početku, pre javnog saobraćaja?
+        odgovori:
+          - {tekst: "U rudnicima, za izvlačenje vagona sa rudom", tacan: true}
+          - {tekst: "Za prevoz putnika između Londona i Pariza", tacan: false, zasto: "Između Britanije i kopna je more; prvi javni saobraćaj bio je na pruzi Stokton–Darlington 1825."}
+          - {tekst: "Za vuču brodova uz reku Hadson", tacan: false, zasto: "Na Hadsonu je plovio Fultonov parobrod Klermont."}
+          - {tekst: "Za pokretanje razboja u fabrikama", tacan: false, zasto: "Razboje i predilice pokretale su voda i parne mašine, a lokomotiva je vozilo."}
+        pomoc:
+          - "Prve parne mašine su radile na istom mestu."
+          - "Šta se vadi i vozi u vagonima ispod zemlje?"
+          - "Iz lekcije: u rudnicima, za izvlačenje vagona sa rudom; od 1825. u javnom saobraćaju."
+        objasnjenje: Lokomotiva je prvo radila u rudnicima, a od 1825. prevozi i javnost.
+        iz_udzbenika: {strana: 30, odeljak: Razvoj saobraćaja, tekst: "U početku se lokomotiva koristila u rudnicima za izvlačenje vagona sa rudom, a od 1825. u javnom saobraćaju."}
+
+      - id: sao-izbor-jedrenjaci
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [parobrod, jedrenjaci]
+        pitanje: Šta se dogodilo sa jedrenjacima od sredine XIX veka?
+        odgovori:
+          - {tekst: "Parobrodi su ih potisnuli", tacan: true}
+          - {tekst: "Postali su brži od parobroda", tacan: false, zasto: "Bilo je obrnuto — parobrodi su ih potisnuli."}
+          - {tekst: "Dobili su parne lokomotive", tacan: false, zasto: "Lokomotive voze po šinama; brodovi su dobili parne mašine i postali parobrodi."}
+          - {tekst: "Ostali su jedini prekomorski brodovi", tacan: false, zasto: "Od sredine XIX veka parobrodi preuzimaju prevoz."}
+        pomoc:
+          - "Šta se desi sa starom tehnikom kad stigne bolja?"
+          - "Prvi parobrodi su još imali jedra, ali kasnije…"
+          - "Iz lekcije: od sredine XIX veka parobrodi su potisnuli jedrenjake."
+        objasnjenje: Prvi parobrodi su koristili i jedra i paru, ali su od sredine XIX veka potpuno potisnuli jedrenjake.
+        iz_udzbenika: {strana: 31, odeljak: Razvoj saobraćaja, tekst: "Od sredine XIX veka parobrodi potiskuju stare jedrenjake."}
+        osa: {naziv: Parobrodi potiskuju jedrenjake, od: 1850, traka: saobracaj}
+
+      - id: sao-izbor-tocak
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [parobrod, klermont, parna-masina]
+        pitanje: Zašto je Klermont imao veliki točak na boku i visok dimnjak?
+        odgovori:
+          - {tekst: "Točak, pokretan parnom mašinom, gura brod kroz vodu; dimnjak odvodi dim od sagorevanja uglja", tacan: true}
+          - {tekst: "Točak je služio za kočenje, a dimnjak za grejanje putnika", tacan: false, zasto: "Točak je pokretao brod napred; dim dolazi od uglja koji gori u parnoj mašini."}
+          - {tekst: "Točak je pokretala reka, a dimnjak je bio ukras", tacan: false, zasto: "Točak je okretala parna mašina; dimnjak je bio neophodan za odvod dima."}
+          - {tekst: "Točak je služio da brod vozi i po šinama", tacan: false, zasto: "Po šinama vozi lokomotiva; Klermont je samo plovio."}
+        pomoc:
+          - "Šta pokreće brod bez vesala?"
+          - "Šta gori u parnoj mašini i stvara dim?"
+          - "Iz lekcije: lopatični točak pokreće brod; dimnjak odvodi dim od uglja."
+        objasnjenje: Parna mašina okreće lopatični točak koji gura brod, a dim od uglja izlazi kroz dimnjak.
+        iz_udzbenika: {strana: 31, odeljak: Parobrod Klermont, tekst: "Uz sliku Klermonta udžbenik pita čemu služe točak na boku i dimnjak.", slika: 03-industrijska-revolucija/06-parobrod-klermont.jpg}
+
+      - id: sao-tn-konjska-vuca
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [parna-lokomotiva, zeleznica]
+        tvrdnja: Početkom XIX veka parna lokomotiva je zamenila konjsku vuču.
+        tacno: true
+        pomoc:
+          - "Šta je vuklo vagone i kola pre lokomotive?"
+          - "Iz lekcije: lokomotiva je zamenila konjsku vuču."
+        objasnjenje: Tačno — zato su lokomotive i nazivane „gvozdenim konjima”.
+        iz_udzbenika: {strana: 30, odeljak: Znatiželja — takmičenje „gvozdenih konja”, tekst: "Početkom XIX veka ubrzano se grade pruge, a lokomotiva zamenjuje konjsku vuču."}
+
+      - id: sao-tn-fulton-prvi
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [klermont, robert-fulton, parobrod]
+        tvrdnja: Fultonov Klermont bio je prvi parobrod koji je ikada napravljen.
+        tacno: false
+        ispravke:
+          - {tekst: "Stariji parobrodi postojali su već krajem XVIII veka, ali je Fultonov prvi donosio finansijsku dobit.", tacan: true}
+          - {tekst: "Prvi parobrod je napravio Stivenson 1814.", tacan: false, zasto: "Stivenson je 1814. napravio lokomotivu, a ne parobrod."}
+          - {tekst: "Prvi parobrod je napravljen sredinom XIX veka.", tacan: false, zasto: "Sredinom XIX veka parobrodi već potiskuju jedrenjake; najstariji su s kraja XVIII veka."}
+        pomoc:
+          - "Šta je bilo posebno kod Klermonta, ako nije bio prvi?"
+          - "Iz lekcije: najstariji parobrodi su s kraja XVIII veka; Fultonov je prvi donosio dobit."
+        objasnjenje: Fulton nije prvi napravio parobrod, ali je prvi pokazao da parobrod može da donosi zaradu.
+        iz_udzbenika: {strana: 31, odeljak: Parobrod Klermont, tekst: "Najstariji parobrodi su s kraja XVIII veka, ali je Fultonov prvi donosio finansijsku dobit.", slika: 03-industrijska-revolucija/06-parobrod-klermont.jpg}
+        osa: {naziv: Fultonov parobrod Klermont, od: 1807, traka: saobracaj}
+
+      - id: sao-dopuni-fulton
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [robert-fulton, parobrod, klermont]
+        pitanje: Dopuni rečenicu.
+        tekst: "Američki pronalazač {{Robert Fulton|Fulton}} prikazao je {{1807}}. {{parobrod}} Klermont."
+        ponudjene: [Robert Fulton, Džejms Vat, "1807", "1825", parobrod, lokomotivu]
+        pomoc:
+          - "Pronalazač je Amerikanac, a izum plovi."
+          - "Iz lekcije: Fulton, 1807, parobrod."
+        objasnjenje: Robert Fulton je 1807. prikazao parobrod Klermont.
+        iz_udzbenika: {strana: 31, odeljak: Razvoj saobraćaja, tekst: "Američki pronalazač Robert Fulton prikazao je 1807. parobrod."}
+        osa: {naziv: Fultonov parobrod Klermont, od: 1807, traka: saobracaj}
+
+      - id: sao-dopuni-trka
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [mancester-liverpul, raketa, dzordz-stivenson]
+        pitanje: Dopuni rečenice.
+        tekst: "Kad je {{1829}}. dovršena pruga {{Mančester–Liverpul}}, organizovana je trka lokomotiva. Pobedila je Stivensonova {{Raketa}} brzinom od {{30}} km/h."
+        ponudjene: ["1829", "1814", Mančester–Liverpul, Stokton–Darlington, Raketa, Klermont, "30", "48"]
+        pomoc:
+          - "Trka je bila pre zvaničnog otvaranja pruge (1830)."
+          - "Na trci je brzina bila manja nego na otvaranju."
+          - "Iz lekcije: 1829, Mančester–Liverpul, Raketa, 30 km/h."
+        objasnjenje: Na trci 1829. Raketa je postigla 30 km/h; na otvaranju 1830. čak 48 km/h.
+        iz_udzbenika: {strana: 30, odeljak: Znatiželja — takmičenje „gvozdenih konja”, tekst: "Za prugu Mančester–Liverpul organizovana je trka lokomotiva 1829; Raketa je postigla 30 km/h."}
+        osa: {naziv: Trka lokomotiva (Mančester–Liverpul), od: 1829, traka: saobracaj}
+
+      - id: sao-dopuni-otvaranje
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [raketa, mancester-liverpul]
+        pitanje: Dopuni rečenicu (bez ponuđenih reči; brojeve piši ciframa).
+        tekst: "Na zvaničnom otvaranju pruge, 15. septembra {{1830}}, Raketa je postigla {{48}} km/h, što je više od {{4|četiri}} puta brže od poštanske kočije."
+        pomoc:
+          - "Otvaranje je bilo godinu dana posle trke."
+          - "Brzina je bila veća nego na trci (30 km/h)."
+          - "Iz lekcije: 1830, 48 km/h, više od četiri puta brže od kočije."
+        objasnjenje: Godinu dana posle trke Raketa je išla 48 km/h — više od četiri puta brže od kočije.
+        iz_udzbenika: {strana: 30, odeljak: Znatiželja — takmičenje „gvozdenih konja”, tekst: "Na otvaranju pruge 15. septembra 1830. Raketa je postigla 48 km/h."}
+        osa: {naziv: Otvaranje pruge Mančester–Liverpul, od: 1830, traka: saobracaj}
+
+      - id: sao-povezi-mesta
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [hadson, stokton-darlington, mancester-liverpul, njujork, olbani]
+        pitanje: Poveži mesto sa onim što se tamo dogodilo.
+        parovi:
+          - [Reka Hadson, plovidba Klermonta 1807.]
+          - [Stokton–Darlington, otvaranje železnice u javnom saobraćaju 1825.]
+          - [Mančester–Liverpul, trka lokomotiva 1829.]
+          - [Rudnici, prva upotreba Stivensonove lokomotive]
+        pomoc:
+          - "Jedno mesto je u Americi, ostala u Engleskoj."
+          - "Iz lekcije: Hadson – Klermont; Stokton–Darlington 1825; Mančester–Liverpul 1829; lokomotiva prvo u rudnicima."
+        objasnjenje: Hadson (Klermont), Stokton–Darlington (prva javna pruga), Mančester–Liverpul (trka), rudnici (prva upotreba lokomotive).
+        iz_udzbenika: {strana: 30, odeljak: Razvoj saobraćaja, tekst: "Lekcija smešta parobrod na Hadson, a lokomotive u rudnike i na pruge Stokton–Darlington i Mančester–Liverpul."}
+
+      - id: sao-datum-fulton
+        vrsta: datum
+        tezina: lako
+        pojmovi: [robert-fulton, klermont, parobrod]
+        dogadjaj: Fultonov parobrod Klermont
+        pitanje: Koje godine je Robert Fulton prikazao parobrod Klermont?
+        godina: 1807
+        traka: saobracaj
+        pomoc:
+          - "Početak XIX veka, prva decenija."
+          - "Sedam godina pre Stivensonove lokomotive (1814)."
+          - "Iz lekcije: 1807."
+        objasnjenje: 1807 — Klermont plovi redovnom linijom na Hadsonu.
+        iz_udzbenika: {strana: 31, odeljak: Razvoj saobraćaja, tekst: "Fulton je 1807. prikazao parobrod Klermont."}
+
+      - id: sao-datum-stivenson
+        vrsta: datum
+        tezina: lako
+        pojmovi: [dzordz-stivenson, parna-lokomotiva]
+        dogadjaj: Stivensonova parna lokomotiva
+        pitanje: Koje godine je Džordž Stivenson konstruisao parnu lokomotivu?
+        godina: 1814
+        traka: pronalasci
+        pomoc:
+          - "Druga decenija XIX veka."
+          - "Posle Fultonovog parobroda (1807), pre prve javne pruge (1825)."
+          - "Iz lekcije: 1814."
+        objasnjenje: 1814 — Stivensonova lokomotiva, prvo u rudnicima.
+        iz_udzbenika: {strana: 30, odeljak: Razvoj saobraćaja, tekst: "Stivenson je 1814. konstruisao parnu lokomotivu."}
+
+      - id: sao-datum-stokton
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [stokton-darlington, zeleznica, parna-lokomotiva]
+        dogadjaj: Pruga Stokton–Darlington
+        pitanje: Koje godine je otvorena železnica Stokton–Darlington, kada lokomotiva ulazi u javni saobraćaj?
+        godina: 1825
+        traka: saobracaj
+        pomoc:
+          - "Jedanaest godina posle Stivensonove lokomotive (1814)."
+          - "Četiri godine pre trke lokomotiva (1829)."
+          - "Iz lekcije: 1825."
+        objasnjenje: 1825 — lokomotiva prelazi iz rudnika u javni saobraćaj.
+        iz_udzbenika: {strana: 30, odeljak: Razvoj saobraćaja, tekst: "Slika prikazuje otvaranje železnice Stokton–Darlington 1825.", slika: 03-industrijska-revolucija/04-zeleznica-stokton-darlington.jpg}
+
+      - id: sao-datum-trka
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [mancester-liverpul, raketa]
+        dogadjaj: Trka lokomotiva (Mančester–Liverpul)
+        pitanje: Koje godine je održana trka lokomotiva za prugu Mančester–Liverpul?
+        godina: 1829
+        traka: saobracaj
+        pomoc:
+          - "Kraj treće decenije XIX veka."
+          - "Godinu dana pre zvaničnog otvaranja pruge (1830)."
+          - "Iz lekcije: 1829."
+        objasnjenje: 1829 — Raketa pobeđuje na trci i dobija pravo da vozi na pruzi.
+        iz_udzbenika: {strana: 30, odeljak: Znatiželja — takmičenje „gvozdenih konja”, tekst: "Pruga Mančester–Liverpul je dovršena 1829. i održana je trka lokomotiva."}
+
+      - id: sao-datum-otvaranje
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [mancester-liverpul, raketa]
+        dogadjaj: Otvaranje pruge Mančester–Liverpul
+        pitanje: Koje godine je zvanično otvorena pruga Mančester–Liverpul (Raketa je tada išla 48 km/h)?
+        godina: 1830
+        traka: saobracaj
+        pomoc:
+          - "Ne meša se sa godinom trke."
+          - "Godinu dana posle trke."
+          - "Iz lekcije: 15. septembar 1830."
+        objasnjenje: Pruga je dovršena i trka održana 1829, a zvanično otvaranje bilo je 15. septembra 1830.
+        iz_udzbenika: {strana: 30, odeljak: Znatiželja — takmičenje „gvozdenih konja”, tekst: "Zvanično otvaranje pruge bilo je 15. septembra 1830."}
+
+      - id: sao-poredjaj-pronalasci
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [dzejms-vat, robert-fulton, dzordz-stivenson]
+        pitanje: Poređaj pronalaske hronološki, od najranijeg.
+        stavke:
+          - {tekst: "Vatova parna mašina", godina: 1769, naziv: Vatova parna mašina, traka: pronalasci}
+          - {tekst: "Fultonov parobrod Klermont", godina: 1807, naziv: Fultonov parobrod Klermont, traka: saobracaj}
+          - {tekst: "Stivensonova parna lokomotiva", godina: 1814, naziv: Stivensonova parna lokomotiva, traka: pronalasci}
+        pomoc:
+          - "Prvo mora postojati mašina, pa tek onda vozila na paru."
+          - "Parobrod je stariji od lokomotive."
+          - "Iz lekcije: 1769 Vat, 1807 Fulton, 1814 Stivenson."
+        objasnjenje: Vat (1769) → Fulton (1807) → Stivenson (1814).
+        iz_udzbenika: {strana: 29, odeljak: Pojava parne mašine; Razvoj saobraćaja, tekst: "Lekcija navodi Vatovu mašinu (1769), Fultonov parobrod (1807) i Stivensonovu lokomotivu (1814)."}
+
+      - id: sao-poredjaj-pruge
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [stokton-darlington, mancester-liverpul, jedrenjaci]
+        pitanje: Poređaj događaje hronološki, od najranijeg.
+        stavke:
+          - {tekst: "Otvara se železnica Stokton–Darlington", godina: 1825, naziv: Pruga Stokton–Darlington, traka: saobracaj}
+          - {tekst: "Trka lokomotiva — pobeđuje Raketa", godina: 1829, naziv: Trka lokomotiva (Mančester–Liverpul), traka: saobracaj}
+          - {tekst: "Parobrodi potiskuju jedrenjake", godina: 1850, naziv: Parobrodi potiskuju jedrenjake, traka: saobracaj}
+        pomoc:
+          - "Jedan događaj je tek sredinom XIX veka."
+          - "Prva javna pruga je pre trke."
+          - "Iz lekcije: 1825, 1829, sredina XIX veka."
+        objasnjenje: Stokton–Darlington (1825) → trka (1829) → parobrodi potiskuju jedrenjake (sredina XIX veka).
+        iz_udzbenika: {strana: 30, odeljak: Razvoj saobraćaja, tekst: "Lekcija prati saobraćaj od prve javne pruge 1825. do sredine XIX veka."}
+
+      - id: sao-poredjaj-saobracaj
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [parna-masina, parobrod, parna-lokomotiva, zeleznica]
+        pitanje: Poređaj događaje hronološki, od najranijeg.
+        stavke:
+          - {tekst: "Vat pravi štedljivu parnu mašinu", godina: 1769, naziv: Vatova parna mašina, traka: pronalasci}
+          - {tekst: "Klermont plovi Hadsonom", godina: 1807, naziv: Fultonov parobrod Klermont, traka: saobracaj}
+          - {tekst: "Stivenson konstruiše lokomotivu", godina: 1814, naziv: Stivensonova parna lokomotiva, traka: pronalasci}
+          - {tekst: "Lokomotiva ulazi u javni saobraćaj", godina: 1825, naziv: Pruga Stokton–Darlington, traka: saobracaj}
+          - {tekst: "Raketa pobeđuje na trci lokomotiva", godina: 1829, naziv: Trka lokomotiva (Mančester–Liverpul), traka: saobracaj}
+        pomoc:
+          - "Parna mašina je uslov za sve ostalo."
+          - "Lokomotiva prvo radi u rudnicima, tek posle u javnom saobraćaju."
+          - "Iz lekcije: 1769, 1807, 1814, 1825, 1829."
+        objasnjenje: Mašina (1769) → parobrod (1807) → lokomotiva (1814) → javna pruga (1825) → trka (1829).
+        iz_udzbenika: {strana: 30, odeljak: Razvoj saobraćaja, tekst: "Vatov izum doprineo je i kopnenom i vodenom saobraćaju."}
+
+      - id: sao-poredjaj-blizu
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [parna-lokomotiva, raketa, mancester, luditi]
+        pitanje: Poređaj događaje koji su se dogodili u razmaku od samo dvadesetak godina, od najranijeg.
+        stavke:
+          - {tekst: "Zakonom je propisana smrtna kazna za uništavanje mašina", godina: 1812, naziv: "Zakon: smrtna kazna za uništavanje mašina", traka: drustvo}
+          - {tekst: "Stivenson konstruiše parnu lokomotivu", godina: 1814, naziv: Stivensonova parna lokomotiva, traka: pronalasci}
+          - {tekst: "Otvara se železnica Stokton–Darlington", godina: 1825, naziv: Pruga Stokton–Darlington, traka: saobracaj}
+          - {tekst: "Održava se trka lokomotiva", godina: 1829, naziv: Trka lokomotiva (Mančester–Liverpul), traka: saobracaj}
+          - {tekst: "Zvanično se otvara pruga Mančester–Liverpul", godina: 1830, naziv: Otvaranje pruge Mančester–Liverpul, traka: saobracaj}
+        pomoc:
+          - "Zakon protiv lomljenja mašina je iz vremena ludita, druga decenija XIX veka."
+          - "Trka lokomotiva je godinu dana pre zvaničnog otvaranja pruge."
+          - "Iz lekcije: 1812, 1814, oko 1820, 1825, 1829, 1830."
+        objasnjenje: 1812 zakon → 1814 lokomotiva → 1825 prva javna pruga → 1829 trka → 1830 otvaranje.
+        iz_udzbenika: {strana: 30, odeljak: Razvoj saobraćaja; Društvene promene, tekst: "Lekcija u nekoliko decenija smešta i nove pronalaske i nove zakone i gradove."}
+
+      - id: sao-lanac-trgovina
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [saobracaj, parna-lokomotiva, parobrod]
+        karike:
+          - Britanija razvija prekomorsku trgovinu i mnogo robe treba prevesti
+          - "?"
+          - Nastaju parna lokomotiva i parobrod
+        praznina: 1
+        odgovori:
+          - {tekst: "Javlja se potreba za boljim saobraćajnim sredstvima, pa se Vatova mašina pokušava staviti na vozila", tacan: true}
+          - {tekst: "Grade se nove manufakture", tacan: false, zasto: "Manufakture propadaju; trgovini su trebala brža prevozna sredstva."}
+          - {tekst: "Jedrenjaci postaju brži od svih vozila", tacan: false, zasto: "Jedrenjake će potisnuti parobrodi, a ne obrnuto."}
+          - {tekst: "Zabranjuje se uvoz pamuka", tacan: false, zasto: "Lekcija ne govori o takvoj zabrani; pamuk je stalno stizao iz kolonija."}
+        pomoc:
+          - "Korak 1: Šta trgovcu treba kad ima mnogo robe za prevoz?"
+          - "Korak 2: Koji izum su pronalazači pokušali da stave na kola i brodove?"
+          - "Iz lekcije: prekomorska trgovina zahtevala je razvoj saobraćajnih sredstava."
+        objasnjenje: Trgovina je tražila brži prevoz; odgovor je bila para na šinama i na vodi.
+        iz_udzbenika: {strana: 30, odeljak: Razvoj saobraćaja, tekst: "Prekomorska trgovina i transport robe zahtevali su razvoj saobraćajnih sredstava."}
+
+      - id: sao-lanac-lokomotiva
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [parna-lokomotiva, stokton-darlington, rudarstvo]
+        karike:
+          - Stivenson 1814. pravi parnu lokomotivu
+          - Lokomotiva vuče vagone sa rudom u rudnicima
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Od 1825. lokomotiva vozi u javnom saobraćaju (pruga Stokton–Darlington)", tacan: true}
+          - {tekst: "Lokomotiva se zabranjuje zbog buke", tacan: false, zasto: "Nije zabranjena — pruge su se ubrzano gradile."}
+          - {tekst: "Lokomotiva se stavlja na Klermont", tacan: false, zasto: "Klermont je parobrod sa sopstvenom parnom mašinom; lokomotiva vozi po šinama."}
+          - {tekst: "Vraća se konjska vuča", tacan: false, zasto: "Obrnuto — lokomotiva je zamenila konjsku vuču."}
+        pomoc:
+          - "Korak 1: Gde je lokomotiva prvo radila?"
+          - "Korak 2: Kome je zatim služila?"
+          - "Iz lekcije: od 1825. u javnom saobraćaju."
+        objasnjenje: Lokomotiva je prvo radila u rudnicima, a 1825. je počela da služi svima — na pruzi Stokton–Darlington.
+        iz_udzbenika: {strana: 30, odeljak: Razvoj saobraćaja, tekst: "Lokomotiva se prvo koristila u rudnicima, a od 1825. u javnom saobraćaju."}
+        osa: {naziv: Pruga Stokton–Darlington, od: 1825, traka: saobracaj}
+
+      - id: sao-lanac-raketa
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [raketa, mancester-liverpul, dzordz-stivenson]
+        karike:
+          - "Dovršena je pruga Mančester–Liverpul, a treba izabrati lokomotivu"
+          - Organizuje se trka lokomotiva
+          - "?"
+          - Raketa dobija nagradu i pravo da vozi na redovnoj pruzi
+        praznina: 2
+        odgovori:
+          - {tekst: "Ostale lokomotive imaju nezgode, a Raketa je najpouzdanija i najbrža", tacan: true}
+          - {tekst: "Raketa izgleda najmoćnije pa je sudije biraju bez vožnje", tacan: false, zasto: "Raketa je izgledala najskromnije; pobedila je u vožnji."}
+          - {tekst: "Raketa je jedina lokomotiva koja je stigla na trku", tacan: false, zasto: "Bile su gotove četiri lokomotive; jedna nije uzeta u obzir."}
+          - {tekst: "Raketa je najjeftinija lokomotiva", tacan: false, zasto: "Izvor ne govori o ceni; presudile su pouzdanost i brzina."}
+        pomoc:
+          - "Korak 1: Šta se proverava na trci?"
+          - "Korak 2: Šta se dogodilo drugim lokomotivama?"
+          - "Iz lekcije: Raketa je bila najpouzdanija i postigla 30 km/h."
+        objasnjenje: Trka je bila provera — pobedila je lokomotiva koja je radila bez kvara i išla najbrže.
+        iz_udzbenika: {strana: 30, odeljak: Znatiželja — takmičenje „gvozdenih konja”, tekst: "Pobednik trke dobijao je novčanu nagradu i pravo da vozi na pruzi; Raketa je bila najpouzdanija i najbrža.", slika: 03-industrijska-revolucija/05-lokomotiva-raketa.jpg}
+        osa: {naziv: Trka lokomotiva (Mančester–Liverpul), od: 1829, traka: saobracaj}
+
+      - id: sao-zakljuci-gvozdeni-konji
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [parna-lokomotiva, gvozdje]
+        pitanje: Zašto su lokomotive nazivane „gvozdenim konjima”?
+        odgovori:
+          - {tekst: "Zato što su zamenile konjsku vuču, a napravljene su od gvožđa", tacan: true}
+          - {tekst: "Zato što su ih na početku vukli konji", tacan: false, zasto: "Lokomotiva sama vuče vagone — zato je i zamenila konje."}
+          - {tekst: "Zato što su bile spore kao konji", tacan: false, zasto: "Raketa je bila tri puta brža od poštanske kočije."}
+          - {tekst: "Zato što su prevozile samo konje", tacan: false, zasto: "Prevozile su rudu, robu i putnike."}
+        pomoc:
+          - "Korak 1: Šta je lokomotiva zamenila u prevozu?"
+          - "Korak 2: Od kog materijala je napravljena?"
+          - "Iz lekcije: lokomotiva je zamenila konjsku vuču."
+        objasnjenje: „Konj” jer vuče kao konj (i zamenila je konje), „gvozdeni” jer je od gvožđa.
+        iz_udzbenika: {strana: 30, odeljak: Znatiželja — takmičenje „gvozdenih konja”, tekst: "Udžbenik pita zašto su lokomotive zvane gvozdenim konjima; one su zamenile konjsku vuču."}
+
+      - id: sao-zakljuci-klermont-dobit
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [klermont, robert-fulton, parobrod]
+        pitanje: Stariji parobrodi su postojali još krajem XVIII veka. Zašto se ipak pamti baš Fultonov Klermont?
+        odgovori:
+          - {tekst: "Zato što je prvi donosio finansijsku dobit plovidbom na redovnoj liniji", tacan: true}
+          - {tekst: "Zato što nije imao dimnjak", tacan: false, zasto: "Klermont je imao dimnjak iz koga kulja dim."}
+          - {tekst: "Zato što je plovio bez parne mašine", tacan: false, zasto: "Pokretala ga je parna mašina — Vatov izum je doprineo i vodenom saobraćaju."}
+          - {tekst: "Zato što je preplovio okean", tacan: false, zasto: "Klermont je plovio rekom Hadson, između Njujorka i Olbanija."}
+        pomoc:
+          - "Korak 1: Šta je potrebno da bi se pronalazak zaista proširio?"
+          - "Korak 2: Kakva je bila njegova linija — povremena ili redovna?"
+          - "Iz lekcije: Fultonov parobrod je prvi donosio finansijsku dobit."
+        objasnjenje: Pronalazak se širi kad se isplati — Klermont je dokazao da parobrod može da zarađuje.
+        iz_udzbenika: {strana: 31, odeljak: Parobrod Klermont, tekst: "Fultonov parobrod je prvi donosio finansijsku dobit, iako su stariji postojali.", slika: 03-industrijska-revolucija/06-parobrod-klermont.jpg}
+        osa: {naziv: Fultonov parobrod Klermont, od: 1807, traka: saobracaj}
+
+      - id: sao-zakljuci-cudovista
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [parobrod, kameni-ugalj]
+        pitanje: Zašto su ljudi prve parobrode zvali „čudovištima koja povraćaju dim i bljuju vatru”?
+        odgovori:
+          - {tekst: "Zbog dima, varnica i buke iz dimnjaka — nešto što do tada nisu videli", tacan: true}
+          - {tekst: "Zato što su parobrodi napadali druge brodove", tacan: false, zasto: "Lekcija ne govori o napadima; ljude je uplašio izgled — dim i vatra iz dimnjaka."}
+          - {tekst: "Zato što su bili mnogo manji od jedrenjaka", tacan: false, zasto: "Veličina nije razlog; reč je o dimu i vatri od uglja."}
+          - {tekst: "Zato što su plovili samo noću", tacan: false, zasto: "Klermont je plovio redovnom linijom; nadimak dolazi od dima i varnica."}
+        pomoc:
+          - "Korak 1: Šta gori u parnoj mašini?"
+          - "Korak 2: Šta izlazi iz dimnjaka kad gori ugalj?"
+          - "Korak 3: Kako to izgleda nekome ko nikad nije video mašinu? Iz lekcije: dim, varnice, buka."
+        objasnjenje: Ugalj u mašini pravio je dim i varnice; za ljude naviknute na jedra to je izgledalo kao čudovište.
+        iz_udzbenika: {strana: 31, odeljak: Parobrod Klermont, tekst: "Udžbenik pita zašto su prve parobrode zvali čudovištima koja bljuju vatru.", slika: 03-industrijska-revolucija/06-parobrod-klermont.jpg}
+
+      - id: sao-izvor-volmar-pobeda
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [raketa, mancester-liverpul, dzordz-stivenson]
+        izvor:
+          autor: K. Volmar
+          naslov: Vatra i para (istorija britanske železnice)
+          tekst: Kad je 1829. dovršena pruga Mančester–Liverpul, priređena je trka da se izabere lokomotiva — pobednik je dobijao veliku nagradu i pravo da vozi na pruzi. Bile su gotove samo četiri lokomotive. Stivensonova Raketa izgledala je najskromnije, ali dok su druge imale nezgode, ona je radila pouzdano i postigla 30 km/h, skoro tri puta više od poštanske kočije.
+          napomena: Odlomak je prepričan; udžbenik, str. 30 (Znatiželja).
+        pitanje: Zašto je, prema ovom izvoru, pobedila Raketa?
+        odgovori:
+          - {tekst: "Bila je najpouzdanija i najbrža, dok su druge imale nezgode", tacan: true}
+          - {tekst: "Izgledala je najlepše i najmoćnije", tacan: false, zasto: "Izvor kaže suprotno — izgledala je najskromnije."}
+          - {tekst: "Bila je jedina lokomotiva na trci", tacan: false, zasto: "Bile su gotove četiri lokomotive."}
+          - {tekst: "Stivenson je bio sudija trke", tacan: false, zasto: "Izvor to ne kaže; o pobedi su odlučile pouzdanost i brzina."}
+        pomoc:
+          - "Pronađi u odlomku šta se dogodilo drugim lokomotivama."
+          - "Koliku je brzinu postigla Raketa?"
+          - "Iz lekcije: najpouzdanija i najbrža — 30 km/h."
+        objasnjenje: Izvor ističe da je Raketa, iako skromna izgleda, jedina radila bez nezgoda i bila najbrža.
+        iz_udzbenika: {strana: 30, odeljak: Znatiželja — takmičenje „gvozdenih konja”, tekst: "Udžbenik prenosi odlomak iz Volmarove knjige o trci lokomotiva 1829.", slika: 03-industrijska-revolucija/05-lokomotiva-raketa.jpg}
+        osa: {naziv: Trka lokomotiva (Mančester–Liverpul), od: 1829, traka: saobracaj}
+
+      - id: sao-izvor-volmar-kocija
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [raketa, parna-lokomotiva]
+        izvor:
+          autor: K. Volmar
+          naslov: Vatra i para (istorija britanske železnice)
+          tekst: Na trci 1829. Raketa je postigla 30 km/h, skoro tri puta brže od poštanske kočije. Na zvaničnom otvaranju pruge, 15. septembra 1830, išla je 48 km/h — više od četiri puta brže od kočije.
+          napomena: Odlomak je prepričan; udžbenik, str. 30 (Znatiželja).
+        pitanje: Šta iz ovih podataka možemo zaključiti o brzini poštanske kočije, kojom su ljudi do tada putovali?
+        odgovori:
+          - {tekst: "Išla je otprilike 10–12 km/h", tacan: true}
+          - {tekst: "Išla je oko 30 km/h, kao Raketa", tacan: false, zasto: "Raketa je bila skoro tri puta brža, pa je kočija bila mnogo sporija."}
+          - {tekst: "Išla je oko 90 km/h", tacan: false, zasto: "Tada bi kočija bila brža od Rakete, a izvor kaže da je Raketa bila više puta brža."}
+          - {tekst: "Iz izvora se ništa ne može zaključiti o kočiji", tacan: false, zasto: "Može — izvor daje odnos: 30 km/h je skoro tri puta brže, 48 km/h više od četiri puta brže."}
+        pomoc:
+          - "Ako je 30 km/h skoro tri puta brže, koliko je jedan deo?"
+          - "Proveri i drugim podatkom: 48 podeljeno sa nešto više od 4."
+          - "Iz lekcije: 30 km/h ≈ 3 × kočija; 48 km/h > 4 × kočija."
+        objasnjenje: "30 : 3 ≈ 10 i 48 : 4 = 12 — kočija je išla otprilike 10–12 km/h. Železnica je putovanje ubrzala više puta."
+        iz_udzbenika: {strana: 30, odeljak: Znatiželja — takmičenje „gvozdenih konja”, tekst: "Raketa je bila skoro tri puta, a na otvaranju više od četiri puta brža od poštanske kočije."}
+        osa: {naziv: Otvaranje pruge Mančester–Liverpul, od: 1830, traka: saobracaj}
+
+      - id: sao-izvor-stokton
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [stokton-darlington, zeleznica, parna-lokomotiva]
+        izvor:
+          autor: Gravira iz XIX veka
+          naslov: Otvaranje železnice Stokton–Darlington, 1825.
+          tekst: Lokomotiva vuče dugačak niz vagona preko kamenog mosta. Uz prugu se okupilo mnogo ljudi, neki na konjima, i posmatraju voz.
+          napomena: Opis slike je prepričan; udžbenik, str. 30.
+        pitanje: Šta nam ova gravira govori o tom događaju?
+        odgovori:
+          - {tekst: "Otvaranje javne železnice bilo je važan događaj koji je privukao mnogo ljudi", tacan: true}
+          - {tekst: "Ljudi su se bunili protiv pruge i lomili vagone", tacan: false, zasto: "Na graviri ljudi posmatraju voz; lomljenje mašina prikazuje ilustracija ludita."}
+          - {tekst: "Voz je prevozio samo rudu u rudniku", tacan: false, zasto: "Ovo je otvaranje železnice za javni saobraćaj 1825 — izvan rudnika."}
+          - {tekst: "Konji su vukli vagone", tacan: false, zasto: "Vagone vuče lokomotiva; jahači samo posmatraju."}
+        pomoc:
+          - "Ko je na slici osim voza?"
+          - "Zašto bi se toliko ljudi okupilo?"
+          - "Iz lekcije: 1825. lokomotiva ulazi u javni saobraćaj."
+        objasnjenje: Gravira beleži otvaranje prve javne pruge — novinu koju su ljudi došli da vide.
+        iz_udzbenika: {strana: 30, odeljak: Razvoj saobraćaja, tekst: "Slika prikazuje otvaranje železnice na putu Stokton–Darlington u Engleskoj 1825.", slika: 03-industrijska-revolucija/04-zeleznica-stokton-darlington.jpg}
+        osa: {naziv: Pruga Stokton–Darlington, od: 1825, traka: saobracaj}
+
+      - id: sao-izvor-klermont
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [klermont, robert-fulton, hadson, njujork, olbani]
+        izvor:
+          autor: Natpis uz sliku u udžbeniku
+          naslov: Parobrod Klermont Roberta Fultona
+          tekst: Klermont je 1807. plovio redovnom linijom na reci Hadson, između Njujorka i Olbanija. Na slici se vidi brod sa dimnjakom iz koga kulja crni dim i velikim točkom na boku.
+          napomena: Natpis i opis slike su prepričani; udžbenik, str. 31.
+        pitanje: Između koja dva grada je plovio Klermont?
+        odgovori:
+          - {tekst: "Njujorka i Olbanija", tacan: true}
+          - {tekst: "Mančestera i Liverpula", tacan: false, zasto: "Između Mančestera i Liverpula vozila je železnica (Raketa, 1829–1830)."}
+          - {tekst: "Stoktona i Darlingtona", tacan: false, zasto: "To je prva javna železnica u Engleskoj (1825)."}
+          - {tekst: "Londona i Pariza", tacan: false, zasto: "Klermont je plovio rekom u Americi."}
+        pomoc:
+          - "Reka Hadson je u Americi."
+          - "Jedan od gradova je danas najveći grad SAD."
+          - "Iz lekcije: Njujork–Olbani."
+        objasnjenje: Klermont je plovio rekom Hadson na liniji Njujork–Olbani.
+        iz_udzbenika: {strana: 31, odeljak: Parobrod Klermont, tekst: "Klermont je plovio redovnom linijom na Hadsonu između Njujorka i Olbanija.", slika: 03-industrijska-revolucija/06-parobrod-klermont.jpg}
+        osa: {naziv: Fultonov parobrod Klermont, od: 1807, traka: saobracaj}
+
+      - id: sao-uporedi-lokomotiva-parobrod
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [parna-lokomotiva, parobrod, dzordz-stivenson, robert-fulton]
+        a: Parna lokomotiva
+        b: Parobrod
+        pitanje: Na šta se odnosi tvrdnja — lokomotivu, parobrod, oba ili nijedno?
+        tvrdnje:
+          - {tekst: "Konstruisao ju je Džordž Stivenson 1814.", odgovor: a, zasto: "Stivenson je tvorac lokomotive."}
+          - {tekst: "Prikazao ga je Robert Fulton 1807.", odgovor: b, zasto: "Fulton je američki pronalazač parobroda Klermont."}
+          - {tekst: "Pokreće ga snaga parne mašine.", odgovor: oba, zasto: "Vatov izum je pokrenuo i kopneni i vodeni saobraćaj."}
+          - {tekst: "Prvo je koristio i jedra.", odgovor: b, zasto: "Prvi parobrodi su koristili i jedra i paru."}
+          - {tekst: "Izumeo ga je Džon Kej.", odgovor: nijedan, zasto: "Džon Kej je izumeo leteći čunak za tkanje."}
+        pomoc:
+          - "Jedno vozi po šinama, drugo plovi."
+          - "Šta im je zajedničko?"
+          - "Iz lekcije: lokomotiva — Stivenson 1814; parobrod — Fulton 1807; oba na paru."
+        objasnjenje: Oba su primena parne mašine u saobraćaju — lokomotiva na kopnu, parobrod na vodi.
+        iz_udzbenika: {strana: 30, odeljak: Razvoj saobraćaja, tekst: "Vatov izum je doprineo i kopnenom (lokomotiva) i vodenom saobraćaju (parobrod)."}
+
+      - id: sao-uporedi-pruge
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [stokton-darlington, mancester-liverpul, zeleznica]
+        a: Pruga Stokton–Darlington
+        b: Pruga Mančester–Liverpul
+        pitanje: Na koju prugu se odnosi tvrdnja — A, B, obe ili nijednu?
+        tvrdnje:
+          - {tekst: "Otvorena je 1825, kad lokomotiva ulazi u javni saobraćaj.", odgovor: a, zasto: "Stokton–Darlington je otvorena 1825."}
+          - {tekst: "Za nju je 1829. održana trka lokomotiva.", odgovor: b, zasto: "Trka je trebalo da odredi koja će lokomotiva voziti na pruzi Mančester–Liverpul."}
+          - {tekst: "Nalazi se u Engleskoj.", odgovor: oba, zasto: "Obe pruge su u Engleskoj."}
+          - {tekst: "Na zvaničnom otvaranju Raketa je išla 48 km/h.", odgovor: b, zasto: "To je otvaranje pruge Mančester–Liverpul, 15. septembra 1830."}
+          - {tekst: "Po njoj je plovio Klermont.", odgovor: nijedan, zasto: "Klermont je parobrod na reci Hadson."}
+        pomoc:
+          - "Jedna je starija i bila je prva javna."
+          - "Za drugu se vezuju Raketa i trka."
+          - "Iz lekcije: Stokton–Darlington 1825; Mančester–Liverpul 1829–1830."
+        objasnjenje: Stokton–Darlington (1825) je prva javna pruga; Mančester–Liverpul je pruga trke (1829) i Raketinih 48 km/h (1830).
+        iz_udzbenika: {strana: 30, odeljak: Razvoj saobraćaja; Znatiželja, tekst: "Lekcija opisuje otvaranje pruge Stokton–Darlington i trku za prugu Mančester–Liverpul."}
+
+      - id: sao-uporedi-raketa
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [raketa, mancester-liverpul]
+        a: Raketa na trci 1829.
+        b: Raketa na otvaranju pruge 1830.
+        pitanje: Na koji događaj se odnosi tvrdnja — A, B, oba ili nijedan?
+        tvrdnje:
+          - {tekst: "Postigla je 30 km/h, skoro tri puta brže od poštanske kočije.", odgovor: a, zasto: "Na trci 1829. brzina je bila 30 km/h."}
+          - {tekst: "Postigla je 48 km/h, više od četiri puta brže od kočije.", odgovor: b, zasto: "Na otvaranju 15. septembra 1830. Raketa je išla 48 km/h."}
+          - {tekst: "Bila je brža od poštanske kočije.", odgovor: oba, zasto: "U oba slučaja bila je višestruko brža od kočije."}
+          - {tekst: "Takmičila se protiv još tri gotove lokomotive.", odgovor: a, zasto: "Na trci su bile gotove četiri lokomotive, jedna nije uzeta u obzir."}
+          - {tekst: "Izgubila je od brže lokomotive.", odgovor: nijedan, zasto: "Raketa je pobedila na trci i zato je vozila na otvaranju."}
+        pomoc:
+          - "Na otvaranju je bila brža nego na trci."
+          - "Trka je bila takmičenje, a otvaranje svečanost."
+          - "Iz lekcije: 1829 — 30 km/h; 1830 — 48 km/h."
+        objasnjenje: Trka (1829, 30 km/h) odlučila je ko vozi; na otvaranju (1830) Raketa je postigla 48 km/h.
+        iz_udzbenika: {strana: 30, odeljak: Znatiželja — takmičenje „gvozdenih konja”, tekst: "Izvor navodi brzinu Rakete na trci 1829. i na otvaranju pruge 1830."}
+        osa: {naziv: Otvaranje pruge Mančester–Liverpul, od: 1830, traka: saobracaj}
+
+      - id: sao-ko-sam-stivenson
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [dzordz-stivenson, parna-lokomotiva, raketa]
+        tragovi:
+          - Moje vozilo je u početku radilo u rudnicima i izvlačilo vagone sa rudom.
+          - Moja „Raketa” je pobedila na trci 1829.
+          - Godine 1814. konstruisao sam parnu lokomotivu.
+        odgovori:
+          - {tekst: "Džordž Stivenson", tacan: true}
+          - {tekst: "Robert Fulton", tacan: false, zasto: "Fultonov izum je parobrod, a ne lokomotiva."}
+          - {tekst: "Džejms Vat", tacan: false, zasto: "Vat je napravio parnu mašinu 1769, ne lokomotivu."}
+          - {tekst: "K. Volmar", tacan: false, zasto: "Volmar je pisac knjige „Vatra i para” o istoriji železnice."}
+        objasnjenje: To je Džordž Stivenson — lokomotiva 1814, Raketa 1829.
+        iz_udzbenika: {strana: 30, odeljak: Razvoj saobraćaja, tekst: "Stivenson je 1814. konstruisao lokomotivu; njegova Raketa je pobedila 1829.", slika: 03-industrijska-revolucija/05-lokomotiva-raketa.jpg}
+
+      - id: sao-ko-sam-fulton
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [robert-fulton, klermont, parobrod]
+        tragovi:
+          - Bio sam američki pronalazač.
+          - Moj brod je imao veliki točak na boku i dimnjak, a plovio je Hadsonom.
+          - Godine 1807. prikazao sam parobrod Klermont.
+        odgovori:
+          - {tekst: "Robert Fulton", tacan: true}
+          - {tekst: "Džordž Stivenson", tacan: false, zasto: "Stivenson je britanski pronalazač lokomotive."}
+          - {tekst: "Džon Kej", tacan: false, zasto: "Kej je izumeo leteći čunak."}
+          - {tekst: "Džejms Vat", tacan: false, zasto: "Vat je britanski pronalazač parne mašine; njegov izum je pokretao i parobrode, ali Klermont je Fultonov."}
+        objasnjenje: To je Robert Fulton, tvorac Klermonta (1807).
+        iz_udzbenika: {strana: 31, odeljak: Razvoj saobraćaja, tekst: "Američki pronalazač Robert Fulton prikazao je parobrod 1807.", slika: 03-industrijska-revolucija/06-parobrod-klermont.jpg}
+
+      - id: sao-objasni-klermont
+        vrsta: objasni
+        slika_u_pitanju: true
+        tezina: lako
+        pojmovi: [klermont, parobrod, parna-masina]
+        pitanje: Pogledaj sliku Klermonta. Čemu služe veliki točak na boku i dimnjak? Objasni svojim rečima.
+        uzor: Veliki točak sa lopaticama okreće parna mašina, i on gura brod kroz vodu. U mašini gori ugalj, a dim od sagorevanja izlazi kroz dimnjak.
+        ideje:
+          - Točak pokreće brod kroz vodu.
+          - Točak okreće parna mašina.
+          - Dimnjak odvodi dim od uglja koji gori.
+        objasnjenje: Točak i dimnjak su vidljivi delovi parne mašine na brodu.
+        iz_udzbenika: {strana: 31, odeljak: Parobrod Klermont, tekst: "Udžbenik pita čemu služe točak na boku i dimnjak Klermonta.", slika: 03-industrijska-revolucija/06-parobrod-klermont.jpg}
+
+      - id: sao-objasni-trka
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [raketa, mancester-liverpul, parna-lokomotiva]
+        pitanje: Zašto je za prugu Mančester–Liverpul organizovana trka lokomotiva i šta je pokazala? Objasni svojim rečima.
+        uzor: Pruga je bila gotova 1829, a trebalo je izabrati lokomotivu koja će na njoj voziti. Trka je pokazala koja lokomotiva radi bez kvara i ide najbrže. Pobedila je Stivensonova Raketa, iako je izgledala najskromnije — bila je najpouzdanija i išla 30 km/h, skoro tri puta brže od kočije.
+        ideje:
+          - Trebalo je izabrati lokomotivu za novu prugu.
+          - Pobednik je dobijao nagradu i pravo da vozi na pruzi.
+          - Raketa je bila najpouzdanija i najbrža.
+          - Izgled nije presudio.
+        objasnjenje: Trka je bila provera u praksi — pouzdanost i brzina su važnije od izgleda.
+        iz_udzbenika: {strana: 30, odeljak: Znatiželja — takmičenje „gvozdenih konja”, tekst: "Udžbenik prenosi priču o trci lokomotiva 1829.", slika: 03-industrijska-revolucija/05-lokomotiva-raketa.jpg}
+        osa: {naziv: Trka lokomotiva (Mančester–Liverpul), od: 1829, traka: saobracaj}
+
+  - naslov: Društvene promene
+    zadaci:
+      - id: dru-izbor-gradovi
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [mancester, liverpul, fabrika]
+        pitanje: Koji britanski gradovi su navedeni kao primer novih industrijskih centara?
+        odgovori:
+          - {tekst: "Mančester i Liverpul", tacan: true}
+          - {tekst: "Njujork i Olbani", tacan: false, zasto: "Njujork i Olbani su američki gradovi povezani Klermontovom linijom."}
+          - {tekst: "Stokholm i Sankt Peterburg", tacan: false, zasto: "To su gradovi na severu i istoku Evrope, koje je industrijski razvoj tada uglavnom zaobišao."}
+          - {tekst: "Beč i Budim", tacan: false, zasto: "To su gradovi Habzburške monarhije, ne britanski industrijski centri iz lekcije."}
+        pomoc:
+          - "Između ta dva grada vodila je pruga sa čuvene trke lokomotiva."
+          - "Jedan se zvao „Grad pamuka”."
+          - "Iz lekcije: Mančester i Liverpul."
+        objasnjenje: Mančester i Liverpul su porasli kao industrijski centri zbog doseljavanja ljudi sa sela u fabrike.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Seljenjem sa sela raste gradsko stanovništvo i razvijaju se industrijski centri poput Mančestera i Liverpula."}
+
+      - id: dru-izbor-gde-fabrike
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [fabrika, parna-masina]
+        pitanje: Gde je parna mašina omogućila da se podižu fabrike?
+        odgovori:
+          - {tekst: "Blizu luka i rudnika", tacan: true}
+          - {tekst: "Samo u planinama, pored brzih reka", tacan: false, zasto: "Snaga vode je pokretala predilice, ali para je omogućila fabrike blizu luka i rudnika."}
+          - {tekst: "Na plantažama u kolonijama", tacan: false, zasto: "Na plantažama se gajio pamuk; fabrike su bile u Britaniji."}
+          - {tekst: "Samo u Londonu", tacan: false, zasto: "Industrijski centri su bili i Mančester i Liverpul; fabrike su se dizale blizu luka i rudnika."}
+        pomoc:
+          - "Odakle dolazi ugalj za mašinu, a odakle sirovi pamuk?"
+          - "Jedno se vadi iz zemlje, drugo stiže brodom."
+          - "Iz lekcije: blizu luka i rudnika."
+        objasnjenje: Kraj rudnika je bio ugalj za mašine, a kraj luka sirovina i put za izvoz robe.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Parna mašina je omogućila podizanje fabrika blizu luka i rudnika."}
+
+      - id: dru-izbor-bolesti-zasto
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [radnicka-naselja, radnistvo]
+        pitanje: Zašto su se u radničkim naseljima širile zarazne bolesti?
+        odgovori:
+          - {tekst: "Zato što su naselja bila prenaseljena i bez higijenskih uslova", tacan: true}
+          - {tekst: "Zato što su radnici dolazili iz kolonija", tacan: false, zasto: "Radnici su dolazili sa britanskih sela, a bolesti su se širile zbog prenaseljenosti i prljavštine."}
+          - {tekst: "Zato što su naselja bila daleko od fabrika", tacan: false, zasto: "Naselja su nicala baš oko fabrika i rudnika, na obodima gradova."}
+          - {tekst: "Zato što su radnici imali previše hrane", tacan: false, zasto: "Obrnuto — vladala je pothranjenost."}
+        pomoc:
+          - "Zamisli mnogo ljudi zbijenih u malim kućama."
+          - "Šta nedostaje — voda, kanalizacija, čistoća?"
+          - "Iz lekcije: prenaseljena naselja bez higijenskih uslova."
+        objasnjenje: Gužva i nedostatak higijene doveli su do zaraznih bolesti, a uz to su vladali pothranjenost i alkoholizam.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Prenaseljena radnička naselja bez higijene donose zarazne bolesti, pothranjenost i alkoholizam.", slika: 03-industrijska-revolucija/09-radnicki-kvart-londona.jpg}
+
+      - id: dru-tn-zene-deca
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [decji-rad, radnistvo]
+        tvrdnja: Žene i deca su u fabrikama dobijali veće plate od muškaraca.
+        tacno: false
+        ispravke:
+          - {tekst: "Žene i deca su radili za još niže plate.", tacan: true}
+          - {tekst: "Žene i deca nisu radili u fabrikama.", tacan: false, zasto: "Radili su — i to dugo i bez zaštite."}
+          - {tekst: "Žene i deca su radili bez ikakve plate, kao robovi.", tacan: false, zasto: "Bili su plaćeni, ali još slabije od muškaraca; robovi su radili na plantažama."}
+        pomoc:
+          - "Zašto bi vlasnik rado zaposlio dete?"
+          - "Iz lekcije: žene i deca rade za još niže plate."
+        objasnjenje: Žene i deca su bili najjeftinija radna snaga — radili su dugo, za još niže plate.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "U fabrikama rade i žene i deca, sa još nižim platama."}
+
+      - id: dru-tn-zagadjenje
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [zagadjenje-zivotne-sredine, fabrika]
+        tvrdnja: Fabrike su otrovne gasove i tečnosti ispuštale direktno u prirodu.
+        tacno: true
+        pomoc:
+          - "Pogledaj dimnjake na slici Mančestera."
+          - "Iz lekcije: posledica je zagađenje životne sredine."
+        objasnjenje: Tačno — zagađenje životne sredine je još jedna posledica industrijske revolucije.
+        iz_udzbenika: {strana: 32, odeljak: Društvene promene, tekst: "Fabrike ispuštaju otrovne gasove i tečnosti u prirodu, što zagađuje životnu sredinu."}
+
+      - id: dru-tn-zastita
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [radnistvo, fabrika]
+        tvrdnja: Radnici u prvim fabrikama radili su kratko i uz dobru zaštitu na radu.
+        tacno: false
+        ispravke:
+          - {tekst: "Radili su dugo, bez osnovne zaštite na radu.", tacan: true}
+          - {tekst: "Radili su kratko, ali bez plate.", tacan: false, zasto: "Radili su dugo i dobijali niske plate."}
+          - {tekst: "Radili su dugo, ali za veoma visoke plate.", tacan: false, zasto: "Mašinska proizvodnja je oborila cenu rada — plate su bile niske."}
+        pomoc:
+          - "Kakav je bio položaj radnika — dobar ili loš?"
+          - "Iz lekcije: dug rad, bez osnovne zaštite."
+        objasnjenje: Radni dan je bio dug, a zaštite na radu nije bilo.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Radilo se dugo, bez osnovne zaštite na radu."}
+
+      - id: dru-tn-gradjanstvo
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [gradjanstvo, burzoazija, radnistvo]
+        tvrdnja: Industrija je podjednako obogatila sve stanovnike Britanije.
+        tacno: false
+        ispravke:
+          - {tekst: "Obogatila je jedan sloj građanstva (buržoazije), a radnici su ostali siromašni.", tacan: true}
+          - {tekst: "Obogatila je zanatlije, a građanstvo osiromašila.", tacan: false, zasto: "Sitne zanatlije su propale; bogatio se jedan sloj građanstva."}
+          - {tekst: "Obogatila je samo seljake koji su ostali na selu.", tacan: false, zasto: "Seljaci su odlazili u gradove tražeći posao; bogatili su se vlasnici fabrika iz građanstva."}
+        pomoc:
+          - "Ko je posedovao fabrike, a ko u njima radio?"
+          - "Iz lekcije: obogatio se jedan sloj građanstva; nastalo je radništvo."
+        objasnjenje: Bogatstvo je pripalo delu građanstva; radnici su živeli u bedi — društvo se podelilo.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Industrija je obogatila jedan sloj građanstva (buržoazije) i stvorila radničku klasu."}
+
+      - id: dru-dopuni-klase
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [gradjanstvo, burzoazija, radnicka-klasa]
+        pitanje: Dopuni rečenicu.
+        tekst: "Industrija je obogatila jedan sloj {{građanstva}} (buržoazije) i dovela do nastanka nove grupe — {{radničke klase}}."
+        ponudjene: [građanstva, radničke klase, plemstva, sveštenstva]
+        pomoc:
+          - "Jedni poseduju fabrike, drugi u njima rade."
+          - "Iz lekcije: građanstvo (buržoazija) i radnička klasa."
+        objasnjenje: Bogati vlasnici iz građanstva i siromašni radnici — dve grupe koje je stvorila industrija.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Industrija je obogatila jedan sloj građanstva i stvorila radničku klasu."}
+
+      - id: dru-dopuni-posledice
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [fabrika, mancester, liverpul, zagadjenje-zivotne-sredine]
+        pitanje: Dopuni rečenice (bez ponuđenih reči).
+        tekst: "Razvoj industrije {{pojeftinio}} je proizvode, pa su sitne zanatlije i {{manufakture}} propale. Ljudi sa {{sela}} odlaze u gradove kao što su Mančester i {{Liverpul}}, a fabrike svojim otrovima izazivaju {{zagađenje}} životne sredine."
+        pomoc:
+          - "Šta se desilo sa cenom robe kad su je pravile mašine?"
+          - "Odakle dolaze novi stanovnici gradova?"
+          - "Iz lekcije: pojeftinjenje, propast manufaktura, selo → grad, Mančester i Liverpul, zagađenje."
+        objasnjenje: Jeftina roba, propast starih radionica, rast gradova i zagađenje — posledice koje i danas prepoznajemo.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Industrija pojeftinjuje proizvode, zanatlije propadaju, gradovi rastu, a priroda se zagađuje."}
+
+      - id: dru-povezi-posledice
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [fabrika, radnicka-naselja, zagadjenje-zivotne-sredine, mancester]
+        pitanje: Poveži uzrok sa posledicom.
+        parovi:
+          - [Proizvodi postaju jeftiniji, Zanatlije i manufakture propadaju]
+          - [Otvaraju se fabrike, Ljudi se sele sa sela u grad]
+          - [Naselja bez higijene, Šire se zarazne bolesti]
+          - [Fabrike ispuštaju otrove, Zagađuje se životna sredina]
+        pomoc:
+          - "Za svaki uzrok pitaj: šta se zbog toga desilo?"
+          - "Iz lekcije: jeftina roba → propast zanatlija; fabrike → seobe u grad; prljavština → bolesti; otrovi → zagađenje."
+        objasnjenje: Svaka promena u proizvodnji imala je društvenu posledicu.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Lekcija nabraja društvene posledice industrije: propast zanatlija, rast gradova, bedu radnika i zagađenje."}
+
+      - id: dru-lanac-gradovi
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [fabrika, mancester, liverpul]
+        karike:
+          - Otvaraju se fabrike
+          - "?"
+          - Rastu industrijski centri kao Mančester i Liverpul
+        praznina: 1
+        odgovori:
+          - {tekst: "Ljudi sa sela odlaze u gradove da traže posao", tacan: true}
+          - {tekst: "Ljudi iz gradova sele se na selo", tacan: false, zasto: "Bilo je obrnuto — sa sela u grad, zbog posla u fabrikama."}
+          - {tekst: "Gradovi zabranjuju doseljavanje", tacan: false, zasto: "Lekcija ne pominje zabrane; gradovi su brzo rasli."}
+          - {tekst: "Fabrike se zatvaraju zbog nedostatka radnika", tacan: false, zasto: "Radnika je bilo dovoljno — dolazili su sa sela."}
+        pomoc:
+          - "Korak 1: Šta fabrike nude ljudima?"
+          - "Korak 2: Ko dolazi po taj posao?"
+          - "Iz lekcije: ljudi sa sela odlaze u gradove tražeći posao."
+        objasnjenje: Fabrike → posao → seljenje sa sela → veliki gradovi.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Otvaranjem fabrika ljudi sa sela odlaze u gradove, pa rastu Mančester i Liverpul."}
+
+      - id: dru-lanac-zanatlije
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [fabrika, manufaktura]
+        karike:
+          - Mašine u fabrikama proizvode brzo i mnogo
+          - "?"
+          - Sitne zanatlije i manufakture propadaju
+        praznina: 1
+        odgovori:
+          - {tekst: "Proizvodi postaju jeftiniji", tacan: true}
+          - {tekst: "Proizvodi postaju skuplji", tacan: false, zasto: "Mašinska proizvodnja je robu pojeftinila; zanatlije nisu mogle da prate tu cenu."}
+          - {tekst: "Zanatlije dobijaju parne mašine od države", tacan: false, zasto: "Lekcija to ne kaže; zanatlije su propale."}
+          - {tekst: "Radnici traže veće plate", tacan: false, zasto: "To se dešava kasnije i ne objašnjava propast zanatlija."}
+        pomoc:
+          - "Korak 1: Šta se desi sa cenom kad se roba pravi brzo i mnogo?"
+          - "Korak 2: Može li ručni rad da proda jeftinije od mašine?"
+          - "Iz lekcije: razvoj industrije je pojeftinio proizvode."
+        objasnjenje: Zanatlija rukom nije mogao da proda jeftinije od fabrike — zato je propao.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Razvoj industrije pojeftinio je proizvode, pa sitne zanatlije i manufakture nestaju."}
+
+      - id: dru-lanac-naselja
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [radnicka-naselja, radnistvo]
+        karike:
+          - Mnogo ljudi dolazi da radi u fabrikama i rudnicima
+          - Oko fabrika nastaju prenaseljena naselja bez higijene
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Šire se zarazne bolesti, pothranjenost i alkoholizam", tacan: true}
+          - {tekst: "Radnici postaju bogatiji od vlasnika", tacan: false, zasto: "Radnici su bili siromašni; bogatio se deo građanstva."}
+          - {tekst: "Grade se parobrodi", tacan: false, zasto: "Parobrodi su deo razvoja saobraćaja, ne posledica stanja u naseljima."}
+          - {tekst: "Zagađenje prestaje", tacan: false, zasto: "Fabrike su i dalje ispuštale otrove; zagađenje je raslo."}
+        pomoc:
+          - "Korak 1: Šta se dešava kad mnogo ljudi živi zbijeno?"
+          - "Korak 2: Šta donosi nedostatak higijene?"
+          - "Iz lekcije: zarazne bolesti, pothranjenost i alkoholizam."
+        objasnjenje: Prenaseljenost + prljavština + siromaštvo = bolesti, glad i alkoholizam.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Oko fabrika i rudnika nastaju prenaseljena naselja bez higijene, sa bolestima, pothranjenošću i alkoholizmom.", slika: 03-industrijska-revolucija/09-radnicki-kvart-londona.jpg}
+
+      - id: dru-lanac-plate
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [decji-rad, radnistvo, fabrika]
+        karike:
+          - Mašine obavljaju posao koji je ranije tražio veštu ruku
+          - "?"
+          - Vlasnici zapošljavaju i žene i decu za još niže plate
+        praznina: 1
+        odgovori:
+          - {tekst: "Rad postaje jeftin — cena rada pada", tacan: true}
+          - {tekst: "Radnici dobijaju veće plate", tacan: false, zasto: "Obrnuto — mašinska proizvodnja je oborila cenu rada."}
+          - {tekst: "Fabrikama nedostaje radnika", tacan: false, zasto: "Radnika je bilo mnogo jer su dolazili sa sela."}
+          - {tekst: "Parlament zabranjuje mašine", tacan: false, zasto: "Parlament je štitio mašine — kažnjavao je njihovo lomljenje."}
+        pomoc:
+          - "Korak 1: Treba li za mašinom veliki majstor?"
+          - "Korak 2: Šta se onda dešava sa platom?"
+          - "Iz lekcije: mašinska proizvodnja → niska cena rada; žene i deca još slabije plaćeni."
+        objasnjenje: Kad mašina radi umesto majstora, svako može da je opslužuje — rad postaje jeftin, pa i deca rade za male pare.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Mašinska proizvodnja dovela je do niske cene rada; žene i deca imali su još niže plate."}
+
+      - id: dru-zakljuci-zanatlije
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [manufaktura, fabrika]
+        pitanje: Zašto su sitne zanatlije propadale u doba industrijske revolucije?
+        odgovori:
+          - {tekst: "Nisu mogle da prodaju jeftino kao fabrike", tacan: true}
+          - {tekst: "Zato što su ih luditi napadali", tacan: false, zasto: "Luditi su bili radnici koji su lomili fabričke mašine, ne zanatlije."}
+          - {tekst: "Zato što je parlament zabranio zanate", tacan: false, zasto: "Lekcija ne pominje zabranu zanata; propali su zbog jeftinije fabričke robe."}
+          - {tekst: "Zato što su se svi preselili u kolonije", tacan: false, zasto: "Lekcija govori o seljenju sa sela u gradove, ne u kolonije."}
+        pomoc:
+          - "Korak 1: Kakva je bila cena fabričke robe?"
+          - "Korak 2: Šta kupac bira između dve iste stvari?"
+          - "Iz lekcije: pojeftinjenje proizvoda → propast zanatlija i manufaktura."
+        objasnjenje: Fabrička roba je bila jeftinija, pa su kupci prestali da kupuju od zanatlija.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Razvoj industrije pojeftinio je proizvode, pa sitne zanatlije i manufakture propadaju."}
+
+      - id: dru-zakljuci-selo-grad
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [fabrika, radnistvo]
+        pitanje: Zašto su ljudi napuštali sela i odlazili u gradove?
+        odgovori:
+          - {tekst: "Tražili su posao u novim fabrikama", tacan: true}
+          - {tekst: "U gradovima je bio čistiji vazduh", tacan: false, zasto: "Bilo je obrnuto — fabrike su zagađivale gradove."}
+          - {tekst: "U gradovima su dobijali besplatne kuće", tacan: false, zasto: "Radnici su živeli u prenaseljenim naseljima bez higijene."}
+          - {tekst: "Vlast ih je proterala sa sela", tacan: false, zasto: "Lekcija kaže da su odlazili tražeći posao."}
+        pomoc:
+          - "Korak 1: Šta je novo nastajalo u gradovima?"
+          - "Korak 2: Šta je fabrikama trebalo?"
+          - "Iz lekcije: ljudi sa sela odlaze u gradove tražeći posao."
+        objasnjenje: Fabrike su nudile posao, pa su ljudi sa sela dolazili u gradove — i gradovi su naglo rasli.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Otvaranjem fabrika ljudi sa sela odlaze u gradove tražeći posao."}
+
+      - id: dru-zakljuci-zene-deca
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [decji-rad, radnistvo]
+        pitanje: Zašto su mnogi vlasnici fabrika zapošljavali žene i decu?
+        odgovori:
+          - {tekst: "Zato što su im plaćali još manje nego muškarcima", tacan: true}
+          - {tekst: "Zato što je zakon to tražio", tacan: false, zasto: "Zakoni o radu dece kasnije su ga ograničavali, a ne tražili."}
+          - {tekst: "Zato što su deca bila školovanija", tacan: false, zasto: "Lekcija o tome ne govori; presudna je bila niska plata."}
+          - {tekst: "Zato što muškaraca nije bilo u gradovima", tacan: false, zasto: "U gradove su dolazili svi sa sela; vlasnicima je odgovarala jeftinija radna snaga."}
+        pomoc:
+          - "Korak 1: Šta vlasnik želi da smanji?"
+          - "Korak 2: Ko je dobijao najnižu platu?"
+          - "Iz lekcije: žene i deca rade sa još nižim platama."
+        objasnjenje: Za vlasnika su žene i deca bili najjeftinija radna snaga.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "U fabrikama rade i žene i deca, sa još nižim platama, dugo i bez zaštite."}
+
+      - id: dru-zakljuci-gde-fabrika
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [fabrika, parna-masina, kameni-ugalj]
+        pitanje: "Vlasnik oko 1810. želi da otvori fabriku pamučnih tkanina sa parnom mašinom. Na osnovu lekcije, koje mesto je najbolje?"
+        odgovori:
+          - {tekst: "Grad blizu luke, a nedaleko od rudnika uglja", tacan: true}
+          - {tekst: "Planinsko selo daleko od puteva i luka", tacan: false, zasto: "Daleko od luke ne bi stizao pamuk niti bi se roba lako izvozila; daleko od rudnika nema uglja."}
+          - {tekst: "Plantaža u koloniji", tacan: false, zasto: "Na plantažama se gajio pamuk, a prerađivao se u Britaniji."}
+          - {tekst: "Usred šume, zbog drva za gorivo", tacan: false, zasto: "Britaniji su nedostajale šume; gorivo je bio kameni ugalj."}
+        pomoc:
+          - "Korak 1: Čime se loži parna mašina i odakle to stiže?"
+          - "Korak 2: Kako sirovi pamuk stiže iz kolonija?"
+          - "Korak 3: Spoji oba uslova. Iz lekcije: fabrike su se dizale blizu luka i rudnika."
+        objasnjenje: Para traži ugalj (rudnik), a pamuk stiže morem (luka) — zato je najbolje mesto kod luke i rudnika, kao Mančester i Liverpul.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Parna mašina je omogućila podizanje fabrika blizu luka i rudnika."}
+
+      - id: dru-izvor-mancester
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [mancester, grad-pamuka, fabrika]
+        izvor:
+          autor: Akvarel iz oko 1820.
+          naslov: Mančester oko 1820.
+          tekst: Uz kanal se nižu velike fabričke zgrade na više spratova, sa visokim dimnjacima iz kojih ide dim. U prvom planu su čamci i ljudi. Savremenici su Mančester zvali „Grad pamuka”.
+          napomena: Opis slike je prepričan; udžbenik, str. 31.
+        pitanje: Zašto su savremenici Mančester zvali „Grad pamuka”?
+        odgovori:
+          - {tekst: "Zbog mnoštva fabrika pamučnih tkanina", tacan: true}
+          - {tekst: "Zato što se pamuk gajio na poljima oko grada", tacan: false, zasto: "Pamuk se gajio na plantažama u kolonijama; u Mančesteru se prerađivao."}
+          - {tekst: "Zato što su kuće bile bele kao pamuk", tacan: false, zasto: "Na slici su fabrike i dimnjaci; naziv dolazi od proizvodnje tkanina."}
+          - {tekst: "Zato što je tu izumljen leteći čunak", tacan: false, zasto: "Lekcija ne kaže gde je Kej izumeo čunak; naziv dolazi od fabrika pamuka."}
+        pomoc:
+          - "Šta prvo uočavaš na slici?"
+          - "Šta se proizvodi u tim fabrikama?"
+          - "Iz lekcije: zbog mnoštva fabrika pamučnih tkanina."
+        objasnjenje: Velike fabrike pamučnih tkanina i dimnjaci obeležili su Mančester — zato „Grad pamuka”.
+        iz_udzbenika: {strana: 31, odeljak: Mančester oko 1820., tekst: "Slika Mančestera oko 1820. prikazuje velike fabrike i dimnjake; zvali su ga Gradom pamuka.", slika: 03-industrijska-revolucija/07-mancester-1820.jpg}
+        osa: {naziv: Mančester — Grad pamuka, od: 1820, traka: drustvo}
+
+      - id: dru-izvor-london
+        vrsta: izvor
+        slika_u_pitanju: true
+        tezina: lako
+        pojmovi: [london, radnicka-naselja, radnistvo]
+        izvor:
+          autor: Ilustracija iz XIX veka
+          naslov: Radnički kvart Londona
+          tekst: Tamna slika zbijenih kuća, jedna do druge, sa mnogo dimnjaka. Iznad kvarta prolazi vijadukt železnice.
+          napomena: Opis slike je prepričan; udžbenik, str. 32.
+        pitanje: Kakve uslove života radnika pokazuje ova slika?
+        odgovori:
+          - {tekst: "Prenaseljen, zadimljen kvart u kome su ljudi živeli zbijeno", tacan: true}
+          - {tekst: "Prostrane kuće sa vrtovima", tacan: false, zasto: "Kuće su zbijene jedna uz drugu — upravo suprotno od prostranih."}
+          - {tekst: "Seosko imanje daleko od grada", tacan: false, zasto: "To je gradski kvart, sa železnicom iznad krovova."}
+          - {tekst: "Bogatu četvrt vlasnika fabrika", tacan: false, zasto: "Ovo je radnički kvart; bogati nisu živeli u ovakvoj gužvi."}
+        pomoc:
+          - "Kako su kuće raspoređene?"
+          - "Šta je iznad krovova?"
+          - "Iz lekcije: prenaseljena radnička naselja bez higijene."
+        objasnjenje: Zbijene kuće, dim i pruga nad krovovima — slika gužve i bede radničkih naselja.
+        iz_udzbenika: {strana: 32, odeljak: Radnički kvart Londona, tekst: "Ilustracija iz XIX veka prikazuje radnički kvart Londona.", slika: 03-industrijska-revolucija/09-radnicki-kvart-londona.jpg}
+
+      - id: dru-uporedi-klase
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [gradjanstvo, burzoazija, radnistvo, radnicka-klasa]
+        a: Građanstvo (buržoazija)
+        b: Radništvo (radnička klasa)
+        pitanje: Na koju grupu se odnosi tvrdnja — A, B, obe ili nijednu?
+        tvrdnje:
+          - {tekst: "Jedan njen sloj se industrijom obogatio.", odgovor: a, zasto: "Industrija je obogatila deo građanstva — vlasnike fabrika."}
+          - {tekst: "Nova grupa koja je nastala sa industrijom.", odgovor: b, zasto: "Radnička klasa je nova društvena grupa."}
+          - {tekst: "Živela je u prenaseljenim naseljima oko fabrika.", odgovor: b, zasto: "Radnička naselja su nastajala oko fabrika i rudnika."}
+          - {tekst: "Njen život je promenila industrijska revolucija.", odgovor: oba, zasto: "Jedni su se obogatili, drugi su nastali kao nova grupa — promena je zahvatila obe."}
+          - {tekst: "Radila je na plantažama pamuka u kolonijama.", odgovor: nijedan, zasto: "Na plantažama su radili crni robovi."}
+        pomoc:
+          - "Ko poseduje fabriku, a ko u njoj radi?"
+          - "Ko je radio na plantažama?"
+          - "Iz lekcije: građanstvo se bogati, radništvo nastaje."
+        objasnjenje: Industrija je društvo podelila na bogate vlasnike iz građanstva i siromašne radnike.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Industrija obogaćuje deo građanstva i stvara radničku klasu."}
+
+      - id: dru-uporedi-pre-posle
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [manufaktura, fabrika, industrijska-revolucija]
+        a: Pre industrijske revolucije
+        b: Posle industrijske revolucije
+        pitanje: Na koje razdoblje se odnosi tvrdnja — A, B, oba ili nijedno?
+        tvrdnje:
+          - {tekst: "Roba se pravi ručno u manufakturama i zanatskim radionicama.", odgovor: a, zasto: "Ručna proizvodnja je obeležje vremena pre mašina (XVI–XVIII vek)."}
+          - {tekst: "Gradovi kao Mančester naglo rastu.", odgovor: b, zasto: "Rast gradova je posledica fabrika i doseljavanja sa sela."}
+          - {tekst: "Brodovi plove samo na jedra.", odgovor: a, zasto: "Parobrodi se javljaju krajem XVIII i početkom XIX veka."}
+          - {tekst: "Britanija trguje sa drugim kontinentima.", odgovor: oba, zasto: "Britanija je i pre revolucije bila pomorska sila — trgovina je jedan od uzroka revolucije."}
+          - {tekst: "Ljudi putuju električnim vozovima.", odgovor: nijedan, zasto: "Lekcija govori o parnim lokomotivama; električnih vozova tada nema."}
+        pomoc:
+          - "Šta je uzrok, a šta posledica revolucije?"
+          - "Trgovina je postojala i pre."
+          - "Iz lekcije: ručni rad → mašine; selo → grad; jedra → para."
+        objasnjenje: Ručni rad, jedra i manje gradove zamenile su mašine, para i veliki industrijski centri; trgovina je postojala i pre i posle.
+        iz_udzbenika: {strana: 28, odeljak: Uvod; Društvene promene, tekst: "Lekcija opisuje prelaz sa ručne na mašinsku proizvodnju i njegove posledice."}
+
+      - id: dru-ko-sam-mancester
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [mancester, grad-pamuka, mancester-liverpul]
+        tragovi:
+          - Ja sam grad, a ne ličnost — porastao sam kad su ljudi sa sela došli u fabrike.
+          - Na slici iz oko 1820. vide se moje višespratne fabrike i dimnjaci uz kanal.
+          - Prugom sam povezan sa Liverpulom, a savremenici me zovu „Grad pamuka”.
+        odgovori:
+          - {tekst: "Mančester", tacan: true}
+          - {tekst: "London", tacan: false, zasto: "London je na slici radničkog kvarta; „Grad pamuka” je Mančester."}
+          - {tekst: "Liverpul", tacan: false, zasto: "Liverpul je drugi kraj pruge; nadimak „Grad pamuka” nosi Mančester."}
+          - {tekst: "Olbani", tacan: false, zasto: "Olbani je američki grad na Klermontovoj liniji."}
+        objasnjenje: To je Mančester — industrijski centar i „Grad pamuka”, povezan prugom sa Liverpulom.
+        iz_udzbenika: {strana: 31, odeljak: Mančester oko 1820., tekst: "Mančester oko 1820. savremenici zovu Gradom pamuka.", slika: 03-industrijska-revolucija/07-mancester-1820.jpg}
+
+      - id: dru-objasni-mancester
+        vrsta: objasni
+        slika_u_pitanju: true
+        tezina: lako
+        pojmovi: [mancester, grad-pamuka, fabrika]
+        pitanje: Pogledaj sliku Mančestera oko 1820. Šta prvo uočavaš i zašto su ga zvali „Grad pamuka”?
+        uzor: Prvo se vide velike fabrike na više spratova i visoki dimnjaci iz kojih ide dim. U tim fabrikama pravile su se pamučne tkanine, pa je grad dobio ime „Grad pamuka”.
+        ideje:
+          - Velike višespratne fabrike.
+          - Dimnjaci i dim.
+          - Fabrike pamučnih tkanina → „Grad pamuka”.
+        objasnjenje: Slika je izvor koji pokazuje kako je industrija promenila izgled grada.
+        iz_udzbenika: {strana: 31, odeljak: Mančester oko 1820., tekst: "Udžbenik pita šta prvo uočavaš na slici i zašto je Mančester Grad pamuka.", slika: 03-industrijska-revolucija/07-mancester-1820.jpg}
+        osa: {naziv: Mančester — Grad pamuka, od: 1820, traka: drustvo}
+
+      - id: dru-objasni-naselja
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [radnicka-naselja, radnistvo, decji-rad]
+        pitanje: Opiši kako su živeli i radili radnici u doba industrijske revolucije i objasni zašto je bilo tako.
+        uzor: Radnici su radili dugo, bez zaštite na radu, za niske plate, jer su mašine oborile cenu rada; žene i deca su dobijali još manje. Živeli su u prenaseljenim naseljima oko fabrika i rudnika, bez higijene, pa su se širile zarazne bolesti, pothranjenost i alkoholizam.
+        ideje:
+          - Dug rad bez zaštite.
+          - Niske plate; žene i deca još niže.
+          - Prenaseljena naselja bez higijene.
+          - Bolesti, pothranjenost, alkoholizam.
+        objasnjenje: Loši uslovi rada i života objašnjavaju kasnije radničke nemire.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Lekcija opisuje niske plate, dečji rad i bedu u radničkim naseljima.", slika: 03-industrijska-revolucija/09-radnicki-kvart-londona.jpg}
+
+      - id: dru-objasni-posledice
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [industrijska-revolucija, gradjanstvo, radnistvo, zagadjenje-zivotne-sredine]
+        pitanje: Navedi po jednu dobru i jednu lošu posledicu industrijske revolucije i objasni kako su obe proistekle iz mašinske proizvodnje.
+        uzor: Mašine su proizvodile brzo, pa je roba pojeftinila, a saobraćaj se ubrzao — to je dobro za kupce i trgovinu. Ali ista jeftina proizvodnja uništila je zanatlije, oborila plate radnika, dovela decu u fabrike i zagadila prirodu. Bogatstvo je dobio deo građanstva, a radnici su živeli u bedi.
+        ideje:
+          - Dobro — jeftinija roba ili brži saobraćaj.
+          - Loše — propast zanatlija, niske plate, dečji rad, beda ili zagađenje.
+          - Obe posledice dolaze od istog uzroka — mašinske proizvodnje.
+          - Koristi nisu bile jednako raspoređene (građanstvo – radništvo).
+        objasnjenje: Isti uzrok može imati i dobre i loše posledice — zavisi za koga.
+        iz_udzbenika: {strana: 31, odeljak: Društvene promene, tekst: "Lekcija nabraja posledice: jeftiniji proizvodi, rast gradova, bogaćenje građanstva, beda radnika i zagađenje."}
+
+  - naslov: Radnički nemiri i prvi zakoni
+    zadaci:
+      - id: rad-izbor-luditi
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [luditi, ned-lud, radnicki-nemiri]
+        pitanje: Ko su bili luditi?
+        odgovori:
+          - {tekst: "Radnici koji su lomili mašine, sledbenici Neda Luda", tacan: true}
+          - {tekst: "Pronalazači parnih mašina", tacan: false, zasto: "Pronalazači su Vat, Stivenson i Fulton; luditi su mašine uništavali."}
+          - {tekst: "Vlasnici fabrika u Mančesteru", tacan: false, zasto: "Vlasnici su bili na drugoj strani — zakoni su štitili njihove mašine od ludita."}
+          - {tekst: "Robovi na plantažama pamuka", tacan: false, zasto: "Luditi su bili britanski fabrički radnici."}
+        pomoc:
+          - "Ime im dolazi od jednog radnika."
+          - "Šta rade ljudi na ilustraciji iz XIX veka?"
+          - "Iz lekcije: sledbenici Neda Luda, koji su razbijali mašine."
+        objasnjenje: Luditi su radnici, sledbenici Neda Luda, koji su lomili mašine jer su ih krivili za svoj loš položaj.
+        iz_udzbenika: {strana: 32, odeljak: Luditi, tekst: "Luditi su sledbenici Neda Luda; razbijali su mašine koje su krivili za svoje nedaće.", slika: 03-industrijska-revolucija/08-luditi.jpg}
+
+      - id: rad-izbor-ned-lud
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [ned-lud, razboj, luditi]
+        pitanje: Šta je uradio Ned Lud, po kome su luditi dobili ime?
+        odgovori:
+          - {tekst: "U znak protesta je polomio tkački razboj", tacan: true}
+          - {tekst: "Osnovao je prvo radničko udruženje", tacan: false, zasto: "Lekcija ne navodi osnivača udruženja; Ned Lud je poznat po lomljenju razboja."}
+          - {tekst: "Izumeo je leteći čunak", tacan: false, zasto: "Leteći čunak je izumeo Džon Kej."}
+          - {tekst: "Doneo je zakon o radu dece", tacan: false, zasto: "Zakone je donosio britanski parlament; Ned Lud je bio radnik."}
+        pomoc:
+          - "Bio je radnik u tekstilu."
+          - "Njegov čin su ponavljali njegovi sledbenici."
+          - "Iz lekcije: u znak protesta polomio je tkački razboj."
+        objasnjenje: Ned Lud je polomio tkački razboj u znak protesta, a radnici koji su ga sledili nazvani su luditi.
+        iz_udzbenika: {strana: 32, odeljak: Luditi, tekst: "Ned Lud je bio radnik koji je u znak protesta polomio tkački razboj.", slika: 03-industrijska-revolucija/08-luditi.jpg}
+
+      - id: rad-izbor-zakoni-kome
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [britanski-parlament, luditi, fabrika]
+        pitanje: U čiju korist su doneti zakoni koji su lomljenje mašina kažnjavali progonstvom (1721) i smrću (1812)?
+        odgovori:
+          - {tekst: "U korist vlasnika fabrika", tacan: true}
+          - {tekst: "U korist radnika", tacan: false, zasto: "Ovi zakoni su kažnjavali radnike koji lome mašine; zakoni u korist radnika (o radu dece) dolaze kasnije."}
+          - {tekst: "U korist robova", tacan: false, zasto: "Zakoni se odnose na mašine u Britaniji, ne na plantaže."}
+          - {tekst: "U korist zanatlija", tacan: false, zasto: "Zanatlije su propadale zbog fabrika; zakoni su štitili fabričke mašine."}
+        pomoc:
+          - "Čije su bile mašine?"
+          - "Ko je imao korist ako mašine ostanu čitave?"
+          - "Iz lekcije: zakoni su štitili skupe mašine — u korist vlasnika fabrika."
+        objasnjenje: Zakoni su štitili skupe mašine, dakle imovinu vlasnika fabrika — ne radnike.
+        iz_udzbenika: {strana: 32, odeljak: Luditi, tekst: "Parlament je 1721. lomljenje mašina kaznio progonstvom, a 1812. smrću; udžbenik pita u čiju korist.", slika: 03-industrijska-revolucija/08-luditi.jpg}
+
+      - id: rad-izbor-zastita-vise
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [radnicka-udruzenja, britanski-parlament, decji-rad]
+        pitanje: "Šta je tačno o borbi za bolji položaj radnika? (više tačnih)"
+        odgovori:
+          - {tekst: "Početkom XIX veka nastaju prva radnička udruženja", tacan: true}
+          - {tekst: "Britanski parlament donosi zakone u korist radnika, posebno o radu dece", tacan: true}
+          - {tekst: "Slični zakoni donose se i u Francuskoj i Pruskoj", tacan: true}
+          - {tekst: "Ovim zakonima je borba radnika bila završena", tacan: false, zasto: "Lekcija naglašava da je to tek početak borbe za bolji položaj radnika."}
+          - {tekst: "Prvi zakoni u korist radnika doneti su već 1721.", tacan: false, zasto: "Zakon iz 1721. kažnjavao je lomljenje mašina progonstvom — štitio je vlasnike."}
+        pomoc:
+          - "Kada nastaju udruženja i koje države slede Britaniju?"
+          - "Pazi na reč „završena” i na godinu 1721."
+          - "Iz lekcije: udruženja početkom XIX veka; zakoni o radu dece u Britaniji, Francuskoj, Pruskoj; tek početak borbe."
+        objasnjenje: Udruženja i prvi zakoni o radu dece bili su tek početak; zakon iz 1721. je bio protiv radnika koji lome mašine.
+        iz_udzbenika: {strana: 32, odeljak: Društvene promene, tekst: "Početkom XIX veka nastaju radnička udruženja, a parlament donosi zakone u korist radnika, posebno o radu dece; to je tek početak."}
+
+      - id: rad-tn-nemiri
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [radnicki-nemiri]
+        tvrdnja: Prvi radnički nemiri u Engleskoj izbili su već krajem XVIII veka.
+        tacno: true
+        pomoc:
+          - "Nemiri su počeli rano, kad i fabrike."
+          - "Iz lekcije: krajem XVIII veka u Engleskoj."
+        objasnjenje: Tačno — u očajanju, radnici su već krajem XVIII veka lomili mašine.
+        iz_udzbenika: {strana: 32, odeljak: Društvene promene, tekst: "Već krajem XVIII veka u Engleskoj izbijaju prvi radnički nemiri."}
+
+      - id: rad-tn-1812
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [britanski-parlament, luditi]
+        tvrdnja: Zakonom iz 1812. lomljenje mašina kažnjavalo se progonstvom.
+        tacno: false
+        ispravke:
+          - {tekst: "Progonstvo je propisano 1721, a zakonom iz 1812. smrtna kazna.", tacan: true}
+          - {tekst: "Zakonom iz 1812. lomljenje mašina je dozvoljeno.", tacan: false, zasto: "Naprotiv — kazna je postala najstroža, smrtna."}
+          - {tekst: "Zakonom iz 1812. kažnjavali su se vlasnici fabrika.", tacan: false, zasto: "Kažnjavali su se oni koji uništavaju mašine — radnici."}
+        pomoc:
+          - "Kazne su vremenom postajale strože."
+          - "Iz lekcije: 1721 progonstvo, 1812 smrtna kazna."
+        objasnjenje: "Kazna se pooštrila: 1721. progonstvo, 1812. smrt."
+        iz_udzbenika: {strana: 32, odeljak: Luditi, tekst: "Lomljenje mašina je 1721. kažnjavano progonstvom, a od 1812. smrtnom kaznom."}
+        osa: {naziv: "Zakon: smrtna kazna za uništavanje mašina", od: 1812, traka: drustvo}
+
+      - id: rad-tn-kraj
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [radnicka-udruzenja, britanski-parlament, decji-rad]
+        tvrdnja: Prvim zakonima o radu dece položaj radnika je bio potpuno rešen.
+        tacno: false
+        ispravke:
+          - {tekst: "To je bio tek početak borbe za bolji položaj radnika.", tacan: true}
+          - {tekst: "Zakoni o radu dece doneti su samo u Rusiji.", tacan: false, zasto: "Doneli su ih britanski parlament, pa Francuska, Pruska i druge države."}
+          - {tekst: "Zakoni o radu dece su zabranili sve fabrike.", tacan: false, zasto: "Fabrike su nastavile da rade; zakoni su ograničavali rad dece."}
+        pomoc:
+          - "Kakvu reč lekcija koristi za te zakone — kraj ili početak?"
+          - "Iz lekcije: to je tek početak borbe."
+        objasnjenje: Prvi zakoni u korist radnika bili su samo prvi korak duge borbe.
+        iz_udzbenika: {strana: 32, odeljak: Društvene promene, tekst: "Zakoni o radu dece bili su tek početak borbe za bolji položaj radnika."}
+
+      - id: rad-dopuni-zakoni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [britanski-parlament, luditi]
+        pitanje: Dopuni rečenice.
+        tekst: "Britanski parlament je {{1721}}. proglasio lomljenje mašina zločinom kažnjivim {{progonstvom}}, a zakonom iz {{1812}}. propisana je {{smrtna kazna}}."
+        ponudjene: ["1721", "1812", "1769", progonstvom, smrtna kazna, novčanom kaznom]
+        pomoc:
+          - "Starija kazna je blaža."
+          - "Iz lekcije: 1721 — progonstvo; 1812 — smrtna kazna."
+        objasnjenje: Kazne su se pooštravale kako se lomljenje mašina širilo.
+        iz_udzbenika: {strana: 32, odeljak: Luditi, tekst: "Zakon iz 1721. propisuje progonstvo, a zakon iz 1812. smrtnu kaznu za uništavanje mašina.", slika: 03-industrijska-revolucija/08-luditi.jpg}
+
+      - id: rad-dopuni-udruzenja
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [radnicka-udruzenja, britanski-parlament, decji-rad]
+        pitanje: Dopuni rečenicu (bez ponuđenih reči).
+        tekst: "Početkom {{XIX|19.|19}} veka nastaju prva radnička {{udruženja}}, a britanski {{parlament}} počinje da donosi zakone u korist radnika, posebno o radu {{dece}}."
+        pomoc:
+          - "Vek posle kraja XVIII."
+          - "Ko u Britaniji donosi zakone?"
+          - "Iz lekcije: početak XIX veka, radnička udruženja, parlament, rad dece."
+        objasnjenje: Radnici se organizuju, a država počinje da ih štiti — najpre decu.
+        iz_udzbenika: {strana: 32, odeljak: Društvene promene, tekst: "Početkom XIX veka nastaju radnička udruženja, a parlament donosi zakone o radu dece."}
+
+      - id: rad-datum-1721
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [britanski-parlament, luditi]
+        dogadjaj: "Zakon: progonstvo za lomljenje mašina"
+        pitanje: Koje godine je britanski parlament proglasio lomljenje mašina zločinom kažnjivim progonstvom?
+        godina: 1721
+        traka: drustvo
+        pomoc:
+          - "Prilično rano — pre Vatove mašine."
+          - "Treća decenija XVIII veka."
+          - "Iz lekcije: 1721."
+        objasnjenje: 1721 — prvi zakon o lomljenju mašina, mnogo pre Vata (1769).
+        iz_udzbenika: {strana: 32, odeljak: Luditi, tekst: "Parlament je 1721. lomljenje mašina proglasio zločinom kažnjivim progonstvom."}
+
+      - id: rad-datum-1812
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [britanski-parlament, luditi]
+        dogadjaj: "Zakon: smrtna kazna za uništavanje mašina"
+        pitanje: Koje godine je propisana smrtna kazna za uništavanje mašina?
+        godina: 1812
+        traka: drustvo
+        pomoc:
+          - "Početak XIX veka, druga decenija."
+          - "Dve godine pre Stivensonove lokomotive (1814)."
+          - "Iz lekcije: 1812."
+        objasnjenje: 1812 — kazna se pooštrava do smrtne.
+        iz_udzbenika: {strana: 32, odeljak: Luditi, tekst: "Zakonom iz 1812. propisana je smrtna kazna za uništavanje mašina."}
+
+      - id: rad-poredjaj-zakoni
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [britanski-parlament, parna-masina, luditi, mancester]
+        pitanje: Poređaj događaje hronološki, od najranijeg.
+        stavke:
+          - {tekst: "Lomljenje mašina kažnjava se progonstvom", godina: 1721, naziv: "Zakon: progonstvo za lomljenje mašina", traka: drustvo}
+          - {tekst: "Vat pravi štedljivu parnu mašinu", godina: 1769, naziv: Vatova parna mašina, traka: pronalasci}
+          - {tekst: "Za uništavanje mašina propisana je smrtna kazna", godina: 1812, naziv: "Zakon: smrtna kazna za uništavanje mašina", traka: drustvo}
+          - {tekst: "Mančester je „Grad pamuka” sa slike", godina: 1820, naziv: Mančester — Grad pamuka, traka: drustvo}
+        pomoc:
+          - "Jedan zakon je stariji čak i od Vatove mašine."
+          - "Kazne postaju strože kako ima više fabrika."
+          - "Iz lekcije: 1721, 1769, 1812, oko 1820."
+        objasnjenje: 1721 (progonstvo) → 1769 (Vat) → 1812 (smrtna kazna) → oko 1820 (Mančester).
+        iz_udzbenika: {strana: 32, odeljak: Luditi, tekst: "Zakoni o lomljenju mašina doneti su 1721. i 1812."}
+
+      - id: rad-poredjaj-mesano
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [industrijska-revolucija, parobrod, jedrenjaci, luditi]
+        pitanje: Poređaj događaje iz cele lekcije hronološki, od najranijeg.
+        stavke:
+          - {tekst: "Lomljenje mašina kažnjava se progonstvom", godina: 1721, naziv: "Zakon: progonstvo za lomljenje mašina", traka: drustvo}
+          - {tekst: "Mašine počinju da zamenjuju ljudsku ruku", godina: 1750, do: 1800, naziv: Mašine zamenjuju ljudsku ruku, traka: pronalasci}
+          - {tekst: "Klermont plovi redovnom linijom", godina: 1807, naziv: Fultonov parobrod Klermont, traka: saobracaj}
+          - {tekst: "Uvedena je smrtna kazna za uništavanje mašina", godina: 1812, naziv: "Zakon: smrtna kazna za uništavanje mašina", traka: drustvo}
+          - {tekst: "Raketa postiže 48 km/h na otvaranju pruge", godina: 1830, naziv: Otvaranje pruge Mančester–Liverpul, traka: saobracaj}
+          - {tekst: "Parobrodi potiskuju jedrenjake", godina: 1850, naziv: Parobrodi potiskuju jedrenjake, traka: saobracaj}
+        pomoc:
+          - "Jedan zakon prethodi celoj mašinskoj eri."
+          - "Klermont je pre smrtne kazne; jedrenjaci nestaju tek sredinom XIX veka."
+          - "Iz lekcije: 1721, druga polovina XVIII veka, 1807, 1812, 1830, sredina XIX veka."
+        objasnjenje: 1721 → druga polovina XVIII veka → 1807 → 1812 → 1830 → sredina XIX veka.
+        iz_udzbenika: {strana: 28, odeljak: Cela lekcija, tekst: "Lekcija obuhvata vreme od prvih zakona o mašinama do sredine XIX veka."}
+
+      - id: rad-lanac-luditi
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [luditi, radnicki-nemiri, britanski-parlament]
+        karike:
+          - Radnici žive u bedi i krive mašine za svoj loš položaj
+          - Radnici u očajanju lome fabričke mašine
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Parlament donosi stroge zakone — sve do smrtne kazne za uništavanje mašina", tacan: true}
+          - {tekst: "Vlasnici povećavaju plate i skraćuju radno vreme", tacan: false, zasto: "Lekcija ne kaže da su vlasnici popustili; država je odgovorila kaznama."}
+          - {tekst: "Fabrike se vraćaju ručnom radu", tacan: false, zasto: "Mašine su ostale — zakoni su ih štitili."}
+          - {tekst: "Ukida se dečji rad", tacan: false, zasto: "Zakoni o radu dece dolaze kasnije, kao rezultat rada udruženja, a ne kao odgovor na lomljenje."}
+        pomoc:
+          - "Korak 1: Ko je posedovao mašine koje su lomljene?"
+          - "Korak 2: Kako je država zaštitila tu imovinu?"
+          - "Iz lekcije: 1721 progonstvo, 1812 smrtna kazna — u korist vlasnika fabrika."
+        objasnjenje: Lomljenje mašina nije popravilo položaj radnika — država je stala na stranu vlasnika strogim kaznama.
+        iz_udzbenika: {strana: 32, odeljak: Luditi, tekst: "Radnici su krivili mašine i razbijali ih; parlament je propisao progonstvo, pa smrtnu kaznu.", slika: 03-industrijska-revolucija/08-luditi.jpg}
+        osa: {naziv: "Zakon: smrtna kazna za uništavanje mašina", od: 1812, traka: drustvo}
+
+      - id: rad-lanac-udruzenja
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [radnicka-udruzenja, britanski-parlament, decji-rad]
+        karike:
+          - Radnici imaju niske plate, a deca rade dugo i bez zaštite
+          - "?"
+          - Britanski parlament donosi zakone o radu dece
+          - Slične zakone donose Francuska i Pruska
+        praznina: 1
+        odgovori:
+          - {tekst: "Početkom XIX veka radnici osnivaju udruženja koja traže bolji položaj", tacan: true}
+          - {tekst: "Radnici se vraćaju na selo", tacan: false, zasto: "Lekcija opisuje suprotan tok — sa sela u grad; promena dolazi kroz udruženja."}
+          - {tekst: "Vlasnici zatvaraju fabrike", tacan: false, zasto: "Fabrike rade dalje; menjaju se zakoni o radu."}
+          - {tekst: "Ukida se ropstvo na plantažama", tacan: false, zasto: "Lekcija ne povezuje zakone o radu dece sa ropstvom."}
+        pomoc:
+          - "Korak 1: Lomljenje mašina nije pomoglo — šta su radnici sledeće pokušali?"
+          - "Korak 2: Ko je posle toga počeo da donosi zakone u korist radnika?"
+          - "Iz lekcije: radnička udruženja → zakoni u Britaniji, Francuskoj, Pruskoj."
+        objasnjenje: Organizovan zahtev (udruženja) doneo je više od lomljenja — prve zakone u korist radnika.
+        iz_udzbenika: {strana: 32, odeljak: Društvene promene, tekst: "Radnička udruženja traže bolji položaj, a parlament i druge države donose zakone o radu dece."}
+
+      - id: rad-zakljuci-lomljenje
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [luditi, radnicki-nemiri, fabrika]
+        pitanje: Zašto su radnici lomili baš mašine, a ne nešto drugo?
+        odgovori:
+          - {tekst: "Krivili su mašine za niske plate i gubitak posla, jer je rad mašina oborio cenu ljudskog rada", tacan: true}
+          - {tekst: "Mašine su bile stare i nisu radile", tacan: false, zasto: "Mašine su radile i bile skupe — zato su ih zakoni i štitili."}
+          - {tekst: "Vlasnici su im to naredili", tacan: false, zasto: "Vlasnici su bili protiv toga; zakoni u njihovu korist kažnjavali su lomljenje."}
+          - {tekst: "Hteli su da od delova naprave sopstvene mašine", tacan: false, zasto: "Lekcija kaže da su lomili u očajanju, iz protesta."}
+        pomoc:
+          - "Korak 1: Šta su mašine promenile u ceni rada?"
+          - "Korak 2: Koga su radnici videli kao krivca za svoju bedu?"
+          - "Korak 3: Iz lekcije: radnici su razvoj tehnologije često krivili za svoje nedaće."
+        objasnjenje: Mašine su bile vidljiv „krivac” — rad je zbog njih postao jeftin, pa su ih radnici u očajanju uništavali.
+        iz_udzbenika: {strana: 32, odeljak: Luditi, tekst: "Radnici su razvoj tehnologije često krivili za svoje nedaće, pa su razbijali mašine.", slika: 03-industrijska-revolucija/08-luditi.jpg}
+
+      - id: rad-zakljuci-strogi
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [britanski-parlament, luditi, fabrika]
+        pitanje: Šta pooštravanje kazne sa progonstva (1721) na smrtnu kaznu (1812) govori o tom vremenu?
+        odgovori:
+          - {tekst: "Mašina je bilo sve više, a lomljenje se širilo, pa je država još jače štitila vlasnike", tacan: true}
+          - {tekst: "Radnici su dobili više prava nego ranije", tacan: false, zasto: "Strože kazne za radnike ne znače više prava; prava su došla kasnije kroz udruženja."}
+          - {tekst: "Mašine su postale manje važne", tacan: false, zasto: "Da su bile manje važne, ne bi ih štitili smrtnom kaznom."}
+          - {tekst: "Lomljenje mašina je potpuno prestalo posle 1721.", tacan: false, zasto: "Da je prestalo, ne bi trebao stroži zakon 1812 — ludita je bilo i u XIX veku."}
+        pomoc:
+          - "Korak 1: Zašto bi neko pooštrio kaznu — ako problem nestaje ili ako raste?"
+          - "Korak 2: Koliko je mašina bilo 1721, a koliko 1812?"
+          - "Iz lekcije: zakoni su štitili skupe mašine, u korist vlasnika fabrika."
+        objasnjenje: Što je mašina bilo više i što su bile vrednije, to je država oštrije kažnjavala njihovo uništavanje.
+        iz_udzbenika: {strana: 32, odeljak: Luditi, tekst: "Udžbenik pita zašto su uvedene ovako stroge mere i u čiju korist su donete.", slika: 03-industrijska-revolucija/08-luditi.jpg}
+        osa: {naziv: "Zakon: smrtna kazna za uništavanje mašina", od: 1812, traka: drustvo}
+
+      - id: rad-izvor-svedocanstvo
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [radnistvo, gradjanstvo]
+        izvor:
+          autor: Britanski list
+          naslov: Članak s početka četvrte decenije XIX veka
+          tekst: Bez rada nema bogatstva. Radnik proizvodi hranu, gradi kuće, skladišta i palate, prede i tka — pa ipak ostaje siromašan i gladan. A bogati su oni koji ništa ne rade i imaju svega u izobilju.
+          napomena: Odlomak je prepričan; udžbenik, str. 32 (Svedočanstvo).
+        pitanje: Kakav je stav autora prema radnicima, a kakav prema bogatima?
+        odgovori:
+          - {tekst: "Saoseća sa radnicima, a kritikuje bogate koji ne rade", tacan: true}
+          - {tekst: "Hvali vlasnike fabrika kao vredne ljude", tacan: false, zasto: "Autor bogate opisuje kao one koji ne rade — to je kritika, ne pohvala."}
+          - {tekst: "Smatra da su radnici sami krivi za siromaštvo", tacan: false, zasto: "Autor kaže da radnici stvaraju sve bogatstvo, a ipak su gladni — krivi su nepravedni odnosi."}
+          - {tekst: "Nema nikakav stav, samo nabraja zanimanja", tacan: false, zasto: "Nabrajanje služi da pokaže koliko radnik stvara — stav je jasno na strani radnika."}
+        pomoc:
+          - "Ko u odlomku stvara bogatstvo?"
+          - "Ko ga uživa, a ne radi?"
+          - "Iz lekcije: autor je kritičan prema vlasnicima, saosećajan prema radnicima."
+        objasnjenje: Autor vidi radnika kao izvor svakog bogatstva i osuđuje to što bogati ne rade a imaju sve.
+        iz_udzbenika: {strana: 32, odeljak: Svedočanstvo, tekst: "Udžbenik donosi odlomak iz britanskog lista iz 1830-ih o radnicima i bogatima i pita kakav je stav autora."}
+
+      - id: rad-izvor-svedocanstvo-pristrasnost
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [radnistvo, gradjanstvo, burzoazija]
+        izvor:
+          autor: Britanski list
+          naslov: Članak s početka četvrte decenije XIX veka
+          tekst: Bez rada nema bogatstva. Radnik proizvodi hranu, gradi kuće, skladišta i palate, prede i tka — pa ipak ostaje siromašan i gladan. A bogati su oni koji ništa ne rade i imaju svega u izobilju.
+          napomena: Odlomak je prepričan; udžbenik, str. 32 (Svedočanstvo).
+        pitanje: Šta istoričar može da zaključi iz ovog izvora, a da ne pogreši?
+        odgovori:
+          - {tekst: "Da su već 1830-ih neki ljudi javno kritikovali položaj radnika i bogatstvo vlasnika", tacan: true}
+          - {tekst: "Da baš nijedan vlasnik fabrike nikada nije radio", tacan: false, zasto: "Izvor iznosi stav jednog lista; ne može da dokaže tvrdnju o svakom vlasniku."}
+          - {tekst: "Da su svi Britanci tada mislili isto što i autor", tacan: false, zasto: "Jedan članak pokazuje mišljenje autora i lista, ne celog naroda; vlasnici bi verovatno pisali drugačije."}
+          - {tekst: "Da je list napisao sam vlasnik fabrike", tacan: false, zasto: "Ton je kritičan prema bogatima — malo je verovatno, a izvor to ne kaže."}
+        pomoc:
+          - "Novinski članak iznosi nečiji stav — da li je to isto što i činjenica o svima?"
+          - "Šta sigurno znamo: da je neko to napisao i objavio."
+          - "Iz lekcije: autor je kritičan prema vlasnicima, a saosećajan prema radnicima."
+        objasnjenje: Izvor sigurno pokazuje da je kritika postojala i kakav je bio stav autora; o svim vlasnicima i svim Britancima ne govori.
+        iz_udzbenika: {strana: 32, odeljak: Svedočanstvo, tekst: "Odlomak iz britanskog lista iz 1830-ih kritikuje bogate i brani radnike."}
+
+      - id: rad-izvor-luditi
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [luditi, ned-lud, razboj]
+        izvor:
+          autor: Ilustracija iz XIX veka
+          naslov: Luditi razbijaju mašinu u tekstilnoj fabrici
+          tekst: Dvojica radnika čekićima udaraju po velikom tkačkom razboju u fabrici. Uz sliku stoji da su luditi sledbenici Neda Luda i da je parlament za lomljenje mašina propisao progonstvo (1721), pa smrtnu kaznu (1812).
+          napomena: Opis slike i natpisa je prepričan; udžbenik, str. 32.
+        pitanje: Zašto su, prema natpisu, radnici razbijali mašine?
+        odgovori:
+          - {tekst: "Krivili su razvoj tehnologije za svoje nedaće", tacan: true}
+          - {tekst: "Mašine su bile pokvarene i trebalo ih je baciti", tacan: false, zasto: "Natpis govori o protestu, ne o kvaru."}
+          - {tekst: "Hteli su da pomognu vlasnicima", tacan: false, zasto: "Lomljenje je štetilo vlasnicima — zato su zakoni bili u njihovu korist."}
+          - {tekst: "Zato što je zakon iz 1812. to dozvoljavao", tacan: false, zasto: "Zakon iz 1812. je za to propisao smrtnu kaznu."}
+        pomoc:
+          - "Šta su radnici mislili o mašinama?"
+          - "Bio je to protest."
+          - "Iz lekcije: radnici su razvoj tehnologije krivili za svoje nedaće."
+        objasnjenje: Ilustracija i natpis pokazuju protest — radnici su u mašinama videli krivca za svoju bedu.
+        iz_udzbenika: {strana: 32, odeljak: Luditi, tekst: "Ilustracija iz XIX veka prikazuje ludite kako razbijaju mašinu u tekstilnoj fabrici.", slika: 03-industrijska-revolucija/08-luditi.jpg}
+
+      - id: rad-uporedi-zakoni
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [britanski-parlament, luditi, decji-rad]
+        a: Zakoni o lomljenju mašina (1721, 1812)
+        b: Zakoni o radu dece (XIX vek)
+        pitanje: Na koje zakone se odnosi tvrdnja — A, B, obe ili nijedne?
+        tvrdnje:
+          - {tekst: "Doneti su u korist vlasnika fabrika.", odgovor: a, zasto: "Štitili su skupe mašine — imovinu vlasnika."}
+          - {tekst: "Doneti su u korist radnika.", odgovor: b, zasto: "Zakoni o radu dece prvi su zakoni u korist radnika."}
+          - {tekst: "Doneo ih je britanski parlament.", odgovor: oba, zasto: "I jedne i druge je donosio britanski parlament."}
+          - {tekst: "Doneti su i u Francuskoj i Pruskoj.", odgovor: b, zasto: "Lekcija kaže da su Francuska i Pruska sledile Britaniju u zakonima u korist radnika."}
+          - {tekst: "Ukinuli su fabrike na paru.", odgovor: nijedan, zasto: "Nijedan zakon nije ukinuo fabrike."}
+        pomoc:
+          - "Ko je imao koristi od jednih, a ko od drugih?"
+          - "Ko ih je donosio?"
+          - "Iz lekcije: kazne za lomljenje štite vlasnike; zakoni o radu dece štite radnike."
+        objasnjenje: Isti parlament je prvo štitio mašine od radnika, a kasnije, pod pritiskom udruženja, i radnike — pre svega decu.
+        iz_udzbenika: {strana: 32, odeljak: Luditi; Društvene promene, tekst: "Parlament je kažnjavao lomljenje mašina, a početkom XIX veka počinje da donosi zakone u korist radnika."}
+
+      - id: rad-uporedi-radnik-vlasnik
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [radnistvo, gradjanstvo, burzoazija]
+        a: Radnik
+        b: Vlasnik fabrike
+        pitanje: Na koga se odnosi tvrdnja — radnika, vlasnika, obojicu ili nijednog?
+        tvrdnje:
+          - {tekst: "Prema članku iz 1830-ih, proizvodi hranu, gradi kuće i palate, a ostaje gladan.", odgovor: a, zasto: "Autor članka radnika vidi kao izvor bogatstva koji ostaje siromašan."}
+          - {tekst: "Zakoni iz 1721. i 1812. štitili su njegovu imovinu.", odgovor: b, zasto: "Zakoni o lomljenju mašina doneti su u korist vlasnika fabrika."}
+          - {tekst: "Njegov život je iz osnova promenila industrijska revolucija.", odgovor: oba, zasto: "Vlasnik se obogatio, radnik je postao deo nove klase — promena je zahvatila obojicu."}
+          - {tekst: "Mogao je biti kažnjen smrću ako uništi mašinu.", odgovor: a, zasto: "Zakon iz 1812. bio je usmeren protiv radnika koji lome mašine."}
+          - {tekst: "Gajio je pamuk na plantaži u koloniji.", odgovor: nijedan, zasto: "Pamuk su na plantažama gajili crni robovi."}
+        pomoc:
+          - "Ko je bogat, a ko radi i ostaje gladan?"
+          - "Protiv koga su bili zakoni o lomljenju?"
+          - "Iz lekcije: građanstvo se bogati; radnici rade dugo za niske plate."
+        objasnjenje: Radnik i vlasnik su dve strane iste fabrike — jedan stvara, drugi poseduje; zakoni su prvo štitili vlasnika.
+        iz_udzbenika: {strana: 32, odeljak: Svedočanstvo; Luditi, tekst: "Lekcija suprotstavlja bogate vlasnike i siromašne radnike i pokazuje zakone u korist vlasnika."}
+
+      - id: rad-ko-sam-ned-lud
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [ned-lud, luditi, razboj]
+        tragovi:
+          - Bio sam običan radnik, a ne pronalazač ni vladar.
+          - Moji sledbenici su razbijali mašine u fabrikama.
+          - U znak protesta polomio sam tkački razboj, a po meni su nazvani luditi.
+        odgovori:
+          - {tekst: "Ned Lud", tacan: true}
+          - {tekst: "Džon Kej", tacan: false, zasto: "Kej je izumeo leteći čunak — on je tkanje unapredio, a ne razbijao razboje."}
+          - {tekst: "Džordž Stivenson", tacan: false, zasto: "Stivenson je pronalazač lokomotive."}
+          - {tekst: "Robert Fulton", tacan: false, zasto: "Fulton je pronalazač parobroda."}
+        objasnjenje: To je Ned Lud — radnik koji je polomio razboj; njegovi sledbenici su luditi.
+        iz_udzbenika: {strana: 32, odeljak: Luditi, tekst: "Luditi su sledbenici Neda Luda, radnika koji je u znak protesta polomio tkački razboj.", slika: 03-industrijska-revolucija/08-luditi.jpg}
+
+      - id: rad-objasni-luditi
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [luditi, britanski-parlament, radnicki-nemiri]
+        pitanje: Zašto su luditi lomili mašine i kako je država na to odgovorila? Objasni svojim rečima.
+        uzor: Radnici su živeli u bedi i krivili su mašine za niske plate i gubitak posla, pa su ih u očajanju lomili. Država je stala na stranu vlasnika fabrika — parlament je 1721. lomljenje kaznio progonstvom, a 1812. smrtnom kaznom, da zaštiti skupe mašine.
+        ideje:
+          - Radnici su krivili mašine za svoj loš položaj.
+          - Lomljenje je bilo čin očajanja i protesta.
+          - Parlament je propisao progonstvo (1721) i smrtnu kaznu (1812).
+          - Zakoni su bili u korist vlasnika fabrika.
+        objasnjenje: Prvi odgovor države na radničke nemire bila je kazna, ne pomoć.
+        iz_udzbenika: {strana: 32, odeljak: Luditi, tekst: "Luditi razbijaju mašine; zakoni iz 1721. i 1812. ih strogo kažnjavaju.", slika: 03-industrijska-revolucija/08-luditi.jpg}
+
+      - id: rad-objasni-svedocanstvo
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [radnistvo, gradjanstvo, burzoazija]
+        pitanje: Članak iz 1830-ih staje na stranu radnika. Kako bi isti događaj verovatno opisao vlasnik fabrike i šta to govori o čitanju istorijskih izvora?
+        uzor: Vlasnik bi verovatno istakao da je uložio novac u fabriku i mašine, da daje posao ljudima sa sela i da su proizvodi postali jeftiniji. Članak i vlasnik bi isti svet videli različito, jer svako piše iz svog ugla. Zato izvor treba čitati pitajući se ko ga je napisao i kome je bio namenjen, i porediti ga sa drugim izvorima.
+        ideje:
+          - Vlasnik bi naglasio svoje ulaganje, posao koji daje ili jeftiniju robu.
+          - Svaki izvor ima svoj ugao gledanja.
+          - Treba se pitati ko je autor i kakav mu je stav.
+          - Izvore treba porediti.
+        objasnjenje: Jedan izvor pokazuje jedan pogled; istoričar sluša više strana.
+        iz_udzbenika: {strana: 32, odeljak: Svedočanstvo, tekst: "Udžbenik pita kakav je odnos autora članka prema vlasnicima fabrika i prema radnicima."}

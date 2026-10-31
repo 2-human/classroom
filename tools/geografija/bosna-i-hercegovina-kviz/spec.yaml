@@ -7,7 +7,7 @@ title_short: Bosna i Hercegovina
 locale: sr
 nivo: osnovna
 razred: 7
-lekcije: [6]
+banka_lekcije: [6]
 description: >-
   Kviz za lekciju Bosna i Hercegovina: položaj, reljef i reke, entiteti i narodi, privreda i gradovi —
   činjenice, tačno/netačno sa ispravkom, dopunjavanje, povezivanje, zaključivanje i karta (klikni, „Gde sam?”).
@@ -52,58 +52,3 @@ sastav:
   ucenje: 20
   test: 15
   odnos: [40, 40, 20]
-
-pojmovi:
-  bosna-i-hercegovina: Bosna i Hercegovina
-  balkansko-poluostrvo: Balkansko poluostrvo
-  kontinentalna-zemlja: kontinentalna zemlja
-  jadransko-more: Jadransko more
-  neum: Neum
-  dinarske-planine: Dinarske planine (Dinaridi)
-  maglic: Maglić
-  volujak: Volujak
-  jahorina: Jahorina
-  sava: Sava
-  drina: Drina
-  una: Una
-  vrbas: Vrbas
-  bosna-reka: reka Bosna
-  neretva: Neretva
-  sfrj: SFRJ
-  gradjanski-rat: građanski rat
-  dejtonski-sporazum: Dejtonski sporazum
-  entitet: entitet
-  federacija-bih: Federacija BiH
-  republika-srpska: Republika Srpska
-  brcko-distrikt: Brčko distrikt
-  bosnjaci: Bošnjaci
-  srbi: Srbi
-  hrvati: Hrvati
-  islam: islam
-  pravoslavlje: pravoslavlje
-  sarajevo: Sarajevo
-  zenica: Zenica
-  tuzla: Tuzla
-  mostar: Mostar
-  bihac: Bihać
-  banja-luka: Banja Luka
-  bijeljina: Bijeljina
-  doboj: Doboj
-  trebinje: Trebinje
-  zvornik: Zvornik
-  visegrad: Višegrad
-  bascarsija: Baščaršija
-  most-mehmed-pase-sokolovica: most Mehmed-paše Sokolovića
-  izmenjenosredozemna-klima: izmenjenosredozemna klima
-  poljoprivreda: poljoprivreda
-  vinova-loza: vinova loza
-  duvan: duvan
-  agrumi: agrumi
-  stocarstvo: stočarstvo
-  sumarstvo: šumarstvo
-  industrija: industrija
-  turizam: turizam
-  srbija: Srbija
-
-# Zadaci (banka): banka.yaml — delovi lekcije, svaki zadatak sa težinom (lako/srednje/tesko).
-banka: banka.yaml

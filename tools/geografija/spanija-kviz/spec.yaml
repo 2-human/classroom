@@ -7,7 +7,7 @@ title_short: Španija
 locale: sr
 nivo: osnovna
 razred: 7
-lekcije: [11]
+banka_lekcije: [11]
 description: >-
   Kviz za lekciju Kraljevina Španija: položaj, reljef, klima i reke, stanovništvo, privreda i
   ukrštenica „Ponovi”, uz zadatke na karti (klikni mesto, „Gde sam?”). Posle svake greške u fioci
@@ -63,64 +63,3 @@ sastav:
   ucenje: 20
   test: 15
   odnos: [40, 40, 20]
-
-pojmovi:
-  spanija: Španija
-  pirinejsko-poluostrvo: Pirinejsko poluostrvo
-  pirineji: Pirineji
-  mezeta: Mezeta
-  andaluzija: Andaluzija
-  aragonija: Aragonija
-  gvadalkivir: Gvadalkivir
-  gvadijana: Gvadijana
-  taho: Taho (Težo)
-  duero: Duero
-  ebro: Ebro
-  kantabrijske-planine: Kantabrijske planine
-  iberijske-planine: Iberijske planine
-  kastiljske-planine: Kastiljske planine
-  sijera-morena: Sijera Morena
-  betijske-planine: Betijske planine
-  biskajski-zaliv: Biskajski zaliv
-  balearska-ostrva: Balearska ostrva
-  ibica: Ibica
-  majorka: Majorka
-  menorka: Menorka
-  kanarska-ostrva: Kanarska ostrva
-  seuta: Seuta
-  melilja: Melilja
-  maroko: Maroko
-  gibraltarski-moreuz: Gibraltarski moreuz
-  atlantski-okean: Atlantski okean
-  sredozemno-more: Sredozemno more
-  transkontinentalna-zemlja: transkontinentalna zemlja
-  eksklava: eksklava
-  atlantska-klima: atlantska (okeanska) klima
-  zelena-spanija: „zelena Španija”
-  kontinentalna-klima: kontinentalna klima
-  sredozemna-klima: sredozemna klima
-  planinska-klima: planinska klima
-  stepa: stepa
-  makija: makija
-  madrid: Madrid
-  barselona: Barselona
-  valensija: Valensija
-  sevilja: Sevilja
-  saragosa: Saragosa
-  malaga: Malaga
-  katalonski-jezik: katalonski jezik
-  galicijski-jezik: galicijski jezik
-  baskijski-jezik: baskijski jezik
-  imigracija: imigracija
-  hrast-plutnjak: hrast plutnjak
-  seat: Seat
-  flamenko: flamenko
-  korida: korida
-  sagrada-familija: Sagrada familija
-  park-gvelj: Park Gvelj
-  romani: romanski narodi
-  katolicanstvo: katoličanstvo
-  portugalija: Portugalija
-
-# Zadaci (banka): banka.yaml — zadaci u 6 delova, svaki sa težinom (lako/srednje/tesko).
-banka: banka.yaml

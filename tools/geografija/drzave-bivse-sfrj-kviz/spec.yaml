@@ -8,7 +8,7 @@ title_short: Države bivše SFRJ
 locale: sr
 nivo: osnovna
 razred: 7
-lekcije: [3]
+banka_lekcije: [3]
 description: >-
   Kviz za lekciju Države bivše SFRJ: šest republika, redosled raspada 1991–2006, referendum u
   Crnoj Gori, glavni gradovi i snalaženje na karti (klikni državu, „Gde sam?”).
@@ -49,24 +49,3 @@ sastav:
   ucenje: 15
   test: 10
   odnos: [40, 40, 20]
-
-pojmovi:
-  sfrj: SFRJ
-  referendum: referendum
-  srbija: Srbija
-  crna-gora: Crna Gora
-  bosna-i-hercegovina: Bosna i Hercegovina
-  hrvatska: Hrvatska
-  slovenija: Slovenija
-  severna-makedonija: Severna Makedonija
-  juzna-evropa: Južna Evropa
-  balkansko-poluostrvo: Balkansko poluostrvo
-  beograd: Beograd
-  ljubljana: Ljubljana
-  zagreb: Zagreb
-  sarajevo: Sarajevo
-  podgorica: Podgorica
-  skoplje: Skoplje
-
-# Zadaci (banka): banka.yaml — 5 delova, svaki zadatak sa težinom (lako/srednje/tesko).
-banka: banka.yaml

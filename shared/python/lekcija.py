@@ -238,10 +238,11 @@ function bindLesson(root) {
 """
 
 
-def lesson_body(root, note_file, note=None):
+def lesson_body(root, note_file, note=None, extra=None):
     """The lesson's body HTML: the page scans in order with the notes under their page (book sections
     with pages in their heading), the crops in "Slike i karte". Anchors #str-N and #o-{section}.
-    Embeds the images (data URIs): for protected pages only."""
+    Embeds the images (data URIs): for protected pages only. `extra`: {section id: HTML} shown beside
+    the section's heading (the lesson page's "pitanja iz banke")."""
     from lesson_quiz import _data_uri
     esc = _html.escape
     note_file = pathlib.Path(note_file)
@@ -276,7 +277,8 @@ def lesson_body(root, note_file, note=None):
         st = s["strane"]
         tag = f'<span class="str">str. {st[0]}{"–" + str(st[1]) if st[1] != st[0] else ""}</span>' if st and s["level"] == 2 else ""
         h = "h2" if s["level"] == 2 else "h3"
-        return f'<section class="l{s["level"]}" id="{s["id"]}"><{h}>{esc(s["naslov"])}{tag}</{h}>{body}</section>'
+        more = (extra or {}).get(s["id"], "")
+        return f'<section class="l{s["level"]}" id="{s["id"]}"><{h}>{esc(s["naslov"])}{tag}{more}</{h}>{body}</section>'
 
     secs = note["sections"]
     paged = any(s["strane"] for s in secs)

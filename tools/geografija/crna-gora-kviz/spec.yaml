@@ -7,7 +7,7 @@ title_short: Crna Gora
 locale: sr
 nivo: osnovna
 razred: 7
-lekcije: [5]
+banka_lekcije: [5]
 description: >-
   Kviz za lekciju Republika Crna Gora: položaj i nastanak države, obala, reljef, vode, stanovništvo
   i privreda — sa kartom (klikni državu ili mesto, „Gde sam?”). Posle svake greške u fioci desno
@@ -52,52 +52,3 @@ sastav:
   ucenje: 20
   test: 15
   odnos: [40, 40, 20]
-
-pojmovi:
-  crna-gora: Crna Gora
-  balkansko-poluostrvo: Balkansko poluostrvo
-  referendum: referendum
-  podgorica: Podgorica
-  jadransko-more: Jadransko more
-  bokokotorski-zaliv: Bokokotorski zaliv
-  lustica: Luštica
-  sveti-stefan: Sveti Stefan
-  tombolo: tombolo (prevlaka)
-  durmitor: Durmitor
-  prokletije: Prokletije
-  sinjajevina: Sinjajevina
-  bjelasica: Bjelasica
-  orjen: Orjen
-  lovcen: Lovćen
-  rumija: Rumija
-  zeta: Zeta
-  moraca: Morača
-  bjelopavlicka-ravnica: Bjelopavlićka ravnica
-  zetska-nizija: Zetska nizija
-  lednicka-jezera: lednička jezera
-  crno-jezero: Crno jezero
-  jezerouzina: jezerouzina
-  tara: Tara
-  kanjon-tare: kanjon Tare
-  most-na-djurdjevica-tari: most na Đurđevića Tari
-  bojana: Bojana
-  skadarsko-jezero: Skadarsko jezero
-  ada-bojana: Ada Bojana
-  ada: ada (rečno ostrvo)
-  risan: Risan
-  nacionalni-park: nacionalni park
-  crnogorci: Crnogorci
-  bosnjaci: Bošnjaci
-  albanci: Albanci
-  ribolov: ribolov
-  duvan: duvan
-  masline: masline
-  vinova-loza: vinova loza
-  agrumi: agrumi
-  stocarstvo: stočarstvo
-  sumarstvo: šumarstvo
-  turizam: turizam
-  dinarske-planine: Dinarske planine
-
-# Zadaci (banka): banka.yaml — delovi po glavnim naslovima lekcije, svaki zadatak sa težinom.
-banka: banka.yaml

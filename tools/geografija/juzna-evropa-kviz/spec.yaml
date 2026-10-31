@@ -7,7 +7,7 @@ title_short: Južna Evropa
 locale: sr
 nivo: osnovna
 razred: 7
-lekcije: [2]
+banka_lekcije: [2]
 description: >-
   Kviz za lekciju Južna Evropa: činjenice, tačno/netačno sa ispravkom, dopunjavanje, povezivanje,
   zaključivanje i karta (klikni državu, „Gde sam?”). Posle svake greške u fioci desno stiže sledeći
@@ -86,55 +86,3 @@ sastav:
     odeljak: Zadatak — tabela 17 država
     tekst: U tabeli se za svaku od 17 država Južne Evrope upisuju glavni grad i poluostrvo na kome leži, a države se rednim brojevima označavaju na nemoj političkoj karti. Dve države nisu ni na jednom od tri poluostrva.
     slika: 02-juzna-evropa/10-politicka-karta-juzne-evrope.jpg
-
-pojmovi:
-  juzna-evropa: Južna Evropa
-  balkansko-poluostrvo: Balkansko poluostrvo
-  apeninsko-poluostrvo: Apeninsko poluostrvo
-  pirinejsko-poluostrvo: Pirinejsko poluostrvo
-  pirineji: Pirineji
-  alpi: Alpi
-  sava: Sava
-  dunav: Dunav
-  sredozemno-more: Sredozemno more
-  crno-more: Crno more
-  atlantski-okean: Atlantski okean
-  suecki-kanal: Suecki kanal
-  velika-geografska-otkrica: velika geografska otkrića
-  novi-svet: Novi svet
-  anticka-grcka: antička Grčka
-  mikenska-civilizacija: mikenska civilizacija
-  juzni-sloveni: Južni Sloveni
-  romani: romanski narodi
-  baski: Baski
-  semitski-narodi: semitski narodi
-  pravoslavlje: pravoslavlje
-  katolicanstvo: katoličanstvo
-  islam: islam
-  emigracija: emigracija
-  imigracija: imigracija
-  urbanizacija: urbanizacija
-  kraljica-turizma: kraljica turizma
-  mediteranska-poljoprivreda: mediteranska poljoprivreda
-  ribolov: ribolov
-  brodogradnja: brodogradnja
-  minijaturne-drzave: minijaturne države
-  spanija: Španija
-  portugalija: Portugalija
-  italija: Italija
-  grcka: Grčka
-  bugarska: Bugarska
-  albanija: Albanija
-  srbija: Srbija
-  vatikan: Vatikan
-  andora: Andora
-  malta: Malta
-  san-marino: San Marino
-  lisabon: Lisabon
-  atina: Atina
-  santorini: Santorini
-  beograd: Beograd
-  barselona: Barselona
-
-# Zadaci (banka): banka.yaml — 136 zadataka u 5 delova, svaki sa težinom (lako/srednje/tesko).
-banka: banka.yaml

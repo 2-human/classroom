@@ -15,6 +15,7 @@ placed under their page; notes without pages come after all the pages. Anchors: 
 Rerun scripts/regenerate_index.py afterwards so the catalog links the lessons.
 """
 import html as _html
+import json
 import os
 import pathlib
 import re
@@ -26,6 +27,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "shared" / "python"))
 from hub_shell import SHELL_CSS, SHELL_JS, BRAND, nivo_title, razred_title, predmet_title  # noqa: E402
 from lekcija import parse_note, lesson_dir, lesson_body, LESSON_CSS, LESSON_JS  # noqa: E402
+import veze  # noqa: E402
 from zasticeno import write_protected  # noqa: E402
 
 esc = _html.escape
@@ -47,6 +49,17 @@ __SHELL_CSS__
  .app-nav .row.sub{padding-left:20px;font-size:12.5px}
  .app-nav .row.pg{color:#6b6456;font-size:12px}
 __LESSON_CSS__
+ .les .rel{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 10px}
+ .les .rel a{font-size:13px;color:#7a4b12;border:1px solid #ecd3a8;background:#fbf3e3;border-radius:12px;padding:2px 11px;text-decoration:none}
+ .les .rel a.kv{color:#1f7a3a;border-color:#bfe0c8;background:#eef7f0}
+ .qbtn{font:inherit;font-size:12px;font-weight:400;margin-left:9px;padding:1px 9px;border:1px solid #ecd3a8;background:#fbf3e3;color:#7a4b12;border-radius:11px;cursor:pointer;white-space:nowrap}
+ .pit{list-style:none;margin:0;padding:0}
+ .pit a{display:flex;gap:8px;padding:7px 4px;border-bottom:1px solid #f0ebe0;color:#2b2b2b;text-decoration:none;font-size:14px;line-height:1.4}
+ .pit a:hover{background:#f6f1e4}
+ .pit .src{display:block;font-size:12.5px;color:#6b6456}
+ .pit ul{margin:3px 0 0;padding-left:18px}
+ .pit .tz{flex:0 0 auto;font-size:11px;font-weight:700;width:18px;height:18px;line-height:18px;text-align:center;border-radius:5px}
+ .tz-lako{background:#e3f3e7;color:#1f7a3a} .tz-srednje{background:#fbf0d9;color:#9a6a12} .tz-tesko{background:#fbe3e0;color:#b1271f}
  .pager{display:flex;justify-content:space-between;gap:12px;margin-top:34px;font-size:13.5px} .pager a{color:#b1271f;text-decoration:none}
  @media (max-width:760px){ .les{padding:16px 16px 60px} .les section.l3{margin-left:4px} }
 </style>
@@ -60,10 +73,24 @@ __LESSON_CSS__
  <nav class="app-nav" id="app-nav" aria-label="Poglavlje i sadržaj lekcije">__NAV__</nav>
  <main class="app-main" id="app-main"><article class="les">__BODY__</article></main>
 </div>
+<aside class="app-drawer" id="drawer" aria-hidden="true">
+ <div class="drawer-head"><h2 id="drawerTitle">Pitanja iz banke</h2><button class="drawer-close" id="drawerClose" aria-label="Zatvori" title="Zatvori">&times;</button></div>
+ <div class="drawer-body" id="drawerBody"></div>
+</aside>
 <script>__SHELL_JS__</script>
 <script>
 __LESSON_JS__
 bindLesson(document);
+const PITANJA = __PITANJA__, drawer = document.getElementById('drawer'), TZ = { lako: 'L', srednje: 'S', tesko: 'T' };
+document.querySelectorAll('.qbtn').forEach(b => b.addEventListener('click', e => {
+  e.stopPropagation();
+  const s = b.closest('section');
+  document.getElementById('drawerTitle').textContent = s.querySelector('h2,h3').firstChild.textContent;
+  document.getElementById('drawerBody').innerHTML = '<ul class="pit">' + PITANJA.sec[b.dataset.sec].map(q =>
+    '<li><a href="' + PITANJA.url + '#' + q.id + '"><span class="tz tz-' + q.t + '">' + TZ[q.t] + '</span><span>' + q.q + '</span></a></li>').join('') + '</ul>';
+  drawer.classList.add('open'); drawer.setAttribute('aria-hidden', 'false');
+}));
+document.getElementById('drawerClose').addEventListener('click', () => { drawer.classList.remove('open'); drawer.setAttribute('aria-hidden', 'true'); });
 function go() {
   const id = decodeURIComponent(location.hash.slice(1)); const el = id && document.getElementById(id);
   if (!el) return; el.scrollIntoView({ block: 'start' }); el.classList.remove('hit'); void el.offsetWidth; el.classList.add('hit');
@@ -82,15 +109,21 @@ def kurikulum(predmet, nivo, razred):
     return yaml.safe_load(p.read_text()) if p.exists() else {}
 
 
-def quizzes(predmet, razred, broj):
-    out = []
-    for sp in sorted((ROOT / "tools" / predmet).glob("*/spec.yaml")):
-        s = yaml.safe_load(sp.read_text()) or {}
-        if s.get("razred") == razred and broj in (s.get("lekcije") or []):
-            prot = ROOT / "zasticeno" / predmet / sp.parent.name / "bundle.enc"
-            href = f"../../../../{predmet}/{sp.parent.name}/" if prot.exists() else f"../../../../../tools/{predmet}/{sp.parent.name}/index.html"
-            out.append((s.get("title_short") or s.get("title") or sp.parent.name, href))
-    return out
+def related(nivo, razred, predmet, broj, stem, out_dir, sections):
+    """What a lesson links to: quizzes drawing from it, its bank page and its questions by section."""
+    rel = lambda t: os.path.relpath(ROOT / t, out_dir).replace(os.sep, "/") + ("/" if t.endswith("/") else "")
+    qz = [(q["title"], rel(q["href"])) for q in veze.quizzes(ROOT, nivo, razred, predmet) if broj in q["lekcije"]]
+    bank = veze.banks(ROOT, nivo, razred, predmet).get(broj)
+    if not bank:
+        return qz, "", 0, {}
+    url = rel(veze.bank_dir(nivo, razred, predmet, stem))
+    its = veze.items(bank)[1]
+    by_sec = {}
+    for z in its:
+        s = veze.item_section(sections, z)
+        if s:
+            by_sec.setdefault(s["id"], []).append({"id": z["id"], "t": z["tezina"], "q": veze.question_html(z)})
+    return qz, url, len(its), by_sec
 
 
 def build(note_file):
@@ -113,7 +146,9 @@ def build(note_file):
                 chapter = pg
     naslov = next((l["naslov"] for l in ordered if int(l["broj"]) == broj), note["naslov"])
 
-    les = lesson_body(ROOT, note_file, note)
+    qz, bank_url, bank_n, by_sec = related(nivo, razred, predmet, broj, stem, out_dir, note["sections"])
+    chips = {sid: f'<button type="button" class="qbtn" data-sec="{sid}">Pitanja iz banke ({len(v)})</button>' for sid, v in by_sec.items()}
+    les = lesson_body(ROOT, note_file, note, chips)
     pages, scans_n, crops_n, secs, od, do = les["pages"], les["skenova"], les["slika"], note["sections"], les["od"], les["do"]
     body = [les["html"]]
 
@@ -123,11 +158,11 @@ def build(note_file):
         (link(ordered[i - 1]) + "‹ " + esc(ordered[i - 1]["naslov"]) + "</a>") if i else "<span></span>") + (
         (link(ordered[i + 1]) + esc(ordered[i + 1]["naslov"]) + " ›</a>") if i is not None and i + 1 < len(ordered) else "<span></span>") + "</div>"
 
-    qz = quizzes(predmet, razred, broj)
     head = (f'<h1>{esc(naslov)}</h1><p class="meta">{esc(predmet_title(predmet))} · {esc(razred_title(razred))}'
             + (f' · {esc(chapter["naslov"])}' if chapter else "")
             + (f" · udžbenik, str. {od}–{do}" if od else "")
-            + "".join(f' · <a href="{esc(h)}">{esc(t)} ›</a>' for t, h in qz) + "</p>")
+            + "</p>" + '<div class="rel">' + (f'<a href="{esc(bank_url)}">Banka pitanja: {bank_n} ›</a>' if bank_url else "")
+            + "".join(f'<a class="kv" href="{esc(h)}">{esc(t)} ›</a>' for t, h in qz) + "</div>")
 
     nav = ""
     if chapter:
@@ -141,6 +176,8 @@ def build(note_file):
     for s in secs:
         nav += f'<a class="row{" sub" if s["level"] == 3 else ""}" href="#{s["id"]}">{esc(s["naslov"])}</a>'
     nav += '<div class="sec">Strane udžbenika</div>' + "".join(f'<a class="row pg" href="#str-{p}">Strana {p}</a>' for p in pages)
+    if bank_url:
+        nav += f'<div class="sec">Banka pitanja</div><a class="row" href="{esc(bank_url)}">{bank_n} pitanja ove lekcije</a>'
     if qz:
         nav += '<div class="sec">Kvizovi</div>' + "".join(f'<a class="row" href="{esc(h)}">{esc(t)}</a>' for t, h in qz)
 
@@ -153,7 +190,8 @@ def build(note_file):
     html = (PAGE.replace("__SHELL_CSS__", SHELL_CSS).replace("__SHELL_JS__", SHELL_JS)
                 .replace("__LESSON_CSS__", LESSON_CSS).replace("__LESSON_JS__", LESSON_JS)
                 .replace("__BRAND_CRUMBS__", crumbs).replace("__NAV__", nav)
-                .replace("__BODY__", head + "".join(body) + pager).replace("__TITLE__", esc(naslov)))
+                .replace("__BODY__", head + "".join(body) + pager).replace("__TITLE__", esc(naslov))
+                .replace("__PITANJA__", json.dumps({"url": bank_url, "sec": by_sec}, ensure_ascii=False).replace("</", "<\\/")))
     if os.environ.get("LEKCIJE_PREVIEW"):   # plain copy for checking, inside the gitignored _source (same depth)
         pv = src / "_preview" / stem / "index.html"
         pv.parent.mkdir(parents=True, exist_ok=True)

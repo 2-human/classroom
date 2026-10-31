@@ -8,7 +8,7 @@ title_short: Istorijski izvori 1780–1918.
 locale: sr
 nivo: osnovna
 razred: 7
-lekcije: [2]
+banka_lekcije: [2]
 description: >-
   Kviz za lekciju Istorijski izvori za izučavanje perioda 1780–1918: pisani, materijalni i
   audio-vizuelni izvori, štampa, dokumenti, arhivi i muzeji, fotografija, fonograf i film, prvi filmovi
@@ -29,56 +29,3 @@ sastav:
   test: 15
   odnos: [40, 40, 20]
   ponavljanje: 50
-
-pojmovi:
-  istorijski-izvori: istorijski izvori
-  pisani-istorijski-izvori: pisani istorijski izvori
-  materijalni-istorijski-izvori: materijalni istorijski izvori
-  audio-vizuelni-izvori: audio-vizuelni izvori
-  gutenberg: Gutenberg
-  stamparija: štamparija
-  rotaciona-stamparska-masina: rotaciona štamparska mašina
-  industrijska-revolucija: industrijska revolucija
-  obavezno-osnovno-skolovanje: obavezno osnovno školovanje
-  pismenost: pismenost
-  stampa: štampa
-  novine: novine
-  casopisi: časopisi
-  telegraf: telegraf
-  telefon: telefon
-  morzeov-telegraf: Morzeov telegraf
-  belov-telefon: Belov telefon
-  dokumenti: dokumenti
-  popis-stanovnistva: popis stanovništva
-  privatna-pisma: privatna pisma
-  dnevnici: dnevnici
-  memoari: memoari
-  drzavne-biblioteke: državne biblioteke
-  arhivi: arhivi
-  arhivistika: arhivistika
-  arhiv-vojvodine: Arhiv Vojvodine
-  saborna-crkva-novi-sad: Saborna crkva u Novom Sadu
-  politika: Politika
-  cerska-bitka: Cerska bitka
-  prvi-svetski-rat: Prvi svetski rat
-  muzeji: muzeji
-  fotografija: fotografija
-  dagerotipija: dagerotipija
-  luj-dager: Luj Dager
-  anastas-jovanovic: Anastas Jovanović
-  kraljica-viktorija: kraljica Viktorija
-  fonograf: fonograf
-  tomas-edison: Tomas Edison
-  film: film
-  braca-limijer: braća Limijer
-  nemi-film: nemi film
-  kinematograf: kinematograf
-  andre-kar: Andre Kar
-  krunisanje-petra-i-karadjordjevica: Krunisanje kralja Petra I Karađorđevića
-  petar-i-karadjordjevic: Petar I Karađorđević
-  beograd: Beograd
-  velika-britanija: Velika Britanija
-  francuska: Francuska
-
-# Zadaci (banka): banka.yaml — po delovima lekcije, svaki sa težinom (lako/srednje/tesko).
-banka: banka.yaml

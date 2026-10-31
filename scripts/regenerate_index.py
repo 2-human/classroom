@@ -7,7 +7,9 @@ Idempotent — safe to run repeatedly.
 Usage (from anywhere in the repo):
     python3 scripts/regenerate_index.py
 
-Information architecture: školski nivo › razred › predmet › lekcija › alati.
+Information architecture: školski nivo › razred › predmet › lekcija › alati. A subject with a question
+bank has three objects, each with its own route: .../{predmet}/gradivo, /banka, /kvizovi; a lesson shows
+what is related to it from all three (shared/python/veze.py and scripts/build_banke.py).
     - Tools: tools/{predmet}/{slug}/spec.yaml with `nivo` (osnovna | srednja), `razred` and,
       optionally, `lekcije: [broj, ...]`. A tool without `lekcije` belongs to the whole subject.
     - Curriculum: shared/kurikulum/{nivo}/{razred}/{predmet}.yaml — textbook, chapters and
@@ -111,13 +113,15 @@ def load_kurikulum(repo_root):
 
 
 def bank_sizes(repo_root):
-    """{(nivo, razred, predmet): {broj: item count}} from shared/banke/{nivo}/{razred}/{predmet}/{NN-slug}.yaml."""
+    """{(nivo, razred, predmet): {broj: (item count, bank page)}} from shared/banke/{nivo}/{razred}/{predmet}/{NN-slug}.yaml."""
     out = {}
     for p in sorted((repo_root / "shared" / "banke").glob("*/*/*/[0-9][0-9]-*.yaml")):
         with open(p) as f:
             b = yaml.safe_load(f) or {}
         key = (p.parents[2].name, int(p.parents[1].name), p.parent.name)
-        out.setdefault(key, {})[int(p.name[:2])] = sum(len(d["zadaci"]) for d in b.get("delovi") or [])
+        page = f"banka/{key[0]}/{key[1]}/{key[2]}/{p.stem}/"
+        out.setdefault(key, {})[int(p.name[:2])] = (sum(len(d["zadaci"]) for d in b.get("delovi") or []),
+                                                    page if (repo_root / page / "index.html").exists() else "")
     return out
 
 
@@ -163,7 +167,7 @@ def build_tree(tools, kurikulum, lesson_root, banke):
                         tekst = sorted(lesson_root.glob(f"{predmet}/{razred}/{n:02d}-*/bundle.enc"))
                         lessons.append({"broj": n, "naslov": l["naslov"],
                                         "tools": [t["slug"] for t in st if n in t["lekcije"]],
-                                        "banka": banka.get(n, 0),
+                                        "banka": banka.get(n, (0, ""))[0], "bankaUrl": banka.get(n, (0, ""))[1],
                                         "tekst": tekst[0].parent.relative_to(lesson_root.parent.parent).as_posix() + "/" if tekst else ""})
                     chapters.append({"naslov": pg.get("naslov", ""), "lekcije": lessons})
                 for t in st:
@@ -176,7 +180,7 @@ def build_tree(tools, kurikulum, lesson_root, banke):
                     "poglavlja": chapters,
                     "whole": [t["slug"] for t in st if not (set(t["lekcije"]) & numbers)],
                     "kvizovi": [t["slug"] for t in st if len(t["lekcije"]) > 1],   # defined over several lessons
-                    "banka": sum(banka.values()),
+                    "banka": sum(c for c, _ in banka.values()),
                     "tools": [t["slug"] for t in st],
                 })
             grades.append({"razred": razred, "title": razred_title(razred), "subjects": subjects})
@@ -234,6 +238,13 @@ __SHELL_CSS__
  .tchip:hover{background:#d8f0dd}
  .bchip{font-size:12px;color:var(--muted);white-space:nowrap}
  .tchip.txt{color:#7a4b12;border-color:#ecd3a8;background:#fbf3e3} .tchip.txt:hover{background:#f5e6c8}
+ .tchip.bnk{color:#3a5b8c;border-color:#c9d8ec;background:#eef3fa} .tchip.bnk:hover{background:#dde8f6}
+ .tile.bnk{border-color:#c9d8ec;background:#eef3fa} .tile.bnk:hover{border-color:#3a5b8c;background:#fff}
+ .tabs{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 6px;border-bottom:1px solid var(--border)}
+ .tabs a{padding:7px 14px;font-size:14px;font-weight:600;color:var(--muted);text-decoration:none;border-bottom:3px solid transparent;margin-bottom:-1px}
+ .tabs a:hover{color:#3a3528}
+ .tabs a.on{color:var(--edge);border-bottom-color:var(--edge)}
+ .tabs a span{font-weight:400;font-size:12px;margin-left:6px;color:var(--muted)}
  .tile.txt{border-color:#ecd3a8;background:#fbf3e3} .tile.txt:hover{border-color:#c98a2c;background:#fff}
  .pager{display:flex;justify-content:space-between;gap:12px;margin-top:24px;font-size:13px}
  .pager a{color:var(--edge);text-decoration:none}
@@ -264,7 +275,7 @@ __SHELL_CSS__
 </aside>
 <script>__SHELL_JS__</script>
 <script>
-const TREE = __TREE_JSON__;     // [{nivo, title, grades:[{razred, title, subjects:[{predmet, title, udzbenik, poglavlja:[{naslov, lekcije:[{broj, naslov, tools, tekst}]}], whole, tools}]}]}]
+const TREE = __TREE_JSON__;     // [{nivo, title, grades:[{razred, title, subjects:[{predmet, title, udzbenik, poglavlja:[{naslov, lekcije:[{broj, naslov, tools, tekst, banka, bankaUrl}]}], whole, tools}]}]}]
 const TOOLS = __TOOLS_JSON__;   // [{predmet, slug, nivo, razred, lekcije, title, description, href, pdfs}]
 const INTRO = '<p class="lead">Interaktivni alati za nastavu, po školskom nivou, razredu, predmetu i lekciji. Svaki alat radi u browseru bez login-a i bez naloga. Mnogi imaju i verziju za štampu.</p>' +
   '<p class="meta">Repo: <a href="https://github.com/tnosugar/classroom">github.com/tnosugar/classroom</a> · Generisano automatski pomoću scripts/regenerate_index.py</p>';
@@ -295,7 +306,10 @@ function renderNav() {
         const sr = gr + '/' + s.predmet;
         h += '<div data-filter-group><a class="row s" href="#/' + sr + '" data-route="' + sr + '"><span class="lbl">' + esc(s.title) +
              '</span><span class="cnt">' + s.tools.length + '</span></a><div class="les" data-subj="' + sr + '">';
+        if (s.banka) for (const [k, lbl] of [['gradivo', 'Gradivo'], ['banka', 'Banka pitanja'], ['kvizovi', 'Kvizovi']])
+          h += '<a class="row t" href="#/' + sr + '/' + k + '" data-route="' + sr + '/' + k + '"><span class="lbl">' + lbl + '</span></a>';
         for (const slug of s.whole) {
+          if (s.banka) continue;
           const x = tool(s.predmet, slug);
           h += '<a class="row t" href="#/' + sr + '?t=' + slug + '" data-route="' + sr + '?t=' + slug + '" data-filter="' +
                esc(g.title + ' ' + s.title + ' ' + x.title) + '"><span class="lbl">' + esc(x.title) + '</span></a>';
@@ -327,34 +341,49 @@ function gradeTiles(lv) {
   return '<div class="tiles">' + lv.grades.map(g => '<a class="tile" href="#/' + lv.nivo + '/' + g.razred + '"><b>' + esc(g.title) +
     '</b><span>' + g.subjects.map(s => esc(s.title) + ' · ' + nAlata(s.tools.length)).join('<br>') + '</span></a>').join('') + '</div>';
 }
-function subjectView(lv, g, s, sel) {
+function tabs(s, base, view) {
+  const T = [['gradivo', 'Gradivo', lessonsOf(s).filter(l => l.tekst).length + ' lekcija'], ['banka', 'Banka pitanja', s.banka], ['kvizovi', 'Kvizovi', s.tools.length]];
+  return '<nav class="tabs">' + T.map(([k, lbl, n]) => '<a class="' + (k === view ? 'on' : '') + '" href="#/' + base + '/' + k + '">' + lbl + '<span>' + n + '</span></a>').join('') + '</nav>';
+}
+function quizChips(s, base, l) {
+  return l.tools.map(slug => '<a class="tchip" href="#/' + base + '/kvizovi?t=' + slug + '">' + esc(tool(s.predmet, slug).title) + '</a>').join('');
+}
+function chapters(s, row) {
+  return s.poglavlja.map(p => '<h2>' + esc(p.naslov) + '</h2><ul class="lessons">' + p.lekcije.map(row).join('') + '</ul>').join('');
+}
+function subjectView(lv, g, s, sel, view) {
   const base = lv.nivo + '/' + g.razred + '/' + s.predmet;
   let h = '<h1>' + esc(s.title) + '</h1><p class="lead">' + esc(g.title) + ' · ' + esc(lv.title) +
           (s.udzbenik ? ' · udžbenik: ' + esc(s.udzbenik) : '') + '</p>';
-  if (s.banka) h += '<p class="meta">Gradivo: ' + plural(lessonsOf(s).filter(l => l.tekst).length, 'lekcija', 'lekcije', 'lekcija') + ' · Banka: ' +
-    plural(s.banka, 'pitanje', 'pitanja', 'pitanja') + ' · Kvizovi: ' + s.kvizovi.length + '</p>';
-  if (s.kvizovi.length) h += '<h2>Kvizovi i testovi</h2>' + toolTiles(s.predmet, s.kvizovi, base, sel);
+  if (s.banka) {   // three objects of the subject, each reachable on its own
+    view = view || 'gradivo';
+    h += tabs(s, base, view);
+    if (view === 'kvizovi') return h + (s.tools.length ? toolTiles(s.predmet, s.tools, base + '/kvizovi', sel) : '<div class="empty">Još nema kvizova.</div>');
+    if (view === 'banka') return h + '<p class="meta">Sva pitanja po lekcijama. Kvizovi i testovi se prave iz banke.</p>' + chapters(s, l =>
+      '<li' + (l.banka ? '' : ' class="none"') + '><a class="ln" href="' + (l.bankaUrl || '#/' + base + '/' + l.broj) + '">' + l.broj + '. ' + esc(l.naslov) + '</a>' +
+      (l.banka ? '<span class="bchip">' + plural(l.banka, 'pitanje', 'pitanja', 'pitanja') + '</span>' : '') + '</li>');
+    return h + chapters(s, l =>
+      '<li' + (l.tekst ? '' : ' class="none"') + '><a class="ln" href="#/' + base + '/' + l.broj + '">' + l.broj + '. ' + esc(l.naslov) + '</a>' +
+      (l.tekst ? '<a class="tchip txt" href="' + l.tekst + '">Tekst lekcije</a>' : '') +
+      (l.bankaUrl ? '<a class="tchip bnk" href="' + l.bankaUrl + '">' + plural(l.banka, 'pitanje', 'pitanja', 'pitanja') + '</a>' : '') + quizChips(s, base, l) + '</li>');
+  }
   if (s.whole.length) h += '<h2>' + (s.poglavlja.length ? 'Za ceo predmet' : 'Alati') + '</h2>' + toolTiles(s.predmet, s.whole, base, sel);
   if (!s.poglavlja.length && !s.whole.length) h += '<div class="empty">Još nema alata.</div>';
   if (!s.poglavlja.length && s.whole.length) h += '<p class="meta">Lekcije za ovaj predmet još nisu unete (shared/kurikulum/' + base + '.yaml).</p>';
-  for (const p of s.poglavlja) {
-    h += '<h2>' + esc(p.naslov) + '</h2><ul class="lessons">' + p.lekcije.map(l =>
-      '<li' + (l.tools.length || l.tekst ? '' : ' class="none"') + '><a class="ln" href="#/' + base + '/' + l.broj + '">' + l.broj + '. ' + esc(l.naslov) + '</a>' +
-      (l.banka ? '<span class="bchip" title="Pitanja u banci za ovu lekciju">' + plural(l.banka, 'pitanje', 'pitanja', 'pitanja') + '</span>' : '') +
-      (l.tekst ? '<a class="tchip txt" href="' + l.tekst + '">Tekst lekcije</a>' : '') +
-      l.tools.filter(slug => !s.kvizovi.includes(slug)).map(slug => '<a class="tchip" href="#/' + base + '/' + l.broj + '?t=' + slug + '">' + esc(tool(s.predmet, slug).title) + '</a>').join('') +
-      '</li>').join('') + '</ul>';
-  }
-  return h;
+  return h + chapters(s, l =>
+    '<li' + (l.tools.length || l.tekst ? '' : ' class="none"') + '><a class="ln" href="#/' + base + '/' + l.broj + '">' + l.broj + '. ' + esc(l.naslov) + '</a>' +
+    (l.tekst ? '<a class="tchip txt" href="' + l.tekst + '">Tekst lekcije</a>' : '') +
+    l.tools.map(slug => '<a class="tchip" href="#/' + base + '/' + l.broj + '?t=' + slug + '">' + esc(tool(s.predmet, slug).title) + '</a>').join('') + '</li>');
 }
 function lessonView(lv, g, s, l, sel) {
   const base = lv.nivo + '/' + g.razred + '/' + s.predmet;
   const all = lessonsOf(s), i = all.findIndex(x => x.broj === l.broj);
   const link = x => x ? '<a href="#/' + base + '/' + x.broj + '">' : '<span>';
   return '<h1>' + l.broj + '. ' + esc(l.naslov) + '</h1><p class="lead">' + esc(s.title) + ' · ' + esc(g.title) + ' · ' + esc(l.poglavlje) + '</p>' +
-    (l.tekst ? '<h2>Gradivo</h2><div class="tiles"><a class="tile txt" href="' + l.tekst + '"><b>Cela lekcija ›</b><span>Strane udžbenika redom, uz beleške po odeljcima i slike. Lozinku daje nastavnik.</span></a></div>' : '') +
-    (l.banka ? '<h2>Banka pitanja</h2><p class="meta">' + plural(l.banka, 'pitanje', 'pitanja', 'pitanja') + ' za ovu lekciju; kvizovi i testovi se prave iz banke.</p>' : '') +
-    (l.tools.length ? '<h2>' + (l.banka ? 'Kvizovi i testovi' : 'Alati') + '</h2>' + toolTiles(s.predmet, l.tools, base + '/' + l.broj, sel) : '<div class="empty">Za ovu lekciju još nema alata.</div>') +
+    (l.tekst || l.bankaUrl ? '<h2>' + (l.bankaUrl ? 'Gradivo i banka pitanja' : 'Gradivo') + '</h2><div class="tiles">' +
+      (l.tekst ? '<a class="tile txt" href="' + l.tekst + '"><b>Gradivo ›</b><span>Strane udžbenika redom, uz beleške po odeljcima i slike. Lozinku daje nastavnik.</span></a>' : '') +
+      (l.bankaUrl ? '<a class="tile bnk" href="' + l.bankaUrl + '"><b>Banka pitanja ›</b><span>' + plural(l.banka, 'pitanje', 'pitanja', 'pitanja') + ' iz ove lekcije, sa odgovorima i vezom na deo gradiva.</span></a>' : '') + '</div>' : '') +
+    (l.tools.length ? '<h2>' + (l.bankaUrl ? 'Kvizovi koji sadrže ovu lekciju' : 'Alati') + '</h2>' + toolTiles(s.predmet, l.tools, base + '/' + l.broj, sel) : (l.tekst || l.bankaUrl ? '' : '<div class="empty">Za ovu lekciju još nema alata.</div>')) +
     '<div class="pager">' + (all[i - 1] ? link(all[i - 1]) + '‹ ' + all[i - 1].broj + '. ' + esc(all[i - 1].naslov) + '</a>' : '<span></span>') +
     (all[i + 1] ? link(all[i + 1]) + all[i + 1].broj + '. ' + esc(all[i + 1].naslov) + ' ›</a>' : '<span></span>') + '</div>';
 }
@@ -370,7 +399,8 @@ function showTool(t, lv, g, s) {
     (t.zasticeno ? '<a class="open" href="' + t.zasticeno + '">Otvori kviz ›</a><p class="ref">Sa slikama iz udžbenika — lozinku daje nastavnik.' +
       (t.href ? ' <a href="' + t.href + '">Verzija bez slika (bez lozinke)</a>' : '') + '</p>'
       : (t.href ? '<a class="open" href="' + t.href + '">Otvori interaktivni alat ›</a>' : '')) +
-    (les.length ? '<h3>Lekcije</h3><ul>' + les.map(l => '<li><a href="#/' + base + '/' + l.broj + '?t=' + t.slug + '">' + l.broj + '. ' + esc(l.naslov) + '</a></li>').join('') + '</ul>' : '') +
+    (les.length ? '<h3>Lekcije u ovom kvizu</h3><ul>' + les.map(l => '<li><a href="#/' + base + '/' + l.broj + '?t=' + t.slug + '">' + l.broj + '. ' + esc(l.naslov) + '</a>' +
+      (l.tekst ? ' · <a href="' + l.tekst + '">gradivo</a>' : '') + (l.bankaUrl ? ' · <a href="' + l.bankaUrl + '">banka (' + l.banka + ')</a>' : '') + '</li>').join('') + '</ul>' : '') +
     (t.pdfs.length ? '<h3>Za štampu</h3><ul>' + t.pdfs.map(p => '<li><a href="' + p.href + '">' + esc(p.label) + '</a></li>').join('') + '</ul>' : '');
   drawer.classList.add('open'); drawer.setAttribute('aria-hidden', 'false');
 }
@@ -383,11 +413,12 @@ function route() {
   const g = lv && lv.grades.find(x => String(x.razred) === razred);
   const s = g && g.subjects.find(x => x.predmet === predmet);
   const l = s && lessonsOf(s).find(x => String(x.broj) === broj);
+  const view = ['gradivo', 'banka', 'kvizovi'].includes(broj) ? broj : '';
   const t = s && sel && s.tools.includes(sel) ? tool(s.predmet, sel) : null;
 
   let h;
   if (l) h = lessonView(lv, g, s, l, sel);
-  else if (s) h = subjectView(lv, g, s, sel);
+  else if (s) h = subjectView(lv, g, s, sel, view);
   else if (g) h = '<h1>' + esc(g.title) + '</h1><p class="lead">' + esc(lv.title) + '</p>' + (g.subjects.length ? '<div class="tiles">' +
       g.subjects.map(x => '<a class="tile" href="#/' + lv.nivo + '/' + g.razred + '/' + x.predmet + '"><b>' + esc(x.title) + '</b><span>' +
       (x.poglavlja.length ? plural(lessonsOf(x).length, 'lekcija', 'lekcije', 'lekcija') + ' · ' : '') + nAlata(x.tools.length) + '</span></a>').join('') + '</div>'
@@ -401,12 +432,13 @@ function route() {
   if (g) trail.push(['#/' + lv.nivo + '/' + g.razred, g.title]);
   if (s) trail.push(['#/' + lv.nivo + '/' + g.razred + '/' + s.predmet, s.title]);
   if (l) trail.push(['#/' + lv.nivo + '/' + g.razred + '/' + s.predmet + '/' + l.broj, l.broj + '. ' + l.naslov]);
+  if (view) trail.push(['#/' + lv.nivo + '/' + g.razred + '/' + s.predmet + '/' + view, { gradivo: 'Gradivo', banka: 'Banka pitanja', kvizovi: 'Kvizovi' }[view]]);
   if (t) trail.push(['', t.title]);
   crumbs.innerHTML = trail.map(([href, txt], i) => i === trail.length - 1 ? '<span class="cur">' + esc(txt) + '</span>'
     : '<a href="' + href + '">' + esc(txt) + '</a>').join('<span class="sep">›</span>');
 
   const cur = [nivo, razred, predmet, broj].filter(Boolean).join('/');
-  const curRoute = s && !l && t && s.whole.includes(t.slug) ? cur + '?t=' + t.slug : cur;
+  const curRoute = s && !l && !view && t && s.whole.includes(t.slug) ? cur + '?t=' + t.slug : s && s.banka && !l && !view ? cur + '/gradivo' : cur;
   nav.querySelectorAll('[data-route]').forEach(a => a.classList.toggle('cur', a.dataset.route === curRoute));
   nav.querySelectorAll('.les').forEach(d => d.classList.toggle('open', !!s && d.dataset.subj === lv.nivo + '/' + g.razred + '/' + s.predmet));
   const c = nav.querySelector('.cur'); if (c) c.scrollIntoView({ block: 'nearest' });

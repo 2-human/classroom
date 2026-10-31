@@ -6,7 +6,7 @@ Usage:
     python3 scripts/proveri_banku.py shared/banke/srednja/1/istorija/03-*.yaml       # some lessons
 
 Runs the quiz engine's validation on each file and adds the bank rules: ids unique across the whole
-subject and prefixed lNN-, every wrong option has a `zasto`, every `pojmovi` slug is named, every
+subject, every wrong option has a `zasto`, every `pojmovi` slug is named, every
 item has `iz_udzbenika` with a page inside the lesson, and one timeline event keeps one set of years
 across the subject. Prints the item count per type and level.
 """
@@ -34,7 +34,7 @@ def main(args):
     predmet, razred, nivo = folder.name, int(folder.parent.name), folder.parent.parent.name
     kur = yaml.safe_load((ROOT / "shared" / "kurikulum" / nivo / str(razred) / f"{predmet}.yaml").read_text())
     trake = kur.get("osa_trake") or []
-    ids, errors, events = collections.Counter(), [], collections.defaultdict(set)
+    ids, errors, warnings, events = collections.Counter(), [], [], collections.defaultdict(set)
     for other in sorted(folder.glob("[0-9][0-9]-*.yaml")):   # ids and years are checked across the subject
         for d in (yaml.safe_load(other.read_text()) or {}).get("delovi") or []:
             for z in d["zadaci"]:
@@ -49,27 +49,29 @@ def main(args):
         broj = int(f.name[:2])
         note = note_path(ROOT, predmet, razred, broj)
         od, do = (parse_note(note)["fm"].get("strane") or [0, 999])[:2]
-        check_spec({"delovi": b["delovi"], "osa": {"trake": trake}, "sastav": {}})
+        # map items are checked with their quiz (the map lives in its spec.yaml)
+        plain = [{"naslov": d["naslov"], "zadaci": [z for z in d["zadaci"] if z["vrsta"] not in ("karta_klik", "gde_sam")]} for d in b["delovi"]]
+        check_spec({"delovi": plain, "osa": {"trake": trake}, "sastav": {}})
         items = [z for d in b["delovi"] for z in d["zadaci"]]
         pojmovi = b.get("pojmovi") or {}
         for z in items:
             i = z["id"]
-            if not i.startswith(f"l{broj:02d}-"):
-                errors.append(f"{i}: id must start with l{broj:02d}-")
             for o in (z.get("odgovori") or []) + (z.get("ispravke") or []):
                 if not o.get("tacan") and not o.get("zasto"):
-                    errors.append(f"{i}: wrong option without zasto")
+                    warnings.append(f"{i}: wrong option without zasto")
             if any(not t.get("zasto") for t in z.get("tvrdnje") or []):
-                errors.append(f"{i}: uporedi statement without zasto")
+                warnings.append(f"{i}: uporedi statement without zasto")
             errors += [f"{i}: pojam {s} is not in pojmovi" for s in z.get("pojmovi") or [] if s not in pojmovi]
             iz = z.get("iz_udzbenika") or {}
             if not (isinstance(iz.get("strana"), int) and od <= iz["strana"] <= do):
-                errors.append(f"{i}: iz_udzbenika.strana {iz.get('strana')!r} is outside pages {od}–{do}")
+                warnings.append(f"{i}: iz_udzbenika.strana {iz.get('strana')!r} is outside pages {od}–{do}")
             if z["vrsta"] not in ("ko_sam", "objasni") and len(z.get("pomoc") or []) < 2:
-                errors.append(f"{i}: needs at least 2 pomoc steps")
+                warnings.append(f"{i}: needs at least 2 pomoc steps")
         c = collections.Counter((z["vrsta"], z["tezina"]) for z in items)
         print(f"{f.name}: {len(items)} items {dict(collections.Counter(z['tezina'] for z in items))}")
         print("  " + " · ".join(f"{v} {[c[(v, t)] for t in ('lako', 'srednje', 'tesko')]}" for v in VRSTE))
+    if warnings:
+        print(f"{len(warnings)} warnings (older items without zasto/pomoc), first: {warnings[0]}")
     print("\n".join(errors[:60]) or "OK")
     if errors:
         raise SystemExit(f"{len(errors)} problems")

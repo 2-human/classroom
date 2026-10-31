@@ -7,7 +7,7 @@ title_short: Hrvatska
 locale: sr
 nivo: osnovna
 razred: 7
-lekcije: [7]
+banka_lekcije: [7]
 description: >-
   Kviz za lekciju Republika Hrvatska: položaj i oblik „potkovice”, tri reljefne celine, reke i klima,
   stanovništvo, privreda i turizam — uz snalaženje na karti (planine, ostrva, reke, gradovi).
@@ -59,70 +59,3 @@ sastav:
   ucenje: 20
   test: 15
   odnos: [40, 40, 20]
-
-pojmovi:
-  hrvatska: Hrvatska
-  balkansko-poluostrvo: Balkansko poluostrvo
-  jadransko-more: Jadransko more
-  potkovica: oblik potkovice
-  panonska-nizija: Panonska nizija
-  ostrvske-planine: ostrvske planine
-  psunj: Psunj
-  dinarske-planine: Dinarske planine
-  velebit: Velebit
-  dinara: Dinara
-  biokovo: Biokovo
-  primorska-oblast: primorska oblast
-  razudjena-obala: razuđena obala
-  krk: Krk
-  cres: Cres
-  brac: Brač
-  hvar: Hvar
-  pag: Pag
-  korcula: Korčula
-  istra: Istra
-  drava: Drava
-  sava: Sava
-  kupa: Kupa
-  cetina: Cetina
-  dunav: Dunav
-  crnomorski-sliv: crnomorski sliv
-  jadranski-sliv: jadranski sliv
-  umerenokontinentalna-klima: umerenokontinentalna klima
-  planinska-klima: planinska klima
-  sredozemna-klima: sredozemna klima
-  hrvati: Hrvati
-  juzni-sloveni: Južni Sloveni
-  katolicanstvo: katoličanstvo
-  primarni-sektor: primarni sektor
-  sekundarni-sektor: sekundarni sektor
-  tercijarni-sektor: tercijarni sektor
-  zitarice: žitarice
-  industrijsko-bilje: industrijsko bilje
-  vinova-loza: vinova loza
-  agrumi: agrumi
-  masline: masline
-  nafta: nafta
-  zemni-gas: zemni gas
-  boksit: boksit
-  bakar: bakar
-  ruda-gvozdja: ruda gvožđa
-  mermer: mermer
-  prehrambena-industrija: prehrambena industrija
-  tekstilna-industrija: tekstilna industrija
-  hemijska-industrija: hemijska industrija
-  turizam: turizam
-  zagreb: Zagreb
-  dubrovnik: Dubrovnik
-  pula: Pula
-  plitvicka-jezera: Plitvička jezera
-  nacionalni-park: nacionalni park
-  korana: Korana
-  krecnjak: krečnjak
-  split: Split
-  rijeka: Rijeka
-  osijek: Osijek
-  zadar: Zadar
-
-# Zadaci (banka): banka.yaml — delovi po naslovima lekcije, svaki zadatak sa težinom.
-banka: banka.yaml

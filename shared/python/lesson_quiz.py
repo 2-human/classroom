@@ -123,10 +123,13 @@ def load_spec(path):
         for broj in spec["banka_lekcije"]:
             b = load_bank(root, spec["nivo"], spec["razred"], path.parent.parent.name, broj)
             pojmovi.update(b.get("pojmovi") or {})
+            if b.get("mesta"):
+                spec.setdefault("karta", {}).setdefault("mesta", {}).update(b["mesta"])
             for deo in b["delovi"]:
                 for z in deo["zadaci"]:
                     z["lekcija"] = broj
-                spec["delovi"].append({"naslov": f"{broj}. {deo['naslov']}", "zadaci": deo["zadaci"]})
+                naslov = deo["naslov"] if len(spec["banka_lekcije"]) == 1 else f"{broj}. {deo['naslov']}"
+                spec["delovi"].append({"naslov": naslov, "zadaci": deo["zadaci"]})
     if spec.get("karta"):
         spec["karta"]["_geo_data_resolved"] = str((path.parent / spec["karta"]["geo_data"]).resolve())
     return check_spec(spec)
@@ -365,6 +368,23 @@ def _lesson_text(spec, output_path, root, embed=False):
     return {"lekcije": lekcije, "odeljci": odeljci}
 
 
+def _bank_links(spec, output_path, root):
+    """[{broj, naslov, url, n}]: the question-bank pages of this quiz's lessons (scripts/build_banke.py)."""
+    import veze
+    tool = pathlib.Path(spec["_spec_dir"])
+    predmet = tool.parent.name
+    files = veze.banks(root, spec.get("nivo"), spec.get("razred"), predmet)
+    out = []
+    for broj in spec.get("lekcije") or []:
+        f = files.get(broj)
+        page = root / veze.bank_dir(spec.get("nivo"), spec.get("razred"), predmet, f.stem) if f else None
+        if page and (page / "index.html").exists():
+            b, its = veze.items(f)
+            out.append({"broj": broj, "naslov": b.get("naslov") or f.stem, "n": len(its),
+                        "url": os.path.relpath(page, pathlib.Path(output_path).parent).replace(os.sep, "/") + "/"})
+    return out
+
+
 def _data_uri(path, max_px=1000):
     import base64, io
     from PIL import Image
@@ -412,6 +432,7 @@ __SHELL_CSS__
  .intro ul{margin:0 0 10px;padding-left:18px;font-size:13.5px;line-height:1.55}
  /* navigation: items */
  .it-row{display:flex;align-items:center;gap:8px;width:100%;border:0;border-radius:5px;background:none;color:var(--ink);font:inherit;font-size:13px;text-align:left;padding:5px 6px;cursor:pointer}
+ a.it-row{text-decoration:none;box-sizing:border-box}
  .it-row:hover{background:#f6f1e4;color:var(--ink)}
  .it-row.sel{background:#efe7d2;font-weight:600}
  .it-row.off{opacity:.4}
@@ -943,6 +964,9 @@ function renderNav() {
     }
     h += '</div>';
   }
+  const ext = (href, ico, lbl, pt) => '<a class="it-row" href="' + esc(href) + '" target="_blank" rel="opener" data-filter="' + esc(lbl) + '"><span class="st">' + ico + '</span><span class="lbl">' + esc(lbl) + '</span><span class="pt">' + pt + '</span></a>';
+  if (LEKS.length && !LEKS[0].html) h += '<div data-filter-group><div class="sec"><span>Gradivo</span></div>' + LEKS.map(l => ext(l.url, '▤', (LEKS.length > 1 ? l.broj + '. ' : '') + l.naslov, '')).join('') + '</div>';
+  if ((INFO.banka || []).length) h += '<div data-filter-group><div class="sec"><span>Banka pitanja</span></div>' + INFO.banka.map(b => ext(b.url, '?', (INFO.banka.length > 1 ? b.broj + '. ' : '') + b.naslov, b.n)).join('') + '</div>';
   if (state.mode === 'test') {
     const fin = state.tests.filter(t => t.end).slice().reverse();
     h += '<div class="sec"><span>Moji testovi</span><span class="cnt">' + fin.length + '</span></div>';
@@ -952,7 +976,7 @@ function renderNav() {
   document.getElementById('navList').innerHTML = h;
   if (document.getElementById('app-filter').value) HubShell.applyFilter();
 }
-document.getElementById('navList').addEventListener('click', e => { const r = e.target.closest('.it-row'); if (r) go(r.dataset.id); });
+document.getElementById('navList').addEventListener('click', e => { const r = e.target.closest('.it-row'); if (r && r.dataset.id) go(r.dataset.id); });
 
 // ---------- drawer: help ladder → "Saznaj više" ----------
 const drawer = document.getElementById('drawer');
@@ -998,11 +1022,13 @@ function lessonHTML(z) {   // more from the lesson: the section's notes (protect
   const b = z.iz_udzbenika; if (!LEKS.length) return '';
   const o = (INFO.tekst.odeljci || {})[(z.lekcija || 0) + '|' + (b.odeljak || '') + '|' + (b.strana || '')];
   const l = lekOf(z.lekcija || (o && o.broj)) || LEKS[0];
+  const bank = (INFO.banka || []).find(x => x.broj === l.broj);
   const a = (hash, txt, title) => l.html ? '<a href="#" data-broj="' + l.broj + '" data-lek="' + esc(hash) + '" data-title="' + esc(title) + '">' + txt + '</a>'
     : '<a href="' + esc(l.url + '#' + hash) + '" target="_blank" rel="opener">' + txt + '</a>';
   return (o && o.html ? '<details class="odeljak" open><summary>Iz beleški lekcije: ' + esc(o.naslov) + '</summary>' + o.html + '</details>' : '') +
     '<p class="tekst-links">' + (o ? a(o.id, 'Ceo tekst ovog dela lekcije ›', o.naslov) : '') +
-    (b.strana ? a('str-' + b.strana, 'Strana ' + esc(b.strana) + ' u udžbeniku ›', 'Strana ' + b.strana) : '') + '</p>';
+    (b.strana ? a('str-' + b.strana, 'Strana ' + esc(b.strana) + ' u udžbeniku ›', 'Strana ' + b.strana) : '') +
+    (bank ? '<a href="' + esc(bank.url + '#' + z.id) + '" target="_blank" rel="opener">U banci pitanja ›</a>' : '') + '</p>';
 }
 function moreHTML(z) {
   const slugs = z.pojmovi || [];
@@ -1681,7 +1707,7 @@ def render_html(spec, output_path, embed_images=False, write=True):
     zasticeno = "" if embed_images or not (prot / "bundle.enc").exists() else os.path.relpath(prot, output_path.parent).replace(os.sep, "/") + "/"
     info = {"pojmovi": spec.get("pojmovi") or {}, "lekcijePojma": concept_lessons, "naslovi": titles,
             "katalog": katalog, "lekcije": spec.get("lekcije") or [], "slike": slike, "slikeNaslovi": naslovi_slika, "slikeData": slike_data, "zasticeno": zasticeno,
-            "tekst": _lesson_text(spec, output_path, root, embed_images)}
+            "tekst": _lesson_text(spec, output_path, root, embed_images), "banka": _bank_links(spec, output_path, root)}
     mapj = {"proj": proj, "drzave": k.get("drzave") or {}, "mesta": k.get("mesta") or {}}
     js = lambda o: _json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
     repl = {

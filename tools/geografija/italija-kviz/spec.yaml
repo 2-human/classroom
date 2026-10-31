@@ -8,7 +8,7 @@ title_short: Italija
 locale: sr
 nivo: osnovna
 razred: 7
-lekcije: [10]
+banka_lekcije: [10]
 description: >-
   Kviz za lekciju Republika Italija: položaj i mora, reljef i vulkani, klima i vode, stanovništvo,
   privreda i turizam — sa mnogo zadataka na karti (klikni mesto, „Gde sam?”).
@@ -76,59 +76,3 @@ sastav:
   ucenje: 20
   test: 15
   odnos: [40, 40, 20]
-
-pojmovi:
-  italija: Italija
-  apeninsko-poluostrvo: Apeninsko poluostrvo
-  sicilija: Sicilija
-  sardinija: Sardinija
-  apenini: Apenini
-  alpi: Alpi
-  padska-nizija: Padska nizija
-  po: Po
-  tibar: Tibar
-  etna: Etna
-  vezuv: Vezuv
-  stromboli: Stromboli
-  vulkano: Vulkano
-  liparska-ostrva: Liparska ostrva
-  rim: Rim
-  milano: Milano
-  napulj: Napulj
-  torino: Torino
-  djenova: Đenova
-  venecija: Venecija
-  firenca: Firenca
-  verona: Verona
-  sanremo: Sanremo
-  bari: Bari
-  toskana: Toskana
-  kalabrija: Kalabrija
-  djenovski-zaliv: Đenovski zaliv
-  tarantski-zaliv: Tarantski zaliv
-  napuljski-zaliv: Napuljski zaliv
-  ligurijsko-more: Ligurijsko more
-  tirensko-more: Tirensko more
-  jadransko-more: Jadransko more
-  jonsko-more: Jonsko more
-  otrantska-vrata: Otrantska vrata
-  garda: Garda
-  komo: Komo
-  madjore: Mađore
-  lugano: Lugano
-  sredozemna-klima: sredozemna klima
-  izmenjenosredozemna-klima: izmenjenosredozemna klima
-  makija: makija
-  glacijalna-jezera: glacijalna jezera
-  razvijeni-sever: razvijeni sever
-  siromasni-jug: siromašni jug
-  industrijski-trougao: industrijski trougao Italije
-  pompeja: Pompeja
-  katolicanstvo: katoličanstvo
-  romani: romanski narodi
-  san-marino: San Marino
-  vatikan: Vatikan
-  sredozemno-more: Sredozemno more
-
-# Zadaci (banka): banka.yaml.
-banka: banka.yaml

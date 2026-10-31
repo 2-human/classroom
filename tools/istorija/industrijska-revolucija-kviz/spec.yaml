@@ -7,7 +7,7 @@ title_short: Industrijska revolucija
 locale: sr
 nivo: osnovna
 razred: 7
-lekcije: [3]
+banka_lekcije: [3]
 description: >-
   Kviz za lekciju Industrijska revolucija: od manufakture do fabrike, uzroci u Velikoj Britaniji,
   parna mašina, lokomotiva i parobrod, nastanak radništva, luditi i prvi zakoni u korist radnika —
@@ -27,60 +27,3 @@ sastav:
   test: 15
   odnos: [40, 40, 20]
   ponavljanje: 50
-
-pojmovi:
-  industrijska-revolucija: industrijska revolucija
-  prva-industrijska-revolucija: Prva industrijska revolucija
-  manufaktura: manufaktura
-  manufakturna-radionica: manufakturna radionica
-  velika-britanija: Velika Britanija
-  kolonija: kolonija
-  pamuk: pamuk
-  tkanine: tkanine
-  robovlasnistvo: robovlasništvo
-  fabrika: fabrika
-  leteci-cunak: leteći čunak
-  dzon-kej: Džon Kej
-  predilica: predilica
-  razboj: razboj
-  rudarstvo: rudarstvo
-  kameni-ugalj: kameni ugalj
-  gvozdje: gvožđe
-  parna-masina: parna mašina
-  dzejms-vat: Džejms Vat
-  tekstilna-industrija: tekstilna industrija
-  metalna-industrija: metalna industrija
-  masinska-industrija: mašinska industrija
-  saobracaj: saobraćaj
-  dzordz-stivenson: Džordž Stivenson
-  parna-lokomotiva: parna lokomotiva
-  zeleznica: železnica
-  stokton-darlington: pruga Stokton–Darlington
-  mancester-liverpul: pruga Mančester–Liverpul
-  raketa: Raketa (lokomotiva)
-  robert-fulton: Robert Fulton
-  parobrod: parobrod
-  klermont: Klermont
-  hadson: Hadson
-  njujork: Njujork
-  olbani: Olbani
-  jedrenjaci: jedrenjaci
-  gradjanstvo: građanstvo
-  burzoazija: buržoazija
-  radnistvo: radništvo
-  radnicka-klasa: radnička klasa
-  decji-rad: dečji rad
-  radnicka-naselja: radnička naselja
-  mancester: Mančester
-  liverpul: Liverpul
-  grad-pamuka: „Grad pamuka”
-  radnicki-nemiri: radnički nemiri
-  luditi: luditi
-  ned-lud: Ned Lud
-  radnicka-udruzenja: radnička udruženja
-  britanski-parlament: britanski parlament
-  zagadjenje-zivotne-sredine: zagađenje životne sredine
-  london: London
-
-# Zadaci (banka): banka.yaml — po delovima lekcije, svaki sa težinom (lako/srednje/tesko).
-banka: banka.yaml
