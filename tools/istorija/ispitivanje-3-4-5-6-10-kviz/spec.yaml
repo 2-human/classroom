@@ -21,7 +21,5 @@ osa:
     - {id: crkva-kultura, label: Crkva i kultura, color: '#1f7a3a'}
 
 sastav:
-  ucenje: 30
-  test: 25
+  pitanja: 25
   odnos: [40, 40, 20]
-  ponavljanje: 50

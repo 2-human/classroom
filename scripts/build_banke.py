@@ -5,8 +5,9 @@ Usage (from anywhere in the repo):
     python3 scripts/build_banke.py
 
 Source: shared/banke/{nivo}/{razred}/{predmet}/NN-slug.yaml. A page lists the lesson's questions by
-part, with filters; a question opens to its answer and links to the lesson section it comes from, its
-book page and the quizzes that draw from the lesson. Anchor #{item id} opens one question.
+part, with filters; a question opens to its answer, links to the lesson section it comes from, its
+book page and the quizzes that draw from the lesson, and its history of answers (when, right or wrong,
+in which quiz and instance), read from this browser's localStorage. Anchor #{item id} opens one question.
 """
 import json
 import os
@@ -65,6 +66,10 @@ __SHELL_CSS__
  .ans .rel{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:9px;font-size:13px}
  .ans .rel a{color:#b1271f;font-weight:600;text-decoration:none}
  .ans .rel a.kv{color:#1f7a3a}
+ .his{flex:0 0 auto;font-size:12px;margin-top:2px;white-space:nowrap} .his i{font-style:normal;color:#1f7a3a} .his u{text-decoration:none;color:#b1271f}
+ .hist{list-style:none;margin:3px 0 0;padding:0;font-size:13.5px}
+ .hist li{padding:3px 0;border-bottom:1px solid #f4efe4} .hist li.y>span{color:#1f7a3a;font-weight:700} .hist li.n>span{color:#b1271f;font-weight:700}
+ .hist a{color:#1f7a3a;text-decoration:none;font-weight:600} .hist .v{color:#6b6456;font-size:12.5px;margin-left:16px}
  details.q.hit{box-shadow:0 0 0 3px rgba(201,138,44,.5)}
  @media (max-width:760px){ .bk{padding:16px 16px 60px} details.q .vr{display:none} }
 </style>
@@ -99,6 +104,23 @@ function hash() {
   if (!el) return; el.hidden = false; el.open = true; el.scrollIntoView({ block: 'start' }); el.classList.add('hit');
 }
 window.addEventListener('hashchange', hash);
+// history of answers: written by the quizzes in this browser (localStorage), oldest first
+const ODG = (() => { try { return JSON.parse(localStorage.getItem('classroom:odgovori:__PREDMET__')) || {}; } catch (e) { return {}; } })();
+const KV = __KV__, escH = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const when = iso => { const d = new Date(iso); return d.toLocaleDateString('sr-Latn') + ' ' + d.toLocaleTimeString('sr-Latn', { hour: '2-digit', minute: '2-digit' }); };
+let odgovoreno = 0;
+qs.forEach(q => {
+  const h = ODG[q.id]; if (!h || !h.length) return;
+  odgovoreno++;
+  const ok = h.filter(x => x.ok).length, bad = h.length - ok;
+  q.querySelector('.vr').insertAdjacentHTML('beforebegin', '<span class="his" title="Tačnih i netačnih odgovora"><i>✓' + ok + '</i> <u>✗' + bad + '</u></span>');
+  q.querySelector('.ans').insertAdjacentHTML('beforeend', '<div class="lbl">Hronologija odgovora</div><ol class="hist">' + h.map(x => {
+    const k = KV[x.kviz];
+    return '<li class="' + (x.ok ? 'y' : 'n') + '"><span>' + (x.ok ? '✓' : '✗') + '</span> ' + when(x.t) + (x.prvi ? '' : ' · ponovljen pokušaj') + ' · ' +
+      (k ? '<a href="' + k.href + '#r:' + x.id + '">' + escH(k.title) + ', kviz ' + x.inst + '</a>' : escH(x.kviz) + ', kviz ' + x.inst) + (x.v ? '<div class="v">' + escH(x.v) + '</div>' : '') + '</li>';
+  }).join('') + '</ol>');
+});
+document.getElementById('hist-n').textContent = odgovoreno ? 'Odgovoreno pitanja: ' + odgovoreno + ' (podaci iz ovog pregledača).' : 'Još nema odgovora u ovom pregledaču.';
 apply(); setTimeout(hash, 50);
 </script>
 </body>
@@ -173,9 +195,11 @@ def build_subject(nivo, razred, predmet):
             f'<a href="{catalog}#/{nivo}">{esc(nivo_title(nivo))}</a>', f'<a href="{catalog}#/{nivo}/{razred}">{esc(razred_title(razred))}</a>',
             f'<a href="{subj}">{esc(predmet_title(predmet))}</a>', f'<a href="{subj}/banka">Banka</a>', f'<span class="cur">{esc(naslov)}</span>']) + "</nav>")
         body = (f'<h1>{esc(naslov)}</h1><p class="meta">Banka pitanja · {esc(predmet_title(predmet))} · {esc(razred_title(razred))} · {len(its)} pitanja. '
-                "Klikni pitanje da vidiš odgovor.</p>" + links + flt + "".join(cards))
+                "Klikni pitanje da vidiš odgovor.</p>" + '<p class="meta" id="hist-n"></p>' + links + flt + "".join(cards))
         html = (PAGE.replace("__SHELL_CSS__", SHELL_CSS).replace("__SHELL_JS__", SHELL_JS).replace("__BRAND_CRUMBS__", crumbs)
-                .replace("__NAV__", nav).replace("__BODY__", body).replace("__TITLE__", esc(f"{naslov} — banka pitanja")))
+                .replace("__NAV__", nav).replace("__BODY__", body)
+                .replace("__PREDMET__", f"{nivo}/{razred}/{predmet}")
+                .replace("__KV__", json.dumps({q["slug"]: {"title": q["title"], "href": rel(page_dir, q["href"])} for q in quizzes}, ensure_ascii=False).replace("</", "<\\/")).replace("__TITLE__", esc(f"{naslov} — banka pitanja")))
         (page_dir / "index.html").write_text(html, encoding="utf-8")
     return len(files), sum(counts.values())
 

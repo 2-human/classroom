@@ -43,9 +43,7 @@ karta:
     podgorica: {naziv: Podgorica, lat: 42.44, lon: 19.26, radius_km: 30}
     skoplje: {naziv: Skoplje, lat: 42.00, lon: 21.43, radius_km: 35}
 
-# Sastav: Učenje (jedna sesija) i Test se svaki put izvlače nanovo iz banke u odnosu
-# `odnos` lako/srednje/teško. Kratka lekcija → manje zadataka po sesiji.
+# Sastav: svaka instanca kviza se izvlači nanovo iz banke (napisani zadaci + generisani iz baze) u odnosu `odnos`.
 sastav:
-  ucenje: 15
-  test: 10
+  pitanja: 25
   odnos: [40, 40, 20]

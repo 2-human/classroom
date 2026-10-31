@@ -73,6 +73,5 @@ karta:
     san-marino: {naziv: San Marino, lat: 43.94, lon: 12.45, radius_km: 25}
 
 sastav:
-  ucenje: 20
-  test: 15
+  pitanja: 25
   odnos: [40, 40, 20]

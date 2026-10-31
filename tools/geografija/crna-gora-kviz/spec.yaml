@@ -49,6 +49,5 @@ karta:
     ada-bojana: {naziv: Ada Bojana, lat: 41.86, lon: 19.35, radius_km: 15}
 
 sastav:
-  ucenje: 20
-  test: 15
+  pitanja: 25
   odnos: [40, 40, 20]

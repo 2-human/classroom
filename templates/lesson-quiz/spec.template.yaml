@@ -29,11 +29,9 @@ karta:
 baza:
   drzave:   # `more` = nastavak rečenice „Ova država …”; mini: true = premala za klik na karti
     - {iso: ITA, naziv: Italija, grad: Rim, lat: 41.9, lon: 12.5, poluostrvo: Apeninsko, more: sa tri strane izlazi na Sredozemno more, tezina: lako}
-sastav:                            # Učenje (sesija) i Test se svaki put izvlače iz banke
-  ucenje: 20
-  test: 15
+sastav:                            # svaka instanca kviza se izvlači iz banke
+  pitanja: 25
   odnos: [40, 40, 20]              # % lakih / srednjih / teških
-  ponavljanje: 50                  # % sesije Učenja iz pojmova koji su na redu (Moje znanje)
   generisano: {karta_drzava: 4}    # glavni_gradovi | karta_drzava | poluostrvo | gde_glavni_grad (kandidata po izvlačenju)
   iz_udzbenika: {strana: 1, odeljak: "{…}", tekst: "{zajednički odeljak za generisane zadatke}"}
 

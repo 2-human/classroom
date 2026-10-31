@@ -23,7 +23,5 @@ osa:
     - {id: dogadjaji, label: Događaji, color: '#3a6ba5'}
 
 sastav:
-  ucenje: 20
-  test: 15
+  pitanja: 25
   odnos: [40, 40, 20]
-  ponavljanje: 50

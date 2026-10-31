@@ -13,9 +13,8 @@ Render logika: `shared/python/lesson_quiz.py`. Primer: `tools/geografija/juzna-e
 4. Posle odgovora fioka prelazi u **Saznaj više**: objašnjenje, pojmovi i druge lekcije u kojima se
    pojam javlja (iz privatnog grafa `tools/{predmet}/_source/pojmovi-{razred}/`, ako postoji).
 
-Režimi: **Učenje** (pomoć) · **Test** (bez pomoći, isto bodovanje) · **Ispravka** (posle testa:
-zadaci koji nisu rešeni iz prve, sa pomoći; rezultat testa se ne menja). U Učenju meni ⋯ ima
-„Ponovi otkrivene”.
+Jedan kviz, bez režima. Instanca se izvlači iz banke; u rezultat ide **prvi odgovor** na svako pitanje
+(tačno / netačno), a pomoć ostaje posle greške da bi se našao tačan odgovor, bez promene rezultata.
 
 ## Banka, težina i sastav
 
@@ -26,18 +25,21 @@ zadaci koji nisu rešeni iz prve, sa pomoći; rezultat testa se ne menja). U Uč
   `srednje` — detalji, brojevi, dve činjenice, uverljivi pogrešni odgovori; `tesko` — zaključivanje,
   poređenje, primena, dopuna bez banke reči, male države i mesta na karti. U listi zadataka oznake
   **L / S / T**, legenda sa brojem po težini.
-- **Sastav:** i sesija Učenja i svaki test se izvlače nanovo iz banke: `sastav.ucenje` / `sastav.test`
-  zadataka u odnosu `sastav.odnos` (podrazumevano 40/40/20), ravnomerno po delovima lekcije pa po
-  vrstama. Banci se pri svakom izvlačenju pridružuju i zadaci generisani iz `baza.drzave`
-  (`sastav.generisano`; njihova težina dolazi od `tezina` države). „Počni učenje ispočetka” = nova sesija.
+- **Sastav:** instanca ima `sastav.pitanja` pitanja (podrazumevano 25) u odnosu `sastav.odnos`
+  (podrazumevano 40/40/20), ravnomerno po delovima lekcije pa po vrstama. Banci se pri svakom izvlačenju
+  pridružuju i zadaci generisani iz `baza.drzave` (`sastav.generisano`; težina dolazi od `tezina` države).
+- **Nova instanca:** 10–25% pitanja dolazi iz prethodne instance, najpre netačno odgovorena (oko dve
+  trećine), pa tačna (oznaka ↻). Ostalo su pitanja koja nisu bila u prethodnoj: prvo ona nikad postavljena,
+  a kad ih nestane, ona postavljena najdavnije.
 
-## Test: svaki zabeležen
+## Arhiva i istorija odgovora
 
-- **Beleženje:** svaki pokušaj (zadaci, svaki odgovor učenika po zadatku, bodovi, Ispravka, ime ako
-  ga upiše) čuva se u pregledaču (localStorage). „Moji testovi” u navigaciji → **Pregled rada**
-  (svaki zadatak: odgovori učenika ✓/✗ i tačan odgovor) i **Preuzmi (CSV)** za nastavnika (jedan red po
-  zadatku; „Preuzmi sve testove” na ekranu Novi test). Bez servera i naloga — rezultati su na uređaju
-  na kome je test rađen.
+- **Arhiva rezultata:** završena instanca (svako pitanje ima prvi odgovor) ostaje u arhivi kviza, levo u
+  navigaciji: rezultat, **Pregled rada** i **CSV** za nastavnika.
+- **Banka:** svaki odgovor se upisuje i po pitanju; stranica Banke pokazuje hronologiju (kada, tačno ili
+  netačno, u kom kvizu i kojoj instanci, sa vezom na tu instancu u arhivi).
+- Sve je u pregledaču (localStorage), bez naloga: javna i zaštićena kopija dele isti zapis, ali drugi uređaj
+  ne vidi ove podatke.
 
 ## Vrste zadataka
 
@@ -48,7 +50,7 @@ zadaci koji nisu rešeni iz prve, sa pomoći; rezultat testa se ne menja). U Uč
 | `dopuni` | praznine `{{odgovor\|alternativa}}` | `ponudjene` = banka reči; tačne praznine se zaključaju |
 | `povezi` | `parovi` levo ↔ desno | desna kolona se meša |
 | `zakljuci` | rasuđivanje, jedan tačan | `pomoc` piši kao korake („Korak 1: …”) |
-| `karta_klik` | klikni državu (`drzava: ISO3`) ili mesto (`mesto: slug`) | u Učenju promašaj kaže koja je država / koliko km |
+| `karta_klik` | klikni državu (`drzava: ISO3`) ili mesto (`mesto: slug`) | promašaj kaže koja je država / koliko km |
 | `gde_sam` | `tragovi` jedan po jedan, klik na kartu | svaki pogrešan klik ili „Još jedan trag” = sledeći trag |
 | `datum` | godina (`godina`) ili raspon (`od`/`do`) događaja `dogadjaj` | pogrešna godina kaže ranije/kasnije i koliko blizu; stavlja događaj na osu |
 | `poredjaj` | poređaj `stavke` hronološki (u spec-u u tačnom redu, svaka sa `godina`) | tačne pozicije se zaključaju; sve stavke idu na osu |
@@ -56,7 +58,7 @@ zadaci koji nisu rešeni iz prve, sa pomoći; rezultat testa se ne menja). U Uč
 | `izvor` | odlomak `izvor: {autor, naslov, tekst, napomena}` + pitanje | odlomak sopstvenim rečima ili javno dobro, uz napomenu |
 | `uporedi` | razvrstaj `tvrdnje` u `a` / `b` / oba / nijedan | svaka tvrdnja ima `odgovor` i `zasto` |
 | `ko_sam` | ličnost iz `tragova` jedan po jedan, odgovor iz `odgovori` | svaki trag ili greška = manje bodova |
-| `objasni` | učenik napiše odgovor, pa vidi `uzor` i štiklira `ideje` | samoprocena (sve → 3, bar pola → 2, neke → 1); nema ga u testu |
+| `objasni` | učenik napiše odgovor, pa vidi `uzor` i štiklira `ideje` | samoprocena (sve ideje = tačno; neke → 1); nema ga u testu |
 
 **Zašto (`zasto`):** svaki pogrešan ponuđeni odgovor (`odgovori`, `ispravke`, `uporedi.tvrdnje`) može da
 objasni zašto nije tačan. Učenik to vidi u fioci čim ga izabere, a tekst odgovora se precrta.
@@ -69,9 +71,8 @@ Događaj koji knjiga datira samo delom veka dobija `oznaka: "kraj XVIII veka"` (
 crta šrafirano, sa tom oznakom umesto godina (`od`/`do` ga samo približno smeštaju); `datum` ga ne sme tražiti.
 
 **Moje znanje:** svaki pojam (`pojmovi`) ima nivo 0–4 (Leitner); tačno iz prve → nivo gore, vraća se
-posle 1, 3, 7, 14 dana; greška → nazad na 0. Nova sesija Učenja izvlači `sastav.ponavljanje`%
-(podrazumevano 50) zadataka iz pojmova koji su na redu, po mogućstvu kroz drugu vrstu zadatka nego
-prošli put (oznaka ↻). Ispravka ne menja nivo.
+posle 1, 3, 7, 14 dana; greška → nazad na 0. Nova instanca izvlači do `sastav.ponavljanje`%
+(podrazumevano 20) novih pitanja iz pojmova koji su na redu, po mogućstvu kroz drugu vrstu zadatka.
 
 ## Novi kviz
 
@@ -113,7 +114,7 @@ Svaki predmet ima banku po lekciji: `shared/banke/{nivo}/{razred}/{predmet}/{NN-
 (`lekcija`, `naslov`, `pojmovi`, `delovi`, a geografija i `mesta`; id zadatka je jedinstven u predmetu, nove banke počinju sa `lNN-`). Proveri je sa
 `python3 scripts/proveri_banku.py shared/banke/...`. Kviz je tada samo definicija: `spec.yaml` bez
 `banka:`, sa `banka_lekcije: [3, 4, 5, 6, 10]`, `sastav` i `osa`. Svaki deo lekcije postaje deo kviza
-(„3. Naslov”), učenje i test izvlače zadatke srazmerno veličini delova, a zaštićena kopija u navigaciji
+(„3. Naslov”), instanca izvlači zadatke srazmerno veličini delova, a zaštićena kopija u navigaciji
 ima grupu „Gradivo” sa svim izabranim lekcijama. Godine pre nove ere su negativni brojevi: učenik
 upisuje broj i bira „pre n. e.” ili „n. e.”.
 

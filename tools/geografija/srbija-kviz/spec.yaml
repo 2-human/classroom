@@ -70,6 +70,5 @@ karta:
     obedska-bara: {naziv: Obedska bara, lat: 44.73, lon: 19.98, radius_km: 20}
 
 sastav:
-  ucenje: 20
-  test: 15
+  pitanja: 25
   odnos: [40, 40, 20]

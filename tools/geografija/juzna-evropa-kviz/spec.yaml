@@ -73,12 +73,9 @@ baza:
     - {iso: GRC, naziv: Grčka, grad: Atina, lat: 37.98, lon: 23.73, poluostrvo: Balkansko, more: izlazi na Egejsko, Jonsko i Sredozemno more, tezina: lako}
     - {iso: BGR, naziv: Bugarska, grad: Sofija, lat: 42.70, lon: 23.32, poluostrvo: Balkansko, more: izlazi na Crno more, tezina: srednje}
 
-# Sastav: Učenje (jedna sesija) i Test se svaki put izvlače nanovo iz banke (napisani zadaci +
-# generisani iz baze) u odnosu `odnos` lako/srednje/teško; `generisano` = koliko generisanih
-# kandidata svake vrste ulazi u banku pri svakom izvlačenju.
+# Sastav: svaka instanca kviza se izvlači nanovo iz banke (napisani zadaci + generisani iz baze) u odnosu `odnos`.
 sastav:
-  ucenje: 20
-  test: 15
+  pitanja: 25
   odnos: [40, 40, 20]
   generisano: {glavni_gradovi: 2, karta_drzava: 6, poluostrvo: 4, gde_glavni_grad: 4}
   iz_udzbenika:

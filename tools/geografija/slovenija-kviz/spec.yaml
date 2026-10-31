@@ -47,6 +47,5 @@ karta:
     kupa: {naziv: Kupa, lat: 45.50, lon: 15.20, radius_km: 20}
 
 sastav:
-  ucenje: 20
-  test: 15
+  pitanja: 25
   odnos: [40, 40, 20]

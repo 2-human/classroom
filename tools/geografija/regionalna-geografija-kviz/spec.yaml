@@ -64,6 +64,5 @@ karta:
     arabijsko-poluostrvo: {naziv: Arabijsko poluostrvo, lat: 23.0, lon: 47.0, radius_km: 800}
 
 sastav:
-  ucenje: 20
-  test: 15
+  pitanja: 25
   odnos: [40, 40, 20]

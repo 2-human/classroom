@@ -23,7 +23,5 @@ osa:
     - {id: drustvo, label: Društvo, color: '#1f7a3a'}
 
 sastav:
-  ucenje: 20
-  test: 15
+  pitanja: 25
   odnos: [40, 40, 20]
-  ponavljanje: 50

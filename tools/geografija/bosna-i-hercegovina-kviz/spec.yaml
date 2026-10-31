@@ -49,6 +49,5 @@ karta:
     neretva: {naziv: Neretva, lat: 43.10, lon: 17.70, radius_km: 35}
 
 sastav:
-  ucenje: 20
-  test: 15
+  pitanja: 25
   odnos: [40, 40, 20]

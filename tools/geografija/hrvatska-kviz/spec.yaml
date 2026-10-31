@@ -53,9 +53,7 @@ karta:
     osijek: {naziv: Osijek, lat: 45.55, lon: 18.69, radius_km: 25}
     zadar: {naziv: Zadar, lat: 44.12, lon: 15.23, radius_km: 25}
 
-# Sastav: Učenje (jedna sesija) i Test se svaki put izvlače nanovo iz banke u odnosu
-# `odnos` lako/srednje/teško.
+# Sastav: svaka instanca kviza se izvlači nanovo iz banke (napisani zadaci + generisani iz baze) u odnosu `odnos`.
 sastav:
-  ucenje: 20
-  test: 15
+  pitanja: 25
   odnos: [40, 40, 20]

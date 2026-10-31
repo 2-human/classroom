@@ -43,6 +43,5 @@ karta:
     egejsko-more: {naziv: "Egejsko more (Solunski zaliv)", lat: 40.40, lon: 22.85, radius_km: 60}
 
 sastav:
-  ucenje: 20
-  test: 15
+  pitanja: 25
   odnos: [40, 40, 20]

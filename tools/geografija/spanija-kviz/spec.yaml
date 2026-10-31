@@ -57,9 +57,7 @@ karta:
     seuta: {naziv: Seuta, lat: 35.89, lon: -5.32, radius_km: 30}
     melilja: {naziv: Melilja, lat: 35.29, lon: -2.94, radius_km: 35}
 
-# Sastav: Učenje (jedna sesija) i Test se svaki put izvlače nanovo iz banke u odnosu
-# `odnos` lako/srednje/teško.
+# Sastav: svaka instanca kviza se izvlači nanovo iz banke (napisani zadaci + generisani iz baze) u odnosu `odnos`.
 sastav:
-  ucenje: 20
-  test: 15
+  pitanja: 25
   odnos: [40, 40, 20]
