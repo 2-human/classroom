@@ -214,6 +214,8 @@ __SHELL_CSS__
  .app-nav .cur{background:#efe7d2;font-weight:600}
  .app-nav .none{font-size:12px;color:#9b9387;padding:2px 8px 6px}
  .app-nav .les{display:none}
+ .app-nav .row.lsn{display:none}   /* a subject with three objects lists its lessons in the main column; the nav filter still finds them */
+ .app-nav.filtering .row.lsn:not(.f-hide){display:flex}
  .app-nav .les.open,.app-nav.filtering .les{display:block}
  .cat{padding:26px 28px 60px;max-width:1000px}
  .cat h1{font-size:24px;margin:0 0 6px;color:#3a3528}
@@ -316,9 +318,9 @@ function renderNav() {
         }
         for (const l of lessonsOf(s)) {
           const names = l.tools.map(slug => tool(s.predmet, slug).title).join(' ');
-          h += '<a class="row l' + (l.tools.length ? ' has' : '') + '" href="#/' + sr + '/' + l.broj + '" data-route="' + sr + '/' + l.broj +
+          h += '<a class="row l' + (s.banka ? ' has lsn' : l.tools.length ? ' has' : '') + '" href="#/' + sr + '/' + l.broj + '" data-route="' + sr + '/' + l.broj +
                '" data-filter="' + esc(g.title + ' ' + s.title + ' ' + l.broj + '. ' + l.naslov + ' ' + names) + '"><span class="lbl">' +
-               l.broj + '. ' + esc(l.naslov) + '</span>' + (l.tools.length ? '<span class="cnt">' + l.tools.length + '</span>' : '') + '</a>';
+               l.broj + '. ' + esc(l.naslov) + '</span>' + (l.tools.length && !s.banka ? '<span class="cnt">' + l.tools.length + '</span>' : '') + '</a>';
         }
         h += '</div></div>';
       }
@@ -438,7 +440,7 @@ function route() {
     : '<a href="' + href + '">' + esc(txt) + '</a>').join('<span class="sep">›</span>');
 
   const cur = [nivo, razred, predmet, broj].filter(Boolean).join('/');
-  const curRoute = s && !l && !view && t && s.whole.includes(t.slug) ? cur + '?t=' + t.slug : s && s.banka && !l && !view ? cur + '/gradivo' : cur;
+  const curRoute = s && !l && !view && t && s.whole.includes(t.slug) ? cur + '?t=' + t.slug : s && s.banka && !view ? [nivo, razred, predmet, 'gradivo'].join('/') : cur;
   nav.querySelectorAll('[data-route]').forEach(a => a.classList.toggle('cur', a.dataset.route === curRoute));
   nav.querySelectorAll('.les').forEach(d => d.classList.toggle('open', !!s && d.dataset.subj === lv.nivo + '/' + g.razred + '/' + s.predmet));
   const c = nav.querySelector('.cur'); if (c) c.scrollIntoView({ block: 'nearest' });
