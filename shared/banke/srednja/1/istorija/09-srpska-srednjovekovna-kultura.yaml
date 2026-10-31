@@ -713,6 +713,7 @@ delovi:
         iz_udzbenika: {strana: 38, odeljak: "Arhitektura i slikarstvo", tekst: "Mnogi manastiri građeni su po vizantijskom uzoru, a vremenom je razvijen moravski stil."}
       - id: l09-manasija-izvor
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [manasija, manastir]
         izvor:
@@ -731,6 +732,7 @@ delovi:
         iz_udzbenika: {strana: 39, odeljak: "Slike i karte", tekst: "Fotografija manastira Manasija stoji uz odeljak o srpskoj srednjovekovnoj umetnosti.", slika: "09-srpska-srednjovekovna-kultura/02-manastir-manasija.jpg"}
       - id: l09-freska-izvor
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [freska, mileseva]
         izvor:

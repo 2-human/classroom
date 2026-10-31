@@ -1348,6 +1348,7 @@ delovi:
 
       - id: klima-zakljuci-alpi-slika
         vrsta: zakljuci
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [alpi]
         pitanje: Na fotografiji su visoki stenoviti vrhovi sa snegom, livade i četinari. Kakva je klima na tom mestu?

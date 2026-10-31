@@ -896,6 +896,7 @@ delovi:
 
       - id: reljef-zakljuci-nizije
         vrsta: zakljuci
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [andaluzija, aragonija, mezeta]
         pitanje: Tražiš na karti Španije zelene površine (nizije). Gde ćeš ih naći?

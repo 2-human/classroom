@@ -1577,6 +1577,7 @@ delovi:
 
       - id: av-izvor-viktorija
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [kraljica-viktorija, fotografija, audio-vizuelni-izvori]
         izvor:

@@ -821,6 +821,7 @@ delovi:
 
       - id: drustvo-zakljuci-dzamija
         vrsta: zakljuci
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [bascarsija, islam, federacija-bih, bosnjaci]
         pitanje: Na fotografiji Baščaršije u Sarajevu vide se džamija i minaret. Šta to govori o stanovništvu Federacije BiH?
@@ -1086,6 +1087,7 @@ delovi:
 
       - id: privreda-zakljuci-mostar
         vrsta: zakljuci
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [mostar, turizam, neretva]
         pitanje: Na fotografiji je Mostar sa kamenim Starim mostom preko reke. Zašto je Mostar turistički grad?
@@ -1316,6 +1318,7 @@ delovi:
 
       - id: gradovi-dopuni-legenda
         vrsta: dopuni
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [republika-srpska, federacija-bih, brcko-distrikt]
         pitanje: Dopuni legendu karte entiteta rečima iz banke.
@@ -1373,6 +1376,7 @@ delovi:
 
       - id: gradovi-zakljuci-bascarsija
         vrsta: zakljuci
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [sarajevo, bascarsija]
         pitanje: Na fotografiji je stari deo grada sa drvenom česmom Sebilj i džamijom, a grad je u kotlini okružen planinama. Koji je to grad?
@@ -1394,6 +1398,7 @@ delovi:
 
       - id: gradovi-zakljuci-luk
         vrsta: zakljuci
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [republika-srpska, federacija-bih, brcko-distrikt]
         pitanje: Šta se vidi na karti entiteta BiH?

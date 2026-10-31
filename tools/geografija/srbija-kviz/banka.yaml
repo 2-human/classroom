@@ -903,6 +903,7 @@ delovi:
 
       - id: reljef-zakljuci-vojvodina-slika
         vrsta: zakljuci
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [vojvodina, panonska-nizija]
         pitanje: Na fotografiji vidiš ravno, požnjeveno žitno polje sa balama slame do horizonta. U kom delu Srbije je verovatno snimljena?
@@ -1171,6 +1172,7 @@ delovi:
 
       - id: klima-zakljuci-prokletije
         vrsta: zakljuci
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [planinska-klima, prokletije]
         pitanje: Na fotografiji Prokletija vrhovi su strmi i stenoviti, bez šume pri vrhu. Šta to govori o klimi tamo?
@@ -2175,6 +2177,7 @@ delovi:
 
       - id: privreda-zakljuci-kop
         vrsta: zakljuci
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [bakar, bor]
         pitanje: Na fotografiji vidiš ogroman stepenasti kop bez biljaka, sa mašinama na dnu, u istočnoj Srbiji. Šta je to?

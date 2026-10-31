@@ -2022,6 +2022,7 @@ delovi:
           tekst: "U Srbiji ima još dosta neistraženih lokaliteta sa mogućim važnim tragovima."
       - id: l01-izvor-orudja
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [paleolit, kamena-orudja]
         izvor:
@@ -2047,6 +2048,7 @@ delovi:
           slika: "01-balkansko-poluostrvo-u-praistoriji/01-orudja-paleolita.jpg"
       - id: l01-izvor-kamena-glava
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [lepenski-vir, riboliki-idoli]
         izvor:
@@ -2073,6 +2075,7 @@ delovi:
         osa: {naziv: "Lepenski Vir", od: -6700, do: -5500, traka: crkva-kultura}
       - id: l01-izvor-figura
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [vincanska-kultura, vinca]
         izvor:
@@ -2099,6 +2102,7 @@ delovi:
         osa: {naziv: "Vinčanska kultura", od: -5300, do: -4300, traka: crkva-kultura}
       - id: l01-izvor-karta
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: tesko
         pojmovi: [arheoloska-nalazista, vinca, lepenski-vir]
         izvor:
@@ -2124,6 +2128,7 @@ delovi:
           slika: "01-balkansko-poluostrvo-u-praistoriji/06-karta-arheoloska-nalazista-srbije.jpg"
       - id: l01-izvor-kolica
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [dupljajska-kolica, bronzano-doba]
         izvor:
@@ -2260,6 +2265,7 @@ delovi:
           slika: "01-balkansko-poluostrvo-u-praistoriji/04-ogrlica-lepenski-vir.jpg"
       - id: l01-izvor-ogrlica
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [lepenski-vir, nakit, arheologija]
         izvor:

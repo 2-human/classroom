@@ -696,6 +696,7 @@ delovi:
 
       - id: l11-izvor-freska
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [stefan-lazarevic, despot]
         izvor:
@@ -1482,6 +1483,7 @@ delovi:
 
       - id: l11-izvor-tomasevic-slika
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [stefan-tomasevic, bosna]
         izvor:

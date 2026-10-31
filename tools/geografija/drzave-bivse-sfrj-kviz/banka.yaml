@@ -690,6 +690,7 @@ delovi:
 
       - id: karta-zakljuci-jadran
         vrsta: zakljuci
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [hrvatska, crna-gora]
         pitanje: Na osnovu položaja republika na karti, koje dve bivše republike imaju širok izlaz na Jadransko more?

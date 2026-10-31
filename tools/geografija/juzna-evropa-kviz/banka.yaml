@@ -505,6 +505,7 @@ delovi:
 
       - id: istorija-izbor-partenon
         vrsta: izbor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [partenon, atina, anticka-grcka]
         pitanje: Partenon na fotografiji u udžbeniku je antički hram. Kome je bio posvećen?
@@ -1266,6 +1267,7 @@ delovi:
 
       - id: stanovnistvo-izbor-imigranti
         vrsta: izbor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [imigracija]
         pitanje: Pogledaj kartu migracija u 21. veku. Sa kojih kontinenata danas dolaze imigranti u Južnu Evropu? (Više tačnih.)
@@ -1308,6 +1310,7 @@ delovi:
 
       - id: stanovnistvo-zakljuci-karta
         vrsta: zakljuci
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [imigracija, emigracija]
         pitanje: Na karti migracija u 21. veku strelice sa Balkana vode ka zapadnoj i srednjoj Evropi, a strelice iz Afrike i Azije ka jugu Evrope. Šta zaključuješ?
@@ -2170,6 +2173,7 @@ delovi:
 
       - id: drzave-povezi-fotografije
         vrsta: povezi
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [madrid, lisabon, sofija]
         pitanje: Poveži glavni grad sa fotografije u udžbeniku sa državom.
@@ -2190,6 +2194,7 @@ delovi:
 
       - id: drzave-izbor-sofija
         vrsta: izbor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [sofija, bugarska]
         pitanje: Na fotografiji u udžbeniku je Sofija, sa katedralom zlatnih kupola. Čiji je ona glavni grad?

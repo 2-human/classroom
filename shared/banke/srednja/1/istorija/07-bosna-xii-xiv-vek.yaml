@@ -1237,6 +1237,7 @@ delovi:
 
       - id: l07-jac-izvor-karta
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [pavle-radenovic, bosna, tvrtko-i]
         izvor:
@@ -1264,6 +1265,7 @@ delovi:
 
       - id: l07-jac-izvor-karta-ko
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [pavle-radenovic, dubrovnik]
         izvor:

@@ -731,6 +731,7 @@ delovi:
 
       - id: l06-izvor-milutin-freska
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [kralj-milutin, ktitor]
         izvor: {autor: "Freska iz udžbenika", naslov: "Kralj Milutin (opis slike)", tekst: "Uspravna figura vladara u bogato ukrašenoj odeći, sa krunom i oreolom. U rukama drži model crkve sa više kupola, a nad njim je anđeo koji donosi krunu.", napomena: "Odlomak je prepričan; udžbenik, str. 30."}
@@ -1690,6 +1691,7 @@ delovi:
 
       - id: l06-izvor-zakonik-rukopis
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [dusanov-zakonik]
         izvor: {autor: "Fotografija iz udžbenika", naslov: "Zakonik cara Dušana (opis slike)", tekst: "Otvorena stara knjiga: na obe strane je tekst, a na desnoj je i veliki ukrašeni zastavak iznad naslova.", napomena: "Odlomak je prepričan; udžbenik, str. 32."}
@@ -1708,6 +1710,7 @@ delovi:
 
       - id: l06-izvor-karta-susedi
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [car-dusan, korintski-zaliv]
         izvor: {autor: "Karta iz udžbenika", naslov: "Srpsko carstvo sredinom XIV veka (opis karte)", tekst: "Tamnijim tonom je označeno Dušanovo carstvo. Okolo su Ugarska, Vlaška, Bosna, Bugarsko carstvo, Vizantijsko carstvo i Napuljska kraljevina, a na jugu Atinsko vojvodstvo i Ahaja. Carstvo se proteže od Dunava do Korintskog zaliva.", napomena: "Odlomak je prepričan; udžbenik, str. 32."}
@@ -2175,6 +2178,7 @@ delovi:
 
       - id: l06-izvor-seljaci
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [zavisni-seljaci, feudalno-drustvo]
         izvor: {autor: "Ilustracija iz udžbenika", naslov: "Poljoprivredni radovi (opis slike)", tekst: "Tri sličice jedna do druge: seljak ore plugom koji vuku dva vola, drugi nosi kosu ili srp, treći kosi žito.", napomena: "Odlomak je prepričan; udžbenik, str. 33."}
@@ -2193,6 +2197,7 @@ delovi:
 
       - id: l06-izvor-novac-tesko
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: tesko
         pojmovi: [rudarstvo, srebro, feudalno-drustvo]
         izvor: {autor: "Fotografija iz udžbenika", naslov: "Srednjovekovni srpski novac (opis slike)", tekst: "Na novcu je vladar koji sedi na prestolu, a po obodu je natpis. Knjiga ne kaže čiji je novac.", napomena: "Odlomak je prepričan; udžbenik, str. 33."}

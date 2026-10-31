@@ -286,6 +286,7 @@ delovi:
 
       - id: nv-izvor-karta-1490
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [velika-geografska-otkrica, novi-vek]
         izvor:
@@ -313,6 +314,7 @@ delovi:
 
       - id: nv-izvor-karta-1794
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [velika-geografska-otkrica, rani-novi-vek]
         izvor:
@@ -1346,6 +1348,7 @@ delovi:
 
       - id: dr-izvor-demonstracije
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [radnistvo, london]
         izvor:
@@ -1888,6 +1891,7 @@ delovi:
 
       - id: sv-izvor-afrika
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [afrika, jagma-za-afrikom, velike-sile]
         izvor:
@@ -2796,6 +2800,7 @@ delovi:
 
       - id: sr-izvor-beograd
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [prvi-srpski-ustanak, katarina-ivanovic, beograd]
         izvor:
@@ -2823,6 +2828,7 @@ delovi:
 
       - id: sr-izvor-beograd-tesko
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: tesko
         pojmovi: [prvi-srpski-ustanak, katarina-ivanovic]
         izvor:

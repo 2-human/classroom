@@ -119,6 +119,7 @@ delovi:
 
       - id: uvod-izvor-manufaktura
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [manufaktura, manufakturna-radionica]
         izvor:
@@ -141,6 +142,7 @@ delovi:
 
       - id: uvod-izvor-karta
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [industrijska-revolucija, velika-britanija, zeleznica]
         izvor:
@@ -1456,6 +1458,7 @@ delovi:
 
       - id: sao-objasni-klermont
         vrsta: objasni
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [klermont, parobrod, parna-masina]
         pitanje: Pogledaj sliku Klermonta. Čemu služe veliki točak na boku i dimnjak? Objasni svojim rečima.
@@ -1814,6 +1817,7 @@ delovi:
 
       - id: dru-izvor-london
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [london, radnicka-naselja, radnistvo]
         izvor:
@@ -1892,6 +1896,7 @@ delovi:
 
       - id: dru-objasni-mancester
         vrsta: objasni
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [mancester, grad-pamuka, fabrika]
         pitanje: Pogledaj sliku Mančestera oko 1820. Šta prvo uočavaš i zašto su ga zvali „Grad pamuka”?

@@ -741,6 +741,7 @@ delovi:
 
       - id: l08-ure-izvor-veduta
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [dubrovnik, grad-drzava]
         izvor:

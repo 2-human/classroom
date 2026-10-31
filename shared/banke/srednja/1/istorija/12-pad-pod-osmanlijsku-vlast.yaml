@@ -986,6 +986,7 @@ delovi:
 
       - id: l12-izvor-slika-velikodostojnik
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [janicari]
         izvor:

@@ -116,3 +116,9 @@ Novi predmeti imaju banku po lekciji: `shared/banke/{nivo}/{razred}/{predmet}/{N
 („3. Naslov”), učenje i test izvlače zadatke srazmerno veličini delova, a zaštićena kopija u navigaciji
 ima grupu „Gradivo” sa svim izabranim lekcijama. Godine pre nove ere su negativni brojevi: učenik
 upisuje broj i bira „pre n. e.” ili „n. e.”.
+
+## Pitanje uz sliku ili kartu
+
+Ako pitanje traži gledanje slike ili karte, zadatak dobija `slika_u_pitanju: true`, a slika je
+`iz_udzbenika.slika`. Prikazuje se u glavnoj koloni ispod odgovora (potpis tek posle odgovora, da ne
+otkrije rešenje); javna kopija umesto slike vodi na verziju sa slikama.

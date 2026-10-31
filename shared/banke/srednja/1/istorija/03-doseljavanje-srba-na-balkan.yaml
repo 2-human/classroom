@@ -514,6 +514,7 @@ delovi:
 
       - id: l03-karta-pradomovine-izvor
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [pradomovina-slovena, karpati, visla]
         izvor:
@@ -540,6 +541,7 @@ delovi:
 
       - id: l03-skupstina-izvor
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [stari-sloveni, rodovsko-plemenska-zajednica]
         izvor:
@@ -3070,6 +3072,7 @@ delovi:
 
       - id: l03-slika-braca-izvor
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [cirilo-i-metodije, glagoljica]
         izvor:

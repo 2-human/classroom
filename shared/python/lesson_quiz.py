@@ -501,6 +501,9 @@ __SHELL_CSS__
  .hl ul{margin:0;padding-left:18px} .hl ul li{margin:3px 0}
  .hl .ref{font-size:12px;color:var(--muted);margin:0 0 6px}
  .hl figure{margin:6px 0 10px} .hl figure img{display:block;max-width:100%;border-radius:6px;border:1px solid var(--border)}
+ .qfig{margin:16px 0 0;max-width:720px} .qfig img{display:block;max-width:100%;max-height:62vh;border-radius:8px;border:1px solid var(--border);cursor:zoom-in}
+ .qfig.zoom{max-width:none;overflow-x:auto} .qfig.zoom img{max-width:none;max-height:none;cursor:zoom-out}
+ .qfig figcaption{font-size:12.5px;color:var(--muted);margin-top:5px}
  .hl figcaption{font-size:11.5px;color:var(--muted);margin-top:4px}
  .hl .book{border-left:3px solid #e1d8c2;padding:2px 0 2px 12px;margin:6px 0 4px}
  .hl .odeljak{margin:10px 0 4px;padding:8px 12px;background:#fefcf7;border:1px solid #e6e0d2;border-radius:8px;font-size:14px;line-height:1.5}
@@ -1093,7 +1096,14 @@ function frame(z, s, inner) {
   const pts = isDone(s) ? (s.status === 'ok' ? '✓ ' + s.pts + ' b' : s.status === 'failed' ? '✗ 0 b' : 'otkriveno · 0 b') : (s.miss ? 'sada ' + ptsFor(s.miss) + ' b' : 'do 3 b');
   return '<div class="item"><div class="ihead"><span class="vchip">' + VRSTA_LBL[z.vrsta] + '</span>' + tzBadge(z) + ' ' + TEZ_LBL[z.tezina] + '<span>' + esc(deoNaslov(z)) + ' · zadatak ' + n + ' / ' + curItems().length + '</span><span>' + pts + '</span></div>' +
     inner + '<div class="help-inline" id="helpInline"></div><div class="iactions" id="actions"></div>' +
-    (isDone(s) ? '<div class="expl' + (s.status === 'ok' ? '' : ' rev') + '">' + (s.status === 'failed' ? 'Netačno. Odgovor ćeš videti u Ispravci.' : fmt(z.objasnjenje || '')) + '</div>' : '') + '</div>';
+    (isDone(s) ? '<div class="expl' + (s.status === 'ok' ? '' : ' rev') + '">' + (s.status === 'failed' ? 'Netačno. Odgovor ćeš videti u Ispravci.' : fmt(z.objasnjenje || '')) + '</div>' : '') + questionFig(z, s) + '</div>';
+}
+function questionFig(z, s) {   // `slika_u_pitanju`: the question asks to look at the picture, so it stands under the answers (caption only once answered)
+  const b = z.iz_udzbenika; if (!z.slika_u_pitanju || !b || !b.slika) return '';
+  const cap = isDone(s) ? INFO.slikeNaslovi[b.slika] || '' : '';
+  return '<figure class="qfig"><img src="' + esc(INFO.slikeData[b.slika] || INFO.slike + b.slika) + '" alt="Slika uz pitanje" onclick="this.parentNode.classList.toggle(\'zoom\')" onerror="' +
+    (INFO.zasticeno ? 'this.parentNode.outerHTML=\'<p class=&quot;ref&quot;>Slika uz ovo pitanje je u <a href=&quot;' + esc(INFO.zasticeno) + '&quot;>verziji sa slikama iz udžbenika (lozinka)</a>.</p>\'' : 'this.parentNode.remove()') +
+    '">' + (cap ? '<figcaption>' + esc(cap) + '</figcaption>' : '') + '</figure>';
 }
 function actions(btns) {
   const a = document.getElementById('actions');

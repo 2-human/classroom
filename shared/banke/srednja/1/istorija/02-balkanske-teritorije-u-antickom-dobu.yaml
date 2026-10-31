@@ -618,6 +618,7 @@ delovi:
           tekst: "Kelti su kretali uz buku rogova i truba, ali bi posle izdržanog naleta panika uzela maha."
       - id: l02-izvor-karta-plemena
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [iliri, tracani, kelti]
         izvor:
@@ -1828,6 +1829,7 @@ delovi:
         osa: {naziv: "Podela Rimskog carstva", od: 395, traka: dogadjaji}
       - id: l02-izvor-legionari-logor
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [rimske-legije]
         izvor:
@@ -1853,6 +1855,7 @@ delovi:
           slika: "02-balkanske-teritorije-u-antickom-dobu/02-legionari-pripremaju-logor.jpg"
       - id: l02-izvor-gamzigrad
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [gamzigrad, feliks-romulijana, galerije]
         izvor:
@@ -1878,6 +1881,7 @@ delovi:
           slika: "02-balkanske-teritorije-u-antickom-dobu/04-gamzigrad.jpg"
       - id: l02-izvor-legionari-oprema
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [rimske-legije]
         izvor:

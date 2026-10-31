@@ -123,6 +123,7 @@ delovi:
 
       - id: l05-izbor-monaska-imena
         vrsta: izbor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [stefan-nemanja, monah-simeon]
         pitanje: "Pod kojim imenom je Stefan Nemanja prikazan kao monah na freski iz udžbenika?"
@@ -821,6 +822,7 @@ delovi:
 
       - id: l05-izvor-freska-monah
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [stefan-nemanja, monah-simeon]
         izvor: {autor: "Freska iz udžbenika", naslov: "Stefan Nemanja kao monah Simeon (opis slike)", tekst: "Na freski je starac sa veoma dugom belom bradom, u monaškoj odeći i sa oreolom oko glave. Donji deo slike je dobrim delom oštećen.", napomena: "Odlomak je prepričan; udžbenik, str. 26."}
@@ -1520,6 +1522,7 @@ delovi:
 
       - id: l05-izbor-mileseva
         vrsta: izbor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [sveti-sava, manastir-mileseva]
         pitanje: "U kom manastiru se nalazi freska Svetog Save prikazana u udžbeniku?"
@@ -1981,6 +1984,7 @@ delovi:
 
       - id: l05-izvor-pitanje-zica
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [manastir-zica, srpska-arhiepiskopija]
         izvor: {autor: "Fotografija iz udžbenika", naslov: "Manastir Žiča (opis slike)", tekst: "Crkva sa kupolama i zvonikom, snimljena spolja, sa drvećem pored nje.", napomena: "Odlomak je prepričan; udžbenik, str. 29."}

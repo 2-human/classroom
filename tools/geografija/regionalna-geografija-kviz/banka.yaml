@@ -1283,6 +1283,7 @@ delovi:
 
       - id: granice-tn-drzave
         vrsta: tacno_netacno
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [regionalna-podela-azije, prelazne-granice]
         tvrdnja: Na karti regija Azije granice regija prate granice država.

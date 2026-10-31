@@ -916,6 +916,7 @@ delovi:
 
       - id: l04-karta-prve-drzave-izvor
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [hrvatska-drzava, madjari, bugari, vizantija]
         izvor:
@@ -942,6 +943,7 @@ delovi:
 
       - id: l04-karta-susedi-izvor
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [hrvatska-drzava, madjari]
         izvor:
@@ -1779,6 +1781,7 @@ delovi:
 
       - id: l04-karta-duklje-izvor
         vrsta: izvor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [duklja, vizantija, hrvatska-drzava]
         izvor:

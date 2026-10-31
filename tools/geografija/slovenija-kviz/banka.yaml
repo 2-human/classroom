@@ -859,6 +859,7 @@ delovi:
 
       - id: vode-izbor-bled
         vrsta: izbor
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [bledsko-jezero, bohinjsko-jezero, bled]
         pitanje: Na fotografiji je planinsko jezero sa malim ostrvom na kome je crkva, a na litici iznad je zamak. Koje je to jezero?

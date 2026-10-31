@@ -307,6 +307,7 @@ delovi:
         iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Vlastela se često odvajala od centralne vlasti, posebno pod nejakim vladarom."}
       - id: l10-vukasin-freska-zakljuci
         vrsta: zakljuci
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [kralj-vukasin, car-uros]
         pitanje: "Na freski stoje zajedno, kao ravnopravni, car Uroš i kralj Vukašin. Šta to najbolje govori o srpskoj državi tog doba?"

@@ -306,6 +306,7 @@ delovi:
 
       - id: reljef-zakljuci-slika
         vrsta: zakljuci
+        slika_u_pitanju: true
         tezina: lako
         pojmovi: [sar-planina, nabrane-planine]
         pitanje: "Na fotografiji Šar-planine vidiš visoke, oštre i stenovite vrhove sa snegom. Kakva je to planina po postanku?"
@@ -1206,6 +1207,7 @@ delovi:
 
       - id: priv-zakljuci-tikves
         vrsta: zakljuci
+        slika_u_pitanju: true
         tezina: srednje
         pojmovi: [tikveska-kotlina, vinogradarstvo, izmenjenosredozemna-klima]
         pitanje: "Na fotografiji Tikveša vidiš duge redove vinove loze u ravnoj kotlini. Šta to govori o klimi tog kraja?"
