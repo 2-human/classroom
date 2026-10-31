@@ -1,0 +1,1609 @@
+# Banka pitanja: Srbija i Bosna u XV veku (istorija, 1. razred srednje škole, str. 45–47). Sopstvenim rečima, po belešci lekcije.
+lekcija: 11
+naslov: "Srbija i Bosna u XV veku"
+pojmovi:
+  srpska-despotovina: Srpska despotovina
+  despot: despot
+  vazal: vazal
+  stefan-lazarevic: Stefan Lazarević
+  knez-lazar: knez Lazar
+  kosovski-boj: Kosovski boj
+  ugarska: Ugarska
+  macva: Mačva
+  beograd: Beograd
+  srpska-prestonica: srpska prestonica
+  vuk-brankovic: Vuk Branković
+  djuradj-brankovic: Đurađ Branković
+  smederevo: Smederevo
+  smederevska-tvrdjava: Smederevska tvrđava
+  rudarstvo: rudarstvo
+  trgovina: trgovina
+  novo-brdo: Novo Brdo
+  srebrenica: Srebrenica
+  dubrovcani: Dubrovčani
+  pohvala-knezu-lazaru: Pohvala knezu Lazaru
+  monahinja-jefimija: monahinja Jefimija
+  konstantin-filozof: Konstantin Filozof
+  grigorije-camblak: Grigorije Camblak
+  stefan-decanski: Stefan Dečanski
+  tvrtko-i-kotromanic: Tvrtko I Kotromanić
+  bosna: Bosna
+  stefan-vukcic-kosaca: Stefan Vukčić Kosača
+  herceg: herceg
+  hercegovina: Hercegovina
+  stefan-tomas: Stefan Tomaš
+  stefan-tomasevic: Stefan Tomašević
+  zigmund: Žigmund
+  osmanlije: Osmanlije
+  osmansko-carstvo: Osmansko carstvo
+delovi:
+  # ==========================================================================
+  - naslov: "Srpska država nakon Kosovske bitke"
+    zadaci:
+      - id: l11-lazarevic-izbor-ko
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [stefan-lazarevic, knez-lazar, kosovski-boj]
+        pitanje: "Ko preuzima vlast nad srpskom državom u godinama posle boja na Kosovu?"
+        odgovori:
+          - {tekst: "Stefan Lazarević, sin kneza Lazara", tacan: true}
+          - {tekst: "Vuk Branković", tacan: false, zasto: "Vuk Branković je protivnička strana: njegovi potomci se sukobljavaju sa Lazarevićima, a vlast drži Lazarev sin Stefan."}
+          - {tekst: "Tvrtko I Kotromanić", tacan: false, zasto: "Tvrtko I je bosanski kralj i umire 1391; srpskom državom vlada Stefan Lazarević."}
+          - {tekst: "Stefan Vukčić Kosača", tacan: false, zasto: "Kosača je vlastelin koji se osamostaljuje na jugu Bosne, a ne srpski vladar."}
+        pomoc:
+          - "Vlast posle Kosova ostaje u porodici vladara koji je predvodio Srbe."
+          - "Traži sina kneza Lazara."
+          - "Iz lekcije: Lazarev sin Stefan Lazarević vlada od 1389. do 1427."
+        objasnjenje: "Nasleđe srpske države preuzima Stefan Lazarević, sin kneza Lazara. Očevim teritorijama vlada kao vazal Turaka."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Posle Kosova državu preuzima Stefan Lazarević (1389–1427), koji očevim zemljama vlada kao turski vazal."}
+        osa: {naziv: "Stefan Lazarević", od: 1389, do: 1427, traka: vladari}
+
+      - id: l11-despot-izbor-od-koga
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [despot, stefan-lazarevic]
+        pitanje: "Od koga Stefan Lazarević dobija titulu despota?"
+        odgovori:
+          - {tekst: "Od vizantijskog cara", tacan: true}
+          - {tekst: "Od ugarskog kralja", tacan: false, zasto: "Od ugarskog kralja dobija teritorije, Mačvu s Beogradom; titula stiže iz Vizantije."}
+          - {tekst: "Od turskog sultana", tacan: false, zasto: "Turcima je vazal, ali titulu despota dodeljuje vizantijski car."}
+          - {tekst: "Od dubrovačkih trgovaca", tacan: false, zasto: "Dubrovčani posluju u Despotovini kao trgovci i ne dodeljuju titule; to čini vizantijski car."}
+        pomoc:
+          - "Titula je visoka i odmah je ispod carske."
+          - "Dodeljuje je vladar koji i sam nosi carsku titulu."
+          - "Iz lekcije: titulu despota dobija 1402. od vizantijskog cara."
+        objasnjenje: "Stefan Lazarević 1402. dobija titulu despota od vizantijskog cara. Zato se njegova država zove Despotovina."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Titulu despota Stefan dobija 1402. od vizantijskog cara.", slika: "11-srbija-i-bosna-u-xv-veku/01-despot-stefan-lazarevic.jpg"}
+        osa: {naziv: "Stefan Lazarević dobija titulu despota", od: 1402, traka: dogadjaji}
+
+      - id: l11-macva-izbor-sta-dobija
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [macva, beograd, ugarska, vazal]
+        pitanje: "Šta Stefan Lazarević dobija na upravu 1403. kao ugarski vazal?"
+        odgovori:
+          - {tekst: "Mačvu s Beogradom", tacan: true}
+          - {tekst: "Novo Brdo i Srebrenicu", tacan: false, zasto: "To su važni rudnici Despotovine, a ne ono što Ugarska daje 1403; od nje dobija Mačvu s Beogradom."}
+          - {tekst: "Hercegovinu", tacan: false, zasto: "Hercegovina je zemlja Stefana Vukčića Kosače, na jugu Bosne."}
+          - {tekst: "Smederevo", tacan: false, zasto: "Smederevo Ugarska ne daje; to je grad čija tvrđava nastaje novcem iz rudnika."}
+        pomoc:
+          - "Ugarska mu daje oblast sa gradom koji odmah postaje važan."
+          - "U tom paketu je budući glavni grad."
+          - "Iz lekcije: 1403. dobija na upravu Mačvu s Beogradom."
+        objasnjenje: "Zauzvrat za vazalne obaveze prema Ugarskoj, Stefan 1403. dobija Mačvu s Beogradom."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Prihvatajući obaveze prema Ugarskoj, Stefan 1403. dobija na upravu Mačvu s Beogradom."}
+        osa: {naziv: "Beograd postaje srpska prestonica", od: 1403, traka: dogadjaji}
+
+      - id: l11-beograd-izbor-novo
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [beograd, srpska-prestonica]
+        pitanje: "Šta je 1403. bilo novo u vezi sa Beogradom? Izaberi sve što je tačno."
+        odgovori:
+          - {tekst: "Prvi put je duže vreme u granicama srpske države", tacan: true}
+          - {tekst: "Prvi put je srpska prestonica", tacan: true}
+          - {tekst: "Prvi put pada pod Turke", tacan: false, zasto: "Beograd te godine ne osvajaju Turci, nego ga Stefan dobija od Ugarske."}
+          - {tekst: "Postaje sedište bosanskih kraljeva", tacan: false, zasto: "Beograd postaje srpska, a ne bosanska prestonica."}
+        pomoc:
+          - "Važna su dva „prvi put”."
+          - "Jedno se tiče granica, drugo uloge grada u državi."
+          - "Iz lekcije: Beograd je prvi put duže u srpskoj državi i prvi put prestonica."
+        objasnjenje: "Dobijanjem Mačve s Beogradom grad prvi put duže ostaje u srpskoj državi i prvi put postaje njena prestonica."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Beograd je tada prvi put duže vreme u srpskoj državi i prvi put srpska prestonica.", slika: "11-srbija-i-bosna-u-xv-veku/02-beograd-despota-stefana.jpg"}
+        osa: {naziv: "Beograd postaje srpska prestonica", od: 1403, traka: dogadjaji}
+
+      - id: l11-vazal-izbor-dvostruki
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [vazal, stefan-lazarevic, ugarska, osmanlije]
+        pitanje: "Šta je bilo najosobenije u položaju Stefana Lazarevića?"
+        odgovori:
+          - {tekst: "Bio je istovremeno vazal dve sile koje su međusobno ratovale na njegovoj teritoriji", tacan: true}
+          - {tekst: "Bio je potpuno nezavisan od svih suseda", tacan: false, zasto: "Imao je obaveze i prema Turcima i prema Ugarskoj, pa nije bio nezavisan od suseda."}
+          - {tekst: "Bio je vazal samo Bosne", tacan: false, zasto: "Bosna mu nije bila gospodar; vazal je Turcima i Ugarskoj."}
+          - {tekst: "Vladao je i Vizantijom", tacan: false, zasto: "Vizantija mu je dala titulu; njom vlada vizantijski car, a ne Stefan."}
+        pomoc:
+          - "Nabroj kome je sve imao vazalne obaveze."
+          - "Seti se čije vojske se sukobljavaju na tlu Despotovine."
+          - "Iz lekcije: vazal je Turaka i Ugarske, a njihove vojske se bore na tlu Despotovine."
+        objasnjenje: "Stefan je dvostruki vazal: Turaka i Ugarske. Te dve sile su se više puta sukobile baš na tlu Despotovine, pa je položaj bio veoma težak."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Stefan je vazal Turaka i Ugarske, a ugarska i turska vojska se više puta sukobljavaju na tlu despotovine."}
+
+      - id: l11-lazar-tn-sin
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [stefan-lazarevic, knez-lazar]
+        tvrdnja: "Stefan Lazarević je sin kneza Lazara."
+        tacno: true
+        pomoc:
+          - "Pogledaj prezime: šta ono govori o ocu?"
+          - "Ime Lazarević znači Lazarev potomak."
+          - "Iz lekcije: Stefan Lazarević je sin kneza Lazara."
+        objasnjenje: "Tačno. Stefan je Lazarev sin i posle Kosova preuzima očeve teritorije."
+        iz_udzbenika: {strana: 45, odeljak: "Uvod", tekst: "Stefan Lazarević, sin kneza Lazara, posle boja na Kosovu ulazi u vazalni odnos prema Turcima."}
+
+      - id: l11-kosovo-tn-nestala
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [kosovski-boj, srpska-despotovina, vazal]
+        tvrdnja: "Posle boja na Kosovu 1389. srpska država je odmah potpuno nestala."
+        tacno: false
+        ispravke:
+          - {tekst: "Srbija je posle Kosova postala turska vazalna kneževina i opstala do 1459.", tacan: true}
+          - {tekst: "Srbija je posle Kosova postala deo Bosne.", tacan: false, zasto: "Srbija ne ulazi u Bosnu; opstaje kao država pod turskim vazalstvom."}
+          - {tekst: "Srbija je posle Kosova postala carstvo.", tacan: false, zasto: "Stefan ima titulu despota, a država je vazalna, pa carstva nema."}
+        pomoc:
+          - "Koliko dugo je trajala Despotovina?"
+          - "Lekcija se bavi državom koja postoji i posle Kosova."
+          - "Iz lekcije: posle 1389. Srbija je turska vazalna kneževina."
+        objasnjenje: "Netačno. Država opstaje kao turski vazal, učvršćuje se pod Stefanom Lazarevićem i traje do pada Smedereva 1459."
+        iz_udzbenika: {strana: 47, odeljak: "Zapamtite", tekst: "Posle Kosova 1389. Srbija je turska vazalna kneževina."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+
+      - id: l11-vojske-tn-tlo
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [srpska-despotovina, ugarska, osmanlije]
+        tvrdnja: "Ugarska i turska vojska su se više puta sukobile na tlu Despotovine."
+        tacno: true
+        pomoc:
+          - "Pogledaj gde je Despotovina u odnosu na te dve sile."
+          - "Zemlja između dve sile lako postane bojište."
+          - "Iz lekcije: na tlu despotovine više puta su se sukobljavale ugarska i turska vojska."
+        objasnjenje: "Tačno. Despotovina se nalazi između dve sile, pa je njena zemlja postajala bojište."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Na tlu despotovine više puta su se sukobljavale ugarska i turska vojska."}
+
+      - id: l11-sukob-tn-pocetak
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [vuk-brankovic, stefan-lazarevic, knez-lazar]
+        tvrdnja: "Sukobi Lazarevića i potomaka Vuka Brankovića počinju tek posle smrti Stefana Lazarevića."
+        tacno: false
+        ispravke:
+          - {tekst: "Ti sukobi traju još od smrti kneza Lazara.", tacan: true}
+          - {tekst: "Ti sukobi počinju tek padom Smedereva.", tacan: false, zasto: "Pad Smedereva je kraj države; sukobi su počeli mnogo ranije, od Lazareve smrti."}
+          - {tekst: "Lazarevići i Brankovići se nikada nisu sukobljavali.", tacan: false, zasto: "Sukobljavali su se, a pomirenje dolazi tek 1413."}
+        pomoc:
+          - "Seti se kada dolazi pomirenje: još za Stefanovog života."
+          - "Sukob je morao da počne pre 1413."
+          - "Iz lekcije: sukobi traju od smrti kneza Lazara."
+        objasnjenje: "Netačno. Sukobi počinju smrću kneza Lazara, a smiruju se pomirenjem iz 1413. i priznanjem naslednika 1425."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Od smrti kneza Lazara u Srbiji traju sukobi Lazarevića i potomaka Vuka Brankovića."}
+
+      - id: l11-redosled-tn-pomirenje
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [stefan-lazarevic, djuradj-brankovic]
+        tvrdnja: "Stefan je prvo priznao Đurđa Brankovića za naslednika, a tek onda se pomirio s njim."
+        tacno: false
+        ispravke:
+          - {tekst: "Prvo je došlo pomirenje (1413), a priznanje za naslednika dvanaest godina kasnije (1425).", tacan: true}
+          - {tekst: "Oba događaja su se desila iste godine.", tacan: false, zasto: "Između njih je dvanaest godina: pomirenje je 1413, a priznanje 1425."}
+          - {tekst: "Do pomirenja nikada nije došlo.", tacan: false, zasto: "Do pomirenja jeste došlo, 1413, i ono je doprinelo stabilnosti."}
+        pomoc:
+          - "Da li bi priznao za naslednika nekoga s kim je u sukobu?"
+          - "Uporedi godine 1413. i 1425."
+          - "Iz lekcije: pomirenje 1413, priznanje 1425."
+        objasnjenje: "Netačno. Redosled je logičan: pomirenje 1413, pa priznanje naslednika 1425."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Stabilnosti su doprineli pomirenje Stefana i Đurđa (1413) i Stefanovo priznanje Đurđa za naslednika (1425)."}
+
+      - id: l11-trajanje-tn-sedamdeset
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [kosovski-boj, srpska-despotovina, smederevo]
+        tvrdnja: "Srpska država je posle boja na Kosovu opstala još oko sedamdeset godina."
+        tacno: true
+        pomoc:
+          - "Pronađi godinu boja i godinu pada Smedereva."
+          - "Oduzmi: 1459 minus 1389."
+          - "Iz lekcije: Kosovo 1389, pad Smedereva 1459."
+        objasnjenje: "Tačno. Od 1389. do 1459. prošlo je sedamdeset godina, iako je država sve vreme bila u teškom položaju."
+        iz_udzbenika: {strana: 45, odeljak: "Uvod", tekst: "Despotovina se, iako u vrlo teškom položaju, održava do sredine XV veka i propada 1459."}
+
+      - id: l11-dvostruki-tn-samo-ugarska
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [vazal, ugarska, osmanlije, macva]
+        tvrdnja: "Kad je postao vazal Ugarske i dobio Mačvu, Stefan je prestao da bude vazal Turaka."
+        tacno: false
+        ispravke:
+          - {tekst: "Vazalne obaveze prema Ugarskoj je primio uz one prema Turcima, pa je bio vazal obema silama.", tacan: true}
+          - {tekst: "Stefan nikada nije bio vazal Turaka.", tacan: false, zasto: "Očevim teritorijama je vladao upravo kao vazal Turaka."}
+          - {tekst: "Stefan je Mačvu osvojio ratom protiv Ugarske.", tacan: false, zasto: "Mačvu dobija na upravu od Ugarske, zauzvrat za vazalne obaveze, a ne ratom."}
+        pomoc:
+          - "Pročitaj pažljivo: lekcija kaže da obaveze prima „i” prema Ugarskoj."
+          - "Reč „i” znači da se jedno dodaje drugom."
+          - "Iz lekcije: vazal je i Turcima i Ugarskoj."
+        objasnjenje: "Netačno. Ugarsko vazalstvo se dodaje turskom, pa je Stefan dvostruki vazal."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Vazalne obaveze Stefan prima i prema Ugarskoj, a ostaje vazal Turaka."}
+
+      - id: l11-titula-dopuni-godine
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [despot, macva, beograd, ugarska]
+        pitanje: "Dopuni tekst."
+        tekst: "Titulu despota Stefan dobija {{1402}}. od {{vizantijskog}} cara, a već {{1403}}. od {{Ugarske}} prima Mačvu s Beogradom."
+        ponudjene: ["1402", "1403", "1413", "vizantijskog", "turskog", "Ugarske", "Bosne"]
+        pomoc:
+          - "Dve godine stoje jedna do druge: titula je prva."
+          - "Teritorije daje Ugarska, a titulu vizantijski car."
+          - "Iz lekcije: 1402. titula od vizantijskog cara, 1403. Mačva s Beogradom od Ugarske."
+        objasnjenje: "U dve uzastopne godine Stefan dobija ugled (titulu 1402) i zemlju (Mačvu s Beogradom 1403)."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Stefan 1402. dobija titulu despota od vizantijskog cara, a 1403. od Ugarske Mačvu s Beogradom."}
+
+      - id: l11-stabilnost-dopuni-brankovic
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [djuradj-brankovic, vuk-brankovic, stefan-lazarevic]
+        pitanje: "Dopuni tekst bez ponuđenih reči."
+        tekst: "Sukobi {{Lazarevića}} i potomaka Vuka {{Brankovića}} smiruju se pomirenjem {{1413}}. godine, a {{1425}}. Stefan priznaje Đurđa za {{naslednika}}."
+        pomoc:
+          - "Jedna porodica nosi ime po knezu Lazaru."
+          - "Godine se razlikuju za dvanaest."
+          - "Iz lekcije: pomirenje 1413, priznanje za naslednika 1425."
+        objasnjenje: "Pomirenje i priznanje naslednika doneli su stabilnost posle dugog sukoba dve porodice."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Stabilnosti su doprineli pomirenje Stefana i Đurđa (1413) i priznanje Đurđa za naslednika (1425)."}
+
+      - id: l11-povezi-godine
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [kosovski-boj, despot, beograd, smederevo]
+        pitanje: "Poveži godinu sa događajem."
+        parovi:
+          - ["1389", "Boj na Kosovu"]
+          - ["1402", "Stefan dobija titulu despota"]
+          - ["1403", "Beograd postaje srpska prestonica"]
+          - ["1459", "Turci osvajaju Smederevo"]
+        pomoc:
+          - "Prva i poslednja godina su početak i kraj Despotovine."
+          - "Titula dolazi godinu dana pre prestonice."
+          - "Iz lekcije: 1389. Kosovo, 1402. titula, 1403. Beograd, 1459. Smederevo."
+        objasnjenje: "Ove četiri godine su okvir lekcije o Srbiji: od Kosova do pada Smedereva."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Lekcija prati srpsku državu od 1389. do 1459."}
+
+      - id: l11-povezi-pojmovi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [despot, vazal, macva, srpska-despotovina]
+        pitanje: "Poveži pojam sa njegovim opisom."
+        parovi:
+          - ["despot", "titula odmah ispod carske"]
+          - ["vazal", "vladar sa obavezama prema jačem gospodaru"]
+          - ["Mačva s Beogradom", "teritorija dobijena od Ugarske"]
+          - ["Despotovina", "srpska država koja traje do 1459."]
+        pomoc:
+          - "Jedan pojam je titula, drugi je položaj vladara."
+          - "Dva pojma su mesta: teritorija i država."
+          - "Iz lekcije: despot je titula, vazal položaj, Mačva dar Ugarske, Despotovina država do 1459."
+        objasnjenje: "Stefan je despot po tituli, vazal po položaju, gospodar Mačve po ugovoru sa Ugarskom i vladar Despotovine."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Stefan ima titulu despota, vazal je Turaka i Ugarske i od Ugarske dobija Mačvu s Beogradom."}
+
+      - id: l11-povezi-uzrok-posledica
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [kosovski-boj, vazal, macva, djuradj-brankovic, srpska-despotovina]
+        pitanje: "Poveži uzrok sa njegovom posledicom."
+        parovi:
+          - ["Poraz na Kosovu", "Srbija postaje turski vazal"]
+          - ["Vazalne obaveze prema Ugarskoj", "Mačva s Beogradom u srpskoj državi"]
+          - ["Položaj između dve sile", "Njihove vojske se sukobljavaju na tlu Despotovine"]
+          - ["Pomirenje i priznanje naslednika", "Prilike u državi se sređuju"]
+          - ["Pad Smedereva", "Kraj nezavisne srednjovekovne srpske države"]
+        pomoc:
+          - "Pitaj se za svaki uzrok: šta se moralo desiti posle toga?"
+          - "Pomirenje vodi ka miru, a poraz ka zavisnosti."
+          - "Iz lekcije: svaki par je jedna karika u sudbini Despotovine."
+        objasnjenje: "Sudbina Despotovine je niz posledica: poraz donosi zavisnost, vazalstvo donosi zemlju, a pad Smedereva kraj države."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Lekcija povezuje poraz, vazalstvo, dobijanje Mačve, sređivanje prilika i pad Smedereva."}
+
+      - id: l11-sukob-zakljuci-bojiste
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [srpska-despotovina, ugarska, osmanlije]
+        pitanje: "Šta nam govori to što su se ugarska i turska vojska sukobljavale baš na tlu Despotovine?"
+        odgovori:
+          - {tekst: "Despotovina je bila između dve sile i nije mogla da spreči njihove sukobe na svojoj zemlji", tacan: true}
+          - {tekst: "Despotovina je bila jača od obe sile", tacan: false, zasto: "Da je bila jača, ne bi bila vazal ni jednoj ni drugoj."}
+          - {tekst: "Ugarska i Turska su bile saveznice", tacan: false, zasto: "Njihove vojske se sukobljavaju, pa nisu bile saveznice."}
+          - {tekst: "Despotovina je bila daleko od obe sile", tacan: false, zasto: "Bila je između njih, pa je zato i postala bojište."}
+        pomoc:
+          - "Korak 1: Gde se vode ratovi između dve države?"
+          - "Korak 2: Šta to znači za zemlju koja leži između njih?"
+          - "Iz lekcije: položaj između dve sile vodi sukobima na tlu despotovine."
+        objasnjenje: "Položaj između dve sile je pretvarao Despotovinu u bojište, zato je lekcija naziva državom u vrlo teškom položaju."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Na tlu despotovine više puta su se sukobljavale ugarska i turska vojska."}
+
+      - id: l11-beograd-zakljuci-znacaj
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [beograd, srpska-prestonica, ugarska]
+        pitanje: "Zašto je dobijanje Beograda 1403. tako važan trenutak za srpsku državu?"
+        odgovori:
+          - {tekst: "Država je dobila grad koji ranije nije dugo držala i u njemu prvi put svoju prestonicu", tacan: true}
+          - {tekst: "Time je Srbija prestala da bude vazal", tacan: false, zasto: "Upravo suprotno: Beograd dobija uz vazalne obaveze prema Ugarskoj."}
+          - {tekst: "Time su Turci proterani sa Balkana", tacan: false, zasto: "Turci ostaju na Balkanu, a Stefan je i dalje njihov vazal."}
+          - {tekst: "Time se Srbija ujedinila sa Bosnom", tacan: false, zasto: "Do ujedinjenja s Bosnom ne dolazi; Bosna ima svoje vladare."}
+        pomoc:
+          - "Korak 1: Koliko je dugo Beograd ranije bio u srpskoj državi?"
+          - "Korak 2: Šta se menja kad grad postane prestonica?"
+          - "Iz lekcije: Beograd je prvi put duže u srpskoj državi i prvi put prestonica."
+        objasnjenje: "Važnost je u dva „prvi put”: Beograd duže vreme u srpskoj državi i Beograd kao prestonica."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Beograd je tada prvi put duže vreme u srpskoj državi i prvi put prestonica.", slika: "11-srbija-i-bosna-u-xv-veku/02-beograd-despota-stefana.jpg"}
+        osa: {naziv: "Beograd postaje srpska prestonica", od: 1403, traka: dogadjaji}
+
+      - id: l11-titula-zakljuci-ugled
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [despot, vazal, stefan-lazarevic]
+        pitanje: "Stefan je bio vazal, a nosio je titulu odmah ispod carske. Šta iz toga možemo da zaključimo?"
+        odgovori:
+          - {tekst: "Visoka titula pokazuje ugled, ali ne znači i nezavisnost države", tacan: true}
+          - {tekst: "Titula ga je oslobodila vazalnih obaveza", tacan: false, zasto: "Stefan je i posle 1402. vazal, a obaveze prema Ugarskoj prima tek posle titule."}
+          - {tekst: "Svaki vazal je automatski dobijao tu titulu", tacan: false, zasto: "Titulu je posebno dodelio vizantijski car; ona ne ide uz vazalstvo."}
+          - {tekst: "Stefan je bio vizantijski car", tacan: false, zasto: "Titula despota je ispod carske, a dodelio mu je car."}
+        pomoc:
+          - "Korak 1: Šta titula govori o ugledu?"
+          - "Korak 2: Da li je Stefan posle 1402. i dalje imao obaveze prema jačima?"
+          - "Iz lekcije: titula je odmah ispod carske, a Stefan ostaje vazal."
+        objasnjenje: "Ugled i stvarna moć nisu isto: Stefan ima visoku titulu, a ipak zavisi od jačih suseda."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Titula despota je po ugledu odmah ispod carske, a Stefan vlada kao vazal."}
+
+      - id: l11-naslednik-zakljuci-priznanje
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [djuradj-brankovic, stefan-lazarevic, vuk-brankovic]
+        pitanje: "Zašto je priznanje Đurđa Brankovića za naslednika (1425) doprinelo stabilnosti države?"
+        odgovori:
+          - {tekst: "Unapred je rešilo ko vlada posle Stefana, pa je sklonilo razlog za sukob dve porodice", tacan: true}
+          - {tekst: "Zato što je Đurađ odmah proterao Turke", tacan: false, zasto: "Turci ostaju pretnja i 1459. osvajaju Smederevo."}
+          - {tekst: "Zato što je time Despotovina pripala Ugarskoj", tacan: false, zasto: "Država ostaje srpska, a vlast prelazi na Stefanovog priznatog naslednika."}
+          - {tekst: "Zato što je Đurađ bio sin Stefana Lazarevića", tacan: false, zasto: "Đurađ je iz porodice Branković, koja je bila u sukobu sa Lazarevićima."}
+        pomoc:
+          - "Korak 1: Oko čega se porodice sukobljavaju od Lazareve smrti?"
+          - "Korak 2: Šta se menja kad je naslednik unapred poznat?"
+          - "Iz lekcije: pomirenje 1413. i priznanje 1425. doprineli su stabilizaciji."
+        objasnjenje: "Unutrašnji sukob je slabio državu. Kada dva roda stoje iza jednog naslednika, razlog za sukob nestaje."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Stabilizaciji je doprinelo to što je Stefan 1425. priznao Đurđa za naslednika."}
+        osa: {naziv: "Stefan Lazarević priznaje Đurđa Brankovića za naslednika", od: 1425, traka: dogadjaji}
+
+      - id: l11-kraj-zakljuci-zasto-1459
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [kosovski-boj, srpska-despotovina, smederevo]
+        pitanje: "Zašto se za kraj srednjovekovne srpske države uzima 1459, a ne 1389?"
+        odgovori:
+          - {tekst: "Posle Kosova država postoji kao vazal, a padom Smedereva nestaje i to što je ostalo od nje", tacan: true}
+          - {tekst: "Zato što na Kosovu nije bilo pravog boja", tacan: false, zasto: "Boj je bio i Srbija ga je izgubila, ali je država opstala kao vazal."}
+          - {tekst: "Zato što su Turci tek 1459. stigli na Balkan", tacan: false, zasto: "Turci su na Balkanu mnogo ranije: 1389. se bore na Kosovu."}
+          - {tekst: "Zato što je Stefan Lazarević umro 1459.", tacan: false, zasto: "Stefan vlada do 1427; godina 1459. je pad Smedereva."}
+        pomoc:
+          - "Korak 1: Šta je Srbija bila između 1389. i 1459?"
+          - "Korak 2: Šta je drugačije posle pada Smedereva?"
+          - "Iz lekcije: država propada tek 1459. padom Smedereva."
+        objasnjenje: "Biti vazal znači imati manju samostalnost, ali država i dalje postoji. Kraj dolazi kad ona nestane, 1459."
+        iz_udzbenika: {strana: 45, odeljak: "Uvod", tekst: "Despotovina se održava do sredine XV veka i propada 1459, a s njom nestaje srednjovekovna srpska država."}
+        osa: {naziv: "Pad Smedereva", od: 1459, traka: dogadjaji}
+
+      - id: l11-datum-kosovo
+        vrsta: datum
+        tezina: lako
+        pojmovi: [kosovski-boj]
+        dogadjaj: "Bitka na Kosovu"
+        pitanje: "Koje godine je bio boj na Kosovu, posle koga Srbija postaje turski vazal?"
+        godina: 1389
+        traka: dogadjaji
+        pomoc:
+          - "Iste godine počinje vladavina Stefana Lazarevića."
+          - "Kraj XIV veka, sedamdeset godina pre pada Smedereva."
+          - "Iz lekcije: Kosovo 1389."
+        objasnjenje: "Boj je bio 1389. Od te godine počinje priča ove lekcije."
+        iz_udzbenika: {strana: 47, odeljak: "Zapamtite", tekst: "Posle Kosova 1389. Srbija je turska vazalna kneževina."}
+
+      - id: l11-datum-smederevo
+        vrsta: datum
+        tezina: lako
+        pojmovi: [smederevo, srpska-despotovina]
+        dogadjaj: "Pad Smedereva"
+        pitanje: "Koje godine Turci osvajaju Smederevo?"
+        godina: 1459
+        traka: dogadjaji
+        pomoc:
+          - "Sredina XV veka, ali pre pada Bosne."
+          - "Četiri godine pre pada Bosne (1463)."
+          - "Iz lekcije: Smederevo pada 1459."
+        objasnjenje: "Smederevo pada 1459, što se uzima za kraj nezavisne srednjovekovne srpske države."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Despotovina traje do 1459, kada Turci osvajaju Smederevo."}
+
+      - id: l11-datum-beograd
+        vrsta: datum
+        tezina: lako
+        pojmovi: [beograd, srpska-prestonica]
+        dogadjaj: "Beograd postaje srpska prestonica"
+        pitanje: "Koje godine Beograd prvi put postaje srpska prestonica?"
+        godina: 1403
+        traka: dogadjaji
+        pomoc:
+          - "Na samom početku XV veka."
+          - "Godinu dana posle dobijanja titule despota."
+          - "Iz lekcije: Beograd postaje prestonica 1403."
+        objasnjenje: "Stefan 1403. dobija Mačvu s Beogradom i tada Beograd prvi put postaje prestonica."
+        iz_udzbenika: {strana: 47, odeljak: "Zapamtite", tekst: "Beograd prvi put postaje srpska prestonica 1403.", slika: "11-srbija-i-bosna-u-xv-veku/02-beograd-despota-stefana.jpg"}
+
+      - id: l11-datum-despot
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [despot, stefan-lazarevic]
+        dogadjaj: "Stefan Lazarević dobija titulu despota"
+        pitanje: "Koje godine Stefan Lazarević dobija titulu despota?"
+        godina: 1402
+        traka: dogadjaji
+        pomoc:
+          - "Početak XV veka."
+          - "Godinu dana pre nego što dobija Beograd."
+          - "Iz lekcije: titula despota, 1402."
+        objasnjenje: "Vizantijski car mu titulu dodeljuje 1402."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Titulu despota Stefan dobija 1402. od vizantijskog cara.", slika: "11-srbija-i-bosna-u-xv-veku/01-despot-stefan-lazarevic.jpg"}
+
+      - id: l11-datum-vladavina
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [stefan-lazarevic]
+        dogadjaj: "Stefan Lazarević"
+        pitanje: "Od koje do koje godine vlada Stefan Lazarević?"
+        od: 1389
+        do: 1427
+        traka: vladari
+        pomoc:
+          - "Počinje godine boja na Kosovu."
+          - "Završava dve godine posle priznanja naslednika (1425)."
+          - "Iz lekcije: Stefan Lazarević, 1389–1427."
+        objasnjenje: "Stefan vlada 1389–1427, od boja na Kosovu do dve godine posle priznanja naslednika."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Nasleđe nemanjićke države preuzima despot Stefan Lazarević (1389–1427)."}
+
+      - id: l11-datum-pomirenje
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [stefan-lazarevic, djuradj-brankovic]
+        dogadjaj: "Pomirenje Stefana Lazarevića i Đurđa Brankovića"
+        pitanje: "Koje godine se Stefan Lazarević miri sa Đurđem Brankovićem?"
+        godina: 1413
+        traka: dogadjaji
+        pomoc:
+          - "Deset godina posle dobijanja Beograda."
+          - "Dvanaest godina pre priznanja naslednika."
+          - "Iz lekcije: pomirenje, 1413."
+        objasnjenje: "Pomirenje 1413. je prvi korak ka smirivanju prilika."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Stabilnosti je doprinelo pomirenje Stefana i Đurđa Brankovića (1413)."}
+
+      - id: l11-datum-naslednik
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [djuradj-brankovic, stefan-lazarevic]
+        dogadjaj: "Stefan Lazarević priznaje Đurđa Brankovića za naslednika"
+        pitanje: "Koje godine Stefan priznaje Đurđa Brankovića za naslednika?"
+        godina: 1425
+        traka: dogadjaji
+        pomoc:
+          - "Dvanaest godina posle pomirenja."
+          - "Dve godine pre kraja Stefanove vladavine."
+          - "Iz lekcije: priznanje naslednika, 1425."
+        objasnjenje: "Priznanje stiže 1425, dve godine pre kraja Stefanove vladavine (1427)."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Stefan je 1425. priznao Đurđa za naslednika."}
+
+      - id: l11-poredjaj-osnovno
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [kosovski-boj, despot, smederevo]
+        pitanje: "Poređaj događaje hronološki, od najranijeg."
+        stavke:
+          - {tekst: "Boj na Kosovu", godina: 1389, naziv: "Bitka na Kosovu", traka: dogadjaji}
+          - {tekst: "Stefan dobija titulu despota", godina: 1402, naziv: "Stefan Lazarević dobija titulu despota", traka: dogadjaji}
+          - {tekst: "Turci osvajaju Smederevo", godina: 1459, naziv: "Pad Smedereva", traka: dogadjaji}
+        pomoc:
+          - "Kraj države je sigurno poslednji."
+          - "Titulu dobija vladar koji je došao na vlast posle Kosova."
+          - "Iz lekcije: 1389, 1402, 1459."
+        objasnjenje: "Kosovo (1389) → titula despota (1402) → pad Smedereva (1459)."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Lekcija ide od Kosova preko titule despota do pada Smedereva."}
+
+      - id: l11-poredjaj-stefan
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [despot, beograd, djuradj-brankovic, stefan-lazarevic]
+        pitanje: "Poređaj događaje iz vremena Stefana Lazarevića, od najranijeg."
+        stavke:
+          - {tekst: "Titula despota", godina: 1402, naziv: "Stefan Lazarević dobija titulu despota", traka: dogadjaji}
+          - {tekst: "Beograd postaje prestonica", godina: 1403, naziv: "Beograd postaje srpska prestonica", traka: dogadjaji}
+          - {tekst: "Pomirenje sa Đurđem Brankovićem", godina: 1413, naziv: "Pomirenje Stefana Lazarevića i Đurđa Brankovića", traka: dogadjaji}
+          - {tekst: "Priznanje Đurđa za naslednika", godina: 1425, naziv: "Stefan Lazarević priznaje Đurđa Brankovića za naslednika", traka: dogadjaji}
+        pomoc:
+          - "Prvo ugled, pa zemlja."
+          - "Pomirenje mora da prethodi priznanju."
+          - "Iz lekcije: 1402, 1403, 1413, 1425."
+        objasnjenje: "Titula (1402) → Beograd (1403) → pomirenje (1413) → priznanje naslednika (1425)."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Lekcija navodi te godine kao korake u učvršćivanju Despotovine."}
+
+      - id: l11-lanac-kosovo-vazal
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [kosovski-boj, vazal, stefan-lazarevic]
+        karike:
+          - "Srbija je poražena na Kosovu"
+          - "?"
+          - "Stefan Lazarević vlada očevim teritorijama kao vazal"
+        praznina: 1
+        odgovori:
+          - {tekst: "Srbija postaje turski vazal", tacan: true}
+          - {tekst: "Srbija osvaja Ugarsku", tacan: false, zasto: "Poražena država ne osvaja susede; Srbija postaje zavisna od Turaka."}
+          - {tekst: "Bosna preuzima srpsku državu", tacan: false, zasto: "Bosna ne preuzima Srbiju; ova ostaje država, ali kao turski vazal."}
+        pomoc:
+          - "Korak 1: Šta sledi posle poraza slabijem?"
+          - "Korak 2: Treća karika već otkriva odnos sa Turcima."
+          - "Iz lekcije: poraz na Kosovu vodi vazalstvu prema Turcima."
+        objasnjenje: "Poraz vodi u zavisnost: Srbija je turski vazal, pa tako vlada i Stefan."
+        iz_udzbenika: {strana: 47, odeljak: "Zapamtite", tekst: "Posle Kosova 1389. Srbija je turska vazalna kneževina."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+
+      - id: l11-lanac-ugarska-beograd
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [ugarska, macva, beograd, srpska-prestonica]
+        karike:
+          - "Stefan prima vazalne obaveze prema Ugarskoj"
+          - "Dobija Mačvu s Beogradom"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Beograd prvi put postaje srpska prestonica", tacan: true}
+          - {tekst: "Beograd pada pod Turke", tacan: false, zasto: "Stefan grad dobija, a ne gubi; on postaje njegova prestonica."}
+          - {tekst: "Srbija prestaje da bude vazal", tacan: false, zasto: "Upravo se time vazalstvo proširuje i na Ugarsku."}
+        pomoc:
+          - "Korak 1: Šta vladar radi sa novim važnim gradom?"
+          - "Korak 2: Traži promenu u ulozi Beograda."
+          - "Iz lekcije: Beograd 1403. prvi put postaje prestonica."
+        objasnjenje: "Vazalstvo donosi Mačvu s Beogradom, a Beograd postaje srpska prestonica."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Stefan zauzvrat dobija Mačvu s Beogradom, a grad postaje prestonica."}
+        osa: {naziv: "Beograd postaje srpska prestonica", od: 1403, traka: dogadjaji}
+
+      - id: l11-lanac-porodice
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [vuk-brankovic, djuradj-brankovic, stefan-lazarevic]
+        karike:
+          - "Knez Lazar umire"
+          - "Počinju sukobi Lazarevića i potomaka Vuka Brankovića"
+          - "?"
+          - "Prilike u državi se sređuju"
+        praznina: 2
+        odgovori:
+          - {tekst: "Pomirenje 1413. i priznanje naslednika 1425.", tacan: true}
+          - {tekst: "Dolazak Dubrovčana u Srbiju", tacan: false, zasto: "Dubrovčani su važni za privredu, ali sukob dve porodice smiruju pomirenje i priznanje naslednika."}
+          - {tekst: "Pad Smedereva", tacan: false, zasto: "Pad Smedereva nije smirio prilike, nego je okončao državu."}
+        pomoc:
+          - "Korak 1: Šta može da završi sukob dve porodice?"
+          - "Korak 2: Traži dogovor Stefana i Đurđa."
+          - "Iz lekcije: pomirenje (1413) i priznanje (1425) doprinose stabilizaciji."
+        objasnjenje: "Sukob počinje Lazarevom smrću, a završava se dogovorom: pomirenje i priznanje naslednika."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Sukobi traju od Lazareve smrti, a smiruju ih pomirenje 1413. i priznanje 1425."}
+
+      - id: l11-izvor-odnosi
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [konstantin-filozof, zigmund, ugarska, stefan-lazarevic]
+        izvor:
+          autor: "Konstantin Filozof"
+          naslov: "O despotu i ugarskom kralju"
+          tekst: "Biograf piše da despot od Ugarske dobija mnoge darove, među njima utvrđene gradove i sela. Kralj i despot idu jedan drugome u posetu, a kralj ponekad boravi i kod despota u Beogradu."
+          napomena: "Odlomak je prepričan; udžbenik, str. 47."
+        pitanje: "Kakvi su odnosi despota i ugarskog kralja, prema ovom odlomku?"
+        odgovori:
+          - {tekst: "Dobri i bliski", tacan: true}
+          - {tekst: "Neprijateljski, stalno ratuju", tacan: false, zasto: "Odlomak govori o darovima i posetama, a to su znaci dobrih odnosa."}
+          - {tekst: "Nikada se nisu sreli", tacan: false, zasto: "Sreću se često i posete su uzajamne."}
+          - {tekst: "Despot je kralju plaćao danak u zlatu", tacan: false, zasto: "U odlomku darove prima despot, a ne kralj."}
+        pomoc:
+          - "Pronađi u odlomku reči koje pokazuju prijateljstvo."
+          - "Ko kome daje darove i ko koga posećuje?"
+          - "Iz lekcije: odlomak govori o dobrim odnosima despota i kralja Žigmunda."
+        objasnjenje: "Darovi i uzajamne posete pokazuju dobre odnose despota i kralja Žigmunda."
+        iz_udzbenika: {strana: 47, odeljak: "Iz istorijskih izvora", tekst: "Konstantin Filozof piše o dobrim odnosima despota i ugarskog kralja Žigmunda."}
+
+      - id: l11-izvor-sta-dobija
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [konstantin-filozof, zigmund, stefan-lazarevic]
+        izvor:
+          autor: "Konstantin Filozof"
+          naslov: "O despotu i ugarskom kralju"
+          tekst: "Sa ugarske strane despot prima utvrđene gradove, sela i drugo, i to znaju sve okolne države. Od sedme godine po kraljevom dolasku, svake godine putuje na zapadni sabor, odakle se vraća sa novim gradovima i zemljama."
+          napomena: "Odlomak je prepričan; udžbenik, str. 47."
+        pitanje: "Šta iz odlomka saznajemo o tome kako je rasla Stefanova teritorija?"
+        odgovori:
+          - {tekst: "Rasla je i posle Mačve, kroz dobre odnose sa Ugarskom, jer se sa sabora vraćao sa novim gradovima i zemljama", tacan: true}
+          - {tekst: "Rasla je samo ratovima protiv Ugarske", tacan: false, zasto: "Odlomak ne govori o ratu, nego o darovima i saborima."}
+          - {tekst: "Nije rasla, jer je despot sve vreme gubio gradove", tacan: false, zasto: "U odlomku despot gradove dobija, a ne gubi."}
+          - {tekst: "Rasla je kupovinom gradova od Dubrovčana", tacan: false, zasto: "Izvor navodi darove sa ugarske strane, a ne kupovinu."}
+        pomoc:
+          - "Šta se u odlomku ponavlja svake godine?"
+          - "Pronađi šta despot donosi sa sabora."
+          - "Iz lekcije: po izvoru dobija gradove, sela i zemlje na ugarskoj strani."
+        objasnjenje: "Pored Mačve s Beogradom, izvor navodi i gradove, sela i zemlje koje je dobijao od Ugarske."
+        iz_udzbenika: {strana: 47, odeljak: "Iz istorijskih izvora", tekst: "Po izvoru despot dobija gradove, sela i zemlje, a sa zapadnog sabora se vraća sa novim posedima."}
+
+      - id: l11-izvor-kod-kuce
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [konstantin-filozof, zigmund, beograd]
+        izvor:
+          autor: "Konstantin Filozof"
+          naslov: "O despotu i ugarskom kralju"
+          tekst: "Biograf kaže da su se kralj i despot kretali po ugarskim i srpskim gradovima sasvim opušteno, kao da u oba kraja borave u sopstvenoj kući. Beograd pritom naziva Beli grad."
+          napomena: "Odlomak je prepričan; udžbenik, str. 47."
+        pitanje: "Šta biograf želi da pokaže ovom slikom?"
+        odgovori:
+          - {tekst: "Koliko su bliski i poverljivi odnosi kralja i despota", tacan: true}
+          - {tekst: "Da su Srbija i Ugarska ujedinjene u jednu državu", tacan: false, zasto: "Biograf i dalje razlikuje ugarske i srpske gradove; to je slika prijateljstva, a ne jedne države."}
+          - {tekst: "Da kralj i despot nisu imali svoje dvorove", tacan: false, zasto: "Slika ne govori o nedostatku dvorova, nego o bliskosti: u gradovima drugog osećaju se kao kod svoje kuće."}
+          - {tekst: "Da je Beograd bio ugarska prestonica", tacan: false, zasto: "Beograd je srpska prestonica, a kralj u njega dolazi kao gost."}
+        pomoc:
+          - "To je poređenje, ne doslovan opis."
+          - "Kako se čovek oseća u sopstvenoj kući?"
+          - "Iz lekcije: odlomak govori o dobrim odnosima despota i kralja."
+        objasnjenje: "Poređenje sa sopstvenom kućom pokazuje poverenje i bliskost dvojice vladara."
+        iz_udzbenika: {strana: 47, odeljak: "Iz istorijskih izvora", tekst: "Kralj i despot kretali su se po ugarskim i srpskim gradovima kao po sopstvenim domovima."}
+
+      - id: l11-izvor-biograf
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [konstantin-filozof, stefan-lazarevic]
+        izvor:
+          autor: "Konstantin Filozof"
+          naslov: "Biografija despota Stefana Lazarevića"
+          tekst: "Pisac despotove biografije opisuje kako je Stefan dobijao darove i kako su mu kralj i okolne zemlje ukazivali veliku pažnju."
+          napomena: "Odlomak je prepričan; udžbenik, str. 47."
+        pitanje: "Zašto istoričar treba da bude oprezan kada čita ovaj izvor?"
+        odgovori:
+          - {tekst: "Pisac je Stefanov biograf, pa može da ga prikazuje u što lepšem svetlu", tacan: true}
+          - {tekst: "Odlomak uopšte ne govori o despotu", tacan: false, zasto: "Govori upravo o despotu i njegovim odnosima sa kraljem; oprezni smo zato što ga piše njegov biograf."}
+          - {tekst: "Konstantin Filozof nije znao za despota", tacan: false, zasto: "Upravo je napisao njegovu biografiju."}
+          - {tekst: "Izvor je ugarski, pa je protiv Stefana", tacan: false, zasto: "Izvor je nastao na tlu Despotovine i naklonjen je despotu."}
+        pomoc:
+          - "Pitaj se: ko piše i o kome?"
+          - "Da li biograf vladara piše o njemu neutralno?"
+          - "Iz lekcije: Konstantin Filozof je biograf despota Stefana."
+        objasnjenje: "Izvor je koristan, ali pisac biografije je naklonjen svom junaku, zato njegove reči poredimo sa drugim izvorima."
+        iz_udzbenika: {strana: 47, odeljak: "Iz istorijskih izvora", tekst: "Autor odlomka je Konstantin Filozof, biograf despota Stefana Lazarevića."}
+
+      - id: l11-izvor-freska
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [stefan-lazarevic, despot]
+        izvor:
+          autor: "Freska iz udžbenika (Slika 46)"
+          naslov: "Vladar sa krunom"
+          tekst: "Vladar sa krunom i oreolom drži visok krst. Odeća mu je ukrašena krugovima i dvoglavim orlovima, a sa obe strane su manji likovi svetaca. Lice je delimično oštećeno."
+          napomena: "Odlomak je prepričan; udžbenik, str. 45."
+        pitanje: "Koga prikazuje ova freska?"
+        odgovori:
+          - {tekst: "Despota Stefana Lazarevića", tacan: true}
+          - {tekst: "Kralja Stefana Tomaševića", tacan: false, zasto: "Tomašević je prikazan na drugoj slici u lekciji, u profilu i sa rukama u molitvi."}
+          - {tekst: "Stefana Vukčića Kosaču", tacan: false, zasto: "Kosača je vlastelin u Bosni; ova freska prikazuje despota Stefana Lazarevića."}
+          - {tekst: "Kralja Žigmunda", tacan: false, zasto: "Žigmund je ugarski kralj; ova freska prikazuje srpskog despota."}
+        pomoc:
+          - "Slika stoji uz odeljak o srpskoj državi posle Kosova."
+          - "Vladar na njoj dobija titulu od vizantijskog cara."
+          - "Iz lekcije: Slika 46 je despot Stefan Lazarević."
+        objasnjenje: "Slika 46 prikazuje despota Stefana Lazarevića (1389–1427)."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Uz tekst je prikazan despot Stefan Lazarević.", slika: "11-srbija-i-bosna-u-xv-veku/01-despot-stefan-lazarevic.jpg"}
+
+      - id: l11-uporedi-gospodari
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [osmanlije, ugarska, vazal, stefan-lazarevic]
+        a: "Turci"
+        b: "Ugarska"
+        pitanje: "Na koga se odnosi tvrdnja: Turke, Ugarsku, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Stefan Lazarević ima vazalne obaveze prema njima.", odgovor: oba, zasto: "Stefan je dvostruki vazal, i Turaka i Ugarske."}
+          - {tekst: "Od njih dobija Mačvu s Beogradom.", odgovor: b, zasto: "Mačvu s Beogradom daje Ugarska, 1403."}
+          - {tekst: "Pobedili su Srbiju na Kosovu.", odgovor: a, zasto: "Na Kosovu su Srbi poraženi od Turaka."}
+          - {tekst: "Osvajaju Smederevo 1459.", odgovor: a, zasto: "Smederevo osvajaju Turci."}
+          - {tekst: "Dodeljuju Stefanu titulu despota.", odgovor: nijedan, zasto: "Titulu daje vizantijski car."}
+        pomoc:
+          - "Seti se šta je Stefan dobijao od kog gospodara."
+          - "Titula ne dolazi ni od jednih ni od drugih."
+          - "Iz lekcije: vazal je obema silama, Mačva je od Ugarske, a titula od Vizantije."
+        objasnjenje: "Obe sile su gospodari Despotovine, ali Turci je na kraju osvajaju, a Ugarska joj daje teritorije."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Stefan je vazal Turaka i Ugarske; od Ugarske dobija Mačvu s Beogradom, a titulu od Vizantije."}
+
+      - id: l11-uporedi-1402-1403
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [despot, macva, beograd]
+        a: "Dobitak iz 1402."
+        b: "Dobitak iz 1403."
+        pitanje: "Na koji se dobitak odnosi tvrdnja: 1402, 1403, oba ili nijedan?"
+        tvrdnje:
+          - {tekst: "Stigao je iz Vizantije.", odgovor: a, zasto: "Titulu despota 1402. daje vizantijski car."}
+          - {tekst: "Doneo je državi novu teritoriju.", odgovor: b, zasto: "Teritoriju donosi 1403, Mačva s Beogradom; 1402. je samo titula."}
+          - {tekst: "Doneo je državi prestonicu.", odgovor: b, zasto: "Beograd je prestonica od 1403."}
+          - {tekst: "Dobio ga je Stefan Lazarević.", odgovor: oba, zasto: "Oba dobitka su Stefanova."}
+          - {tekst: "Oslobodio je državu od vazalstva.", odgovor: nijedan, zasto: "Stefan ostaje vazal; 1403. mu čak donosi i nove vazalne obaveze."}
+        pomoc:
+          - "Razlikuj ugled od zemlje."
+          - "Godina 1402. je titula, 1403. teritorija."
+          - "Iz lekcije: 1402. titula od Vizantije, 1403. Mačva s Beogradom od Ugarske."
+        objasnjenje: "Godina 1402. donosi ugled, a 1403. zemlju i prestonicu; nezavisnost ne donosi nijedna."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Stefan 1402. dobija titulu, a 1403. Mačvu s Beogradom."}
+
+      - id: l11-ko-sam-stefan
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [stefan-lazarevic, despot, beograd]
+        tragovi:
+          - "Vlast nad srpskom državom preuzeo sam 1389, posle oca, kneza Lazara."
+          - "Imam titulu odmah ispod carske."
+          - "U moje vreme Beograd prvi put postaje srpska prestonica."
+        odgovori:
+          - {tekst: "Stefan Lazarević", tacan: true}
+          - {tekst: "Đurađ Branković", tacan: false, zasto: "Đurađ je Stefanov priznati naslednik, a ne vladar od 1389."}
+          - {tekst: "Stefan Tomašević", tacan: false, zasto: "Tomašević je poslednji bosanski vladar."}
+          - {tekst: "Knez Lazar", tacan: false, zasto: "Lazar je otac despota Stefana; on nije nosio titulu despota."}
+        objasnjenje: "To je despot Stefan Lazarević (1389–1427)."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Stefan Lazarević vlada od 1389, ima titulu despota, a Beograd mu je prestonica.", slika: "11-srbija-i-bosna-u-xv-veku/01-despot-stefan-lazarevic.jpg"}
+
+      - id: l11-ko-sam-djuradj
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [djuradj-brankovic, vuk-brankovic, stefan-lazarevic]
+        tragovi:
+          - "Moja porodica se dugo sukobljavala sa Lazarevićima."
+          - "Pomirio sam se sa despotom Stefanom 1413."
+          - "Stefan me je 1425. priznao za naslednika."
+        odgovori:
+          - {tekst: "Đurađ Branković", tacan: true}
+          - {tekst: "Vuk Branković", tacan: false, zasto: "Vuk je predak: sukobe vode njegovi potomci, a pomirenje sklapa Đurađ."}
+          - {tekst: "Grigorije Camblak", tacan: false, zasto: "Camblak je pisac biografije Stefana Dečanskog, a ne naslednik."}
+          - {tekst: "Žigmund", tacan: false, zasto: "Žigmund je ugarski kralj, a ne srpski naslednik."}
+        objasnjenje: "To je Đurađ Branković, priznati naslednik despota Stefana."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Stefan se 1413. pomirio sa Đurđem Brankovićem, a 1425. ga priznao za naslednika."}
+
+      - id: l11-ko-sam-zigmund
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [zigmund, ugarska, stefan-lazarevic]
+        tragovi:
+          - "Biograf despota Stefana piše o mojim dobrim odnosima sa despotom."
+          - "Dolazio sam u Beli grad, a despot je dolazio kod mene."
+          - "Ja sam ugarski kralj."
+        odgovori:
+          - {tekst: "Žigmund", tacan: true}
+          - {tekst: "Tvrtko I", tacan: false, zasto: "Tvrtko I je bosanski kralj, a ne ugarski."}
+          - {tekst: "Konstantin Filozof", tacan: false, zasto: "Konstantin je pisac tog odlomka, a ne kralj."}
+          - {tekst: "Stefan Tomaš", tacan: false, zasto: "Stefan Tomaš je bosanski vladar, a ne ugarski kralj."}
+        objasnjenje: "To je ugarski kralj Žigmund, o čijem prijateljstvu sa despotom piše Konstantin Filozof."
+        iz_udzbenika: {strana: 47, odeljak: "Iz istorijskih izvora", tekst: "Odlomak Konstantina Filozofa govori o dobrim odnosima despota i ugarskog kralja Žigmunda."}
+
+      - id: l11-objasni-vazal
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [vazal, stefan-lazarevic]
+        pitanje: "Šta znači da je Stefan Lazarević bio vazal? Objasni svojim rečima i navedi kome je bio vazal."
+        uzor: "Vazal je vladar koji ima obaveze prema jačem gospodaru. Stefan vlada svojom zemljom, ali zavisi od jačih. Bio je vazal Turaka, a kasnije i Ugarske, od koje je zauzvrat dobio Mačvu s Beogradom."
+        ideje:
+          - "Vazal ima obaveze prema jačem gospodaru."
+          - "Stefan je bio vazal Turaka."
+          - "Bio je i vazal Ugarske."
+        objasnjenje: "Vazalstvo znači vladanje uz zavisnost; Stefan je imao dva gospodara."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Stefan očevim teritorijama vlada kao turski vazal, a prima i vazalne obaveze prema Ugarskoj."}
+
+      - id: l11-objasni-dve-sile
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [srpska-despotovina, ugarska, osmanlije, vazal]
+        pitanje: "Zašto se kaže da je položaj Despotovine bio vrlo težak?"
+        uzor: "Despotovina je bila vazal dve sile, Turaka i Ugarske, koje su bile suprotstavljene. Njihove vojske su se više puta sukobljavale na njenom tlu. Pored toga, država je trpela turska pustošenja, a dugo su trajali i unutrašnji sukobi Lazarevića i Brankovića."
+        ideje:
+          - "Država je bila vazal dve sile."
+          - "Vojske tih sila su se borile na njenom tlu."
+          - "Turci su pustošili zemlju."
+          - "Dugo su trajali unutrašnji sukobi."
+        objasnjenje: "Teškoće su dolazile i spolja (dve sile) i iznutra (sukob porodica)."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Despotovina je između dve sile, a od Lazareve smrti traju i unutrašnji sukobi."}
+
+      - id: l11-objasni-kraj
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [kosovski-boj, smederevo, srpska-despotovina]
+        pitanje: "Zašto je Kosovo 1389. poraz, ali ne i kraj srpske države? Šta je onda kraj?"
+        uzor: "Na Kosovu je Srbija poražena i postala je turski vazal, ali je država nastavila da postoji. Stefan Lazarević ju je učvrstio, a pod despotima je čak doživela privredni polet. Kraj dolazi 1459, kada Turci osvajaju Smederevo i srednjovekovna srpska država nestaje."
+        ideje:
+          - "Posle Kosova Srbija postoji kao turski vazal."
+          - "Država se pod Stefanom učvršćuje i razvija."
+          - "Kraj je pad Smedereva 1459."
+        objasnjenje: "Razlika je između gubitka samostalnosti i nestanka države."
+        iz_udzbenika: {strana: 45, odeljak: "Uvod", tekst: "Despotovina se održava do sredine XV veka, a konačno propada 1459."}
+        osa: {naziv: "Pad Smedereva", od: 1459, traka: dogadjaji}
+
+      - id: l11-objasni-beograd-cena
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [beograd, ugarska, vazal, srpska-prestonica]
+        pitanje: "Šta je Stefan dobio, a šta je „platio” prihvatajući vazalstvo prema Ugarskoj? Da li ti se ta razmena čini dobrom? Objasni."
+        uzor: "Stefan je primio vazalne obaveze prema Ugarskoj, pa je zavisio od još jedne sile. Zauzvrat je dobio Mačvu s Beogradom, a Beograd je postao prestonica. Razmena je bila korisna jer je država dobila zemlju i glavni grad, iako je cena bila manja samostalnost."
+        ideje:
+          - "Cena: vazalne obaveze prema još jednoj sili."
+          - "Dobitak: Mačva s Beogradom."
+          - "Beograd je postao prestonica."
+          - "Učenik obrazlaže svoj sud o toj razmeni."
+        objasnjenje: "Vazalstvo nije samo gubitak: ponekad je to cena za zemlju i opstanak."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Stefan prima vazalne obaveze prema Ugarskoj i zauzvrat 1403. dobija Mačvu s Beogradom."}
+        osa: {naziv: "Beograd postaje srpska prestonica", od: 1403, traka: dogadjaji}
+
+  # ==========================================================================
+  - naslov: "Privredni i kulturni razvoj Despotovine"
+    zadaci:
+      - id: l11-privreda-izbor-grane
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [rudarstvo, trgovina, srpska-despotovina]
+        pitanje: "Koje su privredne grane posebno u usponu u Despotovini?"
+        odgovori:
+          - {tekst: "Rudarstvo i trgovina", tacan: true}
+          - {tekst: "Ribolov i pomorstvo", tacan: false, zasto: "Lekcija ističe rudnike i trgovinu sa Dubrovčanima, a ne more."}
+          - {tekst: "Štamparstvo i bankarstvo", tacan: false, zasto: "O njima lekcija ne govori; polet donose rudarstvo i trgovina."}
+          - {tekst: "Samo stočarstvo", tacan: false, zasto: "Lekcija ističe rudnike Novo Brdo i Srebrenicu i trgovinu."}
+        pomoc:
+          - "Seti se Novog Brda i dubrovačkih trgovaca."
+          - "Jedna grana je ispod zemlje, druga na putevima."
+          - "Iz lekcije: u usponu su naročito rudarstvo i trgovina."
+        objasnjenje: "I pored turskih pustošenja, privreda je u usponu, naročito rudarstvo i trgovina."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "Privreda Despotovine je u usponu, naročito rudarstvo i trgovina."}
+
+      - id: l11-beograd-izbor-razvoj
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [beograd]
+        pitanje: "Kako se menja Beograd u doba Despotovine?"
+        odgovori:
+          - {tekst: "Od pogranične tvrđave postaje sve više pravi srednjovekovni grad", tacan: true}
+          - {tekst: "Od velikog grada postaje malo selo", tacan: false, zasto: "Razvoj ide u suprotnom smeru: Beograd raste od tvrđave ka gradu."}
+          - {tekst: "Postaje najveći rudnik u državi", tacan: false, zasto: "Rudnici su Novo Brdo i Srebrenica; Beograd se razvija kao grad."}
+          - {tekst: "Postaje središte Hercegovine", tacan: false, zasto: "Hercegovina je na jugu Bosne; Beograd je srpska prestonica."}
+        pomoc:
+          - "Pogledaj sliku Beograda iz doba despota."
+          - "Razmisli šta se dešava sa tvrđavom koja postane prestonica."
+          - "Iz lekcije: od pogranične tvrđave sve više pravi srednjovekovni grad."
+        objasnjenje: "Kao prestonica, Beograd prerasta iz pogranične tvrđave u pravi srednjovekovni grad."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "Beograd od pogranične tvrđave postaje sve više pravi srednjovekovni grad.", slika: "11-srbija-i-bosna-u-xv-veku/02-beograd-despota-stefana.jpg"}
+
+      - id: l11-tn-dubrovcani
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [dubrovcani, trgovina]
+        tvrdnja: "Dubrovački trgovci posluju bez smetnji po celoj teritoriji Despotovine."
+        tacno: true
+        pomoc:
+          - "Trgovina je grana u usponu."
+          - "Slobodni trgovci znače bogatije tržište."
+          - "Iz lekcije: Dubrovčani posluju bez smetnji po celoj Despotovini."
+        objasnjenje: "Tačno. Slobodno poslovanje Dubrovčana doprinosi privrednom poletu Despotovine."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "Dubrovački trgovci posluju bez smetnji po celoj teritoriji Despotovine."}
+
+      - id: l11-tn-pustosenje
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [srpska-despotovina, rudarstvo]
+        tvrdnja: "Zbog turskih pustošenja privreda Despotovine je potpuno propala."
+        tacno: false
+        ispravke:
+          - {tekst: "I pored turskih pustošenja, privreda je u usponu.", tacan: true}
+          - {tekst: "Turci nikada nisu pustošili Despotovinu.", tacan: false, zasto: "Pustošenja su bila, ali privreda ipak raste."}
+          - {tekst: "Privreda je bila u usponu samo u Bosni.", tacan: false, zasto: "Lekcija govori baš o usponu privrede Despotovine."}
+        pomoc:
+          - "Pročitaj naslov odeljka: razvoj Despotovine."
+          - "Seti se ogromnih prihoda iz rudnika."
+          - "Iz lekcije: i pored pustošenja, privreda je u usponu."
+        objasnjenje: "Netačno. Uprkos pustošenjima, rudarstvo i trgovina rastu."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "I pored turskih pustošenja, privreda Despotovine je u usponu."}
+
+      - id: l11-tn-camblak
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [grigorije-camblak, konstantin-filozof, stefan-decanski]
+        tvrdnja: "Biografiju Stefana Dečanskog napisao je Konstantin Filozof."
+        tacno: false
+        ispravke:
+          - {tekst: "Biografiju Stefana Dečanskog napisao je Grigorije Camblak.", tacan: true}
+          - {tekst: "Biografiju Stefana Dečanskog napisala je Jefimija.", tacan: false, zasto: "Jefimija je napisala Pohvalu knezu Lazaru."}
+          - {tekst: "Biografiju Stefana Dečanskog napisao je Žigmund.", tacan: false, zasto: "Žigmund je ugarski kralj, a ne pisac."}
+        pomoc:
+          - "Konstantin Filozof je biograf drugog Stefana."
+          - "Traži trećeg pisca sa spiska."
+          - "Iz lekcije: Konstantin piše o despotu Stefanu, Camblak o Stefanu Dečanskom."
+        objasnjenje: "Netačno. Konstantin Filozof je biograf despota Stefana, a Camblak Stefana Dečanskog."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "Biografiju Stefana Dečanskog napisao je Grigorije Camblak."}
+
+      - id: l11-dopuni-rudnici
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [novo-brdo, srebrenica, rudarstvo]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Najvažniji rudnici Despotovine su {{Novo Brdo}} i {{Srebrenica}}, a prihodi od {{rudarstva}} su ogromni."
+        ponudjene: ["Novo Brdo", "Srebrenica", "rudarstva", "Mačva", "Smederevo", "ribolova"]
+        pomoc:
+          - "Dva imena su rudnici, ne teritorije."
+          - "Mačva je teritorija, a Smederevo grad sa tvrđavom."
+          - "Iz lekcije: Novo Brdo i Srebrenica."
+        objasnjenje: "Novo Brdo i Srebrenica su izvor velikih prihoda."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "Despot ima važne rudnike, Novo Brdo i Srebrenicu."}
+
+      - id: l11-dopuni-dela
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [pohvala-knezu-lazaru, konstantin-filozof, grigorije-camblak, monahinja-jefimija]
+        pitanje: "Dopuni autore dela nastalih na tlu Despotovine."
+        tekst: "Pohvalu knezu Lazaru piše {{Jefimija|monahinja Jefimija}}, Biografiju despota Stefana {{Konstantin Filozof}}, a Biografiju Stefana Dečanskog {{Grigorije Camblak}}."
+        ponudjene: ["Jefimija", "Konstantin Filozof", "Grigorije Camblak", "Đurađ Branković", "Stefan Tomaš"]
+        pomoc:
+          - "Prvi autor je monahinja."
+          - "Dva vladara na spisku nisu pisci."
+          - "Iz lekcije: Jefimija, Konstantin Filozof, Grigorije Camblak."
+        objasnjenje: "Tri važna teksta i tri autora iz doba Despotovine."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "Na tlu Despotovine nastaju dela Jefimije, Konstantina Filozofa i Grigorija Camblaka."}
+
+      - id: l11-povezi-dela
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [pohvala-knezu-lazaru, monahinja-jefimija, konstantin-filozof, grigorije-camblak]
+        pitanje: "Poveži delo sa autorom."
+        parovi:
+          - ["Pohvala knezu Lazaru", "monahinja Jefimija"]
+          - ["Biografija despota Stefana Lazarevića", "Konstantin Filozof"]
+          - ["Biografija Stefana Dečanskog", "Grigorije Camblak"]
+        pomoc:
+          - "Jedino žensko ime ide uz pohvalu."
+          - "Konstantin piše o despotu."
+          - "Iz lekcije: Jefimija, Konstantin, Camblak."
+        objasnjenje: "Sva tri dela nastaju na tlu Despotovine."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "Lekcija navodi tri važna teksta i njihove autore."}
+
+      - id: l11-zakljuci-trgovci
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [dubrovcani, trgovina]
+        pitanje: "Kako je slobodno poslovanje dubrovačkih trgovaca uticalo na Despotovinu?"
+        odgovori:
+          - {tekst: "Doprinelo je privrednom poletu države", tacan: true}
+          - {tekst: "Izazvalo je pad Smedereva", tacan: false, zasto: "Smederevo osvajaju Turci; trgovci nisu uzrok pada."}
+          - {tekst: "Prekinulo je rudarstvo", tacan: false, zasto: "Rudarstvo je i dalje u usponu i ide uz trgovinu."}
+          - {tekst: "Dovelo je Dubrovčane na srpski presto", tacan: false, zasto: "Dubrovčani su trgovci; presto je u rukama despota."}
+        pomoc:
+          - "Korak 1: Ko kupuje i prodaje robu u državi?"
+          - "Korak 2: Šta je dobro za državu kad trgovci rade bez smetnji?"
+          - "Iz lekcije: slobodna trgovina Dubrovčana vodi privrednom poletu."
+        objasnjenje: "Slobodni trgovci znače živu razmenu robe, a to podstiče privredu."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "Dubrovački trgovci posluju bez smetnji, a privreda je u usponu."}
+
+      - id: l11-zakljuci-paradoks
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [srpska-despotovina, rudarstvo, trgovina]
+        pitanje: "Šta je iznenađujuće u razvoju Despotovine?"
+        odgovori:
+          - {tekst: "Privreda raste u državi koja je vazal, pustošena i pod stalnom pretnjom", tacan: true}
+          - {tekst: "Država je bila nezavisna i bez ikakvih neprijatelja", tacan: false, zasto: "Bila je vazal i pustošena, baš zato je njen razvoj iznenađujući."}
+          - {tekst: "Rudnici su donosili samo gubitak", tacan: false, zasto: "Donosili su ogromne prihode."}
+          - {tekst: "Kultura je potpuno zamrla", tacan: false, zasto: "Nastaju važna dela Jefimije, Konstantina Filozofa i Camblaka."}
+        pomoc:
+          - "Korak 1: U kakvom je političkom položaju država?"
+          - "Korak 2: Kakvo je stanje privrede i kulture?"
+          - "Iz lekcije: i pored pustošenja privreda je u usponu."
+        objasnjenje: "Politički položaj je težak, a privreda i kultura ipak rastu."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "I pored turskih pustošenja, privreda Despotovine je u usponu."}
+
+      - id: l11-zakljuci-brzina-tvrdjave
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [smederevska-tvrdjava, rudarstvo, novo-brdo]
+        pitanje: "Šta nam izgradnja tako snažne tvrđave u kratkom roku govori o Despotovini?"
+        odgovori:
+          - {tekst: "Država je imala veliki novac i potrebu za odbranom", tacan: true}
+          - {tekst: "Država nije imala neprijatelje", tacan: false, zasto: "Snažna tvrđava pokazuje upravo potrebu za odbranom."}
+          - {tekst: "Država je bila siromašna", tacan: false, zasto: "Brza gradnja tvrđave je skupa; plaćena je ogromnim prihodima iz rudnika."}
+          - {tekst: "Tvrđavu su sagradili Turci", tacan: false, zasto: "Podigli su je srpski despoti."}
+        pomoc:
+          - "Korak 1: Šta je potrebno da se tvrđava brzo sagradi?"
+          - "Korak 2: Čemu služi tvrđava?"
+          - "Iz lekcije: prihodi iz rudnika omogućili su gradnju u kratkom roku."
+        objasnjenje: "Bogatstvo iz rudnika se pretvara u odbranu države."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "Prihodi iz rudnika omogućili su izgradnju vrlo snažne tvrđave u veoma kratkom roku.", slika: "11-srbija-i-bosna-u-xv-veku/03-smederevska-tvrdjava.jpg"}
+
+      - id: l11-zakljuci-novac-grad
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [smederevo, smederevska-tvrdjava, rudarstvo]
+        pitanje: "Smederevska tvrđava je plaćena rudnicima, a pad Smedereva je kraj države. Šta je iz toga najtačniji zaključak?"
+        odgovori:
+          - {tekst: "Ni bogatstvo ni jaka tvrđava nisu mogli trajno da zaustave tursko osvajanje", tacan: true}
+          - {tekst: "Tvrđava nikada nije imala nikakvu svrhu", tacan: false, zasto: "Bila je jaka odbrana, ali Turci su ipak na kraju osvojili Smederevo."}
+          - {tekst: "Rudnici su bili uzrok pada države", tacan: false, zasto: "Rudnici su bili izvor snage; državu su osvojili Turci."}
+          - {tekst: "Smederevo su osvojili Ugri", tacan: false, zasto: "Smederevo 1459. osvajaju Turci."}
+        pomoc:
+          - "Korak 1: Čemu je služio novac iz rudnika?"
+          - "Korak 2: Da li je to zaustavilo Turke 1459?"
+          - "Iz lekcije: tvrđava je plaćena rudnicima, a Smederevo pada 1459."
+        objasnjenje: "Tvrđava je produžila otpor, ali premoć Turaka je na kraju odlučila."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "Bogatstvo rudnika podiže tvrđavu, a Smederevo ipak pada 1459.", slika: "11-srbija-i-bosna-u-xv-veku/03-smederevska-tvrdjava.jpg"}
+        osa: {naziv: "Pad Smedereva", od: 1459, traka: dogadjaji}
+
+      - id: l11-lanac-rudnici-tvrdjava
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [novo-brdo, srebrenica, smederevska-tvrdjava]
+        karike:
+          - "Bogati rudnici Novo Brdo i Srebrenica"
+          - "?"
+          - "Brza izgradnja Smederevske tvrđave"
+        praznina: 1
+        odgovori:
+          - {tekst: "Ogromni prihodi državi", tacan: true}
+          - {tekst: "Mir sa Turcima", tacan: false, zasto: "Mir ne plaća zidove; tvrđavu plaćaju prihodi iz rudnika."}
+          - {tekst: "Dolazak Ugara", tacan: false, zasto: "Ugri ne učestvuju u ovom lancu; on ide od rudnika preko prihoda do tvrđave."}
+        pomoc:
+          - "Korak 1: Šta rudnik donosi vlasniku?"
+          - "Korak 2: Šta je potrebno za gradnju?"
+          - "Iz lekcije: rudnici → prihodi → tvrđava."
+        objasnjenje: "Rudnici donose novac, a novac gradi tvrđavu."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "Prihodi iz rudnika omogućili su izgradnju Smederevske tvrđave.", slika: "11-srbija-i-bosna-u-xv-veku/03-smederevska-tvrdjava.jpg"}
+
+      - id: l11-lanac-rudnik-odbrana
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [rudarstvo, smederevo, smederevska-tvrdjava]
+        karike:
+          - "Rudnici donose ogromne prihode"
+          - "Podiže se snažna Smederevska tvrđava"
+          - "?"
+          - "Pad Smedereva je kraj nezavisne srpske države"
+        praznina: 2
+        odgovori:
+          - {tekst: "Smederevo postaje ključno mesto Despotovine, čiji pad odlučuje sudbinu države", tacan: true}
+          - {tekst: "Smederevo postaje sedište Bosne", tacan: false, zasto: "Smederevo je mesto u Despotovini; Bosna pada posebno, 1463."}
+          - {tekst: "Smederevo Turci nikada ne napadaju", tacan: false, zasto: "Upravo ga osvajaju 1459."}
+        pomoc:
+          - "Korak 1: Zašto bi baš pad jednog grada bio kraj države?"
+          - "Korak 2: Šta je značilo imati najsnažniju tvrđavu?"
+          - "Iz lekcije: pad Smedereva 1459. je kraj države."
+        objasnjenje: "Smederevo je postalo ključno uporište, pa je njegovim padom pala i država."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Pad Smedereva se uzima za kraj nezavisne srednjovekovne srpske države."}
+        osa: {naziv: "Pad Smedereva", od: 1459, traka: dogadjaji}
+
+      - id: l11-izvor-smederevo-slika
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [smederevska-tvrdjava, smederevo]
+        izvor:
+          autor: "Fotografija iz udžbenika (Slika 47)"
+          naslov: "Tvrđava iz vazduha"
+          tekst: "Na snimku iz vazduha vidi se velika tvrđava trouglaste osnove uz reku, sa dugim bedemima i mnogo kula. Pored nje su danas pruga i grad."
+          napomena: "Odlomak je prepričan; udžbenik, str. 46."
+        pitanje: "O kojoj tvrđavi je reč?"
+        odgovori:
+          - {tekst: "O Smederevskoj tvrđavi", tacan: true}
+          - {tekst: "O tvrđavi u Dubrovniku", tacan: false, zasto: "Lekcija govori o tvrđavi u Despotovini, sagrađenoj novcem iz rudnika."}
+          - {tekst: "O tvrđavi u Novom Brdu", tacan: false, zasto: "Novo Brdo je rudnik koji daje novac; slika prikazuje Smederevo."}
+          - {tekst: "O tvrđavi u Hercegovini", tacan: false, zasto: "Hercegovina je u odeljku o Bosni; tvrđava je iz Despotovine."}
+        pomoc:
+          - "Velika tvrđava građena je za kratko vreme."
+          - "Njen pad se uzima za kraj države."
+          - "Iz lekcije: Slika 47 je Smederevska tvrđava danas."
+        objasnjenje: "Slika 47 prikazuje Smederevsku tvrđavu, snažno utvrđenje sagrađeno novcem iz rudnika."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "Slika prikazuje Smederevsku tvrđavu danas.", slika: "11-srbija-i-bosna-u-xv-veku/03-smederevska-tvrdjava.jpg"}
+
+      - id: l11-uporedi-beograd-smederevo
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [beograd, smederevo, srpska-prestonica]
+        a: "Beograd"
+        b: "Smederevo"
+        pitanje: "Na koji grad se odnosi tvrdnja: Beograd, Smederevo, oba ili nijedan?"
+        tvrdnje:
+          - {tekst: "Stefan ga dobija od Ugarske 1403.", odgovor: a, zasto: "Od Ugarske dobija Mačvu s Beogradom."}
+          - {tekst: "Njegov pad se uzima za kraj srpske države.", odgovor: b, zasto: "Kraj je pad Smedereva, 1459."}
+          - {tekst: "To je grad u Despotovini.", odgovor: oba, zasto: "Oba grada su u Despotovini."}
+          - {tekst: "Jedan je od glavnih rudnika.", odgovor: nijedan, zasto: "Rudnici su Novo Brdo i Srebrenica."}
+        pomoc:
+          - "Jedan grad je povezan sa početkom Despotovine, drugi sa krajem."
+          - "Rudnici imaju druga imena."
+          - "Iz lekcije: Beograd 1403, Smederevo 1459."
+        objasnjenje: "Beograd je novi veliki grad, Smederevo poslednje uporište; nijedan nije rudnik."
+        iz_udzbenika: {strana: 45, odeljak: "Srpska država nakon Kosovske bitke", tekst: "Beograd je prestonica od 1403, a pad Smedereva 1459. je kraj države."}
+
+      - id: l11-ko-sam-konstantin
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [konstantin-filozof, stefan-lazarevic]
+        tragovi:
+          - "Pišem na tlu Despotovine."
+          - "Moj odlomak opisuje prijateljstvo despota i kralja Žigmunda."
+          - "Napisao sam biografiju despota Stefana Lazarevića."
+        odgovori:
+          - {tekst: "Konstantin Filozof", tacan: true}
+          - {tekst: "Grigorije Camblak", tacan: false, zasto: "Camblak je napisao biografiju Stefana Dečanskog."}
+          - {tekst: "Monahinja Jefimija", tacan: false, zasto: "Jefimija je napisala Pohvalu knezu Lazaru."}
+          - {tekst: "Stefan Tomaš", tacan: false, zasto: "Stefan Tomaš je bosanski vladar, a ne pisac."}
+        objasnjenje: "To je Konstantin Filozof, biograf despota Stefana."
+        iz_udzbenika: {strana: 47, odeljak: "Iz istorijskih izvora", tekst: "Autor odlomka je Konstantin Filozof, biograf despota Stefana Lazarevića."}
+
+      - id: l11-objasni-privreda
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [rudarstvo, trgovina, dubrovcani]
+        pitanje: "Zašto je privreda Despotovine bila u usponu i pored turskih pustošenja?"
+        uzor: "Despotovina je imala bogate rudnike, Novo Brdo i Srebrenicu, koji su donosili ogromne prihode. Dubrovački trgovci su radili bez smetnji po celoj državi, pa je i trgovina rasla."
+        ideje:
+          - "Bogati rudnici Novo Brdo i Srebrenica."
+          - "Ogromni prihodi državi."
+          - "Dubrovčani trguju bez smetnji."
+        objasnjenje: "Rudarstvo i trgovina su dva stuba privrede Despotovine."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "I pored pustošenja privreda je u usponu, naročito rudarstvo i trgovina."}
+
+  # ==========================================================================
+  - naslov: "Bosna u XV veku"
+    zadaci:
+      - id: l11-bosna-izbor-smrt
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [tvrtko-i-kotromanic, bosna]
+        pitanje: "Čijom smrću moć Bosne naglo slabi?"
+        odgovori:
+          - {tekst: "Smrću kralja Tvrtka I Kotromanića", tacan: true}
+          - {tekst: "Smrću despota Stefana", tacan: false, zasto: "Stefan je srpski despot; moć Bosne opada posle smrti Tvrtka I (1391)."}
+          - {tekst: "Smrću kneza Lazara", tacan: false, zasto: "Lazar je srpski knez; Bosnom je vladao Tvrtko I."}
+          - {tekst: "Smrću Stefana Tomaševića", tacan: false, zasto: "On je poslednji vladar; Bosna slabi već od 1391."}
+        pomoc:
+          - "To je bosanski kralj sa kraja XIV veka."
+          - "Njegovo ime je Tvrtko."
+          - "Iz lekcije: smrću Tvrtka I (1391) moć Bosne naglo slabi."
+        objasnjenje: "Smrću Tvrtka I 1391. počinje opadanje bosanske moći."
+        iz_udzbenika: {strana: 46, odeljak: "Bosna u XV veku", tekst: "Smrću bosanskog kralja Tvrtka I Kotromanića (1391) moć Bosne naglo slabi."}
+        osa: {naziv: "Smrt Tvrtka I Kotromanića", od: 1391, traka: vladari}
+
+      - id: l11-hercegovina-izbor-ime
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [hercegovina, herceg, stefan-vukcic-kosaca]
+        pitanje: "Po čemu je Hercegovina dobila ime?"
+        odgovori:
+          - {tekst: "Po tituli herceg koju je nosio Stefan Vukčić Kosača", tacan: true}
+          - {tekst: "Po reci Hercegovini", tacan: false, zasto: "Ime nije po reci, nego po tituli herceg."}
+          - {tekst: "Po ugarskom kralju", tacan: false, zasto: "Žigmund i ugarski kraljevi nisu povezani s imenom; ono je od titule Kosače."}
+          - {tekst: "Po gradu Smederevu", tacan: false, zasto: "Smederevo je u Despotovini i nema veze s tim imenom."}
+        pomoc:
+          - "Ime krije titulu."
+          - "Titulu je nosio vlastelin na jugu Bosne."
+          - "Iz lekcije: Kosača je koristio titulu „herceg od Svetog Save”, po čemu je zemlja nazvana."
+        objasnjenje: "Stefan Vukčić Kosača je „herceg od Svetog Save”, pa se njegova zemlja zove Hercegovina."
+        iz_udzbenika: {strana: 47, odeljak: "Bosna u XV veku", tekst: "Kosača je koristio titulu herceg od Svetog Save, po čemu je zemlja nazvana Hercegovina."}
+
+      - id: l11-bosna-izbor-feudalci
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [bosna, ugarska, osmanlije]
+        pitanje: "Šta rade moćniji bosanski feudalci kad centralna vlast oslabi?"
+        odgovori:
+          - {tekst: "Deluju sasvim nezavisno i u pomoć zovu ugarske ili osmanlijske odrede", tacan: true}
+          - {tekst: "Svi zajedno jačaju kraljevu vlast", tacan: false, zasto: "Upravo suprotno: osamostaljuju se, pa centralna vlast još više slabi."}
+          - {tekst: "Sele se u Dubrovnik", tacan: false, zasto: "Ostaju na svojim posedima i osamostaljuju se."}
+          - {tekst: "Predaju zemlju Srpskoj despotovini", tacan: false, zasto: "Lekcija ne pominje predaju Despotovini; pomoć traže od Ugara i Osmanlija."}
+        pomoc:
+          - "Šta radi moćan vlastelin kad je kralj slab?"
+          - "Čiju pomoć traže kad se sukobe?"
+          - "Iz lekcije: deluju nezavisno i zovu ugarske ili osmanlijske odrede."
+        objasnjenje: "Feudalci deluju nezavisno i zovu tuđe odrede, što Bosnu još više slabi."
+        iz_udzbenika: {strana: 46, odeljak: "Bosna u XV veku", tekst: "Moćniji feudalci deluju sasvim nezavisno i u pomoć zovu ugarske ili osmanlijske odrede."}
+
+      - id: l11-bosna-izbor-poslednji
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [stefan-tomas, stefan-tomasevic, bosna]
+        pitanje: "Ko su poslednji bosanski vladari koji pokušavaju da ojačaju centralnu vlast?"
+        odgovori:
+          - {tekst: "Stefan Tomaš i Stefan Tomašević", tacan: true}
+          - {tekst: "Stefan Lazarević i Đurađ Branković", tacan: false, zasto: "To su srpski vladari Despotovine."}
+          - {tekst: "Tvrtko I i Stefan Vukčić Kosača", tacan: false, zasto: "Tvrtko je stariji kralj, a Kosača se osamostaljuje na jugu."}
+          - {tekst: "Stefan Dečanski i Žigmund", tacan: false, zasto: "Stefan Dečanski je junak biografije, a Žigmund je ugarski kralj."}
+        pomoc:
+          - "Oba imena počinju sa Stefan."
+          - "Drugo ime liči na prvo."
+          - "Iz lekcije: poslednji bosanski vladari su Stefan Tomaš i Stefan Tomašević."
+        objasnjenje: "Stefan Tomaš i Stefan Tomašević pokušavaju da ojačaju vlast, ali država pada 1463."
+        iz_udzbenika: {strana: 47, odeljak: "Bosna u XV veku", tekst: "Poslednji bosanski vladari su Stefan Tomaš i Stefan Tomašević.", slika: "11-srbija-i-bosna-u-xv-veku/06-kralj-stefan-tomasevic.jpg"}
+
+      - id: l11-bosna-izbor-primena
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [bosna, ugarska, osmanlije]
+        pitanje: "Zamisli državu sa slabim kraljem, u kojoj se jaki feudalci bore i zovu tuđu vojsku. Šta joj preti, prema primeru Bosne?"
+        odgovori:
+          - {tekst: "Jača strana sila će lakše da je osvoji", tacan: true}
+          - {tekst: "Država će postati jača", tacan: false, zasto: "Bosna pokazuje suprotno: unutrašnji razdor je slabi."}
+          - {tekst: "Tuđa vojska će se sama povući", tacan: false, zasto: "U Bosni pozvani odredi nisu rešili sukob; država je na kraju pala."}
+          - {tekst: "Kralj će odmah povratiti svu moć", tacan: false, zasto: "Poslednji vladari su pokušali, ali nisu uspeli."}
+        pomoc:
+          - "Seti se kako se završila bosanska priča."
+          - "Poveži slabljenje centralne vlasti i pad države."
+          - "Iz lekcije: slabljenje vlasti → osamostaljivanje → tuđe trupe → pad 1463."
+        objasnjenje: "Primer Bosne pokazuje da razjedinjena država lako postaje plen jače sile."
+        iz_udzbenika: {strana: 47, odeljak: "Zapamtite", tekst: "Bosna posle smrti Tvrtka I prolazi kroz težak period, a jači feudalci se svuda osamostaljuju."}
+
+      - id: l11-tn-bosna-slabi
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [tvrtko-i-kotromanic, bosna]
+        tvrdnja: "Posle smrti Tvrtka I moć Bosne naglo raste."
+        tacno: false
+        ispravke:
+          - {tekst: "Posle smrti Tvrtka I moć Bosne naglo slabi.", tacan: true}
+          - {tekst: "Posle Tvrtka I Bosna postaje carstvo.", tacan: false, zasto: "Carstva nema; država slabi i na kraju pada 1463."}
+          - {tekst: "Tvrtko I je vladao do pada Bosne 1463.", tacan: false, zasto: "Tvrtko je umro 1391, a Bosna pada 1463."}
+        pomoc:
+          - "Seti se ključne reči lekcije: slabljenje."
+          - "Šta se dešava sa vlastelom?"
+          - "Iz lekcije: smrću Tvrtka I moć Bosne naglo slabi."
+        objasnjenje: "Netačno. Smrću Tvrtka I počinje slabljenje Bosne."
+        iz_udzbenika: {strana: 46, odeljak: "Bosna u XV veku", tekst: "Smrću Tvrtka I moć Bosne naglo slabi."}
+        osa: {naziv: "Smrt Tvrtka I Kotromanića", od: 1391, traka: vladari}
+
+      - id: l11-tn-tudje-trupe
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [bosna, osmanlije, ugarska]
+        tvrdnja: "Bosanski feudalci su pozivali samo ugarske, a nikada osmanlijske odrede."
+        tacno: false
+        ispravke:
+          - {tekst: "Pozivali su i ugarske i osmanlijske odrede.", tacan: true}
+          - {tekst: "Pozivali su samo srpske odrede.", tacan: false, zasto: "Lekcija navodi ugarske ili osmanlijske odrede."}
+          - {tekst: "Nikada nisu pozivali tuđe odrede.", tacan: false, zasto: "Pozivali su ih, i to je Bosnu dodatno slabilo."}
+        pomoc:
+          - "Pročitaj rečenicu o moćnim feudalcima."
+          - "Lekcija navodi dve sile."
+          - "Iz lekcije: u pomoć zovu ugarske ili osmanlijske odrede."
+        objasnjenje: "Netačno. Feudalci su u pomoć zvali i jedne i druge."
+        iz_udzbenika: {strana: 46, odeljak: "Bosna u XV veku", tekst: "Moćniji feudalci u pomoć zovu ugarske ili osmanlijske odrede."}
+
+      - id: l11-dopuni-hercegovina
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [stefan-vukcic-kosaca, herceg, hercegovina]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Stefan Vukčić {{Kosača}} nosi titulu {{herceg}} od Svetog Save, pa se njegova zemlja zove {{Hercegovina}}."
+        ponudjene: ["Kosača", "herceg", "Hercegovina", "despot", "Mačva"]
+        pomoc:
+          - "Titula i ime zemlje liče jedno na drugo."
+          - "Despot je Stefanova srpska titula."
+          - "Iz lekcije: herceg od Svetog Save, Hercegovina."
+        objasnjenje: "Od titule herceg nastaje ime Hercegovina."
+        iz_udzbenika: {strana: 47, odeljak: "Bosna u XV veku", tekst: "Kosača koristi titulu herceg od Svetog Save, pa je njegova zemlja nazvana Hercegovina."}
+
+      - id: l11-dopuni-feudalci-bez-banke
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [bosna, stefan-tomas, stefan-tomasevic]
+        pitanje: "Dopuni tekst bez ponuđenih reči."
+        tekst: "Naslednici Tvrtka I suočavaju se sa osamostaljivanjem {{vlastele}} i opadanjem {{centralne}} vlasti. Poslednji vladari, Stefan Tomaš i Stefan {{Tomašević}}, ne uspevaju da spasu državu."
+        pomoc:
+          - "Feudalci se drugačije zovu vlastela."
+          - "Vlast koja je iznad svih je centralna."
+          - "Iz lekcije: osamostaljivanje vlastele, opadanje centralne vlasti."
+        objasnjenje: "Vlastela jača, centralna vlast slabi, a poslednji vladari ne mogu to da preokrenu."
+        iz_udzbenika: {strana: 46, odeljak: "Bosna u XV veku", tekst: "Naslednici Tvrtka I se suočavaju sa osamostaljivanjem vlastele i opadanjem centralne vlasti."}
+
+      - id: l11-povezi-bosna-licnosti
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [tvrtko-i-kotromanic, stefan-vukcic-kosaca, stefan-tomasevic]
+        pitanje: "Poveži bosansku ličnost sa njenom ulogom."
+        parovi:
+          - ["Tvrtko I Kotromanić", "kralj čijom smrću Bosna slabi"]
+          - ["Stefan Vukčić Kosača", "vlastelin koji se osamostaljuje na jugu"]
+          - ["Stefan Tomašević", "poslednji bosanski vladar"]
+        pomoc:
+          - "Prvi je najstariji po vremenu."
+          - "Hercegovina ide uz Kosaču."
+          - "Iz lekcije: Tvrtko, Kosača, Tomašević."
+        objasnjenje: "Ova trojica pokazuju put Bosne od moći do pada."
+        iz_udzbenika: {strana: 47, odeljak: "Bosna u XV veku", tekst: "Lekcija prati Bosnu od Tvrtka I, preko Kosače, do Stefana Tomaševića."}
+
+      - id: l11-zakljuci-feudalci
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [bosna, tvrtko-i-kotromanic]
+        pitanje: "Zašto se vlastela u Bosni osamostaljuje posle Tvrtkove smrti?"
+        odgovori:
+          - {tekst: "Zato što je centralna vlast oslabila, pa je kralj više nije mogao da drži pod kontrolom", tacan: true}
+          - {tekst: "Zato što ih je kralj na to prisilio", tacan: false, zasto: "Kralju ne odgovara da se vlastela odvaja; to se dešava zbog njegove slabosti."}
+          - {tekst: "Zato što su svi prešli u Despotovinu", tacan: false, zasto: "Vlastela ostaje na svojim posedima."}
+          - {tekst: "Zato što je Bosna osvojena 1391.", tacan: false, zasto: "Bosna pada tek 1463."}
+        pomoc:
+          - "Korak 1: Šta se dešava sa kraljevom vlašću?"
+          - "Korak 2: Šta radi moćnik kad nema jakog gospodara?"
+          - "Iz lekcije: opadanje centralne vlasti i osamostaljivanje vlastele idu zajedno."
+        objasnjenje: "Slab centar daje slobodu moćnim feudalcima."
+        iz_udzbenika: {strana: 46, odeljak: "Bosna u XV veku", tekst: "Naslednici Tvrtka se suočavaju sa osamostaljivanjem vlastele i opadanjem centralne vlasti."}
+
+      - id: l11-zakljuci-tudje-trupe
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [bosna, osmanlije, ugarska]
+        pitanje: "Zašto je pozivanje ugarskih i osmanlijskih odreda bilo opasno za Bosnu?"
+        odgovori:
+          - {tekst: "Strane sile su se mešale u unutrašnje sukobe, a država je dalje slabila", tacan: true}
+          - {tekst: "Zato što su ti odredi bili bez oružja", tacan: false, zasto: "Problem nije oružje, već to što strane sile dobijaju uticaj u zemlji."}
+          - {tekst: "Zato što su svi feudalci bili trgovci", tacan: false, zasto: "Feudalci nisu trgovci; opasnost je strano mešanje."}
+          - {tekst: "Nije bilo opasno, jer je Bosna od toga ojačala", tacan: false, zasto: "Bosna je slabila i na kraju pala 1463."}
+        pomoc:
+          - "Korak 1: Ko dobija korist kad se feudalci sukobljavaju?"
+          - "Korak 2: Šta tuđa vojska radi u tuđoj državi?"
+          - "Iz lekcije: feudalci zovu ugarske ili osmanlijske odrede, a država pada 1463."
+        objasnjenje: "Strane sile koriste unutrašnji razdor, a država slabi."
+        iz_udzbenika: {strana: 46, odeljak: "Bosna u XV veku", tekst: "Moćniji feudalci deluju nezavisno i u pomoć zovu ugarske ili osmanlijske odrede."}
+
+      - id: l11-zakljuci-poredjenje-srbija-bosna
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [srpska-despotovina, bosna, djuradj-brankovic]
+        pitanje: "U čemu je najveća razlika između sudbine Srbije i Bosne u prvoj polovini XV veka?"
+        odgovori:
+          - {tekst: "U Srbiji sukob vodi pomirenju i stabilnosti, a u Bosni raspad vlasti traje", tacan: true}
+          - {tekst: "Srbija je pala pre Kosova, a Bosna nikada", tacan: false, zasto: "Obe države padaju pod Turke: Srbija 1459, Bosna 1463."}
+          - {tekst: "U Bosni je bilo pomirenja, a u Srbiji nije", tacan: false, zasto: "Pomirenje se desilo u Srbiji (1413), a u Bosni vlastela ostaje nezavisna."}
+          - {tekst: "Bosna je imala despota, a Srbija kralja", tacan: false, zasto: "Despot je srpski vladar, a Bosna ima kralja."}
+        pomoc:
+          - "Korak 1: Šta je smirilo prilike u Srbiji?"
+          - "Korak 2: Šta se u isto vreme dešava sa bosanskom vlastelom?"
+          - "Iz lekcije: u Srbiji pomirenje i priznanje, u Bosni osamostaljivanje feudalaca."
+        objasnjenje: "Srbija pod despotima sređuje prilike, dok Bosna ostaje podeljena među moćnicima."
+        iz_udzbenika: {strana: 47, odeljak: "Zapamtite", tekst: "Lekcija upoređuje Srbiju pod despotima i Bosnu posle smrti Tvrtka I."}
+
+      - id: l11-datum-bosna
+        vrsta: datum
+        tezina: lako
+        pojmovi: [bosna, osmanlije]
+        dogadjaj: "Pad Bosne"
+        pitanje: "Koje godine Bosna pada pod Osmanlije?"
+        godina: 1463
+        traka: dogadjaji
+        pomoc:
+          - "Nekoliko godina posle pada Smedereva."
+          - "Četiri godine posle 1459."
+          - "Iz lekcije: Bosna pada 1463."
+        objasnjenje: "Bosna pada 1463, četiri godine posle Despotovine."
+        iz_udzbenika: {strana: 47, odeljak: "Bosna u XV veku", tekst: "Država ipak pada pod Osmanlije 1463.", slika: "11-srbija-i-bosna-u-xv-veku/06-kralj-stefan-tomasevic.jpg"}
+
+      - id: l11-datum-tvrtko
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [tvrtko-i-kotromanic, bosna]
+        dogadjaj: "Smrt Tvrtka I Kotromanića"
+        pitanje: "Koje godine umire bosanski kralj Tvrtko I Kotromanić?"
+        godina: 1391
+        traka: vladari
+        pomoc:
+          - "Kraj XIV veka."
+          - "Dve godine posle boja na Kosovu."
+          - "Iz lekcije: Tvrtko I umire 1391."
+        objasnjenje: "Tvrtko I umire 1391, dve godine posle boja na Kosovu."
+        iz_udzbenika: {strana: 46, odeljak: "Bosna u XV veku", tekst: "Smrću bosanskog kralja Tvrtka I Kotromanića (1391) moć Bosne naglo slabi."}
+
+      - id: l11-poredjaj-cela-lekcija
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [kosovski-boj, tvrtko-i-kotromanic, beograd, djuradj-brankovic, smederevo, bosna]
+        pitanje: "Poređaj osam događaja iz lekcije, od najranijeg."
+        stavke:
+          - {tekst: "Boj na Kosovu", godina: 1389, naziv: "Bitka na Kosovu", traka: dogadjaji}
+          - {tekst: "Smrt Tvrtka I", godina: 1391, naziv: "Smrt Tvrtka I Kotromanića", traka: vladari}
+          - {tekst: "Titula despota", godina: 1402, naziv: "Stefan Lazarević dobija titulu despota", traka: dogadjaji}
+          - {tekst: "Beograd prestonica", godina: 1403, naziv: "Beograd postaje srpska prestonica", traka: dogadjaji}
+          - {tekst: "Pomirenje Stefana i Đurđa", godina: 1413, naziv: "Pomirenje Stefana Lazarevića i Đurđa Brankovića", traka: dogadjaji}
+          - {tekst: "Priznanje naslednika", godina: 1425, naziv: "Stefan Lazarević priznaje Đurđa Brankovića za naslednika", traka: dogadjaji}
+          - {tekst: "Pad Smedereva", godina: 1459, naziv: "Pad Smedereva", traka: dogadjaji}
+          - {tekst: "Pad Bosne", godina: 1463, naziv: "Pad Bosne", traka: dogadjaji}
+        pomoc:
+          - "Dva događaja su iz XIV veka."
+          - "Dva pada su poslednja, srpski pre bosanskog."
+          - "Iz lekcije: 1389, 1391, 1402, 1403, 1413, 1425, 1459, 1463."
+        objasnjenje: "Cela lekcija stane između 1389. i 1463."
+        iz_udzbenika: {strana: 47, odeljak: "Zapamtite", tekst: "Lekcija obuhvata vreme od boja na Kosovu do pada Bosne."}
+
+      - id: l11-lanac-bosna-tvrtko
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [tvrtko-i-kotromanic, bosna]
+        karike:
+          - "Umire kralj Tvrtko I"
+          - "?"
+          - "Vlastela se osamostaljuje"
+        praznina: 1
+        odgovori:
+          - {tekst: "Centralna vlast slabi", tacan: true}
+          - {tekst: "Bosna osvaja Ugarsku", tacan: false, zasto: "Bosna u tom periodu slabi, a ne osvaja."}
+          - {tekst: "Srpska despotovina pada", tacan: false, zasto: "To je nezavisan događaj iz 1459."}
+        pomoc:
+          - "Korak 1: Šta se dešava sa državom bez jakog kralja?"
+          - "Korak 2: Šta tada radi moćna vlastela?"
+          - "Iz lekcije: smrt Tvrtka I → slabljenje centralne vlasti → osamostaljivanje vlastele."
+        objasnjenje: "Slab centar otvara put osamostaljivanju vlastele."
+        iz_udzbenika: {strana: 46, odeljak: "Bosna u XV veku", tekst: "Smrću Tvrtka I moć Bosne naglo slabi, a vlastela se osamostaljuje."}
+        osa: {naziv: "Smrt Tvrtka I Kotromanića", od: 1391, traka: vladari}
+
+      - id: l11-lanac-srbija-bosna
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [bosna, osmanlije, ugarska]
+        karike:
+          - "Slaba centralna vlast"
+          - "Feudalci deluju nezavisno"
+          - "?"
+          - "Država bez jedinstva pada pred Osmanlijama"
+        praznina: 2
+        odgovori:
+          - {tekst: "Zovu ugarske ili osmanlijske odrede, pa strane sile dobijaju uticaj", tacan: true}
+          - {tekst: "Mire se sa kraljem i jačaju državu", tacan: false, zasto: "Da su se pomirili, država ne bi izgubila jedinstvo."}
+          - {tekst: "Grade Smederevsku tvrđavu", tacan: false, zasto: "Tvrđavu grade srpski despoti, a ne bosanski feudalci."}
+        pomoc:
+          - "Korak 1: Šta rade feudalci u sukobu?"
+          - "Korak 2: Ko time dobija uticaj?"
+          - "Iz lekcije: osamostaljivanje vlastele → pozivanje ugarskih i osmanlijskih trupa."
+        objasnjenje: "Pozivanje stranih odreda pretvara unutrašnji razdor u spoljnu opasnost."
+        iz_udzbenika: {strana: 46, odeljak: "Bosna u XV veku", tekst: "Moćniji feudalci u pomoć zovu ugarske ili osmanlijske odrede."}
+
+      - id: l11-izvor-tomasevic-slika
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [stefan-tomasevic, bosna]
+        izvor:
+          autor: "Freska iz udžbenika (Slika 49)"
+          naslov: "Vladar u molitvi"
+          tekst: "Oštećena freska prikazuje čoveka duge kose i brade, u profilu, u vezenoj odeći, sa rukama podignutim u molitvi."
+          napomena: "Odlomak je prepričan; udžbenik, str. 47."
+        pitanje: "Koga prikazuje ova freska?"
+        odgovori:
+          - {tekst: "Kralja Stefana Tomaševića", tacan: true}
+          - {tekst: "Despota Stefana Lazarevića", tacan: false, zasto: "Despot je na freski sa krunom i oreolom, a ovde je vladar u molitvi."}
+          - {tekst: "Stefana Vukčića Kosaču", tacan: false, zasto: "Slika stoji uz poslednjeg bosanskog kralja, a Kosača je vlastelin na jugu."}
+          - {tekst: "Tvrtka I Kotromanića", tacan: false, zasto: "Lekcija kao poslednjeg vladara na slici navodi Tomaševića, a ne Tvrtka."}
+        pomoc:
+          - "Slika je na kraju odeljka o Bosni."
+          - "Prikazan je poslednji vladar."
+          - "Iz lekcije: Slika 49 je kralj Stefan Tomašević."
+        objasnjenje: "Slika 49 prikazuje Stefana Tomaševića, poslednjeg bosanskog vladara."
+        iz_udzbenika: {strana: 47, odeljak: "Bosna u XV veku", tekst: "Uz tekst je prikazan kralj Stefan Tomašević.", slika: "11-srbija-i-bosna-u-xv-veku/06-kralj-stefan-tomasevic.jpg"}
+
+      - id: l11-izvor-karta
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [osmanlije, osmansko-carstvo]
+        izvor:
+          autor: "Karta iz udžbenika (Slika 48)"
+          naslov: "Turska osvajanja Balkanskog poluostrva"
+          tekst: "Debele strelice polaze iz Male Azije, prelaze na Balkan i idu ka severozapadu, a zatim se granaju ka unutrašnjosti i Jadranu. Tanje strelice vode ka pojedinim mestima."
+          napomena: "Odlomak je prepričan; udžbenik, str. 46."
+        pitanje: "Šta nam karta pokazuje o osvajanjima, čak i bez čitanja imena mesta?"
+        odgovori:
+          - {tekst: "Širenje je išlo postepeno, sa jugoistoka ka severozapadu Balkana", tacan: true}
+          - {tekst: "Osvajanja su krenula sa Jadrana ka Maloj Aziji", tacan: false, zasto: "Strelice idu obrnuto: iz Male Azije ka severozapadu i Jadranu."}
+          - {tekst: "Turci su došli sa severa", tacan: false, zasto: "Polazište je Mala Azija, na jugoistoku, ne na severu."}
+          - {tekst: "Osvajanja su bila samo na moru", tacan: false, zasto: "Strelice prelaze na Balkan i granaju se ka unutrašnjosti."}
+        pomoc:
+          - "Prati smer strelica."
+          - "Mala Azija je jugoistočno od Balkana."
+          - "Iz lekcije: strelice polaze iz Male Azije i idu ka severozapadu."
+        objasnjenje: "Karta pokazuje pravac osvajanja: iz Male Azije preko Balkana ka Jadranu."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "Karta prikazuje pravce turskih osvajanja na Balkanu.", slika: "11-srbija-i-bosna-u-xv-veku/04-turska-osvajanja-karta.jpg"}
+
+      - id: l11-izvor-karta-mora
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [osmanlije]
+        izvor:
+          autor: "Karta iz udžbenika (Slika 48)"
+          naslov: "Mora oko Balkana"
+          tekst: "Karta prikazuje Balkan, Apenine i deo Male Azije. Oko Balkana su ucrtana Jadransko, Jonsko, Egejsko i Crno more, a na desnoj ivici se vidi moreuz Bosfor."
+          napomena: "Odlomak je prepričan; udžbenik, str. 46."
+        pitanje: "Koje more NIJE navedeno u opisu karte?"
+        odgovori:
+          - {tekst: "Baltičko more", tacan: true}
+          - {tekst: "Jadransko more", tacan: false, zasto: "Jadransko more je na karti, zapadno od Balkana."}
+          - {tekst: "Egejsko more", tacan: false, zasto: "Egejsko more je na karti."}
+          - {tekst: "Crno more", tacan: false, zasto: "Crno more je na karti, uz Bosfor."}
+        pomoc:
+          - "U opisu su četiri mora."
+          - "Traži more koje nije spomenuto."
+          - "Iz lekcije: Jadransko, Jonsko, Egejsko, Crno more."
+        objasnjenje: "Balkan okružuju Jadransko, Jonsko, Egejsko i Crno more."
+        iz_udzbenika: {strana: 46, odeljak: "Privredni i kulturni razvoj Despotovine", tekst: "Karta prikazuje Balkan i mora oko njega.", slika: "11-srbija-i-bosna-u-xv-veku/05-turska-osvajanja-karta-desna-ivica.jpg"}
+
+      - id: l11-uporedi-srbija-bosna
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [srpska-despotovina, bosna, osmanlije]
+        a: "Srpska despotovina"
+        b: "Bosna"
+        pitanje: "Na koju državu se odnosi tvrdnja: Despotovinu, Bosnu, obe ili nijednu?"
+        tvrdnje:
+          - {tekst: "Pala je pod Osmanlije.", odgovor: oba, zasto: "Obe su osvojene: 1459. i 1463."}
+          - {tekst: "Unutrašnji sukob je smiren pomirenjem i priznanjem naslednika.", odgovor: a, zasto: "To je dogovor Stefana i Đurđa."}
+          - {tekst: "Jugom se osamostaljuje vlastelin sa titulom herceg.", odgovor: b, zasto: "To je Kosača na jugu Bosne."}
+          - {tekst: "Ima važne rudnike Novo Brdo i Srebrenicu.", odgovor: a, zasto: "To su rudnici despota Lazarevića."}
+          - {tekst: "Sačuvala je slobodu do kraja srednjeg veka.", odgovor: nijedan, zasto: "Obe države su pale u XV veku."}
+        pomoc:
+          - "Seti se šta je smirivalo Srbiju, a šta se dešavalo u Bosni."
+          - "Obe države imaju isti kraj."
+          - "Iz lekcije: Despotovina pada 1459, Bosna 1463."
+        objasnjenje: "Razvoj je različit, a kraj isti: pad pod Osmanlije."
+        iz_udzbenika: {strana: 47, odeljak: "Zapamtite", tekst: "Srbija i Bosna imaju različite unutrašnje prilike, ali obe padaju pod Osmanlije."}
+
+      - id: l11-objasni-hercegovina
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [hercegovina, herceg, stefan-vukcic-kosaca]
+        pitanje: "Objasni kako je Hercegovina dobila ime."
+        uzor: "Vlastelin Stefan Vukčić Kosača osamostalio se na jugu Bosne. Koristio je titulu „herceg od Svetog Save”. Po toj tituli njegova zemlja je nazvana Hercegovina."
+        ideje:
+          - "Kosača se osamostalio na jugu Bosne."
+          - "Nosio je titulu herceg od Svetog Save."
+          - "Ime zemlje dolazi od titule."
+        objasnjenje: "Ime Hercegovina je ostatak titule herceg."
+        iz_udzbenika: {strana: 47, odeljak: "Bosna u XV veku", tekst: "Kosača je koristio titulu herceg od Svetog Save, po čemu je njegova zemlja nazvana Hercegovina."}
+
+      - id: l11-objasni-bosna-slabljenje
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [bosna, tvrtko-i-kotromanic, osmanlije]
+        pitanje: "Objasni korak po korak kako je Bosna od moćne države došla do pada 1463."
+        uzor: "Smrću Tvrtka I 1391. moć Bosne naglo opada. Naslednici se suočavaju sa osamostaljivanjem vlastele i slabljenjem centralne vlasti, a jaki feudalci zovu ugarske i osmanlijske odrede. Jug se izdvaja kao Hercegovina. Poslednji vladari pokušavaju da ojačaju vlast, ali država pada 1463."
+        ideje:
+          - "Smrt Tvrtka I je početak slabljenja."
+          - "Vlastela se osamostaljuje."
+          - "Feudalci zovu strane odrede."
+          - "Pokušaji poslednjih vladara ne uspevaju."
+        objasnjenje: "Pad je kraj niza: smrt kralja, slaba vlast, razdor i osvajanje."
+        iz_udzbenika: {strana: 46, odeljak: "Bosna u XV veku", tekst: "Moć Bosne opada od 1391, a država pada 1463."}
+        osa: {naziv: "Pad Bosne", od: 1463, traka: dogadjaji}
+
+      - id: l11-objasni-srbija-bosna
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [srpska-despotovina, bosna, smederevo]
+        pitanje: "Uporedi Srbiju i Bosnu u XV veku. Po čemu su slične, a po čemu se razlikuju?"
+        uzor: "Obe države ugrožavaju Osmanlije i obe padaju, Srbija 1459, a Bosna 1463. Razlika je u unutrašnjim prilikama: u Srbiji se porodice Lazarević i Branković mire, a država doživljava privredni polet, dok u Bosni centralna vlast slabi i moćni feudalci se osamostaljuju."
+        ideje:
+          - "Obe padaju pod Osmanlije (1459. i 1463)."
+          - "U Srbiji pomirenje i stabilnost."
+          - "U Srbiji privredni polet."
+          - "U Bosni slabljenje centralne vlasti."
+        objasnjenje: "Uporedo: isti spoljni neprijatelj, različite unutrašnje prilike."
+        iz_udzbenika: {strana: 47, odeljak: "Zapamtite", tekst: "Lekcija prikazuje Srbiju pod despotima i Bosnu posle smrti Tvrtka I."}

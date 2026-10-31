@@ -1,0 +1,2182 @@
+# Banka pitanja: Srpska država u doba prvih Nemanjića (istorija, 1. razred srednje škole, str. 26–29). Sopstvenim rečima, po belešci lekcije.
+lekcija: 5
+naslov: "Srpska država u doba prvih Nemanjića"
+pojmovi:
+  dinastija: "dinastija"
+  nemanjici: "Nemanjići"
+  stefan-nemanja: "Stefan Nemanja"
+  raska: "Raška"
+  feudalna-drzava: "feudalna država"
+  veliki-zupan: "veliki župan"
+  zupan: "župan"
+  vizantija: "Vizantija"
+  zapadna-morava: "Zapadna Morava"
+  velika-morava: "Velika Morava"
+  kosovo: "Kosovo"
+  hvosno: "Hvosno"
+  metohija: "Metohija"
+  zahumlje: "Zahumlje"
+  travunija: "Travunija"
+  duklja: "Duklja"
+  severna-albanija: "severna Albanija"
+  ras: "Ras"
+  novi-pazar: "Novi Pazar"
+  bogumili: "bogumili"
+  sveta-gora: "Sveta Gora"
+  sveti-sava: "Sveti Sava (Sava Nemanjić)"
+  manastir-hilandar: "manastir Hilandar"
+  monah-simeon: "monah Simeon"
+  stefan-prvovencani: "Stefan Prvovenčani"
+  krstasi: "krstaši"
+  cetvrti-krstaski-rat: "Četvrti krstaški rat"
+  carigrad: "Carigrad"
+  latinsko-carstvo: "Latinsko carstvo"
+  rimski-papa: "rimski papa"
+  kraljevska-kruna: "kraljevska kruna"
+  ohridska-arhiepiskopija: "Ohridska arhiepiskopija"
+  nikeja: "Nikeja"
+  autokefalnost: "autokefalnost"
+  srpska-arhiepiskopija: "srpska arhiepiskopija"
+  manastir-zica: "manastir Žiča"
+  kraljevo: "Kraljevo"
+  episkopije: "episkopije"
+  tipik: "tipik"
+  krmcija: "krmčija"
+  svetosavska-krmcija: "Svetosavska krmčija"
+  trnovo: "Trnovo"
+  sveta-zemlja: "Sveta zemlja"
+  manastir-mileseva: "manastir Mileševa"
+  episkop-jeftimije: "episkop Jeftimije"
+delovi:
+  # ==========================================================================
+  - naslov: "Srpska država u periodu Nemanjića"
+    zadaci:
+      - id: l05-izbor-dinastija
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [nemanjici, dinastija, raska]
+        pitanje: "Koja porodica je upravljala srpskom feudalnom državom koja se od XII veka razvijala u Raškoj?"
+        odgovori:
+          - {tekst: "Nemanjići", tacan: true}
+          - {tekst: "krstaši", tacan: false, zasto: "Krstaši su ratnici iz zapadne Evrope koji su napadali Vizantiju; Raškom je upravljala porodica Nemanjić."}
+          - {tekst: "bogumili", tacan: false, zasto: "Bogumili su bili verska zajednica, a ne vladarska porodica; Nemanja ih je progonio."}
+          - {tekst: "vizantijski carevi", tacan: false, zasto: "Upravo od Vizantije se srpska država borila da postane nezavisna; vladali su joj Nemanjići."}
+        pomoc:
+          - "Pogledaj naslov lekcije."
+          - "Porodica je dobila ime po svom rodonačelniku, Stefanu."
+          - "Iz lekcije: od XII veka u Raškoj se razvija feudalna država kojom upravlja porodica Nemanjić."
+        objasnjenje: "Feudalnom državom Srba koja se od XII veka razvijala u Raškoj upravljala je porodica Nemanjić."
+        iz_udzbenika: {strana: 26, odeljak: "Uvod", tekst: "Od XII veka u Raškoj se razvija feudalna država Srba kojom upravlja porodica Nemanjić."}
+        osa: {naziv: "Nastanak srpske feudalne države", od: 1100, do: 1200, traka: dogadjaji, oznaka: "XII vek"}
+
+      - id: l05-izbor-titula-nemanje
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [stefan-nemanja, veliki-zupan]
+        pitanje: "Koju je titulu imao Stefan Nemanja dok je vladao državom?"
+        odgovori:
+          - {tekst: "veliki župan", tacan: true}
+          - {tekst: "patrijarh", tacan: false, zasto: "Patrijarh je crkveni poglavar; patrijarha u Nikeji Sava je pitao za samostalnost crkve, a Nemanja je svetovni vladar, veliki župan."}
+          - {tekst: "arhiepiskop", tacan: false, zasto: "Arhiepiskop je crkvena titula; prvi srpski arhiepiskop bio je Nemanjin sin Sava."}
+          - {tekst: "papa", tacan: false, zasto: "Papa je poglavar crkve u Rimu; od njega je Nemanjin sin Stefan dobio krunu."}
+        pomoc:
+          - "Traži svetovnu, a ne crkvenu titulu."
+          - "Reč sadrži naziv koji su Srbi koristili još u pradomovini."
+          - "Iz lekcije: veliki župan Stefan Nemanja vladao je 1166–1196."
+        objasnjenje: "Stefan Nemanja je bio veliki župan; kraljevsku krunu dobiće tek njegov sin Stefan."
+        iz_udzbenika: {strana: 26, odeljak: "Srpska država u periodu Nemanjića", tekst: "Veliki župan Stefan Nemanja vladao je od 1166. do 1196. godine.", slika: "05-srpska-drzava-prvih-nemanjica/02-stefan-nemanja-monah-simeon.jpg"}
+        osa: {naziv: "Stefan Nemanja", od: 1166, do: 1196, traka: vladari}
+
+      - id: l05-izbor-ras
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [ras, novi-pazar, nemanjici]
+        pitanje: "Koje mesto je bilo prestonica u prvim decenijama vladavine Nemanjića?"
+        odgovori:
+          - {tekst: "Ras", tacan: true}
+          - {tekst: "Žiča", tacan: false, zasto: "Žiča je manastir i od 1220. sedište arhiepiskopije, dakle crkveno, a ne državno središte."}
+          - {tekst: "Nikeja", tacan: false, zasto: "U Nikeju su se preselili vizantijski car i patrijarh; srpska prestonica bila je Ras."}
+          - {tekst: "Trnovo", tacan: false, zasto: "Trnovo je u Bugarskoj i tamo je umro Sveti Sava; prestonica Nemanjića bio je Ras."}
+        pomoc:
+          - "Mesto je u Raškoj i oblast nosi ime slično njemu."
+          - "Nalazi se kod Novog Pazara."
+          - "Iz lekcije: Ras, kod Novog Pazara, bio je prestonica u prvim decenijama vladavine Nemanjića."
+        objasnjenje: "Ras, kod Novog Pazara, bio je prestonica Nemanjića u prvim decenijama njihove vladavine."
+        iz_udzbenika: {strana: 26, odeljak: "Srpska država u periodu Nemanjića", tekst: "Ras kod Novog Pazara bio je prestonica u prvim decenijama vladavine Nemanjića.", slika: "05-srpska-drzava-prvih-nemanjica/01-stari-ras.jpg"}
+
+      - id: l05-izbor-hilandar-gde
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [manastir-hilandar, sveta-gora]
+        pitanje: "Gde se nalazi manastir Hilandar?"
+        odgovori:
+          - {tekst: "na Svetoj Gori", tacan: true}
+          - {tekst: "kod Kraljeva", tacan: false, zasto: "Kod Kraljeva je manastir Žiča; Hilandar je na Svetoj Gori."}
+          - {tekst: "kod Novog Pazara", tacan: false, zasto: "Kod Novog Pazara je Ras, stara prestonica; Hilandar je na Svetoj Gori."}
+          - {tekst: "u Nikeji", tacan: false, zasto: "U Nikeju su se sklonili vizantijski car i patrijarh; Hilandar su Nemanja i Sava podigli na Svetoj Gori."}
+        pomoc:
+          - "Seti se kuda se Nemanja povukao pred kraj života."
+          - "Tamo je Sava već bio monah."
+          - "Iz lekcije: Nemanja i Sava podigli su Hilandar na Svetoj Gori."
+        objasnjenje: "Hilandar je na Svetoj Gori, gde su ga zajedno podigli Nemanja i njegov sin Sava."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Na Svetoj Gori su Nemanja i njegov sin Sava podigli manastir Hilandar.", slika: "05-srpska-drzava-prvih-nemanjica/03-manastir-hilandar.jpg"}
+
+      - id: l05-izbor-monaska-imena
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [stefan-nemanja, monah-simeon]
+        pitanje: "Pod kojim imenom je Stefan Nemanja prikazan kao monah na freski iz udžbenika?"
+        odgovori:
+          - {tekst: "Simeon", tacan: true}
+          - {tekst: "Sava", tacan: false, zasto: "Sava je Nemanjin najmlađi sin, koji je monah bio pre oca; Nemanja je kao monah Simeon."}
+          - {tekst: "Jeftimije", tacan: false, zasto: "Jeftimije je episkop sa kojim se Nemanja savetovao o bogumilima."}
+          - {tekst: "Stefan", tacan: false, zasto: "Stefan je njegovo svetovno ime, a tako se zvao i sin koji ga je nasledio; monaško ime mu je Simeon."}
+        pomoc:
+          - "Monah dobija novo ime, drugačije od svetovnog."
+          - "Ne mešaj ga sa imenom njegovog sina monaha."
+          - "Iz lekcije: slika 21 prikazuje Stefana Nemanju kao monaha Simeona."
+        objasnjenje: "Kao monah, Stefan Nemanja nosi ime Simeon, a tako ga prikazuje i freska iz udžbenika."
+        iz_udzbenika: {strana: 26, odeljak: "Srpska država u periodu Nemanjića", tekst: "Freska prikazuje Stefana Nemanju kao monaha Simeona, sa dugom belom bradom i u monaškoj odeći.", slika: "05-srpska-drzava-prvih-nemanjica/02-stefan-nemanja-monah-simeon.jpg"}
+
+      - id: l05-izbor-unutrasnjost
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [stefan-nemanja, zapadna-morava, velika-morava, kosovo, hvosno]
+        pitanje: "Koje oblasti u unutrašnjosti je osvojio Stefan Nemanja? (više tačnih)"
+        odgovori:
+          - {tekst: "krajeve uz Zapadnu i Veliku Moravu", tacan: true}
+          - {tekst: "Kosovo", tacan: true}
+          - {tekst: "Hvosno (Metohiju)", tacan: true}
+          - {tekst: "Zahumlje", tacan: false, zasto: "Nemanja jeste osvojio Zahumlje, ali je ono u primorju, a pitanje traži unutrašnjost."}
+          - {tekst: "Duklju", tacan: false, zasto: "Duklja je takođe osvojena, ali spada u primorske oblasti."}
+        pomoc:
+          - "Podeli osvajanja na kopno u unutrašnjosti i obalu."
+          - "Tri odgovora su tačna: reke i dve oblasti na jugu."
+          - "Iz lekcije: u unutrašnjosti krajevi uz Zapadnu i Veliku Moravu, Kosovo i Hvosno (Metohija)."
+        objasnjenje: "U unutrašnjosti je Nemanja osvojio krajeve uz Zapadnu i Veliku Moravu, Kosovo i Hvosno; Zahumlje i Duklja su u primorju."
+        iz_udzbenika: {strana: 26, odeljak: "Srpska država u periodu Nemanjića", tekst: "U unutrašnjosti je Nemanja osvojio krajeve uz Zapadnu i Veliku Moravu, Kosovo i Hvosno.", slika: "05-srpska-drzava-prvih-nemanjica/04-srpske-zemlje-kraj-xii-pocetak-xiii-veka-karta.jpg"}
+
+      - id: l05-izbor-primorje
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [stefan-nemanja, zahumlje, travunija, duklja, severna-albanija]
+        pitanje: "Koje primorske oblasti je Stefan Nemanja uključio u svoju državu? (više tačnih)"
+        odgovori:
+          - {tekst: "Zahumlje", tacan: true}
+          - {tekst: "Travuniju", tacan: true}
+          - {tekst: "Duklju", tacan: true}
+          - {tekst: "severnu Albaniju", tacan: true}
+          - {tekst: "Hvosno", tacan: false, zasto: "Hvosno, odnosno Metohija, jeste osvojeno, ali spada u unutrašnjost."}
+          - {tekst: "Kosovo", tacan: false, zasto: "Kosovo je osvojeno, ali nije primorska oblast, već deo unutrašnjosti."}
+        pomoc:
+          - "Pogledaj koje su oblasti uz more."
+          - "Četiri odgovora su tačna."
+          - "Iz lekcije: u primorju Zahumlje, Travunija, Duklja i severna Albanija."
+        objasnjenje: "Primorska osvajanja su Zahumlje, Travunija, Duklja i severna Albanija."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "U primorju je Nemanja osvojio Zahumlje, Travuniju, Duklju i severnu Albaniju.", slika: "05-srpska-drzava-prvih-nemanjica/04-srpske-zemlje-kraj-xii-pocetak-xiii-veka-karta.jpg"}
+
+      - id: l05-izbor-najmladji-sin
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [stefan-nemanja, sveti-sava, sveta-gora]
+        pitanje: "Zašto je Sava već bio na Svetoj Gori kada je tamo stigao njegov otac?"
+        odgovori:
+          - {tekst: "Tamo je već bio monah", tacan: true}
+          - {tekst: "Upravljao je srpskom državom sa Svete Gore", tacan: false, zasto: "Državom je posle Nemanje upravljao njegov sin Stefan; Sava je na Svetoj Gori bio monah."}
+          - {tekst: "Bio je tamo arhiepiskop", tacan: false, zasto: "Arhiepiskop je postao tek 1219, u Nikeji, a Nemanja je umro 1199."}
+          - {tekst: "Pobegao je pred krstašima iz Carigrada", tacan: false, zasto: "Iz Carigrada su u Nikeju otišli vizantijski car i patrijarh; Sava sa tim nema veze, on je na Svetoj Gori bio monah."}
+        pomoc:
+          - "Šta se na Svetoj Gori radi, ko tamo živi?"
+          - "Pazi na vreme: crkvene službe dobija tek mnogo kasnije."
+          - "Iz lekcije: Nemanja je otišao na Svetu Goru, gde je već bio monah njegov najmlađi sin Sava."
+        objasnjenje: "Sava, najmlađi Nemanjin sin, bio je monah na Svetoj Gori pre nego što se tamo povukao njegov otac."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Pred kraj života Nemanja je otišao na Svetu Goru, gde je već bio monah njegov najmlađi sin Sava."}
+
+      - id: l05-izbor-hilandar-znacaj
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [manastir-hilandar, manastir-zica]
+        pitanje: "Kakvu je ulogu imao Hilandar za Srbe u srednjem veku?"
+        odgovori:
+          - {tekst: "Postao je središte srpske srednjovekovne kulture", tacan: true}
+          - {tekst: "Bio je prestonica velikih župana", tacan: false, zasto: "Prestonica u prvim decenijama Nemanjića bio je Ras, dok je Hilandar manastir na Svetoj Gori."}
+          - {tekst: "Bio je sedište srpske arhiepiskopije od 1220.", tacan: false, zasto: "Sedište arhiepiskopije od 1220. bila je Žiča kod Kraljeva."}
+          - {tekst: "Služio je kao tvrđava protiv krstaša", tacan: false, zasto: "Knjiga Hilandar opisuje kao manastir i središte kulture, a ne kao vojno utvrđenje."}
+        pomoc:
+          - "Ne mešaj Hilandar i Žiču."
+          - "Uloga mu nije državna ni vojna."
+          - "Iz lekcije: Hilandar je postao središte srpske srednjovekovne kulture."
+        objasnjenje: "Hilandar je bio središte srpske srednjovekovne kulture, a Žiča sedište arhiepiskopije."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Hilandar je postao središte srpske srednjovekovne kulture.", slika: "05-srpska-drzava-prvih-nemanjica/03-manastir-hilandar.jpg"}
+
+      - id: l05-izbor-bogumili-gde
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [bogumili]
+        pitanje: "U kojoj zemlji knjiga posebno ističe delatnost bogumila u Nemanjino vreme?"
+        odgovori:
+          - {tekst: "u Bosni", tacan: true}
+          - {tekst: "u Duklji", tacan: false, zasto: "Duklja je primorska oblast koju je Nemanja osvojio; bogumili su bili naročito delatni u Bosni."}
+          - {tekst: "u Nikeji", tacan: false, zasto: "Nikeja je mesto gde su se preselili vizantijski car i patrijarh, a ne središte bogumila."}
+          - {tekst: "na Svetoj Gori", tacan: false, zasto: "Sveta Gora je pravoslavno monaško središte; bogumili su bili naročito delatni u Bosni."}
+        pomoc:
+          - "Knjiga je navodi kao zemlju gde su bili najdelatniji."
+          - "Ime zemlje počinje slovom B."
+          - "Iz lekcije: bogumili su bili naročito delatni u Bosni."
+        objasnjenje: "Bogumili se javljaju i u Srbiji, ali su bili naročito delatni u Bosni."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Za vreme Nemanje u Srbiji se javlja verska zajednica bogumila, naročito delatna u Bosni."}
+
+      - id: l05-izbor-zupan-staro
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [zupan, veliki-zupan]
+        pitanje: "Knjiga kaže da su Srbi titulu župan imali još u pradomovini. Šta iz toga sledi?"
+        odgovori:
+          - {tekst: "Titula je starija od države Nemanjića", tacan: true}
+          - {tekst: "Titulu je izmislio Stefan Nemanja", tacan: false, zasto: "Ako je postojala još u pradomovini, nastala je mnogo pre Nemanje, koji vlada od 1166."}
+          - {tekst: "Titulu su Srbi preuzeli od krstaša", tacan: false, zasto: "Krstaši stižu u vreme Stefana Nemanjića; titula župan je od njih mnogo starija."}
+          - {tekst: "Titulu je Srbima dodelio rimski papa", tacan: false, zasto: "Papa je dao kraljevsku krunu 1217; župan je stara titula Srba iz pradomovine."}
+        pomoc:
+          - "Šta znači reč pradomovina: da li je to pre ili posle dolaska na Balkan?"
+          - "Uporedi to sa vremenom kada živi Nemanja."
+          - "Iz lekcije: titulu župan Srbi su imali još u pradomovini."
+        objasnjenje: "Pošto su Srbi tu titulu imali još u pradomovini, ona je mnogo starija od Nemanjine države."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Nemanja se smatra tvorcem nezavisne srpske države, a titulu župan Srbi su imali još u pradomovini."}
+
+      - id: l05-tn-postepeno
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [stefan-nemanja]
+        tvrdnja: "Stefan Nemanja je nezavisnost osvajao postepeno, a ne jednim potezom."
+        tacno: true
+        pomoc:
+          - "Seti se: prvo unutrašnje borbe, pa rat, pa osvajanja."
+          - "Iz lekcije: rodonačelnik dinastije nezavisnost je osvajao postepeno."
+        objasnjenje: "Tačno. Nezavisnost je dolazila korak po korak, kroz borbe u zemlji i rat sa Vizantijom."
+        iz_udzbenika: {strana: 26, odeljak: "Uvod", tekst: "Rodonačelnik dinastije, Stefan Nemanja, nezavisnost je osvajao postepeno."}
+
+      - id: l05-tn-rodonacelnik
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [stefan-nemanja, nemanjici, dinastija]
+        tvrdnja: "Rodonačelnik dinastije Nemanjić je Sveti Sava."
+        tacno: false
+        ispravke:
+          - {tekst: "Rodonačelnik dinastije je Stefan Nemanja, Savin otac.", tacan: true}
+          - {tekst: "Rodonačelnik dinastije je Stefan Prvovenčani.", tacan: false, zasto: "Stefan Prvovenčani je Nemanjin sin; rodonačelnik je onaj od koga porodica počinje, dakle Nemanja."}
+          - {tekst: "Rodonačelnik dinastije je episkop Jeftimije.", tacan: false, zasto: "Jeftimije je episkop sa kojim se Nemanja savetovao, nije iz vladarske porodice."}
+        pomoc:
+          - "Dinastija je dobila ime po svom osnivaču."
+          - "Sava je sin tog čoveka."
+          - "Iz lekcije: rodonačelnik dinastije je Stefan Nemanja."
+        objasnjenje: "Netačno. Rodonačelnik je Stefan Nemanja, a Sava je njegov najmlađi sin."
+        iz_udzbenika: {strana: 26, odeljak: "Uvod", tekst: "Rodonačelnik dinastije Nemanjić bio je Stefan Nemanja."}
+
+      - id: l05-tn-ras-prestonica
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [ras, novi-pazar]
+        tvrdnja: "Ras se nalazi kod Novog Pazara."
+        tacno: true
+        pomoc:
+          - "To je prestonica sa slike 20."
+          - "Iz lekcije: Ras, kod Novog Pazara, bio je prestonica u prvim decenijama Nemanjića."
+        objasnjenje: "Tačno. Ostaci utvrđenja Starog Rasa nalaze se kod Novog Pazara."
+        iz_udzbenika: {strana: 26, odeljak: "Srpska država u periodu Nemanjića", tekst: "Ras kod Novog Pazara bio je prestonica u prvim decenijama vladavine Nemanjića.", slika: "05-srpska-drzava-prvih-nemanjica/01-stari-ras.jpg"}
+
+      - id: l05-tn-nemanja-umro
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [stefan-nemanja, manastir-hilandar]
+        tvrdnja: "Stefan Nemanja je umro u Rasu dok je još bio na vlasti."
+        tacno: false
+        ispravke:
+          - {tekst: "Umro je 1199. u Hilandaru, kada više nije vladao.", tacan: true}
+          - {tekst: "Umro je 1196. u Žiči.", tacan: false, zasto: "Godine 1196. prestaje njegova vladavina; umro je 1199. u Hilandaru, a Žiča je sagrađena kasnije."}
+          - {tekst: "Umro je 1236. u Trnovu.", tacan: false, zasto: "U Trnovu je 1236. umro njegov sin Sava."}
+        pomoc:
+          - "Vladavina mu se završava 1196, a poslednje godine provodi drugde."
+          - "Povukao se na Svetu Goru."
+          - "Iz lekcije: Nemanja je umro u Hilandaru 1199."
+        objasnjenje: "Netačno. Nemanja je pred kraj života otišao na Svetu Goru i umro u Hilandaru 1199."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Nemanja je umro u Hilandaru 1199. godine."}
+        osa: {naziv: "Smrt Stefana Nemanje", od: 1199, traka: dogadjaji}
+
+      - id: l05-tn-hilandar-podigli
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [manastir-hilandar, stefan-nemanja, sveti-sava]
+        tvrdnja: "Manastir Hilandar podigli su zajedno Stefan Nemanja i njegov sin Sava."
+        tacno: true
+        pomoc:
+          - "Ko su dvojica Nemanjića koji su bili na Svetoj Gori?"
+          - "Iz lekcije: zajedno su podigli manastir Hilandar."
+        objasnjenje: "Tačno. Otac i sin su zajedno podigli Hilandar na Svetoj Gori."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Nemanja i Sava zajedno su podigli manastir Hilandar.", slika: "05-srpska-drzava-prvih-nemanjica/03-manastir-hilandar.jpg"}
+
+      - id: l05-tn-morava-sve-izgubio
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [stefan-nemanja]
+        tvrdnja: "Posle poraza na Moravi 1190. Srbija je izgubila sve što je Nemanja osvojio."
+        tacno: false
+        ispravke:
+          - {tekst: "Srbiji je dozvoljeno da zadrži veći deo osvojenih zemalja.", tacan: true}
+          - {tekst: "Srbija je tada izgubila samo Ras, a sve drugo zadržala.", tacan: false, zasto: "Knjiga ne pominje gubitak Rasa; kaže samo da je zadržan veći deo stečenih zemalja."}
+          - {tekst: "Nemanja je na Moravi pobedio i osvojio nove zemlje.", tacan: false, zasto: "Na Moravi je 1190. poražen, ali je Srbija ipak zadržala veći deo stečenog."}
+        pomoc:
+          - "Poraz nije značio potpuni gubitak."
+          - "Šta je Srbiji bilo dozvoljeno?"
+          - "Iz lekcije: mada je poražen, Srbija je zadržala veći deo stečenih zemalja."
+        objasnjenje: "Netačno. Iako je Nemanja poražen 1190, Srbiji je dozvoljeno da zadrži veći deo stečenih zemalja."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Iako je Nemanja 1190. poražen na reci Moravi, Srbija je zadržala veći deo stečenih zemalja."}
+        osa: {naziv: "Poraz na reci Moravi", od: 1190, traka: dogadjaji}
+
+      - id: l05-tn-zadrzao-vlast-do-smrti
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [stefan-nemanja]
+        tvrdnja: "Stefan Nemanja je vladao sve do svoje smrti."
+        tacno: false
+        ispravke:
+          - {tekst: "Vladao je do 1196, a umro je tri godine kasnije, 1199.", tacan: true}
+          - {tekst: "Vladao je do 1199, a umro je 1204.", tacan: false, zasto: "Godina 1199. je godina njegove smrti, a 1204. je nastalo Latinsko carstvo."}
+          - {tekst: "Vladao je do 1190, kada je poražen na Moravi.", tacan: false, zasto: "Poraz 1190. nije okončao njegovu vlast; vladao je do 1196."}
+        pomoc:
+          - "Uporedi godinu kraja vladavine i godinu smrti."
+          - "Razlika je tri godine."
+          - "Iz lekcije: Nemanja je vladao 1166–1196, a umro je 1199."
+        objasnjenje: "Netačno. Vlast se završila 1196, posle čega nasleđuje Stefan; Nemanja umire 1199. u Hilandaru."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Vladao je 1166–1196, a umro je u Hilandaru 1199."}
+
+      - id: l05-tn-bogumili-uguseni
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [bogumili, stefan-nemanja]
+        tvrdnja: "Nemanja je potpuno ugušio delovanje bogumila u Srbiji i progonio njihove vođe i sledbenike."
+        tacno: true
+        pomoc:
+          - "Seti se odlomka iz biografije Nemanje."
+          - "Iz lekcije: potpuno je ugušio delovanje te sekte u Srbiji."
+        objasnjenje: "Tačno. U Srbiji je delovanje bogumila ugušeno, a njihove vođe i sledbenici progonjeni."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Nemanja je potpuno ugušio delovanje bogumila u Srbiji i progonio njihove vođe i sledbenike."}
+
+      - id: l05-tn-tvorac-drzave
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [stefan-nemanja]
+        tvrdnja: "Stefan Nemanja se smatra tvorcem nezavisne srpske države."
+        tacno: true
+        pomoc:
+          - "Pogledaj okvir na str. 27 i rubriku Zapamtite."
+          - "Iz lekcije: Nemanja se smatra tvorcem nezavisne srpske države."
+        objasnjenje: "Tačno. Knjiga ga navodi kao tvorca nezavisne srpske države, koju je stvarao postepeno."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Nemanja se smatra tvorcem nezavisne srpske države."}
+
+      - id: l05-tn-hvosno-primorje
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [hvosno, metohija, zahumlje, travunija]
+        tvrdnja: "Hvosno i Zahumlje su dve primorske oblasti koje je Nemanja osvojio."
+        tacno: false
+        ispravke:
+          - {tekst: "Zahumlje je u primorju, a Hvosno je drugi naziv za Metohiju i pripada unutrašnjosti.", tacan: true}
+          - {tekst: "Obe oblasti su u unutrašnjosti, uz Veliku Moravu.", tacan: false, zasto: "Zahumlje je primorska oblast; uz Moravu su neki drugi krajevi koje je Nemanja osvojio."}
+          - {tekst: "Nemanja nije osvojio nijednu od njih.", tacan: false, zasto: "Osvojio je obe; razlika je samo u tome gde se nalaze."}
+        pomoc:
+          - "Knjiga deli osvajanja na unutrašnjost i primorje."
+          - "Hvosno ima i drugi naziv, Metohija."
+          - "Iz lekcije: unutrašnjost je Morava, Kosovo i Hvosno; primorje Zahumlje, Travunija, Duklja i severna Albanija."
+        objasnjenje: "Netačno. Hvosno (Metohija) je u unutrašnjosti, a Zahumlje u primorju."
+        iz_udzbenika: {strana: 26, odeljak: "Srpska država u periodu Nemanjića", tekst: "Osvajanja se dele na ona u unutrašnjosti i ona u primorju.", slika: "05-srpska-drzava-prvih-nemanjica/04-srpske-zemlje-kraj-xii-pocetak-xiii-veka-karta.jpg"}
+
+      - id: l05-dopuni-oblasti-lako
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [stefan-nemanja, raska, vizantija]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Stefan Nemanja je prvo učvrstio vlast u {{Raškoj}}, a zatim je krenuo u rat protiv {{Vizantije}} za {{nezavisnost}}."
+        ponudjene: ["Raškoj", "Vizantije", "nezavisnost", "Bosni", "Ugarske", "krunu"]
+        pomoc:
+          - "Prva reč je oblast u kojoj je nastala država."
+          - "Rat je vođen protiv velikog carstva."
+          - "Iz lekcije: posle unutrašnjih borbi vlast u Raškoj je učvršćena, a odmah zatim počinje rat sa Vizantijom za nezavisnost."
+        objasnjenje: "Tek kad je učvrstio vlast u Raškoj, Nemanja je mogao da krene u rat sa Vizantijom za nezavisnost."
+        iz_udzbenika: {strana: 26, odeljak: "Srpska država u periodu Nemanjića", tekst: "Vlast u Raškoj Nemanja je učvrstio posle unutrašnjih borbi, a zatim je krenuo u rat sa Vizantijom za nezavisnost."}
+
+      - id: l05-dopuni-hilandar-lako
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [stefan-nemanja, sveti-sava, manastir-hilandar, sveta-gora]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Pred kraj života Nemanja je otišao na {{Svetu Goru}}, gde je sa sinom {{Savom}} podigao manastir {{Hilandar}}."
+        ponudjene: ["Svetu Goru", "Savom", "Hilandar", "Žiču", "Stefanom", "Mileševu"]
+        pomoc:
+          - "Mesto je monaško središte."
+          - "Sin je tamo već bio monah."
+          - "Iz lekcije: Nemanja i Sava podigli su Hilandar na Svetoj Gori."
+        objasnjenje: "Nemanja i Sava podigli su Hilandar na Svetoj Gori, a manastir je postao središte srpske kulture."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Nemanja i Sava su na Svetoj Gori podigli manastir Hilandar.", slika: "05-srpska-drzava-prvih-nemanjica/03-manastir-hilandar.jpg"}
+
+      - id: l05-dopuni-primorje-srednje
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [zahumlje, travunija, duklja, severna-albanija, hvosno]
+        pitanje: "Dopuni rečenicu oblastima koje je Nemanja osvojio."
+        tekst: "U primorju je osvojio {{Zahumlje}}, Travuniju, {{Duklju}} i severnu {{Albaniju}}, a u unutrašnjosti Kosovo i {{Hvosno}}."
+        ponudjene: ["Zahumlje", "Duklju", "Albaniju", "Hvosno", "Nikeju", "Trnovo", "Bosnu"]
+        pomoc:
+          - "Nikeja i Trnovo nisu oblasti koje je Nemanja osvojio."
+          - "Metohija se tada zvala Hvosno."
+          - "Iz lekcije: primorje je Zahumlje, Travunija, Duklja i severna Albanija; unutrašnjost Kosovo, Hvosno i krajevi uz Moravu."
+        objasnjenje: "Primorje: Zahumlje, Travunija, Duklja, severna Albanija. Unutrašnjost: krajevi uz Moravu, Kosovo, Hvosno."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Nemanja je širio državu i u unutrašnjosti i u primorju.", slika: "05-srpska-drzava-prvih-nemanjica/04-srpske-zemlje-kraj-xii-pocetak-xiii-veka-karta.jpg"}
+
+      - id: l05-dopuni-bogumili-tesko
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [bogumili, stefan-nemanja, episkop-jeftimije]
+        pitanje: "Dopuni rečenicu (bez ponuđenih reči)."
+        tekst: "Za vreme Nemanje u Srbiji se javlja verska zajednica {{bogumila}}, naročito delatna u {{Bosni}}, a pre pohoda na njih Nemanja se savetovao sa episkopom {{Jeftimijem}}."
+        pomoc:
+          - "Zajednicu knjiga naziva i sektom."
+          - "Ime zemlje počinje slovom B."
+          - "Iz lekcije: bogumili su bili delatni u Bosni; Nemanja se savetovao sa episkopom Jeftimijem."
+        objasnjenje: "Bogumili su bili naročito delatni u Bosni, a Nemanja je protiv njih krenuo posle saveta sa episkopom Jeftimijem, monasima i velikašima."
+        iz_udzbenika: {strana: 29, odeljak: "Iz istorijskih izvora", tekst: "Nemanja se o bogumilima savetovao sa episkopom Jeftimijem, monasima i velikašima."}
+
+      - id: l05-povezi-mesta
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [ras, manastir-hilandar, manastir-zica, novi-pazar, kraljevo, sveta-gora]
+        pitanje: "Poveži mesto sa onim po čemu je važno u ovoj lekciji."
+        parovi:
+          - ["Ras", "prestonica u prvim decenijama vladavine Nemanjića"]
+          - ["Hilandar", "središte srpske srednjovekovne kulture na Svetoj Gori"]
+          - ["Žiča", "sedište srpske arhiepiskopije od 1220."]
+          - ["Trnovo", "mesto u Bugarskoj gde je umro Sveti Sava"]
+        pomoc:
+          - "Jedno je državno, a dva su manastirska središta."
+          - "Četvrto mesto nije u Srbiji."
+          - "Iz lekcije: Ras je prestonica, Hilandar središte kulture, Žiča sedište arhiepiskopije, a Trnovo je mesto Savine smrti."
+        objasnjenje: "Ras je državno središte, Hilandar kulturno, Žiča crkveno, a Trnovo mesto gde je Sava umro 1236."
+        iz_udzbenika: {strana: 26, odeljak: "Srpska država u periodu Nemanjića", tekst: "Ras je bio prestonica, Hilandar središte kulture, a Žiča od 1220. sedište arhiepiskopije."}
+
+      - id: l05-povezi-nemanja-uzrok-tesko
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [stefan-nemanja, bogumili, manastir-hilandar, vizantija]
+        pitanje: "Poveži Nemanjin postupak sa onim čemu je služio ili šta je iz njega proizašlo."
+        parovi:
+          - ["dobio je unutrašnje borbe", "učvrstio je vlast u Raškoj"]
+          - ["ratovao je protiv Vizantije", "tražio je nezavisnost"]
+          - ["progonio je bogumile", "ta vera se u Srbiji više nije smela spominjati"]
+          - ["podigao je Hilandar sa Savom", "Srbi su dobili središte kulture"]
+        pomoc:
+          - "Pitaj se za svaki postupak: šta je time postigao?"
+          - "Rat i državna vlast idu sa nezavisnošću, a progon sa verom."
+          - "Iz lekcije: svaki Nemanjin korak imao je cilj, od učvršćivanja vlasti do središta kulture."
+        objasnjenje: "Unutrašnje borbe donose vlast, rat ide za nezavisnošću, progon je trebalo da iskoreni bogumile, a Hilandar postaje središte kulture."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Nemanja je učvrstio vlast, ratovao za nezavisnost, ugušio bogumile i podigao Hilandar."}
+
+      - id: l05-zakljuci-redosled-rata
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [stefan-nemanja, vizantija, raska]
+        pitanje: "Zašto Nemanja nije krenuo u rat sa Vizantijom čim je došao na vlast, nego tek posle unutrašnjih borbi?"
+        odgovori:
+          - {tekst: "Najpre je morao da učvrsti vlast u svojoj zemlji", tacan: true}
+          - {tekst: "Čekao je da krstaši zauzmu Carigrad", tacan: false, zasto: "Carigrad je pao 1204, kada Nemanja više nije bio živ."}
+          - {tekst: "Prvo je morao da dobije krunu od pape", tacan: false, zasto: "Krunu je dobio njegov sin 1217; Nemanja je ostao veliki župan."}
+          - {tekst: "Dok je bio monah, nije smeo da ratuje", tacan: false, zasto: "Monah postaje tek pred kraj života, posle vladavine."}
+        pomoc:
+          - "Korak 1: Šta se dešavalo u samoj Raškoj?"
+          - "Korak 2: Može li vladar koga u zemlji osporavaju da ratuje napolju?"
+          - "Iz lekcije: vlast je učvrstio tek posle unutrašnjih borbi, a odmah zatim krenuo u rat."
+        objasnjenje: "Vladar sa nesigurnom vlašću kod kuće teško vodi rat protiv carstva, pa je Nemanja prvo rešio unutrašnje borbe."
+        iz_udzbenika: {strana: 26, odeljak: "Srpska država u periodu Nemanjića", tekst: "Vlast u Raškoj Nemanja je učvrstio tek pošto je prošao kroz unutrašnje borbe, a odmah zatim krenuo je u rat sa Vizantijom."}
+
+      - id: l05-zakljuci-moravski-poraz-uslov
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [stefan-nemanja]
+        pitanje: "Knjiga kaže da je Srbiji posle 1190. bilo dozvoljeno da zadrži veći deo zemalja. Šta nam reč dozvoljeno govori o njenom položaju tada?"
+        odgovori:
+          - {tekst: "O zemljama je ipak odlučivala i strana sila, a ne samo Srbija", tacan: true}
+          - {tekst: "Srbija je tada bila najjača sila na Balkanu", tacan: false, zasto: "Pobeđena država kojoj se nešto dozvoljava nije u položaju najjačeg."}
+          - {tekst: "Srbija je potpuno izgubila svoje vladare", tacan: false, zasto: "Nemanja je vladao još šest godina, do 1196."}
+          - {tekst: "Dozvolu je dala bogumilska zajednica", tacan: false, zasto: "Bogumili su bili proganjana verska zajednica i nisu odlučivali o državnim zemljama."}
+        pomoc:
+          - "Korak 1: Ko nekome može nešto da dozvoli?"
+          - "Korak 2: Da li je to onaj ko je pobedio ili onaj ko je poražen?"
+          - "Iz lekcije: posle poraza Srbiji je dozvoljeno da zadrži veći deo stečenog."
+        objasnjenje: "Onaj kome se dozvoljava zavisi od tuđe odluke; nezavisnost je zato osvajana postepeno."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Mada je poražen, Srbiji je bilo dozvoljeno da zadrži veći deo stečenih zemalja."}
+
+      - id: l05-zakljuci-povlacenje
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [stefan-nemanja, stefan-prvovencani, sveta-gora]
+        pitanje: "Nemanja je vladao do 1196, a umro je 1199. Šta se sigurno može zaključiti?"
+        odgovori:
+          - {tekst: "Poslednje godine života proveo je van vlasti", tacan: true}
+          - {tekst: "Poginuo je u bici na Moravi", tacan: false, zasto: "Bitka je bila 1190, a on je umro 1199. u Hilandaru."}
+          - {tekst: "Vratio se na presto posle Stefana", tacan: false, zasto: "Stefan vlada od 1196. do 1228, bez prekida za Nemanjin povratak."}
+          - {tekst: "Umro je pre nego što je nastao Hilandar", tacan: false, zasto: "Umro je baš u Hilandaru, koji je sam podigao sa Savom."}
+        pomoc:
+          - "Korak 1: Oduzmi godinu kraja vladavine od godine smrti."
+          - "Korak 2: Gde je bio u te tri godine?"
+          - "Iz lekcije: posle vladavine otišao je na Svetu Goru, gde je umro 1199."
+        objasnjenje: "Vlast je predao 1196, a poslednje godine proveo je kao monah na Svetoj Gori."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Pred kraj života Nemanja je otišao na Svetu Goru; umro je u Hilandaru 1199."}
+        osa: {naziv: "Smrt Stefana Nemanje", od: 1199, traka: dogadjaji}
+
+      - id: l05-zakljuci-primorje-znacaj
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [stefan-nemanja, nemanjici, raska]
+        pitanje: "Država iz naslova lekcije nastaje u Raški, a kod Nemanje obuhvata i primorje i Kosovo. Šta to pokazuje o njegovoj vladavini?"
+        odgovori:
+          - {tekst: "Mala oblast Raška pretvorena je u znatno veću državu", tacan: true}
+          - {tekst: "Raška je tada izgubila svaki značaj", tacan: false, zasto: "Ras u Raškoj ostaje prestonica prvih decenija Nemanjića."}
+          - {tekst: "Država se širila samo prema moru", tacan: false, zasto: "Širenje je bilo i u unutrašnjosti: uz Moravu, na Kosovo i Hvosno."}
+          - {tekst: "Vizantija je te zemlje mirno predala bez ikakve borbe", tacan: false, zasto: "Knjiga govori o ratu sa Vizantijom i porazu 1190, dakle ne o mirnoj predaji."}
+        pomoc:
+          - "Korak 1: Odakle je država krenula?"
+          - "Korak 2: U kojim je pravcima išlo širenje?"
+          - "Iz lekcije: osvajanja su bila i u unutrašnjosti i u primorju."
+        objasnjenje: "Nemanja je od Raške stvorio državu koja dopire i do mora i na jug, pa se smatra tvorcem nezavisne srpske države."
+        iz_udzbenika: {strana: 26, odeljak: "Srpska država u periodu Nemanjića", tekst: "Osvajanja u unutrašnjosti i primorju znatno su proširila državu iz Raške.", slika: "05-srpska-drzava-prvih-nemanjica/04-srpske-zemlje-kraj-xii-pocetak-xiii-veka-karta.jpg"}
+
+      - id: l05-zakljuci-hilandar-van-srbije
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [manastir-hilandar, sveta-gora, nemanjici]
+        pitanje: "Šta je neobično u tome što je središte srpske kulture bio Hilandar, i šta to govori o Nemanjićima?"
+        odgovori:
+          - {tekst: "Nalazio se na Svetoj Gori, pa su Nemanjići gradili važne ustanove i dalje od svog središta u Raškoj", tacan: true}
+          - {tekst: "Nalazio se u prestonici, pa je sve bilo na jednom mestu", tacan: false, zasto: "Prestonica je bila Ras, a Hilandar je daleko, na Svetoj Gori."}
+          - {tekst: "Podigli su ga krstaši, pa su ga Nemanjići samo preuzeli", tacan: false, zasto: "Podigli su ga Nemanja i Sava, a ne krstaši."}
+          - {tekst: "Bio je sedište arhiepiskopije, pa je i kultura bila tamo", tacan: false, zasto: "Sedište arhiepiskopije bila je Žiča kod Kraljeva."}
+        pomoc:
+          - "Korak 1: Gde je Hilandar, a gde Ras?"
+          - "Korak 2: Ko ga je podigao?"
+          - "Iz lekcije: na Svetoj Gori su Nemanja i Sava podigli Hilandar, središte srpske kulture."
+        objasnjenje: "Hilandar nije bio u Raškoj, nego na Svetoj Gori, a ipak je postao središte srpske srednjovekovne kulture."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Hilandar na Svetoj Gori, delo Nemanje i Save, postao je središte srpske srednjovekovne kulture.", slika: "05-srpska-drzava-prvih-nemanjica/03-manastir-hilandar.jpg"}
+
+      - id: l05-datum-nemanja
+        vrsta: datum
+        tezina: lako
+        pojmovi: [stefan-nemanja, veliki-zupan]
+        dogadjaj: "Stefan Nemanja"
+        pitanje: "Od koje do koje godine je vladao veliki župan Stefan Nemanja?"
+        od: 1166
+        do: 1196
+        traka: vladari
+        pomoc:
+          - "Vladao je trideset godina."
+          - "Vladavina se završava u poslednjoj deceniji XII veka."
+          - "Iz lekcije: Stefan Nemanja vladao je 1166–1196."
+        objasnjenje: "Stefan Nemanja je vladao od 1166. do 1196. godine."
+        iz_udzbenika: {strana: 26, odeljak: "Srpska država u periodu Nemanjića", tekst: "Veliki župan Stefan Nemanja vladao je 1166–1196."}
+
+      - id: l05-datum-morava
+        vrsta: datum
+        tezina: lako
+        pojmovi: [stefan-nemanja]
+        dogadjaj: "Poraz na reci Moravi"
+        pitanje: "Koje godine je Stefan Nemanja poražen na reci Moravi?"
+        godina: 1190
+        traka: dogadjaji
+        pomoc:
+          - "Bilo je to šest godina pre kraja njegove vladavine."
+          - "Okrugla godina poslednje decenije XII veka."
+          - "Iz lekcije: 1190. je poražen na Moravi."
+        objasnjenje: "Poraz na Moravi bio je 1190, ali je Srbija zadržala veći deo stečenih zemalja."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Nemanja je 1190. poražen na reci Moravi."}
+
+      - id: l05-datum-nemanja-smrt
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [stefan-nemanja, manastir-hilandar]
+        dogadjaj: "Smrt Stefana Nemanje"
+        pitanje: "Koje godine je Stefan Nemanja umro u Hilandaru?"
+        godina: 1199
+        traka: dogadjaji
+        pomoc:
+          - "Tri godine posle kraja vladavine."
+          - "Poslednja godina pre 1200."
+          - "Iz lekcije: Nemanja je umro u Hilandaru 1199."
+        objasnjenje: "Nemanja je umro 1199. u Hilandaru, tri godine pošto je prestao da vlada."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Nemanja je umro u Hilandaru 1199.", slika: "05-srpska-drzava-prvih-nemanjica/02-stefan-nemanja-monah-simeon.jpg"}
+
+      - id: l05-poredjaj-nemanja
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [stefan-nemanja]
+        pitanje: "Poređaj događaje iz Nemanjinog života, od najranijeg."
+        stavke:
+          - {tekst: "Stefan Nemanja postaje veliki župan", godina: 1166, do: 1196, naziv: "Stefan Nemanja", traka: vladari}
+          - {tekst: "Poraz na reci Moravi", godina: 1190, naziv: "Poraz na reci Moravi", traka: dogadjaji}
+          - {tekst: "Nemanja umire u Hilandaru", godina: 1199, naziv: "Smrt Stefana Nemanje", traka: dogadjaji}
+        pomoc:
+          - "Prvo mora da postane vladar."
+          - "Smrt je poslednja."
+          - "Iz lekcije: 1166. vladar, 1190. poraz, 1199. smrt."
+        objasnjenje: "Vladavina počinje 1166, poraz je 1190, a smrt 1199."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Nemanja vlada od 1166, 1190. je poražen na Moravi, a umire 1199."}
+
+      - id: l05-poredjaj-koraci-nemanje
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [stefan-nemanja, stefan-prvovencani, manastir-hilandar]
+        pitanje: "Poređaj hronološki, od najranijeg."
+        stavke:
+          - {tekst: "Stefan Nemanja dolazi na vlast", godina: 1166, do: 1196, naziv: "Stefan Nemanja", traka: vladari}
+          - {tekst: "Poraz na Moravi", godina: 1190, naziv: "Poraz na reci Moravi", traka: dogadjaji}
+          - {tekst: "Stefan nasleđuje oca", godina: 1196, do: 1228, naziv: "Stefan Prvovenčani", traka: vladari}
+          - {tekst: "Nemanja umire u Hilandaru", godina: 1199, naziv: "Smrt Stefana Nemanje", traka: dogadjaji}
+        pomoc:
+          - "Pazi: sin postaje vladar dok je otac još živ."
+          - "Poraz je pre primopredaje vlasti."
+          - "Iz lekcije: 1166, 1190, 1196, 1199."
+        objasnjenje: "Nasleđivanje 1196. dolazi pre Nemanjine smrti 1199, jer se on povukao sa vlasti."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Nemanju je nasledio sin Stefan (1196–1228), a Nemanja je umro 1199."}
+
+      - id: l05-lanac-vlast-rat
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [stefan-nemanja, vizantija]
+        karike: ["Nemanja dobija unutrašnje borbe", "?", "Počinje rat protiv Vizantije za nezavisnost"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Nemanja se učvršćuje na vlasti u Raškoj", tacan: true}
+          - {tekst: "Nemanja odlazi na Svetu Goru", tacan: false, zasto: "Na Svetu Goru odlazi tek pred kraj života, a ne pre rata."}
+          - {tekst: "Stefan dobija krunu od pape", tacan: false, zasto: "To je mnogo kasnije, 1217, i ne dovodi do Nemanjinog rata."}
+        pomoc:
+          - "Korak 1: Šta se dobija kad se pobedi u borbi za vlast?"
+          - "Korak 2: Šta je potrebno pre rata sa spoljnim neprijateljem?"
+          - "Iz lekcije: unutrašnje borbe dobijene → Nemanja se učvršćuje u Raškoj → rat protiv Vizantije."
+        objasnjenje: "Pobeda kod kuće učvrstila je Nemanju, pa je mogao da krene na Vizantiju."
+        iz_udzbenika: {strana: 26, odeljak: "Uzrok → posledica", tekst: "Unutrašnje borbe dobijene, Nemanja se učvršćuje u Raškoj, pa počinje rat za nezavisnost."}
+
+      - id: l05-lanac-morava
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [stefan-nemanja]
+        karike: ["Nemanja osvaja mnoge oblasti", "Poraz na Moravi 1190.", "?"]
+        praznina: 2
+        odgovori:
+          - {tekst: "Srbija ipak zadržava veći deo stečenih zemalja", tacan: true}
+          - {tekst: "Srbija gubi sve oblasti i nestaje", tacan: false, zasto: "Država opstaje: zadržan je veći deo osvojenog, a Nemanja vlada do 1196."}
+          - {tekst: "Nemanja odmah postaje kralj", tacan: false, zasto: "Nemanja je ostao veliki župan; krunu 1217. dobija njegov sin."}
+        pomoc:
+          - "Korak 1: Da li je poraz poništio sva osvajanja?"
+          - "Korak 2: Šta je Srbiji bilo dozvoljeno?"
+          - "Iz lekcije: poraz na Moravi → ipak zadržan najveći deo osvojenih zemalja."
+        objasnjenje: "I posle poraza Srbiji je dozvoljeno da zadrži veći deo stečenih zemalja."
+        iz_udzbenika: {strana: 27, odeljak: "Uzrok → posledica", tekst: "Poraz na Moravi 1190, a ipak je zadržan najveći deo osvojenih zemalja."}
+
+      - id: l05-lanac-bogumili
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [bogumili, stefan-nemanja]
+        karike: ["Bogumili se šire i u Srbiji", "?", "Bogumilska vera u Srbiji je ugušena"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Nemanja progoni vođe i sledbenike sekte", tacan: true}
+          - {tekst: "Nemanja im daje Hilandar", tacan: false, zasto: "Hilandar je pravoslavni manastir koji su podigli Nemanja i Sava."}
+          - {tekst: "Papa šalje krstaše na njih u Srbiju", tacan: false, zasto: "Knjiga kaže da je vojsku protiv njih poslao sam Nemanja."}
+        pomoc:
+          - "Korak 1: Ko je vlast u Srbiji?"
+          - "Korak 2: Kako je ta vlast reagovala?"
+          - "Iz lekcije: širenje bogumila → Nemanjin progon sekte u Srbiji."
+        objasnjenje: "Širenje bogumila dovelo je do Nemanjinog progona, kojim je njihovo delovanje u Srbiji ugušeno."
+        iz_udzbenika: {strana: 27, odeljak: "Uzrok → posledica", tekst: "Širenje bogumila dovelo je do Nemanjinog progona sekte u Srbiji."}
+
+      - id: l05-lanac-hilandar
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [sveti-sava, stefan-nemanja, manastir-hilandar, sveta-gora]
+        karike: ["Sava je monah na Svetoj Gori", "Nemanja se pred kraj života povlači tamo", "?", "Hilandar postaje središte srpske kulture"]
+        praznina: 2
+        odgovori:
+          - {tekst: "Otac i sin zajedno podižu manastir Hilandar", tacan: true}
+          - {tekst: "Sava odlazi u Nikeju", tacan: false, zasto: "To je mnogo kasnije, zbog arhiepiskopije 1219."}
+          - {tekst: "Nemanja se vraća na presto u Rasu", tacan: false, zasto: "Nemanja se nije vraćao; umro je 1199. u Hilandaru."}
+        pomoc:
+          - "Korak 1: Šta su otac i sin radili na Svetoj Gori?"
+          - "Korak 2: Mora da postoji manastir pre nego što postane središte."
+          - "Iz lekcije: Nemanja i Sava podigli su Hilandar, središte srpske kulture."
+        objasnjenje: "Zajednički boravak na Svetoj Gori doveo je do podizanja Hilandara, koji je postao središte srpske kulture."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Zajedno su podigli manastir Hilandar, koji je postao središte srpske srednjovekovne kulture."}
+
+      - id: l05-lanac-postepena-nezavisnost
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [stefan-nemanja, vizantija, zahumlje]
+        karike: ["Nemanja učvršćuje vlast", "Ratuje protiv Vizantije", "?", "Poraz 1190. ipak ne briše veći deo tih tekovina"]
+        praznina: 2
+        odgovori:
+          - {tekst: "Osvaja oblasti u unutrašnjosti i primorju", tacan: true}
+          - {tekst: "Prima kraljevsku krunu", tacan: false, zasto: "Krunu prima njegov sin; osvajanja dolaze pre poraza 1190."}
+          - {tekst: "Dobija autokefalnu crkvu", tacan: false, zasto: "Autokefalnost dolazi tek 1219, dvadeset godina posle Nemanjine smrti."}
+        pomoc:
+          - "Korak 1: Šta je zadržano posle poraza?"
+          - "Korak 2: Da bi nešto bilo zadržano, moralo je prvo biti stečeno."
+          - "Iz lekcije: Nemanja je osvojio krajeve uz Moravu, Kosovo, Hvosno i primorje, a veći deo je zadržan."
+        objasnjenje: "Osvajanja su tekovine koje su najvećim delom preživele poraz na Moravi."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Osvojene zemlje Srbija je najvećim delom sačuvala i posle poraza 1190."}
+
+      - id: l05-izvor-progon-lako
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [bogumili, stefan-nemanja, episkop-jeftimije]
+        izvor: {autor: "Stefan Prvovenčani", naslov: "Biografija Stefana Nemanje", tekst: "Nemanja je razotkrio učenje jeretika i posavetovao se sa episkopom Jeftimijem, monasima i velikašima. Zatim je na njih poslao vojsku: jedne je kaznio spaljivanjem, druge drugim kaznama, a treće je proterao iz države.", napomena: "Odlomak je prepričan; udžbenik, str. 29."}
+        pitanje: "O kome govori ovaj odlomak?"
+        odgovori:
+          - {tekst: "o bogumilima u Raškoj", tacan: true}
+          - {tekst: "o krstašima u Carigradu", tacan: false, zasto: "Krstaši su osvojili Carigrad 1204, posle Nemanjine smrti, a odlomak opisuje progon jeretika u njegovoj državi."}
+          - {tekst: "o monasima sa Svete Gore", tacan: false, zasto: "Monasi se u odlomku pojavljuju kao Nemanjini savetnici, a ne kao oni koje progoni."}
+          - {tekst: "o bici na Moravi", tacan: false, zasto: "Odlomak ne govori o bici, nego o verskom progonu u zemlji."}
+        pomoc:
+          - "Koga Nemanja naziva jereticima?"
+          - "Radi se o verskoj zajednici koja je bila naročito delatna u Bosni."
+          - "Iz lekcije: odlomak opisuje progon bogumila u Raškoj."
+        objasnjenje: "Odlomak iz Nemanjine biografije govori o progonu bogumila, verske zajednice koju je vlast smatrala jeresi."
+        iz_udzbenika: {strana: 29, odeljak: "Iz istorijskih izvora", tekst: "Odlomak iz biografije Nemanje govori o progonu bogumila u Raškoj."}
+
+      - id: l05-izvor-autor
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [stefan-prvovencani, stefan-nemanja]
+        izvor: {autor: "Udžbenik", naslov: "Napomena uz odlomak", tekst: "Odlomak o bogumilima potiče iz biografije velikog župana, a napisao ju je njegov rođeni sin, koji je i sam postao vladar.", napomena: "Odlomak je prepričan; udžbenik, str. 29."}
+        pitanje: "Ko je autor biografije Stefana Nemanje iz koje je odlomak?"
+        odgovori:
+          - {tekst: "Stefan Prvovenčani", tacan: true}
+          - {tekst: "episkop Jeftimije", tacan: false, zasto: "Jeftimije se u odlomku javlja kao Nemanjin savetnik, a nije autor biografije."}
+          - {tekst: "rimski papa", tacan: false, zasto: "Papa je Stefanu poslao krunu; biografiju je napisao Nemanjin sin Stefan."}
+          - {tekst: "vođa bogumila", tacan: false, zasto: "Vođa bogumila je kažnjen i proteran, a ne autor biografije progonitelja."}
+        pomoc:
+          - "Napomena kaže da je autor sin i vladar."
+          - "Nemanjin sin vladar zove se Stefan."
+          - "Iz lekcije: biografiju Stefana Nemanje napisao je njegov sin Stefan Prvovenčani."
+        objasnjenje: "Biografiju oca napisao je Stefan Prvovenčani."
+        iz_udzbenika: {strana: 29, odeljak: "Iz istorijskih izvora", tekst: "Biografiju Stefana Nemanje napisao je njegov sin Stefan Prvovenčani."}
+
+      - id: l05-izvor-cilj-progona
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [bogumili, stefan-nemanja]
+        izvor: {autor: "Stefan Prvovenčani", naslov: "Biografija Stefana Nemanje", tekst: "Vođi te vere odsečen je jezik jer nije priznavao Hrista, knjige su mu spaljene, a on je proteran. Nemanja je želeo da se ta vera potpuno iskoreni, da se u njegovoj državi više i ne spominje.", napomena: "Odlomak je prepričan; udžbenik, str. 29."}
+        pitanje: "Šta je, prema odlomku, bio krajnji cilj progona?"
+        odgovori:
+          - {tekst: "Da ta vera potpuno nestane iz države", tacan: true}
+          - {tekst: "Da se bogumili prebace u Bosnu i tamo žive u miru", tacan: false, zasto: "Odlomak govori o proterivanju, ali cilj kojeg navodi je iskorenjivanje vere u državi, a ne briga o bogumilima."}
+          - {tekst: "Da se od bogumila naplati porez", tacan: false, zasto: "U odlomku nema reči o porezu; cilj je verski."}
+          - {tekst: "Da se bogumilske knjige sačuvaju u manastirima", tacan: false, zasto: "Knjige su spaljene, a ne sačuvane."}
+        pomoc:
+          - "Pročitaj poslednju rečenicu odlomka."
+          - "Šta je trebalo da se ne spominje?"
+          - "Iz lekcije: cilj je bio da se ta vera potpuno iskoreni i da se u državi više ne spominje."
+        objasnjenje: "Cilj je bio da se ta vera potpuno iskoreni i da se u državi više ne spominje."
+        iz_udzbenika: {strana: 29, odeljak: "Iz istorijskih izvora", tekst: "Cilj je bio da se ta vera potpuno iskoreni i da se u državi više ne spominje."}
+
+      - id: l05-izvor-savetovanje
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [stefan-nemanja, episkop-jeftimije, bogumili]
+        izvor: {autor: "Stefan Prvovenčani", naslov: "Biografija Stefana Nemanje", tekst: "Pre nego što je krenuo na jeretike, Nemanja je sazvao episkopa Jeftimija, monahe i svoje velikaše i sa njima se posavetovao.", napomena: "Odlomak je prepričan; udžbenik, str. 29."}
+        pitanje: "Šta nam ovo savetovanje govori o tome kako je doneta odluka?"
+        odgovori:
+          - {tekst: "Vladar je odluku pripremio sa crkvom i velikašima", tacan: true}
+          - {tekst: "O progonu je odlučio sam papa", tacan: false, zasto: "Papa se ovde ne pominje; Nemanja se savetuje sa domaćim episkopom, monasima i velikašima."}
+          - {tekst: "Odluku su doneli bogumili", tacan: false, zasto: "Bogumili su meta odluke, a ne oni koji odlučuju."}
+          - {tekst: "Velikaši su tražili da se bogumili ne diraju", tacan: false, zasto: "Odlomak ne govori o takvom protivljenju, već da je Nemanja posle saveta poslao vojsku."}
+        pomoc:
+          - "Pogledaj ko je sve prisutan na savetovanju."
+          - "Vidi se učešće i crkvenih ljudi i plemstva."
+          - "Iz lekcije: Nemanja se posavetovao sa episkopom Jeftimijem, monasima i velikašima."
+        objasnjenje: "Vladar nije delovao sam: posavetovao se sa episkopom, monasima i velikašima, dakle sa crkvom i plemstvom."
+        iz_udzbenika: {strana: 29, odeljak: "Iz istorijskih izvora", tekst: "Nemanja je razotkrio njihovu jeres i posavetovao se sa episkopom Jeftimijem, monasima i velikašima."}
+
+      - id: l05-izvor-pristrasnost
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [stefan-prvovencani, stefan-nemanja, bogumili]
+        izvor: {autor: "Stefan Prvovenčani", naslov: "Biografija Stefana Nemanje", tekst: "Sin vladara opisuje kako je njegov otac bez milosti kaznio jeretike: spaljivao ih je, proterivao, a njihovom vođi je odsekao jezik. Ti postupci se u delu predstavljaju kao ispravni.", napomena: "Odlomak je prepričan; udžbenik, str. 29."}
+        pitanje: "Na šta treba da pazimo kada ovaj izvor koristimo da saznamo šta se desilo sa bogumilima?"
+        odgovori:
+          - {tekst: "Pisao ga je Nemanjin sin, sa strane koja je progonila, a glas bogumila ne čujemo", tacan: true}
+          - {tekst: "Pisali su ga sami bogumili, pa preteruju u svojim patnjama", tacan: false, zasto: "Autor je Stefan Prvovenčani, Nemanjin sin, dakle sa strane progonitelja."}
+          - {tekst: "Pisao ga je neprijatelj Srbije, pa namerno kudi Nemanju", tacan: false, zasto: "Pisao ga je Nemanjin sin i Nemanju ne kudi."}
+          - {tekst: "Pisan je pre nego što se Nemanja rodio", tacan: false, zasto: "Autor je sin i piše o očevim delima, dakle posle njih."}
+        pomoc:
+          - "Korak: pitaj ko je autor i u kakvoj je vezi sa glavnim junakom."
+          - "Da li imamo i šta su o tome pisali bogumili?"
+          - "Iz lekcije: biografiju je napisao Nemanjin sin Stefan Prvovenčani."
+        objasnjenje: "Izvor je dragocen, ali je pisan sa strane vlasti: sin piše o ocu, a bogumili u njemu nemaju svoj glas."
+        iz_udzbenika: {strana: 29, odeljak: "Iz istorijskih izvora", tekst: "O progonu bogumila saznajemo iz biografije koju je napisao Nemanjin sin Stefan Prvovenčani."}
+
+      - id: l05-izvor-freska-monah
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [stefan-nemanja, monah-simeon]
+        izvor: {autor: "Freska iz udžbenika", naslov: "Stefan Nemanja kao monah Simeon (opis slike)", tekst: "Na freski je starac sa veoma dugom belom bradom, u monaškoj odeći i sa oreolom oko glave. Donji deo slike je dobrim delom oštećen.", napomena: "Odlomak je prepričan; udžbenik, str. 26."}
+        pitanje: "Koji period Nemanjinog života prikazuje ova freska?"
+        odgovori:
+          - {tekst: "kraj života, posle povlačenja sa vlasti na Svetu Goru", tacan: true}
+          - {tekst: "početak vladavine 1166.", tacan: false, zasto: "Tada je bio vladar, a ne monah; monaška odeća i duga bela brada pokazuju poslednje godine."}
+          - {tekst: "rat sa Vizantijom", tacan: false, zasto: "Monaška odeća ne odgovara ratniku; rat je vođen dok je bio veliki župan."}
+          - {tekst: "poraz na Moravi 1190.", tacan: false, zasto: "Bio je tada još vladar; monah je postao kasnije."}
+        pomoc:
+          - "Kada je Nemanja postao monah?"
+          - "Pogledaj odeću na freski."
+          - "Iz lekcije: pred kraj života Nemanja se povukao na Svetu Goru i tamo umro 1199."
+        objasnjenje: "Monaška odeća i ime Simeon vode nas u poslednje godine života, posle povlačenja sa vlasti."
+        iz_udzbenika: {strana: 26, odeljak: "Srpska država u periodu Nemanjića", tekst: "Freska prikazuje Nemanju kao monaha; on se pred kraj života povukao na Svetu Goru.", slika: "05-srpska-drzava-prvih-nemanjica/02-stefan-nemanja-monah-simeon.jpg"}
+
+      - id: l05-uporedi-unutrasnjost-primorje
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [kosovo, hvosno, zahumlje, travunija, duklja, severna-albanija]
+        a: "Unutrašnjost"
+        b: "Primorje"
+        pitanje: "Razvrstaj Nemanjina osvajanja: unutrašnjost, primorje, oba ili nijedno."
+        tvrdnje:
+          - {tekst: "Kosovo", odgovor: a, zasto: "Kosovo je u unutrašnjosti, kao i Hvosno."}
+          - {tekst: "Hvosno (Metohija)", odgovor: a, zasto: "Hvosno je staro ime za Metohiju, a ona je u unutrašnjosti."}
+          - {tekst: "krajevi uz Zapadnu i Veliku Moravu", odgovor: a, zasto: "Moravski krajevi su u unutrašnjosti."}
+          - {tekst: "Zahumlje", odgovor: b, zasto: "Zahumlje je primorska oblast."}
+          - {tekst: "Travunija", odgovor: b, zasto: "Travunija je primorska oblast, kao i Duklja."}
+          - {tekst: "Duklja", odgovor: b, zasto: "Duklja je primorska oblast."}
+          - {tekst: "severna Albanija", odgovor: b, zasto: "Severna Albanija spada u primorska osvajanja."}
+          - {tekst: "Nikeja", odgovor: nijedan, zasto: "Nikeja nije Nemanjino osvajanje; tamo su se preselili vizantijski car i patrijarh."}
+        pomoc:
+          - "Morava i Kosovo su daleko od mora."
+          - "Metohija je isto što i Hvosno."
+          - "Iz lekcije: unutrašnjost je Morava, Kosovo i Hvosno; primorje Zahumlje, Travunija, Duklja i severna Albanija."
+        objasnjenje: "Unutrašnjost čine moravski krajevi, Kosovo i Hvosno, a primorje Zahumlje, Travunija, Duklja i severna Albanija."
+        iz_udzbenika: {strana: 26, odeljak: "Srpska država u periodu Nemanjića", tekst: "Nemanja je osvajao i u unutrašnjosti i u primorju.", slika: "05-srpska-drzava-prvih-nemanjica/04-srpske-zemlje-kraj-xii-pocetak-xiii-veka-karta.jpg"}
+
+      - id: l05-uporedi-ras-hilandar
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [ras, manastir-hilandar, novi-pazar, sveta-gora]
+        a: "Ras"
+        b: "Hilandar"
+        pitanje: "Na šta se tvrdnja odnosi: Ras, Hilandar, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Bio je prestonica u prvim decenijama Nemanjića.", odgovor: a, zasto: "To je Ras; Hilandar je manastir."}
+          - {tekst: "Nalazi se kod Novog Pazara.", odgovor: a, zasto: "Kod Novog Pazara je Ras, a Hilandar je na Svetoj Gori."}
+          - {tekst: "Postao je središte srpske srednjovekovne kulture.", odgovor: b, zasto: "To je Hilandar."}
+          - {tekst: "U njemu je umro Stefan Nemanja.", odgovor: b, zasto: "Nemanja je umro u Hilandaru 1199."}
+          - {tekst: "Vezan je za Nemanjiće.", odgovor: oba, zasto: "Ras im je prestonica, a Hilandar njihova zadužbina na Svetoj Gori."}
+          - {tekst: "Bio je sedište srpske arhiepiskopije od 1220.", odgovor: nijedan, zasto: "To je manastir Žiča kod Kraljeva."}
+        pomoc:
+          - "Jedno je državno, drugo verska i kulturna ustanova."
+          - "Sedište crkve nije ni jedno ni drugo."
+          - "Iz lekcije: Ras je prestonica, a Hilandar središte kulture na Svetoj Gori."
+        objasnjenje: "Ras je državno središte kod Novog Pazara, Hilandar kulturno središte na Svetoj Gori, a sedište crkve je Žiča."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Ras je bio prestonica, a Hilandar središte srpske srednjovekovne kulture."}
+
+      - id: l05-kosam-nemanja
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [stefan-nemanja, monah-simeon, nemanjici]
+        tragovi:
+          - "Vladao sam kao veliki župan trideset godina."
+          - "Ratovao sam protiv Vizantije i proširio državu i do mora."
+          - "Pred kraj života postao sam monah Simeon i umro u Hilandaru."
+        odgovori:
+          - {tekst: "Stefan Nemanja", tacan: true}
+          - {tekst: "Sveti Sava", tacan: false, zasto: "Sava nije vladao; on je Nemanjin sin i prvi srpski arhiepiskop."}
+          - {tekst: "Stefan Prvovenčani", tacan: false, zasto: "On je bio kralj, a ne veliki župan, i Nemanjin naslednik."}
+          - {tekst: "episkop Jeftimije", tacan: false, zasto: "Jeftimije je episkop i Nemanjin savetnik, a ne vladar."}
+        objasnjenje: "To je Stefan Nemanja, rodonačelnik dinastije, veliki župan (1166–1196) i monah Simeon."
+        iz_udzbenika: {strana: 26, odeljak: "Srpska država u periodu Nemanjića", tekst: "Stefan Nemanja je vladao 1166–1196, ratovao protiv Vizantije i završio život kao monah.", slika: "05-srpska-drzava-prvih-nemanjica/02-stefan-nemanja-monah-simeon.jpg"}
+
+      - id: l05-kosam-jeftimije
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [episkop-jeftimije, stefan-nemanja, bogumili]
+        tragovi:
+          - "Moje ime se pominje u biografiji Stefana Nemanje."
+          - "Nisam vladar, nego crkveno lice."
+          - "Sa mnom se Nemanja posavetovao pre pohoda protiv jeretika."
+        odgovori:
+          - {tekst: "episkop Jeftimije", tacan: true}
+          - {tekst: "Sava Nemanjić", tacan: false, zasto: "Sava je bio monah i kasnije arhiepiskop, a u odlomku se navodi episkop Jeftimije."}
+          - {tekst: "vođa bogumila", tacan: false, zasto: "On je bio kažnjen u tom pohodu, a nije bio savetnik."}
+          - {tekst: "nikejski patrijarh", tacan: false, zasto: "On je Savi dao arhiepiskopiju 1219, mnogo posle Nemanjinog progona."}
+        objasnjenje: "Episkop Jeftimije je sa monasima i velikašima savetovao Nemanju pre progona bogumila."
+        iz_udzbenika: {strana: 29, odeljak: "Iz istorijskih izvora", tekst: "Nemanja se posavetovao sa episkopom Jeftimijem, monasima i velikašima."}
+
+      - id: l05-objasni-feudalna-drzava
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [feudalna-drzava, raska, nemanjici, stefan-nemanja]
+        pitanje: "Kada, gde i pod kojom porodicom nastaje srednjovekovna feudalna država Srba? Odgovori svojim rečima."
+        uzor: "Feudalna država Srba razvija se od XII veka u oblasti Raške. Njome upravlja porodica Nemanjić. Osnivač je Stefan Nemanja, a nezavisnost je osvajana postepeno."
+        ideje: ["Nastaje u XII veku.", "Oblast je Raška.", "Upravlja porodica Nemanjić.", "Osnivač je Stefan Nemanja."]
+        objasnjenje: "Odgovor treba da spoji vreme, mesto i dinastiju."
+        iz_udzbenika: {strana: 26, odeljak: "Uvod", tekst: "Od XII veka u Raškoj se razvija feudalna država Srba kojom upravlja porodica Nemanjić."}
+        osa: {naziv: "Nastanak srpske feudalne države", od: 1100, do: 1200, traka: dogadjaji, oznaka: "XII vek"}
+
+      - id: l05-objasni-nezavisnost-postepeno
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [stefan-nemanja, vizantija]
+        pitanje: "Objasni zašto kažemo da je Nemanja nezavisnost osvajao postepeno, a ne odjednom."
+        uzor: "Najpre je morao da pobedi u unutrašnjim borbama i učvrsti vlast u Raškoj. Zatim je ratovao sa Vizantijom i širio državu u unutrašnjosti i primorju. Ni poraz na Moravi 1190. nije sve poništio, jer je veći deo zemalja zadržan."
+        ideje: ["Prvo unutrašnje borbe i učvršćivanje vlasti.", "Zatim rat sa Vizantijom i osvajanja.", "Poraz 1190. nije poništio veći deo tekovina."]
+        objasnjenje: "Postepeno znači kroz više faza, a ne jednim događajem."
+        iz_udzbenika: {strana: 26, odeljak: "Srpska država u periodu Nemanjića", tekst: "Nemanja se učvrstio posle unutrašnjih borbi, ratovao za nezavisnost i sačuvao veći deo osvojenog."}
+
+      - id: l05-objasni-zasto-bogumili
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [bogumili, stefan-nemanja]
+        pitanje: "Kako je Nemanja postupio sa bogumilima i odakle to znamo?"
+        uzor: "Nemanja je potpuno ugušio njihovo delovanje u Srbiji. Posle saveta sa episkopom, monasima i velikašima poslao je vojsku: jedne je kaznio, druge proterao, a vođi je odsečen jezik. To znamo iz biografije koju je napisao njegov sin Stefan Prvovenčani."
+        ideje: ["Potpuno je ugušio njihovo delovanje u Srbiji.", "Korišćene su teške kazne i proterivanje.", "Izvor je biografija koju je napisao Stefan Prvovenčani."]
+        objasnjenje: "Pored činjenice treba navesti i izvor iz kog je znamo."
+        iz_udzbenika: {strana: 29, odeljak: "Iz istorijskih izvora", tekst: "Biografija Nemanje opisuje progon bogumila: kazne, proterivanje i kažnjavanje njihovog vođe."}
+
+      - id: l05-objasni-hilandar
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [manastir-hilandar, sveta-gora, stefan-nemanja, sveti-sava]
+        pitanje: "Ko je podigao Hilandar, gde je i zašto je važan za Srbe?"
+        uzor: "Hilandar su podigli Stefan Nemanja i njegov sin Sava. Nalazi se na Svetoj Gori. Važan je zato što je postao središte srpske srednjovekovne kulture."
+        ideje: ["Podigli su ga Nemanja i Sava.", "Nalazi se na Svetoj Gori.", "Postao je središte srpske srednjovekovne kulture."]
+        objasnjenje: "Tri dela odgovora: ko, gde i zašto je važan."
+        iz_udzbenika: {strana: 27, odeljak: "Srpska država u periodu Nemanjića", tekst: "Nemanja i Sava su podigli Hilandar, koji je postao središte srpske srednjovekovne kulture.", slika: "05-srpska-drzava-prvih-nemanjica/03-manastir-hilandar.jpg"}
+
+      - id: l05-objasni-tesko-izvor-i-cilj
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [bogumili, stefan-nemanja, stefan-prvovencani]
+        pitanje: "Zašto biografiju Nemanje ne možemo da uzmemo kao potpuno nepristrasan opis događaja, iako je to važan izvor?"
+        uzor: "Autor je Nemanjin sin Stefan Prvovenčani, pa piše o svom ocu i sa strane vlasti. Progon predstavlja kao ispravan i ne prenosi glas bogumila. Izvor je ipak važan, jer nam govori šta je vlast radila i kako je o tome mislila."
+        ideje: ["Autor je Nemanjin sin.", "Piše sa strane vlasti i progonitelja.", "Glas bogumila ne čujemo.", "Izvor je ipak koristan jer pokazuje postupke i stav vlasti."]
+        objasnjenje: "Izvor treba čitati sa pitanjem ko ga je napisao i zašto."
+        iz_udzbenika: {strana: 29, odeljak: "Iz istorijskih izvora", tekst: "O progonu bogumila pisao je Stefan Prvovenčani, sin čoveka koji je progon naredio."}
+
+  # ==========================================================================
+  - naslov: "Proglašenje kraljevstva"
+    zadaci:
+      - id: l05-izbor-naslednik
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [stefan-prvovencani, stefan-nemanja]
+        pitanje: "Ko je nasledio Stefana Nemanju na vlasti?"
+        odgovori:
+          - {tekst: "njegov sin Stefan", tacan: true}
+          - {tekst: "njegov sin Sava", tacan: false, zasto: "Sava je bio monah i kasnije prvi arhiepiskop, a ne vladar."}
+          - {tekst: "episkop Jeftimije", tacan: false, zasto: "Jeftimije je crkveno lice, savetnik u progonu bogumila, a ne naslednik."}
+          - {tekst: "vizantijski car", tacan: false, zasto: "Nemanja se borio za nezavisnost od Vizantije; nasledio ga je sin."}
+        pomoc:
+          - "Nasledio ga je član porodice."
+          - "Taj sin je kasnije primio krunu."
+          - "Iz lekcije: Nemanju je nasledio sin Stefan (1196–1228)."
+        objasnjenje: "Nemanju je nasledio sin Stefan, kasnije prozvan Prvovenčani."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Nemanju je nasledio sin Stefan (1196–1228)."}
+        osa: {naziv: "Stefan Prvovenčani", od: 1196, do: 1228, traka: vladari}
+
+      - id: l05-izbor-kruna-od
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [stefan-prvovencani, rimski-papa, kraljevska-kruna]
+        pitanje: "Od koga je Stefan 1217. primio kraljevsku krunu?"
+        odgovori:
+          - {tekst: "od rimskog pape", tacan: true}
+          - {tekst: "od nikejskog patrijarha", tacan: false, zasto: "Od patrijarha u Nikeji je Sava 1219. dobio pristanak za arhiepiskopiju; krunu je dao rimski papa."}
+          - {tekst: "od vizantijskog cara", tacan: false, zasto: "Vizantija je tada bila u teškoj krizi; krunu je Stefan dobio od pape."}
+          - {tekst: "od ohridskog arhiepiskopa", tacan: false, zasto: "Ohridski arhiepiskop je upravljao srpskom crkvom pre 1219, a krunu nije dao on."}
+        pomoc:
+          - "Kruna je stigla sa zapada."
+          - "Ne mešaj krunu 1217. i crkvenu samostalnost 1219."
+          - "Iz lekcije: 1217. primio je kraljevsku krunu od rimskog pape."
+        objasnjenje: "Krunu je 1217. dao rimski papa, a Stefan je zato prozvan Prvovenčani."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Stefan je 1217. primio kraljevsku krunu od rimskog pape."}
+        osa: {naziv: "Stefan Prvovenčani dobija kraljevsku krunu", od: 1217, traka: dogadjaji}
+
+      - id: l05-izbor-ime-prvovencani
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [stefan-prvovencani]
+        pitanje: "Zašto je Stefan Nemanjić nazvan Prvovenčani?"
+        odgovori:
+          - {tekst: "Zato što je prvi među Nemanjićima krunisan za kralja", tacan: true}
+          - {tekst: "Zato što je prvi postao monah na Svetoj Gori", tacan: false, zasto: "Na Svetoj Gori su monasi bili Sava i Nemanja, a ime dolazi od krunisanja."}
+          - {tekst: "Zato što je bio najstariji sin", tacan: false, zasto: "Ime dolazi od venčanja krunom, a ne od redosleda rođenja."}
+          - {tekst: "Zato što je prvi napisao biografiju", tacan: false, zasto: "Jeste pisao biografiju oca, ali ime dolazi od krune."}
+        pomoc:
+          - "Venčati se ovde znači krunisati se."
+          - "Prvi je u nečemu među Nemanjićima."
+          - "Iz lekcije: pošto je prvi krunisan za kralja, nazvan je Prvovenčani."
+        objasnjenje: "Ime govori da je on prvi iz porodice Nemanjić krunisan za kralja."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Stefan je kao prvi krunisani kralj Nemanjića nazvan Prvovenčani."}
+
+      - id: l05-izbor-latinsko-gde
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [latinsko-carstvo, krstasi, vizantija]
+        pitanje: "Gde su krstaši 1204. stvorili Latinsko carstvo?"
+        odgovori:
+          - {tekst: "na vizantijskom tlu", tacan: true}
+          - {tekst: "u Raškoj", tacan: false, zasto: "Stefan Nemanjić je Rašku sačuvao; Latinsko carstvo je nastalo na vizantijskom tlu."}
+          - {tekst: "u Rimu", tacan: false, zasto: "Rim je sedište pape, a krstaši su osvojili Carigrad."}
+          - {tekst: "u Bosni", tacan: false, zasto: "U Bosni su bili naročito delatni bogumili; Latinsko carstvo je nastalo na tlu Vizantije."}
+        pomoc:
+          - "Krstaši su napali Carigrad."
+          - "Država je nastala na zemlji carstva koje su pobedili."
+          - "Iz lekcije: krstaši su osvojili Carigrad i na vizantijskom tlu stvorili Latinsko carstvo."
+        objasnjenje: "Latinsko carstvo stvoreno je na vizantijskom tlu, posle osvajanja Carigrada."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Krstaši su osvojili Carigrad i na vizantijskom tlu stvorili Latinsko carstvo (1204)."}
+        osa: {naziv: "Stvaranje Latinskog carstva", od: 1204, traka: dogadjaji}
+
+      - id: l05-izbor-krstasi-odakle
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [krstasi, carigrad, vizantija]
+        pitanje: "Šta je dovelo Vizantiju u tešku krizu u vreme Stefanove vladavine?"
+        odgovori:
+          - {tekst: "napadi krstaša iz zapadne Evrope", tacan: true}
+          - {tekst: "pobuna bogumila u Carigradu", tacan: false, zasto: "Bogumili su delovali u Srbiji i Bosni; Vizantiju su napali krstaši."}
+          - {tekst: "Stefanov pohod na Carigrad", tacan: false, zasto: "Stefan je čuvao svoju državu; Carigrad su osvojili krstaši."}
+          - {tekst: "selidba patrijarha u Trnovo", tacan: false, zasto: "Patrijarh se preselio u Nikeju, i to kao posledica pada Carigrada."}
+        pomoc:
+          - "Napadači su došli sa zapada."
+          - "Radi se o Četvrtom krstaškom ratu."
+          - "Iz lekcije: Vizantija je bila u teškoj krizi zbog napada krstaša iz zapadne Evrope."
+        objasnjenje: "Krstaši iz zapadne Evrope napali su Vizantiju, zauzeli Carigrad i osnovali Latinsko carstvo."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Vizantija je bila u teškoj krizi zbog napada krstaša iz zapadne Evrope."}
+
+      - id: l05-tn-kruna-1217
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [stefan-prvovencani, kraljevska-kruna]
+        tvrdnja: "Srbija je postala kraljevina 1217, kada je Stefan primio krunu."
+        tacno: true
+        pomoc:
+          - "Pitanje iz udžbenika na str. 29."
+          - "Iz lekcije: 1217. Stefan je primio kraljevsku krunu."
+        objasnjenje: "Tačno. Stefan je 1217. primio krunu od rimskog pape."
+        iz_udzbenika: {strana: 29, odeljak: "Zapamtite", tekst: "Stefan je 1217. dobio krunu od pape, pa je poznat kao Prvovenčani."}
+        osa: {naziv: "Stefan Prvovenčani dobija kraljevsku krunu", od: 1217, traka: dogadjaji}
+
+      - id: l05-tn-nemanja-kralj
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [stefan-nemanja, stefan-prvovencani, veliki-zupan]
+        tvrdnja: "Stefan Nemanja je bio prvi kralj iz dinastije Nemanjić."
+        tacno: false
+        ispravke:
+          - {tekst: "Nemanja je bio veliki župan, a prvi krunisani kralj Nemanjića bio je njegov sin Stefan.", tacan: true}
+          - {tekst: "Prvi kralj Nemanjića bio je Sava.", tacan: false, zasto: "Sava je bio crkveni poglavar, prvi srpski arhiepiskop, a ne kralj."}
+          - {tekst: "Nemanjići nikada nisu imali kraljevsku krunu.", tacan: false, zasto: "Imali su je: Stefan ju je dobio 1217."}
+        pomoc:
+          - "Koju je titulu imao Nemanja?"
+          - "Čemu duguje ime Prvovenčani?"
+          - "Iz lekcije: veliki župan Nemanja, kruna 1217. za sina Stefana."
+        objasnjenje: "Netačno. Nemanja je bio veliki župan; krunu je 1217. dobio Stefan."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Stefan, naslednik velikog župana Nemanje, primio je 1217. kraljevsku krunu."}
+
+      - id: l05-tn-srbija-sacuvana
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [stefan-prvovencani, krstasi]
+        tvrdnja: "U vreme kada su krstaši zauzeli Carigrad, Stefan Nemanjić je uspeo da sačuva srpsku državu."
+        tacno: true
+        pomoc:
+          - "Šta se dešavalo sa državom u Raškoj dok je Vizantija padala?"
+          - "Iz lekcije: Stefan Nemanjić je uspeo da sačuva srpsku državu."
+        objasnjenje: "Tačno. Dok je Vizantija bila u krizi, Stefan je očuvao državu i kasnije dobio krunu."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Stefan Nemanjić je uspeo da sačuva srpsku državu."}
+
+      - id: l05-tn-kruna-pre-carigrada
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [stefan-prvovencani, latinsko-carstvo]
+        tvrdnja: "Stefan je dobio kraljevsku krunu pre nego što je nastalo Latinsko carstvo."
+        tacno: false
+        ispravke:
+          - {tekst: "Latinsko carstvo je nastalo 1204, a kruna je stigla 1217, trinaest godina kasnije.", tacan: true}
+          - {tekst: "Oba događaja desila su se iste, 1204. godine.", tacan: false, zasto: "Godine 1204. nastalo je Latinsko carstvo; kruna je stigla 1217."}
+          - {tekst: "Kruna je došla 1199, pet godina pre Latinskog carstva.", tacan: false, zasto: "Godine 1199. umro je Nemanja; kruna je stigla 1217."}
+        pomoc:
+          - "Uporedi dve godine: 1204. i 1217."
+          - "Koja je ranija?"
+          - "Iz lekcije: Latinsko carstvo 1204, kruna 1217."
+        objasnjenje: "Netačno. Latinsko carstvo je nastalo 1204, a kruna je stigla 1217."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Latinsko carstvo je nastalo 1204, a kruna je stigla 1217."}
+
+      - id: l05-tn-stefan-sin
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [stefan-prvovencani, sveti-sava, stefan-nemanja]
+        tvrdnja: "Prvi krunisani kralj Nemanjića i prvi srpski arhiepiskop bili su braća."
+        tacno: true
+        pomoc:
+          - "Čiji je sin Stefan, a čiji Sava?"
+          - "Iz lekcije: Stefan i Sava su sinovi Stefana Nemanje."
+        objasnjenje: "Tačno. Stefan i Sava su Nemanjini sinovi, pa je državu vodio jedan, a crkvu drugi brat."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Stefan i Sava su sinovi Nemanje: jedan je dobio krunu, drugi postao prvi arhiepiskop."}
+
+      - id: l05-dopuni-kruna-lako
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [stefan-prvovencani, rimski-papa]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Stefan Nemanjić je {{1217.|1217}} primio kraljevsku krunu od rimskog {{pape}}, pa je nazvan {{Prvovenčani}}."
+        ponudjene: ["1217.", "pape", "Prvovenčani", "1204.", "patrijarha", "Silni"]
+        pomoc:
+          - "Godina je dve godine pre crkvene samostalnosti."
+          - "Kruna je došla iz Rima."
+          - "Iz lekcije: 1217. kraljevska kruna od rimskog pape, nazvan Prvovenčani."
+        objasnjenje: "Krunu je 1217. dao rimski papa, a Stefan je dobio ime Prvovenčani."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Stefan je 1217. primio kraljevsku krunu od rimskog pape i nazvan je Prvovenčani."}
+
+      - id: l05-dopuni-latinsko-srednje
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [krstasi, carigrad, latinsko-carstvo]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Krstaši su osvojili {{Carigrad}} i {{1204.|1204}} na tlu Vizantije stvorili {{Latinsko}} carstvo."
+        ponudjene: ["Carigrad", "1204.", "Latinsko", "Nikeju", "1217.", "Srpsko"]
+        pomoc:
+          - "Glavni grad Vizantije."
+          - "Godina je na početku XIII veka."
+          - "Iz lekcije: krstaši su osvojili Carigrad i stvorili Latinsko carstvo (1204)."
+        objasnjenje: "Krstaši su osvojili Carigrad i 1204. stvorili Latinsko carstvo."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Krstaši su osvojili Carigrad i stvorili Latinsko carstvo (1204)."}
+
+      - id: l05-povezi-sinovi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [stefan-nemanja, stefan-prvovencani, sveti-sava]
+        pitanje: "Poveži Nemanjiće sa onim što su postigli."
+        parovi:
+          - ["Stefan Nemanja", "tvorac nezavisne srpske države"]
+          - ["Stefan Prvovenčani", "kraljevska kruna 1217."]
+          - ["Sava Nemanjić", "autokefalna arhiepiskopija 1219."]
+        pomoc:
+          - "Država, kruna, crkva: tri koraka tri osobe."
+          - "Sava nije vladar."
+          - "Iz lekcije: Nemanja je tvorac države, Stefan kralj, Sava prvi arhiepiskop."
+        objasnjenje: "Otac stvara nezavisnu državu, jedan sin kruniše se, a drugi izdejstvuje samostalnu crkvu."
+        iz_udzbenika: {strana: 29, odeljak: "Zapamtite", tekst: "Državu je osnovao Nemanja, Stefan je 1217. dobio krunu, a crkvena samostalnost usledila je 1219."}
+
+      - id: l05-zakljuci-kriza-vizantije
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [vizantija, krstasi, stefan-prvovencani]
+        pitanje: "Kako je kriza Vizantije izgledala iz ugla srpske države u Stefanovo doba?"
+        odgovori:
+          - {tekst: "Protivnik protiv kog se ratovalo za nezavisnost sada je bio teško oslabljen", tacan: true}
+          - {tekst: "Srbija je pala pod krstaše zajedno sa Vizantijom", tacan: false, zasto: "Stefan je uspeo da sačuva srpsku državu."}
+          - {tekst: "Vizantija je tada postala jača nego ikad", tacan: false, zasto: "Bila je u teškoj krizi, Carigrad je bio izgubljen."}
+          - {tekst: "Srbija se odrekla krune", tacan: false, zasto: "Upravo tada, 1217, Stefan prima krunu."}
+        pomoc:
+          - "Korak 1: Ko je bio Nemanjin protivnik?"
+          - "Korak 2: Šta se tom protivniku desilo oko 1204?"
+          - "Iz lekcije: Vizantija u krizi zbog krstaša, a srpska država je očuvana."
+        objasnjenje: "Vizantija, protiv koje je ratovao Nemanja, bila je u krizi, a Stefan je očuvao državu i kasnije primio krunu."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Vizantija je bila u teškoj krizi, a Stefan je sačuvao državu."}
+
+      - id: l05-zakljuci-kruna-znacaj
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [stefan-prvovencani, kraljevska-kruna, veliki-zupan]
+        pitanje: "Šta se krunom 1217. promenilo u tituli srpskog vladara?"
+        odgovori:
+          - {tekst: "Veliki župan je postao kralj", tacan: true}
+          - {tekst: "Kralj je postao car", tacan: false, zasto: "Carska titula se u ovoj lekciji ne pominje; Stefan je od velikog župana postao kralj."}
+          - {tekst: "Veliki župan je postao arhiepiskop", tacan: false, zasto: "Arhiepiskop je crkvena služba koju je dobio Sava, a ne Stefan."}
+          - {tekst: "Kralj je postao monah", tacan: false, zasto: "Monah je postao Nemanja, a kruna 1217. nema veze sa tim."}
+        pomoc:
+          - "Korak 1: Koju je titulu imao Nemanja?"
+          - "Korak 2: Kakva je kruna stigla 1217?"
+          - "Iz lekcije: Stefan je primio kraljevsku krunu."
+        objasnjenje: "Sa krunom je srpski vladar od velikog župana postao kralj."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Nemanju, velikog župana, nasledio je Stefan, koji je 1217. primio kraljevsku krunu."}
+        osa: {naziv: "Stefan Prvovenčani dobija kraljevsku krunu", od: 1217, traka: dogadjaji}
+
+      - id: l05-datum-prvovencani
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [stefan-prvovencani]
+        dogadjaj: "Stefan Prvovenčani"
+        pitanje: "Od koje do koje godine je vladao Stefan Prvovenčani?"
+        od: 1196
+        do: 1228
+        traka: vladari
+        pomoc:
+          - "Počeo je iste godine kada je Nemanja prestao da vlada."
+          - "Vladao je 32 godine."
+          - "Iz lekcije: Stefan (1196–1228)."
+        objasnjenje: "Stefan Prvovenčani je vladao od 1196. do 1228."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Nemanju je nasledio sin Stefan (1196–1228)."}
+
+      - id: l05-datum-kruna
+        vrsta: datum
+        tezina: lako
+        pojmovi: [stefan-prvovencani, kraljevska-kruna]
+        dogadjaj: "Stefan Prvovenčani dobija kraljevsku krunu"
+        pitanje: "Koje godine je Stefan primio kraljevsku krunu?"
+        godina: 1217
+        traka: dogadjaji
+        pomoc:
+          - "Dve godine pre crkvene samostalnosti."
+          - "Druga decenija XIII veka."
+          - "Iz lekcije: 1217. primio je kraljevsku krunu."
+        objasnjenje: "Godine 1217. Stefan je primio krunu od pape."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Stefan je 1217. primio kraljevsku krunu."}
+
+      - id: l05-datum-latinsko
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [latinsko-carstvo, krstasi]
+        dogadjaj: "Stvaranje Latinskog carstva"
+        pitanje: "Koje godine je nastalo Latinsko carstvo?"
+        godina: 1204
+        traka: dogadjaji
+        pomoc:
+          - "Početak XIII veka."
+          - "Pet godina posle Nemanjine smrti."
+          - "Iz lekcije: Latinsko carstvo (1204)."
+        objasnjenje: "Latinsko carstvo je nastalo 1204, posle pada Carigrada."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Na vizantijskom tlu stvoreno je Latinsko carstvo (1204)."}
+
+      - id: l05-poredjaj-kruna-crkva
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [stefan-prvovencani, krstasi, srpska-arhiepiskopija]
+        pitanje: "Poređaj događaje, od najranijeg."
+        stavke:
+          - {tekst: "Krstaši stvaraju Latinsko carstvo", godina: 1204, naziv: "Stvaranje Latinskog carstva", traka: dogadjaji}
+          - {tekst: "Stefan prima kraljevsku krunu", godina: 1217, naziv: "Stefan Prvovenčani dobija kraljevsku krunu", traka: dogadjaji}
+          - {tekst: "Nastaje samostalna srpska arhiepiskopija", godina: 1219, naziv: "Samostalna srpska arhiepiskopija", traka: crkva-kultura}
+        pomoc:
+          - "Kruna je pre crkvene samostalnosti."
+          - "Pad Carigrada je prvi."
+          - "Iz lekcije: 1204, 1217, 1219."
+        objasnjenje: "Prvo pada Carigrad, zatim dolazi kruna, pa crkvena samostalnost."
+        iz_udzbenika: {strana: 29, odeljak: "Zapamtite", tekst: "Crkvena samostalnost došla je dve godine posle krune."}
+
+      - id: l05-lanac-carigrad-sava
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [krstasi, carigrad, nikeja, sveti-sava]
+        karike: ["Krstaši zauzimaju Carigrad", "?", "Sava putuje u Nikeju da traži samostalnost crkve"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Vizantijski car i patrijarh sele se u Nikeju", tacan: true}
+          - {tekst: "Patrijarh beži u Ras", tacan: false, zasto: "Ras je srpska prestonica; patrijarh se preselio u Nikeju."}
+          - {tekst: "Papa šalje krunu Savi", tacan: false, zasto: "Krunu je dobio Stefan, a Sava je od patrijarha tražio autokefalnost."}
+        pomoc:
+          - "Korak 1: Šta se desilo sa vizantijskim vrhom kad je grad pao?"
+          - "Korak 2: Zašto baš Nikeja, a ne Carigrad?"
+          - "Iz lekcije: pad Carigrada → car i patrijarh u Nikeji → Sava tamo traži samostalnost."
+        objasnjenje: "Pošto je Carigrad izgubljen, patrijarh je bio u Nikeji, pa je Sava morao tamo."
+        iz_udzbenika: {strana: 28, odeljak: "Uzrok → posledica", tekst: "Pad Carigrada doveo je cara i patrijarha u Nikeju, gde Sava traži samostalnost crkve."}
+
+      - id: l05-lanac-kruna-do-crkve
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [stefan-prvovencani, srpska-arhiepiskopija, autokefalnost]
+        karike: ["Država se izborila za nezavisnost i krunu", "?", "Sava 1219. dobija autokefalnu arhiepiskopiju"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Vladari žele samostalnost i za crkvu", tacan: true}
+          - {tekst: "Vladari odustaju od svoje crkve", tacan: false, zasto: "Baš suprotno: posle državne žele i crkvenu samostalnost."}
+          - {tekst: "Bogumili traže svoju arhiepiskopiju", tacan: false, zasto: "Bogumili su bili ugušeni; arhiepiskopiju je tražio Sava."}
+        pomoc:
+          - "Korak 1: Od koga je zavisila crkva?"
+          - "Korak 2: Da li je to u skladu sa državnom nezavisnošću?"
+          - "Iz lekcije: državna nezavisnost → težnja ka crkvenoj samostalnosti."
+        objasnjenje: "Država nezavisna od Vizantije nije htela crkvu zavisnu od grčkog arhiepiskopa."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Pošto su vladari izborili nezavisnost države, želeli su samostalnost i za crkvu."}
+
+      - id: l05-uporedi-stefan-sava
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [stefan-prvovencani, sveti-sava]
+        a: "Stefan Prvovenčani"
+        b: "Sveti Sava"
+        pitanje: "Na koga se tvrdnja odnosi: Stefana, Savu, obojicu ili nijednog?"
+        tvrdnje:
+          - {tekst: "Primio je krunu od pape 1217.", odgovor: a, zasto: "To je Stefan, svetovni vladar."}
+          - {tekst: "Postao je prvi srpski arhiepiskop.", odgovor: b, zasto: "To je Sava, crkveni poglavar."}
+          - {tekst: "Sin je Stefana Nemanje.", odgovor: oba, zasto: "Obojica su Nemanjini sinovi."}
+          - {tekst: "Umro je u Trnovu 1236.", odgovor: b, zasto: "U Trnovu je umro Sava."}
+          - {tekst: "Napisao je biografiju Stefana Nemanje.", odgovor: a, zasto: "U lekciji se navodi da ju je napisao Stefan Prvovenčani."}
+          - {tekst: "Poveo je krstaše na Carigrad.", odgovor: nijedan, zasto: "Krstaši su došli iz zapadne Evrope; Nemanjići ih nisu vodili."}
+        pomoc:
+          - "Jedan je kralj, drugi crkveni poglavar."
+          - "Oba su iz iste porodice."
+          - "Iz lekcije: Stefan je kralj 1217, Sava arhiepiskop 1219."
+        objasnjenje: "Stefan vodi državu, Sava crkvu, a obojica su Nemanjini sinovi."
+        iz_udzbenika: {strana: 29, odeljak: "Zapamtite", tekst: "Stefan je 1217. dobio krunu, a Sava je 1219. stekao samostalnost crkve."}
+
+      - id: l05-kosam-stefan
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [stefan-prvovencani, stefan-nemanja]
+        tragovi:
+          - "Otac mi je bio veliki župan."
+          - "Vladao sam kada su krstaši zauzeli Carigrad."
+          - "Godine 1217. primio sam krunu od pape."
+        odgovori:
+          - {tekst: "Stefan Prvovenčani", tacan: true}
+          - {tekst: "Sava Nemanjić", tacan: false, zasto: "I on je Nemanjin sin, ali nije vladao niti primio krunu."}
+          - {tekst: "Stefan Nemanja", tacan: false, zasto: "On je otac; bio je veliki župan i umro je 1199, pre pada Carigrada."}
+          - {tekst: "rimski papa", tacan: false, zasto: "Papa je krunu dao, a ne primio."}
+        objasnjenje: "To je Stefan Prvovenčani (1196–1228), Nemanjin sin."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Stefan (1196–1228) je sačuvao državu i 1217. primio kraljevsku krunu."}
+
+      - id: l05-objasni-prvovencani
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [stefan-prvovencani, kraljevska-kruna, rimski-papa]
+        pitanje: "Objasni kako je Stefan Nemanjić dobio ime Prvovenčani."
+        uzor: "Stefan je 1217. primio kraljevsku krunu od rimskog pape. Bio je prvi iz porodice Nemanjić koji je krunisan za kralja, pa je zato nazvan Prvovenčani."
+        ideje: ["Krunu je primio 1217.", "Dao ju je rimski papa.", "Prvi je krunisan među Nemanjićima."]
+        objasnjenje: "Ime dolazi od venčanja krunom."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Pošto je prvi krunisan za kralja, nazvan je Prvovenčani."}
+
+      - id: l05-objasni-krstasi-srbija
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [krstasi, latinsko-carstvo, vizantija, stefan-prvovencani]
+        pitanje: "Šta se 1204. desilo sa Vizantijom i šta je u to vreme uradio Stefan Nemanjić?"
+        uzor: "Krstaši iz zapadne Evrope napali su Vizantiju, zauzeli Carigrad i na njenom tlu stvorili Latinsko carstvo. Vizantija je zapala u tešku krizu. Stefan je uspeo da sačuva srpsku državu i 1217. dobio krunu."
+        ideje: ["Krstaši su zauzeli Carigrad.", "Nastalo je Latinsko carstvo.", "Vizantija je bila u teškoj krizi.", "Stefan je sačuvao srpsku državu."]
+        objasnjenje: "Povezuju se opšti događaj i njegov odjek u Srbiji."
+        iz_udzbenika: {strana: 27, odeljak: "Proglašenje kraljevstva (Stefan Prvovenčani)", tekst: "Krstaši su osvojili Carigrad i stvorili Latinsko carstvo, a Stefan je sačuvao srpsku državu."}
+
+  # ==========================================================================
+  - naslov: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save"
+    zadaci:
+      - id: l05-izbor-prvi-arhiepiskop
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [sveti-sava, srpska-arhiepiskopija]
+        pitanje: "Ko je bio prvi srpski arhiepiskop?"
+        odgovori:
+          - {tekst: "Sava Nemanjić", tacan: true}
+          - {tekst: "Stefan Prvovenčani", tacan: false, zasto: "Stefan je bio kralj; arhiepiskop je bio njegov brat Sava."}
+          - {tekst: "Stefan Nemanja", tacan: false, zasto: "Nemanja je bio veliki župan i pred kraj života monah, ali umro je 1199, pre osnivanja arhiepiskopije."}
+          - {tekst: "episkop Jeftimije", tacan: false, zasto: "Jeftimije je savetovao Nemanju; prvi arhiepiskop je Sava."}
+        pomoc:
+          - "To je Nemanjin najmlađi sin."
+          - "Poznat je i kao Sveti Sava."
+          - "Iz lekcije: nikejski patrijarh rukopoložio je Savu za prvog srpskog arhiepiskopa."
+        objasnjenje: "Sava Nemanjić, Sveti Sava, bio je prvi srpski arhiepiskop."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Nikejski patrijarh rukopoložio je Savu za prvog srpskog arhiepiskopa.", slika: "05-srpska-drzava-prvih-nemanjica/06-sveti-sava-mileseva.jpg"}
+        osa: {naziv: "Sava, prvi srpski arhiepiskop", od: 1219, do: 1233, traka: crkva-kultura}
+
+      - id: l05-izbor-sediste
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [manastir-zica, srpska-arhiepiskopija, kraljevo]
+        pitanje: "Gde je bilo sedište srpske arhiepiskopije od 1220?"
+        odgovori:
+          - {tekst: "u manastiru Žiči", tacan: true}
+          - {tekst: "u Hilandaru", tacan: false, zasto: "Hilandar je središte kulture na Svetoj Gori, a ne sedište arhiepiskopije."}
+          - {tekst: "u Nikeji", tacan: false, zasto: "U Nikeji je Sava dobio samostalnost, ali je sedište bilo u Srbiji, u Žiči."}
+          - {tekst: "u Ohridu", tacan: false, zasto: "Od ohridskog arhiepiskopa srpska crkva se upravo odvojila."}
+        pomoc:
+          - "Manastir je tada bio novosagrađen."
+          - "Nalazi se kod Kraljeva."
+          - "Iz lekcije: sedište je 1220. smešteno u novosagrađeni manastir Žiču."
+        objasnjenje: "Sedište je 1220. smešteno u novosagrađenu Žiču."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sedište je 1220. smešteno u novosagrađeni manastir Žiču.", slika: "05-srpska-drzava-prvih-nemanjica/05-manastir-zica.jpg"}
+        osa: {naziv: "Sedište arhiepiskopije u Žiči", od: 1220, traka: crkva-kultura}
+
+      - id: l05-izbor-pre-1219
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [ohridska-arhiepiskopija, srpska-arhiepiskopija]
+        pitanje: "Od koga je srpska crkva zavisila pre 1219?"
+        odgovori:
+          - {tekst: "od grčkog ohridskog arhiepiskopa", tacan: true}
+          - {tekst: "od rimskog pape", tacan: false, zasto: "Papa je Stefanu dao krunu, ali srpska crkva je zavisila od Ohrida."}
+          - {tekst: "od velikog župana Stefana Nemanje lično", tacan: false, zasto: "Crkva je bila vezana za ohridskog arhiepiskopa, a ne za župana."}
+          - {tekst: "od Latinskog carstva", tacan: false, zasto: "Latinsko carstvo je država krstaša, a srpska crkva je zavisila od Ohrida."}
+        pomoc:
+          - "Crkveni poglavar je bio Grk."
+          - "Sedište mu je bilo u Ohridu."
+          - "Iz lekcije: srpska crkva je zavisila od grčkog ohridskog arhiepiskopa."
+        objasnjenje: "Do 1219. srpska crkva je zavisila od grčkog ohridskog arhiepiskopa."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Srpska crkva je do tada zavisila od grčkog ohridskog arhiepiskopa."}
+
+      - id: l05-izbor-sava-umro
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [sveti-sava, trnovo]
+        pitanje: "Gde je umro Sveti Sava?"
+        odgovori:
+          - {tekst: "u Trnovu, u Bugarskoj", tacan: true}
+          - {tekst: "u Hilandaru", tacan: false, zasto: "U Hilandaru je umro njegov otac Nemanja."}
+          - {tekst: "u Žiči", tacan: false, zasto: "Žiča je bila sedište arhiepiskopije, ali je Sava umro na povratku iz Svete zemlje."}
+          - {tekst: "u Svetoj zemlji", tacan: false, zasto: "Iz Svete zemlje se vraćao; umro je u Trnovu."}
+        pomoc:
+          - "Umro je u inostranstvu, na povratku sa puta."
+          - "Grad je u Bugarskoj."
+          - "Iz lekcije: umro je 1236. u Trnovu, u Bugarskoj."
+        objasnjenje: "Sava je umro 1236. u Trnovu, vraćajući se iz Svete zemlje."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sava je umro 1236. u Trnovu, u Bugarskoj, vraćajući se iz Svete zemlje.", slika: "05-srpska-drzava-prvih-nemanjica/06-sveti-sava-mileseva.jpg"}
+        osa: {naziv: "Smrt Svetog Save", od: 1236, traka: crkva-kultura}
+
+      - id: l05-izbor-zasto-nikeja
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [sveti-sava, nikeja, carigrad, cetvrti-krstaski-rat]
+        pitanje: "Zašto je Sava otputovao baš u Nikeju?"
+        odgovori:
+          - {tekst: "Tamo su se posle Četvrtog krstaškog rata preselili vizantijski car i patrijarh", tacan: true}
+          - {tekst: "Nikeja je bila sedište ohridskog arhiepiskopa", tacan: false, zasto: "Sedište tog arhiepiskopa bilo je u Ohridu; u Nikeji su bili car i patrijarh."}
+          - {tekst: "Tamo je stolovao rimski papa", tacan: false, zasto: "Papa je u Rimu, a Sava je tražio patrijarha."}
+          - {tekst: "Tamo je bio sagrađen Hilandar", tacan: false, zasto: "Hilandar je na Svetoj Gori."}
+        pomoc:
+          - "Koga je Sava morao da pita za samostalnost?"
+          - "Gde se taj čovek nalazio pošto je Carigrad pao?"
+          - "Iz lekcije: posle Četvrtog krstaškog rata car i patrijarh preselili su se u Nikeju."
+        objasnjenje: "Pošto je Carigrad bio u rukama krstaša, patrijarh je bio u Nikeji, pa je Sava pošao tamo."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sava je otputovao u Nikeju, kuda su se posle Četvrtog krstaškog rata preselili vizantijski car i patrijarh."}
+
+      - id: l05-izbor-autokefalnost
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [autokefalnost]
+        pitanje: "Šta znači autokefalnost?"
+        odgovori:
+          - {tekst: "nezavisnost crkve u odnosu na drugu crkvenu vlast", tacan: true}
+          - {tekst: "pravilnik po kome teče život u manastiru", tacan: false, zasto: "To je tipik."}
+          - {tekst: "zbornik propisa crkvenog i građanskog prava", tacan: false, zasto: "To je krmčija."}
+          - {tekst: "nezavisnost države od tuđeg vladara", tacan: false, zasto: "Pojam se odnosi na crkvu, a ne na državu."}
+        pomoc:
+          - "Pojam je crkveni."
+          - "Vezuje se za 1219. i Savu."
+          - "Iz lekcije: autokefalnost je nezavisnost crkve u odnosu na drugu crkvenu vlast."
+        objasnjenje: "Autokefalna crkva ne zavisi od druge crkvene vlasti, a tu samostalnost srpska crkva je dobila 1219."
+        iz_udzbenika: {strana: 29, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Autokefalnost je nezavisnost crkve u odnosu na drugu crkvenu vlast."}
+
+      - id: l05-izbor-tipik
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [tipik]
+        pitanje: "Šta je tipik?"
+        odgovori:
+          - {tekst: "pravilnik po kome teče život u manastiru", tacan: true}
+          - {tekst: "zbornik crkvenih i građanskih propisa", tacan: false, zasto: "To je krmčija, npr. Svetosavska krmčija."}
+          - {tekst: "biografija svetitelja", tacan: false, zasto: "Biografije su druga vrsta dela, kao ona koju je o Nemanji napisao Stefan."}
+          - {tekst: "titula crkvenog poglavara", tacan: false, zasto: "Tipik je pravilnik, a ne titula."}
+        pomoc:
+          - "Vezuje se za život monaha."
+          - "Sava je pisao tipike."
+          - "Iz lekcije: tipik je pravilnik po kom teče život u manastiru."
+        objasnjenje: "Tipik propisuje život u manastiru, a Savini tipici služili su i obrazovanju sveštenstva."
+        iz_udzbenika: {strana: 29, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Tipik je pravilnik po kom teče život u manastiru."}
+
+      - id: l05-izbor-episkopije-uloga
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [episkopije, sveti-sava]
+        pitanje: "Čemu su služile nove episkopije osnovane u Savino vreme? (više tačnih)"
+        odgovori:
+          - {tekst: "duhovnom životu", tacan: true}
+          - {tekst: "širenju vere", tacan: true}
+          - {tekst: "srednjovekovnom obrazovanju", tacan: true}
+          - {tekst: "vojnoj odbrani od krstaša", tacan: false, zasto: "Episkopije su crkvena središta, knjiga ih ne povezuje sa vojskom."}
+          - {tekst: "kovanju novca", tacan: false, zasto: "Knjiga im ne pripisuje to; govori o duhovnosti, veri i obrazovanju."}
+        pomoc:
+          - "Tri odgovora su tačna."
+          - "Radi se o crkvenim, a ne vojnim ustanovama."
+          - "Iz lekcije: episkopije su postale žarišta duhovnog života, vere i obrazovanja."
+        objasnjenje: "Nove episkopije bile su žarišta duhovnog života, vere i obrazovanja."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Osnivane su nove episkopije, žarišta duhovnog života, vere i srednjovekovnog obrazovanja."}
+
+      - id: l05-izbor-zapamtite-manastiri
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [manastir-hilandar, manastir-zica, sveta-gora, kraljevo]
+        pitanje: "Koji par tačno povezuje manastir sa njegovim mestom i ulogom?"
+        odgovori:
+          - {tekst: "Hilandar na Svetoj Gori, središte kulture; Žiča kod Kraljeva, sedište arhiepiskopije", tacan: true}
+          - {tekst: "Žiča na Svetoj Gori, središte kulture; Hilandar kod Kraljeva, sedište arhiepiskopije", tacan: false, zasto: "Mesta i uloge su zamenjene: Hilandar je na Svetoj Gori, a Žiča kod Kraljeva."}
+          - {tekst: "Hilandar kod Novog Pazara, prestonica; Žiča u Nikeji, patrijaršija", tacan: false, zasto: "Kod Novog Pazara je Ras, a u Nikeji je bio vizantijski patrijarh."}
+          - {tekst: "Mileševa na Svetoj Gori, sedište arhiepiskopije; Žiča kod Trnova, središte kulture", tacan: false, zasto: "Sedište je bila Žiča kod Kraljeva, a u Trnovu je umro Sava."}
+        pomoc:
+          - "Prvo proveri gde je koji manastir."
+          - "Zatim proveri ulogu."
+          - "Iz lekcije: Hilandar na Svetoj Gori i Žiča kod Kraljeva."
+        objasnjenje: "Hilandar je na Svetoj Gori i središte je kulture, a Žiča je kod Kraljeva i sedište je arhiepiskopije."
+        iz_udzbenika: {strana: 29, odeljak: "Zapamtite", tekst: "Dva važna manastira su Hilandar na Svetoj Gori i Žiča kod Kraljeva."}
+
+      - id: l05-izbor-mileseva
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [sveti-sava, manastir-mileseva]
+        pitanje: "U kom manastiru se nalazi freska Svetog Save prikazana u udžbeniku?"
+        odgovori:
+          - {tekst: "u Mileševi", tacan: true}
+          - {tekst: "u Žiči", tacan: false, zasto: "Žiča je prikazana spolja na drugoj slici; freska Save je iz Mileševe."}
+          - {tekst: "u Hilandaru", tacan: false, zasto: "Hilandar je prikazan fotografijom; freska je iz Mileševe."}
+          - {tekst: "u Rasu", tacan: false, zasto: "Ras je prikazan snimkom utvrđenja, a ne freskom."}
+        pomoc:
+          - "Pročitaj potpis slike 25."
+          - "Ime manastira počinje sa M."
+          - "Iz lekcije: slika 25 je Sveti Sava, freska iz manastira Mileševa."
+        objasnjenje: "Slika 25 je freska Svetog Save iz manastira Mileševa."
+        iz_udzbenika: {strana: 29, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Slika 25 prikazuje Svetog Savu na freski iz manastira Mileševa.", slika: "05-srpska-drzava-prvih-nemanjica/06-sveti-sava-mileseva.jpg"}
+
+      - id: l05-tn-autokefalna-domaci
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [autokefalnost, episkopije]
+        tvrdnja: "Od 1219. glavu srpske crkve biraju domaći episkopi."
+        tacno: true
+        pomoc:
+          - "Šta se promenilo sticanjem samostalnosti?"
+          - "Iz lekcije: glavu srpske crkve od tada biraju domaći episkopi."
+        objasnjenje: "Tačno. Od tada glavu crkve biraju domaći episkopi i on ne putuje patrijarhu radi posvećenja."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Glavu srpske crkve od tada biraju domaći episkopi, a on više ne putuje patrijarhu radi posvećenja."}
+
+      - id: l05-tn-zica-kraljevo
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [manastir-zica, kraljevo]
+        tvrdnja: "Manastir Žiča nalazi se kod Kraljeva."
+        tacno: true
+        pomoc:
+          - "Pogledaj sliku 24 i rubriku Zapamtite."
+          - "Iz lekcije: Žiča je kod Kraljeva."
+        objasnjenje: "Tačno. Žiča kod Kraljeva je od 1220. sedište arhiepiskopije."
+        iz_udzbenika: {strana: 29, odeljak: "Zapamtite", tekst: "Hilandar je na Svetoj Gori, a Žiča kod Kraljeva.", slika: "05-srpska-drzava-prvih-nemanjica/05-manastir-zica.jpg"}
+
+      - id: l05-tn-sava-hodocasca
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [sveti-sava, sveta-zemlja]
+        tvrdnja: "Sava je samo jednom išao na hodočašće."
+        tacno: false
+        ispravke:
+          - {tekst: "Sava je dva puta išao na hodočašće.", tacan: true}
+          - {tekst: "Sava nikada nije išao na hodočašće.", tacan: false, zasto: "Išao je, a umro je vraćajući se iz Svete zemlje."}
+          - {tekst: "Sava je pet puta išao na hodočašće.", tacan: false, zasto: "Knjiga navodi dva hodočašća."}
+        pomoc:
+          - "Hodočašće je putovanje na sveta mesta."
+          - "Broj je mali, ali veći od jedan."
+          - "Iz lekcije: Sava je dva puta išao na hodočašće."
+        objasnjenje: "Netačno. Sava je dva puta išao na hodočašće."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sava je dva puta išao na hodočašće."}
+
+      - id: l05-tn-patrijarh-rukopolozio
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [nikeja, sveti-sava]
+        tvrdnja: "Savu je za arhiepiskopa rukopoložio rimski papa."
+        tacno: false
+        ispravke:
+          - {tekst: "Rukopoložio ga je nikejski patrijarh.", tacan: true}
+          - {tekst: "Rukopoložio ga je ohridski arhiepiskop.", tacan: false, zasto: "Srpska crkva se tada upravo odvajala od Ohrida; Savu je rukopoložio nikejski patrijarh."}
+          - {tekst: "Rukopoložio ga je Stefan Prvovenčani.", tacan: false, zasto: "Stefan je bio kralj, a ne crkveno lice; to je učinio patrijarh."}
+        pomoc:
+          - "Ne mešaj krunu i crkvenu službu."
+          - "Sava je zato išao u Nikeju."
+          - "Iz lekcije: nikejski patrijarh rukopoložio je Savu."
+        objasnjenje: "Netačno. Papa je dao krunu Stefanu, a Savu je rukopoložio nikejski patrijarh."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Nikejski patrijarh rukopoložio je Savu za prvog srpskog arhiepiskopa."}
+
+      - id: l05-tn-krmcija-grcki
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [svetosavska-krmcija, krmcija]
+        tvrdnja: "Svetosavska krmčija je prevedena s grčkog."
+        tacno: true
+        pomoc:
+          - "Vizantija je bila izvor crkvenog prava."
+          - "Iz lekcije: s grčkog je preveden zbornik crkvenog i svetovnog prava, Svetosavska krmčija."
+        objasnjenje: "Tačno. Zbornik je preveden s grčkog i u Srbiji je uživao veliki ugled."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "S grčkog je preveden zbornik crkvenog i svetovnog prava, tzv. Svetosavska krmčija."}
+
+      - id: l05-tn-krmcija-samo-crkva
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [krmcija]
+        tvrdnja: "U krmčiji su sabrani samo crkveni propisi."
+        tacno: false
+        ispravke:
+          - {tekst: "U krmčiji su sabrani propisi i crkvenog i građanskog prava.", tacan: true}
+          - {tekst: "U krmčiji su samo pravila života u manastiru.", tacan: false, zasto: "To je tipik; krmčija ima crkveno i građansko pravo."}
+          - {tekst: "U krmčiji su biografije svetih.", tacan: false, zasto: "Krmčija je pravni zbornik, a ne zbirka biografija."}
+        pomoc:
+          - "Knjiga kaže da je zbornik crkvenog i svetovnog prava."
+          - "Pazi na reč samo."
+          - "Iz lekcije: krmčija je knjiga propisa crkvenog i građanskog prava."
+        objasnjenje: "Netačno. Krmčija sabira i crkvene i građanske propise."
+        iz_udzbenika: {strana: 29, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Krmčija je knjiga u kojoj su sabrani propisi crkvenog i građanskog prava."}
+
+      - id: l05-tn-tipici-obrazovanje
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [tipik, sveti-sava]
+        tvrdnja: "Savini tipici nisu bili važni samo za manastirski red, već su služili i obrazovanju sveštenstva."
+        tacno: true
+        pomoc:
+          - "Šta knjiga kaže o tome čemu su služili?"
+          - "Iz lekcije: tipici su služili obrazovanju sveštenstva."
+        objasnjenje: "Tačno. Tipik uređuje život u manastiru, a Savini tipici su služili i obrazovanju sveštenstva."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sava je napisao manastirske tipike, koji su služili obrazovanju sveštenstva."}
+
+      - id: l05-dopuni-arhiepiskopija-lako
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [sveti-sava, nikeja, srpska-arhiepiskopija, manastir-zica]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Sava je {{1219.|1219}} u {{Nikeji}} dobio samostalnu srpsku arhiepiskopiju, a njeno sedište je 1220. smešteno u {{Žiču}}."
+        ponudjene: ["1219.", "Nikeji", "Žiču", "1204.", "Rimu", "Hilandar"]
+        pomoc:
+          - "Dve godine posle krune."
+          - "Tamo je bio patrijarh."
+          - "Iz lekcije: 1219. u Nikeji; sedište 1220. u Žiči."
+        objasnjenje: "Samostalnost je dobijena 1219. u Nikeji, a sedište je 1220. u Žiči."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sava je 1219. u Nikeji dobio pristanak za arhiepiskopiju, a sedište je 1220. u Žiči."}
+
+      - id: l05-dopuni-sava-kraj-tesko
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [sveti-sava, trnovo, sveta-zemlja]
+        pitanje: "Dopuni rečenicu (bez ponuđenih reči)."
+        tekst: "Sava je arhiepiskopijom upravljao do {{1233.|1233}}, a umro je {{1236.|1236}} u {{Trnovu}}, vraćajući se iz {{Svete zemlje}}."
+        pomoc:
+          - "Upravljao je četrnaest godina od 1219."
+          - "Smrt je tri godine posle kraja upravljanja."
+          - "Iz lekcije: 1219–1233; 1236. u Trnovu, povratak iz Svete zemlje."
+        objasnjenje: "Sava je upravljao crkvom 1219–1233, a umro je 1236. u Trnovu."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sava je arhiepiskopijom upravljao 1219–1233, a umro je 1236. u Trnovu."}
+
+      - id: l05-povezi-pojmovi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [autokefalnost, tipik, krmcija]
+        pitanje: "Poveži pojam sa objašnjenjem."
+        parovi:
+          - ["autokefalnost", "nezavisnost crkve u odnosu na drugu crkvenu vlast"]
+          - ["tipik", "pravilnik po kom teče život u manastiru"]
+          - ["krmčija", "knjiga propisa crkvenog i građanskog prava"]
+        pomoc:
+          - "Tipik je za manastir."
+          - "Krmčija ima pravne propise."
+          - "Iz lekcije: to su tri pojma iz okvira na str. 29."
+        objasnjenje: "Autokefalnost je nezavisnost crkve, tipik manastirski pravilnik, krmčija zbornik propisa."
+        iz_udzbenika: {strana: 29, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Autokefalnost, tipik i krmčija objašnjeni su u okviru."}
+
+      - id: l05-povezi-sava-godine
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [sveti-sava, manastir-zica, srpska-arhiepiskopija, trnovo]
+        pitanje: "Poveži godinu sa događajem iz Savinog života."
+        parovi:
+          - ["1219.", "Sava dobija autokefalnu arhiepiskopiju"]
+          - ["1220.", "sedište arhiepiskopije u Žiči"]
+          - ["1233.", "kraj Savinog upravljanja arhiepiskopijom"]
+          - ["1236.", "smrt u Trnovu"]
+        pomoc:
+          - "Poslednja godina je smrt."
+          - "Sedište je smešteno godinu posle osnivanja."
+          - "Iz lekcije: 1219, 1220, 1233, 1236."
+        objasnjenje: "Samostalnost 1219, Žiča 1220, kraj upravljanja 1233, smrt 1236."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sava je dobio samostalnost 1219, sedište je u Žiči od 1220, upravljao je do 1233, a umro je 1236."}
+
+      - id: l05-zakljuci-zasto-samostalna
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [srpska-arhiepiskopija, ohridska-arhiepiskopija]
+        pitanje: "Zašto su srpski vladari želeli samostalnu crkvu?"
+        odgovori:
+          - {tekst: "Država je bila nezavisna, a crkva je i dalje zavisila od grčkog arhiepiskopa", tacan: true}
+          - {tekst: "Hteli su da pređu u bogumilsku veru", tacan: false, zasto: "Bogumile su progonili; želeli su samostalnu pravoslavnu crkvu."}
+          - {tekst: "Papa im je zabranio da imaju crkvu", tacan: false, zasto: "Knjiga to ne kaže; srpska crkva je zavisila od Ohrida."}
+          - {tekst: "Hilandar je bio razoren", tacan: false, zasto: "Hilandar je ostao središte kulture; razlog je zavisnost crkve."}
+        pomoc:
+          - "Korak 1: Šta je država već imala?"
+          - "Korak 2: Šta je crkvi nedostajalo?"
+          - "Iz lekcije: pošto su izborili nezavisnost države, želeli su samostalnost i za crkvu."
+        objasnjenje: "Državnoj nezavisnosti je trebalo pridružiti i crkvenu."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Pošto su vladari izborili nezavisnost države, želeli su samostalnost i za crkvu."}
+
+      - id: l05-zakljuci-autokefalnost-posledica
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [autokefalnost, episkopije]
+        pitanje: "Pre 1219. glava crkve je putovala do više crkvene vlasti radi posvećenja. Zašto je ukidanje tih putovanja znak samostalnosti?"
+        odgovori:
+          - {tekst: "Crkva sama, preko domaćih episkopa, bira svoju glavu i ne zavisi od tuđe potvrde", tacan: true}
+          - {tekst: "Putevi su tada postali opasni zbog krstaša", tacan: false, zasto: "Knjiga to ne navodi; razlog je što domaći episkopi sada sami biraju."}
+          - {tekst: "Patrijarh je zabranio dolaske iz Srbije", tacan: false, zasto: "Patrijarh je upravo dao pristanak; nije zabrana, nego samostalnost."}
+          - {tekst: "Crkvu je od tada vodio kralj", tacan: false, zasto: "Crkvu i dalje vodi crkveni poglavar, koga biraju domaći episkopi."}
+        pomoc:
+          - "Korak 1: Ko odlučuje o glavi crkve pre 1219?"
+          - "Korak 2: Ko odlučuje posle?"
+          - "Iz lekcije: autokefalnost 1219 → glavu crkve biraju domaći episkopi, nema više odlaska patrijarhu."
+        objasnjenje: "Samostalnost se vidi u tome što odluka ostaje u zemlji: domaći episkopi biraju, bez odlaska patrijarhu."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Glavu srpske crkve od tada biraju domaći episkopi i on više ne putuje patrijarhu radi posvećenja."}
+        osa: {naziv: "Samostalna srpska arhiepiskopija", od: 1219, traka: crkva-kultura}
+
+      - id: l05-zakljuci-pristanak-iz-nikeje
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [sveti-sava, nikeja, ohridska-arhiepiskopija]
+        pitanje: "Sava je samostalnost dobio od patrijarha, iako je srpska crkva zavisila od ohridskog arhiepiskopa. Šta to pokazuje?"
+        odgovori:
+          - {tekst: "Patrijarh je imao višu crkvenu vlast od koje se mogla dobiti takva dozvola", tacan: true}
+          - {tekst: "Ohridski arhiepiskop je bio srpski kralj", tacan: false, zasto: "Knjiga ga naziva grčkim arhiepiskopom; kralj je bio Stefan."}
+          - {tekst: "Patrijarh je bio potčinjen Savi", tacan: false, zasto: "Sava je došao da traži pristanak i od patrijarha je rukopoložen."}
+          - {tekst: "Sava je došao u Nikeju zbog krune", tacan: false, zasto: "Kruna je Stefanova, dobijena od pape."}
+        pomoc:
+          - "Korak 1: Od koga je Sava dobio pristanak?"
+          - "Korak 2: Zašto je išao tako daleko umesto da ostane kod ohridskog arhiepiskopa?"
+          - "Iz lekcije: od patrijarha je 1219. dobio pristanak."
+        objasnjenje: "Sava je išao do patrijarha, što pokazuje da je pristanak morao doći odozgo, od više crkvene vlasti."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Od patrijarha je 1219. dobio pristanak za nezavisnu srpsku arhiepiskopiju."}
+
+      - id: l05-zakljuci-krmcija-ugled
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [svetosavska-krmcija, vizantija, sveti-sava]
+        pitanje: "Srpska crkva je 1219. postala samostalna, a ipak je zbornik propisa preveden s grčkog. Šta se iz toga vidi?"
+        odgovori:
+          - {tekst: "Samostalnost nije značila odbacivanje grčkog znanja; ono se koristilo za uređenje sopstvene crkve", tacan: true}
+          - {tekst: "Srbi su i dalje morali da slušaju ohridskog arhiepiskopa", tacan: false, zasto: "Upravo od toga su se oslobodili; prevod ne znači potčinjenost."}
+          - {tekst: "Krmčija nije bila važna u Srbiji", tacan: false, zasto: "Knjiga kaže da je uživala veliki ugled."}
+          - {tekst: "Grčki je tada bio jedini jezik u Srbiji", tacan: false, zasto: "Knjiga to ne kaže; preveden je upravo zato da se koristi kod Srba."}
+        pomoc:
+          - "Korak 1: Da li je samostalnost isto što i odbacivanje svega stranog?"
+          - "Korak 2: Zašto prevoditi tuđe propise?"
+          - "Iz lekcije: s grčkog je preveden zbornik koji je u Srbiji uživao veliki ugled."
+        objasnjenje: "Crkva je organizaciono samostalna, a vizantijska pravna znanja preuzima i koristi."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Svetosavska krmčija je prevedena s grčkog i uživala je veliki ugled."}
+
+      - id: l05-zakljuci-dva-koraka
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [stefan-prvovencani, sveti-sava, autokefalnost]
+        pitanje: "Kruna je stigla iz Rima, a samostalnost crkve iz Nikeje. Šta nam to govori o braći Nemanjić?"
+        odgovori:
+          - {tekst: "Svaki je svoj cilj ostvario kod onog autoriteta od koga je to moglo da se dobije", tacan: true}
+          - {tekst: "Bili su u sukobu i ratovali jedan protiv drugog", tacan: false, zasto: "Knjiga ne govori o ratu među njima, a oba cilja jačaju istu državu."}
+          - {tekst: "Obojica su primila krunu", tacan: false, zasto: "Krunu je primio samo Stefan, a Sava crkvenu službu."}
+          - {tekst: "Obojica su postali monasi u Nikeji", tacan: false, zasto: "Stefan je bio kralj, a Sava je u Nikeji rukopoložen."}
+        pomoc:
+          - "Korak 1: Od koga je stigla kruna, a od koga crkvena samostalnost?"
+          - "Korak 2: Da li je cilj zajednički?"
+          - "Iz lekcije: 1217. kruna od pape, 1219. pristanak od patrijarha."
+        objasnjenje: "Stefan i Sava išli su ka zajedničkom cilju, samostalnoj državi i crkvi, kod različitih autoriteta."
+        iz_udzbenika: {strana: 29, odeljak: "Zapamtite", tekst: "Stefan je 1217. dobio krunu od pape, a crkvena samostalnost usledila je 1219."}
+
+      - id: l05-datum-1219
+        vrsta: datum
+        tezina: lako
+        pojmovi: [srpska-arhiepiskopija, autokefalnost]
+        dogadjaj: "Samostalna srpska arhiepiskopija"
+        pitanje: "Koje godine je Srpska crkva dobila samostalnost?"
+        godina: 1219
+        traka: crkva-kultura
+        pomoc:
+          - "Dve godine posle krune."
+          - "Kraj druge decenije XIII veka."
+          - "Iz lekcije: od patrijarha je 1219. dobio pristanak."
+        objasnjenje: "Sava je 1219. dobio pristanak patrijarha za samostalnu arhiepiskopiju."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Od patrijarha je 1219. dobio pristanak za autokefalnu arhiepiskopiju."}
+
+      - id: l05-datum-zica
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [manastir-zica, srpska-arhiepiskopija]
+        dogadjaj: "Sedište arhiepiskopije u Žiči"
+        pitanje: "Koje godine je sedište arhiepiskopije smešteno u Žiču?"
+        godina: 1220
+        traka: crkva-kultura
+        pomoc:
+          - "Godinu dana posle samostalnosti."
+          - "Okrugla godina."
+          - "Iz lekcije: sedište je 1220. smešteno u Žiču."
+        objasnjenje: "Sedište je smešteno u Žiču 1220, godinu dana posle samostalnosti."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sedište je 1220. smešteno u novosagrađeni manastir Žiču."}
+
+      - id: l05-datum-smrt-save
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [sveti-sava, trnovo]
+        dogadjaj: "Smrt Svetog Save"
+        pitanje: "Koje godine je umro Sveti Sava?"
+        godina: 1236
+        traka: crkva-kultura
+        pomoc:
+          - "Tri godine posle kraja upravljanja crkvom."
+          - "Četvrta decenija XIII veka."
+          - "Iz lekcije: umro je 1236. u Trnovu."
+        objasnjenje: "Sveti Sava je umro 1236. u Trnovu."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sava je umro 1236. u Trnovu."}
+
+      - id: l05-datum-sava-uprava
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [sveti-sava, srpska-arhiepiskopija]
+        dogadjaj: "Sava, prvi srpski arhiepiskop"
+        pitanje: "Od koje do koje godine je Sava upravljao arhiepiskopijom?"
+        od: 1219
+        do: 1233
+        traka: crkva-kultura
+        pomoc:
+          - "Počelo je kada i samostalnost."
+          - "Trajalo je četrnaest godina."
+          - "Iz lekcije: upravljao je 1219–1233."
+        objasnjenje: "Sava je upravljao arhiepiskopijom od 1219. do 1233."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sava je arhiepiskopijom upravljao 1219–1233."}
+
+      - id: l05-poredjaj-sava
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [sveti-sava, manastir-zica, trnovo]
+        pitanje: "Poređaj događaje iz Savinog života, od najranijeg."
+        stavke:
+          - {tekst: "Sava dobija samostalnost crkve", godina: 1219, naziv: "Samostalna srpska arhiepiskopija", traka: crkva-kultura}
+          - {tekst: "Sedište arhiepiskopije u Žiči", godina: 1220, naziv: "Sedište arhiepiskopije u Žiči", traka: crkva-kultura}
+          - {tekst: "Sava umire u Trnovu", godina: 1236, naziv: "Smrt Svetog Save", traka: crkva-kultura}
+        pomoc:
+          - "Sedište dolazi posle osnivanja."
+          - "Smrt je poslednja."
+          - "Iz lekcije: 1219, 1220, 1236."
+        objasnjenje: "Samostalnost 1219, sedište 1220, smrt 1236."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sava je 1219. dobio samostalnost, 1220. sedište je u Žiči, a umro je 1236."}
+
+      - id: l05-poredjaj-veliki-niz
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [stefan-nemanja, stefan-prvovencani, sveti-sava, latinsko-carstvo]
+        pitanje: "Poređaj sve ključne događaje lekcije, od najranijeg."
+        stavke:
+          - {tekst: "Poraz na Moravi", godina: 1190, naziv: "Poraz na reci Moravi", traka: dogadjaji}
+          - {tekst: "Nemanja umire u Hilandaru", godina: 1199, naziv: "Smrt Stefana Nemanje", traka: dogadjaji}
+          - {tekst: "Nastaje Latinsko carstvo", godina: 1204, naziv: "Stvaranje Latinskog carstva", traka: dogadjaji}
+          - {tekst: "Stefan prima krunu", godina: 1217, naziv: "Stefan Prvovenčani dobija kraljevsku krunu", traka: dogadjaji}
+          - {tekst: "Samostalna arhiepiskopija", godina: 1219, naziv: "Samostalna srpska arhiepiskopija", traka: crkva-kultura}
+          - {tekst: "Sveti Sava umire u Trnovu", godina: 1236, naziv: "Smrt Svetog Save", traka: crkva-kultura}
+        pomoc:
+          - "Prvo Nemanja, pa krstaši."
+          - "Kruna je dve godine pre arhiepiskopije."
+          - "Iz lekcije: 1190, 1199, 1204, 1217, 1219, 1236."
+        objasnjenje: "Niz vodi od Nemanjinih borbi preko krstaša do krune, crkve i Savine smrti."
+        iz_udzbenika: {strana: 29, odeljak: "Hronologija", tekst: "Hronologija lekcije ide od 1166. do 1236."}
+
+      - id: l05-lanac-autokefalnost
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [autokefalnost, episkopije, sveti-sava]
+        karike: ["Sava 1219. dobija pristanak patrijarha", "?", "Glava crkve više ne putuje patrijarhu radi posvećenja"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Glavu srpske crkve biraju domaći episkopi", tacan: true}
+          - {tekst: "Glavu srpske crkve bira rimski papa", tacan: false, zasto: "Papa je dao krunu Stefanu, a glavu crkve biraju domaći episkopi."}
+          - {tekst: "Crkva se seli u Ohrid", tacan: false, zasto: "Od Ohrida se crkva upravo odvaja."}
+        pomoc:
+          - "Korak 1: Šta se menja autokefalnošću?"
+          - "Korak 2: Ko sada bira?"
+          - "Iz lekcije: autokefalnost 1219 → glavu crkve biraju domaći episkopi."
+        objasnjenje: "Pošto glavu crkve biraju domaći episkopi, nema više putovanja patrijarhu."
+        iz_udzbenika: {strana: 28, odeljak: "Uzrok → posledica", tekst: "Autokefalnost 1219: glavu crkve biraju domaći episkopi, nema više odlaska patrijarhu."}
+
+      - id: l05-lanac-episkopije
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [episkopije, sveti-sava]
+        karike: ["Crkva postaje samostalna", "Osnivaju se nove episkopije", "?"]
+        praznina: 2
+        odgovori:
+          - {tekst: "One postaju žarišta duhovnog života, vere i obrazovanja", tacan: true}
+          - {tekst: "One postaju vojni logori protiv Vizantije", tacan: false, zasto: "Knjiga opisuje duhovnu i obrazovnu, a ne vojnu ulogu."}
+          - {tekst: "One vraćaju crkvu pod Ohrid", tacan: false, zasto: "Upravo je crkva postala nezavisna od Ohrida."}
+        pomoc:
+          - "Korak 1: Čemu služi episkopija?"
+          - "Korak 2: Gde se učilo u srednjem veku?"
+          - "Iz lekcije: nove episkopije → centri duhovnosti, vere i obrazovanja."
+        objasnjenje: "Nove episkopije bile su središta duhovnosti, vere i obrazovanja."
+        iz_udzbenika: {strana: 28, odeljak: "Uzrok → posledica", tekst: "Nove episkopije postale su centri duhovnosti, vere i obrazovanja."}
+
+      - id: l05-lanac-sava-pisanje
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [sveti-sava, tipik, krmcija]
+        karike: ["Mlada samostalna crkva treba obrazovano sveštenstvo", "?", "Sveštenstvo se obrazuje i crkva ima propise"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Sava piše tipike, a s grčkog se prevodi krmčija", tacan: true}
+          - {tekst: "Sava zatvara episkopije", tacan: false, zasto: "Episkopije se upravo osnivaju, kao središta obrazovanja."}
+          - {tekst: "Nemanja se vraća iz Hilandara da uči sveštenike", tacan: false, zasto: "Nemanja je već umro 1199."}
+        pomoc:
+          - "Korak 1: Koja je Savina dela lekcija pominje?"
+          - "Korak 2: Šta je preuzeto s grčkog?"
+          - "Iz lekcije: tipici su služili obrazovanju sveštenstva, a s grčkog je prevedena krmčija."
+        objasnjenje: "Savini tipici i prevedena krmčija davali su crkvi i obrazovanje i pravila."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sava je pisao tipike za obrazovanje sveštenstva, a s grčkog je prevedena Svetosavska krmčija."}
+
+      - id: l05-lanac-veliki-tesko
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [srpska-arhiepiskopija, vizantija, krstasi, stefan-nemanja]
+        karike: ["Nemanja gradi nezavisnu državu", "Težnja da i crkva bude samostalna", "?", "Sava traži samostalnost od patrijarha u Nikeji"]
+        praznina: 2
+        odgovori:
+          - {tekst: "Pad Carigrada premešta cara i patrijarha u Nikeju", tacan: true}
+          - {tekst: "Papa šalje krunu Stefanu, pa crkva postaje samostalna", tacan: false, zasto: "Kruna je državni događaj; crkvena samostalnost je dobijena od patrijarha, a ne pape."}
+          - {tekst: "Bogumili se šire po Bosni", tacan: false, zasto: "To ne objašnjava zašto Sava ide baš u Nikeju."}
+        pomoc:
+          - "Korak 1: Zašto je Sava išao u Nikeju, a ne u Carigrad?"
+          - "Korak 2: Šta se desilo sa Carigradom?"
+          - "Iz lekcije: posle Četvrtog krstaškog rata car i patrijarh su se preselili u Nikeju."
+        objasnjenje: "Domaća težnja se ukršta sa događajima u svetu: pad Carigrada određuje kuda će Sava ići."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sava je otišao u Nikeju, kuda su se posle Četvrtog krstaškog rata preselili car i patrijarh."}
+
+      - id: l05-lanac-autokefalnost-razvoj
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [autokefalnost, srpska-arhiepiskopija]
+        karike: ["Crkva zavisi od ohridskog arhiepiskopa", "Sava izdejstvuje autokefalnost", "?", "Crkva ima put slobodnog razvoja"]
+        praznina: 2
+        odgovori:
+          - {tekst: "Domaći episkopi biraju glavu crkve, a sedište je u Žiči", tacan: true}
+          - {tekst: "Glava crkve i dalje putuje patrijarhu", tacan: false, zasto: "To je ukinuto samostalnošću."}
+          - {tekst: "Crkva dobija sedište u Trnovu", tacan: false, zasto: "Sedište je Žiča; u Trnovu je umro Sava."}
+        pomoc:
+          - "Korak 1: Šta je samostalna crkva dobila unutar zemlje?"
+          - "Korak 2: Gde joj je sedište?"
+          - "Iz lekcije: domaći episkopi biraju glavu, sedište je u Žiči, a crkvi se otvara put slobodnog razvoja."
+        objasnjenje: "Odluke i sedište ostaju u zemlji, pa crkva dobija put slobodnog razvoja."
+        iz_udzbenika: {strana: 26, odeljak: "Uvod", tekst: "Srpska pravoslavna crkva je postala samostalna, što joj je otvorilo put slobodnog razvoja."}
+
+      - id: l05-izvor-zapamtite-dve-godine
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [stefan-prvovencani, srpska-arhiepiskopija]
+        izvor: {autor: "Udžbenik", naslov: "Rubrika Zapamtite", tekst: "Sin velikog župana dobio je krunu od pape, a samo dve godine potom i crkva je postala samostalna.", napomena: "Odlomak je prepričan; udžbenik, str. 29."}
+        pitanje: "Koje dve godine povezuje ova rečenica?"
+        odgovori:
+          - {tekst: "1217. i 1219.", tacan: true}
+          - {tekst: "1204. i 1206.", tacan: false, zasto: "Godina 1204. je Latinsko carstvo, a 1206. se u lekciji ne pominje."}
+          - {tekst: "1196. i 1198.", tacan: false, zasto: "Godine 1196. Stefan nasleđuje oca; kruna dolazi kasnije."}
+          - {tekst: "1219. i 1221.", tacan: false, zasto: "Godina 1219. je samostalnost crkve, a kruna je pre nje."}
+        pomoc:
+          - "Prvo nađi godinu krune."
+          - "Dodaj dve godine."
+          - "Iz lekcije: 1217. kruna, 1219. crkvena samostalnost."
+        objasnjenje: "Kruna je stigla 1217, a crkvena samostalnost 1219."
+        iz_udzbenika: {strana: 29, odeljak: "Zapamtite", tekst: "Crkvena samostalnost usledila je dve godine posle krune, 1219."}
+
+      - id: l05-izvor-pitanje-zica
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [manastir-zica, srpska-arhiepiskopija]
+        izvor: {autor: "Fotografija iz udžbenika", naslov: "Manastir Žiča (opis slike)", tekst: "Crkva sa kupolama i zvonikom, snimljena spolja, sa drvećem pored nje.", napomena: "Odlomak je prepričan; udžbenik, str. 29."}
+        pitanje: "Zašto je ovaj manastir važan u istoriji srpske crkve?"
+        odgovori:
+          - {tekst: "Od 1220. bio je sedište srpske arhiepiskopije", tacan: true}
+          - {tekst: "Bio je prestonica velikih župana", tacan: false, zasto: "To je Ras."}
+          - {tekst: "U njemu je umro Stefan Nemanja", tacan: false, zasto: "Nemanja je umro u Hilandaru."}
+          - {tekst: "Podigli su ga krstaši", tacan: false, zasto: "Krstaši su stvorili Latinsko carstvo; Žiča je srpski manastir."}
+        pomoc:
+          - "Seti se šta je 1220. preneto ovamo."
+          - "Bio je novosagrađen."
+          - "Iz lekcije: Žiča kod Kraljeva postala je 1220. sedište arhiepiskopije."
+        objasnjenje: "Žiča kod Kraljeva postala je 1220. sedište arhiepiskopije."
+        iz_udzbenika: {strana: 29, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Žiča je postala 1220. sedište srpske arhiepiskopije.", slika: "05-srpska-drzava-prvih-nemanjica/05-manastir-zica.jpg"}
+
+      - id: l05-izvor-kako-znamo-tesko
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [krmcija, svetosavska-krmcija, tipik]
+        izvor: {autor: "Udžbenik", naslov: "Pitanje sa str. 29", tekst: "Krmčija je zbornik propisa crkvenog i građanskog prava; Svetosavska krmčija je prevedena s grčkog i u Srbiji je imala veliki ugled.", napomena: "Odlomak je prepričan; udžbenik, str. 29."}
+        pitanje: "Šta bi istoričar mogao da sazna iz takvog zbornika, a ne iz biografije vladara?"
+        odgovori:
+          - {tekst: "Koja su pravila i propisi važili u crkvi i među ljudima", tacan: true}
+          - {tekst: "Tačan tok bitke na Moravi", tacan: false, zasto: "Zbornik propisa ne opisuje bitke, već donosi pravila."}
+          - {tekst: "Kako je Nemanja izgledao kao mladić", tacan: false, zasto: "Krmčija je pravna knjiga, a ne opis ličnosti."}
+          - {tekst: "Šta su bogumili mislili o Nemanji", tacan: false, zasto: "Zbornik ne prenosi njihov glas."}
+        pomoc:
+          - "Korak: pitaj šta jedna pravna knjiga sadrži."
+          - "Biografija priča o čoveku, a zbornik o pravilima."
+          - "Iz lekcije: krmčija sabira propise crkvenog i građanskog prava."
+        objasnjenje: "Pravna knjiga govori o pravilima, a biografija o ličnosti; zato se izvori dopunjuju."
+        iz_udzbenika: {strana: 29, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Krmčija je knjiga u kojoj su sabrani propisi crkvenog i građanskog prava."}
+
+      - id: l05-uporedi-tipik-krmcija
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [tipik, krmcija]
+        a: "Tipik"
+        b: "Krmčija"
+        pitanje: "Na šta se tvrdnja odnosi: tipik, krmčija, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Uređuje život u manastiru.", odgovor: a, zasto: "To je tipik."}
+          - {tekst: "Sadrži propise crkvenog i građanskog prava.", odgovor: b, zasto: "To je krmčija."}
+          - {tekst: "Ovu vrstu dela Sava je pisao za manastire.", odgovor: a, zasto: "Sava je pisao manastirske tipike."}
+          - {tekst: "Zbornik ove vrste preveden je s grčkog.", odgovor: b, zasto: "Svetosavska krmčija je prevedena s grčkog."}
+          - {tekst: "Sadrži pravila.", odgovor: oba, zasto: "Obe vrste knjiga propisuju pravila."}
+          - {tekst: "Opisuje život velikog župana.", odgovor: nijedan, zasto: "To radi biografija Stefana Nemanje."}
+        pomoc:
+          - "Tipik je uži, samo za manastir."
+          - "Krmčija ide i na građansko pravo."
+          - "Iz lekcije: tipik je manastirski pravilnik, krmčija zbornik propisa."
+        objasnjenje: "Tipik važi za manastir, a krmčija i za crkvu i za građansko pravo."
+        iz_udzbenika: {strana: 29, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Tipik i krmčija objašnjeni su u okviru na str. 29."}
+
+      - id: l05-uporedi-pre-posle-1219
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [autokefalnost, ohridska-arhiepiskopija, srpska-arhiepiskopija]
+        a: "Pre 1219."
+        b: "Posle 1219."
+        pitanje: "Na koji period se tvrdnja odnosi: pre 1219, posle 1219, oba ili nijedan?"
+        tvrdnje:
+          - {tekst: "Srpska crkva zavisi od ohridskog arhiepiskopa.", odgovor: a, zasto: "To je stanje pre samostalnosti."}
+          - {tekst: "Glavu crkve biraju domaći episkopi.", odgovor: b, zasto: "To donosi autokefalnost."}
+          - {tekst: "Sedište arhiepiskopije je u Žiči.", odgovor: b, zasto: "Sedište je smešteno u Žiču 1220."}
+          - {tekst: "Glava crkve putuje patrijarhu radi posvećenja.", odgovor: a, zasto: "Posle 1219. to više nije potrebno."}
+          - {tekst: "Hilandar je srpski manastir.", odgovor: oba, zasto: "Hilandar je podignut za Nemanjinog života i postoji i posle 1219."}
+          - {tekst: "Srpskom crkvom upravlja rimski papa.", odgovor: nijedan, zasto: "Pre 1219. crkva zavisi od Ohrida, a posle je samostalna; papa je dao samo krunu Stefanu."}
+        pomoc:
+          - "Godina 1219. je granica samostalnosti."
+          - "Hilandar je sagrađen pre 1219."
+          - "Iz lekcije: posle 1219. glavu crkve biraju domaći episkopi."
+        objasnjenje: "Autokefalnost je prelomna tačka: crkva prestaje da zavisi od Ohrida."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Srpska crkva je zavisila od Ohrida, a od 1219. glavu crkve biraju domaći episkopi."}
+
+      - id: l05-uporedi-kruna-autokefalnost
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [kraljevska-kruna, autokefalnost, rimski-papa, nikeja]
+        a: "Kruna 1217."
+        b: "Autokefalnost 1219."
+        pitanje: "Na šta se tvrdnja odnosi: krunu, autokefalnost, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Dobijena je od rimskog pape.", odgovor: a, zasto: "Kruna je stigla od pape."}
+          - {tekst: "Dobijena je u Nikeji.", odgovor: b, zasto: "Patrijarh u Nikeji dao je pristanak za arhiepiskopiju."}
+          - {tekst: "Jačala je samostalnost srpske države i društva.", odgovor: oba, zasto: "Oba događaja jačaju samostalan položaj Srbije, državno i crkveno."}
+          - {tekst: "Za nju je zaslužan Nemanjin sin.", odgovor: oba, zasto: "Krunu je primio Stefan, a samostalnost je dobio Sava, obojica sinovi Nemanje."}
+          - {tekst: "Desila se pre pada Carigrada.", odgovor: nijedan, zasto: "Carigrad je pao 1204, a oba događaja su kasnija."}
+          - {tekst: "Promenila je titulu vladara.", odgovor: a, zasto: "Veliki župan je postao kralj, što je državna promena."}
+        pomoc:
+          - "Jedno je državno, drugo crkveno."
+          - "Oba su delo Nemanjinih sinova."
+          - "Iz lekcije: 1217. kruna od pape, 1219. autokefalnost od patrijarha."
+        objasnjenje: "Dva koraka iste težnje: državni kod pape, crkveni kod patrijarha."
+        iz_udzbenika: {strana: 29, odeljak: "Zapamtite", tekst: "Stefan je 1217. dobio krunu, a samostalnost crkve došla je 1219."}
+
+      - id: l05-uporedi-hilandar-zica
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [manastir-hilandar, manastir-zica]
+        a: "Hilandar"
+        b: "Žiča"
+        pitanje: "Na koji manastir se tvrdnja odnosi: Hilandar, Žiča, oba ili nijedan?"
+        tvrdnje:
+          - {tekst: "Nalazi se na Svetoj Gori.", odgovor: a, zasto: "To je Hilandar."}
+          - {tekst: "Nalazi se kod Kraljeva.", odgovor: b, zasto: "To je Žiča."}
+          - {tekst: "Veoma je važan za Srbe prema rubrici Zapamtite.", odgovor: oba, zasto: "Rubrika izdvaja oba manastira."}
+          - {tekst: "U njemu je sedište arhiepiskopije od 1220.", odgovor: b, zasto: "Sedište je u Žiči."}
+          - {tekst: "Podigli su ga Nemanja i Sava.", odgovor: a, zasto: "Knjiga to kaže za Hilandar."}
+          - {tekst: "U njemu je umro Sveti Sava.", odgovor: nijedan, zasto: "Sava je umro u Trnovu."}
+        pomoc:
+          - "Jedan je na Svetoj Gori, drugi u Srbiji."
+          - "Umro je u Bugarskoj, dakle ni u jednom."
+          - "Iz lekcije: Hilandar na Svetoj Gori i Žiča kod Kraljeva."
+        objasnjenje: "Hilandar je kulturno, a Žiča crkveno-administrativno središte."
+        iz_udzbenika: {strana: 29, odeljak: "Zapamtite", tekst: "Dva važna manastira su Hilandar na Svetoj Gori i Žiča kod Kraljeva."}
+
+      - id: l05-kosam-sava
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [sveti-sava, srpska-arhiepiskopija, trnovo]
+        tragovi:
+          - "Bio sam monah na Svetoj Gori pre svog oca."
+          - "U Nikeji sam dobio pristanak za samostalnu crkvu."
+          - "Umro sam u Trnovu, vraćajući se iz Svete zemlje."
+        odgovori:
+          - {tekst: "Sava Nemanjić", tacan: true}
+          - {tekst: "Stefan Prvovenčani", tacan: false, zasto: "On je kralj koji je dobio krunu, a nije bio u Nikeji."}
+          - {tekst: "nikejski patrijarh", tacan: false, zasto: "Patrijarh je pristanak dao, a nije ga tražio."}
+          - {tekst: "Stefan Nemanja", tacan: false, zasto: "Nemanja je umro u Hilandaru 1199."}
+        objasnjenje: "To je Sava Nemanjić, Sveti Sava, prvi srpski arhiepiskop."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sava je iz Nikeje doneo samostalnost crkve, a umro je 1236. u Trnovu.", slika: "05-srpska-drzava-prvih-nemanjica/06-sveti-sava-mileseva.jpg"}
+
+      - id: l05-kosam-pojam-tesko
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [svetosavska-krmcija, krmcija]
+        tragovi:
+          - "Nisam čovek, nego knjiga."
+          - "U meni se nalaze crkveni i građanski propisi."
+          - "Prevedena sam s grčkog i u Srbiji sam imala veliki ugled."
+        odgovori:
+          - {tekst: "Svetosavska krmčija", tacan: true}
+          - {tekst: "manastirski tipik", tacan: false, zasto: "Tipik uređuje život u manastiru; ne sabira građanske propise."}
+          - {tekst: "biografija Stefana Nemanje", tacan: false, zasto: "Biografija priča o životu vladara, a ne donosi propise."}
+          - {tekst: "kraljevska kruna", tacan: false, zasto: "Kruna nije knjiga; dobio ju je Stefan od pape."}
+        objasnjenje: "Svetosavska krmčija je zbornik crkvenog i građanskog prava preveden s grčkog."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "S grčkog je preveden zbornik crkvenog i svetovnog prava, tzv. Svetosavska krmčija."}
+
+      - id: l05-objasni-autokefalnost
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [autokefalnost, sveti-sava]
+        pitanje: "Šta je autokefalnost i šta se njome promenilo u srpskoj crkvi?"
+        uzor: "Autokefalnost je nezavisnost crkve od druge crkvene vlasti. Srpska crkva ju je dobila 1219. Od tada glavu crkve biraju domaći episkopi i on više ne putuje patrijarhu radi posvećenja."
+        ideje: ["Autokefalnost je nezavisnost crkve.", "Dobijena je 1219.", "Glavu crkve biraju domaći episkopi.", "Nema više odlaska patrijarhu."]
+        objasnjenje: "Definicija se povezuje sa konkretnom promenom."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Autokefalnost znači da glavu srpske crkve biraju domaći episkopi."}
+
+      - id: l05-objasni-sava-uloga
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [sveti-sava, tipik, svetosavska-krmcija, episkopije]
+        pitanje: "Navedi šta je Sava učinio za srpsku crkvu."
+        uzor: "Sava je 1219. u Nikeji dobio samostalnu arhiepiskopiju i postao njen prvi arhiepiskop. Sedište je smestio u Žiču, a osnivane su nove episkopije. Pisao je tipike, a s grčkog je prevedena krmčija."
+        ideje: ["Dobio je samostalnost crkve 1219.", "Bio je prvi arhiepiskop.", "Sedište je smešteno u Žiču.", "Pisao je tipike i osnivane su nove episkopije."]
+        objasnjenje: "Savin doprinos je i u ustanovama i u knjigama."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sava je izdejstvovao samostalnost, bio prvi arhiepiskop i pisao crkvena dela."}
+
+      - id: l05-objasni-nikeja
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [nikeja, krstasi, sveti-sava]
+        pitanje: "Objasni kako je Četvrti krstaški rat uticao na to gde je Sava morao da ode za samostalnost crkve."
+        uzor: "Krstaši su zauzeli Carigrad i vizantijski car i patrijarh su se preselili u Nikeju. Zato je Sava za pristanak morao da ide tamo, a ne u Carigrad. Tako je događaj iz svetske istorije uticao na srpsku crkvu."
+        ideje: ["Krstaši su zauzeli Carigrad.", "Car i patrijarh su se preselili u Nikeju.", "Sava je zato tražio pristanak u Nikeji."]
+        objasnjenje: "Povezuju se opšta i nacionalna istorija."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Sava je otputovao u Nikeju, kuda su se posle Četvrtog krstaškog rata preselili car i patrijarh."}
+
+      - id: l05-objasni-obrazovanje
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [episkopije, tipik, svetosavska-krmcija]
+        pitanje: "Kako je samostalna crkva doprinela obrazovanju u Srbiji?"
+        uzor: "Nove episkopije postale su žarišta duhovnog života, vere i obrazovanja. Sava je pisao tipike koji su služili obrazovanju sveštenstva. Prevedena je i Svetosavska krmčija, zbornik koji je imao veliki ugled."
+        ideje: ["Nove episkopije su središta obrazovanja.", "Tipici su služili obrazovanju sveštenstva.", "Prevedena je Svetosavska krmčija."]
+        objasnjenje: "Crkva je u srednjem veku bila i obrazovna ustanova."
+        iz_udzbenika: {strana: 28, odeljak: "Osnivanje samostalne srpske arhiepiskopije i uloga Svetog Save", tekst: "Nove episkopije postale su žarišta obrazovanja, a tipici su služili obrazovanju sveštenstva."}
+
+      - id: l05-objasni-drzava-crkva
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [stefan-prvovencani, sveti-sava, autokefalnost, kraljevska-kruna]
+        pitanje: "Zašto kažemo da je između 1217. i 1219. Srbija dobila dve vrste samostalnosti? Objasni vezu između krune i autokefalnosti."
+        uzor: "Stefan je 1217. dobio kraljevsku krunu, pa je država stekla viši položaj. Sava je 1219. dobio samostalnu arhiepiskopiju, pa crkva više nije zavisila od Ohrida. Veza je u tome što su vladari, kad su izborili nezavisnost države, želeli isto i za crkvu."
+        ideje: ["Kruna 1217. je državni uspeh.", "Autokefalnost 1219. je crkveni uspeh.", "Državna nezavisnost je dovela do težnje za crkvenom.", "Oba uspeha su delo Nemanjinih sinova."]
+        objasnjenje: "Odgovor treba da pokaže uzročnu vezu, a ne samo dva datuma."
+        iz_udzbenika: {strana: 29, odeljak: "Zapamtite", tekst: "Stefan je 1217. dobio krunu, a crkvena samostalnost usledila je dve godine kasnije."}

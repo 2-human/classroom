@@ -106,3 +106,13 @@ Fioka „Iz udžbenika” vodi i na zaštićenu stranicu lekcije (`scripts/build
 beleške tog odeljka, a oba linka otvaraju taj deo lekcije (odeljak sa njegovim stranama, ili stranu) u
 proširenoj fioci; „Otvori u lekciji” ga prikazuje u glavnoj koloni, gde je i cela lekcija (grupa „Lekcija” u
 navigaciji). Stranice lekcija napravi pre zaštićenih kopija kvizova.
+
+## Kviz iz banke pitanja
+
+Novi predmeti imaju banku po lekciji: `shared/banke/{nivo}/{razred}/{predmet}/{NN-slug}.yaml`
+(`lekcija`, `naslov`, `pojmovi`, `delovi`; id zadatka počinje sa `lNN-`). Proveri je sa
+`python3 scripts/proveri_banku.py shared/banke/...`. Kviz je tada samo definicija: `spec.yaml` bez
+`banka:`, sa `banka_lekcije: [3, 4, 5, 6, 10]`, `sastav` i `osa`. Svaki deo lekcije postaje deo kviza
+(„3. Naslov”), učenje i test izvlače zadatke srazmerno veličini delova, a zaštićena kopija u navigaciji
+ima grupu „Gradivo” sa svim izabranim lekcijama. Godine pre nove ere su negativni brojevi: učenik
+upisuje broj i bira „pre n. e.” ili „n. e.”.

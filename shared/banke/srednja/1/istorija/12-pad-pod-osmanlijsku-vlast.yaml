@@ -1,0 +1,1092 @@
+# Banka pitanja: Pad balkanskih zemalja pod osmanlijsku vlast (istorija, 1. razred srednje škole, str. 48–49). Sopstvenim rečima, po belešci lekcije.
+lekcija: 12
+naslov: "Pad balkanskih zemalja pod osmanlijsku vlast"
+pojmovi:
+  osmanlije: Osmanlije
+  osmansko-carstvo: Osmansko carstvo
+  murat: sultan Murat
+  kosovski-boj: Kosovski boj
+  mehmed-ii-osvajac: Mehmed II Osvajač
+  vizantija: Vizantija
+  carigrad: Carigrad
+  srpska-despotovina: Srpska despotovina
+  bosna: Bosna
+  hercegovina: Hercegovina
+  zeta: Zeta
+  albanija: Albanija
+  grcka: Grčka
+  ugarska: Ugarska
+  mletacka-republika: Mletačka republika
+  dubrovacka-republika: Dubrovačka republika
+  janicari: janičari
+  novo-brdo: Novo Brdo
+  konstantin-mihailovic: Konstantin Mihailović iz Ostrovice
+  uspomene-janicara: Uspomene janičara
+  bugarska: Bugarska
+delovi:
+  # ==========================================================================
+  - naslov: "Pad Srbije, Bosne, Hercegovine i Zete"
+    zadaci:
+      - id: l12-carigrad-izbor-ko
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [mehmed-ii-osvajac, carigrad]
+        pitanje: "Koji sultan je zauzeo Carigrad?"
+        odgovori:
+          - {tekst: "Mehmed II Osvajač", tacan: true}
+          - {tekst: "Murat", tacan: false, zasto: "Murat je umro na Kosovu 1389, a Carigrad pada tek 1453."}
+          - {tekst: "Stefan Tomašević", tacan: false, zasto: "On je poslednji bosanski vladar, a ne sultan."}
+          - {tekst: "Žigmund", tacan: false, zasto: "Žigmund je ugarski kralj; Carigrad osvaja osmanlijski sultan Mehmed II."}
+        pomoc:
+          - "Nadimak ovog sultana govori o tome šta je radio."
+          - "Vlada od 1451. do 1481."
+          - "Iz lekcije: Mehmed II Osvajač 1453. zauzima Carigrad."
+        objasnjenje: "Mehmed II Osvajač 1453. zauzima Carigrad i time uništava Vizantiju."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Sultan Mehmed II Osvajač 1453. zauzima Carigrad i time uništava Vizantiju."}
+        osa: {naziv: "Pad Carigrada", od: 1453, traka: dogadjaji}
+
+      - id: l12-dubrovnik-izbor-sloboda
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [dubrovacka-republika]
+        pitanje: "Koja država na Balkanu je sačuvala slobodu?"
+        odgovori:
+          - {tekst: "Dubrovačka republika", tacan: true}
+          - {tekst: "Bosna", tacan: false, zasto: "Bosna je osvojena 1463."}
+          - {tekst: "Zeta", tacan: false, zasto: "Zeta je pala pod Turke 1499, kao poslednja srpska oblast."}
+          - {tekst: "Grčka", tacan: false, zasto: "Turci su osvojili i Grčku i Albaniju."}
+        pomoc:
+          - "To je republika, ne kraljevina."
+          - "Njeni trgovci su poslovali po Despotovini."
+          - "Iz lekcije: jedina država koja je sačuvala slobodu bila je Dubrovačka republika."
+        objasnjenje: "Dubrovačka republika je jedini izuzetak: formalno pod sultanom, ali u suštini slobodna."
+        iz_udzbenika: {strana: 48, odeljak: "Uvod", tekst: "Jedina država koja je sačuvala slobodu bila je Dubrovačka republika."}
+
+      - id: l12-pravac-izbor-sledeci
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [ugarska, mletacka-republika]
+        pitanje: "Koje dve države se posle pokoravanja Balkana nalaze neposredno na pravcu daljeg širenja Osmanskog carstva?"
+        odgovori:
+          - {tekst: "Kraljevina Ugarska i Mletačka republika", tacan: true}
+          - {tekst: "Bosna i Hercegovina", tacan: false, zasto: "One su već osvojene, 1463. i 1482."}
+          - {tekst: "Albanija i Grčka", tacan: false, zasto: "I one su osvojene; pod udarom su sada države iza njih."}
+          - {tekst: "Bugarska i Vizantija", tacan: false, zasto: "Bugarska carstva su zauzeta ranije, a Vizantija je uništena 1453."}
+        pomoc:
+          - "Traži države koje još nisu osvojene."
+          - "Jedna je kraljevina, druga republika."
+          - "Iz lekcije: Ugarska i Mletačka republika su na pravcu širenja."
+        objasnjenje: "Pošto je Balkan pokoren, na redu su susedi: Ugarska i Mletačka republika."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Kraljevina Ugarska i Mletačka republika nalaze se na pravcu daljeg širenja Osmanskog carstva."}
+
+      - id: l12-zastoj-izbor-uzrok
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [osmanlije, murat, osmansko-carstvo]
+        pitanje: "Šta je privremeno zaustavilo tursko širenje?"
+        odgovori:
+          - {tekst: "Dinastičke borbe pretendenata na turski presto", tacan: true}
+          - {tekst: "Poraz od Ugarske i Mletaka", tacan: false, zasto: "Širenje zaustavljaju unutrašnji sukobi, a ne spoljni poraz."}
+          - {tekst: "Mirovni ugovor sa Dubrovnikom", tacan: false, zasto: "Dubrovnik se potčinjava mnogo kasnije, 1526."}
+          - {tekst: "Nedostatak janičara", tacan: false, zasto: "Lekcija zastoj objašnjava borbama oko prestola, a ne manjkom vojske."}
+        pomoc:
+          - "Uzrok je unutar same turske države."
+          - "Počinje posle smrti sultana na Kosovu."
+          - "Iz lekcije: širenje privremeno zaustavljaju dinastičke borbe."
+        objasnjenje: "Posle Muratove smrti 1389. pretendenti se bore za presto, pa osvajanja staju."
+        iz_udzbenika: {strana: 49, odeljak: "Zapamtite", tekst: "Dalje širenje privremeno zaustavljaju dinastičke borbe unutar Osmanskog carstva."}
+
+      - id: l12-bosna-izbor-gradjanski
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [bosna, osmanlije]
+        pitanje: "U kakvom stanju je bila Bosna kad je osvojena 1463?"
+        odgovori:
+          - {tekst: "Zahvaćena građanskim ratom", tacan: true}
+          - {tekst: "U zlatnom dobu pod Tvrtkom I", tacan: false, zasto: "Tvrtko je umro 1391, a Bosna je potom slabila."}
+          - {tekst: "U savezu sa Vizantijom", tacan: false, zasto: "Vizantija je već uništena 1453."}
+          - {tekst: "Pod upravom Dubrovnika", tacan: false, zasto: "Dubrovnik nije upravljao Bosnom; zemlju razdire građanski rat."}
+        pomoc:
+          - "Seti se slabljenja vlasti iz prethodne lekcije."
+          - "Sukob je unutar same zemlje."
+          - "Iz lekcije: Bosna, zahvaćena građanskim ratom, osvojena je 1463."
+        objasnjenje: "Građanski rat je Bosnu učinio lakšim plenom."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Bosna, zahvaćena građanskim ratom, osvojena je 1463."}
+        osa: {naziv: "Pad Bosne", od: 1463, traka: dogadjaji}
+
+      - id: l12-mehmed-izbor-posle
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [mehmed-ii-osvajac, hercegovina, zeta]
+        pitanje: "Mehmed II vlada do 1481. Koji padovi su se, sudeći po godinama, desili posle kraja njegove vladavine?"
+        odgovori:
+          - {tekst: "Pad Hercegovine i pad Zete", tacan: true}
+          - {tekst: "Pad Carigrada i pad Smedereva", tacan: false, zasto: "To je 1453. i 1459, usred njegove vladavine."}
+          - {tekst: "Pad Bosne", tacan: false, zasto: "Bosna pada 1463, dok on još vlada."}
+          - {tekst: "Pad Novog Brda", tacan: false, zasto: "Novo Brdo pada 1455, a sam sultan ga zauzima."}
+        pomoc:
+          - "Uporedi svaku godinu sa 1481."
+          - "Traži godine veće od 1481."
+          - "Iz lekcije: Hercegovina 1482, Zeta 1499."
+        objasnjenje: "Hercegovina (1482) i Zeta (1499) padaju posle 1481, pa osvajanja traju i posle Mehmeda II."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Mehmed II vlada 1451–1481, Hercegovina pada 1482, a Zeta 1499."}
+
+      - id: l12-tn-hercegovina-pre-bosne
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [bosna, hercegovina]
+        tvrdnja: "Hercegovina je pala pre Bosne."
+        tacno: false
+        ispravke:
+          - {tekst: "Bosna je pala 1463, a Hercegovina malo kasnije, 1482.", tacan: true}
+          - {tekst: "Bosna i Hercegovina su pale iste godine.", tacan: false, zasto: "Između njihovih padova prošlo je devetnaest godina."}
+          - {tekst: "Hercegovinu Turci nisu osvojili.", tacan: false, zasto: "Osvojena je 1482."}
+        pomoc:
+          - "Uporedi 1463. i 1482."
+          - "Koja je godina ranija?"
+          - "Iz lekcije: Bosna 1463, Hercegovina 1482."
+        objasnjenje: "Netačno. Prvo pada Bosna, 1463, pa Hercegovina, 1482."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Bosna je osvojena 1463, a Hercegovina je zauzeta malo kasnije, 1482."}
+
+      - id: l12-tn-dubrovnik-slobodan
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [dubrovacka-republika]
+        tvrdnja: "Dubrovačka republika se nikada nije potčinila Osmanlijama."
+        tacno: false
+        ispravke:
+          - {tekst: "Potčinila se 1526, ali je u suštini sačuvala slobodu.", tacan: true}
+          - {tekst: "Osmanlije su je osvojile i ukinule.", tacan: false, zasto: "Nije ukinuta; formalno je pod sultanom, ali čuva slobodu."}
+          - {tekst: "Potčinila se Ugarskoj 1526.", tacan: false, zasto: "Lekcija navodi potčinjavanje Osmanlijama, a ne Ugarskoj."}
+        pomoc:
+          - "Razlikuj formalnu vlast od stvarne slobode."
+          - "Godina je 1526."
+          - "Iz lekcije: potčinila se 1526, a u suštini je sačuvala slobodu."
+        objasnjenje: "Netačno. Dubrovnik je formalno pod sultanom od 1526, a suštinski slobodan."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Dubrovačka republika se potčinila Osmanlijama 1526, ali je u suštini sačuvala slobodu."}
+        osa: {naziv: "Dubrovačka republika se potčinjava Osmanlijama", od: 1526, traka: dogadjaji}
+
+      - id: l12-tn-bugarska
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [bugarska, kosovski-boj, osmanlije]
+        tvrdnja: "Posle srpskog poraza na Kosovu Turci zauzimaju dva bugarska carstva."
+        tacno: true
+        pomoc:
+          - "Pogledaj okvir „Zapamtite”."
+          - "Razmisli ko je još bio na putu Turaka posle Kosova."
+          - "Iz lekcije: posle Kosova Turci zauzimaju dva bugarska carstva."
+        objasnjenje: "Tačno. Širenje se posle Kosova nastavlja zauzimanjem dva bugarska carstva."
+        iz_udzbenika: {strana: 49, odeljak: "Zapamtite", tekst: "Posle srpskog poraza na Kosovu Turci zauzimaju dva bugarska carstva."}
+
+      - id: l12-tn-zastoj-kosovo
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [murat, osmanlije, kosovski-boj]
+        tvrdnja: "Smrt sultana Murata na Kosovu pomogla je balkanskim državama da dobiju na vremenu."
+        tacno: true
+        pomoc:
+          - "Šta je usledilo posle Muratove smrti?"
+          - "Borbe oko prestola su zaustavile osvajanja."
+          - "Iz lekcije: sukobi pretendenata traju od smrti Murata, a osvajanja se nastavljaju tek kad su rešeni."
+        objasnjenje: "Tačno. Sukobi oko prestola privremeno zaustavljaju osvajanja, pa balkanske države dobijaju na vremenu."
+        iz_udzbenika: {strana: 48, odeljak: "Uvod", tekst: "Turska osvajanja se nastavljaju tek kad su rešeni obračuni pretendenata, koji traju od Muratove smrti 1389."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+
+      - id: l12-dopuni-mehmed
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [mehmed-ii-osvajac, carigrad, vizantija]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Sultan {{Mehmed II}} Osvajač 1453. zauzima {{Carigrad}} i uništava {{Vizantiju}}."
+        ponudjene: ["Mehmed II", "Murat", "Carigrad", "Smederevo", "Vizantiju", "Ugarsku"]
+        pomoc:
+          - "Murat je umro 1389."
+          - "Grad je prestonica Vizantije."
+          - "Iz lekcije: Mehmed II, Carigrad, Vizantija."
+        objasnjenje: "Mehmed II Osvajač je 1453. okončao Vizantiju."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Mehmed II 1453. zauzima Carigrad i time uništava Vizantiju."}
+        osa: {naziv: "Pad Carigrada", od: 1453, traka: dogadjaji}
+
+      - id: l12-dopuni-padovi
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [bosna, hercegovina, zeta]
+        pitanje: "Dopuni godine."
+        tekst: "Bosna pada {{1463}}, Hercegovina {{1482}}, a Zeta {{1499}}."
+        ponudjene: ["1463", "1482", "1499", "1453", "1526"]
+        pomoc:
+          - "Godine idu od najranije ka najkasnijoj."
+          - "Godina 1453. je Carigrad, a 1526. Dubrovnik."
+          - "Iz lekcije: 1463, 1482, 1499."
+        objasnjenje: "Bosna, Hercegovina pa Zeta: tok padova do kraja XV veka."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Bosna je osvojena 1463, Hercegovina 1482, a Zeta 1499."}
+
+      - id: l12-dopuni-tok-bez-banke
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [mehmed-ii-osvajac, ugarska, mletacka-republika, albanija, grcka]
+        pitanje: "Dopuni tekst bez ponuđenih reči."
+        tekst: "Kad Turci pokore i {{Albaniju}} i {{Grčku}}, Balkan je pokoren, a neposredno na pravcu širenja ostaju Kraljevina {{Ugarska}} i {{Mletačka|Mletačka republika}} republika."
+        pomoc:
+          - "Dve zemlje su na jugu Balkana."
+          - "Dve države su severno i zapadno od Balkana."
+          - "Iz lekcije: Albanija i Grčka su osvojene, a na udaru su Ugarska i Mletačka republika."
+        objasnjenje: "Sa padom Albanije i Grčke granica osvajanja stiže do Ugarske i Mletačke republike."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Turci osvajaju Albaniju i Grčku, a Ugarska i Mletačka republika ostaju na pravcu širenja."}
+
+      - id: l12-povezi-godine
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [carigrad, srpska-despotovina, bosna, zeta]
+        pitanje: "Poveži godinu sa padom."
+        parovi:
+          - ["1453", "Carigrad"]
+          - ["1459", "Srpska despotovina"]
+          - ["1463", "Bosna"]
+          - ["1499", "Zeta"]
+        pomoc:
+          - "Prvi pad je pad Vizantije."
+          - "Poslednja je poslednja srpska oblast."
+          - "Iz lekcije: 1453, 1459, 1463, 1499."
+        objasnjenje: "Četiri godine prate tok osvajanja kroz drugu polovinu XV veka."
+        iz_udzbenika: {strana: 49, odeljak: "Zapamtite", tekst: "Vizantija pada 1453, Srpska despotovina 1459, a zatim Bosna, Hercegovina i Zeta."}
+
+      - id: l12-povezi-sudbine
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [dubrovacka-republika, ugarska, zeta, vizantija]
+        pitanje: "Poveži državu sa njenom sudbinom."
+        parovi:
+          - ["Vizantija", "uništena padom prestonice"]
+          - ["Zeta", "poslednja srpska oblast koja pada"]
+          - ["Ugarska", "sledeća na pravcu širenja"]
+          - ["Dubrovačka republika", "potčinjena, a u suštini slobodna"]
+        pomoc:
+          - "Samo jedna od ovih država ostaje slobodna."
+          - "Jedna još nije osvojena, ali je sledeća."
+          - "Iz lekcije: svaka država ima drugačiji ishod."
+        objasnjenje: "Sudbine su različite: uništenje, poslednji pad, pretnja i očuvana sloboda."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Lekcija navodi kako je prošla svaka država na putu osvajanja."}
+
+      - id: l12-zakljuci-konsolidacija
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [osmansko-carstvo, murat]
+        pitanje: "Zašto se turska osvajanja nastavljaju tek posle rešavanja sukoba oko prestola?"
+        odgovori:
+          - {tekst: "Zato što je država u unutrašnjem sukobu slabija za spoljne ratove", tacan: true}
+          - {tekst: "Zato što sultani nisu želeli osvajanja", tacan: false, zasto: "Želeli su ih, ali su ih sprečile borbe oko prestola."}
+          - {tekst: "Zato što ih je Dubrovnik sprečavao", tacan: false, zasto: "Prepreka je bila unutrašnja, a ne Dubrovnik."}
+          - {tekst: "Zato što je Balkan već bio osvojen", tacan: false, zasto: "Balkan je pokoren tek posle nastavka osvajanja."}
+        pomoc:
+          - "Korak 1: Čime se bave pretendenti na presto?"
+          - "Korak 2: Da li tada mogu da vode velika osvajanja?"
+          - "Iz lekcije: posle turske konsolidacije usledilo je snažno širenje."
+        objasnjenje: "Tek sređena država može snažno da se širi."
+        iz_udzbenika: {strana: 48, odeljak: "Uvod", tekst: "Posle turske konsolidacije usledilo je snažno širenje Osmanskog carstva."}
+
+      - id: l12-zakljuci-gradjanski-rat
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [bosna, osmanlije]
+        pitanje: "Šta je zajedničko Osmanlijama posle 1389. i Bosni pred 1463?"
+        odgovori:
+          - {tekst: "Unutrašnji sukob slabi državu: Osmanlije privremeno, Bosnu do pada", tacan: true}
+          - {tekst: "Obe su tada pobedile Ugarsku", tacan: false, zasto: "Lekcija ne govori o tome; zajednički su im unutrašnji sukobi."}
+          - {tekst: "Obe su bile republike", tacan: false, zasto: "Republike su Dubrovnik i Mleci, a ne Osmanlije i Bosna."}
+          - {tekst: "Obe su pale pod Dubrovnik", tacan: false, zasto: "Dubrovnik nije osvajač ni jednih ni drugih."}
+        pomoc:
+          - "Korak 1: Šta se dešava u turskoj državi posle Muratove smrti?"
+          - "Korak 2: Šta se dešava u Bosni pred osvajanje?"
+          - "Iz lekcije: borbe oko prestola kod Turaka, građanski rat u Bosni."
+        objasnjenje: "Osmanlije su sredile prilike i nastavile, a Bosna nije i pala je."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Sukobi oko prestola zaustavljaju Turke, a Bosna, zahvaćena građanskim ratom, biva osvojena."}
+
+      - id: l12-zakljuci-osvajac
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [mehmed-ii-osvajac, osmansko-carstvo]
+        pitanje: "Zašto je Mehmed II dobio nadimak Osvajač?"
+        odgovori:
+          - {tekst: "Zato što je nastavio osvajačku politiku i zauzeo Carigrad, pa pod njim padaju i Despotovina i Bosna", tacan: true}
+          - {tekst: "Zato što je osvojio Dubrovnik 1526.", tacan: false, zasto: "Mehmed II vlada do 1481, a Dubrovnik se potčinjava 1526, bez osvajanja."}
+          - {tekst: "Zato što je pobedio na Kosovu 1389.", tacan: false, zasto: "Od tada do njegovog dolaska na vlast (1451) prošlo je više od šezdeset godina."}
+          - {tekst: "Zato što je osvojio Ugarsku", tacan: false, zasto: "Ugarska je samo na pravcu daljeg širenja; lekcija je ne navodi kao osvojenu."}
+        pomoc:
+          - "Korak 1: Koji je najveći uspeh njegove vladavine?"
+          - "Korak 2: Koje države padaju između 1451. i 1481?"
+          - "Iz lekcije: Mehmed II nastavlja osvajačku politiku i zauzima Carigrad."
+        objasnjenje: "Pod njim padaju Vizantija, Despotovina i Bosna."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Mehmed II Osvajač (1451–1481) nastavlja osvajačku politiku prethodnika."}
+        osa: {naziv: "Mehmed II Osvajač", od: 1451, do: 1481, traka: vladari}
+
+      - id: l12-zakljuci-dubrovnik-vs
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [dubrovacka-republika, zeta]
+        pitanje: "I Dubrovnik i Zeta su došli pod tursku vlast. Zašto se samo za Dubrovnik kaže da je sačuvao slobodu?"
+        odgovori:
+          - {tekst: "Zeta je osvojena, a Dubrovnik je samo formalno pod sultanom i u suštini vodi sopstveni život", tacan: true}
+          - {tekst: "Dubrovnik je potčinjen ranije od Zete", tacan: false, zasto: "Kasnije je: Zeta 1499, Dubrovnik 1526; a sloboda ne zavisi od godine."}
+          - {tekst: "Dubrovnik je pobedio Turke u velikoj bici", tacan: false, zasto: "Dubrovnik se potčinio; bitke nije bilo."}
+          - {tekst: "Zeta je i dalje slobodna", tacan: false, zasto: "Zeta je pala 1499."}
+        pomoc:
+          - "Korak 1: Šta znači „pala”, a šta „formalno pod sultanom”?"
+          - "Korak 2: Čija je stvarna vlast u svakoj od njih?"
+          - "Iz lekcije: Dubrovnik je formalno pod sultanom, ali je sačuvao slobodu."
+        objasnjenje: "Formalna potčinjenost i stvarno osvajanje nisu isto."
+        iz_udzbenika: {strana: 49, odeljak: "Zapamtite", tekst: "Dubrovačka republika je formalno bila pod sultanom, ali je sačuvala slobodu."}
+
+      - id: l12-datum-carigrad
+        vrsta: datum
+        tezina: lako
+        pojmovi: [carigrad, vizantija]
+        dogadjaj: "Pad Carigrada"
+        pitanje: "Koje godine pada Carigrad?"
+        godina: 1453
+        traka: dogadjaji
+        pomoc:
+          - "Dve godine posle dolaska Mehmeda II na vlast."
+          - "Šest godina pre pada Smedereva."
+          - "Iz lekcije: Carigrad pada 1453."
+        objasnjenje: "Carigrad pada 1453, što je kraj Vizantije."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Mehmed II 1453. zauzima Carigrad."}
+
+      - id: l12-datum-zeta
+        vrsta: datum
+        tezina: lako
+        pojmovi: [zeta]
+        dogadjaj: "Pad Zete"
+        pitanje: "Koje godine je Zeta dospela pod tursku vlast?"
+        godina: 1499
+        traka: dogadjaji
+        pomoc:
+          - "Sam kraj XV veka."
+          - "Godinu dana pre 1500."
+          - "Iz lekcije: Zeta pada 1499."
+        objasnjenje: "Zeta pada 1499, kao poslednja srpska oblast."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Zeta je pala pod Turke 1499."}
+
+      - id: l12-datum-smederevo
+        vrsta: datum
+        tezina: lako
+        pojmovi: [srpska-despotovina]
+        dogadjaj: "Pad Smedereva"
+        pitanje: "Koje godine je Srpska despotovina pala pod Turke Osmanlije?"
+        godina: 1459
+        traka: dogadjaji
+        pomoc:
+          - "Šest godina posle Carigrada."
+          - "Četiri godine pre Bosne."
+          - "Iz lekcije: Despotovina se održala do 1459."
+        objasnjenje: "Despotovina se održala do 1459."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Srpska despotovina se održala do 1459."}
+
+      - id: l12-datum-mehmed
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [mehmed-ii-osvajac]
+        dogadjaj: "Mehmed II Osvajač"
+        pitanje: "Od koje do koje godine vlada Mehmed II Osvajač?"
+        od: 1451
+        do: 1481
+        traka: vladari
+        pomoc:
+          - "Počinje dve godine pre pada Carigrada."
+          - "Vlada tačno trideset godina."
+          - "Iz lekcije: Mehmed II Osvajač, 1451–1481."
+        objasnjenje: "Mehmed II vlada 1451–1481."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Osmansku državu od sredine XV veka vodi sultan Mehmed II Osvajač (1451–1481)."}
+
+      - id: l12-datum-hercegovina
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [hercegovina]
+        dogadjaj: "Pad Hercegovine"
+        pitanje: "Koje godine je zauzeta Hercegovina?"
+        godina: 1482
+        traka: dogadjaji
+        pomoc:
+          - "Godinu dana posle kraja vladavine Mehmeda II."
+          - "Devetnaest godina posle Bosne."
+          - "Iz lekcije: Hercegovina pada 1482."
+        objasnjenje: "Hercegovina pada 1482."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Hercegovina je zauzeta 1482."}
+
+      - id: l12-datum-dubrovnik
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [dubrovacka-republika]
+        dogadjaj: "Dubrovačka republika se potčinjava Osmanlijama"
+        pitanje: "Koje godine se Dubrovačka republika potčinila Osmanlijama?"
+        godina: 1526
+        traka: dogadjaji
+        pomoc:
+          - "Već je XVI vek."
+          - "Dvadeset sedam godina posle pada Zete."
+          - "Iz lekcije: Dubrovnik se potčinjava 1526."
+        objasnjenje: "Dubrovnik se potčinjava 1526, ali čuva slobodu."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Dubrovačka republika se potčinila Osmanlijama 1526."}
+
+      - id: l12-poredjaj-osnovno
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [carigrad, srpska-despotovina, bosna]
+        pitanje: "Poređaj padove hronološki, od najranijeg."
+        stavke:
+          - {tekst: "Pad Carigrada", godina: 1453, naziv: "Pad Carigrada", traka: dogadjaji}
+          - {tekst: "Pad Srpske despotovine", godina: 1459, naziv: "Pad Smedereva", traka: dogadjaji}
+          - {tekst: "Pad Bosne", godina: 1463, naziv: "Pad Bosne", traka: dogadjaji}
+        pomoc:
+          - "Prvo pada Vizantija."
+          - "Srbija pada pre Bosne."
+          - "Iz lekcije: 1453, 1459, 1463."
+        objasnjenje: "Carigrad → Despotovina → Bosna, u razmaku od deset godina."
+        iz_udzbenika: {strana: 49, odeljak: "Zapamtite", tekst: "Vizantija pada 1453, Srpska despotovina 1459, zatim Bosna."}
+
+      - id: l12-poredjaj-srednje
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [bosna, hercegovina, zeta, dubrovacka-republika]
+        pitanje: "Poređaj događaje, od najranijeg."
+        stavke:
+          - {tekst: "Pad Bosne", godina: 1463, naziv: "Pad Bosne", traka: dogadjaji}
+          - {tekst: "Pad Hercegovine", godina: 1482, naziv: "Pad Hercegovine", traka: dogadjaji}
+          - {tekst: "Pad Zete", godina: 1499, naziv: "Pad Zete", traka: dogadjaji}
+          - {tekst: "Dubrovnik se potčinjava Osmanlijama", godina: 1526, naziv: "Dubrovačka republika se potčinjava Osmanlijama", traka: dogadjaji}
+        pomoc:
+          - "Dubrovnik je poslednji."
+          - "Hercegovina pada posle Bosne."
+          - "Iz lekcije: 1463, 1482, 1499, 1526."
+        objasnjenje: "Bosna → Hercegovina → Zeta → Dubrovnik."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Lekcija navodi te godine u redu."}
+
+      - id: l12-poredjaj-sve
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [kosovski-boj, carigrad, novo-brdo, srpska-despotovina, bosna, hercegovina, zeta, dubrovacka-republika]
+        pitanje: "Poređaj sve događaje iz lekcije, od najranijeg."
+        stavke:
+          - {tekst: "Smrt sultana Murata na Kosovu", godina: 1389, naziv: "Bitka na Kosovu", traka: dogadjaji}
+          - {tekst: "Pad Carigrada", godina: 1453, naziv: "Pad Carigrada", traka: dogadjaji}
+          - {tekst: "Pad Novog Brda", godina: 1455, naziv: "Pad Novog Brda", traka: dogadjaji}
+          - {tekst: "Pad Srpske despotovine", godina: 1459, naziv: "Pad Smedereva", traka: dogadjaji}
+          - {tekst: "Pad Bosne", godina: 1463, naziv: "Pad Bosne", traka: dogadjaji}
+          - {tekst: "Pad Hercegovine", godina: 1482, naziv: "Pad Hercegovine", traka: dogadjaji}
+          - {tekst: "Pad Zete", godina: 1499, naziv: "Pad Zete", traka: dogadjaji}
+          - {tekst: "Potčinjavanje Dubrovnika", godina: 1526, naziv: "Dubrovačka republika se potčinjava Osmanlijama", traka: dogadjaji}
+        pomoc:
+          - "Novo Brdo pada između Carigrada i Smedereva."
+          - "Jedini događaj iz XIV veka ide prvi, a jedini iz XVI veka poslednji."
+          - "Iz lekcije: 1389, 1453, 1455, 1459, 1463, 1482, 1499, 1526."
+        objasnjenje: "Lekcija obuhvata vreme od 1389. do 1526."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Hronologija lekcije ide od Muratove smrti do potčinjavanja Dubrovnika."}
+
+      - id: l12-lanac-murat
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [murat, osmanlije, kosovski-boj]
+        karike:
+          - "Sultan Murat umire na Kosovu"
+          - "?"
+          - "Osvajanja se privremeno zaustavljaju"
+        praznina: 1
+        odgovori:
+          - {tekst: "Počinju sukobi pretendenata na presto", tacan: true}
+          - {tekst: "Dubrovnik se potčinjava", tacan: false, zasto: "To je mnogo kasnije, 1526."}
+          - {tekst: "Pada Carigrad", tacan: false, zasto: "Carigrad pada 1453, kad je zastoj već završen."}
+        pomoc:
+          - "Korak 1: Šta se dešava kad umre vladar?"
+          - "Korak 2: Ko se bori za presto?"
+          - "Iz lekcije: smrt Murata → sukobi pretendenata → zastoj osvajanja."
+        objasnjenje: "Bez sultana počinje borba za presto, a osvajanja staju."
+        iz_udzbenika: {strana: 48, odeljak: "Uvod", tekst: "Sukobi pretendenata traju od smrti sultana Murata na Kosovu 1389."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+
+      - id: l12-lanac-sledeci
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [ugarska, mletacka-republika, albanija, grcka]
+        karike:
+          - "Turci pokoravaju Balkan, zajedno sa Albanijom i Grčkom"
+          - "?"
+          - "Ugarska i Mletačka republika postaju sledeći na udaru"
+        praznina: 1
+        odgovori:
+          - {tekst: "Granica Osmanskog carstva dolazi neposredno do ovih država", tacan: true}
+          - {tekst: "Ugarska se ujedinjuje sa Turcima", tacan: false, zasto: "Ugarska je meta širenja, a ne saveznik."}
+          - {tekst: "Mleci osvajaju Carigrad", tacan: false, zasto: "Carigrad su zauzeli Turci."}
+        pomoc:
+          - "Korak 1: Šta se dešava kad nestanu države između dve sile?"
+          - "Korak 2: Ko je sada sused Turaka?"
+          - "Iz lekcije: osvojen Balkan → Ugarska i Mleci sledeći na udaru."
+        objasnjenje: "Pokoravanjem Balkana Turci stižu do Ugarske i Mletačke republike."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Ugarska i Mletačka republika nalaze se neposredno na pravcu širenja."}
+
+      - id: l12-lanac-konsolidacija
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [osmansko-carstvo, mehmed-ii-osvajac, srpska-despotovina]
+        karike:
+          - "Rešeni su sukobi oko prestola"
+          - "?"
+          - "Mehmed II obnavlja osvajačku politiku"
+          - "Nestaju hrišćanske države na Balkanu"
+        praznina: 1
+        odgovori:
+          - {tekst: "Prilike u Osmanskom carstvu se sređuju", tacan: true}
+          - {tekst: "Osmansko carstvo se raspada", tacan: false, zasto: "Upravo suprotno: rešeni sukobi učvršćuju državu."}
+          - {tekst: "Balkanske države osvajaju Malu Aziju", tacan: false, zasto: "Lekcija ne govori ni o čemu takvom; osvaja Osmansko carstvo."}
+        pomoc:
+          - "Korak 1: Šta znači kad su unutrašnji sukobi rešeni?"
+          - "Korak 2: Šta jaka država može onda da radi?"
+          - "Iz lekcije: posle konsolidacije usledilo je snažno širenje."
+        objasnjenje: "Konsolidacija je preduslov za novi talas osvajanja."
+        iz_udzbenika: {strana: 49, odeljak: "Zapamtite", tekst: "Kada su se prilike sredile, Mehmed II Osvajač obnavlja osvajačku politiku."}
+
+      - id: l12-uporedi-sudbine
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [dubrovacka-republika, bosna]
+        a: "Bosna"
+        b: "Dubrovačka republika"
+        pitanje: "Na koju državu se odnosi tvrdnja: Bosnu, Dubrovačku republiku, obe ili nijednu?"
+        tvrdnje:
+          - {tekst: "Došla je pod osmansku vlast.", odgovor: oba, zasto: "Bosna 1463, Dubrovnik 1526."}
+          - {tekst: "Osvojena je dok je trajao građanski rat.", odgovor: a, zasto: "To je sudbina Bosne."}
+          - {tekst: "U suštini je sačuvala slobodu.", odgovor: b, zasto: "Dubrovnik je jedini izuzetak."}
+          - {tekst: "Ostala je potpuno nezavisna od sultana.", odgovor: nijedan, zasto: "Bosna je osvojena, a Dubrovnik je formalno pod sultanom."}
+        pomoc:
+          - "Obe su pod vlašću sultana, ali na različit način."
+          - "Jedna je osvojena, a druga se potčinila."
+          - "Iz lekcije: Bosna osvojena 1463, Dubrovnik potčinjen 1526."
+        objasnjenje: "Obe su pod sultanom, ali samo Dubrovnik čuva stvarnu slobodu."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Bosna je osvojena 1463, a Dubrovnik se potčinio 1526, ali je sačuvao slobodu."}
+
+      - id: l12-ko-sam-mehmed
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [mehmed-ii-osvajac, carigrad]
+        tragovi:
+          - "Osmansku državu vodim od sredine XV veka."
+          - "Nastavio sam politiku svojih prethodnika."
+          - "Zauzeo sam Carigrad 1453."
+        odgovori:
+          - {tekst: "Mehmed II Osvajač", tacan: true}
+          - {tekst: "Murat", tacan: false, zasto: "Murat je umro 1389, na Kosovu."}
+          - {tekst: "Konstantin Mihailović", tacan: false, zasto: "On je pisac i bivši janičar, a ne sultan."}
+          - {tekst: "Stefan Tomašević", tacan: false, zasto: "On je bosanski vladar."}
+        objasnjenje: "To je Mehmed II Osvajač (1451–1481)."
+        iz_udzbenika: {strana: 48, odeljak: "Pad Srbije, Bosne, Hercegovine i Zete", tekst: "Mehmed II Osvajač 1453. zauzima Carigrad."}
+
+      - id: l12-ko-sam-dubrovnik
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [dubrovacka-republika]
+        tragovi:
+          - "Nisam kraljevina."
+          - "Veze sa Zapadom su mi ostale, iako drugima nisu."
+          - "Od 1526. sam formalno pod sultanom."
+        odgovori:
+          - {tekst: "Dubrovačka republika", tacan: true}
+          - {tekst: "Mletačka republika", tacan: false, zasto: "I ona je republika, ali je samo na pravcu širenja i nije se potčinila 1526."}
+          - {tekst: "Kraljevina Ugarska", tacan: false, zasto: "Ugarska je kraljevina."}
+          - {tekst: "Zeta", tacan: false, zasto: "Zeta je osvojena 1499."}
+        objasnjenje: "To je Dubrovačka republika, izuzetak na pokorenom Balkanu."
+        iz_udzbenika: {strana: 49, odeljak: "Zapamtite", tekst: "Dubrovačka republika je formalno bila pod sultanom, ali je sačuvala slobodu."}
+
+      - id: l12-objasni-dubrovnik
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [dubrovacka-republika]
+        pitanje: "Kako je moguće da je država potčinjena sultanu, a da se ipak kaže da je sačuvala slobodu? Objasni na primeru Dubrovnika."
+        uzor: "Dubrovačka republika se 1526. potčinila Osmanlijama, pa je formalno bila pod sultanom. U suštini je ipak zadržala slobodu, kao i u ranijim periodima. Zato je bila izuzetak među balkanskim državama, koje su nestale."
+        ideje:
+          - "Dubrovnik se potčinio 1526."
+          - "Potčinjenost je bila formalna."
+          - "U suštini je sačuvao slobodu."
+        objasnjenje: "Razlikujemo formalnu vlast od stvarne slobode."
+        iz_udzbenika: {strana: 49, odeljak: "Zapamtite", tekst: "Dubrovnik je formalno bio pod sultanom, ali je sačuvao slobodu."}
+        osa: {naziv: "Dubrovačka republika se potčinjava Osmanlijama", od: 1526, traka: dogadjaji}
+
+  # ==========================================================================
+  - naslov: "Posledice osmanlijskih osvajanja"
+    zadaci:
+      - id: l12-posledice-izbor-razvoj
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [osmanlije]
+        pitanje: "Šta je bila glavna posledica osmanlijskih osvajanja za balkanske države?"
+        odgovori:
+          - {tekst: "Prekinut je njihov dotadašnji razvoj", tacan: true}
+          - {tekst: "Ubrzan je njihov razvoj", tacan: false, zasto: "Razvoj je prekinut, a države su nestale."}
+          - {tekst: "Postale su velike sile", tacan: false, zasto: "Samostalne hrišćanske države na Balkanu su nestale."}
+          - {tekst: "Ujedinile su se sa Zapadnom Evropom", tacan: false, zasto: "Veze sa Zapadnom Evropom su, naprotiv, prekinute."}
+        pomoc:
+          - "Pogledaj naslov odeljka: posledice."
+          - "Šta se dešava sa državom koja nestane?"
+          - "Iz lekcije: prekinut je dotadašnji razvoj balkanskih država."
+        objasnjenje: "Osvajanja su prekinula razvoj balkanskih srednjovekovnih država."
+        iz_udzbenika: {strana: 48, odeljak: "Posledice osmanlijskih osvajanja", tekst: "Prekinut je dotadašnji razvoj balkanskih srednjovekovnih država."}
+
+      - id: l12-posledice-izbor-veze
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [dubrovacka-republika]
+        pitanje: "Šta se dešava sa vezama Balkana i Zapadne Evrope?"
+        odgovori:
+          - {tekst: "Prekidaju se sve kulturne i privredne veze, osim kod Dubrovačke republike", tacan: true}
+          - {tekst: "Jačaju, jer Turci podstiču trgovinu sa Zapadom", tacan: false, zasto: "Lekcija navodi prekid veza, a ne jačanje."}
+          - {tekst: "Prekidaju se samo kulturne, a privredne ostaju", tacan: false, zasto: "Prekidaju se i kulturne i privredne veze."}
+          - {tekst: "Prekidaju se i kod Dubrovnika", tacan: false, zasto: "Dubrovnik je izuzetak."}
+        pomoc:
+          - "Važne su dve vrste veza."
+          - "Postoji jedan izuzetak."
+          - "Iz lekcije: prekidaju se sve kulturne i privredne veze, izuzetak je Dubrovnik."
+        objasnjenje: "Balkan je odsečen od Zapada, a Dubrovnik ostaje izuzetak."
+        iz_udzbenika: {strana: 48, odeljak: "Posledice osmanlijskih osvajanja", tekst: "Prekidaju se sve kulturne i privredne veze Balkana sa Zapadnom Evropom; izuzetak je Dubrovačka republika."}
+
+      - id: l12-tn-nestanak
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [osmanlije]
+        tvrdnja: "Posle osvajanja na Balkanu su nestale samostalne hrišćanske države."
+        tacno: true
+        pomoc:
+          - "Seti se niza padova."
+          - "Ostaje samo jedan izuzetak."
+          - "Iz lekcije: na Balkanu nestaju samostalne hrišćanske države."
+        objasnjenje: "Tačno. Izuzetak je samo Dubrovačka republika."
+        iz_udzbenika: {strana: 48, odeljak: "Posledice osmanlijskih osvajanja", tekst: "Na Balkanu nestaju samostalne hrišćanske države."}
+
+      - id: l12-tn-veze-privreda
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [osmanlije]
+        tvrdnja: "Posle osvajanja Balkan je zadržao sve veze sa Zapadnom Evropom."
+        tacno: false
+        ispravke:
+          - {tekst: "Prekinute su sve kulturne i privredne veze, osim kod Dubrovnika.", tacan: true}
+          - {tekst: "Veze su prekinute samo sa Ugarskom.", tacan: false, zasto: "Prekid se odnosi na celu Zapadnu Evropu."}
+          - {tekst: "Veze su ojačale.", tacan: false, zasto: "Veze su prekinute, a ne ojačane."}
+        pomoc:
+          - "Seti se reči „prekid” u delu o posledicama."
+          - "Važi za kulturu i privredu."
+          - "Iz lekcije: prekidaju se sve kulturne i privredne veze sa Zapadnom Evropom."
+        objasnjenje: "Netačno. Veze su prekinute, osim kod Dubrovnika."
+        iz_udzbenika: {strana: 48, odeljak: "Posledice osmanlijskih osvajanja", tekst: "Prekidaju se sve kulturne i privredne veze Balkana sa Zapadnom Evropom."}
+
+      - id: l12-dopuni-posledice
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [dubrovacka-republika]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Osvajanja su prekinula {{razvoj}} balkanskih država i veze sa {{Zapadnom}} Evropom, a izuzetak je {{Dubrovačka}} republika."
+        ponudjene: ["razvoj", "Zapadnom", "Dubrovačka", "Mletačka", "Istočnom"]
+        pomoc:
+          - "Mletačka republika nije na Balkanu pod Turcima."
+          - "Veze su sa suprotne strane Evrope."
+          - "Iz lekcije: prekinut razvoj i veze sa Zapadnom Evropom; izuzetak je Dubrovnik."
+        objasnjenje: "Dubrovnik je jedini izuzetak od opšteg prekida."
+        iz_udzbenika: {strana: 48, odeljak: "Posledice osmanlijskih osvajanja", tekst: "Razvoj balkanskih država i veze sa Zapadnom Evropom su prekinuti, a izuzetak je Dubrovačka republika."}
+
+      - id: l12-zakljuci-znacaj-dubrovnika
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [dubrovacka-republika]
+        pitanje: "Zašto je Dubrovnik posle osvajanja imao posebnu važnost za balkanski svet?"
+        odgovori:
+          - {tekst: "Jedini je ostao izuzetak od prekida veza sa Zapadnom Evropom", tacan: true}
+          - {tekst: "Bio je prestonica Osmanskog carstva", tacan: false, zasto: "Dubrovnik je mala republika, a ne prestonica carstva."}
+          - {tekst: "Osvojio je Ugarsku", tacan: false, zasto: "Dubrovnik nije osvajao, nego se potčinio 1526."}
+          - {tekst: "Bio je najveći rudnik", tacan: false, zasto: "Rudnik je Novo Brdo; Dubrovnik je važan po slobodi i vezama."}
+        pomoc:
+          - "Korak 1: Šta se desilo sa vezama svih ostalih?"
+          - "Korak 2: Ko je jedini izuzetak?"
+          - "Iz lekcije: izuzetak je bila Dubrovačka republika."
+        objasnjenje: "Dok je ostatak Balkana odsečen, Dubrovnik ostaje jedini izuzetak."
+        iz_udzbenika: {strana: 48, odeljak: "Posledice osmanlijskih osvajanja", tekst: "Izuzetak od prekida veza bila je Dubrovačka republika."}
+
+      - id: l12-zakljuci-razlika-srednji-vek
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [osmanlije]
+        pitanje: "Zašto se za osvajanja kaže da su prekinula razvoj, a ne samo promenila vladara?"
+        odgovori:
+          - {tekst: "Zato što su nestale države, a sa njima i veze koje su vodile razvoju kulture i privrede", tacan: true}
+          - {tekst: "Zato što je novi vladar govorio drugim jezikom", tacan: false, zasto: "Lekcija razvoj povezuje sa nestankom država i veza, a ne sa jezikom vladara."}
+          - {tekst: "Zato što su svi stanovnici napustili Balkan", tacan: false, zasto: "Lekcija to ne kaže; stanovništvo je ostalo pod novom vlašću."}
+          - {tekst: "Zato što je Dubrovnik zatvorio trgovinu", tacan: false, zasto: "Dubrovnik je upravo izuzetak."}
+        pomoc:
+          - "Korak 1: Šta je nestalo osim vladara?"
+          - "Korak 2: Šta znači prekid veza za kulturu i privredu?"
+          - "Iz lekcije: nestaju države, prekidaju se veze sa Zapadnom Evropom."
+        objasnjenje: "Prekid nije samo promena vlasti: nestaju države i veze koje su ih razvijale."
+        iz_udzbenika: {strana: 48, odeljak: "Posledice osmanlijskih osvajanja", tekst: "Prekinut je razvoj država i sve kulturne i privredne veze sa Zapadnom Evropom."}
+
+      - id: l12-uporedi-pre-posle
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [osmanlije, dubrovacka-republika]
+        a: "Balkan pre osvajanja"
+        b: "Balkan posle osvajanja"
+        pitanje: "Na koje vreme se odnosi tvrdnja: pre, posle, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Postoje samostalne hrišćanske države.", odgovor: a, zasto: "Posle osvajanja one nestaju."}
+          - {tekst: "Veze sa Zapadnom Evropom su prekinute.", odgovor: b, zasto: "Prekid je posledica osvajanja."}
+          - {tekst: "Postoji Dubrovačka republika.", odgovor: oba, zasto: "Dubrovnik postoji pre i posle osvajanja."}
+          - {tekst: "Vizantijom vlada Stefan Lazarević.", odgovor: nijedan, zasto: "Vizantijom vlada car, a Stefan je srpski despot."}
+        pomoc:
+          - "Šta je nestalo osvajanjima?"
+          - "Jedna republika ostaje."
+          - "Iz lekcije: nestaju države i veze, a Dubrovnik ostaje izuzetak."
+        objasnjenje: "Osvajanja menjaju sliku Balkana, osim kod Dubrovnika."
+        iz_udzbenika: {strana: 48, odeljak: "Posledice osmanlijskih osvajanja", tekst: "Lekcija navodi šta se menja posle osmanlijskih osvajanja."}
+
+      - id: l12-objasni-posledice
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [osmanlije, dubrovacka-republika]
+        pitanje: "Navedi i objasni posledice osmanlijskih osvajanja na Balkanu."
+        uzor: "Prekinut je razvoj balkanskih srednjovekovnih država, a samostalne hrišćanske države su nestale. Prekinute su i sve kulturne i privredne veze sa Zapadnom Evropom. Izuzetak je bila Dubrovačka republika."
+        ideje:
+          - "Prekinut je razvoj država."
+          - "Nestaju samostalne hrišćanske države."
+          - "Prekinute su veze sa Zapadnom Evropom."
+          - "Izuzetak je Dubrovnik."
+        objasnjenje: "Tri posledice i jedan izuzetak."
+        iz_udzbenika: {strana: 48, odeljak: "Posledice osmanlijskih osvajanja", tekst: "Lekcija navodi prekid razvoja, nestanak država i prekid veza sa Zapadnom Evropom."}
+
+      - id: l12-objasni-sta-bi-bilo
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [osmanlije, srpska-despotovina]
+        pitanje: "Uporedi Despotovinu iz prethodne lekcije sa Balkanom posle osvajanja. Šta je izgubljeno? Objasni."
+        uzor: "U Despotovini su cvetali rudarstvo i trgovina, a nastajala su važna dela. Posle osvajanja nestaje samostalna država, a prekidaju se razvoj i veze sa Zapadnom Evropom. Izgubljeni su i samostalnost i mogućnost da se privreda i kultura dalje razvijaju."
+        ideje:
+          - "Despotovina je imala privredni polet."
+          - "Država je izgubila samostalnost."
+          - "Prekinuti su razvoj i veze sa Zapadom."
+        objasnjenje: "Poređenje pokazuje koliko je osvajanje promenilo Balkan."
+        iz_udzbenika: {strana: 48, odeljak: "Posledice osmanlijskih osvajanja", tekst: "Prekinut je dotadašnji razvoj balkanskih srednjovekovnih država."}
+
+  # ==========================================================================
+  - naslov: "Pad Novog Brda"
+    zadaci:
+      - id: l12-novo-brdo-izbor-sta
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [novo-brdo]
+        pitanje: "Zbog čega je Novo Brdo bilo važno mesto?"
+        odgovori:
+          - {tekst: "Imalo je rudnik i majdane zlata i srebra", tacan: true}
+          - {tekst: "Bilo je prestonica Vizantije", tacan: false, zasto: "Prestonica Vizantije je Carigrad."}
+          - {tekst: "Bilo je luka Dubrovnika", tacan: false, zasto: "Novo Brdo je rudarsko mesto, a ne luka."}
+          - {tekst: "Bilo je sedište janičara", tacan: false, zasto: "Janičari se tamo odvode iz grada, ali grad je važan zbog rudnika."}
+        pomoc:
+          - "Seti se prethodne lekcije o prihodima Despotovine."
+          - "Tražimo plemenite metale."
+          - "Iz lekcije: Novo Brdo je mesto sa rudnikom i majdanima zlata i srebra."
+        objasnjenje: "Novo Brdo ima rudnik i majdane zlata i srebra."
+        iz_udzbenika: {strana: 48, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Sultan zauzima Novo Brdo, mesto sa rudnikom i majdanima zlata i srebra."}
+        osa: {naziv: "Pad Novog Brda", od: 1455, traka: dogadjaji}
+
+      - id: l12-mihailovic-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [konstantin-mihailovic, uspomene-janicara, janicari]
+        pitanje: "Zašto su Uspomene janičara dragocene za istoričara?"
+        odgovori:
+          - {tekst: "Pisac je kao mladić sam zarobljen u Novom Brdu i odveden u janičare", tacan: true}
+          - {tekst: "Napisao ih je sultan Mehmed II", tacan: false, zasto: "Napisao ih je Konstantin Mihailović iz Ostrovice."}
+          - {tekst: "Pisac je bio dubrovački trgovac", tacan: false, zasto: "Konstantin je zarobljenik i janičar."}
+          - {tekst: "Nastale su pre pada Novog Brda", tacan: false, zasto: "Opisuju pad Novog Brda koji je pisac doživeo."}
+        pomoc:
+          - "Da li je pisac bio prisutan?"
+          - "Ko je odveden u janičare 1455?"
+          - "Iz lekcije: Konstantin Mihailović je zarobljen u Novom Brdu i 1455. odveden u janičare."
+        objasnjenje: "Delo je svedočanstvo očevica."
+        iz_udzbenika: {strana: 48, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Konstantin Mihailović je kao mladić zarobljen u Novom Brdu i 1455. odveden u janičare."}
+        osa: {naziv: "Pad Novog Brda", od: 1455, traka: dogadjaji}
+
+      - id: l12-tn-brojevi
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [novo-brdo, konstantin-mihailovic]
+        tvrdnja: "Prema odlomku, sultan je podanicima podelio 320 momaka i 700 žena."
+        tacno: true
+        pomoc:
+          - "Pogledaj brojeve u odlomku."
+          - "Oba broja su navedena."
+          - "Iz lekcije: momke (320) i žene (700) deli podanicima."
+        objasnjenje: "Tačno. Odlomak navodi te brojeve."
+        iz_udzbenika: {strana: 49, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Momke (320) i žene (700) sultan deli svojim podanicima."}
+
+      - id: l12-tn-kapije
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [novo-brdo, mehmed-ii-osvajac]
+        tvrdnja: "Sultan je naredio da se otvore sve gradske kapije."
+        tacno: false
+        ispravke:
+          - {tekst: "Naredio je da se sve kapije zatvore osim jedne.", tacan: true}
+          - {tekst: "Naredio je da se sruši grad.", tacan: false, zasto: "Odlomak ne govori o rušenju; ostali su pušteni natrag u varoš."}
+          - {tekst: "Naredio je da svi ostanu u kućama.", tacan: false, zasto: "Svi domaćini sa ukućanima morali su da izađu na šanac."}
+        pomoc:
+          - "Zašto bi sultan hteo da svi prođu kroz jedno mesto?"
+          - "Razmisli o izlazu na šanac."
+          - "Iz lekcije: zatvaraju se sve kapije osim jedne."
+        objasnjenje: "Netačno. Otvorena je samo jedna kapija, pa je sultan mogao da pregleda sve koji izlaze."
+        iz_udzbenika: {strana: 48, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Posle predaje sultan naređuje da se sve kapije zatvore osim jedne."}
+
+      - id: l12-dopuni-izvor
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [konstantin-mihailovic, uspomene-janicara, novo-brdo]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Konstantin Mihailović iz {{Ostrovice}} napisao je {{Uspomene janičara}}. Zarobljen je u {{Novom Brdu}} i {{1455}}. odveden u janičare."
+        ponudjene: ["Ostrovice", "Uspomene janičara", "Novom Brdu", "1455", "Carigradu", "1453"]
+        pomoc:
+          - "Godina nije pad Carigrada."
+          - "Zarobljen je u rudarskom mestu."
+          - "Iz lekcije: Konstantin Mihailović iz Ostrovice, Uspomene janičara, Novo Brdo, 1455."
+        objasnjenje: "Pisac je očevidac pada Novog Brda."
+        iz_udzbenika: {strana: 48, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Konstantin Mihailović iz Ostrovice, pisac Uspomena janičara, 1455. je iz Novog Brda odveden u janičare."}
+
+      - id: l12-dopuni-bez-banke-kapija
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [novo-brdo, janicari]
+        pitanje: "Dopuni tekst bez ponuđenih reči."
+        tekst: "Sultan razdvaja momke, muškarce i žene na {{tri}} strane. Najistaknutije među {{muškarcima}} pogubljuje, a mladiće uzima sebi za {{janičare}}."
+        pomoc:
+          - "Prebroj: momci, muškarci, žene."
+          - "Mladići idu u posebnu vojsku."
+          - "Iz lekcije: tri strane; pogubljuje najistaknutije muškarce; mladiće uzima za janičare."
+        objasnjenje: "Razdvajanje pokazuje plan: pogubiti ugledne, a mlade iskoristiti."
+        iz_udzbenika: {strana: 49, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Sultan razdvaja stanovnike na tri strane, pogubljuje najistaknutije, a mladiće uzima za janičare."}
+
+      - id: l12-povezi-podela
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [novo-brdo, janicari]
+        pitanje: "Poveži grupu stanovnika Novog Brda sa njenom sudbinom po izvoru."
+        parovi:
+          - ["najistaknutiji muškarci", "pogubljeni"]
+          - ["ostali muškarci", "pušteni u varoš, imanje netaknuto"]
+          - ["momci i žene", "podeljeni sultanovim podanicima"]
+          - ["mladići", "uzeti za janičare"]
+        pomoc:
+          - "Sultan uklanja moguće vođe."
+          - "Ostali mogu da nastave život u varoši."
+          - "Iz lekcije: svaka grupa ima drugačiju sudbinu."
+        objasnjenje: "Četiri sudbine pokazuju smišljen postupak prema pokorenom gradu."
+        iz_udzbenika: {strana: 49, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Sultan najistaknutije pogubljuje, ostale pušta u varoš, momke i žene deli, a mladiće uzima za janičare."}
+
+      - id: l12-zakljuci-jedna-kapija
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [novo-brdo, mehmed-ii-osvajac]
+        pitanje: "Zašto je sultan ostavio otvorenu samo jednu kapiju?"
+        odgovori:
+          - {tekst: "Da svi prođu pored njega, pa da ih razdvoji i niko ne pobegne", tacan: true}
+          - {tekst: "Da građani lakše pobegnu", tacan: false, zasto: "Jedna kapija otežava, a ne olakšava bekstvo."}
+          - {tekst: "Zato što ostale kapije nisu postojale", tacan: false, zasto: "Zatvorene su po naređenju, što znači da su postojale."}
+          - {tekst: "Da zaštiti grad od Ugara", tacan: false, zasto: "Odlomak ne spominje Ugre; kroz kapiju prolaze stanovnici, koje sultan razdvaja."}
+        pomoc:
+          - "Korak 1: Gde stoji sultan?"
+          - "Korak 2: Šta može da radi sa ljudima koji prolaze?"
+          - "Iz lekcije: sultan stoji kod te kapije i razdvaja ljude."
+        objasnjenje: "Jedna kapija omogućava potpunu kontrolu nad stanovništvom."
+        iz_udzbenika: {strana: 48, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Sultan stoji kod jedine otvorene kapije i razdvaja ljude."}
+
+      - id: l12-zakljuci-obecanje
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [novo-brdo, mehmed-ii-osvajac, janicari]
+        pitanje: "Šta je sultan od obećanja održao, a šta prekršio?"
+        odgovori:
+          - {tekst: "Puštenima je ostavio imanje, a oduzeo je mlade, iako je obećao da neće", tacan: true}
+          - {tekst: "Održao je sva obećanja", tacan: false, zasto: "Obećao je da neće oduzimati mlade, a odveo ih je."}
+          - {tekst: "Prekršio je sve: svi su izgubili imovinu", tacan: false, zasto: "Puštenima u varoš imanje nije dirao."}
+          - {tekst: "Nije dao nikakvo obećanje", tacan: false, zasto: "Grad se predao po dogovoru, uz obećanja."}
+        pomoc:
+          - "Korak 1: Koja dva obećanja je dao?"
+          - "Korak 2: Šta je učinio sa mladima, a šta sa imanjem puštenih?"
+          - "Iz lekcije: obećao je imovinu i mlade; ostale je pustio i nije im dirao imanje, a momke i mladiće je uzeo."
+        objasnjenje: "Pogodba je samo delimično poštovana, a mladi su odvedeni."
+        iz_udzbenika: {strana: 49, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Sultan je obećao da će ostaviti imovinu i mlade, a ipak je uzeo momke i mladiće."}
+
+      - id: l12-izvor-obecanje
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [novo-brdo, mehmed-ii-osvajac, konstantin-mihailovic]
+        izvor:
+          autor: "Konstantin Mihailović iz Ostrovice"
+          naslov: "Uspomene janičara"
+          tekst: "Sultan je došao pred Novo Brdo, mesto bogato zlatom i srebrom. Građani su pristali na predaju, a on im je zauzvrat obećao da će im imovina ostati i da im neće uzimati mlade ljude."
+          napomena: "Odlomak je prepričan; udžbenik, str. 48."
+        pitanje: "Šta je sultan obećao građanima?"
+        odgovori:
+          - {tekst: "Da će im ostaviti imovinu i da im neće oduzimati devojke i mladiće", tacan: true}
+          - {tekst: "Da će im dati Carigrad", tacan: false, zasto: "Carigrad nije deo obećanja."}
+          - {tekst: "Da će ih sve poslati u Dubrovnik", tacan: false, zasto: "Takvog obećanja u odlomku nema."}
+          - {tekst: "Da će im ukinuti rudnik", tacan: false, zasto: "Odlomak spominje rudnik, ali ne i obećanje o njemu."}
+        pomoc:
+          - "Pročitaj drugu rečenicu odlomka."
+          - "Traži imovinu i mlade."
+          - "Iz lekcije: sultan obećava imovinu i da neće oduzimati mlade."
+        objasnjenje: "Obećanje se tiče imovine i mladih."
+        iz_udzbenika: {strana: 48, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Sultan je obećao da će stanovnicima ostaviti imovinu i da im neće oduzimati ni devojke ni mladiće."}
+
+      - id: l12-izvor-razdvajanje
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [novo-brdo, mehmed-ii-osvajac]
+        izvor:
+          autor: "Konstantin Mihailović iz Ostrovice"
+          naslov: "Uspomene janičara"
+          tekst: "Stanovnici izlaze na šanac kroz jednu kapiju, a imovinu ostavljaju kod kuće. Sultan ih deli na tri grupe. Ugledne muškarce daje da se pogube, a ostale vraća u varoš i ne uzima im imanje."
+          napomena: "Odlomak je prepričan; udžbenik, str. 49."
+        pitanje: "Zašto je sultan pogubio baš najistaknutije muškarce?"
+        odgovori:
+          - {tekst: "Da ukloni one oko kojih bi građani mogli da se okupe", tacan: true}
+          - {tekst: "Zato što su bili janičari", tacan: false, zasto: "Janičari postaju mladići, a ne ugledni muškarci."}
+          - {tekst: "Zato što su bili najmlađi", tacan: false, zasto: "Najmlađi su uzeti, a pogubljeni su najistaknutiji."}
+          - {tekst: "Zato što su sami to tražili", tacan: false, zasto: "U odlomku oni nemaju izbora."}
+        pomoc:
+          - "Ko u gradu ima najviše uticaja?"
+          - "Šta sultan dobija ako ih nema?"
+          - "Iz lekcije: najistaknutije pogubljuje, ostale pušta."
+        objasnjenje: "Uklanjanjem uglednih ljudi sultan sprečava otpor."
+        iz_udzbenika: {strana: 49, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Sultan najistaknutije pogubljuje, a ostale pušta u varoš."}
+
+      - id: l12-izvor-ocevidac
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [konstantin-mihailovic, uspomene-janicara]
+        izvor:
+          autor: "Konstantin Mihailović iz Ostrovice"
+          naslov: "Uspomene janičara"
+          tekst: "Pisac beleži brojeve odvedenih i tačan redosled događaja pri padu Novog Brda: kapiju, šanac, razdvajanje i podelu ljudi."
+          napomena: "Odlomak je prepričan; udžbenik, str. 49."
+        pitanje: "Koja je prednost, a koja slabost ovakvog izvora?"
+        odgovori:
+          - {tekst: "Prednost: pisac je očevidac. Slabost: bio je žrtva, pa može biti pristrasan prema sultanu", tacan: true}
+          - {tekst: "Prednost: pisac je sultan. Slabost: nema brojeva", tacan: false, zasto: "Pisac je zarobljenik, a brojevi su navedeni."}
+          - {tekst: "Prednost: nastao je pre događaja. Slabost: prekratak je", tacan: false, zasto: "Opisuje događaj koji je pisac doživeo, pa ne prethodi događaju."}
+          - {tekst: "Nema ni prednosti ni slabosti", tacan: false, zasto: "Svaki izvor ih ima; ovde važi da je pisac i svedok i žrtva."}
+        pomoc:
+          - "Ko je pisac i gde je bio?"
+          - "Šta je sultan učinio piscu?"
+          - "Iz lekcije: Konstantin je zarobljen u Novom Brdu i odveden u janičare."
+        objasnjenje: "Svedočenje očevica je dragoceno, ali ga treba čitati sa svešću o piščevoj sudbini."
+        iz_udzbenika: {strana: 48, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Pisac je kao mladić zarobljen u Novom Brdu i 1455. odveden u janičare."}
+
+      - id: l12-izvor-slika-velikodostojnik
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [janicari]
+        izvor:
+          autor: "Ilustracija iz udžbenika (Slika 51)"
+          naslov: "Na ulici"
+          tekst: "Stari zapovednik sa turbanom i bogatom haljinom ide ulicom, a uz njega su dvojica pratilaca: jedan sa dugom puškom, drugi u trku, sa visokom kapom."
+          napomena: "Odlomak je prepričan; udžbenik, str. 49."
+        pitanje: "Šta pokazuje ova ilustracija?"
+        odgovori:
+          - {tekst: "Razlike u rangu i odeći među janičarima", tacan: true}
+          - {tekst: "Da su svi janičari bili isti", tacan: false, zasto: "Zapovednik i pratioci se jasno razlikuju po odeći."}
+          - {tekst: "Dubrovačke trgovce", tacan: false, zasto: "Prikazani su janičarski velikodostojnik i pratnja."}
+          - {tekst: "Bosanske feudalce", tacan: false, zasto: "Slika stoji uz janičare, a ne uz Bosnu."}
+        pomoc:
+          - "Uporedi odeću zapovednika i pratilaca."
+          - "Ko hoda, a ko trči?"
+          - "Iz lekcije: Slika 51 pokazuje janičarskog velikodostojnika sa pratnjom."
+        objasnjenje: "Janičari su imali unutrašnju hijerarhiju, vidljivu i u odeći."
+        iz_udzbenika: {strana: 49, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Janičarski velikodostojnik je prikazan sa pratnjom.", slika: "12-pad-pod-osmanlijsku-vlast/02-janicarski-velikodostojnik.jpg"}
+
+      - id: l12-izvor-slika-janicari
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [janicari]
+        izvor:
+          autor: "Ilustracija iz udžbenika (Slika 50)"
+          naslov: "Dva vojnika"
+          tekst: "Dvojica vojnika u uniformi sa širokim pantalonama i visokom kapom: jedan nišani dugom puškom, a drugi drži pušku uz telo."
+          napomena: "Odlomak je prepričan; udžbenik, str. 48."
+        pitanje: "Zašto su ovakvi vojnici bili prednost za Turke?"
+        odgovori:
+          - {tekst: "Bili su doživotno plaćena stajaća vojska, spremna u svako doba", tacan: true}
+          - {tekst: "Bili su samo trgovci sa puškama", tacan: false, zasto: "Janičari su pravi vojnici, a ne trgovci."}
+          - {tekst: "Služili su samo jedan dan u godini", tacan: false, zasto: "Stajaća vojska je stalna, a ne povremena."}
+          - {tekst: "Birali su sultana na izborima", tacan: false, zasto: "O tome lekcija ne govori; prednost je stalna plaćena vojska."}
+        pomoc:
+          - "Šta znači stajaća vojska?"
+          - "Bili su prvi takvi u Evropi."
+          - "Iz lekcije: janičari su doživotno plaćena stajaća vojska, prva takva u Evropi."
+        objasnjenje: "Stalna plaćena vojska je uvek spremna za rat."
+        iz_udzbenika: {strana: 48, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Janičari su bili doživotno plaćena stajaća vojska, prva takva u Evropi.", slika: "12-pad-pod-osmanlijsku-vlast/01-janicari.jpg"}
+
+      - id: l12-uporedi-grupe
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [novo-brdo, janicari, mehmed-ii-osvajac]
+        a: "Najistaknutiji muškarci"
+        b: "Mladići"
+        pitanje: "Na koju se grupu iz Novog Brda odnosi tvrdnja: istaknuti muškarci, mladići, obe ili nijedna?"
+        tvrdnje:
+          - {tekst: "Sultan ih je pogubio.", odgovor: a, zasto: "Pogubljeni su najistaknutiji muškarci."}
+          - {tekst: "Sultan ih je uzeo za janičare.", odgovor: b, zasto: "Mladiće uzima za janičare."}
+          - {tekst: "Prošli su kroz jedinu otvorenu kapiju.", odgovor: oba, zasto: "Svi domaćini sa ukućanima prolaze kroz nju."}
+          - {tekst: "Bili su pušteni kući sa imanjem.", odgovor: nijedan, zasto: "Puštaju se ostali muškarci, a ne ove dve grupe."}
+        pomoc:
+          - "Svaka grupa ima svoju sudbinu."
+          - "Pušteni su neki treći."
+          - "Iz lekcije: istaknute pogubljuje, mladiće uzima, ostale pušta."
+        objasnjenje: "Sultan različito postupa sa svakom grupom."
+        iz_udzbenika: {strana: 49, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Sultan najistaknutije pogubljuje, ostale pušta, a mladiće uzima za janičare."}
+
+      - id: l12-ko-sam-konstantin
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [konstantin-mihailovic, uspomene-janicara, novo-brdo]
+        tragovi:
+          - "Kao mladić sam doživeo pad jednog grada."
+          - "Odveden sam 1455. u janičare."
+          - "Napisao sam Uspomene janičara."
+        odgovori:
+          - {tekst: "Konstantin Mihailović iz Ostrovice", tacan: true}
+          - {tekst: "Konstantin Filozof", tacan: false, zasto: "On je biograf despota Stefana, a ne janičar."}
+          - {tekst: "Mehmed II", tacan: false, zasto: "On je sultan koji je zauzeo grad."}
+          - {tekst: "Grigorije Camblak", tacan: false, zasto: "On je autor biografije Stefana Dečanskog."}
+        objasnjenje: "To je Konstantin Mihailović iz Ostrovice."
+        iz_udzbenika: {strana: 48, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Konstantin Mihailović je zarobljen u Novom Brdu i 1455. odveden u janičare."}
+
+      - id: l12-objasni-janicari
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [janicari, novo-brdo]
+        pitanje: "Ko su bili janičari i kako je Konstantin Mihailović postao jedan od njih?"
+        uzor: "Janičari su doživotno plaćena stajaća vojska Turaka, prva takva u Evropi. Konstantin Mihailović je kao mladić zarobljen u Novom Brdu i 1455. odveden u janičare."
+        ideje:
+          - "Janičari su plaćena stajaća vojska."
+          - "Bila je prva takva u Evropi."
+          - "Konstantin je zarobljen u Novom Brdu."
+        objasnjenje: "Vojska se popunjavala mladićima iz osvojenih krajeva."
+        iz_udzbenika: {strana: 48, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Konstantin Mihailović je 1455. iz Novog Brda odveden u janičare.", slika: "12-pad-pod-osmanlijsku-vlast/01-janicari.jpg"}
+
+      - id: l12-objasni-novo-brdo
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [novo-brdo, mehmed-ii-osvajac, janicari]
+        pitanje: "Šta nam pad Novog Brda govori o tome kako su Turci postupali sa osvojenim gradom? Objasni na osnovu izvora."
+        uzor: "Sultan je obećanjima naveo grad na predaju, pa je stanovnike razdvojio. Ugledne ljude je pogubio da ne bi bilo otpora, mlade je odveo, a ostale je pustio da žive u varoši i rade. Tako je dobio i pokoran grad i nove vojnike."
+        ideje:
+          - "Predaja je postignuta obećanjima."
+          - "Ugledni ljudi su pogubljeni."
+          - "Mladi su odvedeni u janičare."
+          - "Ostali su pušteni u varoš."
+        objasnjenje: "Postupak je smišljen: uklanja otpor, a koristi ljude."
+        iz_udzbenika: {strana: 49, odeljak: "Iz istorijskih izvora: Pad Novog Brda", tekst: "Izvor opisuje predaju, razdvajanje i sudbinu stanovnika Novog Brda."}
+        osa: {naziv: "Pad Novog Brda", od: 1455, traka: dogadjaji}

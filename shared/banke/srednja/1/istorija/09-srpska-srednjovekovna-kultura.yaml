@@ -1,0 +1,1259 @@
+# Banka pitanja: Srpska srednjovekovna kultura (istorija, 1. razred srednje škole, str. 38–40). Sopstvenim rečima, po belešci lekcije.
+lekcija: 9
+naslov: "Srpska srednjovekovna kultura"
+pojmovi:
+  srednjovekovna-kultura: "srednjovekovna kultura"
+  manastir: "manastir"
+  freska: "freska"
+  ikona: "ikona"
+  jevandjelje: "jevanđelje"
+  srpska-redakcija: "srpska redakcija"
+  miroslavljevo-jevandjelje: "Miroslavljevo jevanđelje"
+  hagiografija: "hagiografija"
+  biografija: "biografija"
+  sava-nemanjic: "Sava Nemanjić"
+  stefan-prvovencani: "Stefan Prvovenčani"
+  stefan-nemanja: "Stefan Nemanja"
+  teodosije: "Teodosije"
+  zivot-svetog-save: "Život Svetog Save"
+  konstantin-filozof: "Konstantin Filozof"
+  stefan-lazarevic: "Stefan Lazarević"
+  viteski-romani: "viteški romani"
+  aleksandrida: "Aleksandrida"
+  aleksandar-makedonski: "Aleksandar Makedonski"
+  pohvala-knezu-lazaru: "Pohvala knezu Lazaru"
+  jefimija: "Jefimija"
+  knez-lazar: "knez Lazar"
+  kosovska-bitka: "Kosovska bitka"
+  moravski-stil: "moravski stil"
+  studenica: "Studenica"
+  gradac: "Gradac"
+  manasija: "Manasija"
+  mileseva: "Mileševa"
+  decani: "Dečani"
+  hilandar: "Hilandar"
+  sveta-gora: "Sveta Gora"
+  hilandarska-povelja: "Hilandarska povelja"
+  ktitor: "ktitor"
+  vizantija: "Vizantija"
+  univerziteti: "univerziteti"
+  dubrovacki-trgovci: "dubrovački trgovci"
+delovi:
+  - naslov: "Srednjovekovna umetnost"
+    zadaci:
+      - id: l09-vera-sredina-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [srednjovekovna-kultura]
+        pitanje: "Šta je bilo u središtu srpske srednjovekovne umetnosti?"
+        odgovori:
+          - {tekst: "Hrišćanstvo", tacan: true}
+          - {tekst: "Ratovanje protiv Turaka", tacan: false, zasto: "Turska osvajanja su kasnije zaustavila promene, ali umetnost je bila verska."}
+          - {tekst: "Trgovina sa Dubrovnikom", tacan: false, zasto: "Trgovina je donosila novine, ali nije bila tema umetnosti."}
+          - {tekst: "Antički bogovi", tacan: false, zasto: "Interesovanje za antičke pisce javlja se tek u razvijenom feudalizmu, i to kao novina."}
+        pomoc: ["Razmisli gde su se stvarale knjige i slike.", "To je isto što i u ostatku tadašnje Evrope.", "Iz lekcije: hrišćanstvo je u središtu srpske umetnosti."]
+        objasnjenje: "Kao i u ostatku Evrope, umetnost i učenost bile su u službi vere."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Hrišćanstvo je u središtu srpske umetnosti, a i književnost je prvenstveno crkvena."}
+      - id: l09-manastiri-sredista-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [manastir]
+        pitanje: "Gde su se u srednjovekovnoj Srbiji najviše čitale, prepisivale i prevodile knjige?"
+        odgovori:
+          - {tekst: "U manastirima", tacan: true}
+          - {tekst: "Na univerzitetima u Srbiji", tacan: false, zasto: "Prvi univerziteti nastaju na Zapadu; u Srbiji su knjige bile u manastirima."}
+          - {tekst: "U dubrovačkim prodavnicama", tacan: false, zasto: "Dubrovački trgovci su donosili novine, ali knjige su se prepisivale u manastirima."}
+          - {tekst: "U vojnim logorima", tacan: false, zasto: "Knjige su bile potrebne za verske obrede, pa su nastajale u manastirima."}
+        pomoc: ["Kome su knjige najviše trebale?", "Tamo su živeli monasi.", "Iz lekcije: manastiri su bili središta čitanja, prepisivanja i prevođenja."]
+        objasnjenje: "Manastiri su bili središta pismenosti, jer su knjige bile potrebne za bogosluženje."
+        iz_udzbenika: {strana: 38, odeljak: "Uvod", tekst: "Srpski manastiri bili su središta čitanja, prepisivanja i prevođenja knjiga i starih rukopisa."}
+      - id: l09-miroslavljevo-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [miroslavljevo-jevandjelje, jevandjelje]
+        pitanje: "Koji je najpoznatiji srednjovekovni rukopis na srpskom jeziku?"
+        odgovori:
+          - {tekst: "Miroslavljevo jevanđelje", tacan: true}
+          - {tekst: "Aleksandrida", tacan: false, zasto: "Aleksandrida je omiljeni viteški roman o Aleksandru Makedonskom."}
+          - {tekst: "Pohvala knezu Lazaru", tacan: false, zasto: "Pohvalu je Jefimija izvezla na platnu; to nije rukopis."}
+          - {tekst: "Hilandarska povelja", tacan: false, zasto: "To je povelja Simeona Nemanje; lekcija kao najpoznatiji rukopis navodi jevanđelje."}
+        pomoc: ["Nastao je 1185.", "To je verska knjiga sa ličnim imenom u nazivu.", "Iz lekcije: najpoznatiji rukopis je Miroslavljevo jevanđelje."]
+        objasnjenje: "Miroslavljevo jevanđelje iz 1185. najpoznatiji je srednjovekovni rukopis na srpskom jeziku."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Najpoznatiji rukopis na srpskom jeziku iz srednjeg veka je Miroslavljevo jevanđelje, nastalo 1185."}
+        osa: {naziv: "Miroslavljevo jevanđelje", od: 1185, traka: crkva-kultura}
+      - id: l09-hagiografija-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [hagiografija]
+        pitanje: "Šta su hagiografije?"
+        odgovori:
+          - {tekst: "Žitija, to jest životopisi svetaca", tacan: true}
+          - {tekst: "Viteški romani", tacan: false, zasto: "Viteški romani su priče o junacima, kao Aleksandrida; hagiografije su žitija svetaca."}
+          - {tekst: "Zidne slike u hramovima", tacan: false, zasto: "To su freske."}
+          - {tekst: "Povelje koje vladari izdaju manastirima", tacan: false, zasto: "Povelje su službena dokumenta, a hagiografije su priče o životu svetaca."}
+        pomoc: ["To su bila najomiljenija dela.", "Govore o životu svetih ljudi.", "Iz lekcije: hagiografije su žitija svetaca."]
+        objasnjenje: "Hagiografije, životopisi svetaca, bile su najomiljenije srednjovekovno štivo."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Najomiljenija dela bile su hagiografije, odnosno žitija svetaca."}
+      - id: l09-jefimija-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [pohvala-knezu-lazaru, jefimija]
+        pitanje: "Ko je izvezao Pohvalu knezu Lazaru?"
+        odgovori:
+          - {tekst: "Monahinja Jefimija", tacan: true}
+          - {tekst: "Monah Teodosije", tacan: false, zasto: "Teodosije je hilandarski monah, poznat po delu Život Svetog Save."}
+          - {tekst: "Konstantin Filozof", tacan: false, zasto: "Konstantin je napisao biografiju despota Stefana Lazarevića."}
+          - {tekst: "Stefan Prvovenčani", tacan: false, zasto: "On je pisao biografiju svog oca, Stefana Nemanje."}
+        pomoc: ["Delo je vez na platnu, a ne knjiga.", "Autorka je žena u manastiru.", "Iz lekcije: Pohvalu knezu Lazaru izvezla je na platnu monahinja Jefimija."]
+        objasnjenje: "Jefimijin vez opisuje Lazareve podvige i daje podatke o Srbiji posle Kosovske bitke."
+        iz_udzbenika: {strana: 38, odeljak: "Aleksandrida i Pohvala knezu Lazaru", tekst: "Pohvalu knezu Lazaru izvezla je na platnu monahinja Jefimija."}
+      - id: l09-biografije-nemanja-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [sava-nemanjic, stefan-prvovencani, stefan-nemanja, biografija]
+        pitanje: "Ko su pisali biografije Stefana Nemanje? (više tačnih)"
+        odgovori:
+          - {tekst: "Sava Nemanjić", tacan: true}
+          - {tekst: "Stefan Prvovenčani", tacan: true}
+          - {tekst: "Teodosije", tacan: false, zasto: "Teodosijevo najznačajnije delo je Život Svetog Save."}
+          - {tekst: "Konstantin Filozof", tacan: false, zasto: "Konstantin je pisao o despotu Stefanu Lazareviću."}
+        pomoc: ["Pisci su Nemanjini sinovi.", "Jedan je kasnije postao Sveti Sava.", "Iz lekcije: Sava i Stefan Prvovenčani pisali su biografije svog oca."]
+        objasnjenje: "Sinovi su pisali o ocu: Sava Nemanjić i Stefan Prvovenčani o Stefanu Nemanji."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Sava Nemanjić i Stefan Prvovenčani pisali su biografije svog oca, Stefana Nemanje."}
+      - id: l09-konstantin-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [konstantin-filozof, stefan-lazarevic, biografija]
+        pitanje: "Čiju je biografiju napisao Konstantin Filozof?"
+        odgovori:
+          - {tekst: "Despota Stefana Lazarevića", tacan: true}
+          - {tekst: "Svetog Save", tacan: false, zasto: "Život Svetog Save napisao je Teodosije."}
+          - {tekst: "Stefana Nemanje", tacan: false, zasto: "Nemanjine biografije napisali su njegovi sinovi."}
+          - {tekst: "Aleksandra Makedonskog", tacan: false, zasto: "O njemu govori viteški roman Aleksandrida."}
+        pomoc: ["To je jedna od najboljih srpskih srednjovekovnih biografija.", "Junak je bio despot.", "Iz lekcije: Konstantin Filozof je napisao biografiju despota Stefana Lazarevića."]
+        objasnjenje: "Biografija Stefana Lazarevića važi za jednu od najboljih srpskih srednjovekovnih biografija."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Konstantin Filozof napisao je biografiju despota Stefana Lazarevića."}
+      - id: l09-pohvala-znacaj-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [pohvala-knezu-lazaru, knez-lazar, kosovska-bitka]
+        pitanje: "Zašto je Pohvala knezu Lazaru važna i istoričarima, a ne samo kao vez?"
+        odgovori:
+          - {tekst: "Daje važne podatke o stanju u Srbiji posle Kosovske bitke", tacan: true}
+          - {tekst: "Opisuje osnivanje Hilandara", tacan: false, zasto: "O tome govori Hilandarska povelja."}
+          - {tekst: "Sadrži sva dela Aleksandra Makedonskog", tacan: false, zasto: "To je sadržaj Aleksandride."}
+          - {tekst: "Prva je knjiga pisana srpskom redakcijom", tacan: false, zasto: "Pohvala je vez, a lekcija to ne tvrdi."}
+        pomoc: ["Kada je nastala u odnosu na Kosovo?", "Ona nije samo pohvala, već i svedočanstvo.", "Iz lekcije: vez opisuje kneževe podvige i daje važne podatke o stanju u Srbiji posle Kosovske bitke."]
+        objasnjenje: "Umetničko delo može biti i istorijski izvor: Pohvala svedoči o Srbiji posle Kosova."
+        iz_udzbenika: {strana: 38, odeljak: "Aleksandrida i Pohvala knezu Lazaru", tekst: "Vez opisuje kneževe podvige i daje važne podatke o stanju u Srbiji posle Kosovske bitke."}
+      - id: l09-svetovno-tesko-izbor
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [viteski-romani, aleksandrida, hagiografija]
+        pitanje: "Koji od ovih podataka najbolje pokazuje da crkvena književnost ipak nije bila jedina koja se čitala?"
+        odgovori:
+          - {tekst: "Među čitaocima je bio omiljen viteški roman Aleksandrida", tacan: true}
+          - {tekst: "Hagiografije su bile najomiljenije", tacan: false, zasto: "Hagiografije su crkvena dela, pa to potvrđuje prevlast crkvene književnosti."}
+          - {tekst: "U manastirima su se prepisivale knjige za obrede", tacan: false, zasto: "To su verske knjige."}
+          - {tekst: "Jevanđelje je najpoznatiji rukopis", tacan: false, zasto: "Jevanđelje je verska knjiga."}
+        pomoc: ["Traži delo koje nije o svecu.", "Junak je antički vladar.", "Iz lekcije: čitani su i viteški romani, naročito Aleksandrida."]
+        objasnjenje: "Književnost je bila prvenstveno, ali ne isključivo crkvena: čitani su i viteški romani."
+        iz_udzbenika: {strana: 38, odeljak: "Aleksandrida i Pohvala knezu Lazaru", tekst: "Među viteškim romanima naročito je omiljena Aleksandrida."}
+      - id: l09-srpska-redakcija-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [srpska-redakcija]
+        tvrdnja: "Knjige u Srbiji pisane su srpskom redakcijom slovenskog jezika."
+        tacno: true
+        pomoc: ["Reč „redakcija” znači prilagođeni oblik.", "Iz lekcije: knjige su pisane srpskom redakcijom slovenskog jezika."]
+        objasnjenje: "Tačno. Knjige su pisane srpskom redakcijom slovenskog jezika."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Knjige u Srbiji pisane su srpskom redakcijom slovenskog jezika."}
+      - id: l09-prepisivanje-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [manastir]
+        tvrdnja: "Prepisivanje knjiga za verske obrede bilo je redak posao u manastirima."
+        tacno: false
+        ispravke:
+          - {tekst: "Prepisivanje knjiga za verske obrede bilo je stalan posao u manastirima.", tacan: true}
+          - {tekst: "Knjige su se prepisivale samo u Dubrovniku.", tacan: false, zasto: "Lekcija govori o manastirima; Dubrovnik je veza sa Zapadom kroz trgovinu."}
+          - {tekst: "Knjige za obrede kupovane su na univerzitetima.", tacan: false, zasto: "Univerziteti nastaju na Zapadu i nisu bili izvor knjiga za srpske obrede."}
+        pomoc: ["Mogu li se obredi obavljati bez knjiga?", "Štampe još nema.", "Iz lekcije: stalni posao u manastirima bilo je prepisivanje knjiga za verske obrede."]
+        objasnjenje: "Netačno. Potreba za knjigama u obredima značila je stalno prepisivanje."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Stalni posao u manastirima bilo je prepisivanje knjiga za verske obrede."}
+      - id: l09-aleksandrida-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [aleksandrida, aleksandar-makedonski, viteski-romani]
+        tvrdnja: "Aleksandrida je viteški roman o delima Aleksandra Makedonskog."
+        tacno: true
+        pomoc: ["Naziv dolazi od imena junaka.", "Iz lekcije: Aleksandrida je omiljen viteški roman o delima Aleksandra Makedonskog."]
+        objasnjenje: "Tačno. Aleksandrida je bila naročito omiljena među viteškim romanima."
+        iz_udzbenika: {strana: 38, odeljak: "Aleksandrida i Pohvala knezu Lazaru", tekst: "Aleksandrida je omiljen viteški roman o delima Aleksandra Makedonskog."}
+      - id: l09-teodosije-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [teodosije, zivot-svetog-save, hilandar]
+        tvrdnja: "Hilandarski monah Teodosije napisao je biografiju despota Stefana Lazarevića."
+        tacno: false
+        ispravke:
+          - {tekst: "Teodosijev najznačajniji rukopis je Život Svetog Save.", tacan: true}
+          - {tekst: "Teodosije je izvezao Pohvalu knezu Lazaru.", tacan: false, zasto: "Pohvalu je izvezla monahinja Jefimija."}
+          - {tekst: "Teodosije je autor Aleksandride.", tacan: false, zasto: "Lekcija ne navodi autora Aleksandride, a Teodosijevo delo je Život Svetog Save."}
+        pomoc: ["Biografiju Stefana Lazarevića napisao je neko sa nadimkom Filozof.", "Teodosije je pisao o svetitelju.", "Iz lekcije: najznačajniji Teodosijev rukopis je Život Svetog Save."]
+        objasnjenje: "Netačno. Biografiju Stefana Lazarevića napisao je Konstantin Filozof, a Teodosije Život Svetog Save."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Hilandarski monah Teodosije ostavio je više rukopisa, a najznačajniji je Život Svetog Save."}
+      - id: l09-prozeto-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [srednjovekovna-kultura]
+        tvrdnja: "Srbija je po verskom karakteru umetnosti bila izuzetak u tadašnjoj Evropi."
+        tacno: false
+        ispravke:
+          - {tekst: "Kao i u ostatku tadašnje Evrope, svaka umetnost i nauka bila je prožeta religijom.", tacan: true}
+          - {tekst: "U Srbiji religija nije bila važna za umetnost.", tacan: false, zasto: "Hrišćanstvo je bilo u središtu umetnosti."}
+          - {tekst: "Samo je Srbija imala manastire.", tacan: false, zasto: "Hilandar stoji na Svetoj Gori, središtu pravoslavlja, među drugim zajednicama."}
+        pomoc: ["Lekcija poredi Srbiju sa ostatkom Evrope.", "Da li je razlika ili sličnost?", "Iz lekcije: kao u ostatku tadašnje Evrope, svaka umetnost i nauka bila je prožeta religijom."]
+        objasnjenje: "Netačno. U tome je Srbija ličila na ostatak Evrope."
+        iz_udzbenika: {strana: 38, odeljak: "Uvod", tekst: "Kao u ostatku tadašnje Evrope, svaka umetnost i nauka bila je prožeta religijom."}
+      - id: l09-vez-izvor-tn
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [pohvala-knezu-lazaru, jefimija]
+        tvrdnja: "Istorijski podatak ne mora biti zapisan samo u knjizi: i vez može da bude izvor."
+        tacno: true
+        pomoc: ["Seti se Jefimijinog dela i šta iz njega saznajemo.", "Iz lekcije: vez daje važne podatke o stanju u Srbiji posle Kosovske bitke."]
+        objasnjenje: "Tačno. Pohvala knezu Lazaru je primer izvora koji nije knjiga."
+        iz_udzbenika: {strana: 38, odeljak: "Aleksandrida i Pohvala knezu Lazaru", tekst: "Jefimijin vez daje važne podatke o stanju u Srbiji posle Kosovske bitke."}
+      - id: l09-knjizevnost-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [hagiografija, miroslavljevo-jevandjelje, srpska-redakcija]
+        pitanje: "Dopuni rečenice o srednjovekovnim knjigama."
+        tekst: "Knjige su pisane {{srpskom}} redakcijom slovenskog jezika. Najpoznatiji rukopis je {{Miroslavljevo}} jevanđelje, a najomiljenija dela bile su {{hagiografije}}."
+        ponudjene: ["srpskom", "Miroslavljevo", "hagiografije", "latinskom", "freske"]
+        pomoc: ["Freske su slike, ne knjige.", "Latinski je jezik zapadnih zemalja.", "Iz lekcije: srpska redakcija, Miroslavljevo jevanđelje, hagiografije."]
+        objasnjenje: "Tri osnovna pojma o srednjovekovnoj književnosti u Srbiji."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Knjige su pisane srpskom redakcijom; najpoznatije je Miroslavljevo jevanđelje, a najomiljenije hagiografije."}
+      - id: l09-pisci-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [teodosije, konstantin-filozof, stefan-nemanja, zivot-svetog-save]
+        pitanje: "Dopuni rečenice o piscima."
+        tekst: "Sava i Stefan Prvovenčani pisali su o svom ocu, Stefanu {{Nemanji}}. Život Svetog Save napisao je monah {{Teodosije}}, a Konstantin {{Filozof}} biografiju despota {{Stefana Lazarevića}}."
+        ponudjene: ["Nemanji", "Teodosije", "Filozof", "Stefana Lazarevića", "Jefimija", "Aleksandra Makedonskog"]
+        pomoc: ["Jefimija je izvezla Pohvalu.", "Aleksandar je junak romana, ne biografije koju je pisao Konstantin.", "Iz lekcije: Nemanja, Teodosije, Konstantin Filozof i Stefan Lazarević."]
+        objasnjenje: "Svaki pisac ima svoje delo; biografije govore o vladarima i crkvenim poglavarima."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Lekcija navodi biografije Nemanje, Svetog Save i Stefana Lazarevića."}
+      - id: l09-pohvala-dopuni
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [pohvala-knezu-lazaru, jefimija, aleksandrida]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Monahinja {{Jefimija}} izvezla je na {{platnu}} Pohvalu knezu Lazaru, a među viteškim romanima naročito je omiljena bila {{Aleksandrida}}."
+        pomoc: ["Prva praznina je ime monahinje.", "Vez se radi na tkanini, a roman je dobio ime po Aleksandru.", "Iz lekcije: Jefimija, platno, Aleksandrida."]
+        objasnjenje: "Dva različita dela: vez o knezu Lazaru i roman o Aleksandru Makedonskom."
+        iz_udzbenika: {strana: 38, odeljak: "Aleksandrida i Pohvala knezu Lazaru", tekst: "Pohvalu je izvezla Jefimija, a među romanima je omiljena Aleksandrida."}
+      - id: l09-pisci-dela-povezi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [teodosije, konstantin-filozof, jefimija, sava-nemanjic]
+        pitanje: "Poveži autora sa delom."
+        parovi:
+          - ["Teodosije", "Život Svetog Save"]
+          - ["Konstantin Filozof", "Biografija despota Stefana Lazarevića"]
+          - ["Jefimija", "Pohvala knezu Lazaru"]
+          - ["Sava Nemanjić", "Biografija Stefana Nemanje"]
+        pomoc: ["Počni od žene među autorima.", "Sava je pisao o ocu.", "Iz lekcije: Teodosije, Konstantin Filozof, Jefimija i Sava."]
+        objasnjenje: "Svako delo pripada svom autoru: žitije, biografija, vez i biografija oca."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Lekcija navodi autore i njihova dela."}
+      - id: l09-vrste-dela-povezi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [hagiografija, biografija, viteski-romani, jevandjelje]
+        pitanje: "Poveži delo sa njegovom vrstom."
+        parovi:
+          - ["Miroslavljevo jevanđelje", "Verski rukopis"]
+          - ["Život Svetog Save", "Spis o životu poglavara crkve i sveca"]
+          - ["Aleksandrida", "Viteški roman"]
+          - ["Pohvala knezu Lazaru", "Vez na platnu"]
+        pomoc: ["Samo jedno delo nije pisano.", "Roman je priča o junaku.", "Iz lekcije: jevanđelje, život, viteški roman i vez."]
+        objasnjenje: "Srednjovekovna kultura nije samo jedna vrsta dela: postoje i rukopisi, žitija, romani i vezovi."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Čitale su se hagiografije, biografije i viteški romani, a Pohvala je izvezena."}
+      - id: l09-zasto-prepisivali-zakljuci
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [manastir]
+        pitanje: "Zašto je u manastirima prepisivanje bilo stalan posao?"
+        odgovori:
+          - {tekst: "Zato što su za verske obrede bile potrebne knjige", tacan: true}
+          - {tekst: "Zato što su monasi prodavali knjige Turcima", tacan: false, zasto: "Lekcija o tome ne govori; knjige su bile potrebne za obrede."}
+          - {tekst: "Zato što su knjige bile zabranjene van manastira", tacan: false, zasto: "Lekcija navodi potrebu obreda, a ne zabranu."}
+          - {tekst: "Zato što su univerziteti tražili udžbenike", tacan: false, zasto: "Univerziteti nastaju na Zapadu; u Srbiji se ta promena nije dogodila."}
+        pomoc: ["Korak 1: Čemu služe knjige u manastiru?", "Korak 2: Kako se dobija nova knjiga pre štampe?", "Iz lekcije: potreba za knjigama u obredima → stalno prepisivanje."]
+        objasnjenje: "Knjiga je bila potrebna za obred, a jedini način da se umnoži bio je da se prepiše."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Stalni posao u manastirima bilo je prepisivanje knjiga za verske obrede."}
+      - id: l09-crkvena-knjizevnost-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [srednjovekovna-kultura, hagiografija]
+        pitanje: "Zašto su najomiljenija dela bile hagiografije?"
+        odgovori:
+          - {tekst: "Zato što je vera bila u središtu života, a time i književnosti", tacan: true}
+          - {tekst: "Zato što su ih napisali strani trgovci", tacan: false, zasto: "Trgovci su donosili novine, ali ne pišu žitija."}
+          - {tekst: "Zato što su bile o antičkim piscima", tacan: false, zasto: "Hagiografije su o svecima."}
+          - {tekst: "Zato što nije bilo drugih dela", tacan: false, zasto: "Pisane su i biografije, a čitani su i viteški romani."}
+        pomoc: ["Korak 1: Šta je bilo u središtu života?", "Korak 2: O kome pišu hagiografije?", "Iz lekcije: vera je u središtu života → književnost je pretežno crkvena."]
+        objasnjenje: "Književnost odražava društvo: ako je vera u središtu, svetac je omiljeni junak."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Književnost je prvenstveno crkvena, a najomiljenija dela su hagiografije."}
+      - id: l09-sinovi-pisci-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [sava-nemanjic, stefan-prvovencani, stefan-nemanja]
+        pitanje: "Sava i Stefan Prvovenčani pisali su o svom ocu. Na šta treba paziti kada takvu biografiju koristimo kao izvor?"
+        odgovori:
+          - {tekst: "Autori su sinovi, pa je verovatno da oca prikazuju u najboljem svetlu", tacan: true}
+          - {tekst: "Autori nisu poznavali Nemanju", tacan: false, zasto: "Bili su mu sinovi, pa su ga dobro poznavali."}
+          - {tekst: "Biografije su pisane mnogo vekova kasnije u Rusiji", tacan: false, zasto: "Autori su Nemanjini savremenici."}
+          - {tekst: "Biografije ne govore ništa o Nemanji", tacan: false, zasto: "Baš o njemu govore."}
+        pomoc: ["Korak 1: Ko su autori u odnosu na junaka?", "Korak 2: Kako sin piše o ocu?", "Iz lekcije: Sava i Stefan pisali su biografije svog oca."]
+        objasnjenje: "Pitanje „ko piše” uvek je važno: blizak autor zna mnogo, ali nije nepristrasan."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Sava Nemanjić i Stefan Prvovenčani pisali su biografije svog oca."}
+      - id: l09-miroslavljevo-datum
+        vrsta: datum
+        tezina: lako
+        pojmovi: [miroslavljevo-jevandjelje]
+        dogadjaj: "Miroslavljevo jevanđelje"
+        pitanje: "Koje godine je nastalo Miroslavljevo jevanđelje?"
+        godina: 1185
+        traka: crkva-kultura
+        pomoc: ["To je kraj XII veka.", "Pet godina pre Studenice.", "Iz lekcije: Miroslavljevo jevanđelje nastalo je 1185."]
+        objasnjenje: "Miroslavljevo jevanđelje nastalo je 1185."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Miroslavljevo jevanđelje nastalo je 1185."}
+      - id: l09-hagiografije-objasni
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [hagiografija, miroslavljevo-jevandjelje]
+        pitanje: "Šta su hagiografije i po čemu je važno Miroslavljevo jevanđelje?"
+        uzor: "Hagiografije su žitija, to jest životopisi svetaca, i bile su najomiljenija dela. Miroslavljevo jevanđelje iz 1185. najpoznatiji je srednjovekovni rukopis na srpskom jeziku."
+        ideje: ["Hagiografije su žitija svetaca.", "Bile su najomiljenija dela.", "Miroslavljevo jevanđelje je iz 1185.", "To je najpoznatiji rukopis na srpskom jeziku."]
+        objasnjenje: "Oba odgovora su pitanja iz udžbenika."
+        iz_udzbenika: {strana: 40, odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika", tekst: "Hagiografije su žitija svetaca, a Miroslavljevo jevanđelje je najpoznatiji rukopis na srpskom jeziku."}
+        osa: {naziv: "Miroslavljevo jevanđelje", od: 1185, traka: crkva-kultura}
+      - id: l09-rukopis-lanac
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [manastir]
+        karike: ["Vera je u središtu života", "?", "Stalno prepisivanje u manastirima"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Za obrede su potrebne knjige", tacan: true}
+          - {tekst: "Turci traže knjige", tacan: false, zasto: "Turska osvajanja dolaze kasnije i nisu razlog prepisivanja."}
+          - {tekst: "Univerziteti se otvaraju u Srbiji", tacan: false, zasto: "Prvi univerziteti nastaju na Zapadu."}
+        pomoc: ["Korak 1: Šta se u crkvi radi po knjizi?", "Korak 2: Šta sledi kad knjiga nedostaje?", "Iz lekcije: potreba za knjigama u obredima → stalno prepisivanje."]
+        objasnjenje: "Vera stvara potrebu za knjigom, a potreba stvara prepisivanje."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Prepisivanje knjiga za verske obrede bilo je stalni posao u manastirima."}
+      - id: l09-crkvena-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [srednjovekovna-kultura, hagiografija]
+        karike: ["Hrišćanstvo je u središtu umetnosti", "?", "Najomiljenija dela su žitija svetaca"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Književnost je prvenstveno crkvena", tacan: true}
+          - {tekst: "Književnost nastaje na univerzitetima", tacan: false, zasto: "Knjige nastaju u manastirima."}
+          - {tekst: "Književnost je isključivo o vitezovima", tacan: false, zasto: "Viteški romani su samo deo onoga što se čitalo."}
+        pomoc: ["Korak 1: Kakva je književnost u takvom društvu?", "Korak 2: Ko joj je glavni junak?", "Iz lekcije: književnost je prvenstveno crkvena."]
+        objasnjenje: "Vera određuje i šta se piše i šta se čita."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Hrišćanstvo je u središtu umetnosti, a književnost je prvenstveno crkvena."}
+      - id: l09-povelja-decani-izvor
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [decani, manastir]
+        izvor:
+          autor: "Slika iz udžbenika"
+          naslov: "Povelja izdata manastiru Dečani (opis)"
+          tekst: "Stari dokument na oštećenom pergamentu: gore je ukras od kružnih motiva oko tamnog pečata, levo krst, a ispod gusto pisan tekst starim slovima."
+          napomena: "Odlomak je prepričan; udžbenik, str. 38."
+        pitanje: "Kakav je ovo istorijski izvor?"
+        odgovori:
+          - {tekst: "Pisani izvor, povelja izdata manastiru", tacan: true}
+          - {tekst: "Freska sa zida hrama", tacan: false, zasto: "Freska je slika na zidu, a ovo je pisani dokument."}
+          - {tekst: "Vez na platnu", tacan: false, zasto: "Vez je Jefimijina Pohvala; ovo je pergament sa tekstom."}
+          - {tekst: "Fotografija manastira", tacan: false, zasto: "Fotografija je Manasija; ovo je stari dokument."}
+        pomoc: ["Na čemu je dokument?", "Sadrži tekst i pečat.", "Iz lekcije: to je povelja izdata manastiru Dečani, primer pisanog izvora."]
+        objasnjenje: "Povelja je pisani izvor: tekst i pečat pokazuju službeni dokument izdat manastiru."
+        iz_udzbenika: {strana: 38, odeljak: "Slike i karte", tekst: "Povelja izdata manastiru Dečani je primer pisanog izvora vezanog za manastir.", slika: "09-srpska-srednjovekovna-kultura/01-povelja-manastiru-decani.jpg"}
+      - id: l09-pisci-uporedi
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [hagiografija, viteski-romani, aleksandrida]
+        a: "Hagiografije"
+        b: "Viteški romani"
+        pitanje: "Na šta se odnosi tvrdnja: hagiografije, viteške romane, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Govore o životu svetaca.", odgovor: a, zasto: "Hagiografije su žitija svetaca."}
+          - {tekst: "Među njima je Aleksandrida.", odgovor: b, zasto: "Aleksandrida je viteški roman."}
+          - {tekst: "Čitali su se u srednjovekovnoj Srbiji.", odgovor: oba, zasto: "Lekcija navodi obe vrste kao čitane."}
+          - {tekst: "Bile su najomiljenija dela.", odgovor: a, zasto: "Najomiljenije su bile hagiografije."}
+          - {tekst: "Izvezene su na platnu.", odgovor: nijedan, zasto: "Na platnu je izvezena Pohvala knezu Lazaru."}
+        pomoc: ["Ko je junak jedne, a ko druge vrste?", "Šta se oboje čitalo?", "Iz lekcije: hagiografije su žitija svetaca, a Aleksandrida je viteški roman."]
+        objasnjenje: "Crkvena i svetovna književnost postoje jedna pored druge, ali crkvena preovlađuje."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Najomiljenije su hagiografije, a čitani su i viteški romani."}
+      - id: l09-jefimija-ko-sam
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [jefimija, pohvala-knezu-lazaru]
+        tragovi: ["Bila sam monahinja.", "Moje delo nije napisano, već izvezeno na platnu.", "U njemu sam opisala podvige kneza Lazara."]
+        odgovori:
+          - {tekst: "Jefimija", tacan: true}
+          - {tekst: "Teodosije", tacan: false, zasto: "Teodosije je monah, autor dela Život Svetog Save."}
+          - {tekst: "Konstantin Filozof", tacan: false, zasto: "Konstantin je biograf Stefana Lazarevića."}
+        objasnjenje: "Monahinja Jefimija izvezla je Pohvalu knezu Lazaru."
+        iz_udzbenika: {strana: 38, odeljak: "Aleksandrida i Pohvala knezu Lazaru", tekst: "Pohvalu knezu Lazaru izvezla je na platnu monahinja Jefimija."}
+      - id: l09-teodosije-ko-sam
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [teodosije, hilandar, zivot-svetog-save]
+        tragovi: ["Bio sam monah, a ostavio sam više rukopisa.", "Živeo sam u manastiru na Svetoj Gori.", "Moje najznačajnije delo govori o Svetom Savi."]
+        odgovori:
+          - {tekst: "Teodosije", tacan: true}
+          - {tekst: "Sava Nemanjić", tacan: false, zasto: "Sava je junak dela, a pisao je o svom ocu."}
+          - {tekst: "Stefan Prvovenčani", tacan: false, zasto: "Stefan je pisao biografiju oca."}
+          - {tekst: "Konstantin Filozof", tacan: false, zasto: "Konstantin je pisao o despotu Stefanu."}
+        objasnjenje: "Hilandarski monah Teodosije napisao je Život Svetog Save."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Hilandarski monah Teodosije ostavio je više rukopisa."}
+      - id: l09-konstantin-ko-sam
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [konstantin-filozof, stefan-lazarevic]
+        tragovi: ["Moje delo je jedna od najboljih srpskih srednjovekovnih biografija.", "Nisam pisao o svom ocu.", "Junak mi je bio despot."]
+        odgovori:
+          - {tekst: "Konstantin Filozof", tacan: true}
+          - {tekst: "Stefan Prvovenčani", tacan: false, zasto: "On je pisao o ocu, Stefanu Nemanji."}
+          - {tekst: "Teodosije", tacan: false, zasto: "Teodosije je pisao o Svetom Savi."}
+          - {tekst: "Jefimija", tacan: false, zasto: "Jefimija je izvezla Pohvalu knezu Lazaru."}
+        objasnjenje: "Konstantin Filozof napisao je biografiju despota Stefana Lazarevića."
+        iz_udzbenika: {strana: 38, odeljak: "Srednjovekovna umetnost", tekst: "Biografija Stefana Lazarevića važi za jednu od najboljih srpskih srednjovekovnih biografija."}
+      - id: l09-kultura-verska-objasni
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [srednjovekovna-kultura, manastir]
+        pitanje: "Zašto kažemo da je srednjovekovna kultura u Srbiji bila pretežno verska?"
+        uzor: "Hrišćanstvo je bilo u središtu umetnosti, a književnost je bila prvenstveno crkvena. Knjige su se čitale i prepisivale u manastirima, za potrebe obreda. Umetnost se najviše ispoljavala u gradnji i ukrašavanju manastira."
+        ideje: ["Hrišćanstvo je u središtu umetnosti.", "Književnost je prvenstveno crkvena.", "Manastiri su središta knjiga i umetnosti."]
+        objasnjenje: "Kultura je služila potrebama vere, baš kao i u ostatku Evrope."
+        iz_udzbenika: {strana: 40, odeljak: "Zapamtite", tekst: "Srednjovekovna kultura bila je pretežno verska i služila je potrebama vere."}
+      - id: l09-pohvala-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [pohvala-knezu-lazaru, jefimija, kosovska-bitka]
+        pitanje: "Zašto je Pohvala knezu Lazaru i umetničko delo i istorijski izvor?"
+        uzor: "Pohvalu je na platnu izvezla monahinja Jefimija, pa je to umetničko delo. Ona opisuje kneževe podvige i daje važne podatke o stanju u Srbiji posle Kosovske bitke. Zato je koristan izvor o tom vremenu."
+        ideje: ["Vez monahinje Jefimije.", "Opisuje Lazareve podvige.", "Daje podatke o Srbiji posle Kosovske bitke."]
+        objasnjenje: "Isto delo može da ima dve uloge."
+        iz_udzbenika: {strana: 38, odeljak: "Aleksandrida i Pohvala knezu Lazaru", tekst: "Vez opisuje kneževe podvige i daje važne podatke o stanju u Srbiji posle Kosovske bitke."}
+  - naslov: "Arhitektura i slikarstvo"
+    zadaci:
+      - id: l09-moravski-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [moravski-stil]
+        pitanje: "Koji je poseban stil gradnje vremenom razvijen u Srbiji?"
+        odgovori:
+          - {tekst: "Moravski stil", tacan: true}
+          - {tekst: "Dubrovački stil", tacan: false, zasto: "Lekcija ne pominje takav stil; Dubrovnik je veza sa Zapadom kroz trgovinu."}
+          - {tekst: "Svetogorski stil", tacan: false, zasto: "Sveta Gora je središte pravoslavlja, a stil koji lekcija navodi je moravski."}
+          - {tekst: "Janičarski stil", tacan: false, zasto: "Janičari su turska vojska iz sledeće lekcije."}
+        pomoc: ["Naziv dolazi od reke.", "Reka Morava.", "Iz lekcije: vremenom je razvijen poseban moravski stil gradnje."]
+        objasnjenje: "Mnogi manastiri građeni su po vizantijskom uzoru, a vremenom je nastao moravski stil."
+        iz_udzbenika: {strana: 38, odeljak: "Arhitektura i slikarstvo", tekst: "Mnogi manastiri građeni su po uzoru na vizantijske građevine, a vremenom je razvijen moravski stil."}
+      - id: l09-freske-sta-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [freska, mileseva]
+        pitanje: "Iz kog manastira je freska Anđeo na Hristovom grobu?"
+        odgovori:
+          - {tekst: "Mileševa", tacan: true}
+          - {tekst: "Dečani", tacan: false, zasto: "Dečanima je izdata povelja prikazana u lekciji."}
+          - {tekst: "Manasija", tacan: false, zasto: "Manasija je prikazana na fotografiji spolja, a freska je iz Mileševe."}
+          - {tekst: "Hilandar", tacan: false, zasto: "Hilandar je manastir na Svetoj Gori; ova freska je u Mileševi."}
+        pomoc: ["Pročitaj potpis ispod slike.", "Naziv počinje na M, ali nije Manasija.", "Iz lekcije: freska je iz manastira Mileševa."]
+        objasnjenje: "Freska iz Mileševe primer je visokog nivoa srpskog fresko-slikarstva."
+        iz_udzbenika: {strana: 39, odeljak: "Slike i karte", tekst: "Anđeo na Hristovom grobu je freska iz manastira Mileševa.", slika: "09-srpska-srednjovekovna-kultura/03-andjeo-na-hristovom-grobu.jpg"}
+      - id: l09-studenica-gde-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [studenica]
+        pitanje: "Gde se nalazi manastir Studenica?"
+        odgovori:
+          - {tekst: "Kod Kraljeva", tacan: true}
+          - {tekst: "Kod Raške", tacan: false, zasto: "Kod Raške je manastir Gradac."}
+          - {tekst: "Na Svetoj Gori", tacan: false, zasto: "Na Svetoj Gori je Hilandar."}
+          - {tekst: "U Dubrovniku", tacan: false, zasto: "Dubrovnik je grad trgovaca, a Studenica je kod Kraljeva."}
+        pomoc: ["Gradac je kod Raške, pa je Studenica kod drugog grada.", "Grad počinje na K.", "Iz lekcije: Studenica je kod Kraljeva."]
+        objasnjenje: "Studenica kod Kraljeva (1190) i Gradac kod Raške primeri su zapadnog uticaja."
+        iz_udzbenika: {strana: 38, odeljak: "Arhitektura i slikarstvo", tekst: "Zapadni uticaj vidi se u Studenici kod Kraljeva i Gracu kod Raške."}
+        osa: {naziv: "Manastir Studenica", od: 1190, traka: crkva-kultura}
+      - id: l09-teme-fresaka-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [freska, ikona]
+        pitanje: "Šta su pretežno prikazivale freske? (više tačnih)"
+        odgovori:
+          - {tekst: "Likove svetaca", tacan: true}
+          - {tekst: "Likove vladara", tacan: true}
+          - {tekst: "Likove crkvenih velikodostojnika", tacan: true}
+          - {tekst: "Dubrovačke trgovce u poslu", tacan: false, zasto: "Trgovci nisu tema fresaka; freske prikazuju svece, vladare i crkvene velikodostojnike."}
+          - {tekst: "Prizore iz viteških romana", tacan: false, zasto: "Viteški romani su književnost; freske prikazuju pretežno verske ličnosti i vladare."}
+        pomoc: ["Freske su u hramovima.", "Među njima su i vladari, koji su gradili zadužbine.", "Iz lekcije: likovi svetaca, vladara i crkvenih velikodostojnika."]
+        objasnjenje: "Freske prikazuju one koji su važni za veru i državu."
+        iz_udzbenika: {strana: 38, odeljak: "Arhitektura i slikarstvo", tekst: "Fresko-slikarstvo je dostiglo veoma visok nivo: likovi svetaca, vladara i crkvenih velikodostojnika."}
+      - id: l09-freske-unutra-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [freska, ikona]
+        tvrdnja: "Freske i ikone krasile su unutrašnjost hramova."
+        tacno: true
+        pomoc: ["Gde se u hramu nalaze slike?", "Iz lekcije: freske i ikone krasile su unutrašnjost hramova."]
+        objasnjenje: "Tačno. Unutrašnjost hrama bila je ukrašena freskama i ikonama."
+        iz_udzbenika: {strana: 39, odeljak: "Arhitektura i slikarstvo", tekst: "Freske i ikone krasile su unutrašnjost hramova."}
+      - id: l09-samo-vizantija-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [vizantija, studenica]
+        tvrdnja: "U srpskoj gradnji osećao se samo uticaj Vizantije."
+        tacno: false
+        ispravke:
+          - {tekst: "Oseća se i zapadni uticaj, na primer u Studenici i Gracu.", tacan: true}
+          - {tekst: "Oseća se samo uticaj Turaka.", tacan: false, zasto: "Lekcija ne govori o turskom uticaju na gradnju; govori o Vizantiji i Zapadu."}
+          - {tekst: "Nije bilo nikakvih uticaja.", tacan: false, zasto: "Vladari su pozivali strane umetnike, pa su uticaji jasni."}
+        pomoc: ["Pomisli na Studenicu.", "Uticaji su dolazili sa dve strane.", "Iz lekcije: u graditeljstvu se oseća i zapadni uticaj."]
+        objasnjenje: "Netačno. Pored Vizantije, oseća se i Zapad."
+        iz_udzbenika: {strana: 38, odeljak: "Arhitektura i slikarstvo", tekst: "U graditeljstvu se oseća i zapadni uticaj; primeri su Studenica i Gradac."}
+      - id: l09-ikone-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [ikona]
+        tvrdnja: "Ikone su imale pretežno svetovne teme, za razliku od fresaka."
+        tacno: false
+        ispravke:
+          - {tekst: "I ikone su imale pretežno verske teme.", tacan: true}
+          - {tekst: "Ikone su prikazivale pretežno bitke.", tacan: false, zasto: "Teme su im bile pretežno verske."}
+          - {tekst: "Ikone su bile samo na fasadama.", tacan: false, zasto: "Krasile su unutrašnjost hramova."}
+        pomoc: ["Gde se ikone nalaze?", "Da li se tema ikone razlikuje od teme freske?", "Iz lekcije: ikone su takođe imale pretežno verske teme."]
+        objasnjenje: "Netačno. Slično freskama, teme ikona bile su pretežno verske."
+        iz_udzbenika: {strana: 38, odeljak: "Arhitektura i slikarstvo", tekst: "Veliki značaj imale su i ikone, takođe sa pretežno verskim temama."}
+      - id: l09-gradac-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [gradac]
+        tvrdnja: "Gradac kod Raške potiče iz kraja XIII veka."
+        tacno: true
+        pomoc: ["Uporedi sa Studenicom, koja je stotinak godina starija.", "Iz lekcije: Gradac kod Raške je iz kraja XIII veka."]
+        objasnjenje: "Tačno. Gradac je mlađi od Studenice za oko jedan vek."
+        iz_udzbenika: {strana: 38, odeljak: "Arhitektura i slikarstvo", tekst: "Gradac kod Raške potiče iz kraja XIII veka."}
+        osa: {naziv: "Manastir Gradac", od: 1280, do: 1300, traka: crkva-kultura, oznaka: "kraj XIII veka"}
+      - id: l09-gradnja-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [vizantija, moravski-stil, studenica]
+        pitanje: "Dopuni rečenice o gradnji."
+        tekst: "Mnogi manastiri građeni su po uzoru na {{Vizantiju|vizantijske građevine}}, a vremenom je razvijen {{moravski}} stil. Primer zapadnog uticaja je {{Studenica}}."
+        ponudjene: ["Vizantiju", "moravski", "Studenica", "Rusiju", "turski"]
+        pomoc: ["Istočni uzor je Vizantija.", "Stil nosi ime po reci.", "Iz lekcije: vizantijski uzor, moravski stil, Studenica."]
+        objasnjenje: "Razvoj ide od ugledanja na druge do sopstvenog stila."
+        iz_udzbenika: {strana: 38, odeljak: "Arhitektura i slikarstvo", tekst: "Manastiri su građeni po uzoru na Vizantiju; razvijen je moravski stil, a Studenica pokazuje zapadni uticaj."}
+      - id: l09-manastiri-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [studenica, gradac]
+        pitanje: "Dopuni podatke o dva manastira."
+        tekst: "Studenica je kod {{Kraljeva}} i potiče iz {{1190}}. godine, a Gradac je kod {{Raške}}."
+        ponudjene: ["Kraljeva", "1190", "Raške", "1185", "Kruševca"]
+        pomoc: ["1185. je godina Miroslavljevog jevanđelja.", "Kruševac je Lazarevo sedište.", "Iz lekcije: Studenica kod Kraljeva 1190, Gradac kod Raške."]
+        objasnjenje: "Oba manastira su primeri preplitanja istočnih i zapadnih uticaja."
+        iz_udzbenika: {strana: 38, odeljak: "Arhitektura i slikarstvo", tekst: "Primeri zapadnog uticaja su Studenica kod Kraljeva (1190) i Gradac kod Raške."}
+        osa: {naziv: "Manastir Studenica", od: 1190, traka: crkva-kultura}
+      - id: l09-slike-dopuni
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [freska, ikona]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Unutrašnjost hramova krasile su {{freske}} i {{ikone}}, a teme su im bile pretežno {{verske}}."
+        pomoc: ["Prva vrsta se slika na zidu.", "Druga je slika koja se postavlja u hramu.", "Iz lekcije: freske i ikone, pretežno verske teme."]
+        objasnjenje: "Freske i ikone nisu bile ukras radi ukrasa, već su služile veri."
+        iz_udzbenika: {strana: 39, odeljak: "Arhitektura i slikarstvo", tekst: "Freske i ikone, pretežno verskih tema, krasile su unutrašnjost hramova."}
+      - id: l09-manastiri-mesta-povezi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [studenica, gradac, hilandar, mileseva]
+        pitanje: "Poveži manastir sa onim po čemu se pominje u lekciji."
+        parovi:
+          - ["Studenica", "Kod Kraljeva, primer zapadnog i istočnog uticaja"]
+          - ["Gradac", "Kod Raške"]
+          - ["Hilandar", "Na Svetoj Gori"]
+          - ["Mileševa", "Freska Anđeo na Hristovom grobu"]
+        pomoc: ["Jedan manastir nije u Srbiji.", "Studenica je kod Kraljeva.", "Iz lekcije: Studenica, Gradac, Hilandar i Mileševa."]
+        objasnjenje: "Svaki manastir se pominje zbog drugog razloga."
+        iz_udzbenika: {strana: 39, odeljak: "Arhitektura i slikarstvo", tekst: "Lekcija navodi Studenicu, Gradac, Mileševu i Hilandar."}
+      - id: l09-umetnost-pojmovi-povezi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [freska, ikona, moravski-stil, ktitor]
+        pitanje: "Poveži pojam sa objašnjenjem."
+        parovi:
+          - ["Freska", "Slika koja je među najvišim oblicima srpske umetnosti, u unutrašnjosti hrama"]
+          - ["Ikona", "Pretežno verska slika u hramu, velikog značaja"]
+          - ["Moravski stil", "Poseban način gradnje razvijen vremenom"]
+          - ["Ktitor", "Osnivač ili zaštitnik manastira"]
+        pomoc: ["Samo jedan pojam je osoba.", "Stil se odnosi na gradnju.", "Iz lekcije: freska, ikona, moravski stil, ktitor."]
+        objasnjenje: "Četiri pojma pokrivaju slikarstvo, gradnju i ko to omogućava."
+        iz_udzbenika: {strana: 40, odeljak: "Kulturne veze sa susedima", tekst: "Ktitor je onaj ko osniva neki manastir ili mu pruža zaštitu."}
+      - id: l09-sopstveni-stil-zakljuci
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [moravski-stil, vizantija]
+        pitanje: "Šta pokazuje to što je posle vizantijskih uzora nastao moravski stil?"
+        odgovori:
+          - {tekst: "Graditelji su učili od drugih, a vremenom razvili sopstveni način gradnje", tacan: true}
+          - {tekst: "Vizantija je zabranila gradnju", tacan: false, zasto: "Ona je bila uzor, a ne zabrana."}
+          - {tekst: "Prestali su da grade manastire", tacan: false, zasto: "Moravski stil je upravo način gradnje manastira."}
+          - {tekst: "Stil je stigao sa Zapada preko Dubrovnika", tacan: false, zasto: "Moravski stil lekcija opisuje kao poseban, razvijen vremenom u Srbiji."}
+        pomoc: ["Korak 1: Šta je bio uzor?", "Korak 2: Šta je novo nastalo?", "Iz lekcije: dodir sa Vizantijom → manastiri po vizantijskom uzoru → sopstveni moravski stil."]
+        objasnjenje: "Uticaj nije puko kopiranje: iz njega je nastalo nešto posebno."
+        iz_udzbenika: {strana: 38, odeljak: "Arhitektura i slikarstvo", tekst: "Mnogi manastiri građeni su po vizantijskom uzoru, a vremenom je razvijen moravski stil."}
+      - id: l09-najvisi-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [freska, manastir]
+        pitanje: "Zašto se srpska umetnost najviše ispoljavala baš u gradnji i uređenju manastira?"
+        odgovori:
+          - {tekst: "Zato što je kultura bila verska, a manastir je bio mesto vere i učenosti", tacan: true}
+          - {tekst: "Zato što su univerziteti bili u manastirima", tacan: false, zasto: "Univerziteti nastaju na Zapadu; u Srbiji do toga nije došlo."}
+          - {tekst: "Zato što su Turci naredili gradnju", tacan: false, zasto: "Manastire su gradili srpski vladari kao zadužbine."}
+          - {tekst: "Zato što drugih umetnika nije bilo", tacan: false, zasto: "Vladari su pozivali i strane umetnike."}
+        pomoc: ["Korak 1: Čemu je služila kultura?", "Korak 2: Gde je vera bila najprisutnija?", "Iz lekcije: umetnost se najviše ispoljavala u gradnji manastira i njihovom unutrašnjem uređenju."]
+        objasnjenje: "Manastir je spajao gradnju, sliku i knjigu u službi vere."
+        iz_udzbenika: {strana: 40, odeljak: "Zapamtite", tekst: "Umetnost se najviše ispoljavala u gradnji manastira i njihovom unutrašnjem uređenju."}
+      - id: l09-lik-vladara-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [freska, ktitor]
+        pitanje: "Zašto se pored svetaca na freskama nalaze i vladari, iako je to verska umetnost?"
+        odgovori:
+          - {tekst: "Vladari su podizali zadužbine i štitili manastire, pa su bili povezani sa verom", tacan: true}
+          - {tekst: "Zato što su vladari bili sveci od rođenja", tacan: false, zasto: "Lekcija tako nešto ne kaže; vladari su bili graditelji zadužbina."}
+          - {tekst: "Zato što su freske bile turske", tacan: false, zasto: "Freske su deo srpske srednjovekovne umetnosti."}
+          - {tekst: "Zato što crkva nije bila važna", tacan: false, zasto: "Crkva je bila u središtu kulture."}
+        pomoc: ["Korak 1: Ko je plaćao gradnju manastira?", "Korak 2: Kako se zove onaj ko osniva ili štiti manastir?", "Iz lekcije: vladari grade zadužbine, a ktitor je onaj ko osniva manastir ili mu pruža zaštitu."]
+        objasnjenje: "Slika vladara povezuje vlast i veru: on je zaštitnik manastira."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Srpski vladari gradili su i ukrašavali zadužbine."}
+      - id: l09-studenica-datum
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [studenica]
+        dogadjaj: "Manastir Studenica"
+        pitanje: "Kojom godinom udžbenik datira Studenicu?"
+        godina: 1190
+        traka: crkva-kultura
+        pomoc: ["Kraj XII veka.", "Pet godina posle Miroslavljevog jevanđelja.", "Iz lekcije: Studenica kod Kraljeva je iz 1190."]
+        objasnjenje: "Studenica je iz 1190, dakle iz kraja XII veka."
+        iz_udzbenika: {strana: 38, odeljak: "Arhitektura i slikarstvo", tekst: "Studenica kod Kraljeva potiče iz 1190."}
+      - id: l09-rukopis-manastir-poredjaj
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [miroslavljevo-jevandjelje, studenica, gradac]
+        pitanje: "Poređaj od najstarijeg."
+        stavke:
+          - {tekst: "Miroslavljevo jevanđelje", godina: 1185, naziv: "Miroslavljevo jevanđelje", traka: crkva-kultura}
+          - {tekst: "Manastir Studenica", godina: 1190, naziv: "Manastir Studenica", traka: crkva-kultura}
+          - {tekst: "Manastir Gradac", godina: 1280, do: 1300, naziv: "Manastir Gradac", traka: crkva-kultura, oznaka: "kraj XIII veka"}
+        pomoc: ["Gradac je iz sledećeg veka.", "Jevanđelje je starije za pet godina.", "Iz lekcije: 1185, 1190, kraj XIII veka."]
+        objasnjenje: "Prva dva su iz kraja XII veka, a Gradac iz kraja XIII veka."
+        iz_udzbenika: {strana: 38, odeljak: "Arhitektura i slikarstvo", tekst: "Hronologija lekcije: Miroslavljevo jevanđelje 1185, Studenica 1190, Gradac kraj XIII veka."}
+      - id: l09-sa-pohvalom-poredjaj
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [miroslavljevo-jevandjelje, studenica, gradac, pohvala-knezu-lazaru, kosovska-bitka]
+        pitanje: "Poređaj od najstarijeg."
+        stavke:
+          - {tekst: "Miroslavljevo jevanđelje", godina: 1185, naziv: "Miroslavljevo jevanđelje", traka: crkva-kultura}
+          - {tekst: "Manastir Studenica", godina: 1190, naziv: "Manastir Studenica", traka: crkva-kultura}
+          - {tekst: "Manastir Gradac", godina: 1280, do: 1300, naziv: "Manastir Gradac", traka: crkva-kultura, oznaka: "kraj XIII veka"}
+          - {tekst: "Pohvala knezu Lazaru"}
+        pomoc: ["Pohvala daje podatke o stanju posle Kosovske bitke.", "Studenica i jevanđelje su iz kraja XII veka.", "Iz lekcije: 1185, 1190, kraj XIII veka, pa Pohvala posle Kosovske bitke."]
+        objasnjenje: "Pohvala je najmlađa: nastala je posle Kosovske bitke."
+        iz_udzbenika: {strana: 38, odeljak: "Aleksandrida i Pohvala knezu Lazaru", tekst: "Pohvala daje podatke o Srbiji posle Kosovske bitke."}
+      - id: l09-kosovo-pohvala-poredjaj
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [studenica, gradac, knez-lazar, kosovska-bitka, pohvala-knezu-lazaru]
+        pitanje: "Poređaj od najranijeg, pazeći na to šta je čemu moralo da prethodi."
+        stavke:
+          - {tekst: "Manastir Studenica", godina: 1190, naziv: "Manastir Studenica", traka: crkva-kultura}
+          - {tekst: "Manastir Gradac", godina: 1280, do: 1300, naziv: "Manastir Gradac", traka: crkva-kultura, oznaka: "kraj XIII veka"}
+          - {tekst: "Kosovska bitka"}
+          - {tekst: "Jefimija veze Pohvalu knezu Lazaru"}
+        pomoc: ["Pohvala opisuje stanje posle jedne bitke, pa ne može biti pre nje.", "Dva manastira su iz XII i XIII veka.", "Iz lekcije: Studenica 1190, Gradac kraj XIII veka, Kosovska bitka, pa Pohvala sa podacima o Srbiji posle nje."]
+        objasnjenje: "Delo koje opisuje stanje posle bitke moralo je nastati posle nje; tako se redosled izvodi iz sadržaja."
+        iz_udzbenika: {strana: 38, odeljak: "Aleksandrida i Pohvala knezu Lazaru", tekst: "Vez daje važne podatke o stanju u Srbiji posle Kosovske bitke."}
+      - id: l09-vizantijski-lanac
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [vizantija, moravski-stil]
+        karike: ["Dodir sa Vizantijom", "Manastiri po vizantijskom uzoru", "?"]
+        praznina: 2
+        odgovori:
+          - {tekst: "Vremenom nastaje sopstveni moravski stil", tacan: true}
+          - {tekst: "Prestaje svaka gradnja", tacan: false, zasto: "Gradnja se nastavlja, sada u novom stilu."}
+          - {tekst: "Nastaju svetovne škole", tacan: false, zasto: "Svetovne škole nastaju na Zapadu, ne iz graditeljstva."}
+        pomoc: ["Korak 1: Šta sledi posle dugog ugledanja na uzor?", "Korak 2: Kako se zove stil razvijen u Srbiji?", "Iz lekcije: dodir sa Vizantijom → manastiri po uzoru → sopstveni moravski stil."]
+        objasnjenje: "Uzor vremenom postaje polazna tačka za sopstveni stil."
+        iz_udzbenika: {strana: 38, odeljak: "Arhitektura i slikarstvo", tekst: "Mnogi manastiri građeni su po vizantijskom uzoru, a vremenom je razvijen moravski stil."}
+      - id: l09-manasija-izvor
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [manasija, manastir]
+        izvor:
+          autor: "Slika iz udžbenika"
+          naslov: "Manastir Manasija (opis fotografije)"
+          tekst: "Kamena crkva snimljena odozdo: nekoliko kupola sa krstovima, polukružni završeci i uski dvodelni prozori. Zid je od pravilno tesanih kvadera."
+          napomena: "Odlomak je prepričan; udžbenik, str. 39."
+        pitanje: "Šta nam ovakva građevina iz srednjeg veka govori kao izvor?"
+        odgovori:
+          - {tekst: "Da je umetnost bila u službi vere i da se ispoljavala u gradnji manastira", tacan: true}
+          - {tekst: "Da su se Srbi bavili samo trgovinom", tacan: false, zasto: "Fotografija pokazuje hram, a ne trgovinu."}
+          - {tekst: "Da je u Srbiji bilo mnogo univerziteta", tacan: false, zasto: "Univerziteti se pominju na Zapadu."}
+          - {tekst: "Da kultura nije imala veze sa verom", tacan: false, zasto: "Kultura je bila pretežno verska."}
+        pomoc: ["Kakva je to građevina?", "Šta lekcija kaže o tome gde se umetnost najviše ispoljavala?", "Iz lekcije: umetnost se najviše ispoljavala u gradnji manastira i njihovom unutrašnjem uređenju."]
+        objasnjenje: "I građevina je istorijski izvor: pokazuje čemu je društvo posvećivalo trud i sredstva."
+        iz_udzbenika: {strana: 39, odeljak: "Slike i karte", tekst: "Fotografija manastira Manasija stoji uz odeljak o srpskoj srednjovekovnoj umetnosti.", slika: "09-srpska-srednjovekovna-kultura/02-manastir-manasija.jpg"}
+      - id: l09-freska-izvor
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [freska, mileseva]
+        izvor:
+          autor: "Slika iz udžbenika"
+          naslov: "Anđeo na Hristovom grobu (opis freske)"
+          tekst: "Anđeo u svetloj odeći, sa tamnim krilima i oreolom, sedi na kamenom bloku i drži tanak štap. Slika je rađena na zidu manastira Mileševa."
+          napomena: "Odlomak je prepričan; udžbenik, str. 39."
+        pitanje: "Koja je ovo vrsta umetničkog dela?"
+        odgovori:
+          - {tekst: "Freska", tacan: true}
+          - {tekst: "Ikona na dasci", tacan: false, zasto: "Delo je naslikano na zidu manastira, pa je freska."}
+          - {tekst: "Vez", tacan: false, zasto: "Vez je Jefimijina Pohvala, na platnu."}
+          - {tekst: "Minijatura iz knjige", tacan: false, zasto: "Delo je na zidu, a ne u knjizi."}
+        pomoc: ["Gde je delo naslikano?", "Slikanje na zidu ima svoje ime.", "Iz lekcije: Anđeo na Hristovom grobu je freska iz Mileševe."]
+        objasnjenje: "Slika na zidu hrama je freska; ova je primer visokog nivoa srpskog fresko-slikarstva."
+        iz_udzbenika: {strana: 39, odeljak: "Slike i karte", tekst: "Freska iz Mileševe je primer visokog nivoa fresko-slikarstva.", slika: "09-srpska-srednjovekovna-kultura/03-andjeo-na-hristovom-grobu.jpg"}
+      - id: l09-freske-ikone-uporedi
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [freska, ikona]
+        a: "Freske"
+        b: "Ikone"
+        pitanje: "Na šta se odnosi tvrdnja: freske, ikone, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Krasile su unutrašnjost hramova.", odgovor: oba, zasto: "I freske i ikone bile su u unutrašnjosti hramova."}
+          - {tekst: "Teme su im pretežno verske.", odgovor: oba, zasto: "Lekcija kaže da su i ikone takođe imale pretežno verske teme."}
+          - {tekst: "Među najvišim su oblicima srednjovekovne srpske umetnosti.", odgovor: a, zasto: "Lekcija to izričito kaže za fresko-slikarstvo."}
+          - {tekst: "Štampane su u velikom broju primeraka.", odgovor: nijedan, zasto: "Lekcija ne govori o štampi; knjige su se tada prepisivale, a slike radile ručno."}
+        pomoc: ["Šta im je zajedničko po mestu i temi?", "Za koju vrstu lekcija kaže da je među najvišim oblicima?", "Iz lekcije: freske i ikone krase unutrašnjost hramova, a fresko-slikarstvo je među najvišim oblicima umetnosti."]
+        objasnjenje: "Freske i ikone imaju isto mesto i slične teme."
+        iz_udzbenika: {strana: 38, odeljak: "Arhitektura i slikarstvo", tekst: "Fresko-slikarstvo je dostiglo veoma visok nivo, a veliki značaj imale su i ikone."}
+      - id: l09-uticaji-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [studenica, vizantija]
+        pitanje: "Šta izdvaja manastir Studenicu i koji se uticaji u njoj prepliću?"
+        uzor: "Studenica je primer u kome se u gradnji spajaju vizantijski, odnosno istočni, i zapadni uticaj. Do toga je došlo zato što su vladari pozivali strane umetnike. Tako se vidi da je srpska umetnost bila otvorena prema obe strane."
+        ideje: ["Istočni, vizantijski uticaj.", "Zapadni uticaj.", "Vladari pozivaju strane umetnike."]
+        objasnjenje: "Pitanje iz udžbenika: Studenica je primer uticaja i Zapada i Istoka."
+        iz_udzbenika: {strana: 40, odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika", tekst: "U Studenici se u gradnji spajaju vizantijski i zapadni uticaj."}
+        osa: {naziv: "Manastir Studenica", od: 1190, traka: crkva-kultura}
+      - id: l09-freske-znacaj-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [freska, mileseva, manastir]
+        pitanje: "Zašto su freske važne kada govorimo o srpskoj srednjovekovnoj umetnosti?"
+        uzor: "Fresko-slikarstvo je među najvišim oblicima srpske srednjovekovne umetnosti i spada u najviša umetnička dela epohe. Freske su krasile unutrašnjost hramova i prikazivale svece, vladare i crkvene velikodostojnike. Primer je freska Anđeo na Hristovom grobu iz Mileševe."
+        ideje: ["Među najvišim su oblicima umetnosti.", "Krase unutrašnjost hramova.", "Prikazuju svece, vladare i velikodostojnike.", "Primer je freska iz Mileševe."]
+        objasnjenje: "Odgovor spaja vrednost, mesto, teme i primer."
+        iz_udzbenika: {strana: 40, odeljak: "Zapamtite", tekst: "Srpsko fresko-slikarstvo spada u najviša umetnička dela epohe.", slika: "09-srpska-srednjovekovna-kultura/03-andjeo-na-hristovom-grobu.jpg"}
+  - naslov: "Razvijeni feudalizam: odvajanje od religije"
+    zadaci:
+      - id: l09-zapad-skole-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [univerziteti]
+        pitanje: "Šta je u doba razvijenog feudalizma nastajalo u zapadnoj i srednjoj Evropi?"
+        odgovori:
+          - {tekst: "Svetovne škole i prvi univerziteti", tacan: true}
+          - {tekst: "Prvi srpski manastiri", tacan: false, zasto: "Srpski manastiri nisu u zapadnoj i srednjoj Evropi."}
+          - {tekst: "Janičarska vojska", tacan: false, zasto: "Janičari su osmanska vojska."}
+          - {tekst: "Moravski stil", tacan: false, zasto: "Moravski stil je razvijen u Srbiji."}
+        pomoc: ["To su ustanove za obrazovanje.", "Jedna vrsta je svetovna, a druga je viša škola.", "Iz lekcije: nastaju svetovne škole i prvi univerziteti."]
+        objasnjenje: "Pored crkvenog, javlja se i svetovno obrazovanje, sa školama i univerzitetima."
+        iz_udzbenika: {strana: 39, odeljak: "Razvijeni feudalizam: odvajanje od religije", tekst: "U zapadnoj i srednjoj Evropi tada nastaju svetovne škole i prvi univerziteti."}
+      - id: l09-sprecen-proces-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [srednjovekovna-kultura]
+        pitanje: "Šta je u Srbiji sprečilo odvajanje obrazovanja i umetnosti od religije?"
+        odgovori:
+          - {tekst: "Turska osvajanja", tacan: true}
+          - {tekst: "Dubrovački trgovci", tacan: false, zasto: "Oni su donosili novine sa Zapada, a nisu sprečavali promene."}
+          - {tekst: "Gradnja Studenice", tacan: false, zasto: "Studenica je primer gradnje, a ne prepreka promenama."}
+          - {tekst: "Hilandarska povelja", tacan: false, zasto: "Povelja se odnosi na obnovu Hilandara."}
+        pomoc: ["To je spoljni događaj.", "Govori o tome sledeća lekcija.", "Iz lekcije: u Srbiji su taj proces sprečila turska osvajanja."]
+        objasnjenje: "Turska osvajanja prekinula su razvoj koji se na Zapadu nastavio."
+        iz_udzbenika: {strana: 39, odeljak: "Razvijeni feudalizam: odvajanje od religije", tekst: "U Srbiji su proces odvajanja od religije sprečila turska osvajanja."}
+      - id: l09-antika-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [srednjovekovna-kultura]
+        tvrdnja: "U doba razvijenog feudalizma javlja se interesovanje za spise antičkih pisaca."
+        tacno: true
+        pomoc: ["To je jedna od novina tog doba.", "Iz lekcije: javlja se interesovanje za spise antičkih pisaca."]
+        objasnjenje: "Tačno. To interesovanje je deo promene koja vodi ka svetovnom obrazovanju."
+        iz_udzbenika: {strana: 39, odeljak: "Razvijeni feudalizam: odvajanje od religije", tekst: "U doba razvijenog feudalizma javlja se interesovanje za spise antičkih pisaca."}
+      - id: l09-srbija-univerziteti-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [univerziteti]
+        tvrdnja: "Srbija je prošla isto odvajanje obrazovanja od religije kao zapadna Evropa."
+        tacno: false
+        ispravke:
+          - {tekst: "U Srbiji je taj proces sprečen turskim osvajanjima.", tacan: true}
+          - {tekst: "Srbija je taj proces završila pre Zapada.", tacan: false, zasto: "Proces je u Srbiji sprečen, a ne završen."}
+          - {tekst: "Taj proces nije počeo ni na Zapadu.", tacan: false, zasto: "Na Zapadu su nastale svetovne škole i prvi univerziteti."}
+        pomoc: ["Uporedi Zapad i Srbiju.", "Šta se dogodilo Srbiji u to vreme?", "Iz lekcije: u Srbiji su taj proces sprečila turska osvajanja."]
+        objasnjenje: "Netačno. Ovde se putevi Zapada i Srbije razdvajaju."
+        iz_udzbenika: {strana: 39, odeljak: "Razvijeni feudalizam: odvajanje od religije", tekst: "Na Zapadu se obrazovanje postepeno odvaja od religije, a u Srbiji su to sprečila turska osvajanja."}
+      - id: l09-odvajanje-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [univerziteti]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Na Zapadu nastaju svetovne {{škole}} i prvi {{univerziteti}}, a u Srbiji su taj proces sprečila {{turska}} osvajanja."
+        ponudjene: ["škole", "univerziteti", "turska", "mongolska", "manastiri"]
+        pomoc: ["Manastiri nisu nova svetovna ustanova.", "Mongoli se u Srbiji ne pojavljuju.", "Iz lekcije: svetovne škole, prvi univerziteti, turska osvajanja."]
+        objasnjenje: "Isti period, različit ishod: Zapad se menja, a u Srbiji je promena sprečena."
+        iz_udzbenika: {strana: 39, odeljak: "Razvijeni feudalizam: odvajanje od religije", tekst: "Nastaju svetovne škole i prvi univerziteti; u Srbiji to sprečavaju turska osvajanja."}
+      - id: l09-svetovno-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [univerziteti]
+        pitanje: "Šta znači da se obrazovanje „odvaja od religije”?"
+        odgovori:
+          - {tekst: "Učenje više nije samo u službi vere, nego nastaju i svetovne škole", tacan: true}
+          - {tekst: "Religija je zabranjena u državi", tacan: false, zasto: "Lekcija ne govori o zabrani, nego o postepenom odvajanju."}
+          - {tekst: "Svi manastiri su zatvoreni", tacan: false, zasto: "Lekcija tako nešto ne tvrdi."}
+          - {tekst: "Učenje se potpuno ukida", tacan: false, zasto: "Upravo nasuprot, nastaju škole i univerziteti."}
+        pomoc: ["Korak 1: Ko je ranije bio nosilac učenosti?", "Korak 2: Šta je novo u svetovnim školama?", "Iz lekcije: obrazovanje i umetnost postepeno se odvajaju od religije."]
+        objasnjenje: "Vera ostaje, ali obrazovanje dobija i svoje mesto van crkve."
+        iz_udzbenika: {strana: 39, odeljak: "Razvijeni feudalizam: odvajanje od religije", tekst: "Obrazovanje i umetnost postepeno se odvajaju od religije."}
+      - id: l09-zastoj-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [srednjovekovna-kultura, manastir]
+        pitanje: "Šta bi, po ovoj lekciji, verovatno usledilo u Srbiji da nije bilo turskih osvajanja?"
+        odgovori:
+          - {tekst: "Obrazovanje i umetnost bi se verovatno i tu postepeno odvajali od religije", tacan: true}
+          - {tekst: "Srbija bi odmah ukinula sve manastire", tacan: false, zasto: "Lekcija govori o postepenom odvajanju, a ne o ukidanju."}
+          - {tekst: "Prestali bi da se čitaju svi spisi", tacan: false, zasto: "Interesovanje za pisce je, naprotiv, raslo."}
+          - {tekst: "Ništa se ne bi menjalo, jer Srbija nije imala nikakve veze sa Zapadom", tacan: false, zasto: "Novine sa Zapada stizale su preko dubrovačkih trgovaca."}
+        pomoc: ["Korak 1: Šta se dešavalo na Zapadu?", "Korak 2: Šta je sprečilo isto u Srbiji?", "Iz lekcije: proces je u Srbiji sprečen turskim osvajanjima."]
+        objasnjenje: "Reč „sprečila” znači da je proces bio moguć, ali je prekinut spolja."
+        iz_udzbenika: {strana: 39, odeljak: "Razvijeni feudalizam: odvajanje od religije", tekst: "U Srbiji su taj proces sprečila turska osvajanja."}
+      - id: l09-odvajanje-lanac
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [univerziteti, srednjovekovna-kultura]
+        karike: ["Interesovanje za antičke pisce", "Svetovne škole i univerziteti", "?", "U Srbiji je to sprečeno turskim osvajanjima"]
+        praznina: 2
+        odgovori:
+          - {tekst: "Na Zapadu se obrazovanje i umetnost odvajaju od religije", tacan: true}
+          - {tekst: "U Srbiji nastaje moravski stil", tacan: false, zasto: "Moravski stil se tiče gradnje, ne obrazovanja."}
+          - {tekst: "Crkva preuzima sve škole", tacan: false, zasto: "Svetovne škole su upravo van crkve."}
+        pomoc: ["Korak 1: Čemu vode svetovne škole?", "Korak 2: Šta je to što je u Srbiji sprečeno?", "Iz lekcije: interesovanje, škole i univerziteti → odvajanje od religije; turska osvajanja → u Srbiji sprečeno."]
+        objasnjenje: "Lanac objašnjava razliku između Zapada i Srbije."
+        iz_udzbenika: {strana: 39, odeljak: "Razvijeni feudalizam: odvajanje od religije", tekst: "Na Zapadu se obrazovanje postepeno odvaja od religije, a u Srbiji je to sprečeno."}
+      - id: l09-zapad-srbija-uporedi
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [univerziteti, manastir]
+        a: "Zapadna i srednja Evropa"
+        b: "Srbija"
+        pitanje: "Na šta se odnosi tvrdnja: Zapad, Srbiju, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Nastaju prvi univerziteti.", odgovor: a, zasto: "Lekcija ih vezuje za zapadnu i srednju Evropu."}
+          - {tekst: "Umetnost je u srednjem veku prožeta religijom.", odgovor: oba, zasto: "Religija prožima umetnost u celoj tadašnjoj Evropi."}
+          - {tekst: "Odvajanje od religije sprečavaju turska osvajanja.", odgovor: b, zasto: "To se dogodilo u Srbiji."}
+          - {tekst: "Kultura se potpuno odvojila od vere već u XII veku.", odgovor: nijedan, zasto: "Odvajanje je postepeno i tek u razvijenom feudalizmu."}
+        pomoc: ["Šta je zajedničko svima u srednjem veku?", "Gde su Turci stigli?", "Iz lekcije: religija svuda; univerziteti na Zapadu; proces sprečen u Srbiji."]
+        objasnjenje: "Polazište je isto, a razvoj se razlikuje zbog turskih osvajanja."
+        iz_udzbenika: {strana: 39, odeljak: "Razvijeni feudalizam: odvajanje od religije", tekst: "Na Zapadu se obrazovanje odvaja od religije, a u Srbiji je to sprečeno."}
+      - id: l09-odvajanje-objasni
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [univerziteti, srednjovekovna-kultura]
+        pitanje: "Uporedi razvoj obrazovanja na Zapadu i u Srbiji u doba razvijenog feudalizma."
+        uzor: "Na Zapadu se javlja interesovanje za antičke pisce, nastaju svetovne škole i prvi univerziteti, pa se obrazovanje i umetnost postepeno odvajaju od religije. U Srbiji je polazište bilo isto, ali su taj proces sprečila turska osvajanja. Zato je kultura u Srbiji ostala pretežno verska."
+        ideje: ["Interesovanje za antičke pisce.", "Svetovne škole i univerziteti na Zapadu.", "Postepeno odvajanje od religije.", "U Srbiji sprečeno turskim osvajanjima."]
+        objasnjenje: "Odgovor treba da pokaže razliku i njen uzrok."
+        iz_udzbenika: {strana: 39, odeljak: "Razvijeni feudalizam: odvajanje od religije", tekst: "U zapadnoj i srednjoj Evropi nastaju svetovne škole i univerziteti, a u Srbiji je to sprečeno."}
+  - naslov: "Kulturne veze sa susedima"
+    zadaci:
+      - id: l09-trgovci-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [dubrovacki-trgovci]
+        pitanje: "Preko koga su mnoge novine sa Zapada stizale u Srbiju?"
+        odgovori:
+          - {tekst: "Preko dubrovačkih trgovaca", tacan: true}
+          - {tekst: "Preko Turaka", tacan: false, zasto: "Turci nisu veza sa Zapadom; njihova osvajanja su sprečila promene."}
+          - {tekst: "Preko hilandarskih monaha", tacan: false, zasto: "Hilandar održava veze sa pravoslavnim zajednicama, a ne sa Zapadom."}
+          - {tekst: "Preko Mongola", tacan: false, zasto: "Mongoli nemaju veze sa ovom temom."}
+        pomoc: ["Razmena ide trgovačkim putem.", "Trgovci iz primorskog grada.", "Iz lekcije: mnoge novine sa Zapada stizale su preko dubrovačkih trgovaca."]
+        objasnjenje: "Trgovina nije prenosila samo robu, već i iskustva i znanja."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Mnoge novine sa Zapada stizale su u Srbiju preko dubrovačkih trgovaca."}
+      - id: l09-hilandar-gde-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [hilandar, sveta-gora]
+        pitanje: "Gde je podignut srpski manastir Hilandar?"
+        odgovori:
+          - {tekst: "Na Svetoj Gori", tacan: true}
+          - {tekst: "Kod Kraljeva", tacan: false, zasto: "Kod Kraljeva je Studenica."}
+          - {tekst: "Kod Raške", tacan: false, zasto: "Kod Raške je Gradac."}
+          - {tekst: "U Dubrovniku", tacan: false, zasto: "Dubrovnik je grad trgovaca; Hilandar je na Svetoj Gori."}
+        pomoc: ["Mesto je bilo središte pravoslavlja.", "Naziv sadrži reč „Sveta”.", "Iz lekcije: Hilandar je podignut na Svetoj Gori."]
+        objasnjenje: "Hilandar na Svetoj Gori, tadašnjem središtu pravoslavlja, povezivao je Srbe sa pravoslavnim svetom."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Srpski manastir Hilandar podignut je na Svetoj Gori, tadašnjem središtu pravoslavlja."}
+      - id: l09-ktitor-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [ktitor]
+        pitanje: "Ko je ktitor?"
+        odgovori:
+          - {tekst: "Onaj ko osniva neki manastir ili mu pruža zaštitu", tacan: true}
+          - {tekst: "Monah koji prepisuje knjige", tacan: false, zasto: "Prepisivanje je posao monaha; ktitor osniva ili štiti manastir."}
+          - {tekst: "Slikar fresaka", tacan: false, zasto: "Ktitor nije slikar, već osnivač ili zaštitnik."}
+          - {tekst: "Trgovac iz Dubrovnika", tacan: false, zasto: "Trgovci su donosili novine, a ktitor se vezuje za manastir."}
+        pomoc: ["Seti se Nemanje i Hilandara.", "Ne radi u manastiru, nego ga osniva ili štiti.", "Iz lekcije: ktitor je onaj ko osniva neki manastir ili mu pruža zaštitu."]
+        objasnjenje: "Nemanja je postao ktitor Hilandara kada je obnovio razoreni manastir."
+        iz_udzbenika: {strana: 40, odeljak: "Kulturne veze sa susedima", tekst: "Ktitor je onaj ko osniva neki manastir ili mu pruža zaštitu."}
+      - id: l09-strani-umetnici-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [vizantija]
+        tvrdnja: "Srpski vladari pozivali su strane umetnike da grade i ukrašavaju njihove zadužbine."
+        tacno: true
+        pomoc: ["Odakle potiče uticaj na srpske hramove?", "Iz lekcije: za gradnju i ukrašavanje zadužbina vladari su pozivali strane umetnike."]
+        objasnjenje: "Tačno. Tako se u Srbiji osetio uticaj Vizantije i latinskih zemalja zapadne Evrope."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Za gradnju i ukrašavanje svojih zadužbina srpski vladari pozivali su strane umetnike."}
+      - id: l09-hilandar-veze-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [hilandar]
+        tvrdnja: "Hilandar je služio za veze sa latinskim zemljama Zapada."
+        tacno: false
+        ispravke:
+          - {tekst: "Hilandar je održavao veze sa drugim pravoslavnim zajednicama.", tacan: true}
+          - {tekst: "Hilandar je bio dubrovačka trgovačka stanica.", tacan: false, zasto: "Hilandar je manastir, a ne trgovačka stanica."}
+          - {tekst: "Hilandar je bio turska tvrđava.", tacan: false, zasto: "Hilandar je srpski manastir na Svetoj Gori."}
+        pomoc: ["Sveta Gora je središte čega?", "Kome su bliski pravoslavni monasi?", "Iz lekcije: veze sa drugim pravoslavnim zajednicama održavao je Hilandar."]
+        objasnjenje: "Netačno. Veza sa Zapadom išla je preko Dubrovnika, a sa pravoslavnim svetom preko Hilandara."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Veze sa drugim pravoslavnim zajednicama održavao je Hilandar."}
+      - id: l09-trgovina-znanje-tn
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [dubrovacki-trgovci]
+        tvrdnja: "Trgovina je uticala na kulturu, a ne samo na privredu."
+        tacno: true
+        pomoc: ["Šta sve putuje sa trgovcima?", "Iz lekcije: trgovačke veze su bile važne za razmenu iskustava i znanja."]
+        objasnjenje: "Tačno. Sa robom putuju i znanja, pa je Dubrovnik bio i kulturni most."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Trgovačke veze su bile važne za razmenu iskustava i znanja."}
+      - id: l09-veze-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [dubrovacki-trgovci, hilandar, sveta-gora]
+        pitanje: "Dopuni rečenice o vezama sa susedima."
+        tekst: "Novine sa Zapada stizale su preko {{dubrovačkih}} trgovaca. Veze sa pravoslavnim zajednicama održavao je manastir {{Hilandar}} na {{Svetoj Gori}}."
+        ponudjene: ["dubrovačkih", "Hilandar", "Svetoj Gori", "Studenica", "turskih"]
+        pomoc: ["Studenica je kod Kraljeva.", "Turci nisu veza sa Zapadom.", "Iz lekcije: dubrovački trgovci, Hilandar na Svetoj Gori."]
+        objasnjenje: "Dve veze u dva pravca: ka Zapadu i ka pravoslavnom svetu."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Novine su stizale preko dubrovačkih trgovaca, a veze sa pravoslavnim zajednicama održavao je Hilandar."}
+      - id: l09-uticaji-dopuni
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [vizantija, studenica, gradac]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "U Srbiji se oseća graditeljski uticaj {{Vizantije}} i latinskih zemalja {{zapadne Evrope|Zapada}}, a primer preplitanja tih uticaja su manastiri Studenica i {{Gradac}}."
+        pomoc: ["Istočni uticaj dolazi iz poznate carevine.", "Drugi uticaj je sa suprotne strane.", "Iz lekcije: Vizantija, zapadna Evropa, Studenica i Gradac."]
+        objasnjenje: "Preplitanje uticaja je posledica toga što vladari pozivaju strane majstore."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Oseća se uticaj Vizantije i latinskih zemalja zapadne Evrope; primeri su Studenica i Gradac."}
+      - id: l09-veze-povezi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [dubrovacki-trgovci, hilandar, vizantija]
+        pitanje: "Poveži put uticaja i šta je njime stizalo."
+        parovi:
+          - ["Dubrovački trgovci", "Novine sa Zapada"]
+          - ["Pozvani strani umetnici", "Graditeljski uticaj Vizantije i Zapada"]
+          - ["Hilandar", "Veze sa drugim pravoslavnim zajednicama"]
+        pomoc: ["Trgovci su došli sa mora.", "Sveta Gora je pravoslavno središte.", "Iz lekcije: trgovci, strani umetnici i Hilandar."]
+        objasnjenje: "Tri različita puta povezivala su Srbiju sa svetom."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Veze su išle preko trgovaca, stranih umetnika i Hilandara."}
+      - id: l09-povezanost-povezi
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [studenica, hilandar, dubrovacki-trgovci, univerziteti]
+        pitanje: "Poveži uzrok i posledicu."
+        parovi:
+          - ["Vladari pozivaju strane majstore", "Prepliću se vizantijski i zapadni uticaji"]
+          - ["Trgovina sa Dubrovnikom", "Novine sa Zapada stižu u Srbiju"]
+          - ["Podizanje Hilandara na Svetoj Gori", "Veze sa drugim pravoslavnim zajednicama"]
+          - ["Turska osvajanja", "U Srbiji je sprečeno odvajanje obrazovanja od religije"]
+        pomoc: ["Tri veze su spajale Srbiju sa svetom, a jedna ih je prekidala.", "Svaki put vodi jednoj posledici.", "Iz lekcije: uzročno-posledične veze iz pregleda lekcije."]
+        objasnjenje: "Veze sa susedima su obogaćivale srpsku kulturu, a turska osvajanja su promene prekinula."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Lekcija povezuje trgovinu, strane majstore, Hilandar i turska osvajanja sa njihovim posledicama."}
+      - id: l09-strani-umetnici-zakljuci
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [studenica, vizantija]
+        pitanje: "Zašto se u Studenici i Gracu vide i vizantijski i zapadni uticaji?"
+        odgovori:
+          - {tekst: "Zato što su vladari pozivali strane umetnike", tacan: true}
+          - {tekst: "Zato što su ih gradili Turci", tacan: false, zasto: "Gradili su ih srpski vladari kao zadužbine."}
+          - {tekst: "Zato što su slučajno slični", tacan: false, zasto: "Uticaj dolazi od pozvanih stranih umetnika."}
+          - {tekst: "Zato što su u Dubrovniku", tacan: false, zasto: "Studenica je kod Kraljeva, a Gradac kod Raške."}
+        pomoc: ["Korak 1: Ko je gradio i ukrašavao zadužbine?", "Korak 2: Odakle su dolazili ti majstori?", "Iz lekcije: vladari pozivaju strane majstore → prepliću se vizantijski i zapadni uticaji."]
+        objasnjenje: "Srpski vladari su znali gde su dobri majstori i zvali ih sa obe strane."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Za gradnju i ukrašavanje zadužbina vladari su pozivali strane umetnike."}
+      - id: l09-sveta-gora-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [hilandar, sveta-gora]
+        pitanje: "Zašto je bilo važno da srpski manastir bude baš na Svetoj Gori?"
+        odgovori:
+          - {tekst: "Zato što je to bilo središte pravoslavlja, gde su Srbi bili u dodiru sa drugim pravoslavnim zajednicama", tacan: true}
+          - {tekst: "Zato što je tu bio najveći univerzitet", tacan: false, zasto: "Univerziteti nastaju na Zapadu."}
+          - {tekst: "Zato što je to bila turska prestonica", tacan: false, zasto: "Sveta Gora je središte pravoslavlja."}
+          - {tekst: "Zato što je tu živeo Aleksandar Makedonski", tacan: false, zasto: "Aleksandar je junak romana Aleksandrida."}
+        pomoc: ["Korak 1: Šta je Sveta Gora bila?", "Korak 2: Šta se dobija prisustvom u središtu?", "Iz lekcije: podizanje Hilandara na Svetoj Gori → veze sa drugim pravoslavnim zajednicama."]
+        objasnjenje: "Prisustvo u središtu pravoslavlja značilo je stalnu vezu sa pravoslavnim svetom."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Hilandar je podignut na Svetoj Gori, tadašnjem središtu pravoslavlja."}
+      - id: l09-trgovina-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [dubrovacki-trgovci]
+        karike: ["Trgovina sa Dubrovnikom", "?", "Razmena iskustava i znanja"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Novine sa Zapada stižu u Srbiju", tacan: true}
+          - {tekst: "Dubrovnik zauzima Srbiju", tacan: false, zasto: "Veza je trgovačka, a ne osvajačka."}
+          - {tekst: "Turci prekidaju rad manastira", tacan: false, zasto: "To nije veza sa Dubrovnikom."}
+        pomoc: ["Korak 1: Šta trgovci donose osim robe?", "Korak 2: Odakle su novine?", "Iz lekcije: trgovina sa Dubrovnikom → novine sa Zapada stižu u Srbiju."]
+        objasnjenje: "Sa robom putuju i ideje."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Trgovačke veze su bile važne za razmenu; novine su stizale preko dubrovačkih trgovaca."}
+      - id: l09-majstori-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [studenica, gradac, vizantija]
+        karike: ["Vladari žele što lepše zadužbine", "?", "U Studenici i Gracu se prepliću uticaji"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Pozivaju strane majstore i umetnike", tacan: true}
+          - {tekst: "Zabranjuju gradnju po uzoru na druge", tacan: false, zasto: "Baš suprotno: uzori su bili dobrodošli."}
+          - {tekst: "Grade zadužbine samo u Dubrovniku", tacan: false, zasto: "Zadužbine su bile u Srbiji, kao Studenica i Gradac."}
+        pomoc: ["Korak 1: Kome se vladar obraća za veliki posao?", "Korak 2: Odakle su ti ljudi?", "Iz lekcije: vladari pozivaju strane umetnike."]
+        objasnjenje: "Strani majstori su doneli svoja znanja, pa se uticaji vide u građevinama."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Vladari su pozivali strane umetnike, pa se oseća uticaj Vizantije i Zapada."}
+      - id: l09-veze-uporedi
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [dubrovacki-trgovci, hilandar]
+        a: "Dubrovački trgovci"
+        b: "Hilandar"
+        pitanje: "Na šta se odnosi tvrdnja: trgovce, Hilandar, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Veza sa Zapadom.", odgovor: a, zasto: "Trgovci su donosili novine sa Zapada."}
+          - {tekst: "Veza sa pravoslavnim zajednicama.", odgovor: b, zasto: "Hilandar je to činio sa Svete Gore."}
+          - {tekst: "Povezuju Srbiju sa spoljnim svetom.", odgovor: oba, zasto: "I jedni i drugi šire kulturne veze."}
+          - {tekst: "Grade janičarsku vojsku.", odgovor: nijedan, zasto: "Janičari su osmanska vojska."}
+        pomoc: ["Ko ide ka Zapadu?", "Šta je Sveta Gora?", "Iz lekcije: trgovci i Hilandar održavaju različite veze."]
+        objasnjenje: "Oba puta šire srpsku kulturu, ali u različitim pravcima."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Lekcija navodi dubrovačke trgovce i Hilandar kao veze sa svetom."}
+      - id: l09-veze-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [dubrovacki-trgovci, hilandar, vizantija]
+        pitanje: "Navedi tri načina na koje je srpska kultura bila povezana sa susedima."
+        uzor: "Dubrovački trgovci su donosili novine sa Zapada. Vladari su pozivali strane umetnike, pa se u gradnji oseća uticaj Vizantije i Zapada. Hilandar na Svetoj Gori održavao je veze sa drugim pravoslavnim zajednicama."
+        ideje: ["Dubrovački trgovci.", "Strani umetnici.", "Hilandar na Svetoj Gori."]
+        objasnjenje: "Srpska kultura nije bila izolovana: bila je u vezi i sa Istokom i sa Zapadom."
+        iz_udzbenika: {strana: 39, odeljak: "Kulturne veze sa susedima", tekst: "Veze su išle preko trgovaca, stranih umetnika i manastira Hilandara."}
+      - id: l09-ktitor-objasni
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [ktitor, stefan-nemanja, hilandar]
+        pitanje: "Ko je ktitor? Navedi primer iz lekcije."
+        uzor: "Ktitor je onaj ko osniva neki manastir ili mu pruža zaštitu. Primer je Simeon Nemanja, koji je uz pomoć sina Stefana obnovio razoreni Hilandar i postao njegov ktitor."
+        ideje: ["Osniva manastir ili ga štiti.", "Primer je Simeon Nemanja.", "Obnovio je Hilandar."]
+        objasnjenje: "Pojam je lakše zapamtiti uz konkretan primer."
+        iz_udzbenika: {strana: 40, odeljak: "Iz istorijskih izvora: Hilandarska povelja", tekst: "Nemanja je obnovio Hilandar i tako postao njegov ktitor."}
+  - naslov: "Iz istorijskih izvora: Hilandarska povelja"
+    zadaci:
+      - id: l09-povelja-ko-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [hilandarska-povelja, stefan-nemanja]
+        pitanje: "Ko je izdao Hilandarsku povelju?"
+        odgovori:
+          - {tekst: "Simeon Nemanja", tacan: true}
+          - {tekst: "Knez Lazar", tacan: false, zasto: "Lazar pripada vremenu Kosovske bitke; povelja je iz kraja XII veka, a izdao ju je Nemanja."}
+          - {tekst: "Monahinja Jefimija", tacan: false, zasto: "Jefimija je izvezla Pohvalu knezu Lazaru."}
+          - {tekst: "Konstantin Filozof", tacan: false, zasto: "Konstantin je biograf Stefana Lazarevića."}
+        pomoc: ["Izdao ju je pri osnivanju Hilandara.", "To je otac Save i Stefana.", "Iz lekcije: Simeon Nemanja izdao je manastiru Hilandarsku povelju."]
+        objasnjenje: "Povelju je izdao Simeon Nemanja, krajem XII veka."
+        iz_udzbenika: {strana: 40, odeljak: "Iz istorijskih izvora: Hilandarska povelja", tekst: "Prilikom osnivanja Hilandara, krajem XII veka, Simeon Nemanja izdao je manastiru Hilandarsku povelju."}
+        osa: {naziv: "Hilandarska povelja", od: 1190, do: 1200, traka: crkva-kultura, oznaka: "kraj XII veka"}
+      - id: l09-povelja-razoren-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [hilandarska-povelja, hilandar]
+        tvrdnja: "Nemanja je na Svetoj Gori zatekao napušten i sasvim razoren manastir Hilandar."
+        tacno: true
+        pomoc: ["Šta je Nemanja morao da uradi sa manastirom?", "Iz lekcije: zatekao je napušten i sasvim razoren manastir, pa se potrudio da ga obnovi."]
+        objasnjenje: "Tačno. Zato povelja govori o obnovi, a Nemanja postaje ktitor."
+        iz_udzbenika: {strana: 40, odeljak: "Iz istorijskih izvora: Hilandarska povelja", tekst: "Nemanja je na Svetoj Gori zatekao napušten i razoren manastir Hilandar."}
+      - id: l09-povelja-kraj-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [hilandarska-povelja]
+        tvrdnja: "Hilandarska povelja izdata je krajem XIV veka, posle Kosovske bitke."
+        tacno: false
+        ispravke:
+          - {tekst: "Hilandarska povelja izdata je krajem XII veka.", tacan: true}
+          - {tekst: "Hilandarska povelja izdata je tek u XVI veku.", tacan: false, zasto: "Izdata je krajem XII veka, pri osnivanju Hilandara."}
+          - {tekst: "Hilandarska povelja nema nikakvo vreme nastanka.", tacan: false, zasto: "Lekcija je datira krajem XII veka."}
+        pomoc: ["Povelju je izdao Nemanja.", "Nemanja je živeo u XII veku.", "Iz lekcije: povelja je izdata krajem XII veka."]
+        objasnjenje: "Netačno. Povelja je iz kraja XII veka, dva veka pre Kosova."
+        iz_udzbenika: {strana: 40, odeljak: "Iz istorijskih izvora: Hilandarska povelja", tekst: "Krajem XII veka Simeon Nemanja izdao je Hilandarsku povelju."}
+        osa: {naziv: "Hilandarska povelja", od: 1190, do: 1200, traka: crkva-kultura, oznaka: "kraj XII veka"}
+      - id: l09-povelja-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [hilandarska-povelja, ktitor, hilandar]
+        pitanje: "Dopuni sadržaj povelje."
+        tekst: "Nemanja je napustio otadžbinu i otišao na {{Svetu Goru}}. Uz pomoć sina, velikog župana {{Stefana}}, obnovio je manastir {{Hilandar}} i tako postao njegov {{ktitor}}."
+        ponudjene: ["Svetu Goru", "Stefana", "Hilandar", "ktitor", "Savu", "vazal"]
+        pomoc: ["Sin koji je veliki župan je Stefan.", "Vazal nema veze sa manastirom.", "Iz lekcije: Sveta Gora, Stefan, Hilandar, ktitor."]
+        objasnjenje: "Povelja opisuje put od odlaska iz otadžbine do obnove manastira."
+        iz_udzbenika: {strana: 40, odeljak: "Iz istorijskih izvora: Hilandarska povelja", tekst: "Nemanja je uz pomoć sina, velikog župana Stefana, obnovio Hilandar i postao njegov ktitor."}
+      - id: l09-povelja-bog-izvor
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [hilandarska-povelja, hilandar]
+        izvor:
+          autor: "Simeon Nemanja"
+          naslov: "Hilandarska povelja"
+          tekst: "Nemanja kaže da je napustio otadžbinu i otišao na Svetu Goru. Tu je zatekao napušten i sasvim razoren manastir Hilandar, posvećen Vavedenju Bogorodice. U starosti se, uz pomoć sina, velikog župana Stefana, potrudio da ga obnovi."
+          napomena: "Odlomak je prepričan; udžbenik, str. 40."
+        pitanje: "Koji je manastir Nemanja obnovio?"
+        odgovori:
+          - {tekst: "Hilandar", tacan: true}
+          - {tekst: "Studenicu", tacan: false, zasto: "Studenica je kod Kraljeva, a odlomak govori o Svetoj Gori."}
+          - {tekst: "Mileševu", tacan: false, zasto: "Mileševa se pominje zbog freske."}
+          - {tekst: "Ravanicu", tacan: false, zasto: "Ravanica nije u ovom odlomku."}
+        pomoc: ["Pročitaj drugu rečenicu.", "Manastir je na Svetoj Gori.", "Iz lekcije: Nemanja je obnovio Hilandar."]
+        objasnjenje: "Povelja govori o obnovi Hilandara."
+        iz_udzbenika: {strana: 40, odeljak: "Iz istorijskih izvora: Hilandarska povelja", tekst: "Nemanja je zatekao razoren Hilandar i potrudio se da ga obnovi."}
+      - id: l09-povelja-vlast-izvor
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [hilandarska-povelja, stefan-nemanja]
+        izvor:
+          autor: "Simeon Nemanja"
+          naslov: "Hilandarska povelja"
+          tekst: "Povelja počinje time da je Bog dao ljudima vlast nad stvorenjima, a narodima careve, knezove i gospodare da čuvaju svoje stado. Grke je dao carevima, a Ugre kraljevima."
+          napomena: "Odlomak je prepričan; udžbenik, str. 40."
+        pitanje: "Kako povelja objašnjava poreklo vladarske vlasti?"
+        odgovori:
+          - {tekst: "Vlast dolazi od Boga, a vladari treba da čuvaju narod", tacan: true}
+          - {tekst: "Vlast biraju građani na izborima", tacan: false, zasto: "U odlomku vladare daje Bog."}
+          - {tekst: "Vlast dolazi od pape", tacan: false, zasto: "Odlomak ne pominje papu."}
+          - {tekst: "Vlast se stiče trgovinom", tacan: false, zasto: "Odlomak ne govori o trgovini."}
+        pomoc: ["Ko je u odlomku dao careve i knezove?", "Šta treba oni da čine?", "Iz lekcije: Bog je dao narodima careve, knezove i gospodare da čuvaju svoje stado."]
+        objasnjenje: "Srednjovekovni spis objašnjava vlast verski: vladar je od Boga postavljen da čuva narod."
+        iz_udzbenika: {strana: 40, odeljak: "Iz istorijskih izvora: Hilandarska povelja", tekst: "Povelja počinje time da je Bog dao narodima careve, knezove i gospodare."}
+      - id: l09-povelja-stado-izvor
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [hilandarska-povelja, srednjovekovna-kultura]
+        izvor:
+          autor: "Simeon Nemanja"
+          naslov: "Hilandarska povelja"
+          tekst: "Bog je, kaže povelja, dao narodima careve, knezove i gospodare da čuvaju svoje stado. Vladar koji izdaje povelju zatim opisuje kako je napustio otadžbinu i u starosti obnovio manastir."
+          napomena: "Odlomak je prepričan; udžbenik, str. 40."
+        pitanje: "Koji zaključak iz lekcije ovaj službeni dokument najbolje potvrđuje?"
+        odgovori:
+          - {tekst: "Vera je prožimala i službene spise, a ne samo književnost i umetnost", tacan: true}
+          - {tekst: "Svetovne škole su već bile raširene u Srbiji", tacan: false, zasto: "Povelja ne govori o školama."}
+          - {tekst: "Dubrovački trgovci su pisali povelje", tacan: false, zasto: "Povelju je izdao Simeon Nemanja."}
+          - {tekst: "Obrazovanje se tada već odvojilo od religije", tacan: false, zasto: "Dokument pokazuje suprotno: vlast se objašnjava verom."}
+        pomoc: ["Kako počinje dokument?", "Da li je to verski tekst po vrsti ili po duhu?", "Iz lekcije: svaka umetnost i nauka bila je prožeta religijom."]
+        objasnjenje: "Čak i službena povelja počinje verskim objašnjenjem sveta."
+        iz_udzbenika: {strana: 40, odeljak: "Iz istorijskih izvora: Hilandarska povelja", tekst: "Povelja počinje verskim objašnjenjem vlasti, a zatim govori o obnovi Hilandara."}
+      - id: l09-nemanja-sava-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [hilandarska-povelja, ktitor, stefan-nemanja]
+        pitanje: "Zašto je Nemanja postao ktitor Hilandara, iako manastir nije prvi podigao?"
+        odgovori:
+          - {tekst: "Zato što je ktitor i onaj ko pruža zaštitu i obnavlja, a on je razoreni manastir obnovio", tacan: true}
+          - {tekst: "Zato što je kupio manastir od Turaka", tacan: false, zasto: "Lekcija o tome ne govori; on ga je zatekao razorenog i obnovio."}
+          - {tekst: "Zato što je on nasledio titulu od Vizantije", tacan: false, zasto: "Ktitor nije nasledna titula, već onaj ko osniva ili štiti manastir."}
+          - {tekst: "Zato što je u njemu slikao freske", tacan: false, zasto: "Ktitor nije slikar."}
+        pomoc: ["Korak 1: Šta je Nemanja zatekao?", "Korak 2: Šta sve može da učini ktitor?", "Iz lekcije: ktitor osniva manastir ili mu pruža zaštitu; Nemanja je obnovio Hilandar."]
+        objasnjenje: "Obnova razorenog manastira čini ga ktitorom."
+        iz_udzbenika: {strana: 40, odeljak: "Iz istorijskih izvora: Hilandarska povelja", tekst: "Nemanja se potrudio da obnovi Hilandar i tako postao njegov ktitor."}
+      - id: l09-izvori-uporedi
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [hilandarska-povelja, pohvala-knezu-lazaru]
+        a: "Hilandarska povelja"
+        b: "Pohvala knezu Lazaru"
+        pitanje: "Na šta se odnosi tvrdnja: povelju, Pohvalu, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Izvezena je na platnu.", odgovor: b, zasto: "Pohvalu je izvezla Jefimija."}
+          - {tekst: "Izdao ju je Simeon Nemanja.", odgovor: a, zasto: "Povelju je izdao Nemanja."}
+          - {tekst: "Istorijski je izvor o srpskom društvu.", odgovor: oba, zasto: "Iz oba dela saznajemo o svom vremenu."}
+          - {tekst: "Govori o Aleksandru Makedonskom.", odgovor: nijedan, zasto: "O njemu govori Aleksandrida."}
+        pomoc: ["Jedno je dokument, drugo vez.", "Oba nam govore o prošlosti.", "Iz lekcije: povelja je Nemanjina, a Pohvala Jefimijina."]
+        objasnjenje: "Izvor može biti i dokument i umetničko delo."
+        iz_udzbenika: {strana: 40, odeljak: "Iz istorijskih izvora: Hilandarska povelja", tekst: "Povelju je izdao Simeon Nemanja, a Pohvalu je izvezla Jefimija."}
+      - id: l09-nemanja-ko-sam
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [stefan-nemanja, hilandar, ktitor]
+        tragovi: ["Dva sina su mi pisala biografije.", "Napustio sam otadžbinu i otišao na Svetu Goru.", "U starosti sam obnovio Hilandar i izdao mu povelju."]
+        odgovori:
+          - {tekst: "Simeon, odnosno Stefan Nemanja", tacan: true}
+          - {tekst: "Knez Lazar", tacan: false, zasto: "O Lazaru govori Pohvala, a ne povelja."}
+          - {tekst: "Teodosije", tacan: false, zasto: "Teodosije je hilandarski monah i pisac."}
+          - {tekst: "Stefan Lazarević", tacan: false, zasto: "On je despot o kome piše Konstantin Filozof."}
+        objasnjenje: "Stefan Nemanja, pod imenom Simeon, obnovio je Hilandar i izdao mu povelju."
+        iz_udzbenika: {strana: 40, odeljak: "Iz istorijskih izvora: Hilandarska povelja", tekst: "Simeon Nemanja izdao je Hilandarsku povelju."}
+      - id: l09-zapamti-objasni
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [srednjovekovna-kultura, studenica, freska, vizantija]
+        pitanje: "Sažmi lekciju: koje su glavne odlike srpske srednjovekovne kulture?"
+        uzor: "Kultura je bila pretežno verska i služila je potrebama vere. Razvijala se najviše pod uticajem Vizantije, ali i Zapada, što pokazuje Studenica. Umetnost se najviše ispoljavala u gradnji i uređenju manastira, a srpsko fresko-slikarstvo spada u najviša umetnička dela epohe."
+        ideje: ["Kultura je pretežno verska.", "Uticaj Vizantije i Zapada.", "Gradnja i uređenje manastira.", "Visok nivo fresko-slikarstva."]
+        objasnjenje: "Četiri glavna zaključka lekcije."
+        iz_udzbenika: {strana: 40, odeljak: "Zapamtite", tekst: "Kultura je pretežno verska, pod uticajem Vizantije i Zapada, a fresko-slikarstvo spada u najviša dela epohe."}

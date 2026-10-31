@@ -1,0 +1,2523 @@
+# Banka pitanja: Balkansko poluostrvo u preistoriji (istorija, 1. razred srednje škole, str. 7–11). Sopstvenim rečima, po belešci lekcije.
+lekcija: 1
+naslov: "Balkansko poluostrvo u preistoriji"
+pojmovi:
+  praistorija: praistorija
+  arheologija: arheologija
+  paleolit: paleolit
+  mezolit: mezolit
+  neolit: neolit
+  bakarno-doba: bakarno doba
+  bronzano-doba: bronzano doba
+  gvozdeno-doba: gvozdeno doba
+  krapinski-covek: krapinski čovek
+  butmirska-kultura: butmirska kultura
+  lepenski-vir: Lepenski Vir
+  derdapska-klisura: Đerdapska klisura
+  riboliki-idoli: riboliki idoli
+  starcevacka-kultura: starčevačka kultura
+  starcevo: Starčevo
+  pancevo: Pančevo
+  zemunica: zemunica
+  grncarija: grnčarija
+  vincanska-kultura: vinčanska kultura
+  vinca: Vinča
+  miloje-vasic: Miloje Vasić
+  risovaca: Risovača
+  donja-branjevina: Donja Branjevina
+  rudna-glava: Rudna Glava
+  zidovar: Židovar
+  atenica: Atenica
+  dupljajska-kolica: dupljajska kolica
+  dragoslav-srejovic: Dragoslav Srejović
+  kamena-orudja: kamena oruđa
+  nakit: nakit
+  arheoloska-nalazista: arheološka nalazišta
+  kelti: Kelti
+  prvi-ilirski-rat: Prvi ilirski rat
+  dalmatinsko-panonski-ustanak: Dalmatinsko-panonski ustanak
+  trajan: Trajan
+  dakija: Dakija
+  podela-rimskog-carstva: podela Rimskog carstva
+delovi:
+  - naslov: "Hronologija"
+    zadaci:
+      - id: l01-datum-kraj-paleolita
+        vrsta: datum
+        tezina: lako
+        pojmovi: [paleolit]
+        dogadjaj: "Kraj paleolita"
+        pitanje: "Oko koje godine se završio paleolit?"
+        godina: -10000
+        traka: dogadjaji
+        pomoc:
+          - "Paleolit je daleko najduže doba, pa se završava vrlo davno."
+          - "To je okrugao broj, pet cifara."
+          - "Iz lekcije: paleolit traje do oko 10000. pre n. e."
+        objasnjenje: "Paleolit traje od pojave čoveka do oko 10000. pre n. e., kada počinje mezolit."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Paleolit počinje pojavom čoveka i traje do oko 10000. pre n. e."
+      - id: l01-datum-neolit
+        vrsta: datum
+        tezina: lako
+        pojmovi: [neolit]
+        dogadjaj: "Neolit"
+        pitanje: "Od koje do koje godine je trajao neolit?"
+        od: -8000
+        do: -3000
+        traka: dogadjaji
+        pomoc:
+          - "Neolit počinje kad se završi mezolit."
+          - "Završava se kad počinje bronzano doba."
+          - "Iz lekcije: neolit traje 8000–3000. pre n. e."
+        objasnjenje: "Neolit, mlađe kameno doba, trajao je pet hiljada godina: od 8000. do 3000. pre n. e."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Neolit traje od 8000. do 3000. pre n. e."
+      - id: l01-datum-kelti
+        vrsta: datum
+        tezina: lako
+        pojmovi: [kelti, gvozdeno-doba]
+        dogadjaj: "Doseljavanje Kelta na Balkan"
+        pitanje: "Koje godine hronologija beleži doseljavanje Kelta na Balkan?"
+        godina: -400
+        traka: dogadjaji
+        pomoc:
+          - "To je ista godina u kojoj se završava gvozdeno doba."
+          - "Broj je manji od 1000 i okrugao."
+          - "Iz lekcije: Kelti se doseljavaju 400. pre n. e."
+        objasnjenje: "Hronologija na str. 7 beleži doseljavanje Kelta 400. pre n. e., na samom kraju gvozdenog doba."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "U hronologiji poglavlja doseljavanje Kelta na Balkan stoji uz 400. pre n. e."
+      - id: l01-datum-podela
+        vrsta: datum
+        tezina: lako
+        pojmovi: [podela-rimskog-carstva]
+        dogadjaj: "Podela Rimskog carstva"
+        pitanje: "Koje godine je Rimsko carstvo podeljeno na Zapadno i Istočno?"
+        godina: 395
+        traka: dogadjaji
+        pomoc:
+          - "To je najkasniji datum u hronologiji ovog poglavlja."
+          - "Dogodilo se u IV veku n. e., pred sam njegov kraj."
+          - "Iz lekcije: podela je 395. n. e."
+        objasnjenje: "Hronologija poglavlja završava se 395. n. e., podelom carstva na Zapadno i Istočno."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Rimsko carstvo je podeljeno na Zapadno i Istočno 395. n. e."
+      - id: l01-datum-mezolit
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [mezolit]
+        dogadjaj: "Mezolit"
+        pitanje: "Od koje do koje godine je trajao mezolit?"
+        od: -10000
+        do: -8000
+        traka: dogadjaji
+        pomoc:
+          - "Mezolit stoji između paleolita i neolita."
+          - "Trajao je samo dve hiljade godina."
+          - "Iz lekcije: mezolit traje 10000–8000. pre n. e."
+        objasnjenje: "Mezolit je kratko prelazno doba: počinje kad i završava paleolit (10000), a traje do početka neolita (8000. pre n. e.)."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Mezolit, srednje kameno doba, traje od 10000. do 8000. pre n. e."
+      - id: l01-datum-bronzano
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [bronzano-doba]
+        dogadjaj: "Bronzano doba"
+        pitanje: "Od koje do koje godine je trajalo bronzano doba?"
+        od: -3000
+        do: -1000
+        traka: dogadjaji
+        pomoc:
+          - "Počinje kad se završi neolit."
+          - "Završava se kad počne gvozdeno doba."
+          - "Iz lekcije: bronzano doba traje 3000–1000. pre n. e."
+        objasnjenje: "Bronzano doba počinje 3000. pre n. e., kad se završava neolit, a smenjuje ga gvozdeno doba 1000. pre n. e."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Bronzano doba traje od 3000. do 1000. pre n. e."
+      - id: l01-datum-gvozdeno
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [gvozdeno-doba, praistorija]
+        dogadjaj: "Gvozdeno doba"
+        pitanje: "Od koje do koje godine je trajalo gvozdeno doba, kojim se praistorija završava?"
+        od: -1000
+        do: -400
+        traka: dogadjaji
+        pomoc:
+          - "Počinje kad se završi bronzano doba."
+          - "Završava se u godini doseljavanja Kelta."
+          - "Iz lekcije: gvozdeno doba traje 1000–400. pre n. e."
+        objasnjenje: "Gvozdeno doba, poslednje doba praistorije, traje od 1000. do 400. pre n. e."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Gvozdeno doba traje od 1000. do 400. pre n. e. i njime se praistorija završava."
+      - id: l01-datum-vinca
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [vincanska-kultura]
+        dogadjaj: "Vinčanska kultura"
+        pitanje: "Od koje do koje godine je trajala vinčanska kultura?"
+        od: -5300
+        do: -4300
+        traka: crkva-kultura
+        pomoc:
+          - "Nastala je pred kraj starčevačke kulture."
+          - "Trajala je tačno hiljadu godina."
+          - "Iz lekcije: vinčanska kultura traje 5300–4300. pre n. e."
+        objasnjenje: "Vinčanska kultura trajala je od 5300. do 4300. pre n. e. i spada u mlađi neolit."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Vinčanska kultura traje od 5300. do 4300. pre n. e."
+      - id: l01-datum-dakija
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [trajan, dakija]
+        dogadjaj: "Trajan zauzima Dakiju"
+        pitanje: "Koje godine su Rimljani pod carem Trajanom zauzeli Dakiju?"
+        godina: 106
+        traka: dogadjaji
+        pomoc:
+          - "To je posle Dalmatinsko-panonskog ustanka, a pre podele carstva."
+          - "Bilo je to na početku II veka n. e."
+          - "Iz lekcije: Trajan zauzima Dakiju 106. n. e."
+        objasnjenje: "Trajan je Dakiju zauzeo 106. n. e."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Rimljani pod carem Trajanom zauzimaju Dakiju 106. n. e."
+      - id: l01-datum-lepenski-vir
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [lepenski-vir]
+        dogadjaj: "Lepenski Vir"
+        pitanje: "U kom rasponu godina smeštamo kulturu Lepenskog Vira?"
+        od: -6700
+        do: -5500
+        traka: crkva-kultura
+        pomoc:
+          - "To je najstarija od tri velike zajednice na tlu Srbije."
+          - "Trajala je 1200 godina i završila se pre Vinče."
+          - "Iz lekcije: Lepenski Vir je 6700–5500. pre n. e."
+        objasnjenje: "Lepenski Vir je najstarija od tri zajednice: 6700–5500. pre n. e."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Lepenski Vir traje od 6700. do 5500. pre n. e."
+      - id: l01-datum-starcevo
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [starcevacka-kultura]
+        dogadjaj: "Starčevačka kultura"
+        pitanje: "Od koje do koje godine je trajala starčevačka kultura?"
+        od: -6200
+        do: -5200
+        traka: crkva-kultura
+        pomoc:
+          - "Počinje dok Lepenski Vir još postoji."
+          - "Završava se tek pošto je vinčanska kultura već počela."
+          - "Iz lekcije: starčevačka kultura traje 6200–5200. pre n. e."
+        objasnjenje: "Starčevačka kultura traje 6200–5200. pre n. e., pa se na jednom kraju preklapa sa Lepenskim Virom, a na drugom sa Vinčom."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Starčevačka kultura traje od 6200. do 5200. pre n. e."
+      - id: l01-datum-bakarno
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [bakarno-doba, neolit]
+        dogadjaj: "Bakarno doba"
+        pitanje: "Od koje do koje godine približno traje bakarno doba?"
+        od: -6000
+        do: -3500
+        traka: dogadjaji
+        pomoc:
+          - "Ono počinje još u toku neolita."
+          - "Završava se pre kraja neolita, pre 3000. pre n. e."
+          - "Iz lekcije: bakarno doba traje približno 6000–3500. pre n. e."
+        objasnjenje: "Bakarno doba, približno 6000–3500. pre n. e., poklapa se sa delom neolita: doba se ne smenjuju uvek oštro."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Bakarno doba traje približno od 6000. do 3500. pre n. e."
+      - id: l01-datum-prvi-ilirski-rat
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [prvi-ilirski-rat]
+        dogadjaj: "Prvi ilirski rat"
+        pitanje: "Od koje do koje godine je trajao Prvi ilirski rat?"
+        od: -229
+        do: -228
+        traka: dogadjaji
+        pomoc:
+          - "Rat je trajao kratko, oko godinu dana."
+          - "Bilo je to u III veku pre n. e."
+          - "Iz lekcije: Prvi ilirski rat je 229–228. pre n. e."
+        objasnjenje: "Prvi ilirski rat vodio se 229–228. pre n. e. Pažnja: pre nove ere brojevi opadaju, pa je 229. pre 228."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Prvi ilirski rat vođen je 229–228. pre n. e."
+      - id: l01-datum-ustanak
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [dalmatinsko-panonski-ustanak]
+        dogadjaj: "Dalmatinsko-panonski ustanak"
+        pitanje: "Od koje do koje godine n. e. je trajao Dalmatinsko-panonski ustanak?"
+        od: 6
+        do: 9
+        traka: dogadjaji
+        pomoc:
+          - "To je događaj sa samog početka nove ere."
+          - "Oba broja su jednocifrena."
+          - "Iz lekcije: ustanak je trajao 6–9. n. e."
+        objasnjenje: "Dalmatinsko-panonski ustanak trajao je od 6. do 9. godine n. e."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Dalmatinsko-panonski ustanak trajao je 6–9. n. e."
+      - id: l01-poredjaj-tri-kulture
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [lepenski-vir, starcevacka-kultura, vincanska-kultura]
+        pitanje: "Poređaj tri zajednice sa tla Srbije po tome koja je najranije nastala."
+        stavke:
+          - {tekst: "Lepenski Vir", godina: -6700, do: -5500, naziv: "Lepenski Vir", traka: crkva-kultura}
+          - {tekst: "Starčevačka kultura", godina: -6200, do: -5200, naziv: "Starčevačka kultura", traka: crkva-kultura}
+          - {tekst: "Vinčanska kultura", godina: -5300, do: -4300, naziv: "Vinčanska kultura", traka: crkva-kultura}
+        pomoc:
+          - "Pre nove ere veći broj znači ranije."
+          - "Vinčanska kultura je nastala tamo gde je pre nje bila starčevačka."
+          - "Iz lekcije: 6700, 6200, 5300. pre n. e."
+        objasnjenje: "Lepenski Vir (6700) → Starčevo (6200) → Vinča (5300. pre n. e.)."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Hronologija redom navodi Lepenski Vir, starčevačku i vinčansku kulturu."
+      - id: l01-poredjaj-doba
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [mezolit, neolit, bronzano-doba, gvozdeno-doba]
+        pitanje: "Poređaj doba praistorije od najstarijeg do najmlađeg."
+        stavke:
+          - {tekst: "Mezolit", godina: -10000, do: -8000, naziv: "Mezolit", traka: dogadjaji}
+          - {tekst: "Neolit", godina: -8000, do: -3000, naziv: "Neolit", traka: dogadjaji}
+          - {tekst: "Bronzano doba", godina: -3000, do: -1000, naziv: "Bronzano doba", traka: dogadjaji}
+          - {tekst: "Gvozdeno doba", godina: -1000, do: -400, naziv: "Gvozdeno doba", traka: dogadjaji}
+        pomoc:
+          - "Kamena doba idu pre metalnih."
+          - "Gvožđem se praistorija završava."
+          - "Iz lekcije: mezolit, neolit, bronzano, gvozdeno doba."
+        objasnjenje: "Posle kamenih doba (mezolit, neolit) dolaze metalna: bronzano, pa gvozdeno."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Doba se u hronologiji nižu redom od kamenih ka metalnim."
+      - id: l01-poredjaj-metali
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [bakarno-doba, bronzano-doba, gvozdeno-doba]
+        pitanje: "Poređaj metalna doba po početku, od najranijeg."
+        stavke:
+          - {tekst: "Bakarno doba", godina: -6000, do: -3500, naziv: "Bakarno doba", traka: dogadjaji}
+          - {tekst: "Bronzano doba", godina: -3000, do: -1000, naziv: "Bronzano doba", traka: dogadjaji}
+          - {tekst: "Gvozdeno doba", godina: -1000, do: -400, naziv: "Gvozdeno doba", traka: dogadjaji}
+        pomoc:
+          - "Jedno od tih doba počinje još u neolitu."
+          - "Gvozdeno doba je poslednje doba praistorije."
+          - "Iz lekcije: 6000, 3000, 1000. pre n. e."
+        objasnjenje: "Bakarno (oko 6000) → bronzano (3000) → gvozdeno doba (1000. pre n. e.)."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Bakarno doba počinje oko 6000, bronzano 3000, a gvozdeno 1000. pre n. e."
+      - id: l01-poredjaj-svih-pet
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [mezolit, neolit, bakarno-doba, bronzano-doba, gvozdeno-doba]
+        pitanje: "Poređaj pet doba po tome kada počinju."
+        stavke:
+          - {tekst: "Mezolit", godina: -10000, do: -8000, naziv: "Mezolit", traka: dogadjaji}
+          - {tekst: "Neolit", godina: -8000, do: -3000, naziv: "Neolit", traka: dogadjaji}
+          - {tekst: "Bakarno doba", godina: -6000, do: -3500, naziv: "Bakarno doba", traka: dogadjaji}
+          - {tekst: "Bronzano doba", godina: -3000, do: -1000, naziv: "Bronzano doba", traka: dogadjaji}
+          - {tekst: "Gvozdeno doba", godina: -1000, do: -400, naziv: "Gvozdeno doba", traka: dogadjaji}
+        pomoc:
+          - "Prvo idu srednje i mlađe kameno doba."
+          - "Bakarno doba počinje dok neolit još traje."
+          - "Iz lekcije: 10000, 8000, 6000, 3000, 1000. pre n. e."
+        objasnjenje: "Mezolit (10000) → neolit (8000) → bakarno (6000) → bronzano (3000) → gvozdeno (1000. pre n. e.)."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Svako doba u hronologiji ima svoj početak; bakarno počinje još za vreme neolita."
+      - id: l01-poredjaj-ka-rimu
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [vincanska-kultura, gvozdeno-doba, kelti, prvi-ilirski-rat]
+        pitanje: "Poređaj hronološki, od najranijeg."
+        stavke:
+          - {tekst: "Vinčanska kultura", godina: -5300, do: -4300, naziv: "Vinčanska kultura", traka: crkva-kultura}
+          - {tekst: "Gvozdeno doba", godina: -1000, do: -400, naziv: "Gvozdeno doba", traka: dogadjaji}
+          - {tekst: "Doseljavanje Kelta na Balkan", godina: -400, naziv: "Doseljavanje Kelta na Balkan", traka: dogadjaji}
+          - {tekst: "Prvi ilirski rat", godina: -229, do: -228, naziv: "Prvi ilirski rat", traka: dogadjaji}
+        pomoc:
+          - "Pre nove ere veći broj je stariji."
+          - "Kelti stižu na samom kraju gvozdenog doba."
+          - "Iz lekcije: 5300, 1000, 400, 229. pre n. e."
+        objasnjenje: "Vinča (5300) → gvozdeno doba (1000) → Kelti (400) → Prvi ilirski rat (229. pre n. e.)."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Hronologija poglavlja vodi od neolitskih kultura do prvog rimskog rata na Balkanu."
+      - id: l01-poredjaj-doba-i-kulture
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [neolit, lepenski-vir, starcevacka-kultura, bakarno-doba, vincanska-kultura, bronzano-doba]
+        pitanje: "Poređaj zajedno doba i kulture po tome kada počinju."
+        stavke:
+          - {tekst: "Neolit", godina: -8000, do: -3000, naziv: "Neolit", traka: dogadjaji}
+          - {tekst: "Lepenski Vir", godina: -6700, do: -5500, naziv: "Lepenski Vir", traka: crkva-kultura}
+          - {tekst: "Starčevačka kultura", godina: -6200, do: -5200, naziv: "Starčevačka kultura", traka: crkva-kultura}
+          - {tekst: "Bakarno doba", godina: -6000, do: -3500, naziv: "Bakarno doba", traka: dogadjaji}
+          - {tekst: "Vinčanska kultura", godina: -5300, do: -4300, naziv: "Vinčanska kultura", traka: crkva-kultura}
+          - {tekst: "Bronzano doba", godina: -3000, do: -1000, naziv: "Bronzano doba", traka: dogadjaji}
+        pomoc:
+          - "Neolit otvara niz, jer su sve tri kulture nastale u njegovo vreme."
+          - "Bakarno doba počinje između starčevačke i vinčanske kulture."
+          - "Iz lekcije: 8000, 6700, 6200, 6000, 5300, 3000. pre n. e."
+        objasnjenje: "Doba i kulture ređaju se isprepletano: neolit (8000), Lepenski Vir (6700), Starčevo (6200), bakarno doba (6000), Vinča (5300), bronzano doba (3000)."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "U hronologiji su zajedno navedena doba i kulture, sa svojim rasponima."
+      - id: l01-poredjaj-od-kelta-do-podele
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [kelti, prvi-ilirski-rat, dalmatinsko-panonski-ustanak, trajan, dakija, podela-rimskog-carstva]
+        pitanje: "Poređaj događaje iz hronologije poglavlja, od najranijeg."
+        stavke:
+          - {tekst: "Doseljavanje Kelta na Balkan", godina: -400, naziv: "Doseljavanje Kelta na Balkan", traka: dogadjaji}
+          - {tekst: "Prvi ilirski rat", godina: -229, do: -228, naziv: "Prvi ilirski rat", traka: dogadjaji}
+          - {tekst: "Dalmatinsko-panonski ustanak", godina: 6, do: 9, naziv: "Dalmatinsko-panonski ustanak", traka: dogadjaji}
+          - {tekst: "Trajan zauzima Dakiju", godina: 106, naziv: "Trajan zauzima Dakiju", traka: dogadjaji}
+          - {tekst: "Podela Rimskog carstva", godina: 395, naziv: "Podela Rimskog carstva", traka: dogadjaji}
+        pomoc:
+          - "Dva događaja su pre nove ere, tri u novoj eri."
+          - "Ustanak može da bude tek pošto su oblasti već pod Rimom."
+          - "Iz lekcije: 400. i 229. pre n. e., pa 6, 106. i 395. n. e."
+        objasnjenje: "Kelti (400. pre n. e.) → Prvi ilirski rat (229) → ustanak (6–9. n. e.) → Dakija (106) → podela (395)."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Hronologija se nastavlja događajima iz antičkog doba, sve do podele carstva 395."
+      - id: l01-povezi-doba-raspon
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [paleolit, mezolit, neolit, bronzano-doba, gvozdeno-doba]
+        pitanje: "Poveži doba sa njegovim trajanjem (pre n. e.)."
+        parovi:
+          - ["Mezolit", "10000–8000."]
+          - ["Neolit", "8000–3000."]
+          - ["Bronzano doba", "3000–1000."]
+          - ["Gvozdeno doba", "1000–400."]
+          - ["Paleolit", "od pojave čoveka do 10000."]
+        pomoc:
+          - "Kraj jednog doba je početak sledećeg."
+          - "Paleolit nema tačan početak, jer počinje pojavom čoveka."
+          - "Iz lekcije: 10000–8000, 8000–3000, 3000–1000, 1000–400. pre n. e."
+        objasnjenje: "Doba se nastavljaju jedno na drugo: svaki završetak je početak narednog doba. Izuzetak je bakarno doba, koje se preklapa sa neolitom."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Paleolit traje do 10000, mezolit do 8000, neolit do 3000, bronzano doba do 1000, a gvozdeno do 400. pre n. e."
+      - id: l01-povezi-kulture-godine
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [lepenski-vir, starcevacka-kultura, vincanska-kultura]
+        pitanje: "Poveži kulturu sa njenim trajanjem (pre n. e.)."
+        parovi:
+          - ["Lepenski Vir", "6700–5500."]
+          - ["Starčevačka kultura", "6200–5200."]
+          - ["Vinčanska kultura", "5300–4300."]
+        pomoc:
+          - "Najstarija kultura ima najveće brojeve."
+          - "Vinča je najmlađa od tri."
+          - "Iz lekcije: Lepenski Vir 6700–5500, Starčevo 6200–5200, Vinča 5300–4300."
+        objasnjenje: "Tri zajednice slede jedna drugu, sa preklapanjima: Lepenski Vir, zatim Starčevo, zatim Vinča."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Lepenski Vir traje 6700–5500, starčevačka 6200–5200, a vinčanska kultura 5300–4300. pre n. e."
+      - id: l01-povezi-hronologija-antika
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [kelti, prvi-ilirski-rat, dalmatinsko-panonski-ustanak, dakija, podela-rimskog-carstva]
+        pitanje: "Poveži događaj sa godinom."
+        parovi:
+          - ["Doseljavanje Kelta na Balkan", "400. pre n. e."]
+          - ["Prvi ilirski rat", "229–228. pre n. e."]
+          - ["Dalmatinsko-panonski ustanak", "6–9. n. e."]
+          - ["Trajan zauzima Dakiju", "106. n. e."]
+          - ["Podela Rimskog carstva", "395. n. e."]
+        pomoc:
+          - "Dva događaja su pre nove ere."
+          - "Ustanak je kratak i na samom početku nove ere."
+          - "Iz lekcije: 400. i 229–228. pre n. e., pa 6–9, 106. i 395. n. e."
+        objasnjenje: "Ovi događaji su hronološka najava sledeće lekcije, o antičkom dobu."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Hronologija poglavlja navodi i Kelte, Prvi ilirski rat, ustanak, Dakiju i podelu carstva."
+      - id: l01-zakljuci-preklapanje-kultura
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [starcevacka-kultura, vincanska-kultura]
+        pitanje: "Koliko su godina istovremeno postojale starčevačka i vinčanska kultura, sudeći po datumima?"
+        odgovori:
+          - {tekst: "Oko 100 godina", tacan: true}
+          - {tekst: "Nimalo, jer je Vinča počela tek kad se Starčevo završilo", tacan: false, zasto: "Vinča počinje 5300, a Starčevo se završava 5200. pre n. e., pa se raspon preklapa."}
+          - {tekst: "Oko 1000 godina", tacan: false, zasto: "Hiljadu godina je trajala svaka od njih posebno; preklapanje je 5300–5200."}
+          - {tekst: "Oko 500 godina", tacan: false, zasto: "Između 5300. i 5200. pre n. e. je samo sto godina."}
+        pomoc:
+          - "Korak 1: Kada Vinča počinje, a kada se Starčevo završava?"
+          - "Korak 2: Oduzmi ta dva broja."
+          - "Iz lekcije: Vinča od 5300, Starčevo do 5200. pre n. e."
+        objasnjenje: "Vinča počinje 5300, a Starčevo prestaje 5200. pre n. e., pa se poklapaju oko sto godina. Jedna zajednica ne nestaje preko noći da bi počela druga."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Starčevačka kultura traje do 5200, a vinčanska počinje 5300. pre n. e."
+      - id: l01-zakljuci-najduze-doba
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [mezolit, neolit, bronzano-doba, gvozdeno-doba]
+        pitanje: "Koje od ovih doba je trajalo najduže?"
+        odgovori:
+          - {tekst: "Neolit", tacan: true}
+          - {tekst: "Mezolit", tacan: false, zasto: "Mezolit je trajao oko 2000 godina, a neolit oko 5000."}
+          - {tekst: "Bronzano doba", tacan: false, zasto: "Bronzano doba je trajalo 2000 godina (3000–1000. pre n. e.)."}
+          - {tekst: "Gvozdeno doba", tacan: false, zasto: "Gvozdeno doba je najkraće među njima: 600 godina (1000–400. pre n. e.)."}
+        pomoc:
+          - "Korak 1: Izračunaj trajanje svakog doba."
+          - "Korak 2: Uporedi rezultate."
+          - "Iz lekcije: neolit traje 8000–3000. pre n. e."
+        objasnjenje: "Neolit je trajao 5000 godina, a ostala navedena doba mnogo kraće. Najduže od svih je ipak paleolit, koji ovde nije ponuđen."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Neolit traje od 8000. do 3000. pre n. e., mezolit i bronzano doba po dve hiljade, a gvozdeno 600 godina."
+      - id: l01-tn-kelti-kraj-gvozdenog
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [kelti, gvozdeno-doba]
+        tvrdnja: "Hronologija stavlja doseljavanje Kelta na Balkan u istu godinu kojom se završava gvozdeno doba."
+        tacno: true
+        pomoc:
+          - "Uporedi 400. pre n. e. sa krajem gvozdenog doba."
+          - "Iz lekcije: gvozdeno doba traje do 400, a Kelti stižu 400. pre n. e."
+        objasnjenje: "Tačno: oba podatka stoje uz 400. pre n. e."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Gvozdeno doba se završava 400. pre n. e., kada hronologija beleži doseljavanje Kelta."
+      - id: l01-tn-ilirski-rat-nova-era
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [prvi-ilirski-rat]
+        tvrdnja: "Prvi ilirski rat vodio se u novoj eri."
+        tacno: false
+        ispravke:
+          - {tekst: "Vodio se pre nove ere, 229–228.", tacan: true}
+          - {tekst: "Vodio se 395. n. e.", tacan: false, zasto: "Te godine je podeljeno Rimsko carstvo; rat je bio mnogo ranije."}
+          - {tekst: "Vodio se 106. n. e.", tacan: false, zasto: "Tada je Trajan zauzeo Dakiju; rat je vođen 229–228. pre n. e."}
+        pomoc:
+          - "Pogledaj oznaku uz godinu u hronologiji."
+          - "Iz lekcije: Prvi ilirski rat je 229–228. pre n. e."
+        objasnjenje: "Netačno: Prvi ilirski rat vođen je pre nove ere, 229–228."
+        iz_udzbenika:
+          strana: 7
+          odeljak: "Hronologija"
+          tekst: "Prvi ilirski rat vođen je 229–228. pre n. e."
+  - naslov: "Uvod"
+    zadaci:
+      - id: l01-izbor-pre-pisma
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [praistorija]
+        pitanje: "Šta je važilo za mnoge ljudske zajednice na Balkanu u najstarije doba?"
+        odgovori:
+          - {tekst: "Živele su tu pre nego što se pojavilo pismo", tacan: true}
+          - {tekst: "Stigle su tek pošto je pismo već bilo u upotrebi", tacan: false, zasto: "Lekcija kaže suprotno: zajednice su na Balkanu živele pre pojave pisma."}
+          - {tekst: "Ostavile su za sobom bogate pisane zapise", tacan: false, zasto: "Pre pisma nema pisanih zapisa; o njima znamo iz materijalnih ostataka."}
+          - {tekst: "Balkan tada još nije bio naseljen", tacan: false, zasto: "Balkan je bio naseljen već u praistoriji."}
+        pomoc:
+          - "Seti se šta je granica praistorije."
+          - "Lekcija govori o vremenu bez pisanih tragova."
+          - "Iz lekcije: mnoge zajednice živele su na Balkanu pre pojave pisma."
+        objasnjenje: "Balkan je bio naseljen pre pojave pisma, pa o tim ljudima saznajemo iz onoga što su materijalno ostavili."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Uvod"
+          tekst: "Mnoge ljudske zajednice živele su na Balkanu pre pojave pisma."
+      - id: l01-izbor-najvazniji-tragovi
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [vincanska-kultura, lepenski-vir]
+        pitanje: "Koji su tragovi po uvodu lekcije najvažniji za tlo današnje Srbije? (više tačnih)"
+        odgovori:
+          - {tekst: "Tragovi vinčanske kulture", tacan: true}
+          - {tekst: "Nalazi iz Lepenskog Vira", tacan: true}
+          - {tekst: "Krapinski čovek", tacan: false, zasto: "Ostaci krapinskog čoveka nađeni su u Hrvatskoj, a ne na tlu Srbije."}
+          - {tekst: "Butmirska kultura", tacan: false, zasto: "Tragovi butmirske kulture nađeni su u Bosni i Hercegovini."}
+        pomoc:
+          - "Traži nalazišta koja su u Srbiji."
+          - "Jedno je kod Đerdapske klisure, a drugo kod Beograda."
+          - "Iz lekcije: najvažniji su tragovi Vinče i nalazi iz Lepenskog Vira."
+        objasnjenje: "Za tlo Srbije najvažniji su vinčanska kultura i Lepenski Vir; krapinski i butmirski nalazi su iz susednih zemalja."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Uvod"
+          tekst: "Za današnju Srbiju najvažniji su tragovi vinčanske kulture i nalazi iz Lepenskog Vira."
+      - id: l01-izbor-sta-su-popravljali
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [grncarija]
+        pitanje: "U čemu su zajednice kroz više pokolenja sticale iskustvo? (više tačnih)"
+        odgovori:
+          - {tekst: "U obradi zemlje", tacan: true}
+          - {tekst: "U pripitomljavanju životinja", tacan: true}
+          - {tekst: "U pravljenju grnčarije", tacan: true}
+          - {tekst: "U obradi metala", tacan: true}
+          - {tekst: "U pisanju zakona", tacan: false, zasto: "Praistorija je doba pre pisma, pa pisanih zakona nije moglo biti."}
+          - {tekst: "U kovanju novca za trgovinu", tacan: false, zasto: "Lekcija govori o razmeni i vezama, a novac u praistoriji ne pominje."}
+        pomoc:
+          - "Misli na rad koji popravlja svakodnevni život."
+          - "Četiri odgovora su tačna."
+          - "Iz lekcije: zemlja, životinje, grnčarija i metal."
+        objasnjenje: "Uslovi života popravljali su se postepeno: obradom zemlje, pripitomljavanjem životinja, grnčarijom i obradom metala."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Uvod"
+          tekst: "Uz težak rad, kroz više pokolenja, zajednice su sticale iskustvo u zemljoradnji, pripitomljavanju, grnčariji i obradi metala."
+      - id: l01-tn-odjednom
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [praistorija]
+        tvrdnja: "Praistorijske zajednice naglo su, za jednu generaciju, savladale zemljoradnju i obradu metala."
+        tacno: false
+        ispravke:
+          - {tekst: "Iskustvo se sticalo postepeno, kroz više pokolenja i uz težak rad.", tacan: true}
+          - {tekst: "Znanje su im odjednom doneli Rimljani.", tacan: false, zasto: "Rimljani stižu na Balkan tek u III veku pre n. e., hiljadama godina kasnije."}
+          - {tekst: "Zemljoradnju i metal nisu poznavali.", tacan: false, zasto: "Poznavali su ih, a Vinčanci su se zemljoradnjom bavili mnogo više od prethodnika."}
+        pomoc:
+          - "Obrati pažnju na reč „pokolenja” u uvodu."
+          - "Pomisli koliko su dugo te zajednice trajale."
+          - "Iz lekcije: uslovi su se popravljali kroz više pokolenja."
+        objasnjenje: "Netačno: napredak je išao sporo, iskustvo se prenosilo s generacije na generaciju."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Uvod"
+          tekst: "Zajednice su kroz više pokolenja popravljale uslove života."
+      - id: l01-tn-balkan-naseljen
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [praistorija]
+        tvrdnja: "Balkan je bio naseljen već u praistoriji."
+        tacno: true
+        pomoc:
+          - "Seti se o kojim zajednicama lekcija govori."
+          - "Iz lekcije: mnoge zajednice živele su na Balkanu pre pojave pisma."
+        objasnjenje: "Tačno: Lepenski Vir, Starčevo i Vinča to dokazuju na tlu Srbije."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Uvod"
+          tekst: "Balkan je bio naseljen još pre pojave pisma."
+      - id: l01-dopuni-uvod
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [vincanska-kultura, lepenski-vir, derdapska-klisura]
+        pitanje: "Dopuni rečenicu o najvažnijim tragovima u Srbiji."
+        tekst: "Za tlo Srbije najvažniji su tragovi {{vinčanske}} kulture i nalazi iz {{Lepenskog Vira}}, naselja kod {{Đerdapske}} klisure."
+        ponudjene: ["vinčanske", "Lepenskog Vira", "Đerdapske", "butmirske", "Krapine"]
+        pomoc:
+          - "Butmir i Krapina nisu u Srbiji."
+          - "Klisura je na Dunavu."
+          - "Iz lekcije: vinčanska kultura, Lepenski Vir, Đerdapska klisura."
+        objasnjenje: "Vinča i Lepenski Vir su dva najvažnija praistorijska traga u Srbiji."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Uvod"
+          tekst: "Lepenski Vir je naselje kod Đerdapske klisure; uz njega je najvažnija vinčanska kultura."
+      - id: l01-dopuni-pokolenja
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [grncarija]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Kroz više {{pokolenja|generacija}} zajednice su sticale iskustvo u obradi {{zemlje}}, pripitomljavanju {{životinja}}, pravljenju {{grnčarije}} i obradi {{metala}}."
+        pomoc:
+          - "Prva reč znači ljudi jednog životnog doba."
+          - "Ostale reči su četiri oblasti rada."
+          - "Iz lekcije: pokolenja; zemlja, životinje, grnčarija, metal."
+        objasnjenje: "To su četiri oblasti u kojima se napredak prenosio s kolena na koleno."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Uvod"
+          tekst: "Uvod nabraja obradu zemlje, pripitomljavanje životinja, grnčariju i obradu metala."
+      - id: l01-zakljuci-kako-znamo
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [praistorija, arheologija]
+        pitanje: "Zašto o zajednicama sa početka lekcije ne saznajemo iz letopisa, nego iz iskopavanja?"
+        odgovori:
+          - {tekst: "Živele su pre pojave pisma, pa za sobom nisu ostavile pisane tekstove", tacan: true}
+          - {tekst: "Njihove letopise su uništili Rimljani", tacan: false, zasto: "Letopisa nije ni bilo, jer je to vreme pre pisma."}
+          - {tekst: "Iskopavanja su jeftinija od čitanja knjiga", tacan: false, zasto: "Cena nije razlog; pisanih izvora za to doba jednostavno nema."}
+          - {tekst: "Pisali su jezikom koji niko ne zna da pročita", tacan: false, zasto: "Lekcija ne govori o nepročitanom pismu, nego o vremenu pre pisma."}
+        pomoc:
+          - "Korak 1: Čime se završava praistorija?"
+          - "Korak 2: Šta onda ostaje istraživaču?"
+          - "Iz lekcije: zajednice su živele pre pojave pisma, a arheologija proučava materijalne ostatke."
+        objasnjenje: "Bez pisma nema pisanih izvora, pa arheologija čita ono što je materijalno ostalo."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Uvod"
+          tekst: "Zajednice su živele pre pojave pisma, pa ih upoznajemo preko materijalnih tragova."
+      - id: l01-zakljuci-zasto-pokolenja
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [praistorija]
+        pitanje: "Šta iz napretka „kroz više pokolenja” možemo zaključiti o tome kako se znanje čuvalo?"
+        odgovori:
+          - {tekst: "Stariji su iskustvo prenosili mlađima, pa je svaka generacija počinjala od onoga što je već naučeno", tacan: true}
+          - {tekst: "Svaka generacija je sve učila ispočetka", tacan: false, zasto: "Tada ne bi bilo napretka; iskustvo se upravo nagomilavalo."}
+          - {tekst: "Znanje se čuvalo u školama i knjigama", tacan: false, zasto: "Pre pisma nije bilo knjiga, pa su se veštine prenosile radom."}
+          - {tekst: "Znanje je stizalo samo od došljaka iz drugih krajeva", tacan: false, zasto: "Veze sa daljim krajevima su postojale, ali uvod govori o iskustvu samih zajednica."}
+        pomoc:
+          - "Korak 1: Šta znači da se iskustvo stiče kroz pokolenja?"
+          - "Korak 2: Kako se veština prenosi kad nema pisma?"
+          - "Iz lekcije: zajednice su kroz više pokolenja popravljale uslove života."
+        objasnjenje: "Napredak kroz pokolenja moguć je samo ako se iskustvo prenosi dalje; bez pisma to se radilo živom rečju i radom."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Uvod"
+          tekst: "Uslovi života popravljali su se uz težak rad, kroz više pokolenja."
+      - id: l01-objasni-pokolenja
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [praistorija]
+        pitanje: "Zašto kažemo da su praistorijske zajednice napredovale sporo? Objasni svojim rečima."
+        uzor: "Svaka veština, od obrade zemlje do obrade metala, učila se probanjem i prenosila sa starijih na mlađe. Zato je napredak trajao kroz mnoga pokolenja. Kulture koje upoznajemo u lekciji trajale su i po hiljadu godina."
+        ideje:
+          - "Veštine su se učile iskustvom i radom."
+          - "Znanje se prenosilo s generacije na generaciju."
+          - "Promene su trajale vekovima, pa i hiljadama godina."
+        objasnjenje: "Spor napredak ne znači neuspeh: iskustvo se polako nagomilavalo."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Uvod"
+          tekst: "Zajednice su uz težak rad, kroz više pokolenja, popravljale uslove života."
+  - naslov: "Preistorijska nalazišta i kulture na Balkanu"
+    zadaci:
+      - id: l01-izbor-praistorija
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [praistorija]
+        pitanje: "Koje vreme obuhvata praistorija?"
+        odgovori:
+          - {tekst: "Od prvih ljudi na Zemlji do pronalaska pisma", tacan: true}
+          - {tekst: "Od pronalaska pisma do pada Rima", tacan: false, zasto: "Pronalazak pisma je kraj praistorije, a ne njen početak."}
+          - {tekst: "Samo vreme kamenih oruđa", tacan: false, zasto: "Praistorija obuhvata i bakarno, bronzano i gvozdeno doba."}
+          - {tekst: "Od dolaska Rimljana na Balkan do danas", tacan: false, zasto: "Rimljani stižu mnogo kasnije, kad se praistorija na Balkanu završava."}
+        pomoc:
+          - "Reč „pra” upućuje na ono pre istorije."
+          - "Granica je jedan pronalazak."
+          - "Iz lekcije: od prvih ljudi do pronalaska pisma."
+        objasnjenje: "Praistorija počinje prvim ljudima, a završava se pronalaskom pisma."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Praistorija obuhvata vreme od prvih ljudi na Zemlji do pronalaska pisma."
+      - id: l01-izbor-podela-po-materijalu
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [praistorija]
+        pitanje: "Po čemu se praistorija najčešće deli na razdoblja?"
+        odgovori:
+          - {tekst: "Po materijalu od kog je čovek pravio alat", tacan: true}
+          - {tekst: "Po vladarima koji su tada vladali", tacan: false, zasto: "O vladarima tog doba nema pisanih podataka; podela se oslanja na alat."}
+          - {tekst: "Po ratovima između plemena", tacan: false, zasto: "Nazivi kameno, bronzano i gvozdeno doba govore o materijalu, a ne o ratovima."}
+          - {tekst: "Po vrsti grnčarije", tacan: false, zasto: "Grnčarija pomaže da se razlikuju kulture, ali doba se dele po materijalu alata."}
+        pomoc:
+          - "Pogledaj nazive doba: kameno, bakarno, bronzano, gvozdeno."
+          - "To su materijali."
+          - "Iz lekcije: podela se vrši po materijalu alata."
+        objasnjenje: "Nazivi doba pokazuju kriterijum: od čega je pravljen alat."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Podela na razdoblja najčešće se vrši po materijalu od kog je čovek pravio alat."
+      - id: l01-izbor-arheologija
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [arheologija]
+        pitanje: "Šta istražuje arheologija?"
+        odgovori:
+          - {tekst: "Ono što je od prošlosti materijalno ostalo", tacan: true}
+          - {tekst: "Samo stare pisane povelje", tacan: false, zasto: "Arheologija se bavi predmetima i objektima, a ne prvenstveno tekstovima."}
+          - {tekst: "Kretanje zvezda i planeta", tacan: false, zasto: "To je astronomija; arheologija kopa ostatke ljudskog života."}
+          - {tekst: "Današnje gradove i njihovo stanovništvo", tacan: false, zasto: "Arheologija proučava prošlost, a ne sadašnje stanje."}
+        pomoc:
+          - "Seti se šta arheolozi rade na iskopavanju."
+          - "Traže posuđe, oružje, nakit i ostatke kuća."
+          - "Iz lekcije: arheologija istražuje materijalne ostatke prošlosti."
+        objasnjenje: "Arheologija istražuje materijalne ostatke: posuđe, oružje, nakit, kuće i tvrđave."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Arheologija istražuje ono što je od prošlosti materijalno ostalo."
+      - id: l01-izbor-paleolit-naziv
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [paleolit, kamena-orudja]
+        pitanje: "Kako se još zove paleolit?"
+        odgovori:
+          - {tekst: "Starije kameno doba", tacan: true}
+          - {tekst: "Srednje kameno doba", tacan: false, zasto: "Srednje kameno doba je mezolit."}
+          - {tekst: "Mlađe kameno doba", tacan: false, zasto: "Mlađe kameno doba je neolit."}
+          - {tekst: "Bronzano doba", tacan: false, zasto: "Bronzano doba je metalno doba, od 3000. do 1000. pre n. e."}
+        pomoc:
+          - "Paleolit je prvo doba ljudskog života."
+          - "Prvo znači najstarije."
+          - "Iz lekcije: paleolit je starije kameno doba."
+        objasnjenje: "Paleolit je starije, mezolit srednje, a neolit mlađe kameno doba."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Paleolit je starije kameno doba."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/01-orudja-paleolita.jpg"
+      - id: l01-izbor-lepenski-vir-gde
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [lepenski-vir, derdapska-klisura]
+        pitanje: "Gde je nastala kultura Lepenskog Vira?"
+        odgovori:
+          - {tekst: "U Đerdapskoj klisuri, na obali Dunava", tacan: true}
+          - {tekst: "Blizu Pančeva", tacan: false, zasto: "Kod Pančeva je Starčevo, po kome starčevačka kultura nosi ime."}
+          - {tekst: "Na tlu današnjeg Beograda", tacan: false, zasto: "Na tlu Beograda bilo je jedno središte vinčanske kulture."}
+          - {tekst: "U Hrvatskoj", tacan: false, zasto: "U Hrvatskoj je nađen krapinski čovek."}
+        pomoc:
+          - "Ljudi su živeli i od ribolova."
+          - "Velika reka prolazi kroz klisuru."
+          - "Iz lekcije: Lepenski Vir je u Đerdapskoj klisuri, na obali Dunava."
+        objasnjenje: "Lepenski Vir leži u Đerdapskoj klisuri, na Dunavu, pa je reka odredila način života."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Lepenski Vir je nastao u Đerdapskoj klisuri, na obali Dunava."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/06-karta-arheoloska-nalazista-srbije.jpg"
+        osa: {naziv: "Lepenski Vir", od: -6700, do: -5500, traka: crkva-kultura}
+      - id: l01-izbor-starcevo-naziv
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [starcevacka-kultura, starcevo, pancevo]
+        pitanje: "Po čemu je starčevačka kultura dobila ime?"
+        odgovori:
+          - {tekst: "Po lokalitetu Starčevo blizu Pančeva", tacan: true}
+          - {tekst: "Po starcima koji su njome vladali", tacan: false, zasto: "Naziv dolazi od mesta nalaza; tako se kulture najčešće i imenuju."}
+          - {tekst: "Po arheologu koji ju je otkrio", tacan: false, zasto: "Ime potiče od lokaliteta, a ne od istraživača."}
+          - {tekst: "Po vrsti grnčarije", tacan: false, zasto: "Grnčarija je njena odlika, ali naziv potiče od mesta."}
+        pomoc:
+          - "I Vinča i Lepenski Vir su nazivi mesta."
+          - "Traži mesto blizu Pančeva."
+          - "Iz lekcije: naziv potiče od lokaliteta Starčevo."
+        objasnjenje: "Kulture često nose ime po nalazištu: Starčevo je kraj Pančeva."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Naziv starčevačke kulture potiče od lokaliteta Starčevo blizu Pančeva."
+        osa: {naziv: "Starčevačka kultura", od: -6200, do: -5200, traka: crkva-kultura}
+      - id: l01-izbor-zemunica
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [zemunica]
+        pitanje: "Šta je zemunica?"
+        odgovori:
+          - {tekst: "Kuća delimično ukopana u zemlju", tacan: true}
+          - {tekst: "Posuda od pečene gline", tacan: false, zasto: "Posuđe od pečene gline je grnčarija; zemunica je stanište."}
+          - {tekst: "Kamena sekira", tacan: false, zasto: "To je oruđe, a zemunica je kuća."}
+          - {tekst: "Podzemna grobnica", tacan: false, zasto: "Zemunica je bila namenjena stanovanju."}
+        pomoc:
+          - "U reči se krije „zemlja”."
+          - "U njoj se stanuje."
+          - "Iz lekcije: zemunica je kuća delimično ukopana u zemlju."
+        objasnjenje: "Zemunica je kuća delimično ukopana u zemlju; u njima su živeli pripadnici starčevačke kulture."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Zemunica je kuća delimično ukopana u zemlju."
+      - id: l01-izbor-grncarija
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [grncarija]
+        pitanje: "Šta je grnčarija?"
+        odgovori:
+          - {tekst: "Kućne potrepštine od pečene gline", tacan: true}
+          - {tekst: "Kuće od gline", tacan: false, zasto: "Grnčarija su posude i kućne potrepštine, a ne kuće."}
+          - {tekst: "Nakit od školjki", tacan: false, zasto: "Nakit nije grnčarija; grnčarija se pravi od pečene gline."}
+          - {tekst: "Oruđe od kamena", tacan: false, zasto: "Kameno oruđe je drugi materijal i druga namena."}
+        pomoc:
+          - "Seti se reči „grnčar”."
+          - "Materijal je pečena glina."
+          - "Iz lekcije: grnčarija su kućne potrepštine od pečene gline."
+        objasnjenje: "Grnčarija su kućne potrepštine od pečene gline."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Grnčarija su kućne potrepštine od pečene gline."
+      - id: l01-izbor-vinca-ko
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [vinca, miloje-vasic]
+        pitanje: "Ko je otkrio i kopao Vinču?"
+        odgovori:
+          - {tekst: "Miloje Vasić", tacan: true}
+          - {tekst: "Dragoslav Srejović", tacan: false, zasto: "Srejović je istraživao Lepenski Vir."}
+          - {tekst: "Car Trajan", tacan: false, zasto: "Trajan je rimski car koji je zauzeo Dakiju, a Vinču su kopali arheolozi."}
+          - {tekst: "Aleksandar Makedonski", tacan: false, zasto: "On je vojskovođa iz antike, a Vinča je otkrivena u XX veku."}
+        pomoc:
+          - "Otkrivač je bio prvi Srbin sa arheološkim školovanjem."
+          - "Živeo je 1869–1956."
+          - "Iz lekcije: Vinču je istražio Miloje Vasić."
+        objasnjenje: "Miloje Vasić je Vinču otkrio i kopao početkom XX veka."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Vinču je početkom XX veka otkrio i kopao Miloje Vasić."
+        osa: {naziv: "Miloje Vasić otkriva i istražuje Vinču", od: 1900, do: 1910, traka: crkva-kultura, oznaka: "početak XX veka"}
+      - id: l01-izbor-arheologija-primeri
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [arheologija]
+        pitanje: "Šta sve spada u ono što proučava arheologija? (više tačnih)"
+        odgovori:
+          - {tekst: "Posuđe", tacan: true}
+          - {tekst: "Oružje i nakit", tacan: true}
+          - {tekst: "Ostaci kuća i tvrđava", tacan: true}
+          - {tekst: "Priče koje se prenose usmeno", tacan: false, zasto: "Usmene priče nisu materijalni ostatak."}
+          - {tekst: "Stene iz doba pre čoveka", tacan: false, zasto: "Stene proučava geologija; arheologiju zanima ono što je ostalo od ljudi."}
+        pomoc:
+          - "Tražimo stvari koje je čovek napravio."
+          - "Tri odgovora su tačna."
+          - "Iz lekcije: posuđe, oružje, nakit, ostaci kuća i tvrđava."
+        objasnjenje: "Arheolog proučava stvari koje je čovek ostavio: i pokretne predmete i ostatke građevina."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Arheologija proučava posuđe, oružje i nakit, ali i ostatke kuća i tvrđava."
+      - id: l01-izbor-lepenski-zivot
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [lepenski-vir]
+        pitanje: "Kako su živeli ljudi u Lepenskom Viru? (više tačnih)"
+        odgovori:
+          - {tekst: "Živeli su od ribolova i lova", tacan: true}
+          - {tekst: "Pripitomili su neke životinje", tacan: true}
+          - {tekst: "Stanovali su u posebnoj vrsti kuća, poređanih po planu", tacan: true}
+          - {tekst: "Stanovali su u zemunicama, a hranu uglavnom sakupljali", tacan: false, zasto: "To je opis starčevačke kulture."}
+          - {tekst: "Bavili su se pre svega trgovinom sa dalekim krajevima", tacan: false, zasto: "Trgovinske veze lekcija naglašava kod Vinčanaca."}
+        pomoc:
+          - "Naselje je na velikoj reci."
+          - "Tri odgovora su tačna."
+          - "Iz lekcije: ribolov i lov, neke pripitomljene životinje, kuće po planu."
+        objasnjenje: "Reka je dala ribu, a plan kuća pokazuje uređeno naselje."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Stanovnici su živeli od ribolova i lova, pripitomili neke životinje i gradili kuće poređane po planu."
+        osa: {naziv: "Lepenski Vir", od: -6700, do: -5500, traka: crkva-kultura}
+      - id: l01-izbor-starcevo-hrana
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [starcevacka-kultura]
+        pitanje: "Šta je u starčevačkoj kulturi još uvek bilo glavni izvor hrane?"
+        odgovori:
+          - {tekst: "Sakupljanje", tacan: true}
+          - {tekst: "Razvijena zemljoradnja", tacan: false, zasto: "Mnogo veća zemljoradnja je odlika Vinčanaca."}
+          - {tekst: "Trgovina žitom", tacan: false, zasto: "Lekcija o tome ne govori; trgovinu ističe kod Vinče, a ne kod Starčeva."}
+          - {tekst: "Lov na moru", tacan: false, zasto: "Starčevo je daleko od mora, blizu Pančeva."}
+        pomoc:
+          - "Ljudi su se tek navikavali na stalno naselje."
+          - "To je najstariji način dolaska do hrane."
+          - "Iz lekcije: sakupljanje je još uvek bilo glavni izvor hrane."
+        objasnjenje: "Ljudi su tek prelazili na stalno naselje, pa je sakupljanje i dalje bilo glavno."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Neolitski ljudi tek su se navikavali na stalno naselje, pa je sakupljanje još bilo glavni izvor hrane."
+        osa: {naziv: "Starčevačka kultura", od: -6200, do: -5200, traka: crkva-kultura}
+      - id: l01-izbor-vinca-prostor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [vincanska-kultura, starcevacka-kultura]
+        pitanje: "Gde je nastala vinčanska kultura?"
+        odgovori:
+          - {tekst: "Na prostoru gde je pre nje bila starčevačka kultura", tacan: true}
+          - {tekst: "U Đerdapskoj klisuri, gde je bio Lepenski Vir", tacan: false, zasto: "Lekcija je vezuje za prostor starčevačke kulture i središnji Balkan."}
+          - {tekst: "U Bosni, na mestu butmirske kulture", tacan: false, zasto: "Butmirska kultura je posebna neolitska kultura u Bosni i Hercegovini."}
+          - {tekst: "Na obali Jadrana", tacan: false, zasto: "Prostirala se središnjim Balkanom, a ne uz Jadran."}
+        pomoc:
+          - "Tražimo kulturu koja joj je neposredno prethodila."
+          - "Prostirala se središnjim Balkanom."
+          - "Iz lekcije: nastala je na prostoru starčevačke kulture."
+        objasnjenje: "Vinčanska kultura nastala je tamo gde je pre nje bila starčevačka i prostirala se središnjim Balkanom."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Vinčanska kultura nastala je na prostoru starčevačke, a jedno središte imala je na tlu Beograda."
+        osa: {naziv: "Vinčanska kultura", od: -5300, do: -4300, traka: crkva-kultura}
+      - id: l01-izbor-vinca-znacaj
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [vinca, arheoloska-nalazista]
+        pitanje: "Kako lekcija ocenjuje nalazište Vinča? (više tačnih)"
+        odgovori:
+          - {tekst: "Među najvećim i najvažnijim praistorijskim nalazištima Evrope", tacan: true}
+          - {tekst: "Najvažniji neolitski lokalitet Srbije", tacan: true}
+          - {tekst: "Najstarije nalazište paleolita u Srbiji", tacan: false, zasto: "Vinča je neolitska; za paleolit lekcija navodi Risovaču."}
+          - {tekst: "Važno nalazište gvozdenog doba", tacan: false, zasto: "Gvozdenom dobu pripadaju Židovar i Atenica."}
+        pomoc:
+          - "Vinčanska kultura spada u mlađi neolit."
+          - "Značaj joj prevazilazi granice Srbije."
+          - "Iz lekcije: među najvažnijim u Evropi i najvažniji neolitski lokalitet Srbije."
+        objasnjenje: "Vinča je neolitsko nalazište evropskog značaja."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Vinča je među najvećim i najvažnijim praistorijskim nalazištima Evrope i najvažniji neolitski lokalitet Srbije."
+      - id: l01-izbor-krapina-starost
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [krapinski-covek, paleolit]
+        pitanje: "Koliko su stari ostaci paleolitskog čoveka nađeni u Hrvatskoj?"
+        odgovori:
+          - {tekst: "100000 godina", tacan: true}
+          - {tekst: "10000 godina", tacan: false, zasto: "Oko 10000. pre n. e. završava se paleolit; krapinski nalaz je mnogo stariji."}
+          - {tekst: "6700 godina", tacan: false, zasto: "Broj 6700 je godina početka Lepenskog Vira, pre n. e."}
+          - {tekst: "1000 godina", tacan: false, zasto: "To bi bio nalaz iz srednjeg veka, a ne iz paleolita."}
+        pomoc:
+          - "Nalaz je iz paleolita, najstarijeg doba."
+          - "Broj ima šest cifara."
+          - "Iz lekcije: krapinski čovek je star 100000 godina."
+        objasnjenje: "Krapinski čovek je star 100000 godina, pa pripada paleolitu."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "U Hrvatskoj su nađeni ostaci paleolitskog čoveka starog 100000 godina."
+      - id: l01-izbor-vasic-prvi
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [miloje-vasic]
+        pitanje: "Po čemu je Miloje Vasić bio prvi među Srbima?"
+        odgovori:
+          - {tekst: "Bio je prvi Srbin sa arheološkim školovanjem", tacan: true}
+          - {tekst: "Prvi je napisao istoriju Srba", tacan: false, zasto: "Lekcija ga izdvaja kao školovanog arheologa, a ne kao pisca istorije."}
+          - {tekst: "Prvi je otkrio Lepenski Vir", tacan: false, zasto: "Lepenski Vir vezujemo za Dragoslava Srejovića, a Vasića za Vinču."}
+          - {tekst: "Prvi je otkrio dupljajska kolica", tacan: false, zasto: "Lekcija ne vezuje kolica za njega; kaže samo da su otkrivena početkom XX veka."}
+        pomoc:
+          - "Radi se o njegovoj struci."
+          - "Studirao je ono čime se bavio."
+          - "Iz lekcije: prvi Srbin sa arheološkim školovanjem."
+        objasnjenje: "Vasić (1869–1956) bio je prvi Srbin sa arheološkim školovanjem."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Miloje Vasić (1869–1956) bio je prvi Srbin sa arheološkim školovanjem."
+      - id: l01-izbor-neistrazeno
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [arheoloska-nalazista]
+        pitanje: "Šta lekcija kaže o lokalitetima u Srbiji koji još nisu istraženi?"
+        odgovori:
+          - {tekst: "Ima ih još dosta i tamo mogu ležati važni tragovi prošlosti", tacan: true}
+          - {tekst: "Svi lokaliteti su već istraženi", tacan: false, zasto: "Lekcija naglašava suprotno: mnogi još čekaju istraživanje."}
+          - {tekst: "Neistraženi lokaliteti nemaju nikakvu vrednost", tacan: false, zasto: "Upravo tamo mogu ležati važni tragovi."}
+          - {tekst: "Neistraženih lokaliteta ima samo van Srbije", tacan: false, zasto: "Lekcija govori baš o lokalitetima u Srbiji."}
+        pomoc:
+          - "Seti se poslednje rečenice u „Zapamtite”."
+          - "Posao arheologa nije završen."
+          - "Iz lekcije: puno lokaliteta u Srbiji još nije istraženo."
+        objasnjenje: "Slika praistorije nije konačna: neistraženi lokaliteti mogu doneti nove podatke."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "U Srbiji postoji još dosta neistraženih lokaliteta, gde mogu ležati važni tragovi."
+      - id: l01-izbor-neolitsko-orudje
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [neolit, paleolit, kamena-orudja]
+        pitanje: "Pred tobom su uglačan ovalan kamen sa probušenom rupom i grubo okresan šiljat komad. Šta najverovatnije pokazuje razlika među njima?"
+        odgovori:
+          - {tekst: "Uglačani predmet je mlađi, iz neolita, jer pokazuje napredak u obradi kamena", tacan: true}
+          - {tekst: "Grubo okresani komad je mlađi, jer je oštriji", tacan: false, zasto: "Grubo okresivanje je odlika starijeg, paleolitskog oruđa."}
+          - {tekst: "Oba su iz bronzanog doba", tacan: false, zasto: "Oba su kamena, a bronzano doba prepoznajemo po metalu."}
+          - {tekst: "Između njih nema nikakve vremenske razlike", tacan: false, zasto: "Razlika u obradi upravo pokazuje napredak tokom kamenih doba."}
+        pomoc:
+          - "Uporedi slike paleolitskih i neolitskih oruđa."
+          - "Koja obrada traži više veštine?"
+          - "Iz lekcije: paleolitsko oruđe je okresano, a neolitsko uglačano."
+        objasnjenje: "Oba predmeta su kamena, ali glačanje i bušenje odaju mlađe kameno doba."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Neolitsko oruđe je uglačano i ponekad probušeno, a paleolitsko okresano."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/02-neolitsko-orudje.jpg"
+      - id: l01-izbor-nalaz-praistorija
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [arheologija, praistorija, nakit]
+        pitanje: "Arheolog je našao ogrlicu i ostatke kuće, ali nijedan zapis. Šta od toga može da zaključi? (više tačnih)"
+        odgovori:
+          - {tekst: "Kako su ljudi stanovali", tacan: true}
+          - {tekst: "Da su imali vremena i veštine za ukrašavanje", tacan: true}
+          - {tekst: "Kako su se zvali ljudi koji su tu živeli", tacan: false, zasto: "Imena se saznaju iz zapisa, a njih ovde nema."}
+          - {tekst: "Šta su tačno govorili", tacan: false, zasto: "Predmeti ne čuvaju reči; to mogu samo pisani izvori."}
+        pomoc:
+          - "Pitaj se šta predmet može da pokaže sam po sebi."
+          - "Ono što traži pismo otpada."
+          - "Iz lekcije: arheologija istražuje materijalne ostatke."
+        objasnjenje: "Materijalni ostaci govore o načinu života, ali ne i o imenima i rečima."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Ogrlica iz Lepenskog Vira je materijalni ostatak koji proučava arheologija."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/04-ogrlica-lepenski-vir.jpg"
+      - id: l01-tn-podela-materijal
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [praistorija]
+        tvrdnja: "Doba praistorije dobila su nazive po materijalu od kog je čovek pravio alat."
+        tacno: true
+        pomoc:
+          - "Pogledaj reči kameno, bakarno, bronzano, gvozdeno."
+          - "Iz lekcije: podela se najčešće vrši po materijalu alata."
+        objasnjenje: "Tačno: kriterijum podele je materijal alata."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Podela praistorije vrši se po materijalu od kog je čovek pravio alat."
+      - id: l01-tn-paleolit-najduze
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [paleolit]
+        tvrdnja: "Paleolit je prvo i najduže doba ljudskog života na Zemlji."
+        tacno: true
+        pomoc:
+          - "Počinje pojavom čoveka."
+          - "Iz lekcije: paleolit je prvo i najduže doba."
+        objasnjenje: "Tačno: paleolit traje od pojave čoveka do oko 10000. pre n. e."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Paleolit je prvo i najduže doba ljudskog života na Zemlji."
+      - id: l01-tn-krapina-srbija
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [krapinski-covek]
+        tvrdnja: "Krapinski čovek pronađen je u Srbiji."
+        tacno: false
+        ispravke:
+          - {tekst: "Krapinski čovek pronađen je u Hrvatskoj.", tacan: true}
+          - {tekst: "Krapinski čovek pronađen je u Bosni i Hercegovini.", tacan: false, zasto: "U Bosni i Hercegovini su tragovi butmirske kulture iz neolita."}
+          - {tekst: "Krapinski čovek pronađen je na Dunavu, u Đerdapu.", tacan: false, zasto: "U Đerdapu je Lepenski Vir."}
+        pomoc:
+          - "Lekcija ga navodi među nalazima u susedstvu."
+          - "Iz lekcije: krapinski čovek je iz Hrvatske."
+        objasnjenje: "Netačno: krapinski čovek je nalaz iz Hrvatske."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "U Hrvatskoj su nađeni ostaci krapinskog čoveka."
+      - id: l01-tn-vinca-gvozdeno
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [vincanska-kultura, neolit]
+        tvrdnja: "Vinčanska kultura pripada gvozdenom dobu."
+        tacno: false
+        ispravke:
+          - {tekst: "Vinčanska kultura spada u mlađi neolit.", tacan: true}
+          - {tekst: "Vinčanska kultura spada u paleolit.", tacan: false, zasto: "Paleolit se završava oko 10000. pre n. e., a Vinča počinje 5300. pre n. e."}
+          - {tekst: "Vinčanska kultura spada u mezolit.", tacan: false, zasto: "Mezolit se završava 8000. pre n. e., mnogo pre Vinče."}
+        pomoc:
+          - "Uporedi 5300–4300. pre n. e. sa trajanjem doba."
+          - "Iz lekcije: vinčanska kultura spada u mlađi neolit."
+        objasnjenje: "Netačno: gvozdeno doba počinje tek 1000. pre n. e., a Vinča je neolitska."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Vinčanska kultura traje 5300–4300. pre n. e. i spada u mlađi neolit."
+        osa: {naziv: "Vinčanska kultura", od: -5300, do: -4300, traka: crkva-kultura}
+      - id: l01-tn-srbija-sredisnji
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [arheoloska-nalazista, arheologija]
+        tvrdnja: "Srbija ima brojne arheološke tragove raznih razdoblja, jer leži na rubu Balkanskog poluostrva."
+        tacno: false
+        ispravke:
+          - {tekst: "Leži u središnjem delu Balkanskog poluostrva.", tacan: true}
+          - {tekst: "Leži na južnom kraju poluostrva, uz Egejsko more.", tacan: false, zasto: "Srbija je u središtu poluostrva i nema izlaz na Egejsko more."}
+          - {tekst: "Leži uz obalu Jadranskog mora.", tacan: false, zasto: "Lekcija ističe središnji položaj, a ne jadransku obalu."}
+        pomoc:
+          - "Pogledaj položaj Srbije na karti."
+          - "Iz lekcije: Srbija leži u središnjem delu poluostrva."
+        objasnjenje: "Netačno: središnji položaj, a ne rub, objašnjava brojnost tragova."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Srbija leži u središnjem delu Balkana, pa su kod nas nađeni brojni arheološki tragovi."
+      - id: l01-tn-bakarno-neolit
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [bakarno-doba, neolit]
+        tvrdnja: "Bakarno doba poklapa se sa delom neolita."
+        tacno: true
+        pomoc:
+          - "Uporedi 6000–3500. sa 8000–3000. pre n. e."
+          - "Iz lekcije: bakarno doba se poklapa sa delom neolita."
+        objasnjenje: "Tačno: čitavo bakarno doba je u okviru neolita, pa se kamen i bakar neko vreme koriste uporedo."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Bakarno doba, približno 6000–3500. pre n. e., poklapa se sa delom neolita."
+      - id: l01-tn-starcevo-zemunice
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [starcevacka-kultura, zemunica, grncarija]
+        tvrdnja: "Ljudi starčevačke kulture stanovali su samo u zemunicama, a grnčariju nisu poznavali."
+        tacno: false
+        ispravke:
+          - {tekst: "Stanovali su u zemunicama i kućama iznad zemlje i pravili veoma dobru grnčariju.", tacan: true}
+          - {tekst: "Stanovali su u posebnim kućama po planu na obali Dunava.", tacan: false, zasto: "To je opis Lepenskog Vira."}
+          - {tekst: "Živeli su u kamenim tvrđavama i pravili bronzano oruđe.", tacan: false, zasto: "Lekcija o tome ne govori; bronzano doba počinje tek 3000. pre n. e."}
+        pomoc:
+          - "Grnčarija je jedna od njihovih glavnih odlika."
+          - "Iz lekcije: zemunice i kuće iznad zemlje, veoma dobra grnčarija."
+        objasnjenje: "Netačno: imali su dve vrste stanova i veoma dobru grnčariju."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Stanovali su u zemunicama i kućama iznad zemlje i pravili veoma dobru grnčariju."
+      - id: l01-tn-vinca-veze
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [vincanska-kultura]
+        tvrdnja: "Nađeni predmeti pokazuju da su Vinčanci bili povezani sa dalekim kulturama."
+        tacno: true
+        pomoc:
+          - "Šta nam pokazuju predmeti iz drugih krajeva?"
+          - "Iz lekcije: trgovali su i kulturno se povezivali sa dalekim kulturama."
+        objasnjenje: "Tačno: predmeti su dokaz trgovine i kulturne razmene."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Nađeni predmeti pokazuju da su Vinčanci trgovali i kulturno se povezivali sa dalekim kulturama."
+      - id: l01-tn-rudna-glava
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [rudna-glava, bronzano-doba]
+        tvrdnja: "Rudna Glava kod Majdanpeka u lekciji je navedena kao nalazište iz paleolita."
+        tacno: false
+        ispravke:
+          - {tekst: "Rudna Glava je navedena kao nalazište iz bronzanog doba.", tacan: true}
+          - {tekst: "Rudna Glava je navedena kao nalazište iz gvozdenog doba.", tacan: false, zasto: "Gvozdenom dobu pripadaju Židovar i Atenica."}
+          - {tekst: "Rudna Glava je navedena kao nalazište iz neolita.", tacan: false, zasto: "Neolitu lekcija pripisuje Donju Branjevinu i Vinču."}
+        pomoc:
+          - "Paleolitsko nalazište je Risovača."
+          - "Iz lekcije: Rudna Glava (Majdanpek) je iz bronzanog doba."
+        objasnjenje: "Netačno: lekcija Rudnu Glavu navodi uz bronzano doba."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Rudna Glava kod Majdanpeka navedena je kao nalazište bronzanog doba."
+      - id: l01-tn-pismo-gvozdeno
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [praistorija, arheologija]
+        tvrdnja: "Bez arheologije bismo o Lepenskom Viru znali isto koliko i sa njom, jer o njemu postoje pisani izveštaji iz tog doba."
+        tacno: false
+        ispravke:
+          - {tekst: "Pisanih izveštaja nema, pa znanje dolazi iz materijalnih ostataka.", tacan: true}
+          - {tekst: "O Lepenskom Viru znamo samo iz rimskih letopisa.", tacan: false, zasto: "Rimljani dolaze hiljadama godina posle nestanka Lepenskog Vira."}
+          - {tekst: "O njemu znamo iz grčkih pisaca.", tacan: false, zasto: "Lepenski Vir je stariji od grčkih pisaca; njegovi tragovi su iskopani."}
+        pomoc:
+          - "Kada je Lepenski Vir postojao u odnosu na pismo?"
+          - "Čime se bavio Srejović?"
+          - "Iz lekcije: Lepenski Vir je pre pisma, a istražen je arheološki."
+        objasnjenje: "Netačno: za praistoriju je arheologija glavni put do znanja."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Lepenski Vir pripada vremenu pre pisma, a poznat je po arheološkim nalazima."
+      - id: l01-tn-kolica-bronzano
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [dupljajska-kolica, bronzano-doba, vincanska-kultura]
+        tvrdnja: "Dupljajska kolica su stara koliko i rana vinčanska kultura."
+        tacno: false
+        ispravke:
+          - {tekst: "Kolica su iz bronzanog doba, dakle posle vinčanske kulture.", tacan: true}
+          - {tekst: "Kolica su iz paleolita, dakle mnogo pre Vinče.", tacan: false, zasto: "Paleolit je doba kamena; kolica su iz bronzanog doba."}
+          - {tekst: "Kolica su napravljena početkom XX veka.", tacan: false, zasto: "Tada su samo otkrivena; napravljena su u bronzano doba."}
+        pomoc:
+          - "Vinča se završava 4300. pre n. e."
+          - "Razlikuj kada je nešto napravljeno i kada je otkriveno."
+          - "Iz lekcije: kolica su iz bronzanog doba, otkrivena početkom XX veka."
+        objasnjenje: "Netačno: bronzano doba počinje 3000. pre n. e., više od hiljadu godina posle kraja Vinče."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Dupljajska kolica su iz bronzanog doba, a otkrivena su početkom XX veka."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/07-dupljajska-kolica.jpg"
+        osa: {naziv: "Otkriće dupljajskih kolica", od: 1900, do: 1910, traka: crkva-kultura, oznaka: "početak XX veka"}
+      - id: l01-dopuni-doba-kamena
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [paleolit, mezolit, neolit]
+        pitanje: "Dopuni nazive kamenih doba."
+        tekst: "Starije kameno doba je {{paleolit}}, srednje kameno doba je {{mezolit}}, a mlađe kameno doba je {{neolit}}."
+        ponudjene: ["paleolit", "mezolit", "neolit", "bronzano doba"]
+        pomoc:
+          - "Bronzano doba nije kameno."
+          - "Prvo doba je najduže."
+          - "Iz lekcije: paleolit, mezolit, neolit."
+        objasnjenje: "Tri kamena doba idu redom: paleolit, mezolit, neolit."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Paleolit je starije, mezolit srednje, a neolit mlađe kameno doba."
+      - id: l01-dopuni-pojmovi
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [zemunica, grncarija, arheologija]
+        pitanje: "Dopuni pojmove."
+        tekst: "Kuća delimično ukopana u zemlju zove se {{zemunica}}. Kućne potrepštine od pečene gline zovu se {{grnčarija}}. Nauka o materijalnim ostacima prošlosti je {{arheologija}}."
+        ponudjene: ["zemunica", "grnčarija", "arheologija", "praistorija"]
+        pomoc:
+          - "Praistorija je doba, a ne nauka ni predmet."
+          - "U prvoj reči se krije „zemlja”."
+          - "Iz lekcije: zemunica, grnčarija, arheologija."
+        objasnjenje: "Sva tri pojma lekcija objašnjava u posebnim okvirima."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Lekcija objašnjava pojmove zemunica, grnčarija i arheologija."
+      - id: l01-dopuni-nalazista
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [risovaca, donja-branjevina, rudna-glava, zidovar, atenica]
+        pitanje: "Dopuni mesta uz nalazišta."
+        tekst: "Risovača je kod {{Aranđelovca}}, Donja Branjevina kod {{Odžaka}}, Rudna Glava kod {{Majdanpeka}}, Židovar kod {{Vršca}}, a Atenica kod {{Čačka}}."
+        ponudjene: ["Aranđelovca", "Odžaka", "Majdanpeka", "Vršca", "Čačka", "Pančeva"]
+        pomoc:
+          - "Pančevo je vezano za Starčevo."
+          - "Rudna Glava je u kraju poznatom po rudnicima."
+          - "Iz lekcije: Aranđelovac, Odžaci, Majdanpek, Vršac, Čačak."
+        objasnjenje: "Pet nalazišta pokrivaju različita doba i krajeve Srbije."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Lekcija navodi Risovaču, Donju Branjevinu, Rudnu Glavu, Židovar i Atenicu."
+      - id: l01-dopuni-vinca
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [vincanska-kultura, vinca, miloje-vasic]
+        pitanje: "Dopuni rečenice o Vinči."
+        tekst: "Vinčanska kultura nastala je na prostoru {{starčevačke}} kulture, a jedno središte imala je na tlu današnjeg {{Beograda}}. Nalazište je početkom XX veka kopao {{Miloje Vasić}}."
+        ponudjene: ["starčevačke", "butmirske", "Beograda", "Vršca", "Miloje Vasić", "Dragoslav Srejović"]
+        pomoc:
+          - "Srejović se vezuje za Lepenski Vir."
+          - "Butmirska kultura je u Bosni i Hercegovini."
+          - "Iz lekcije: starčevačka kultura, Beograd, Miloje Vasić."
+        objasnjenje: "Vinča je na prostoru starčevačke kulture, kod Beograda, a kopao ju je Vasić."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Vinčanska kultura nastala je na prostoru starčevačke, sa središtem i na tlu Beograda."
+      - id: l01-dopuni-lepenski-bez-reci
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [lepenski-vir, derdapska-klisura, riboliki-idoli]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Lepenski Vir je nastao u {{Đerdapskoj}} klisuri, na obali {{Dunava}}. Najkarakterističnije figure liče na {{ribu|ribe}}."
+        pomoc:
+          - "Klisura je na najvećoj reci u Srbiji."
+          - "Figure podsećaju na ono što su ljudi lovili u reci."
+          - "Iz lekcije: Đerdapska klisura, Dunav, oble figure koje liče na ribu."
+        objasnjenje: "Reka je u Lepenskom Viru bila izvor hrane i motiv umetnosti."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Lepenski Vir je u Đerdapskoj klisuri; karakteristične su oble figure nalik ribi."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/03-kamena-glava-lepenski-vir.jpg"
+      - id: l01-dopuni-doba-nalazista
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [risovaca, donja-branjevina, rudna-glava, zidovar, atenica, paleolit, neolit, bronzano-doba, gvozdeno-doba]
+        pitanje: "Dopuni bez ponuđenih reči: kom dobu pripada nalazište?"
+        tekst: "Risovača je iz {{paleolita}}, Donja Branjevina iz {{neolita}}, Rudna Glava iz {{bronzanog}} doba, a Atenica iz {{gvozdenog}} doba."
+        pomoc:
+          - "Redosled ide od najstarijeg ka najmlađem."
+          - "Atenica ide uz Židovar."
+          - "Iz lekcije: paleolit, neolit, bronzano, gvozdeno doba."
+        objasnjenje: "Nalazišta u Srbiji pokrivaju gotovo sva doba praistorije."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Risovača je paleolitska, Donja Branjevina neolitska, Rudna Glava iz bronzanog, a Atenica iz gvozdenog doba."
+      - id: l01-povezi-doba-nazivi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [paleolit, mezolit, neolit]
+        pitanje: "Poveži naziv sa značenjem."
+        parovi:
+          - ["Paleolit", "starije kameno doba"]
+          - ["Mezolit", "srednje kameno doba"]
+          - ["Neolit", "mlađe kameno doba"]
+        pomoc:
+          - "Prvo doba je najstarije."
+          - "Neolit je najbliži metalnim dobima."
+          - "Iz lekcije: paleolit starije, mezolit srednje, neolit mlađe."
+        objasnjenje: "Tri naziva kazuju redosled kamenih doba."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Lekcija navodi starije, srednje i mlađe kameno doba."
+      - id: l01-povezi-nalazista-mesta
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [risovaca, donja-branjevina, rudna-glava, zidovar, atenica]
+        pitanje: "Poveži nalazište sa gradom u čijoj je blizini."
+        parovi:
+          - ["Risovača", "Aranđelovac"]
+          - ["Donja Branjevina", "Odžaci"]
+          - ["Rudna Glava", "Majdanpek"]
+          - ["Židovar", "Vršac"]
+          - ["Atenica", "Čačak"]
+        pomoc:
+          - "Rudna Glava je u istočnoj Srbiji."
+          - "Židovar je u Banatu."
+          - "Iz lekcije: Aranđelovac, Odžaci, Majdanpek, Vršac, Čačak."
+        objasnjenje: "Svako nalazište lekcija veže za obližnji grad."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Uz svako nalazište stoji obližnji grad."
+      - id: l01-povezi-pojmovi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [zemunica, grncarija, arheologija, praistorija]
+        pitanje: "Poveži pojam sa njegovim značenjem."
+        parovi:
+          - ["Zemunica", "kuća delimično ukopana u zemlju"]
+          - ["Grnčarija", "kućne potrepštine od pečene gline"]
+          - ["Arheologija", "nauka o materijalnim ostacima prošlosti"]
+          - ["Praistorija", "vreme od prvih ljudi do pronalaska pisma"]
+        pomoc:
+          - "Jedna reč je nauka, jedna doba."
+          - "Preostale dve su kuća i posuđe."
+          - "Iz lekcije: objašnjenja stoje u okvirima „Pojam”."
+        objasnjenje: "To su četiri osnovna pojma lekcije."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Lekcija objašnjava osnovne pojmove."
+      - id: l01-povezi-susedi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [krapinski-covek, butmirska-kultura, vinca]
+        pitanje: "Poveži nalaz sa državom u kojoj je pronađen."
+        parovi:
+          - ["Krapinski čovek", "Hrvatska"]
+          - ["Butmirska kultura", "Bosna i Hercegovina"]
+          - ["Vinča", "Srbija"]
+        pomoc:
+          - "Vinča je kod Beograda."
+          - "Butmir je neolitska kultura u susedstvu."
+          - "Iz lekcije: krapinski čovek u Hrvatskoj, butmirska kultura u BiH."
+        objasnjenje: "Praistorijski tragovi ne znaju za današnje granice, ali ih tako lakše pamtimo."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "U susedstvu su nađeni krapinski čovek i tragovi butmirske kulture."
+      - id: l01-povezi-nalazista-doba
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [risovaca, donja-branjevina, rudna-glava, zidovar]
+        pitanje: "Poveži nalazište sa dobom."
+        parovi:
+          - ["Risovača", "paleolit"]
+          - ["Donja Branjevina", "neolit"]
+          - ["Rudna Glava", "bronzano doba"]
+          - ["Židovar", "gvozdeno doba"]
+        pomoc:
+          - "Lekcija ih nabraja hronološki."
+          - "Židovar ide uz Atenicu."
+          - "Iz lekcije: Risovača paleolit, Donja Branjevina neolit, Rudna Glava bronzano, Židovar gvozdeno."
+        objasnjenje: "Spisak pokazuje da su kod nas tragovi iz raznih doba."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Lekcija navodi po nalazište za više razdoblja."
+      - id: l01-povezi-kulture-odlike
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [lepenski-vir, starcevacka-kultura, vincanska-kultura, butmirska-kultura]
+        pitanje: "Poveži kulturu sa odlikom koju lekcija ističe."
+        parovi:
+          - ["Lepenski Vir", "oble figure koje liče na ribu"]
+          - ["Starčevačka kultura", "sakupljanje je još glavni izvor hrane"]
+          - ["Vinčanska kultura", "veze sa dalekim kulturama"]
+          - ["Butmirska kultura", "neolitski tragovi u Bosni i Hercegovini"]
+        pomoc:
+          - "Riba upućuje na reku."
+          - "Starčevci su se tek navikavali na stalno naselje."
+          - "Iz lekcije: svaka kultura ima svoju istaknutu odliku."
+        objasnjenje: "Svaka kultura ima nešto po čemu je pamtimo."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Lekcija za svaku kulturu navodi njene odlike."
+      - id: l01-povezi-nalaz-zakljucak
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [lepenski-vir, vincanska-kultura, arheologija, nakit]
+        pitanje: "Poveži nalaz sa onim što iz njega zaključujemo."
+        parovi:
+          - ["Predmeti iz dalekih krajeva u Vinči", "trgovina i kulturna razmena"]
+          - ["Ogrlica iz Lepenskog Vira", "vreme i veština za ukrašavanje"]
+          - ["Trag okresivanja na kamenu", "dobijanje oštre ivice obijanjem"]
+          - ["Uglačan i probušen kamen", "napredak u obradi kamena"]
+        pomoc:
+          - "Pitaj se šta je čovek morao da umeje da bi to napravio."
+          - "Predmet koji ne potiče odatle je stigao razmenom."
+          - "Iz lekcije: nalazi otkrivaju način života."
+        objasnjenje: "Tako arheolog čita predmete: iz stvari izvodi zaključak o ljudima."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Materijalni ostaci govore o veštinama, razmeni i načinu života."
+      - id: l01-zakljuci-krapina-doba
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [krapinski-covek, paleolit]
+        pitanje: "Zašto krapinskog čoveka svrstavamo u paleolit?"
+        odgovori:
+          - {tekst: "Star je 100000 godina, a paleolit se završava oko 10000. pre n. e.", tacan: true}
+          - {tekst: "Nađen je pored bronzanih oruđa", tacan: false, zasto: "Lekcija to ne kaže; odlučuje starost nalaza."}
+          - {tekst: "Živeo je u zemunici", tacan: false, zasto: "Zemunice lekcija navodi kod starčevačke kulture."}
+          - {tekst: "Nađen je u Hrvatskoj", tacan: false, zasto: "Mesto ne određuje doba; određuje ga starost."}
+        pomoc:
+          - "Korak 1: Koliko je star nalaz?"
+          - "Korak 2: Koje se doba završilo tek 10000. pre n. e.?"
+          - "Iz lekcije: krapinski čovek je star 100000 godina."
+        objasnjenje: "Starost od 100000 godina smešta ga duboko u paleolit."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Krapinski čovek je star 100000 godina, a paleolit se završava oko 10000. pre n. e."
+      - id: l01-zakljuci-srbija-tragovi
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [arheoloska-nalazista]
+        pitanje: "Zašto su u Srbiji nađeni brojni tragovi kultura iz raznih perioda?"
+        odgovori:
+          - {tekst: "Zato što leži u središnjem delu Balkanskog poluostrva", tacan: true}
+          - {tekst: "Zato što je to jedino mesto na Balkanu gde su ljudi živeli", tacan: false, zasto: "Tragovi postoje i u susedstvu, npr. u Hrvatskoj i BiH."}
+          - {tekst: "Zato što su ih tamo doneli Rimljani", tacan: false, zasto: "Rimljani dolaze mnogo kasnije."}
+          - {tekst: "Zato što Srbija ima izlaz na more", tacan: false, zasto: "Lekcija ističe položaj u središtu poluostrva."}
+        pomoc:
+          - "Korak 1: Gde je Srbija na Balkanu?"
+          - "Korak 2: Šta znači biti u središtu?"
+          - "Iz lekcije: Srbija leži u središnjem delu poluostrva."
+        objasnjenje: "Središnji položaj objašnjava bogatstvo arheoloških tragova."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Srbija leži u središnjem delu Balkana, pa ima brojne arheološke tragove."
+      - id: l01-zakljuci-vinca-stalnost
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [vincanska-kultura, starcevacka-kultura]
+        pitanje: "Zašto su Vinčanci mogli da ostanu na istom mestu duže od starčevačkih prethodnika?"
+        odgovori:
+          - {tekst: "Više su se oslanjali na zemljoradnju, pa ih je zemlja hranila na jednom mestu", tacan: true}
+          - {tekst: "Njihove kuće nisu mogle da se napuste", tacan: false, zasto: "Razlog nije u kućama, nego u izvoru hrane."}
+          - {tekst: "Zabranili su im Rimljani da se sele", tacan: false, zasto: "Rimljani stižu hiljadama godina kasnije."}
+          - {tekst: "Živeli su samo od ribolova", tacan: false, zasto: "Ribolov je odlika Lepenskog Vira."}
+        pomoc:
+          - "Korak 1: Šta je Starčevcima bio glavni izvor hrane?"
+          - "Korak 2: Šta se promenilo kod Vinčanaca?"
+          - "Iz lekcije: zemljoradnjom su se bavili mnogo više i generacijama ostajali na istom mestu."
+        objasnjenje: "Zemljoradnja vezuje ljude za zemlju, pa pokolenja ostaju na istom mestu."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Vinčanci su se zemljoradnjom bavili mnogo više nego prethodnici i generacijama ostajali na istom mestu."
+        osa: {naziv: "Vinčanska kultura", od: -5300, do: -4300, traka: crkva-kultura}
+      - id: l01-zakljuci-kraj-praistorije
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [praistorija]
+        pitanje: "Ako granicu praistorije čini pronalazak pisma, šta to znači za gvozdeno doba kao poslednje doba praistorije?"
+        odgovori:
+          - {tekst: "Podela po materijalu i granica pisma su dva različita merila", tacan: true}
+          - {tekst: "U gvozdeno doba svi su ljudi već znali da pišu", tacan: false, zasto: "Tada bi praistorija već bila završena; lekcija takvu tvrdnju nema."}
+          - {tekst: "Gvožđe je izazvalo pronalazak pisma", tacan: false, zasto: "Lekcija ne povezuje gvožđe sa pismom; to su odvojene stvari."}
+          - {tekst: "Praistorija se završila pre gvozdenog doba", tacan: false, zasto: "Lekcija kaže da se praistorija završava gvozdenim dobom."}
+        pomoc:
+          - "Korak 1: Po čemu se određuju doba?"
+          - "Korak 2: Po čemu se određuje kraj praistorije?"
+          - "Iz lekcije: doba se dele po materijalu, a praistorija traje do pisma."
+        objasnjenje: "Doba govore o materijalu, a kraj praistorije o pismu; jedno opisuje alat, drugo pisane izvore."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Praistorija traje do pronalaska pisma, a razdoblja se dele po materijalu alata."
+      - id: l01-lanac-pismo
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [praistorija]
+        karike:
+          - "Ljudi žive i rade bez pisma"
+          - "?"
+          - "Počinje vreme koje znamo i iz pisanih izvora"
+        praznina: 1
+        odgovori:
+          - {tekst: "Pronalazi se pismo i završava praistorija", tacan: true}
+          - {tekst: "Rimljani osvajaju Balkan", tacan: false, zasto: "Kraj praistorije određuje pismo, a ne jedno osvajanje."}
+          - {tekst: "Pojavljuje se bakarno oruđe", tacan: false, zasto: "Bakar je deo praistorije, a ne njen kraj."}
+        pomoc:
+          - "Korak 1: Šta nedostaje prvoj karici?"
+          - "Korak 2: Šta menja način pamćenja prošlosti?"
+          - "Iz lekcije: pronalazak pisma je kraj praistorije."
+        objasnjenje: "Pronalazak pisma je granica: posle nje postoje pisani izvori."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Pronalazak pisma završava praistoriju."
+      - id: l01-lanac-materijal
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [praistorija, paleolit, bronzano-doba]
+        karike:
+          - "Čovek menja materijal od kog pravi alat"
+          - "?"
+          - "Govorimo o kamenom, bakarnom, bronzanom i gvozdenom dobu"
+        praznina: 1
+        odgovori:
+          - {tekst: "Istraživači po materijalu dele praistoriju na razdoblja", tacan: true}
+          - {tekst: "Ljudi počinju da pišu istoriju", tacan: false, zasto: "Pisma tada još nema; podelu su kasnije napravili istraživači."}
+          - {tekst: "Vladari donose nove zakone", tacan: false, zasto: "Podela na doba nije vezana za zakone i vladare."}
+        pomoc:
+          - "Korak 1: Pogledaj nazive doba."
+          - "Korak 2: Šta im je zajedničko?"
+          - "Iz lekcije: podela se vrši po materijalu alata."
+        objasnjenje: "Promena materijala daje istraživačima merilo za podelu."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Podela na razdoblja vrši se po materijalu od kog je čovek pravio alat."
+      - id: l01-lanac-vinca-veze
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [vincanska-kultura]
+        karike:
+          - "Vinčanci održavaju veze sa dalekim krajevima"
+          - "?"
+          - "Danas zaključujemo da su trgovali i kulturno se povezivali"
+        praznina: 1
+        odgovori:
+          - {tekst: "U Vinči ostaju predmeti koji svedoče o tim vezama", tacan: true}
+          - {tekst: "Vinčanci to zapisuju u letopise", tacan: false, zasto: "Pre pisma letopisa nema; dokaz su predmeti."}
+          - {tekst: "Rimljani o tome pišu izveštaje", tacan: false, zasto: "Rimljani dolaze hiljadama godina kasnije."}
+        pomoc:
+          - "Korak 1: Kako arheolog dolazi do zaključka?"
+          - "Korak 2: Šta ostaje posle trgovine?"
+          - "Iz lekcije: nađeni predmeti pokazuju veze sa dalekim kulturama."
+        objasnjenje: "Predmeti su dokaz: bez njih za veze ne bismo znali."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Nađeni predmeti pokazuju da su Vinčanci trgovali sa dalekim kulturama."
+      - id: l01-lanac-vinca-zemljoradnja
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [vincanska-kultura]
+        karike:
+          - "Vinčanci se mnogo više bave zemljoradnjom"
+          - "?"
+          - "Grnčarski zanat i naselja mogu da se razvijaju kroz generacije"
+        praznina: 1
+        odgovori:
+          - {tekst: "Više pokolenja ostaje na istom mestu", tacan: true}
+          - {tekst: "Stalno se sele u potrazi za hranom", tacan: false, zasto: "Zemljoradnja deluje suprotno: vezuje ljude za mesto."}
+          - {tekst: "Prestaju da koriste glinu", tacan: false, zasto: "Vinčance upravo odlikuje grnčarski zanat."}
+        pomoc:
+          - "Korak 1: Šta zemljoradnik mora da radi svake godine?"
+          - "Korak 2: Može li da se seli?"
+          - "Iz lekcije: generacijama su ostajali na istom mestu."
+        objasnjenje: "Razvijenija zemljoradnja vezuje ljude za jedno mesto."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Vinčanci su se bavili zemljoradnjom i generacijama ostajali na istom mestu."
+      - id: l01-lanac-starcevo
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [starcevacka-kultura, vincanska-kultura]
+        karike:
+          - "Starčevci se tek navikavaju na stalno naselje"
+          - "Hrana se još uglavnom sakuplja"
+          - "?"
+          - "Vinčanci generacijama ostaju na istom mestu"
+        praznina: 2
+        odgovori:
+          - {tekst: "Zemljoradnja postepeno postaje sve važnija", tacan: true}
+          - {tekst: "Ljudi napuštaju naselja i vraćaju se samo lovu", tacan: false, zasto: "Tada ne bi došlo do stalnog života u Vinči."}
+          - {tekst: "Stižu Rimljani i uvode nove useve", tacan: false, zasto: "Rimljani dolaze mnogo kasnije."}
+        pomoc:
+          - "Korak 1: Čime se bave Vinčanci, a čime Starčevci?"
+          - "Korak 2: Šta se između njih menja?"
+          - "Iz lekcije: Vinčanci se zemljoradnjom bave mnogo više od prethodnika."
+        objasnjenje: "Prelaz sa sakupljanja na zemljoradnju omogućio je stalni život."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Starčevci hranu još sakupljaju, a Vinčanci se mnogo više bave zemljoradnjom."
+      - id: l01-lanac-srbija
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [arheoloska-nalazista, arheologija]
+        karike:
+          - "Srbija leži u središtu Balkana"
+          - "?"
+          - "Na nalazištima su tragovi raznih perioda"
+          - "Arheologija ima bogat materijal za istraživanje"
+        praznina: 1
+        odgovori:
+          - {tekst: "Na ovom prostoru živele su različite zajednice i kulture", tacan: true}
+          - {tekst: "Tlo je bilo prazno sve do Rimljana", tacan: false, zasto: "Lepenski Vir, Starčevo i Vinča pokazuju suprotno."}
+          - {tekst: "Na ovom prostoru je postojala samo jedna kultura", tacan: false, zasto: "Lekcija navodi kulture iz raznih perioda."}
+        pomoc:
+          - "Korak 1: Šta znači prostor u središtu poluostrva?"
+          - "Korak 2: Odakle potiču tragovi?"
+          - "Iz lekcije: središnji položaj Srbije → brojni tragovi raznih kultura."
+        objasnjenje: "Tragovi iz raznih perioda znače da su se tu smenjivale različite zajednice."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Središnji položaj Srbije objašnjava brojne tragove kultura iz raznih perioda."
+      - id: l01-uporedi-kameno-metalno
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [paleolit, neolit, bronzano-doba]
+        a: "Paleolit"
+        b: "Bronzano doba"
+        pitanje: "Na koje doba se odnosi tvrdnja: paleolit, bronzano doba, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Alat se pravi od kamena.", odgovor: a, zasto: "Paleolit je starije kameno doba."}
+          - {tekst: "Traje 3000–1000. pre n. e.", odgovor: b, zasto: "To je trajanje bronzanog doba."}
+          - {tekst: "Pripada praistoriji.", odgovor: oba, zasto: "Oba doba su deo praistorije."}
+          - {tekst: "Njime se praistorija završava.", odgovor: nijedan, zasto: "Praistorija se završava gvozdenim dobom."}
+        pomoc:
+          - "Pomisli od čega je alat."
+          - "Praistorija se završava trećim metalnim dobom."
+          - "Iz lekcije: paleolit je kameno doba, bronzano traje 3000–1000. pre n. e."
+        objasnjenje: "Oba doba su praistorijska, ali se razlikuju po materijalu i vremenu."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Paleolit je kameno, a bronzano doba metalno razdoblje praistorije."
+      - id: l01-uporedi-lepenski-starcevo
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [lepenski-vir, starcevacka-kultura]
+        a: "Lepenski Vir"
+        b: "Starčevačka kultura"
+        pitanje: "Na koju kulturu se odnosi tvrdnja: Lepenski Vir, starčevačku, obe ili nijednu?"
+        tvrdnje:
+          - {tekst: "Ljudi žive od ribolova i lova.", odgovor: a, zasto: "To je Lepenski Vir, na Dunavu."}
+          - {tekst: "Sakupljanje je glavni izvor hrane.", odgovor: b, zasto: "Tako lekcija opisuje starčevačku kulturu."}
+          - {tekst: "Postojala je na tlu današnje Srbije.", odgovor: oba, zasto: "Obe su kulture sa tla Srbije."}
+          - {tekst: "Veoma dobra grnčarija.", odgovor: b, zasto: "Lekcija to ističe kod Starčevaca."}
+          - {tekst: "Nastala je u Bosni i Hercegovini.", odgovor: nijedan, zasto: "U BiH je butmirska kultura."}
+        pomoc:
+          - "Jedna je na reci, druga kod Pančeva."
+          - "Riba upućuje na Dunav."
+          - "Iz lekcije: svaka ima svoj izvor hrane."
+        objasnjenje: "Obe su sa tla Srbije, ali se razlikuju po načinu života."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Lepenski Vir živi od ribolova i lova, a Starčevci još uglavnom sakupljaju hranu."
+      - id: l01-uporedi-starcevo-vinca
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [starcevacka-kultura, vincanska-kultura]
+        a: "Starčevačka kultura"
+        b: "Vinčanska kultura"
+        pitanje: "Na koju kulturu se odnosi tvrdnja: starčevačku, vinčansku, obe ili nijednu?"
+        tvrdnje:
+          - {tekst: "Ljudi se tek navikavaju na stalno naselje.", odgovor: a, zasto: "Tako se opisuje starčevačka kultura."}
+          - {tekst: "Generacijama ostaju na istom mestu.", odgovor: b, zasto: "To je odlika Vinčanaca."}
+          - {tekst: "Poznaju grnčariju.", odgovor: oba, zasto: "Obe kulture lekcija hvali zbog grnčarije."}
+          - {tekst: "Predmeti pokazuju veze sa dalekim kulturama.", odgovor: b, zasto: "Lekcija to navodi za Vinčance."}
+          - {tekst: "Prave alat od gvožđa.", odgovor: nijedan, zasto: "Gvozdeno doba počinje tek 1000. pre n. e."}
+        pomoc:
+          - "Jedna je starija i tek uči stalni život."
+          - "Gvožđe dolazi hiljadama godina kasnije."
+          - "Iz lekcije: Vinčanci se mnogo više bave zemljoradnjom."
+        objasnjenje: "Vinča nastavlja i razvija ono što je započeto u Starčevu."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Vinčanska kultura nastala je na prostoru starčevačke i razvila zemljoradnju."
+      - id: l01-uporedi-paleolit-neolit-orudje
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [paleolit, neolit, kamena-orudja]
+        a: "Paleolitsko oruđe"
+        b: "Neolitsko oruđe"
+        pitanje: "Na koje oruđe se odnosi tvrdnja: paleolitsko, neolitsko, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Oštra ivica dobija se obijanjem kamena.", odgovor: a, zasto: "Tako crtež prikazuje paleolitska oruđa."}
+          - {tekst: "Predmeti su uglađeni, a neki i probušeni.", odgovor: b, zasto: "Tako izgleda neolitsko oruđe."}
+          - {tekst: "Pravljeno je od kamena.", odgovor: oba, zasto: "Oba doba su kamena."}
+          - {tekst: "Pravljeno je od bronze.", odgovor: nijedan, zasto: "Bronza je odlika mnogo kasnijeg doba."}
+        pomoc:
+          - "Uporedi dve slike oruđa."
+          - "Obe grupe su od istog materijala."
+          - "Iz lekcije: okresano je starije, uglačano mlađe."
+        objasnjenje: "Materijal je isti, ali obrada pokazuje napredak."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Paleolitska oruđa su okresana, a neolitska uglačana."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/02-neolitsko-orudje.jpg"
+      - id: l01-uporedi-vasic-srejovic
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [miloje-vasic, dragoslav-srejovic]
+        a: "Miloje Vasić"
+        b: "Dragoslav Srejović"
+        pitanje: "Na koga se odnosi tvrdnja: Vasića, Srejovića, obojicu ili nijednog?"
+        tvrdnje:
+          - {tekst: "Otkrio je i kopao Vinču.", odgovor: a, zasto: "To je Vasić, početkom XX veka."}
+          - {tekst: "Zanimalo ga je kako geografija deluje na razvoj zajednica.", odgovor: b, zasto: "To lekcija kaže za Srejovića."}
+          - {tekst: "Bio je arheolog.", odgovor: oba, zasto: "Obojica su se bavili arheologijom."}
+          - {tekst: "Veliki deo rada posvetio je Lepenskom Viru.", odgovor: b, zasto: "Srejović je istraživao Lepenski Vir."}
+          - {tekst: "Otkrio je krapinskog čoveka.", odgovor: nijedan, zasto: "Lekcija krapinski nalaz ne vezuje ni za jednog od njih."}
+        pomoc:
+          - "Jedan je vezan za Vinču, drugi za Đerdap."
+          - "Krapina je u Hrvatskoj."
+          - "Iz lekcije: Vinča – Vasić; Lepenski Vir – Srejović."
+        objasnjenje: "Vasić je vezan za Vinču, a Srejović za Lepenski Vir."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Zapamtite"
+          tekst: "Istraživači: Vinča – Miloje Vasić; Lepenski Vir – Dragoslav Srejović."
+      - id: l01-ko-sam-vasic
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [miloje-vasic, vinca]
+        tragovi:
+          - "Rođen sam 1869, a umro 1956. godine."
+          - "Bio sam prvi Srbin sa arheološkim školovanjem."
+          - "Početkom XX veka otkrio sam i kopao Vinču."
+        odgovori:
+          - {tekst: "Miloje Vasić", tacan: true}
+          - {tekst: "Dragoslav Srejović", tacan: false, zasto: "Srejović je živeo 1931–1996. i istraživao Lepenski Vir."}
+          - {tekst: "Car Trajan", tacan: false, zasto: "Trajan je rimski car iz II veka."}
+          - {tekst: "Car Galerije", tacan: false, zasto: "Galerije je rimski car koji je podigao Feliks Romulijanu."}
+        objasnjenje: "To je Miloje Vasić."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Miloje Vasić (1869–1956), prvi Srbin sa arheološkim školovanjem, otkrio je Vinču."
+      - id: l01-ko-sam-srejovic
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [dragoslav-srejovic, lepenski-vir]
+        tragovi:
+          - "Živeo sam 1931–1996."
+          - "Zanimalo me je kako geografija deluje na ljudske zajednice."
+          - "Veliki deo rada posvetio sam Lepenskom Viru."
+        odgovori:
+          - {tekst: "Dragoslav Srejović", tacan: true}
+          - {tekst: "Miloje Vasić", tacan: false, zasto: "Vasić je istraživao Vinču."}
+          - {tekst: "Aleksandar Makedonski", tacan: false, zasto: "On je vojskovođa iz IV veka pre n. e."}
+          - {tekst: "Tiberije", tacan: false, zasto: "Tiberije je Avgustov posinak, a ne arheolog."}
+        objasnjenje: "To je Dragoslav Srejović."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Arheolog Dragoslav Srejović (1931–1996) veliki deo rada posvetio je Lepenskom Viru."
+      - id: l01-ko-sam-krapinski
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [krapinski-covek, paleolit]
+        tragovi:
+          - "Moji ostaci nisu nađeni u Srbiji, već u susedstvu."
+          - "Pripadam najdužem dobu ljudskog života."
+          - "Star sam 100000 godina."
+        odgovori:
+          - {tekst: "Krapinski čovek", tacan: true}
+          - {tekst: "Stanovnik Lepenskog Vira", tacan: false, zasto: "Lepenski Vir je u Srbiji i mnogo je mlađi."}
+          - {tekst: "Vinčanac", tacan: false, zasto: "Vinčanci su iz mlađeg neolita, na tlu Srbije."}
+          - {tekst: "Pripadnik butmirske kulture", tacan: false, zasto: "Butmirska kultura je neolitska, a ne paleolitska."}
+        objasnjenje: "To je krapinski čovek iz Hrvatske, iz paleolita."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "U Hrvatskoj su nađeni ostaci paleolitskog čoveka starog 100000 godina."
+      - id: l01-objasni-arheologija
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [arheologija]
+        pitanje: "Šta je arheologija i šta sve istražuje?"
+        uzor: "Arheologija je nauka koja istražuje ono što je od prošlosti materijalno ostalo. To su posuđe, oružje i nakit, ali i ostaci kuća i tvrđava. Za praistoriju je najvažnija jer pisanih izvora nema."
+        ideje:
+          - "Proučava materijalne ostatke prošlosti."
+          - "Navodi primere: posuđe, oružje, nakit, kuće, tvrđave."
+          - "Za praistoriju nema pisanih izvora."
+        objasnjenje: "Arheologija čita stvari kao što istoričar čita tekstove."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Arheologija istražuje posuđe, oružje, nakit i ostatke objekata."
+      - id: l01-objasni-najvaznije-kulture
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [lepenski-vir, starcevacka-kultura, vincanska-kultura, krapinski-covek, butmirska-kultura]
+        pitanje: "Navedi najvažnije praistorijske kulture Balkana."
+        uzor: "Na tlu Srbije najvažniji su Lepenski Vir, starčevačka i vinčanska kultura. Van Srbije lekcija navodi krapinski nalaz u Hrvatskoj i butmirsku kulturu u Bosni i Hercegovini."
+        ideje:
+          - "Lepenski Vir, starčevačka i vinčanska kultura."
+          - "Krapinski nalaz u Hrvatskoj."
+          - "Butmirska kultura u Bosni i Hercegovini."
+        objasnjenje: "Tri zajednice iz Srbije i dva nalaza iz susedstva čine pregled."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Zapamtite"
+          tekst: "U Srbiji su najvažnije zajednice Lepenskog Vira, Starčeva i Vinče."
+      - id: l01-objasni-nalazista
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [arheoloska-nalazista, vinca, lepenski-vir, starcevo, risovaca, donja-branjevina, rudna-glava, zidovar, atenica]
+        pitanje: "Koja su glavna arheološka nalazišta u Srbiji?"
+        uzor: "To su Vinča, Lepenski Vir i Starčevo, a uz njih Risovača, Donja Branjevina, Rudna Glava, Židovar i Atenica. Pripadaju različitim dobima, od paleolita do gvozdenog doba."
+        ideje:
+          - "Navodi Vinču, Lepenski Vir i Starčevo."
+          - "Navodi bar dva od ostalih nalazišta."
+          - "Kaže da pripadaju raznim dobima."
+        objasnjenje: "Spisak nalazišta pokazuje koliko je tlo Srbije bogato tragovima."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Lekcija navodi glavna nalazišta u Srbiji iz raznih doba."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/06-karta-arheoloska-nalazista-srbije.jpg"
+      - id: l01-objasni-podela
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [praistorija, paleolit, mezolit, neolit, bakarno-doba, bronzano-doba, gvozdeno-doba]
+        pitanje: "Kako se deli praistorija i zašto baš tako?"
+        uzor: "Praistorija se najčešće deli po materijalu od kog je čovek pravio alat. Zato imamo kamena doba (paleolit, mezolit, neolit) i metalna doba (bakarno, bronzano, gvozdeno). Materijal je pogodno merilo jer alat ostaje sačuvan, a pisanih izvora nema."
+        ideje:
+          - "Podela je po materijalu alata."
+          - "Navodi kamena i metalna doba."
+          - "Alat ostaje kao materijalni trag kad nema pisma."
+        objasnjenje: "Merilo podele je ono što se sačuvalo: alat."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Podela na razdoblja vrši se po materijalu od kog je čovek pravio alat."
+      - id: l01-objasni-vinca-izdvaja
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [vincanska-kultura]
+        pitanje: "Po čemu se izdvaja vinčanska kultura?"
+        uzor: "Vinčanci su se zemljoradnjom bavili mnogo više nego prethodnici i generacijama ostajali na istom mestu. Dobro su poznavali grnčarski zanat. Nađeni predmeti pokazuju da su trgovali i kulturno se povezivali sa dalekim kulturama."
+        ideje:
+          - "Razvijena zemljoradnja."
+          - "Stalan život na jednom mestu."
+          - "Grnčarski zanat."
+          - "Veze sa dalekim krajevima."
+        objasnjenje: "Četiri odlike zajedno čine Vinču jednom od najvažnijih zajednica Balkana."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Vinčance odlikuju zemljoradnja, stalna naselja, grnčarstvo i veze sa dalekim kulturama."
+        osa: {naziv: "Vinčanska kultura", od: -5300, do: -4300, traka: crkva-kultura}
+      - id: l01-objasni-reka
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [lepenski-vir, derdapska-klisura, riboliki-idoli]
+        pitanje: "Kako je Dunav oblikovao život u Lepenskom Viru? Objasni primerima."
+        uzor: "Ljudi su živeli od ribolova i lova, pa ih je reka hranila. Riba se javlja i u umetnosti, jer najkarakterističnije oble figure liče na ribu. Stalan život uz reku omogućio im je da upoznaju prirodu oko sebe."
+        ideje:
+          - "Ribolov kao izvor hrane."
+          - "Figure nalik ribi."
+          - "Stalan život uz reku i upoznavanje prirode."
+        objasnjenje: "Geografija je uticala i na privredu i na umetnost."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Stanovnici su živeli od ribolova i lova, a figure su im ličile na ribu."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/03-kamena-glava-lepenski-vir.jpg"
+        osa: {naziv: "Lepenski Vir", od: -6700, do: -5500, traka: crkva-kultura}
+      - id: l01-objasni-tri-zajednice
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [lepenski-vir, starcevacka-kultura, vincanska-kultura]
+        pitanje: "Uporedi Lepenski Vir, Starčevo i Vinču po načinu dolaska do hrane. Šta se menja?"
+        uzor: "U Lepenskom Viru ljudi žive od ribolova i lova, a pripitomljavaju neke životinje. U Starčevu se tek navikavaju na stalno naselje, a sakupljanje je glavni izvor hrane. U Vinči se zemljoradnjom bave mnogo više, pa pokolenja ostaju na istom mestu. Vidi se rast oslonca na proizvodnju hrane."
+        ideje:
+          - "Lepenski Vir: ribolov i lov."
+          - "Starčevo: sakupljanje."
+          - "Vinča: zemljoradnja i stalan život."
+          - "Zaključak: sve veći oslonac na proizvodnju hrane."
+        objasnjenje: "Poređenje pokazuje dug put ka zemljoradnji i stalnom životu."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Tri zajednice razlikuju se po načinu ishrane i stalnosti naselja."
+      - id: l01-objasni-neistrazeni
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [arheoloska-nalazista, arheologija]
+        pitanje: "Zašto je važno što mnogi lokaliteti u Srbiji još nisu istraženi? Šta bi novo iskopavanje moglo da promeni?"
+        uzor: "Sve što znamo o praistoriji dolazi iz nalaza, pa svako novo iskopavanje može da dopuni ili ispravi sliku. Neistraženi lokaliteti mogu da kriju važne tragove prošlosti. Zato ih treba čuvati i istraživati."
+        ideje:
+          - "Znanje o praistoriji zavisi od nalaza."
+          - "Novi nalazi mogu da promene sliku."
+          - "Lokalitete treba čuvati i istraživati."
+        objasnjenje: "Slika praistorije nije zatvorena: ona se menja sa svakim nalazom."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "U Srbiji ima još dosta neistraženih lokaliteta sa mogućim važnim tragovima."
+      - id: l01-izvor-orudja
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [paleolit, kamena-orudja]
+        izvor:
+          autor: "Crtež iz udžbenika"
+          naslov: "Oruđa paleolitskog doba (opis slike)"
+          tekst: "Desetak kamenih predmeta u dva reda: gore izduženi, šiljati komadi i uska sečiva, dole krupniji klinovi i odlomci. Na svakom se vide tragovi okresivanja."
+          napomena: "Odlomak je prepričan; udžbenik, str. 8."
+        pitanje: "Kako je čovek dobijao oštru ivicu na ovim predmetima?"
+        odgovori:
+          - {tekst: "Obijanjem kamena", tacan: true}
+          - {tekst: "Livenjem metala", tacan: false, zasto: "Metal se u to doba još nije koristio."}
+          - {tekst: "Pečenjem gline", tacan: false, zasto: "Pečena glina je grnčarija, a ovo je kamen."}
+          - {tekst: "Glačanjem do sjaja", tacan: false, zasto: "Glačanje je odlika neolitskog oruđa."}
+        pomoc:
+          - "Pročitaj: tragovi čega se vide?"
+          - "Okresivanje znači odbijanje komadića."
+          - "Iz lekcije: oruđe paleolita je okresani kamen."
+        objasnjenje: "Tragovi okresivanja pokazuju da je oštra ivica dobijana obijanjem."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Crtež prikazuje okresana kamena oruđa paleolita."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/01-orudja-paleolita.jpg"
+      - id: l01-izvor-kamena-glava
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [lepenski-vir, riboliki-idoli]
+        izvor:
+          autor: "Fotografija iz udžbenika"
+          naslov: "Kamena glava iz Lepenskog Vira (opis slike)"
+          tekst: "Skulptura od kamena: oblo lice sa krupnim očima, nosom i širokim, razvučenim ustima, a ispod lica urezani cik-cak motivi."
+          napomena: "Odlomak je prepričan; udžbenik, str. 9."
+        pitanje: "Šta nam izgled ove glave govori o njenim tvorcima?"
+        odgovori:
+          - {tekst: "Riba im je bila važna, pa se pojavljuje i u umetnosti", tacan: true}
+          - {tekst: "Živeli su daleko od vode", tacan: false, zasto: "Živeli su na obali Dunava."}
+          - {tekst: "Poznavali su livenje bronze", tacan: false, zasto: "Glava je od kamena, a bronzano doba je mnogo kasnije."}
+          - {tekst: "Prikazivali su rimske careve", tacan: false, zasto: "Rimljani dolaze hiljadama godina kasnije."}
+        pomoc:
+          - "Na šta liče ova usta i oči?"
+          - "Čime su se bavili stanovnici?"
+          - "Iz lekcije: oble figure liče na ribu."
+        objasnjenje: "Oblik podseća na ribu, a ljudi su živeli od ribolova: privreda se odražava u umetnosti."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Oble figure Lepenskog Vira liče na ribu."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/03-kamena-glava-lepenski-vir.jpg"
+        osa: {naziv: "Lepenski Vir", od: -6700, do: -5500, traka: crkva-kultura}
+      - id: l01-izvor-figura
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [vincanska-kultura, vinca]
+        izvor:
+          autor: "Crtež iz udžbenika"
+          naslov: "Vinčanska figura (opis slike)"
+          tekst: "Figurina sa krupnom glavom u obliku maske, velikim očnim dupljama i kratkim, raširenim rukama; telo je ukrašeno urezanim trakama."
+          napomena: "Odlomak je prepričan; udžbenik, str. 10."
+        pitanje: "O čemu ovakav predmet svedoči?"
+        odgovori:
+          - {tekst: "O razvijenom zanatu i umetnosti vinčanskih zajednica", tacan: true}
+          - {tekst: "O rimskoj vojsci", tacan: false, zasto: "Rimska vojska je tema sledeće lekcije."}
+          - {tekst: "O pisanim zakonima Vinčanaca", tacan: false, zasto: "Figura nije tekst, a to je vreme pre pisma."}
+          - {tekst: "O ribolovu u Đerdapu", tacan: false, zasto: "Riba i Đerdap vezani su za Lepenski Vir."}
+        pomoc:
+          - "Pogledaj koliko je truda uloženo u ukras."
+          - "Šta je potrebno da bi se to napravilo?"
+          - "Iz lekcije: Vinčance odlikuje zanat."
+        objasnjenje: "Ukrašena figura traži veštinu, pa svedoči o zanatu i umetnosti."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Vinčanska figura svedoči o razvijenom zanatu i umetnosti."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/05-vincanska-figura.jpg"
+        osa: {naziv: "Vinčanska kultura", od: -5300, do: -4300, traka: crkva-kultura}
+      - id: l01-izvor-karta
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [arheoloska-nalazista, vinca, lepenski-vir]
+        izvor:
+          autor: "Karta iz udžbenika"
+          naslov: "Najznačajnija praistorijska nalazišta na teritoriji Srbije (opis karte)"
+          tekst: "Na karti rečne mreže Srbije označena su nalazišta, svako sa znakom svog razdoblja. Na Dunavu i Savi nalazišta su najgušća."
+          napomena: "Odlomak je prepričan; udžbenik, str. 10."
+        pitanje: "Šta je najverovatnije objašnjenje za gustinu nalazišta uz velike reke?"
+        odgovori:
+          - {tekst: "Reke su davale hranu i vodu, pa su ljudi tu rado stalno živeli", tacan: true}
+          - {tekst: "Arheolozi smeju da kopaju samo pored reka", tacan: false, zasto: "Takve zabrane nema; karta pokazuje gde su ljudi živeli."}
+          - {tekst: "Dalje od reka ljudi uopšte nisu živeli", tacan: false, zasto: "Na karti ima nalazišta i dalje od njih, ali ređe."}
+          - {tekst: "Reke su donele nalaze iz drugih zemalja", tacan: false, zasto: "Nalazišta su naselja, a ne nanos reke."}
+        pomoc:
+          - "Seti se od čega je živeo Lepenski Vir."
+          - "Šta je najvažnije za naselje?"
+          - "Iz lekcije: Vinča i Lepenski Vir su na Dunavu."
+        objasnjenje: "Reka znači vodu, hranu i put, pa privlači naselja."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Karta pokazuje da su na Dunavu i Savi nalazišta najgušća."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/06-karta-arheoloska-nalazista-srbije.jpg"
+      - id: l01-izvor-kolica
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [dupljajska-kolica, bronzano-doba]
+        izvor:
+          autor: "Fotografija iz udžbenika"
+          naslov: "Dupljajska kolica (opis slike)"
+          tekst: "Mala figura kolica na tri točka sa paocima; napred su ptičje glave, a na kolicima stoji ljudska figura."
+          napomena: "Odlomak je prepričan; udžbenik, str. 11."
+        pitanje: "Iz kog doba su dupljajska kolica?"
+        odgovori:
+          - {tekst: "Iz bronzanog doba", tacan: true}
+          - {tekst: "Iz paleolita", tacan: false, zasto: "U paleolitu nema metala ni ovakve obrade."}
+          - {tekst: "Iz rimskog doba", tacan: false, zasto: "Rimljani dolaze posle bronzanog doba."}
+          - {tekst: "Iz XX veka", tacan: false, zasto: "U XX veku su samo otkrivena."}
+        pomoc:
+          - "Pogledaj potpis slike."
+          - "To doba traje 3000–1000. pre n. e."
+          - "Iz lekcije: kolica su iz bronzanog doba."
+        objasnjenje: "Kolica su iz bronzanog doba i primer vešte obrade."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Dupljajska kolica su iz bronzanog doba."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/07-dupljajska-kolica.jpg"
+      - id: l01-izbor-lepenski-figure
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [lepenski-vir, riboliki-idoli]
+        pitanje: "Na šta liče oble figure iz Lepenskog Vira?"
+        odgovori:
+          - {tekst: "Na ribu", tacan: true}
+          - {tekst: "Na konja", tacan: false, zasto: "Lekcija ih opisuje kao figure nalik ribi, što odgovara životu uz reku."}
+          - {tekst: "Na rimskog vojnika", tacan: false, zasto: "Rimski vojnici stižu hiljadama godina kasnije."}
+          - {tekst: "Na ptice na kolicima", tacan: false, zasto: "Ptičje glave su na dupljajskim kolicima iz bronzanog doba."}
+        pomoc:
+          - "Naselje je na obali Dunava."
+          - "Ljudi su živeli i od ribolova."
+          - "Iz lekcije: oble figure liče na ribu."
+        objasnjenje: "Figure nalik ribi najkarakterističnije su za umetnost Lepenskog Vira."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "U umetnosti Lepenskog Vira najkarakterističnije su oble figure koje liče na ribu."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/03-kamena-glava-lepenski-vir.jpg"
+        osa: {naziv: "Lepenski Vir", od: -6700, do: -5500, traka: crkva-kultura}
+      - id: l01-izbor-butmir-doba
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [butmirska-kultura, neolit]
+        pitanje: "Iz kog doba su tragovi butmirske kulture?"
+        odgovori:
+          - {tekst: "Iz neolita", tacan: true}
+          - {tekst: "Iz paleolita", tacan: false, zasto: "Paleolitski nalaz u susedstvu je krapinski čovek."}
+          - {tekst: "Iz gvozdenog doba", tacan: false, zasto: "Gvozdenom dobu lekcija pripisuje Židovar i Atenicu."}
+          - {tekst: "Iz bronzanog doba", tacan: false, zasto: "Bronzanom dobu lekcija pripisuje Rudnu Glavu i dupljajska kolica."}
+        pomoc:
+          - "To je ista grupa doba kao Vinča."
+          - "Mlađe kameno doba."
+          - "Iz lekcije: tragovi butmirske kulture su iz neolita."
+        objasnjenje: "Butmirska kultura iz Bosne i Hercegovine je neolitska."
+        iz_udzbenika:
+          strana: 8
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "U Bosni i Hercegovini su tragovi butmirske kulture iz neolita."
+      - id: l01-izbor-gvozdena-nalazista
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [zidovar, atenica, gvozdeno-doba]
+        pitanje: "Koja dva nalazišta lekcija navodi uz gvozdeno doba?"
+        odgovori:
+          - {tekst: "Židovar i Atenica", tacan: true}
+          - {tekst: "Vinča i Starčevo", tacan: false, zasto: "Oba su neolitska, a gvozdeno doba počinje tek 1000. pre n. e."}
+          - {tekst: "Risovača i Rudna Glava", tacan: false, zasto: "Risovača je iz paleolita, a Rudna Glava iz bronzanog doba."}
+          - {tekst: "Lepenski Vir i Donja Branjevina", tacan: false, zasto: "Oba su mnogo starija od gvozdenog doba."}
+        pomoc:
+          - "Jedno je kod Vršca."
+          - "Drugo je kod Čačka."
+          - "Iz lekcije: Židovar (Vršac) i Atenica (Čačak)."
+        objasnjenje: "Židovar kod Vršca i Atenica kod Čačka su iz gvozdenog doba."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Židovar (Vršac) i Atenica (Čačak) su iz gvozdenog doba."
+      - id: l01-tn-vinca-beograd
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [vincanska-kultura]
+        tvrdnja: "Jedno središte vinčanske kulture bilo je na tlu današnjeg Beograda."
+        tacno: true
+        pomoc:
+          - "Vinča je i danas deo Beograda."
+          - "Iz lekcije: jedno središte bilo je na tlu današnjeg Beograda."
+        objasnjenje: "Tačno: prostirala se središnjim Balkanom, a jedno središte bilo je kod Beograda."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Jedno središte vinčanske kulture bilo je na tlu današnjeg Beograda."
+      - id: l01-tn-srejovic-vinca
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [dragoslav-srejovic, miloje-vasic, lepenski-vir]
+        tvrdnja: "Dragoslav Srejović je najpoznatiji po istraživanju Vinče."
+        tacno: false
+        ispravke:
+          - {tekst: "Srejović je istraživao Lepenski Vir, a Vinču Miloje Vasić.", tacan: true}
+          - {tekst: "Srejović je istraživao Starčevo, a Vinču niko.", tacan: false, zasto: "Vinču je kopao Vasić, a Srejović je radio na Lepenskom Viru."}
+          - {tekst: "Srejović je otkrio krapinskog čoveka.", tacan: false, zasto: "Krapina je u Hrvatskoj; Srejović je vezan za Đerdap."}
+        pomoc:
+          - "Seti se koji je istraživač vezan za Vinču."
+          - "Iz lekcije: Vinča – Vasić; Lepenski Vir – Srejović."
+        objasnjenje: "Netačno: Srejović je vezan za Lepenski Vir."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Zapamtite"
+          tekst: "Istraživači: Vinča – Miloje Vasić; Lepenski Vir – Dragoslav Srejović."
+      - id: l01-zakljuci-ogrlica-lako
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [lepenski-vir, arheologija, nakit]
+        pitanje: "Zašto ogrlicu iz Lepenskog Vira smatramo predmetom koji proučava arheologija?"
+        odgovori:
+          - {tekst: "Zato što je materijalni ostatak prošlosti", tacan: true}
+          - {tekst: "Zato što je napisana rukom", tacan: false, zasto: "Ogrlica nije tekst, nego predmet."}
+          - {tekst: "Zato što je napravljena u XX veku", tacan: false, zasto: "U XX veku je nalaz istražen, a nastala je u praistoriji."}
+          - {tekst: "Zato što je od gvožđa", tacan: false, zasto: "Materijal nije merilo; arheologija proučava sve materijalne ostatke."}
+        pomoc:
+          - "Korak 1: Šta istražuje arheologija?"
+          - "Korak 2: Da li je nakit takav ostatak?"
+          - "Iz lekcije: nakit je među primerima materijalnih ostataka."
+        objasnjenje: "Nakit je materijalni ostatak, kao posuđe i oružje."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Ogrlica iz Lepenskog Vira primer je materijalnog ostatka."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/04-ogrlica-lepenski-vir.jpg"
+      - id: l01-izvor-ogrlica
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [lepenski-vir, nakit, arheologija]
+        izvor:
+          autor: "Fotografija iz udžbenika"
+          naslov: "Ogrlica iz Lepenskog Vira (opis slike)"
+          tekst: "Niska od svetlih izduženih perli, sa nekoliko većih komada i privescima pri dnu."
+          napomena: "Odlomak je prepričan; udžbenik, str. 9."
+        pitanje: "Šta ova ogrlica pokazuje o stanovnicima naselja?"
+        odgovori:
+          - {tekst: "Imali su vremena i veštine i za ukrašavanje", tacan: true}
+          - {tekst: "Živeli su u gradovima sa zidinama", tacan: false, zasto: "Ogrlica o tome ne govori; opisuje ukrašavanje."}
+          - {tekst: "Znali su da pišu", tacan: false, zasto: "Pre pojave pisma nema zapisa, a nakit nije tekst."}
+          - {tekst: "Trgovali su sa Rimljanima", tacan: false, zasto: "Rimljani stižu mnogo kasnije."}
+        pomoc:
+          - "Čemu služi ogrlica?"
+          - "Da li je potrebna za preživljavanje?"
+          - "Iz lekcije: nakit pokazuje vreme i veštinu za ukrašavanje."
+        objasnjenje: "Ko pravi nakit, ima vremena i umeća i za ono što nije nužno za opstanak."
+        iz_udzbenika:
+          strana: 9
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Ogrlica pokazuje da su stanovnici imali vremena i veštine za ukrašavanje."
+          slika: "01-balkansko-poluostrvo-u-praistoriji/04-ogrlica-lepenski-vir.jpg"
+      - id: l01-uporedi-vinca-lepenski-lako
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [vinca, lepenski-vir]
+        a: "Vinča"
+        b: "Lepenski Vir"
+        pitanje: "Na koje nalazište se odnosi tvrdnja: Vinču, Lepenski Vir, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Istraživao ga je Miloje Vasić.", odgovor: a, zasto: "Vasić je kopao Vinču."}
+          - {tekst: "Nalazi se u Đerdapskoj klisuri.", odgovor: b, zasto: "Lepenski Vir je u Đerdapu."}
+          - {tekst: "Nalazi se na tlu današnje Srbije.", odgovor: oba, zasto: "Oba su najvažniji tragovi na tlu Srbije."}
+          - {tekst: "Nalazi se u Hrvatskoj.", odgovor: nijedan, zasto: "U Hrvatskoj je krapinski nalaz."}
+        pomoc:
+          - "Jedno je kod Beograda, drugo u klisuri."
+          - "Oba su u Srbiji."
+          - "Iz lekcije: Vinča – Vasić; Lepenski Vir – Srejović."
+        objasnjenje: "Dva najvažnija nalazišta Srbije razlikuju se po mestu i istraživaču."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Zapamtite"
+          tekst: "Vinču je istražio Vasić, a Lepenski Vir Srejović."
+      - id: l01-ko-sam-srejovic-reka
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [dragoslav-srejovic]
+        tragovi:
+          - "Arheolog sam, kao i Miloje Vasić."
+          - "Pisao sam o tome kako je reka oblikovala prve stanovnike Đerdapa."
+        odgovori:
+          - {tekst: "Dragoslav Srejović", tacan: true}
+          - {tekst: "Miloje Vasić", tacan: false, zasto: "Vasić je vezan za Vinču, a ne za Đerdap."}
+          - {tekst: "Kraljica Teuta", tacan: false, zasto: "Teuta je ilirska vladarka iz antike."}
+          - {tekst: "Car Trajan", tacan: false, zasto: "Trajan je rimski car, a ne arheolog."}
+        objasnjenje: "To je Dragoslav Srejović, istraživač Lepenskog Vira."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Srejović je veliki deo rada posvetio Lepenskom Viru."
+      - id: l01-datum-vasic
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [miloje-vasic]
+        dogadjaj: "Miloje Vasić"
+        pitanje: "Od koje do koje godine je živeo Miloje Vasić?"
+        od: 1869
+        do: 1956
+        traka: crkva-kultura
+        pomoc:
+          - "Rođen je u XIX, a umro u XX veku."
+          - "Doživeo je osamdeset i neku godinu."
+          - "Iz lekcije: Miloje Vasić (1869–1956)."
+        objasnjenje: "Miloje Vasić je živeo od 1869. do 1956. godine."
+        iz_udzbenika:
+          strana: 10
+          odeljak: "Preistorijska nalazišta i kulture na Balkanu"
+          tekst: "Miloje Vasić živeo je 1869–1956."
+  - naslov: "Iz istorijskih izvora"
+    zadaci:
+      - id: l01-izvor-srejovic-kuce
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [dragoslav-srejovic, lepenski-vir]
+        izvor:
+          autor: "Dragoslav Srejović"
+          naslov: "O Lepenskom Viru"
+          tekst: "Raspored i oblik kuća pokazuju da su stanovnici razlikovali strane sveta i imali izvesno matematičko znanje."
+          napomena: "Odlomak je prepričan; udžbenik, str. 11."
+        pitanje: "Na osnovu čega Srejović zaključuje o znanju stanovnika?"
+        odgovori:
+          - {tekst: "Na osnovu rasporeda i oblika kuća", tacan: true}
+          - {tekst: "Na osnovu njihovih zapisa", tacan: false, zasto: "Zapisa nema; to je vreme pre pisma."}
+          - {tekst: "Na osnovu rimskih izveštaja", tacan: false, zasto: "Rimljani dolaze hiljadama godina kasnije."}
+          - {tekst: "Na osnovu oružja", tacan: false, zasto: "U odlomku se govori o kućama."}
+        pomoc:
+          - "Pročitaj početak odlomka."
+          - "Šta su arheolozi iskopali?"
+          - "Iz lekcije: raspored i oblik kuća pokazuju znanje."
+        objasnjenje: "Arheolog iz plana naselja izvodi zaključak o znanju."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Raspored i oblik kuća pokazuju poznavanje strana sveta i izvesno matematičko znanje."
+        osa: {naziv: "Lepenski Vir", od: -6700, do: -5500, traka: crkva-kultura}
+      - id: l01-izvor-srejovic-pripitomljavanje
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [dragoslav-srejovic, lepenski-vir]
+        izvor:
+          autor: "Dragoslav Srejović"
+          naslov: "O Lepenskom Viru"
+          tekst: "Pripitomljavanju životinja i gajenju biljaka prethodilo je dugo i pažljivo praćenje prirode, biranje vrsta i briga o njima."
+          napomena: "Odlomak je prepričan; udžbenik, str. 11."
+        pitanje: "Koju zabludu o pripitomljavanju ovaj odlomak ispravlja?"
+        odgovori:
+          - {tekst: "Da je pripitomljavanje došlo odjednom, bez dugog posmatranja", tacan: true}
+          - {tekst: "Da su životinje pripitomili Rimljani", tacan: false, zasto: "Odlomak ne govori o Rimljanima; poenta je u dugom procesu."}
+          - {tekst: "Da ljudi nisu gajili biljke", tacan: false, zasto: "Odlomak ne poriče gajenje, nego objašnjava kako je do njega došlo."}
+          - {tekst: "Da se priroda ne menja", tacan: false, zasto: "O tome odlomak ne govori."}
+        pomoc:
+          - "Obrati pažnju na reči „dugo i pažljivo”."
+          - "Šta je prethodilo pripitomljavanju?"
+          - "Iz lekcije: prethodilo mu je praćenje prirode i biranje vrsta."
+        objasnjenje: "Pripitomljavanje je ishod dugog posmatranja i biranja, a ne srećan slučaj."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Pripitomljavanju i gajenju prethodilo je dugo praćenje prirode, biranje vrsta i briga o njima."
+      - id: l01-izvor-srejovic-stalnost
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [dragoslav-srejovic, lepenski-vir, derdapska-klisura]
+        izvor:
+          autor: "Dragoslav Srejović"
+          naslov: "O Lepenskom Viru"
+          tekst: "Život na istom mestu dao je prvim stanovnicima Đerdapa priliku da zapaze pravilan red prirodnih pojava, upoznaju ćudi velike reke i prate životinje i bogato rastinje."
+          napomena: "Odlomak je prepričan; udžbenik, str. 11."
+        pitanje: "Šta je stanovnicima Đerdapa omogućilo da upoznaju prirodu?"
+        odgovori:
+          - {tekst: "Život na istom mestu", tacan: true}
+          - {tekst: "Stalno seljenje", tacan: false, zasto: "Odlomak govori suprotno: stalnost im je dala priliku."}
+          - {tekst: "Školovanje u Grčkoj", tacan: false, zasto: "Grčka kultura nastaje mnogo kasnije."}
+          - {tekst: "Trgovina sa Rimom", tacan: false, zasto: "Rim tada ne postoji."}
+        pomoc:
+          - "Pročitaj prve reči odlomka."
+          - "Da li su se selili?"
+          - "Iz lekcije: život na istom mestu dao im je priliku."
+        objasnjenje: "Ko ostaje na istom mestu može da prati promene u prirodi iz godine u godinu."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Život na istom mestu omogućio je da se upoznaju reka, životinje i rastinje."
+      - id: l01-lanac-pripitomljavanje
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [lepenski-vir]
+        karike:
+          - "Stanovnici dugo žive na istom mestu"
+          - "Upoznaju reku, životinje i biljke"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Počinju da pripitomljavaju životinje i gaje biljke", tacan: true}
+          - {tekst: "Napuštaju Đerdap i odlaze na more", tacan: false, zasto: "Poznavanje okoline ih upravo drži uz reku."}
+          - {tekst: "Prestaju da se brinu o prirodi", tacan: false, zasto: "Srejović naglašava brigu o vrstama."}
+        pomoc:
+          - "Korak 1: Čemu služi poznavanje prirode?"
+          - "Korak 2: Šta ljudi rade kad nauče ponašanje životinja?"
+          - "Iz lekcije: trajan život → poznavanje prirode → pripitomljavanje i gajenje."
+        objasnjenje: "Stalnost vodi ka znanju, a znanje ka pripitomljavanju."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Život na istom mestu doveo je do poznavanja prirode, a ono do pripitomljavanja i gajenja."
+      - id: l01-lanac-biranje-vrsta
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [lepenski-vir]
+        karike:
+          - "?"
+          - "Biranje vrsta i briga o njima"
+          - "Pripitomljene životinje i gajene biljke"
+        praznina: 0
+        odgovori:
+          - {tekst: "Dugo posmatranje prirode", tacan: true}
+          - {tekst: "Dolazak Rimljana", tacan: false, zasto: "Rimljani stižu mnogo kasnije."}
+          - {tekst: "Pronalazak pisma", tacan: false, zasto: "Pismo nije bilo uslov; ovo je iskustvo stečeno posmatranjem."}
+        pomoc:
+          - "Korak 1: Šta mora da prethodi biranju?"
+          - "Korak 2: Kako znaš koju vrstu da izabereš?"
+          - "Iz lekcije: dugo posmatranje prirode i biranje vrsta."
+        objasnjenje: "Da bi se biralo, mora prvo da se posmatra."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Pripitomljavanju je prethodilo dugo posmatranje prirode."
+      - id: l01-zakljuci-geografija
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [dragoslav-srejovic, lepenski-vir]
+        pitanje: "Zašto je Srejovića Lepenski Vir privlačio kao primer uticaja geografije?"
+        odgovori:
+          - {tekst: "Velika reka i klisura očigledno su oblikovale život tih ljudi", tacan: true}
+          - {tekst: "Tamo nije bilo nikakvih prirodnih uslova", tacan: false, zasto: "Upravo su bogata priroda i reka bile važne."}
+          - {tekst: "Lepenski Vir je bio najveći grad Evrope", tacan: false, zasto: "Lekcija to ne kaže; veličinu Evrope ističe za Vinču kao nalazište."}
+          - {tekst: "Tamo su nađeni pisani opisi predela", tacan: false, zasto: "Pisanih tragova nema."}
+        pomoc:
+          - "Korak 1: Šta je Srejovića zanimalo?"
+          - "Korak 2: Šta je u Lepenskom Viru najupadljivije u prirodi?"
+          - "Iz lekcije: zanimalo ga je kako geografija deluje na zajednice."
+        objasnjenje: "Dunav i Đerdap jasno određuju način života, pa je mesto dobar primer."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Srejovića je naročito zanimalo kako geografija deluje na razvoj ljudskih zajednica."
+      - id: l01-tn-srejovic-matematika
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [dragoslav-srejovic, lepenski-vir]
+        tvrdnja: "Po Srejoviću, raspored kuća u Lepenskom Viru pokazuje izvesno matematičko znanje."
+        tacno: true
+        pomoc:
+          - "Seti se šta kaže o rasporedu i obliku kuća."
+          - "Iz lekcije: razlikovali su strane sveta i imali izvesno matematičko znanje."
+        objasnjenje: "Tačno: plan kuća govori o znanju graditelja."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Raspored i oblik kuća pokazuju izvesno matematičko znanje."
+      - id: l01-objasni-srejovic-sta-znamo
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [dragoslav-srejovic, lepenski-vir]
+        pitanje: "Kako je, po Srejoviću, život na jednom mestu vodio do pripitomljavanja i gajenja?"
+        uzor: "Život na istom mestu dao je ljudima priliku da zapaze red u prirodi, upoznaju reku, životinje i rastinje. Posle dugog posmatranja birali su vrste i brinuli o njima. Tako je došlo do pripitomljavanja životinja i gajenja biljaka."
+        ideje:
+          - "Stalan život omogućava posmatranje prirode."
+          - "Biranje vrsta i briga o njima."
+          - "Ishod je pripitomljavanje i gajenje."
+        objasnjenje: "Srejović prikazuje napredak kao niz koraka, a ne kao slučaj."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Stalan život vodi posmatranju prirode, a ono pripitomljavanju i gajenju."
+      - id: l01-objasni-srejovic-metod
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [dragoslav-srejovic, arheologija, lepenski-vir]
+        pitanje: "Kako arheolog može da zaključi šta su ljudi znali, ako iza njih nema pisanih tragova? Pokaži na primeru Lepenskog Vira."
+        uzor: "Arheolog polazi od materijalnih ostataka i pita se šta je bilo potrebno da nastanu. U Lepenskom Viru su kuće poređane po planu, pa Srejović zaključuje da su ljudi razlikovali strane sveta i imali izvesno matematičko znanje. Tako predmet postaje izvor."
+        ideje:
+          - "Polazi od materijalnih ostataka."
+          - "Primer: raspored i oblik kuća."
+          - "Iz plana zaključuje o stranama sveta i matematičkom znanju."
+        objasnjenje: "Bez pisma predmet i plan naselja zamenjuju tekst."
+        iz_udzbenika:
+          strana: 11
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Srejović iz rasporeda kuća izvodi zaključak o znanju stanovnika."

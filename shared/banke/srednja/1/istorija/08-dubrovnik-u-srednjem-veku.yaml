@@ -1,0 +1,1381 @@
+# Banka pitanja: Dubrovnik u srednjem veku (istorija, 1. razred srednje škole, str. 36–37). Sopstvenim rečima, po belešci lekcije.
+# Lekcija ne daje nijednu tačnu godinu (samo vekove), pa nema zadataka vrste `datum`; događaji na osi imaju `oznaka`.
+# Povelja nema godinu, a knjiga vladara zove različitim titulama: zato bez ose i bez pitanja o tituli.
+lekcija: 8
+naslov: "Dubrovnik u srednjem veku"
+pojmovi:
+  dubrovnik: Dubrovnik
+  grad-drzava: grad-država
+  epidaurus: Epidaurus
+  cavtat: Cavtat
+  peljesac: Pelješac
+  vlastela: vlastela
+  veliko-vece: Veliko veće
+  senat: Senat
+  malo-vece: Malo veće
+  knez: knez
+  pucani: pučani
+  mletacka-republika: Mletačka republika
+  ugarska: Ugarska
+  vizantija: Vizantija
+  dubrovacki-arhiv: Dubrovački arhiv
+  trgovina: trgovina
+  carine: carine
+  rudnici: rudnici
+  stefan-nemanjic: Stefan Nemanjić
+  zan-dandolo: Žan Dandolo
+  vlah: Vlah
+  srbija: Srbija
+  bosna: Bosna
+  mediteran: Mediteran
+delovi:
+  # ==========================================================================
+  - naslov: "Postanak i razvoj Dubrovnika"
+    zadaci:
+      - id: l08-pos-izbor-ko-podigao
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [dubrovnik, epidaurus]
+        pitanje: "Ko je podigao Dubrovnik?"
+        odgovori:
+          - {tekst: "Izbeglice iz razorenog Epidaurusa", tacan: true}
+          - {tekst: "Trgovci iz Bosne", tacan: false, zasto: "Bosna je kasnije trgovački partner Dubrovnika; grad su podigle izbeglice iz Epidaurusa."}
+          - {tekst: "Mlečani", tacan: false, zasto: "Mlečani su kasnije bili formalni gospodari grada, a ne njegovi osnivači."}
+          - {tekst: "Srpski vladari", tacan: false, zasto: "Srpski vladari su prodavali zemlju Dubrovniku, a grad su podigle izbeglice iz Epidaurusa."}
+        pomoc:
+          - "Grad su podigli ljudi koji su izgubili svoj dom."
+          - "Njihov stari grad je stradao u napadima Slovena."
+          - "Iz lekcije: podigle su ga izbeglice iz Epidaurusa."
+        objasnjenje: "Dubrovnik su u VII veku podigle izbeglice iz Epidaurusa, koji je stradao u napadima Slovena."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Dubrovnik je nastao u VII veku; podigle su ga izbeglice iz Epidaurusa."
+        osa: {naziv: "Nastanak Dubrovnika", od: 600, do: 700, traka: dogadjaji, oznaka: "VII vek"}
+
+      - id: l08-pos-izbor-cavtat
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [epidaurus, cavtat]
+        pitanje: "Kako se danas zove mesto na kome je bio Epidaurus?"
+        odgovori:
+          - {tekst: "Cavtat", tacan: true}
+          - {tekst: "Pelješac", tacan: false, zasto: "Pelješac je poluostrvo koje je Dubrovnik kasnije stekao."}
+          - {tekst: "Split", tacan: false, zasto: "Lekcija ne povezuje Split sa Epidaurusom; današnji Epidaurus je Cavtat."}
+          - {tekst: "Kotor", tacan: false, zasto: "Kotor je drugi primorski grad; Epidaurus je današnji Cavtat."}
+        pomoc:
+          - "Mesto je sasvim blizu Dubrovnika."
+          - "Ime počinje slovom C."
+          - "Iz lekcije: Epidaurus je današnji Cavtat."
+        objasnjenje: "Epidaurus je današnji Cavtat, odakle su izbeglice došle da podignu Dubrovnik."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Uvod"
+          tekst: "Dubrovnik su podigli stanovnici razorenog Epidaurusa, današnjeg Cavtata."
+
+      - id: l08-pos-izbor-vizantija
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [vizantija, dubrovnik]
+        pitanje: "Pod čijom upravom je Dubrovnik bio na početku?"
+        odgovori:
+          - {tekst: "Pod upravom Vizantije", tacan: true}
+          - {tekst: "Pod upravom Turaka", tacan: false, zasto: "U VII veku Turaka u ovoj priči nema; grad je tada pod Vizantijom."}
+          - {tekst: "Pod upravom Bosne", tacan: false, zasto: "Bosanska država nastaje tek krajem XII veka."}
+          - {tekst: "Pod upravom Ugarske", tacan: false, zasto: "Ugarska je tek kasniji formalni gospodar, posle Mlečana."}
+        pomoc:
+          - "Na Balkanu je tada jako veliko carstvo."
+          - "Mlečani i Ugarska dolaze tek kasnije."
+          - "Iz lekcije: u početku je to bilo malo mesto pod upravom Vizantije."
+        objasnjenje: "Dubrovnik je počeo kao malo mesto pod upravom Vizantije."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "U početku je Dubrovnik bio malo mesto pod upravom Vizantije."
+
+      - id: l08-pos-izbor-bogatstvo
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [trgovina, mediteran, dubrovnik]
+        pitanje: "Odakle je poticalo bogatstvo Dubrovnika? (više tačnih)"
+        odgovori:
+          - {tekst: "Od trgovine sa slovenskim oblastima u zaleđu", tacan: true}
+          - {tekst: "Od trgovine sa državama Mediterana", tacan: true}
+          - {tekst: "Od pljačke susednih zemalja", tacan: false, zasto: "Grad se bogatio trgovinom, a zemlju je čak kupovao."}
+          - {tekst: "Od poreza koji je plaćala Vizantija", tacan: false, zasto: "Grad je bio pod Vizantijom, pa nije ubirao porez od nje; bogatstvo je došlo od trgovine."}
+        pomoc:
+          - "Zamisli grad između kopna i mora."
+          - "Dve strane trgovine: zaleđe i more."
+          - "Iz lekcije: bogatstvo potiče od trgovine sa slovenskim zaleđem i Mediteranom."
+        objasnjenje: "Dubrovnik je posrednik između slovenskog zaleđa i Mediterana, pa se na toj trgovini bogatio."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Bogatstvo potiče od trgovine sa slovenskim oblastima u zaleđu i sa državama Mediterana."
+          slika: 08-dubrovnik-u-srednjem-veku/01-dubrovacki-trgovacki-brod.jpg
+
+      - id: l08-pos-izbor-zakup
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [carine, rudnici, srbija, bosna]
+        pitanje: "Šta su Dubrovčani često uzimali u zakup u Srbiji i Bosni?"
+        odgovori:
+          - {tekst: "Carine i rudnike", tacan: true}
+          - {tekst: "Manastire i crkve", tacan: false, zasto: "Lekcija govori o privrednom zakupu carina i rudnika."}
+          - {tekst: "Vojsku i tvrđave", tacan: false, zasto: "Dubrovčani su trgovci; u zakup uzimaju carine i rudnike."}
+          - {tekst: "Prestonice vladara", tacan: false, zasto: "Prestonice se ne iznajmljuju; zakup se tiče izvora prihoda, carina i rudnika."}
+        pomoc:
+          - "Razmisli šta donosi novac: promet robe i iskopavanje."
+          - "Jedno je vezano za promet robe, drugo za rude."
+          - "Iz lekcije: često su uzimali u zakup carine i rudnike."
+        objasnjenje: "Zakup carina i rudnika pokazuje da su Dubrovčani učestvovali u privredi Srbije i Bosne, a ne samo u trgovini."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Dubrovčani su često uzimali u zakup carine i rudnike u Srbiji i Bosni."
+
+      - id: l08-pos-izbor-prisutnost-tesko
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [dubrovnik, trgovina, srbija, bosna, carine]
+        pitanje: "Šta od navedenog pokazuje da je Dubrovnik bio prisutan u životu balkanskih država? (više tačnih)"
+        odgovori:
+          - {tekst: "Trgovci otvaraju poslove u Srbiji i Bosni", tacan: true}
+          - {tekst: "Uzimaju u zakup carine i rudnike", tacan: true}
+          - {tekst: "Nose luksuznu robu i vina u unutrašnjost", tacan: true}
+          - {tekst: "Dubrovački knez postavlja srpske vladare", tacan: false, zasto: "Knez učestvuje u upravi grada; srpske vladare ne postavlja, a trgovci i traže dozvolu od njih."}
+          - {tekst: "Dubrovnik upravlja Bosnom kao svojom pokrajinom", tacan: false, zasto: "Bosna ima svoje vladare, od kojih trgovci dobijaju dozvolu."}
+        pomoc:
+          - "Traži privredne veze, a ne političku vlast."
+          - "Trgovci zavise od dozvole vladara."
+          - "Iz lekcije: prisutni su trgovinom, zakupom i otvaranjem poslova."
+        objasnjenje: "Prisustvo Dubrovnika je privredno: trgovina, zakup i poslovi, a ne vlast nad susedima."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Uvod"
+          tekst: "Dubrovnik postaje trgovačka sila prisutna u svim oblastima života balkanskih država."
+
+      - id: l08-pos-tn-vii-vek
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [dubrovnik]
+        tvrdnja: "Dubrovnik je nastao u VII veku."
+        tacno: true
+        pomoc:
+          - "To je vreme slovenskih napada na Balkan."
+          - "Iz lekcije: Dubrovnik je nastao u VII veku."
+        objasnjenje: "Tačno. Nastao je u VII veku, kada su izbeglice iz Epidaurusa podigle novo naselje."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Dubrovnik je nastao u VII veku."
+        osa: {naziv: "Nastanak Dubrovnika", od: 600, do: 700, traka: dogadjaji, oznaka: "VII vek"}
+
+      - id: l08-pos-tn-romanizovani
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [epidaurus, dubrovnik]
+        tvrdnja: "Naselje Dubrovnik podigli su romanizovani stanovnici Epidaurusa."
+        tacno: true
+        pomoc:
+          - "Romanizovan znači ko je primio rimski jezik i način života."
+          - "Iz lekcije: naselje su podigli romanizovani stanovnici razorenog Epidaurusa."
+        objasnjenje: "Tačno. Osnivači su romanizovani stanovnici Epidaurusa, a ne Sloveni koji su taj grad razorili."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Uvod"
+          tekst: "Naselje su podigli romanizovani stanovnici razorenog Epidaurusa."
+
+      - id: l08-pos-tn-peljesac
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [peljesac, dubrovnik]
+        tvrdnja: "Dubrovnik je Pelješac i susedna ostrva stekao vojnim osvajanjem."
+        tacno: false
+        ispravke:
+          - {tekst: "Gradske vlasti su kupovale zemlju od srpskih vladara i vlastele.", tacan: true}
+          - {tekst: "Pelješac je dobio na poklon od Vizantije.", tacan: false, zasto: "Lekcija ne govori o poklonu; posed se širio kupovinom."}
+          - {tekst: "Pelješac je Dubrovnik imao od samog osnivanja.", tacan: false, zasto: "U početku je obuhvatao samo najbližu okolinu grada; Pelješac stiče do XIV veka."}
+        pomoc:
+          - "Dubrovnik je trgovački, a ne vojnički grad."
+          - "Čime trgovac najlakše dolazi do zemlje?"
+          - "Iz lekcije: vlasti su kupovale zemlju od srpskih vladara i vlastele."
+        objasnjenje: "Netačno. Dubrovnik je širio posed novcem, kupovinom od srpskih vladara i vlastele."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Vlasti su kupovale zemlju od srpskih vladara i vlastele, pa se posed do XIV veka proširio na Pelješac i susedna ostrva."
+        osa: {naziv: "Širenje Dubrovnika do Pelješca", od: 1300, traka: dogadjaji, oznaka: "do XIV veka"}
+
+      - id: l08-pos-tn-razlog-jacanja-tesko
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [dubrovnik, trgovina]
+        tvrdnja: "Dubrovnik je od XII do XV veka jačao prvenstveno zato što je imao veliku teritoriju."
+        tacno: false
+        ispravke:
+          - {tekst: "Jačao je prvenstveno zbog privrede, a veća teritorija je posledica bogatstva.", tacan: true}
+          - {tekst: "Jačao je zato što su ga štitili bogumili.", tacan: false, zasto: "Bogumili nisu tema Dubrovnika; grad jača trgovinom."}
+          - {tekst: "Jačao je zato što je vladao Srbijom.", tacan: false, zasto: "Nije vladao Srbijom; trgovao je sa njom uz dozvolu njenih vladara."}
+        pomoc:
+          - "Šta je bilo prvo: novac ili zemlja?"
+          - "Kako je grad došao do novih poseda?"
+          - "Iz lekcije: grad jača prvenstveno zbog privrede; zemlju kupuje."
+        objasnjenje: "Netačno. Tvrdnja obrće uzrok i posledicu: bogatstvo od trgovine omogućilo je kupovinu zemlje."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Od XII do XV veka grad znatno jača, prvenstveno zbog privrede."
+        osa: {naziv: "Uspon Dubrovnika", od: 1100, do: 1500, traka: dogadjaji, oznaka: "XII–XV vek"}
+
+      - id: l08-pos-dopuni-postanak
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [epidaurus, cavtat, vizantija, dubrovnik]
+        pitanje: "Dopuni rečenice o postanku grada."
+        tekst: "Dubrovnik su podigle izbeglice iz {{Epidaurusa}}, današnjeg {{Cavtata}}, koji su razorili {{Sloveni}}. U početku je to bilo malo mesto pod upravom {{Vizantije}}."
+        ponudjene: [Epidaurusa, Cavtata, Sloveni, Vizantije, Turci, Bosne]
+        pomoc:
+          - "Turci stižu mnogo kasnije."
+          - "Grad je razoren u VII veku."
+          - "Iz lekcije: izbeglice iz Epidaurusa (Cavtat), napadi Slovena, uprava Vizantije."
+        objasnjenje: "Napadi Slovena razorili su Epidaurus, a izbeglice su pod vizantijskom vlašću podigle Dubrovnik."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Dubrovnik su podigle izbeglice iz Epidaurusa; bio je malo mesto pod upravom Vizantije."
+
+      - id: l08-pos-dopuni-posed
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [peljesac, dubrovnik, vlastela]
+        pitanje: "Dopuni rečenicu o širenju poseda."
+        tekst: "Kupovinom zemlje od srpskih vladara i {{vlastele}} posed se do {{XIV}} veka proširio na poluostrvo {{Pelješac}} i susedna {{ostrva}}."
+        ponudjene: [vlastele, XIV, Pelješac, ostrva, Mlečana, VII, Cavtat]
+        pomoc:
+          - "VII vek je vreme nastanka grada."
+          - "Zemlju su prodavali srpski vladari i njihovo plemstvo."
+          - "Iz lekcije: do XIV veka posed se širi na Pelješac i susedna ostrva."
+        objasnjenje: "Od najbliže okoline grada posed je do XIV veka narastao do Pelješca i susednih ostrva."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Posed se do XIV veka proširio na Pelješac i susedna ostrva."
+
+      - id: l08-pos-povezi-pojmovi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [epidaurus, peljesac, carine, grad-drzava]
+        pitanje: "Poveži pojam sa objašnjenjem."
+        parovi:
+          - ["Epidaurus", "Grad iz koga dolaze osnivači Dubrovnika"]
+          - ["Pelješac", "Poluostrvo koje je ušlo u dubrovački posed"]
+          - ["Carine", "Prihod koji su Dubrovčani uzimali u zakup"]
+          - ["Grad-država", "Grad koji je istovremeno samostalna država"]
+        pomoc:
+          - "Prva dva pojma su geografska."
+          - "Carine su vezane za promet robe."
+          - "Iz lekcije: Epidaurus je prethodnik Dubrovnika, a Pelješac je kasniji posed."
+        objasnjenje: "Ovi pojmovi pričaju priču o gradu: odakle dolazi, šta je stekao, od čega živi i šta je bio."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Lekcija povezuje Epidaurus, Pelješac, zakup carina i pojam grada-države."
+
+      - id: l08-pos-zakljuci-trgovci
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [dubrovnik, trgovina, mediteran]
+        pitanje: "Čemu je služio veliki jedrenjak prikazan u lekciji?"
+        odgovori:
+          - {tekst: "Prevozio je robu između Dubrovnika i mediteranskih zemalja", tacan: true}
+          - {tekst: "Prevozio je seljake u Bosnu", tacan: false, zasto: "Bosna nije na moru; brod je trgovački i plovi Mediteranom."}
+          - {tekst: "Služio je samo za ribolov u luci", tacan: false, zasto: "Veliki trgovački jedrenjak nosi robu, a ne služi za ribolov."}
+          - {tekst: "Bio je ratni brod Ugarske", tacan: false, zasto: "Ovo je dubrovački trgovački brod, a ne ugarski ratni."}
+        pomoc:
+          - "Korak 1: Kako se zove slika?"
+          - "Korak 2: Sa kim je Dubrovnik trgovao morem?"
+          - "Iz lekcije: takvi brodovi nosili su robu između Dubrovnika i Mediterana."
+        objasnjenje: "Brodovi poput ovog nosili su glavni izvor bogatstva grada: trgovinu morem."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Slika prikazuje veliki dubrovački trgovački jedrenjak."
+          slika: 08-dubrovnik-u-srednjem-veku/01-dubrovacki-trgovacki-brod.jpg
+
+      - id: l08-pos-zakljuci-polozaj
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [dubrovnik, trgovina, mediteran]
+        pitanje: "Zašto je položaj Dubrovnika bio toliko važan za njegov razvoj?"
+        odgovori:
+          - {tekst: "Stajao je između slovenskog zaleđa i mediteranskih zemalja, pa je mogao da trguje sa obe strane", tacan: true}
+          - {tekst: "Bio je daleko od mora, pa ga niko nije mogao napasti", tacan: false, zasto: "Dubrovnik je primorski grad sa lukom."}
+          - {tekst: "Bio je u sredini Bosne", tacan: false, zasto: "Bosna je zaleđe sa kojim Dubrovnik trguje, a grad je na moru."}
+          - {tekst: "Imao je velika polja za žito", tacan: false, zasto: "Posed je isprva bio samo najbliža okolina; bogatstvo je došlo od trgovine."}
+        pomoc:
+          - "Korak 1: Gde je grad, na kopnu ili na moru?"
+          - "Korak 2: Sa kojim stranama trguje?"
+          - "Iz lekcije: trgovina sa slovenskim zaleđem i državama Mediterana."
+        objasnjenje: "Grad je povezivao dva sveta: unutrašnjost Balkana i Mediteran."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Dubrovnik je bogatstvo sticao trgovinom sa zaleđem i Mediteranom."
+          slika: 08-dubrovnik-u-srednjem-veku/02-dubrovnik-u-srednjem-veku.jpg
+
+      - id: l08-pos-poredjaj-postanak
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [epidaurus, dubrovnik, vizantija]
+        pitanje: "Poređaj korake od razaranja Epidaurusa do jačanja Dubrovnika."
+        stavke:
+          - {tekst: "Sloveni napadaju i razaraju Epidaurus"}
+          - {tekst: "Izbeglice podižu novo naselje"}
+          - {tekst: "Naselje je malo mesto pod upravom Vizantije"}
+          - {tekst: "Grad se bogati trgovinom"}
+        pomoc:
+          - "Prvo mora da postoji razlog za bekstvo."
+          - "Bogatstvo dolazi na kraju."
+          - "Iz lekcije: napad → izbeglice → malo mesto → jačanje."
+        objasnjenje: "Iz razaranja jednog grada nastao je drugi, koji je tek vekovima kasnije postao moćan."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Izbeglice iz razorenog Epidaurusa podigle su malo mesto koje je kasnije ojačalo."
+
+      - id: l08-pos-poredjaj-razvoj
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [dubrovnik, peljesac]
+        pitanje: "Poređaj događaje hronološki, od najranijeg."
+        stavke:
+          - {tekst: "Nastaje Dubrovnik", godina: 600, do: 700, naziv: "Nastanak Dubrovnika", traka: dogadjaji, oznaka: "VII vek"}
+          - {tekst: "Grad počinje znatno da jača", godina: 1100, do: 1500, naziv: "Uspon Dubrovnika", traka: dogadjaji, oznaka: "XII–XV vek"}
+          - {tekst: "Posed dostiže Pelješac i susedna ostrva", godina: 1300, naziv: "Širenje Dubrovnika do Pelješca", traka: dogadjaji, oznaka: "do XIV veka"}
+        pomoc:
+          - "Grad mora da nastane pre svega ostalog."
+          - "Zemlja se kupuje novcem od uspona."
+          - "Iz lekcije: VII vek, pa jačanje od XII veka, pa posed do XIV veka."
+        objasnjenje: "Nastanak (VII vek) → jačanje (od XII veka) → širenje na Pelješac (do XIV veka)."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Grad nastaje u VII veku, jača od XII veka, a do XIV veka širi posed."
+
+      - id: l08-pos-lanac-nastanak
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [epidaurus, dubrovnik]
+        karike:
+          - "Sloveni napadaju Epidaurus"
+          - "?"
+          - "Nastaje Dubrovnik"
+        praznina: 1
+        odgovori:
+          - {tekst: "Stanovnici beže i podižu novo naselje", tacan: true}
+          - {tekst: "Stanovnici se sele u Bosnu da trguju", tacan: false, zasto: "Izbeglice su ostale na obali i podigle Dubrovnik."}
+          - {tekst: "Vizantija ruši Dubrovnik", tacan: false, zasto: "Dubrovnik još ne postoji, a kasnije je pod upravom Vizantije."}
+        pomoc:
+          - "Šta rade ljudi kada im je grad razoren?"
+          - "Kako se zovu oni koji su osnovali Dubrovnik?"
+          - "Iz lekcije: izbeglice su podigle Dubrovnik."
+        objasnjenje: "Razaranje Epidaurusa pretvorilo je njegove stanovnike u izbeglice, a one su podigle Dubrovnik."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Izbeglice iz Epidaurusa, koji je stradao u napadima Slovena, podigle su Dubrovnik."
+
+      - id: l08-pos-lanac-posed
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [trgovina, peljesac, dubrovnik]
+        karike:
+          - "Trgovina sa zaleđem i Mediteranom"
+          - "Bogatstvo i jačanje grada"
+          - "?"
+          - "Posed se širi do Pelješca i susednih ostrva"
+        praznina: 2
+        odgovori:
+          - {tekst: "Kupovina zemlje od srpskih vladara i vlastele", tacan: true}
+          - {tekst: "Rat protiv Vizantije", tacan: false, zasto: "Lekcija kaže da je zemlja kupovana, a ne osvajana."}
+          - {tekst: "Pozivanje Turaka u pomoć", tacan: false, zasto: "Turci nisu deo ove priče; posed se širi kupovinom."}
+        pomoc:
+          - "Šta bogat grad može da uradi da dobije zemlju?"
+          - "Prodavci su srpski vladari i vlastela."
+          - "Iz lekcije: bogatstvo → kupovina zemlje → širenje poseda."
+        objasnjenje: "Trgovina donosi novac, a novac zemlju."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Gradske vlasti su kupovale zemlju, pa se posed proširio na Pelješac i susedna ostrva."
+
+      - id: l08-pos-objasni-razvoj
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [dubrovnik, epidaurus, trgovina]
+        pitanje: "Kako je Dubrovnik od malog mesta postao bogat grad?"
+        uzor: "Dubrovnik su u VII veku podigle izbeglice iz Epidaurusa, pa je to bilo malo mesto pod Vizantijom. Od XII veka grad se bogatio trgovinom sa zaleđem i Mediteranom. Novcem je kupovao zemlju i širio posed."
+        ideje:
+          - "Počeo je kao malo mesto izbeglica."
+          - "Bogatio se trgovinom sa zaleđem i Mediteranom."
+          - "Novcem je kupovao zemlju."
+        objasnjenje: "Ključ razvoja Dubrovnika je trgovina, a ne osvajanja."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Postanak i razvoj Dubrovnika"
+          tekst: "Malo mesto pod Vizantijom jača zahvaljujući privredi i trgovini."
+
+  # ==========================================================================
+  - naslov: "Društveno i državno uređenje"
+    zadaci:
+      - id: l08-ure-izbor-vlast
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [vlastela, dubrovnik]
+        pitanje: "Ko je držao svu vlast u Dubrovniku?"
+        odgovori:
+          - {tekst: "Vlastela", tacan: true}
+          - {tekst: "Pučani", tacan: false, zasto: "Pučani su slobodni građani, ali bez učešća u vlasti."}
+          - {tekst: "Srpski vladar", tacan: false, zasto: "Srpski vladari su izdavali dozvole i povelje, a gradom je vladala vlastela."}
+          - {tekst: "Vizantijski car", tacan: false, zasto: "Vizantija je upravljala gradom samo na početku; u razvijenom gradu vlada vlastela."}
+        pomoc:
+          - "To je plemstvo grada."
+          - "Oni se ne mešaju sa ostalim stanovništvom."
+          - "Iz lekcije: vlastela je vladajući sloj, sva vlast je u njenim rukama."
+        objasnjenje: "Dubrovnik je grad-država kojim vlada plemstvo, vlastela."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Vlastela je vladajući sloj i sva vlast je u njenim rukama."
+          slika: 08-dubrovnik-u-srednjem-veku/02-dubrovnik-u-srednjem-veku.jpg
+
+      - id: l08-ure-izbor-veliko-vece
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [veliko-vece, vlastela]
+        pitanje: "Kako se zvala skupština plemića koja je donosila zakone?"
+        odgovori:
+          - {tekst: "Veliko veće", tacan: true}
+          - {tekst: "Dubrovački arhiv", tacan: false, zasto: "Arhiv je mesto gde se čuvaju dokumenti, a ne skupština."}
+          - {tekst: "Crkva bosanska", tacan: false, zasto: "To je verska organizacija bogumila u Bosni."}
+          - {tekst: "Mletačka republika", tacan: false, zasto: "To je druga država, sa sličnim uređenjem."}
+        pomoc:
+          - "U nazivu su reči veliko i veće."
+          - "Ta skupština bira i sve državne organe."
+          - "Iz lekcije: plemići preko Velikog veća donose zakone."
+        objasnjenje: "Veliko veće je skupština vlastele koja donosi zakone i bira sve državne organe."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Plemići preko Velikog veća donose zakone i biraju sve državne organe."
+
+      - id: l08-ure-izbor-organi
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [senat, malo-vece, knez, veliko-vece]
+        pitanje: "Koji su organi imali važnu ulogu u upravljanju gradom? (više tačnih)"
+        odgovori:
+          - {tekst: "Senat", tacan: true}
+          - {tekst: "Malo veće", tacan: true}
+          - {tekst: "Knez", tacan: true}
+          - {tekst: "Patrijarh", tacan: false, zasto: "Lekcija navodi svetovne organe: Senat, Malo veće i kneza."}
+          - {tekst: "Skupština pučana", tacan: false, zasto: "Pučani nemaju učešće u vlasti, pa nemaju ni skupštinu koja upravlja."}
+        pomoc:
+          - "Jedan od organa je jedna osoba."
+          - "Pored Velikog veća postoji i manje veće."
+          - "Iz lekcije: u upravljanju važnu ulogu imaju Senat, Malo veće i knez."
+        objasnjenje: "Uz Veliko veće, upravu vode Senat, Malo veće i knez."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "U upravljanju gradom važnu ulogu imaju Senat, Malo veće i knez."
+
+      - id: l08-ure-izbor-gospodari
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [mletacka-republika, ugarska, dubrovnik]
+        pitanje: "Pod čijom je formalnom vlašću Dubrovnik bio, tim redom?"
+        odgovori:
+          - {tekst: "Prvo mletačkom, zatim ugarskom", tacan: true}
+          - {tekst: "Prvo ugarskom, zatim mletačkom", tacan: false, zasto: "Red je obrnut: prvo Mlečani, pa Ugarska."}
+          - {tekst: "Prvo bosanskom, zatim srpskom", tacan: false, zasto: "Bosna i Srbija su trgovački partneri, a ne gospodari grada."}
+          - {tekst: "Samo turskom", tacan: false, zasto: "Lekcija navodi mletačku, pa ugarsku formalnu vlast."}
+        pomoc:
+          - "Prvi gospodar je pomorska republika iz Italije."
+          - "Drugi je sila severno od Bosne."
+          - "Iz lekcije: formalno najpre pod mletačkom, zatim pod ugarskom vlašću."
+        objasnjenje: "Gospodari su se menjali, ali je grad i tada istupao kao potpuno nezavisna država."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Formalno je grad bio najpre pod mletačkom, zatim pod ugarskom vlašću."
+
+      - id: l08-ure-tn-izuzetak
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [grad-drzava, dubrovnik]
+        tvrdnja: "Grad-država Dubrovnik bio je izuzetak na Balkanskom poluostrvu."
+        tacno: true
+        pomoc:
+          - "Da li su ostale balkanske države bile gradovi?"
+          - "Iz lekcije: Dubrovnik je bio izuzetak na Balkanu."
+        objasnjenje: "Tačno. Dubrovnik je grad koji je ujedno i država, a to ga je izdvajalo na Balkanu."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Uvod"
+          tekst: "Grad-država Dubrovnik bio je izuzetak na Balkanskom poluostrvu."
+
+      - id: l08-ure-tn-pucani-vlast
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [pucani, veliko-vece]
+        tvrdnja: "Pučani su u Velikom veću donosili zakone zajedno sa vlastelom."
+        tacno: false
+        ispravke:
+          - {tekst: "Veliko veće je skupština plemića, a pučani nemaju učešće u vlasti.", tacan: true}
+          - {tekst: "Pučani su sami vodili Veliko veće, bez plemića.", tacan: false, zasto: "Veliko veće je upravo skupština plemića."}
+          - {tekst: "Pučani nisu bili slobodni građani.", tacan: false, zasto: "Pučani su bili slobodni, ali bez učešća u vlasti."}
+        pomoc:
+          - "Čija je skupština Veliko veće?"
+          - "Pučani jesu slobodni, ali šta im nedostaje?"
+          - "Iz lekcije: vlast je kod vlastele; pučani ne učestvuju u vlasti."
+        objasnjenje: "Netačno. Sloboda građana u Dubrovniku nije značila i pravo na vlast."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Plemići preko Velikog veća donose zakone, a pučani su bez učešća u vlasti."
+
+      - id: l08-ure-tn-mesanje
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [vlastela]
+        tvrdnja: "Članovi dubrovačke vlastele se nisu mešali sa ostalim stanovništvom."
+        tacno: true
+        pomoc:
+          - "Šta to znači za plemstvo: da li je otvoreno ili zatvoreno?"
+          - "Iz lekcije: njeni članovi se ne mešaju sa ostalim stanovništvom."
+        objasnjenje: "Tačno. Vlastela je bila zatvoren sloj koji je čuvao vlast za sebe."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Članovi vlastele se ne mešaju sa ostalim stanovništvom."
+
+      - id: l08-ure-dopuni-organi
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [vlastela, veliko-vece, pucani]
+        pitanje: "Dopuni rečenice o vlasti u gradu."
+        tekst: "Vlast je u rukama {{vlastele}}, koja preko {{Velikog veća}} donosi zakone. {{Pučani}} su slobodni, ali bez učešća u vlasti."
+        ponudjene: [vlastele, Velikog veća, Pučani, Arhiva, Turci]
+        pomoc:
+          - "Arhiv čuva dokumente, a ne donosi zakone."
+          - "Jedna grupa je plemstvo, a druga građanstvo."
+          - "Iz lekcije: vlastela, Veliko veće, pučani."
+        objasnjenje: "Društvo Dubrovnika ima dva sloja građana: vlastelu sa vlašću i pučane bez nje."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Vlastela preko Velikog veća donosi zakone, a pučani nemaju učešća u vlasti."
+
+      - id: l08-ure-dopuni-uzor-tesko
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [grad-drzava, mletacka-republika, senat, malo-vece, knez]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Dubrovnik je bio {{grad-država|grad država}}, a slično uređenje imala je {{Mletačka republika|Venecija}}. Uz Veliko veće gradom upravljaju i {{Senat}}, {{Malo veće}} i {{knez}}."
+        pomoc:
+          - "Koji je pojam za grad koji je ujedno i država?"
+          - "Slično uređenje je imala velika pomorska republika."
+          - "Iz lekcije: grad-država; Mletačka republika; Senat, Malo veće, knez."
+        objasnjenje: "Dubrovnik podseća na Mletačku republiku: i tamo vlada plemstvo preko skupština."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Sličan model imala je Mletačka republika; važnu ulogu imaju Senat, Malo veće i knez."
+
+      - id: l08-ure-povezi-organi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [veliko-vece, pucani, vlastela, mletacka-republika]
+        pitanje: "Poveži pojam sa njegovom ulogom u gradu."
+        parovi:
+          - ["Vlastela", "Vladajući sloj koji drži svu vlast"]
+          - ["Veliko veće", "Skupština plemića koja donosi zakone"]
+          - ["Pučani", "Slobodni građani bez učešća u vlasti"]
+          - ["Mletačka republika", "Država sa sličnim uređenjem"]
+        pomoc:
+          - "Dve grupe ljudi, jedna skupština, jedna država."
+          - "Skupština je delo plemića."
+          - "Iz lekcije: vlastela vlada preko Velikog veća; pučani su bez vlasti."
+        objasnjenje: "Ovi pojmovi čine sliku uređenja: ko vlada, gde se odlučuje, ko je bez vlasti i ko je sličan."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Lekcija opisuje vlastelu, Veliko veće, pučane i sličnost sa Mletačkom republikom."
+
+      - id: l08-ure-povezi-tesko
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [dubrovnik, vlastela, ugarska, stefan-nemanjic]
+        pitanje: "Poveži pojavu sa onim što ona otkriva o Dubrovniku."
+        parovi:
+          - ["Vlast samo kod vlastele", "Uređenje nije bilo vlast svih građana"]
+          - ["Formalna vlast Ugarske", "Nezavisnost u stvarnosti"]
+          - ["Povelje sa srpskim vladarima", "Odnos sa susedom kao samostalna strana"]
+          - ["Vlastela se ne meša sa drugima", "Zatvoren vladajući sloj"]
+        pomoc:
+          - "Svaki par traži značenje činjenice."
+          - "Grad bez vlastite spoljne politike ne bi sklapao povelje."
+          - "Iz lekcije: sva vlast kod vlastele; formalni gospodari; povelje srpskih vladara."
+        objasnjenje: "Dubrovnik je bio samostalan prema spolja, ali prema sopstvenim građanima nije bio jednak za sve."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Vlast drži vlastela, a grad istupa kao potpuno nezavisna država."
+
+      - id: l08-ure-zakljuci-grad-drzava
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [grad-drzava, dubrovnik]
+        pitanje: "Zašto Dubrovnik zovemo grad-država?"
+        odgovori:
+          - {tekst: "Grad sa bliskim posedom ima sopstvenu vlast i ponaša se kao država", tacan: true}
+          - {tekst: "Bio je glavni grad Srbije", tacan: false, zasto: "Dubrovnik nije deo Srbije nego zaseban grad-država."}
+          - {tekst: "Bio je najveća država na Balkanu", tacan: false, zasto: "Posed je bio mali; poseban je po uređenju, a ne po veličini."}
+          - {tekst: "Svi građani su bili državni službenici", tacan: false, zasto: "Vlast je kod vlastele, a pučani ne učestvuju u njoj."}
+        pomoc:
+          - "Korak 1: Ko donosi zakone u gradu?"
+          - "Korak 2: Da li grad zavisi od nekog drugog?"
+          - "Iz lekcije: grad-država sa sopstvenom vlašću."
+        objasnjenje: "U gradu-državi jedan grad sa okolinom čini čitavu državu."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Dubrovnik je bio poseban i kao grad-država i po uređenju države i društva."
+          slika: 08-dubrovnik-u-srednjem-veku/02-dubrovnik-u-srednjem-veku.jpg
+
+      - id: l08-ure-zakljuci-pucani
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [pucani, vlastela]
+        pitanje: "Pučanin je bogat trgovac. Može li zbog toga da glasa u Velikom veću?"
+        odgovori:
+          - {tekst: "Ne može, jer Veliko veće čine plemići, a pučani nemaju učešće u vlasti", tacan: true}
+          - {tekst: "Može, jer je u gradu važilo pravo bogatijeg", tacan: false, zasto: "Lekcija ne govori o tome; vlast zavisi od pripadnosti vlasteli."}
+          - {tekst: "Može, ako ga pozove srpski vladar", tacan: false, zasto: "Srpski vladar nema vlast nad Velikim većem."}
+          - {tekst: "Može, ako kupi zemlju na Pelješcu", tacan: false, zasto: "Zemlju su kupovale gradske vlasti; to ne daje mesto u skupštini plemića."}
+        pomoc:
+          - "Korak 1: Čija je skupština Veliko veće?"
+          - "Korak 2: Da li se vlastela meša sa ostalim stanovništvom?"
+          - "Iz lekcije: sva vlast je kod vlastele; pučani nemaju učešća u vlasti."
+        objasnjenje: "U Dubrovniku vlast zavisi od staleža, a ne samo od bogatstva."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Plemići preko Velikog veća donose zakone; pučani su bez učešća u vlasti."
+
+      - id: l08-ure-zakljuci-formalno
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [ugarska, dubrovnik]
+        pitanje: "Šta bi dokazalo da je Dubrovnik pod Ugarskom ipak bio samostalan?"
+        odgovori:
+          - {tekst: "Da samostalno sklapa sporazume i vodi spoljnu politiku", tacan: true}
+          - {tekst: "Da ima ugarskog namesnika koji odlučuje o svemu", tacan: false, zasto: "To bi pokazalo zavisnost, a grad je istupao nezavisno."}
+          - {tekst: "Da ga ugarski kralj zove svojim gradom", tacan: false, zasto: "To je samo formalna vlast, a pitanje je šta grad stvarno radi."}
+          - {tekst: "Da Ugarska plaća njegove trgovce", tacan: false, zasto: "Trgovci su radili za sebe; to ne govori o samostalnosti."}
+        pomoc:
+          - "Korak 1: Šta radi nezavisna država?"
+          - "Korak 2: Šta kaže deo Zapamtite?"
+          - "Iz lekcije: spoljna politika je u suštini bila nezavisna."
+        objasnjenje: "Samostalnost se vidi po delima: grad je vodio sopstvenu spoljnu politiku."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Zapamtite"
+          tekst: "Formalni gospodari su se menjali, ali je spoljna politika u suštini bila nezavisna."
+
+      - id: l08-ure-zakljuci-republika-tesko
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [dubrovnik, vlastela, pucani, mletacka-republika]
+        pitanje: "Zašto Dubrovnik, iako ga zovu republikom, nije bio država u kojoj svi građani odlučuju?"
+        odgovori:
+          - {tekst: "Jer je o svemu odlučivala vlastela, a pučani su ostajali po strani", tacan: true}
+          - {tekst: "Jer je o svemu odlučivao jedan kralj", tacan: false, zasto: "Dubrovnik nije imao kralja; odlučivala je vlastela preko Velikog veća."}
+          - {tekst: "Jer je o svemu odlučivao papa", tacan: false, zasto: "Papa nije imao vlast u gradu; imala ju je vlastela."}
+          - {tekst: "Jer niko nije bio slobodan", tacan: false, zasto: "Pučani su bili slobodni građani, ali bez vlasti."}
+        pomoc:
+          - "Korak 1: Ko su bili slojevi građana?"
+          - "Korak 2: Ko je od njih imao vlast?"
+          - "Iz lekcije: sva vlast je kod vlastele, a pučani nemaju učešća u vlasti."
+        objasnjenje: "Dubrovačka republika je vlast manjine plemića, a ne svih građana."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Sva vlast je u rukama vlastele; pučani su slobodni, ali bez učešća u vlasti."
+
+      - id: l08-ure-lanac-organi-tesko
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [veliko-vece, senat, malo-vece, knez, vlastela]
+        karike:
+          - "Vlastela se ne meša sa ostalim stanovništvom"
+          - "Plemići čine Veliko veće"
+          - "?"
+          - "Vlast u svim organima ostaje u krugu vlastele"
+        praznina: 2
+        odgovori:
+          - {tekst: "Veliko veće bira sve državne organe", tacan: true}
+          - {tekst: "Pučani biraju kneza", tacan: false, zasto: "Pučani nemaju učešće u vlasti; organe bira Veliko veće."}
+          - {tekst: "Ugarski kralj postavlja Senat", tacan: false, zasto: "Ugarska vlast je samo formalna; organe bira Veliko veće."}
+        pomoc:
+          - "Korak 1: Šta sve radi Veliko veće osim donošenja zakona?"
+          - "Korak 2: Ko onda dolazi na ostale funkcije?"
+          - "Iz lekcije: plemići preko Velikog veća biraju sve državne organe."
+        objasnjenje: "Pravo da bira sve organe čuva vlast u rukama jednog sloja."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Plemići preko Velikog veća donose zakone i biraju sve državne organe."
+
+      - id: l08-ure-izvor-veduta
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [dubrovnik, grad-drzava]
+        izvor:
+          autor: "Slika iz udžbenika"
+          naslov: "Dubrovnik u srednjem veku (opis slike)"
+          tekst: "Pogled odozgo na gusto zbijene kuće u pravilnim blokovima, opasane zidinama, uz more i luku, sa kulama i zvonikom i brdima iza grada."
+          napomena: "Odlomak je prepričan; udžbenik, str. 37."
+        pitanje: "Šta nam ova slika pokazuje o Dubrovniku?"
+        odgovori:
+          - {tekst: "Bio je utvrđen primorski grad", tacan: true}
+          - {tekst: "Bio je selo bez kuća", tacan: false, zasto: "Slika pokazuje gusto zbijene kuće, dakle razvijen grad."}
+          - {tekst: "Bio je daleko od mora", tacan: false, zasto: "Grad je uz more i luku."}
+          - {tekst: "Nije imao nikakvu odbranu", tacan: false, zasto: "Grad je opasan zidinama sa kulama."}
+        pomoc:
+          - "Pronađi u opisu more i zidine."
+          - "Šta znači kada je grad opasan zidinama?"
+          - "Iz lekcije: slika pokazuje Dubrovnik kao utvrđen primorski grad-državu."
+        objasnjenje: "Zidine čuvaju bogatstvo grada, a luka mu daje izlaz na more."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Slika prikazuje grad opasan zidinama, uz more i luku."
+          slika: 08-dubrovnik-u-srednjem-veku/02-dubrovnik-u-srednjem-veku.jpg
+
+      - id: l08-ure-uporedi-vlastela-pucani
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [vlastela, pucani, veliko-vece]
+        a: "Vlastela"
+        b: "Pučani"
+        pitanje: "Na koga se odnosi tvrdnja: vlastelu, pučane, oba ili nijednog?"
+        tvrdnje:
+          - {tekst: "Donose zakone preko svoje skupštine.", odgovor: a, zasto: "To je Veliko veće, skupština plemića."}
+          - {tekst: "Slobodni su građani bez učešća u vlasti.", odgovor: b, zasto: "Tako lekcija opisuje pučane."}
+          - {tekst: "Čine građanstvo Dubrovnika.", odgovor: oba, zasto: "Pored plemstva, građanstvo čine i pučani."}
+          - {tekst: "Ne mešaju se sa ostalim stanovništvom.", odgovor: a, zasto: "To važi za vlastelu."}
+          - {tekst: "Biraju srpskog vladara.", odgovor: nijedan, zasto: "Srpski vladari nisu izbor Dubrovčana; srpska država je sused."}
+        pomoc:
+          - "Ko ima vlast, a ko je nema?"
+          - "Jedna tvrdnja važi za oba sloja."
+          - "Iz lekcije: vlastela vlada, pučani su slobodni, ali bez vlasti."
+        objasnjenje: "Oba sloja su građani, ali je samo vlastela imala vlast."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Vlastela drži svu vlast, a pučani su slobodni građani bez učešća u vlasti."
+
+      - id: l08-ure-uporedi-bosna-tesko
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [dubrovnik, bosna, vlastela, ugarska]
+        a: "Dubrovnik"
+        b: "Bosna"
+        pitanje: "Na koga se odnosi tvrdnja: Dubrovnik, Bosnu, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Formalno je priznavao vlast Ugarske, a stvarno je bio samostalan.", odgovor: oba, zasto: "Bosna u XIII veku i Dubrovnik pod Ugarskom imaju formalnu, a ne stvarnu zavisnost."}
+          - {tekst: "Vlastela ima veliku moć u državi.", odgovor: oba, zasto: "U Bosni vlastela bira vladara, a u Dubrovniku drži svu vlast."}
+          - {tekst: "Ima skupštinu plemića koja donosi zakone.", odgovor: a, zasto: "Veliko veće je dubrovačko."}
+          - {tekst: "Ima vladarsku dinastiju Kotromanića.", odgovor: b, zasto: "Kotromanići su bosanska dinastija."}
+          - {tekst: "Stvorio je sopstvenu versku organizaciju bogumila.", odgovor: b, zasto: "Crkva bosanska nastaje u Bosni."}
+          - {tekst: "Bio je grad-država.", odgovor: a, zasto: "To je Dubrovnik."}
+        pomoc:
+          - "Seti se šta si učio o Bosni u prošloj lekciji."
+          - "Formalna vlast je sličnost između njih."
+          - "Iz lekcije: oba su formalno pod Ugarskom; uređenje im je različito."
+        objasnjenje: "Sličnost je u formalnoj zavisnosti i moći vlastele, a razlika u obliku države."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Dubrovnik je formalno pod Ugarskom, ali istupa kao potpuno nezavisna država."
+
+      - id: l08-ure-ko-sam-pucanin
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [pucani, vlastela]
+        tragovi:
+          - "Slobodan sam građanin Dubrovnika."
+          - "Nemam mesto u skupštini koja donosi zakone."
+          - "Nisam plemić, ali živim u gradu kojim plemići vladaju."
+        odgovori:
+          - {tekst: "Pučanin", tacan: true}
+          - {tekst: "Član vlastele", tacan: false, zasto: "Vlastela sedi u Velikom veću i drži vlast."}
+          - {tekst: "Dubrovački knez", tacan: false, zasto: "Knez učestvuje u upravljanju gradom."}
+          - {tekst: "Senator", tacan: false, zasto: "Senat ima važnu ulogu u upravljanju, a pučani nemaju učešće u vlasti."}
+        objasnjenje: "Pučanin je slobodan građanin, ali bez ikakvog udela u vlasti."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Pučani su slobodni građani bez učešća u vlasti."
+
+      - id: l08-ure-objasni-uredjenje
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [vlastela, veliko-vece, pucani, grad-drzava]
+        pitanje: "Objasni ko je i kako vladao Dubrovnikom."
+        uzor: "Dubrovnikom je vladala vlastela, zatvoren sloj plemića. Preko svoje skupštine, Velikog veća, donosila je zakone i birala sve državne organe, a važnu ulogu imali su Senat, Malo veće i knez. Pučani su bili slobodni, ali bez učešća u vlasti."
+        ideje:
+          - "Vlada vlastela."
+          - "Veliko veće donosi zakone i bira organe."
+          - "Važni su i Senat, Malo veće i knez."
+          - "Pučani su bez vlasti."
+        objasnjenje: "Dubrovnik je grad-država sa vlašću plemstva, slično Mletačkoj republici."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Društveno i državno uređenje"
+          tekst: "Sva vlast je u rukama vlastele, koja preko Velikog veća donosi zakone i bira organe."
+
+      - id: l08-ure-objasni-nezavisnost
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [dubrovnik, mletacka-republika, ugarska]
+        pitanje: "Kako je Dubrovnik mogao da bude pod tuđom vlašću, a da se ipak ponaša kao nezavisna država?"
+        uzor: "Vlast Mlečana, a zatim Ugarske bila je samo formalna. Gradom su i dalje upravljali njegovi organi, a spoljna politika je u suštini bila nezavisna. Zato su i gospodari mogli da se menjaju, a da grad ostane samostalan."
+        ideje:
+          - "Tuđa vlast je bila formalna."
+          - "Grad ima sopstvene organe vlasti."
+          - "Spoljna politika je nezavisna."
+        objasnjenje: "Uporedi sa Bosnom u XIII veku: i tamo je priznanje Ugarske bilo samo formalno."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Zapamtite"
+          tekst: "Formalni gospodari su se menjali, ali je spoljna politika u suštini bila nezavisna."
+
+  # ==========================================================================
+  - naslov: "Uloga Dubrovnika u privrednom i kulturnom životu Južnih Slovena"
+    zadaci:
+      - id: l08-ulo-izbor-so
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [trgovina, srbija]
+        pitanje: "Šta su Dubrovčani prvenstveno donosili u Srbiju?"
+        odgovori:
+          - {tekst: "So", tacan: true}
+          - {tekst: "Stoku", tacan: false, zasto: "Stoku su, naprotiv, izvozili iz Srbije."}
+          - {tekst: "Kožu", tacan: false, zasto: "Koža je stočni proizvod koji se izvozi iz Srbije."}
+          - {tekst: "Rude", tacan: false, zasto: "Rudnici su u Srbiji i Bosni, a Dubrovčani su ih uzimali u zakup; donosili su pre svega so."}
+        pomoc:
+          - "To je namirnica koja dolazi sa mora."
+          - "Svaka kuća je koristi u hrani."
+          - "Iz lekcije: u Srbiju su donosili prvenstveno so."
+        objasnjenje: "So je glavna roba koju su Dubrovčani donosili u Srbiju."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Uloga Dubrovnika u privrednom i kulturnom životu Južnih Slovena"
+          tekst: "U Srbiju su donosili prvenstveno so, ali i vina i luksuznu robu."
+
+      - id: l08-ulo-izbor-luksuz
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [trgovina, srbija]
+        pitanje: "Šta je spadalo u luksuznu robu koju su donosili u Srbiju? (više tačnih)"
+        odgovori:
+          - {tekst: "Ukrašeno oružje", tacan: true}
+          - {tekst: "Fine tkanine", tacan: true}
+          - {tekst: "Zlatan i srebrn nakit", tacan: true}
+          - {tekst: "Meso", tacan: false, zasto: "Meso je stočni proizvod koji se izvozi iz Srbije."}
+          - {tekst: "Koža", tacan: false, zasto: "Kožu su Dubrovčani izvozili iz Srbije."}
+        pomoc:
+          - "Luksuz je za bogate kupce."
+          - "Izbaci ono što potiče od stoke."
+          - "Iz lekcije: ukrašeno oružje, fine tkanine, zlatan i srebrn nakit."
+        objasnjenje: "Luksuzna roba dolazi u Srbiju, a iz nje se odvoze stočni proizvodi."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Uloga Dubrovnika u privrednom i kulturnom životu Južnih Slovena"
+          tekst: "Luksuzna roba: ukrašeno oružje, fine tkanine, zlatan i srebrn nakit."
+
+      - id: l08-ulo-izbor-spona-tesko
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [dubrovnik, srbija, bosna, mediteran]
+        pitanje: "Koja je najtačnija ocena uloge Dubrovnika za Srbiju i Bosnu?"
+        odgovori:
+          - {tekst: "Bio je jedna od glavnih veza sa mediteranskim zemljama i zapadnom kulturom", tacan: true}
+          - {tekst: "Bio je njihov vojni gospodar", tacan: false, zasto: "Trgovci traže dozvolu vladara, pa je odnos privredni, a ne vojni."}
+          - {tekst: "Bio je jedini njihov sused", tacan: false, zasto: "Imali su i druge susede, kao Ugarsku i Vizantiju."}
+          - {tekst: "Odsecao ih je od mora i zapada", tacan: false, zasto: "Dubrovnik ih je, naprotiv, povezivao sa morem i Zapadom."}
+        pomoc:
+          - "Razmisli o rečima veza i spona."
+          - "Šta prolazi kroz grad osim robe?"
+          - "Iz lekcije: Dubrovnik je jedna od glavnih veza sa Mediteranom i zapadnom kulturom."
+        objasnjenje: "Kroz Dubrovnik su u Srbiju i Bosnu stizali i roba i uticaji Zapada."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Uloga Dubrovnika u privrednom i kulturnom životu Južnih Slovena"
+          tekst: "Dubrovnik je bio jedna od glavnih veza Srbije i Bosne sa Mediteranom i zapadnom kulturom."
+
+      - id: l08-ulo-tn-dozvola
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [trgovina, srbija, bosna]
+        tvrdnja: "Trgovci su dobijali dozvolu srpskih i bosanskih vladara, pa tek onda otvarali poslove."
+        tacno: true
+        pomoc:
+          - "Trgovac ulazi u tuđu državu."
+          - "Iz lekcije: prvo dozvola, pa onda poslovi."
+        objasnjenje: "Tačno. Dozvola vladara bila je uslov za trgovinu u Srbiji i Bosni."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Uloga Dubrovnika u privrednom i kulturnom životu Južnih Slovena"
+          tekst: "Trgovci su dobijali dozvolu srpskih i bosanskih vladara, pa tek onda dolazili i otvarali poslove."
+
+      - id: l08-ulo-tn-arhiv
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [dubrovacki-arhiv, srbija]
+        tvrdnja: "Dokumenti iz Dubrovačkog arhiva vredni su samo za istoriju Dubrovnika, a ne i za srpsku državu."
+        tacno: false
+        ispravke:
+          - {tekst: "Ubrajaju se u najvrednije dokumente o srpskoj srednjovekovnoj državi.", tacan: true}
+          - {tekst: "Arhiv je izgoreo, pa dokumenti nisu sačuvani.", tacan: false, zasto: "Poslovne knjige i pisma su sačuvani do danas."}
+          - {tekst: "U arhivu su samo pesme i priče.", tacan: false, zasto: "U arhivu su poslovne knjige i pisma trgovaca."}
+        pomoc:
+          - "Sa kim su Dubrovčani poslovali?"
+          - "Šta o tome mogu da pokažu njihove knjige?"
+          - "Iz lekcije: građa spada u najvrednije dokumente o srpskoj srednjovekovnoj državi."
+        objasnjenje: "Netačno. Trgovci su poslovali sa državom Nemanjića, pa njihovi zapisi svedoče i o njoj."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Dubrovački arhiv"
+          tekst: "Građa u Dubrovačkom arhivu ubraja se u najvrednije dokumente o srpskoj srednjovekovnoj državi."
+
+      - id: l08-ulo-tn-povelje-tesko
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [stefan-nemanjic, trgovina, dubrovnik]
+        tvrdnja: "Dubrovački trgovci su u srpskoj državi radili bez ikakvih pravila."
+        tacno: false
+        ispravke:
+          - {tekst: "Pravila njihovog poslovanja određivale su povelje srpskih vladara.", tacan: true}
+          - {tekst: "Pravila im je određivao papa.", tacan: false, zasto: "Lekcija navodi povelje srpskih vladara, a ne papu."}
+          - {tekst: "Pravila je određivao Senat Dubrovnika za celu Srbiju.", tacan: false, zasto: "Senat upravlja gradom; pravila u Srbiji određuju srpski vladari poveljama."}
+        pomoc:
+          - "Pročitaj šta sve piše u povelji."
+          - "Ko izdaje taj dokument?"
+          - "Iz lekcije: pravila su određivale povelje srpskih vladara."
+        objasnjenje: "Netačno. Povelje su davale trgovcima pravnu sigurnost: bezbedan put, slobodnu trgovinu i sud."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Zapamtite"
+          tekst: "Trgovci su poslovali po celoj srpskoj kraljevini, a pravila su određivale povelje srpskih vladara."
+
+      - id: l08-ulo-dopuni-roba
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [trgovina, srbija]
+        pitanje: "Dopuni rečenicu o razmeni robe."
+        tekst: "U Srbiju su Dubrovčani donosili {{so}} i {{vina}}, a odvozili živu {{stoku}}."
+        ponudjene: [so, vina, stoku, rude, knjige]
+        pomoc:
+          - "Dve robe idu u Srbiju, a jedna iz nje."
+          - "Iz unutrašnjosti dolaze proizvodi od životinja."
+          - "Iz lekcije: so i vina u Srbiju, stoka iz nje."
+        objasnjenje: "Razmena povezuje primorje i unutrašnjost."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Uloga Dubrovnika u privrednom i kulturnom životu Južnih Slovena"
+          tekst: "U Srbiju su donosili so i vina, a izvozili živu stoku i stočne proizvode."
+
+      - id: l08-ulo-dopuni-povelja
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [stefan-nemanjic, zan-dandolo, vlah]
+        pitanje: "Dopuni rečenice o povelji."
+        tekst: "Povelju izdaje {{Stefan Nemanjić}}, a zakletvu polaže dubrovačkom knezu {{Žanu Dandolu}}. Srbin ne sme goniti {{Vlaha}} bez suda."
+        ponudjene: [Stefan Nemanjić, Žanu Dandolu, Vlaha, Tvrtko I, Pavlu Radenoviću, Turčina]
+        pomoc:
+          - "Tvrtko I je bosanski vladar."
+          - "Vlah u povelji znači Dubrovčanin."
+          - "Iz lekcije: Stefan Nemanjić, knez Žan Dandolo, Vlah (Dubrovčanin)."
+        objasnjenje: "Povelja povezuje srpskog vladara, dubrovačkog kneza i pravo Dubrovčana na sud."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Iz istorijskih izvora: Povelja o prijateljstvu i trgovini"
+          tekst: "Stefan Nemanjić se kune knezu Žanu Dandolu; Srbin ne sme goniti Vlaha, to jest Dubrovčanina, bez suda."
+
+      - id: l08-ulo-povezi-roba
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [trgovina, srbija]
+        pitanje: "Poveži robu sa smerom trgovine."
+        parovi:
+          - ["So", "Prvenstveno se donosi u Srbiju"]
+          - ["Zlatan nakit", "Luksuzna roba za Srbiju"]
+          - ["Živa stoka", "Izvozi se iz Srbije"]
+          - ["Meso i koža", "Stočni proizvodi iz Srbije"]
+        pomoc:
+          - "Šta dolazi sa mora, a šta iz stočarskih krajeva?"
+          - "Luksuz je namenjen kupcima u Srbiji."
+          - "Iz lekcije: so, vina, luksuz idu u Srbiju; stoka, meso i koža iz nje."
+        objasnjenje: "Razmena je dvosmerna: primorje daje so i luksuz, a unutrašnjost stoku."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Uloga Dubrovnika u privrednom i kulturnom životu Južnih Slovena"
+          tekst: "U Srbiju idu so, vina i luksuz, a iz nje stoka, meso i koža."
+
+      - id: l08-ulo-zakljuci-arhiv
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [dubrovacki-arhiv, srbija]
+        pitanje: "Zašto su trgovačka pisma važan izvor za srpsku državu, iako nisu pisana za istoričare?"
+        odgovori:
+          - {tekst: "Jer beleže stvarne poslove i prilike u državi Nemanjića", tacan: true}
+          - {tekst: "Jer su ih pisali srpski vladari lično", tacan: false, zasto: "Pisali su ih dubrovački trgovci koji su poslovali sa Srbijom."}
+          - {tekst: "Jer govore samo o Mletačkoj republici", tacan: false, zasto: "Govore o poslovanju sa državom Nemanjića."}
+          - {tekst: "Jer su to verski tekstovi", tacan: false, zasto: "To su poslovne knjige i pisma, a ne verski tekstovi."}
+        pomoc:
+          - "Korak 1: Čime su se trgovci bavili u Srbiji?"
+          - "Korak 2: Šta takvi zapisi otkrivaju o zemlji?"
+          - "Iz lekcije: mnogi Dubrovčani su poslovali sa državom Nemanjića, a građa je sačuvana."
+        objasnjenje: "Svakodnevni zapisi otkrivaju ono što vladarski dokumenti često ne kažu."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Dubrovački arhiv"
+          tekst: "Poslovne knjige i pisma ubrajaju se u najvrednije dokumente o srpskoj srednjovekovnoj državi."
+
+      - id: l08-ulo-zakljuci-kultura-tesko
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [dubrovnik, trgovina, srbija, mediteran]
+        pitanje: "Zašto je trgovina donosila Srbiji više od same robe?"
+        odgovori:
+          - {tekst: "Jer su uz robu stizali i uticaji mediteranskih zemalja i zapadne kulture", tacan: true}
+          - {tekst: "Jer je trgovina zamenila vojsku", tacan: false, zasto: "Lekcija ne povezuje trgovinu sa vojskom."}
+          - {tekst: "Jer je uz robu stizala vlast Dubrovnika", tacan: false, zasto: "Dubrovnik nije imao vlast nad Srbijom; trgovci su tražili dozvolu."}
+          - {tekst: "Jer su se srpski vladari selili u Dubrovnik", tacan: false, zasto: "Toga u lekciji nema."}
+        pomoc:
+          - "Korak 1: Šta je sve dolazilo sa luksuznom robom?"
+          - "Korak 2: Sa kim je Dubrovnik povezivao Srbiju?"
+          - "Iz lekcije: razmena robe povezuje Srbiju i Bosnu sa Mediteranom i zapadnom kulturom."
+        objasnjenje: "Luksuzni predmeti i ljudi koji ih donose nose i ukus i navike drugih sredina."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Uloga Dubrovnika u privrednom i kulturnom životu Južnih Slovena"
+          tekst: "Dubrovnik je veza Srbije i Bosne sa Mediteranom i zapadnom kulturom."
+
+      - id: l08-ulo-poredjaj-trgovac-tesko
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [trgovina, dubrovacki-arhiv, srbija]
+        pitanje: "Poređaj put od trgovca do izvora koji danas čitamo."
+        stavke:
+          - {tekst: "Srpski vladar izdaje dozvolu i povelju"}
+          - {tekst: "Trgovac dolazi i otvara posao"}
+          - {tekst: "Trgovac vodi poslovne knjige i piše pisma"}
+          - {tekst: "Knjige i pisma ostaju u Dubrovačkom arhivu"}
+          - {tekst: "Istoričari iz njih danas uče o srpskoj državi"}
+        pomoc:
+          - "Trgovac ne dolazi bez dozvole."
+          - "Knjige nastaju dok posao traje."
+          - "Iz lekcije: dozvola → poslovi → knjige i pisma → arhiv."
+        objasnjenje: "Niz pokazuje kako svakodnevni posao postaje istorijski izvor."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Dubrovački arhiv"
+          tekst: "Poslovne knjige i pisma trgovaca sačuvani su do danas u Dubrovačkom arhivu."
+
+      - id: l08-ulo-lanac-arhiv
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [dubrovacki-arhiv, trgovina]
+        karike:
+          - "Dubrovčani trguju sa državom Nemanjića"
+          - "?"
+          - "Dokumenti su danas dragocen izvor"
+        praznina: 1
+        odgovori:
+          - {tekst: "Nastaju poslovne knjige i pisma", tacan: true}
+          - {tekst: "Nastaje Veliko veće", tacan: false, zasto: "Veliko veće je skupština plemića, a ne dokumenti trgovaca."}
+          - {tekst: "Razara se Epidaurus", tacan: false, zasto: "To se desilo u VII veku i nema veze sa trgovinom."}
+        pomoc:
+          - "Šta trgovac zapisuje?"
+          - "Šta se čuva u arhivu?"
+          - "Iz lekcije: poslovne knjige i pisma."
+        objasnjenje: "Trgovina ostavlja pisani trag, a on je danas izvor."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Dubrovački arhiv"
+          tekst: "Mnogi Dubrovčani su poslovali sa državom Nemanjića, a njihove knjige i pisma su sačuvani."
+
+      - id: l08-ulo-lanac-razmena
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [trgovina, mediteran, srbija, bosna]
+        karike:
+          - "Trgovci nose so, vino i luksuz, a odvoze stoku"
+          - "?"
+          - "Srbija i Bosna su povezane sa Mediteranom i zapadnom kulturom"
+        praznina: 1
+        odgovori:
+          - {tekst: "Dubrovnik postaje glavna spona unutrašnjosti i mora", tacan: true}
+          - {tekst: "Srbija ostaje bez ikakvih kontakata sa morem", tacan: false, zasto: "Upravo suprotno: preko Dubrovnika dobija vezu sa morem."}
+          - {tekst: "Bosna osvaja Dubrovnik", tacan: false, zasto: "U lekciji toga nema; Bosna je trgovački partner."}
+        pomoc:
+          - "Šta je Dubrovnik između kopna i mora?"
+          - "Kojom rečju ga lekcija opisuje na kraju?"
+          - "Iz lekcije: Dubrovnik je veza i spona Balkana i Mediterana."
+        objasnjenje: "Stalna razmena čini Dubrovnik mostom između dva sveta."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Zapamtite"
+          tekst: "Dubrovačka republika je veoma važna spona Balkana i mediteranskih zemalja."
+
+      - id: l08-ulo-izvor-zakletva
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [stefan-nemanjic, zan-dandolo, dubrovnik]
+        izvor:
+          autor: "Stefan Nemanjić"
+          naslov: "Povelja o prijateljstvu i trgovini sa Dubrovnikom"
+          tekst: "Vladar se zajedno sa svojom decom zaklinje dubrovačkom knezu Žanu Dandolu i gradskoj opštini da će im biti prijatelj dokle god su iskreni."
+          napomena: "Odlomak je prepričan; udžbenik, str. 37."
+        pitanje: "Kome vladar daje zakletvu?"
+        odgovori:
+          - {tekst: "Dubrovačkom knezu Žanu Dandolu i gradskoj opštini", tacan: true}
+          - {tekst: "Papi Inoćentiju III", tacan: false, zasto: "Papa se javlja u lekciji o Bosni; ovde je reč o Dubrovniku."}
+          - {tekst: "Ugarskom kralju", tacan: false, zasto: "Povelja se obraća Dubrovniku."}
+          - {tekst: "Svojoj deci", tacan: false, zasto: "Deca se zaklinju zajedno s njim, a zakletva je upućena Dubrovniku."}
+        pomoc:
+          - "Pročitaj kome se obraća u prvoj rečenici."
+          - "Povelja je o prijateljstvu sa gradom."
+          - "Iz lekcije: zakletva knezu Žanu Dandolu i gradskoj opštini."
+        objasnjenje: "Zakletva je ugovor o prijateljstvu između srpskog vladara i Dubrovnika."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Iz istorijskih izvora: Povelja o prijateljstvu i trgovini"
+          tekst: "Sa svojom decom polaže zakletvu knezu Žanu Dandolu i gradskoj opštini."
+
+      - id: l08-ulo-izvor-obaveze
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [stefan-nemanjic, trgovina, dubrovnik]
+        izvor:
+          autor: "Stefan Nemanjić"
+          naslov: "Povelja o prijateljstvu i trgovini sa Dubrovnikom"
+          tekst: "Dubrovački ljudi mogu slobodno da putuju s robom, bez straha i nasilja, da slobodno kupuju i prodaju, a plaćaju samo ono što propisuje trgovački zakon."
+          napomena: "Odlomak je prepričan; udžbenik, str. 37."
+        pitanje: "Šta je trgovcu ovim tekstom zagarantovano? (više tačnih)"
+        odgovori:
+          - {tekst: "Bezbedno putovanje s robom", tacan: true}
+          - {tekst: "Slobodna kupovina i prodaja", tacan: true}
+          - {tekst: "Dažbine samo prema zakonu", tacan: true}
+          - {tekst: "Oslobođenje od svih dažbina", tacan: false, zasto: "Trgovci plaćaju ono što propisuje trgovački zakon, pa dažbine ipak postoje."}
+          - {tekst: "Pravo da vodi srpsku vojsku", tacan: false, zasto: "Povelja se tiče trgovine i sigurnosti, a ne vojske."}
+        pomoc:
+          - "Prati glagole u odlomku: putuju, kupuju, prodaju, plaćaju."
+          - "Da li se nešto ipak plaća?"
+          - "Iz lekcije: slobodan put, slobodna trgovina, plaćanje po zakonu."
+        objasnjenje: "Povelja ne ukida dažbine, nego ih čini predvidivim."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Iz istorijskih izvora: Povelja o prijateljstvu i trgovini"
+          tekst: "Dubrovčani slobodno putuju s robom, slobodno kupuju i prodaju, a plaćaju samo ono što propisuje trgovački zakon."
+
+      - id: l08-ulo-izvor-neprijatelj
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [stefan-nemanjic, dubrovnik]
+        izvor:
+          autor: "Stefan Nemanjić"
+          naslov: "Povelja o prijateljstvu i trgovini sa Dubrovnikom"
+          tekst: "Ako neprijatelj Dubrovnika pobegne u vladarevu zemlju i odatle bi činio štetu, vladar će ga izručiti."
+          napomena: "Odlomak je prepričan; udžbenik, str. 37."
+        pitanje: "Zašto je ova odredba bila važna za Dubrovnik?"
+        odgovori:
+          - {tekst: "Srbija nije smela da bude utočište za one koji odatle ugrožavaju grad", tacan: true}
+          - {tekst: "Svi Srbi su time postali podanici Dubrovnika", tacan: false, zasto: "Odredba se tiče izručenja neprijatelja, a ne vlasti nad Srbima."}
+          - {tekst: "Zabranjivala je trgovinu", tacan: false, zasto: "Povelja trgovinu upravo štiti."}
+          - {tekst: "Dubrovnik je time dobio Pelješac", tacan: false, zasto: "Pelješac je stečen kupovinom zemlje, a ne ovom odredbom."}
+        pomoc:
+          - "Šta bi neprijatelj mogao da radi iz susedne zemlje?"
+          - "Kakvu sigurnost grad time dobija?"
+          - "Iz lekcije: neprijatelja koji pobegne izručiće, ako bi odatle činio štetu."
+        objasnjenje: "Odredba čuva bezbednost grada, ne samo trgovine."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Iz istorijskih izvora: Povelja o prijateljstvu i trgovini"
+          tekst: "Neprijatelja Dubrovnika koji pobegne u njegovu zemlju izručiće, ako bi odatle činio štetu."
+
+      - id: l08-ulo-izvor-sud
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [vlah, stefan-nemanjic]
+        izvor:
+          autor: "Stefan Nemanjić"
+          naslov: "Povelja o prijateljstvu i trgovini sa Dubrovnikom"
+          tekst: "Srbin ne sme goniti Vlaha bez suda. Spor između Grada i vladareve zemlje rešavaju sudije po zakonu, a imovina se ne oduzima silom."
+          napomena: "Odlomak je prepričan; udžbenik, str. 37."
+        pitanje: "Ko je u ovom odlomku Vlah?"
+        odgovori:
+          - {tekst: "Dubrovčanin", tacan: true}
+          - {tekst: "Srpski sudija", tacan: false, zasto: "Sudije rešavaju spor, a Vlah je strana koju Srbin ne sme goniti bez suda."}
+          - {tekst: "Bosanski bogumil", tacan: false, zasto: "Bogumili nisu tema povelje; Vlah je ovde Dubrovčanin."}
+          - {tekst: "Ugarski vojnik", tacan: false, zasto: "Povelja uređuje odnos Srbije i Dubrovnika."}
+        pomoc:
+          - "Povelja je između Srbije i Dubrovnika."
+          - "Ko je sa druge strane Srbina u sporu?"
+          - "Iz lekcije: Vlah ovde znači Dubrovčanin."
+        objasnjenje: "U ovoj povelji Vlah znači Dubrovčanin, pa odredba štiti dubrovačke građane."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Iz istorijskih izvora: Povelja o prijateljstvu i trgovini"
+          tekst: "Srbin ne sme goniti Vlaha (ovde: Dubrovčanina) bez suda."
+
+      - id: l08-ulo-izvor-zakletva-tesko
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [stefan-nemanjic, dubrovnik]
+        izvor:
+          autor: "Stefan Nemanjić"
+          naslov: "Povelja o prijateljstvu i trgovini sa Dubrovnikom"
+          tekst: "Vladar se kune Bogom, Bogorodicom, krstom, jevanđeljima, dvanaest apostola, četrdeset mučenika i 318 svetih otaca. Za slučaj da prekrši obećanje, poziva Boga i Bogorodicu da mu sude."
+          napomena: "Odlomak je prepričan; udžbenik, str. 37."
+        pitanje: "Zašto vladar uz povelju daje tako svečanu versku zakletvu?"
+        odgovori:
+          - {tekst: "U srednjem veku je zakletva Bogom bila najjače jemstvo da će se obećanje poštovati", tacan: true}
+          - {tekst: "Zato što je Dubrovnik bio manastir", tacan: false, zasto: "Dubrovnik je grad-država, a ne manastir."}
+          - {tekst: "Zato što povelja govori samo o veri", tacan: false, zasto: "Povelja uređuje prijateljstvo i trgovinu; vera je jemstvo, a ne tema."}
+          - {tekst: "Zato što je vladar hteo da prekrši obećanje", tacan: false, zasto: "Zakletva služi da ojača obećanje, a ne da ga obesmisli."}
+        pomoc:
+          - "Pred kim se vladar obavezuje?"
+          - "Šta se dešava ako prekrši obećanje?"
+          - "Iz lekcije: za slučaj kršenja poziva Boga i Bogorodicu da mu sude."
+        objasnjenje: "Kada nema više sile iznad vladara, jemac je Bog: to obećanje čini teškim za kršenje."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Iz istorijskih izvora: Povelja o prijateljstvu i trgovini"
+          tekst: "Vladar polaže zakletvu i poziva Boga i Bogorodicu da mu sude ako prekrši obećanje."
+
+      - id: l08-ulo-uporedi-uvoz-izvoz
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [trgovina, srbija]
+        a: "Donosi se u Srbiju"
+        b: "Izvozi se iz Srbije"
+        pitanje: "Razvrstaj robu: donosi se u Srbiju, izvozi se iz nje, oba ili nijedno."
+        tvrdnje:
+          - {tekst: "So", odgovor: a, zasto: "So je prva roba koju Dubrovčani donose u Srbiju."}
+          - {tekst: "Kvalitetna vina", odgovor: a, zasto: "Vina se donose u Srbiju."}
+          - {tekst: "Živa stoka", odgovor: b, zasto: "Stoka se izvozi iz Srbije."}
+          - {tekst: "Koža", odgovor: b, zasto: "Koža je stočni proizvod koji se izvozi."}
+          - {tekst: "Ukrašeno oružje", odgovor: a, zasto: "Ukrašeno oružje je luksuzna roba koja se donosi u Srbiju."}
+        pomoc:
+          - "Sa mora dolazi ono što Srbija nema."
+          - "Iz Srbije ide ono što se dobija od stoke."
+          - "Iz lekcije: so, vina, luksuz ↔ stoka, meso, koža."
+        objasnjenje: "Primorje daje so, vino i luksuz, a unutrašnjost stoku i stočne proizvode."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Uloga Dubrovnika u privrednom i kulturnom životu Južnih Slovena"
+          tekst: "U Srbiju idu so, vina i luksuz, a iz nje stoka i stočni proizvodi."
+
+      - id: l08-ulo-ko-sam-stefan
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [stefan-nemanjic, zan-dandolo]
+        tragovi:
+          - "Sa svojom decom sam se zakleo Dubrovčanima."
+          - "Obećao sam im slobodnu trgovinu u svojoj zemlji."
+          - "Povelju je primio knez Žan Dandolo."
+        odgovori:
+          - {tekst: "Stefan Nemanjić", tacan: true}
+          - {tekst: "Žan Dandolo", tacan: false, zasto: "On je primalac zakletve, dubrovački knez."}
+          - {tekst: "Tvrtko I", tacan: false, zasto: "Tvrtko I je vladar Bosne; povelja je delo Stefana Nemanjića."}
+          - {tekst: "Ban Kulin", tacan: false, zasto: "Kulin je bosanski vladar iz prethodne lekcije."}
+        objasnjenje: "To je Stefan Nemanjić, koji povezuje srpsku državu i Dubrovnik poveljom o prijateljstvu i trgovini."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Iz istorijskih izvora: Povelja o prijateljstvu i trgovini"
+          tekst: "Povelja Stefana Nemanjića o prijateljstvu i trgovini sa Dubrovnikom."
+
+      - id: l08-ulo-ko-sam-dandolo
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [zan-dandolo, knez, dubrovnik]
+        tragovi:
+          - "Bio sam na čelu jednog grada-države."
+          - "Uz gradsku opštinu sam primio zakletvu srpskog vladara."
+          - "Bio sam dubrovački knez."
+        odgovori:
+          - {tekst: "Žan Dandolo", tacan: true}
+          - {tekst: "Stefan Nemanjić", tacan: false, zasto: "On daje zakletvu, a ne prima je."}
+          - {tekst: "Inoćentije III", tacan: false, zasto: "On je papa iz lekcije o Bosni."}
+          - {tekst: "Stjepan II Kotromanić", tacan: false, zasto: "On je bosanski ban."}
+        objasnjenje: "To je Žan Dandolo, dubrovački knez iz povelje Stefana Nemanjića."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Iz istorijskih izvora: Povelja o prijateljstvu i trgovini"
+          tekst: "Zakletva je upućena dubrovačkom knezu Žanu Dandolu i gradskoj opštini."
+
+      - id: l08-ulo-objasni-povelja
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [stefan-nemanjic, trgovina, vlah]
+        pitanje: "Šta sve uređuje povelja Stefana Nemanjića upućena Dubrovčanima?"
+        uzor: "Povelja uređuje prijateljstvo Srbije i Dubrovnika i izručenje neprijatelja grada. Trgovcima daje bezbedan put, slobodnu kupovinu i prodaju i plaćanje samo po zakonu. Spore rešavaju sudije, a imovina se ne oduzima silom."
+        ideje:
+          - "Prijateljstvo i izručenje neprijatelja."
+          - "Bezbedan put i slobodna trgovina."
+          - "Dažbine samo po zakonu."
+          - "Sud i zabrana oduzimanja imovine."
+        objasnjenje: "Povelja je pravni temelj rada dubrovačkih trgovaca u Srbiji."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Iz istorijskih izvora: Povelja o prijateljstvu i trgovini"
+          tekst: "Povelja uređuje prijateljstvo, izručenje, bezbednost i slobodu trgovine, dažbine po zakonu i sudsku zaštitu."
+
+      - id: l08-ulo-objasni-arhiv
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [dubrovacki-arhiv, srbija]
+        pitanje: "Kako nam dubrovački trgovci danas pomažu da upoznamo srpsku srednjovekovnu državu?"
+        uzor: "Dubrovčani su poslovali sa državom Nemanjića i vodili poslovne knjige i pisma. Ta građa je sačuvana u Dubrovačkom arhivu. Zato je ona danas među najvrednijim dokumentima o srpskoj državi."
+        ideje:
+          - "Trgovci posluju sa državom Nemanjića."
+          - "Ostavljaju poslovne knjige i pisma."
+          - "Građa je sačuvana u arhivu."
+        objasnjenje: "Istorija se ne uči samo iz vladarskih povelja nego i iz svakodnevnih poslovnih zapisa."
+        iz_udzbenika:
+          strana: 36
+          odeljak: "Dubrovački arhiv"
+          tekst: "Poslovne knjige i pisma Dubrovčana ubrajaju se u najvrednije dokumente o srpskoj srednjovekovnoj državi."
+
+      - id: l08-ulo-objasni-spona
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [dubrovnik, mediteran, srbija, bosna]
+        pitanje: "Zašto je Dubrovnik nazvan sponom Balkana i Mediterana? Objasni na primeru robe i ljudi."
+        uzor: "Trgovci su u Srbiju i Bosnu nosili so, vina i luksuznu robu, a odnosili stoku, meso i kožu. Oni su dobijali dozvole i otvarali poslove u unutrašnjosti. Tako su ove zemlje bile povezane sa Mediteranom i zapadnom kulturom."
+        ideje:
+          - "Dvosmerna razmena robe."
+          - "Trgovci rade u unutrašnjosti, uz dozvole."
+          - "Veza sa Mediteranom i zapadnom kulturom."
+        objasnjenje: "Spona je ono što spaja: Dubrovnik povezuje kopno i more, Balkan i Zapad."
+        iz_udzbenika:
+          strana: 37
+          odeljak: "Zapamtite"
+          tekst: "Dubrovačka republika je veoma važna spona Balkana i mediteranskih zemalja."

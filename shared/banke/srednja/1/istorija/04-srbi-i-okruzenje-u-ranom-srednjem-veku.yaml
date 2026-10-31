@@ -1,0 +1,2351 @@
+# Banka pitanja: Srbi i njihovo okruženje u ranom srednjem veku (istorija, 1. razred srednje škole, str. 23–25). Sopstvenim rečima, po belešci lekcije.
+lekcija: 4
+naslov: "Srbi i njihovo okruženje u ranom srednjem veku"
+pojmovi:
+  doseljavanje-srba: doseljavanje Srba
+  plemenska-organizacija: plemenska organizacija
+  pradomovina: pradomovina
+  plemenski-savezi: plemenski savezi
+  sklavinije: sklavinije
+  hristijanizacija-srba: hristijanizacija Srba
+  vizantija: Vizantija
+  konstantin-vii-porfirogenit: Konstantin VII Porfirogenit
+  spis-o-narodima: Spis o narodima
+  car-iraklije: car Iraklije
+  avari: Avari
+  paganija: Paganija
+  travunija: Travunija
+  zahumlje: Zahumlje
+  duklja: Duklja
+  zeta: Zeta
+  raska: Raška
+  bosna: Bosna
+  nominalna-potcinjenost: nominalna potčinjenost
+  knez-viseslav: knez Višeslav
+  radoslav: Radoslav
+  prosigoj: Prosigoj
+  knez-vlastimir: knez Vlastimir
+  mutimir: Mutimir
+  strojimir: Strojimir
+  gojnik: Gojnik
+  ekspanzija: ekspanzija
+  bugari: Bugari
+  car-simeon: car Simeon
+  knez-caslav: knez Časlav
+  madjari: Mađari
+  hrvatska-drzava: hrvatska država
+  carigrad: Carigrad
+  jovan-vladimir: Jovan Vladimir
+  car-samuilo: car Samuilo
+  stefan-vojislav: Stefan Vojislav
+  kralj-mihailo: kralj Mihailo
+  papa-grgur-vii: papa Grgur VII
+  bodin: Bodin
+  reka-cetina: reka Cetina
+  mihajlo-boris: Mihajlo Boris
+  presijam: Presijam
+  ras: Ras
+delovi:
+  - naslov: "Prve srpske države"
+    zadaci:
+      - id: l04-glavni-izvor-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [konstantin-vii-porfirogenit, doseljavanje-srba, spis-o-narodima]
+        pitanje: "Ko je ostavio glavni izvor o naseljavanju Srba na Balkanu?"
+        odgovori:
+          - {tekst: "Vizantijski car Konstantin VII Porfirogenit", tacan: true}
+          - {tekst: "Bugarski car Simeon", tacan: false, zasto: "Simeon je vladar koji je ratovao protiv Srba; izvor je napisao vizantijski car."}
+          - {tekst: "Papa Grgur VII", tacan: false, zasto: "Papa Grgur VII vezuje se za krunu kralja Mihaila 1077, a ne za pisanje o doseljavanju."}
+          - {tekst: "Knez Vlastimir", tacan: false, zasto: "Vlastimir je srpski vladar o kome izvor piše, a ne pisac izvora."}
+        pomoc:
+          - "Pisac je car iz X veka."
+          - "Delo je napisao za svog naslednika."
+          - "Iz lekcije: glavni izvor dao je car Konstantin VII Porfirogenit."
+        objasnjenje: "Glavni izvor o srpskom naseljavanju je delo vizantijskog cara Konstantina VII Porfirogenita, pisano za njegovog naslednika."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Glavni izvor o teritorijama srpskog naseljavanja dao je car Konstantin VII Porfirogenit (913–959), u delu za svog naslednika."
+        osa: {naziv: "Vladavina Konstantina VII Porfirogenita", od: 913, do: 959, traka: vladari}
+
+      - id: l04-iraklije-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [car-iraklije, doseljavanje-srba]
+        pitanje: "Za vreme kog cara su, po Porfirogenitu, Srbi stigli na Balkan?"
+        odgovori:
+          - {tekst: "Cara Iraklija", tacan: true}
+          - {tekst: "Cara Simeona", tacan: false, zasto: "Simeon je bugarski car iz X veka, a Srbi su stigli u VII veku."}
+          - {tekst: "Konstantina VII Porfirogenita", tacan: false, zasto: "On je pisac izvora, koji živi tri veka posle doseljavanja."}
+          - {tekst: "Cara Samuila", tacan: false, zasto: "Samuilo je vladar sa kraja X veka, kome se potčinio Jovan Vladimir."}
+        pomoc:
+          - "Traži vizantijskog cara iz VII veka."
+          - "Vladao je 610–641."
+          - "Iz lekcije: Srbi su stigli za vladavine cara Iraklija, sa carevim pristankom."
+        objasnjenje: "Po Porfirogenitu, Srbi su stigli za vladavine cara Iraklija (610–641) i sa njegovim pristankom."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Po ovom izvoru Srbi su stigli za vladavine cara Iraklija (610–641), sa carevim pristankom."
+        osa: {naziv: "Vladavina cara Iraklija", od: 610, do: 641, traka: vladari}
+
+      - id: l04-prostor-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [doseljavanje-srba, avari]
+        pitanje: "Koji prostor su Srbi dobili po Porfirogenitovom izvoru?"
+        odgovori:
+          - {tekst: "Od Save do Jadranskog mora", tacan: true}
+          - {tekst: "Od Dunava do planine Balkan", tacan: false, zasto: "Ta zemlja se sredinom VII veka zvala Slovenska; srpski prostor izvor opisuje od Save do Jadrana."}
+          - {tekst: "Između Odre i Visle", tacan: false, zasto: "To je pradomovina Slovena, odakle su Srbi došli."}
+          - {tekst: "Između Urala i Kaspijskog mora", tacan: false, zasto: "To su Vrata naroda, kroz koja su prošli Huni."}
+        pomoc:
+          - "Južna međa je more."
+          - "Severna međa je reka koja se kod Beograda uliva u Dunav."
+          - "Iz lekcije: dobili su prostor od Save do Jadranskog mora."
+        objasnjenje: "Srbi su dobili prostor od Save do Jadrana, koji su Avari pre toga poharali."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Srbi su dobili prostor od Save do Jadranskog mora, prazan jer su ga poharali Avari."
+
+      - id: l04-viseslav-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [knez-viseslav, raska]
+        pitanje: "Ko je prvi srpski vladar u Raškoj čije ime znamo?"
+        odgovori:
+          - {tekst: "Knez Višeslav", tacan: true}
+          - {tekst: "Knez Časlav", tacan: false, zasto: "Časlav je oslobodio Srbiju tek 927, mnogo posle prvog poznatog vladara."}
+          - {tekst: "Kralj Mihailo", tacan: false, zasto: "Mihailo je kralj Duklje iz XI veka, a ne prvi raški vladar."}
+          - {tekst: "Jovan Vladimir", tacan: false, zasto: "Jovan Vladimir je dukljanski knez, poznat sa kraja X veka."}
+        pomoc:
+          - "Ime mu je povezano sa početkom spiska raških vladara."
+          - "Posle njega dolaze Radoslav i Prosigoj."
+          - "Iz lekcije: knez Višeslav je prvi srpski vladar u Raški čije ime znamo."
+        objasnjenje: "Višeslav je najstariji raški vladar čije nam je ime poznato."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Knez Višeslav je prvi srpski vladar u Raški čije ime znamo."
+
+      - id: l04-srpske-oblasti-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [paganija, travunija, bosna, raska, zahumlje, duklja]
+        pitanje: "Koje oblasti se u izvoru izričito navode kao srpske? (više tačnih)"
+        odgovori:
+          - {tekst: "Paganija", tacan: true}
+          - {tekst: "Travunija", tacan: true}
+          - {tekst: "Bosna", tacan: true}
+          - {tekst: "Raška", tacan: true}
+          - {tekst: "Zahumlje", tacan: false, zasto: "Za Zahumlje nema neposrednog podatka da je pripadalo srpskoj državi."}
+          - {tekst: "Panonija", tacan: false, zasto: "Panonija je severno, oblast Avara i kasnije Mađara, a ne srpska sklavinija."}
+        pomoc:
+          - "Lekcija navodi četiri izričito srpske oblasti."
+          - "Za dve oblasti (Zahumlje i Duklja) nema neposrednog podatka."
+          - "Iz lekcije: Paganija, Travunija, Bosna i Raška."
+        objasnjenje: "Izričito srpske su Paganija, Travunija, Bosna i Raška; za Zahumlje i Duklju neposrednog podatka nema."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Kao srpske se izričito navode Paganija, Travunija, Bosna i Raška."
+          slika: 04-srbi-i-okruzenje-u-ranom-srednjem-veku/01-prve-srpske-drzave-karta.jpg
+
+      - id: l04-najbrojniji-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [raska, plemenska-organizacija]
+        pitanje: "Šta je tačno za Rašku u prvoj polovini IX veka?"
+        odgovori:
+          - {tekst: "U njoj je bila najbrojnija grupa srpskih plemena, a još je trajalo staro plemensko uređenje", tacan: true}
+          - {tekst: "Bila je nezavisna kraljevina sa krunom od pape", tacan: false, zasto: "Kruna od pape vezuje se za Duklju 1077; Raška u IX veku još ima plemensko uređenje."}
+          - {tekst: "Bila je pod potpunom vlašću Avara", tacan: false, zasto: "Avari su pre dolaska Srba poharali te krajeve; Raška je Vizantiju priznavala nominalno."}
+          - {tekst: "Bila je sedište hrvatske države", tacan: false, zasto: "Hrvatska država bila je zapadni sused, a ne vlast u Raškoj."}
+        pomoc:
+          - "Seti se da prve države nastaju korak po korak."
+          - "Po čemu se Raška izdvajala od ostalih oblasti?"
+          - "Iz lekcije: najbrojnija grupa srpskih plemena bila je u Raški, gde je trajalo staro plemensko uređenje."
+        objasnjenje: "Raška je imala najviše Srba, ali je u prvoj polovini IX veka i dalje imala plemensko uređenje."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Najbrojnija grupa srpskih plemena bila je u Raški, gde je i u prvoj polovini IX veka trajalo staro plemensko uređenje."
+        osa: {naziv: "Staro plemensko uređenje u Raški", od: 800, do: 850, oznaka: "prva polovina IX veka", traka: dogadjaji}
+
+      - id: l04-zanimanja-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [doseljavanje-srba, vizantija]
+        pitanje: "Od čega su, po vizantijskim izvorima, živeli doseljeni Srbi? (više tačnih)"
+        odgovori:
+          - {tekst: "Od zemljoradnje", tacan: true}
+          - {tekst: "Od stočarstva", tacan: true}
+          - {tekst: "Od pčelarstva", tacan: true}
+          - {tekst: "Od lova i ribolova", tacan: true}
+          - {tekst: "Od rudarstva za izvoz srebra", tacan: false, zasto: "Lekcija rudarstvo ovde ne navodi; za doseljene Srbe spominje zemlju, stoku, pčele, lov i ribolov."}
+          - {tekst: "Od prekomorske trgovine", tacan: false, zasto: "Izvori navode zanimanja vezana za zemlju i prirodu, a ne prekomorsku trgovinu."}
+        pomoc:
+          - "Svi tačni odgovori su vezani za zemlju i prirodu."
+          - "Lekcija navodi pet zanimanja."
+          - "Iz lekcije: zemljoradnja, stočarstvo, pčelarstvo, lov i ribolov."
+        objasnjenje: "Doseljeni Srbi živeli su od zemljoradnje, stočarstva, pčelarstva, lova i ribolova."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Po vizantijskim izvorima doseljeni Srbi živeli su od zemljoradnje, stočarstva, pčelarstva, lova i ribolova."
+
+      - id: l04-susedi-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [hrvatska-drzava, madjari]
+        pitanje: "Ko su bili susedi Srba na zapadu i na severu?"
+        odgovori:
+          - {tekst: "Na zapadu hrvatska, a na severu mađarska država", tacan: true}
+          - {tekst: "Na zapadu mađarska, a na severu hrvatska država", tacan: false, zasto: "Strane su zamenjene: Hrvatska je zapadno, a Ugarska severno, što se vidi i na karti."}
+          - {tekst: "Na zapadu Vizantija, a na severu Bugarska", tacan: false, zasto: "Vizantija i Bugarska su istočno i južno; zapadni sused je Hrvatska."}
+          - {tekst: "Na zapadu Franačka, a na severu Avari", tacan: false, zasto: "Lekcija u ovom dobu navodi hrvatsku i mađarsku državu kao susede."}
+        pomoc:
+          - "Pogledaj kartu prvih srpskih država."
+          - "Tamnija Ugarska je iznad srpskih oblasti."
+          - "Iz lekcije: na zapadu hrvatska, na severu mađarska država."
+        objasnjenje: "Na zapadu je bila hrvatska, a na severu mađarska država."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Susedi su bili hrvatska država na zapadu i mađarska država na severu."
+          slika: 04-srbi-i-okruzenje-u-ranom-srednjem-veku/01-prve-srpske-drzave-karta.jpg
+
+      - id: l04-nominalno-primena-izbor
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [nominalna-potcinjenost, vizantija, raska]
+        pitanje: "Koji primer odgovara odnosu Raške prema Vizantiji?"
+        odgovori:
+          - {tekst: "Knez priznaje cara kao gospodara, a sam vlada svojom zemljom kako hoće", tacan: true}
+          - {tekst: "Car postavlja svoje vojnike u svako selo i naplaćuje porez", tacan: false, zasto: "To bi bila stvarna vlast, a Raška je Vizantiju priznavala samo po formi."}
+          - {tekst: "Knez ne zna da carstvo postoji", tacan: false, zasto: "Knez zna i priznaje cara; poenta je da je to priznanje bez stvarne zavisnosti."}
+          - {tekst: "Knez otvoreno ratuje da sruši cara u Carigradu", tacan: false, zasto: "To je otvoren rat, a nominalno priznanje znači da se vlast formalno prihvata."}
+        pomoc:
+          - "„Nominalno” znači po imenu, samo na rečima."
+          - "Da li u takvom odnosu car stvarno odlučuje?"
+          - "Iz lekcije: vlast se priznaje samo po formi, a stvarne zavisnosti nema."
+        objasnjenje: "Nominalna potčinjenost je priznanje vlasti bez stvarne zavisnosti: na rečima car, a u praksi knez."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Nominalna potčinjenost znači da se vlast nekog gospodara priznaje samo po formi, a stvarne zavisnosti nema."
+
+      - id: l04-kako-znamo-izbor
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [konstantin-vii-porfirogenit, spis-o-narodima, doseljavanje-srba, car-iraklije]
+        pitanje: "Šta treba imati na umu kada koristimo Porfirogenitovo svedočanstvo o dolasku Srba?"
+        odgovori:
+          - {tekst: "Pisao je u X veku o događajima iz VII veka, dakle tri veka kasnije", tacan: true}
+          - {tekst: "Bio je očevidac dolaska Srba", tacan: false, zasto: "Nije mogao biti: vladao je 913–959, a Srbi su došli pod Iraklijem (610–641)."}
+          - {tekst: "Bio je srpski knez koji piše o svom narodu", tacan: false, zasto: "Bio je vizantijski car i delo je pisao za svog naslednika."}
+          - {tekst: "Pisao je pre dolaska Srba, kao predviđanje", tacan: false, zasto: "Pisao je posle, u X veku; opisao je događaj star tri veka."}
+        pomoc:
+          - "Uporedi godine Porfirogenitove i Iraklijeve vladavine."
+          - "Koliko vekova ih deli?"
+          - "Iz lekcije: Konstantin VII (913–959), Iraklije (610–641)."
+        objasnjenje: "Glavni izvor je nastao vekovima posle događaja i potiče od vizantijskog cara, pa ga treba čitati sa tom svešću."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Konstantin VII (913–959) piše o dolasku Srba za vladavine Iraklija (610–641)."
+
+      - id: l04-vizantija-vera-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [hristijanizacija-srba, vizantija]
+        tvrdnja: "Većina srpskih plemena primila je hrišćanstvo preko Vizantije."
+        tacno: true
+        pomoc:
+          - "Seti se koja je velika hrišćanska sila bila najbliža."
+          - "Iz lekcije: hrišćanstvo je većina srpskih plemena primila preko Vizantije."
+        objasnjenje: "Tačno. Većina srpskih plemena primila je hrišćanstvo preko Vizantije."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Uvod"
+          tekst: "Hrišćanstvo je većina srpskih plemena primila preko Vizantije."
+
+      - id: l04-plemena-ostaju-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [plemenska-organizacija, pradomovina]
+        tvrdnja: "Srbi su odmah po dolasku na Balkan ukinuli plemena i osnovali jednu državu."
+        tacno: false
+        ispravke:
+          - {tekst: "Ostali su podeljeni na plemena, kao u pradomovini.", tacan: true}
+          - {tekst: "Prihvatili su vizantijsku upravu i razišli se po gradovima.", tacan: false, zasto: "Nisu menjali način organizovanja; živeli su po plemenima u svojim oblastima."}
+          - {tekst: "Podelili su se na dve države, Rašku i Duklju, još u pradomovini.", tacan: false, zasto: "Raška i Duklja su na Balkanu, a države nastaju kasnije i korak po korak."}
+        pomoc:
+          - "Da li se organizacija naroda menja preko noći?"
+          - "Traži reč „pradomovina”."
+          - "Iz lekcije: Srbi nisu menjali način organizovanja i ostali su podeljeni na plemena."
+        objasnjenje: "Netačno. Plemena su ostala, a savezi i države nastali su postepeno."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Uvod"
+          tekst: "Posle naseljavanja Srbi su ostali podeljeni na plemena, kao ranije u pradomovini."
+
+      - id: l04-cetina-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [reka-cetina]
+        tvrdnja: "Reka Cetina bila je zapadna međa srpskih teritorija."
+        tacno: true
+        pomoc:
+          - "Dodatni podatak je na str. 24."
+          - "Iz lekcije: Cetina je bila zapadna granica Srba."
+        objasnjenje: "Tačno. Cetina se navodi kao zapadna međa srpskih teritorija."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Reka Cetina bila je zapadna međa srpskih teritorija."
+
+      - id: l04-duklja-prva-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [duklja, raska]
+        tvrdnja: "Prva među srpskim oblastima izdvojila se Duklja, a primat je potom prešao na Rašku."
+        tacno: true
+        pomoc:
+          - "Šta je sa Raškom od XII veka?"
+          - "Iz lekcije: prva se izdvojila Duklja, a primat je potom prešao na Rašku."
+        objasnjenje: "Tačno. Duklja je prva, a posle nje vodeća snaga postaje Raška."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Uvod"
+          tekst: "Prva među srpskim oblastima izdvojila se Duklja; primat je potom prešao na Rašku."
+
+      - id: l04-iraklije-osvajanje-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [car-iraklije, doseljavanje-srba]
+        tvrdnja: "Po Porfirogenitu, Srbi su zemlju oteli caru Irakliju u ratu."
+        tacno: false
+        ispravke:
+          - {tekst: "Stigli su sa carevim pristankom i dobili krajeve koje su Avari poharali.", tacan: true}
+          - {tekst: "Kupili su je od Vizantije za zlato.", tacan: false, zasto: "O kupovini nema reči; izvor govori o carevom pristanku."}
+          - {tekst: "Dobili su je od Avara kao nagradu.", tacan: false, zasto: "Avari su te krajeve opustošili, a pristanak je dao car."}
+        pomoc:
+          - "Izvor piše vizantijski car, pa pazi kako prikazuje odnos cara i Srba."
+          - "Zašto je zemlja bila prazna?"
+          - "Iz lekcije: stigli su sa carevim pristankom; prostor su pre toga poharali Avari."
+        objasnjenje: "Netačno. Po izvoru su Srbi došli sa carevim pristankom, na prostor koji su opustošili Avari."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Srbi su stigli sa carevim pristankom i dobili prostor koji su poharali Avari."
+        osa: {naziv: "Vladavina cara Iraklija", od: 610, do: 641, traka: vladari}
+
+      - id: l04-duklja-zahumlje-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [zahumlje, duklja]
+        tvrdnja: "Za Zahumlje i Duklju nema neposrednog podatka da su pripadale srpskoj državi."
+        tacno: true
+        pomoc:
+          - "Uporedi sa četiri izričito navedene oblasti."
+          - "Iz lekcije: za Zahumlje i Duklju nema neposrednog podatka."
+        objasnjenje: "Tačno. Izričito se kao srpske navode Paganija, Travunija, Bosna i Raška, a za ove dve oblasti neposrednog podatka nema."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Za Zahumlje i Duklju nema neposrednog podatka da su pripadale srpskoj državi."
+
+      - id: l04-caslav-madjari-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [knez-caslav, madjari]
+        tvrdnja: "Knez Časlav poginuo je u borbi protiv Bugara 927. godine."
+        tacno: false
+        ispravke:
+          - {tekst: "Bugarsku vlast zbacio je 927, a poginuo je nešto kasnije u sukobu sa Mađarima.", tacan: true}
+          - {tekst: "Poginuo je u borbi protiv Vizantije kod Carigrada.", tacan: false, zasto: "Časlav je poginuo u sukobu sa Mađarima, a ne sa Vizantijom."}
+          - {tekst: "Umro je u dubokoj starosti kao kralj Duklje.", tacan: false, zasto: "Bio je knez u Srbiji, a dukljanski kralj je Mihailo, tek 1077."}
+        pomoc:
+          - "Godine 927. Časlav je pobedio, a nije izgubio."
+          - "Ko je bio severni sused?"
+          - "Iz lekcije: 927. je zbacio bugarsku vlast; poginuo je kasnije u sukobu sa Mađarima."
+        objasnjenje: "Netačno. Časlav je 927. oslobodio Srbiju, a poginuo je kasnije u sukobu sa Mađarima."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Bugarsku vlast zbacio je knez Časlav 927; poginuo je nešto kasnije u sukobu sa Mađarima."
+        osa: {naziv: "Časlav zbacuje bugarsku vlast", od: 927, traka: dogadjaji}
+
+      - id: l04-bugarske-granice-tn
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [ekspanzija, bugari, carigrad]
+        tvrdnja: "Bugarska ekspanzija bila je opasna samo za Srbe, jer Bugari nikada nisu ugrozili Vizantiju."
+        tacno: false
+        ispravke:
+          - {tekst: "Bugari su u svojim napadima dopirali sve do Carigrada, pa su ugrožavali i Vizantiju.", tacan: true}
+          - {tekst: "Bugari su ratovali samo protiv Mađara.", tacan: false, zasto: "Lekcija navodi njihove ratove sa Srbima i napade do Carigrada."}
+          - {tekst: "Bugari su se uvek povlačili pred Srbima i nikada ih nisu pokorili.", tacan: false, zasto: "Pod Simeonom je Srbija privremeno pala pod bugarsku vlast (924)."}
+        pomoc:
+          - "Pronađi dokle su stizali bugarski napadi."
+          - "Carigrad je bio prestonica Vizantije."
+          - "Iz lekcije: Bugari su dopirali sve do Carigrada."
+        objasnjenje: "Netačno. Bugarski napadi dopirali su do Carigrada, pa je ekspanzija ugrožavala i carstvo."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "U IX veku i prvim decenijama X veka Bugari su bili u ekspanziji i u napadima dopirali do Carigrada."
+        osa: {naziv: "Bugarska ekspanzija", od: 800, do: 930, oznaka: "IX vek i prve decenije X veka", traka: dogadjaji}
+
+      - id: l04-oblasti-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [sklavinije, raska, doseljavanje-srba]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Srbi su, kao i druga južnoslovenska plemena, osnovali plemenske oblasti, koje se zovu {{sklavinije}}, a najbrojnija grupa bila je u {{Raškoj}}."
+        ponudjene: [sklavinije, Raškoj, Panoniji, ekspanzije]
+        pomoc:
+          - "Prva reč je vizantijski naziv."
+          - "Panonija nije srpska oblast."
+          - "Iz lekcije: sklavinije; najbrojnija grupa u Raški."
+        objasnjenje: "Srpske plemenske oblasti su sklavinije, a najviše Srba bilo je u Raškoj."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Srbi su osnovali sklavinije, a najbrojnija grupa bila je u Raški."
+
+      - id: l04-simeon-caslav-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [car-simeon, knez-caslav, bugari]
+        pitanje: "Dopuni rečenice."
+        tekst: "Bugarski car {{Simeon}} privremeno je pokorio Srbiju 924, a knez {{Časlav}} je zbacio bugarsku vlast {{927}}."
+        ponudjene: [Simeon, Samuilo, Časlav, Vlastimir, "927", "1077"]
+        pomoc:
+          - "Samuilo i 1077. pripadaju kasnijem dobu."
+          - "Oslobođenje je samo tri godine posle pokoravanja."
+          - "Iz lekcije: Simeon 924; Časlav 927."
+        objasnjenje: "Simeonova vlast nad Srbijom trajala je kratko: od 924. do 927."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Pod Simeonom Srbija je došla pod bugarsku vlast 924, a 927. ju je zbacio knez Časlav."
+
+      - id: l04-pojmovi-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [nominalna-potcinjenost, ekspanzija]
+        pitanje: "Dopuni objašnjenja pojmova."
+        tekst: "Nominalna potčinjenost znači da se vlast priznaje samo po {{formi}}, a {{ekspanzija}} znači širenje, povećavanje obima ili teritorije."
+        ponudjene: [formi, sili, ekspanzija, asimilacija]
+        pomoc:
+          - "Prva reč je suprotnost stvarnoj zavisnosti."
+          - "Asimilacija je stapanje naroda, a ne širenje."
+          - "Iz lekcije: nominalna potčinjenost je po formi; ekspanzija je širenje."
+        objasnjenje: "Nominalno znači samo po formi; ekspanzija je širenje teritorije ili obima."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Nominalna potčinjenost je priznanje vlasti samo po formi, a ekspanzija je širenje."
+
+      - id: l04-avari-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [car-iraklije, avari]
+        pitanje: "Dopuni rečenicu o dolasku Srba."
+        tekst: "Za vladavine cara {{Iraklija}} Srbi dobijaju prostor od {{Save}} do Jadranskog mora, koji su ranije opustošili {{Avari}}."
+        ponudjene: [Iraklija, Justinijana, Save, Dunava, Avari, Mađari]
+        pomoc:
+          - "Justinijan vlada u VI veku, a Srbi stižu u VII."
+          - "Mađari dolaze tek krajem IX veka."
+          - "Iz lekcije: Iraklije, od Save do Jadrana, Avari."
+        objasnjenje: "Srbi dolaze pod Iraklijem na krajeve koje su opustošili Avari."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Srbi su pod Iraklijem dobili prostor od Save do Jadranskog mora, prazan zbog avarskih pustošenja."
+
+      - id: l04-raska-reke-dopuni
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [raska, nominalna-potcinjenost, vizantija]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Najbrojnija grupa srpskih plemena bila je u {{Raškoj|Raški}}, koja je {{Vizantiju}} priznavala samo {{nominalno|po formi}}, a kroz koju teku reke Piva, Tara i {{Ibar}}."
+        pomoc:
+          - "Treća praznina je reč za priznanje samo po formi."
+          - "Četvrta je reka koja se u lekciji navodi uz Pivu i Taru."
+          - "Iz lekcije: Raška, nominalno priznanje Vizantije, reke Piva, Tara, Ibar."
+        objasnjenje: "Raška je imala najviše Srba, a carstvo je priznavala samo po formi."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Raška se prostirala među rekama Pivom, Tarom i Ibrom i Vizantiju je priznavala samo nominalno."
+
+      - id: l04-vladari-povezi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [knez-viseslav, knez-vlastimir, car-simeon, knez-caslav]
+        pitanje: "Poveži vladara sa podatkom."
+        parovi:
+          - ["Višeslav", "Prvi raški vladar čije ime znamo"]
+          - ["Vlastimir", "Uspešno je odbijao bugarske napade"]
+          - ["Simeon", "Bugarski car koji je pokorio Srbiju"]
+          - ["Časlav", "Zbacio je bugarsku vlast 927."]
+        pomoc:
+          - "Jedan vladar nije srpski."
+          - "Oslobodilac dolazi posle pokoritelja."
+          - "Iz lekcije: Višeslav prvi poznat, Vlastimir odbija Bugare, Simeon pokorava, Časlav oslobađa."
+        objasnjenje: "Prati tok: Višeslav prvi poznat, Vlastimir odbija Bugare, Simeon pokorava Srbiju, a Časlav je oslobađa."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Lekcija opisuje Višeslava, Vlastimira, Simeona i Časlava."
+
+      - id: l04-pojmovi-povezi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [nominalna-potcinjenost, ekspanzija, sklavinije, pradomovina, reka-cetina]
+        pitanje: "Poveži pojam sa objašnjenjem."
+        parovi:
+          - ["Nominalna potčinjenost", "Priznanje vlasti samo po formi"]
+          - ["Ekspanzija", "Širenje teritorije ili obima"]
+          - ["Sklavinije", "Slovenske plemenske oblasti"]
+          - ["Pradomovina", "Zemlja iz koje su Sloveni došli"]
+          - ["Cetina", "Zapadna međa srpskih teritorija"]
+        pomoc:
+          - "Jedan pojam je reka."
+          - "Nominalno znači samo po imenu."
+          - "Iz lekcije: nominalna potčinjenost, ekspanzija, sklavinije."
+        objasnjenje: "Ovi pojmovi su ključ lekcije: kako su Srbi bili organizovani i u kakvom odnosu sa susedima."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Lekcija objašnjava nominalnu potčinjenost i ekspanziju, sklavinije i međe srpskih oblasti."
+
+      - id: l04-uzroci-povezi
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [avari, car-simeon, knez-caslav, plemenski-savezi]
+        pitanje: "Poveži uzrok sa posledicom."
+        parovi:
+          - ["Avari pustoše krajeve između Save i Jadrana", "Car Iraklije ih prepušta Srbima"]
+          - ["Plemenske celine se povezuju", "Nastaju savezi i prve države"]
+          - ["Bugarska ekspanzija pod Simeonom", "Srbija pada pod bugarsku vlast"]
+          - ["Časlavova akcija 927.", "Kraj bugarske vlasti"]
+        pomoc:
+          - "Svaki uzrok je iz drugog veka ili teme."
+          - "Prati jednu nit: Avari, plemena, Bugari."
+          - "Iz lekcije: Avari → prazna zemlja; povezivanje → države; Simeon → 924; Časlav → 927."
+        objasnjenje: "Prazna zemlja omogućava naseljavanje, povezivanje plemena stvara države, a bugarski pritisak i otpor određuju X vek."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Lekcija povezuje pustošenje Avara, povezivanje plemena, bugarsku ekspanziju i Časlavovo oslobođenje."
+
+      - id: l04-prazna-zemlja-zakljuci
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [avari, doseljavanje-srba]
+        pitanje: "Zašto je prostor od Save do Jadrana bio slobodan za Srbe?"
+        odgovori:
+          - {tekst: "Avari su ga pre toga poharali i opustošili", tacan: true}
+          - {tekst: "Bio je pod vodom i tek se osušio", tacan: false, zasto: "Prostor je bio prazan zbog pustošenja, a ne zbog prirode."}
+          - {tekst: "Svi tamošnji stanovnici otišli su u Aziju", tacan: false, zasto: "Izvor kaže da su ga poharali Avari, a ne da su ljudi otišli u Aziju."}
+          - {tekst: "Mađari su ga već napustili", tacan: false, zasto: "Mađari dolaze tek krajem IX veka, kada su Srbi već odavno tamo."}
+        pomoc:
+          - "Korak 1: Ko je tu bio pre Srba i šta je radio?"
+          - "Korak 2: Šta ostaje iza pustošenja?"
+          - "Iz lekcije: prostor je bio prazan jer su ga pre toga poharali Avari."
+        objasnjenje: "Avari su opustošili te krajeve, pa je car mogao da ih prepusti Srbima."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Prostor od Save do Jadrana bio je prazan jer su ga poharali Avari."
+
+      - id: l04-carev-pristanak-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [car-iraklije, vizantija, doseljavanje-srba]
+        pitanje: "Zašto bi vizantijski car dozvolio Srbima da se nasele na pustoj zemlji?"
+        odgovori:
+          - {tekst: "Prazan kraj nije donosio ništa carstvu, a naseljenici koji priznaju cara su bolji od pustoši i Avara", tacan: true}
+          - {tekst: "Zato što su Srbi već bili pravoslavni", tacan: false, zasto: "Hrišćanstvo Srbi primaju kasnije, preko Vizantije; raskola 1054. još nema."}
+          - {tekst: "Zato što je Irakliju ta zemlja bila potpuno nepoznata", tacan: false, zasto: "Bila je vizantijska, inače car ne bi ni davao pristanak."}
+          - {tekst: "Zato što je time hteo da osnuje srpsku kraljevinu", tacan: false, zasto: "Kraljevina se javlja tek u Duklji 1077; Srbi su živeli u plemenima."}
+        pomoc:
+          - "Korak 1: Šta se desi sa zemljom koju su pregazili Avari?"
+          - "Korak 2: Šta caru donosi naseljen kraj, makar nominalno pod njim?"
+          - "Iz lekcije: car je dao pristanak, a zemlja je bila opustošena; Srbi su Vizantiju priznavali."
+        objasnjenje: "Za cara je naseljen kraj sa nominalno potčinjenim stanovništvom bolji od pustoši izložene Avarima."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Sa carevim pristankom Srbi su dobili opustošeni prostor i formalno priznavali Vizantiju."
+
+      - id: l04-malo-znamo-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [knez-viseslav, knez-vlastimir]
+        pitanje: "Zašto o Višeslavu znamo gotovo samo ime, a o Vlastimiru mnogo više?"
+        odgovori:
+          - {tekst: "Podaci o srpskoj istoriji postaju bogatiji tek od Vlastimirovog doba", tacan: true}
+          - {tekst: "Višeslav je vladao samo jedan dan", tacan: false, zasto: "O dužini vladavine lekcija ništa ne kaže; razlika je u izvorima."}
+          - {tekst: "Višeslav je bio bugarski, a ne srpski vladar", tacan: false, zasto: "Lekcija ga izričito zove prvim srpskim vladarom u Raški."}
+          - {tekst: "Vlastimir je sam napisao svoju biografiju", tacan: false, zasto: "Podatke imamo iz stranih izvora, poput Porfirogenitovog."}
+        pomoc:
+          - "Korak 1: Od čega zavisi šta znamo o prošlosti?"
+          - "Korak 2: Od koga podaci postaju bogatiji?"
+          - "Iz lekcije: o tom razdoblju se malo zna; podaci postaju bogatiji tek uz kneza Vlastimira."
+        objasnjenje: "Znanje o prošlosti zavisi od izvora: što su kasniji, to su bogatiji."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "O tom razdoblju se malo zna; podaci postaju bogatiji tek uz kneza Vlastimira."
+
+      - id: l04-simeon-caslav-godine-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [car-simeon, knez-caslav]
+        pitanje: "Uporedi godine Simeonove vladavine (893–927) i Časlavovog oslobođenja (927). Šta uočavaš?"
+        odgovori:
+          - {tekst: "Bugarska vlast je zbačena iste godine kada se završava Simeonova vladavina", tacan: true}
+          - {tekst: "Časlav je oslobodio Srbiju dok je Simeon bio dete", tacan: false, zasto: "Simeon je 927. završio vladavinu dugu više od tri decenije."}
+          - {tekst: "Simeon je vladao tek posle Časlava", tacan: false, zasto: "Simeon je počeo da vlada 893, davno pre 927."}
+          - {tekst: "Između ta dva događaja proteklo je sto godina", tacan: false, zasto: "Obe godine su iste: 927."}
+        pomoc:
+          - "Korak 1: Koja je poslednja godina Simeonove vladavine?"
+          - "Korak 2: Uporedi je sa godinom oslobođenja."
+          - "Iz lekcije: Simeon 893–927; Časlav 927."
+        objasnjenje: "Obe godine se poklapaju: bugarska vlast nad Srbijom pada iste godine kada Simeonova vladavina prestaje."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Simeon je vladao 893–927, a Časlav je bugarsku vlast zbacio 927."
+        osa: {naziv: "Časlav zbacuje bugarsku vlast", od: 927, traka: dogadjaji}
+
+      - id: l04-sklavinija-do-drzave-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [plemenska-organizacija, plemenski-savezi, sklavinije]
+        pitanje: "Zašto lekcija kaže da su savezi i države nastajali „korak po korak”, a ne odjednom?"
+        odgovori:
+          - {tekst: "Veza među plemenskim celinama bila je negde čvršća, a negde labavija, pa se povezivanje dešavalo postepeno i nejednako", tacan: true}
+          - {tekst: "Zato što je Vizantija propisala tačan datum osnivanja država", tacan: false, zasto: "Vizantija je Srbima bila samo nominalni gospodar; nije im propisivala kako da se organizuju."}
+          - {tekst: "Zato što se plemena nisu poznavala", tacan: false, zasto: "Bila su povezana, samo različito snažno."}
+          - {tekst: "Zato što su Srbi čekali dolazak Ćirila i Metodija", tacan: false, zasto: "Lekcija povezivanje plemena ne vezuje za njih."}
+        pomoc:
+          - "Korak 1: Kakve su bile veze među plemenima?"
+          - "Korak 2: Šta to znači za brzinu nastanka države?"
+          - "Iz lekcije: veza je bila negde čvršća, negde labavija; iz toga korak po korak nastaju savezi i države."
+        objasnjenje: "Država raste iz veza među plemenima, a one nisu bile jednake, pa ni proces nije bio nagao."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Uvod"
+          tekst: "Veza među plemenskim celinama bila je negde čvršća, negde labavija; iz njih su korak po korak nastali savezi i države."
+
+      - id: l04-srbija-kao-bedem-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [bugari, ekspanzija, knez-vlastimir, mutimir, car-simeon]
+        pitanje: "Vlastimir i Mutimir su odbijali Bugare, a pod Simeonom je Srbija ipak pala. Šta je najverovatnije objašnjenje iz lekcije?"
+        odgovori:
+          - {tekst: "Pod najsposobnijim vladarem Simeonom bugarska sila je bila na vrhuncu ekspanzije", tacan: true}
+          - {tekst: "Srbi su prestali da imaju vojsku", tacan: false, zasto: "Nema tog podatka; Časlav je već 927. zbacio bugarsku vlast, pa su imali snage."}
+          - {tekst: "Vizantija je Srbiju prodala Simeonu", tacan: false, zasto: "O prodaji nema reči; lekcija razlog traži u bugarskoj ekspanziji i Simeonovoj sposobnosti."}
+          - {tekst: "Bugari su došli sa Mađarima", tacan: false, zasto: "Lekcija ih ne povezuje; Mađari su sukobljeni sa Časlavom."}
+        pomoc:
+          - "Korak 1: Kako lekcija opisuje Simeona?"
+          - "Korak 2: U kakvoj fazi je tada bila Bugarska?"
+          - "Iz lekcije: Simeon je njihov najsposobniji vladar; Bugari su u ekspanziji."
+        objasnjenje: "Isti protivnik postao je jači: sposoban vladar i vrhunac širenja učinili su ono što raniji napadi nisu."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Pod Vlastimirom i Mutimirom napadi su odbijani, a kad je zavladao Simeon, njihov najsposobniji vladar, Srbija je pala pod njegovu vlast."
+        osa: {naziv: "Raška pada pod bugarsku vlast", od: 924, traka: dogadjaji}
+
+      - id: l04-924-datum
+        vrsta: datum
+        tezina: lako
+        pojmovi: [car-simeon, raska]
+        dogadjaj: "Raška pada pod bugarsku vlast"
+        pitanje: "Koje godine je Srbija (Raška) došla pod vlast cara Simeona?"
+        godina: 924
+        traka: dogadjaji
+        pomoc:
+          - "To je prva polovina X veka."
+          - "Tri godine kasnije Časlav je oslobađa."
+          - "Iz lekcije: 924."
+        objasnjenje: "Godine 924. Simeon je privremeno pokorio Srbiju."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Srbija je privremeno došla pod Simeonovu vlast 924."
+
+      - id: l04-927-datum
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [knez-caslav, bugari]
+        dogadjaj: "Časlav zbacuje bugarsku vlast"
+        pitanje: "Koje godine je knez Časlav zbacio bugarsku vlast?"
+        godina: 927
+        traka: dogadjaji
+        pomoc:
+          - "Iste godine prestaje Simeonova vladavina."
+          - "Tri godine je posle 924."
+          - "Iz lekcije: 927."
+        objasnjenje: "Godine 927. knez Časlav je zbacio bugarsku vlast."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Godine 927. bugarsku vlast zbacio je srpski knez Časlav."
+
+      - id: l04-iraklije-datum
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [car-iraklije, doseljavanje-srba]
+        dogadjaj: "Vladavina cara Iraklija"
+        pitanje: "U kom periodu je vladao car Iraklije, pod kojim Srbi stižu na Balkan?"
+        od: 610
+        do: 641
+        traka: vladari
+        pomoc:
+          - "Vladao je u prvoj polovini VII veka."
+          - "Počeo je tačno deset godina posle 600."
+          - "Iz lekcije: 610–641."
+        objasnjenje: "Iraklije je vladao 610–641, a tada su, po Porfirogenitu, stigli Srbi."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Srbi su stigli za vladavine cara Iraklija (610–641)."
+
+      - id: l04-simeon-datum
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [car-simeon, bugari]
+        dogadjaj: "Vladavina cara Simeona"
+        pitanje: "U kom periodu je vladao bugarski car Simeon?"
+        od: 893
+        do: 927
+        traka: vladari
+        pomoc:
+          - "Počeo je krajem IX, a završio u prvoj polovini X veka."
+          - "Poslednja godina je ista kao godina Časlavovog oslobođenja."
+          - "Iz lekcije: Simeon 893–927."
+        objasnjenje: "Simeon je vladao 893–927 i Srbiju je pokorio 924."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Car Simeon (893–927) bio je najsposobniji bugarski vladar."
+
+      - id: l04-porfirogenit-datum
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [konstantin-vii-porfirogenit]
+        dogadjaj: "Vladavina Konstantina VII Porfirogenita"
+        pitanje: "U kom periodu je vladao Konstantin VII Porfirogenit?"
+        od: 913
+        do: 959
+        traka: vladari
+        pomoc:
+          - "Vladao je skoro ceo X vek do njegove sredine i malo dalje."
+          - "Vladavina se završava pre 960."
+          - "Iz lekcije: Konstantin VII Porfirogenit 913–959."
+        objasnjenje: "Konstantin VII je vladao 913–959, pa je o Srbima pisao u X veku."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Konstantin VII Porfirogenit vladao je 913–959."
+
+      - id: l04-raski-vladari-poredjaj
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [knez-viseslav, radoslav, prosigoj, knez-vlastimir]
+        pitanje: "Poređaj raške vladare onim redom kojim lekcija navodi njihovo nasleđivanje."
+        stavke:
+          - {tekst: "Višeslav"}
+          - {tekst: "Radoslav"}
+          - {tekst: "Prosigoj"}
+          - {tekst: "Vlastimir"}
+        pomoc:
+          - "Prvi je onaj čije ime prvo znamo."
+          - "Poslednji je onaj o kome imamo bogatije podatke."
+          - "Iz lekcije: Višeslav → Radoslav → Prosigoj → Vlastimir."
+        objasnjenje: "Lekcija navodi: Višeslav → Radoslav → Prosigoj → Vlastimir."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Redosled vladara je Višeslav, Radoslav, Prosigoj i Vlastimir."
+
+      - id: l04-x-vek-poredjaj
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [car-iraklije, car-simeon, knez-caslav]
+        pitanje: "Poređaj događaje hronološki, od najranijeg."
+        stavke:
+          - {tekst: "Vlada car Iraklije, Srbi stižu na Balkan", godina: 610, do: 641, naziv: "Vladavina cara Iraklija", traka: vladari}
+          - {tekst: "Simeon pokorava Srbiju", godina: 924, naziv: "Raška pada pod bugarsku vlast", traka: dogadjaji}
+          - {tekst: "Časlav zbacuje bugarsku vlast", godina: 927, naziv: "Časlav zbacuje bugarsku vlast", traka: dogadjaji}
+        pomoc:
+          - "Dolazak je mnogo pre ratova sa Bugarima."
+          - "Oslobođenje dolazi posle pokoravanja."
+          - "Iz lekcije: 610–641, 924, 927."
+        objasnjenje: "Iraklije (610–641) → Simeon (924) → Časlav (927)."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Srbi stižu pod Iraklijem, Simeon pokorava Srbiju 924, Časlav je oslobađa 927."
+
+      - id: l04-iz-sklavinije-poredjaj
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [plemenska-organizacija, ekspanzija, car-simeon, konstantin-vii-porfirogenit]
+        pitanje: "Poređaj događaje i procese, od najranijeg."
+        stavke:
+          - {tekst: "Vlada car Iraklije", godina: 610, do: 641, naziv: "Vladavina cara Iraklija", traka: vladari}
+          - {tekst: "U Raški još traje staro plemensko uređenje", godina: 800, do: 850, oznaka: "prva polovina IX veka", naziv: "Staro plemensko uređenje u Raški", traka: dogadjaji}
+          - {tekst: "Počinje vladavina cara Simeona", godina: 893, do: 927, naziv: "Vladavina cara Simeona", traka: vladari}
+          - {tekst: "Počinje vladavina Konstantina VII Porfirogenita", godina: 913, do: 959, naziv: "Vladavina Konstantina VII Porfirogenita", traka: vladari}
+        pomoc:
+          - "Pazi na početke vladavina."
+          - "Simeon i Konstantin VII su se preklapali."
+          - "Iz lekcije: Iraklije 610, plemena u prvoj polovini IX veka, Simeon 893, Konstantin 913."
+        objasnjenje: "Iraklije (610) → plemensko uređenje (prva polovina IX veka) → Simeon (893) → Konstantin VII (913)."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Lekcija povezuje Iraklija, plemensku Rašku, Simeona i Porfirogenita."
+
+      - id: l04-plemena-lanac
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [plemenska-organizacija, plemenski-savezi]
+        karike:
+          - "Srbi se naseljavaju po plemenima"
+          - "Plemenske celine se povezuju"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Nastaju savezi i prve države", tacan: true}
+          - {tekst: "Srbi se vraćaju u pradomovinu", tacan: false, zasto: "Povezivanje vodi jačanju na novom tlu, a ne povratku."}
+          - {tekst: "Plemena nestaju u asimilaciji sa Avarima", tacan: false, zasto: "Avari su pre Srba opustošili oblast; plemena se povezuju među sobom."}
+        pomoc:
+          - "Korak 1: Šta nastaje kada se plemena povežu?"
+          - "Korak 2: Šta je sledeći stepen posle saveza?"
+          - "Iz lekcije: plemenske celine se povezuju → savezi i prve države."
+        objasnjenje: "Iz povezivanja plemena izrastaju savezi, a zatim prve srpske države."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Uvod"
+          tekst: "Iz plemenskih celina korak po korak nastali su prvi savezi i države."
+
+      - id: l04-bugarska-vlast-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [ekspanzija, car-simeon, knez-caslav]
+        karike:
+          - "Bugari se šire pod Simeonom"
+          - "Srbija pada pod bugarsku vlast 924."
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Časlav zbacuje bugarsku vlast 927.", tacan: true}
+          - {tekst: "Mihailo postaje kralj 1077.", tacan: false, zasto: "Mihailo je dukljanski vladar kasnijeg doba; neposredan odgovor na bugarsku vlast daje Časlav."}
+          - {tekst: "Raška postaje hrišćanska po prvi put", tacan: false, zasto: "Lekcija hrišćanstvo Srba ne vezuje za 924; sledeći korak u ovom nizu je oslobođenje."}
+        pomoc:
+          - "Korak 1: Koliko je trajala bugarska vlast?"
+          - "Korak 2: Ko je zbacio?"
+          - "Iz lekcije: Simeon → 924 → Časlav 927."
+        objasnjenje: "Bugarska vlast nad Srbijom trajala je samo tri godine."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Bugarska ekspanzija dovela je Srbiju pod Simeona 924, a Časlav je zbacio tu vlast 927."
+        osa: {naziv: "Časlav zbacuje bugarsku vlast", od: 927, traka: dogadjaji}
+
+      - id: l04-avari-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [avari, car-iraklije, doseljavanje-srba]
+        karike:
+          - "Avari pustoše krajeve između Save i Jadrana"
+          - "?"
+          - "Srbi osnivaju plemenske oblasti, sklavinije"
+        praznina: 1
+        odgovori:
+          - {tekst: "Car Iraklije prepušta te krajeve Srbima", tacan: true}
+          - {tekst: "Mađari naseljavaju te krajeve", tacan: false, zasto: "Mađari stižu krajem IX veka u Panoniju; prvo se tu nastanjuju Srbi."}
+          - {tekst: "Simeon pokorava Srbe", tacan: false, zasto: "To je X vek, a ovde tek opisujemo naseljavanje u VII veku."}
+        pomoc:
+          - "Korak 1: Kakvi su krajevi posle pustošenja?"
+          - "Korak 2: Ko može da ih dodeli?"
+          - "Iz lekcije: Avari opustošili krajeve → car Iraklije ih prepušta Srbima."
+        objasnjenje: "Pustoš je stvorila mesto za naseljavanje, a car je dao pristanak."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Avari su opustošili krajeve između Save i Jadrana, a car Iraklije ih je prepustio Srbima."
+        osa: {naziv: "Vladavina cara Iraklija", od: 610, do: 641, traka: vladari}
+
+      - id: l04-od-vlastimira-do-caslava-lanac
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [knez-vlastimir, mutimir, car-simeon, knez-caslav, madjari]
+        karike:
+          - "Vlastimir i Mutimir odbijaju Bugare"
+          - "Pod Simeonom Srbija ipak pada"
+          - "Časlav zbacuje bugarsku vlast"
+          - "?"
+        praznina: 3
+        odgovori:
+          - {tekst: "Časlav gine u sukobu sa novim susedom, Mađarima", tacan: true}
+          - {tekst: "Časlav postaje car Vizantije", tacan: false, zasto: "Časlav je srpski knez i nije sedeo na vizantijskom prestolu."}
+          - {tekst: "Srbija osvaja Bugarsku i ide na Carigrad", tacan: false, zasto: "Do Carigrada su dopirali Bugari, a ne Srbi."}
+        pomoc:
+          - "Korak 1: Prati ko je protivnik Srbije na severu."
+          - "Korak 2: Šta se desilo sa Časlavom?"
+          - "Iz lekcije: Časlav je poginuo nešto kasnije u sukobu sa Mađarima."
+        objasnjenje: "Pošto je rešen bugarski pritisak, opasnost stiže sa severa, od Mađara, i Časlav gine u tom sukobu."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Časlav je zbacio bugarsku vlast 927, a poginuo je nešto kasnije u sukobu sa Mađarima."
+
+      - id: l04-karta-prve-drzave-izvor
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [hrvatska-drzava, madjari, bugari, vizantija]
+        izvor:
+          autor: "Karta iz udžbenika"
+          naslov: "Prve srpske države (opis karte)"
+          tekst: "Debela linija oivičava srpsku teritoriju. Na severu je tamnija Ugarska, a na zapadu Hrvatska. Šrafiran je pojas u kom su se smenjivale bugarska i vizantijska vlast."
+          napomena: "Odlomak je prepričan; udžbenik, str. 23."
+        pitanje: "Šta nam šrafirani pojas govori o položaju Srba?"
+        odgovori:
+          - {tekst: "Bili su između dve velike sile, koje su se smenjivale u susednom pojasu", tacan: true}
+          - {tekst: "Tu je bila prazna zemlja bez ikakve vlasti", tacan: false, zasto: "Pojas nije bio bez vlasti, nego je vlast prelazila iz ruku u ruke."}
+          - {tekst: "Tu je živela hrvatska država", tacan: false, zasto: "Hrvatska je označena na zapadu, a pojas je vezan za Bugarsku i Vizantiju."}
+          - {tekst: "Taj pojas pokazuje pradomovinu Slovena", tacan: false, zasto: "Pradomovina je daleko severno; karta prikazuje Balkan."}
+        pomoc:
+          - "Pročitaj poslednju rečenicu opisa."
+          - "Koje dve sile se tu smenjuju?"
+          - "Iz lekcije: šrafiran je pojas u kom se smenjivala bugarska i vizantijska vlast."
+        objasnjenje: "Srbi su bili između Bugarske i Vizantije, što objašnjava i njihove stalne pritiske."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Karta prikazuje srpsku teritoriju i pojas u kom se smenjivala bugarska i vizantijska vlast."
+          slika: 04-srbi-i-okruzenje-u-ranom-srednjem-veku/01-prve-srpske-drzave-karta.jpg
+
+      - id: l04-karta-susedi-izvor
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [hrvatska-drzava, madjari]
+        izvor:
+          autor: "Karta iz udžbenika"
+          naslov: "Prve srpske države (opis karte)"
+          tekst: "Na severu srpskih oblasti je tamnija Ugarska, na zapadu Hrvatska, a na obali se vide Dalmacija i Boka Kotorska."
+          napomena: "Odlomak je prepričan; udžbenik, str. 23."
+        pitanje: "Koja država se na karti nalazi zapadno od srpskih oblasti?"
+        odgovori:
+          - {tekst: "Hrvatska", tacan: true}
+          - {tekst: "Ugarska", tacan: false, zasto: "Ugarska je na karti severno od srpskih oblasti."}
+          - {tekst: "Bugarska", tacan: false, zasto: "Bugarska je istočni sused, a opis je i ne navodi na zapadu."}
+          - {tekst: "Vizantija", tacan: false, zasto: "Vizantija je južno i istočno; zapadno od Srba je Hrvatska."}
+        pomoc:
+          - "Pročitaj prvi deo rečenice."
+          - "Traži reč „zapad”."
+          - "Iz lekcije: na zapadu je hrvatska država."
+        objasnjenje: "Karta na zapadu pokazuje Hrvatsku, a lekcija je zove zapadnim susedom."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Na karti je na severu Ugarska, a na zapadu Hrvatska."
+          slika: 04-srbi-i-okruzenje-u-ranom-srednjem-veku/01-prve-srpske-drzave-karta.jpg
+
+      - id: l04-izricito-srpske-uporedi
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [paganija, travunija, zahumlje, duklja, bosna, raska]
+        a: "Izričito navedena kao srpska"
+        b: "Nema neposrednog podatka"
+        pitanje: "Kako izvor govori o svakoj oblasti?"
+        tvrdnje:
+          - {tekst: "Paganija", odgovor: a, zasto: "Paganija se izričito navodi kao srpska."}
+          - {tekst: "Travunija", odgovor: a, zasto: "I Travunija je među izričito navedenim."}
+          - {tekst: "Bosna", odgovor: a, zasto: "Bosna se izričito navodi kao srpska."}
+          - {tekst: "Raška", odgovor: a, zasto: "Raška je izričito srpska i imala je najviše Srba."}
+          - {tekst: "Zahumlje", odgovor: b, zasto: "Za Zahumlje nema neposrednog podatka."}
+          - {tekst: "Duklja", odgovor: b, zasto: "Ni za Duklju nema neposrednog podatka da je pripadala srpskoj državi."}
+        pomoc:
+          - "Dve oblasti su u drugoj grupi."
+          - "Obe su uz Jadran."
+          - "Iz lekcije: izričito Paganija, Travunija, Bosna i Raška; bez neposrednog podatka Zahumlje i Duklja."
+        objasnjenje: "Četiri oblasti su izričito navedene, a za dve neposrednog podatka nema."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Kao srpske se navode Paganija, Travunija, Bosna i Raška, a za Zahumlje i Duklju nema neposrednog podatka."
+
+      - id: l04-vlastimir-caslav-uporedi
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [knez-vlastimir, knez-caslav, bugari]
+        a: "Vlastimir"
+        b: "Časlav"
+        pitanje: "Na kog srpskog kneza se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Uspešno je odbijao bugarske napade.", odgovor: a, zasto: "Vlastimir je, kao i Mutimir, odbijao napade Bugara."}
+          - {tekst: "Zbacio je bugarsku vlast 927.", odgovor: b, zasto: "To je Časlavov uspeh."}
+          - {tekst: "Poginuo je u sukobu sa Mađarima.", odgovor: b, zasto: "Časlav je poginuo nešto kasnije u sukobu sa Mađarima."}
+          - {tekst: "Protivnici su mu bili Bugari.", odgovor: oba, zasto: "Oba su se borila protiv Bugara."}
+          - {tekst: "Primio je krunu od pape.", odgovor: nijedan, zasto: "Krunu je 1077, najverovatnije od pape, primio dukljanski kralj Mihailo."}
+        pomoc:
+          - "Vlastimir je stariji; Časlav je njegov potomak."
+          - "Jedna tvrdnja važi za oba, a jedna ni za jednog."
+          - "Iz lekcije: Vlastimir odbija Bugare; Časlav zbacuje bugarsku vlast 927."
+        objasnjenje: "Vlastimir brani zemlju od Bugara, a Časlav je oslobađa posle Simeonove vlasti."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Pod Vlastimirom i Mutimirom bugarski napadi su odbijani, a Časlav, Vlastimirov potomak, zbacio je bugarsku vlast 927."
+
+      - id: l04-nominalno-stvarno-uporedi
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [nominalna-potcinjenost, vizantija, raska, car-simeon]
+        a: "Raška prema Vizantiji"
+        b: "Srbija pod Simeonom (924)"
+        pitanje: "Na koji odnos se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Gospodar se priznaje samo po formi.", odgovor: a, zasto: "Raška je Vizantiju priznavala nominalno."}
+          - {tekst: "Zemlja je stvarno izgubila samostalnost i tuđa vlast je morala da se zbaci.", odgovor: b, zasto: "Bugarsku vlast je Časlav morao da zbaci 927."}
+          - {tekst: "Odnos prema spoljnoj sili u kojoj je Srbija slabija strana.", odgovor: oba, zasto: "U oba slučaja Srbi stoje naspram jače sile, Vizantije ili Bugarske."}
+          - {tekst: "Vlast je trajala samo tri godine.", odgovor: b, zasto: "Od 924. do 927."}
+          - {tekst: "Gospodar je bio hrvatski vladar.", odgovor: nijedan, zasto: "Hrvatska država je bila sused, a ne gospodar Srba."}
+        pomoc:
+          - "Nominalno = samo na rečima."
+          - "Koju vlast je trebalo zbacivati?"
+          - "Iz lekcije: nominalno prema Vizantiji; pod Simeonom privremeno, 924–927."
+        objasnjenje: "Formalno priznanje i stvarna vlast nisu isto: Vizantiju je Raška samo priznavala, a od Simeona je morala da se oslobađa."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Raška je Vizantiju priznavala samo nominalno, a pod Simeonom je stvarno izgubila samostalnost."
+
+      - id: l04-porfirogenit-ko-sam
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [konstantin-vii-porfirogenit, spis-o-narodima]
+        tragovi:
+          - "Vladao sam Vizantijom od 913. do 959."
+          - "Napisao sam delo za svog naslednika."
+          - "Iz tog dela znamo kako su Srbi došli na Balkan."
+        odgovori:
+          - {tekst: "Konstantin VII Porfirogenit", tacan: true}
+          - {tekst: "Iraklije", tacan: false, zasto: "Iraklije je car pod kojim su Srbi došli, a ne pisac izvora."}
+          - {tekst: "Simeon", tacan: false, zasto: "Simeon je bugarski car, a ne pisac ovog dela."}
+        objasnjenje: "To je Konstantin VII Porfirogenit, pisac Spisa o narodima."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Vizantijski car Konstantin VII Porfirogenit (913–959) pisao je delo za svog naslednika."
+
+      - id: l04-simeon-ko-sam
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [car-simeon, bugari, ekspanzija]
+        tragovi:
+          - "Lekcija me zove najsposobnijim vladarem svog naroda."
+          - "Vladao sam od 893. do 927."
+          - "Srbija je 924. privremeno došla pod moju vlast."
+        odgovori:
+          - {tekst: "Car Simeon", tacan: true}
+          - {tekst: "Car Samuilo", tacan: false, zasto: "Samuilo je kasniji bugarski car, čije je carstvo palo 1018."}
+          - {tekst: "Mihajlo Boris", tacan: false, zasto: "Mihajlo Boris je bugarski vladar iz IX veka, koga su Srbi porazili; on nije pokorio Srbiju."}
+        objasnjenje: "To je bugarski car Simeon (893–927)."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Car Simeon (893–927) bio je najsposobniji bugarski vladar; Srbija je 924. došla pod njegovu vlast."
+        osa: {naziv: "Vladavina cara Simeona", od: 893, do: 927, traka: vladari}
+
+      - id: l04-caslav-ko-sam
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [knez-caslav, knez-vlastimir, madjari]
+        tragovi:
+          - "Potičem iz roda kneza Vlastimira."
+          - "Godine 927. zbacio sam tuđu vlast."
+          - "Poginuo sam u sukobu sa severnim susedima."
+        odgovori:
+          - {tekst: "Knez Časlav", tacan: true}
+          - {tekst: "Mutimir", tacan: false, zasto: "Mutimir je Vlastimirov sin koji je odbijao Bugare u IX veku; 927. oslobađa Časlav."}
+          - {tekst: "Jovan Vladimir", tacan: false, zasto: "Jovan Vladimir je dukljanski knez koji je priznao vlast cara Samuila."}
+        objasnjenje: "To je knez Časlav, Vlastimirov potomak."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Bugarsku vlast 927. zbacio je knez Časlav, Vlastimirov potomak, koji je poginuo u sukobu sa Mađarima."
+
+      - id: l04-koji-izvor-objasni
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [konstantin-vii-porfirogenit, doseljavanje-srba, spis-o-narodima]
+        pitanje: "Koji istorijski izvor pominje doseljavanje Srba na Balkan? Šta o tome kaže?"
+        uzor: "To je delo vizantijskog cara Konstantina VII Porfirogenita, napisano u X veku za njegovog naslednika. Po njemu su Srbi došli za vladavine cara Iraklija, sa carevim pristankom. Dobili su prostor od Save do Jadranskog mora, koji su ranije opustošili Avari."
+        ideje:
+          - "Pisac je Konstantin VII Porfirogenit."
+          - "Pisano je u X veku."
+          - "Srbi stižu pod Iraklijem, sa carevim pristankom."
+          - "Dobijaju prostor od Save do Jadrana."
+        objasnjenje: "Odgovor imenuje pisca, doba i sadržaj izvora."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika"
+          tekst: "Udžbenik pita koji istorijski izvor pominje doseljavanje Srba na Balkan."
+
+      - id: l04-srpske-oblasti-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [paganija, travunija, bosna, raska, zahumlje, duklja]
+        pitanje: "Nabroj srpske srednjovekovne oblasti i objasni zašto se Zahumlje i Duklja navode odvojeno."
+        uzor: "Izričito se kao srpske navode Paganija, Travunija, Bosna i Raška. Za Zahumlje i Duklju nema neposrednog podatka da su pripadale srpskoj državi, pa ih pažljivi istoričar navodi odvojeno. Razlog je u izvoru, a ne u našem mišljenju."
+        ideje:
+          - "Paganija, Travunija, Bosna i Raška su izričito navedene."
+          - "Za Zahumlje i Duklju nema neposrednog podatka."
+          - "Tačnost zavisi od onoga što izvor stvarno kaže."
+        objasnjenje: "Razlikovanje onoga što izvor kaže od onoga što samo pretpostavljamo osnova je istorijskog rada."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika"
+          tekst: "Udžbenik traži da nabrojiš srpske srednjovekovne oblasti."
+
+      - id: l04-nominalna-objasni
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [nominalna-potcinjenost, raska, vizantija]
+        pitanje: "Objasni svojim rečima šta je nominalna potčinjenost i navedi primer iz lekcije."
+        uzor: "Nominalna potčinjenost znači da se vlast nekog gospodara priznaje samo po formi, a stvarne zavisnosti nema. Primer je Raška, koja je Vizantiju priznavala samo tako."
+        ideje:
+          - "Vlast se priznaje samo po formi."
+          - "Stvarne zavisnosti nema."
+          - "Primer je Raška prema Vizantiji."
+        objasnjenje: "Dobar odgovor ima i značenje i primer."
+        iz_udzbenika:
+          strana: 23
+          odeljak: "Prve srpske države"
+          tekst: "Nominalna potčinjenost znači priznavanje vlasti samo po formi; Raška je tako priznavala Vizantiju."
+
+      - id: l04-bugari-srbi-objasni
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [ekspanzija, bugari, knez-vlastimir, car-simeon, knez-caslav]
+        pitanje: "Opiši odnos Srba i Bugara u IX i X veku kao niz uspona i padova."
+        uzor: "Bugari su u IX veku i prvim decenijama X veka bili u ekspanziji. Pod Vlastimirom i Mutimirom Srbi su njihove napade uspešno odbijali. Pod Simeonom, najsposobnijim bugarskim vladarem, Srbija je 924. privremeno pala pod bugarsku vlast. Već 927. tu vlast je zbacio knez Časlav."
+        ideje:
+          - "Bugarska ekspanzija u IX i ranom X veku."
+          - "Vlastimir i Mutimir odbijaju napade."
+          - "Simeon pokorava Srbiju 924."
+          - "Časlav je oslobađa 927."
+        objasnjenje: "Odnos nije jedna pobeda, nego smena sile i otpora."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Prve srpske države"
+          tekst: "Srbi su odbijali Bugare pod Vlastimirom i Mutimirom, pali pod Simeona 924. i oslobodili se pod Časlavom 927."
+
+  - naslov: "Razvoj države u Duklji"
+    zadaci:
+      - id: l04-duklja-gde-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [duklja]
+        pitanje: "Gde je nastala dukljanska država?"
+        odgovori:
+          - {tekst: "Između Boke Kotorske i reke Bojane", tacan: true}
+          - {tekst: "Između Save i Dunava", tacan: false, zasto: "To je sever; Duklja je uz Jadran, na jugu srpskih oblasti."}
+          - {tekst: "Između Odre i Visle", tacan: false, zasto: "To je pradomovina Slovena."}
+          - {tekst: "Između Cetine i Save", tacan: false, zasto: "Cetina je zapadna međa srpskih teritorija, ali Duklja je južnije, između Boke i Bojane."}
+        pomoc:
+          - "Duklja je na obali Jadrana."
+          - "Jedna međa je zaliv, druga reka."
+          - "Iz lekcije: između Boke Kotorske i reke Bojane, zaleđe do Zete i Morače."
+        objasnjenje: "Duklja je nastala između Boke Kotorske i Bojane, a zaleđe joj je dopiralo do Zete i Morače."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Dukljanska država nastala je između Boke Kotorske i reke Bojane."
+          slika: 04-srbi-i-okruzenje-u-ranom-srednjem-veku/03-duklja-karta.jpg
+
+      - id: l04-vojislav-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [stefan-vojislav, vizantija]
+        pitanje: "Protiv koga je Stefan Vojislav dva puta dizao ustanak?"
+        odgovori:
+          - {tekst: "Protiv Vizantije", tacan: true}
+          - {tekst: "Protiv Mađara", tacan: false, zasto: "Sa Mađarima je ratovao Časlav u Raškoj; Vojislav je dizao ustanak protiv Vizantije."}
+          - {tekst: "Protiv pape", tacan: false, zasto: "Papa je, najverovatnije, njegovom nasledniku dao krunu, pa nije bio protivnik."}
+          - {tekst: "Protiv Hrvata", tacan: false, zasto: "Hrvatska država nije bila vlast nad Dukljom; od 1018. to je Vizantija."}
+        pomoc:
+          - "Ko je vladao Dukljom posle 1018?"
+          - "Ta sila je tada slabila."
+          - "Iz lekcije: Stefan Vojislav je dva puta dizao ustanak protiv Vizantije."
+        objasnjenje: "Vojislav je iskoristio slabljenje Vizantije i dva puta se podigao protiv nje."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Slabljenje Vizantije iskoristio je knez Stefan Vojislav: dva puta je dizao ustanak protiv nje."
+
+      - id: l04-kruna-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [kralj-mihailo, papa-grgur-vii]
+        pitanje: "Od koga je Mihailo najverovatnije primio krunu?"
+        odgovori:
+          - {tekst: "Od rimskog pape Grgura VII", tacan: true}
+          - {tekst: "Od vizantijskog cara", tacan: false, zasto: "Kruna je znak nezavisnosti upravo od Vizantije, a dolazi iz Rima."}
+          - {tekst: "Od bugarskog cara Samuila", tacan: false, zasto: "Samuilovo carstvo palo je još 1018, pre Mihailovog krunisanja 1077."}
+          - {tekst: "Od Otona I", tacan: false, zasto: "Oton I je nemački vladar iz X veka, a krunisanje je 1077."}
+        pomoc:
+          - "Dolazi sa zapada."
+          - "Bio je crkveni poglavar u Rimu."
+          - "Iz lekcije: krunu je najverovatnije primio od rimskog pape Grgura VII."
+        objasnjenje: "Mihailo je postao kralj 1077, a krunu je najverovatnije primio od pape Grgura VII."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Mihailo je postao kralj 1077; krunu je najverovatnije primio od rimskog pape Grgura VII."
+          slika: 04-srbi-i-okruzenje-u-ranom-srednjem-veku/02-zetski-kralj-mihailo.jpg
+        osa: {naziv: "Krunisanje kralja Mihaila", od: 1077, traka: dogadjaji}
+
+      - id: l04-sredista-xii-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [raska, duklja]
+        pitanje: "Koja oblast je u XII veku postala središte srpskih oblasti?"
+        odgovori:
+          - {tekst: "Raška", tacan: true}
+          - {tekst: "Duklja", tacan: false, zasto: "Duklja je bila prva, ali posle Bodinove smrti primat prelazi na Rašku."}
+          - {tekst: "Paganija", tacan: false, zasto: "Paganija je jedna od oblasti, ali se nije izdvojila kao središte."}
+          - {tekst: "Bosna", tacan: false, zasto: "Bosnu je Bodin priključio državi, a središte je postala Raška."}
+        pomoc:
+          - "To je oblast sa najviše Srba."
+          - "Pobedili su njeni vladari."
+          - "Iz lekcije: Raška u XII veku postaje središte srpskih oblasti."
+        objasnjenje: "Pobedom raških vladara u borbama posle Bodinove smrti, Raška postaje središte srpskih oblasti."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Pobedili su raški vladari, pa je Raška u XII veku postala središte srpskih oblasti."
+        osa: {naziv: "Raška postaje središte srpskih oblasti", od: 1100, do: 1200, oznaka: "XII vek", traka: dogadjaji}
+
+      - id: l04-jovan-vladimir-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [jovan-vladimir, car-samuilo]
+        pitanje: "Čiju je vlast priznao najpoznatiji dukljanski knez Jovan Vladimir?"
+        odgovori:
+          - {tekst: "Vlast bugarskog cara Samuila", tacan: true}
+          - {tekst: "Vlast pape Grgura VII", tacan: false, zasto: "Papa je vezan za Mihaila i 1077; Jovan Vladimir je umro 1016."}
+          - {tekst: "Vlast Otona I", tacan: false, zasto: "Oton I je nemački vladar koji se borio sa Mađarima; Duklja nije bila pod njim."}
+          - {tekst: "Vlast kneza Časlava", tacan: false, zasto: "Časlav je raški knez iz ranijeg doba, a ne gospodar Jovana Vladimira."}
+        pomoc:
+          - "Traži bugarskog cara, ali ne Simeona."
+          - "Njegovo carstvo je palo 1018."
+          - "Iz lekcije: Jovan Vladimir je priznao vlast bugarskog cara Samuila."
+        objasnjenje: "Jovan Vladimir je priznao vlast cara Samuila, čije je carstvo palo 1018."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Najpoznatiji dukljanski knez, Jovan Vladimir, priznao je vlast bugarskog cara Samuila."
+        osa: {naziv: "Vladavina Jovana Vladimira", od: 990, do: 1016, oznaka: "kraj X veka – 1016", traka: vladari}
+
+      - id: l04-objedinjene-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [travunija, zahumlje, duklja, zeta]
+        pitanje: "Koje su oblasti uz Jadran jedno vreme bile objedinjene pod dukljanskim vladarem? (više tačnih)"
+        odgovori:
+          - {tekst: "Travunija", tacan: true}
+          - {tekst: "Zahumlje", tacan: true}
+          - {tekst: "Duklja", tacan: true}
+          - {tekst: "Raška", tacan: false, zasto: "Raška je u unutrašnjosti; ovde je reč o primorskim oblastima, a Srbiju pripaja kasnije Bodin."}
+          - {tekst: "Bosna", tacan: false, zasto: "Bosna nije primorska oblast iz ovog niza; državi ju je pripojio Bodin."}
+        pomoc:
+          - "Sve tri oblasti su uz more."
+          - "Raška i Bosna dolaze kasnije, pod Bodinom."
+          - "Iz lekcije: Travunija, Zahumlje i Duklja."
+        objasnjenje: "Travunija, Zahumlje i Duklja bile su objedinjene, a tada se za Duklju počinje koristiti i ime Zeta."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Jedno vreme su sve srpske oblasti uz Jadran, Travunija, Zahumlje i Duklja, bile objedinjene pod dukljanskim vladarem."
+
+      - id: l04-bodin-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [bodin, bosna]
+        pitanje: "Šta je uradio Bodin, Mihailov naslednik?"
+        odgovori:
+          - {tekst: "Priključio je državi Bosnu i Srbiju", tacan: true}
+          - {tekst: "Prvi je primio krunu od pape", tacan: false, zasto: "Krunu je primio Mihailo, njegov prethodnik."}
+          - {tekst: "Priznao je vlast cara Samuila", tacan: false, zasto: "To je učinio Jovan Vladimir, pre 1016."}
+          - {tekst: "Dva puta je dizao ustanak protiv Vizantije", tacan: false, zasto: "To je učinio Stefan Vojislav."}
+        pomoc:
+          - "Širio je državu."
+          - "Duklja dobija dve nove oblasti u unutrašnjosti."
+          - "Iz lekcije: Bodin je priključio državi Bosnu i Srbiju."
+        objasnjenje: "Bodin je proširio državu priključivši joj Bosnu i Srbiju."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Mihailov naslednik Bodin priključio je državi Bosnu i Srbiju."
+
+      - id: l04-kruna-znacaj-izbor
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [kralj-mihailo, nominalna-potcinjenost, vizantija, papa-grgur-vii]
+        pitanje: "Zašto je važno što je Mihailo krunu dobio verovatno iz Rima, a ne iz Carigrada?"
+        odgovori:
+          - {tekst: "Kruna iz Rima značila je priznanje od sile koja nije bila Vizantija, od koje se Duklja oslobađala", tacan: true}
+          - {tekst: "Zato što je Duklja bila pod papskom vojskom", tacan: false, zasto: "Papa nije imao vlast nad Dukljom; dao je krunu kao priznanje."}
+          - {tekst: "Zato što je Rim bio bliži Bugarskoj", tacan: false, zasto: "Bugarska nije tema: Samuilovo carstvo palo je još 1018."}
+          - {tekst: "Zato što je Vizantija tada prestala da postoji", tacan: false, zasto: "Vizantija je oslabila, ali nije nestala; nezavisnost se sticala upravo od nje."}
+        pomoc:
+          - "Pod kim je bila Duklja pre krunisanja?"
+          - "Zašto se krunom od tog gospodara ne bi dobila nezavisnost?"
+          - "Iz lekcije: Mihailo je postao kralj 1077, čime je Duklja dobila nezavisnost; krunu je najverovatnije dao papa."
+        objasnjenje: "Nezavisnost od Vizantije nije mogla da potvrdi Vizantija; zato je važno priznanje iz Rima."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Mihailo je postao kralj 1077, čime je Duklja dobila nezavisnost; krunu je najverovatnije primio od pape."
+        osa: {naziv: "Krunisanje kralja Mihaila", od: 1077, traka: dogadjaji}
+
+      - id: l04-zeta-ime-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [duklja, zeta]
+        tvrdnja: "Za Duklju se počinje koristiti i ime Zeta."
+        tacno: true
+        pomoc:
+          - "Kako je nazvan kralj Mihailo uz sliku u knjizi?"
+          - "Iz lekcije: tada se za Duklju počinje koristiti i ime Zeta."
+        objasnjenje: "Tačno. U doba objedinjenja primorskih oblasti za Duklju se javlja i ime Zeta."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Tada se za Duklju počinje koristiti i ime Zeta."
+          slika: 04-srbi-i-okruzenje-u-ranom-srednjem-veku/02-zetski-kralj-mihailo.jpg
+
+      - id: l04-1077-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [kralj-mihailo, duklja]
+        tvrdnja: "Krunisanjem Mihaila 1077. Duklja je izgubila nezavisnost."
+        tacno: false
+        ispravke:
+          - {tekst: "Krunisanjem Mihaila 1077. Duklja je dobila nezavisnost.", tacan: true}
+          - {tekst: "Krunisanjem Mihaila Duklja je pala pod Samuila.", tacan: false, zasto: "Samuilovo carstvo je palo 1018, pre krunisanja."}
+          - {tekst: "Krunisanjem Mihaila Duklja je ušla u sastav Hrvatske.", tacan: false, zasto: "Hrvatska je bila sused; Duklja je kraljevinom postala samostalna."}
+        pomoc:
+          - "Šta za državu znači imati svog kralja?"
+          - "Iz koje vlasti je Duklja izlazila?"
+          - "Iz lekcije: Mihailo je postao kralj 1077, čime je Duklja dobila nezavisnost."
+        objasnjenje: "Netačno. Krunisanje je Duklji donelo nezavisnost."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Mihailo je postao kralj 1077, čime je Duklja dobila nezavisnost."
+        osa: {naziv: "Krunisanje kralja Mihaila", od: 1077, traka: dogadjaji}
+
+      - id: l04-domaci-knezovi-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [duklja, bugari, vizantija]
+        tvrdnja: "U X veku Dukljom su upravljali domaći kneževi, ali pod uticajem Bugarske i Vizantije."
+        tacno: true
+        pomoc:
+          - "Duklja je bila između dve velike sile."
+          - "Iz lekcije: domaći kneževi, ali pod uticajem Bugarske i Vizantije."
+        objasnjenje: "Tačno. Vlast je bila domaća, ali zavisna od susednih sila."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "U X veku Dukljom su upravljali domaći kneževi, ali pod uticajem Bugarske i Vizantije."
+
+      - id: l04-posle-1018-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [duklja, car-samuilo, vizantija]
+        tvrdnja: "Kad je 1018. palo Samuilovo carstvo, Duklja je postala nezavisna."
+        tacno: false
+        ispravke:
+          - {tekst: "Duklja se ponovo našla pod Vizantijom.", tacan: true}
+          - {tekst: "Duklja je pala pod Mađare.", tacan: false, zasto: "Lekcija navodi Vizantiju, a Mađare ne vezuje za Duklju."}
+          - {tekst: "Duklja je pripojena Raškoj.", tacan: false, zasto: "Raška tada još nije vodeća; njen primat dolazi u XII veku."}
+        pomoc:
+          - "Ko je pobedio Samuilovo carstvo?"
+          - "Nezavisnost dolazi tek 1077."
+          - "Iz lekcije: kad je Samuilovo carstvo palo 1018, Duklja se ponovo našla pod Vizantijom."
+        objasnjenje: "Netačno. Pad Samuila vratio je Duklju pod Vizantiju; nezavisnost dolazi 1077."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Kad je Samuilovo carstvo palo 1018, Duklja se ponovo našla pod Vizantijom."
+        osa: {naziv: "Kraj Samuilovog carstva", od: 1018, traka: dogadjaji}
+
+      - id: l04-zaledje-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [duklja]
+        tvrdnja: "Zaleđe Duklje dopiralo je do reka Zete i Morače."
+        tacno: true
+        pomoc:
+          - "Jedna od reka dala je drugo ime državi."
+          - "Iz lekcije: zaleđe joj je dopiralo do reka Zete i Morače."
+        objasnjenje: "Tačno. Duklja nije bila samo uska obala, nego je imala i zaleđe do Zete i Morače."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Zaleđe Duklje dopiralo je do reka Zete i Morače."
+
+      - id: l04-ko-pobedio-tn
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [bodin, raska, zeta]
+        tvrdnja: "Posle Bodinove smrti Zeta je pobedila Rašku i zadržala vodeće mesto."
+        tacno: false
+        ispravke:
+          - {tekst: "Pobedili su raški vladari i Raška je u XII veku postala središte srpskih oblasti.", tacan: true}
+          - {tekst: "Obe oblasti su nestale, a vlast je preuzela Bosna.", tacan: false, zasto: "Nisu nestale; borbe za prevlast vođene su između Zete i Raške."}
+          - {tekst: "Prevlast je preuzela Vizantija, pa je srpskih oblasti nestalo.", tacan: false, zasto: "Lekcija beleži prevlast raških vladara nad srpskim oblastima."}
+        pomoc:
+          - "Seti se šta se dešava sa Raškom kod Nemanjića, u sledećoj lekciji."
+          - "Primat se pomera sa jedne oblasti na drugu."
+          - "Iz lekcije: pobedili su raški vladari."
+        objasnjenje: "Netačno. Borbe su dobili raški vladari, pa je težište prešlo na Rašku."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Posle Bodinove smrti vođene su borbe za prevlast u Zeti i Raški; pobedili su raški vladari."
+        osa: {naziv: "Raška postaje središte srpskih oblasti", od: 1100, do: 1200, oznaka: "XII vek", traka: dogadjaji}
+
+      - id: l04-duklja-kralj-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [stefan-vojislav, kralj-mihailo, bodin]
+        pitanje: "Dopuni redosled dukljanskih vladara."
+        tekst: "Stefan {{Vojislav}} diže ustanke protiv Vizantije, njegov naslednik {{Mihailo}} postaje kralj 1077, a posle njega {{Bodin}} širi državu."
+        ponudjene: [Vojislav, Mihailo, Bodin, Simeon, Časlav]
+        pomoc:
+          - "Simeon je Bugarin, a Časlav raški knez."
+          - "Kralj je Vojislavljev naslednik."
+          - "Iz lekcije: Vojislav, Mihailo, Bodin."
+        objasnjenje: "Dukljanski uspon predvode Stefan Vojislav, Mihailo i Bodin."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Zapamtite"
+          tekst: "Za nezavisnost se prva izborila Duklja, pod Jovanom Vladimirom, Stefanom Vojislavom i kraljem Mihailom."
+
+      - id: l04-duklja-granice-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [duklja]
+        pitanje: "Dopuni rečenicu o položaju Duklje."
+        tekst: "Dukljanska država nastala je između {{Boke Kotorske}} i reke {{Bojane}}, a zaleđe joj je dopiralo do reka Zete i {{Morače}}."
+        ponudjene: [Boke Kotorske, Bojane, Morače, Dalmacije, Save, Dunava]
+        pomoc:
+          - "Sava i Dunav su na severu."
+          - "Prva praznina je zaliv."
+          - "Iz lekcije: Boka Kotorska, Bojana, Zeta i Morača."
+        objasnjenje: "Duklja je bila između Boke Kotorske i Bojane, sa zaleđem do Zete i Morače."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Dukljanska država nastala je između Boke Kotorske i reke Bojane, a zaleđe joj je dopiralo do Zete i Morače."
+          slika: 04-srbi-i-okruzenje-u-ranom-srednjem-veku/03-duklja-karta.jpg
+
+      - id: l04-duklja-tok-dopuni
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [car-samuilo, kralj-mihailo, papa-grgur-vii, vizantija]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Posle pada Samuilovog carstva {{1018}}. Duklja je ponovo bila pod {{Vizantijom}}. Nezavisnost je dobila {{1077}}, kada je Mihailo postao {{kralj}}, a krunu je najverovatnije dao papa {{Grgur VII|Grgur}}."
+        pomoc:
+          - "Prvi broj je iz početka XI veka, a drugi iz njegovog kraja."
+          - "Papa nosi isti rimski broj kao car Konstantin."
+          - "Iz lekcije: 1018, Vizantija, 1077, kralj, Grgur VII."
+        objasnjenje: "U šest decenija Duklja prelazi put od vizantijske oblasti do kraljevine."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Duklja je 1018. pala pod Vizantiju, a 1077. je postala nezavisna, kada je Mihailo primio krunu, najverovatnije od pape Grgura VII."
+
+      - id: l04-duklja-povezi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [jovan-vladimir, stefan-vojislav, kralj-mihailo, bodin]
+        pitanje: "Poveži dukljanskog vladara sa podatkom."
+        parovi:
+          - ["Jovan Vladimir", "Priznao je vlast cara Samuila"]
+          - ["Stefan Vojislav", "Dva puta je dizao ustanak protiv Vizantije"]
+          - ["Mihailo", "Postao je kralj 1077."]
+          - ["Bodin", "Priključio je Bosnu i Srbiju"]
+        pomoc:
+          - "Vladari su navedeni redom."
+          - "Krunu je primio tek treći."
+          - "Iz lekcije: Vladimir – Samuilo; Vojislav – ustanci; Mihailo – kruna; Bodin – širenje."
+        objasnjenje: "Četiri vladara su četiri koraka: potčinjenost, ustanak, kruna i širenje."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Lekcija opisuje Jovana Vladimira, Stefana Vojislava, Mihaila i Bodina."
+
+      - id: l04-reke-duklja-povezi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [duklja, zeta, reka-cetina, papa-grgur-vii]
+        pitanje: "Poveži geografski pojam ili ime sa onim što mu pripada."
+        parovi:
+          - ["Boka Kotorska i Bojana", "Međe dukljanske države"]
+          - ["Zeta i Morača", "Reke u zaleđu Duklje"]
+          - ["Cetina", "Zapadna međa srpskih teritorija"]
+          - ["Zeta", "I drugo ime za Duklju"]
+        pomoc:
+          - "Jedno ime je i reka i ime za državu."
+          - "Jedna reka je na zapadu."
+          - "Iz lekcije: Boka i Bojana, Zeta i Morača, Cetina; za Duklju i ime Zeta."
+        objasnjenje: "Reke određuju međe: Bojana i Boka su uz more, Zeta i Morača u zaleđu, a Cetina je zapadna granica."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Duklja je između Boke i Bojane, zaleđe je do Zete i Morače; Cetina je zapadna međa srpskih teritorija."
+          slika: 04-srbi-i-okruzenje-u-ranom-srednjem-veku/03-duklja-karta.jpg
+
+      - id: l04-zasto-slabljenje-zakljuci
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [stefan-vojislav, vizantija]
+        pitanje: "Zašto je Stefan Vojislav mogao da podigne ustanak?"
+        odgovori:
+          - {tekst: "Vizantija je slabila, pa je to bio povoljan trenutak", tacan: true}
+          - {tekst: "Vizantija ga je zamolila da to uradi", tacan: false, zasto: "Ustanak je bio upravo protiv Vizantije."}
+          - {tekst: "Bugari su mu poslali cara Samuila", tacan: false, zasto: "Samuilovo carstvo već je palo 1018."}
+          - {tekst: "Papa mu je zapovedio", tacan: false, zasto: "Lekcija ne vezuje papu za ustanke, nego za Mihailovu krunu."}
+        pomoc:
+          - "Korak 1: Šta se dešavalo sa Vizantijom?"
+          - "Korak 2: Kada je najbolje dizati ustanak?"
+          - "Iz lekcije: Vizantija je slabila, što je iskoristio Stefan Vojislav."
+        objasnjenje: "Slabost carstva je prilika za ustanak."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Vizantija je zatim slabila, što je iskoristio dukljanski knez Stefan Vojislav."
+
+      - id: l04-duklja-prva-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [duklja, zeta, vizantija]
+        pitanje: "Šta se u lekciji ističe kao redosled u borbi za nezavisnost?"
+        odgovori:
+          - {tekst: "Prva se izborila Duklja, a posle nje vodeća snaga postaje Raška", tacan: true}
+          - {tekst: "Prva se izborila Raška, a posle nje Duklja", tacan: false, zasto: "Obrnuto je: primat prelazi sa Duklje na Rašku."}
+          - {tekst: "Prva je bila Bosna pod Bodinom", tacan: false, zasto: "Bodin je dukljanski vladar koji je Bosnu priključio državi."}
+          - {tekst: "Srpske oblasti nikad nisu bile nezavisne", tacan: false, zasto: "Duklja je nezavisnost dobila 1077."}
+        pomoc:
+          - "Korak 1: Koja oblast ima kralja 1077?"
+          - "Korak 2: Koja oblast je središte u XII veku?"
+          - "Iz lekcije: za nezavisnost se prva izborila Duklja, a posle nje vodeća snaga postaje Raška."
+        objasnjenje: "Duklja je prva stekla nezavisnost, a Raška je kasnije preuzela vodeću ulogu."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Zapamtite"
+          tekst: "Za nezavisnost se prva izborila Duklja, a posle nje vodeća snaga postaje Raška."
+
+      - id: l04-smena-gospodara-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [duklja, car-samuilo, vizantija, bugari]
+        pitanje: "Šta vidimo iz sudbine Duklje u X i na početku XI veka?"
+        odgovori:
+          - {tekst: "Mala država između dve sile menjala je gospodara zavisno od toga koja je jača", tacan: true}
+          - {tekst: "Duklja je sve vreme vladala Bugarskom", tacan: false, zasto: "Bilo je obrnuto: Duklja je bila pod uticajem Bugarske, a njen knez je priznao Samuila."}
+          - {tekst: "Duklja je bila potpuno odvojena od zbivanja na Balkanu", tacan: false, zasto: "Pad Samuila neposredno ju je vratio pod Vizantiju."}
+          - {tekst: "Duklja je od početka bila kraljevina", tacan: false, zasto: "Kraljevina postaje tek 1077."}
+        pomoc:
+          - "Korak 1: Čiju vlast priznaje Jovan Vladimir?"
+          - "Korak 2: Pod kim je Duklja posle 1018?"
+          - "Iz lekcije: domaći kneževi pod uticajem Bugarske i Vizantije; 1018. ponovo pod Vizantijom."
+        objasnjenje: "Sudbina Duklje zavisila je od odnosa snaga: kad padne jedna sila, dolazi druga."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Duklja je bila pod uticajem Bugarske i Vizantije; posle pada Samuila 1018. ponovo je pod Vizantijom."
+
+      - id: l04-mihailov-izbor-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [kralj-mihailo, papa-grgur-vii, bodin, raska, duklja]
+        pitanje: "Duklja je 1077. imala krunu, a ipak je u XII veku primat prešao na Rašku. Šta se iz toga može zaključiti?"
+        odgovori:
+          - {tekst: "Kruna ne garantuje trajnu prevlast: odlučile su borbe posle Bodinove smrti i brojnost Raške", tacan: true}
+          - {tekst: "Kruna je Raški dodeljena odmah 1077.", tacan: false, zasto: "Krunu je dobila Duklja; Raška je vodeća tek u XII veku."}
+          - {tekst: "Papa je oduzeo krunu Duklji i dao je Bugarima", tacan: false, zasto: "Lekcija tako nešto ne pominje; primat se menja kroz domaće borbe."}
+          - {tekst: "Duklja je i dalje bila vodeća u XII veku", tacan: false, zasto: "Lekcija kaže da je Raška u XII veku postala središte."}
+        pomoc:
+          - "Korak 1: Šta se desilo posle Bodinove smrti?"
+          - "Korak 2: Ko je imao najviše Srba?"
+          - "Iz lekcije: posle Bodinove smrti pobedili su raški vladari; u Raški je bila najbrojnija grupa plemena."
+        objasnjenje: "Čast krune je važna, ali snaga se meri u borbi: raški vladari su pobedili."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Posle Bodinove smrti pobedili su raški vladari, pa je Raška u XII veku postala središte srpskih oblasti."
+        osa: {naziv: "Raška postaje središte srpskih oblasti", od: 1100, do: 1200, oznaka: "XII vek", traka: dogadjaji}
+
+      - id: l04-1077-datum
+        vrsta: datum
+        tezina: lako
+        pojmovi: [kralj-mihailo, duklja]
+        dogadjaj: "Krunisanje kralja Mihaila"
+        pitanje: "Koje godine je Mihailo postao kralj?"
+        godina: 1077
+        traka: dogadjaji
+        pomoc:
+          - "To je druga polovina XI veka."
+          - "Godina se završava sa dve iste cifre."
+          - "Iz lekcije: 1077."
+        objasnjenje: "Mihailo je postao kralj 1077, čime je Duklja dobila nezavisnost."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Vojislavljev naslednik Mihailo postao je kralj 1077."
+          slika: 04-srbi-i-okruzenje-u-ranom-srednjem-veku/02-zetski-kralj-mihailo.jpg
+
+      - id: l04-1018-datum
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [car-samuilo, duklja]
+        dogadjaj: "Kraj Samuilovog carstva"
+        pitanje: "Koje godine je palo Samuilovo carstvo?"
+        godina: 1018
+        traka: dogadjaji
+        pomoc:
+          - "To je početak XI veka."
+          - "Dve godine posle smrti Jovana Vladimira."
+          - "Iz lekcije: 1018."
+        objasnjenje: "Godine 1018. palo je Samuilovo carstvo, a Duklja je ponovo pod Vizantijom."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Samuilovo carstvo palo je 1018."
+
+      - id: l04-duklja-poredjaj
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [jovan-vladimir, car-samuilo, kralj-mihailo]
+        pitanje: "Poređaj događaje iz istorije Duklje, od najranijeg."
+        stavke:
+          - {tekst: "Vlada Jovan Vladimir", godina: 990, do: 1016, oznaka: "kraj X veka – 1016", naziv: "Vladavina Jovana Vladimira", traka: vladari}
+          - {tekst: "Pada Samuilovo carstvo", godina: 1018, naziv: "Kraj Samuilovog carstva", traka: dogadjaji}
+          - {tekst: "Mihailo postaje kralj", godina: 1077, naziv: "Krunisanje kralja Mihaila", traka: dogadjaji}
+        pomoc:
+          - "Vladimir je priznao Samuila, pa je pre pada carstva."
+          - "Kruna dolazi na kraju."
+          - "Iz lekcije: kraj X veka – 1016, 1018, 1077."
+        objasnjenje: "Jovan Vladimir (do 1016) → pad Samuila (1018) → Mihailo (1077)."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Lekcija navodi Jovana Vladimira, pad Samuilovog carstva 1018. i Mihaila 1077."
+
+      - id: l04-od-simeona-do-raske-poredjaj
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [car-simeon, knez-caslav, car-samuilo, kralj-mihailo, raska]
+        pitanje: "Poređaj događaje iz cele lekcije, od najranijeg."
+        stavke:
+          - {tekst: "Simeon pokorava Srbiju", godina: 924, naziv: "Raška pada pod bugarsku vlast", traka: dogadjaji}
+          - {tekst: "Časlav zbacuje bugarsku vlast", godina: 927, naziv: "Časlav zbacuje bugarsku vlast", traka: dogadjaji}
+          - {tekst: "Pada Samuilovo carstvo", godina: 1018, naziv: "Kraj Samuilovog carstva", traka: dogadjaji}
+          - {tekst: "Mihailo postaje kralj", godina: 1077, naziv: "Krunisanje kralja Mihaila", traka: dogadjaji}
+          - {tekst: "Raška postaje središte srpskih oblasti", godina: 1100, do: 1200, oznaka: "XII vek", naziv: "Raška postaje središte srpskih oblasti", traka: dogadjaji}
+        pomoc:
+          - "Dva događaja su u X, dva u XI, a jedan u XII veku."
+          - "Primat Raške je kraj priče."
+          - "Iz lekcije: 924, 927, 1018, 1077, XII vek."
+        objasnjenje: "924 → 927 → 1018 → 1077 → XII vek."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Lekcija teče od Simeona i Časlava preko Samuila i Mihaila do Raške u XII veku."
+
+      - id: l04-dukljanski-vladari-poredjaj
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [jovan-vladimir, stefan-vojislav, kralj-mihailo, bodin]
+        pitanje: "Poređaj dukljanske vladare, od najranijeg."
+        stavke:
+          - {tekst: "Jovan Vladimir"}
+          - {tekst: "Stefan Vojislav"}
+          - {tekst: "Mihailo"}
+          - {tekst: "Bodin"}
+        pomoc:
+          - "Prvi je još pod Samuilom."
+          - "Drugi diže ustanke, treći je njegov naslednik."
+          - "Iz lekcije: Jovan Vladimir, Stefan Vojislav, Mihailo, Bodin."
+        objasnjenje: "Lekcija navodi: Jovan Vladimir → Stefan Vojislav → Mihailo → Bodin."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Jovan Vladimir je pod Samuilom, Stefan Vojislav diže ustanke, Mihailo je njegov naslednik, a posle njega dolazi Bodin."
+
+      - id: l04-samuilo-lanac
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [car-samuilo, duklja, vizantija]
+        karike:
+          - "Jovan Vladimir priznaje vlast cara Samuila"
+          - "Samuilovo carstvo pada 1018."
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Duklja se ponovo nalazi pod Vizantijom", tacan: true}
+          - {tekst: "Duklja osvaja Carigrad", tacan: false, zasto: "Duklja je mala država i posle 1018. pada pod Vizantiju."}
+          - {tekst: "Duklja postaje kraljevina", tacan: false, zasto: "Kraljevina dolazi tek 1077, posle ustanaka."}
+        pomoc:
+          - "Korak 1: Ko je zamenio Samuila kao gospodar?"
+          - "Korak 2: Da li je to prvi put?"
+          - "Iz lekcije: pad Samuilovog carstva (1018) → Duklja ponovo pod Vizantijom."
+        objasnjenje: "Gubitak bugarskog gospodara značio je povratak Vizantije."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Kad je Samuilovo carstvo palo 1018, Duklja se ponovo našla pod Vizantijom."
+        osa: {naziv: "Kraj Samuilovog carstva", od: 1018, traka: dogadjaji}
+
+      - id: l04-vojislav-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [stefan-vojislav, vizantija, zeta]
+        karike:
+          - "Vizantija slabi"
+          - "Stefan Vojislav diže ustanke"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Primorske oblasti se objedinjuju pod dukljanskim vladarem", tacan: true}
+          - {tekst: "Duklja pada pod Samuila", tacan: false, zasto: "Samuilovo carstvo je već nestalo 1018."}
+          - {tekst: "Raška postaje središte", tacan: false, zasto: "To je XII vek, posle Bodinove smrti."}
+        pomoc:
+          - "Korak 1: Šta se dešava sa Dukljom kad popusti vizantijska vlast?"
+          - "Korak 2: Koje oblasti su uz nju?"
+          - "Iz lekcije: Travunija, Zahumlje i Duklja bile su objedinjene."
+        objasnjenje: "Slabost Vizantije i ustanci omogućili su da se primorske oblasti objedine pod Dukljom."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Stefan Vojislav je dizao ustanke, a Travunija, Zahumlje i Duklja jedno vreme su bile objedinjene."
+
+      - id: l04-raska-primat-lanac
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [bodin, raska, zeta]
+        karike:
+          - "Bodin širi državu"
+          - "Bodin umire"
+          - "?"
+          - "Raška postaje središte srpskih oblasti u XII veku"
+        praznina: 2
+        odgovori:
+          - {tekst: "Vode se borbe za prevlast u Zeti i Raški, u kojima pobeđuju raški vladari", tacan: true}
+          - {tekst: "Papa šalje krunu Raškoj", tacan: false, zasto: "Lekcija govori o borbama, a ne o novoj kruni."}
+          - {tekst: "Vizantija vraća Duklju Bugarima", tacan: false, zasto: "Bugarska se ovde ne pominje; prevlast se rešava među srpskim vladarima."}
+        pomoc:
+          - "Korak 1: Šta se dešava kad umre jak vladar velike države?"
+          - "Korak 2: Ko je pobedio?"
+          - "Iz lekcije: posle Bodinove smrti borbe za prevlast; pobedili su raški vladari."
+        objasnjenje: "Smrt jakog vladara otvara borbe, a pobeda raških vladara premešta središte u Rašku."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Posle Bodinove smrti vođene su borbe za prevlast; pobedili su raški vladari."
+        osa: {naziv: "Raška postaje središte srpskih oblasti", od: 1100, do: 1200, oznaka: "XII vek", traka: dogadjaji}
+
+      - id: l04-karta-duklje-izvor
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [duklja, vizantija, hrvatska-drzava]
+        izvor:
+          autor: "Karta iz udžbenika"
+          naslov: "Duklja (opis karte)"
+          tekst: "Različitim tonovima obojeni su Duklja, Bosna i Raška, Neretljani, Hrvatska i Vizantija. Posebni znaci označavaju gradove i trgove, episkopije, nadbiskupiju, biskupije i katoličke crkve i manastire. Duklja se pruža uz Jadran; čitaju se Dubrovnik, Boka Kotorska i Ulcinj."
+          napomena: "Odlomak je prepričan; udžbenik, str. 25."
+        pitanje: "Šta nam legenda sa crkvenim znacima govori o Duklji?"
+        odgovori:
+          - {tekst: "U njenim krajevima su uticaji crkvenih središta bili značajni, pa i katolički", tacan: true}
+          - {tekst: "Stanovništvo Duklje još je verovalo u Peruna", tacan: false, zasto: "Karta prikazuje crkve i biskupije, a ne staru slovensku veru."}
+          - {tekst: "Duklja je bila deo Franačke", tacan: false, zasto: "Franačka nije na karti; prikazana je Duklja sa svojim susedima."}
+          - {tekst: "U Duklji nije bilo gradova", tacan: false, zasto: "Legenda izričito ima znake za gradove i trgove."}
+        pomoc:
+          - "Pročitaj drugu rečenicu opisa."
+          - "Koje vrste crkvenih ustanova se navode?"
+          - "Iz lekcije: legenda označava episkopije, nadbiskupiju, biskupije i katoličke crkve i manastire."
+        objasnjenje: "Biskupije i katoličke crkve pokazuju da je primorje bilo povezano sa crkvenim središtima, što se slaže i sa krunom iz Rima."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Karta Duklje prikazuje susede i crkvene ustanove, među njima episkopije, biskupije i katoličke crkve."
+          slika: 04-srbi-i-okruzenje-u-ranom-srednjem-veku/03-duklja-karta.jpg
+
+      - id: l04-duklja-raska-uporedi
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [duklja, raska, kralj-mihailo]
+        a: "Duklja"
+        b: "Raška"
+        pitanje: "Na koju oblast se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Nalazi se uz Jadran, između Boke Kotorske i Bojane.", odgovor: a, zasto: "To je položaj Duklje."}
+          - {tekst: "Imala je najbrojniju grupu srpskih plemena.", odgovor: b, zasto: "Lekcija to kaže za Rašku."}
+          - {tekst: "Dobila je kralja 1077.", odgovor: a, zasto: "Mihailo je dukljanski kralj."}
+          - {tekst: "Postala je središte srpskih oblasti u XII veku.", odgovor: b, zasto: "Tada primat prelazi na Rašku."}
+          - {tekst: "Bila je pod uticajem Vizantije.", odgovor: oba, zasto: "Raška ju je priznavala nominalno, a Duklja je bila pod njenim uticajem i vlašću."}
+          - {tekst: "Bila je u sastavu Franačke.", odgovor: nijedan, zasto: "Franačka se u lekciji ne vezuje ni za jednu."}
+        pomoc:
+          - "Jedna je primorska, a druga u unutrašnjosti."
+          - "Ko je prvi, a ko kasnije središte?"
+          - "Iz lekcije: Duklja je prva, a Raška zatim preuzima primat."
+        objasnjenje: "Dve oblasti, dve faze: Duklja kraljevina u XI veku, a Raška središte u XII veku."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Zapamtite"
+          tekst: "Za nezavisnost se prva izborila Duklja, a posle nje vodeća snaga postaje Raška."
+
+      - id: l04-vladimir-mihailo-uporedi
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [jovan-vladimir, kralj-mihailo, duklja]
+        a: "Jovan Vladimir"
+        b: "Mihailo"
+        pitanje: "Na kog dukljanskog vladara se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Bio je knez koji priznaje tuđeg cara.", odgovor: a, zasto: "Jovan Vladimir je priznao Samuila."}
+          - {tekst: "Bio je kralj i njime je Duklja dobila nezavisnost.", odgovor: b, zasto: "Mihailo je kralj od 1077."}
+          - {tekst: "Lekcija ga vezuje za Bugarsku.", odgovor: a, zasto: "Priznao je bugarskog cara Samuila."}
+          - {tekst: "Lekcija ga vezuje za Rim.", odgovor: b, zasto: "Krunu je najverovatnije primio od rimskog pape."}
+          - {tekst: "Vladao je Dukljom.", odgovor: oba, zasto: "Obojica su dukljanski vladari."}
+          - {tekst: "Priključio je Bosnu i Srbiju.", odgovor: nijedan, zasto: "To je učinio Bodin."}
+        pomoc:
+          - "Uporedi njihove titule."
+          - "Čiju krunu ili vlast prima svaki od njih?"
+          - "Iz lekcije: Vladimir priznaje Samuila; Mihailo postaje kralj 1077."
+        objasnjenje: "Razlika između njih pokazuje uspon Duklje: od potčinjene kneževine do nezavisne kraljevine."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Jovan Vladimir priznaje vlast Samuila, a Mihailo 1077. postaje kralj i Duklja dobija nezavisnost."
+
+      - id: l04-mihailo-ko-sam
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [kralj-mihailo, papa-grgur-vii]
+        tragovi:
+          - "Bio sam naslednik Stefana Vojislava."
+          - "Krunu sam primio 1077."
+          - "Njome je moja država dobila nezavisnost."
+        odgovori:
+          - {tekst: "Mihailo", tacan: true}
+          - {tekst: "Bodin", tacan: false, zasto: "Bodin je Mihailov naslednik, koji je širio državu."}
+          - {tekst: "Časlav", tacan: false, zasto: "Časlav je raški knez iz X veka, bez krune."}
+        objasnjenje: "To je Mihailo, prvi kralj Duklje."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Vojislavljev naslednik Mihailo postao je kralj 1077, čime je Duklja dobila nezavisnost."
+          slika: 04-srbi-i-okruzenje-u-ranom-srednjem-veku/02-zetski-kralj-mihailo.jpg
+        osa: {naziv: "Krunisanje kralja Mihaila", od: 1077, traka: dogadjaji}
+
+      - id: l04-vojislav-ko-sam
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [stefan-vojislav, zeta]
+        tragovi:
+          - "Bio sam dukljanski knez posle 1018."
+          - "Iskoristio sam slabljenje velikog carstva."
+          - "Dva puta sam digao ustanak."
+        odgovori:
+          - {tekst: "Stefan Vojislav", tacan: true}
+          - {tekst: "Jovan Vladimir", tacan: false, zasto: "Jovan Vladimir je umro 1016, pre pada Samuilovog carstva."}
+          - {tekst: "Mihailo", tacan: false, zasto: "Mihailo je Vojislavljev naslednik i kralj."}
+        objasnjenje: "To je Stefan Vojislav, koji je dva puta dizao ustanak protiv Vizantije."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Stefan Vojislav je dva puta dizao ustanak protiv Vizantije."
+
+      - id: l04-bodin-ko-sam
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [bodin, bosna]
+        tragovi:
+          - "Mog prethodnika krunisao je, najverovatnije, papa."
+          - "Mojoj državi priključene su još dve oblasti."
+          - "Posle moje smrti počele su borbe u kojima je Raška preuzela vođstvo."
+        odgovori:
+          - {tekst: "Bodin", tacan: true}
+          - {tekst: "Stefan Vojislav", tacan: false, zasto: "Vojislav je prethodnik Mihaila, a ne njegov naslednik."}
+          - {tekst: "Grgur VII", tacan: false, zasto: "Grgur VII je papa, verovatni davalac krune, a ne dukljanski vladar."}
+        objasnjenje: "To je Bodin, naslednik kralja Mihaila."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Bodin je priključio Bosnu i Srbiju; posle njegove smrti vođene su borbe za prevlast."
+
+      - id: l04-razvoj-duklje-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [duklja, jovan-vladimir, stefan-vojislav, kralj-mihailo, bodin]
+        pitanje: "Kako je tekao razvoj Duklje? Opiši korake."
+        uzor: "U X veku Dukljom upravljaju domaći kneževi, pod uticajem Bugarske i Vizantije. Jovan Vladimir je priznao cara Samuila, a posle 1018. Duklja je pod Vizantijom. Stefan Vojislav diže ustanke i objedinjuje primorske oblasti, Mihailo 1077. postaje kralj i Duklja je nezavisna, a Bodin dodaje Bosnu i Srbiju. Posle toga borbe donose prevlast Raške."
+        ideje:
+          - "Domaći kneževi pod uticajem Bugarske i Vizantije."
+          - "Jovan Vladimir pod Samuilom; od 1018. pod Vizantijom."
+          - "Ustanci Stefana Vojislava i objedinjavanje primorja."
+          - "Mihailo kralj 1077, nezavisnost."
+          - "Bodin širi državu; zatim prevlast Raške."
+        objasnjenje: "Odgovor treba da pokaže sled: zavisnost, ustanak, nezavisnost, širenje i gubitak primata."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika"
+          tekst: "Udžbenik pita kako je tekao razvoj Duklje."
+
+      - id: l04-sta-znaci-kruna-objasni
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [kralj-mihailo, papa-grgur-vii, duklja]
+        pitanje: "Od koga je kralj Mihailo primio krunu i šta je to značilo za Duklju?"
+        uzor: "Krunu je najverovatnije primio od rimskog pape Grgura VII, 1077. godine. Time je Duklja dobila nezavisnost."
+        ideje:
+          - "Krunu je najverovatnije dao papa Grgur VII."
+          - "Dogodilo se 1077."
+          - "Duklja je dobila nezavisnost."
+        objasnjenje: "Reč „najverovatnije” je važna: izvor to ne potvrđuje sa potpunom sigurnošću."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika"
+          tekst: "Udžbenik pita od koga je Mihailo primio krunu."
+
+      - id: l04-duklja-raska-smena-objasni
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [duklja, raska, bodin]
+        pitanje: "Zašto je primat među srpskim oblastima najpre pripao Duklji, a potom Raškoj? Objasni."
+        uzor: "Duklja je iskoristila slabljenje Vizantije: posle ustanaka Stefana Vojislava i krunisanja Mihaila postala je nezavisna i proširila se pod Bodinom. Posle Bodinove smrti vođene su borbe za prevlast u Zeti i Raški, a pobedili su raški vladari. Raška, u kojoj je bila najbrojnija grupa srpskih plemena, tako je u XII veku postala središte."
+        ideje:
+          - "Duklja koristi slabost Vizantije i prva dobija nezavisnost."
+          - "Pod Bodinom se država širi."
+          - "Posle njegove smrti počinju borbe za prevlast."
+          - "Pobeđuju raški vladari; Raška postaje središte u XII veku."
+        objasnjenje: "Primat zavisi od prilike i snage, a ne od toga ko je prvi."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Razvoj države u Duklji"
+          tekst: "Duklja je prva izborila nezavisnost, a posle borbi raški vladari su pobedili i Raška je u XII veku postala središte."
+
+  - naslov: "Iz istorijskih izvora"
+    zadaci:
+      - id: l04-boris-osveta-izvor
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [mihajlo-boris, presijam, bugari]
+        izvor:
+          autor: "Konstantin VII Porfirogenit"
+          naslov: "Spis o narodima"
+          tekst: "Bugarski vladar Mihajlo Boris krenuo je na srpske knezove želeći da se osveti za poraz svog oca kod Presijama."
+          napomena: "Odlomak je prepričan; udžbenik, str. 24–25."
+        pitanje: "Zašto je Boris napao Srbe?"
+        odgovori:
+          - {tekst: "Da se osveti za očev poraz", tacan: true}
+          - {tekst: "Da im donese hrišćanstvo", tacan: false, zasto: "Izvor navodi osvetu, a ne širenje vere."}
+          - {tekst: "Da im pomogne protiv Vizantije", tacan: false, zasto: "Napao ih je, pa ne može biti reč o pomoći."}
+          - {tekst: "Zato što su mu zarobili sina", tacan: false, zasto: "Sin je zarobljen tek u toku ovog pohoda, kao posledica napada."}
+        pomoc:
+          - "Pročitaj kraj rečenice."
+          - "Koga su Srbi porazili kod Presijama?"
+          - "Iz lekcije: napao ih je da bi se osvetio za poraz svog oca kod Presijama."
+        objasnjenje: "Boris je došao da osveti očev poraz kod Presijama."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Bugarski vladar Mihajlo Boris napao je Srbe da bi se osvetio za poraz svog oca kod Presijama."
+
+      - id: l04-sinovi-izvor
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [mutimir, strojimir, gojnik, knez-vlastimir]
+        izvor:
+          autor: "Konstantin VII Porfirogenit"
+          naslov: "Spis o narodima"
+          tekst: "Kada je Vlastimir umro, njegova trojica sinova, Mutimir, Strojimir i Gojnik, podelili su zemlju i vlast."
+          napomena: "Odlomak je prepričan; udžbenik, str. 24–25."
+        pitanje: "Kako je posle Vlastimirove smrti uređena vlast?"
+        odgovori:
+          - {tekst: "Sinovi su podelili zemlju i vlast", tacan: true}
+          - {tekst: "Vlast je preuzeo najstariji sin sam", tacan: false, zasto: "Izvor kaže da su trojica podelila vlast."}
+          - {tekst: "Vlast je preuzeo bugarski vladar", tacan: false, zasto: "Bugari su kasnije napali, ali su odbijeni; vlast je ostala kod sinova."}
+          - {tekst: "Zemlju je dobio vizantijski car", tacan: false, zasto: "Izvor ne govori o caru, već o Vlastimirovim sinovima."}
+        pomoc:
+          - "Pronađi broj sinova."
+          - "Šta su uradili sa zemljom?"
+          - "Iz lekcije: Mutimir, Strojimir i Gojnik podelili su zemlju i vlast."
+        objasnjenje: "Vlast se delila među sinovima, što je drugačije od kasnijeg nasleđivanja jednog naslednika."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Po Vlastimirovoj smrti trojica sinova, Mutimir, Strojimir i Gojnik, podelila su zemlju i vlast."
+
+      - id: l04-mir-izvor
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [mihajlo-boris, bugari]
+        izvor:
+          autor: "Konstantin VII Porfirogenit"
+          naslov: "Spis o narodima"
+          tekst: "Srbi su Borisa toliko pritisnuli da su mu u ropstvo pali sin Vladimir i dvanaest velikih boljara. Zbog sina je, i protiv svoje volje, sklopio mir."
+          napomena: "Odlomak je prepričan; udžbenik, str. 24–25."
+        pitanje: "Zašto je Boris sklopio mir?"
+        odgovori:
+          - {tekst: "Zato što su mu sin i boljari bili u ropstvu", tacan: true}
+          - {tekst: "Zato što je pobedio", tacan: false, zasto: "Bio je pritisnut i nevoljno je sklopio mir; to nije pobednik."}
+          - {tekst: "Zato što ga je na to nagovorio vizantijski car", tacan: false, zasto: "Izvor car Vizantije ovde ne pominje."}
+          - {tekst: "Zato što je voleo Srbe", tacan: false, zasto: "Mir je sklopio „protiv svoje volje”, posle poraza."}
+        pomoc:
+          - "Ko je pao u ropstvo?"
+          - "Šta znači „protiv svoje volje”?"
+          - "Iz lekcije: zbog sina je nevoljno sklopio mir."
+        objasnjenje: "Zarobljavanje sina i boljara primoralo je Borisa na mir."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Srbi su zarobili Borisovog sina Vladimira i dvanaest velikih boljara, pa je zbog sina nevoljno sklopio mir."
+
+      - id: l04-pratnja-izvor
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [mihajlo-boris, ras, mutimir]
+        izvor:
+          autor: "Konstantin VII Porfirogenit"
+          naslov: "Spis o narodima"
+          tekst: "Bojeći se zasede na povratku, Boris je zatražio pratnju. Do granice, do Rasa, bezbedno su ga ispratili Mutimirovi sinovi, Borena i Stevan."
+          napomena: "Odlomak je prepričan; udžbenik, str. 24–25."
+        pitanje: "Šta nam ovaj odlomak govori o odnosu snaga posle mira?"
+        odgovori:
+          - {tekst: "Bugarski vladar se plašio Srba i tražio njihovu zaštitu, pa su u tom trenutku Srbi bili jača strana", tacan: true}
+          - {tekst: "Srbi su bili potčinjeni Borisu i morali su da ga služe", tacan: false, zasto: "Pratnja je usluga koju je tražio pobeđeni, a ne služba pobedniku."}
+          - {tekst: "Boris je osvojio Ras", tacan: false, zasto: "Do Rasa je ispraćen kao do granice, a ne kao osvajač."}
+          - {tekst: "Srbi i Bugari su se ujedinili u jednu državu", tacan: false, zasto: "Izvor govori o granici između njih, dakle o dve države."}
+        pomoc:
+          - "Ko traži pratnju, jači ili slabiji?"
+          - "Šta znači da neko strahuje od zasede?"
+          - "Iz lekcije: Boris je tražio pratnju, a ispratili su ga Borena i Stevan."
+        objasnjenje: "Sam čin traženja pratnje otkriva da je Boris bio slabija strana."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Plašeći se zasede, Boris je tražio pratnju; do Rasa su ga ispratili Mutimirovi sinovi, Borena i Stevan."
+
+      - id: l04-ras-granica-izvor
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [ras, raska]
+        izvor:
+          autor: "Konstantin VII Porfirogenit"
+          naslov: "Spis o narodima"
+          tekst: "Do granice, do Rasa, bugarskog vladara su bezbedno ispratili sinovi srpskog vladara."
+          napomena: "Odlomak je prepričan; udžbenik, str. 24–25."
+        pitanje: "Šta iz ovog podatka saznajemo o Rasu u IX veku?"
+        odgovori:
+          - {tekst: "Bio je na granici srpske oblasti prema Bugarima", tacan: true}
+          - {tekst: "Bio je glavni grad Bugarske", tacan: false, zasto: "Ras se navodi kao mesto do kog su ga ispratili Srbi, na granici; to nije bugarska prestonica."}
+          - {tekst: "Bio je na obali Jadrana", tacan: false, zasto: "Izvor govori o međi Srba i Bugara, a Jadran je na suprotnoj strani srpskih oblasti."}
+          - {tekst: "Bio je vizantijski grad na Dunavu", tacan: false, zasto: "Izvor ga vezuje za srpsko-bugarsku granicu, a ne za Dunav."}
+        pomoc:
+          - "Ponovo pročitaj: „do granice, do Rasa”."
+          - "Između koga je ta granica?"
+          - "Iz lekcije: do granice, do Rasa, ispratili su ga sinovi Mutimira."
+        objasnjenje: "Ras se javlja kao mesto na srpsko-bugarskoj granici."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Do granice, do Rasa, Borisa su ispratili sinovi Mutimira."
+
+      - id: l04-danak-izvor
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [mihajlo-boris, bugari, mutimir]
+        izvor:
+          autor: "Konstantin VII Porfirogenit"
+          naslov: "Spis o narodima"
+          tekst: "Za uslugu im je Boris dao bogate poklone, a oni njemu dva roba, dva sokola, dva psa i devedeset koža. Bugari su to posle tumačili kao ugovoreni danak."
+          napomena: "Odlomak je prepričan; udžbenik, str. 24–25."
+        pitanje: "Šta ovaj odlomak pokazuje o tome kako ista stvar može da se tumači?"
+        odgovori:
+          - {tekst: "Razmena poklona u kojoj su Srbi bili pobednici mogla je kod Bugara da se predstavi kao danak", tacan: true}
+          - {tekst: "Srbi su zaista bili potčinjeni i plaćali danak", tacan: false, zasto: "Izvor kaže da su to Bugari tumačili; ispred toga stoji razmena poklona posle srpske pobede."}
+          - {tekst: "Bugari su Srbima plaćali danak", tacan: false, zasto: "Boris je dao poklone za uslugu pratnje; reč danak potiče od bugarskog tumačenja darova koje su Srbi njemu dali."}
+          - {tekst: "Izvor je nepouzdan jer ga je pisao Bugarin", tacan: false, zasto: "Spis je napisao vizantijski car Konstantin VII, a ne Bugarin."}
+        pomoc:
+          - "Ko kaže da je to danak?"
+          - "Kakav je bio ishod rata pre razmene?"
+          - "Iz lekcije: Bugari su to tumačili kao ugovoreni danak."
+        objasnjenje: "Pobeđeni može da pretvori poklon u znak svoje nadmoći: zato izvore čitamo kritički."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Boris im je dao bogate poklone, a oni njemu dva roba, dva sokola, dva psa i devedeset koža; Bugari su to tumačili kao danak."
+
+      - id: l04-vizantijski-pogled-izvor
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [konstantin-vii-porfirogenit, spis-o-narodima, bugari]
+        izvor:
+          autor: "Konstantin VII Porfirogenit"
+          naslov: "Spis o narodima"
+          tekst: "Vizantijski car opisuje kako su Srbi pritisnuli bugarskog vladara i zarobili mu sina, i kako su Bugari kasnije predstavljali razmenu poklona."
+          napomena: "Odlomak je prepričan; udžbenik, str. 24–25."
+        pitanje: "Zašto je za nas važno što ovaj spor ne opisuje ni Srbin ni Bugarin, nego vizantijski car?"
+        odgovori:
+          - {tekst: "Pisac je treća strana, ali ima sopstveni pogled, pa ga treba čitati sa oprezom", tacan: true}
+          - {tekst: "To dokazuje da izvor ne može biti pogrešan", tacan: false, zasto: "I vizantijski pisac je čovek sa svojim stavovima i piše vek posle događaja."}
+          - {tekst: "To znači da je bio očevidac", tacan: false, zasto: "Pisao je u X veku, a događaj je iz IX veka."}
+          - {tekst: "To znači da nije znao ništa o Srbima", tacan: false, zasto: "Baš suprotno: on je glavni izvor o Srbima tog doba."}
+        pomoc:
+          - "Ko su ovde učesnici, a ko pripoveda?"
+          - "Uporedi doba pisanja i doba događaja."
+          - "Iz lekcije: spis je napisao Konstantin VII u X veku, o sukobima iz IX veka."
+        objasnjenje: "Treća strana može da vidi šire, ali nije bez svoje perspektive; dobar čitalac to uvek ima na umu."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Konstantin VII Porfirogenit u Spisu o narodima opisuje sukobe Srba i Bugara u IX veku."
+
+      - id: l04-presijam-lanac
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [presijam, mihajlo-boris]
+        karike:
+          - "Borisov otac je poražen kod Presijama"
+          - "?"
+          - "Srbi zarobljavaju Borisovog sina"
+        praznina: 1
+        odgovori:
+          - {tekst: "Boris napada Srbe da se osveti", tacan: true}
+          - {tekst: "Boris šalje mirovne poslanike", tacan: false, zasto: "Boris je krenuo u osvetu, a na mir je pristao tek posle poraza."}
+          - {tekst: "Mutimir se povlači u Azovsko more", tacan: false, zasto: "Mutimir nije bežao; Srbi su pritisnuli Bugare."}
+        pomoc:
+          - "Korak 1: Šta vladar želi posle očevog poraza?"
+          - "Korak 2: Protiv koga je krenuo?"
+          - "Iz lekcije: poraz Borisovog oca kod Presijama → Borisov napad na Srbe."
+        objasnjenje: "Poraz oca vodi u Borisov osvetnički pohod, u kome mu Srbi zarobljavaju sina."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Boris je napao Srbe da bi se osvetio za poraz svog oca kod Presijama."
+
+      - id: l04-sin-mir-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [mihajlo-boris, bugari, ras]
+        karike:
+          - "Boris napada Srbe"
+          - "Srbi zarobljavaju njegovog sina i boljare"
+          - "?"
+          - "Borisa do granice prate Mutimirovi sinovi"
+        praznina: 2
+        odgovori:
+          - {tekst: "Boris nevoljno sklapa mir", tacan: true}
+          - {tekst: "Boris osvaja Ras", tacan: false, zasto: "Do Rasa je ispraćen, a nije ga osvojio."}
+          - {tekst: "Srbi ga zarobljavaju", tacan: false, zasto: "Zarobljen mu je sin, a on je ispraćen do granice."}
+        pomoc:
+          - "Korak 1: Šta otac radi kad mu je sin u ropstvu?"
+          - "Korak 2: Šta dolazi pre ispraćaja?"
+          - "Iz lekcije: zarobljavanje sina → mir."
+        objasnjenje: "Bez mira ne bi bilo ni ispraćaja do granice."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Zarobljavanje sina primoralo je Borisa na mir, a posle mira je ispraćen do Rasa."
+
+      - id: l04-sukob-poredjaj
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [mihajlo-boris, mutimir, ras]
+        pitanje: "Poređaj tok sukoba iz izvora, od početka do kraja."
+        stavke:
+          - {tekst: "Vlastimirovi sinovi dele zemlju i vlast"}
+          - {tekst: "Boris napada Srbe"}
+          - {tekst: "Srbi mu zarobljavaju sina i boljare"}
+          - {tekst: "Boris sklapa mir"}
+          - {tekst: "Borena i Stevan ga prate do Rasa"}
+          - {tekst: "Bugari i Srbi razmenjuju poklone"}
+        pomoc:
+          - "Podela vlasti je pre rata."
+          - "Pokloni su za uslugu pratnje, pa dolaze na kraju."
+          - "Iz lekcije: podela, napad, zarobljavanje, mir, pratnja, pokloni."
+        objasnjenje: "Sled je: podela vlasti → napad → zarobljavanje → mir → pratnja → pokloni."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Izvor opisuje podelu vlasti, Borisov napad, zarobljavanje sina, mir, ispraćaj do Rasa i razmenu poklona."
+
+      - id: l04-sukob-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [mutimir, strojimir, gojnik, mihajlo-boris, presijam]
+        pitanje: "Dopuni sažetak izvora."
+        tekst: "Po Vlastimirovoj smrti sinovi {{Mutimir}}, Strojimir i {{Gojnik}} podelili su zemlju. Bugarski vladar {{Mihajlo Boris}} napao ih je da osveti očev poraz kod {{Presijama}}."
+        ponudjene: [Mutimir, Gojnik, Mihajlo Boris, Presijama, Simeon, Augzburga]
+        pomoc:
+          - "Simeon je vladao kasnije."
+          - "Augzburg je mesto bitke sa Mađarima."
+          - "Iz lekcije: Mutimir, Strojimir, Gojnik; Mihajlo Boris; Presijam."
+        objasnjenje: "Izvor o sukobu počinje podelom vlasti među Vlastimirovim sinovima i Borisovim osvetničkim pohodom."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Vlastimirovi sinovi podelili su zemlju, a Mihajlo Boris ih je napao zbog poraza svog oca kod Presijama."
+
+      - id: l04-licnosti-izvora-povezi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [mutimir, mihajlo-boris, presijam, ras]
+        pitanje: "Poveži ličnost ili mesto iz izvora sa podatkom."
+        parovi:
+          - ["Mihajlo Boris", "Bugarski vladar koji je napao Srbe"]
+          - ["Vladimir", "Borisov sin, zarobljen od Srba"]
+          - ["Borena i Stevan", "Mutimirovi sinovi koji su pratili Borisa"]
+          - ["Presijam", "Mesto poraza Borisovog oca"]
+          - ["Ras", "Mesto na granici do kog je Boris ispraćen"]
+        pomoc:
+          - "Dva pojma su mesta."
+          - "Pazi: Vladimir je ovde Bugarin, a ne dukljanski knez."
+          - "Iz lekcije: Boris, sin Vladimir, Borena i Stevan, Presijam, Ras."
+        objasnjenje: "Izvor spaja bugarske i srpske ličnosti i mesta u jednu priču o sukobu."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Izvor navodi Borisa, njegovog sina Vladimira, Borenu i Stevana, Presijam i Ras."
+
+      - id: l04-spis-pisac-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [spis-o-narodima, konstantin-vii-porfirogenit]
+        tvrdnja: "Spis o narodima napisao je car Konstantin VII Porfirogenit."
+        tacno: true
+        pomoc:
+          - "Taj car je glavni izvor o doseljavanju Srba."
+          - "Iz lekcije: odlomak je iz dela Spis o narodima cara Konstantina VII Porfirogenita."
+        objasnjenje: "Tačno. Spis o narodima je delo Konstantina VII Porfirogenita."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Odlomak je iz dela Spis o narodima cara Konstantina VII Porfirogenita."
+
+      - id: l04-boris-pobednik-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [mihajlo-boris, bugari]
+        tvrdnja: "Prema Spisu o narodima, Boris je pobedio Srbe i odveo Mutimirove sinove u ropstvo."
+        tacno: false
+        ispravke:
+          - {tekst: "Srbi su pritisli Bugare i zarobili Borisovog sina i boljare; Mutimirovi sinovi su ga ispratili do granice.", tacan: true}
+          - {tekst: "Boris i Srbi nisu ni ratovali.", tacan: false, zasto: "Boris ih je napao, a pritisak Srba doveo je do zarobljavanja."}
+          - {tekst: "Mutimirove sinove zarobio je vizantijski car.", tacan: false, zasto: "Mutimirovi sinovi su bili slobodni i pratili su Borisa."}
+        pomoc:
+          - "Ko je kome zarobio sina?"
+          - "Ko je tražio pratnju?"
+          - "Iz lekcije: u ropstvo su pali Borisov sin i boljari."
+        objasnjenje: "Netačno. Srbi su pobedili, a Boris je zatražio mir i pratnju."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Srbi su pritisnuli Borisa; u ropstvo su mu pali sin i dvanaest boljara."
+
+      - id: l04-darovi-uporedi
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [mihajlo-boris, mutimir]
+        a: "Dali su Bugari"
+        b: "Dali su Srbi"
+        pitanje: "Ko je šta dao pri razmeni poklona posle ispraćaja?"
+        tvrdnje:
+          - {tekst: "Bogate poklone za uslugu.", odgovor: a, zasto: "Boris je dao bogate poklone za pratnju."}
+          - {tekst: "Dva roba i dva sokola.", odgovor: b, zasto: "To su dali Srbi Borisu."}
+          - {tekst: "Dva psa i devedeset koža.", odgovor: b, zasto: "I to je srpski uzvratni dar."}
+          - {tekst: "Zlatnu krunu iz Rima.", odgovor: nijedan, zasto: "Kruna je vezana za Mihaila 1077, a ne za ovaj događaj."}
+        pomoc:
+          - "Ko je davao „bogate” poklone?"
+          - "Srbi su uzvratili brojnim stvarima."
+          - "Iz lekcije: Boris im je dao bogate poklone, a oni njemu dva roba, dva sokola, dva psa i devedeset koža."
+        objasnjenje: "Razmena je bila obostrana, a Bugari su srpski dar kasnije tumačili kao danak."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Boris im je dao bogate poklone, a oni njemu dva roba, dva sokola, dva psa i devedeset koža."
+
+      - id: l04-boris-ko-sam
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [mihajlo-boris, presijam]
+        tragovi:
+          - "Bio sam bugarski vladar u IX veku."
+          - "Krenuo sam da osvetim oca poraženog kod Presijama."
+          - "Sin mi je pao u srpsko ropstvo, pa sam nevoljno sklopio mir."
+        odgovori:
+          - {tekst: "Mihajlo Boris", tacan: true}
+          - {tekst: "Car Simeon", tacan: false, zasto: "Simeon je pokorio Srbiju 924; on nije nevoljno molio za mir."}
+          - {tekst: "Asparuh", tacan: false, zasto: "Asparuh je doveo Bugare na Balkan, mnogo pre ovih događaja."}
+        objasnjenje: "To je Mihajlo Boris, kako ga opisuje Konstantin VII Porfirogenit."
+        iz_udzbenika:
+          strana: 24
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Bugarski vladar Mihajlo Boris napao je Srbe zbog poraza svog oca kod Presijama."
+
+      - id: l04-danak-objasni
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [mihajlo-boris, bugari, spis-o-narodima]
+        pitanje: "Zašto bi Bugari razmenu poklona posle poraza tumačili kao ugovoreni danak? Objasni i reci šta to govori o izvorima."
+        uzor: "Bugari su bili poraženi i Boris je morao da traži pratnju, pa su želeli da to prikažu u boljem svetlu. Ako su srpski darovi danak, ispada da su Srbi potčinjeni. To pokazuje da se isti događaj može različito tumačiti, zavisno od toga ko o njemu govori, pa izvore treba čitati pažljivo."
+        ideje:
+          - "Bugari su u sukobu bili poražena strana."
+          - "Danak bi značio da su Srbi potčinjeni."
+          - "Isti događaj različite strane tumače različito."
+          - "Izvore treba čitati kritički."
+        objasnjenje: "Pitanje vežba čitanje izvora: ko govori i šta time dobija."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Bugari su srpske poklone tumačili kao ugovoreni danak."
+
+      - id: l04-sta-pokazuje-izvor-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [mutimir, strojimir, gojnik, mihajlo-boris]
+        pitanje: "Šta iz Porfirogenitove priče o Borisu saznajemo o snazi Srba u IX veku? Objasni."
+        uzor: "Iako su trojica sinova podelila vlast, Srbi su pobedili bugarskog vladara i zarobili mu sina i boljare. Boris je morao da sklopi mir i da traži njihovu pratnju do granice. To pokazuje da su Srbi u IX veku bili sposobni da se odupru Bugarima."
+        ideje:
+          - "Vlast je bila podeljena među sinovima."
+          - "Srbi su pobedili i zarobili Borisovog sina."
+          - "Boris je morao da sklopi mir i da traži pratnju."
+        objasnjenje: "Priča potvrđuje ono što lekcija kaže o uspešnoj odbrani od Bugara."
+        iz_udzbenika:
+          strana: 25
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Izvor opisuje sukob Srba i Bugara u IX veku, u kome je Boris morao da sklopi mir."

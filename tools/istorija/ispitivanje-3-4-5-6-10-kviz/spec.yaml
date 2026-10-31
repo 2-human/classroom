@@ -1,0 +1,27 @@
+# Kviz za ispitivanje (tip: lesson-quiz; vidi templates/lesson-quiz/README.md). Kviz se definiše ovde:
+# bira lekcije iz banke pitanja predmeta (shared/banke/srednja/1/istorija/) i sastav; zadaci nisu ovde.
+title: Ispitivanje — lekcije 3, 4, 5, 6 i 10
+title_short: Ispitivanje 3, 4, 5, 6, 10
+locale: sr
+nivo: srednja
+razred: 1
+banka_lekcije: [3, 4, 5, 6, 10]
+description: >-
+  Kviz za lekcije koje se ispituju: doseljavanje Srba, Srbi u ranom srednjem veku, prvi Nemanjići, uspon
+  Srbije u XIII i XIV veku i borba protiv Turaka Osmanlija. Svako učenje i svaki test izvlače nove
+  zadatke iz banke pitanja ovih pet lekcija, srazmerno njihovoj dužini.
+
+# Vremenska osa: rešeni zadaci sa datumom stavljaju svoj događaj na osu (kartica u Pregledu).
+osa:
+  od: 300
+  do: 1500
+  trake:
+    - {id: dogadjaji, label: Događaji, color: '#b1271f'}
+    - {id: vladari, label: Vladari, color: '#3a6ba5'}
+    - {id: crkva-kultura, label: Crkva i kultura, color: '#1f7a3a'}
+
+sastav:
+  ucenje: 30
+  test: 25
+  odnos: [40, 40, 20]
+  ponavljanje: 50

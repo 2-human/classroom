@@ -13,6 +13,9 @@ Information architecture: školski nivo › razred › predmet › lekcija › a
     - Curriculum: shared/kurikulum/{nivo}/{razred}/{predmet}.yaml — textbook, chapters and
       lessons. Optional: a subject without one lists only its tools. Every lesson is shown,
       also the ones that have no tool yet.
+    - Question banks: shared/banke/{nivo}/{razred}/{predmet}/{NN-slug}.yaml, one per lesson; the
+      catalog shows their size. A quiz over several lessons (`banka_lekcije` in its spec, or more
+      than one in `lekcije`) is listed at the top of the subject as "Kvizovi i testovi".
     - Levels come from hub_shell.NIVOI; a level without tools is listed as empty.
     - PDF links only when radna.pdf / resenja.pdf exist beside the tool's index.html.
     - Where zasticeno/lekcije/{predmet}/{razred}/NN-slug/bundle.enc exists (scripts/build_lekcije.py),
@@ -87,7 +90,7 @@ def collect_tools(repo_root):
             "predmet": predmet,
             "nivo": spec.get("nivo"),
             "razred": spec.get("razred"),
-            "lekcije": [int(n) for n in (spec.get("lekcije") or [])],
+            "lekcije": [int(n) for n in (spec.get("lekcije") or spec.get("banka_lekcije") or [])],
             "title": spec.get("title") or spec.get("title_short") or slug,
             "description": (spec.get("description") or "").strip(),
             "href": rel + "index.html" if (folder / "index.html").exists() else "",
@@ -107,11 +110,22 @@ def load_kurikulum(repo_root):
     return out
 
 
+def bank_sizes(repo_root):
+    """{(nivo, razred, predmet): {broj: item count}} from shared/banke/{nivo}/{razred}/{predmet}/{NN-slug}.yaml."""
+    out = {}
+    for p in sorted((repo_root / "shared" / "banke").glob("*/*/*/[0-9][0-9]-*.yaml")):
+        with open(p) as f:
+            b = yaml.safe_load(f) or {}
+        key = (p.parents[2].name, int(p.parents[1].name), p.parent.name)
+        out.setdefault(key, {})[int(p.name[:2])] = sum(len(d["zadaci"]) for d in b.get("delovi") or [])
+    return out
+
+
 def predmet_key(predmet):
     return (PREDMET_ORDER.index(predmet), "") if predmet in PREDMET_ORDER else (len(PREDMET_ORDER), predmet)
 
 
-def build_tree(tools, kurikulum, lesson_root):
+def build_tree(tools, kurikulum, lesson_root, banke):
     """Levels › grades › subjects › chapters › lessons, with tool slugs attached where they belong and
     `tekst` = the protected lesson page (zasticeno/lekcije/…, scripts/build_lekcije.py) where it exists."""
     unplaced = [t for t in tools if not (t["nivo"] and t["razred"])]
@@ -138,6 +152,7 @@ def build_tree(tools, kurikulum, lesson_root):
             for predmet in predmeti:
                 st = [t for t in here if t["predmet"] == predmet]
                 k = kurikulum.get((nivo, razred, predmet)) or {}
+                banka = banke.get((nivo, razred, predmet)) or {}
                 numbers = set()
                 chapters = []
                 for pg in k.get("poglavlja") or []:
@@ -148,6 +163,7 @@ def build_tree(tools, kurikulum, lesson_root):
                         tekst = sorted(lesson_root.glob(f"{predmet}/{razred}/{n:02d}-*/bundle.enc"))
                         lessons.append({"broj": n, "naslov": l["naslov"],
                                         "tools": [t["slug"] for t in st if n in t["lekcije"]],
+                                        "banka": banka.get(n, 0),
                                         "tekst": tekst[0].parent.relative_to(lesson_root.parent.parent).as_posix() + "/" if tekst else ""})
                     chapters.append({"naslov": pg.get("naslov", ""), "lekcije": lessons})
                 for t in st:
@@ -159,6 +175,8 @@ def build_tree(tools, kurikulum, lesson_root):
                     "predmet": predmet, "title": predmet_title(predmet), "udzbenik": k.get("udzbenik", ""),
                     "poglavlja": chapters,
                     "whole": [t["slug"] for t in st if not (set(t["lekcije"]) & numbers)],
+                    "kvizovi": [t["slug"] for t in st if len(t["lekcije"]) > 1],   # defined over several lessons
+                    "banka": sum(banka.values()),
                     "tools": [t["slug"] for t in st],
                 })
             grades.append({"razred": razred, "title": razred_title(razred), "subjects": subjects})
@@ -214,6 +232,7 @@ __SHELL_CSS__
  .lessons li.none a.ln{color:#9b9387}
  .tchip{font-size:12px;color:var(--accent);border:1px solid #bfe0c8;background:#eef7f0;border-radius:10px;padding:1px 9px;text-decoration:none;white-space:nowrap}
  .tchip:hover{background:#d8f0dd}
+ .bchip{font-size:12px;color:var(--muted);white-space:nowrap}
  .tchip.txt{color:#7a4b12;border-color:#ecd3a8;background:#fbf3e3} .tchip.txt:hover{background:#f5e6c8}
  .tile.txt{border-color:#ecd3a8;background:#fbf3e3} .tile.txt:hover{border-color:#c98a2c;background:#fff}
  .pager{display:flex;justify-content:space-between;gap:12px;margin-top:24px;font-size:13px}
@@ -312,14 +331,18 @@ function subjectView(lv, g, s, sel) {
   const base = lv.nivo + '/' + g.razred + '/' + s.predmet;
   let h = '<h1>' + esc(s.title) + '</h1><p class="lead">' + esc(g.title) + ' · ' + esc(lv.title) +
           (s.udzbenik ? ' · udžbenik: ' + esc(s.udzbenik) : '') + '</p>';
+  if (s.banka) h += '<p class="meta">Gradivo: ' + plural(lessonsOf(s).filter(l => l.tekst).length, 'lekcija', 'lekcije', 'lekcija') + ' · Banka: ' +
+    plural(s.banka, 'pitanje', 'pitanja', 'pitanja') + ' · Kvizovi: ' + s.kvizovi.length + '</p>';
+  if (s.kvizovi.length) h += '<h2>Kvizovi i testovi</h2>' + toolTiles(s.predmet, s.kvizovi, base, sel);
   if (s.whole.length) h += '<h2>' + (s.poglavlja.length ? 'Za ceo predmet' : 'Alati') + '</h2>' + toolTiles(s.predmet, s.whole, base, sel);
   if (!s.poglavlja.length && !s.whole.length) h += '<div class="empty">Još nema alata.</div>';
   if (!s.poglavlja.length && s.whole.length) h += '<p class="meta">Lekcije za ovaj predmet još nisu unete (shared/kurikulum/' + base + '.yaml).</p>';
   for (const p of s.poglavlja) {
     h += '<h2>' + esc(p.naslov) + '</h2><ul class="lessons">' + p.lekcije.map(l =>
       '<li' + (l.tools.length || l.tekst ? '' : ' class="none"') + '><a class="ln" href="#/' + base + '/' + l.broj + '">' + l.broj + '. ' + esc(l.naslov) + '</a>' +
+      (l.banka ? '<span class="bchip" title="Pitanja u banci za ovu lekciju">' + plural(l.banka, 'pitanje', 'pitanja', 'pitanja') + '</span>' : '') +
       (l.tekst ? '<a class="tchip txt" href="' + l.tekst + '">Tekst lekcije</a>' : '') +
-      l.tools.map(slug => '<a class="tchip" href="#/' + base + '/' + l.broj + '?t=' + slug + '">' + esc(tool(s.predmet, slug).title) + '</a>').join('') +
+      l.tools.filter(slug => !s.kvizovi.includes(slug)).map(slug => '<a class="tchip" href="#/' + base + '/' + l.broj + '?t=' + slug + '">' + esc(tool(s.predmet, slug).title) + '</a>').join('') +
       '</li>').join('') + '</ul>';
   }
   return h;
@@ -329,8 +352,9 @@ function lessonView(lv, g, s, l, sel) {
   const all = lessonsOf(s), i = all.findIndex(x => x.broj === l.broj);
   const link = x => x ? '<a href="#/' + base + '/' + x.broj + '">' : '<span>';
   return '<h1>' + l.broj + '. ' + esc(l.naslov) + '</h1><p class="lead">' + esc(s.title) + ' · ' + esc(g.title) + ' · ' + esc(l.poglavlje) + '</p>' +
-    (l.tekst ? '<h2>Tekst lekcije</h2><div class="tiles"><a class="tile txt" href="' + l.tekst + '"><b>Cela lekcija ›</b><span>Strane udžbenika redom, uz beleške po odeljcima i slike. Lozinku daje nastavnik.</span></a></div>' : '') +
-    (l.tools.length ? '<h2>Alati</h2>' + toolTiles(s.predmet, l.tools, base + '/' + l.broj, sel) : '<div class="empty">Za ovu lekciju još nema alata.</div>') +
+    (l.tekst ? '<h2>Gradivo</h2><div class="tiles"><a class="tile txt" href="' + l.tekst + '"><b>Cela lekcija ›</b><span>Strane udžbenika redom, uz beleške po odeljcima i slike. Lozinku daje nastavnik.</span></a></div>' : '') +
+    (l.banka ? '<h2>Banka pitanja</h2><p class="meta">' + plural(l.banka, 'pitanje', 'pitanja', 'pitanja') + ' za ovu lekciju; kvizovi i testovi se prave iz banke.</p>' : '') +
+    (l.tools.length ? '<h2>' + (l.banka ? 'Kvizovi i testovi' : 'Alati') + '</h2>' + toolTiles(s.predmet, l.tools, base + '/' + l.broj, sel) : '<div class="empty">Za ovu lekciju još nema alata.</div>') +
     '<div class="pager">' + (all[i - 1] ? link(all[i - 1]) + '‹ ' + all[i - 1].broj + '. ' + esc(all[i - 1].naslov) + '</a>' : '<span></span>') +
     (all[i + 1] ? link(all[i + 1]) + all[i + 1].broj + '. ' + esc(all[i + 1].naslov) + ' ›</a>' : '<span></span>') + '</div>';
 }
@@ -407,7 +431,7 @@ def main():
     kurikulum = load_kurikulum(repo_root)
     out_path = repo_root / "index.html"
 
-    tree = build_tree(tools, kurikulum, repo_root / "zasticeno" / "lekcije")
+    tree = build_tree(tools, kurikulum, repo_root / "zasticeno" / "lekcije", bank_sizes(repo_root))
     tools.sort(key=lambda t: (predmet_key(t["predmet"]), t["slug"]))
     js = lambda o: json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
     html_out = (PAGE

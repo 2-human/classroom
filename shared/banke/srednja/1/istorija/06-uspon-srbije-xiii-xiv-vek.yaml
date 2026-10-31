@@ -1,0 +1,2271 @@
+# Banka pitanja: Uspon Srbije u XIII i XIV veku (istorija, 1. razred srednje škole, str. 30–33). Sopstvenim rečima, po belešci lekcije.
+lekcija: 6
+naslov: "Uspon Srbije u XIII i XIV veku"
+pojmovi:
+  nemanjici: "Nemanjići"
+  kralj-milutin: "kralj Milutin"
+  car-dusan: "car Dušan"
+  feudalno-drustvo: "feudalno društvo"
+  sasi: "Sasi"
+  dubrovcani: "Dubrovčani"
+  dinasticki-sukobi: "dinastički sukobi"
+  stefan-radoslav: "Stefan Radoslav"
+  stefan-vladislav: "Stefan Vladislav"
+  stefan-uros-i: "Stefan Uroš I"
+  rudarstvo: "rudarstvo"
+  trgovi: "trgovi"
+  gradovi: "gradovi"
+  jelena-anzujska: "Jelena Anžujska"
+  ktitor: "ktitor"
+  manastir-gradac: "manastir Gradac"
+  erdelj: "Erdelj"
+  brskovo: "Brskovo"
+  novo-brdo: "Novo Brdo"
+  srebro: "srebro"
+  olovo: "olovo"
+  stefan-dragutin: "Stefan Dragutin"
+  manastir-gracanica: "manastir Gračanica"
+  manastir-banjska: "manastir Banjska"
+  severna-makedonija: "severna Makedonija"
+  sveta-gora: "Sveta Gora"
+  branicevo: "Braničevo"
+  dunav: "Dunav"
+  stefan-decanski: "Stefan Dečanski"
+  bitka-kod-velbuzda: "bitka kod Velbužda"
+  bosanski-ban-stjepan-ii: "bosanski ban Stjepan II"
+  hum: "Hum"
+  albanija: "Albanija"
+  grcka: "Grčka"
+  najamnici: "najamnici"
+  vitez-palman: "vitez Palman"
+  palisada: "palisada"
+  ser: "Ser"
+  patrijarh-joanikije: "patrijarh Joanikije"
+  skoplje: "Skoplje"
+  dusanov-zakonik: "Dušanov Zakonik"
+  savladarstvo: "savladarstvo"
+  stefan-uros-nejaki: "Stefan Uroš Nejaki"
+  bastina: "baština"
+  pronija: "pronija"
+  vlastela: "vlastela"
+  velmoze: "velmože"
+  vlastelicici: "vlasteličići"
+  vojnici: "vojnici"
+  zavisni-seljaci: "zavisni seljaci"
+  rezidencija: "rezidencija"
+  osmanlije: "Turci Osmanlije"
+  korintski-zaliv: "Korintski zaliv"
+  vizantija: "Vizantija"
+delovi:
+  # ==========================================================================
+  - naslov: "Uspon i širenje kraljevine Srbije"
+    zadaci:
+      - id: l06-izbor-sasi-ko
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [sasi, rudarstvo, erdelj]
+        pitanje: "Ko su bili Sasi?"
+        odgovori:
+          - {tekst: "nemački rudari", tacan: true}
+          - {tekst: "dubrovački trgovci", tacan: false, zasto: "Trgovinu su razvijali Dubrovčani, a Sasi su bili nemački rudari."}
+          - {tekst: "vizantijski velikaši", tacan: false, zasto: "Sasi nisu Vizantinci; došli su iz Erdelja kao vešti rudari."}
+          - {tekst: "krupno srpsko plemstvo", tacan: false, zasto: "Krupno plemstvo su vlastela ili velmože; Sasi su došljaci rudari."}
+        pomoc:
+          - "Uz njih se otvara mnogo rudnika."
+          - "Došli su iz Erdelja, ali su po poreklu Nemci."
+          - "Iz lekcije: za vreme Uroša I iz Erdelja stižu vešti nemački rudari Sasi."
+        objasnjenje: "Sasi su vešti nemački rudari koji su u Srbiju stigli iz Erdelja za vreme Uroša I."
+        iz_udzbenika: {strana: 30, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Za vreme Uroša I iz Erdelja stižu vešti nemački rudari Sasi."}
+
+      - id: l06-izbor-trgovina-ko
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [dubrovcani]
+        pitanje: "Ko je u ovom razdoblju razvijao trgovinu u Srbiji?"
+        odgovori:
+          - {tekst: "Dubrovčani", tacan: true}
+          - {tekst: "Sasi", tacan: false, zasto: "Sasi su bili rudari; trgovinu su razvijali Dubrovčani."}
+          - {tekst: "Turci Osmanlije", tacan: false, zasto: "Osmanlije se javljaju kao osvajači u drugoj polovini XIV veka, a ne kao nosioci trgovine u Srbiji."}
+          - {tekst: "zavisni seljaci", tacan: false, zasto: "Zavisni seljaci su obrađivali zemlju; trgovinu su razvijali Dubrovčani."}
+        pomoc:
+          - "Rudari i trgovci su različite grupe."
+          - "Trgovci su došli iz grada na Jadranu."
+          - "Iz lekcije: trgovinu razvijaju Dubrovčani."
+        objasnjenje: "Dok su Sasi otvarali rudnike, trgovinu su razvijali Dubrovčani."
+        iz_udzbenika: {strana: 30, odeljak: "Uvod", tekst: "U Srbiju dolaze nemački rudari, a trgovinu razvijaju Dubrovčani."}
+
+      - id: l06-izbor-jelena-veroispovest
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [jelena-anzujska, stefan-uros-i]
+        pitanje: "Ko je bila Jelena Anžujska?"
+        odgovori:
+          - {tekst: "francuska princeza i žena kralja Uroša I", tacan: true}
+          - {tekst: "ćerka cara Dušana", tacan: false, zasto: "Jelena je bila žena Uroša I, mnogo pre Dušanovog vremena."}
+          - {tekst: "bosanska banica", tacan: false, zasto: "Bila je francuska princeza, a ne vladarka Bosne."}
+          - {tekst: "vizantijska carica", tacan: false, zasto: "Knjiga je opisuje kao francusku princezu i ženu Uroša I."}
+        pomoc:
+          - "Ime Anžujska upućuje na njeno zapadno poreklo."
+          - "Bila je katolkinja na srpskom dvoru."
+          - "Iz lekcije: Uroš I je oženio francusku princezu Jelenu Anžujsku."
+        objasnjenje: "Jelena Anžujska je francuska princeza koju je oženio Uroš I."
+        iz_udzbenika: {strana: 30, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Uroš I je oženio francusku princezu Jelenu Anžujsku."}
+
+      - id: l06-izbor-sta-kopa
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [srebro, olovo, rudarstvo]
+        pitanje: "Šta se kopalo u srpskim rudnicima? (više tačnih)"
+        odgovori:
+          - {tekst: "srebro", tacan: true}
+          - {tekst: "olovo", tacan: true}
+          - {tekst: "so", tacan: false, zasto: "Knjiga navodi srebro, olovo i druge skupocene metale, a so nije metal."}
+          - {tekst: "ugalj", tacan: false, zasto: "Ugalj se u lekciji ne pominje; kopali su se srebro i olovo."}
+        pomoc:
+          - "Traže se metali."
+          - "Dva odgovora su tačna."
+          - "Iz lekcije: kopali su se srebro i olovo i drugi skupoceni metali."
+        objasnjenje: "U rudnicima su se kopali srebro, olovo i drugi skupoceni metali."
+        iz_udzbenika: {strana: 30, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Kopali su se srebro i olovo i drugi skupoceni metali.", slika: "06-uspon-srbije-xiii-xiv-vek/06-srednjovekovni-srpski-novac.jpg"}
+
+      - id: l06-izbor-privreda-uros
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [stefan-uros-i, rudarstvo, trgovi, gradovi]
+        pitanje: "Šta je bilo novo u privredi Srbije pod Urošem I u odnosu na ranije?"
+        odgovori:
+          - {tekst: "Uz zemljoradnju i stočarstvo razvija se rudarstvo, a zatim trgovi i gradovi", tacan: true}
+          - {tekst: "Zemljoradnja je potpuno napuštena", tacan: false, zasto: "Zemljoradnja i stočarstvo su ostali; rudarstvo im se pridružilo."}
+          - {tekst: "Država je prvi put počela da ratuje", tacan: false, zasto: "Ratovalo se i ranije; pod Urošem I težište je na privredi."}
+          - {tekst: "Sasi su preuzeli presto", tacan: false, zasto: "Sasi su bili rudari, a presto je ostao Nemanjićima."}
+        pomoc:
+          - "Traži šta je dodato starim zanimanjima."
+          - "Prvo rudnici, pa mesta trgovine."
+          - "Iz lekcije: uz zemljoradnju i stočarstvo razvija se rudarstvo, a zatim trgovi i gradovi."
+        objasnjenje: "Staroj zemljoradnji i stočarstvu pridružuje se rudarstvo, a sa njim rastu trgovi i gradovi."
+        iz_udzbenika: {strana: 30, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Pod Urošem I razvija se rudarstvo, a zatim trgovi i gradovi kao mesta trgovine."}
+        osa: {naziv: "Stefan Uroš I", od: 1243, do: 1276, traka: vladari}
+
+      - id: l06-izbor-rudnici-gde
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [brskovo, novo-brdo]
+        pitanje: "Koja dva rudnika knjiga posebno navodi?"
+        odgovori:
+          - {tekst: "Brskovo na Tari i Novo Brdo kod Kosova", tacan: true}
+          - {tekst: "Gradac i Banjsku", tacan: false, zasto: "To su manastiri: Gradac je Jelenina, a Banjska Milutinova zadužbina."}
+          - {tekst: "Velbužd i Ser", tacan: false, zasto: "Velbužd je mesto bitke, a Ser grad u kom se Dušan proglasio za cara."}
+          - {tekst: "Braničevo i Hum", tacan: false, zasto: "To su oblasti: Braničevo je vezano za Milutina, a Hum za gubitak pod Dušanom."}
+        pomoc:
+          - "Jedan je na reci Tari."
+          - "Drugi u imenu ima reč brdo."
+          - "Iz lekcije: važni rudnici su Brskovo na Tari i Novo Brdo kod Kosova."
+        objasnjenje: "Knjiga izdvaja Brskovo na Tari i Novo Brdo kod Kosova."
+        iz_udzbenika: {strana: 30, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Otvoreni su važni rudnici, među njima Brskovo na Tari i Novo Brdo kod Kosova."}
+
+      - id: l06-izbor-radoslav-vladislav
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [stefan-radoslav, stefan-vladislav, stefan-uros-i]
+        pitanje: "U kakvom su odnosu bila trojica kraljeva koji su vladali posle Stefana Prvovenčanog?"
+        odgovori:
+          - {tekst: "Bili su njegovi sinovi: Radoslav, Vladislav i Uroš I", tacan: true}
+          - {tekst: "Bili su njegova braća", tacan: false, zasto: "Bili su mu sinovi, a ne braća."}
+          - {tekst: "Bili su vizantijski namesnici", tacan: false, zasto: "To su Nemanjići, kraljevi Srbije."}
+          - {tekst: "Bili su unuci Stefana Dušana", tacan: false, zasto: "Dušan živi mnogo kasnije; ova trojica su sinovi Stefana Prvovenčanog."}
+        pomoc:
+          - "Presto ostaje u porodici Nemanjić."
+          - "Radi se o sledećoj generaciji."
+          - "Iz lekcije: presto su redom držali njegovi sinovi."
+        objasnjenje: "Posle Stefana Prvovenčanog vladali su redom njegovi sinovi Radoslav, Vladislav i Uroš I."
+        iz_udzbenika: {strana: 30, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Posle Stefana Prvovenčanog presto su redom držali njegovi sinovi."}
+
+      - id: l06-tn-sukobi
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [dinasticki-sukobi, nemanjici]
+        tvrdnja: "Tipična pojava ovog doba bili su sukobi unutar dinastije oko nasleđivanja prestola."
+        tacno: true
+        pomoc:
+          - "Seti se kako je Dušan došao na vlast."
+          - "Iz lekcije: tipična pojava tog doba su sukobi unutar dinastije oko prestola."
+        objasnjenje: "Tačno. Sukobi oko prestola bili su česti, a Dušan je čak silom preuzeo vlast od oca."
+        iz_udzbenika: {strana: 30, odeljak: "Uvod", tekst: "Tipična pojava tog doba su sukobi unutar dinastije oko nasleđivanja prestola."}
+
+      - id: l06-tn-jelena-katolkinja
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [jelena-anzujska]
+        tvrdnja: "Jelena Anžujska je prešla u pravoslavlje kada se udala za Uroša I."
+        tacno: false
+        ispravke:
+          - {tekst: "Ostala je katolkinja, ali je poštovala Srpsku pravoslavnu crkvu.", tacan: true}
+          - {tekst: "Prešla je u pravoslavlje, a katolike je progonila.", tacan: false, zasto: "Ostala je katolkinja, a cenili su je i pravoslavni i katolici."}
+          - {tekst: "Bila je bogumilka.", tacan: false, zasto: "Knjiga kaže da je bila katolkinja."}
+        pomoc:
+          - "Poreklom je sa zapada."
+          - "Bila je ktitor i pored druge vere."
+          - "Iz lekcije: ostala je katolkinja, ali je poštovala Srpsku pravoslavnu crkvu."
+        objasnjenje: "Netačno. Jelena je ostala katolkinja, ali je poštovala pravoslavnu crkvu i bila njen ktitor."
+        iz_udzbenika: {strana: 30, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Ostala je katolkinja, ali je poštovala Srpsku pravoslavnu crkvu i bila njen ktitor."}
+
+      - id: l06-tn-dragutin
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [stefan-dragutin, kralj-milutin]
+        tvrdnja: "Dragutin je od brata Milutina preuzeo presto."
+        tacno: false
+        ispravke:
+          - {tekst: "Dragutin je presto ustupio bratu Milutinu.", tacan: true}
+          - {tekst: "Dragutin je presto ustupio sinu Dušanu.", tacan: false, zasto: "Dušan nije Dragutinov sin; Dragutin je presto ustupio bratu."}
+          - {tekst: "Dragutin je presto izgubio u bici kod Velbužda.", tacan: false, zasto: "Velbužd je 1330, u vreme Stefana Dečanskog."}
+        pomoc:
+          - "Pazi na redosled vladanja."
+          - "Dragutin vlada pre Milutina."
+          - "Iz lekcije: Dragutin (1276–1282) ustupio je presto bratu Milutinu."
+        objasnjenje: "Netačno. Dragutin je vladao pre Milutina i ustupio mu je presto."
+        iz_udzbenika: {strana: 31, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Urošev sin Stefan Dragutin (1276–1282) ustupio je presto bratu Milutinu."}
+        osa: {naziv: "Stefan Dragutin", od: 1276, do: 1282, traka: vladari}
+
+      - id: l06-tn-feudalni-poredak
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [feudalno-drustvo]
+        tvrdnja: "U XIII i XIV veku feudalni društveni poredak u Srbiji dobija potpun oblik."
+        tacno: true
+        pomoc:
+          - "Pogledaj uvod lekcije."
+          - "Iz lekcije: u XIII i XIV veku feudalni poredak dobija potpun oblik."
+        objasnjenje: "Tačno. U tom razdoblju feudalni poredak se u Srbiji potpuno oblikuje."
+        iz_udzbenika: {strana: 30, odeljak: "Uvod", tekst: "U XIII i XIV veku feudalni društveni poredak u Srbiji dobija potpun oblik."}
+        osa: {naziv: "Razvoj feudalnog društva u Srbiji", od: 1100, do: 1400, traka: dogadjaji, oznaka: "od XII do XIV veka"}
+
+      - id: l06-dopuni-rudari-lako
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [sasi, dubrovcani, stefan-uros-i]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Za vreme kralja {{Uroša I}} nemački rudari {{Sasi}} otvaraju rudnike, a trgovinu razvijaju {{Dubrovčani}}."
+        ponudjene: ["Uroša I", "Sasi", "Dubrovčani", "Dušana", "Grci", "Osmanlije"]
+        pomoc:
+          - "Vladar je sin Stefana Prvovenčanog."
+          - "Rudari su Nemci."
+          - "Iz lekcije: Sasi dolaze za vreme Uroša I, a trgovinu razvijaju Dubrovčani."
+        objasnjenje: "Pod Urošem I dolaze Sasi, a uz njih trgovinu razvijaju Dubrovčani."
+        iz_udzbenika: {strana: 30, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Za vreme Uroša I stižu Sasi, a trgovinu razvijaju Dubrovčani."}
+
+      - id: l06-dopuni-vladari-tesko
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [stefan-radoslav, stefan-vladislav, stefan-uros-i, stefan-dragutin, kralj-milutin]
+        pitanje: "Dopuni niz vladara (bez ponuđenih reči)."
+        tekst: "Posle Stefana Prvovenčanog vladaju njegovi sinovi Radoslav, {{Vladislav}} i Uroš I, a zatim Urošev sin {{Dragutin}}, koji presto ustupa bratu {{Milutinu}}."
+        pomoc:
+          - "Dva brata, a zatim dvojica Uroševih sinova."
+          - "Poslednji je veliki ktitor."
+          - "Iz lekcije: Radoslav, Vladislav, Uroš I, Dragutin, Milutin."
+        objasnjenje: "Niz je Radoslav, Vladislav, Uroš I, Dragutin, Milutin."
+        iz_udzbenika: {strana: 31, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Presto drže Radoslav, Vladislav, Uroš I, Dragutin i Milutin."}
+
+      - id: l06-povezi-privreda
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [sasi, dubrovcani, brskovo, jelena-anzujska]
+        pitanje: "Poveži pojam sa onim što ga opisuje."
+        parovi:
+          - ["Sasi", "nemački rudari iz Erdelja"]
+          - ["Dubrovčani", "razvijali su trgovinu"]
+          - ["Brskovo", "rudnik na Tari"]
+          - ["Gradac", "zadužbina Jelene Anžujske"]
+        pomoc:
+          - "Dve grupe ljudi i dva mesta."
+          - "Gradac je manastir."
+          - "Iz lekcije: Sasi su rudari, Dubrovčani trgovci, Brskovo rudnik, a Gradac Jelenina zadužbina."
+        objasnjenje: "Sasi su rudari, Dubrovčani trgovci, Brskovo rudnik, Gradac zadužbina."
+        iz_udzbenika: {strana: 30, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Sasi i Dubrovčani jačaju privredu, a Jelena Anžujska podiže Gradac."}
+
+      - id: l06-zakljuci-jelena-ktitor
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [jelena-anzujska, ktitor]
+        pitanje: "Jelena je ostala katolkinja, a bila je ktitor pravoslavne crkve. Šta iz toga zaključujemo?"
+        odgovori:
+          - {tekst: "Različita vera nije sprečila vladarku da poštuje i pomaže crkvu svoje nove zemlje", tacan: true}
+          - {tekst: "Katolici u Srbiji nisu smeli da imaju svoju veru", tacan: false, zasto: "Jelena je ostala katolkinja i cenili su je i katolici."}
+          - {tekst: "Ona je zapravo tajno bila pravoslavna", tacan: false, zasto: "Knjiga kaže da je ostala katolkinja."}
+          - {tekst: "Pravoslavna crkva je odbila njenu pomoć", tacan: false, zasto: "Bila je njen ktitor, a cenili su je i pravoslavni."}
+        pomoc:
+          - "Korak 1: Koje je vere bila?"
+          - "Korak 2: Kako se ponašala prema pravoslavnoj crkvi?"
+          - "Iz lekcije: cenili su je i pravoslavni i katolici."
+        objasnjenje: "Jelena pokazuje da su katolkinja na dvoru i pravoslavna crkva mogle da sarađuju."
+        iz_udzbenika: {strana: 30, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Ostala je katolkinja, poštovala je pravoslavnu crkvu i cenili su je i pravoslavni i katolici."}
+
+      - id: l06-zakljuci-rudnici-gradovi
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [rudarstvo, trgovi, gradovi]
+        pitanje: "Zašto knjiga navodi da su se trgovi i gradovi razvili posle rudarstva?"
+        odgovori:
+          - {tekst: "Rudno bogatstvo je trebalo prodavati, pa su rasla mesta trgovine", tacan: true}
+          - {tekst: "Gradove su osnovali monasi radi hodočašća", tacan: false, zasto: "Knjiga trgove i gradove opisuje kao mesta trgovine."}
+          - {tekst: "Gradovi su služili samo kao vojne tvrđave", tacan: false, zasto: "Lekcija ih navodi kao mesta trgovine."}
+          - {tekst: "Rudari su odbijali da žive na selu", tacan: false, zasto: "O tome knjiga ništa ne kaže; veza je trgovina."}
+        pomoc:
+          - "Korak 1: Šta se radi sa srebrom i olovom?"
+          - "Korak 2: Gde se trguje?"
+          - "Iz lekcije: dolazak Sasa → rudnici → razvoj rudarstva, zatim trgova i gradova."
+        objasnjenje: "Rudnici proizvode robu vrednu trgovine, a trgovini su potrebna mesta: trgovi i gradovi."
+        iz_udzbenika: {strana: 30, odeljak: "Uzrok → posledica", tekst: "Dolazak Sasa doveo je do rudnika, a zatim do trgova i gradova."}
+
+      - id: l06-zakljuci-strana-znanja
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [sasi, dubrovcani, jelena-anzujska]
+        pitanje: "Sasi, Dubrovčani i Jelena Anžujska došli su izvan Srbije. Šta to govori o njenom usponu?"
+        odgovori:
+          - {tekst: "Uspon se oslanjao i na ljude, znanje i veze sa strane", tacan: true}
+          - {tekst: "Srbija je tada bila zatvorena za strance", tacan: false, zasto: "Baš suprotno: stranci dolaze i imaju važnu ulogu."}
+          - {tekst: "Strancima je država bila predata na upravu", tacan: false, zasto: "Vlast je ostala kod Nemanjića."}
+          - {tekst: "Stranci su sprečili razvoj privrede", tacan: false, zasto: "Upravo su Sasi i Dubrovčani pokrenuli rudarstvo i trgovinu."}
+        pomoc:
+          - "Korak 1: Čime se bavio svako od njih?"
+          - "Korak 2: Da li je to pomoglo Srbiji?"
+          - "Iz lekcije: Sasi otvaraju rudnike, Dubrovčani razvijaju trgovinu, a Jelena pomaže crkvu."
+        objasnjenje: "Srbija je jačala i zato što je prihvatala strana znanja i veze."
+        iz_udzbenika: {strana: 30, odeljak: "Uvod", tekst: "Nemački rudari otvaraju rudnike, a trgovinu razvijaju Dubrovčani."}
+
+      - id: l06-datum-uros-i
+        vrsta: datum
+        tezina: lako
+        pojmovi: [stefan-uros-i]
+        dogadjaj: "Stefan Uroš I"
+        pitanje: "Od koje do koje godine je vladao kralj Stefan Uroš I?"
+        od: 1243
+        do: 1276
+        traka: vladari
+        pomoc:
+          - "Vladao je 33 godine."
+          - "Počeo je u petoj deceniji XIII veka."
+          - "Iz lekcije: Stefan Uroš I (1243–1276)."
+        objasnjenje: "Stefan Uroš I vladao je od 1243. do 1276."
+        iz_udzbenika: {strana: 30, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Kralj Stefan Uroš I vladao je 1243–1276."}
+
+      - id: l06-poredjaj-kraljevi
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [stefan-uros-i, stefan-dragutin, kralj-milutin]
+        pitanje: "Poređaj vladare, od najranijeg."
+        stavke:
+          - {tekst: "Stefan Uroš I", godina: 1243, do: 1276, naziv: "Stefan Uroš I", traka: vladari}
+          - {tekst: "Stefan Dragutin", godina: 1276, do: 1282, naziv: "Stefan Dragutin", traka: vladari}
+          - {tekst: "Stefan Uroš II Milutin", godina: 1282, do: 1321, naziv: "Kralj Milutin", traka: vladari}
+        pomoc:
+          - "Prvi je otac dvojice ostalih."
+          - "Dragutin ustupa presto bratu."
+          - "Iz lekcije: Uroš I, Dragutin, Milutin."
+        objasnjenje: "Uroš I (1243–1276), Dragutin (1276–1282), Milutin (1282–1321)."
+        iz_udzbenika: {strana: 31, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Uroša I nasleđuje Dragutin, a njega Milutin."}
+
+      - id: l06-lanac-sasi
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [sasi, rudarstvo, trgovi, gradovi]
+        karike: ["Dolaze Sasi iz Erdelja", "?", "Razvijaju se trgovi i gradovi"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Otvaraju se rudnici i razvija rudarstvo", tacan: true}
+          - {tekst: "Počinje rat sa Bugarskom", tacan: false, zasto: "To nema veze sa Sasima, koji su rudari."}
+          - {tekst: "Dušan se proglašava za cara", tacan: false, zasto: "To je mnogo kasnije, 1345."}
+        pomoc:
+          - "Korak 1: Čime su se bavili Sasi?"
+          - "Korak 2: Šta je trebalo pre trgovine metalima?"
+          - "Iz lekcije: dolazak Sasa → rudnici → rudarstvo, zatim trgovi i gradovi."
+        objasnjenje: "Sasi otvaraju rudnike, a rudarstvo pokreće trgove i gradove."
+        iz_udzbenika: {strana: 30, odeljak: "Uzrok → posledica", tekst: "Dolazak Sasa, rudnici, razvoj rudarstva, zatim trgova i gradova."}
+
+      - id: l06-lanac-privreda-vojska
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [rudarstvo, najamnici, vitez-palman]
+        karike: ["Rudarstvo i trgovina rastu", "?", "Dušan može da plati strane najamnike"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Vladar dobija velike prihode", tacan: true}
+          - {tekst: "Seljaci prestaju da rade zemlju", tacan: false, zasto: "Seljaci nastavljaju da rade; veza je novac od rudarstva i trgovine."}
+          - {tekst: "Sasi preuzimaju vlast", tacan: false, zasto: "Sasi su rudari, vlast nisu preuzimali."}
+        pomoc:
+          - "Korak 1: Šta je potrebno za plaćanje vojske?"
+          - "Korak 2: Odakle je stizao novac?"
+          - "Iz lekcije: prihodi od rudarstva i trgovine → plaćanje stranih najamnika."
+        objasnjenje: "Prihodi od rudarstva i trgovine omogućili su Dušanu da plati najamnike."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Prihodi od rudarstva i trgovine omogućili su Dušanu da plati najamnike."}
+
+      - id: l06-uporedi-sasi-dubrovcani
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [sasi, dubrovcani]
+        a: "Sasi"
+        b: "Dubrovčani"
+        pitanje: "Na koga se tvrdnja odnosi: Sase, Dubrovčane, obe grupe ili nijednu?"
+        tvrdnje:
+          - {tekst: "Bili su rudari.", odgovor: a, zasto: "Sasi su nemački rudari."}
+          - {tekst: "Razvijali su trgovinu.", odgovor: b, zasto: "Trgovinu razvijaju Dubrovčani."}
+          - {tekst: "Stigli su iz Erdelja.", odgovor: a, zasto: "Iz Erdelja stižu Sasi."}
+          - {tekst: "Doprineli su privrednom jačanju Srbije.", odgovor: oba, zasto: "Jedni rudarstvom, drugi trgovinom."}
+          - {tekst: "Krunisali su cara Dušana.", odgovor: nijedan, zasto: "Dušana je krunisao patrijarh Joanikije."}
+        pomoc:
+          - "Jedni kopaju, drugi prodaju."
+          - "Obe grupe jačaju privredu."
+          - "Iz lekcije: Sasi otvaraju rudnike, a Dubrovčani razvijaju trgovinu."
+        objasnjenje: "Sasi su nosioci rudarstva, a Dubrovčani trgovine."
+        iz_udzbenika: {strana: 30, odeljak: "Uvod", tekst: "Nemački rudari otvaraju rudnike, a trgovinu razvijaju Dubrovčani."}
+
+      - id: l06-kosam-jelena
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [jelena-anzujska, manastir-gradac]
+        tragovi:
+          - "Rođena sam kao francuska princeza."
+          - "Udala sam se za kralja iz porodice Nemanjić."
+          - "Ostala sam katolkinja, a podigla sam manastir Gradac."
+        odgovori:
+          - {tekst: "Jelena Anžujska", tacan: true}
+          - {tekst: "bosanski ban Stjepan II", tacan: false, zasto: "On je vladar Bosne koji je od Dušana oteo Hum."}
+          - {tekst: "patrijarh Joanikije", tacan: false, zasto: "On je prvi srpski patrijarh u lekciji, a ne francuska princeza."}
+          - {tekst: "vitez Palman", tacan: false, zasto: "Palman je nemački vitez, komandant najamnika."}
+        objasnjenje: "To je Jelena Anžujska, žena Uroša I."
+        iz_udzbenika: {strana: 30, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Jelena Anžujska je francuska princeza, žena Uroša I i ktitor Gradca."}
+
+      - id: l06-objasni-privreda
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [rudarstvo, sasi, dubrovcani, trgovi, gradovi]
+        pitanje: "Šta je prouzrokovalo jačanje privrede srpske srednjovekovne države?"
+        uzor: "Privreda je ojačala razvojem rudarstva uz pomoć nemačkih rudara Sasa. Trgovinu su razvijali Dubrovčani. Rasli su i trgovi i gradovi kao mesta trgovine."
+        ideje: ["Rudarstvo uz pomoć Sasa.", "Trgovina Dubrovčana.", "Rast trgova i gradova."]
+        objasnjenje: "Ovo je pitanje iz udžbenika sa str. 33."
+        iz_udzbenika: {strana: 33, odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika", tekst: "Privreda je ojačala razvojem rudarstva, trgovine i trgova i gradova."}
+
+      - id: l06-objasni-ktitor-jelena
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [jelena-anzujska, ktitor, manastir-gradac]
+        pitanje: "Objasni po čemu je Jelena Anžujska bila neobična kraljica."
+        uzor: "Bila je francuska princeza i ostala je katolkinja. Ipak je poštovala Srpsku pravoslavnu crkvu i bila njen ktitor, a podigla je i manastir Gradac. Cenili su je i pravoslavni i katolici."
+        ideje: ["Bila je katolkinja i francuska princeza.", "Poštovala je pravoslavnu crkvu i bila njen ktitor.", "Podigla je Gradac.", "Cenili su je i pravoslavni i katolici."]
+        objasnjenje: "Odgovor spaja njeno poreklo, veru i delo."
+        iz_udzbenika: {strana: 30, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Jelena je ostala katolkinja, a bila je ktitor i podigla je Gradac."}
+
+  # ==========================================================================
+  - naslov: "Širenje srpske države krajem XIII i početkom XIV veka"
+    zadaci:
+      - id: l06-izbor-milutin-pocetak
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [kralj-milutin]
+        pitanje: "Sa kojim kraljem počinje osetno teritorijalno širenje države?"
+        odgovori:
+          - {tekst: "sa Stefanom Urošem II Milutinom", tacan: true}
+          - {tekst: "sa Stefanom Dragutinom", tacan: false, zasto: "Dragutin je ustupio presto Milutinu; širenje počinje sa Milutinom."}
+          - {tekst: "sa Stefanom Radoslavom", tacan: false, zasto: "Radoslav je vladao mnogo ranije, a knjiga mu ne pripisuje širenje."}
+          - {tekst: "sa Stefanom Vladislavom", tacan: false, zasto: "Vladislav je sin Stefana Prvovenčanog; širenje počinje sa Milutinom."}
+        pomoc:
+          - "Vladao je od 1282."
+          - "Na slici drži model crkve."
+          - "Iz lekcije: sa Milutinom počinje osetno teritorijalno širenje države."
+        objasnjenje: "Sa Milutinom počinje osetno širenje države."
+        iz_udzbenika: {strana: 31, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Sa kraljem Milutinom počinje osetno teritorijalno širenje države.", slika: "06-uspon-srbije-xiii-xiv-vek/01-kralj-milutin.jpg"}
+        osa: {naziv: "Kralj Milutin", od: 1282, do: 1321, traka: vladari}
+
+      - id: l06-izbor-ktitor-sta
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [ktitor]
+        pitanje: "Ko je ktitor?"
+        odgovori:
+          - {tekst: "čovek koji podigne manastir i stara se o njegovoj zaštiti", tacan: true}
+          - {tekst: "komandant stranih najamnika", tacan: false, zasto: "Takav je bio vitez Palman; ktitor podiže manastir."}
+          - {tekst: "krupni plemić sa velikim posedima", tacan: false, zasto: "To je vlastelin ili velmoža; ktitor može biti bilo ko ko podigne i štiti manastir."}
+          - {tekst: "rudar iz Erdelja", tacan: false, zasto: "To su Sasi."}
+        pomoc:
+          - "Pojam je vezan za manastire."
+          - "Milutin na slici drži model crkve."
+          - "Iz lekcije: ktitor je čovek koji podigne manastir i stara se o njegovoj zaštiti."
+        objasnjenje: "Ktitor podiže manastir i brine o njegovoj zaštiti."
+        iz_udzbenika: {strana: 31, odeljak: "Širenje srpske države krajem XIII i početkom XIV veka", tekst: "Ktitor je čovek koji podigne manastir i stara se o njegovoj zaštiti."}
+
+      - id: l06-izbor-velbuzd-ko
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [bitka-kod-velbuzda, stefan-decanski]
+        pitanje: "Koga je Stefan Dečanski pobedio kod Velbužda 1330?"
+        odgovori:
+          - {tekst: "bugarsku vojsku", tacan: true}
+          - {tekst: "vizantijsku vojsku", tacan: false, zasto: "Kod Velbužda je razbijena bugarska, a ne vizantijska vojska."}
+          - {tekst: "Turke Osmanlije", tacan: false, zasto: "Osmanlije se javljaju u drugoj polovini XIV veka."}
+          - {tekst: "bosanskog bana", tacan: false, zasto: "Ban Stjepan II je oteo Hum od Dušana; kod Velbužda je pobeđena bugarska vojska."}
+        pomoc:
+          - "Protivnik nije Vizantija."
+          - "Isti narod kao velikaši u Braničevu."
+          - "Iz lekcije: razbio je bugarsku vojsku kod Velbužda (1330)."
+        objasnjenje: "Stefan Dečanski je 1330. razbio bugarsku vojsku kod Velbužda."
+        iz_udzbenika: {strana: 31, odeljak: "Širenje srpske države krajem XIII i početkom XIV veka", tekst: "Stefan Dečanski razbio je bugarsku vojsku kod Velbužda (1330)."}
+        osa: {naziv: "Bitka kod Velbužda", od: 1330, traka: dogadjaji}
+
+      - id: l06-izbor-milutin-osvajanja
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [kralj-milutin, severna-makedonija, branicevo, dunav, sveta-gora]
+        pitanje: "Šta je Milutin postigao u širenju države? (više tačnih)"
+        odgovori:
+          - {tekst: "Zauzeo je severnu Makedoniju", tacan: true}
+          - {tekst: "Proširio je vlast do Dunava pobedom u Braničevu", tacan: true}
+          - {tekst: "Upadao je vojskom u Grčku sve do Svete gore", tacan: true}
+          - {tekst: "Osvojio je srednju Grčku i Albaniju", tacan: false, zasto: "To je delo Dušana Silnog."}
+          - {tekst: "Doveo je Sase iz Erdelja", tacan: false, zasto: "Sasi dolaze za vreme Uroša I."}
+        pomoc:
+          - "Proširio se i na jug i na sever."
+          - "Tri odgovora su tačna."
+          - "Iz lekcije: severna Makedonija, upadi do Svete gore i vlast do Dunava."
+        objasnjenje: "Milutin je širio državu na jug (severna Makedonija, Grčka do Svete gore) i na sever (do Dunava)."
+        iz_udzbenika: {strana: 31, odeljak: "Širenje srpske države krajem XIII i početkom XIV veka", tekst: "Milutin je zauzeo severnu Makedoniju, upadao u Grčku do Svete gore i proširio vlast do Dunava."}
+
+      - id: l06-izbor-velbuzd-znacaj
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [bitka-kod-velbuzda, stefan-decanski]
+        pitanje: "Šta je Srbiji donela pobeda kod Velbužda?"
+        odgovori:
+          - {tekst: "političku prevlast na Balkanu", tacan: true}
+          - {tekst: "patrijarha", tacan: false, zasto: "Patrijarh je dobijen 1346, u Dušanovo vreme."}
+          - {tekst: "kraljevsku krunu", tacan: false, zasto: "Kraljevsku krunu je 1217. dobio Stefan Prvovenčani."}
+          - {tekst: "rudnike na Tari", tacan: false, zasto: "Brskovo na Tari je otvoreno ranije, za vreme Sasa."}
+        pomoc:
+          - "Radi se o moći među državama."
+          - "Prevlast nad susedima."
+          - "Iz lekcije: tako je doneo Srbiji političku prevlast na Balkanu."
+        objasnjenje: "Pobeda kod Velbužda donela je Srbiji političku prevlast na Balkanu."
+        iz_udzbenika: {strana: 31, odeljak: "Širenje srpske države krajem XIII i početkom XIV veka", tekst: "Pobeda kod Velbužda donela je Srbiji političku prevlast na Balkanu."}
+        osa: {naziv: "Bitka kod Velbužda", od: 1330, traka: dogadjaji}
+
+      - id: l06-tn-velbuzd-dusan-vladar
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [bitka-kod-velbuzda, car-dusan, stefan-decanski]
+        tvrdnja: "Kod Velbužda je kao vladar komandovao Dušan."
+        tacno: false
+        ispravke:
+          - {tekst: "Vladar je bio Stefan Dečanski, a Dušan se tamo istakao pre stupanja na presto.", tacan: true}
+          - {tekst: "Vladar je bio Milutin, a Dušan nije učestvovao u bici.", tacan: false, zasto: "Milutin je vladao do 1321, a bitka je 1330; Dušan se u njoj istakao."}
+          - {tekst: "Vladar je bio bosanski ban.", tacan: false, zasto: "Srpski vladar bio je Stefan Dečanski."}
+        pomoc:
+          - "Dušan počinje da vlada 1331."
+          - "Bitka je 1330."
+          - "Iz lekcije: vladar je Dečanski, a Dušan se dokazao kod Velbužda pre stupanja na presto."
+        objasnjenje: "Netačno. Vladao je Dečanski, a Dušan se tamo dokazao kao naslednik."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Još pre stupanja na presto Dušan se dokazao i kod Velbužda."}
+
+      - id: l06-tn-ktitor-milutin-tesko
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [ktitor, kralj-milutin, jelena-anzujska]
+        tvrdnja: "Ktitor u lekciji može biti samo muškarac iz vladarske porodice koji je pravoslavac."
+        tacno: false
+        ispravke:
+          - {tekst: "Ktitor je i katolkinja Jelena Anžujska, pa pojam ne zavisi od pola i vere.", tacan: true}
+          - {tekst: "Ktitor je zapravo svaki monah u manastiru.", tacan: false, zasto: "Ktitor podiže i štiti manastir, a nije svaki monah ktitor."}
+          - {tekst: "Ktitor je samo rimski papa.", tacan: false, zasto: "Papa nije ktitor; u lekciji su ktitori Milutin i Jelena."}
+        pomoc:
+          - "Seti se ko je još u lekciji nazvan ktitorom."
+          - "Ta osoba je bila žena i katolkinja."
+          - "Iz lekcije: Jelena Anžujska je bila ktitor, a ostala je katolkinja."
+        objasnjenje: "Netačno. I Jelena Anžujska, katolkinja, bila je ktitor."
+        iz_udzbenika: {strana: 30, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Jelena je ostala katolkinja i bila je ktitor."}
+
+      - id: l06-dopuni-milutin-lako
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [kralj-milutin, manastir-gracanica, manastir-banjska, dunav]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Kralj Milutin je proširio vlast do {{Dunava}}, a njegove najpoznatije zadužbine su {{Gračanica}} i {{Banjska}}."
+        ponudjene: ["Dunava", "Gračanica", "Banjska", "Korintskog zaliva", "Gradac", "Žiča"]
+        pomoc:
+          - "Korintski zaliv je granica Dušanovog carstva."
+          - "Gradac je Jelenin."
+          - "Iz lekcije: vlast do Dunava; zadužbine Gračanica i Banjska."
+        objasnjenje: "Milutin izbija na Dunav i podiže Gračanicu i Banjsku."
+        iz_udzbenika: {strana: 31, odeljak: "Širenje srpske države krajem XIII i početkom XIV veka", tekst: "Milutin je proširio vlast do Dunava i podigao Gračanicu i Banjsku.", slika: "06-uspon-srbije-xiii-xiv-vek/02-manastir-gracanica.jpg"}
+
+      - id: l06-povezi-vladari-dela
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [stefan-uros-i, kralj-milutin, stefan-decanski, car-dusan]
+        pitanje: "Poveži vladara sa njegovim glavnim doprinosom."
+        parovi:
+          - ["Uroš I", "privredno jačanje, dolazak Sasa"]
+          - ["Milutin", "severna Makedonija, Gračanica i Banjska"]
+          - ["Stefan Dečanski", "pobeda kod Velbužda"]
+          - ["Dušan", "carstvo i Zakonik"]
+        pomoc:
+          - "Redom po vremenu: privreda, širenje, bitka, carstvo."
+          - "Zakonik i carstvo su kraj niza."
+          - "Iz lekcije: Uroš I privreda, Milutin širenje, Dečanski Velbužd, Dušan carstvo."
+        objasnjenje: "Svaki vladar je dodao po nešto: privredu, teritoriju, prevlast i carstvo."
+        iz_udzbenika: {strana: 33, odeljak: "Zapamtite", tekst: "Nemanjini potomci nastavili su uspon države, a vrhunac je dostignut pod Dušanom."}
+
+      - id: l06-zakljuci-dva-pravca
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [kralj-milutin, severna-makedonija, dunav]
+        pitanje: "Šta nam Milutinova osvajanja govore o pravcima širenja države?"
+        odgovori:
+          - {tekst: "Država se širila i ka jugu i ka severu", tacan: true}
+          - {tekst: "Širila se samo ka zapadu, prema Bosni", tacan: false, zasto: "Makedonija i Grčka su na jugu, a Dunav na severu."}
+          - {tekst: "Država se smanjivala", tacan: false, zasto: "Milutin je širio državu."}
+          - {tekst: "Širila se samo ka moru", tacan: false, zasto: "Dunav i Makedonija nisu ka moru u tom smislu; Milutinov pravac je sever i jug."}
+        pomoc:
+          - "Korak 1: Gde je severna Makedonija?"
+          - "Korak 2: Gde je Dunav?"
+          - "Iz lekcije: ka jugu severna Makedonija i Grčka, ka severu Dunav."
+        objasnjenje: "Severna Makedonija i Grčka su na jugu, a Dunav na severu."
+        iz_udzbenika: {strana: 31, odeljak: "Širenje srpske države krajem XIII i početkom XIV veka", tekst: "Milutin je zauzeo severnu Makedoniju i proširio vlast do Dunava."}
+
+      - id: l06-zakljuci-velbuzd-put
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [bitka-kod-velbuzda, car-dusan]
+        pitanje: "Zašto je Velbužd važan i za kasnije Dušanove uspehe na jugu?"
+        odgovori:
+          - {tekst: "Prevlast nad Balkanom oslobodila je Srbiju jakog protivnika i otvorila put širenju", tacan: true}
+          - {tekst: "Velbužd je grad u kome je Dušan krunisan", tacan: false, zasto: "Krunisan je u Skoplju."}
+          - {tekst: "Bitka je Dušanu donela patrijarha", tacan: false, zasto: "Patrijarh je dobijen tek 1346."}
+          - {tekst: "Bitka je dovela Sase", tacan: false, zasto: "Sasi su došli pod Urošem I."}
+        pomoc:
+          - "Korak 1: Šta je Srbija stekla kod Velbužda?"
+          - "Korak 2: Kome je ta prevlast pomogla odmah posle?"
+          - "Iz lekcije: posle Velbužda Srbija ima političku prevlast; Dušan zatim osvaja vizantijske zemlje."
+        objasnjenje: "Sa prevlašću stečenom kod Velbužda Dušan je mogao da se okrene vizantijskim zemljama."
+        iz_udzbenika: {strana: 31, odeljak: "Širenje srpske države krajem XIII i početkom XIV veka", tekst: "Dečanski je obezbedio Srbiji političku prevlast na Balkanu."}
+
+      - id: l06-datum-milutin
+        vrsta: datum
+        tezina: lako
+        pojmovi: [kralj-milutin]
+        dogadjaj: "Kralj Milutin"
+        pitanje: "Od koje do koje godine je vladao kralj Milutin?"
+        od: 1282
+        do: 1321
+        traka: vladari
+        pomoc:
+          - "Počeo je posle Dragutina."
+          - "Vladao je 39 godina."
+          - "Iz lekcije: Stefan Uroš II Milutin (1282–1321)."
+        objasnjenje: "Milutin je vladao 1282–1321."
+        iz_udzbenika: {strana: 31, odeljak: "Uspon i širenje kraljevine Srbije", tekst: "Kralj Stefan Uroš II Milutin vladao je 1282–1321.", slika: "06-uspon-srbije-xiii-xiv-vek/01-kralj-milutin.jpg"}
+
+      - id: l06-datum-velbuzd
+        vrsta: datum
+        tezina: lako
+        pojmovi: [bitka-kod-velbuzda]
+        dogadjaj: "Bitka kod Velbužda"
+        pitanje: "Koje godine je bila bitka kod Velbužda?"
+        godina: 1330
+        traka: dogadjaji
+        pomoc:
+          - "Godinu dana pre Dušanovog dolaska na presto."
+          - "Okrugla godina u XIV veku."
+          - "Iz lekcije: kod Velbužda (1330)."
+        objasnjenje: "Bitka kod Velbužda bila je 1330."
+        iz_udzbenika: {strana: 31, odeljak: "Širenje srpske države krajem XIII i početkom XIV veka", tekst: "Dečanski je razbio bugarsku vojsku kod Velbužda (1330)."}
+
+      - id: l06-datum-decanski
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [stefan-decanski]
+        dogadjaj: "Stefan Dečanski"
+        pitanje: "Od koje do koje godine je vladao Stefan Dečanski?"
+        od: 1321
+        do: 1331
+        traka: vladari
+        pomoc:
+          - "Nasledio je Milutina."
+          - "Vladao je deset godina."
+          - "Iz lekcije: Stefan Uroš III Dečanski (1321–1331)."
+        objasnjenje: "Stefan Dečanski je vladao 1321–1331."
+        iz_udzbenika: {strana: 31, odeljak: "Širenje srpske države krajem XIII i početkom XIV veka", tekst: "Stefan Uroš III Dečanski vladao je 1321–1331."}
+
+      - id: l06-lanac-velbuzd
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [bitka-kod-velbuzda, stefan-decanski]
+        karike: ["Bugarska vojska je razbijena kod Velbužda", "?", "Dušan može da se širi ka Vizantiji"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Srbija stiče političku prevlast na Balkanu", tacan: true}
+          - {tekst: "Srbija gubi Hum", tacan: false, zasto: "Hum je izgubljen kasnije, dok se Dušan širio ka jugu."}
+          - {tekst: "Bugarska osvaja Srbiju", tacan: false, zasto: "Bugarska vojska je poražena, a ne pobednik."}
+        pomoc:
+          - "Korak 1: Ko je pobedio?"
+          - "Korak 2: Šta pobednik stiče?"
+          - "Iz lekcije: pobeda kod Velbužda → srpska politička prevlast na Balkanu."
+        objasnjenje: "Pobeda donosi prevlast, a prevlast omogućava širenje."
+        iz_udzbenika: {strana: 31, odeljak: "Uzrok → posledica", tekst: "Pobeda kod Velbužda (1330) donela je srpsku političku prevlast na Balkanu."}
+
+      - id: l06-lanac-branicevo
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [kralj-milutin, branicevo, dunav]
+        karike: ["Milutin pobeđuje bugarske velikaše", "?", "Država na severu izbija na veliku reku"]
+        praznina: 1
+        odgovori:
+          - {tekst: "U Braničevu se učvršćuje srpska vlast", tacan: true}
+          - {tekst: "U Seru se Dušan proglašava za cara", tacan: false, zasto: "To je 1345, mnogo posle Milutina."}
+          - {tekst: "Na Tari se otvara Brskovo", tacan: false, zasto: "Brskovo je rudnik iz doba Sasa, a nije na severnoj granici."}
+        pomoc:
+          - "Korak 1: Gde je bila ta pobeda?"
+          - "Korak 2: Do koje reke je vlast proširena?"
+          - "Iz lekcije: pobedom u Braničevu vlast je proširena do Dunava."
+        objasnjenje: "Pobeda u Braničevu proširila je Milutinovu vlast do Dunava."
+        iz_udzbenika: {strana: 31, odeljak: "Širenje srpske države krajem XIII i početkom XIV veka", tekst: "Pobedom nad bugarskim velikašima u Braničevu Milutin je proširio vlast do Dunava."}
+
+      - id: l06-izvor-milutin-freska
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [kralj-milutin, ktitor]
+        izvor: {autor: "Freska iz udžbenika", naslov: "Kralj Milutin (opis slike)", tekst: "Uspravna figura vladara u bogato ukrašenoj odeći, sa krunom i oreolom. U rukama drži model crkve sa više kupola, a nad njim je anđeo koji donosi krunu.", napomena: "Odlomak je prepričan; udžbenik, str. 30."}
+        pitanje: "Šta nam model crkve u rukama govori o ovom vladaru?"
+        odgovori:
+          - {tekst: "Da je ktitor", tacan: true}
+          - {tekst: "Da je rudar", tacan: false, zasto: "Rudari su Sasi; model crkve je znak ktitora."}
+          - {tekst: "Da je najamnik", tacan: false, zasto: "Najamnici su strani vojnici; crkva pokazuje ktitora."}
+          - {tekst: "Da je zavisni seljak", tacan: false, zasto: "Bogata odeća i kruna pokazuju vladara."}
+        pomoc:
+          - "Šta znači podići crkvu?"
+          - "Pojam počinje sa kt."
+          - "Iz lekcije: model u ruci pokazuje da je vladar ktitor."
+        objasnjenje: "Model crkve je znak ktitora, a Milutin je jedan od najvećih ktitora Nemanjića."
+        iz_udzbenika: {strana: 30, odeljak: "Širenje srpske države krajem XIII i početkom XIV veka", tekst: "Freska prikazuje Milutina sa modelom crkve, što pokazuje da je ktitor.", slika: "06-uspon-srbije-xiii-xiv-vek/01-kralj-milutin.jpg"}
+
+      - id: l06-uporedi-milutin-decanski
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [kralj-milutin, stefan-decanski]
+        a: "Milutin"
+        b: "Stefan Dečanski"
+        pitanje: "Na koga se tvrdnja odnosi: Milutina, Dečanskog, obojicu ili nijednog?"
+        tvrdnje:
+          - {tekst: "Zauzeo je severnu Makedoniju.", odgovor: a, zasto: "To je Milutin."}
+          - {tekst: "Pobedio je bugarsku vojsku kod Velbužda.", odgovor: b, zasto: "To je Dečanski, 1330."}
+          - {tekst: "Podigao je Banjsku.", odgovor: a, zasto: "Banjska je Milutinova zadužbina."}
+          - {tekst: "Doneo je Srbiji političku prevlast na Balkanu.", odgovor: b, zasto: "Prevlast je posledica Velbužda."}
+          - {tekst: "Širio je državu i preuzimao vizantijske običaje.", odgovor: oba, zasto: "Rubrika Zapamtite to navodi za obojicu."}
+          - {tekst: "Krunisan je za cara.", odgovor: nijedan, zasto: "Za cara je krunisan Dušan."}
+        pomoc:
+          - "Velbužd pripada mlađem od dvojice."
+          - "Car je tek sledeći."
+          - "Iz lekcije: Milutin širenje i zadužbine, Dečanski Velbužd."
+        objasnjenje: "Milutin širi državu i gradi, a Dečanski donosi prevlast."
+        iz_udzbenika: {strana: 33, odeljak: "Zapamtite", tekst: "Milutin i Stefan Dečanski proširili su državu i usvajali vizantijske običaje i kulturu."}
+
+      - id: l06-kosam-milutin
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [kralj-milutin, ktitor, manastir-gracanica]
+        tragovi:
+          - "Presto mi je ustupio brat Dragutin."
+          - "Zauzeo sam severnu Makedoniju i izbio na Dunav."
+          - "Podigao sam Gračanicu i Banjsku."
+        odgovori:
+          - {tekst: "kralj Milutin", tacan: true}
+          - {tekst: "Stefan Dečanski", tacan: false, zasto: "Dečanski je njegov naslednik i pobednik kod Velbužda."}
+          - {tekst: "car Dušan", tacan: false, zasto: "Dušan je osvojio Albaniju i Grčku, a presto je preuzeo silom."}
+          - {tekst: "Stefan Uroš I", tacan: false, zasto: "Uroš I je Milutinov otac."}
+        objasnjenje: "To je kralj Milutin (1282–1321)."
+        iz_udzbenika: {strana: 31, odeljak: "Širenje srpske države krajem XIII i početkom XIV veka", tekst: "Milutin je širio državu i bio jedan od najvećih ktitora.", slika: "06-uspon-srbije-xiii-xiv-vek/01-kralj-milutin.jpg"}
+
+      - id: l06-kosam-decanski
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [stefan-decanski, bitka-kod-velbuzda]
+        tragovi:
+          - "Vladao sam deset godina."
+          - "Nasledio sam Milutina."
+          - "Razbio sam bugarsku vojsku 1330."
+        odgovori:
+          - {tekst: "Stefan Dečanski", tacan: true}
+          - {tekst: "Stefan Dragutin", tacan: false, zasto: "Dragutin je vladao pre Milutina, šest godina."}
+          - {tekst: "Stefan Radoslav", tacan: false, zasto: "Radoslav je sin Stefana Prvovenčanog."}
+          - {tekst: "ban Stjepan II", tacan: false, zasto: "On je bosanski ban koji je Dušanu oteo Hum."}
+        objasnjenje: "To je Stefan Uroš III Dečanski (1321–1331)."
+        iz_udzbenika: {strana: 31, odeljak: "Širenje srpske države krajem XIII i početkom XIV veka", tekst: "Milutinov naslednik Stefan Dečanski razbio je bugarsku vojsku kod Velbužda."}
+
+      - id: l06-objasni-ktitor
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [ktitor, kralj-milutin]
+        pitanje: "Šta znači reč ktitor i zašto se koristi za kralja Milutina?"
+        uzor: "Ktitor je čovek koji podigne manastir i stara se o njegovoj zaštiti. Milutin je jedan od najvećih ktitora među Nemanjićima. Podigao je Gračanicu i Banjsku, a na freski drži model crkve."
+        ideje: ["Ktitor podiže i štiti manastir.", "Milutin je jedan od najvećih ktitora.", "Podigao je Gračanicu i Banjsku."]
+        objasnjenje: "Definicija i primer idu zajedno."
+        iz_udzbenika: {strana: 31, odeljak: "Širenje srpske države krajem XIII i početkom XIV veka", tekst: "Ktitor podiže manastir i stara se o njegovoj zaštiti; Milutin je jedan od najvećih."}
+
+      - id: l06-objasni-velbuzd
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [bitka-kod-velbuzda, stefan-decanski, car-dusan]
+        pitanje: "Zašto je bitka kod Velbužda bila prelomna za Srbiju?"
+        uzor: "Stefan Dečanski je 1330. razbio bugarsku vojsku. Time je Srbija stekla političku prevlast na Balkanu. U bici se istakao i Dušan, koji će posle preuzeti vlast i dovesti državu do vrhunca."
+        ideje: ["Bugarska vojska je razbijena 1330.", "Srbija je stekla političku prevlast na Balkanu.", "Dušan se istakao u bici."]
+        objasnjenje: "Bitka je važna po posledici: prevlasti."
+        iz_udzbenika: {strana: 31, odeljak: "Širenje srpske države krajem XIII i početkom XIV veka", tekst: "Pobedom kod Velbužda Dečanski je Srbiji doneo političku prevlast na Balkanu."}
+
+  # ==========================================================================
+  - naslov: "Dalje širenje državne teritorije"
+    zadaci:
+      - id: l06-izbor-dusan-vrhunac
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [car-dusan]
+        pitanje: "Pod kojim vladarem je srednjovekovna Srbija dostigla najveću teritoriju?"
+        odgovori:
+          - {tekst: "pod Dušanom Silnim", tacan: true}
+          - {tekst: "pod Urošem I", tacan: false, zasto: "Pod Urošem I država je prvenstveno privredno jačala."}
+          - {tekst: "pod Stefanom Prvovenčanim", tacan: false, zasto: "On je dobio krunu, a teritorijalni vrhunac dolazi mnogo kasnije."}
+          - {tekst: "pod Dragutinom", tacan: false, zasto: "Dragutin je vladao kratko i ustupio presto Milutinu."}
+        pomoc:
+          - "Nadimak mu govori o moći."
+          - "Postao je car."
+          - "Iz lekcije: teritorijalni vrhunac dostignut je pod Stefanom Dušanom Silnim."
+        objasnjenje: "Teritorijalni vrhunac dostignut je pod Dušanom Silnim (1331–1355)."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Teritorijalni vrhunac dostignut je pod Dušanom Silnim (1331–1355).", slika: "06-uspon-srbije-xiii-xiv-vek/05-srpsko-carstvo-sredinom-xiv-veka-karta.jpg"}
+        osa: {naziv: "Stefan Dušan", od: 1331, do: 1355, traka: vladari}
+
+      - id: l06-izbor-dusan-vlast-silom
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [car-dusan, stefan-decanski, dinasticki-sukobi]
+        pitanje: "Kako je Dušan došao na vlast?"
+        odgovori:
+          - {tekst: "Preuzeo ju je od oca silom", tacan: true}
+          - {tekst: "Otac mu je mirno predao presto i otišao na Svetu Goru", tacan: false, zasto: "Tako je postupio Nemanja; Dušan je vlast od oca preuzeo silom."}
+          - {tekst: "Izabrali su ga Dubrovčani", tacan: false, zasto: "Dubrovčani su trgovci i ne biraju vladara."}
+          - {tekst: "Postavio ga je vizantijski car", tacan: false, zasto: "Dušan je ratovao protiv Vizantije; presto je uzeo od oca."}
+        pomoc:
+          - "Seti se sukoba unutar dinastije."
+          - "Njegov otac je Stefan Dečanski."
+          - "Iz lekcije: vlast je od oca preuzeo silom."
+        objasnjenje: "Dušan je presto od oca preuzeo silom, što je primer dinastičkih sukoba tog doba."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Vlast je Dušan od oca preuzeo silom."}
+
+      - id: l06-izbor-palisada
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [palisada]
+        pitanje: "Šta je palisada?"
+        odgovori:
+          - {tekst: "ograda napravljena od šiljatih greda", tacan: true}
+          - {tekst: "kamena tvrđava sa kulama", tacan: false, zasto: "Palisada je drvena ograda, a dvorovi su bili skromni."}
+          - {tekst: "svilena tkanina na dvoru", tacan: false, zasto: "Svilu je na dvor uveo Milutin; palisada je ograda."}
+          - {tekst: "mesto stalnog boravka vladara", tacan: false, zasto: "To je rezidencija."}
+        pomoc:
+          - "Vezuje se za drvene dvorove."
+          - "Šiljato drvo."
+          - "Iz lekcije: palisada je ograda napravljena od šiljatih greda."
+        objasnjenje: "Palisada je ograda od šiljatih greda, a takvim ogradama bili su okruženi rani dvorovi."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Palisada je ograda napravljena od šiljatih greda."}
+
+      - id: l06-izbor-dusan-osvajanja
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [car-dusan, albanija, grcka, vizantija]
+        pitanje: "Koje teritorije je osvojio Dušan? (više tačnih)"
+        odgovori:
+          - {tekst: "Albaniju", tacan: true}
+          - {tekst: "severnu Grčku", tacan: true}
+          - {tekst: "srednju Grčku", tacan: true}
+          - {tekst: "Hum", tacan: false, zasto: "Hum je izgubio: oteo mu ga je bosanski ban Stjepan II."}
+          - {tekst: "Erdelj", tacan: false, zasto: "Iz Erdelja su došli Sasi; to nije Dušanovo osvajanje."}
+        pomoc:
+          - "To su delovi vizantijskih zemalja."
+          - "Tri odgovora su tačna."
+          - "Iz lekcije: Albaniju, severnu i srednju Grčku."
+        objasnjenje: "Dušan je osvojio velike delove vizantijskih zemalja: Albaniju, severnu i srednju Grčku."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Zauzeo je velike delove vizantijskih zemalja: Albaniju, severnu i srednju Grčku.", slika: "06-uspon-srbije-xiii-xiv-vek/05-srpsko-carstvo-sredinom-xiv-veka-karta.jpg"}
+
+      - id: l06-izbor-palman
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [vitez-palman, najamnici]
+        pitanje: "Ko je bio Palman?"
+        odgovori:
+          - {tekst: "nemački vitez koji je komandovao stranim najamnicima u Dušanovoj vojsci", tacan: true}
+          - {tekst: "bosanski ban", tacan: false, zasto: "Bosanski ban je Stjepan II."}
+          - {tekst: "srpski patrijarh", tacan: false, zasto: "Srpski patrijarh je Joanikije."}
+          - {tekst: "saski rudar iz Erdelja", tacan: false, zasto: "Sasi su rudari i došli su ranije, pod Urošem I; Palman je vitez."}
+        pomoc:
+          - "Povezuje se sa vojskom."
+          - "Takođe Nemac, ali ne rudar."
+          - "Iz lekcije: vojnici sa tla današnje Nemačke bili su pod komandom nemačkog viteza Palmana."
+        objasnjenje: "Palman je nemački vitez, komandant plaćenih vojnika u Dušanovoj vojsci."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Dušan je platio vojnike sa tla današnje Nemačke, pod komandom nemačkog viteza Palmana."}
+
+      - id: l06-tn-hum-osvojio
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [hum, car-dusan, bosanski-ban-stjepan-ii]
+        tvrdnja: "Dušan je izgubio Hum, koji mu je oteo bosanski ban Stjepan II."
+        tacno: true
+        pomoc:
+          - "Dok je osvajao jug, nešto je izgubio."
+          - "Iz lekcije: izgubio je Hum, koji mu je oteo bosanski ban Stjepan II."
+        objasnjenje: "Tačno. Dok se širio ka jugu, Dušan je izgubio Hum."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Dok se širio ka jugu, izgubio je Hum, koji mu je oteo bosanski ban Stjepan II."}
+
+      - id: l06-tn-dvorovi-rani
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [palisada]
+        tvrdnja: "Dvorovi velikih župana u Rasu bili su veliki kameni zamkovi."
+        tacno: false
+        ispravke:
+          - {tekst: "Bili su obične drvene kuće sa palisadama ili sličnim drvenim ogradama.", tacan: true}
+          - {tekst: "Bili su mermerne palate po uzoru na Carigrad.", tacan: false, zasto: "Bili su skromna drvena zdanja."}
+          - {tekst: "Bili su pećine u stenama.", tacan: false, zasto: "Bile su to drvene kuće."}
+        pomoc:
+          - "Pomisli na pojam palisada."
+          - "Bili su slični većim seoskim gazdinstvima."
+          - "Iz lekcije: to su bile obične drvene kuće sa palisadama."
+        objasnjenje: "Netačno. Dvorovi su bili skromne drvene kuće."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Dvorovi velikih župana u Rasu bili su obične drvene kuće sa palisadama."}
+
+      - id: l06-tn-dusan-u-velbuzdu-i-bosni
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [car-dusan]
+        tvrdnja: "Dušan se u borbama dokazao tek kada je postao vladar."
+        tacno: false
+        ispravke:
+          - {tekst: "Dokazao se još pre stupanja na presto, protiv bosanskog vladara i kod Velbužda.", tacan: true}
+          - {tekst: "Nikada nije učestvovao u borbama.", tacan: false, zasto: "Učestvovao je, a kao vladar je osvojio velike delove vizantijskih zemalja."}
+          - {tekst: "Dokazao se samo u borbi protiv Turaka.", tacan: false, zasto: "Knjiga navodi bosanskog vladara i Velbužd."}
+        pomoc:
+          - "Pazi na reč tek."
+          - "Velbužd je 1330, a on vlada od 1331."
+          - "Iz lekcije: još pre stupanja na presto dokazao se u borbama sa bosanskim vladarem i kod Velbužda."
+        objasnjenje: "Netačno. Dušan se dokazao još pre stupanja na presto."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Još pre stupanja na presto Dušan se dokazao u borbama sa bosanskim vladarem i kod Velbužda."}
+
+      - id: l06-tn-dvor-seljak
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [palisada, nemanjici]
+        tvrdnja: "Dvor prvih kraljeva Nemanjića se po izgledu nije mnogo razlikovao od doma vlastele ili većeg seoskog gazdinstva."
+        tacno: true
+        pomoc:
+          - "Ko je još živeo u sličnim kućama?"
+          - "Iz lekcije: bila su to skromna zdanja, slična domovima vlastele ili većim seoskim gazdinstvima."
+        objasnjenje: "Tačno. Knjiga ih poredi sa domovima vlastele i većim seoskim gazdinstvima."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Bila su to skromna zdanja, slična domovima vlastele ili većim seoskim gazdinstvima."}
+
+      - id: l06-dopuni-dusan-lako
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [car-dusan, hum, bosanski-ban-stjepan-ii]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Dušan je osvojio {{Albaniju}} i veliki deo Grčke, ali je izgubio {{Hum}}, koji mu je oteo ban {{Stjepan II}}."
+        ponudjene: ["Albaniju", "Hum", "Stjepan II", "Erdelj", "Braničevo", "Palman"]
+        pomoc:
+          - "Hum je gubitak, a ne osvajanje."
+          - "Ban je vladar Bosne."
+          - "Iz lekcije: Albanija i Grčka osvojene; Hum izgubljen od bana Stjepana II."
+        objasnjenje: "Dušan osvaja jug, a na zapadu gubi Hum."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Dušan je osvojio Albaniju, severnu i srednju Grčku, a izgubio Hum."}
+
+      - id: l06-dopuni-dvor-srednje
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [palisada, kralj-milutin]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Prvi dvorovi su bile drvene kuće sa {{palisadama}}, a {{Milutin}} je uveo raskoš, pa su unutrašnjost krasili {{duborez}} i svila."
+        ponudjene: ["palisadama", "Milutin", "duborez", "Dušan", "mermer", "rudnicima"]
+        pomoc:
+          - "Ograda od šiljatih greda."
+          - "Kralj je isto veliki ktitor."
+          - "Iz lekcije: palisade, raskoš pod Milutinom, duborez i svila."
+        objasnjenje: "Sa jačanjem države Milutin ukrašava drvene dvorove duborezom i svilom."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Milutin uvodi raskoš: drvene građevine se ukrašavaju duborezom i svilom."}
+
+      - id: l06-zakljuci-dusan-hum
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [hum, car-dusan, bosanski-ban-stjepan-ii]
+        pitanje: "Zašto je Dušan izgubio Hum baš dok je osvajao jug?"
+        odgovori:
+          - {tekst: "Njegove snage bile su usmerene na jug, pa je sused to iskoristio", tacan: true}
+          - {tekst: "Dao je Hum banu kao miraz", tacan: false, zasto: "Knjiga kaže da mu ga je ban oteo."}
+          - {tekst: "Hum se odvojio i pripao Vizantiji", tacan: false, zasto: "Hum je oteo bosanski ban."}
+          - {tekst: "Stanovnici Huma su prešli u Erdelj", tacan: false, zasto: "O tome nema reči u lekciji."}
+        pomoc:
+          - "Korak 1: Gde je bila Dušanova vojska?"
+          - "Korak 2: Ko je mogao da iskoristi to što je on zauzet?"
+          - "Iz lekcije: Dušan osvaja jug → gubi Hum, koji zauzima ban Stjepan II."
+        objasnjenje: "Osvajanje jednog kraja može da ostavi drugi nezaštićen."
+        iz_udzbenika: {strana: 31, odeljak: "Uzrok → posledica", tekst: "Dušan osvaja jug, a gubi Hum, koji zauzima ban Stjepan II."}
+
+      - id: l06-zakljuci-raskos
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [kralj-milutin]
+        pitanje: "Šta nam raskoš na Milutinovom dvoru govori o državi?"
+        odgovori:
+          - {tekst: "Država je ojačala i imala je više bogatstva", tacan: true}
+          - {tekst: "Država je bila na ivici propasti", tacan: false, zasto: "Raskoš dolazi sa jačanjem države."}
+          - {tekst: "Vladari su prestali da grade manastire", tacan: false, zasto: "Milutin je bio jedan od najvećih ktitora."}
+          - {tekst: "Dvor se preselio na Svetu Goru", tacan: false, zasto: "Sveta gora je mesto gde je Milutin vojskom upadao, a ne njegov dvor."}
+        pomoc:
+          - "Korak 1: Kada je raskoš moguća?"
+          - "Korak 2: Šta je prethodilo tome?"
+          - "Iz lekcije: jačanje države → luksuz na dvoru pod Milutinom."
+        objasnjenje: "Raskoš je znak jačanja države i njenih prihoda."
+        iz_udzbenika: {strana: 31, odeljak: "Uzrok → posledica", tekst: "Jačanje države dovelo je do luksuza na dvoru pod Milutinom."}
+
+      - id: l06-zakljuci-veza-rudarstvo-rat
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [najamnici, rudarstvo, stefan-uros-i, car-dusan]
+        pitanje: "Kako je ono što je započeto pod Urošem I pomoglo Dušanu više od pola veka kasnije?"
+        odgovori:
+          - {tekst: "Rudarstvo pokrenuto u doba Uroša I davalo je prihode za plaćanje najamnika", tacan: true}
+          - {tekst: "Uroš I je ostavio Dušanu krunu cara", tacan: false, zasto: "Dušan se sam proglasio za cara 1345."}
+          - {tekst: "Jelena Anžujska je komandovala Dušanovom vojskom", tacan: false, zasto: "Vojskom najamnika komandovao je Palman."}
+          - {tekst: "Sasi su bili Dušanovi vojnici", tacan: false, zasto: "Sasi su rudari; najamnici su bili drugi Nemci, pod Palmanom."}
+        pomoc:
+          - "Korak 1: Šta je Uroš I razvio?"
+          - "Korak 2: Šta je trebalo Dušanu za najamnike?"
+          - "Iz lekcije: prihodi od rudarstva i trgovine omogućili su mu da plati vojnike."
+        objasnjenje: "Privreda stvorena ranije finansira vojsku kasnije: bez prihoda nema plaćenih vojnika."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Prihodi od rudarstva i trgovine omogućili su Dušanu da plati najamnike."}
+
+      - id: l06-zakljuci-dinastija-dusan
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [dinasticki-sukobi, car-dusan, stefan-dragutin]
+        pitanje: "Uporedi Dragutina i Dušana: šta pokazuju o načinima na koje je presto menjao vladara?"
+        odgovori:
+          - {tekst: "Presto se ponekad ustupao, a ponekad otimao, pa nije bilo jednog mirnog pravila", tacan: true}
+          - {tekst: "Presto se uvek birao na izborima", tacan: false, zasto: "Dragutin ga ustupa, Dušan ga uzima silom; izbora nema."}
+          - {tekst: "Presto su uvek dodeljivali Vizantinci", tacan: false, zasto: "O tome odlučuju Nemanjići među sobom."}
+          - {tekst: "Dragutin i Dušan su učinili isto", tacan: false, zasto: "Dragutin je ustupio presto, a Dušan ga je uzeo silom."}
+        pomoc:
+          - "Korak 1: Kako je Dragutin predao vlast?"
+          - "Korak 2: Kako ju je Dušan dobio?"
+          - "Iz lekcije: tipična pojava su sukobi unutar dinastije oko nasleđivanja."
+        objasnjenje: "Dva primera pokazuju da nasleđivanje nije bilo mirno i jednoobrazno."
+        iz_udzbenika: {strana: 30, odeljak: "Uvod", tekst: "Tipična pojava tog doba su sukobi unutar dinastije oko nasleđivanja prestola."}
+
+      - id: l06-datum-dusan
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [car-dusan]
+        dogadjaj: "Stefan Dušan"
+        pitanje: "Od koje do koje godine je vladao Dušan Silni?"
+        od: 1331
+        do: 1355
+        traka: vladari
+        pomoc:
+          - "Počeo je godinu posle Velbužda."
+          - "Završio je smrću sredinom XIV veka."
+          - "Iz lekcije: Dušan Silni (1331–1355)."
+        objasnjenje: "Dušan je vladao 1331–1355."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Teritorijalni vrhunac dostignut je pod Dušanom Silnim (1331–1355)."}
+
+      - id: l06-uporedi-dvor-pre-posle
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [palisada, kralj-milutin]
+        a: "Rani dvorovi"
+        b: "Dvor pod Milutinom"
+        pitanje: "Na šta se tvrdnja odnosi: rane dvorove, dvor pod Milutinom, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Građevine su drvene.", odgovor: oba, zasto: "I pod Milutinom građevine ostaju drvene."}
+          - {tekst: "Iznutra se ukrašavaju duborezom i svilom.", odgovor: b, zasto: "To uvodi Milutin."}
+          - {tekst: "Slični su domovima vlastele ili većim gazdinstvima.", odgovor: a, zasto: "Tako knjiga opisuje rane dvorove."}
+          - {tekst: "Ograđuju ih palisade ili slične ograde.", odgovor: a, zasto: "To se navodi za rane dvorove u Rasu."}
+          - {tekst: "Podignuti su od mermera.", odgovor: nijedan, zasto: "U oba slučaja građevine su drvene."}
+        pomoc:
+          - "Pod Milutinom se menja unutrašnjost, a ne materijal."
+          - "Drvo je zajedničko."
+          - "Iz lekcije: građevine ostaju drvene, ali su iznutra bogato ukrašene."
+        objasnjenje: "Promena je u unutrašnjosti: drvo ostaje, a stiže raskoš."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Dvorovi su bili skromne drvene kuće, a Milutin uvodi raskoš u unutrašnjost."}
+
+      - id: l06-objasni-kako-ziveli
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [palisada, kralj-milutin, rezidencija]
+        pitanje: "Kako su živeli srpski vladari?"
+        uzor: "U početku su živeli u skromnim drvenim dvorovima sa palisadama. Od Milutina se javlja raskoš u unutrašnjosti, duborez i svila. Vladari su stalno putovali po zemlji, a rezidencije se javljaju tek pod Milutinom."
+        ideje: ["Skromni drveni dvorovi sa palisadama.", "Raskoš u unutrašnjosti od Milutina.", "Stalno putovanje po zemlji.", "Rezidencije tek pod Milutinom."]
+        objasnjenje: "Ovo je pitanje iz udžbenika sa str. 33."
+        iz_udzbenika: {strana: 33, odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika", tekst: "Vladari su živeli u skromnim drvenim dvorovima, a raskoš i rezidencije se javljaju tek pod Milutinom."}
+
+      - id: l06-objasni-dusan-osvajanja
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [car-dusan, albanija, grcka]
+        pitanje: "Koje teritorije je osvojio car Dušan?"
+        uzor: "Dušan je osvojio velike delove vizantijskih zemalja: Albaniju, severnu i srednju Grčku. Istovremeno je izgubio Hum, koji mu je oteo ban Stjepan II."
+        ideje: ["Albanija.", "Severna i srednja Grčka.", "Izgubio je Hum."]
+        objasnjenje: "Ovo je pitanje iz udžbenika sa str. 33."
+        iz_udzbenika: {strana: 33, odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika", tekst: "Dušan je osvojio Albaniju, severnu i srednju Grčku."}
+
+  # ==========================================================================
+  - naslov: "Proglašenje carstva"
+    zadaci:
+      - id: l06-izbor-krunisanje-gde
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [car-dusan, skoplje]
+        pitanje: "U kom gradu je Dušan svečano krunisan za cara?"
+        odgovori:
+          - {tekst: "u Skoplju", tacan: true}
+          - {tekst: "u Seru", tacan: false, zasto: "U Seru se 1345. proglasio za cara, ali je krunisan u Skoplju."}
+          - {tekst: "u Rasu", tacan: false, zasto: "Ras je stara prestonica velikih župana."}
+          - {tekst: "u Trnovu", tacan: false, zasto: "U Trnovu je umro Sveti Sava."}
+        pomoc:
+          - "Ne mešaj proglašenje i krunisanje."
+          - "Isti grad gde je objavljen Zakonik."
+          - "Iz lekcije: svečano krunisanje bilo je u Skoplju 1346."
+        objasnjenje: "Krunisanje je bilo u Skoplju 1346."
+        iz_udzbenika: {strana: 31, odeljak: "Proglašenje carstva", tekst: "Svečano krunisanje bilo je u Skoplju 1346.", slika: "06-uspon-srbije-xiii-xiv-vek/03-car-dusan.jpg"}
+        osa: {naziv: "Krunisanje cara Dušana", od: 1346, traka: dogadjaji}
+
+      - id: l06-izbor-titula
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [car-dusan]
+        pitanje: "Koju je titulu Dušan dobio krunisanjem?"
+        odgovori:
+          - {tekst: "car Srba i Grka", tacan: true}
+          - {tekst: "kralj Srba i Bugara", tacan: false, zasto: "Bugari nisu u tituli; titula je car Srba i Grka."}
+          - {tekst: "veliki župan Raške", tacan: false, zasto: "To je stara titula iz Nemanjinog doba."}
+          - {tekst: "patrijarh Srba", tacan: false, zasto: "Patrijarh je Joanikije."}
+        pomoc:
+          - "Titula je viša od kraljevske."
+          - "U njoj su dva naroda."
+          - "Iz lekcije: Dušan postaje car Srba i Grka."
+        objasnjenje: "Dušan je krunisan za cara Srba i Grka."
+        iz_udzbenika: {strana: 31, odeljak: "Proglašenje carstva", tekst: "Dušan postaje car Srba i Grka.", slika: "06-uspon-srbije-xiii-xiv-vek/03-car-dusan.jpg"}
+
+      - id: l06-izbor-joanikije
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [patrijarh-joanikije, car-dusan]
+        pitanje: "Ko je krunisao Dušana za cara?"
+        odgovori:
+          - {tekst: "patrijarh Joanikije", tacan: true}
+          - {tekst: "rimski papa", tacan: false, zasto: "Papa je 1217. poslao krunu Stefanu; Dušana je krunisao srpski patrijarh."}
+          - {tekst: "vizantijski car", tacan: false, zasto: "Dušan je osvajao vizantijske zemlje; krunisao ga je Joanikije."}
+          - {tekst: "vitez Palman", tacan: false, zasto: "Palman je vojni zapovednik."}
+        pomoc:
+          - "Krunisao ga je crkveni poglavar."
+          - "Dobio je novi čin iste godine."
+          - "Iz lekcije: patrijarh Joanikije krunisao ga je za cara Srba i Grka."
+        objasnjenje: "Dušana je 1346. krunisao srpski patrijarh Joanikije."
+        iz_udzbenika: {strana: 33, odeljak: "Zapamtite", tekst: "Patrijarh Joanikije krunisao je Dušana za cara Srba i Grka 1346. u Skoplju."}
+
+      - id: l06-izbor-zakonik-kada
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [dusanov-zakonik, skoplje]
+        pitanje: "Gde je 1349. objavljen Dušanov Zakonik?"
+        odgovori:
+          - {tekst: "na državnom saboru u Skoplju", tacan: true}
+          - {tekst: "u Hilandaru", tacan: false, zasto: "Hilandar je manastir; Zakonik je objavljen na saboru u Skoplju."}
+          - {tekst: "u Dubrovniku", tacan: false, zasto: "Dubrovčani su trgovci; Zakonik je donesen u Skoplju."}
+          - {tekst: "u Seru", tacan: false, zasto: "U Seru je dopunjen 1354."}
+        pomoc:
+          - "Isti grad kao krunisanje."
+          - "Ser je mesto dopune."
+          - "Iz lekcije: objavljen je na državnom saboru u Skoplju 1349."
+        objasnjenje: "Zakonik je objavljen u Skoplju 1349, a dopunjen u Seru 1354."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Zakonik je objavljen na državnom saboru u Skoplju 1349.", slika: "06-uspon-srbije-xiii-xiv-vek/04-zakonik-cara-dusana.jpg"}
+        osa: {naziv: "Objavljivanje Dušanovog zakonika", od: 1349, traka: dogadjaji}
+
+      - id: l06-izbor-carstvo-granice
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [dunav, korintski-zaliv]
+        pitanje: "Dokle se pružalo Dušanovo carstvo?"
+        odgovori:
+          - {tekst: "od Dunava na severu do Korintskog zaliva na jugu", tacan: true}
+          - {tekst: "od Tare do Morave", tacan: false, zasto: "To je samo unutrašnjost; carstvo je bilo daleko veće."}
+          - {tekst: "od Save do Svete gore", tacan: false, zasto: "Do Svete gore je Milutin upadao; južna granica carstva je Korintski zaliv."}
+          - {tekst: "od Carigrada do Dubrovnika", tacan: false, zasto: "Carigrad nije bio u Dušanovom carstvu."}
+        pomoc:
+          - "Severna granica je ista kao kod Milutina."
+          - "Južna je zaliv u Grčkoj."
+          - "Iz lekcije: od Dunava na severu do Korintskog zaliva na jugu."
+        objasnjenje: "Carstvo se pružalo od Dunava do Korintskog zaliva."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Carstvo se pružalo od Dunava na severu do Korintskog zaliva na jugu.", slika: "06-uspon-srbije-xiii-xiv-vek/05-srpsko-carstvo-sredinom-xiv-veka-karta.jpg"}
+
+      - id: l06-izbor-vizantijski-uticaj
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [vizantija, savladarstvo, dusanov-zakonik]
+        pitanje: "Šta je Dušan preuzeo po vizantijskom uzoru? (više tačnih)"
+        odgovori:
+          - {tekst: "zvanja i titule", tacan: true}
+          - {tekst: "savladarstvo", tacan: true}
+          - {tekst: "uticaj prava na Zakonik", tacan: true}
+          - {tekst: "palisade oko dvorova", tacan: false, zasto: "Palisade su odlika ranih drvenih dvorova, a ne vizantijski uzor."}
+          - {tekst: "dolazak Sasa", tacan: false, zasto: "Sasi su stigli pod Urošem I, iz Erdelja."}
+        pomoc:
+          - "Vizantijski uzor je u državnom uređenju."
+          - "Tri odgovora su tačna."
+          - "Iz lekcije: Zakonik pod uticajem vizantijskog prava, titule po vizantijskom modelu i savladarstvo."
+        objasnjenje: "Vizantija je bila uzor za pravo, dvorski ceremonijal, titule i savladarstvo."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Dušan uvodi zvanja i titule po vizantijskom modelu, a i savladarstvo po vizantijskom uzoru."}
+
+      - id: l06-izbor-najvisa-zvanja
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [car-dusan, vlastela]
+        pitanje: "Kome je Dušan dao najviša zvanja i šta je dobijalo krupno plemstvo?"
+        odgovori:
+          - {tekst: "Najviša zvanja rođacima i bliskim saradnicima, a plemstvo velike oblasti na upravu", tacan: true}
+          - {tekst: "Najviša zvanja stranim najamnicima, a plemstvo ništa", tacan: false, zasto: "Knjiga kaže da je zvanja dao rođacima i saradnicima, a plemstvo je dobilo oblasti."}
+          - {tekst: "Najviša zvanja Dubrovčanima, a plemstvo rudnike", tacan: false, zasto: "Dubrovčani su trgovci, a ne nosioci dvorskih zvanja."}
+          - {tekst: "Najviša zvanja seljacima, a plemstvo manastire", tacan: false, zasto: "Zavisni seljaci nisu dobijali zvanja."}
+        pomoc:
+          - "Zvanja dobijaju ljudi bliski vladaru."
+          - "Plemstvo upravlja oblastima."
+          - "Iz lekcije: najviša zvanja dao je rođacima i bliskim saradnicima, a krupno plemstvo dobijalo je velike oblasti."
+        objasnjenje: "Dušan se oslanja na rođake i saradnike, a krupno plemstvo dobija oblasti."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Najviša zvanja dao je rođacima i bliskim saradnicima, a krupno plemstvo dobijalo je na upravu velike oblasti."}
+
+      - id: l06-izbor-zakonik-sadrzaj
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [dusanov-zakonik]
+        pitanje: "Prema rubrici Zapamtite, koje oblasti života uređuje Zakonik?"
+        odgovori:
+          - {tekst: "verski, društveni i privatni život", tacan: true}
+          - {tekst: "samo ratovanje", tacan: false, zasto: "Zakonik uređuje razne životne oblasti."}
+          - {tekst: "samo rudarstvo", tacan: false, zasto: "Rudarstvo je samo jedan privredni deo, a Zakonik je mnogo širi."}
+          - {tekst: "samo manastirski život", tacan: false, zasto: "To je tipik; Zakonik važi u celom Carstvu."}
+        pomoc:
+          - "Važio je u celom Carstvu."
+          - "Tri oblasti."
+          - "Iz lekcije: Zakonikom su uređena pitanja verskog, društvenog i privatnog života."
+        objasnjenje: "Zakonik uređuje verski, društveni i privatni život."
+        iz_udzbenika: {strana: 33, odeljak: "Zapamtite", tekst: "Zakonikom su uređena pitanja verskog, društvenog i privatnog života."}
+
+      - id: l06-tn-zakonik-sve
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [dusanov-zakonik]
+        tvrdnja: "Zakonik je važio samo u Skoplju."
+        tacno: false
+        ispravke:
+          - {tekst: "Zakonik je važio u celom Carstvu.", tacan: true}
+          - {tekst: "Zakonik je važio samo u manastirima.", tacan: false, zasto: "Važio je u celom Carstvu i uređivao razne oblasti života."}
+          - {tekst: "Zakonik je važio samo za strance.", tacan: false, zasto: "Knjiga kaže da je važio u celom Carstvu."}
+        pomoc:
+          - "Skoplje je samo mesto objavljivanja."
+          - "Bio je to zakon za državu."
+          - "Iz lekcije: važio je u celom Carstvu."
+        objasnjenje: "Netačno. Skoplje je mesto objavljivanja, a Zakonik je važio u celom Carstvu."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Objavljen je u Skoplju 1349. i važio je u celom Carstvu."}
+
+      - id: l06-tn-vizantija-samo-neprijatelj
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [vizantija]
+        tvrdnja: "Vizantija je srpskim vladarima bila samo neprijatelj, pa od nje ništa nisu preuzimali."
+        tacno: false
+        ispravke:
+          - {tekst: "Često su ratovali s njom, ali im je bila i uzor u uređenju države.", tacan: true}
+          - {tekst: "Nikada nisu ratovali s njom.", tacan: false, zasto: "Ratovali su često, a Dušan je osvojio velike delove njenih zemalja."}
+          - {tekst: "Srbija je bila vizantijska pokrajina.", tacan: false, zasto: "Srbija je bila nezavisna; Vizantija joj je bila uzor."}
+        pomoc:
+          - "Pomisli na Zakonik i titule."
+          - "Moguće je i ratovati i ugledati se."
+          - "Iz lekcije: često su ratovali s Vizantijom, ali im je bila i uzor."
+        objasnjenje: "Netačno. Vizantija je bila i protivnik i uzor."
+        iz_udzbenika: {strana: 31, odeljak: "Proglašenje carstva", tekst: "Srpski vladari su često ratovali s Vizantijom, ali im je ona bila i uzor u uređenju države."}
+
+      - id: l06-tn-kraj-dusan
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [car-dusan, stefan-uros-nejaki]
+        tvrdnja: "Posle Dušanove smrti car je postao njegov sin Uroš Nejaki."
+        tacno: true
+        pomoc:
+          - "Imao je jednog naslednika."
+          - "Iz lekcije: kao jedini naslednik odmah je za srpskog cara proglašen sin Nejaki."
+        objasnjenje: "Tačno. Sin je, kao jedini naslednik, odmah proglašen za cara."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Kao jedini naslednik odmah je za srpskog cara proglašen sin, Stefan Uroš Nejaki."}
+        osa: {naziv: "Uroš Nejaki postaje car", od: 1355, traka: vladari}
+
+      - id: l06-tn-patrijarh-pre-cara
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [patrijarh-joanikije]
+        tvrdnja: "Joanikije je bio patrijarh još pre nego što se Dušan proglasio za cara u Seru."
+        tacno: false
+        ispravke:
+          - {tekst: "Proglašenje je bilo 1345, a Joanikije je patrijarh postao 1346.", tacan: true}
+          - {tekst: "Joanikije je patrijarh postao 1349.", tacan: false, zasto: "Godina 1349. je objavljivanje Zakonika."}
+          - {tekst: "Joanikije nikada nije bio patrijarh.", tacan: false, zasto: "Bio je, i baš je kao patrijarh krunisao Dušana."}
+        pomoc:
+          - "Prvo proglašenje, pa patrijarh, pa krunisanje."
+          - "Uporedi 1345. i 1346."
+          - "Iz lekcije: 1345. proglašenje, 1346. čin patrijarha."
+        objasnjenje: "Netačno. Redosled je: proglašenje 1345, patrijarh 1346, krunisanje 1346."
+        iz_udzbenika: {strana: 31, odeljak: "Proglašenje carstva", tekst: "Dušan se proglasio za cara 1345, a 1346. Joanikije dobija čin patrijarha."}
+        osa: {naziv: "Joanikije postaje patrijarh", od: 1346, traka: crkva-kultura}
+
+      - id: l06-dopuni-carstvo-lako
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [car-dusan, ser, skoplje]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Dušan se 1345. proglasio za cara u {{Seru}}, a krunisan je 1346. u {{Skoplju}} kao car Srba i {{Grka}}."
+        ponudjene: ["Seru", "Skoplju", "Grka", "Rasu", "Trnovu", "Bugara"]
+        pomoc:
+          - "Prvi grad je u Grčkoj."
+          - "Drugi je grad Zakonika."
+          - "Iz lekcije: Ser 1345, Skoplje 1346, car Srba i Grka."
+        objasnjenje: "Proglašenje je u Seru, a krunisanje u Skoplju."
+        iz_udzbenika: {strana: 31, odeljak: "Proglašenje carstva", tekst: "Dušan se proglasio za cara u Seru, a krunisan je u Skoplju."}
+
+      - id: l06-dopuni-zakonik-tesko
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [dusanov-zakonik, skoplje, ser]
+        pitanje: "Dopuni rečenicu (bez ponuđenih reči)."
+        tekst: "Zakonik je pod uticajem {{vizantijskog}} prava objavljen {{1349.|1349}} u Skoplju, a dopunjen {{1354.|1354}} u {{Seru}}."
+        pomoc:
+          - "Uzor je carstvo protiv kog se ratovalo."
+          - "Razlika između dve godine je pet."
+          - "Iz lekcije: uticaj vizantijskog prava; Skoplje 1349, Ser 1354."
+        objasnjenje: "Zakonik je donet pod vizantijskim uticajem 1349, a dopunjen 1354."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Zakonik je objavljen u Skoplju 1349, a dopunjen u Seru 1354."}
+
+      - id: l06-dopuni-granice-srednje
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [dunav, korintski-zaliv, stefan-uros-nejaki]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Carstvo se pružalo od {{Dunava}} do {{Korintskog zaliva}}, a posle Dušanove smrti car je postao {{Uroš Nejaki}}."
+        ponudjene: ["Dunava", "Korintskog zaliva", "Uroš Nejaki", "Tare", "Jadranskog mora", "Palman"]
+        pomoc:
+          - "Severna granica je reka."
+          - "Sin ima nadimak Nejaki."
+          - "Iz lekcije: od Dunava do Korintskog zaliva; sin Uroš Nejaki."
+        objasnjenje: "Carstvo je išlo od Dunava do Korintskog zaliva, a nasledio ga je Uroš Nejaki."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Carstvo se pružalo od Dunava do Korintskog zaliva."}
+
+      - id: l06-povezi-gradovi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [skoplje, ser, dusanov-zakonik]
+        pitanje: "Poveži događaj sa gradom i godinom."
+        parovi:
+          - ["proglašenje za cara", "Ser, 1345."]
+          - ["krunisanje za cara", "Skoplje, 1346."]
+          - ["objavljivanje Zakonika", "Skoplje, 1349."]
+          - ["dopuna Zakonika", "Ser, 1354."]
+        pomoc:
+          - "Svaki grad se pojavljuje dvaput."
+          - "Prvo proglašenje, pa krunisanje; prvo objavljivanje, pa dopuna."
+          - "Iz lekcije: Ser 1345, Skoplje 1346, Skoplje 1349, Ser 1354."
+        objasnjenje: "Ser i Skoplje se smenjuju: proglašenje i dopuna u Seru, krunisanje i objavljivanje u Skoplju."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Ser je mesto proglašenja i dopune, a Skoplje krunisanja i objavljivanja."}
+
+      - id: l06-zakljuci-zasto-patrijarh
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [patrijarh-joanikije, car-dusan]
+        pitanje: "Zašto je Joanikije morao da postane patrijarh pre krunisanja?"
+        odgovori:
+          - {tekst: "Da bi srpski patrijarh mogao da krunise cara", tacan: true}
+          - {tekst: "Da bi mogao da zapoveda vojskom", tacan: false, zasto: "Vojskom su komandovali vladar i vitezovi, ne patrijarh."}
+          - {tekst: "Da bi naplaćivao porez od Dubrovčana", tacan: false, zasto: "Knjiga to ne navodi; razlog je krunisanje."}
+          - {tekst: "Da bi otišao u Nikeju", tacan: false, zasto: "U Nikeju je išao Sava, vek ranije."}
+        pomoc:
+          - "Korak 1: Ko je trebalo da krunise cara?"
+          - "Korak 2: Kakav čin mu je bio potreban?"
+          - "Iz lekcije: arhiepiskop postaje patrijarh → srpski patrijarh može da krunise cara."
+        objasnjenje: "Čin patrijarha omogućio je Joanikiju da krunise cara."
+        iz_udzbenika: {strana: 31, odeljak: "Proglašenje carstva", tekst: "Joanikije dobija čin patrijarha, pa je srpski patrijarh mogao da krunise cara."}
+
+      - id: l06-zakljuci-car-srba-i-grka
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [car-dusan, vizantija]
+        pitanje: "Zašto u Dušanovoj tituli stoje i Grci?"
+        odgovori:
+          - {tekst: "Zato što je osvojio velike delove vizantijskih zemalja", tacan: true}
+          - {tekst: "Zato što je bio Grk", tacan: false, zasto: "Dušan je Nemanjić, srpski vladar."}
+          - {tekst: "Zato što ga je krunisao vizantijski car", tacan: false, zasto: "Krunisao ga je patrijarh Joanikije."}
+          - {tekst: "Zato što je Zakonik pisan samo na grčkom", tacan: false, zasto: "O tome knjiga ništa ne kaže."}
+        pomoc:
+          - "Korak 1: Gde je Dušan ratovao?"
+          - "Korak 2: Ko tamo živi?"
+          - "Iz lekcije: osvajanje vizantijskih zemalja → proglašenje carstva."
+        objasnjenje: "Titula odražava osvojene grčke zemlje."
+        iz_udzbenika: {strana: 31, odeljak: "Uzrok → posledica", tekst: "Osvajanje vizantijskih zemalja dovelo je do proglašenja carstva (1345)."}
+
+      - id: l06-zakljuci-rat-i-uzor
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [vizantija, dusanov-zakonik, savladarstvo]
+        pitanje: "Kako su Srbi mogli u isto vreme da ratuju s Vizantijom i da je uzimaju za uzor?"
+        odgovori:
+          - {tekst: "Borili su se s njom za teritoriju, a preuzimali njeno uređenje jer je bilo razvijeno", tacan: true}
+          - {tekst: "Vizantija im je naredila da je oponašaju", tacan: false, zasto: "Knjiga kaže da im je bila uzor, a ne da im je išta naredila."}
+          - {tekst: "Ratovi su bili samo igra", tacan: false, zasto: "Dušan je osvojio velike delove njenih zemalja."}
+          - {tekst: "Oponašali su je samo u ishrani", tacan: false, zasto: "Knjiga navodi pravo, titule, ceremonijal i savladarstvo."}
+        pomoc:
+          - "Korak 1: Šta je predmet rata?"
+          - "Korak 2: Šta je predmet ugledanja?"
+          - "Iz lekcije: često su ratovali s Vizantijom, ali im je bila i uzor."
+        objasnjenje: "Protivnik u ratu može biti i učitelj u uređenju države."
+        iz_udzbenika: {strana: 31, odeljak: "Proglašenje carstva", tekst: "Srpski vladari su često ratovali s Vizantijom, ali im je ona bila i uzor."}
+
+      - id: l06-zakljuci-ser-skoplje
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [ser, skoplje, car-dusan]
+        pitanje: "Zašto se Dušan proglasio za cara baš posle krupnih osvajanja u Vizantiji, a ne na početku vladavine?"
+        odgovori:
+          - {tekst: "Tek velika osvajanja dala su mu moć i razlog za višu titulu", tacan: true}
+          - {tekst: "Na početku nije imao nijednu pobedu iza sebe", tacan: false, zasto: "Dokazao se u borbama još pre prestola, ali krupna osvajanja u Vizantiji dolaze kasnije."}
+          - {tekst: "Čekao je da umre Milutin", tacan: false, zasto: "Milutin je vladao samo do 1321, pa nije bio prepreka Dušanu."}
+          - {tekst: "Čekao je da dobije Hum", tacan: false, zasto: "Hum je izgubio, a nije ga čekao."}
+        pomoc:
+          - "Korak 1: Šta je pre 1345. osvojio?"
+          - "Korak 2: Šta je titula car značila u odnosu na kralja?"
+          - "Iz lekcije: osvajanje vizantijskih zemalja → proglašenje carstva (1345)."
+        objasnjenje: "Carska titula je pratila novu moć stečenu osvajanjem vizantijskih zemalja."
+        iz_udzbenika: {strana: 31, odeljak: "Proglašenje carstva", tekst: "Posle krupnih osvajanja u Vizantiji Dušan se 1345. proglasio za cara."}
+        osa: {naziv: "Dušan se proglašava za cara", od: 1345, traka: dogadjaji}
+
+      - id: l06-zakljuci-smrt-iznenadna
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [car-dusan, stefan-uros-nejaki, osmanlije]
+        pitanje: "Država je dostigla vrhunac, a Dušan je iznenada umro 1355. Zašto to može biti opasno za takvu državu?"
+        odgovori:
+          - {tekst: "Veliko carstvo gubi vladara koji ga je stvorio, a uskoro nastaju pretnje oblasnih gospodara i Osmanlija", tacan: true}
+          - {tekst: "Zato što nije imao nikakvog naslednika", tacan: false, zasto: "Imao je sina, Uroša Nejakog, koji je odmah proglašen za cara."}
+          - {tekst: "Zato što je time prestao da važi Zakonik", tacan: false, zasto: "Knjiga to ne kaže."}
+          - {tekst: "Zato što su Srbi odmah prešli u bogumile", tacan: false, zasto: "Bogumile je progonio još Nemanja; u drugoj polovini XIV veka pretnje su oblasni gospodari i Osmanlije."}
+        pomoc:
+          - "Korak 1: Ko je stvorio carstvo?"
+          - "Korak 2: Šta sledi u drugoj polovini XIV veka?"
+          - "Iz lekcije: u drugoj polovini XIV veka državu ugrožavaju oblasni gospodari i Osmanlije."
+        objasnjenje: "Smrt tvorca carstva i nove pretnje prate jedna drugu u drugoj polovini XIV veka."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "U drugoj polovini XIV veka državu ugrožavaju oblasni gospodari i Osmanlije."}
+        osa: {naziv: "Smrt cara Dušana", od: 1355, traka: dogadjaji}
+
+      - id: l06-datum-proglasenje
+        vrsta: datum
+        tezina: lako
+        pojmovi: [car-dusan, ser]
+        dogadjaj: "Dušan se proglašava za cara"
+        pitanje: "Koje godine se Dušan proglasio za cara u Seru?"
+        godina: 1345
+        traka: dogadjaji
+        pomoc:
+          - "Godinu dana pre krunisanja."
+          - "Sredina XIV veka."
+          - "Iz lekcije: 1345."
+        objasnjenje: "Dušan se 1345. proglasio za cara u Seru."
+        iz_udzbenika: {strana: 31, odeljak: "Proglašenje carstva", tekst: "Dušan se 1345. proglasio za cara u Seru."}
+
+      - id: l06-datum-krunisanje
+        vrsta: datum
+        tezina: lako
+        pojmovi: [car-dusan, skoplje]
+        dogadjaj: "Krunisanje cara Dušana"
+        pitanje: "Koje godine je Dušan krunisan za cara?"
+        godina: 1346
+        traka: dogadjaji
+        pomoc:
+          - "Godinu dana posle proglašenja."
+          - "Sredina XIV veka."
+          - "Iz lekcije: krunisanje u Skoplju 1346."
+        objasnjenje: "Krunisanje je bilo 1346. u Skoplju."
+        iz_udzbenika: {strana: 31, odeljak: "Proglašenje carstva", tekst: "Svečano krunisanje bilo je u Skoplju 1346.", slika: "06-uspon-srbije-xiii-xiv-vek/03-car-dusan.jpg"}
+
+      - id: l06-datum-zakonik
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [dusanov-zakonik]
+        dogadjaj: "Objavljivanje Dušanovog zakonika"
+        pitanje: "Koje godine je objavljen Dušanov Zakonik?"
+        godina: 1349
+        traka: dogadjaji
+        pomoc:
+          - "Tri godine posle krunisanja."
+          - "Godina se završava devetkom."
+          - "Iz lekcije: objavljen je u Skoplju 1349."
+        objasnjenje: "Zakonik je objavljen 1349."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Zakonik je objavljen u Skoplju 1349."}
+
+      - id: l06-datum-dopuna
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [dusanov-zakonik, ser]
+        dogadjaj: "Dopuna Dušanovog zakonika"
+        pitanje: "Koje godine je Zakonik dopunjen?"
+        godina: 1354
+        traka: dogadjaji
+        pomoc:
+          - "Pet godina posle objavljivanja."
+          - "Godinu dana pre Dušanove smrti."
+          - "Iz lekcije: dopunjen je u Seru 1354."
+        objasnjenje: "Zakonik je dopunjen 1354. u Seru."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Zakonik je dopunjen na saboru u Seru 1354."}
+
+      - id: l06-datum-smrt
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [car-dusan]
+        dogadjaj: "Smrt cara Dušana"
+        pitanje: "Koje godine je umro car Dušan?"
+        godina: 1355
+        traka: dogadjaji
+        pomoc:
+          - "Godinu dana posle dopune Zakonika."
+          - "Sredina XIV veka."
+          - "Iz lekcije: Dušan je iznenada umro 1355."
+        objasnjenje: "Dušan je iznenada umro 1355."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Dušan je iznenada umro 1355."}
+
+      - id: l06-poredjaj-carstvo
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [car-dusan, dusanov-zakonik]
+        pitanje: "Poređaj, od najranijeg."
+        stavke:
+          - {tekst: "Dušan se proglašava za cara u Seru", godina: 1345, naziv: "Dušan se proglašava za cara", traka: dogadjaji}
+          - {tekst: "Krunisanje u Skoplju", godina: 1346, naziv: "Krunisanje cara Dušana", traka: dogadjaji}
+          - {tekst: "Objavljivanje Zakonika", godina: 1349, naziv: "Objavljivanje Dušanovog zakonika", traka: dogadjaji}
+        pomoc:
+          - "Prvo se proglasio."
+          - "Zakonik je posle krunisanja."
+          - "Iz lekcije: 1345, 1346, 1349."
+        objasnjenje: "Proglašenje 1345, krunisanje 1346, Zakonik 1349."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Posle proglašenja i krunisanja sledi Zakonik."}
+
+      - id: l06-poredjaj-dusan-srednje
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [car-dusan, patrijarh-joanikije, dusanov-zakonik]
+        pitanje: "Poređaj događaje Dušanove vladavine, od najranijeg."
+        stavke:
+          - {tekst: "Dušan dolazi na presto", godina: 1331, do: 1355, naziv: "Stefan Dušan", traka: vladari}
+          - {tekst: "Proglašenje za cara", godina: 1345, naziv: "Dušan se proglašava za cara", traka: dogadjaji}
+          - {tekst: "Objavljivanje Zakonika", godina: 1349, naziv: "Objavljivanje Dušanovog zakonika", traka: dogadjaji}
+          - {tekst: "Dopuna Zakonika u Seru", godina: 1354, naziv: "Dopuna Dušanovog zakonika", traka: dogadjaji}
+          - {tekst: "Smrt cara Dušana", godina: 1355, naziv: "Smrt cara Dušana", traka: dogadjaji}
+        pomoc:
+          - "Dopuna je godinu pre smrti."
+          - "Presto je mnogo pre proglašenja."
+          - "Iz lekcije: 1331, 1345, 1349, 1354, 1355."
+        objasnjenje: "Dušanova vladavina teče od 1331. do 1355, sa carstvom i Zakonikom pri kraju."
+        iz_udzbenika: {strana: 32, odeljak: "Hronologija", tekst: "Hronologija Dušanove vladavine ide od 1331. do 1355."}
+
+      - id: l06-poredjaj-veliki
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [stefan-uros-i, kralj-milutin, bitka-kod-velbuzda, car-dusan]
+        pitanje: "Poređaj najvažnije događaje lekcije, od najranijeg."
+        stavke:
+          - {tekst: "Počinje vladavina Uroša I", godina: 1243, do: 1276, naziv: "Stefan Uroš I", traka: vladari}
+          - {tekst: "Počinje vladavina Milutina", godina: 1282, do: 1321, naziv: "Kralj Milutin", traka: vladari}
+          - {tekst: "Počinje vladavina Stefana Dečanskog", godina: 1321, do: 1331, naziv: "Stefan Dečanski", traka: vladari}
+          - {tekst: "Bitka kod Velbužda", godina: 1330, naziv: "Bitka kod Velbužda", traka: dogadjaji}
+          - {tekst: "Krunisanje cara Dušana", godina: 1346, naziv: "Krunisanje cara Dušana", traka: dogadjaji}
+          - {tekst: "Smrt cara Dušana", godina: 1355, naziv: "Smrt cara Dušana", traka: dogadjaji}
+        pomoc:
+          - "Velbužd je pred kraj vladavine Dečanskog."
+          - "Sve se završava Dušanovom smrću."
+          - "Iz lekcije: 1243, 1282, 1321, 1330, 1346, 1355."
+        objasnjenje: "Niz prati uspon od privrede preko širenja do carstva."
+        iz_udzbenika: {strana: 32, odeljak: "Hronologija", tekst: "Hronologija lekcije ide od 1243. do 1355."}
+
+      - id: l06-lanac-tesko-privreda-carstvo
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [rudarstvo, najamnici, car-dusan]
+        karike: ["Rudarstvo donosi prihode", "Dušan plaća najamnike", "?", "Dušan se proglašava za cara"]
+        praznina: 2
+        odgovori:
+          - {tekst: "Osvaja velike delove vizantijskih zemalja", tacan: true}
+          - {tekst: "Gubi sve rudnike", tacan: false, zasto: "Knjiga to ne kaže; rudnici su izvor prihoda."}
+          - {tekst: "Patrijarh ga kruniše u Rimu", tacan: false, zasto: "Krunisanje je u Skoplju, a posle proglašenja."}
+        pomoc:
+          - "Korak 1: Čemu služi jača vojska?"
+          - "Korak 2: Šta je prethodilo proglašenju?"
+          - "Iz lekcije: osvajanje vizantijskih zemalja → proglašenje carstva."
+        objasnjenje: "Privreda finansira vojsku, vojska osvaja, a osvajanje donosi carsku titulu."
+        iz_udzbenika: {strana: 31, odeljak: "Dalje širenje državne teritorije", tekst: "Prihodi su plaćali najamnike, a posle osvajanja Dušan se proglasio za cara."}
+
+      - id: l06-lanac-tesko-vizantija
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [car-dusan, vizantija, savladarstvo]
+        karike: ["Srpski vladari preuzimaju vizantijske običaje", "Dušan postaje car", "?", "Država je uređena slično Vizantiji"]
+        praznina: 2
+        odgovori:
+          - {tekst: "Uvodi titule, ceremonijal i savladarstvo po vizantijskom modelu", tacan: true}
+          - {tekst: "Ukida sva zvanja", tacan: false, zasto: "Naprotiv, uvodi nova zvanja i titule."}
+          - {tekst: "Zabranjuje vizantijsko pravo", tacan: false, zasto: "Upravo pod njegovim uticajem donosi Zakonik."}
+        pomoc:
+          - "Korak 1: Šta car preuzima?"
+          - "Korak 2: Gde se to vidi na dvoru?"
+          - "Iz lekcije: Vizantija kao uzor → Zakonik, titule, ceremonijal, savladarstvo."
+        objasnjenje: "Carstvo se gradi po uzoru na Vizantiju."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Vizantijski uticaj vidi se u dvorskom ceremonijalu, titulama i savladarstvu."}
+
+      - id: l06-izvor-167-lako
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [dusanov-zakonik]
+        izvor: {autor: "Dušanov Zakonik", naslov: "Član 167, O pravdi", tekst: "Ako car iz srdžbe, ljubavi ili milosti nekome napiše pismo koje se kosi sa Zakonikom, sudije ne smeju tom pismu verovati.", napomena: "Odlomak je prepričan; udžbenik, str. 33."}
+        pitanje: "Šta sudije treba da urade sa takvim carevim pismom?"
+        odgovori:
+          - {tekst: "Da mu ne veruju i sude po Zakoniku", tacan: true}
+          - {tekst: "Da ga izvrše bez pogovora", tacan: false, zasto: "Član 167 kaže suprotno: pismu koje se kosi sa Zakonikom ne treba verovati."}
+          - {tekst: "Da ga pošalju patrijarhu", tacan: false, zasto: "U odlomku se patrijarh ne pominje."}
+          - {tekst: "Da kazne onoga ko je pismo doneo", tacan: false, zasto: "O tome odlomak ne govori."}
+        pomoc:
+          - "Pročitaj šta sudije ne smeju."
+          - "Šta je iznad pisma?"
+          - "Iz lekcije: sudije ne smeju verovati pismu koje se kosi sa Zakonikom."
+        objasnjenje: "Sudije sude po Zakoniku, a ne po carevom pismu koje mu protivreči."
+        iz_udzbenika: {strana: 33, odeljak: "Iz istorijskih izvora", tekst: "Ako car napiše pismo koje se kosi sa Zakonikom, sudije ne smeju tom pismu verovati.", slika: "06-uspon-srbije-xiii-xiv-vek/04-zakonik-cara-dusana.jpg"}
+
+      - id: l06-izvor-167-strah
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [dusanov-zakonik, car-dusan]
+        izvor: {autor: "Dušanov Zakonik", naslov: "Član 167, O pravdi", tekst: "Sudije moraju da presuđuju po pravdi i po Zakoniku, a ne iz straha od cara.", napomena: "Odlomak je prepričan; udžbenik, str. 33."}
+        pitanje: "Šta je cilj ovog člana?"
+        odgovori:
+          - {tekst: "Da sudije budu nezavisne od careve volje i straha", tacan: true}
+          - {tekst: "Da sudije budu poslušnije caru", tacan: false, zasto: "Baš suprotno: ne sude iz straha od cara."}
+          - {tekst: "Da car sam sudi u svim sporovima", tacan: false, zasto: "Član govori o sudijama koji sude po Zakoniku."}
+          - {tekst: "Da se ukinu sudije", tacan: false, zasto: "Sudije postoje i obavezuju se da sude po pravdi."}
+        pomoc:
+          - "Pročitaj kako treba da sude."
+          - "Čega ne treba da se plaše?"
+          - "Iz lekcije: sudije presuđuju po pravdi i Zakoniku, a ne iz straha od cara."
+        objasnjenje: "Član štiti sud od pritiska, pa i od samog cara."
+        iz_udzbenika: {strana: 33, odeljak: "Iz istorijskih izvora", tekst: "Sudije moraju da presuđuju po pravdi i po Zakoniku, a ne iz straha od cara."}
+
+      - id: l06-izvor-167-tesko
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [dusanov-zakonik, car-dusan]
+        izvor: {autor: "Dušanov Zakonik", naslov: "Član 167, O pravdi", tekst: "Čak ni pismo koje napiše sam car, ako se kosi sa Zakonikom, ne važi pred sudijama. Oni sude po pravdi i Zakoniku, a ne iz straha od cara.", napomena: "Odlomak je prepričan; udžbenik, str. 33."}
+        pitanje: "Šta je neobično u tome što je ovaj član donela sama vlast?"
+        odgovori:
+          - {tekst: "Car je Zakonikom sam sebi ograničio moć da utiče na sudije", tacan: true}
+          - {tekst: "Car je time ukinuo Zakonik", tacan: false, zasto: "Baš naprotiv, Zakonik stavlja iznad svog pisma."}
+          - {tekst: "Sudije su time postale carevi", tacan: false, zasto: "Sudije samo sude po Zakoniku."}
+          - {tekst: "Patrijarh je dobio vlast nad sudovima", tacan: false, zasto: "Patrijarh se u odlomku ne pominje."}
+        pomoc:
+          - "Korak: pitaj ko je doneo Zakonik."
+          - "Čije je pismo u odlomku nevažeće?"
+          - "Iz lekcije: sudije sude samo po zakonu i ne obaziru se na carevo pismo koje mu protivreči."
+        objasnjenje: "Zakonik koji je doneo car ograničava i samog cara pred sudom."
+        iz_udzbenika: {strana: 33, odeljak: "Iz istorijskih izvora", tekst: "Sudije se ne obaziru na carevo pismo koje protivreči Zakoniku."}
+
+      - id: l06-izvor-zakonik-rukopis
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [dusanov-zakonik]
+        izvor: {autor: "Fotografija iz udžbenika", naslov: "Zakonik cara Dušana (opis slike)", tekst: "Otvorena stara knjiga: na obe strane je tekst, a na desnoj je i veliki ukrašeni zastavak iznad naslova.", napomena: "Odlomak je prepričan; udžbenik, str. 32."}
+        pitanje: "Čiji je uticaj vidljiv u sadržaju ove knjige?"
+        odgovori:
+          - {tekst: "vizantijskog prava", tacan: true}
+          - {tekst: "dubrovačke trgovine", tacan: false, zasto: "Dubrovčani su razvijali trgovinu, a Zakonik je nastao pod uticajem vizantijskog prava."}
+          - {tekst: "bogumilskog učenja", tacan: false, zasto: "Bogumili nisu izvor Zakonika."}
+          - {tekst: "saskih rudara", tacan: false, zasto: "Sasi su rudari, a uzor Zakonika je vizantijsko pravo."}
+        pomoc:
+          - "Dušan se ugleda na susedno carstvo."
+          - "Knjiga kaže da je uticaj pravni."
+          - "Iz lekcije: pod uticajem vizantijskog prava Dušan je doneo Zakonik."
+        objasnjenje: "Zakonik je nastao pod uticajem vizantijskog prava."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Pod uticajem vizantijskog prava Dušan je doneo Zakonik.", slika: "06-uspon-srbije-xiii-xiv-vek/04-zakonik-cara-dusana.jpg"}
+
+      - id: l06-izvor-karta-susedi
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [car-dusan, korintski-zaliv]
+        izvor: {autor: "Karta iz udžbenika", naslov: "Srpsko carstvo sredinom XIV veka (opis karte)", tekst: "Tamnijim tonom je označeno Dušanovo carstvo. Okolo su Ugarska, Vlaška, Bosna, Bugarsko carstvo, Vizantijsko carstvo i Napuljska kraljevina, a na jugu Atinsko vojvodstvo i Ahaja. Carstvo se proteže od Dunava do Korintskog zaliva.", napomena: "Odlomak je prepričan; udžbenik, str. 32."}
+        pitanje: "Šta karta pokazuje o Vizantiji sredinom XIV veka?"
+        odgovori:
+          - {tekst: "I dalje postoji, ali je sused Srpskog carstva, koje je zauzelo velike delove njenih zemalja", tacan: true}
+          - {tekst: "Više ne postoji", tacan: false, zasto: "Na karti je označeno Vizantijsko carstvo."}
+          - {tekst: "Obuhvata i Srbiju", tacan: false, zasto: "Srpsko carstvo je posebno označeno."}
+          - {tekst: "Nalazi se severno od Dunava", tacan: false, zasto: "Severno je Ugarska i Vlaška, a ne Vizantija."}
+        pomoc:
+          - "Pročitaj spisak suseda."
+          - "Vizantija je među njima."
+          - "Iz lekcije: oko carstva su i Bugarsko i Vizantijsko carstvo."
+        objasnjenje: "Vizantija postoji, ali smanjena, kao sused Dušanovog carstva."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Karta prikazuje Dušanovo carstvo i njegove susede, među kojima je i Vizantijsko carstvo.", slika: "06-uspon-srbije-xiii-xiv-vek/05-srpsko-carstvo-sredinom-xiv-veka-karta.jpg"}
+
+      - id: l06-uporedi-ser-skoplje
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [ser, skoplje]
+        a: "Ser"
+        b: "Skoplje"
+        pitanje: "Na koji grad se tvrdnja odnosi: Ser, Skoplje, oba ili nijedan?"
+        tvrdnje:
+          - {tekst: "Dušan se tu proglasio za cara 1345.", odgovor: a, zasto: "Proglašenje je bilo u Seru."}
+          - {tekst: "Dušan je tu krunisan 1346.", odgovor: b, zasto: "Krunisanje je bilo u Skoplju."}
+          - {tekst: "Zakonik je tu objavljen 1349.", odgovor: b, zasto: "Objavljen je u Skoplju."}
+          - {tekst: "Zakonik je tu dopunjen 1354.", odgovor: a, zasto: "Dopuna je bila u Seru."}
+          - {tekst: "Tu se održavao državni sabor.", odgovor: oba, zasto: "Sabori su održani i u Skoplju i u Seru."}
+          - {tekst: "Tu je Sveti Sava dobio samostalnost crkve.", odgovor: nijedan, zasto: "To je bilo u Nikeji 1219."}
+        pomoc:
+          - "Svaki grad ima dva događaja."
+          - "Ser je grčki grad."
+          - "Iz lekcije: Ser 1345 i 1354; Skoplje 1346 i 1349."
+        objasnjenje: "Oba grada su važna za carstvo i Zakonik."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Ser je mesto proglašenja i dopune, a Skoplje krunisanja i objavljivanja Zakonika."}
+
+      - id: l06-uporedi-srbija-vizantija
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [vizantija, car-dusan]
+        a: "Vizantija kao protivnik"
+        b: "Vizantija kao uzor"
+        pitanje: "Razvrstaj tvrdnje: šta pokazuje Vizantiju kao protivnika, šta kao uzora, šta oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Dušan osvaja severnu i srednju Grčku.", odgovor: a, zasto: "To je rat za vizantijske zemlje."}
+          - {tekst: "Zakonik nastaje pod uticajem njenog prava.", odgovor: b, zasto: "To je ugledanje."}
+          - {tekst: "Dušan uvodi zvanja i titule po njenom modelu.", odgovor: b, zasto: "To je preuzimanje."}
+          - {tekst: "Dušan uzima titulu cara Srba i Grka.", odgovor: oba, zasto: "Titula je i posledica osvajanja i preuzimanje vizantijskog carskog modela."}
+          - {tekst: "Dušan plaća nemačke najamnike.", odgovor: nijedan, zasto: "To je plod prihoda od rudarstva i trgovine, a ne pojava vezana za samu Vizantiju."}
+        pomoc:
+          - "Rat za zemlju ili preuzimanje uređenja?"
+          - "Jedna tvrdnja spaja oba."
+          - "Iz lekcije: često su ratovali s Vizantijom, ali im je bila i uzor."
+        objasnjenje: "Odnos je dvostruk: rat za teritoriju i ugledanje na uređenje."
+        iz_udzbenika: {strana: 31, odeljak: "Proglašenje carstva", tekst: "Srpski vladari su često ratovali s Vizantijom, ali im je ona bila i uzor."}
+
+      - id: l06-kosam-dusan
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [car-dusan, dusanov-zakonik]
+        tragovi:
+          - "Istakao sam se u borbi sa bosanskim vladarem."
+          - "Presto sam od oca uzeo silom."
+          - "Svoje sudije sam obavezao da ne sude iz straha od mene."
+        odgovori:
+          - {tekst: "Dušan", tacan: true}
+          - {tekst: "Milutin", tacan: false, zasto: "Milutinu je presto ustupio brat."}
+          - {tekst: "Stefan Dečanski", tacan: false, zasto: "On je Dušanov otac i pobednik kod Velbužda."}
+          - {tekst: "Uroš Nejaki", tacan: false, zasto: "On je Dušanov sin i odmah je proglašen za cara."}
+        objasnjenje: "To je Dušan, kralj pa car, tvorac Zakonika."
+        iz_udzbenika: {strana: 33, odeljak: "Iz istorijskih izvora", tekst: "Dušanov Zakonik obavezuje sudije da ne sude iz straha od cara.", slika: "06-uspon-srbije-xiii-xiv-vek/03-car-dusan.jpg"}
+
+      - id: l06-objasni-zakonik
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [dusanov-zakonik]
+        pitanje: "Šta je Dušanov Zakonik i kada je donet?"
+        uzor: "To je zakonik koji je Dušan doneo za celo Carstvo, pod uticajem vizantijskog prava. Objavljen je 1349. na saboru u Skoplju, a dopunjen 1354. u Seru. Uređivao je verski, društveni i privatni život."
+        ideje: ["Objavljen je 1349. u Skoplju.", "Dopunjen je 1354. u Seru.", "Uticaj vizantijskog prava.", "Uređuje razne oblasti života."]
+        objasnjenje: "Odgovor spaja datum, mesto, uzor i sadržaj."
+        iz_udzbenika: {strana: 32, odeljak: "Proglašenje carstva", tekst: "Zakonik je objavljen 1349. u Skoplju, a dopunjen 1354. u Seru."}
+
+      - id: l06-objasni-sudije
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [dusanov-zakonik]
+        pitanje: "Šta je u Dušanovom Zakoniku pisalo o uticaju vladara na sudije?"
+        uzor: "Ako car iz srdžbe, ljubavi ili milosti napiše pismo koje se kosi sa Zakonikom, sudije mu ne smeju verovati. Sudije moraju da sude po pravdi i po Zakoniku. Ne smeju da sude iz straha od cara."
+        ideje: ["Sudije ne veruju pismu koje se kosi sa Zakonikom.", "Sude po pravdi i Zakoniku.", "Ne sude iz straha od cara."]
+        objasnjenje: "Ovo je pitanje iz udžbenika sa str. 33."
+        iz_udzbenika: {strana: 33, odeljak: "Iz istorijskih izvora", tekst: "Sudije sude po pravdi i Zakoniku, a ne iz straha od cara."}
+
+      - id: l06-objasni-proglasenje-koraci
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [car-dusan, patrijarh-joanikije, ser, skoplje]
+        pitanje: "Opiši korake kojima je Dušan postao car."
+        uzor: "Posle osvajanja u Vizantiji proglasio se 1345. za cara u Seru. Godine 1346. arhiepiskop Joanikije je dobio čin patrijarha. Zatim je u Skoplju krunisan za cara Srba i Grka."
+        ideje: ["Osvajanja u Vizantiji.", "Proglašenje u Seru 1345.", "Joanikije postaje patrijarh 1346.", "Krunisanje u Skoplju 1346."]
+        objasnjenje: "Tri koraka u dve godine."
+        iz_udzbenika: {strana: 31, odeljak: "Proglašenje carstva", tekst: "Dušan se proglasio za cara 1345, a krunisan je u Skoplju 1346."}
+
+      - id: l06-objasni-vizantija-tesko
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [vizantija, dusanov-zakonik, savladarstvo]
+        pitanje: "Objasni na primerima zašto kažemo da je Vizantija Srbima bila i protivnik i uzor."
+        uzor: "Srpski vladari su često ratovali s Vizantijom, a Dušan je osvojio velike delove njenih zemalja. Istovremeno je Zakonik nastao pod uticajem vizantijskog prava. Titule, dvorski ceremonijal i savladarstvo takođe su preuzeti po njenom uzoru."
+        ideje: ["Ratovi i osvajanje vizantijskih zemalja.", "Zakonik pod uticajem vizantijskog prava.", "Titule, ceremonijal i savladarstvo po uzoru na Vizantiju."]
+        objasnjenje: "Dobar odgovor ima primer i za rat i za ugledanje."
+        iz_udzbenika: {strana: 31, odeljak: "Proglašenje carstva", tekst: "Srpski vladari su često ratovali s Vizantijom, ali im je ona bila i uzor."}
+
+      - id: l06-objasni-zakon-iznad-cara
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [dusanov-zakonik, car-dusan]
+        pitanje: "Zašto je član 167 važan za razumevanje pravde u Dušanovoj državi?"
+        uzor: "Član kaže da sudije ne smeju slušati carevo pismo koje se kosi sa Zakonikom. Time je Zakonik stavljen iznad trenutne careve volje. Sudije treba da presuđuju po pravdi, a ne iz straha."
+        ideje: ["Zakonik je iznad careve trenutne volje.", "Sudije nisu dužne da poslušaju protivzakonito pismo.", "Pravda ne sme zavisiti od straha."]
+        objasnjenje: "Ideja je da i vladar ima granice koje je sam postavio."
+        iz_udzbenika: {strana: 33, odeljak: "Iz istorijskih izvora", tekst: "Sudije sude po pravdi i Zakoniku, a ne iz straha od cara."}
+
+  # ==========================================================================
+  - naslov: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon"
+    zadaci:
+      - id: l06-izbor-bastina
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [bastina]
+        pitanje: "Šta je baština?"
+        odgovori:
+          - {tekst: "nasledno imanje koje ostaje u porodici feudalca", tacan: true}
+          - {tekst: "imanje koje se ima samo dok traje vojna služba", tacan: false, zasto: "To je pronija."}
+          - {tekst: "mesto na kom vladar boravi", tacan: false, zasto: "To je rezidencija."}
+          - {tekst: "ograda od šiljatih greda", tacan: false, zasto: "To je palisada."}
+        pomoc:
+          - "Ostaje u porodici."
+          - "Nasleđuje se."
+          - "Iz lekcije: baština je nasledno imanje koje ostaje u porodici feudalca."
+        objasnjenje: "Baština je nasledno imanje feudalca."
+        iz_udzbenika: {strana: 32, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Baština je nasledno imanje koje ostaje u porodici feudalca."}
+
+      - id: l06-izbor-pronija
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [pronija]
+        pitanje: "Šta je pronija?"
+        odgovori:
+          - {tekst: "uslovno vlasništvo: imanje se koristi dok traje služba u vojsci", tacan: true}
+          - {tekst: "nasledno imanje feudalca", tacan: false, zasto: "To je baština."}
+          - {tekst: "zbornik zakona", tacan: false, zasto: "To su Zakonik ili krmčija; pronija je vrsta imanja."}
+          - {tekst: "manastirski pravilnik", tacan: false, zasto: "To je tipik."}
+        pomoc:
+          - "Povezana je sa vojnom službom."
+          - "Ne nasleđuje se bez uslova."
+          - "Iz lekcije: pronija je uslovno vlasništvo; vlastelin koristi imanje dok služi u vojsci."
+        objasnjenje: "Pronija je imanje koje se koristi samo dok traje vojna služba."
+        iz_udzbenika: {strana: 32, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Pronija je uslovno vlasništvo: vlastelin imanje koristi samo dok svom gospodaru služi u vojsci."}
+
+      - id: l06-izbor-rezidencija
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [rezidencija]
+        pitanje: "Šta je rezidencija?"
+        odgovori:
+          - {tekst: "mesto na kom vladar boravi", tacan: true}
+          - {tekst: "krupno plemstvo", tacan: false, zasto: "Krupno plemstvo su vlastela ili velmože."}
+          - {tekst: "crkveni pravilnik", tacan: false, zasto: "Crkveni pravilnik manastira je tipik."}
+          - {tekst: "vrsta poreza", tacan: false, zasto: "Rezidencija je mesto, a ne porez."}
+        pomoc:
+          - "Vezuje se za vladara."
+          - "To je mesto."
+          - "Iz lekcije: rezidencija je mesto na kom vladar boravi."
+        objasnjenje: "Rezidencija je mesto boravka vladara."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Rezidencija je mesto na kom vladar boravi."}
+
+      - id: l06-izbor-vlastela
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [vlastela, velmoze, vlastelicici, vojnici]
+        pitanje: "Kako se zvalo krupno plemstvo u srednjovekovnoj Srbiji? (više tačnih)"
+        odgovori:
+          - {tekst: "vlastela", tacan: true}
+          - {tekst: "velmože", tacan: true}
+          - {tekst: "vlasteličići", tacan: false, zasto: "Vlasteličići su srednje i sitno plemstvo, sa malim imanjima."}
+          - {tekst: "vojnici", tacan: false, zasto: "I vojnici spadaju u srednje i sitno plemstvo."}
+        pomoc:
+          - "Pazi na umanjenicu vlasteličići."
+          - "Dva naziva su tačna."
+          - "Iz lekcije: krupno se zvalo vlastela ili velmože."
+        objasnjenje: "Krupno plemstvo su vlastela ili velmože, a sitnije su vlasteličići i vojnici."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Krupno plemstvo se zvalo vlastela ili velmože, a srednje i sitno vlasteličići i vojnici."}
+
+      - id: l06-izbor-ko-veliki-posed
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [vlastela]
+        pitanje: "Ko je, osim krupnog plemstva, imao veliko zemljište? (više tačnih)"
+        odgovori:
+          - {tekst: "manastiri", tacan: true}
+          - {tekst: "crkveni velikodostojnici", tacan: true}
+          - {tekst: "zavisni seljaci", tacan: false, zasto: "Oni su radili na tuđim i svojoj zemlji, a nisu imali velike posede."}
+          - {tekst: "Sasi", tacan: false, zasto: "Sasi su rudari; knjiga ih ne navodi kao zemljoposednike."}
+        pomoc:
+          - "Pomisli na crkvu."
+          - "Dva odgovora su tačna."
+          - "Iz lekcije: veliko zemljište imali su i manastiri i crkveni velikodostojnici."
+        objasnjenje: "Pored vlastele, velike posede imali su manastiri i crkveni velikodostojnici."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Veliko zemljište imali su i manastiri i crkveni velikodostojnici."}
+
+      - id: l06-izbor-pretnje
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [osmanlije]
+        pitanje: "Šta je ugrožavalo državu u drugoj polovini XIV veka? (više tačnih)"
+        odgovori:
+          - {tekst: "sve moćniji oblasni gospodari", tacan: true}
+          - {tekst: "početak osmanlijskih osvajanja Balkana", tacan: true}
+          - {tekst: "gašenje rudnika zbog odlaska Sasa", tacan: false, zasto: "Knjiga to ne navodi."}
+          - {tekst: "krstaši iz zapadne Evrope", tacan: false, zasto: "Krstaši su pretnja XIII veka i prethodne lekcije."}
+        pomoc:
+          - "Jedna pretnja je iznutra, druga spolja."
+          - "Dva odgovora su tačna."
+          - "Iz lekcije: državu ugrožavaju oblasni gospodari i početak osvajanja Balkana od strane Turaka Osmanlija."
+        objasnjenje: "Unutrašnja pretnja su oblasni gospodari, a spoljna Osmanlije."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "U drugoj polovini XIV veka državu ugrožavaju oblasni gospodari i Turci Osmanlije."}
+        osa: {naziv: "Početak osmanlijskih osvajanja Balkana", od: 1350, do: 1400, traka: dogadjaji, oznaka: "druga polovina XIV veka"}
+
+      - id: l06-izbor-vladar-putuje
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [rezidencija]
+        pitanje: "Zašto srednjovekovni vladar nije sedeo na jednom mestu?"
+        odgovori:
+          - {tekst: "Podanici je trebalo da ga vide, pa je stalno obilazio svoje oblasti", tacan: true}
+          - {tekst: "Bežao je od Sasa", tacan: false, zasto: "Sasi su rudari, a ne neprijatelji."}
+          - {tekst: "Nije imao ni jedne kuće", tacan: false, zasto: "Imao je dvorove; razlog je što je trebalo da se pokaže podanicima."}
+          - {tekst: "Bio je monah na hodočašću", tacan: false, zasto: "Razlog nije verski, nego upravljanje državom."}
+        pomoc:
+          - "Pomisli kako podanici znaju za vladara."
+          - "Pratila ga je kancelarija."
+          - "Iz lekcije: da bi ga podanici videli, stalno je obilazio svoje oblasti."
+        objasnjenje: "Vladar se pokazivao podanicima i usput vladao."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Da bi ga podanici videli, vladar je stalno obilazio svoje oblasti."}
+
+      - id: l06-tn-kancelarija
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [rezidencija]
+        tvrdnja: "Vladara je na putovanjima pratila dvorska kancelarija, koja je sudila i pregovarala."
+        tacno: true
+        pomoc:
+          - "Država je putovala sa vladarom."
+          - "Iz lekcije: pratila ga je dvorska kancelarija koja je sudila i pregovarala."
+        objasnjenje: "Tačno. Kancelarija je putovala sa vladarom."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Pratila ga je dvorska kancelarija koja je sudila i pregovarala."}
+
+      - id: l06-tn-zavisni-svoju
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [zavisni-seljaci]
+        tvrdnja: "Zavisni seljaci su obrađivali samo svoju zemlju."
+        tacno: false
+        ispravke:
+          - {tekst: "Obrađivali su svoju zemlju, ali i posede svojih feudalnih gospodara.", tacan: true}
+          - {tekst: "Obrađivali su samo manastirsku zemlju.", tacan: false, zasto: "Obrađivali su i svoju i gospodarevu zemlju."}
+          - {tekst: "Nisu obrađivali zemlju, nego kopali srebro.", tacan: false, zasto: "Rudnike su otvarali Sasi; seljaci su radili zemlju."}
+        pomoc:
+          - "Pazi na reč samo."
+          - "Šta znači reč zavisni?"
+          - "Iz lekcije: obrađivali su svoju zemlju, ali i posede svojih gospodara."
+        objasnjenje: "Netačno. Radili su i svoju i gospodarevu zemlju."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Zavisni seljaci obrađivali su svoju zemlju, ali i posede svojih feudalnih gospodara.", slika: "06-uspon-srbije-xiii-xiv-vek/07-poljoprivredni-radovi.jpg"}
+
+      - id: l06-tn-rezidencije
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [rezidencija, kralj-milutin]
+        tvrdnja: "Stalne rezidencije u Srbiji nastaju tek pod Milutinom."
+        tacno: true
+        pomoc:
+          - "Isti kralj je uveo raskoš."
+          - "Iz lekcije: stalne rezidencije u Srbiji nastaju tek pod Milutinom."
+        objasnjenje: "Tačno. Do tada je vladar stalno putovao."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Stalne rezidencije u Srbiji nastaju tek pod Milutinom."}
+
+      - id: l06-tn-pronija-nasledna
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [pronija, bastina]
+        tvrdnja: "Pronija se bezuslovno nasleđuje u porodici feudalca."
+        tacno: false
+        ispravke:
+          - {tekst: "Bezuslovno se nasleđuje baština, a pronija se ima dok traje vojna služba.", tacan: true}
+          - {tekst: "Pronija se daje samo manastirima.", tacan: false, zasto: "Proniju koristi vlastelin dok služi u vojsci."}
+          - {tekst: "Pronija je isto što i baština.", tacan: false, zasto: "Baština je nasledna, a pronija uslovna."}
+        pomoc:
+          - "Dva pojma lako se mešaju."
+          - "Povezana je sa vojskom."
+          - "Iz lekcije: baština je nasledna, a pronija uslovna."
+        objasnjenje: "Netačno. Nasledna je baština, a pronija zavisi od vojne službe."
+        iz_udzbenika: {strana: 32, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Baština je nasledno imanje, a pronija uslovno vlasništvo."}
+
+      - id: l06-tn-grupe-zavisnih
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [zavisni-seljaci]
+        tvrdnja: "Zavisno stanovništvo bilo je podeljeno na nekoliko grupa sa tačno utvrđenim dužnostima."
+        tacno: true
+        pomoc:
+          - "Svaka grupa je imala svoje obaveze."
+          - "Iz lekcije: zavisno stanovništvo bilo je razvrstano u nekoliko grupa sa tačno utvrđenim dužnostima."
+        objasnjenje: "Tačno. Dužnosti su bile tačno određene."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Zavisno stanovništvo bilo je razvrstano u nekoliko grupa sa tačno utvrđenim dužnostima."}
+
+      - id: l06-tn-plemstvo-posedi
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [feudalno-drustvo, vlastelicici, vlastela]
+        tvrdnja: "Svi plemići u srednjovekovnoj Srbiji imali su jednako velike posede."
+        tacno: false
+        ispravke:
+          - {tekst: "Krupno plemstvo imalo je prostrane posede, a srednje i sitno mala imanja.", tacan: true}
+          - {tekst: "Plemići nisu imali zemlju.", tacan: false, zasto: "Upravo je zemlja osnova njihovog položaja."}
+          - {tekst: "Veće posede imali su vlasteličići nego vlastela.", tacan: false, zasto: "Obrnuto je: vlastela ima prostrane posede."}
+        pomoc:
+          - "Plemstvo je bilo podeljeno."
+          - "Pazi na reč svi."
+          - "Iz lekcije: krupno plemstvo imalo je prostrane posede, a srednje i sitno mala imanja."
+        objasnjenje: "Netačno. Plemstvo je bilo podeljeno i po veličini poseda."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Krupno plemstvo imalo je prostrane posede, a srednje i sitno mala imanja."}
+
+      - id: l06-dopuni-seljaci-tesko
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [zavisni-seljaci, feudalno-drustvo]
+        pitanje: "Dopuni rečenicu (bez ponuđenih reči)."
+        tekst: "Od XII do XIV veka u Srbiji se razvija {{feudalno}} društvo, a na velikim posedima rade {{zavisni}} seljaci."
+        pomoc:
+          - "Društvo se zove po feudalcima."
+          - "Seljaci nisu slobodni."
+          - "Iz lekcije: feudalno društvo; zavisni seljaci."
+        objasnjenje: "U feudalnom društvu zavisni seljaci rade na posedima."
+        iz_udzbenika: {strana: 32, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Razvija se feudalno društvo: nastaju veliki posedi na kojima rade zavisni seljaci."}
+
+      - id: l06-povezi-drustvo
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [vlastela, vlastelicici, zavisni-seljaci, bastina]
+        pitanje: "Poveži grupu ili pojam sa objašnjenjem."
+        parovi:
+          - ["vlastela", "krupno plemstvo sa prostranim posedima"]
+          - ["vlasteličići", "srednje i sitno plemstvo sa malim imanjima"]
+          - ["zavisni seljaci", "obrađivali su i svoju i gospodarevu zemlju"]
+          - ["baština", "nasledno imanje"]
+        pomoc:
+          - "Vlasteličići su manji od vlastele."
+          - "Baština je imanje, a ne grupa."
+          - "Iz lekcije: vlastela, vlasteličići, zavisni seljaci i baština."
+        objasnjenje: "Tako izgleda feudalni poredak od vrha do dna, sa posedom kao osnovom."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Plemstvo je bilo podeljeno, a zavisni seljaci obrađivali su zemlju."}
+
+      - id: l06-povezi-tesko-pojam-primer
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [pronija, bastina, rezidencija, ktitor]
+        pitanje: "Poveži primer iz života sa pojmom koji mu odgovara."
+        parovi:
+          - ["Vlastelin gubi imanje kad prestane da služi u vojsci.", "pronija"]
+          - ["Unuk nasleđuje imanje svog dede vlastelina.", "baština"]
+          - ["Kralj više ne putuje stalno, nego ima mesto gde boravi.", "rezidencija"]
+          - ["Vlastelin podiže manastir i brine o njemu.", "ktitor"]
+        pomoc:
+          - "Pitaj se šta je uslov, a šta nasleđe."
+          - "Mesto boravka je rezidencija."
+          - "Iz lekcije: pronija je uslovna, baština nasledna, rezidencija mesto boravka, ktitor podiže manastir."
+        objasnjenje: "Primena pojmova na nove primere proverava razumevanje."
+        iz_udzbenika: {strana: 32, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Pronija je uslovna, a baština nasledna; rezidencija je mesto boravka vladara."}
+
+      - id: l06-zakljuci-pronija-svrha
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [pronija]
+        pitanje: "Šta je vladar dobijao time što je davao proniju?"
+        odgovori:
+          - {tekst: "Vojnu službu vlastelina", tacan: true}
+          - {tekst: "Trgovce iz Dubrovnika", tacan: false, zasto: "Pronija je vezana za vojnu službu."}
+          - {tekst: "Nove rudnike", tacan: false, zasto: "Rudnike otvaraju Sasi, a pronija je zemljišni posed."}
+          - {tekst: "Crkvenu samostalnost", tacan: false, zasto: "To je 1219. i Sava."}
+        pomoc:
+          - "Korak 1: Pod kojim uslovom se koristi pronija?"
+          - "Korak 2: Šta time dobija gospodar?"
+          - "Iz lekcije: vlastelin imanje koristi dok svom gospodaru služi u vojsci."
+        objasnjenje: "Imanje je plata za vojnu službu."
+        iz_udzbenika: {strana: 32, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Vlastelin imanje koristi samo dok svom gospodaru služi u vojsci."}
+
+      - id: l06-zakljuci-bastina-vs-pronija
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [bastina, pronija, vlastela]
+        pitanje: "Šta bi vlastelin radije imao, baštinu ili proniju, i zašto?"
+        odgovori:
+          - {tekst: "Baštinu, jer ostaje porodici bez uslova vojne službe", tacan: true}
+          - {tekst: "Proniju, jer se ona nasleđuje zauvek", tacan: false, zasto: "Nasleđuje se baština, a pronija zavisi od službe."}
+          - {tekst: "Svejedno je, jer su iste", tacan: false, zasto: "Razlika je upravo u nasleđivanju."}
+          - {tekst: "Nijednu, jer plemići nisu imali imanja", tacan: false, zasto: "Plemstvo je imalo imanja."}
+        pomoc:
+          - "Korak 1: Koje imanje zavisi od uslova?"
+          - "Korak 2: Koje je sigurnije za porodicu?"
+          - "Iz lekcije: baština ostaje u porodici, a pronija se koristi samo dok traje služba."
+        objasnjenje: "Baština je sigurnija, jer ne zavisi od službe."
+        iz_udzbenika: {strana: 32, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Baština ostaje u porodici, a pronija se koristi samo dok traje vojna služba."}
+
+      - id: l06-zakljuci-oblasni
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [vlastela, osmanlije]
+        pitanje: "Dušan je krupnom plemstvu davao velike oblasti na upravu. Kako je to moglo da doprinese opasnosti u drugoj polovini XIV veka?"
+        odgovori:
+          - {tekst: "Plemići sa velikim oblastima mogli su da postanu moćni oblasni gospodari", tacan: true}
+          - {tekst: "Time su Osmanlije postali srpski plemići", tacan: false, zasto: "Osmanlije su spoljni osvajači."}
+          - {tekst: "Time je ukinuto plemstvo", tacan: false, zasto: "Naprotiv, plemstvo je jačalo."}
+          - {tekst: "Time su seljaci dobili vlast", tacan: false, zasto: "Oni su ostali zavisni."}
+        pomoc:
+          - "Korak 1: Ko je dobijao oblasti?"
+          - "Korak 2: Ko ugrožava državu posle?"
+          - "Iz lekcije: krupno plemstvo dobija velike oblasti; kasnije državu ugrožavaju moćni oblasni gospodari."
+        objasnjenje: "Veća vlast plemića u oblastima može da preraste u samostalnu moć."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "U drugoj polovini XIV veka državu ugrožavaju sve moćniji oblasni gospodari."}
+
+      - id: l06-lanac-vladar-putuje
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [rezidencija]
+        karike: ["Vladar mora da se pokaže podanicima", "?", "Rezidencije se javljaju tek pod Milutinom"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Stalno putuje po svojim oblastima", tacan: true}
+          - {tekst: "Stalno sedi u Rasu", tacan: false, zasto: "Tada podanici ne bi mogli da ga vide; on je putovao."}
+          - {tekst: "Šalje najamnike umesto sebe", tacan: false, zasto: "Knjiga to ne navodi."}
+        pomoc:
+          - "Korak 1: Kako da ga vide?"
+          - "Korak 2: Šta to govori o stalnom boravištu?"
+          - "Iz lekcije: vladar mora da se pokaže podanicima → stalno putovanje, a rezidencije tek od Milutina."
+        objasnjenje: "Pre Milutina vladar je stalno putovao."
+        iz_udzbenika: {strana: 33, odeljak: "Uzrok → posledica", tekst: "Vladar mora da se pokaže podanicima, pa stalno putuje, a rezidencije se javljaju tek od Milutina."}
+
+      - id: l06-lanac-kraj
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [car-dusan, osmanlije]
+        karike: ["Država je na vrhuncu pod Dušanom", "Dušan iznenada umire", "?", "Društvo je ugroženo u drugoj polovini XIV veka"]
+        praznina: 2
+        odgovori:
+          - {tekst: "Jačaju oblasni gospodari, a Osmanlije počinju osvajanja", tacan: true}
+          - {tekst: "Sasi preuzimaju presto", tacan: false, zasto: "Sasi su rudari."}
+          - {tekst: "Uroš Nejaki osvaja Carigrad", tacan: false, zasto: "Knjiga to ne navodi."}
+        pomoc:
+          - "Korak 1: Ko je iznutra jačao?"
+          - "Korak 2: Ko dolazi spolja?"
+          - "Iz lekcije: sve moćniji oblasni gospodari i osmanlijska osvajanja → ugroženo društvo."
+        objasnjenje: "Pretnje su i unutrašnje i spoljne."
+        iz_udzbenika: {strana: 33, odeljak: "Uzrok → posledica", tekst: "Sve moćniji oblasni gospodari i osmanlijska osvajanja ugrožavaju društvo u drugoj polovini XIV veka."}
+
+      - id: l06-izvor-seljaci
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [zavisni-seljaci, feudalno-drustvo]
+        izvor: {autor: "Ilustracija iz udžbenika", naslov: "Poljoprivredni radovi (opis slike)", tekst: "Tri sličice jedna do druge: seljak ore plugom koji vuku dva vola, drugi nosi kosu ili srp, treći kosi žito.", napomena: "Odlomak je prepričan; udžbenik, str. 33."}
+        pitanje: "Koja društvena grupa je prikazana na ovoj ilustraciji?"
+        odgovori:
+          - {tekst: "zavisni seljaci", tacan: true}
+          - {tekst: "vlastela", tacan: false, zasto: "Vlastela poseduje zemlju, a ne ore je."}
+          - {tekst: "najamnici", tacan: false, zasto: "Najamnici su vojnici."}
+          - {tekst: "monasi", tacan: false, zasto: "Knjiga kaže da je to posao zavisnih seljaka."}
+        pomoc:
+          - "Ko je obrađivao zemlju?"
+          - "Oni su radili i na tuđim posedima."
+          - "Iz lekcije: zavisni seljaci obrađivali su svoju zemlju i posede gospodara."
+        objasnjenje: "Ilustracija prikazuje rad zavisnih seljaka."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Slika 32 prikazuje poljoprivredne radove.", slika: "06-uspon-srbije-xiii-xiv-vek/07-poljoprivredni-radovi.jpg"}
+
+      - id: l06-izvor-novac-tesko
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [rudarstvo, srebro, feudalno-drustvo]
+        izvor: {autor: "Fotografija iz udžbenika", naslov: "Srednjovekovni srpski novac (opis slike)", tekst: "Na novcu je vladar koji sedi na prestolu, a po obodu je natpis. Knjiga ne kaže čiji je novac.", napomena: "Odlomak je prepričan; udžbenik, str. 33."}
+        pitanje: "Šta, zajedno sa znanjem iz lekcije, može da nam kaže ovakav novac o državi, a šta ne može?"
+        odgovori:
+          - {tekst: "Svedoči o razvijenoj privredi i trgovini, ali ne možemo reći čiji je bez dodatnih podataka", tacan: true}
+          - {tekst: "Sigurno je Dušanov novac iz 1349.", tacan: false, zasto: "Knjiga ne kaže čiji je novac."}
+          - {tekst: "Dokazuje da su vladari bili bogumili", tacan: false, zasto: "Novac o tome ne svedoči."}
+          - {tekst: "Dokazuje da nije bilo trgovine", tacan: false, zasto: "Baš suprotno: novac služi trgovini."}
+        pomoc:
+          - "Korak: šta na novcu sigurno vidimo?"
+          - "Šta nam knjiga ne kaže o tom novcu?"
+          - "Iz lekcije: uz rudarstvo razvijaju se trgovi i gradovi; knjiga ne navodi čiji je novac."
+        objasnjenje: "Dobar čitalac izvora razdvaja ono što se vidi od onoga što je pretpostavka."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Slika 31 prikazuje srpski novac, a knjiga ne kaže čiji je.", slika: "06-uspon-srbije-xiii-xiv-vek/06-srednjovekovni-srpski-novac.jpg"}
+
+      - id: l06-uporedi-bastina-pronija
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [bastina, pronija]
+        a: "Baština"
+        b: "Pronija"
+        pitanje: "Na šta se tvrdnja odnosi: baštinu, proniju, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Nasleđuje se u porodici feudalca.", odgovor: a, zasto: "To je baština."}
+          - {tekst: "Koristi se dok traje vojna služba.", odgovor: b, zasto: "To je pronija."}
+          - {tekst: "To je uslovno vlasništvo.", odgovor: b, zasto: "Uslov je vojna služba."}
+          - {tekst: "To je feudalni posed na kome rade zavisni seljaci.", odgovor: oba, zasto: "Knjiga navodi oba kao feudalne posede."}
+          - {tekst: "To je ograda dvora.", odgovor: nijedan, zasto: "To je palisada."}
+        pomoc:
+          - "Baština je sigurna, pronija uslovna."
+          - "Oba su imanja."
+          - "Iz lekcije: baština nasledna, pronija dok traje služba."
+        objasnjenje: "Razlika je u uslovu: nasleđe protiv vojne službe."
+        iz_udzbenika: {strana: 32, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Baština je nasledno imanje, a pronija uslovno vlasništvo."}
+
+      - id: l06-uporedi-krupno-sitno
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [vlastela, vlastelicici]
+        a: "Vlastela"
+        b: "Vlasteličići"
+        pitanje: "Na koga se tvrdnja odnosi: vlastelu, vlasteličiće, obe grupe ili nijednu?"
+        tvrdnje:
+          - {tekst: "Imaju prostrane posede.", odgovor: a, zasto: "To je krupno plemstvo."}
+          - {tekst: "Imaju mala imanja.", odgovor: b, zasto: "To je srednje i sitno plemstvo."}
+          - {tekst: "Zovu se i velmože.", odgovor: a, zasto: "Velmože je drugi naziv za krupno plemstvo."}
+          - {tekst: "Pripadaju plemstvu.", odgovor: oba, zasto: "Obe grupe su plemstvo."}
+          - {tekst: "Obrađuju posede feudalnih gospodara.", odgovor: nijedan, zasto: "To rade zavisni seljaci."}
+        pomoc:
+          - "Vlasteličići su umanjenica."
+          - "Plemstvo ne ore."
+          - "Iz lekcije: krupno plemstvo je vlastela, a srednje i sitno vlasteličići i vojnici."
+        objasnjenje: "Plemstvo je slojevito: krupno i sitno."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Plemstvo je bilo podeljeno na krupno i na srednje i sitno."}
+
+      - id: l06-objasni-bastina-pronija
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [bastina, pronija]
+        pitanje: "Šta je baština, a šta pronija?"
+        uzor: "Baština je nasledno imanje koje ostaje u porodici feudalca. Pronija je uslovno vlasništvo: vlastelin imanje koristi samo dok svom gospodaru služi u vojsci."
+        ideje: ["Baština je nasledna.", "Pronija je uslovna.", "Uslov je vojna služba."]
+        objasnjenje: "Ovo je pitanje iz udžbenika sa str. 33."
+        iz_udzbenika: {strana: 33, odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika", tekst: "Baština je nasledni posed, a pronija posed koji se ima samo dok traje vojna služba."}
+
+      - id: l06-objasni-feudalno-drustvo
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [feudalno-drustvo, vlastela, zavisni-seljaci]
+        pitanje: "Opiši kako je bilo uređeno feudalno društvo u srednjovekovnoj Srbiji."
+        uzor: "Na vrhu je bilo krupno plemstvo, vlastela ili velmože, sa velikim posedima, a ispod srednje i sitno plemstvo. Velike posede imala je i crkva. Na dnu su bili zavisni seljaci, koji su obrađivali svoju zemlju i posede gospodara."
+        ideje: ["Krupno plemstvo: vlastela ili velmože.", "Srednje i sitno plemstvo.", "Crkva ima velike posede.", "Zavisni seljaci rade i svoju i gospodarevu zemlju."]
+        objasnjenje: "Treba pokazati slojeve od vrha do dna."
+        iz_udzbenika: {strana: 33, odeljak: "Društveno uređenje srednjovekovne Srbije i njen dalji privredni uspon", tekst: "Plemstvo je bilo podeljeno, a zavisni seljaci obrađivali su zemlju."}
+

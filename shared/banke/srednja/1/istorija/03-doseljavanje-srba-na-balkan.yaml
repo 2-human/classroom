@@ -1,0 +1,3338 @@
+# Banka pitanja: Doseljavanje Srba na Balkan (istorija, 1. razred srednje škole, str. 17–22). Sopstvenim rečima, po belešci lekcije.
+lekcija: 3
+naslov: "Doseljavanje Srba na Balkan"
+pojmovi:
+  stari-sloveni: stari Sloveni
+  vizantija: Vizantija
+  huni: Huni
+  doseljavanje: doseljavanje
+  varvari: varvari
+  velika-seoba-naroda: Velika seoba naroda
+  vrata-naroda: Vrata naroda
+  pradomovina-slovena: pradomovina Slovena
+  odra: Odra
+  visla: Visla
+  karpati: Karpati
+  rodovsko-plemenska-zajednica: rodovsko-plemenska zajednica
+  herodot: Herodot
+  justinijan-i: Justinijan I
+  iraklije: car Iraklije
+  avari: Avari
+  bugari: Bugari
+  solun: Solun
+  carigrad: Carigrad
+  slovenska: Slovenska
+  perun: Perun
+  svetovid: Svetovid
+  dazbog: Dažbog
+  starosedeoci: starosedeoci
+  asimilacija: asimilacija
+  vlasi: Vlasi
+  cincari: Cincari
+  plemenski-savezi: plemenski savezi
+  raska: Raška
+  duklja: Duklja
+  sklavinije: sklavinije
+  kan: kan
+  asparuh: Asparuh
+  madjari: Mađari
+  velikomoravska-knezevina: Velikomoravska kneževina
+  oton-i: Oton I
+  leh: Leh
+  pokrstavanje: pokrštavanje
+  hristijanizacija: hristijanizacija
+  cirilo-i-metodije: Ćirilo i Metodije
+  rastislav: knez Rastislav
+  misionar: misionar
+  glagoljica: glagoljica
+  cirilica: ćirilica
+  kliment-i-naum: Kliment i Naum
+  veliki-raskol: Veliki raskol
+  anti: Anti
+  pesadija: pešadija
+  zaseda: zaseda
+delovi:
+  - naslov: "Život u pradomovini, uzroci i pravci seobe"
+    zadaci:
+      - id: l03-huni-pokrecu-seobu-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [huni, velika-seoba-naroda]
+        pitanje: "Čiji je upad u Evropu pokrenuo Veliku seobu naroda?"
+        odgovori:
+          - {tekst: "Upad Huna", tacan: true}
+          - {tekst: "Upad Avara", tacan: false, zasto: "Avari stižu tek sredinom VI veka, skoro dva veka posle Huna, kada je seoba već uveliko trajala."}
+          - {tekst: "Upad Mađara", tacan: false, zasto: "Mađari se javljaju u srednjoj Evropi tek krajem IX veka; seobu su pokrenuli Huni 375."}
+          - {tekst: "Upad Bugara", tacan: false, zasto: "Bugari su pleme koje je doseljavalo kasnije; Huni su ti koji su prvi potisnuli narode na svom putu."}
+        pomoc:
+          - "Traži nomade koji su došli iz Azije još u IV veku."
+          - "Njihov prolaz 375. uzima se kao početak seobe."
+          - "Iz lekcije: upad nomada Huna u Evropu pokrenuo je veliku seobu naroda."
+        objasnjenje: "Nomadi Huni došli su iz Azije i pokrenuli plemena na svom putu; zato se njihov upad uzima za početak Velike seobe naroda."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Uvod"
+          tekst: "Sredinom IV veka rimska granica slabi jer upad Huna u Evropu pokreće veliku seobu naroda."
+        osa: {naziv: "Huni prolaze kroz Vrata naroda", od: 375, traka: dogadjaji}
+
+      - id: l03-pradomovina-reke-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [pradomovina-slovena, odra, visla]
+        pitanje: "Između kojih reka se nalazila pradomovina Slovena?"
+        odgovori:
+          - {tekst: "Između Odre i Visle", tacan: true}
+          - {tekst: "Između Save i Dunava", tacan: false, zasto: "Sava i Dunav su na jugu, a Dunav je bio vizantijska granica do koje su Sloveni tek stigli; pradomovina je bila severnije."}
+          - {tekst: "Između Pive i Tare", tacan: false, zasto: "Piva i Tara se pominju uz srpske saveze na Balkanu, dakle posle doseljavanja, a ne u pradomovini."}
+          - {tekst: "Između Urala i Kaspijskog mora", tacan: false, zasto: "To su Vrata naroda, ravnica kroz koju su prošli Huni, a ne slovenska pradomovina."}
+        pomoc:
+          - "Pradomovina je na severu, u današnjoj Poljskoj i okolini."
+          - "Obe reke teku kroz današnju Poljsku ili uz nju."
+          - "Iz lekcije: pradomovina je između Odre i Visle, Azovskog mora i Karpata."
+        objasnjenje: "Pradomovina Slovena bila je na severu, između Odre i Visle, Azovskog mora i Karpata."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Sloveni su živeli na severu, između reka Odre i Visle, Azovskog mora i Karpata."
+          slika: 03-doseljavanje-srba-na-balkan/01-karta-pradomovina-slovena.jpg
+
+      - id: l03-zanimanje-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [stari-sloveni, pradomovina-slovena]
+        pitanje: "Šta je u pradomovini bilo glavno zanimanje Slovena?"
+        odgovori:
+          - {tekst: "Stočarstvo", tacan: true}
+          - {tekst: "Zemljoradnja", tacan: false, zasto: "Zemljoradnja je postojala, ali kao sporedno zanimanje; glavno je bilo stočarstvo."}
+          - {tekst: "Pomorstvo", tacan: false, zasto: "Lekcija ne govori o pomorstvu; Sloveni su bili kopneni narod koji je živeo od stoke."}
+          - {tekst: "Trgovina u velikim gradovima", tacan: false, zasto: "Živeli su u rodovima i plemenima, a ne u trgovačkim gradovima; glavno zanimanje bila je stoka."}
+        pomoc:
+          - "Seti se da su se lako selili sa onim što imaju."
+          - "Zemljoradnja je bila sporedna."
+          - "Iz lekcije: glavno zanimanje je stočarstvo, a zemljoradnja je sporedna."
+        objasnjenje: "Sloveni su u pradomovini živeli prvenstveno od stočarstva, a zemljoradnja im je bila sporedno zanimanje."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Glavno zanimanje Slovena u pradomovini bilo je stočarstvo, a zemljoradnja je bila sporedna."
+
+      - id: l03-danasnje-zemlje-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [pradomovina-slovena]
+        pitanje: "Na prostoru kojih današnjih zemalja je bila pradomovina Slovena? (više tačnih)"
+        odgovori:
+          - {tekst: "Istočna i južna Poljska", tacan: true}
+          - {tekst: "Ukrajina", tacan: true}
+          - {tekst: "Jugozapadna Rusija", tacan: true}
+          - {tekst: "Srbija", tacan: false, zasto: "Na tlo Srbije Sloveni dolaze tek seobom; pradomovina je bila severno od Karpata i šire."}
+          - {tekst: "Grčka", tacan: false, zasto: "Grčka je vizantijski jug Balkana do kog su Sloveni stizali u pljačkaškim pohodima (Tesalija, Epir), a ne njihova pradomovina."}
+        pomoc:
+          - "Pogledaj kartu: Odra, Visla, Dnjepar, Karpati."
+          - "Tri tačna odgovora su sve severno od Karpata i Crnog mora."
+          - "Iz lekcije: današnja istočna i južna Poljska, Ukrajina i jugozapadna Rusija."
+        objasnjenje: "Pradomovina se poklapa sa današnjom istočnom i južnom Poljskom, Ukrajinom i jugozapadnom Rusijom."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Pradomovina odgovara današnjoj istočnoj i južnoj Poljskoj, Ukrajini i jugozapadnoj Rusiji."
+          slika: 03-doseljavanje-srba-na-balkan/01-karta-pradomovina-slovena.jpg
+
+      - id: l03-ime-slovena-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [stari-sloveni, herodot]
+        pitanje: "Šta od navedenog tačno opisuje najstarije vesti o Slovenima?"
+        odgovori:
+          - {tekst: "Ime Slovena javlja se u VI veku, a o njihovim precima možda piše već Herodot", tacan: true}
+          - {tekst: "Herodot u V veku pre n. e. izričito piše o Slovenima pod tim imenom", tacan: false, zasto: "Samo se misli da Herodot govori o njihovim precima; samo ime Slovena javlja se tek u VI veku."}
+          - {tekst: "Ime Slovena prvi put se javlja u IX veku, uz Ćirila i Metodija", tacan: false, zasto: "U IX veku Sloveni već odavno žive na Balkanu; ime se javlja u VI veku."}
+          - {tekst: "O Slovenima su najpre pisali sami Sloveni", tacan: false, zasto: "Pre glagoljice i ćirilice Sloveni nisu imali pismo; vesti o njima ostavili su vizantijski pisci."}
+        pomoc:
+          - "Razlikuj ime naroda od nagađanja o njegovim precima."
+          - "Ime se javlja u istom veku u kom vlada Justinijan I."
+          - "Iz lekcije: ime u VI veku; o precima se, kako se misli, govori kod Herodota."
+        objasnjenje: "Ime Slovena pojavljuje se u VI veku, a pretpostavlja se da je o njihovim precima pisao već Herodot u V veku pre n. e."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Ime Slovena prvi put se javlja u VI veku, ali se misli da o njihovim precima govori već Herodot."
+        osa: {naziv: "Prvi pomen slovenskog imena", od: 500, do: 600, oznaka: "VI vek", traka: dogadjaji}
+
+      - id: l03-pravci-seobe-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [stari-sloveni, velika-seoba-naroda]
+        pitanje: "U kojim pravcima su Sloveni krenuli iz pradomovine i koja grupa je išla ka Balkanu?"
+        odgovori:
+          - {tekst: "Na zapad, istok i jug; južna grupa išla je ka Balkanu", tacan: true}
+          - {tekst: "Samo na jug; svi Sloveni došli su na Balkan", tacan: false, zasto: "Pravca je bilo tri; na Balkan je išla samo južna grupa, a ostale su otišle na zapad i istok."}
+          - {tekst: "Na sever i jug; severna grupa išla je ka Balkanu", tacan: false, zasto: "Balkan je južno od pradomovine, pa je tamo mogla da ide samo južna grupa; sever nije među pravcima."}
+          - {tekst: "Na zapad i istok; na Balkan nisu išli", tacan: false, zasto: "Bio je i treći, južni pravac, i upravo njim su Sloveni stigli do Dunava i na Balkan."}
+        pomoc:
+          - "Pravaca ima tri."
+          - "Pogledaj gde je Balkan u odnosu na Karpate."
+          - "Iz lekcije: tri pravca (zapad, istok, jug), južna grupa ide ka Balkanu."
+        objasnjenje: "Sloveni su se razišli u tri pravca, a južna grupa, među njima i srpska plemena, krenula je ka Balkanu."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Po odlasku iz pradomovine Sloveni kreću na zapad, istok i jug; južna grupa ide ka Balkanu."
+
+      - id: l03-vrata-naroda-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [vrata-naroda, huni]
+        tvrdnja: "Vrata naroda su naziv za ravnicu između Urala i Kaspijskog mora."
+        tacno: true
+        pomoc:
+          - "To je prolaz iz Azije u Evropu."
+          - "Iz lekcije: tako se zove ravnica između Urala i Kaspijskog mora."
+        objasnjenje: "Tačno. Kroz tu ravnicu Huni su prošli 375. i ušli u Evropu."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Vrata naroda su ravnica između Urala i Kaspijskog mora."
+        osa: {naziv: "Huni prolaze kroz Vrata naroda", od: 375, traka: dogadjaji}
+
+      - id: l03-srpska-plemena-vii-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [stari-sloveni, doseljavanje, vizantija]
+        tvrdnja: "Srpska plemena su bila deo slovenskih seoba i na vizantijsko tlo stigla su u VII veku."
+        tacno: true
+        pomoc:
+          - "Seti se kada se Sloveni zaista naseljavaju, a ne samo pljačkaju."
+          - "Iz lekcije: među Slovenima su i srpska plemena, a na vizantijsko tlo stižu u VII veku."
+        objasnjenje: "Tačno. Srbi su deo južnih Slovena i na vizantijsku teritoriju dolaze u VII veku."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Uvod"
+          tekst: "Među Slovenima su i srpska plemena, koja na vizantijsko tlo stižu u VII veku."
+
+      - id: l03-dva-razloga-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [velika-seoba-naroda, stari-sloveni]
+        tvrdnja: "Sloveni su napustili pradomovinu isključivo zato što su ih terali Huni."
+        tacno: false
+        ispravke:
+          - {tekst: "Bila su dva razloga: pritisak Velike seobe naroda, ali i traženje povoljnijeg mesta za život.", tacan: true}
+          - {tekst: "Huni ih nisu terali; otišli su samo zato što su tražili bolje tle.", tacan: false, zasto: "Pritisak je stvaran: Huni su na svom putu naterali plemena u bekstvo, a bolje tle je drugi, dodatni razlog."}
+          - {tekst: "Terali su ih Avari, a ne Huni.", tacan: false, zasto: "Avari stižu tek sredinom VI veka; Velika seoba naroda vezuje se za Hune."}
+        pomoc:
+          - "Lekcija navodi dva razloga."
+          - "Jedan je sila spolja, a drugi sopstvena želja."
+          - "Iz lekcije: Velika seoba naroda i traženje povoljnijeg mesta za život."
+        objasnjenje: "Netačno. Pored hunskog pritiska, Sloveni su i sami tražili bolje mesto za život."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Lekcija navodi dva razloga seobe: pritisak Velike seobe naroda i potragu za povoljnijim mestom za život."
+
+      - id: l03-rodovi-bez-saveza-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [rodovsko-plemenska-zajednica, plemenski-savezi, pradomovina-slovena]
+        tvrdnja: "U pradomovini Sloveni su već imali čvrste plemenske saveze."
+        tacno: false
+        ispravke:
+          - {tekst: "Živeli su u rodovsko-plemenskim zajednicama, još bez plemenskih saveza.", tacan: true}
+          - {tekst: "Imali su jedinstvenu državu sa jednim vladarem.", tacan: false, zasto: "Države još nije bilo; postojali su rodovi i plemena, a vladari su poticali iz ustaljenih vladarskih rodova pojedinih zajednica."}
+          - {tekst: "Živeli su u gradovima-državama, kao stari Grci.", tacan: false, zasto: "O gradovima-državama nema ni reči; osnovna zajednica bili su rod i pleme."}
+        pomoc:
+          - "Savezi nastaju kasnije, u ratovima posle doseljavanja."
+          - "Osnovna zajednica bila je manja od saveza."
+          - "Iz lekcije: rodovsko-plemenske zajednice, još bez saveza."
+        objasnjenje: "Netačno. Savezi nastaju tek na Balkanu; u pradomovini su postojale rodovsko-plemenske zajednice, ali sa ustaljenim vladarskim rodovima."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Živeli su u rodovsko-plemenskim zajednicama, još bez saveza, a vladari su poticali iz ustaljenih vladarskih rodova."
+          slika: 03-doseljavanje-srba-na-balkan/02-skupstina-starih-slovena.jpg
+
+      - id: l03-podredjeni-saveznici-tn
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [stari-sloveni, huni, bugari, vizantija]
+        tvrdnja: "Do vizantijske granice na Dunavu Sloveni su došli sa Hunima i Bugarima kao ravnopravni saveznici."
+        tacno: false
+        ispravke:
+          - {tekst: "Bili su više u podređenom položaju nego pravi saveznici.", tacan: true}
+          - {tekst: "Bili su im vođe, a Huni i Bugari su ih slušali.", tacan: false, zasto: "Odnos je bio obrnut: Sloveni su bili potčinjeniji deo, a ne predvodnici tih pokreta."}
+          - {tekst: "Do Dunava su stigli potpuno sami, bez ikakve veze sa njima.", tacan: false, zasto: "Stigli su upravo u pokretu sa Hunima i Bugarima, ali u slabijem položaju."}
+        pomoc:
+          - "Seti se kako su Huni postupali sa plemenima na svom putu."
+          - "Razmisli ko je u tom pokretu odlučivao."
+          - "Iz lekcije: stigli su sa Hunima i Bugarima, više podređeni nego kao pravi saveznici."
+        objasnjenje: "Netačno. Sloveni su se kretali sa Hunima i Bugarima, ali u podređenom položaju, ne kao jednaki partneri."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Do dunavske granice stigli su sa Hunima i Bugarima, više u podređenom položaju nego kao pravi saveznici."
+
+      - id: l03-pradomovina-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [pradomovina-slovena, odra, visla, karpati]
+        pitanje: "Dopuni rečenicu o pradomovini Slovena."
+        tekst: "Pradomovina Slovena bila je između reka {{Odre}} i {{Visle}}, Azovskog mora i {{Karpata}}."
+        ponudjene: [Odre, Visle, Karpata, Dunava, Urala]
+        pomoc:
+          - "Dunav je bio granica Vizantije, a Ural je kod Vrata naroda."
+          - "Planine koje tražiš su južna međa pradomovine."
+          - "Iz lekcije: između Odre i Visle, Azovskog mora i Karpata."
+        objasnjenje: "Odra, Visla, Azovsko more i Karpati omeđuju pradomovinu Slovena."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Pradomovina je na severu, između Odre i Visle, Azovskog mora i Karpata."
+          slika: 03-doseljavanje-srba-na-balkan/01-karta-pradomovina-slovena.jpg
+
+      - id: l03-vrata-naroda-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [vrata-naroda, huni, velika-seoba-naroda]
+        pitanje: "Dopuni rečenicu o početku Velike seobe naroda."
+        tekst: "Prolaz {{Huna}} kroz ravnicu između Urala i {{Kaspijskog}} mora, koja se zove {{Vrata naroda}}, uzima se za početak Velike seobe naroda."
+        ponudjene: [Huna, Avara, Kaspijskog, Azovskog, Vrata naroda, Slovenska]
+        pomoc:
+          - "Azovsko more je uz pradomovinu Slovena, a ne uz ovu ravnicu."
+          - "Slovenska je naziv zemlje na Balkanu."
+          - "Iz lekcije: Huni, ravnica između Urala i Kaspijskog mora, Vrata naroda."
+        objasnjenje: "Huni su 375. prošli kroz Vrata naroda, ravnicu između Urala i Kaspijskog mora."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Prolaz Huna kroz Vrata naroda 375. uzima se za početak Velike seobe naroda."
+        osa: {naziv: "Huni prolaze kroz Vrata naroda", od: 375, traka: dogadjaji}
+
+      - id: l03-razlozi-seobe-dopuni
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [velika-seoba-naroda, stari-sloveni]
+        pitanje: "Dopuni svojim znanjem, bez ponuđenih reči."
+        tekst: "Sloveni su pradomovinu napustili zbog Velike {{seobe}} naroda, koju su pokrenuli {{Huni}}, i zato što su tražili {{povoljnije|bolje}} mesto za život. Krenuli su u {{tri}} pravca."
+        pomoc:
+          - "Prva praznina je deo naziva velikog pokreta naroda."
+          - "Razmisli šta nomadi iz Azije pokreću i šta Sloveni sami žele."
+          - "Iz lekcije: Velika seoba naroda (Huni) i traženje povoljnijeg mesta; tri pravca."
+        objasnjenje: "Dva razloga seobe su pritisak Velike seobe naroda i potraga za boljim mestom, a posle odlaska Sloveni idu na zapad, istok i jug."
+        iz_udzbenika:
+          strana: 22
+          odeljak: "Zapamtite"
+          tekst: "Zbog Velike seobe naroda, ali i radi boljeg tla, Sloveni su napustili zemlje između Odre i Visle."
+
+      - id: l03-pojmovi-seobe-povezi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [vrata-naroda, huni, pradomovina-slovena, herodot]
+        pitanje: "Poveži pojam sa njegovim opisom."
+        parovi:
+          - ["Vrata naroda", "Ravnica između Urala i Kaspijskog mora"]
+          - ["Huni", "Nomadi iz Azije koji pokreću seobu"]
+          - ["Pradomovina Slovena", "Zemlje između Odre i Visle, Azovskog mora i Karpata"]
+          - ["Herodot", "Grčki istoričar iz V veka pre n. e."]
+        pomoc:
+          - "Dva pojma su mesta, a dva su ljudi."
+          - "Jedan od ljudi je pisac."
+          - "Iz lekcije: Vrata naroda su ravnica kod Urala; Herodot je grčki istoričar."
+        objasnjenje: "Huni su kroz Vrata naroda ušli u Evropu i pokrenuli plemena; Herodot je najstariji pisac za kog se misli da spominje pretke Slovena."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Lekcija opisuje Vrata naroda, Hune, pradomovinu Slovena i Herodotove moguće vesti o njihovim precima."
+
+      - id: l03-uzroci-posledice-povezi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [huni, velika-seoba-naroda, stari-sloveni]
+        pitanje: "Poveži uzrok sa posledicom."
+        parovi:
+          - ["Huni prolaze kroz Vrata naroda", "Počinje Velika seoba naroda"]
+          - ["Velika seoba naroda", "Plemena, pa i Sloveni, beže sa svojih zemalja"]
+          - ["Traženje boljeg tla", "Seoba Slovena u tri pravca"]
+          - ["Malo starih vesti, i to kratkih", "Slabo poznajemo najstarije doba Slovena"]
+        pomoc:
+          - "Prati lanac od Huna ka Slovenima."
+          - "Poslednji par nije o selidbi, nego o tome šta danas znamo."
+          - "Iz lekcije: Huni → seoba → bekstvo plemena; bolje tle → tri pravca."
+        objasnjenje: "Hunski upad pokreće seobu, ona tera plemena, a potraga za boljim tlom određuje dalje kretanje Slovena; o svemu tome imamo malo vesti."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Upad Huna pokreće seobu i tera plemena u bekstvo; Sloveni uz to traže bolje mesto za život."
+
+      - id: l03-malo-podataka-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [stari-sloveni, vizantija]
+        pitanje: "Zašto je najstarije doba Slovena teško pouzdano opisati?"
+        odgovori:
+          - {tekst: "Podataka je malo, a vizantijski pisci daju kratke i često neprecizne vesti", tacan: true}
+          - {tekst: "Sloveni su ostavili mnogo tekstova, ali na jeziku koji niko ne razume", tacan: false, zasto: "Sloveni pre glagoljice i ćirilice uopšte nisu imali pismo, pa njihovih tekstova iz tog doba nema."}
+          - {tekst: "Vizantinci o Slovenima nisu napisali ništa", tacan: false, zasto: "Pisali su, i to su naši glavni izvori; problem je što su te vesti kratke i neprecizne."}
+          - {tekst: "Sve vesti su izgubljene u seobi", tacan: false, zasto: "Lekcija ne kaže da su izgubljene; vesti postoje, ali ih je malo i pisali su ih stranci."}
+        pomoc:
+          - "Korak 1: Ko je tada pisao o Slovenima?"
+          - "Korak 2: Kakve su te vesti: duge i tačne ili kratke?"
+          - "Iz lekcije: podataka ima malo, kod vizantijskih pisaca, kratki su i često neprecizni."
+        objasnjenje: "Sloveni tada nisu pisali, pa znamo samo ono što su zabeležili Vizantinci, a te vesti su malobrojne, kratke i često neprecizne."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Podataka iz najstarijeg doba ima malo, kod vizantijskih pisaca, čije su vesti kratke i često neprecizne."
+
+      - id: l03-zasto-375-pocetak-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [velika-seoba-naroda, huni, vrata-naroda]
+        pitanje: "Zašto se baš prolaz Huna kroz Vrata naroda uzima za početak Velike seobe naroda, iako su Sloveni na Balkan stigli vekovima kasnije?"
+        odgovori:
+          - {tekst: "Huni su tada pokrenuli lanac: plemena na njihovom putu krenula su u bekstvo i potiskivala jedna druga", tacan: true}
+          - {tekst: "Jer su Huni odmah 375. stigli na Balkan i tu se naselili", tacan: false, zasto: "Prolaz kroz Vrata naroda je na granici Azije i Evrope, daleko od Balkana; važan je kao početni podsticaj, a ne kao naseljavanje."}
+          - {tekst: "Jer su tada i Sloveni prešli Dunav sa porodicama", tacan: false, zasto: "Sa porodicama prelaze tek početkom VII veka, više od dva veka kasnije."}
+          - {tekst: "Jer je tada Vizantija podeljena na dva dela", tacan: false, zasto: "Lekcija ovde ne govori o podeli; početak seobe se računa po pokretu naroda, ne po promeni u carstvu."}
+        pomoc:
+          - "Korak 1: Šta su Huni uradili plemenima na svom putu?"
+          - "Korak 2: Šta se dešava kada se jedno pleme pomeri, a pored njega živi drugo?"
+          - "Iz lekcije: Huni su naterali u bekstvo plemena na svom putu, među njima i Slovene."
+        objasnjenje: "Početak seobe nije dolazak Slovena, nego prvi udar koji je pokrenuo plemena. Taj udar je hunski prolaz 375, a posledice su trajale vekovima."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Huni su 375. prošli kroz Vrata naroda i naterali u bekstvo plemena na svom putu, među njima i Slovene."
+        osa: {naziv: "Huni prolaze kroz Vrata naroda", od: 375, traka: dogadjaji}
+
+      - id: l03-huni-375-datum
+        vrsta: datum
+        tezina: lako
+        pojmovi: [huni, vrata-naroda, velika-seoba-naroda]
+        dogadjaj: "Huni prolaze kroz Vrata naroda"
+        pitanje: "Koje godine su Huni prošli kroz Vrata naroda?"
+        godina: 375
+        traka: dogadjaji
+        pomoc:
+          - "To je IV vek, njegova druga polovina."
+          - "Godina se završava sa 5 i počinje sa 3."
+          - "Iz lekcije: Huni su kroz Vrata naroda prošli 375."
+        objasnjenje: "Godine 375. Huni su prošli kroz Vrata naroda; to se uzima za početak Velike seobe naroda."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Huni iz Azije prošli su 375. kroz Vrata naroda."
+
+      - id: l03-rane-vesti-poredjaj
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [herodot, huni, stari-sloveni]
+        pitanje: "Poređaj hronološki, od najstarijeg."
+        stavke:
+          - {tekst: "Herodot, po mišljenju istoričara, piše o precima Slovena", godina: -450, oznaka: "V vek pre n. e.", naziv: "Herodotove vesti o precima Slovena", traka: crkva-kultura}
+          - {tekst: "Huni prolaze kroz Vrata naroda", godina: 375, naziv: "Huni prolaze kroz Vrata naroda", traka: dogadjaji}
+          - {tekst: "Prvi put se javlja ime Slovena", godina: 500, do: 600, oznaka: "VI vek", naziv: "Prvi pomen slovenskog imena", traka: dogadjaji}
+        pomoc:
+          - "Jedno od ovoga je pre naše ere."
+          - "Ime Slovena javlja se vek i po posle Huna."
+          - "Iz lekcije: Herodot V vek pre n. e., Huni 375, ime Slovena VI vek."
+        objasnjenje: "Herodot (V vek pre n. e.) → Huni (375) → ime Slovena (VI vek)."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Herodot je pisao u V veku pre n. e., Huni prolaze 375, a ime Slovena javlja se u VI veku."
+
+      - id: l03-huni-beg-lanac
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [huni, velika-seoba-naroda, stari-sloveni]
+        karike:
+          - "Huni upadaju u Evropu"
+          - "?"
+          - "Sloveni kreću iz pradomovine"
+        praznina: 1
+        odgovori:
+          - {tekst: "Počinje Velika seoba naroda, plemena beže", tacan: true}
+          - {tekst: "Vizantija ih poziva da se nasele na Balkanu", tacan: false, zasto: "Sloveni kreću pod pritiskom i u potrazi za boljim tlom, a Vizantija ih dugo pokušava da zadrži."}
+          - {tekst: "Stvara se Slovenska između Dunava i Balkana", tacan: false, zasto: "Slovenska nastaje tek sredinom VII veka, kao posledica naseljavanja, a ne kao uzrok seobe."}
+        pomoc:
+          - "Korak 1: Šta se desilo plemenima na putu Huna?"
+          - "Korak 2: Kako se zove taj pokret?"
+          - "Iz lekcije: upad Huna → Velika seoba naroda → bekstvo plemena, pa i Slovena."
+        objasnjenje: "Hunski upad pokrenuo je plemena, pa su i Sloveni napustili svoju zemlju."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Upad Huna pokreće Veliku seobu naroda, u kojoj plemena, pa i Sloveni, beže sa svog tla."
+        osa: {naziv: "Huni prolaze kroz Vrata naroda", od: 375, traka: dogadjaji}
+
+      - id: l03-bolje-tle-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [stari-sloveni, doseljavanje]
+        karike:
+          - "Sloveni traže povoljnije mesto za život"
+          - "Razilaze se u tri pravca"
+          - "?"
+          - "Dolaze do vizantijske granice na Dunavu"
+        praznina: 2
+        odgovori:
+          - {tekst: "Južna grupa ide ka Balkanu", tacan: true}
+          - {tekst: "Zapadna grupa stiže u Franačku i osniva je", tacan: false, zasto: "Franačka je bila jak sused Slovena, a ne njihova tvorevina; ka Dunavu je išla južna grupa."}
+          - {tekst: "Istočna grupa se vraća u Aziju za Hunima", tacan: false, zasto: "O tome nema podataka; sledeći korak do Dunava mogla je da napravi samo južna grupa."}
+        pomoc:
+          - "Korak 1: Gde je Dunav u odnosu na pradomovinu?"
+          - "Korak 2: Koja je grupa onda stigla do njega?"
+          - "Iz lekcije: traženje boljeg tla → tri pravca; južna grupa ide ka Balkanu."
+        objasnjenje: "Od tri grupe ka Dunavu i Balkanu je išla južna; tako su Sloveni izbili na vizantijsku granicu."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Južna grupa Slovena ide ka Balkanu i stiže do vizantijske granice na Dunavu."
+
+      - id: l03-iz-pradomovine-na-balkan-lanac
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [huni, stari-sloveni, vizantija]
+        karike:
+          - "Huni prolaze kroz Vrata naroda (375)"
+          - "Sloveni, u podređenom položaju, stižu sa Hunima i Bugarima do Dunava"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Počinju brojni napadi na vizantijsku odbranu", tacan: true}
+          - {tekst: "Sloveni odmah postaju vizantijski podanici i prelaze u hrišćanstvo", tacan: false, zasto: "Hrišćanstvo se učvršćuje tek u IX veku; na Dunavu je prvo usledio niz napada."}
+          - {tekst: "Sloveni se vraćaju u pradomovinu", tacan: false, zasto: "Iz napada su se vraćali samo na levu obalu Dunava, a ne u pradomovinu; njihov pritisak na granicu je rastao."}
+        pomoc:
+          - "Korak 1: Šta se nalazi preko Dunava?"
+          - "Korak 2: Šta rade plemena koja stoje na bogatoj granici?"
+          - "Iz lekcije: stigli su do granice na Dunavu; sledili su brojni napadi na vizantijsku odbranu."
+        objasnjenje: "Kada su izbili na Dunav, Sloveni su imali pred sobom bogato carstvo i počeli su napade na njegovu odbranu."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Do Dunava su stigli sa Hunima i Bugarima, a sledili su brojni napadi na vizantijsku odbranu."
+
+      - id: l03-karta-pradomovine-izvor
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [pradomovina-slovena, karpati, visla]
+        izvor:
+          autor: "Karta iz udžbenika"
+          naslov: "Pradomovina Slovena (opis karte)"
+          tekst: "Karta razlikuje širu i užu slovensku teritoriju. Uža, tamnije osenčena, pruža se severno od Karpata, od Krakova i Varšave prema Kijevu i Černigovu. Na karti su i Baltičko i Crno more i reke Odra, Visla, Dnjestar, Dnjepar i Dunav."
+          napomena: "Odlomak je prepričan; udžbenik, str. 18."
+        pitanje: "Šta sa karte potvrđuje da je pradomovina bila daleko od Balkana?"
+        odgovori:
+          - {tekst: "Uža slovenska teritorija leži severno od Karpata", tacan: true}
+          - {tekst: "Uža teritorija leži južno od Dunava", tacan: false, zasto: "Dunav je južno od te teritorije; karta je stavlja severno od Karpata, pa je Dunav morao tek da se dosegne."}
+          - {tekst: "Teritorija izlazi na Jadransko more", tacan: false, zasto: "Jadransko more nije među morima na karti; označena su Baltičko i Crno more."}
+          - {tekst: "Teritorija se poklapa sa Trakijom i Tesalijom", tacan: false, zasto: "Trakija i Tesalija su vizantijske oblasti do kojih su Sloveni dopirali u pljačkaškim upadima."}
+        pomoc:
+          - "Nađi planine koje stoje između pradomovine i Balkana."
+          - "Da li je uža teritorija severno ili južno od njih?"
+          - "Iz lekcije: uža oblast proteže se severno od Karpata."
+        objasnjenje: "Karpati su međa: uža teritorija je severno od njih, pa je do Balkana trebalo preći dug put."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Karta pokazuje šire i uže slovensko područje; uže je severno od Karpata."
+          slika: 03-doseljavanje-srba-na-balkan/01-karta-pradomovina-slovena.jpg
+
+      - id: l03-skupstina-izvor
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [stari-sloveni, rodovsko-plemenska-zajednica]
+        izvor:
+          autor: "Ilustracija iz udžbenika"
+          naslov: "Skupština starih Slovena (opis crteža)"
+          tekst: "Pod krošnjama u šumi okupili su se muškarci sa kopljima i štapovima. U prvom planu stoje stariji ljudi dugih brada."
+          napomena: "Odlomak je prepričan; udžbenik, str. 19."
+        pitanje: "Kakvo uređenje stvarnih zajednica ovaj crtež dočarava?"
+        odgovori:
+          - {tekst: "Rodovsko-plemensku zajednicu, u kojoj se zajedno odlučuje o važnim stvarima", tacan: true}
+          - {tekst: "Dvor cara sa činovnicima", tacan: false, zasto: "Dvor i činovnici pripadaju Vizantiji; Sloveni su živeli po rodovima i plemenima."}
+          - {tekst: "Crkveni sabor posle pokrštavanja", tacan: false, zasto: "Prizor je iz paganskog doba, a pokrštavanje dolazi tek vekovima kasnije."}
+          - {tekst: "Trgovački sajam u velikom gradu", tacan: false, zasto: "Ljudi su u šumi i naoružani; to nije grad nego skup slobodnih članova plemena."}
+        pomoc:
+          - "Gde se ljudi okupljaju: u gradu ili u prirodi?"
+          - "Zašto su stariji u prvom planu?"
+          - "Iz lekcije: stari Sloveni živeli su u rodovsko-plemenskim zajednicama."
+        objasnjenje: "Skup slobodnih muškaraca, sa starijima napred, odgovara rodovsko-plemenskoj zajednici."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Sloveni su živeli u rodovsko-plemenskim zajednicama; crtež prikazuje njihovu skupštinu."
+          slika: 03-doseljavanje-srba-na-balkan/02-skupstina-starih-slovena.jpg
+
+      - id: l03-pritisak-i-privlacnost-uporedi
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [velika-seoba-naroda, huni, stari-sloveni]
+        a: "Pritisak Huna (Velika seoba naroda)"
+        b: "Traženje boljeg tla"
+        pitanje: "Na koji razlog seobe Slovena se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Razlog dolazi spolja, Sloveni su naterani u bekstvo.", odgovor: a, zasto: "Huni su na putu terali plemena da beže; to nije bila slobodna odluka."}
+          - {tekst: "Razlog dolazi od samih Slovena, koji žele bolji život.", odgovor: b, zasto: "Traženje povoljnijeg mesta je sopstvena želja, a ne prinuda."}
+          - {tekst: "Doveo je do napuštanja pradomovine.", odgovor: oba, zasto: "Lekcija navodi oba kao razloge odlaska iz pradomovine."}
+          - {tekst: "Vezuje se za godinu 375.", odgovor: a, zasto: "Prolaz Huna kroz Vrata naroda datiran je 375; potraga za boljim tlom nema jednu godinu."}
+          - {tekst: "Sloveni su pošli zato što im je Vizantija obećala zemlju u pradomovini.", odgovor: nijedan, zasto: "Vizantija im nije ništa obećavala u pradomovini; lekcija navodi samo hunski pritisak i potragu za boljim tlom."}
+        pomoc:
+          - "Jedan razlog je prinuda, drugi želja."
+          - "Pazi: jedna tvrdnja važi za oba, a jedna ni za jedan."
+          - "Iz lekcije: dva razloga su Velika seoba naroda i traženje povoljnijeg mesta."
+        objasnjenje: "Pritisak Huna je spoljna prinuda, a traženje boljeg tla sopstveni motiv; zajedno objašnjavaju odlazak Slovena."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Sloveni su pošli i zbog pritiska Velike seobe naroda i zbog traženja boljeg mesta za život."
+
+      - id: l03-herodot-ko-sam
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [herodot, stari-sloveni]
+        tragovi:
+          - "Živeo sam u V veku pre n. e."
+          - "Bio sam grčki istoričar."
+          - "Misli se da sam pisao o precima Slovena, iako njihovo ime tada još niko nije zapisao."
+        odgovori:
+          - {tekst: "Herodot", tacan: true}
+          - {tekst: "Justinijan I", tacan: false, zasto: "Justinijan je vizantijski car iz VI veka, a tragovi govore o grčkom istoričaru iz V veka pre n. e."}
+          - {tekst: "Konstantin (Ćirilo)", tacan: false, zasto: "Ćirilo je misionar iz IX veka koji je Slovene opismenio, a ne istoričar iz stare Grčke."}
+        objasnjenje: "To je Herodot, grčki istoričar kod kog se, kako se misli, govori o precima Slovena."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Misli se da o precima Slovena govori već grčki istoričar Herodot u V veku pre n. e."
+
+      - id: l03-huni-ko-sam
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [huni, vrata-naroda, velika-seoba-naroda]
+        tragovi:
+          - "Mi smo nomadi koji su došli iz Azije."
+          - "Prošli smo kroz ravnicu između Urala i Kaspijskog mora."
+          - "Naš upad 375. pokrenuo je Veliku seobu naroda."
+        odgovori:
+          - {tekst: "Huni", tacan: true}
+          - {tekst: "Bugari", tacan: false, zasto: "I Bugari su azijsko pleme, ali početak Velike seobe naroda vezuje se za Hune."}
+          - {tekst: "Avari", tacan: false, zasto: "Avari su takođe iz Azije, ali u Panoniju stižu sredinom VI veka, mnogo posle 375."}
+        objasnjenje: "To su Huni, čiji se prolaz kroz Vrata naroda uzima za početak Velike seobe naroda."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Huni iz Azije prošli su 375. kroz Vrata naroda."
+        osa: {naziv: "Huni prolaze kroz Vrata naroda", od: 375, traka: dogadjaji}
+
+      - id: l03-zasto-seoba-objasni
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [velika-seoba-naroda, huni, stari-sloveni]
+        pitanje: "Iz kojih razloga su Sloveni otišli iz pradomovine? Objasni svojim rečima."
+        uzor: "Sloveni su otišli iz dva razloga. Huni su pokrenuli Veliku seobu naroda i terali plemena sa njihovog tla, pa su i Sloveni morali da beže. Pored toga, sami su tražili povoljnije mesto za život."
+        ideje:
+          - "Velika seoba naroda, koju pokreću Huni."
+          - "Plemena su na hunskom putu naterana u bekstvo."
+          - "Sloveni sami traže povoljnije mesto za život."
+        objasnjenje: "Odgovor mora da spoji spoljašnji pritisak i sopstveni motiv."
+        iz_udzbenika:
+          strana: 22
+          odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika"
+          tekst: "Udžbenik pita iz kojih razloga su Sloveni otišli iz pradomovine."
+
+      - id: l03-kako-znamo-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [stari-sloveni, vizantija, herodot]
+        pitanje: "Zašto je za najstariji život Slovena važno ko je pisao vesti o njima? Objasni."
+        uzor: "O najstarijem dobu Slovena pisali su stranci, vizantijski pisci, jer Sloveni još nisu imali pismo. Njihove vesti su malobrojne, kratke i često neprecizne. Zato naše znanje o tom dobu ostaje nepotpuno i o tome treba suditi oprezno."
+        ideje:
+          - "Sloveni tada nisu imali svoje pismo."
+          - "Vesti su pisali vizantijski pisci, dakle stranci."
+          - "Vesti su malobrojne, kratke i neprecizne."
+          - "Zato je znanje o tom dobu nepotpuno."
+        objasnjenje: "Ko piše i koliko zna određuje vrednost izvora, pa je oprez nužan."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "Podataka iz najstarijeg doba ima malo, i to kod vizantijskih pisaca čije su vesti kratke i često neprecizne."
+
+  - naslov: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+    zadaci:
+      - id: l03-justinijan-upadi-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [justinijan-i, stari-sloveni, vizantija]
+        pitanje: "Za vreme kog vizantijskog cara počinju upadi Slovena na Balkan?"
+        odgovori:
+          - {tekst: "Justinijana I", tacan: true}
+          - {tekst: "Iraklija", tacan: false, zasto: "Iraklije vlada 610–641, u vreme naseljavanja; upadi su počeli ranije, u VI veku, pod Justinijanom I."}
+          - {tekst: "Konstantina VII Porfirogenita", tacan: false, zasto: "On vlada u X veku i piše o doseljavanju Srba, mnogo posle prvih upada."}
+          - {tekst: "Otona I", tacan: false, zasto: "Oton I je nemački vladar iz X veka koji je pobedio Mađare, a ne vizantijski car."}
+        pomoc:
+          - "Traži cara iz VI veka."
+          - "Vladao je 527–565."
+          - "Iz lekcije: upadi počinju u VI veku, pod carem Justinijanom I."
+        objasnjenje: "Upadi Slovena počinju u VI veku, pod carem Justinijanom I (527–565)."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Upadi na Balkan počinju u VI veku, pod carem Justinijanom I (527–565)."
+        osa: {naziv: "Vladavina Justinijana I", od: 527, do: 565, traka: vladari}
+
+      - id: l03-karakter-upada-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [stari-sloveni, vizantija]
+        pitanje: "Kakvi su bili slovenski upadi na Balkan u VI veku?"
+        odgovori:
+          - {tekst: "Pljačkaški: posle borbi Sloveni se sa plenom vraćaju preko Dunava", tacan: true}
+          - {tekst: "Naseljavanje: dolazili su sa porodicama da ostanu", tacan: false, zasto: "To je odlika VII veka; u VI veku su još dolazili radi plena i vraćali se."}
+          - {tekst: "Misionarski: širili su hrišćanstvo", tacan: false, zasto: "Sloveni su tada bili mnogobošci, a hrišćanstvo će tek primiti."}
+          - {tekst: "Trgovački: mirno su razmenjivali robu", tacan: false, zasto: "Upadi su bili oružani i završavali su se plenom, a ne trgovinom."}
+        pomoc:
+          - "Šta su nosili sa sobom kada su se vraćali?"
+          - "Vraćali su se na levu obalu Dunava."
+          - "Iz lekcije: upadi su bili pljačkaški; posle borbi Sloveni se sa plenom vraćaju."
+        objasnjenje: "U VI veku Sloveni pljačkaju i vraćaju se na levu obalu Dunava; naseljavanje dolazi tek u VII veku."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Upadi su bili pljačkaški: posle borbi Sloveni se sa plenom vraćaju na levu obalu Dunava."
+
+      - id: l03-vrhovni-bog-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [perun, svetovid, dazbog]
+        pitanje: "Ko je bio vrhovni bog starih Slovena?"
+        odgovori:
+          - {tekst: "Perun ili Svetovid", tacan: true}
+          - {tekst: "Dažbog", tacan: false, zasto: "Dažbog je bog Sunca i podzemlja, ali ne i vrhovni bog."}
+          - {tekst: "Vukodlak", tacan: false, zasto: "Vukodlaci su bića u koja se verovalo, a ne bogovi."}
+          - {tekst: "Vila", tacan: false, zasto: "I vile su bića iz verovanja, a ne vrhovno božanstvo."}
+        pomoc:
+          - "Lekcija navodi dva imena za vrhovnog boga."
+          - "Dažbog je zadužen za Sunce."
+          - "Iz lekcije: vrhovni bog je Perun ili Svetovid."
+        objasnjenje: "Vrhovni bog starih Slovena nosio je ime Perun ili Svetovid."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Vrhovni bog Slovena je Perun ili Svetovid."
+
+      - id: l03-dokle-su-stizali-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [stari-sloveni, vizantija, bugari, avari]
+        pitanje: "Do kojih oblasti su u VI veku dopirali slovenski pljačkaški upadi? (više tačnih)"
+        odgovori:
+          - {tekst: "Trakija", tacan: true}
+          - {tekst: "Tesalija", tacan: true}
+          - {tekst: "Epir", tacan: true}
+          - {tekst: "Panonija", tacan: false, zasto: "Panonska nizija je severno od Dunava, a ne vizantijska oblast u koju se upada; tamo stižu Avari."}
+          - {tekst: "Duklja", tacan: false, zasto: "Duklja je ime srpske oblasti i saveza koji nastaju kasnije, posle naseljavanja."}
+        pomoc:
+          - "Sve tri tačne oblasti su duboko na jugu Balkana."
+          - "Pomisli na vizantijske krajeve južno od planine Balkan."
+          - "Iz lekcije: stizali su do Trakije, Tesalije i Epira."
+        objasnjenje: "Napadajući sa Bugarima, pa sa Avarima, Sloveni su stizali do Trakije, Tesalije i Epira."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Sloveni su napadali prvo sa Bugarima, pa sa Avarima, i stizali do Trakije, Tesalije i Epira."
+
+      - id: l03-sta-ostaje-vizantiji-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [slovenska, vizantija]
+        pitanje: "Šta je sredinom VII veka ostalo Vizantiji na Balkanu? (više tačnih)"
+        odgovori:
+          - {tekst: "Dolina Morave, Niš i Sofija", tacan: true}
+          - {tekst: "Nekoliko primorskih gradova", tacan: true}
+          - {tekst: "Ostrva u Egejskom, Jonskom i Jadranskom moru", tacan: true}
+          - {tekst: "Cela zemlja od Dunava do planine Balkan", tacan: false, zasto: "Ta zemlja se tada zove Slovenska, jer je pod Slovenima; Vizantiji je ostala samo pomenuta dolina."}
+          - {tekst: "Pradomovina između Odre i Visle", tacan: false, zasto: "Pradomovina nikada nije bila vizantijska; ona je daleko severno od Dunava."}
+        pomoc:
+          - "Vizantiji ostaju mesta koja je lako braniti: uz more, na ostrvima i na važnom putu."
+          - "Jedan niz gradova je u unutrašnjosti Balkana."
+          - "Iz lekcije: dolina Morave, Niš i Sofija, nekoliko primorskih gradova i ostrva."
+        objasnjenje: "Unutrašnjost je pretežno slovenska, a Vizantija drži dolinu Morave sa Nišom i Sofijom, nekoliko primorskih gradova i ostrva."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Vizantiji ostaju dolina Morave, Niš i Sofija, nekoliko primorskih gradova i ostrva u tri mora."
+        osa: {naziv: "Slovenska između Dunava i planine Balkan", od: 650, oznaka: "sredina VII veka", traka: dogadjaji}
+
+      - id: l03-avari-panonija-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [avari, stari-sloveni]
+        pitanje: "Šta su Avari uradili kada su sredinom VI veka stigli u Panonsku niziju?"
+        odgovori:
+          - {tekst: "Potčinili su tamošnja slovenska plemena", tacan: true}
+          - {tekst: "Proterali su sve Slovene u pradomovinu", tacan: false, zasto: "Nisu ih proterali, već potčinili; zato ih kasnije zajedno vidimo u napadima na Vizantiju."}
+          - {tekst: "Stvorili su Slovensku", tacan: false, zasto: "Slovenska je naziv zemlje južno od Dunava sredinom VII veka; Avari su bili u Panoniji."}
+          - {tekst: "Primili su hrišćanstvo od Justinijana", tacan: false, zasto: "Lekcija to ne kaže; Avari se javljaju kao napadači na Vizantiju, a ne kao hrišćani."}
+        pomoc:
+          - "Avari su bili jača sila od slovenskih plemena u Panoniji."
+          - "Posle toga Sloveni napadaju Vizantiju zajedno sa njima."
+          - "Iz lekcije: Avari stižu iz Azije i potčinjavaju tamošnja slovenska plemena."
+        objasnjenje: "Avari su došli iz Azije i potčinili slovenska plemena u Panonskoj niziji."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Avari stižu iz Azije u Panonsku niziju sredinom VI veka i potčinjavaju tamošnja slovenska plemena."
+        osa: {naziv: "Avari stižu u Panonsku niziju", od: 550, oznaka: "sredina VI veka", traka: dogadjaji}
+
+      - id: l03-levu-obalu-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [stari-sloveni]
+        tvrdnja: "Posle pljačkaških upada u VI veku Sloveni su se vraćali na levu obalu Dunava."
+        tacno: true
+        pomoc:
+          - "U VI veku još ne ostaju na Balkanu."
+          - "Iz lekcije: posle borbi vraćaju se sa plenom na levu obalu Dunava."
+        objasnjenje: "Tačno. Leva obala Dunava bila je van carstva, pa su tamo odnosili plen."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Posle borbi Sloveni se sa plenom vraćaju na levu obalu Dunava."
+
+      - id: l03-solun-pao-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [solun, carigrad, avari]
+        tvrdnja: "Sloveni su 626. zajedno sa Avarima osvojili Carigrad."
+        tacno: false
+        ispravke:
+          - {tekst: "Sa Avarima su 626. pokušali da zauzmu Carigrad, ali nisu uspeli.", tacan: true}
+          - {tekst: "Carigrad su osvojili sami Sloveni, bez Avara.", tacan: false, zasto: "Napad su izveli zajedno, i nije uspeo; Vizantija je zadržala prestonicu."}
+          - {tekst: "Te godine su osvojili Solun.", tacan: false, zasto: "Veliki napad na Solun bio je 586. i takođe je propao."}
+        pomoc:
+          - "Da li je Vizantija 626. izgubila prestonicu?"
+          - "Oba velika napada, na Solun i na Carigrad, ishodom su ista."
+          - "Iz lekcije: 626. sa Avarima pokušavaju da zauzmu Carigrad, opet neuspešno."
+        objasnjenje: "Netačno. Napad na Carigrad 626, kao i napad na Solun 586, nije uspeo."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Sloveni 626. sa Avarima pokušavaju da zauzmu Carigrad, opet neuspešno."
+        osa: {naziv: "Avarsko-slovenski napad na Carigrad", od: 626, traka: dogadjaji}
+
+      - id: l03-dazbog-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [dazbog, stari-sloveni]
+        tvrdnja: "Dažbog je bio bog samo Sunca i nije imao veze sa podzemljem."
+        tacno: false
+        ispravke:
+          - {tekst: "Dažbog je bio bog Sunca, ali i podzemlja.", tacan: true}
+          - {tekst: "Dažbog je bio vrhovni bog svih Slovena.", tacan: false, zasto: "Vrhovni bog je Perun ili Svetovid; Dažbog ima užu nadležnost."}
+          - {tekst: "Dažbog je bio duh šume, poput vile.", tacan: false, zasto: "Vile su posebna bića u koja se verovalo; Dažbog je bog sa imenom i svojim domenom."}
+        pomoc:
+          - "Lekcija mu daje dva domena."
+          - "Drugi domen je suprotan svetlosti."
+          - "Iz lekcije: Dažbog je bog Sunca, ali i podzemlja."
+        objasnjenje: "Netačno. Dažbog je i bog Sunca i bog podzemlja."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Dažbog je bog Sunca, ali i podzemlja."
+
+      - id: l03-rod-vojske-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [pesadija, avari, bugari, stari-sloveni]
+        tvrdnja: "U zajedničkim borbama Sloveni su bili pešadija, a Avari i Bugari konjica."
+        tacno: true
+        pomoc:
+          - "Pogledaj crtež starog Slovena: šta nema?"
+          - "Iz lekcije: Sloveni su pešadija, a Avari i Bugari konjica."
+        objasnjenje: "Tačno. Azijski narodi su bili konjanici, a Sloveni su se borili pešice, sa lakom opremom."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "U borbama su Sloveni pešadija, a Avari i Bugari konjica."
+          slika: 03-doseljavanje-srba-na-balkan/03-stari-sloven.jpg
+
+      - id: l03-otpor-vii-tn
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [vizantija, stari-sloveni, doseljavanje]
+        tvrdnja: "Početkom VII veka Sloveni su granicu probili tek posle teških bitaka, jer je Vizantija tada imala jaku odbranu na Dunavu."
+        tacno: false
+        ispravke:
+          - {tekst: "Prešli su granicu bez većeg otpora, jer je carstvo ratovalo i na drugim stranama.", tacan: true}
+          - {tekst: "Granicu su prešli samo oni koje je car pozvao da brani carstvo.", tacan: false, zasto: "U VI veku i početkom VII veka Sloveni su napadači; o pozivu ovde nema reči."}
+          - {tekst: "Nisu prelazili granicu sve do IX veka.", tacan: false, zasto: "Sredinom VII veka već postoje snažne naseobine, pa je prelazak bio mnogo ranije."}
+        pomoc:
+          - "Seti se zašto Vizantija u VI veku nije mogla da brani granicu."
+          - "Da li su se te teškoće popravile?"
+          - "Iz lekcije: početkom VII veka Sloveni bez većeg otpora prelaze granicu."
+        objasnjenje: "Netačno. Vizantija je bila zauzeta drugim ratovima, pa je prelaz prošao bez većeg otpora."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Početkom VII veka Sloveni bez većeg otpora prelaze granicu, sada sa porodicama."
+        osa: {naziv: "Sloveni prelaze Dunav sa porodicama", od: 605, oznaka: "početak VII veka", traka: dogadjaji}
+
+      - id: l03-bogovi-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [perun, svetovid, dazbog]
+        pitanje: "Dopuni rečenicu o veri starih Slovena."
+        tekst: "Vrhovni bog bio je {{Perun}} ili Svetovid, a {{Dažbog}} je bio bog Sunca i podzemlja. Verovali su i u {{vile}} i vukodlake."
+        ponudjene: [Perun, Dažbog, vile, Justinijan, Avare]
+        pomoc:
+          - "Justinijan je car, a Avari narod."
+          - "Treća praznina su bića iz šuma i voda."
+          - "Iz lekcije: Perun ili Svetovid, Dažbog, vile i vukodlaci."
+        objasnjenje: "Slovensko verovanje poznaje vrhovnog boga, boga Sunca i podzemlja i bića poput vila i vukodlaka."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Vrhovni bog je Perun ili Svetovid, Dažbog je bog Sunca i podzemlja, a verovali su i u vile i vukodlake."
+
+      - id: l03-vi-vii-vek-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [stari-sloveni, doseljavanje]
+        pitanje: "Dopuni rečenicu vekovima."
+        tekst: "U {{VI}} veku Sloveni su pljačkali vizantijske oblasti, a od {{VII}} veka se naseljavaju na Balkanu."
+        ponudjene: [VI, VII, IX, IV]
+        pomoc:
+          - "Pljačka dolazi pre naseljavanja."
+          - "To su dva susedna veka."
+          - "Iz lekcije: u VI veku pljačkaju, od VII veka se naseljavaju."
+        objasnjenje: "Razlika između VI i VII veka je razlika između pljačke i trajnog naseljavanja."
+        iz_udzbenika:
+          strana: 22
+          odeljak: "Zapamtite"
+          tekst: "U VI veku Sloveni su pljačkali Vizantiju sa Avarima i Bugarima, a od VII veka se naseljavaju."
+
+      - id: l03-slovenska-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [slovenska, vizantija]
+        pitanje: "Dopuni rečenicu o Slovenskoj."
+        tekst: "Sredinom {{VII}} veka zemlja od {{Dunava}} do planine {{Balkan}} zove se Slovenska."
+        ponudjene: [VII, IX, Dunava, Jadrana, Balkan, Karpati]
+        pomoc:
+          - "Karpati su kod pradomovine, a ne na Balkanu."
+          - "Severna međa je stara vizantijska granica."
+          - "Iz lekcije: sredinom VII veka zemlja od Dunava do planine Balkan zove se Slovenska."
+        objasnjenje: "Slovenska je naziv za zemlju od Dunava do planine Balkan sredinom VII veka."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Sredinom VII veka zemlja od Dunava do planine Balkan zove se Slovenska."
+        osa: {naziv: "Slovenska između Dunava i planine Balkan", od: 650, oznaka: "sredina VII veka", traka: dogadjaji}
+
+      - id: l03-napadi-dopuni
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [solun, carigrad, avari]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Godine {{586}} propao je veliki napad na {{Solun}}, a 626. Sloveni su sa {{Avarima}} bezuspešno napali {{Carigrad}}."
+        pomoc:
+          - "Prvi napad je iz VI veka, a drugi iz VII."
+          - "Prva meta je drugi po važnosti grad, a druga prestonica Vizantije."
+          - "Iz lekcije: 586. Solun; 626. sa Avarima na Carigrad."
+        objasnjenje: "Oba napada su propala: vizantijski veliki gradovi odoleli su, dok je unutrašnjost Balkana padala."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Napad na Solun 586. ne uspeva, a 626. sa Avarima pokušavaju da zauzmu Carigrad, opet neuspešno."
+
+      - id: l03-vera-povezi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [perun, dazbog, stari-sloveni]
+        pitanje: "Poveži pojam iz slovenske vere sa opisom."
+        parovi:
+          - ["Perun ili Svetovid", "Vrhovni bog"]
+          - ["Dažbog", "Bog Sunca i podzemlja"]
+          - ["Vile i vukodlaci", "Bića u koja se verovalo"]
+          - ["Šume i reke", "Mesta gde su mnogi bogovi „živeli”"]
+        pomoc:
+          - "Sloveni su bili tesno vezani za prirodu."
+          - "Razlikuj bogove od drugih bića."
+          - "Iz lekcije: vrhovni bog Perun ili Svetovid; Dažbog je bog Sunca i podzemlja."
+        objasnjenje: "Vera Slovena bila je vezana za prirodu, sa vrhovnim bogom, nižim bogovima i bićima iz verovanja."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Sloveni su bili vezani za prirodu; mnogi bogovi su živeli u šumama i rekama."
+
+      - id: l03-narodi-u-borbi-povezi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [avari, bugari, stari-sloveni, solun, carigrad]
+        pitanje: "Poveži podatak sa pojmom na koji se odnosi."
+        parovi:
+          - ["586.", "Neuspeli napad na Solun"]
+          - ["626.", "Neuspeli napad na Carigrad"]
+          - ["Sredina VI veka", "Avari u Panonskoj niziji"]
+          - ["Početak VII veka", "Prelazak Dunava sa porodicama"]
+          - ["Sredina VII veka", "Naziv Slovenska"]
+        pomoc:
+          - "Prati događaje redom, od Avara ka Slovenskoj."
+          - "Napadi na velike gradove imaju tačne godine."
+          - "Iz lekcije: 586. Solun, 626. Carigrad, Slovenska sredinom VII veka."
+        objasnjenje: "Avari u Panoniji (sredina VI veka) → Solun 586 → prelazak (početak VII veka) → Carigrad 626 → Slovenska (sredina VII veka)."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Lekcija navodi Avare sredinom VI veka, napade 586. i 626, prelazak početkom VII veka i Slovensku sredinom VII veka."
+
+      - id: l03-vojska-carstva-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [vizantija, stari-sloveni]
+        pitanje: "Zašto Vizantija u VI veku nije mogla da zaustavi slovenske upade?"
+        odgovori:
+          - {tekst: "Ratovala je i na drugim stranama carstva, pa nije mogla da brani dunavsku granicu", tacan: true}
+          - {tekst: "Car je Slovenima dozvolio da pljačkaju", tacan: false, zasto: "Pljačka nije bila dozvoljena; upade je car trpeo samo zato što nije imao čime da ih zaustavi."}
+          - {tekst: "Vizantija nije imala granicu na Dunavu", tacan: false, zasto: "Imala je: Dunav je upravo bio vizantijska granica koju je trebalo braniti."}
+          - {tekst: "Slovena je bilo manje nego Vizantinaca, pa ih nisu smatrali opasnim", tacan: false, zasto: "Lekcija daje drugi razlog: vojska carstva bila je zauzeta na drugim frontovima."}
+        pomoc:
+          - "Korak 1: Koliko je ratova carstvo vodilo u isto vreme?"
+          - "Korak 2: Šta to znači za vojsku na Dunavu?"
+          - "Iz lekcije: Vizantija nije mogla da brani granicu jer je ratovala i na drugim stranama."
+        objasnjenje: "Carstvo je ratovalo na više strana, pa je dunavska granica ostala slabo branjena."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Vizantija nije mogla da brani granicu jer je ratovala i na drugim stranama carstva."
+
+      - id: l03-porodice-znak-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [stari-sloveni, doseljavanje]
+        pitanje: "Šta nam činjenica da Sloveni u VII veku prelaze Dunav sa porodicama govori o njihovoj nameri?"
+        odgovori:
+          - {tekst: "Da hoće da ostanu, a ne samo da opljačkaju i vrate se", tacan: true}
+          - {tekst: "Da beže od Vizantije", tacan: false, zasto: "Prelaze upravo na vizantijsko tlo, pa ne beže od nje nego ulaze u njene oblasti."}
+          - {tekst: "Da idu u hodočašće", tacan: false, zasto: "Sloveni su tada mnogobošci; razlog je naseljavanje."}
+          - {tekst: "Da se spremaju da odu u pradomovinu", tacan: false, zasto: "Pradomovina je na severu, a oni se kreću na jug i ostaju."}
+        pomoc:
+          - "Korak 1: Ko ide u pljačku: ratnici ili cele porodice?"
+          - "Korak 2: Zašto bi neko vodio decu i žene preko reke?"
+          - "Iz lekcije: sada idu sa porodicama i sa namerom da ostanu."
+        objasnjenje: "Porodice se ne vode u pljačku; njihovo prisustvo pokazuje da je počelo trajno naseljavanje."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Početkom VII veka Sloveni prelaze granicu sa porodicama i sa namerom da ostanu."
+        osa: {naziv: "Sloveni prelaze Dunav sa porodicama", od: 605, oznaka: "početak VII veka", traka: dogadjaji}
+
+      - id: l03-primorje-i-gradovi-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [vizantija, slovenska, solun, carigrad]
+        pitanje: "Sloveni nisu uspeli da zauzmu ni Solun ni Carigrad, a ipak su do sredine VII veka preuzeli veliki deo Balkana. Šta se iz toga može zaključiti?"
+        odgovori:
+          - {tekst: "Vizantija je zadržala velike gradove i primorje, a izgubila unutrašnjost zemlje", tacan: true}
+          - {tekst: "Sloveni su preuzeli i sve gradove na moru", tacan: false, zasto: "Baš suprotno: Vizantiji ostaju primorski gradovi i ostrva, a Sloveni drže unutrašnjost."}
+          - {tekst: "Neuspeh napada znači da se Sloveni nisu naselili", tacan: false, zasto: "Naselili su se bez većeg otpora; neuspeh pred velikim gradovima nije zaustavio naseljavanje."}
+          - {tekst: "Vizantija je pobedila i proterala Slovene preko Dunava", tacan: false, zasto: "Sredinom VII veka zemlja do planine Balkan već se zove Slovenska, pa proterivanja nije bilo."}
+        pomoc:
+          - "Korak 1: Koji gradovi i oblasti su ostali Vizantiji?"
+          - "Korak 2: Kako se zove zemlja između Dunava i planine Balkan?"
+          - "Iz lekcije: Slovenska je pod Slovenima, a Vizantiji ostaju dolina Morave, Niš, Sofija, primorski gradovi i ostrva."
+        objasnjenje: "Utvrđene gradove i more Sloveni nisu mogli da uzmu, ali su unutrašnjost zaposeli naseljavanjem. Carstvo se svelo na gradove, primorje i ostrva."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Napadi na Solun i Carigrad nisu uspeli, a ipak zemlja do planine Balkan postaje Slovenska; Vizantija zadržava gradove i ostrva."
+        osa: {naziv: "Slovenska između Dunava i planine Balkan", od: 650, oznaka: "sredina VII veka", traka: dogadjaji}
+
+      - id: l03-sami-ili-sa-avarima-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [stari-sloveni, avari, bugari, pesadija]
+        pitanje: "Sloveni su u borbama bili pešadija, a Avari i Bugari konjica. Šta je mogla biti prednost njihovih zajedničkih napada na Vizantiju?"
+        odgovori:
+          - {tekst: "Dopunjavali su se: brza konjica i brojna pešadija zajedno čine jaču vojsku", tacan: true}
+          - {tekst: "Vizantiji nije smetalo, jer je pešadija beskorisna", tacan: false, zasto: "Pešadija nije beskorisna: Sloveni su borbom u šumama i klancima bili opasni protivnici."}
+          - {tekst: "Avari i Bugari nisu morali da se bore", tacan: false, zasto: "Borili su se i oni; bili su konjica, a Sloveni pešadija."}
+          - {tekst: "Svi su mogli da plove do Carigrada", tacan: false, zasto: "Podatak o rodovima vojske govori o kopnenoj borbi, a ne o plovidbi."}
+        pomoc:
+          - "Korak 1: U čemu je jaka konjica?"
+          - "Korak 2: U čemu je jaka pešadija koju opisuje vizantijski izvor?"
+          - "Iz lekcije: Sloveni su pešadija, a Avari i Bugari konjica; zajedno stižu do Trakije, Tesalije i Epira."
+        objasnjenje: "Pešaci i konjanici imaju različite prednosti, pa je zajednička vojska mogla da stigne dalje nego svaki rod sam."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "U borbama su Sloveni pešadija, a Avari i Bugari konjica."
+          slika: 03-doseljavanje-srba-na-balkan/03-stari-sloven.jpg
+
+      - id: l03-solun-586-datum
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [solun, stari-sloveni, avari]
+        dogadjaj: "Avarsko-slovenski napad na Solun"
+        pitanje: "Koje godine je izveden veliki neuspeli napad na Solun?"
+        godina: 586
+        traka: dogadjaji
+        pomoc:
+          - "To je kraj VI veka."
+          - "Pada četrdeset godina pre napada na Carigrad."
+          - "Iz lekcije: 586. veliki napad na Solun ne uspeva."
+        objasnjenje: "Godine 586. Solun je odoleo; to je bio jedan od više takvih pokušaja."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Godine 586. veliki napad na Solun nije uspeo; bio je jedan od više takvih pokušaja."
+
+      - id: l03-carigrad-626-datum
+        vrsta: datum
+        tezina: lako
+        pojmovi: [carigrad, avari, stari-sloveni]
+        dogadjaj: "Avarsko-slovenski napad na Carigrad"
+        pitanje: "Koje godine su Sloveni i Avari napali Carigrad?"
+        godina: 626
+        traka: dogadjaji
+        pomoc:
+          - "To je VII vek, njegova prva polovina."
+          - "Iraklije je tada na prestolu (610–641)."
+          - "Iz lekcije: 626. sa Avarima pokušavaju da zauzmu Carigrad."
+        objasnjenje: "Napad 626. nije uspeo, kao ni ranije napadi na Solun."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Godine 626. Sloveni sa Avarima pokušavaju da zauzmu Carigrad, opet neuspešno."
+
+      - id: l03-justinijan-datum
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [justinijan-i, vizantija]
+        dogadjaj: "Vladavina Justinijana I"
+        pitanje: "U kom periodu je vladao car Justinijan I?"
+        od: 527
+        do: 565
+        traka: vladari
+        pomoc:
+          - "Vladao je gotovo četiri decenije u VI veku."
+          - "Počeo je u drugoj, a završio u sedmoj deceniji VI veka."
+          - "Iz lekcije: Justinijan I (527–565)."
+        objasnjenje: "Justinijan I je vladao 527–565. i pod njim počinju upadi Slovena."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Upadi počinju pod carem Justinijanom I (527–565)."
+
+      - id: l03-iraklije-datum
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [iraklije, vizantija]
+        dogadjaj: "Vladavina cara Iraklija"
+        pitanje: "U kom periodu je vladao vizantijski car Iraklije?"
+        od: 610
+        do: 641
+        traka: vladari
+        pomoc:
+          - "Na prestolu je bio u vreme napada na Carigrad 626."
+          - "Vladao je trideset i jednu godinu u VII veku."
+          - "Iz lekcije: Iraklije 610–641."
+        objasnjenje: "Iraklije je vladao 610–641, u vreme kada se Sloveni naseljavaju južno od Dunava."
+        iz_udzbenika:
+          strana: 17
+          odeljak: "Hronologija celog dela II"
+          tekst: "Vremenska lenta dela II navodi vladavinu vizantijskog cara Iraklija 610–641."
+
+      - id: l03-napadi-poredjaj
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [solun, carigrad, huni]
+        pitanje: "Poređaj događaje hronološki, od najranijeg."
+        stavke:
+          - {tekst: "Huni prolaze kroz Vrata naroda", godina: 375, naziv: "Huni prolaze kroz Vrata naroda", traka: dogadjaji}
+          - {tekst: "Neuspeli napad na Solun", godina: 586, naziv: "Avarsko-slovenski napad na Solun", traka: dogadjaji}
+          - {tekst: "Neuspeli napad na Carigrad", godina: 626, naziv: "Avarsko-slovenski napad na Carigrad", traka: dogadjaji}
+        pomoc:
+          - "Seoba je počela mnogo pre napada na gradove."
+          - "Solun je napadnut u VI, a Carigrad u VII veku."
+          - "Iz lekcije: 375, 586, 626."
+        objasnjenje: "Huni (375) → Solun (586) → Carigrad (626)."
+        iz_udzbenika:
+          strana: 17
+          odeljak: "Hronologija celog dela II"
+          tekst: "Lenta dela II navodi Hune 375, napad na Solun 586. i napad na Carigrad 626."
+
+      - id: l03-od-pljacke-do-slovenske-poredjaj
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [avari, stari-sloveni, slovenska, solun, carigrad]
+        pitanje: "Poređaj ceo tok naseljavanja, od najranijeg događaja."
+        stavke:
+          - {tekst: "Avari stižu u Panonsku niziju", godina: 550, oznaka: "sredina VI veka", naziv: "Avari stižu u Panonsku niziju", traka: dogadjaji}
+          - {tekst: "Napad na Solun ne uspeva", godina: 586, naziv: "Avarsko-slovenski napad na Solun", traka: dogadjaji}
+          - {tekst: "Sloveni prelaze Dunav sa porodicama", godina: 605, oznaka: "početak VII veka", naziv: "Sloveni prelaze Dunav sa porodicama", traka: dogadjaji}
+          - {tekst: "Napad na Carigrad ne uspeva", godina: 626, naziv: "Avarsko-slovenski napad na Carigrad", traka: dogadjaji}
+          - {tekst: "Zemlja do planine Balkan zove se Slovenska", godina: 650, oznaka: "sredina VII veka", naziv: "Slovenska između Dunava i planine Balkan", traka: dogadjaji}
+        pomoc:
+          - "Dva događaja su u VI veku, a tri u VII."
+          - "Slovenska je rezultat, pa ide na kraj."
+          - "Iz lekcije: Avari sredinom VI veka, Solun 586, prelazak početkom VII veka, Carigrad 626, Slovenska sredinom VII veka."
+        objasnjenje: "Sled pokazuje put od pljačke (VI vek) do trajnog naseljavanja i slovenske prevlasti (VII vek)."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Lekcija opisuje korake od dolaska Avara i napada na gradove do naseljavanja i Slovenske."
+
+      - id: l03-upadi-lanac
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [vizantija, stari-sloveni]
+        karike:
+          - "Vizantija ratuje na drugim stranama carstva"
+          - "?"
+          - "Sloveni upadaju sve do Trakije, Tesalije i Epira"
+        praznina: 1
+        odgovori:
+          - {tekst: "Odbrana dunavske granice je slaba", tacan: true}
+          - {tekst: "Vizantija gradi novu prestonicu", tacan: false, zasto: "Prestonica je Carigrad, a veza između ratova i upada je slaba granica."}
+          - {tekst: "Sloveni postaju hrišćani", tacan: false, zasto: "Hrišćanstvo se učvršćuje tek u IX veku i ne objašnjava upade u VI veku."}
+        pomoc:
+          - "Korak 1: Gde je vojska kad je na drugim frontovima?"
+          - "Korak 2: Šta se dešava sa granicom bez vojske?"
+          - "Iz lekcije: ratovi Vizantije na drugim stranama → slaba odbrana dunavske granice → upadi."
+        objasnjenje: "Zauzeto carstvo nije branilo Dunav, pa su Sloveni ulazili duboko na jug."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Ratovi Vizantije na drugim stranama oslabili su odbranu Dunava, pa su upadi dopirali do Trakije, Tesalije i Epira."
+
+      - id: l03-naseljavanje-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [stari-sloveni, doseljavanje, slovenska]
+        karike:
+          - "Pljačkaški upadi u VI veku"
+          - "?"
+          - "Slovenske naseobine i naziv Slovenska"
+        praznina: 1
+        odgovori:
+          - {tekst: "Naseljavanje sa porodicama u VII veku", tacan: true}
+          - {tekst: "Masovan povratak u pradomovinu", tacan: false, zasto: "Povratka nije bilo: oni koji su ranije odlazili sada ostaju."}
+          - {tekst: "Veliki raskol 1054.", tacan: false, zasto: "Raskol je pet vekova kasnije i ne tiče se naseljavanja."}
+        pomoc:
+          - "Korak 1: Čime se razlikuje VII vek od VI?"
+          - "Korak 2: Šta moraš imati da bi nastale naseobine?"
+          - "Iz lekcije: pljačkaški upadi → naseljavanje sa porodicama → naseobine i Slovenska."
+        objasnjenje: "Pljačka se pretvorila u naseljavanje, a naseljavanje u slovensku prevlast na velikom delu Balkana."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Upadi iz VI veka u VII veku prelaze u naseljavanje, a sredinom veka postoje snažne naseobine."
+
+      - id: l03-avari-pritisak-lanac
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [avari, stari-sloveni, carigrad]
+        karike:
+          - "Avari stižu u Panonsku niziju"
+          - "Potčinjavaju tamošnja slovenska plemena"
+          - "?"
+          - "Napad na Carigrad 626. ne uspeva"
+        praznina: 2
+        odgovori:
+          - {tekst: "Sloveni napadaju Vizantiju zajedno sa Avarima", tacan: true}
+          - {tekst: "Sloveni i Avari sklapaju mir sa carem i razoružavaju se", tacan: false, zasto: "Da je bilo mira, ne bi bilo ni napada 626; lekcija govori o zajedničkim napadima."}
+          - {tekst: "Avari odlaze iz Panonije na zapad", tacan: false, zasto: "Lekcija to ne kaže; Avari ostaju u igri kao saveznici Slovena protiv Vizantije."}
+        pomoc:
+          - "Korak 1: Šta potčinjeno pleme radi za gospodara?"
+          - "Korak 2: Protiv koga su se zajedno borili?"
+          - "Iz lekcije: napadali su prvo sa Bugarima, pa sa Avarima; 626. sa Avarima na Carigrad."
+        objasnjenje: "Potčinjeni Sloveni su ratovali uz Avare, pa je i napad na Carigrad bio zajednički."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Avari potčinjavaju slovenska plemena; Sloveni zatim napadaju sa njima, a 626. i Carigrad."
+        osa: {naziv: "Avarsko-slovenski napad na Carigrad", od: 626, traka: dogadjaji}
+
+      - id: l03-izvor-sloboda-izvor
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [stari-sloveni, anti]
+        izvor:
+          autor: "Vizantijski izvor (ime nije navedeno)"
+          naslov: "O Slovenima i Antima"
+          tekst: "Sloveni i srodni Anti žive na isti način i imaju iste običaje. Vole slobodu i teško podnose da im iko vlada, a pogotovu na njihovoj zemlji."
+          napomena: "Odlomak je prepričan; udžbenik, str. 21–22."
+        pitanje: "Koju osobinu Slovena i Anta ovaj izvor posebno ističe?"
+        odgovori:
+          - {tekst: "Slobodoljubivost", tacan: true}
+          - {tekst: "Poslušnost caru", tacan: false, zasto: "Izvor tvrdi suprotno: ne trpe da njima vladaju."}
+          - {tekst: "Bogatstvo", tacan: false, zasto: "O bogatstvu nema ni reči; naprotiv, drugi deo izvora pominje oskudicu."}
+          - {tekst: "Učenost i pismenost", tacan: false, zasto: "Tada nisu imali pismo; izvor govori o slobodi, a ne o obrazovanju."}
+        pomoc:
+          - "Pročitaj drugu rečenicu."
+          - "Šta ne podnose?"
+          - "Iz lekcije: slobodoljubivi su i ne trpe da njima vladaju, naročito u svojoj zemlji."
+        objasnjenje: "Vizantijski pisac ističe da Sloveni i Anti vole slobodu i ne podnose tuđu vlast."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Vizantijski izvor opisuje Slovene i Ante kao slobodoljubive i kaže da ne trpe da njima vladaju."
+
+      - id: l03-izvor-izdrzljivost-izvor
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [stari-sloveni, anti]
+        izvor:
+          autor: "Vizantijski izvor (ime nije navedeno)"
+          naslov: "O Slovenima i Antima"
+          tekst: "Ima ih mnogo i izdržljivi su. Lako podnose vrućinu, hladnoću, kišu, a i manjak odeće i hrane."
+          napomena: "Odlomak je prepričan; udžbenik, str. 21–22."
+        pitanje: "Zašto bi vizantijski pisac beležio ovakve podatke o Slovenima?"
+        odgovori:
+          - {tekst: "Zato što su bili protivnik, pa je važno znati koliko su opasni i izdržljivi", tacan: true}
+          - {tekst: "Zato što ih je hteo da pozove na svadbu", tacan: false, zasto: "Izvor je opis stranog naroda s kojim se Vizantija sukobljavala, a ne lični poziv."}
+          - {tekst: "Zato što su Sloveni sami tražili da ih opiše", tacan: false, zasto: "Sloveni nisu imali pismo ni uticaj na vizantijske pisce; pisac beleži za svoje ljude."}
+          - {tekst: "Zato što je želeo da pohvali vizantijsku vojsku", tacan: false, zasto: "Izvor govori o Slovenima, a ne o carskoj vojsci."}
+        pomoc:
+          - "Seti se kakav je bio odnos Vizantije i Slovena u VI veku."
+          - "Šta treba da znaš o protivniku pre borbe?"
+          - "Iz lekcije: izvor opisuje brojnost i izdržljivost, a Sloveni su tada napadali Vizantiju."
+        objasnjenje: "Vizantinci su Slovene upoznali kao napadače; podaci o brojnosti i izdržljivosti govore koliko je taj protivnik težak."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Izvor kaže da su Sloveni brojni i izdržljivi i da lako podnose vrućinu, hladnoću, kišu i oskudicu."
+
+      - id: l03-izvor-zarobljenici-izvor
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [stari-sloveni, anti]
+        izvor:
+          autor: "Vizantijski izvor (ime nije navedeno)"
+          naslov: "O Slovenima i Antima"
+          tekst: "Zarobljenike ne drže zauvek u ropstvu. Posle određenog vremena zarobljenik bira: da se otkupi i vrati svojima ili da ostane kao slobodan čovek i prijatelj."
+          napomena: "Odlomak je prepričan; udžbenik, str. 21–22."
+        pitanje: "Šta iz ovog odlomka možemo da zaključimo o ropstvu kod Slovena?"
+        odgovori:
+          - {tekst: "Ropstvo je bilo ograničeno vremenom, a zarobljenik je mogao da postane slobodan", tacan: true}
+          - {tekst: "Zarobljenici su ostajali robovi do smrti", tacan: false, zasto: "Izvor kaže upravo da ih ne drže trajno u ropstvu."}
+          - {tekst: "Sloveni nikada nisu uzimali zarobljenike", tacan: false, zasto: "Uzimali su ih, jer izvor opisuje šta dalje sa njima rade."}
+          - {tekst: "Zarobljenici su odmah puštani bez ikakvog roka", tacan: false, zasto: "Oslobađanje dolazi posle određenog roka, a ne odmah."}
+        pomoc:
+          - "Nađi izraz koji govori o vremenu."
+          - "Koje dve mogućnosti ima zarobljenik?"
+          - "Iz lekcije: posle određenog roka mogu da se otkupe i vrate ili da ostanu kao slobodni i prijatelji."
+        objasnjenje: "Izvor pokazuje blaži oblik ropstva: posle roka zarobljenik se može otkupiti ili ostati kao slobodan i prijatelj."
+        iz_udzbenika:
+          strana: 22
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Sloveni zarobljenike ne drže trajno u ropstvu: posle roka mogu da se otkupe ili da ostanu kao slobodni i prijatelji."
+
+      - id: l03-izvor-zaseda-izvor
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [stari-sloveni, zaseda, pesadija, avari]
+        izvor:
+          autor: "Vizantijski izvor (ime nije navedeno)"
+          naslov: "O Slovenima i Antima"
+          tekst: "Protivnika radije napadaju u šumama, klancima i na strminama. Umešno se služe zasedama i iznenadnim napadima."
+          napomena: "Odlomak je prepričan; udžbenik, str. 21–22."
+        pitanje: "Kako se ovaj opis slaže sa podatkom da su Sloveni bili pešadija, a ne konjica?"
+        odgovori:
+          - {tekst: "Pešak se u šumi i klancu lako kreće i skriva, pa je takav teren njegova prednost", tacan: true}
+          - {tekst: "Ne slaže se, jer je za zasede u šumi potrebna teška konjica", tacan: false, zasto: "Konjica traži otvoren prostor, kakav imaju Avari i Bugari; šuma i strmina pogoduju pešacima."}
+          - {tekst: "Ne slaže se, jer su Sloveni izbegavali borbu", tacan: false, zasto: "Nisu je izbegavali, nego su birali mesto i trenutak koji im odgovaraju."}
+          - {tekst: "Opis govori o Avarima, a ne o Slovenima", tacan: false, zasto: "Izvor izričito govori o Slovenima i Antima."}
+        pomoc:
+          - "Zamisli konjanika na strmini među drvećem."
+          - "Ko se u šumi bolje skriva: čovek ili konj?"
+          - "Iz lekcije: Sloveni su pešadija; napadaju u šumama, klancima i na strminama, koristeći zasede."
+        objasnjenje: "Sloveni su birali teren na kom njihova pešadija ima prednost, a konjica protivnika je nema."
+        iz_udzbenika:
+          strana: 22
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Protivnike napadaju u šumama, klancima i na strminama i dobro koriste zasede i iznenađenja."
+          slika: 03-doseljavanje-srba-na-balkan/05-sloveni-u-zasedi.jpg
+
+      - id: l03-vi-protiv-vii-uporedi
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [stari-sloveni, doseljavanje, vizantija]
+        a: "Upadi u VI veku"
+        b: "Naseljavanje u VII veku"
+        pitanje: "Na koji period se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Sloveni se sa plenom vraćaju preko Dunava.", odgovor: a, zasto: "To je obrazac pljačke u VI veku; u VII veku ostaju."}
+          - {tekst: "Sloveni dolaze sa porodicama.", odgovor: b, zasto: "Porodice dolaze u VII veku, jer je cilj trajni ostanak."}
+          - {tekst: "Glavni protivnik je Vizantija.", odgovor: oba, zasto: "I upadi i naseljavanje odvijaju se na vizantijskoj teritoriji."}
+          - {tekst: "Vlada Justinijan I.", odgovor: a, zasto: "Justinijan I vlada 527–565, u vreme prvih upada."}
+          - {tekst: "Nastaje naziv Slovenska.", odgovor: b, zasto: "Naziv se javlja sredinom VII veka, kada su naseobine snažne."}
+          - {tekst: "Sloveni su već primili hrišćanstvo.", odgovor: nijedan, zasto: "Hrišćanstvo se kod Južnih Slovena učvršćuje tek u IX veku."}
+        pomoc:
+          - "Pitaj se: ide li se kući posle borbe ili se ostaje?"
+          - "Pazi na tvrdnje koje važe za oba perioda ili ni za jedan."
+          - "Iz lekcije: u VI veku pljačka, u VII veku naseljavanje sa porodicama."
+        objasnjenje: "U VI veku Sloveni dolaze radi plena, a u VII veku radi ostanka; protivnik je isti, Vizantija."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Upadi u VI veku su pljačkaški, a u VII veku Sloveni dolaze sa porodicama i ostaju."
+
+      - id: l03-sloveni-avari-uporedi
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [stari-sloveni, avari, pesadija]
+        a: "Sloveni"
+        b: "Avari"
+        pitanje: "Na koji narod se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "U borbi su bili pešadija.", odgovor: a, zasto: "Sloveni su ratovali pešice; Avari su bili konjica."}
+          - {tekst: "U borbi su bili konjica.", odgovor: b, zasto: "Konjica su bili Avari, kao i Bugari."}
+          - {tekst: "Stigli su iz Azije u Panonsku niziju.", odgovor: b, zasto: "Avari su došli iz Azije; pradomovina Slovena bila je u Evropi."}
+          - {tekst: "Napadali su Carigrad 626.", odgovor: oba, zasto: "Napad 626. izveli su zajedno."}
+          - {tekst: "Poticali su iz zemalja između Odre i Visle.", odgovor: a, zasto: "To je slovenska pradomovina."}
+        pomoc:
+          - "Ko je došao iz Azije?"
+          - "Jedna tvrdnja važi za oba."
+          - "Iz lekcije: Sloveni su pešadija, Avari konjica; zajedno napadaju 626."
+        objasnjenje: "Sloveni i Avari su se razlikovali po poreklu i načinu ratovanja, a povezivali su ih zajednički napadi."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Avari stižu iz Azije; u borbama su konjica, a Sloveni pešadija."
+
+      - id: l03-justinijan-ko-sam
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [justinijan-i, vizantija, stari-sloveni]
+        tragovi:
+          - "Bio sam vizantijski car u VI veku."
+          - "Vladao sam od 527. do 565."
+          - "Pod mojom vlašću počeli su upadi Slovena na Balkan."
+        odgovori:
+          - {tekst: "Justinijan I", tacan: true}
+          - {tekst: "Iraklije", tacan: false, zasto: "Iraklije vlada u VII veku (610–641), posle Justinijana."}
+          - {tekst: "Herodot", tacan: false, zasto: "Herodot je grčki istoričar iz V veka pre n. e., a ne vizantijski car."}
+        objasnjenje: "To je Justinijan I, pod kojim počinju pljačkaški upadi Slovena."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Upadi na Balkan počinju pod carem Justinijanom I (527–565)."
+        osa: {naziv: "Vladavina Justinijana I", od: 527, do: 565, traka: vladari}
+
+      - id: l03-avari-ko-sam
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [avari, stari-sloveni, carigrad]
+        tragovi:
+          - "Stigli smo iz Azije u Panonsku niziju sredinom VI veka."
+          - "Potčinili smo tamošnja slovenska plemena."
+          - "Sa Slovenima smo 626. neuspešno napali Carigrad."
+        odgovori:
+          - {tekst: "Avari", tacan: true}
+          - {tekst: "Mađari", tacan: false, zasto: "I Mađari dolaze u Panoniju iz Azije, ali tek krajem IX veka."}
+          - {tekst: "Bugari", tacan: false, zasto: "Bugari su sa Slovenima napadali ranije, ali Panoniju i napad 626. lekcija vezuje za Avare."}
+        objasnjenje: "To su Avari, koji su Slovene u Panoniji potčinili, a posle ih poveli na Vizantiju."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Avari stižu iz Azije, potčinjavaju slovenska plemena, a 626. napadaju Carigrad sa Slovenima."
+
+      - id: l03-kada-naseljavanje-objasni
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [doseljavanje, stari-sloveni]
+        pitanje: "Kada počinje naseljavanje Slovena na Balkanu i po čemu znamo da to više nisu pljačkaški upadi? Objasni."
+        uzor: "Naseljavanje počinje u VII veku. U VI veku Sloveni su pljačkali i sa plenom se vraćali preko Dunava. Od početka VII veka prelaze sa porodicama i sa namerom da ostanu, a sredinom veka već postoje snažne naseobine."
+        ideje:
+          - "Naseljavanje počinje u VII veku."
+          - "U VI veku su se posle pljačke vraćali."
+          - "U VII veku dolaze sa porodicama."
+          - "Nastaju snažne slovenske naseobine."
+        objasnjenje: "Ključna razlika je namera: povratak sa plenom ili ostanak sa porodicom."
+        iz_udzbenika:
+          strana: 22
+          odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika"
+          tekst: "Udžbenik pita kada počinje naseljavanje Balkana."
+
+      - id: l03-zasto-vizantija-gubi-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [vizantija, slovenska, stari-sloveni]
+        pitanje: "Kako je Vizantija do sredine VII veka izgubila veliki deo Balkana, iako nije izgubila ni Solun ni Carigrad? Objasni."
+        uzor: "Vizantija je ratovala i na drugim stranama pa nije mogla da brani Dunav. Sloveni su zato početkom VII veka prelazili granicu bez većeg otpora i naseljavali unutrašnjost. Veliki gradovi su odoleli napadima, ali je zemlja do planine Balkan postala Slovenska."
+        ideje:
+          - "Ratovi na drugim stranama carstva oslabili su granicu."
+          - "Sloveni prelaze bez većeg otpora i naseljavaju se."
+          - "Solun i Carigrad odolevaju, a unutrašnjost je izgubljena."
+        objasnjenje: "Zemlja se ne gubi samo padom velikih gradova, nego i trajnim naseljavanjem unutrašnjosti."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Vizantija nije mogla da brani granicu, napadi na gradove nisu uspeli, a sredinom VII veka zemlja do planine Balkan zove se Slovenska."
+
+      - id: l03-koliko-verovati-izvoru-objasni
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [stari-sloveni, anti, vizantija, zaseda]
+        pitanje: "Vizantijski izvor o Slovenima i Antima napisao je stranac i protivnik. Šta iz njega možemo da saznamo, a na šta moramo da pazimo? Objasni."
+        uzor: "Izvor nam kazuje da su Sloveni bili brojni, izdržljivi i slobodoljubivi, da su zarobljenike posle roka oslobađali i da su ratovali iz zasede. Ali pisac nije Sloven, nego pripadnik carstva koje su Sloveni napadali, pa je gledao spolja i svojim očima. Zato je dobro da takvu vest uporedimo sa drugim podacima."
+        ideje:
+          - "Izvor daje podatke o običajima i načinu ratovanja Slovena."
+          - "Pisac je Vizantinac, dakle stranac i protivnik."
+          - "Vizantijske vesti često su kratke i neprecizne."
+          - "Vest treba uporediti sa drugim podacima."
+        objasnjenje: "Izvor je dragocen jer drugih gotovo nema, ali ga treba čitati znajući ko ga je napisao."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Vizantijski izvor opisuje Slovene i Ante; vesti vizantijskih pisaca su inače kratke i često neprecizne."
+
+      - id: l03-severno-od-dunava-izbor
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [stari-sloveni, vizantija, doseljavanje]
+        pitanje: "Vizantijski pisci u VI veku pominju Slovene severno od Dunava, a isti ti Sloveni tada pljačkaju Trakiju i Epir. Kako se ova dva podatka slažu?"
+        odgovori:
+          - {tekst: "Sloveni su još živeli preko Dunava, a na carsku zemlju dolazili su samo radi plena", tacan: true}
+          - {tekst: "Podaci se ne slažu, pa je jedan sigurno izmišljen", tacan: false, zasto: "Slažu se: dom je severno od reke, a pljačka je pohod koji se završava povratkom na levu obalu."}
+          - {tekst: "Trakija i Epir su severno od Dunava", tacan: false, zasto: "To su vizantijske oblasti na Balkanu, dakle južno od Dunava."}
+          - {tekst: "Sloveni su već živeli u Trakiji i Epiru sa porodicama", tacan: false, zasto: "Porodice prelaze tek početkom VII veka; u VI veku ostajanja još nema."}
+        pomoc:
+          - "Razlikuj gde neko živi od toga dokle stiže u pohodu."
+          - "Gde su se vraćali sa plenom?"
+          - "Iz lekcije: u VI veku pominju se severno od Dunava; posle upada vraćaju se na levu obalu."
+        objasnjenje: "U VI veku granica je još razdvajala dom i plen: Sloveni žive severno od Dunava, a na jug idu u pljačku."
+        iz_udzbenika:
+          strana: 18
+          odeljak: "Život u pradomovini, uzroci i pravci seobe"
+          tekst: "U VI veku Sloveni se pominju severno od Dunava, a tada već pljačkaju vizantijske oblasti."
+
+      - id: l03-vera-i-priroda-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [stari-sloveni, perun, dazbog]
+        pitanje: "Kako se vera starih Slovena vezuje za njihov život u prirodi? Objasni."
+        uzor: "Sloveni su bili tesno vezani za prirodu, pa su verovali da mnogi bogovi žive u šumama i rekama. Vrhovni bog bio je Perun ili Svetovid, a Dažbog je bio bog Sunca i podzemlja. Verovali su i u vile i vukodlake. Ono što su svakodnevno videli oko sebe pretvarali su u svoja verovanja."
+        ideje:
+          - "Sloveni su tesno vezani za prirodu."
+          - "Bogovi žive u šumama i rekama."
+          - "Vrhovni bog je Perun ili Svetovid, a Dažbog bog Sunca i podzemlja."
+          - "Verovali su u vile i vukodlake."
+        objasnjenje: "Mnogoboštvo Slovena izrasta iz života u prirodi."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Stari Sloveni i naseljavanje Balkanskog poluostrva"
+          tekst: "Sloveni su bili vezani za prirodu; mnogi bogovi su živeli u šumama i rekama."
+
+  - naslov: "Odnosi sa susedima i starosedeocima"
+    zadaci:
+      - id: l03-vlasi-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [vlasi, starosedeoci]
+        pitanje: "Koga su Sloveni nazivali Vlasima?"
+        odgovori:
+          - {tekst: "Romanizovane Ilire i Tračane", tacan: true}
+          - {tekst: "Avare i Bugare", tacan: false, zasto: "Avari i Bugari su azijski došljaci, a Vlasi su staro romanizovano stanovništvo Balkana."}
+          - {tekst: "Vizantijske sveštenike", tacan: false, zasto: "Naziv se odnosi na starosedeoce u planinama, a ne na sveštenike carstva."}
+          - {tekst: "Hrvatska plemena", tacan: false, zasto: "Hrvati su južnoslovenska plemena, a Vlasi potomci starog romanizovanog stanovništva."}
+        pomoc:
+          - "Oni su na Balkanu živeli pre Slovena."
+          - "Primili su rimsku kulturu i jezik."
+          - "Iz lekcije: tako su Sloveni zvali romanizovane Ilire i Tračane."
+        objasnjenje: "Vlasi su romanizovani Iliri i Tračani, koji su se povukli u planine i živeli kao stočari."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Vlasima su Sloveni zvali romanizovane Ilire i Tračane, koji su se povukli u planine i bavili stočarstvom."
+
+      - id: l03-asimilacija-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [asimilacija]
+        pitanje: "Šta je asimilacija?"
+        odgovori:
+          - {tekst: "Nestajanje jednog naroda, obično manjine, stapanjem sa većinskim narodom", tacan: true}
+          - {tekst: "Prelazak na hrišćanstvo", tacan: false, zasto: "To je hristijanizacija; asimilacija je stapanje sa drugim narodom."}
+          - {tekst: "Seoba naroda u novu zemlju", tacan: false, zasto: "Seoba je kretanje naroda, a asimilacija ono što se može desiti posle, kad se narodi izmešaju."}
+          - {tekst: "Povlačenje naroda u planine", tacan: false, zasto: "Tako su Vlasi izbegli stapanje, pa je to pre suprotnost asimilaciji."}
+        pomoc:
+          - "Razmisli šta se desi sa malom grupom među mnogo većom."
+          - "Traži reč „stapanje”."
+          - "Iz lekcije: jedan narod, obično manjina, nestaje stapanjem sa većinskim narodom."
+        objasnjenje: "Asimilacija znači da se manjina stopi sa većinom i nestane kao poseban narod."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Asimilacija je kada jedan narod, obično manjina, nestaje stapanjem sa većinskim narodom na nekom području."
+
+      - id: l03-primorski-gradovi-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [starosedeoci]
+        pitanje: "U kojim primorskim gradovima su opstali delovi starog rimskog stanovništva? (više tačnih)"
+        odgovori:
+          - {tekst: "Drač", tacan: true}
+          - {tekst: "Skadar", tacan: true}
+          - {tekst: "Trogir", tacan: true}
+          - {tekst: "Zadar", tacan: true}
+          - {tekst: "Niš", tacan: false, zasto: "Niš je ostao vizantijski, ali je u unutrašnjosti, a pitanje traži gradove na obali."}
+          - {tekst: "Sofija", tacan: false, zasto: "I Sofija je ostala Vizantiji, ali nije primorski grad."}
+        pomoc:
+          - "Svi tačni gradovi su na Jadranu ili blizu njega."
+          - "Izbaci gradove iz unutrašnjosti Balkana."
+          - "Iz lekcije: Drač, Skadar, Trogir i Zadar."
+        objasnjenje: "Stari stanovnici opstali su u Draču, Skadru, Trogiru i Zadru, a Sloveni su se naselili u njihovom zaleđu."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Delovi rimskog stanovništva opstali su u Draču, Skadru, Trogiru i Zadru, iza kojih su se naselili Sloveni."
+
+      - id: l03-varvari-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [varvari]
+        tvrdnja: "Varvarima su nazivani stranci izvan antičke grčko-rimske kulture."
+        tacno: true
+        pomoc:
+          - "Pomisli na plemena van rimskih granica."
+          - "Iz lekcije: varvari su stranci izvan antičke grčko-rimske kulture."
+        objasnjenje: "Tačno. Varvari su, gledano iz Rima i Grčke, bili oni koji ne pripadaju toj kulturi, na primer plemena van rimskih granica."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Varvari su stranci izvan antičke grčko-rimske kulture, na primer plemena van rimskih granica."
+
+      - id: l03-povratak-teritorije-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [vizantija, slovenska]
+        tvrdnja: "Vizantija se pomirila sa gubitkom Balkana i nije pokušavala da ga vrati."
+        tacno: false
+        ispravke:
+          - {tekst: "Od sredine VII veka vodila je brojne ratove da povrati teritoriju.", tacan: true}
+          - {tekst: "Vratila je celu teritoriju već 626, posle pobede kod Carigrada.", tacan: false, zasto: "Odbrana Carigrada nije vratila zemlju; sredinom VII veka ta zemlja se zvala Slovenska."}
+          - {tekst: "Prepustila je Balkan Avarima ugovorom.", tacan: false, zasto: "O tome nema reči; carstvo je, naprotiv, ratovalo da povrati izgubljeno."}
+        pomoc:
+          - "Seti se koliko je carstvu bio važan Balkan."
+          - "Traži podatak o sredini VII veka."
+          - "Iz lekcije: Vizantija je od sredine VII veka vodila brojne ratove da povrati teritoriju."
+        objasnjenje: "Netačno. Od sredine VII veka Vizantija je mnogo ratovala da povrati izgubljene krajeve."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Vizantija je od sredine VII veka vodila brojne ratove da povrati teritoriju."
+
+      - id: l03-vlasi-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [vlasi, cincari]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Vlasi su se povukli u {{planine}} i živeli kao {{stočari}}, a i {{Cincari}} potiču od romanizovanog stanovništva."
+        ponudjene: [planine, stočari, Cincari, gradove, pomorci, Avari]
+        pomoc:
+          - "Mesto povlačenja je daleko od nizija u koje stižu Sloveni."
+          - "Zanimanje se dobro slaže sa planinom."
+          - "Iz lekcije: povukli su se u planine i živeli kao stočari; i Cincari potiču od romanizovanog stanovništva."
+        objasnjenje: "Vlasi su opstali u planinama kao stočari; od romanizovanog stanovništva potiču i Cincari."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Vlasi su se povukli u planine i živeli kao stočari, a Cincari takođe potiču od romanizovanog stanovništva."
+
+      - id: l03-starosedeoci-sudbina-dopuni
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [starosedeoci, asimilacija]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Starosedeoci su uglavnom bili potisnuti i {{asimilovani}}. Izuzetak je današnja {{Albanija}}, čije stanovništvo svoje poreklo vezuje za antičke {{Ilire}}."
+        pomoc:
+          - "Prva praznina je pridev od reči za stapanje naroda."
+          - "Traži zemlju uz Jadran južno od Crne Gore."
+          - "Iz lekcije: potisnuti i asimilovani; izuzetak je Albanija, poreklo od antičkih Ilira."
+        objasnjenje: "Stari narodi su se većinom stopili sa Slovenima, a stanovništvo Albanije poreklo vezuje za Ilire."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Starosedeoci su uglavnom potisnuti i asimilovani; izuzetak je današnja Albanija."
+
+      - id: l03-pojmovi-starosedeoci-povezi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [vlasi, cincari, varvari, asimilacija]
+        pitanje: "Poveži pojam sa objašnjenjem."
+        parovi:
+          - ["Vlasi", "Romanizovani Iliri i Tračani, stočari u planinama"]
+          - ["Cincari", "Takođe potomci romanizovanog stanovništva"]
+          - ["Varvari", "Stranci izvan grčko-rimske kulture"]
+          - ["Asimilacija", "Stapanje manjine sa većinskim narodom"]
+          - ["Drač i Zadar", "Primorski gradovi sa ostacima rimskog stanovništva"]
+        pomoc:
+          - "Dve stavke su potomci romanizovanog stanovništva, a jednu odredi po zanimanju."
+          - "Varvar je pogled iz grčko-rimskog sveta."
+          - "Iz lekcije: Vlasi u planinama, Cincari od romanizovanog stanovništva, varvari van rimskih granica."
+        objasnjenje: "Pojmovi opisuju šta se desilo sa starim stanovništvom Balkana kada su došli Sloveni."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Lekcija objašnjava Vlahe, Cincare, varvare i asimilaciju i navodi primorske gradove sa starim stanovništvom."
+
+      - id: l03-albanija-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [starosedeoci, asimilacija]
+        pitanje: "Zašto se današnja Albanija u lekciji navodi kao izuzetak?"
+        odgovori:
+          - {tekst: "Starosedeoci drugde su uglavnom asimilovani, a stanovništvo Albanije poreklo vezuje za antičke Ilire", tacan: true}
+          - {tekst: "U Albaniji su živeli Avari", tacan: false, zasto: "Avari su bili u Panoniji; u Albaniji se radi o potomcima antičkih Ilira."}
+          - {tekst: "Sloveni su tamo stigli pre Huna", tacan: false, zasto: "Sloveni na Balkan stižu mnogo posle Huna, svuda pa i tamo."}
+          - {tekst: "Stanovništvo Albanije potiče iz pradomovine Slovena", tacan: false, zasto: "Upravo nije tako: ono poreklo vezuje za Ilire, starosedeoce Balkana."}
+        pomoc:
+          - "Korak 1: Šta se uglavnom desilo sa starosedeocima?"
+          - "Korak 2: Sa kojim antičkim narodom se Albanci povezuju?"
+          - "Iz lekcije: izuzetak je Albanija, čije stanovništvo poreklo vezuje za antičke Ilire."
+        objasnjenje: "Pravilo je asimilacija starosedelaca, a izuzetak je stanovništvo Albanije, koje poreklo vezuje za Ilire."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Izuzetak je današnja Albanija, čije stanovništvo poreklo vezuje za antičke Ilire."
+
+      - id: l03-romani-uticaj-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [starosedeoci, stari-sloveni, hristijanizacija]
+        pitanje: "Šta je opstanak romanskog gradskog stanovništva značio za budući razvoj Slovena?"
+        odgovori:
+          - {tekst: "Sloveni su od njih mogli da prime kulturne uticaje, pa i prva znanja o hrišćanstvu", tacan: true}
+          - {tekst: "Ništa, jer Sloveni i Romani nisu imali nikakav dodir", tacan: false, zasto: "Dodira je bilo: Sloveni su se naselili odmah iza tih gradova, a romansko stanovništvo je kulturno uticalo na njih."}
+          - {tekst: "Sloveni su zato prešli na romanski jezik i nestali", tacan: false, zasto: "Dogodilo se obrnuto: starosedeoci su se uglavnom stopili sa Slovenima."}
+          - {tekst: "Romani su Slovene odmah proterali iz primorja", tacan: false, zasto: "Bili su slabiji: opstali su u nekoliko gradova, a Sloveni su im naselili zaleđe."}
+        pomoc:
+          - "Korak 1: Gde su se Sloveni naselili u odnosu na primorske gradove?"
+          - "Korak 2: Preko koga su Sloveni prvo upoznali hrišćanstvo?"
+          - "Iz lekcije: romansko stanovništvo je kulturno uticalo na Slovene; hrišćanstvo su prvo upoznali preko starosedelaca."
+        objasnjenje: "Sloveni su živeli odmah uz stare gradove, pa su od njihovih stanovnika primali kulturu i prve hrišćanske uticaje."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Ponegde je gradsko romansko stanovništvo opstalo i kulturno uticalo na Slovene."
+
+      - id: l03-napustena-naselja-lanac
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [varvari, avari, bugari, starosedeoci]
+        karike:
+          - "Avari, Bugari i Sloveni u VI veku stalno napadaju Balkan"
+          - "Život u antičkim naseljima postaje nesiguran"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Mnoga antička naselja su sasvim napuštena", tacan: true}
+          - {tekst: "Antička naselja postaju bogatija nego ikad", tacan: false, zasto: "Napadi su donosili pustošenje, a ne bogaćenje; mnoga naselja su ostala prazna."}
+          - {tekst: "Stanovnici naselja odmah primaju slovensku veru", tacan: false, zasto: "Stanovnici su uglavnom bežali ili propadali; o takvom prelasku nema reči."}
+        pomoc:
+          - "Korak 1: Kako je živeti u mestu koje stalno pljačkaju?"
+          - "Korak 2: Šta ljudi tada rade?"
+          - "Iz lekcije: stalni napadi → napuštanje antičkih naselja."
+        objasnjenje: "Pod stalnim napadima mnoga antička naselja su sasvim napuštena."
+        iz_udzbenika:
+          strana: 19
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Pod napadima Avara, Bugara i Slovena u VI veku mnoga antička naselja su sasvim napuštena."
+
+      - id: l03-vlasi-planine-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [starosedeoci, vlasi, asimilacija]
+        karike:
+          - "Sloveni se naseljavaju na Balkan"
+          - "Starosedeoci su potisnuti"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Većina se asimiluje, a Vlasi se povlače u planine kao stočari", tacan: true}
+          - {tekst: "Svi starosedeoci odlaze u pradomovinu Slovena", tacan: false, zasto: "Pradomovina je slovenska i daleko je; starosedeoci su ostajali na Balkanu."}
+          - {tekst: "Starosedeoci preuzimaju vlast nad Slovenima", tacan: false, zasto: "Bili su potisnuti, pa je vlast ostala kod došljaka; preživeli su kao stočari ili u nekoliko gradova."}
+        pomoc:
+          - "Korak 1: Šta može da uradi potisnuti narod: da se stopi ili da se skloni?"
+          - "Korak 2: Gde su se sklonili Vlasi?"
+          - "Iz lekcije: naseljavanje → potiskivanje i asimilacija; Vlasi u planinama kao stočari."
+        objasnjenje: "Potisnuti starosedeoci su se većinom stopili sa Slovenima, a Vlasi su opstali u planinama."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Starosedeoci su potisnuti i asimilovani, a Vlasi su se povukli u planine i živeli kao stočari."
+
+      - id: l03-gradovi-planine-uporedi
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [starosedeoci, vlasi, asimilacija]
+        a: "Romani u primorskim gradovima"
+        b: "Vlasi u planinama"
+        pitanje: "Na koju grupu starog stanovništva se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Opstali su u Draču, Skadru, Trogiru i Zadru.", odgovor: a, zasto: "To su primorski gradovi sa ostacima rimskog stanovništva."}
+          - {tekst: "Živeli su pretežno kao stočari.", odgovor: b, zasto: "Vlasi su se u planinama bavili stočarstvom."}
+          - {tekst: "Potiču iz vremena pre dolaska Slovena.", odgovor: oba, zasto: "Obe grupe su staro romanizovano stanovništvo Balkana."}
+          - {tekst: "Mogli su da kulturno utiču na Slovene iz svojih gradova.", odgovor: a, zasto: "Kulturni uticaj lekcija pripisuje gradskom romanskom stanovništvu."}
+          - {tekst: "Došli su iz Azije.", odgovor: nijedan, zasto: "Iz Azije su Huni, Avari, Bugari i Mađari; ove grupe su starosedeoci."}
+        pomoc:
+          - "Prvo odredi gde koja grupa živi."
+          - "Pazi: obe su starosedeoci."
+          - "Iz lekcije: Romani u primorskim gradovima, Vlasi u planinama kao stočari."
+        objasnjenje: "Starosedeoci su preživeli na dva načina: iza gradskih zidina uz more ili povlačenjem u planine."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Rimsko stanovništvo opstalo je u primorskim gradovima, a Vlasi su se povukli u planine."
+
+      - id: l03-vlasi-ko-sam
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [vlasi, starosedeoci]
+        tragovi:
+          - "Potomci smo Ilira i Tračana koji su primili rimsku kulturu."
+          - "Ime su nam dali Sloveni."
+          - "Pred došljacima smo se povukli u planine i živeli kao stočari."
+        odgovori:
+          - {tekst: "Vlasi", tacan: true}
+          - {tekst: "Avari", tacan: false, zasto: "Avari su azijski došljaci, a ne romanizovani starosedeoci."}
+          - {tekst: "Anti", tacan: false, zasto: "Anti su srodnici Slovena koje opisuje vizantijski izvor, a ne romanizovani Iliri i Tračani."}
+        objasnjenje: "To su Vlasi, romanizovani Iliri i Tračani koji su opstali kao planinski stočari."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Sloveni su Vlasima zvali romanizovane Ilire i Tračane."
+
+      - id: l03-sudbina-starosedelaca-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [starosedeoci, asimilacija, vlasi]
+        pitanje: "Šta se dogodilo sa starim stanovništvom Balkana posle dolaska Slovena? Objasni."
+        uzor: "Starosedeoci su uglavnom potisnuti i asimilovani, odnosno stopili su se sa Slovenima. Deo je opstao u primorskim gradovima, poput Drača i Zadra, a Vlasi su se povukli u planine i živeli kao stočari. Izuzetak je današnja Albanija."
+        ideje:
+          - "Većina je potisnuta i asimilovana."
+          - "Deo opstaje u primorskim gradovima."
+          - "Vlasi se povlače u planine i žive kao stočari."
+          - "Albanija je izuzetak."
+        objasnjenje: "Odgovor treba da pokaže i pravilo (asimilacija) i načine opstanka."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Starosedeoci su uglavnom potisnuti i asimilovani, uz primorske gradove, Vlahe i Albaniju kao izuzetke."
+
+      - id: l03-vlasi-stocari-zakljuci
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [vlasi, starosedeoci]
+        pitanje: "Zašto su Vlasi živeli baš kao stočari?"
+        odgovori:
+          - {tekst: "Povukli su se u planine, gde je stočarstvo prirodno zanimanje", tacan: true}
+          - {tekst: "Bili su pomorci koji su čuvali stoku na brodovima", tacan: false, zasto: "Vlasi nisu vezani za more; romansko stanovništvo u primorju živelo je po gradovima."}
+          - {tekst: "Car im je zabranio da žive u planinama", tacan: false, zasto: "Upravo u planinama su živeli, povukavši se pred došljacima."}
+          - {tekst: "Doneli su stoku iz Azije", tacan: false, zasto: "Vlasi nisu došli iz Azije; to su romanizovani Iliri i Tračani sa Balkana."}
+        pomoc:
+          - "Korak 1: Kuda su se povukli?"
+          - "Korak 2: Šta se na takvom tlu može raditi?"
+          - "Iz lekcije: povukli su se u planine i živeli kao stočari."
+        objasnjenje: "Planina daje pašnjake, a ne njive i gradove, pa je potisnuto stanovništvo živelo od stoke."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Odnosi sa susedima i starosedeocima"
+          tekst: "Vlasi su se povukli u planine i živeli kao stočari."
+
+  - naslov: "Plemenski savezi"
+    zadaci:
+      - id: l03-sklavinije-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [sklavinije, vizantija]
+        pitanje: "Šta su sklavinije?"
+        odgovori:
+          - {tekst: "Plemenske oblasti Slovena na Balkanu, kako su ih zvali Vizantinci", tacan: true}
+          - {tekst: "Vizantijski primorski gradovi", tacan: false, zasto: "Gradovi kao Drač i Zadar nisu bili sklavinije; to su oblasti koje drže slovenska plemena."}
+          - {tekst: "Slovenski bogovi", tacan: false, zasto: "Bogovi su Perun, Svetovid i Dažbog; sklavinije su oblasti."}
+          - {tekst: "Zemlje slovenske pradomovine", tacan: false, zasto: "Pradomovina je između Odre i Visle, a sklavinije su na Balkanu."}
+        pomoc:
+          - "Naziv sadrži podsetnik na reč Sloveni."
+          - "Naziv potiče od vizantijskih pisaca."
+          - "Iz lekcije: Vizantinci su slovenske plemenske oblasti nazivali sklavinije."
+        objasnjenje: "Sklavinije su plemenske oblasti Slovena na Balkanu; naziv su koristili Vizantinci."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Plemenski savezi"
+          tekst: "Vizantinci su slovenske plemenske oblasti nazivali sklavinije."
+
+      - id: l03-srpski-savezi-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [plemenski-savezi, raska, duklja]
+        pitanje: "U kojim oblastima su nastali najvažniji srpski plemenski savezi?"
+        odgovori:
+          - {tekst: "U Raškoj i Duklji", tacan: true}
+          - {tekst: "U Trakiji i Tesaliji", tacan: false, zasto: "To su vizantijske oblasti do kojih su stizali pljačkaški upadi, a ne središta srpskih saveza."}
+          - {tekst: "U Panoniji i Moravskoj", tacan: false, zasto: "Panonija je vezana za Avare i Mađare, a Moravska za misiju Ćirila i Metodija."}
+          - {tekst: "U Dalmaciji i Karantaniji", tacan: false, zasto: "Dalmatinski gradovi i Karantanski Sloveni pominju se uz pokrštavanje, a ne kao srpski savezi."}
+        pomoc:
+          - "Obe oblasti imaće kasnije prve srpske države."
+          - "Jedna od njih izlazi na Jadran."
+          - "Iz lekcije: najvažniji su u Raškoj i u Duklji."
+        objasnjenje: "Najvažniji srpski savezi nastali su u Raškoj i Duklji."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Plemenski savezi"
+          tekst: "Srpski savezi nastali su u nekoliko oblasti, a najvažniji su u Raškoj i Duklji."
+
+      - id: l03-ratovi-na-zapadu-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [plemenski-savezi, vizantija]
+        pitanje: "Sa kojim protivnicima na zapadu su ratovali Sloveni, što je ubrzalo stvaranje saveza? (više tačnih)"
+        odgovori:
+          - {tekst: "Langobardi", tacan: true}
+          - {tekst: "Bavari", tacan: true}
+          - {tekst: "Franci", tacan: true}
+          - {tekst: "Huni", tacan: false, zasto: "Huni su Slovene pokrenuli još u IV veku; savezi se vežu za kasnije ratove."}
+          - {tekst: "Vizantija", tacan: false, zasto: "Vizantija je zaista bila protivnik, ali na istoku, a pitanje traži zapad."}
+        pomoc:
+          - "Vizantija je na istoku, pa je ovde ne traži."
+          - "Tačni odgovori su tri germanska naroda iz srednje Evrope."
+          - "Iz lekcije: Langobardi, Bavari i Franci na zapadu."
+        objasnjenje: "Ratovi sa Vizantijom na istoku i sa Langobardima, Bavarima i Francima na zapadu ubrzali su stvaranje saveza."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Plemenski savezi"
+          tekst: "Ratovi sa Vizantijom na istoku i sa Langobardima, Bavarima i Francima na zapadu ubrzali su stvaranje saveza."
+
+      - id: l03-nestabilni-savezi-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [plemenski-savezi]
+        tvrdnja: "Slovenski plemenski savezi bili su nestabilni: brzo su nastajali i brzo se raspadali."
+        tacno: true
+        pomoc:
+          - "Seti se zašto su nastali: zbog rata."
+          - "Iz lekcije: bili su nestabilni, brzo su nastajali i brzo se raspadali."
+        objasnjenje: "Tačno. Savezi su bili povezani potrebom rata, pa nisu bili trajni."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Plemenski savezi"
+          tekst: "Savezi su bili nestabilni: brzo su nastajali i brzo se raspadali."
+
+      - id: l03-sklavinije-srpski-naziv-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [sklavinije, stari-sloveni]
+        tvrdnja: "Naziv sklavinije smislili su sami Sloveni za svoje države."
+        tacno: false
+        ispravke:
+          - {tekst: "Tako su slovenske plemenske oblasti nazivali Vizantinci.", tacan: true}
+          - {tekst: "Tako su ih nazivali Avari, njihovi gospodari.", tacan: false, zasto: "Lekcija naziv vezuje za Vizantince, čiji pisci su i zabeležili te vesti."}
+          - {tekst: "To je naziv za pravu državu sa jakom vlašću.", tacan: false, zasto: "Sklavinije su plemenske oblasti, a ne razvijene države."}
+        pomoc:
+          - "Ko je o Slovenima tada pisao?"
+          - "Sloveni tada nisu imali pismo."
+          - "Iz lekcije: Vizantinci su te oblasti nazivali sklavinije."
+        objasnjenje: "Netačno. To je vizantijski naziv, pogled sa strane na plemenske oblasti Slovena."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Plemenski savezi"
+          tekst: "Vizantinci su plemenske oblasti Slovena nazivali sklavinije."
+
+      - id: l03-savezi-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [plemenski-savezi, raska, sklavinije]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Najvažniji srpski plemenski savez bio je u {{Raškoj}}, a slovenske plemenske oblasti Vizantinci su zvali {{sklavinije}}."
+        ponudjene: [Raškoj, Panoniji, sklavinije, Slovenska]
+        pomoc:
+          - "Panonija je dom Avara, pa je to pogrešna oblast."
+          - "Slovenska je naziv jedne zemlje, a ne više oblasti."
+          - "Iz lekcije: najvažniji srpski savez je u Raškoj; oblasti se zovu sklavinije."
+        objasnjenje: "Raška je najvažniji srpski savez, a sklavinije su vizantijski naziv za slovenske plemenske oblasti."
+        iz_udzbenika:
+          strana: 22
+          odeljak: "Zapamtite"
+          tekst: "Rano nastaju plemenski savezi; najvažniji srpski je u Raškoj."
+
+      - id: l03-rat-savezi-povezi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [plemenski-savezi, sklavinije, raska, duklja]
+        pitanje: "Poveži pojam sa onim što ga određuje."
+        parovi:
+          - ["Raška", "Savez oko reka Pive, Tare i Ibra"]
+          - ["Duklja", "Savez između Pive, Tare i Jadranskog mora"]
+          - ["Sklavinije", "Vizantijski naziv za slovenske plemenske oblasti"]
+          - ["Ratovi na istoku i zapadu", "Ubrzano stvaranje saveza"]
+        pomoc:
+          - "Samo jedna od oblasti dopire do mora."
+          - "Poslednji par je uzrok i posledica."
+          - "Iz lekcije: Duklja između Pive, Tare i Jadranskog mora; ratovi su ubrzali stvaranje saveza."
+        objasnjenje: "Raška je u unutrašnjosti, a Duklja izlazi na Jadran; savezi nastaju pod pritiskom ratova."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Plemenski savezi"
+          tekst: "Najvažniji srpski savezi su u Raškoj i Duklji; ratovi su ubrzali njihovo stvaranje."
+
+      - id: l03-zasto-rat-stvara-saveze-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [plemenski-savezi, vizantija]
+        pitanje: "Zašto su baš ratovi ubrzali povezivanje plemena, a ne, recimo, mirno doba?"
+        odgovori:
+          - {tekst: "Pojedinačno pleme ne može da se odupre jakom protivniku, pa se plemena udružuju zbog odbrane", tacan: true}
+          - {tekst: "Vizantija je naredila plemenima da se udruže", tacan: false, zasto: "Vizantija je bila protivnik, a savez je nastajao upravo protiv takvih neprijatelja."}
+          - {tekst: "Ratovi su uništili sva plemena, pa su ostali samo savezi", tacan: false, zasto: "Plemena su i dalje postojala; savez ih je povezivao, a nije ih zamenio."}
+          - {tekst: "Savezi su nastali zbog zajedničke hrišćanske vere", tacan: false, zasto: "Savezi nastaju pre učvršćivanja hrišćanstva u IX veku; razlog je bio rat."}
+        pomoc:
+          - "Korak 1: Koliko je jedno pleme jako prema Vizantiji ili Francima?"
+          - "Korak 2: Šta plemena dobijaju udruživanjem?"
+          - "Iz lekcije: ratovi sa Vizantijom, Langobardima, Bavarima i Francima ubrzali su stvaranje saveza."
+        objasnjenje: "Zajednička opasnost tera slabije da se udruže. Zato su savezi vezani za rat i zato se raspadaju kad opasnost prođe."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Plemenski savezi"
+          tekst: "Ratovi na istoku i zapadu ubrzali su stvaranje slovenskih saveza, koji su bili nestabilni."
+
+      - id: l03-savezi-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [plemenski-savezi, raska, duklja]
+        karike:
+          - "Ratovi sa Vizantijom, Langobardima, Bavarima i Francima"
+          - "?"
+          - "Kod Srba se isti ističu Raška i Duklja"
+        praznina: 1
+        odgovori:
+          - {tekst: "Nastaju slovenski plemenski savezi", tacan: true}
+          - {tekst: "Sloveni odlaze iz Balkana", tacan: false, zasto: "Ostaju i organizuju se; da su otišli, ne bi nastale Raška i Duklja."}
+          - {tekst: "Nastaje Velikomoravska kneževina", tacan: false, zasto: "Ona je u srednjoj Evropi i ne objašnjava srpske oblasti Rašku i Duklju."}
+        pomoc:
+          - "Korak 1: Šta plemena rade u ratu sa jakim protivnikom?"
+          - "Korak 2: Kako se zovu tvorevine u Raškoj i Duklji?"
+          - "Iz lekcije: ratovi → plemenski savezi; najvažniji srpski su u Raškoj i Duklji."
+        objasnjenje: "Ratovi su povezali plemena u saveze, a kod Srba su najvažniji raški i dukljanski."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Plemenski savezi"
+          tekst: "Ratovi su ubrzali stvaranje saveza; srpski nastaju u nekoliko oblasti, najvažniji u Raškoj i Duklji."
+
+      - id: l03-raska-duklja-uporedi
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [raska, duklja, plemenski-savezi]
+        a: "Raška"
+        b: "Duklja"
+        pitanje: "Na koji savez se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Prostire se do Jadranskog mora.", odgovor: b, zasto: "Duklja je između Pive, Tare i Jadrana; Raška je u unutrašnjosti."}
+          - {tekst: "Među rekama koje je omeđuju je Ibar.", odgovor: a, zasto: "Ibar se navodi kod Raške."}
+          - {tekst: "Njene granice lekcija vezuje za Pivu i Taru.", odgovor: oba, zasto: "Piva i Tara se navode kod oba saveza."}
+          - {tekst: "Lekcija ga naziva najvažnijim srpskim savezom.", odgovor: a, zasto: "Rezime izričito navodi Rašku."}
+          - {tekst: "Nastao je u Panonskoj niziji.", odgovor: nijedan, zasto: "Oba su na Balkanu; Panonija je oblast Avara, a kasnije Mađara."}
+        pomoc:
+          - "Pogledaj koji savez izlazi na more."
+          - "Dve reke su zajedničke."
+          - "Iz lekcije: Duklja između Pive, Tare i Jadrana; najvažniji srpski savez je u Raškoj."
+        objasnjenje: "Oba saveza dotiču Pivu i Taru, ali Duklja izlazi na more, a Raška je najvažnija."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Plemenski savezi"
+          tekst: "Najvažniji srpski savezi su u Raškoj i u Duklji, između Pive, Tare i Jadranskog mora."
+
+      - id: l03-sklavinije-objasni
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [sklavinije, plemenski-savezi]
+        pitanje: "Objasni pojam sklavinije svojim rečima."
+        uzor: "Sklavinije su plemenske oblasti Slovena na Balkanu. Taj naziv su im dali Vizantinci. Time su označavali krajeve kojima vladaju slovenska plemena, a ne carstvo."
+        ideje:
+          - "To su plemenske oblasti Slovena."
+          - "Nalaze se na Balkanu."
+          - "Naziv potiče od Vizantinaca."
+        objasnjenje: "Dobar odgovor kaže šta je pojam, gde je i ko ga je koristio."
+        iz_udzbenika:
+          strana: 22
+          odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika"
+          tekst: "Udžbenik traži da objasniš pojam sklavinije."
+
+      - id: l03-savez-i-drzava-objasni
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [plemenski-savezi, raska, duklja]
+        pitanje: "Lekcija kaže da su plemenski savezi bili nestabilni. Zašto su ipak važni za srpsku istoriju? Objasni."
+        uzor: "Savezi su brzo nastajali i brzo se raspadali, ali su plemena u njima učila da rade zajedno protiv spoljnih protivnika. Oblasti gde su se savezi ustalili, pre svega Raška i Duklja, postale su temelj kasnijih srpskih država. Zato su važan korak od plemena ka državi."
+        ideje:
+          - "Savezi povezuju plemena protiv zajedničkih protivnika."
+          - "Bili su nestabilni i nisu još prava država."
+          - "Raška i Duklja kasnije su središta srpskih država."
+        objasnjenje: "Nestabilan početak ipak je most između plemena i države."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Plemenski savezi"
+          tekst: "Slovenski savezi bili su nestabilni, a najvažniji srpski bili su u Raškoj i Duklji."
+
+  - naslov: "Doseljavanje Bugara i Mađara"
+    zadaci:
+      - id: l03-asparuh-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [asparuh, bugari, kan]
+        pitanje: "Ko je doveo Bugare na Balkan?"
+        odgovori:
+          - {tekst: "Kan Asparuh", tacan: true}
+          - {tekst: "Oton I", tacan: false, zasto: "Oton I je nemački vladar koji je pobedio Mađare 955."}
+          - {tekst: "Knez Rastislav", tacan: false, zasto: "Rastislav je knez Velikomoravske kneževine, koji je pozvao Ćirila i Metodija."}
+          - {tekst: "Car Iraklije", tacan: false, zasto: "Iraklije je vizantijski car, a ne vođa Bugara."}
+        pomoc:
+          - "Titula mu je kan."
+          - "To je najpoznatiji bugarski vođa iz ovog doba."
+          - "Iz lekcije: kan Asparuh ih je doveo na Balkan."
+        objasnjenje: "Najpoznatiji bugarski vođa je kan Asparuh, koji ih je doveo na Balkan."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Najpoznatiji vođa Bugara je kan Asparuh, koji ih je doveo na Balkan."
+
+      - id: l03-odakle-su-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [bugari, madjari]
+        pitanje: "Odakle potiču i Bugari i Mađari?"
+        odgovori:
+          - {tekst: "Iz Azije", tacan: true}
+          - {tekst: "Iz slovenske pradomovine", tacan: false, zasto: "Tamo su živeli Sloveni; Bugari i Mađari su azijski narodi."}
+          - {tekst: "Iz Franačke", tacan: false, zasto: "Franačka je zapadni hrišćanski sused Slovena, a ne postojbina ovih naroda."}
+          - {tekst: "Iz Italije", tacan: false, zasto: "Lekcija oba naroda izvodi iz Azije, kao i Hune i Avare."}
+        pomoc:
+          - "Isto poreklo imaju Huni i Avari."
+          - "To je kontinent istočno od Urala."
+          - "Iz lekcije: Bugari su azijsko pleme, a Mađari grupa plemena takođe iz Azije."
+        objasnjenje: "I Bugari i Mađari došli su iz Azije."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Bugari su azijsko pleme, a Mađari grupa plemena takođe iz Azije."
+
+      - id: l03-oton-leh-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [oton-i, leh, madjari]
+        pitanje: "Gde je Oton I 955. porazio Mađare?"
+        odgovori:
+          - {tekst: "Na reci Leh kod Augzburga", tacan: true}
+          - {tekst: "Kod Carigrada", tacan: false, zasto: "Carigrad je vizantijska prestonica, a sukob je bio u današnjoj Nemačkoj."}
+          - {tekst: "Na Dunavu kod Soluna", tacan: false, zasto: "Solun nije na Dunavu, a bitka je vođena u današnjoj Nemačkoj."}
+          - {tekst: "U Trakiji", tacan: false, zasto: "Trakija je na Balkanu; Mađari su zaustavljeni na zapadu, u Nemačkoj."}
+        pomoc:
+          - "Bitka je bila na tlu današnje Nemačke."
+          - "Grad se zove Augzburg."
+          - "Iz lekcije: Oton I ih je 955. porazio na reci Leh kod Augzburga."
+        objasnjenje: "Bitka na reci Leh kod Augzburga, u današnjoj Nemačkoj, zaustavila je mađarski prodor na zapad."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Nemački vladar Oton I porazio je Mađare 955. na reci Leh kod Augzburga."
+        osa: {naziv: "Bitka na reci Leh", od: 955, traka: dogadjaji}
+
+      - id: l03-kan-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [kan]
+        tvrdnja: "Kan je vladarska titula kod plemena srednje Azije."
+        tacno: true
+        pomoc:
+          - "Nosio ju je Asparuh."
+          - "Iz lekcije: kan je vladarska titula kod plemena srednje Azije."
+        objasnjenje: "Tačno. Asparuh je zato kan, a ne knez ili car."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Kan je vladarska titula kod plemena srednje Azije."
+
+      - id: l03-bugari-brisu-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [bugari, stari-sloveni, asimilacija]
+        tvrdnja: "Bugari su izbrisali Slovene između Dunava i planine Balkan i naselili se umesto njih."
+        tacno: false
+        ispravke:
+          - {tekst: "Sami su se asimilovali među Slovenima, a Sloveni su preuzeli ime Bugari.", tacan: true}
+          - {tekst: "Sloveni su pobegli u Rašku, pa je oblast ostala prazna.", tacan: false, zasto: "Sloveni su ostali na svojoj zemlji; došljaci su se upravo među njima izgubili."}
+          - {tekst: "Bugari i Sloveni su živeli odvojeno i nikada se nisu mešali.", tacan: false, zasto: "Mešali su se toliko da je od azijskih Bugara ostalo samo ime."}
+        pomoc:
+          - "Ko je bio brojniji: došljaci ili Sloveni?"
+          - "Seti se šta je asimilacija."
+          - "Iz lekcije: Slovene nisu izbrisali, nego su se sami u njima asimilovali."
+        objasnjenje: "Netačno. Bugari su se stopili sa Slovenima, a narod je zadržao bugarsko ime."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Bugari Slovene nisu izbrisali, nego su se sami u njima asimilovali, a Sloveni su preuzeli ime Bugari."
+
+      - id: l03-put-bugara-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [bugari, asparuh]
+        pitanje: "Dopuni rečenicu o Bugarima."
+        tekst: "Bugari su prešli {{Dunav}}, ušli u Gornju {{Meziju}} i stigli do planine {{Balkan}}."
+        ponudjene: [Dunav, Meziju, Balkan, Visla, Trakiju, Ural]
+        pomoc:
+          - "Prva reka je vizantijska granica."
+          - "Treća reč je ista kao naziv poluostrva."
+          - "Iz lekcije: prešli su Dunav, ušli u Gornju Meziju i stigli do planine Balkan."
+        objasnjenje: "Bugari su preko Dunava i Gornje Mezije došli do planine Balkan."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Bugari su prešli Dunav, ušli u Gornju Meziju i stigli do planine Balkan."
+
+      - id: l03-madjari-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [madjari, velikomoravska-knezevina]
+        pitanje: "Dopuni rečenice o Mađarima."
+        tekst: "Mađari se krajem {{IX}} veka nastanjuju u {{Panonskoj}} niziji, početkom X veka pokoravaju {{Velikomoravsku}} kneževinu, a u {{XI}} veku primaju hrišćanstvo."
+        ponudjene: [IX, XI, VI, Panonskoj, Velikomoravsku, Solunsku]
+        pomoc:
+          - "VI vek je doba Avara, ne Mađara."
+          - "Isprva dolaze u nizijsku oblast oko srednjeg Dunava."
+          - "Iz lekcije: kraj IX veka Panonska nizija, početak X veka Velikomoravska, XI vek hrišćanstvo."
+        objasnjenje: "Mađarski put: Panonija (kraj IX veka) → Velikomoravska (početak X veka) → hrišćanstvo (XI vek)."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Krajem IX veka Mađari se nastanjuju u Panoniji, početkom X veka pokorena je Velikomoravska, a u XI veku primaju hrišćanstvo."
+
+      - id: l03-bugari-madjari-povezi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [bugari, madjari, oton-i, asparuh]
+        pitanje: "Poveži ličnost ili narod sa podatkom."
+        parovi:
+          - ["Asparuh", "Kan koji je doveo Bugare na Balkan"]
+          - ["Oton I", "Pobednik nad Mađarima 955."]
+          - ["Mađari", "Hrišćanstvo primaju u XI veku"]
+          - ["Bugari", "Stopili su se sa Slovenima, kojima su ostavili ime"]
+        pomoc:
+          - "Dva vladara su različitih naroda i različitih vekova."
+          - "Seti se šta je Bugarima donela asimilacija."
+          - "Iz lekcije: kan Asparuh, Oton I 955, Mađari u XI veku, Bugari asimilovani u Slovenima."
+        objasnjenje: "Asparuh predvodi Bugare, Oton I zaustavlja Mađare, a oba naroda snažno utiču na Podunavlje i Balkan."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Lekcija navodi kana Asparuha, asimilaciju Bugara, Otona I i primanje hrišćanstva kod Mađara."
+
+      - id: l03-ime-bugari-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [bugari, asimilacija, stari-sloveni]
+        pitanje: "Zašto je ime „Bugari” preživelo, a azijsko pleme Bugara nestalo?"
+        odgovori:
+          - {tekst: "Došljaci su se stopili sa brojnijim Slovenima, ali su Sloveni preuzeli njihovo ime", tacan: true}
+          - {tekst: "Bugari su pobili sve Slovene", tacan: false, zasto: "Baš suprotno: Slovene nisu izbrisali, nego su se sami u njima asimilovali."}
+          - {tekst: "Sloveni su se odselili, a ime je ostalo na zemlji", tacan: false, zasto: "Sloveni nisu otišli; ime je ostalo jer su ga oni preuzeli."}
+          - {tekst: "Vizantija je zabranila slovensko ime", tacan: false, zasto: "O tome nema podataka; promena imena posledica je mešanja dva naroda."}
+        pomoc:
+          - "Korak 1: Ko se u koga asimilovao?"
+          - "Korak 2: Šta su Sloveni preuzeli od došljaka?"
+          - "Iz lekcije: sami su se asimilovali u Slovenima, a Sloveni su preuzeli ime Bugari."
+        objasnjenje: "Bugarski narod je po poreklu mahom slovenski, a ime je dobio od azijskih došljaka koji su se u njemu izgubili."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Bugari su se asimilovali među Slovenima, a Sloveni su preuzeli ime Bugari."
+
+      - id: l03-leh-znacaj-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [leh, oton-i, madjari]
+        pitanje: "Mađari su posle poraza na Lehu ostali u Panoniji. Šta je, onda, stvarni značaj te bitke?"
+        odgovori:
+          - {tekst: "Zaustavljeni su njihovi upadi na zapad, pa su se ustalili u Panoniji", tacan: true}
+          - {tekst: "Mađari su tada istrebljeni", tacan: false, zasto: "Nisu nestali: u XI veku primaju hrišćanstvo i dalje snažno utiču na Podunavlje."}
+          - {tekst: "Oton I je osvojio Panoniju", tacan: false, zasto: "Oton I je zaustavio prodor, a Panonija je ostala mađarska."}
+          - {tekst: "Mađari su se vratili u Aziju", tacan: false, zasto: "Ostali su u Panonskoj niziji i tamo primili hrišćanstvo."}
+        pomoc:
+          - "Korak 1: Šta su Mađari radili iz Panonije pre 955?"
+          - "Korak 2: Šta se tu promenilo posle poraza?"
+          - "Iz lekcije: poraz na Lehu → kraj mađarskog prodora na zapad."
+        objasnjenje: "Pobeda nije uništila Mađare, ali je prekinula njihove upade u zapadnu Evropu."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Porazom na Lehu 955. zaustavljen je prodor Mađara na zapad; ostali su u Panoniji i u XI veku primili hrišćanstvo."
+        osa: {naziv: "Bitka na reci Leh", od: 955, traka: dogadjaji}
+
+      - id: l03-leh-datum
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [leh, oton-i, madjari]
+        dogadjaj: "Bitka na reci Leh"
+        pitanje: "Koje godine je Oton I porazio Mađare na reci Leh?"
+        godina: 955
+        traka: dogadjaji
+        pomoc:
+          - "To je X vek, njegova sredina."
+          - "Godina ima tri cifre i završava se sa 55."
+          - "Iz lekcije: 955."
+        objasnjenje: "Godine 955. Oton I je kod Augzburga zaustavio prodor Mađara na zapad."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Oton I je Mađare porazio 955. na reci Leh kod Augzburga."
+
+      - id: l03-madjari-poredjaj
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [madjari, velikomoravska-knezevina, leh]
+        pitanje: "Poređaj korake mađarske istorije, od najranijeg."
+        stavke:
+          - {tekst: "Mađari stižu u Panonsku niziju", godina: 890, oznaka: "kraj IX veka", naziv: "Mađari stižu u Panonsku niziju", traka: dogadjaji}
+          - {tekst: "Pokorena je Velikomoravska kneževina", godina: 905, oznaka: "početak X veka", naziv: "Pokorena Velikomoravska kneževina", traka: dogadjaji}
+          - {tekst: "Poraz na reci Leh", godina: 955, naziv: "Bitka na reci Leh", traka: dogadjaji}
+          - {tekst: "Mađari primaju hrišćanstvo", godina: 1000, do: 1100, oznaka: "XI vek", naziv: "Mađari primaju hrišćanstvo", traka: crkva-kultura}
+        pomoc:
+          - "Prvo se negde mora doći, pa se tek onda pokorava sused."
+          - "Hrišćanstvo je poslednji korak, posle bitke."
+          - "Iz lekcije: kraj IX veka, početak X veka, 955, XI vek."
+        objasnjenje: "Dolazak (kraj IX veka) → Velikomoravska (početak X veka) → Leh (955) → hrišćanstvo (XI vek)."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Mađari su krajem IX veka u Panoniji, početkom X veka pokoravaju Velikomoravsku, 955. su poraženi, a u XI veku primaju hrišćanstvo."
+
+      - id: l03-leh-lanac
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [madjari, oton-i, leh]
+        karike:
+          - "Mađari iz Panonije upadaju u susedne zemlje"
+          - "Oton I ih pobeđuje na reci Leh"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Zaustavljen je njihov prodor na zapad", tacan: true}
+          - {tekst: "Mađari osvajaju Nemačku", tacan: false, zasto: "Bili su poraženi, pa je nemački vladar zaustavio njihov prodor."}
+          - {tekst: "Počinje Velika seoba naroda", tacan: false, zasto: "Seoba počinje 375, a Leh je 955."}
+        pomoc:
+          - "Korak 1: Ko je pobedio?"
+          - "Korak 2: Šta poraz znači za dalje upade?"
+          - "Iz lekcije: poraz na Lehu 955 → kraj mađarskog prodora u zapadnu Evropu."
+        objasnjenje: "Pobeda Otona I prekinula je upade Mađara na zapad."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Oton I je porazio Mađare 955, čime je zaustavljen prodor na zapad."
+        osa: {naziv: "Bitka na reci Leh", od: 955, traka: dogadjaji}
+
+      - id: l03-bugari-lanac
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [bugari, asparuh, vizantija, asimilacija]
+        karike:
+          - "Asparuh dovodi Bugare preko Dunava do planine Balkan"
+          - "?"
+          - "Vizantija je u stalnim sukobima sa novim susedom"
+        praznina: 1
+        odgovori:
+          - {tekst: "Bugari zauzimaju krajeve koje carstvo pokušava da povrati", tacan: true}
+          - {tekst: "Bugari predaju zemlju Vizantiji", tacan: false, zasto: "Da su je predali, ne bi bilo sukoba; lekcija beleži brojne sukobe."}
+          - {tekst: "Bugari se vraćaju preko Dunava", tacan: false, zasto: "Ostali su i stopili se sa Slovenima."}
+        pomoc:
+          - "Korak 1: Čija je to bila zemlja pre dolaska Bugara?"
+          - "Korak 2: Šta Vizantija od sredine VII veka pokušava da uradi?"
+          - "Iz lekcije: Asparuh ih je doveo na Balkan; usledili su brojni sukobi sa Vizantijom."
+        objasnjenje: "Bugari se smeštaju na zemlju koju Vizantija hoće da vrati, pa su sukobi neizbežni."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Kan Asparuh doveo je Bugare na Balkan, a usledili su brojni sukobi sa Vizantijom."
+
+      - id: l03-bugari-i-madjari-uporedi
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [bugari, madjari, asimilacija]
+        a: "Bugari"
+        b: "Mađari"
+        pitanje: "Na koji narod se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Došli su iz Azije.", odgovor: oba, zasto: "Oba naroda potiču iz Azije."}
+          - {tekst: "Stopili su se sa Slovenima, a ostalo je njihovo ime.", odgovor: a, zasto: "Tako je bilo sa Bugarima u krajevima oko planine Balkan."}
+          - {tekst: "Nastanili su se u Panonskoj niziji.", odgovor: b, zasto: "Panonija je mađarska oblast od kraja IX veka."}
+          - {tekst: "Porazio ih je Oton I na Lehu.", odgovor: b, zasto: "Oton I je 955. pobedio Mađare."}
+          - {tekst: "Snažno su uticali na zbivanja u Podunavlju i na Balkanu.", odgovor: oba, zasto: "Lekcija to izričito kaže za oba naroda."}
+          - {tekst: "Doveo ih je knez Rastislav.", odgovor: nijedan, zasto: "Rastislav je moravski knez; Bugare je doveo Asparuh."}
+        pomoc:
+          - "Prati gde se koji narod naselio."
+          - "Dve tvrdnje važe za oba."
+          - "Iz lekcije: Bugari do planine Balkan i asimilovani, Mađari u Panoniji."
+        objasnjenje: "Isto poreklo, različita sudbina: Bugari se stapaju sa Slovenima, a Mađari ostaju poseban narod u Panoniji."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Bugari i Mađari došli su iz Azije i snažno uticali na Podunavlje i Balkan."
+
+      - id: l03-oton-ko-sam
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [oton-i, madjari, leh]
+        tragovi:
+          - "Bio sam nemački vladar u X veku."
+          - "Pobedio sam kod Augzburga."
+          - "Zaustavio sam prodor Mađara na zapad 955."
+        odgovori:
+          - {tekst: "Oton I", tacan: true}
+          - {tekst: "Asparuh", tacan: false, zasto: "Asparuh je bugarski kan koji je svoj narod doveo na Balkan."}
+          - {tekst: "Rastislav", tacan: false, zasto: "Rastislav je knez Velikomoravske, koji je pozvao Ćirila i Metodija."}
+        objasnjenje: "To je Oton I, pobednik u bici na reci Leh."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Nemački vladar Oton I porazio je Mađare 955. na Lehu kod Augzburga."
+        osa: {naziv: "Bitka na reci Leh", od: 955, traka: dogadjaji}
+
+      - id: l03-dolazak-bugara-madjara-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [bugari, madjari, asparuh, oton-i]
+        pitanje: "Opiši dolazak Bugara i Mađara i šta je bilo sa njima na novom tlu."
+        uzor: "Bugari su pod kanom Asparuhom prešli Dunav i stigli do planine Balkan, ali su se stopili sa Slovenima, koji su preuzeli njihovo ime. Mađari su se krajem IX veka nastanili u Panonskoj niziji i odatle upadali u susedne zemlje dok ih Oton I nije zaustavio 955. U XI veku primili su hrišćanstvo."
+        ideje:
+          - "Bugari prelaze Dunav pod Asparuhom."
+          - "Bugari se asimiluju među Slovenima."
+          - "Mađari se krajem IX veka nastanjuju u Panoniji."
+          - "Oton I ih zaustavlja 955. na Lehu."
+        objasnjenje: "Odgovor treba da pokaže oba puta i različitu sudbinu dva naroda."
+        iz_udzbenika:
+          strana: 22
+          odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika"
+          tekst: "Udžbenik traži da opišeš dolazak Bugara i Mađara."
+
+      - id: l03-ime-bez-naroda-objasni
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [bugari, asimilacija, stari-sloveni]
+        pitanje: "Zašto današnji Bugari nose ime azijskog plemena, iako su azijski Bugari nestali među Slovenima? Objasni i navedi šta je ovde asimilacija."
+        uzor: "Azijski Bugari su bili manjina među Slovenima između Dunava i planine Balkan. Nisu ih izbrisali, nego su se sami stopili sa njima, što je primer asimilacije. Ime je ipak ostalo, jer su ga Sloveni preuzeli."
+        ideje:
+          - "Bugari su pleme iz Azije, manje brojno od Slovena."
+          - "Stopili su se sa Slovenima (asimilacija)."
+          - "Sloveni su preuzeli ime Bugari."
+        objasnjenje: "Nestaje narod, a ostaje ime: to pokazuje koliko je asimilacija drugačija od osvajanja."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Doseljavanje Bugara i Mađara"
+          tekst: "Bugari su se asimilovali među Slovenima, a Sloveni su preuzeli ime Bugari."
+
+  - naslov: "Pokrštavanje Južnih Slovena"
+    zadaci:
+      - id: l03-braca-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [cirilo-i-metodije, misionar]
+        pitanje: "Ko su bili Ćirilo i Metodije?"
+        odgovori:
+          - {tekst: "Braća, Grci i propovednici iz okoline Soluna", tacan: true}
+          - {tekst: "Vizantijski carevi", tacan: false, zasto: "Bili su propovednici koje je car poslao, a ne vladari."}
+          - {tekst: "Bugarski kanovi", tacan: false, zasto: "Kan je Asparuh; Ćirilo i Metodije su grčki misionari."}
+          - {tekst: "Nemački sveštenici", tacan: false, zasto: "Nemačko sveštenstvo im je bilo protivnik u Moravskoj, a oni su bili Grci."}
+        pomoc:
+          - "Dolaze iz vizantijskog dela Balkana."
+          - "Njihov kraj je grad koji su Sloveni napali još 586."
+          - "Iz lekcije: braća, Grci, propovednici iz okoline Soluna."
+        objasnjenje: "Ćirilo i Metodije su braća, Grci iz okoline Soluna, koji su znali slovenski jezik i običaje."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Ćirilo i Metodije su braća, Grci, propovednici iz okoline Soluna."
+          slika: 03-doseljavanje-srba-na-balkan/04-cirilo-i-metodije.jpg
+        osa: {naziv: "Misija Ćirila i Metodija", od: 863, do: 885, traka: crkva-kultura}
+
+      - id: l03-glagoljica-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [glagoljica, cirilo-i-metodije]
+        pitanje: "Ko je sastavio glagoljicu, prvo slovensko pismo?"
+        odgovori:
+          - {tekst: "Ćirilo (Konstantin)", tacan: true}
+          - {tekst: "Kliment", tacan: false, zasto: "Kliment je učenik braće koji je radio među makedonskim Slovenima i Bugarima; sa ćirilicom se vezuje za krug učenika."}
+          - {tekst: "Rastislav", tacan: false, zasto: "Rastislav je knez koji je pozvao braću, a ne sastavljač pisma."}
+          - {tekst: "Justinijan I", tacan: false, zasto: "Justinijan je car iz VI veka, tri veka pre glagoljice."}
+        pomoc:
+          - "Pismo je sastavio jedan od braće."
+          - "Zove se još i Konstantin."
+          - "Iz lekcije: Ćirilo (Konstantin) je sastavio prvo slovensko pismo, glagoljicu."
+        objasnjenje: "Glagoljicu je sastavio Ćirilo, zvani i Konstantin."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Ćirilo (Konstantin) je sastavio prvo slovensko pismo, glagoljicu."
+          slika: 03-doseljavanje-srba-na-balkan/04-cirilo-i-metodije.jpg
+
+      - id: l03-rastislav-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [rastislav, velikomoravska-knezevina, cirilo-i-metodije]
+        pitanje: "Na čiji poziv su Ćirilo i Metodije otišli u Velikomoravsku kneževinu?"
+        odgovori:
+          - {tekst: "Kneza Rastislava", tacan: true}
+          - {tekst: "Kana Asparuha", tacan: false, zasto: "Asparuh je doveo Bugare na Balkan i nema veze sa Moravskom."}
+          - {tekst: "Otona I", tacan: false, zasto: "Oton I je nemački vladar iz X veka; poziv je stigao u IX veku od moravskog kneza."}
+          - {tekst: "Pape iz Rima", tacan: false, zasto: "Braću je poslao vizantijski car, na poziv kneza Rastislava."}
+        pomoc:
+          - "Poziv je stigao od vladara same Moravske."
+          - "Titula mu je knez."
+          - "Iz lekcije: vizantijski car ih je poslao na poziv kneza Rastislava."
+        objasnjenje: "Knez Rastislav je pozvao misionare, a vizantijski car ih je poslao u Velikomoravsku."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Vizantijski car poslao je braću u Velikomoravsku kneževinu, na poziv kneza Rastislava."
+
+      - id: l03-raskol-podela-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [veliki-raskol, hristijanizacija]
+        pitanje: "Šta je podelio Veliki raskol 1054?"
+        odgovori:
+          - {tekst: "Hrišćansku crkvu na istočnu i zapadnu", tacan: true}
+          - {tekst: "Rimsko carstvo na dva dela", tacan: false, zasto: "Lekcija 1054. vezuje za crkvu; raskol nije podela države nego vere."}
+          - {tekst: "Slovene na Hune i Avare", tacan: false, zasto: "Huni i Avari su drugi narodi, a raskol deli hrišćane."}
+          - {tekst: "Plemenske saveze u Raškoj i Duklji", tacan: false, zasto: "Raskol je crkveni događaj, a ne podela srpskih saveza."}
+        pomoc:
+          - "Reč raskol govori da se nešto što je bilo celo deli."
+          - "Radi se o veri."
+          - "Iz lekcije: Veliki raskol 1054. podelio je crkvu na istočnu i zapadnu."
+        objasnjenje: "Godine 1054. crkva se podelila na istočnu i zapadnu, odnosno pravoslavnu i katoličku."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Veliki raskol 1054. podelio je crkvu na istočnu i zapadnu."
+        osa: {naziv: "Veliki raskol", od: 1054, traka: crkva-kultura}
+
+      - id: l03-misionar-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [misionar]
+        pitanje: "Ko je misionar?"
+        odgovori:
+          - {tekst: "Sveštenik koji širi veru među nevernicima", tacan: true}
+          - {tekst: "Vladar plemena srednje Azije", tacan: false, zasto: "To je kan; misionar je čovek vere."}
+          - {tekst: "Grčki istoričar", tacan: false, zasto: "Istoričar beleži događaje, kao Herodot; misionar širi veru."}
+          - {tekst: "Vojskovođa u pljačkaškom upadu", tacan: false, zasto: "Misionar širi veru propovedanjem, a ne oružjem."}
+        pomoc:
+          - "Takvi su bili Ćirilo i Metodije."
+          - "Reč je povezana sa misijom."
+          - "Iz lekcije: misionar je sveštenik koji širi veru među nevernicima."
+        objasnjenje: "Misionar je sveštenik koji širi veru među onima koji je još nisu primili."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Misionar je sveštenik koji širi veru među nevernicima."
+
+      - id: l03-ko-je-koje-vere-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [veliki-raskol]
+        pitanje: "Koji narodi su posle Velikog raskola pripali pravoslavnoj crkvi? (više tačnih)"
+        odgovori:
+          - {tekst: "Srbi", tacan: true}
+          - {tekst: "Bugari", tacan: true}
+          - {tekst: "Makedonski Sloveni", tacan: true}
+          - {tekst: "Hrvati", tacan: false, zasto: "Hrvati su pod uticajem dalmatinskih gradova pripali katoličkoj, zapadnoj crkvi."}
+          - {tekst: "Slovenci", tacan: false, zasto: "Slovenci su, kao i Hrvati, pripali katoličkoj crkvi."}
+        pomoc:
+          - "Pomisli ko je bio blizu Vizantije."
+          - "Oni dalje na zapadu pripali su Rimu."
+          - "Iz lekcije: makedonski Sloveni, Srbi i Bugari pravoslavnoj; Hrvati i Slovenci katoličkoj."
+        objasnjenje: "Pravoslavni postaju makedonski Sloveni, Srbi i Bugari, a katolici Hrvati i Slovenci."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Hrvati i Slovenci pripali su katoličkoj, a makedonski Sloveni, Srbi i Bugari pravoslavnoj crkvi."
+        osa: {naziv: "Veliki raskol", od: 1054, traka: crkva-kultura}
+
+      - id: l03-ko-danas-cirilica-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [cirilica]
+        pitanje: "Koji narodi danas, sa izmenama, koriste ćirilicu? (više tačnih)"
+        odgovori:
+          - {tekst: "Srbi", tacan: true}
+          - {tekst: "Makedonci", tacan: true}
+          - {tekst: "Bugari", tacan: true}
+          - {tekst: "Rusi", tacan: true}
+          - {tekst: "Hrvati", tacan: false, zasto: "Lekcija Hrvate ne navodi među narodima koji danas koriste ćirilicu."}
+          - {tekst: "Mađari", tacan: false, zasto: "Mađari nisu Sloveni i nisu na toj listi."}
+        pomoc:
+          - "Lekcija navodi četiri naroda."
+          - "Svi su slovenski, a tri su balkanska ili pravoslavna na istoku."
+          - "Iz lekcije: Srbi, Makedonci, Bugari i Rusi."
+        objasnjenje: "Ćirilicu danas, sa izmenama, koriste Srbi, Makedonci, Bugari i Rusi."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Ćirilicu danas, sa izmenama, koriste Srbi, Makedonci, Bugari i Rusi."
+
+      - id: l03-prvo-hriscanstvo-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [pokrstavanje, starosedeoci]
+        pitanje: "Preko koga su Sloveni na Balkanu prvo upoznali hrišćanstvo?"
+        odgovori:
+          - {tekst: "Preko zatečenih starosedelaca", tacan: true}
+          - {tekst: "Preko Huna", tacan: false, zasto: "Huni su bili nomadi iz Azije koji su pokrenuli seobu i nisu širili hrišćanstvo."}
+          - {tekst: "Preko Mađara", tacan: false, zasto: "Mađari sami primaju hrišćanstvo tek u XI veku, posle Južnih Slovena."}
+          - {tekst: "Preko Asparuhovih Bugara", tacan: false, zasto: "Bugari su bili azijsko pleme sa kanom, a lekcija prvi dodir sa hrišćanstvom vezuje za starosedeoce."}
+        pomoc:
+          - "Ko je na Balkanu već bio hrišćanin kada su Sloveni došli?"
+          - "Stanovnici starih rimskih gradova."
+          - "Iz lekcije: hrišćanstvo su prvo upoznali preko zatečenih starosedelaca."
+        objasnjenje: "Hrišćani su bili zatečeni starosedeoci, pa je prvi dodir sa verom išao preko njih."
+        iz_udzbenika:
+          strana: 20
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Sloveni su hrišćanstvo prvo upoznali preko zatečenih starosedelaca."
+
+      - id: l03-karantanci-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [pokrstavanje]
+        tvrdnja: "Hrišćanstvo se među Južnim Slovenima najpre proširilo kod Karantanskih Slovena, u današnjoj Sloveniji."
+        tacno: true
+        pomoc:
+          - "To je najzapadnija južnoslovenska oblast, blizu Franačke."
+          - "Iz lekcije: prvo se proširilo kod Karantanskih Slovena."
+        objasnjenje: "Tačno. Oni su bili u neposrednom susedstvu moćne hrišćanske Franačke."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Hrišćanstvo se prvo proširilo kod Karantanskih Slovena, u današnjoj Sloveniji."
+
+      - id: l03-pre-pisma-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [glagoljica, cirilica]
+        tvrdnja: "Pre glagoljice i ćirilice slovenski narodi nisu imali pismo."
+        tacno: true
+        pomoc:
+          - "Zato su o njima pisali Vizantinci."
+          - "Iz lekcije: pre ova dva pisma slovenski narodi pismo nisu imali."
+        objasnjenje: "Tačno. Glagoljica i ćirilica su prva slovenska pisma."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Pre glagoljice i ćirilice slovenski narodi pismo nisu imali."
+
+      - id: l03-najpre-vladari-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [hristijanizacija, pokrstavanje]
+        tvrdnja: "Hrišćanstvo je najpre primio prost narod, a tek onda vladarske porodice."
+        tacno: false
+        ispravke:
+          - {tekst: "Najpre su ga primali članovi vladarskih porodica, a posle ostali narod.", tacan: true}
+          - {tekst: "Svi su ga primili istog dana, po naredbi cara.", tacan: false, zasto: "Hristijanizacija je bila postepen proces, a nije bila jednodnevna naredba."}
+          - {tekst: "Vladari ga nikada nisu primili.", tacan: false, zasto: "Upravo su oni prvi ušli u novu veru, što je imalo i politički značaj."}
+        pomoc:
+          - "Pokrštavanje je i politički čin."
+          - "Ko je u državi donosio političke odluke?"
+          - "Iz lekcije: najpre članovi vladarskih porodica, a posle ostali narod."
+        objasnjenje: "Netačno. Širenje vere išlo je odozgo: prvo vladarske porodice, zatim narod."
+        iz_udzbenika:
+          strana: 22
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Hrišćanstvo su najpre primali članovi vladarskih porodica, a posle ostali narod."
+
+      - id: l03-hrvati-gradovi-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [pokrstavanje, starosedeoci]
+        tvrdnja: "Hrvatska plemena pokrštena su pod uticajem dalmatinskih gradova sa romanskim hrišćanima."
+        tacno: true
+        pomoc:
+          - "Hrvati su živeli uz Jadran, blizu tih gradova."
+          - "Iz lekcije: pod uticajem dalmatinskih gradova pokrštena su hrvatska plemena."
+        objasnjenje: "Tačno. Romanski hrišćani iz dalmatinskih gradova imali su važnu ulogu u pokrštavanju Hrvata."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Pod uticajem dalmatinskih gradova sa romanskim hrišćanima pokrštena su hrvatska plemena."
+
+      - id: l03-cirilica-tn
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [cirilica, glagoljica, cirilo-i-metodije, kliment-i-naum]
+        tvrdnja: "Ćirilicu je sastavio sam Ćirilo, pa je zato po njemu i dobila ime."
+        tacno: false
+        ispravke:
+          - {tekst: "Ćirilo je sastavio glagoljicu; ćirilica nastaje kasnije, kada misionari usavršavaju slovensko pismo.", tacan: true}
+          - {tekst: "Ćirilicu je sastavio Metodije.", tacan: false, zasto: "Lekcija Metodiju ne pripisuje sastavljanje nijednog pisma; ćirilicu vezuje za rad misionara posle braće."}
+          - {tekst: "Ćirilica je starija od glagoljice.", tacan: false, zasto: "Prvo pismo je glagoljica, a ćirilica je prostija i lakša, usavršena kasnije."}
+        pomoc:
+          - "Ime pisma ne dokazuje ko ga je sastavio."
+          - "Koje je pismo Ćirilo stvarno sastavio?"
+          - "Iz lekcije: Ćirilo je sastavio glagoljicu, a misionari su usavršili pismo i stvorili ćirilicu."
+        objasnjenje: "Netačno. Glagoljica je Ćirilovo delo, a ćirilica je nastala iz rada misionara koji su pismo usavršili i pojednostavili."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Ćirilo je sastavio glagoljicu, a misionari su kasnije usavršili pismo i stvorili ćirilicu."
+
+      - id: l03-braca-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [cirilo-i-metodije, glagoljica, velikomoravska-knezevina]
+        pitanje: "Dopuni rečenicu o braći misionarima."
+        tekst: "Ćirilo i {{Metodije}}, poreklom iz okoline {{Soluna}}, otišli su u {{Velikomoravsku}} kneževinu, a Ćirilo je sastavio {{glagoljicu}}."
+        ponudjene: [Metodije, Soluna, Velikomoravsku, glagoljicu, Naum, Carigrada]
+        pomoc:
+          - "Naum je njihov učenik, a ne brat."
+          - "Pismo se ovde zove prvo slovensko pismo."
+          - "Iz lekcije: braća iz okoline Soluna, misija u Velikomoravskoj, glagoljica."
+        objasnjenje: "Ćirilo i Metodije iz okoline Soluna radili su u Velikomoravskoj i dali Slovenima prvo pismo."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Braća iz okoline Soluna poslata su u Velikomoravsku; Ćirilo je sastavio glagoljicu."
+          slika: 03-doseljavanje-srba-na-balkan/04-cirilo-i-metodije.jpg
+
+      - id: l03-raskol-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [veliki-raskol]
+        pitanje: "Dopuni rečenicu o raskolu."
+        tekst: "Veliki raskol {{1054}}. podelio je crkvu: Hrvati i Slovenci pripali su {{katoličkoj}}, a Srbi i Bugari {{pravoslavnoj}}."
+        ponudjene: ["1054", "1204", katoličkoj, pravoslavnoj]
+        pomoc:
+          - "Godina je iz XI veka."
+          - "Zapadni Južni Sloveni su uz Rim, a istočni uz Carigrad."
+          - "Iz lekcije: 1054; Hrvati i Slovenci katoličkoj, Srbi i Bugari pravoslavnoj."
+        objasnjenje: "Godine 1054. crkva se deli, a sa njom i Južni Sloveni."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Veliki raskol 1054. podelio je crkvu; Hrvati i Slovenci pripali su katoličkoj, a makedonski Sloveni, Srbi i Bugari pravoslavnoj."
+        osa: {naziv: "Veliki raskol", od: 1054, traka: crkva-kultura}
+
+      - id: l03-dva-suseda-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [pokrstavanje, vizantija]
+        pitanje: "Dopuni rečenicu o hrišćanskim susedima."
+        tekst: "Južni Sloveni imali su dva moćna hrišćanska suseda: {{Franačku}} na zapadu i {{Vizantiju}} na istoku, a hrišćanstvo se među njima učvršćuje u {{IX}} veku."
+        ponudjene: [Franačku, Vizantiju, Bugarsku, IX, VI]
+        pomoc:
+          - "U VI veku Sloveni tek pljačkaju Balkan."
+          - "Zapadni sused je kraljevina Franaka."
+          - "Iz lekcije: Franačka na zapadu, Vizantija na istoku; hrišćanstvo se učvršćuje u IX veku."
+        objasnjenje: "Vera je dolazila sa obe strane, od Franačke i od Vizantije, a učvrstila se u IX veku."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Moćni hrišćanski susedi bili su Franačka i Vizantija; hrišćanstvo se učvršćuje u IX veku."
+        osa: {naziv: "Učvršćivanje hrišćanstva kod Južnih Slovena", od: 800, do: 900, oznaka: "IX vek", traka: crkva-kultura}
+
+      - id: l03-kliment-naum-dopuni
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [kliment-i-naum, cirilica, glagoljica]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Učenici braće, {{Kliment}} i {{Naum}}, propovedaju među makedonskim Slovenima i Bugarima. Misionari su tada stvorili {{ćirilicu}}, prostiju i lakšu od {{glagoljice}}."
+        pomoc:
+          - "Treća praznina je pismo koje i ti poznaješ."
+          - "Četvrta je starije, prvo slovensko pismo."
+          - "Iz lekcije: Kliment i Naum; ćirilica, prostija i lakša od glagoljice."
+        objasnjenje: "Kliment i Naum su nastavili rad braće, a usavršavanjem pisma nastala je ćirilica."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Kliment i Naum propovedaju među makedonskim Slovenima i Bugarima; misionari stvaraju ćirilicu, prostiju i lakšu od glagoljice."
+        osa: {naziv: "Rad Klimenta i Nauma", od: 885, do: 915, oznaka: "kraj IX i početak X veka", traka: crkva-kultura}
+
+      - id: l03-licnosti-vere-povezi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [cirilo-i-metodije, kliment-i-naum, rastislav, glagoljica]
+        pitanje: "Poveži ličnost sa onim po čemu je poznata."
+        parovi:
+          - ["Ćirilo", "Sastavio je glagoljicu"]
+          - ["Rastislav", "Pozvao je misionare u Moravsku"]
+          - ["Kliment i Naum", "Učenici koji propovedaju na Balkanu"]
+          - ["Ćirilo i Metodije", "Preveli su verske knjige na slovenski"]
+        pomoc:
+          - "Jedna od ličnosti je vladar."
+          - "Učenici dolaze posle braće."
+          - "Iz lekcije: Ćirilo glagoljica, Rastislav poziv, Kliment i Naum učenici."
+        objasnjenje: "Knez poziva, braća stvaraju pismo i prevode, a učenici nastavljaju rad na Balkanu."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Rastislav poziva braću, Ćirilo sastavlja glagoljicu, braća prevode knjige, a Kliment i Naum nastavljaju rad."
+
+      - id: l03-odakle-vera-povezi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [pokrstavanje, hristijanizacija, veliki-raskol]
+        pitanje: "Poveži narod ili grupu sa putem kojim je došlo do hrišćanstva ili sa crkvom kojoj je pripao."
+        parovi:
+          - ["Karantanski Sloveni", "Prvi među Južnim Slovenima primaju veru"]
+          - ["Hrvatska plemena", "Pokršteni uticajem dalmatinskih gradova"]
+          - ["Makedonski Sloveni i Bugari", "Rad Klimenta i Nauma"]
+          - ["Hrvati i Slovenci posle 1054.", "Katolička crkva"]
+          - ["Srbi posle 1054.", "Pravoslavna crkva"]
+        pomoc:
+          - "Dva para govore o dobu posle raskola."
+          - "Prati geografiju, od zapada ka istoku."
+          - "Iz lekcije: Karantanci prvi, Hrvati preko dalmatinskih gradova, Kliment i Naum među makedonskim Slovenima i Bugarima."
+        objasnjenje: "Različiti putevi do vere pomažu da se razume i kasnija verska podela Južnih Slovena."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Vera se širila kod Karantanskih Slovena, preko dalmatinskih gradova, a Kliment i Naum rade među makedonskim Slovenima i Bugarima."
+
+      - id: l03-vise-od-vere-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [hristijanizacija, pokrstavanje, vizantija]
+        pitanje: "Lekcija kaže da pokrštavanje nije bilo samo verski čin. Šta je još značilo?"
+        odgovori:
+          - {tekst: "Bilo je i politički i kulturni čin: povezivalo je Slovene sa razvijenijim svetom", tacan: true}
+          - {tekst: "Bilo je samo vojni pohod", tacan: false, zasto: "Misija se vodila propovedanjem i prevođenjem knjiga, a ne vojskom."}
+          - {tekst: "Bilo je način da se Sloveni vrate u pradomovinu", tacan: false, zasto: "Pokrštavanje nema veze sa povratkom; ono je Slovene još čvršće vezalo za Balkan i susede."}
+          - {tekst: "Bilo je obična promena imena bogova", tacan: false, zasto: "Promene su bile veće: sa verom su došli pismenost, knjige i veza sa hrišćanskim državama."}
+        pomoc:
+          - "Korak 1: Šta je došlo uz novu veru?"
+          - "Korak 2: Sa kojim državama se povezuje narod koji primi hrišćanstvo?"
+          - "Iz lekcije: pokrštavanje nije samo verski, već i politički i kulturni čin."
+        objasnjenje: "Hrišćanstvo je Slovenima donelo pismo, knjige i put u svet latinske i grčke kulture, a vladarima veze sa hrišćanskim državama."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Pokrštavanje nije samo verski čin, već i politički i kulturni."
+
+      - id: l03-zasto-znali-jezik-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [cirilo-i-metodije, solun, misionar]
+        pitanje: "Zašto je za uspeh misije bilo presudno što su Ćirilo i Metodije znali slovenski jezik i običaje?"
+        odgovori:
+          - {tekst: "Veru su mogli da šire i knjige da prevode na jeziku koji su ljudi razumeli", tacan: true}
+          - {tekst: "Zato što je grčki jezik bio zabranjen", tacan: false, zasto: "Nije bio zabranjen; problem je što ga Sloveni nisu razumeli."}
+          - {tekst: "Zato što su morali da vode vojsku", tacan: false, zasto: "Bili su propovednici, a ne vojskovođe."}
+          - {tekst: "Zato što je Rastislav tražio prevodioce za trgovinu", tacan: false, zasto: "Tražio je širenje vere; lekcija ih zove misionarima, a ne trgovačkim prevodiocima."}
+        pomoc:
+          - "Korak 1: Kako se propoveda ljudima koji ne znaju grčki?"
+          - "Korak 2: Na koji jezik su prevedene verske knjige?"
+          - "Iz lekcije: znali su slovenski jezik i običaje; preveli su najvažnije verske knjige na slovenski."
+        objasnjenje: "Vera je postala razumljiva jer se o njoj govorilo i pisalo na slovenskom."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Braća su znala slovenski jezik i običaje i prevela su najvažnije verske knjige na slovenski."
+
+      - id: l03-geografija-raskola-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [veliki-raskol, pokrstavanje, vizantija]
+        pitanje: "Kako se pripadnost Južnih Slovena dvema crkvama posle 1054. slaže sa tim od koga su primili veru?"
+        odgovori:
+          - {tekst: "Oni bliži Franačkoj i dalmatinskim gradovima (Hrvati, Slovenci) postaju katolici, a oni bliži Vizantiji pravoslavni", tacan: true}
+          - {tekst: "Svi su primili veru iz istog izvora, pa je podela bila slučajna", tacan: false, zasto: "Vera je dolazila sa dve strane, sa zapada i sa istoka, pa je podela imala osnova."}
+          - {tekst: "Srbi su postali pravoslavni zato što su živeli najzapadnije", tacan: false, zasto: "Najzapadniji su Slovenci, a oni su katolici; Srbi su bliži Vizantiji."}
+          - {tekst: "Podela je nastala zato što su Hrvati usvojili ćirilicu", tacan: false, zasto: "Lekcija navodi da ćirilicu koriste Srbi, Makedonci, Bugari i Rusi; podelu ne objašnjava pismo."}
+        pomoc:
+          - "Korak 1: Sa kojih strana je dolazila vera?"
+          - "Korak 2: Gde žive Hrvati i Slovenci, a gde Srbi i Bugari?"
+          - "Iz lekcije: Franačka na zapadu, Vizantija na istoku; Hrvati i Slovenci katolici, makedonski Sloveni, Srbi i Bugari pravoslavni."
+        objasnjenje: "Podela prati stare puteve uticaja: zapad ostaje vezan za Rim, a istok za Vizantiju."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Hrišćanstvo je dolazilo od Franačke i od Vizantije, a raskol je Južne Slovene podelio na katolike i pravoslavne."
+        osa: {naziv: "Veliki raskol", od: 1054, traka: crkva-kultura}
+
+      - id: l03-sta-bi-bez-ucenika-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [kliment-i-naum, cirilo-i-metodije, velikomoravska-knezevina]
+        pitanje: "Kako se dogodilo da je neuspeh u Moravskoj postao dobitak za balkanske Slovene?"
+        odgovori:
+          - {tekst: "Proterani učenici prešli su među balkanske Slovene i tu uspešno nastavili rad", tacan: true}
+          - {tekst: "Velikomoravska je osvojila Balkan i donela pismo", tacan: false, zasto: "Velikomoravsku su kasnije pokorili Mađari; rad se preneo sa ljudima, a ne sa osvajanjem."}
+          - {tekst: "Nemačko sveštenstvo je i samo otišlo na Balkan", tacan: false, zasto: "Nemačko sveštenstvo je ostalo u Moravskoj i prevladalo; otišli su proterani učenici."}
+          - {tekst: "Ćirilo i Metodije su se tada vratili u Solun i osnovali školu", tacan: false, zasto: "Do progona dolazi tek posle smrti braće, pa su na Balkan prešli učenici."}
+        pomoc:
+          - "Korak 1: Šta se desilo sa učenicima posle smrti braće?"
+          - "Korak 2: Kuda su otišli?"
+          - "Iz lekcije: nemačko sveštenstvo preovlađuje, učenici su proterani i prelaze među balkanske Slovene."
+        objasnjenje: "Progon je rad misionara preneo na Balkan, gde su nastala i učvrstila se slovenska pismenost i vera."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Posle smrti braće učenici su proterani, prelaze među balkanske Slovene i tu uspešno nastavljaju rad."
+
+      - id: l03-raskol-datum
+        vrsta: datum
+        tezina: lako
+        pojmovi: [veliki-raskol]
+        dogadjaj: "Veliki raskol"
+        pitanje: "Koje godine je došlo do Velikog raskola?"
+        godina: 1054
+        traka: crkva-kultura
+        pomoc:
+          - "To je XI vek, njegova sredina."
+          - "Godina se završava sa 54."
+          - "Iz lekcije: Veliki raskol 1054."
+        objasnjenje: "Veliki raskol dogodio se 1054."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Veliki raskol 1054. podelio je crkvu na istočnu i zapadnu."
+
+      - id: l03-misija-datum
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [cirilo-i-metodije, misionar]
+        dogadjaj: "Misija Ćirila i Metodija"
+        pitanje: "U kom periodu je trajala misija Ćirila i Metodija?"
+        od: 863
+        do: 885
+        traka: crkva-kultura
+        pomoc:
+          - "Sve je u drugoj polovini IX veka."
+          - "Trajala je dvadeset i dve godine."
+          - "Iz lekcije: 863–885."
+        objasnjenje: "Misija braće trajala je 863–885."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Misija Ćirila i Metodija trajala je 863–885."
+          slika: 03-doseljavanje-srba-na-balkan/04-cirilo-i-metodije.jpg
+
+      - id: l03-pismenost-poredjaj
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [cirilo-i-metodije, veliki-raskol, kliment-i-naum]
+        pitanje: "Poređaj događaje hronološki, od najranijeg."
+        stavke:
+          - {tekst: "Misija Ćirila i Metodija", godina: 863, do: 885, naziv: "Misija Ćirila i Metodija", traka: crkva-kultura}
+          - {tekst: "Rad Klimenta i Nauma", godina: 885, do: 915, oznaka: "kraj IX i početak X veka", naziv: "Rad Klimenta i Nauma", traka: crkva-kultura}
+          - {tekst: "Veliki raskol", godina: 1054, naziv: "Veliki raskol", traka: crkva-kultura}
+        pomoc:
+          - "Učenici dolaze posle učitelja."
+          - "Raskol je tek u XI veku."
+          - "Iz lekcije: 863–885, kraj IX i početak X veka, 1054."
+        objasnjenje: "Braća (863–885) → učenici (kraj IX i početak X veka) → raskol (1054)."
+        iz_udzbenika:
+          strana: 17
+          odeljak: "Hronologija celog dela II"
+          tekst: "Lenta dela II navodi rad Ćirila i Metodija, zatim Klimenta i Nauma, a tekst lekcije raskol 1054."
+
+      - id: l03-cela-lekcija-poredjaj
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [huni, solun, cirilo-i-metodije, leh, veliki-raskol]
+        pitanje: "Poređaj događaje iz cele lekcije, od najranijeg."
+        stavke:
+          - {tekst: "Huni prolaze kroz Vrata naroda", godina: 375, naziv: "Huni prolaze kroz Vrata naroda", traka: dogadjaji}
+          - {tekst: "Neuspeli napad na Carigrad", godina: 626, naziv: "Avarsko-slovenski napad na Carigrad", traka: dogadjaji}
+          - {tekst: "Misija Ćirila i Metodija", godina: 863, do: 885, naziv: "Misija Ćirila i Metodija", traka: crkva-kultura}
+          - {tekst: "Oton I pobeđuje Mađare na Lehu", godina: 955, naziv: "Bitka na reci Leh", traka: dogadjaji}
+          - {tekst: "Veliki raskol", godina: 1054, naziv: "Veliki raskol", traka: crkva-kultura}
+        pomoc:
+          - "Svaki događaj je iz drugog veka."
+          - "Prvi je još u antičko doba, a poslednji u XI veku."
+          - "Iz lekcije: 375, 626, 863–885, 955, 1054."
+        objasnjenje: "Huni (375) → Carigrad (626) → braća (863–885) → Leh (955) → raskol (1054)."
+        iz_udzbenika:
+          strana: 17
+          odeljak: "Hronologija celog dela II"
+          tekst: "Lenta dela II i tekst lekcije navode ove događaje od 375. do 1054."
+
+      - id: l03-put-vere-poredjaj
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [pokrstavanje, hristijanizacija, madjari, cirilo-i-metodije]
+        pitanje: "Poređaj korake širenja hrišćanstva, od najranijeg."
+        stavke:
+          - {tekst: "Misija Ćirila i Metodija u Moravskoj počinje", godina: 863, do: 885, naziv: "Misija Ćirila i Metodija", traka: crkva-kultura}
+          - {tekst: "Kliment i Naum rade među makedonskim Slovenima i Bugarima", godina: 885, do: 915, oznaka: "kraj IX i početak X veka", naziv: "Rad Klimenta i Nauma", traka: crkva-kultura}
+          - {tekst: "Mađari primaju hrišćanstvo", godina: 1000, do: 1100, oznaka: "XI vek", naziv: "Mađari primaju hrišćanstvo", traka: crkva-kultura}
+        pomoc:
+          - "Južni Sloveni su bili pre Mađara."
+          - "Mađari su se tek posle poraza 955. okrenuli novoj veri."
+          - "Iz lekcije: 863–885, kraj IX i početak X veka, XI vek."
+        objasnjenje: "Prvo braća, zatim njihovi učenici, a tek onda Mađari, u XI veku."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Misija traje 863–885, učenici zatim rade među balkanskim Slovenima, a Mađari primaju hrišćanstvo u XI veku."
+
+      - id: l03-progon-ucenika-lanac
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [kliment-i-naum, velikomoravska-knezevina]
+        karike:
+          - "U Moravskoj prevlađuje nemačko sveštenstvo"
+          - "?"
+          - "Učenici prelaze među balkanske Slovene"
+        praznina: 1
+        odgovori:
+          - {tekst: "Učenici Ćirila i Metodija su proterani", tacan: true}
+          - {tekst: "Učenici postaju vladari Moravske", tacan: false, zasto: "Oni su izgubili uticaj i morali da odu, a ne da preuzmu vlast."}
+          - {tekst: "Papa šalje Hune u Moravsku", tacan: false, zasto: "Huni nemaju veze sa ovim dobom; radi se o sukobu sveštenstva u IX veku."}
+        pomoc:
+          - "Korak 1: Ko je prevladao u Moravskoj?"
+          - "Korak 2: Šta je to značilo za učenike braće?"
+          - "Iz lekcije: prevlast nemačkog sveštenstva → progon učenika → prelazak na Balkan."
+        objasnjenje: "Nemačko sveštenstvo je proteralo učenike, pa su oni došli na Balkan."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Posle smrti braće u Moravskoj prevlađuje nemačko sveštenstvo, a učenici su proterani."
+
+      - id: l03-vera-pismo-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [hristijanizacija, cirilica, glagoljica]
+        karike:
+          - "Širi se hrišćanstvo među Slovenima"
+          - "?"
+          - "Nastaje ćirilica"
+        praznina: 1
+        odgovori:
+          - {tekst: "Širi se i pismenost, jer vera traži knjige na slovenskom", tacan: true}
+          - {tekst: "Stari bogovi dobijaju svoje zapise", tacan: false, zasto: "Hrišćanstvo potiskuje mnogoboštvo; pismenost služi verskim knjigama."}
+          - {tekst: "Sloveni prelaze na latinski i prestaju da pišu", tacan: false, zasto: "Pisanje se širi, a slovensko pismo se usavršava."}
+        pomoc:
+          - "Korak 1: Šta je potrebno za širenje vere?"
+          - "Korak 2: Šta se onda radi sa pismom?"
+          - "Iz lekcije: širenje vere → širenje pismenosti → ćirilica."
+        objasnjenje: "Vera je tražila knjige, knjige pismene ljude, a pismenost jednostavnije pismo."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Širenje vere išlo je uz širenje pismenosti; misionari su usavršili pismo i stvorili ćirilicu."
+
+      - id: l03-susedi-vera-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [pokrstavanje, vizantija, veliki-raskol]
+        karike:
+          - "Južni Sloveni imaju hrišćanske susede Franačku i Vizantiju"
+          - "Vera dolazi sa obe strane"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Raskol 1054. ih deli na katolike i pravoslavne", tacan: true}
+          - {tekst: "Svi Južni Sloveni ostaju mnogobošci", tacan: false, zasto: "Upravo su prešli u hrišćanstvo; u IX veku ono se učvršćuje."}
+          - {tekst: "Svi postaju pravoslavni", tacan: false, zasto: "Hrvati i Slovenci pripali su katoličkoj crkvi."}
+        pomoc:
+          - "Korak 1: Sa koje strane je bio ko od Južnih Slovena?"
+          - "Korak 2: Šta se 1054. desilo sa crkvom?"
+          - "Iz lekcije: raskol 1054 → verska podela Južnih Slovena."
+        objasnjenje: "Dva izvora vere postala su, posle raskola, dve crkve kojima pripadaju različiti Južni Sloveni."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Vera je dolazila od Franačke i Vizantije, a raskol 1054. podelio je Južne Slovene."
+        osa: {naziv: "Veliki raskol", od: 1054, traka: crkva-kultura}
+
+      - id: l03-kultura-hrista-lanac
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [hristijanizacija, glagoljica, cirilica]
+        karike:
+          - "Braća i učenici stvaraju slovensko pismo i prevode knjige"
+          - "Sloveni postaju pismeni narodi"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Otvara im se put u svet razvijenije latinske i grčke kulture", tacan: true}
+          - {tekst: "Prekidaju sve veze sa Vizantijom i Rimom", tacan: false, zasto: "Pismenost i vera ih upravo povezuju sa Vizantijom i Rimom."}
+          - {tekst: "Prestaju da budu Sloveni", tacan: false, zasto: "Pismo na slovenskom jeziku jača slovensku kulturu, a ne briše je."}
+        pomoc:
+          - "Korak 1: Šta pismen čovek može da radi što nepismen ne može?"
+          - "Korak 2: Čiju kulturu je mogao da upozna?"
+          - "Iz lekcije: hristijanizacija je Slovenima otvorila put u svet razvijenije latinske i grčke kulture."
+        objasnjenje: "Pismenost i vera povezale su Slovene sa kulturom hrišćanskog sveta."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Hristijanizacija je Slovenima otvorila put u svet razvijenije latinske i grčke kulture."
+
+      - id: l03-slika-braca-izvor
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [cirilo-i-metodije, glagoljica]
+        izvor:
+          autor: "Ilustracija iz udžbenika"
+          naslov: "Ćirilo i Metodije (opis crteža)"
+          tekst: "Dvojica svetitelja sa oreolima stoje na pozadini ispisanoj slovima. Jedan u tamnoj monaškoj odeći drži krst i otvoren svitak sa pismom, a drugi, duge brade, nosi bogatu svešteničku odoru."
+          napomena: "Odlomak je prepričan; udžbenik, str. 21."
+        pitanje: "Zašto su na crtežu pozadina i svitak puni slova?"
+        odgovori:
+          - {tekst: "Zato što se njihovo delo vezuje za slovensko pismo i pismenost", tacan: true}
+          - {tekst: "Zato što su bili trgovci koji vode knjige", tacan: false, zasto: "Bili su misionari, a slova na crtežu upućuju na pismo koje su dali Slovenima."}
+          - {tekst: "Zato što su pisali zakone za vizantijskog cara", tacan: false, zasto: "Lekcija ih pamti po misiji i pismu, a ne po zakonima."}
+          - {tekst: "Zato što su u Moravskoj bili učitelji latinskog", tacan: false, zasto: "Njihov rad bio je na slovenskom: pismo i prevodi verskih knjiga."}
+        pomoc:
+          - "Šta su braća, osim propovedanja, dala Slovenima?"
+          - "Krst je za veru, a šta su slova?"
+          - "Iz lekcije: Ćirilo sastavlja glagoljicu, a braća prevode verske knjige."
+        objasnjenje: "Krst simbolizuje veru, a slova pismenost: to su dve strane njihovog dela."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Ćirilo i Metodije su šireći veru Slovenima dali pismo i prevode verskih knjiga."
+          slika: 03-doseljavanje-srba-na-balkan/04-cirilo-i-metodije.jpg
+
+      - id: l03-glagoljica-cirilica-uporedi
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [glagoljica, cirilica]
+        a: "Glagoljica"
+        b: "Ćirilica"
+        pitanje: "Na koje pismo se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Sastavio ju je Ćirilo (Konstantin).", odgovor: a, zasto: "Ćirilo je sastavio glagoljicu; ćirilica je nastala kasnije."}
+          - {tekst: "Prostija je i lakša.", odgovor: b, zasto: "Usavršavanjem je nastala ćirilica, prostija od glagoljice."}
+          - {tekst: "Koriste je danas, sa izmenama, Srbi, Makedonci, Bugari i Rusi.", odgovor: b, zasto: "To važi za ćirilicu."}
+          - {tekst: "To je slovensko pismo.", odgovor: oba, zasto: "Lekcija ih navodi kao prva slovenska pisma."}
+          - {tekst: "Koristili su ga stari Grci u Herodotovo doba.", odgovor: nijedan, zasto: "Oba pisma nastaju u IX veku i kasnije, za Slovene."}
+        pomoc:
+          - "Koje je pismo starije?"
+          - "Jedno i danas svako od nas koristi."
+          - "Iz lekcije: glagoljica je prva, a ćirilica prostija i lakša."
+        objasnjenje: "Glagoljica je prvo pismo, a ćirilica njegova prostija, lakša naslednica u delu misionara."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Ćirilo je sastavio glagoljicu, a misionari su stvorili ćirilicu, prostiju i lakšu."
+
+      - id: l03-braca-ucenici-uporedi
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [cirilo-i-metodije, kliment-i-naum]
+        a: "Ćirilo i Metodije"
+        b: "Kliment i Naum"
+        pitanje: "Na koga se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Poslao ih je vizantijski car u Moravsku.", odgovor: a, zasto: "Car je poslao braću; učenici dolaze na Balkan posle progona."}
+          - {tekst: "Propovedali su među makedonskim Slovenima i Bugarima.", odgovor: b, zasto: "To lekcija kaže za Klimenta i Nauma."}
+          - {tekst: "Širili su hrišćanstvo među Slovenima.", odgovor: oba, zasto: "I braća i učenici bili su misionari."}
+          - {tekst: "Sastavljena je glagoljica.", odgovor: a, zasto: "Glagoljica je delo Ćirila."}
+          - {tekst: "Proterani su iz Moravske posle smrti učitelja.", odgovor: b, zasto: "Proterani su učenici, a braća su tada već bila mrtva."}
+          - {tekst: "Bili su bugarski kanovi.", odgovor: nijedan, zasto: "Svi su bili verski radnici; kan je bio Asparuh."}
+        pomoc:
+          - "Prvo vreme: IX vek u Moravskoj; drugo: na Balkanu."
+          - "Ko je kome učitelj?"
+          - "Iz lekcije: braća u Moravskoj, učenici među makedonskim Slovenima i Bugarima."
+        objasnjenje: "Braća započinju delo u Moravskoj, a učenici ga nastavljaju na Balkanu."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Braća rade u Moravskoj, a njihovi učenici Kliment i Naum, posle progona, na Balkanu."
+
+      - id: l03-franacka-vizantija-uporedi
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [pokrstavanje, vizantija, veliki-raskol]
+        a: "Franačka"
+        b: "Vizantija"
+        pitanje: "Na kog suseda Južnih Slovena se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Bila je moćan hrišćanski sused.", odgovor: oba, zasto: "Lekcija obe navodi kao moćne hrišćanske susede."}
+          - {tekst: "Nalazila se zapadno od Južnih Slovena.", odgovor: a, zasto: "Franačka je zapadni sused."}
+          - {tekst: "Njen car je poslao Ćirila i Metodija u Moravsku.", odgovor: b, zasto: "Misionare je poslao vizantijski car."}
+          - {tekst: "Bila je u blizini Karantanskih Slovena, prvih hrišćana među Južnim Slovenima.", odgovor: a, zasto: "Karantanci su na zapadu, u današnjoj Sloveniji, uz franački prostor."}
+          - {tekst: "Bila je u blizini Srba i Bugara, koji će pripasti pravoslavnoj crkvi.", odgovor: b, zasto: "Srbi i Bugari su bili uz Vizantiju na istoku."}
+          - {tekst: "Njena vojska je u IX veku proterala učenike iz Soluna.", odgovor: nijedan, zasto: "Učenici su proterani iz Moravske, i to pod pritiskom nemačkog sveštenstva, a ne vojske."}
+        pomoc:
+          - "Prvo odredi gde je koja država."
+          - "Seti se ko je poslao braću."
+          - "Iz lekcije: Franačka na zapadu, Vizantija na istoku; vera je dolazila sa obe strane."
+        objasnjenje: "Dva suseda su dve strane hrišćanskog uticaja, a kasnija podela ih samo potvrđuje."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Moćni hrišćanski susedi bili su Franačka na zapadu i Vizantija na istoku, pa je vera dolazila sa obe strane."
+
+      - id: l03-cirilo-ko-sam
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [cirilo-i-metodije, glagoljica]
+        tragovi:
+          - "Poticao sam iz okoline Soluna i znao sam slovenski jezik."
+          - "Zovu me i Konstantin."
+          - "Sastavio sam glagoljicu."
+        odgovori:
+          - {tekst: "Ćirilo", tacan: true}
+          - {tekst: "Metodije", tacan: false, zasto: "Metodije je brat i saradnik, ali glagoljicu je sastavio Ćirilo."}
+          - {tekst: "Naum", tacan: false, zasto: "Naum je učenik koji je kasnije radio među makedonskim Slovenima i Bugarima."}
+        objasnjenje: "To je Ćirilo (Konstantin), tvorac prvog slovenskog pisma."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Ćirilo (Konstantin) je sastavio prvo slovensko pismo, glagoljicu."
+          slika: 03-doseljavanje-srba-na-balkan/04-cirilo-i-metodije.jpg
+        osa: {naziv: "Misija Ćirila i Metodija", od: 863, do: 885, traka: crkva-kultura}
+
+      - id: l03-kliment-naum-ko-sam
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [kliment-i-naum, cirilica]
+        tragovi:
+          - "Učili smo od dvojice braće iz okoline Soluna."
+          - "Proterani smo iz Moravske."
+          - "Propovedali smo među makedonskim Slovenima i Bugarima."
+        odgovori:
+          - {tekst: "Kliment i Naum", tacan: true}
+          - {tekst: "Ćirilo i Metodije", tacan: false, zasto: "Oni su učitelji, a ne proterani učenici."}
+          - {tekst: "Perun i Svetovid", tacan: false, zasto: "To su imena slovenskog vrhovnog boga, a ne propovednika hrišćanstva."}
+        objasnjenje: "To su Kliment i Naum, najpoznatiji učenici Ćirila i Metodija."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Najpoznatiji učenici su Kliment i Naum, koji propovedaju među makedonskim Slovenima i Bugarima."
+        osa: {naziv: "Rad Klimenta i Nauma", od: 885, do: 915, oznaka: "kraj IX i početak X veka", traka: crkva-kultura}
+
+      - id: l03-hristijanizacija-objasni
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [hristijanizacija, pokrstavanje]
+        pitanje: "Opiši hristijanizaciju Slovena: odakle je vera dolazila i ko ju je prvi primao?"
+        uzor: "Sloveni su hrišćanstvo prvo upoznali preko starosedelaca, a vera je dolazila i od Franačke, Vizantije i dalmatinskih gradova. U IX veku učvrstili su je Ćirilo, Metodije i njihovi učenici. Najpre su je primali članovi vladarskih porodica, a posle ostali narod."
+        ideje:
+          - "Prvo preko starosedelaca."
+          - "Vera dolazi od Franačke, Vizantije i dalmatinskih gradova."
+          - "Učvršćuje se u IX veku, radom braće i učenika."
+          - "Prvo je primaju vladarske porodice, pa narod."
+        objasnjenje: "Dobar odgovor navodi puteve, vreme i redosled primanja vere."
+        iz_udzbenika:
+          strana: 22
+          odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika"
+          tekst: "Udžbenik traži da opišeš hristijanizaciju Slovena."
+        osa: {naziv: "Učvršćivanje hrišćanstva kod Južnih Slovena", od: 800, do: 900, oznaka: "IX vek", traka: crkva-kultura}
+
+      - id: l03-glagoljica-znacaj-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [glagoljica, cirilica, cirilo-i-metodije]
+        pitanje: "Zašto kažemo da pokrštavanje i opismenjavanje Slovena dugujemo Ćirilu, Metodiju i njihovim učenicima? Objasni."
+        uzor: "Pre njih Sloveni nisu imali pismo. Ćirilo je sastavio glagoljicu, braća su prevela najvažnije verske knjige na slovenski, a učenici su, posle progona iz Moravske, rad nastavili na Balkanu i stvorili prostiju ćirilicu. Vera i pismenost širili su se zajedno."
+        ideje:
+          - "Pre njih Sloveni nisu imali pismo."
+          - "Glagoljica i prevodi verskih knjiga."
+          - "Učenici nastavljaju rad na Balkanu."
+          - "Ćirilica je prostija i lakša."
+        objasnjenje: "Važna je veza: vera traži knjige, a knjige pismo."
+        iz_udzbenika:
+          strana: 22
+          odeljak: "Zapamtite"
+          tekst: "Pokrštavanje i opismenjavanje dugujemo braći Ćirilu i Metodiju i njihovim učenicima."
+
+      - id: l03-raskol-znacaj-objasni
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [veliki-raskol, hristijanizacija]
+        pitanje: "Zašto je Veliki raskol važan za dalji razvoj Južnih Slovena, iako se desio među crkvenim vrhovima daleko od njih? Objasni."
+        uzor: "Raskol je 1054. podelio crkvu na istočnu i zapadnu. Hrvati i Slovenci pripali su katoličkoj, a makedonski Sloveni, Srbi i Bugari pravoslavnoj crkvi. Tako su se narodi jednog porekla našli u dva različita verska i kulturna kruga, što je mnogo značilo za njihov dalji razvoj."
+        ideje:
+          - "Crkva je podeljena na istočnu i zapadnu."
+          - "Hrvati i Slovenci su katolici, a Srbi, Bugari i makedonski Sloveni pravoslavni."
+          - "Sličan narod ulazi u različite kulturne krugove."
+          - "Podela utiče na dalji razvoj tih naroda."
+        objasnjenje: "Vera je ovde mnogo više od verovanja: određuje uticaje, kulturu i pripadnost."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Raskol 1054. podelio je Južne Slovene, a ta podela je mnogo značila za dalji razvoj tih naroda."
+        osa: {naziv: "Veliki raskol", od: 1054, traka: crkva-kultura}
+
+      - id: l03-hristijanizacija-pojam-zakljuci
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [hristijanizacija]
+        pitanje: "Pleme ostavlja stare bogove i prihvata hrišćanstvo i njegovo učenje. Kako se taj proces zove?"
+        odgovori:
+          - {tekst: "Hristijanizacija", tacan: true}
+          - {tekst: "Asimilacija", tacan: false, zasto: "Asimilacija je stapanje manjine sa većinskim narodom; ovde se menja vera, a ne narod."}
+          - {tekst: "Raskol", tacan: false, zasto: "Raskol je podela već postojeće crkve, kao 1054."}
+          - {tekst: "Seoba", tacan: false, zasto: "Seoba je kretanje naroda sa jednog tla na drugo."}
+        pomoc:
+          - "Korak 1: Šta se u primeru menja?"
+          - "Korak 2: Od čijeg imena dolazi reč za tu veru?"
+          - "Iz lekcije: hristijanizacija je prihvatanje hrišćanstva i njegovog učenja."
+        objasnjenje: "Hristijanizacija znači prihvatanje hrišćanstva i njegovog učenja."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Hristijanizacija je prihvatanje hrišćanstva i njegovog učenja."
+
+      - id: l03-knez-i-narod-izbor
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [hristijanizacija, perun, pokrstavanje]
+        pitanje: "Zamisli slovenskog kneza koji je primio hrišćanstvo, dok mu seljaci još prinose žrtve Perunu. Šta to pokazuje o pokrštavanju?"
+        odgovori:
+          - {tekst: "Bilo je postepen proces: najpre vladarske porodice, a narod kasnije", tacan: true}
+          - {tekst: "Knez nije pravi hrišćanin, jer hrišćanstvo nema veze sa politikom", tacan: false, zasto: "Pokrštavanje je bilo i politički čin, pa se upravo vladari prvi odlučuju na njega."}
+          - {tekst: "Seljaci su zapravo Avari", tacan: false, zasto: "Perun je vrhovni bog Slovena, pa su to slovenski mnogobošci koji se postepeno odriču stare vere."}
+          - {tekst: "Takvo stanje je nemoguće, jer svi primaju veru u istom trenutku", tacan: false, zasto: "Sloveni su mnogoboštvo ostavljali postepeno, pa je razlika između vladara i naroda očekivana."}
+        pomoc:
+          - "Ko je u novoj veri prvi?"
+          - "Da li su se Sloveni odjednom odrekli starih bogova?"
+          - "Iz lekcije: Sloveni su postepeno ostavljali mnogoboštvo; najpre vladarske porodice, a posle ostali narod."
+        objasnjenje: "Vera se širi odozgo nadole i polako, pa stari bogovi i nova vera neko vreme žive jedno pored drugog."
+        iz_udzbenika:
+          strana: 22
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Sloveni su postepeno ostavljali mnogoboštvo; hrišćanstvo su najpre primali članovi vladarskih porodica, a posle narod."
+
+      - id: l03-uzroci-cele-lekcije-povezi
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [plemenski-savezi, asimilacija, leh, kliment-i-naum, vizantija]
+        pitanje: "Poveži uzrok sa njegovom posledicom iz cele lekcije."
+        parovi:
+          - ["Ratovi Vizantije na drugim stranama", "Upadi do Trakije, Tesalije i Epira"]
+          - ["Ratovi sa Vizantijom i Francima", "Stvaranje plemenskih saveza"]
+          - ["Naseljavanje Slovena", "Potiskivanje i asimilacija starosedelaca"]
+          - ["Poraz na Lehu", "Kraj mađarskog prodora na zapad"]
+          - ["Prevlast nemačkog sveštenstva u Moravskoj", "Prelazak učenika na Balkan"]
+        pomoc:
+          - "Prati ko u svakom paru gubi, a ko dobija."
+          - "Dva para počinju ratovima: ko je tu oslabljen, a ko se udružuje?"
+          - "Iz lekcije: svaki par je jedan red iz niza uzrok → posledica."
+        objasnjenje: "Lekcija je niz uzroka i posledica: slabost carstva, pritisak ratova, naseljavanje, poraz i progon menjaju Balkan."
+        iz_udzbenika:
+          strana: 22
+          odeljak: "Uzrok → posledica"
+          tekst: "Iz cele lekcije: slabost Vizantije, ratovi, naseljavanje, Leh i progon učenika imaju jasne posledice."
+
+      - id: l03-rastislav-ko-sam
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [rastislav, velikomoravska-knezevina, misionar]
+        tragovi:
+          - "Bio sam slovenski knez, ali ne na Balkanu."
+          - "Moju kneževinu će početkom X veka pokoriti Mađari."
+          - "Zatražio sam od vizantijskog cara da mi pošalje misionare."
+        odgovori:
+          - {tekst: "Rastislav", tacan: true}
+          - {tekst: "Oton I", tacan: false, zasto: "Oton I je nemački vladar koji se borio protiv Mađara i nije slovenski knez."}
+          - {tekst: "Asparuh", tacan: false, zasto: "Asparuh je bugarski kan, a ne moravski knez koji poziva misionare."}
+          - {tekst: "Metodije", tacan: false, zasto: "Metodije je misionar kog je knez pozvao, a ne knez."}
+        objasnjenje: "To je knez Rastislav, vladar Velikomoravske kneževine, na čiji poziv su došli Ćirilo i Metodije."
+        iz_udzbenika:
+          strana: 21
+          odeljak: "Pokrštavanje Južnih Slovena"
+          tekst: "Vizantijski car je poslao braću u Velikomoravsku, na poziv kneza Rastislava."

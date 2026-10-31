@@ -6,6 +6,11 @@ nivo: srednja
 razred: 1
 predmet: istorija
 udzbenik: Danilo Šarenac, Istorija za prvi razred trogodišnjih stručnih škola
+# Trake vremenske ose za celu knjigu (banka pitanja i kvizovi).
+osa_trake:
+  - {id: dogadjaji, label: Događaji, color: '#b1271f'}
+  - {id: vladari, label: Vladari, color: '#3a6ba5'}
+  - {id: crkva-kultura, label: Crkva i kultura, color: '#1f7a3a'}
 poglavlja:
   - naslov: I — Preistorija i stari vek
     lekcije:

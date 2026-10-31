@@ -1,0 +1,2259 @@
+# Banka pitanja: Balkanske teritorije u antičkom dobu (istorija, 1. razred srednje škole, str. 12–15). Sopstvenim rečima, po belešci lekcije.
+lekcija: 2
+naslov: "Balkanske teritorije u antičkom dobu"
+pojmovi:
+  antika: antika
+  grci: Grci
+  kolonija: kolonija
+  makedonci: Makedonci
+  mezi: Mezi
+  iliri: Iliri
+  kelti: Kelti
+  skordisci: Skordisci
+  tracani: Tračani
+  tribali: Tribali
+  odrisi: Odrisi
+  serdi: Serdi
+  dacani: Dačani
+  helenizacija: helenizacija
+  makedonija: Makedonija
+  rimske-legije: rimske legije
+  vojna-intervencija: vojna intervencija
+  ilirski-gusari: ilirski gusari
+  prvi-ilirski-rat: Prvi ilirski rat
+  kraljica-teuta: kraljica Teuta
+  provincija: provincija
+  oktavijan-avgust: Oktavijan Avgust
+  tiberije: Tiberije
+  dalmatinsko-panonski-ustanak: Dalmatinsko-panonski ustanak
+  trajan: Trajan
+  dakija: Dakija
+  dalmacija: Dalmacija
+  gornja-mezija: Gornja Mezija
+  panonija: Panonija
+  sirmijum: Sirmijum
+  singidunum: Singidunum
+  viminacijum: Viminacijum
+  galerije: Galerije
+  feliks-romulijana: Feliks Romulijana
+  gamzigrad: Gamzigrad
+  limes: limes
+  romanizacija: romanizacija
+  podela-rimskog-carstva: podela Rimskog carstva
+  aleksandar-makedonski: Aleksandar Makedonski
+delovi:
+  - naslov: "Uvod"
+    zadaci:
+      - id: l02-izbor-antika
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [antika]
+        pitanje: "Šta je antika?"
+        odgovori:
+          - {tekst: "Razdoblje vodeće uloge grčke i rimske kulture", tacan: true}
+          - {tekst: "Razdoblje pre pojave pisma", tacan: false, zasto: "To je praistorija; antika počinje mnogo kasnije."}
+          - {tekst: "Doba srpskih srednjovekovnih vladara", tacan: false, zasto: "Srednji vek dolazi posle antike."}
+          - {tekst: "Naziv za kameno oruđe", tacan: false, zasto: "Antika je istorijsko razdoblje, a ne predmet."}
+        pomoc:
+          - "Seti se koje dve kulture stoje uz ovaj pojam."
+          - "Jedna je grčka."
+          - "Iz lekcije: antika je razdoblje vodeće uloge grčke i rimske kulture."
+        objasnjenje: "Antika je vreme kada grčka i rimska kultura imaju vodeću ulogu."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Uvod"
+          tekst: "Antika je naziv za razdoblje vodeće uloge grčke i rimske kulture."
+        osa: {naziv: "Antika", od: -800, do: 600, traka: dogadjaji, oznaka: "VIII vek pre n. e. – VI vek n. e."}
+      - id: l02-izbor-grci-gde
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [grci]
+        pitanje: "Gde su u antici pretežno živeli Grci?"
+        odgovori:
+          - {tekst: "Na jugu Balkanskog poluostrva", tacan: true}
+          - {tekst: "Na severu, uz Dunav", tacan: false, zasto: "Uz Dunav su bila druga plemena, npr. Kelti Skordisci."}
+          - {tekst: "Duž Rajne", tacan: false, zasto: "Iz oblasti duž Rajne potiču Kelti."}
+          - {tekst: "Samo u Maloj Aziji", tacan: false, zasto: "Lekcija ih smešta pretežno na jug poluostrva."}
+        pomoc:
+          - "Pomisli gde je današnja Grčka."
+          - "To je najjužniji deo poluostrva."
+          - "Iz lekcije: Grci su pretežno na jugu poluostrva."
+        objasnjenje: "Na jugu poluostrva, kod Grka, nastala je antička kultura."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Uvod"
+          tekst: "Grci su pretežno na jugu poluostrva, gde je nastala antička kultura."
+      - id: l02-izbor-ostali-narodi
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [makedonci, mezi, iliri, kelti]
+        pitanje: "Koji su narodi u uvodu navedeni kao oni koji još žive u rodovsko-plemenskom uređenju? (više tačnih)"
+        odgovori:
+          - {tekst: "Makedonci", tacan: true}
+          - {tekst: "Mezi", tacan: true}
+          - {tekst: "Iliri", tacan: true}
+          - {tekst: "Keltska plemena", tacan: true}
+          - {tekst: "Rimljani", tacan: false, zasto: "Rimljani su osvajači koji stižu spolja, u III veku pre n. e."}
+        pomoc:
+          - "Svi su na Balkanu, a nisu Grci."
+          - "Jedan odgovor nije tačan."
+          - "Iz lekcije: Makedonci, Mezi, Iliri i keltska plemena."
+        objasnjenje: "Van grčkog juga živeli su narodi još u rodovsko-plemenskom uređenju."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Uvod"
+          tekst: "Ostatak Balkana držali su Makedonci, Mezi, Iliri i keltska plemena."
+      - id: l02-tn-legije
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [rimske-legije]
+        tvrdnja: "Rimske legije stigle su na Balkan u III veku pre n. e."
+        tacno: true
+        pomoc:
+          - "Seti se kada je bio Prvi ilirski rat."
+          - "Iz lekcije: legije stižu u III veku pre n. e."
+        objasnjenje: "Tačno: tada počinje postepeno širenje rimske vlasti."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Uvod"
+          tekst: "U III veku pre n. e. na poluostrvo stižu rimske legije."
+        osa: {naziv: "Rimske legije stižu na Balkan", od: -300, do: -201, traka: dogadjaji, oznaka: "III vek pre n. e."}
+      - id: l02-tn-grcke-kolonije-jadran
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [kolonija, grci]
+        tvrdnja: "Plemena van grčkog sveta nisu imala nikakve dodire sa Grcima sve do dolaska Rima."
+        tacno: false
+        ispravke:
+          - {tekst: "Trgovali su sa grčko-makedonskim svetom.", tacan: true}
+          - {tekst: "Dodire su imala samo sa Rimljanima.", tacan: false, zasto: "Rim dolazi tek u III veku pre n. e., a trgovina sa Grcima je starija."}
+          - {tekst: "Dodire su imala samo sa Keltima sa Rajne.", tacan: false, zasto: "Uvod naglašava trgovinu sa grčko-makedonskim svetom."}
+        pomoc:
+          - "Grčki uticaj širio se kolonijama."
+          - "Iz lekcije: plemena su trgovala sa grčko-makedonskim svetom."
+        objasnjenje: "Netačno: plemena su trgovala sa grčko-makedonskim svetom i pre Rima."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Uvod"
+          tekst: "Narodi u rodovsko-plemenskom uređenju trgovali su sa grčko-makedonskim svetom."
+      - id: l02-dopuni-uvod
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [grci, kolonija, rimske-legije]
+        pitanje: "Dopuni rečenice."
+        tekst: "Grci su širili uticaj preko brojnih {{kolonija}} duž obale {{Jadrana}}. Sve se menja kada na poluostrvo stižu {{rimske}} legije."
+        ponudjene: ["kolonija", "Jadrana", "rimske", "provincija", "Rajne", "keltske"]
+        pomoc:
+          - "Provincije su rimske, a ne grčke."
+          - "Rajna nije more."
+          - "Iz lekcije: kolonije duž obale Jadrana; rimske legije."
+        objasnjenje: "Kolonije šire grčki uticaj, a rimske legije menjaju odnose."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Uvod"
+          tekst: "Grčki uticaj širio se preko kolonija duž Jadrana, a sve se menja dolaskom rimskih legija."
+      - id: l02-zakljuci-antika-trajanje
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [antika]
+        pitanje: "Antika traje od VIII veka pre n. e. do VI veka n. e. Koliko je to približno?"
+        odgovori:
+          - {tekst: "Oko 1300–1400 godina", tacan: true}
+          - {tekst: "Oko 200 godina", tacan: false, zasto: "Samo do početka nove ere prođe oko 700–800 godina."}
+          - {tekst: "Oko 600 godina", tacan: false, zasto: "Toliko traje samo deo u novoj eri; treba sabrati oba dela."}
+          - {tekst: "Oko 5000 godina", tacan: false, zasto: "Toliko je trajao neolit."}
+        pomoc:
+          - "Korak 1: Koliko je od VIII veka pre n. e. do početka nove ere?"
+          - "Korak 2: Dodaj vreme do VI veka n. e."
+          - "Iz lekcije: antika traje od VIII veka pre n. e. do VI veka n. e."
+        objasnjenje: "Sabiraju se dva dela: oko 700–800 godina pre nove ere i oko 500–600 posle."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Uvod"
+          tekst: "Antika traje od VIII veka pre n. e. do VI veka n. e."
+        osa: {naziv: "Antika", od: -800, do: 600, traka: dogadjaji, oznaka: "VIII vek pre n. e. – VI vek n. e."}
+      - id: l02-objasni-sta-se-menja
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [rimske-legije, grci, kolonija]
+        pitanje: "Kako izgleda Balkan pre dolaska Rimljana i šta se menja njihovim dolaskom?"
+        uzor: "Pre Rimljana na jugu su Grci sa razvijenom kulturom i kolonijama, a ostatak drže narodi u rodovsko-plemenskom uređenju, koji trguju sa grčko-makedonskim svetom. Od III veka pre n. e. rimske legije donose postepeno širenje rimske vlasti i novi način života."
+        ideje:
+          - "Grci na jugu, kolonije na obali."
+          - "Ostali narodi u rodovsko-plemenskom uređenju."
+          - "Rim donosi postepeno širenje vlasti i nov način života."
+        objasnjenje: "Dolazak Rima je preokret: plemenski svet ulazi u jednu državu."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Uvod"
+          tekst: "Sve se menja kad u III veku pre n. e. na poluostrvo stižu rimske legije."
+  - naslov: "Balkanska plemena"
+    zadaci:
+      - id: l02-izbor-iliri-gde
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [iliri]
+        pitanje: "Gde su najviše živeli Iliri?"
+        odgovori:
+          - {tekst: "Na zapadu poluostrva, uz Jadran", tacan: true}
+          - {tekst: "Na istoku, u dolini Marice", tacan: false, zasto: "Dolina Marice pripada tračkim Odrisima."}
+          - {tekst: "Kod ušća Save u Dunav", tacan: false, zasto: "Tu su se naselili keltski Skordisci."}
+          - {tekst: "Oko današnje Sofije", tacan: false, zasto: "Oko Sofije su živeli Serdi, tračko pleme."}
+        pomoc:
+          - "Spominje se Jadran."
+          - "Od Istre do Epira."
+          - "Iz lekcije: Iliri su na zapadu, uz Jadran."
+        objasnjenje: "Iliri su živeli na zapadu, uz Jadran, od Istre do Epira."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Iliri su živeli na zapadu poluostrva, uz Jadran, od Istre do Epira."
+          slika: "02-balkanske-teritorije-u-antickom-dobu/01-karta-balkanska-plemena.jpg"
+      - id: l02-izbor-kelti-odakle
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [kelti]
+        pitanje: "Iz koje oblasti potiču keltska plemena?"
+        odgovori:
+          - {tekst: "Iz oblasti duž Rajne", tacan: true}
+          - {tekst: "Iz Male Azije", tacan: false, zasto: "U Malu Aziju je deo Kelta tek otišao kroz Balkan."}
+          - {tekst: "Iz Grčke", tacan: false, zasto: "Kelti nisu Grci; došli su sa severozapada."}
+          - {tekst: "Iz doline Marice", tacan: false, zasto: "Dolina Marice je oblast Odrisa."}
+        pomoc:
+          - "To je reka u zapadnoj Evropi."
+          - "Nije Dunav."
+          - "Iz lekcije: Kelti potiču iz oblasti duž Rajne."
+        objasnjenje: "Kelti potiču iz oblasti duž Rajne, a vremenom se pomeraju na razne strane."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Keltska plemena potiču iz oblasti duž Rajne."
+      - id: l02-izbor-skordisci
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [skordisci, kelti]
+        pitanje: "Koje se keltsko pleme naselilo kod ušća Save u Dunav?"
+        odgovori:
+          - {tekst: "Skordisci", tacan: true}
+          - {tekst: "Tribali", tacan: false, zasto: "Tribali su tračko pleme."}
+          - {tekst: "Odrisi", tacan: false, zasto: "Odrisi su tračko pleme iz doline Marice."}
+          - {tekst: "Serdi", tacan: false, zasto: "Serdi su tračko pleme oko današnje Sofije."}
+        pomoc:
+          - "Ostala tri su tračka plemena."
+          - "Naziv počinje na S, ali nisu Serdi."
+          - "Iz lekcije: Skordisci su kod ušća Save u Dunav."
+        objasnjenje: "Skordisci su se naselili tamo gde je današnji Beograd."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Kod ušća Save u Dunav naselili su se Skordisci."
+          slika: "02-balkanske-teritorije-u-antickom-dobu/01-karta-balkanska-plemena.jpg"
+      - id: l02-izbor-tracani-gde
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [tracani]
+        pitanje: "Na kom delu poluostrva su živeli Tračani?"
+        odgovori:
+          - {tekst: "Na istoku", tacan: true}
+          - {tekst: "Na zapadu, uz Jadran", tacan: false, zasto: "Tu su Iliri."}
+          - {tekst: "Samo na ostrvima", tacan: false, zasto: "Tračani su kopneni narod velikog dela istoka poluostrva."}
+          - {tekst: "Na samom jugu", tacan: false, zasto: "Jug poluostrva je grčki."}
+        pomoc:
+          - "Iliri su na zapadu, a Tračani im nasuprot."
+          - "Pogledaj kartu."
+          - "Iz lekcije: Tračani su na istoku poluostrva."
+        objasnjenje: "Tračani su na istoku poluostrva i rano su upoznali Grke."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Tračani su na istoku poluostrva."
+          slika: "02-balkanske-teritorije-u-antickom-dobu/01-karta-balkanska-plemena.jpg"
+      - id: l02-izbor-tracani-zivot
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [tracani]
+        pitanje: "Od čega su živeli Tračani i kojoj kulturi pripadaju? (više tačnih)"
+        odgovori:
+          - {tekst: "Živeli su od proste zemljoradnje i stočarstva", tacan: true}
+          - {tekst: "Spadaju u kulturu bakarnog i bronzanog doba", tacan: true}
+          - {tekst: "Živeli su od gusarenja na Jadranu", tacan: false, zasto: "Gusari na Jadranu bili su ilirski."}
+          - {tekst: "Bili su poznati po grčkim gradovima-državama", tacan: false, zasto: "Gradovi-države su grčki; Tračani su živeli plemenski."}
+        pomoc:
+          - "Tražimo seoski način života."
+          - "Dva odgovora su tačna."
+          - "Iz lekcije: prosta zemljoradnja i stočarstvo, bakarno i bronzano doba."
+        objasnjenje: "Tračani žive skromno, od proste zemljoradnje i stočarstva."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Balkanska plemena"
+          tekst: "Tračani spadaju u kulturu bakarnog i bronzanog doba i žive od proste zemljoradnje i stočarstva."
+      - id: l02-izbor-odrisi-savez
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [odrisi, tracani]
+        pitanje: "Čiji je plemenski savez bio najjači među Tračanima?"
+        odgovori:
+          - {tekst: "Savez Odrisa", tacan: true}
+          - {tekst: "Savez kraljice Teute", tacan: false, zasto: "Teutin savez je ilirski, a pobedili su ga Rimljani."}
+          - {tekst: "Savez Skordiska", tacan: false, zasto: "Skordisci su keltsko pleme."}
+          - {tekst: "Savez Dačana", tacan: false, zasto: "Lekcija kao najjači navodi savez Odrisa."}
+        pomoc:
+          - "To su Tračani iz doline Marice."
+          - "Nije ilirski ni keltski savez."
+          - "Iz lekcije: najjači je bio savez Odrisa."
+        objasnjenje: "Tračani su stvorili više plemenskih saveza; najjači je bio odriski."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Balkanska plemena"
+          tekst: "Tračani su stvorili više plemenskih saveza, a najjači je bio savez Odrisa."
+      - id: l02-izbor-dacani
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [dacani, tracani]
+        pitanje: "Ko su bili Dačani?"
+        odgovori:
+          - {tekst: "Posebna grupa tračkih plemena u današnjem Banatu u Rumuniji", tacan: true}
+          - {tekst: "Keltsko pleme kod ušća Save", tacan: false, zasto: "To su Skordisci."}
+          - {tekst: "Ilirsko pleme sa Jadrana", tacan: false, zasto: "Dačani su tračka grupa, sa severa."}
+          - {tekst: "Grčki kolonisti", tacan: false, zasto: "Dačani nisu Grci, već tračka plemena."}
+        pomoc:
+          - "Seti se koju je oblast zauzeo Trajan."
+          - "Pripadaju tračkoj grupi."
+          - "Iz lekcije: Dačani su posebna grupa tračkih plemena."
+        objasnjenje: "Dačani su tračka grupa; njihovu zemlju je Trajan osvojio 106."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Balkanska plemena"
+          tekst: "Dačani su posebna grupa tračkih plemena u današnjem Banatu u Rumuniji."
+      - id: l02-tn-mezi-provincija
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [mezi]
+        tvrdnja: "Po Mezima je dobila ime velika rimska provincija."
+        tacno: true
+        pomoc:
+          - "Seti se imena provincije Mezija."
+          - "Iz lekcije: po Mezima je dobila ime velika rimska provincija."
+        objasnjenje: "Tačno: ime se sačuvalo i u nazivu Gornja Mezija."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Balkanska plemena"
+          tekst: "Mezi su tračko pleme u današnjoj Srbiji; po njima je dobila ime velika rimska provincija."
+      - id: l02-tn-iliri-spominjanje
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [iliri, grci]
+        tvrdnja: "O Ilirima znamo i iz grčkih pisaca."
+        tacno: true
+        pomoc:
+          - "Pored grčkih, spominju ih i rimski pisci."
+          - "Iz lekcije: spominju ih grčki pisci, a kasnije i Rimljani."
+        objasnjenje: "Tačno: za razliku od praistorije, ovde već imamo pisane podatke."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Ilire spominju grčki pisci, a kasnije i Rimljani."
+      - id: l02-tn-tribali
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [tribali, tracani]
+        tvrdnja: "Tribali su ilirsko pleme iz današnje Albanije."
+        tacno: false
+        ispravke:
+          - {tekst: "Tribali su tračko pleme iz današnje Srbije i severne Bugarske.", tacan: true}
+          - {tekst: "Tribali su keltsko pleme sa Rajne.", tacan: false, zasto: "Sa Rajne su Kelti; Tribali su tračko pleme."}
+          - {tekst: "Tribali su grčki kolonisti.", tacan: false, zasto: "Grčke kolonije su na obalama, a Tribali u unutrašnjosti."}
+        pomoc:
+          - "Albanija je ilirska oblast."
+          - "Iz lekcije: Tribali su tračko pleme u današnjoj Srbiji i severnoj Bugarskoj."
+        objasnjenje: "Netačno: Tribali su Tračani, sa tla Srbije i severne Bugarske."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Tribali su živeli u današnjoj Srbiji i severnoj Bugarskoj."
+      - id: l02-tn-kelti-mala-azija
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [kelti]
+        tvrdnja: "Deo Kelta nastavio je kroz Balkan ka Maloj Aziji."
+        tacno: true
+        pomoc:
+          - "Nisu svi ostali na Balkanu."
+          - "Iz lekcije: deo Kelta nastavio je ka Maloj Aziji."
+        objasnjenje: "Tačno: Kelti su se pomerali na razne strane, a Balkan je bio i prolaz."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Deo Kelta nastavio je kroz Balkan ka Maloj Aziji."
+      - id: l02-tn-iliri-italija
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [iliri]
+        tvrdnja: "Iliri su živeli isključivo uz Jadran i nisu se širili van tog pojasa."
+        tacno: false
+        ispravke:
+          - {tekst: "Nastanili su i jug Italije, deo srednje Grčke i Peloponez, a najviše ih je bilo uz Jadran i na tlu Albanije.", tacan: true}
+          - {tekst: "Živeli su samo u Maloj Aziji.", tacan: false, zasto: "U Malu Aziju su išli Kelti."}
+          - {tekst: "Živeli su samo na Crnom moru.", tacan: false, zasto: "Crno more je na istoku; Iliri su na zapadu."}
+        pomoc:
+          - "Lekcija navodi i oblasti van Jadrana."
+          - "Reč „isključivo” je sumnjiva."
+          - "Iz lekcije: nastanili su i jug Italije, deo srednje Grčke i Peloponez."
+        objasnjenje: "Netačno: težište je uz Jadran, ali Iliri su živeli i dalje od njega."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Iliri su nastanili i jug Italije, deo srednje Grčke i Peloponez."
+      - id: l02-dopuni-plemena
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [iliri, tracani, skordisci]
+        pitanje: "Dopuni rečenice."
+        tekst: "{{Iliri}} su živeli na zapadu, uz Jadran, {{Tračani}} na istoku poluostrva, a kod ušća Save u Dunav naselili su se keltski {{Skordisci}}."
+        ponudjene: ["Iliri", "Tračani", "Skordisci", "Rimljani"]
+        pomoc:
+          - "Rimljani dolaze spolja."
+          - "Skordisci su Kelti."
+          - "Iz lekcije: Iliri zapad, Tračani istok, Skordisci kod ušća Save."
+        objasnjenje: "Tri grupe na karti: Iliri, Tračani, Kelti."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Iliri su na zapadu, Tračani na istoku, a Skordisci kod ušća Save u Dunav."
+          slika: "02-balkanske-teritorije-u-antickom-dobu/01-karta-balkanska-plemena.jpg"
+      - id: l02-dopuni-tracka-plemena
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [tribali, odrisi, serdi]
+        pitanje: "Dopuni tračka plemena."
+        tekst: "{{Tribali}} žive u današnjoj Srbiji i severnoj Bugarskoj, {{Odrisi}} u dolini Marice, a {{Serdi}} oko današnje Sofije."
+        ponudjene: ["Tribali", "Odrisi", "Serdi", "Skordisci", "Dalmati"]
+        pomoc:
+          - "Skordisci su Kelti."
+          - "Serdi su živeli oko današnje Sofije."
+          - "Iz lekcije: Tribali, Odrisi, Serdi."
+        objasnjenje: "Tri najvažnija tračka plemena i njihove oblasti."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Najvažnija tračka plemena su Tribali, Odrisi i Serdi."
+      - id: l02-dopuni-iliri-bez-reci
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [iliri]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Iliri su živeli od {{Istre}} do {{Epira}}, a najviše ih je bilo uz {{Jadran}} i na tlu današnje {{Albanije}}."
+        pomoc:
+          - "Prvo ime je poluostrvo na severu Jadrana."
+          - "Drugo je oblast na jugu ilirskog prostora."
+          - "Iz lekcije: od Istre do Epira, uz Jadran i na tlu Albanije."
+        objasnjenje: "Ilirski prostor je dug pojas uz Jadransko more."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Iliri su živeli od Istre do Epira, najviše uz Jadran i u Albaniji."
+      - id: l02-povezi-tracka-plemena
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [tribali, odrisi, serdi, skordisci]
+        pitanje: "Poveži pleme sa oblašću."
+        parovi:
+          - ["Tribali", "današnja Srbija i severna Bugarska"]
+          - ["Odrisi", "dolina Marice"]
+          - ["Serdi", "oko današnje Sofije"]
+          - ["Skordisci", "ušće Save u Dunav"]
+        pomoc:
+          - "Skordisci su jedini Kelti."
+          - "Odrisi su uz reku Maricu."
+          - "Iz lekcije: svako pleme ima svoju oblast."
+        objasnjenje: "Oblast pomaže da pleme smestimo na kartu."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Lekcija uz svako pleme navodi oblast."
+      - id: l02-povezi-grupe
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [iliri, tracani, kelti, dacani, mezi, skordisci]
+        pitanje: "Poveži narod ili pleme sa grupom kojoj pripada."
+        parovi:
+          - ["Skordisci", "Kelti"]
+          - ["Mezi", "Tračani"]
+          - ["Dačani", "posebna tračka grupa"]
+          - ["saveznici kraljice Teute", "Iliri"]
+        pomoc:
+          - "Mezi su po lekciji tračko pleme."
+          - "Teuta je predvodila ilirski savez."
+          - "Iz lekcije: Skordisci su Kelti, Mezi i Dačani tračke grupe."
+        objasnjenje: "Grupe su: ilirska, tračka i keltska."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Balkanska plemena"
+          tekst: "Mezi i Dačani su tračke grupe, a Skordisci keltsko pleme."
+      - id: l02-povezi-odakle-su
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [kelti, iliri, tracani, grci]
+        pitanje: "Poveži narod sa tvrdnjom koja mu najbolje pristaje."
+        parovi:
+          - ["Kelti", "pomerali su se sa Rajne na razne strane"]
+          - ["Iliri", "širili su se od Istre do Epira i dalje"]
+          - ["Tračani", "rano su upoznali grčku kulturu, a stvarali plemenske saveze"]
+          - ["Grci", "uticaj su širili kolonijama"]
+        pomoc:
+          - "Rajna upućuje na jedan narod."
+          - "Kolonije su vezane za more."
+          - "Iz lekcije: svaki narod ima svoju odliku."
+        objasnjenje: "Svaki narod lekcija opisuje po prostoru i načinu života."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Lekcija opisuje Kelte, Ilire, Tračane i Grke po prostoru i načinu života."
+      - id: l02-zakljuci-beograd-kelti
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [skordisci, singidunum]
+        pitanje: "Kod kog današnjeg grada se nalazi oblast Skordiska?"
+        odgovori:
+          - {tekst: "Kod Beograda", tacan: true}
+          - {tekst: "Kod Sofije", tacan: false, zasto: "Sofija je u oblasti tračkih Serda."}
+          - {tekst: "Kod Zaječara", tacan: false, zasto: "Kod Zaječara je Gamzigrad; Skordisci su na ušću Save u Dunav."}
+          - {tekst: "Kod Kostolca", tacan: false, zasto: "Kostolac je rimski Viminacijum."}
+        pomoc:
+          - "Korak 1: Gde se Sava uliva u Dunav?"
+          - "Korak 2: Koji grad je na tom mestu?"
+          - "Iz lekcije: Skordisci su kod ušća Save u Dunav."
+        objasnjenje: "Ušće Save u Dunav je kod Beograda, pa su Skordisci tu živeli pre Rimljana."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Kod ušća Save u Dunav naselili su se Skordisci."
+          slika: "02-balkanske-teritorije-u-antickom-dobu/01-karta-balkanska-plemena.jpg"
+      - id: l02-zakljuci-kelti-pomeranje
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [kelti, tribali, skordisci]
+        pitanje: "Šta pokazuje primer Kelta o stanovništvu Balkana u antici?"
+        odgovori:
+          - {tekst: "Stanovništvo nije bilo nepromenljivo: plemena su se selila i dolazila spolja", tacan: true}
+          - {tekst: "Na Balkanu je od praistorije živeo uvek isti narod", tacan: false, zasto: "Kelti su došli sa Rajne, što pokazuje suprotno."}
+          - {tekst: "Balkan je bio zatvoren za došljake", tacan: false, zasto: "Kelti su kroz njega prošli sve do Male Azije."}
+          - {tekst: "Kelti su prvi ljudi na Balkanu", tacan: false, zasto: "Balkan je bio naseljen još u praistoriji."}
+        pomoc:
+          - "Korak 1: Odakle su Kelti došli?"
+          - "Korak 2: Šta to govori o Balkanu?"
+          - "Iz lekcije: Kelti su sa Rajne, a neki su otišli do Male Azije."
+        objasnjenje: "Dolazak Kelta pokazuje da su se narodi na Balkanu smenjivali i mešali."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Kelti su se pomerali na razne strane, neki su stigli na Balkan, a deo otišao dalje."
+        osa: {naziv: "Doseljavanje Kelta na Balkan", od: -400, traka: dogadjaji}
+      - id: l02-uporedi-iliri-tracani
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [iliri, tracani]
+        a: "Iliri"
+        b: "Tračani"
+        pitanje: "Na koga se odnosi tvrdnja: Ilire, Tračane, obe grupe ili nijednu?"
+        tvrdnje:
+          - {tekst: "Živeli su na zapadu, uz Jadran.", odgovor: a, zasto: "To je prostor Ilira."}
+          - {tekst: "Živeli su na istoku poluostrva.", odgovor: b, zasto: "To je prostor Tračana."}
+          - {tekst: "Rano su došli u dodir sa Grcima.", odgovor: oba, zasto: "I Iliri i Tračani rano su upoznali Grke."}
+          - {tekst: "Potiču iz oblasti duž Rajne.", odgovor: nijedan, zasto: "Sa Rajne su Kelti."}
+        pomoc:
+          - "Zapad ili istok?"
+          - "Rajna upućuje na treću grupu."
+          - "Iz lekcije: Iliri zapad, Tračani istok."
+        objasnjenje: "Dve velike grupe razlikuju se po prostoru."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Iliri su na zapadu, a Tračani na istoku poluostrva."
+      - id: l02-uporedi-kelti-tracani
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [kelti, tracani, tribali, skordisci]
+        a: "Kelti"
+        b: "Tračani"
+        pitanje: "Na koga se odnosi tvrdnja: Kelte, Tračane, obe grupe ili nijednu?"
+        tvrdnje:
+          - {tekst: "Skordisci su njihovo pleme.", odgovor: a, zasto: "Skordisci su keltsko pleme."}
+          - {tekst: "Tribali i Serdi su njihova plemena.", odgovor: b, zasto: "To su tračka plemena."}
+          - {tekst: "Živeli su na tlu današnje Srbije.", odgovor: oba, zasto: "Skordisci i Tribali su živeli na tlu Srbije."}
+          - {tekst: "Osnivali su kolonije na Jonskom moru.", odgovor: nijedan, zasto: "Kolonije su osnivali Grci."}
+          - {tekst: "Poslanici su im dolazili Aleksandru Makedonskom na Dunav.", odgovor: a, zasto: "Keltski poslanici su došli Aleksandru."}
+        pomoc:
+          - "Prvo prepoznaj kom narodu pleme pripada."
+          - "Kolonije su grčke."
+          - "Iz lekcije: Skordisci su Kelti, a Tribali Tračani."
+        objasnjenje: "Obe grupe su živele na tlu Srbije, ali su im plemena različita."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Skordisci su Kelti, a Tribali Tračani; obe grupe su na tlu današnje Srbije."
+      - id: l02-izvor-kelti-u-boju
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [kelti]
+        izvor:
+          autor: "Okvir u udžbeniku"
+          naslov: "Kelti u boju"
+          tekst: "Kelti su bili dobri ratnici, ali strašniji po izgledu nego u stvarnosti. U boj su polazili uz veliku buku rogova i truba. Ako bi protivnik izdržao prvi nalet, od panike bi izgubili kontrolu nad vojskom."
+          napomena: "Odlomak je prepričan; udžbenik, str. 13."
+        pitanje: "Kako je protivnik mogao da pobedi Kelte?"
+        odgovori:
+          - {tekst: "Izdržati prvi nalet, posle kog bi nastala panika", tacan: true}
+          - {tekst: "Praviti još veću buku", tacan: false, zasto: "O tome odlomak ne govori; presudno je izdržati nalet."}
+          - {tekst: "Napasti ih dok spavaju", tacan: false, zasto: "Odlomak opisuje boj i prvi nalet, a ne iznenadni napad."}
+          - {tekst: "Dati im danak", tacan: false, zasto: "Danak nije pobeda; odlomak govori o bitki."}
+        pomoc:
+          - "Pročitaj poslednju rečenicu."
+          - "Slabost dolazi posle prvog naleta."
+          - "Iz lekcije: ako bi protivnik izdržao prvi nalet, Kelti bi izgubili kontrolu."
+        objasnjenje: "Kelti su jaki u početnom udaru, a slabi kad se boj oduži."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Balkanska plemena"
+          tekst: "Kelti su kretali uz buku rogova i truba, ali bi posle izdržanog naleta panika uzela maha."
+      - id: l02-izvor-karta-plemena
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [iliri, tracani, kelti]
+        izvor:
+          autor: "Karta iz udžbenika"
+          naslov: "Balkanska plemena pre rimskih osvajanja (opis karte)"
+          tekst: "Karta odvaja tri grupe plemena: ilirsku, tračku i keltsku. Strelice sa juga i iz Italije pokazuju pravce pristizanja spolja."
+          napomena: "Odlomak je prepričan; udžbenik, str. 12."
+        pitanje: "Koje vreme prikazuje ova karta?"
+        odgovori:
+          - {tekst: "Vreme pre rimskih osvajanja", tacan: true}
+          - {tekst: "Vreme posle podele 395. godine", tacan: false, zasto: "Tada su Balkanom već vekovima vladali Rimljani."}
+          - {tekst: "Doba Lepenskog Vira", tacan: false, zasto: "Lepenski Vir je iz davne praistorije."}
+          - {tekst: "Doba srednjovekovne Srbije", tacan: false, zasto: "Srednji vek dolazi mnogo kasnije."}
+        pomoc:
+          - "Pročitaj naslov karte."
+          - "Plemena još nisu pokorena."
+          - "Iz lekcije: karta prikazuje narode i plemena pre rimskih osvajanja."
+        objasnjenje: "Karta prikazuje stanje pre dolaska Rima, kad još postoje plemena."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Karta prikazuje narode i plemena pre rimskih osvajanja."
+          slika: "02-balkanske-teritorije-u-antickom-dobu/01-karta-balkanska-plemena.jpg"
+      - id: l02-ko-sam-mezi
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [mezi, tracani]
+        tragovi:
+          - "Pripadam tračkoj grupi plemena."
+          - "Živeo sam na prostoru današnje Srbije."
+          - "Po mom narodu dobila je ime rimska provincija."
+        odgovori:
+          - {tekst: "Mez", tacan: true}
+          - {tekst: "Skordisk", tacan: false, zasto: "Skordisci su Kelti."}
+          - {tekst: "Ilir", tacan: false, zasto: "Iliri su na zapadu; provincija po Mezima zove se Mezija."}
+          - {tekst: "Grk", tacan: false, zasto: "Grci su na jugu."}
+        objasnjenje: "To je pripadnik Meza, tračkog plemena po kome se zove Mezija."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Balkanska plemena"
+          tekst: "Mezi su tračko pleme na prostoru današnje Srbije."
+      - id: l02-objasni-ko-u-srbiji
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [tracani, tribali, mezi, iliri, skordisci]
+        pitanje: "Ko je u antici živeo na tlu današnje Srbije?"
+        uzor: "Na tlu Srbije živeli su Tračani, Tribali i Mezi, zatim Iliri i keltski Skordisci. Kasnije su ovde vladali Rimljani."
+        ideje:
+          - "Tračani: Tribali i Mezi."
+          - "Iliri."
+          - "Keltski Skordisci."
+          - "Kasnije Rimljani."
+        objasnjenje: "Tlo Srbije bilo je dodirna oblast više naroda."
+        iz_udzbenika:
+          strana: 12
+          odeljak: "Balkanska plemena"
+          tekst: "Na tlu Srbije bili su tračka plemena, Iliri, Skordisci i kasnije Rimljani."
+      - id: l02-objasni-tracani-kultura
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [tracani, odrisi, tribali, serdi]
+        pitanje: "Opiši Tračane: gde su živeli, kako su bili organizovani i od čega su živeli."
+        uzor: "Tračani su živeli na istoku poluostrva i delili se na više plemena, kao što su Tribali, Odrisi i Serdi. Živeli su od proste zemljoradnje i stočarstva. Stvorili su više plemenskih saveza, a najjači je bio savez Odrisa."
+        ideje:
+          - "Istok poluostrva."
+          - "Više plemena i plemenski savezi."
+          - "Prosta zemljoradnja i stočarstvo."
+        objasnjenje: "Tri pitanja daju celovit opis jednog naroda."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Balkanska plemena"
+          tekst: "Tračani su se delili na više plemena i živeli od proste zemljoradnje i stočarstva."
+  - naslov: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+    zadaci:
+      - id: l02-izbor-kolonija
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [kolonija]
+        pitanje: "Šta je kolonija?"
+        odgovori:
+          - {tekst: "Naseobina osnovana izvan matične države", tacan: true}
+          - {tekst: "Upravna jedinica Rimskog carstva", tacan: false, zasto: "To je provincija."}
+          - {tekst: "Niz utvrđenja uz granicu", tacan: false, zasto: "To je limes."}
+          - {tekst: "Oružana akcija na tuđem području", tacan: false, zasto: "To je vojna intervencija."}
+        pomoc:
+          - "Grci su ih osnivali na obalama."
+          - "Nastaje van matične zemlje."
+          - "Iz lekcije: kolonija je naseobina izvan matične države."
+        objasnjenje: "Kolonija je naseobina osnovana izvan matične države."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+          tekst: "Kolonija je naseobina osnovana izvan matične države."
+      - id: l02-izbor-helenizacija
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [helenizacija]
+        pitanje: "Šta je helenizacija?"
+        odgovori:
+          - {tekst: "Preuzimanje grčkog jezika i kulture", tacan: true}
+          - {tekst: "Usvajanje latinskog jezika", tacan: false, zasto: "To je romanizacija."}
+          - {tekst: "Osnivanje rimskih provincija", tacan: false, zasto: "To je rimska uprava, a ne grčki uticaj."}
+          - {tekst: "Seoba Kelta", tacan: false, zasto: "Helenizacija je kulturni, a ne seobeni proces."}
+        pomoc:
+          - "Heleni su drugo ime za Grke."
+          - "Radi se o jeziku i kulturi."
+          - "Iz lekcije: helenizacija je preuzimanje grčkog jezika i kulture."
+        objasnjenje: "Helenizacija dolazi od reči Heleni, kako su Grci zvali sebe."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+          tekst: "Helenizacija je preuzimanje grčkog jezika i kulture."
+      - id: l02-izbor-kolonije-mora
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [kolonija, grci]
+        pitanje: "Na obalama kojih mora su Grci širili uticaj kolonijama? (više tačnih)"
+        odgovori:
+          - {tekst: "Crnog", tacan: true}
+          - {tekst: "Mramornog", tacan: true}
+          - {tekst: "Egejskog", tacan: true}
+          - {tekst: "Jonskog", tacan: true}
+          - {tekst: "Jadranskog", tacan: true}
+          - {tekst: "Baltičkog", tacan: false, zasto: "Baltik je daleko na severu Evrope, van grčkog sveta."}
+        pomoc:
+          - "Sva mora oko Balkana su tačna."
+          - "Samo jedno je daleko."
+          - "Iz lekcije: Crno, Mramorno, Egejsko, Jonsko i Jadransko more."
+        objasnjenje: "Kolonije su opasale poluostrvo sa svih morskih strana."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+          tekst: "Grci su uticaj širili kolonijama na Crnom, Mramornom, Egejskom, Jonskom i Jadranskom moru."
+      - id: l02-izbor-razmena
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [kolonija, grci]
+        pitanje: "Čime su plemena centralnog Balkana plaćala grčke proizvode? (više tačnih)"
+        odgovori:
+          - {tekst: "Stočarskim proizvodima", tacan: true}
+          - {tekst: "Slanjem robova grčkim gradovima-državama", tacan: true}
+          - {tekst: "Maslinovim uljem", tacan: false, zasto: "Ulje je grčki proizvod koji su plemena kupovala."}
+          - {tekst: "Metalnim predmetima", tacan: false, zasto: "Metalne predmete dobijali su od Grka."}
+        pomoc:
+          - "Plemena žive od stoke."
+          - "Razlikuj šta daju, a šta dobijaju."
+          - "Iz lekcije: stočarski proizvodi i robovi."
+        objasnjenje: "Grci daju zanatske i poljoprivredne proizvode, a dobijaju stočarske proizvode i robove."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+          tekst: "Grčke proizvode plemena su plaćala stočarskim proizvodima, a slala su i robove."
+      - id: l02-tn-mirna-trgovina
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [kolonija]
+        tvrdnja: "Mirna trgovina prestala je kad su plemena počela da napadaju grčke kolonije."
+        tacno: true
+        pomoc:
+          - "Razmisli šta prekida trgovinu."
+          - "Iz lekcije: napadi plemena na kolonije doveli su do kraja mirne trgovine."
+        objasnjenje: "Tačno: sukob je zamenio razmenu."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+          tekst: "Mirna trgovina prestala je kad su plemena počela da napadaju grčke kolonije."
+      - id: l02-tn-makedonija-uspon
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [makedonija, helenizacija]
+        tvrdnja: "Makedonija je ratovala samo sa balkanskim plemenima, a sa grčkim gradovima-državama nije."
+        tacno: false
+        ispravke:
+          - {tekst: "Ratovala je i sa grčkim gradovima-državama i sa plemenima.", tacan: true}
+          - {tekst: "Ratovala je samo sa grčkim gradovima-državama.", tacan: false, zasto: "Ratovala je i sa plemenima, npr. sa Tribalima."}
+          - {tekst: "Nije ratovala ni sa kim.", tacan: false, zasto: "Lekcija navodi ratove na obe strane."}
+        pomoc:
+          - "Lekcija navodi dve vrste protivnika."
+          - "Iz lekcije: ratovala je i sa grčkim gradovima-državama i sa plemenima Balkana."
+        objasnjenje: "Netačno: Makedonija se širila na obe strane."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+          tekst: "Makedonija je ratovala i sa grčkim gradovima-državama i sa plemenima Balkana."
+        osa: {naziv: "Uspon makedonske države", od: -500, do: -301, traka: dogadjaji, oznaka: "V–IV vek pre n. e."}
+      - id: l02-dopuni-razmena
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [kolonija, grci]
+        pitanje: "Dopuni razmenu."
+        tekst: "Grci su plemenima davali metalne predmete i {{maslinovo ulje}}, a dobijali {{stočarske}} proizvode i {{robove}}."
+        ponudjene: ["maslinovo ulje", "stočarske", "robove", "latinski jezik", "rudnike"]
+        pomoc:
+          - "Grčka je poznata po maslinama."
+          - "Plemena se bave stočarstvom."
+          - "Iz lekcije: metal i ulje za stočarske proizvode i robove."
+        objasnjenje: "Razmena odražava šta koja strana ima."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+          tekst: "Metalni predmeti i maslinovo ulje plaćali su se stočarskim proizvodima, a slati su i robovi."
+      - id: l02-povezi-pojmovi-grci
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [kolonija, helenizacija, makedonija]
+        pitanje: "Poveži pojam sa objašnjenjem."
+        parovi:
+          - ["Kolonija", "naseobina izvan matične države"]
+          - ["Helenizacija", "preuzimanje grčkog jezika i kulture"]
+          - ["Makedonija", "država u usponu u V i IV veku pre n. e."]
+        pomoc:
+          - "Jedan pojam je država."
+          - "Heleni su Grci."
+          - "Iz lekcije: objašnjenja stoje u okvirima „Pojam”."
+        objasnjenje: "Tri pojma opisuju grčki i makedonski uticaj."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+          tekst: "Lekcija objašnjava pojmove kolonija i helenizacija i uspon Makedonije."
+      - id: l02-zakljuci-kolonije-obale
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [kolonija, grci]
+        pitanje: "Zašto su grčke kolonije bile važne za plemena u unutrašnjosti?"
+        odgovori:
+          - {tekst: "Preko njih su stizali grčki proizvodi i uticaj", tacan: true}
+          - {tekst: "U njima su plemena dobijala rimsko građanstvo", tacan: false, zasto: "Grčke kolonije nisu rimske; lekcija ih vezuje za trgovinu."}
+          - {tekst: "One su bile rimski vojni logori", tacan: false, zasto: "Kolonije su grčke naseobine."}
+          - {tekst: "Nisu bile važne", tacan: false, zasto: "Razmena je tekla baš preko njih."}
+        pomoc:
+          - "Korak 1: Šta su kolonije radile?"
+          - "Korak 2: Šta su plemena dobijala?"
+          - "Iz lekcije: kolonije šire grčki uticaj i razmenu."
+        objasnjenje: "Kolonije su most između Grka i plemena."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+          tekst: "Grčke kolonije šire uticaj i razmenu sa plemenima."
+      - id: l02-zakljuci-makedonija-grci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [makedonija, helenizacija, grci]
+        pitanje: "Kako je Makedonija mogla da bude rano helenizovana, a da ipak ratuje sa grčkim gradovima-državama?"
+        odgovori:
+          - {tekst: "Preuzimanje kulture ne znači politički savez: država može da usvoji jezik i kulturu, a da se bori za vlast", tacan: true}
+          - {tekst: "Helenizacija znači da je Makedonija osvojena", tacan: false, zasto: "Helenizacija je preuzimanje jezika i kulture, a ne osvajanje."}
+          - {tekst: "Makedonci nisu znali da su grčki gradovi grčki", tacan: false, zasto: "To nije razlog; odnosi su bili i kulturni i politički."}
+          - {tekst: "Grčki gradovi nisu imali vojsku", tacan: false, zasto: "Lekcija navodi ratove, pa su se branili."}
+        pomoc:
+          - "Korak 1: Šta tačno znači helenizacija?"
+          - "Korak 2: Da li je kultura isto što i politika?"
+          - "Iz lekcije: Makedonija je rano helenizovana, a ratovala je sa gradovima-državama."
+        objasnjenje: "Kultura i politika su dve ravni: bliskost u kulturi ne sprečava rat."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+          tekst: "Makedonija je rano helenizovana, a ratovala je sa grčkim gradovima-državama."
+        osa: {naziv: "Uspon makedonske države", od: -500, do: -301, traka: dogadjaji, oznaka: "V–IV vek pre n. e."}
+      - id: l02-lanac-kolonije
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [kolonija, grci]
+        karike:
+          - "Grci osnivaju kolonije na obalama"
+          - "?"
+          - "Plemena upoznaju grčke proizvode i kulturu"
+        praznina: 1
+        odgovori:
+          - {tekst: "Širi se grčki uticaj i razmena sa plemenima", tacan: true}
+          - {tekst: "Rimljani zauzimaju Balkan", tacan: false, zasto: "Rim dolazi kasnije i nije posledica kolonija."}
+          - {tekst: "Kelti se vraćaju na Rajnu", tacan: false, zasto: "Lekcija to ne vezuje za kolonije."}
+        pomoc:
+          - "Korak 1: Čemu kolonija služi?"
+          - "Korak 2: Kako proizvod stiže do plemena?"
+          - "Iz lekcije: kolonije → širenje uticaja i razmena."
+        objasnjenje: "Kolonije su pokrenule razmenu i širenje uticaja."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+          tekst: "Grci su uticaj širili kolonijama, a plemena su kupovala njihove proizvode."
+      - id: l02-lanac-napadi
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [kolonija]
+        karike:
+          - "Plemena i Grci mirno razmenjuju robu"
+          - "Plemena počinju da napadaju kolonije"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Prestaje mirna trgovina", tacan: true}
+          - {tekst: "Grci osnivaju još više kolonija u unutrašnjosti", tacan: false, zasto: "Kolonije su na obalama, a napadi prekidaju odnose."}
+          - {tekst: "Plemena postaju helenizovana", tacan: false, zasto: "Lekcija navodi da je helenizovana rano Makedonija, a ovde je ishod kraj trgovine."}
+        pomoc:
+          - "Korak 1: Šta se dešava sa trgovinom kad počnu napadi?"
+          - "Korak 2: Da li neko trguje sa napadačem?"
+          - "Iz lekcije: napadi plemena → kraj mirne trgovine."
+        objasnjenje: "Nasilje razara poverenje potrebno za trgovinu."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+          tekst: "Napadi plemena na kolonije doveli su do kraja mirne trgovine."
+      - id: l02-uporedi-kolonija-provincija
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [kolonija, provincija]
+        a: "Grčka kolonija"
+        b: "Rimska provincija"
+        pitanje: "Na šta se odnosi tvrdnja: koloniju, provinciju, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Naseobina osnovana izvan matične države.", odgovor: a, zasto: "To je definicija kolonije."}
+          - {tekst: "Upravna jedinica carstva.", odgovor: b, zasto: "To je definicija provincije."}
+          - {tekst: "Postojala je na tlu Balkana.", odgovor: oba, zasto: "Kolonije na obalama, a provincije na osvojenom tlu."}
+          - {tekst: "Nastala je u paleolitu.", odgovor: nijedan, zasto: "Obe pripadaju antici."}
+        pomoc:
+          - "Jedna je naseobina, druga deo uprave."
+          - "Obe su antičke."
+          - "Iz lekcije: kolonija i provincija objašnjene su u okvirima „Pojam”."
+        objasnjenje: "Kolonija je naselje van matice; provincija je jedinica uprave osvojenog tla."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+          tekst: "Kolonija je naseobina izvan matične države, a provincija upravna jedinica Rimskog carstva."
+      - id: l02-objasni-razmena
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [kolonija, grci]
+        pitanje: "Kako su izgledali trgovački odnosi Grka i plemena centralnog Balkana?"
+        uzor: "Grci su davali zanatske i poljoprivredne proizvode, kao što su metalni predmeti i maslinovo ulje. Plemena su plaćala stočarskim proizvodima i slala robove. Trgovina je prestala kad su plemena počela da napadaju kolonije."
+        ideje:
+          - "Grčki metalni predmeti i ulje."
+          - "Stočarski proizvodi i robovi."
+          - "Kraj zbog napada na kolonije."
+        objasnjenje: "Trgovina povezuje dve različite privrede."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+          tekst: "Lekcija opisuje razmenu grčkih proizvoda za stočarske proizvode i robove."
+      - id: l02-objasni-helenizacija-makedonija
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [helenizacija, romanizacija, makedonija]
+        pitanje: "Uporedi helenizaciju i romanizaciju. Šta im je zajedničko, a po čemu se razlikuju?"
+        uzor: "U oba slučaja jedan narod preuzima tuđi jezik i kulturu. Helenizacija znači preuzimanje grčkog jezika i kulture, što se desilo rano u Makedoniji. Romanizacija znači usvajanje rimske kulture, običaja i latinskog jezika, a većina starosedelaca se romanizovala posle nekoliko vekova rimske uprave."
+        ideje:
+          - "Zajedničko: preuzimanje tuđeg jezika i kulture."
+          - "Helenizacija: grčki uticaj, primer Makedonije."
+          - "Romanizacija: rimska kultura i latinski."
+        objasnjenje: "Oba procesa su kulturna, ali im je izvor različit."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Odnosi balkanskih plemena s Grcima i Makedoncima"
+          tekst: "Helenizacija je preuzimanje grčkog, a romanizacija latinskog jezika i kulture."
+  - naslov: "Rimska osvajanja na Balkanu i romanizacija"
+    zadaci:
+      - id: l02-datum-podela
+        vrsta: datum
+        tezina: lako
+        pojmovi: [podela-rimskog-carstva]
+        dogadjaj: "Podela Rimskog carstva"
+        pitanje: "Koje godine je Rimsko carstvo podeljeno na Zapadno i Istočno?"
+        godina: 395
+        traka: dogadjaji
+        pomoc:
+          - "Dogodilo se pred kraj IV veka."
+          - "Godina se završava na 5."
+          - "Iz lekcije: podela je 395."
+        objasnjenje: "Carstvo je podeljeno 395. godine, a granica je prošla kroz Balkan."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Rimsko carstvo je 395. podeljeno na Zapadno i Istočno."
+      - id: l02-datum-dakija
+        vrsta: datum
+        tezina: lako
+        pojmovi: [trajan, dakija]
+        dogadjaj: "Trajan zauzima Dakiju"
+        pitanje: "Koje godine je car Trajan zauzeo Dakiju?"
+        godina: 106
+        traka: dogadjaji
+        pomoc:
+          - "Početak II veka n. e."
+          - "Godina ima tri cifre i počinje sa 10."
+          - "Iz lekcije: Trajan zauzima Dakiju 106. godine."
+        objasnjenje: "Dakija je zauzeta 106. godine, pod Trajanom."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Car Trajan je 106. godine zauzeo i Dakiju."
+      - id: l02-datum-ustanak
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [dalmatinsko-panonski-ustanak]
+        dogadjaj: "Dalmatinsko-panonski ustanak"
+        pitanje: "Od koje do koje godine n. e. je trajao Dalmatinsko-panonski ustanak?"
+        od: 6
+        do: 9
+        traka: dogadjaji
+        pomoc:
+          - "Trajao je tri godine."
+          - "To je još doba Oktavijana Avgusta."
+          - "Iz lekcije: ustanak je trajao 6–9. n. e."
+        objasnjenje: "Ustanak je trajao od 6. do 9. godine n. e."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Najveća pobuna bio je Dalmatinsko-panonski ustanak, 6–9. n. e."
+      - id: l02-datum-prvi-ilirski-rat
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [prvi-ilirski-rat]
+        dogadjaj: "Prvi ilirski rat"
+        pitanje: "Od koje do koje godine je trajao Prvi ilirski rat?"
+        od: -229
+        do: -228
+        traka: dogadjaji
+        pomoc:
+          - "Trajao je kratko."
+          - "Bilo je to u III veku pre n. e."
+          - "Iz lekcije: 229–228. pre n. e."
+        objasnjenje: "Pre nove ere brojevi opadaju, pa rat ide od 229. do 228."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Prvi ilirski rat vođen je 229–228. pre n. e."
+      - id: l02-datum-oktavijan
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [oktavijan-avgust]
+        dogadjaj: "Oktavijan Avgust"
+        pitanje: "Od koje do koje godine je vladao Oktavijan Avgust?"
+        od: -27
+        do: 14
+        traka: vladari
+        pomoc:
+          - "Vlada preko prelaza u novu eru."
+          - "Počeo je dvadesetih godina pre n. e."
+          - "Iz lekcije: 27. pre n. e. – 14. n. e."
+        objasnjenje: "Avgust vlada 27. pre n. e. – 14. n. e., pa su mu početak i kraj u različitim erama."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Oktavijan Avgust vladao je 27. pre n. e. – 14. n. e."
+      - id: l02-poredjaj-osvajanje-lako
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [prvi-ilirski-rat, trajan, podela-rimskog-carstva]
+        pitanje: "Poređaj događaje od najranijeg."
+        stavke:
+          - {tekst: "Prvi ilirski rat", godina: -229, do: -228, naziv: "Prvi ilirski rat", traka: dogadjaji}
+          - {tekst: "Trajan zauzima Dakiju", godina: 106, naziv: "Trajan zauzima Dakiju", traka: dogadjaji}
+          - {tekst: "Podela Rimskog carstva", godina: 395, naziv: "Podela Rimskog carstva", traka: dogadjaji}
+        pomoc:
+          - "Jedan događaj je pre nove ere."
+          - "Podela je najkasnija."
+          - "Iz lekcije: 229. pre n. e., 106, 395."
+        objasnjenje: "Prvi ilirski rat → Dakija → podela."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Rimska vlast na Balkanu počinje ratom protiv Ilira, a podela je 395."
+      - id: l02-poredjaj-avgust-ustanak
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [oktavijan-avgust, dalmatinsko-panonski-ustanak, trajan]
+        pitanje: "Poređaj od najranijeg."
+        stavke:
+          - {tekst: "Oktavijan Avgust postaje vladar", godina: -27, do: 14, naziv: "Oktavijan Avgust", traka: vladari}
+          - {tekst: "Dalmatinsko-panonski ustanak", godina: 6, do: 9, naziv: "Dalmatinsko-panonski ustanak", traka: dogadjaji}
+          - {tekst: "Trajan zauzima Dakiju", godina: 106, naziv: "Trajan zauzima Dakiju", traka: dogadjaji}
+        pomoc:
+          - "Ustanak je izbio dok je Avgust još vladao."
+          - "Trajan dolazi mnogo kasnije."
+          - "Iz lekcije: 27. pre n. e., 6. i 106. n. e."
+        objasnjenje: "Avgust (od 27. pre n. e.) → ustanak (6–9) → Dakija (106)."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Pod Avgustom je slomljen ustanak, a Dakija je zauzeta 106."
+      - id: l02-poredjaj-makedonija-rim
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [makedonija, rimske-legije, prvi-ilirski-rat, oktavijan-avgust]
+        pitanje: "Poređaj hronološki."
+        stavke:
+          - {tekst: "Uspon makedonske države", godina: -500, do: -301, naziv: "Uspon makedonske države", traka: dogadjaji, oznaka: "V–IV vek pre n. e."}
+          - {tekst: "Rimske legije stižu na Balkan", godina: -300, do: -201, naziv: "Rimske legije stižu na Balkan", traka: dogadjaji, oznaka: "III vek pre n. e."}
+          - {tekst: "Oktavijan Avgust učvršćuje granicu", godina: -27, do: 14, naziv: "Oktavijan Avgust", traka: vladari}
+          - {tekst: "Trajan zauzima Dakiju", godina: 106, naziv: "Trajan zauzima Dakiju", traka: dogadjaji}
+        pomoc:
+          - "Makedonija je jaka pre dolaska Rima."
+          - "Dakija je poslednje rimsko osvajanje u ovoj lekciji."
+          - "Iz lekcije: V–IV vek, III vek pre n. e., Avgust, 106."
+        objasnjenje: "Prvo se uzdiže Makedonija, onda stiže Rim, pa Avgust učvršćuje Dunav, a Trajan ide preko njega."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Rimsko osvajanje teklo je postepeno, od III veka pre n. e. do Dakije 106."
+      - id: l02-poredjaj-osvajanje-iliri-kelti
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [prvi-ilirski-rat, iliri, tracani, kelti]
+        pitanje: "Poređaj faze rimskog osvajanja po vremenu."
+        stavke:
+          - {tekst: "Prvi ilirski rat", godina: -229, do: -228, naziv: "Prvi ilirski rat", traka: dogadjaji}
+          - {tekst: "Pokoravanje ilirskih plemena", godina: -150, do: -50, naziv: "Pokoravanje ilirskih plemena", traka: dogadjaji, oznaka: "druga polovina II – prva polovina I veka pre n. e."}
+          - {tekst: "Osvojene keltske teritorije", godina: -10, do: 10, naziv: "Osvojene keltske teritorije", traka: dogadjaji, oznaka: "oko prelaska u novu eru"}
+          - {tekst: "Trajan zauzima Dakiju", godina: 106, naziv: "Trajan zauzima Dakiju", traka: dogadjaji}
+        pomoc:
+          - "Rat iz III veka pre n. e. je prvi."
+          - "Kelti padaju oko prelaska u novu eru."
+          - "Iz lekcije: 229–228, II–I vek pre n. e., prelaz u novu eru, 106."
+        objasnjenje: "Osvajanje je trajalo nekoliko vekova, korak po korak."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Osvajanje je teklo postepeno, nekoliko vekova."
+      - id: l02-poredjaj-sve-tesko
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [kelti, prvi-ilirski-rat, tracani, oktavijan-avgust, dalmatinsko-panonski-ustanak, dakija, podela-rimskog-carstva]
+        pitanje: "Poređaj od najranijeg: događaji iz cele lekcije."
+        stavke:
+          - {tekst: "Doseljavanje Kelta na Balkan", godina: -400, naziv: "Doseljavanje Kelta na Balkan", traka: dogadjaji}
+          - {tekst: "Prvi ilirski rat", godina: -229, do: -228, naziv: "Prvi ilirski rat", traka: dogadjaji}
+          - {tekst: "Oktavijan Avgust postaje vladar", godina: -27, do: 14, naziv: "Oktavijan Avgust", traka: vladari}
+          - {tekst: "Dalmatinsko-panonski ustanak", godina: 6, do: 9, naziv: "Dalmatinsko-panonski ustanak", traka: dogadjaji}
+          - {tekst: "Trajan zauzima Dakiju", godina: 106, naziv: "Trajan zauzima Dakiju", traka: dogadjaji}
+          - {tekst: "Podela Rimskog carstva", godina: 395, naziv: "Podela Rimskog carstva", traka: dogadjaji}
+        pomoc:
+          - "Kelti stižu pre Rimljana."
+          - "Ustanak je za vreme Avgusta."
+          - "Iz lekcije: 400, 229, 27. pre n. e., pa 6, 106, 395."
+        objasnjenje: "Ceo tok: Kelti, Rim stiže, Avgust i ustanak, Dakija, podela."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Zapamtite"
+          tekst: "Lekcija pokriva vreme od plemena do podele carstva 395."
+      - id: l02-poredjaj-trakija-kelti
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [iliri, tracani, kelti]
+        pitanje: "Poređaj osvajanje oblasti po vremenu, kako ih lekcija datira."
+        stavke:
+          - {tekst: "Pokoravanje ilirskih plemena", godina: -150, do: -50, naziv: "Pokoravanje ilirskih plemena", traka: dogadjaji, oznaka: "druga polovina II – prva polovina I veka pre n. e."}
+          - {tekst: "Osvajanje tračkih zemalja", godina: -100, do: -1, naziv: "Osvajanje tračkih zemalja", traka: dogadjaji, oznaka: "I vek pre n. e."}
+          - {tekst: "Osvojene keltske teritorije", godina: -10, do: 10, naziv: "Osvojene keltske teritorije", traka: dogadjaji, oznaka: "oko prelaska u novu eru"}
+        pomoc:
+          - "Ilirska plemena počinju da padaju još u II veku pre n. e."
+          - "Kelti padaju oko prelaska u novu eru."
+          - "Iz lekcije: Iliri, Tračani, Kelti."
+        objasnjenje: "Prvo Iliri, zatim tračke zemlje, pa keltske oblasti."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Lekcija datira pokoravanje Ilira, Tračana i Kelta po vekovima."
+      - id: l02-izbor-teuta
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [kraljica-teuta, prvi-ilirski-rat]
+        pitanje: "Čiji je savez pobeđen u Prvom ilirskom ratu?"
+        odgovori:
+          - {tekst: "Savez kraljice Teute", tacan: true}
+          - {tekst: "Savez Odrisa", tacan: false, zasto: "Odrisi su tračko pleme iz doline Marice."}
+          - {tekst: "Savez Skordiska", tacan: false, zasto: "Skordisci su Kelti, a rat je bio ilirski."}
+          - {tekst: "Savez grčkih kolonija", tacan: false, zasto: "Grčke kolonije stajale su uz Rim u ratovima sa Makedonijom."}
+        pomoc:
+          - "Rat je ilirski."
+          - "Savez predvodi kraljica."
+          - "Iz lekcije: pobeđen je savez kraljice Teute."
+        objasnjenje: "Rim je pobedio savez ilirske kraljice Teute."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "U Prvom ilirskom ratu pobeđen je savez kraljice Teute."
+        osa: {naziv: "Prvi ilirski rat", od: -229, do: -228, traka: dogadjaji}
+      - id: l02-izbor-provincija
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [provincija]
+        pitanje: "Šta je provincija?"
+        odgovori:
+          - {tekst: "Upravna jedinica Rimskog carstva", tacan: true}
+          - {tekst: "Naseobina izvan matične države", tacan: false, zasto: "To je kolonija."}
+          - {tekst: "Niz utvrđenja uz granicu", tacan: false, zasto: "To je limes."}
+          - {tekst: "Plemenski savez", tacan: false, zasto: "Plemenski savezi su postojali pre Rima."}
+        pomoc:
+          - "Pojam je vezan za rimsku upravu."
+          - "Gornja Mezija je primer."
+          - "Iz lekcije: provincija je upravna jedinica Rimskog carstva."
+        objasnjenje: "Na osvojenom tlu Rim organizuje provincije."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Provincija je upravna jedinica Rimskog carstva."
+      - id: l02-izbor-limes
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [limes]
+        pitanje: "Šta je limes?"
+        odgovori:
+          - {tekst: "Niz utvrđenja uz rimsku granicu, sa stalnim posadama", tacan: true}
+          - {tekst: "Rimski vodovod", tacan: false, zasto: "Vodovodi su izgrađeni, ali limes je sistem odbrane."}
+          - {tekst: "Velika palata cara Galerija", tacan: false, zasto: "To je Feliks Romulijana."}
+          - {tekst: "Rimska provincija", tacan: false, zasto: "Provincija je jedinica uprave, a limes linija utvrđenja."}
+        pomoc:
+          - "Ostaci su sačuvani duž Dunava."
+          - "Povezano je sa odbranom granice."
+          - "Iz lekcije: limes je niz većih i manjih utvrđenja uz rimsku granicu."
+        objasnjenje: "Limes čine veća i manja utvrđenja sa stalnim vojnim posadama."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Limes je niz većih i manjih utvrđenja uz rimsku granicu, sa stalnim vojnim posadama."
+      - id: l02-izbor-romanizacija
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [romanizacija]
+        pitanje: "Šta je romanizacija?"
+        odgovori:
+          - {tekst: "Usvajanje rimske kulture i običaja i latinskog jezika", tacan: true}
+          - {tekst: "Preuzimanje grčkog jezika i kulture", tacan: false, zasto: "To je helenizacija."}
+          - {tekst: "Osvajanje Dakije", tacan: false, zasto: "To je vojno osvajanje, a romanizacija je kulturni proces."}
+          - {tekst: "Podela carstva na dva dela", tacan: false, zasto: "Podela je bila 395, a romanizacija je dug proces."}
+        pomoc:
+          - "Pomisli na reč Rim."
+          - "Radi se o jeziku i običajima."
+          - "Iz lekcije: romanizacija je usvajanje rimske kulture i latinskog."
+        objasnjenje: "Posle nekoliko vekova rimske uprave većina starosedelaca se romanizovala."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Romanizacija je usvajanje rimske kulture i običaja i latinskog jezika."
+      - id: l02-izbor-intervencija
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [vojna-intervencija, ilirski-gusari]
+        pitanje: "Čime je počelo rimsko delovanje na Balkanu?"
+        odgovori:
+          - {tekst: "Vojnom intervencijom protiv ilirskih gusara na obali Jadrana", tacan: true}
+          - {tekst: "Napadom na Dakiju", tacan: false, zasto: "Dakija je zauzeta mnogo kasnije, 106."}
+          - {tekst: "Sklapanjem saveza sa Skordiscima", tacan: false, zasto: "Lekcija tako ne opisuje početak."}
+          - {tekst: "Podizanjem limesa na Dunavu", tacan: false, zasto: "Limes dolazi kad je granica već na Dunavu."}
+        pomoc:
+          - "Dešava se na Jadranu."
+          - "Povod su bili gusari."
+          - "Iz lekcije: početak je intervencija protiv ilirskih gusara."
+        objasnjenje: "Akcija protiv gusara prerasla je u Prvi ilirski rat."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Početak je vojna intervencija protiv ilirskih gusara na obali Jadrana."
+        osa: {naziv: "Prvi ilirski rat", od: -229, do: -228, traka: dogadjaji}
+      - id: l02-izbor-sta-grade
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [provincija]
+        pitanje: "Šta su Rimljani gradili na osvojenom tlu? (više tačnih)"
+        odgovori:
+          - {tekst: "Puteve", tacan: true}
+          - {tekst: "Vodovode", tacan: true}
+          - {tekst: "Rudnike", tacan: true}
+          - {tekst: "Gradove", tacan: true}
+          - {tekst: "Grčke kolonije", tacan: false, zasto: "Kolonije su osnivali Grci."}
+        pomoc:
+          - "Misli na ono što povezuje i snabdeva oblast."
+          - "Četiri odgovora su tačna."
+          - "Iz lekcije: putevi, vodovodi, rudnici, gradovi."
+        objasnjenje: "Osim vojnih logora, grade i vojna, upravna i privredna središta."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Rimljani grade puteve, vodovode, rudnike i gradove."
+      - id: l02-izbor-dalmacija
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [dalmacija, panonija]
+        pitanje: "Kako lekcija opisuje provinciju Dalmaciju?"
+        odgovori:
+          - {tekst: "Pokrivala je najveći deo današnje Srbije, od Jadrana do Panonije i planine Rudnik", tacan: true}
+          - {tekst: "Bila je mala oblast samo oko Beograda", tacan: false, zasto: "Dalmacija je bila vrlo velika."}
+          - {tekst: "Nalazila se severno od Dunava, u Dakiji", tacan: false, zasto: "Dakija je posebna oblast severno od Dunava."}
+          - {tekst: "Bila je to grčka kolonija", tacan: false, zasto: "Dalmacija je rimska provincija."}
+        pomoc:
+          - "Dosezala je od mora duboko u unutrašnjost."
+          - "Spominje se planina Rudnik."
+          - "Iz lekcije: od Jadrana do Panonije i planine Rudnik."
+        objasnjenje: "Dalmacija je bila prostrana provincija od Jadrana do Panonije i Rudnika."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Dalmacija se pružala od Jadrana do Panonije i planine Rudnik."
+      - id: l02-izbor-tiberije
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [tiberije, dalmatinsko-panonski-ustanak, oktavijan-avgust]
+        pitanje: "Ko je slomio Dalmatinsko-panonski ustanak?"
+        odgovori:
+          - {tekst: "Tiberije, Avgustov posinak", tacan: true}
+          - {tekst: "Trajan", tacan: false, zasto: "Trajan je zauzeo Dakiju 106."}
+          - {tekst: "Galerije", tacan: false, zasto: "Galerije je podigao Feliks Romulijanu."}
+          - {tekst: "Aleksandar Makedonski", tacan: false, zasto: "Aleksandar je iz mnogo ranijeg doba."}
+        pomoc:
+          - "Bio je povezan sa Avgustom."
+          - "Bio mu je posinak."
+          - "Iz lekcije: ustanak je slomio Tiberije."
+        objasnjenje: "Tiberije je slomio najveću pobunu protiv rimske vlasti."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Ustanak je slomio Avgustov posinak Tiberije."
+        osa: {naziv: "Dalmatinsko-panonski ustanak", od: 6, do: 9, traka: dogadjaji}
+      - id: l02-izbor-primena-granica
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [podela-rimskog-carstva]
+        pitanje: "Mesto je zapadno od granice iz 395. godine. Pod čijim je uticajem trajno bilo?"
+        odgovori:
+          - {tekst: "Pod uticajem Rima i latinske kulture", tacan: true}
+          - {tekst: "Pod uticajem Carigrada i vizantijske kulture", tacan: false, zasto: "To važi za zemlje istočno od granice."}
+          - {tekst: "Pod uticajem Dakije", tacan: false, zasto: "Dakija nije kulturno središte iz ove podele."}
+          - {tekst: "Pod uticajem Kelta", tacan: false, zasto: "Podela je odvojila rimski i carigradski uticaj."}
+        pomoc:
+          - "Zapad odgovara Zapadnom carstvu."
+          - "Koji grad je središte zapada?"
+          - "Iz lekcije: zapadno od granice su Rim i latinska kultura."
+        objasnjenje: "Granica je delila latinski zapad od vizantijskog istoka."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Zemlje zapadno od granice trajno su pod uticajem Rima i latinske kulture."
+        osa: {naziv: "Podela Rimskog carstva", od: 395, traka: dogadjaji}
+      - id: l02-tn-makedonija-tri
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [makedonija]
+        tvrdnja: "Rimu su bila potrebna tri rata da konačno pokori Makedoniju."
+        tacno: true
+        pomoc:
+          - "Makedonija nije pala odjednom."
+          - "Iz lekcije: bila su potrebna tri rata."
+        objasnjenje: "Tačno: Makedonija je bila jak protivnik."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Bila su potrebna tri rata da Makedonija bude konačno pokorena."
+      - id: l02-tn-sirmijum
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [sirmijum]
+        tvrdnja: "Rimski Sirmijum je današnja Sremska Mitrovica."
+        tacno: true
+        pomoc:
+          - "Pomisli na reč Srem."
+          - "Iz lekcije: Sirmijum je Sremska Mitrovica."
+        objasnjenje: "Tačno: i ime Srem podseća na Sirmijum."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Sirmijum je današnja Sremska Mitrovica."
+      - id: l02-tn-singidunum
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [singidunum, viminacijum]
+        tvrdnja: "Singidunum je današnji Kostolac."
+        tacno: false
+        ispravke:
+          - {tekst: "Singidunum je današnji Beograd.", tacan: true}
+          - {tekst: "Singidunum je današnja Sremska Mitrovica.", tacan: false, zasto: "Sremska Mitrovica je Sirmijum."}
+          - {tekst: "Singidunum je današnji Gamzigrad.", tacan: false, zasto: "U Gamzigradu je Feliks Romulijana."}
+        pomoc:
+          - "Kostolac je Viminacijum."
+          - "Iz lekcije: Singidunum je Beograd."
+        objasnjenje: "Netačno: Singidunum je Beograd, a Kostolac je Viminacijum."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Singidunum je Beograd, a Viminacijum Kostolac."
+      - id: l02-tn-grci-uz-rim
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [makedonija, kolonija]
+        tvrdnja: "U ratovima protiv Makedonije grčke kolonije stajale su uz Makedoniju."
+        tacno: false
+        ispravke:
+          - {tekst: "Grčke kolonije stajale su uz Rim.", tacan: true}
+          - {tekst: "Grčke kolonije su bile neutralne.", tacan: false, zasto: "Lekcija kaže da su bile uz Rim."}
+          - {tekst: "Grčke kolonije stajale su uz Ilire.", tacan: false, zasto: "Lekcija navodi da su bile uz Rim."}
+        pomoc:
+          - "Makedonija je ratovala i sa Grcima."
+          - "Iz lekcije: grčke kolonije stajale su uz Rim."
+        objasnjenje: "Netačno: kolonije su uz Rim, jer im je Makedonija bila protivnik."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Grčke kolonije stajale su u tim ratovima uz Rim."
+      - id: l02-tn-romanizacija-svuda
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [romanizacija, helenizacija]
+        tvrdnja: "Romanizacija je potpuno zahvatila i južnu Srbiju i Makedoniju."
+        tacno: false
+        ispravke:
+          - {tekst: "U južnoj Srbiji i Makedoniji ostao je jači grčki kulturni uticaj.", tacan: true}
+          - {tekst: "Tamo je preovladao keltski uticaj.", tacan: false, zasto: "Lekcija navodi grčki uticaj."}
+          - {tekst: "Tamo je preovladao tračanski jezik.", tacan: false, zasto: "Lekcija govori o grčkom kulturnom uticaju."}
+        pomoc:
+          - "Te oblasti su blizu Grcima."
+          - "Iz lekcije: u južnoj Srbiji i Makedoniji ostao je jači grčki uticaj."
+        objasnjenje: "Netačno: većina se romanizovala, ali su ti krajevi izuzetak."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "U južnoj Srbiji i Makedoniji ostao je jači grčki kulturni uticaj."
+      - id: l02-tn-grcka-provincija
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [grci, kelti, provincija]
+        tvrdnja: "Grčka je postala rimska provincija pre Prvog ilirskog rata."
+        tacno: false
+        ispravke:
+          - {tekst: "Grčka je postala provincija nešto posle osvajanja keltskih oblasti.", tacan: true}
+          - {tekst: "Grčka nikada nije bila pod Rimom.", tacan: false, zasto: "Lekcija navodi da je postala rimska provincija."}
+          - {tekst: "Grčka je osvojena istovremeno sa Dakijom, 106.", tacan: false, zasto: "Lekcija Dakiju i Grčku ne stavlja u isto vreme."}
+        pomoc:
+          - "Prvi ilirski rat je početak."
+          - "Grčka dolazi tek pri kraju osvajanja."
+          - "Iz lekcije: oko prelaska u novu eru zauzete su keltske oblasti, a nešto kasnije Grčka postaje provincija."
+        objasnjenje: "Netačno: Grčka je u lekciji pri kraju niza osvajanja."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Oko prelaska u novu eru zauzete su keltske oblasti, a nešto kasnije Grčka postaje provincija."
+        osa: {naziv: "Osvojene keltske teritorije", od: -10, do: 10, traka: dogadjaji, oznaka: "oko prelaska u novu eru"}
+      - id: l02-dopuni-gradovi
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [sirmijum, singidunum, viminacijum]
+        pitanje: "Dopuni današnja imena rimskih gradova."
+        tekst: "Sirmijum je današnja {{Sremska Mitrovica}}, Singidunum je {{Beograd}}, a Viminacijum je {{Kostolac}}."
+        ponudjene: ["Sremska Mitrovica", "Beograd", "Kostolac", "Zaječar", "Sofija"]
+        pomoc:
+          - "Sirmijum liči na Srem."
+          - "Zaječar je vezan za Gamzigrad."
+          - "Iz lekcije: Sremska Mitrovica, Beograd, Kostolac."
+        objasnjenje: "Tri važna rimska grada na tlu Srbije."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Važni rimski gradovi su Sirmijum, Singidunum i Viminacijum."
+      - id: l02-dopuni-prvi-rat
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [prvi-ilirski-rat, kraljica-teuta, ilirski-gusari]
+        pitanje: "Dopuni rečenicu o početku rimskih osvajanja."
+        tekst: "Rimljani su krenuli protiv ilirskih {{gusara}}, a u Prvom ilirskom ratu pobedili su savez kraljice {{Teute}}. Ilirima je zabranjena plovidba {{Jadranom}} i nametnut {{danak}} Rimu."
+        ponudjene: ["gusara", "Teute", "Jadranom", "danak", "Dunavom", "Kelta"]
+        pomoc:
+          - "Gusari plove morem."
+          - "Danak je obaveza pobeđenog."
+          - "Iz lekcije: gusari, Teuta, Jadran, danak."
+        objasnjenje: "Rim je pobedom skinuo ilirsku opasnost sa Jadrana."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Ilirima je zabranjena plovidba Jadranom i nametnut danak Rimu."
+        osa: {naziv: "Prvi ilirski rat", od: -229, do: -228, traka: dogadjaji}
+      - id: l02-dopuni-galerije
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [galerije, feliks-romulijana, gamzigrad]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Car {{Galerije}} podigao je veliku palatu {{Feliks Romulijana}} u današnjem {{Gamzigradu}} kod {{Zaječara}}."
+        ponudjene: ["Galerije", "Feliks Romulijana", "Gamzigradu", "Zaječara", "Trajan", "Viminacijum"]
+        pomoc:
+          - "Trajan je zauzeo Dakiju."
+          - "Viminacijum je grad kod Kostolca."
+          - "Iz lekcije: Galerije, Feliks Romulijana, Gamzigrad, Zaječar."
+        objasnjenje: "Feliks Romulijana je veliki rimski spomenik u Srbiji."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Car Galerije podigao je palatu Feliks Romulijana u Gamzigradu kod Zaječara."
+          slika: "02-balkanske-teritorije-u-antickom-dobu/04-gamzigrad.jpg"
+      - id: l02-dopuni-granica-bez-reci
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [podela-rimskog-carstva, limes]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Granica iz 395. išla je od {{Dunava}} kod Beograda do {{Jadrana}} kod {{Boke Kotorske}}. Istočno od nje bio je uticaj {{Carigrada}}."
+        pomoc:
+          - "Prva reč je reka, druga more."
+          - "Boka je u današnjoj Crnoj Gori."
+          - "Iz lekcije: od Dunava kod Beograda do Jadrana kod Boke Kotorske; istok je pod Carigradom."
+        objasnjenje: "Ova linija je trajno podelila Balkan."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Granica je išla od Dunava kod Beograda do Jadrana kod Boke Kotorske."
+        osa: {naziv: "Podela Rimskog carstva", od: 395, traka: dogadjaji}
+      - id: l02-povezi-gradovi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [sirmijum, singidunum, viminacijum, feliks-romulijana]
+        pitanje: "Poveži rimski naziv sa današnjim mestom."
+        parovi:
+          - ["Sirmijum", "Sremska Mitrovica"]
+          - ["Singidunum", "Beograd"]
+          - ["Viminacijum", "Kostolac"]
+          - ["Feliks Romulijana", "Gamzigrad"]
+        pomoc:
+          - "Feliks Romulijana je palata."
+          - "Sirmijum liči na Srem."
+          - "Iz lekcije: Sremska Mitrovica, Beograd, Kostolac, Gamzigrad."
+        objasnjenje: "Rimski tragovi su i danas prisutni u našim gradovima."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Rimski gradovi i palata nalaze se na tlu današnje Srbije."
+      - id: l02-povezi-licnosti
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [kraljica-teuta, tiberije, trajan, galerije]
+        pitanje: "Poveži ličnost sa onim po čemu je poznata."
+        parovi:
+          - ["Kraljica Teuta", "savez pobeđen u Prvom ilirskom ratu"]
+          - ["Tiberije", "slomio je Dalmatinsko-panonski ustanak"]
+          - ["Trajan", "zauzeo je Dakiju"]
+          - ["Galerije", "podigao je Feliks Romulijanu"]
+        pomoc:
+          - "Jedina žena je Teuta."
+          - "Dakija je pala 106."
+          - "Iz lekcije: svaka ličnost ima svoje delo."
+        objasnjenje: "Četiri ličnosti, četiri etape rimske istorije Balkana."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Lekcija navodi Teutu, Tiberija, Trajana i Galerija."
+      - id: l02-povezi-pojmovi-rim
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [vojna-intervencija, provincija, romanizacija, limes]
+        pitanje: "Poveži pojam sa objašnjenjem."
+        parovi:
+          - ["Vojna intervencija", "oružana akcija na svom ili tuđem području"]
+          - ["Provincija", "upravna jedinica Rimskog carstva"]
+          - ["Romanizacija", "usvajanje rimske kulture i latinskog jezika"]
+          - ["Limes", "niz utvrđenja uz rimsku granicu"]
+        pomoc:
+          - "Jedan pojam je oružana akcija."
+          - "Jedan je linija odbrane."
+          - "Iz lekcije: pojmovi su objašnjeni u okvirima."
+        objasnjenje: "Svaki pojam opisuje jednu stranu rimske vlasti."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Lekcija objašnjava vojnu intervenciju, provinciju, romanizaciju i limes."
+      - id: l02-povezi-uzrok-posledica
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [ilirski-gusari, limes, romanizacija, provincija, podela-rimskog-carstva]
+        pitanje: "Poveži uzrok sa posledicom."
+        parovi:
+          - ["Ilirsko gusarenje na Jadranu", "rimska intervencija"]
+          - ["Potreba odbrane granice", "limes duž Dunava"]
+          - ["Vekovna rimska uprava", "romanizacija većine starosedelaca"]
+          - ["Podela 395.", "trajno odvojen uticaj Rima i Carigrada"]
+        pomoc:
+          - "Pitaj se šta iz čega sledi."
+          - "Gusari su povod rimskog dolaska."
+          - "Iz lekcije: svaki par je u delu „Uzrok → posledica”."
+        objasnjenje: "Četiri veze sažimaju rimsko doba na Balkanu."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Rimska vlast donosi lančane promene, od intervencije do podele."
+      - id: l02-zakljuci-gusari
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [ilirski-gusari, vojna-intervencija]
+        pitanje: "Zašto je Rim prvi put vojno intervenisao na Balkanu?"
+        odgovori:
+          - {tekst: "Zbog ilirskih gusara na Jadranu", tacan: true}
+          - {tekst: "Zbog napada Kelta na Italiju", tacan: false, zasto: "Lekcija početak vezuje za gusare."}
+          - {tekst: "Da bi izgradio limes", tacan: false, zasto: "Limes dolazi mnogo kasnije."}
+          - {tekst: "Zbog podele carstva", tacan: false, zasto: "Podela je vekovima kasnija."}
+        pomoc:
+          - "Korak 1: Gde je Rim prvo delovao?"
+          - "Korak 2: Ko je tamo pravio probleme?"
+          - "Iz lekcije: intervencija je bila protiv ilirskih gusara."
+        objasnjenje: "Gusarenje je bilo povod koji je doveo Rim preko Jadrana."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Početak je vojna intervencija protiv ilirskih gusara."
+        osa: {naziv: "Prvi ilirski rat", od: -229, do: -228, traka: dogadjaji}
+      - id: l02-zakljuci-postepeno
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [rimske-legije, trajan]
+        pitanje: "Šta pokazuje niz od Prvog ilirskog rata do zauzimanja Dakije?"
+        odgovori:
+          - {tekst: "Osvajanje je teklo postepeno, nekoliko vekova", tacan: true}
+          - {tekst: "Rim je Balkan osvojio u jednom ratu", tacan: false, zasto: "Od 229. pre n. e. do 106. n. e. prošlo je preko tri veka."}
+          - {tekst: "Rim nikada nije došao do Dunava", tacan: false, zasto: "Granica je učvršćena na Savi i Dunavu pod Avgustom."}
+          - {tekst: "Balkan je bio pod Rimom pre dolaska legija", tacan: false, zasto: "Legije su sredstvo osvajanja."}
+        pomoc:
+          - "Korak 1: Koliko je godina između 229. pre n. e. i 106. n. e.?"
+          - "Korak 2: Šta to govori o tempu?"
+          - "Iz lekcije: osvajanje je teklo postepeno, nekoliko vekova."
+        objasnjenje: "Oko 330 godina razmaka znači dug i postepen proces."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Osvajanje je teklo postepeno, nekoliko vekova."
+      - id: l02-zakljuci-limes-dunav
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [limes, oktavijan-avgust]
+        pitanje: "Zašto su ostaci limesa u Srbiji baš duž Dunava?"
+        odgovori:
+          - {tekst: "Zato što je Dunav bio rimska granica koju je trebalo braniti", tacan: true}
+          - {tekst: "Zato što je Dunav bio središte Grčke", tacan: false, zasto: "Grčka je na jugu."}
+          - {tekst: "Zato što su ih tamo podigli Kelti", tacan: false, zasto: "Limes je rimski sistem."}
+          - {tekst: "Zato što su u Dunavu bili gusari", tacan: false, zasto: "Gusari u lekciji su na Jadranu."}
+        pomoc:
+          - "Korak 1: Šta je limes?"
+          - "Korak 2: Gde je bila rimska granica?"
+          - "Iz lekcije: granica je na Savi i Dunavu."
+        objasnjenje: "Limes prati granicu, a granica je bila na Dunavu."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Duž Dunava sačuvani su ostaci vojnih utvrđenja koja su činila limes."
+      - id: l02-zakljuci-podela-danas
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [podela-rimskog-carstva]
+        pitanje: "Zašto kažemo da je podela 395. presudno uticala na dalju istoriju Balkana?"
+        odgovori:
+          - {tekst: "Linija je prolazila kroz samo poluostrvo i trajno ga podelila na dva kulturna uticaja", tacan: true}
+          - {tekst: "Zato što su se posle nje Rimljani povukli sa Balkana", tacan: false, zasto: "Lekcija to ne kaže; govori o dva uticaja."}
+          - {tekst: "Zato što je tada nastala Dakija", tacan: false, zasto: "Dakija je zauzeta 106."}
+          - {tekst: "Zato što je podela važila samo godinu dana", tacan: false, zasto: "Lekcija naglašava trajan uticaj."}
+        pomoc:
+          - "Korak 1: Kuda je prošla granica?"
+          - "Korak 2: Šta je sa dve strane granice?"
+          - "Iz lekcije: linija je prolazila kroz poluostrvo."
+        objasnjenje: "Dve strane granice dobile su različite kulturne uticaje, a to traje."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Zapamtite"
+          tekst: "Podela carstva 395. presudno je uticala na dalju istoriju Balkana, jer je linija prolazila kroz poluostrvo."
+        osa: {naziv: "Podela Rimskog carstva", od: 395, traka: dogadjaji}
+      - id: l02-zakljuci-romanizacija-jug
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [romanizacija, helenizacija]
+        pitanje: "Zašto se južna Srbija i Makedonija razlikuju po romanizaciji od ostatka Balkana?"
+        odgovori:
+          - {tekst: "Grčka kultura je tamo već bila prisutna, pa je grčki uticaj ostao jači", tacan: true}
+          - {tekst: "Rimljani tamo nikada nisu stigli", tacan: false, zasto: "Makedonija je pokorena u tri rata."}
+          - {tekst: "Tamo je živelo samo keltsko stanovništvo", tacan: false, zasto: "Lekcija tamo navodi grčki uticaj."}
+          - {tekst: "Tamo se govorilo samo latinski", tacan: false, zasto: "Upravo je grčki uticaj bio jači."}
+        pomoc:
+          - "Korak 1: Koje su kulture tamo već bile?"
+          - "Korak 2: Da li novi uticaj lako istiskuje stari?"
+          - "Iz lekcije: Makedonija je rano helenizovana, a u južnoj Srbiji i Makedoniji ostao je jači grčki uticaj."
+        objasnjenje: "Tamo gde je grčki uticaj bio star i jak, latinski nije preovladao."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "U južnoj Srbiji i Makedoniji ostao je jači grčki kulturni uticaj."
+      - id: l02-lanac-gusari
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [ilirski-gusari, prvi-ilirski-rat]
+        karike:
+          - "Iliri gusare na Jadranu"
+          - "?"
+          - "Prvi ilirski rat"
+        praznina: 1
+        odgovori:
+          - {tekst: "Rim vojno interveniše", tacan: true}
+          - {tekst: "Grci osnivaju kolonije", tacan: false, zasto: "Kolonije su starije od sukoba."}
+          - {tekst: "Trajan zauzima Dakiju", tacan: false, zasto: "To je vekovima kasnije."}
+        pomoc:
+          - "Korak 1: Ko je reagovao na gusare?"
+          - "Korak 2: Kako?"
+          - "Iz lekcije: gusarenje → intervencija → rat."
+        objasnjenje: "Povod je gusarenje, a intervencija prerasta u rat."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Akcija protiv gusara prerasla je u Prvi ilirski rat."
+        osa: {naziv: "Prvi ilirski rat", od: -229, do: -228, traka: dogadjaji}
+      - id: l02-lanac-teuta
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [kraljica-teuta, prvi-ilirski-rat]
+        karike:
+          - "Rim pobeđuje savez kraljice Teute"
+          - "?"
+          - "Ilirski brodovi više ne smeju da plove Jadranom"
+        praznina: 1
+        odgovori:
+          - {tekst: "Ilirima se zabranjuje plovidba Jadranom i nameće danak", tacan: true}
+          - {tekst: "Iliri dobijaju rimske gradove", tacan: false, zasto: "Pobeđeni plaćaju danak, a ne dobijaju gradove."}
+          - {tekst: "Teuta postaje rimski car", tacan: false, zasto: "Pobeđena kraljica ne postaje car."}
+        pomoc:
+          - "Korak 1: Šta pobednik traži?"
+          - "Korak 2: Šta sprečava gusarenje?"
+          - "Iz lekcije: zabrana plovidbe i danak."
+        objasnjenje: "Zabrana plovidbe uklanja uzrok rata."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Poraz Teutinog saveza doveo je do zabrane plovidbe i danka."
+      - id: l02-lanac-provincije
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [provincija]
+        karike:
+          - "Rim osvaja nove oblasti"
+          - "?"
+          - "Grade se putevi, vodovodi, rudnici i gradovi"
+        praznina: 1
+        odgovori:
+          - {tekst: "Na osvojenom tlu nastaju provincije", tacan: true}
+          - {tekst: "Osvojene zemlje se vraćaju plemenima", tacan: false, zasto: "Rim ih organizuje, a ne vraća."}
+          - {tekst: "Rim prestaje da se bavi tim oblastima", tacan: false, zasto: "Upravo ih izgrađuje."}
+        pomoc:
+          - "Korak 1: Kako se uređuje osvojeno tlo?"
+          - "Korak 2: Šta treba novoj upravi?"
+          - "Iz lekcije: osvojene teritorije → provincije, gradovi, putevi."
+        objasnjenje: "Osvajanje prati organizacija: provincije i izgradnja."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Na osvojenom tlu nastaju provincije, a Rimljani grade puteve, vodovode, rudnike i gradove."
+      - id: l02-lanac-romanizacija
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [romanizacija, provincija]
+        karike:
+          - "Rim uređuje provincije i gradove"
+          - "Vekovima traje rimska uprava"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Većina starosedelaca se romanizuje", tacan: true}
+          - {tekst: "Starosedeoci prelaze na grčki", tacan: false, zasto: "To važi samo za južnu Srbiju i Makedoniju, i to kao jači grčki uticaj."}
+          - {tekst: "Limes prestaje da postoji", tacan: false, zasto: "Limes nije posledica romanizacije."}
+        pomoc:
+          - "Korak 1: Šta dugo življenje pod rimskom upravom čini jeziku?"
+          - "Korak 2: Kako se taj proces zove?"
+          - "Iz lekcije: posle nekoliko vekova većina se romanizovala."
+        objasnjenje: "Vekovi rimske uprave i gradovi šire latinski i rimske običaje."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Posle nekoliko vekova rimske uprave većina starosedelaca se romanizovala."
+      - id: l02-lanac-makedonija
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [makedonija, kolonija]
+        karike:
+          - "Rim dolazi u sukob sa Makedonijom"
+          - "Grčke kolonije staju uz Rim"
+          - "?"
+          - "Rim nastavlja da osvaja Balkan"
+        praznina: 2
+        odgovori:
+          - {tekst: "Posle tri rata Makedonija je konačno pokorena", tacan: true}
+          - {tekst: "Makedonija u jednom ratu pobeđuje Rim", tacan: false, zasto: "Rim je pobedio, ali tek u trećem ratu."}
+          - {tekst: "Grčke kolonije nestaju", tacan: false, zasto: "Lekcija to ne kaže."}
+        pomoc:
+          - "Korak 1: Koliko je ratova trebalo?"
+          - "Korak 2: Kakav je bio ishod?"
+          - "Iz lekcije: sukob Rima i Makedonije → tri rata, Makedonija pokorena."
+        objasnjenje: "Posle Makedonije Rim nastavlja da pokorava Balkan."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Bila su potrebna tri rata da Makedonija bude pokorena."
+      - id: l02-lanac-podela
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [podela-rimskog-carstva]
+        karike:
+          - "395. carstvo je podeljeno"
+          - "Granica ide od Dunava kod Beograda do Boke Kotorske"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Zapadni Balkan je pod Rimom i latinskom kulturom, a istočni pod Carigradom i vizantijskom", tacan: true}
+          - {tekst: "Ceo Balkan je pod Rimom", tacan: false, zasto: "Podela ga je upravo razdvojila."}
+          - {tekst: "Ceo Balkan je pod Carigradom", tacan: false, zasto: "Zapad ostaje pod Rimom."}
+        pomoc:
+          - "Korak 1: Šta je zapadno, a šta istočno?"
+          - "Korak 2: Koje su kulture na svakoj strani?"
+          - "Iz lekcije: zapadno Rim i latinska kultura, istočno Carigrad i vizantijska."
+        objasnjenje: "Granica pravi dva kulturna sveta na istom poluostrvu."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Podela je Balkan razdvojila na latinski i vizantijski uticaj."
+        osa: {naziv: "Podela Rimskog carstva", od: 395, traka: dogadjaji}
+      - id: l02-izvor-legionari-logor
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [rimske-legije]
+        izvor:
+          autor: "Crtež iz udžbenika"
+          naslov: "Rimski legionari se pripremaju za logorovanje (opis slike)"
+          tekst: "Vojnici kopaju rov i nasipaju zemlju, drugi nose teret i prate rad sa kopljima, a u prvom planu su veliki izduženi štitovi sa šlemovima."
+          napomena: "Odlomak je prepričan; udžbenik, str. 13."
+        pitanje: "Šta nam ovaj crtež govori o rimskoj vojsci?"
+        odgovori:
+          - {tekst: "Podizanje utvrđenog logora bilo je redovan deo vojne službe", tacan: true}
+          - {tekst: "Vojnici su se bavili samo borbom", tacan: false, zasto: "Crtež ih prikazuje i kako kopaju i nose teret."}
+          - {tekst: "Legionari su bili trgovci", tacan: false, zasto: "Crtež prikazuje vojnike na radu, a ne trgovinu."}
+          - {tekst: "Rimljani nisu poznavali štitove", tacan: false, zasto: "Štitovi su jasno prikazani."}
+        pomoc:
+          - "Šta rade vojnici?"
+          - "Čemu služe rov i nasip?"
+          - "Iz lekcije: logori su bili deo rimskog učvršćivanja osvojenih oblasti."
+        objasnjenje: "Legionar je bio i graditelj: logor je štitio i učvršćivao vlast."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Crtež prikazuje legionare koji kopaju rov i nasip za logor."
+          slika: "02-balkanske-teritorije-u-antickom-dobu/02-legionari-pripremaju-logor.jpg"
+      - id: l02-izvor-gamzigrad
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [gamzigrad, feliks-romulijana, galerije]
+        izvor:
+          autor: "Fotografija iz udžbenika"
+          naslov: "Gamzigrad (opis slike)"
+          tekst: "Ostaci: red stubova oko četvrtastog dvorišta popločanog kamenom, a u dvorištu plitka kamena posuda."
+          napomena: "Odlomak je prepričan; udžbenik, str. 15."
+        pitanje: "Čiji su ovo ostaci?"
+        odgovori:
+          - {tekst: "Palate Feliks Romulijana cara Galerija", tacan: true}
+          - {tekst: "Lepenskog Vira", tacan: false, zasto: "Lepenski Vir je praistorijsko naselje na Dunavu."}
+          - {tekst: "Grčke kolonije", tacan: false, zasto: "Gamzigrad je kod Zaječara, u unutrašnjosti, i rimski je."}
+          - {tekst: "Limesa na Dunavu", tacan: false, zasto: "Limes su utvrđenja uz reku, a ovo je palata."}
+        pomoc:
+          - "Mesto je kod Zaječara."
+          - "Podigao ju je rimski car."
+          - "Iz lekcije: Gamzigrad je mesto Feliks Romulijane."
+        objasnjenje: "Gamzigrad je mesto velike Galerijeve palate."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Fotografija prikazuje ostatke Feliks Romulijane."
+          slika: "02-balkanske-teritorije-u-antickom-dobu/04-gamzigrad.jpg"
+      - id: l02-izvor-legionari-oprema
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [rimske-legije]
+        izvor:
+          autor: "Crtež iz udžbenika"
+          naslov: "Rimski legionari (opis slike)"
+          tekst: "Dva vojnika sa šlemovima, ovalnim oslikanim štitovima i dugim kopljima; imaju metalne delove opreme na grudima i nogama."
+          napomena: "Odlomak je prepričan; udžbenik, str. 14."
+        pitanje: "Šta sve spada u opremu legionara sa slike? (više tačnih)"
+        odgovori:
+          - {tekst: "Šlem", tacan: true}
+          - {tekst: "Štit", tacan: true}
+          - {tekst: "Koplje", tacan: true}
+          - {tekst: "Rog za pravljenje buke", tacan: false, zasto: "Rogove i trube lekcija navodi kod Kelta."}
+        pomoc:
+          - "Pročitaj opis."
+          - "Tri odgovora su tačna."
+          - "Iz lekcije: šlem, štit i koplje."
+        objasnjenje: "Legionar nosi šlem, štit i koplje."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Legionari su prikazani sa šlemovima, štitovima i kopljima."
+          slika: "02-balkanske-teritorije-u-antickom-dobu/03-rimski-legionari.jpg"
+      - id: l02-uporedi-provincije
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [dalmacija, gornja-mezija]
+        a: "Dalmacija"
+        b: "Gornja Mezija"
+        pitanje: "Na koju provinciju se odnosi tvrdnja: Dalmaciju, Gornju Meziju, obe ili nijednu?"
+        tvrdnje:
+          - {tekst: "Ime je dobila po tračkom plemenu Meza.", odgovor: b, zasto: "Mezija je dobila ime po Mezima."}
+          - {tekst: "Dosezala je do Jadrana.", odgovor: a, zasto: "Dalmacija se pružala od Jadrana."}
+          - {tekst: "Bila je rimska provincija na tlu Srbije.", odgovor: oba, zasto: "Obe su provincije na tlu Srbije."}
+          - {tekst: "Bila je grčka kolonija.", odgovor: nijedan, zasto: "Obe su rimske provincije."}
+        pomoc:
+          - "Pomisli na ime."
+          - "Obe su rimske."
+          - "Iz lekcije: Dalmacija i Gornja Mezija pokrivale su tlo Srbije."
+        objasnjenje: "Dve provincije delile su tlo današnje Srbije."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Provincije na tlu Srbije bile su Dalmacija i Gornja Mezija."
+      - id: l02-uporedi-rim-carigrad
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [podela-rimskog-carstva]
+        a: "Zapadno od granice iz 395."
+        b: "Istočno od granice iz 395."
+        pitanje: "Na koju stranu se odnosi tvrdnja: zapad, istok, obe ili nijednu?"
+        tvrdnje:
+          - {tekst: "Trajno pod uticajem Rima i latinske kulture.", odgovor: a, zasto: "To je zapad."}
+          - {tekst: "Pod uticajem Carigrada i vizantijske kulture.", odgovor: b, zasto: "To je istok."}
+          - {tekst: "Deo Balkana.", odgovor: oba, zasto: "Linija ide kroz poluostrvo."}
+          - {tekst: "Pod vlašću Kelta.", odgovor: nijedan, zasto: "Kelti su već pokoreni."}
+        pomoc:
+          - "Zapadno carstvo je vezano za Rim."
+          - "Istok je vezan za Carigrad."
+          - "Iz lekcije: zapad latinski, istok vizantijski."
+        objasnjenje: "Podela je stvorila dve kulturne strane."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Zemlje zapadno od granice su pod Rimom, a istočno pod Carigradom."
+        osa: {naziv: "Podela Rimskog carstva", od: 395, traka: dogadjaji}
+      - id: l02-uporedi-trajan-avgust
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [oktavijan-avgust, trajan]
+        a: "Oktavijan Avgust"
+        b: "Trajan"
+        pitanje: "Na koga se odnosi tvrdnja: Avgusta, Trajana, obojicu ili nijednog?"
+        tvrdnje:
+          - {tekst: "Učvrstio je granicu na Savi i Dunavu.", odgovor: a, zasto: "To je Avgust."}
+          - {tekst: "Zauzeo je Dakiju.", odgovor: b, zasto: "To je Trajan, 106."}
+          - {tekst: "Pod njim se širila rimska vlast na Balkanu.", odgovor: oba, zasto: "Obojica su širili vlast."}
+          - {tekst: "Podelio je carstvo na Zapadno i Istočno.", odgovor: nijedan, zasto: "Podela je 395, a lekcija je ne pripisuje ni jednom od njih."}
+        pomoc:
+          - "Avgust je stariji."
+          - "Dakija je 106."
+          - "Iz lekcije: Avgust – Dunav; Trajan – Dakija."
+        objasnjenje: "Avgust je zaokružio granicu, a Trajan otišao preko nje."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Avgust je učvrstio granicu na Savi i Dunavu, a Trajan zauzeo Dakiju."
+      - id: l02-ko-sam-teuta
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [kraljica-teuta]
+        tragovi:
+          - "Predvodila sam ilirski savez."
+          - "Moj savez pobedili su Rimljani 229–228. pre n. e."
+        odgovori:
+          - {tekst: "Kraljica Teuta", tacan: true}
+          - {tekst: "Car Galerije", tacan: false, zasto: "Galerije je rimski car."}
+          - {tekst: "Tiberije", tacan: false, zasto: "Tiberije je Avgustov posinak."}
+          - {tekst: "Aleksandar Makedonski", tacan: false, zasto: "Aleksandar je makedonski vladar."}
+        objasnjenje: "To je ilirska kraljica Teuta."
+        iz_udzbenika:
+          strana: 13
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "U Prvom ilirskom ratu pobeđen je savez kraljice Teute."
+      - id: l02-ko-sam-galerije
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [galerije, feliks-romulijana]
+        tragovi:
+          - "Bio sam rimski car."
+          - "Moja palata je u današnjem Gamzigradu."
+          - "Palata se zove Feliks Romulijana."
+        odgovori:
+          - {tekst: "Galerije", tacan: true}
+          - {tekst: "Trajan", tacan: false, zasto: "Trajan je zauzeo Dakiju."}
+          - {tekst: "Oktavijan Avgust", tacan: false, zasto: "Avgust je učvrstio granicu na Dunavu."}
+          - {tekst: "Tiberije", tacan: false, zasto: "Tiberije je slomio ustanak."}
+        objasnjenje: "To je car Galerije."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Car Galerije podigao je palatu Feliks Romulijana."
+          slika: "02-balkanske-teritorije-u-antickom-dobu/04-gamzigrad.jpg"
+      - id: l02-ko-sam-avgust
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [oktavijan-avgust]
+        tragovi:
+          - "Vladao sam od 27. pre n. e. do 14. n. e."
+          - "Savladao sam poslednja nepokorena plemena."
+          - "Pod mnom je učvršćena granica na Savi i Dunavu."
+        odgovori:
+          - {tekst: "Oktavijan Avgust", tacan: true}
+          - {tekst: "Trajan", tacan: false, zasto: "Trajan je mnogo kasniji i osvaja Dakiju."}
+          - {tekst: "Galerije", tacan: false, zasto: "Galerije je poznat po palati u Gamzigradu."}
+          - {tekst: "Teuta", tacan: false, zasto: "Teuta je ilirska kraljica."}
+        objasnjenje: "To je Oktavijan Avgust."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Granica na Savi i Dunavu učvršćena je pod Oktavijanom Avgustom."
+        osa: {naziv: "Oktavijan Avgust", od: -27, do: 14, traka: vladari}
+      - id: l02-ko-sam-tiberije
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [tiberije, oktavijan-avgust]
+        tragovi:
+          - "Nisam rođeni sin vladara koga sam služio."
+          - "Morao sam da gušim pobunu u godinama 6–9. n. e."
+          - "Moj očuh je učvrstio granicu na Dunavu."
+        odgovori:
+          - {tekst: "Tiberije", tacan: true}
+          - {tekst: "Trajan", tacan: false, zasto: "Trajan je vladao mnogo kasnije."}
+          - {tekst: "Galerije", tacan: false, zasto: "Galerije nije iz Avgustovog vremena."}
+          - {tekst: "Teuta", tacan: false, zasto: "Teuta je iz III veka pre n. e."}
+        objasnjenje: "To je Tiberije, Avgustov posinak."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Ustanak je slomio Avgustov posinak Tiberije."
+      - id: l02-objasni-limes
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [limes]
+        pitanje: "Objasni pojam limes."
+        uzor: "Limes je niz većih i manjih utvrđenja uz rimsku granicu, sa stalnim vojnim posadama. Služio je odbrani granice. Ostaci su sačuvani duž Dunava."
+        ideje:
+          - "Niz utvrđenja uz granicu."
+          - "Stalne vojne posade."
+          - "Ostaci duž Dunava."
+        objasnjenje: "Limes je granica pretvorena u odbrambeni sistem."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Limes je sistem utvrđenja duž rimske granice sa stalnim posadama."
+      - id: l02-objasni-tragovi-danas
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [sirmijum, singidunum, viminacijum, feliks-romulijana, limes]
+        pitanje: "Gde se u Srbiji danas vide rimski tragovi?"
+        uzor: "To su Sremska Mitrovica (Sirmijum), Beograd (Singidunum), Kostolac (Viminacijum), Gamzigrad (Feliks Romulijana) i utvrđenja uz Dunav."
+        ideje:
+          - "Bar dva grada sa rimskim imenima."
+          - "Gamzigrad i Feliks Romulijana."
+          - "Utvrđenja uz Dunav."
+        objasnjenje: "Rimska prošlost je vidljiva širom Srbije."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Rimski tragovi su u Sremskoj Mitrovici, Beogradu, Kostolcu, Gamzigradu i uz Dunav."
+      - id: l02-objasni-tok-osvajanja
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [prvi-ilirski-rat, makedonija, oktavijan-avgust, dakija]
+        pitanje: "Opiši tok rimskog osvajanja Balkana."
+        uzor: "Počinje intervencijom protiv gusara i Prvim ilirskim ratom. Slede tri rata protiv Makedonije i pokoravanje Ilira, Kelta i Tračana. Pod Avgustom je učvršćena granica na Savi i Dunavu, a Trajan 106. zauzima Dakiju."
+        ideje:
+          - "Prvi ilirski rat."
+          - "Tri rata sa Makedonijom."
+          - "Pokoravanje Ilira, Kelta i Tračana."
+          - "Granica pod Avgustom i Dakija 106."
+        objasnjenje: "Osvajanje je dug niz koraka, a ne jedan pohod."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Osvajanje vodi od intervencije protiv gusara do Dakije 106."
+      - id: l02-objasni-romanizacija
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [romanizacija]
+        pitanje: "Šta je romanizacija i zašto je do nje došlo?"
+        uzor: "Romanizacija je usvajanje rimske kulture, običaja i latinskog jezika. Do nje je došlo jer je rimska uprava na Balkanu trajala nekoliko vekova, uz gradove, puteve i vojsku. Većina starosedelaca se romanizovala, osim u južnoj Srbiji i Makedoniji, gde je ostao jači grčki uticaj."
+        ideje:
+          - "Usvajanje rimske kulture i latinskog."
+          - "Vekovna rimska uprava."
+          - "Izuzetak: južna Srbija i Makedonija."
+        objasnjenje: "Romanizacija je posledica dugog života u okviru rimske države."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Posle nekoliko vekova rimske uprave većina starosedelaca se romanizovala."
+      - id: l02-objasni-podela-znacaj
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [podela-rimskog-carstva]
+        pitanje: "Zašto je podela 395. godine važna za Balkan iako se dogodila pre više od 1600 godina?"
+        uzor: "Granica je išla od Dunava kod Beograda do Jadrana kod Boke Kotorske, dakle kroz samo poluostrvo. Zemlje zapadno od nje trajno su ostale pod Rimom i latinskom kulturom, a istočno pod Carigradom i vizantijskom. Tako je Balkan dobio dve kulturne strane, što je oblikovalo njegovu dalju istoriju."
+        ideje:
+          - "Linija prolazi kroz poluostrvo."
+          - "Zapad: Rim i latinska kultura."
+          - "Istok: Carigrad i vizantijska kultura."
+          - "Uticaj je bio trajan."
+        objasnjenje: "Kulturne granice mogu da traju mnogo duže od država."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Zapamtite"
+          tekst: "Podela carstva 395. presudno je uticala na dalju istoriju Balkana."
+      - id: l02-objasni-grade
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [provincija, limes]
+        pitanje: "Rimljani nisu samo osvajali, nego i gradili. Objasni kako je izgradnja pomagala da zadrže vlast."
+        uzor: "Vojni logori i limes štitili su granicu i čuvali red. Putevi su povezivali oblasti, a gradovi su bili vojna, upravna i privredna središta. Rudnici i vodovodi donosili su korist i udobnost. Tako je osvojeno tlo postajalo stalni deo države."
+        ideje:
+          - "Logori i limes za odbranu."
+          - "Putevi povezuju provincije."
+          - "Gradovi kao središta uprave i privrede."
+        objasnjenje: "Izgradnja pretvara osvajanje u trajnu vlast."
+        iz_udzbenika:
+          strana: 14
+          odeljak: "Rimska osvajanja na Balkanu i romanizacija"
+          tekst: "Rimljani grade logore, puteve, vodovode, rudnike i gradove."
+          slika: "02-balkanske-teritorije-u-antickom-dobu/02-legionari-pripremaju-logor.jpg"
+  - naslov: "Iz istorijskih izvora"
+    zadaci:
+      - id: l02-izvor-aleksandar-poslanici
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [aleksandar-makedonski, kelti, tribali]
+        izvor:
+          autor: "Antička anegdota"
+          naslov: "Aleksandar Makedonski i keltski poslanici"
+          tekst: "Mladi vladar Aleksandar Makedonski ratovao je sa Tribalima u slivu Morave i stigao do Dunava, gde je primio keltske poslanike."
+          napomena: "Odlomak je prepričan; udžbenik, str. 15."
+        pitanje: "Zbog čega je ova vest važna za istoriju Kelta na Balkanu?"
+        odgovori:
+          - {tekst: "To je prvo pouzdano spominjanje Kelta na Balkanu", tacan: true}
+          - {tekst: "Tada su Kelti osvojili Makedoniju", tacan: false, zasto: "Poslanici su ponudili prijateljstvo, a nisu osvajali."}
+          - {tekst: "Tada su Kelti postali Rimljani", tacan: false, zasto: "Rim tada još nije na Balkanu."}
+          - {tekst: "Tada su Kelti napustili Balkan", tacan: false, zasto: "Skordisci ostaju kod ušća Save u Dunav."}
+        pomoc:
+          - "Kelti se tu javljaju u pisanoj vesti."
+          - "Radi se o pouzdanom podatku."
+          - "Iz lekcije: to je prvo pouzdano spominjanje Kelta na Balkanu."
+        objasnjenje: "Ovaj susret je prvo pouzdano spominjanje Kelta na Balkanu."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Primanje keltskih poslanika na Dunavu prvo je pouzdano spominjanje Kelta na Balkanu."
+        osa: {naziv: "Aleksandar Makedonski protiv Tribala", od: -335, traka: dogadjaji}
+      - id: l02-izvor-nebo
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [aleksandar-makedonski, kelti]
+        izvor:
+          autor: "Antička anegdota"
+          naslov: "Čega se plaše Kelti?"
+          tekst: "Aleksandar je upitao Kelte čega se najviše plaše, očekujući da će čuti da se boje njega. Oni su odgovorili da strahuju jedino da im nebo ne padne na glavu."
+          napomena: "Odlomak je prepričan; udžbenik, str. 15."
+        pitanje: "Šta je Aleksandar želeo da čuje?"
+        odgovori:
+          - {tekst: "Da se Kelti najviše boje njega", tacan: true}
+          - {tekst: "Da se boje Rimljana", tacan: false, zasto: "Rim se u priči ne pojavljuje."}
+          - {tekst: "Da se boje Tribala", tacan: false, zasto: "Pitanje je bilo o njemu samom."}
+          - {tekst: "Da se boje Dunava", tacan: false, zasto: "U odlomku je očekivao strah od sebe."}
+        pomoc:
+          - "Pročitaj prvu rečenicu."
+          - "Mladi vladar je ponosan."
+          - "Iz lekcije: očekivao je da će čuti da se boje njega."
+        objasnjenje: "Aleksandar je tražio potvrdu svoje moći, a dobio ponosan odgovor."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Aleksandar je očekivao da će čuti da se boje njega."
+        osa: {naziv: "Aleksandar Makedonski protiv Tribala", od: -335, traka: dogadjaji}
+      - id: l02-izvor-nebo-zasto
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [aleksandar-makedonski, kelti]
+        izvor:
+          autor: "Antička anegdota"
+          naslov: "Čega se plaše Kelti?"
+          tekst: "Kelti, živeći daleko i nedostupno, a videći da Aleksandar ide u drugom pravcu, odgovorili su da strahuju jedino da im nebo ne padne na glavu. Proglasio ih je saveznicima i prijateljima, poslao nazad i primetio da su hvalisavci."
+          napomena: "Odlomak je prepričan; udžbenik, str. 15."
+        pitanje: "Zašto su Kelti mogli da daju tako smeo odgovor?"
+        odgovori:
+          - {tekst: "Živeli su daleko i videli da on ide u drugom pravcu, pa im nije pretila neposredna opasnost", tacan: true}
+          - {tekst: "Već su pobedili Makedonce u boju", tacan: false, zasto: "U odlomku nema takvog boja."}
+          - {tekst: "Nisu znali ko je Aleksandar", tacan: false, zasto: "Došli su mu kao poslanici i ponudili prijateljstvo."}
+          - {tekst: "Rimljani su ih štitili", tacan: false, zasto: "Rim tada nije na Balkanu."}
+        pomoc:
+          - "Gde su živeli u odnosu na njega?"
+          - "Kuda je on išao?"
+          - "Iz lekcije: živeli su daleko i nedostupno, a on je išao u drugom pravcu."
+        objasnjenje: "Smelost dolazi iz bezbednosti: daleko su i nisu mu na putu."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Kelti su živeli daleko i nedostupno, pa su odgovorili smelo."
+      - id: l02-zakljuci-hvalisavci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [aleksandar-makedonski, kelti]
+        pitanje: "Zašto je Aleksandar Kelte proglasio saveznicima, a ipak ih nazvao hvalisavcima?"
+        odgovori:
+          - {tekst: "Prijateljstvo mu je koristilo, a odgovor mu je povredio ponos", tacan: true}
+          - {tekst: "Kelti su mu platili danak", tacan: false, zasto: "U anegdoti su razmenjene zaloge vernosti, a ne danak."}
+          - {tekst: "Nije razumeo njihov jezik", tacan: false, zasto: "Razgovor je tekao, a on je primetio njihovo hvalisanje."}
+          - {tekst: "Hteo je da ih pozove u Makedoniju", tacan: false, zasto: "Poslao ih je nazad."}
+        pomoc:
+          - "Korak 1: Šta je dobio od saveza?"
+          - "Korak 2: Šta je očekivao da čuje?"
+          - "Iz lekcije: proglasio ih je saveznicima i primetio da su hvalisavci."
+        objasnjenje: "Politička korist i lični utisak su dve odvojene stvari."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Aleksandar ih je proglasio saveznicima i primetio da su hvalisavci."
+      - id: l02-tn-poslanici-dunav
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [aleksandar-makedonski, tribali]
+        tvrdnja: "Aleksandar Makedonski je ratovao sa Tribalima u slivu Morave."
+        tacno: true
+        pomoc:
+          - "Pleme je tračko."
+          - "Iz lekcije: ratovao je sa Tribalima u slivu Morave i stigao do Dunava."
+        objasnjenje: "Tačno: tako je stigao do Dunava."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Aleksandar Makedonski ratovao je sa Tribalima u slivu Morave."
+        osa: {naziv: "Aleksandar Makedonski protiv Tribala", od: -335, traka: dogadjaji}
+      - id: l02-objasni-anegdota
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [aleksandar-makedonski, kelti]
+        pitanje: "Prepričaj susret Aleksandra Makedonskog i Kelta i kaži šta iz njega saznajemo o Keltima."
+        uzor: "Keltski poslanici su došli Aleksandru na Dunav i ponudili prijateljstvo. Upitao ih je čega se najviše plaše, a oni su rekli da strahuju jedino da im nebo ne padne na glavu. Iz toga vidimo da su bili ponosni i samouvereni, a to je i prvo pouzdano spominjanje Kelta na Balkanu."
+        ideje:
+          - "Poslanici nude prijateljstvo na Dunavu."
+          - "Odgovor o nebu koje pada."
+          - "Kelti su ponosni i samouvereni."
+          - "Prvo pouzdano spominjanje Kelta na Balkanu."
+        objasnjenje: "Anegdota je ujedno priča i istorijski podatak."
+        iz_udzbenika:
+          strana: 15
+          odeljak: "Iz istorijskih izvora"
+          tekst: "Keltski poslanici na Dunavu odgovorili su ponosno na Aleksandrovo pitanje."

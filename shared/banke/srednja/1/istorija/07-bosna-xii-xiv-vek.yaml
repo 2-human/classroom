@@ -1,0 +1,1408 @@
+# Banka pitanja: Bosna od XII do XIV veka (istorija, 1. razred srednje škole, str. 34–35). Sopstvenim rečima, po belešci lekcije.
+lekcija: 7
+naslov: "Bosna od XII do XIV veka"
+pojmovi:
+  bosna: Bosna
+  bogumili: bogumili
+  patareni: patareni
+  crkva-bosanska: Crkva bosanska
+  jeretik: jeretik
+  ban-kulin: ban Kulin
+  kotromanici: Kotromanići
+  stjepan-ii-kotromanic: Stjepan II Kotromanić
+  tvrtko-i: Tvrtko I
+  hum: Hum
+  zapadna-bosna: zapadna Bosna
+  mileseva: Mileševa
+  stefan-nemanja: Stefan Nemanja
+  ugarska: Ugarska
+  vizantija: Vizantija
+  papa-inocentije-iii: papa Inoćentije III
+  krstaski-rat: krstaški rat
+  turci: Turci
+  vlastela: vlastela
+  pavle-radenovic: knez Pavle Radenović
+  dubrovnik: Dubrovnik
+delovi:
+  # ==========================================================================
+  - naslov: "Uvod"
+    zadaci:
+      - id: l07-uvod-izbor-nastanak
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [bosna]
+        pitanje: "Kada je u Bosni oformljena država?"
+        odgovori:
+          - {tekst: "Krajem XII veka", tacan: true}
+          - {tekst: "Početkom IX veka", tacan: false, zasto: "Tako rano lekcija ne govori o bosanskoj državi; ona se oblikuje krajem XII veka, u doba bana Kulina."}
+          - {tekst: "Sredinom XIV veka", tacan: false, zasto: "Sredina XIV veka je vreme jačanja već postojeće države; nastala je krajem XII veka."}
+          - {tekst: "Godine 1463.", tacan: false, zasto: "To je godina kada je Bosna pala pod tursku vlast, dakle kraj države, a ne njen početak."}
+        pomoc:
+          - "Prvi vladar nezavisne Bosne počinje da vlada 1180."
+          - "Traži vek pre XIII, i to njegov kraj."
+          - "Iz lekcije: država u Bosni oformljena je krajem XII veka."
+        objasnjenje: "Bosanska država nastaje krajem XII veka, a njen prvi nezavisni vladar je ban Kulin."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Uvod"
+          tekst: "Država se u Bosni oblikuje krajem XII veka."
+        osa: {naziv: "Nastanak bosanske države", od: 1180, do: 1200, traka: dogadjaji, oznaka: "kraj XII veka"}
+
+      - id: l07-uvod-izbor-sile
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [ugarska, vizantija, bosna]
+        pitanje: "Čiji su se interesi sudarali na bosanskom prostoru? (više tačnih)"
+        odgovori:
+          - {tekst: "Ugarske", tacan: true}
+          - {tekst: "Vizantije", tacan: true}
+          - {tekst: "Turaka", tacan: false, zasto: "Turci počinju da upadaju u Bosnu tek posle Tvrtkove smrti; rano nadmetanje vode Ugarska i Vizantija."}
+          - {tekst: "Dubrovnika", tacan: false, zasto: "Dubrovnik je sused i trgovac, a ne sila koja se bori za prevlast nad Bosnom; to su Ugarska i Vizantija."}
+        pomoc:
+          - "Jedna sila je severno od Bosne, a druga je veliko carstvo na istoku Balkana."
+          - "Ban Kulin je hteo da se oslobodi vlasti baš te dve sile."
+          - "Iz lekcije: u Bosni su se sudarali interesi Ugarske i Vizantije."
+        objasnjenje: "Bosna je ležala između Ugarske i Vizantije, pa su se te dve sile nadmetale oko uticaja na nju."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Uvod"
+          tekst: "Na bosanskom prostoru sudarali su se interesi Ugarske i Vizantije."
+
+      - id: l07-uvod-tn-kotromanici
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [kotromanici, turci]
+        tvrdnja: "Dinastija Kotromanića držala je vlast u Bosni sve do pada države pod Turke."
+        tacno: true
+        pomoc:
+          - "Seti se koja dinastija se pominje uz Stjepana II."
+          - "Iz lekcije: Kotromanići su na vlasti do pada 1463."
+        objasnjenje: "Tačno. Kotromanići vladaju Bosnom sve dok ona 1463. ne padne pod tursku vlast."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Uvod"
+          tekst: "Kotromanići su držali vlast sve do pada države pod Turke."
+
+      - id: l07-uvod-zakljuci-polozaj
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [bosna, ugarska, vizantija, ban-kulin]
+        pitanje: "Bosna se nalazila između dve jake sile. Kakav je cilj zato bio najvažniji prvom nezavisnom vladaru?"
+        odgovori:
+          - {tekst: "Da izvuče zemlju ispod vlasti i Vizantije i Ugarske", tacan: true}
+          - {tekst: "Da pokori Vizantiju i zauzme njene gradove", tacan: false, zasto: "Bosna je tada mala država koja tek stiče nezavisnost, pa joj je cilj da se oslobodi, a ne da osvaja carstvo."}
+          - {tekst: "Da pozove Turke kao saveznike", tacan: false, zasto: "Turci se u lekciji pojavljuju tek posle Tvrtkove smrti, skoro dva veka kasnije."}
+          - {tekst: "Da zemlju preda Ugarskoj kako bi bila sigurna", tacan: false, zasto: "Kulin je hteo suprotno: da se izvuče i iz ugarske i iz vizantijske vlasti."}
+        pomoc:
+          - "Korak 1: Šta želi mala zemlja između dve velike sile?"
+          - "Korak 2: Kako se zove Kulin u lekciji: prvi vladar kakve Bosne?"
+          - "Iz lekcije: Kulin se trudio da zemlju izvuče i iz vizantijske i iz ugarske vlasti."
+        objasnjenje: "Položaj između dve sile značio je stalan pritisak, pa je put do nezavisnosti vodio kroz oslobađanje od obe."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Ban Kulin je nastojao da oslobodi zemlju i vizantijske i ugarske vlasti."
+
+      - id: l07-uvod-objasni-posebnost
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [bosna, bogumili, crkva-bosanska, vlastela]
+        pitanje: "Navedi po čemu se srednjovekovna Bosna razlikovala od drugih država u okruženju i objasni svojim rečima."
+        uzor: "Bosanski vladari su podržali bogumile koje su drugi progonili, pa je tamo nastala Crkva bosanska. Pored toga, presto se nije automatski nasleđivao: vlastela je birala naslednika, ali samo iz vladarske dinastije. Tako su i vera i način dolaska na vlast Bosnu činili posebnom."
+        ideje:
+          - "Vladari su podržali bogumile."
+          - "Nastala je sopstvena Crkva bosanska."
+          - "Vlastela bira naslednika prestola."
+          - "Birati se može samo član vladarske dinastije."
+        objasnjenje: "Dve posebnosti su verska (Crkva bosanska) i državna (izbor vladara unutar dinastije)."
+        iz_udzbenika:
+          strana: 35
+          odeljak: "Posebnost bosanske države"
+          tekst: "Presto se nije nasleđivao automatski; vlastela je birala naslednika, i to samo iz dinastije."
+
+  # ==========================================================================
+  - naslov: "Bosna od XII do XIV veka"
+    zadaci:
+      - id: l07-bos-izbor-kulin
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [ban-kulin, bosna]
+        pitanje: "Ko je bio prvi vladar nezavisne Bosne?"
+        odgovori:
+          - {tekst: "Ban Kulin", tacan: true}
+          - {tekst: "Tvrtko I", tacan: false, zasto: "Tvrtko I vlada mnogo kasnije (1353–1391) i dovodi Bosnu do vrhunca; prvi je bio Kulin."}
+          - {tekst: "Stefan Nemanja", tacan: false, zasto: "Stefan Nemanja je vladar Srbije koji je proterao bogumile; prvi vladar Bosne je Kulin."}
+          - {tekst: "Stjepan II Kotromanić", tacan: false, zasto: "Stjepan II vlada u XIV veku i širi državu; prvi nezavisni vladar je Kulin."}
+        pomoc:
+          - "Vladao je od 1180. do 1204."
+          - "Nosio je titulu bana i primio je bogumile."
+          - "Iz lekcije: ban Kulin (1180–1204) je prvi vladar nezavisne Bosne."
+        objasnjenje: "Ban Kulin (1180–1204) je prvi vladar nezavisne Bosne, poznat po naklonosti prema bogumilima."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Ban Kulin je vladao od 1180. do 1204. i prvi je vladar nezavisne Bosne."
+        osa: {naziv: "Ban Kulin", od: 1180, do: 1204, traka: vladari}
+
+      - id: l07-bos-izbor-jeretik
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [jeretik]
+        pitanje: "Šta znači reč jeretik?"
+        odgovori:
+          - {tekst: "Osoba koja se ne drži zvanično priznatog verskog učenja", tacan: true}
+          - {tekst: "Visoki crkveni poglavar", tacan: false, zasto: "Crkveni poglavar čuva zvanično učenje; jeretik od njega odstupa."}
+          - {tekst: "Vojnik u krstaškom pohodu", tacan: false, zasto: "Krstaški pohod se vodio protiv onih koje je crkva smatrala jereticima."}
+          - {tekst: "Velikaš koji bira vladara", tacan: false, zasto: "Vladara u Bosni bira vlastela; jeretik je verski pojam."}
+        pomoc:
+          - "Pojam je verski, a ne vojni."
+          - "Tako je crkva gledala na bogumile."
+          - "Iz lekcije: jeretik je osoba koja se ne drži zvanično priznatog verskog učenja."
+        objasnjenje: "Jeretik odstupa od učenja koje je crkva zvanično priznala, pa je hrišćanska crkva tako gledala i na bogumile."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Jeretik je osoba koja se ne drži zvanično priznatog verskog učenja."
+
+      - id: l07-bos-izbor-patareni
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [patareni, bogumili]
+        pitanje: "Koje je drugo ime za bogumile?"
+        odgovori:
+          - {tekst: "Patareni", tacan: true}
+          - {tekst: "Kotromanići", tacan: false, zasto: "Kotromanići su bosanska vladarska dinastija, a ne verska zajednica."}
+          - {tekst: "Krstaši", tacan: false, zasto: "Krstaški pohodi su pokretani protiv bogumila, pa to nije njihovo ime."}
+          - {tekst: "Vlastela", tacan: false, zasto: "Vlastela je plemstvo koje bira vladara, a ne verska zajednica."}
+        pomoc:
+          - "To ime koristi i papa u svom pismu."
+          - "Počinje na slovo P."
+          - "Iz lekcije: bogumile su zvali i patarenima."
+        objasnjenje: "Bogumili se u izvorima javljaju i pod imenom patareni, kao u pismu pape Inoćentija III."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Bogumili su poznati i pod imenom patareni."
+
+      - id: l07-bos-izbor-crkva-tesko
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [crkva-bosanska, ban-kulin, bogumili, jeretik]
+        pitanje: "Koje su tvrdnje o Crkvi bosanskoj tačne? (više tačnih)"
+        odgovori:
+          - {tekst: "Izgradili su je bogumili kada su postali dovoljno brojni", tacan: true}
+          - {tekst: "Nastala je zato što je Kulin dozvolio i pomagao rad bogumila", tacan: true}
+          - {tekst: "Hrišćanska crkva ju je smatrala jeretičkom", tacan: true}
+          - {tekst: "Osnovao ju je papa da bi učvrstio svoju vlast u Bosni", tacan: false, zasto: "Papa je bio protivnik bogumila i tražio je pohod protiv njih; Crkvu bosansku izgradili su sami bogumili."}
+          - {tekst: "Prenesena je iz Srbije, gde je već bila zvanična crkva", tacan: false, zasto: "Iz Srbije su bogumili proterani; tek su u Bosni izgradili sopstvenu organizaciju."}
+        pomoc:
+          - "Ko je gradio tu organizaciju, a ko ju je osuđivao?"
+          - "Razmisli da li je papa mogao da osnuje ono što smatra jeresom."
+          - "Iz lekcije: uz Kulinovu podršku bogumili su izgradili Crkvu bosansku, a crkva ju je smatrala jeretičkom."
+        objasnjenje: "Crkva bosanska je delo samih bogumila; omogućila ju je Kulinova podrška, a zvanična crkva ju je osuđivala kao jeres."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Bogumili su, uz Kulinovu pomoć, izgradili Crkvu bosansku, a hrišćanska crkva ju je smatrala jeretičkom."
+
+      - id: l07-bos-tn-nemanja
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [stefan-nemanja, bogumili, bosna]
+        tvrdnja: "Bogumili su sklonište u Bosni pronašli pošto ih je Stefan Nemanja proterao iz Srbije."
+        tacno: true
+        pomoc:
+          - "Seti se šta je Nemanja uradio sa bogumilima u Srbiji."
+          - "Iz lekcije: Nemanja ih je proterao, a utočište su našli u Bosni."
+        objasnjenje: "Tačno. Progon iz Srbije doveo je bogumile u Bosnu, gde ih je Kulin prihvatio."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Stefan Nemanja je proterao bogumile iz Srbije, pa su sklonište našli u Bosni."
+
+      - id: l07-bos-tn-pohodi
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [krstaski-rat, ugarska, bogumili]
+        tvrdnja: "Krstaški pohodi Ugarske uništili su bosanske bogumile."
+        tacno: false
+        ispravke:
+          - {tekst: "Papa je pozivao ugarske vladare na pohod, ali pohodi nisu uspeli.", tacan: true}
+          - {tekst: "Pohode su vodili bosanski vladari protiv Ugarske.", tacan: false, zasto: "Rimski papa je pozivao ugarske vladare da krenu protiv bosanskih bogumila, a ne obrnuto."}
+          - {tekst: "Do pohoda nije ni došlo jer je papa to zabranio.", tacan: false, zasto: "Papa je upravo pozivao na pohod; pohodi su izvedeni, ali nisu uspeli."}
+        pomoc:
+          - "Da li su bogumili ostali u Bosni i posle poziva pape?"
+          - "Lekcija kaže kako su se pohodi završili."
+          - "Iz lekcije: papa je zvao Ugarsku u krstaški rat, ali pohodi nisu uspeli."
+        objasnjenje: "Netačno. Pohodi protiv bogumila nisu uspeli, pa je pokret u Bosni ostao snažan."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Rimski papa je zvao ugarske vladare u krstaški rat protiv bosanskih bogumila, ali pohodi nisu uspeli."
+
+      - id: l07-bos-tn-hriscani-tesko
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [bogumili, jeretik]
+        tvrdnja: "Bogumili nisu bili hrišćani, pa je zato crkva bila protiv njih."
+        tacno: false
+        ispravke:
+          - {tekst: "Bogumili su bili hrišćani koji ne prihvataju zvanično crkveno učenje.", tacan: true}
+          - {tekst: "Bogumili su bili sveštenici koji strogo slede učenje Rima.", tacan: false, zasto: "Upravo su odstupali od zvaničnog učenja, pa su smatrani jereticima."}
+          - {tekst: "Crkva nije imala ništa protiv bogumila.", tacan: false, zasto: "Imala je, jer ih je smatrala jereticima, a papa je tražio pohod protiv njih."}
+        pomoc:
+          - "Jeretik odstupa od učenja, a ne napušta nužno veru."
+          - "Šta je o bogumilima rečeno u delu Zapamtite?"
+          - "Iz lekcije: bogumili su hrišćani koji ne prihvataju zvanično crkveno učenje."
+        objasnjenje: "Netačno. Spor je bio unutar hrišćanstva: bogumili jesu hrišćani, ali bez prihvatanja zvaničnog učenja."
+        iz_udzbenika:
+          strana: 35
+          odeljak: "Zapamtite"
+          tekst: "Bogumili su hrišćani koji ne prihvataju zvanično crkveno učenje."
+
+      - id: l07-bos-dopuni-bogumili
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [stefan-nemanja, ban-kulin, bogumili, crkva-bosanska]
+        pitanje: "Dopuni rečenice o bogumilima."
+        tekst: "Bogumile je iz Srbije proterao {{Stefan Nemanja}}. U Bosni ih je primio ban {{Kulin}}, a oni su izgradili {{Crkvu bosansku}}."
+        ponudjene: [Stefan Nemanja, Kulin, Crkvu bosansku, Tvrtko, Mileševu]
+        pomoc:
+          - "Tvrtko vlada tek u XIV veku."
+          - "Mileševa je manastir u kome se Tvrtko krunisao."
+          - "Iz lekcije: Nemanja ih proteruje, Kulin prima, a oni grade Crkvu bosansku."
+        objasnjenje: "Niz je: progon iz Srbije, prihvat u Bosni i sopstvena crkvena organizacija."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Nemanja je proterao bogumile, Kulin ih je primio, a oni su izgradili Crkvu bosansku."
+
+      - id: l07-bos-dopuni-papa
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [papa-inocentije-iii, krstaski-rat, ugarska, patareni]
+        pitanje: "Dopuni rečenicu o reakciji crkve."
+        tekst: "Rimski {{papa}} je zvao vladare {{Ugarske}} u {{krstaški}} rat protiv bosanskih bogumila, koje su zvali i {{patarenima}}."
+        ponudjene: [papa, Ugarske, krstaški, patarenima, Vizantije, građanski, Kotromanićima]
+        pomoc:
+          - "Ko je u Rimu bio na čelu crkve?"
+          - "Pozvani su vladari severnih suseda Bosne."
+          - "Iz lekcije: papa je zvao ugarske vladare u krstaški rat protiv bogumila (patarena)."
+        objasnjenje: "Papa je u borbi protiv jeresi računao na vojsku susedne Ugarske."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Rimski papa je pozivao ugarske vladare u krstaški rat protiv bosanskih bogumila."
+
+      - id: l07-bos-povezi-pojmovi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [bogumili, ban-kulin, jeretik, papa-inocentije-iii]
+        pitanje: "Poveži pojam ili ličnost sa objašnjenjem."
+        parovi:
+          - ["bogumili", "Hrišćani koji ne prihvataju zvanično crkveno učenje"]
+          - ["ban Kulin", "Prvi vladar nezavisne Bosne"]
+          - ["jeretik", "Ko se ne drži zvanično priznatog verskog učenja"]
+          - ["Inoćentije III", "Papa koji traži od ugarskog kralja da uništi bogumile"]
+        pomoc:
+          - "Jedan od pojmova je ime verske zajednice, a drugi opšti verski pojam."
+          - "Kulin je vladar, a Inoćentije crkveni poglavar."
+          - "Iz lekcije: bogumili ne prihvataju zvanično učenje; Kulin je prvi vladar nezavisne Bosne."
+        objasnjenje: "Ova četiri pojma čine priču o bogumilima: zajednica, njen zaštitnik, oznaka koju joj daje crkva i njen protivnik."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Lekcija objašnjava bogumile, jeretike, bana Kulina, a papu Inoćentija III uvodi kroz izvor."
+
+      - id: l07-bos-zakljuci-zasto-bosna
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [bogumili, ban-kulin, stefan-nemanja]
+        pitanje: "Zašto su proterani bogumili otišli baš u Bosnu?"
+        odgovori:
+          - {tekst: "Tamo im je ban Kulin dozvolio da dođu i pomagao im", tacan: true}
+          - {tekst: "Papa im je dao Bosnu na upravu", tacan: false, zasto: "Papa je bio njihov protivnik; utočište im je dao Kulin."}
+          - {tekst: "Nemanja im je naredio da idu u Bosnu", tacan: false, zasto: "Nemanja ih je samo proterao iz Srbije; Bosnu je otvorio Kulin."}
+          - {tekst: "Bosna je tada bila pod Turcima", tacan: false, zasto: "Turci su u Bosni tek mnogo kasnije; Bosna je tada imala svog vladara, Kulina."}
+        pomoc:
+          - "Korak 1: Ko je tada vladao Bosnom?"
+          - "Korak 2: Kakav je bio njegov stav prema bogumilima?"
+          - "Iz lekcije: Kulin im je dozvolio da dođu i pomagao njihovo delovanje."
+        objasnjenje: "Progonjena zajednica odlazi tamo gde je vladar prima, a to je bila Kulinova Bosna."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Kulin je dozvolio bogumilima da dođu i pomagao njihovo delovanje."
+
+      - id: l07-bos-zakljuci-pohod
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [papa-inocentije-iii, ugarska, krstaski-rat]
+        pitanje: "Zašto se papa za pohod protiv bogumila obraćao baš Ugarskoj?"
+        odgovori:
+          - {tekst: "Ugarska je bila moćan sused Bosne, a i sama je strahovala da će se jeres preliti na nju", tacan: true}
+          - {tekst: "Ugarska je bila vlast koju je Kulin priznao kao svog cara", tacan: false, zasto: "Kulin je hteo da se izvuče iz ugarske vlasti, a ne da je prizna."}
+          - {tekst: "U Ugarskoj je sedište pape", tacan: false, zasto: "Sedište pape je Rim; Ugarska je pozvana kao sila u susedstvu Bosne."}
+          - {tekst: "Ugarski kralj je i sam bio bogumil", tacan: false, zasto: "Papa ga upravo poziva da uništi bogumile, pa bogumil nije mogao biti."}
+        pomoc:
+          - "Korak 1: Gde se Ugarska nalazi u odnosu na Bosnu?"
+          - "Korak 2: Čega se papa boji u svom pismu?"
+          - "Iz lekcije: papa se boji da se jeres iz susedstva ne prelije na Ugarsku."
+        objasnjenje: "Ugarska je imala i snagu i razlog: bila je sused, a papa je tvrdio da je i njoj jeres opasna."
+        iz_udzbenika:
+          strana: 35
+          odeljak: "Iz istorijskih izvora: Pismo pape o bogumilima"
+          tekst: "Papa strahuje da se jeres iz susedstva ne prelije na Ugarsku i poziva kralja da se spremi za oružanu akciju."
+
+      - id: l07-bos-zakljuci-kulin-rizik
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [ban-kulin, bogumili, papa-inocentije-iii, ugarska]
+        pitanje: "Kakvu je opasnost za Bosnu nosila Kulinova podrška bogumilima?"
+        odgovori:
+          - {tekst: "Davala je papi i Ugarskoj povod za oružani napad na zemlju", tacan: true}
+          - {tekst: "Dovela je do toga da Turci odmah zauzmu Bosnu", tacan: false, zasto: "Turci stižu tek posle Tvrtkove smrti, a Bosna pada 1463; Kulinova opasnost dolazila je od pape i Ugarske."}
+          - {tekst: "Zbog nje je Vizantija uvela Crkvu bosansku u svoje carstvo", tacan: false, zasto: "Lekcija tako nešto ne kaže; reakcija je stigla iz Rima, preko Ugarske."}
+          - {tekst: "Nije nosila nikakvu opasnost jer je crkva to podržala", tacan: false, zasto: "Crkva je organizaciju bogumila smatrala jeretičkom, a papa je tražio krstaški rat."}
+        pomoc:
+          - "Korak 1: Kako je crkva gledala na bogumile?"
+          - "Korak 2: Koju je akciju papa tražio i od koga?"
+          - "Iz lekcije: papa je pozivao ugarske vladare u krstaški rat protiv bosanskih bogumila."
+        objasnjenje: "Zaštita jeretika bila je politički rizična: Ugarska, od koje je Kulin želeo da se oslobodi, dobijala je versko opravdanje za rat."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Crkva je Kulinove štićenike smatrala jereticima, pa je papa zvao Ugarsku u rat protiv njih."
+
+      - id: l07-bos-datum-kulin
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [ban-kulin]
+        dogadjaj: "Ban Kulin"
+        pitanje: "Od koje do koje godine je vladao ban Kulin?"
+        od: 1180
+        do: 1204
+        traka: vladari
+        pomoc:
+          - "Počeo je krajem XII veka, a završio na početku XIII veka."
+          - "Vladao je oko dvadeset i pet godina."
+          - "Iz lekcije: ban Kulin (1180–1204)."
+        objasnjenje: "Ban Kulin je vladao od 1180. do 1204. godine."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Ban Kulin je vladao od 1180. do 1204."
+
+      - id: l07-bos-poredjaj-bogumili
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [bogumili, stefan-nemanja, ban-kulin, crkva-bosanska]
+        pitanje: "Poređaj šta se dešavalo sa bogumilima, od prvog koraka do poslednjeg."
+        stavke:
+          - {tekst: "Stefan Nemanja proteruje bogumile iz Srbije"}
+          - {tekst: "Bogumili nalaze utočište kod bana Kulina"}
+          - {tekst: "Bogumili grade Crkvu bosansku"}
+          - {tekst: "Papa zove Ugarsku u krstaški rat"}
+        pomoc:
+          - "Pre svega moraju da napuste Srbiju."
+          - "Papa reaguje tek kada je pokret u Bosni već jak."
+          - "Iz lekcije: progon → utočište → Crkva bosanska → poziv na krstaški rat."
+        objasnjenje: "Svaki korak vodi sledećem: progon, prihvat, jačanje zajednice i reakcija crkve."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Bogumili iz Srbije prelaze u Bosnu, grade svoju crkvu, a papa traži pohod protiv njih."
+
+      - id: l07-bos-lanac-crkva
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [ban-kulin, bogumili, crkva-bosanska]
+        karike:
+          - "Kulin pomaže delovanje bogumila"
+          - "?"
+          - "Nastaje Crkva bosanska"
+        praznina: 1
+        odgovori:
+          - {tekst: "Bogumili postaju veoma brojni", tacan: true}
+          - {tekst: "Bogumili napuštaju Bosnu", tacan: false, zasto: "Ostali su i ojačali; iz Srbije su otišli, a u Bosni su ostali."}
+          - {tekst: "Turci osvajaju Bosnu", tacan: false, zasto: "To se dešava tek 1463, a Crkva bosanska nastaje mnogo ranije."}
+        pomoc:
+          - "Šta je potrebno jednoj zajednici da izgradi sopstvenu organizaciju?"
+          - "Razmisli o broju pripadnika."
+          - "Iz lekcije: postali su toliko brojni da su izgradili sopstvenu versku organizaciju."
+        objasnjenje: "Podrška vladara uvećala je zajednicu, a brojnost joj je omogućila da stvori sopstvenu crkvu."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Uz Kulinovu podršku bogumili su postali toliko brojni da su izgradili Crkvu bosansku."
+
+      - id: l07-bos-lanac-pohod
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [bogumili, papa-inocentije-iii, krstaski-rat, ugarska]
+        karike:
+          - "Bogumili jačaju u Bosni"
+          - "Crkva to vidi kao jeres"
+          - "?"
+          - "Pohodi ne uspevaju"
+        praznina: 2
+        odgovori:
+          - {tekst: "Papa traži od Ugarske krstaški rat", tacan: true}
+          - {tekst: "Papa priznaje Crkvu bosansku", tacan: false, zasto: "Papa je smatra jeretičkom i traži njeno uništenje."}
+          - {tekst: "Nemanja kreće na Bosnu", tacan: false, zasto: "Nemanja je proterao bogumile iz Srbije; pohod je papa tražio od Ugarske."}
+        pomoc:
+          - "Šta sledi posle osude jeresi?"
+          - "O kakvim pohodima je reč i ko ih pokreće?"
+          - "Iz lekcije: papa je zvao ugarske vladare u krstaški rat, ali pohodi nisu uspeli."
+        objasnjenje: "Crkva je na jačanje jeresi odgovorila pozivom na oružje, ali je pokret u Bosni opstao."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Jačanje bogumila podstaklo je papu da traži krstaški rat, ali pohodi nisu uspeli."
+
+      - id: l07-bos-izvor-sta-trazi
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [papa-inocentije-iii, ugarska, bogumili]
+        izvor:
+          autor: "Papa Inoćentije III"
+          naslov: "Pismo ugarskom kralju o bogumilima"
+          tekst: "Papa javlja kralju da je splitski nadbiskup isterao mnoge patarene iz Splita i Trogira, a da im je bosanski ban Kulin dao utočište. Podstiče kralja da se pripremi za oružanu akciju."
+          napomena: "Odlomak je prepričan; udžbenik, str. 35."
+        pitanje: "Šta papa traži od ugarskog kralja?"
+        odgovori:
+          - {tekst: "Da se pripremi za oružanu akciju protiv patarena", tacan: true}
+          - {tekst: "Da pošalje poslanike Kulinu i sklopi mir", tacan: false, zasto: "Papa ne traži mir nego oružanu akciju."}
+          - {tekst: "Da primi patarene u Ugarsku", tacan: false, zasto: "Papa se upravo boji da jeres ne pređe u Ugarsku."}
+          - {tekst: "Da postavi novog splitskog nadbiskupa", tacan: false, zasto: "Nadbiskup se u pismu spominje samo kao onaj koji je proterao patarene."}
+        pomoc:
+          - "Pročitaj poslednju rečenicu odlomka."
+          - "Papa govori jezikom rata, a ne pregovora."
+          - "Iz lekcije: papa nalaže ugarskom kralju da uništi bosanske bogumile."
+        objasnjenje: "Pismo je poziv na oružje: papa želi da kralj silom reši pitanje bogumila u Bosni."
+        iz_udzbenika:
+          strana: 35
+          odeljak: "Iz istorijskih izvora: Pismo pape o bogumilima"
+          tekst: "Papa Inoćentije III nalaže ugarskom kralju da uništi bosanske bogumile."
+
+      - id: l07-bos-izvor-kulin
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [ban-kulin, patareni, papa-inocentije-iii]
+        izvor:
+          autor: "Papa Inoćentije III"
+          naslov: "Pismo ugarskom kralju o bogumilima"
+          tekst: "Ban Kulin je, kaže papa, patarenima pružio utočište i zaštitu, primio ih kao da su katolici i javno ih nazivao hrišćanima."
+          napomena: "Odlomak je prepričan; udžbenik, str. 35."
+        pitanje: "Šta papi najviše smeta u Kulinovom ponašanju?"
+        odgovori:
+          - {tekst: "Što ljude koje crkva smatra jereticima štiti i javno priznaje kao hrišćane", tacan: true}
+          - {tekst: "Što je Kulin proterao patarene iz Bosne", tacan: false, zasto: "Kulin ih je primio; proterao ih je splitski nadbiskup."}
+          - {tekst: "Što Kulin ratuje protiv Ugarske", tacan: false, zasto: "O tome odlomak ne govori; zamerka je verska, zbog zaštite patarena."}
+          - {tekst: "Što Kulin ne plaća porez papi", tacan: false, zasto: "Odlomak ne govori o porezu; papu ljuti zaštita patarena."}
+        pomoc:
+          - "Podvuci šta je Kulin uradio sa patarenima."
+          - "Šta za papu znači kada neko jeretika nazove hrišćaninom?"
+          - "Iz lekcije: Kulin im je dao utočište, primio ih kao katolike i nazivao hrišćanima."
+        objasnjenje: "Za papu su patareni jeretici, pa je Kulinovo javno priznanje za njega bilo veći greh od samog prihvata."
+        iz_udzbenika:
+          strana: 35
+          odeljak: "Iz istorijskih izvora: Pismo pape o bogumilima"
+          tekst: "Kulin je patarenima dao utočište i zaštitu, primio ih kao katolike i javno ih nazivao hrišćanima."
+
+      - id: l07-bos-izvor-bolest
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [jeretik, papa-inocentije-iii, ugarska]
+        izvor:
+          autor: "Papa Inoćentije III"
+          naslov: "Pismo ugarskom kralju o bogumilima"
+          tekst: "Papa jeres naziva bolešću i boji se da se ona iz susedstva ne prelije na Ugarsku."
+          napomena: "Odlomak je prepričan; udžbenik, str. 35."
+        pitanje: "Zašto papa jeres upoređuje sa bolešću?"
+        odgovori:
+          - {tekst: "Jer je vidi kao nešto što se širi sa jedne zemlje na drugu ako se ne zaustavi", tacan: true}
+          - {tekst: "Jer su bogumili bili lekari", tacan: false, zasto: "Lekcija to ne kaže; reč bolest je ovde slika za širenje učenja."}
+          - {tekst: "Jer je u Bosni tada vladala zarazna bolest", tacan: false, zasto: "Papa govori o verskom učenju, a ne o stvarnoj bolesti."}
+          - {tekst: "Jer želi da pomogne bogumilima da ozdrave", tacan: false, zasto: "Papa traži oružanu akciju protiv njih, a ne pomoć."}
+        pomoc:
+          - "Šta bolest radi ako se ne leči?"
+          - "Čega se papa boji za Ugarsku?"
+          - "Iz lekcije: boji se da se „bolest” jeresi ne prelije iz susedstva na Ugarsku."
+        objasnjenje: "Slika bolesti opravdava hitnost: kao zaraza, jeres se navodno širi na susede, pa je treba zaustaviti silom."
+        iz_udzbenika:
+          strana: 35
+          odeljak: "Iz istorijskih izvora: Pismo pape o bogumilima"
+          tekst: "Papa se boji da se „bolest” jeresi ne prelije iz susedstva na Ugarsku."
+
+      - id: l07-bos-izvor-pristrasnost
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [papa-inocentije-iii, bogumili, ban-kulin]
+        izvor:
+          autor: "Papa Inoćentije III"
+          naslov: "Pismo ugarskom kralju o bogumilima"
+          tekst: "Papa kralja podstiče da se spremi za oružanu akciju i da osveti, kako kaže, uvredu nanetu Hristu i hrišćanima."
+          napomena: "Odlomak je prepričan; udžbenik, str. 35."
+        pitanje: "Šta istoričar mora da ima na umu kada iz ovog pisma uči o bogumilima?"
+        odgovori:
+          - {tekst: "Pismo je napisao njihov protivnik, pa ih prikazuje iz ugla onoga ko hoće da ih uništi", tacan: true}
+          - {tekst: "Pismo su napisali sami bogumili, pa je sve u njemu nesumnjivo tačno", tacan: false, zasto: "Pisac je papa, njihov protivnik, a ne bogumili."}
+          - {tekst: "Pismo je nevažno jer ne govori ništa o Bosni", tacan: false, zasto: "Pismo govori o Kulinu i patarenima, pa je važan izvor, ali iz jednog ugla."}
+          - {tekst: "Pismo je napisao ban Kulin da bi se odbranio", tacan: false, zasto: "Pismo je uputio papa ugarskom kralju."}
+        pomoc:
+          - "Ko je pisac i kome piše?"
+          - "Šta on želi da postigne ovim pismom?"
+          - "Iz lekcije: papa ugarskom kralju nalaže da uništi bosanske bogumile."
+        objasnjenje: "Izvor je dragocen, ali pristrasan: papa nastoji da ubedi kralja na rat, pa bogumile opisuje kao bolest i uvredu."
+        iz_udzbenika:
+          strana: 35
+          odeljak: "Iz istorijskih izvora: Pismo pape o bogumilima"
+          tekst: "Papa podstiče kralja da se spremi i osveti, kako kaže, uvredu nanetu Hristu i hrišćanima."
+
+      - id: l07-bos-uporedi-kulin-nemanja
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [ban-kulin, stefan-nemanja, bogumili]
+        a: "Ban Kulin"
+        b: "Stefan Nemanja"
+        pitanje: "Na koga se odnosi tvrdnja: Kulina, Nemanju, obojicu ili nijednog?"
+        tvrdnje:
+          - {tekst: "Proterao je bogumile iz svoje zemlje.", odgovor: b, zasto: "Nemanja ih je proterao iz Srbije; Kulin ih je primio."}
+          - {tekst: "Dozvolio je bogumilima da dođu i pomagao im.", odgovor: a, zasto: "To je Kulin u Bosni, a Nemanja je postupio suprotno."}
+          - {tekst: "Bio je vladar u vreme kada su bogumili bili važno pitanje.", odgovor: oba, zasto: "Obojica su morala da zauzmu stav prema bogumilima, ali su zauzeli suprotne stavove."}
+          - {tekst: "Papa ga u pismu optužuje da je patarene javno nazivao hrišćanima.", odgovor: a, zasto: "To papa piše za Kulina."}
+          - {tekst: "Krunisao se u Mileševi za kralja Srba i Bosne.", odgovor: nijedan, zasto: "To je uradio Tvrtko I, 1377."}
+        pomoc:
+          - "Jedan vladar proteruje, drugi prima."
+          - "Krunisanje u Mileševi je iz XIV veka."
+          - "Iz lekcije: Nemanja proteruje bogumile, Kulin ih prima."
+        objasnjenje: "Isti verski pokret dva suseda su rešavala suprotno: Nemanja progonom, a Kulin zaštitom."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Nemanja je proterao bogumile iz Srbije, a Kulin ih je primio u Bosnu."
+
+      - id: l07-bos-uporedi-bogumili-crkva
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [bogumili, crkva-bosanska, papa-inocentije-iii]
+        a: "Bogumili"
+        b: "Rimski papa"
+        pitanje: "Na koga se odnosi tvrdnja: bogumile, papu, oba ili nijednog?"
+        tvrdnje:
+          - {tekst: "Ne prihvataju zvanično crkveno učenje.", odgovor: a, zasto: "To je odlika bogumila; papa je čuvar zvaničnog učenja."}
+          - {tekst: "Poziva ugarske vladare u krstaški rat.", odgovor: b, zasto: "Papa poziva na rat, a bogumili su njegova meta."}
+          - {tekst: "Smatraju sebe hrišćanima.", odgovor: oba, zasto: "Bogumili su hrišćani koji ne prihvataju zvanično učenje, a papa je poglavar crkve u Rimu."}
+          - {tekst: "Izgradili su Crkvu bosansku.", odgovor: a, zasto: "To su uradili bogumili, uz Kulinovu podršku."}
+          - {tekst: "Proterali su Kulina iz Bosne.", odgovor: nijedan, zasto: "Niko ga nije proterao; lekcija kaže da su pohodi protiv Bosne propali."}
+        pomoc:
+          - "Ko je progonjen, a ko progoni?"
+          - "Jedna tvrdnja važi za obe strane."
+          - "Iz lekcije: bogumili su hrišćani bez prihvatanja zvaničnog učenja; papa zove na krstaški rat."
+        objasnjenje: "Sukob je vođen unutar hrišćanstva: obe strane su hrišćanske, ali se spore oko učenja."
+        iz_udzbenika:
+          strana: 35
+          odeljak: "Zapamtite"
+          tekst: "Bogumili su hrišćani koji ne prihvataju zvanično crkveno učenje."
+
+      - id: l07-bos-ko-sam-kulin
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [ban-kulin, bogumili]
+        tragovi:
+          - "Vladao sam krajem XII i početkom XIII veka."
+          - "Pokušao sam da Bosnu izvučem ispod vizantijske i ugarske vlasti."
+          - "Primio sam bogumile proterane iz Srbije."
+        odgovori:
+          - {tekst: "Ban Kulin", tacan: true}
+          - {tekst: "Stefan Nemanja", tacan: false, zasto: "Nemanja je bogumile proterao, a ne primio."}
+          - {tekst: "Tvrtko I", tacan: false, zasto: "Tvrtko I vlada u XIV veku."}
+          - {tekst: "Stjepan II Kotromanić", tacan: false, zasto: "Stjepan II vlada 1322–1353. i osvaja Hum."}
+        objasnjenje: "To je ban Kulin (1180–1204), prvi vladar nezavisne Bosne."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Ban Kulin je prvi vladar nezavisne Bosne i pomagao je bogumile."
+
+      - id: l07-bos-objasni-kulin
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [ban-kulin, bogumili, crkva-bosanska]
+        pitanje: "Kako se ban Kulin odnosio prema bogumilima i šta je iz toga proisteklo?"
+        uzor: "Kulin je bogumilima proteranim iz Srbije dozvolio da dođu u Bosnu i pomagao njihov rad. Zbog toga su postali veoma brojni i izgradili sopstvenu Crkvu bosansku. Crkva ih je smatrala jereticima, pa je papa zvao Ugarsku u krstaški rat, koji nije uspeo."
+        ideje:
+          - "Kulin ih je primio i pomagao."
+          - "Postali su brojni i izgradili Crkvu bosansku."
+          - "Papa je zbog toga zvao na krstaški rat."
+        objasnjenje: "Vladarska zaštita stvorila je jak verski pokret, ali i sukob sa papom."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Bosna od XII do XIV veka"
+          tekst: "Kulin je primio bogumile i pomagao ih, pa su izgradili Crkvu bosansku."
+
+      - id: l07-bos-objasni-jeres
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [bogumili, jeretik, papa-inocentije-iii, krstaski-rat]
+        pitanje: "Zašto je versko pitanje u Bosni preraslo u pitanje rata? Objasni oslanjajući se na papino pismo."
+        uzor: "Bogumile je crkva smatrala jereticima, a Kulin ih je štitio i javno zvao hrišćanima. Papa se bojao da se učenje ne proširi na Ugarsku, pa je kralja podsticao na oružanu akciju. Tako je spor o veri postao poziv na krstaški rat, a susedi su dobili razlog za napad."
+        ideje:
+          - "Crkva bogumile smatra jereticima."
+          - "Kulin ih štiti, što papu ljuti."
+          - "Papa se boji širenja na Ugarsku."
+          - "Rešenje vidi u oružanoj akciji."
+        objasnjenje: "U srednjem veku vera i politika nisu bile odvojene, pa je jeres mogla da bude povod za rat."
+        iz_udzbenika:
+          strana: 35
+          odeljak: "Iz istorijskih izvora: Pismo pape o bogumilima"
+          tekst: "Papa strahuje od širenja jeresi na Ugarsku i traži oružanu akciju."
+
+  # ==========================================================================
+  - naslov: "Jačanje bosanske države"
+    zadaci:
+      - id: l07-jac-izbor-vrhunac
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [tvrtko-i, bosna]
+        pitanje: "Za vreme čije vladavine je srednjovekovna Bosna dostigla vrhunac?"
+        odgovori:
+          - {tekst: "Tvrtka I", tacan: true}
+          - {tekst: "Bana Kulina", tacan: false, zasto: "Kulin je prvi vladar nezavisne Bosne, a država je tada tek nastajala."}
+          - {tekst: "Stefana Nemanje", tacan: false, zasto: "Nemanja je vladar Srbije, a ne Bosne."}
+          - {tekst: "Pavla Radenovića", tacan: false, zasto: "Knez Pavle Radenović je gospodar oblasti na karti Bosne početkom XV veka, a ne vladar na vrhuncu države."}
+        pomoc:
+          - "Vladao je od 1353. do 1391."
+          - "Krunisao se za kralja."
+          - "Iz lekcije: vrhunac je vladavina Tvrtka I (1353–1391)."
+        objasnjenje: "Pod Tvrtkom I (1353–1391) Bosna ima najveću teritoriju i postaje kraljevina."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Vrhunac srednjovekovne Bosne je vladavina Tvrtka I."
+        osa: {naziv: "Tvrtko I", od: 1353, do: 1391, traka: vladari}
+
+      - id: l07-jac-izbor-hum
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [stjepan-ii-kotromanic, hum]
+        pitanje: "Koju je oblast Stjepan II Kotromanić osvojio od Srbije?"
+        odgovori:
+          - {tekst: "Hum", tacan: true}
+          - {tekst: "Ugarsku", tacan: false, zasto: "Ugarska je sila na severu, a Stjepan II je od Srbije osvojio Hum."}
+          - {tekst: "Dubrovnik", tacan: false, zasto: "Dubrovnik nije osvojen; od Srbije je uzet Hum."}
+          - {tekst: "Vizantiju", tacan: false, zasto: "Vizantija je carstvo, a ne oblast Srbije; uzet je Hum."}
+        pomoc:
+          - "To je deo današnje Hercegovine."
+          - "Reč ima tri slova."
+          - "Iz lekcije: od Srbije je osvojio Hum."
+        objasnjenje: "Stjepan II je od Srbije osvojio Hum, deo današnje Hercegovine."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Stjepan II Kotromanić je od Srbije osvojio Hum, deo današnje Hercegovine."
+          slika: 07-bosna-xii-xiv-vek/01-pecat-stjepana-ii-kotromanica.jpg
+
+      - id: l07-jac-izbor-teritorija
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [tvrtko-i, bosna]
+        pitanje: "Dokle se pod Tvrtkom I protezala Bosna?"
+        odgovori:
+          - {tekst: "Od Lima i Drine do Boke Kotorske, uz deo Dalmacije i Hrvatske", tacan: true}
+          - {tekst: "Samo do Huma", tacan: false, zasto: "Hum je osvojio već Stjepan II, a Tvrtko je otišao mnogo dalje."}
+          - {tekst: "Od Dunava do Soluna", tacan: false, zasto: "Ta granica nema veze sa Bosnom; granice su bile Lim i Drina, pa Boka Kotorska."}
+          - {tekst: "Samo do Splita, bez izlaska na more", tacan: false, zasto: "Tvrtkova država je izbijala do Boke Kotorske, a zauzeo je i deo Dalmacije."}
+        pomoc:
+          - "Dve reke na istoku, jedan zaliv na jugu."
+          - "Zauzeo je i delove dve zemlje na zapadu."
+          - "Iz lekcije: od Lima i Drine do Boke Kotorske; deo Dalmacije i Hrvatske."
+        objasnjenje: "Pod Tvrtkom Bosna ima najveći prostor: od Lima i Drine do Boke Kotorske, uz deo Dalmacije i Hrvatske."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Teritorija se protezala od Lima i Drine do Boke Kotorske, a Tvrtko je zauzeo i deo Dalmacije i Hrvatske."
+
+      - id: l07-jac-izbor-stjepan-osvajanja
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [stjepan-ii-kotromanic, hum, zapadna-bosna]
+        pitanje: "Šta je sve Bosna stekla pod Stjepanom II Kotromanićem? (više tačnih)"
+        odgovori:
+          - {tekst: "Hum", tacan: true}
+          - {tekst: "Više oblasti u današnjoj zapadnoj Bosni", tacan: true}
+          - {tekst: "Boku Kotorsku", tacan: false, zasto: "Do Boke Kotorske stiže tek Tvrtko I."}
+          - {tekst: "Kraljevsku krunu", tacan: false, zasto: "Stjepan II je ban; kraljevsku titulu uzima Tvrtko I 1377."}
+        pomoc:
+          - "Jedno je osvojeno od Srbije, drugo je na zapadu."
+          - "Razlikuj šta je stekao Stjepan II, a šta Tvrtko I."
+          - "Iz lekcije: osvojio je Hum i više oblasti u zapadnoj Bosni."
+        objasnjenje: "Stjepan II proširuje državu na Hum i zapad, a Tvrtko I odlazi dalje i uzima krunu."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Stjepan II je osvojio Hum i više oblasti u današnjoj zapadnoj Bosni."
+          slika: 07-bosna-xii-xiv-vek/01-pecat-stjepana-ii-kotromanica.jpg
+
+      - id: l07-jac-izbor-posle-tvrtka
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [tvrtko-i, turci, vlastela]
+        pitanje: "Šta se dešavalo u Bosni posle Tvrtkove smrti? (više tačnih)"
+        odgovori:
+          - {tekst: "Vladari su gubili delove zemlje", tacan: true}
+          - {tekst: "Moćni feudalni gospodari su se osamostaljivali", tacan: true}
+          - {tekst: "Turci su počeli da upadaju u zemlju", tacan: true}
+          - {tekst: "Bosna je odmah pala pod tursku vlast", tacan: false, zasto: "Tvrtko je umro 1391, a Bosna je pala tek 1463."}
+          - {tekst: "Teritorija se proširila do Carigrada", tacan: false, zasto: "Država je slabila i gubila zemlje, a nije se širila."}
+        pomoc:
+          - "Država je slabila, a ne jačala."
+          - "Između Tvrtkove smrti i pada prošlo je više decenija."
+          - "Iz lekcije: gubitak delova zemlje, osamostaljivanje feudalaca, turski upadi."
+        objasnjenje: "Posle Tvrtka država slabi iznutra, a to koriste Turci, ali pad dolazi tek 1463."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Posle Tvrtkove smrti vladari gube zemlje, feudalci se osamostaljuju, a Turci počinju da upadaju."
+
+      - id: l07-jac-tn-ugarska
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [ugarska, bosna]
+        tvrdnja: "U XIII veku bosanski vladari formalno su priznavali ugarsku vlast."
+        tacno: true
+        pomoc:
+          - "Važna je reč formalno."
+          - "Iz lekcije: priznavali su ugarsku vlast, ali su samostalno upravljali."
+        objasnjenje: "Tačno. Vlast Ugarske bila je formalna, a zemljom su upravljali sami bosanski vladari."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "U XIII veku bosanski vladari formalno priznaju ugarsku vlast, ali upravljaju samostalno."
+        osa: {naziv: "Bosna priznaje ugarsku vlast", od: 1200, do: 1300, traka: dogadjaji, oznaka: "XIII vek"}
+
+      - id: l07-jac-tn-ime-stefan
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [tvrtko-i]
+        tvrdnja: "Tvrtko I je uzeo vladarsko ime Stefan."
+        tacno: true
+        pomoc:
+          - "Seti se koje ime je nosila dinastija Nemanjića."
+          - "Iz lekcije: uzeo je nemanjićko vladarsko ime Stefan."
+        objasnjenje: "Tačno. Kao kralj Srba i Bosne Tvrtko je preuzeo ime Stefan, vladarsko ime Nemanjića."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Tvrtko je uzeo vladarsko ime dinastije Nemanjić, Stefan."
+
+      - id: l07-jac-tn-presto
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [vlastela, kotromanici]
+        tvrdnja: "Banski presto u Bosni nasleđivao se bez ikakvog izbora, sa oca na sina."
+        tacno: false
+        ispravke:
+          - {tekst: "Naslednika je birala vlastela, ali samo među članovima vladarske dinastije.", tacan: true}
+          - {tekst: "Bana je postavljao ugarski kralj po svojoj volji.", tacan: false, zasto: "Ugarska vlast je bila formalna; naslednika je birala vlastela."}
+          - {tekst: "Bana je mogao da postane svako koga narod izabere.", tacan: false, zasto: "Biralo se samo iz vladarske dinastije i birala je vlastela, a ne narod."}
+        pomoc:
+          - "Ko bira i iz kog kruga bira?"
+          - "Ova tvrdnja je posebnost bosanske države."
+          - "Iz lekcije: presto se nije nasleđivao; birala ga je vlastela iz dinastije."
+        objasnjenje: "Netačno. Vlastela je birala naslednika, ali izbor je bio ograničen na članove dinastije."
+        iz_udzbenika:
+          strana: 35
+          odeljak: "Posebnost bosanske države"
+          tekst: "Banski presto nije se nasleđivao; naslednika je birala vlastela, samo među članovima dinastije."
+
+      - id: l07-jac-tn-pad-1463
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [tvrtko-i, turci, bosna]
+        tvrdnja: "Bosna je pala pod tursku vlast odmah po Tvrtkovoj smrti, 1391."
+        tacno: false
+        ispravke:
+          - {tekst: "Tvrtko umire 1391, a Bosna pada pod tursku vlast 1463.", tacan: true}
+          - {tekst: "Bosna nikada nije pala pod tursku vlast.", tacan: false, zasto: "Pala je 1463, a Kotromanići su vladali do tada."}
+          - {tekst: "Bosna je pala još za vreme bana Kulina.", tacan: false, zasto: "Kulin vlada do 1204; Turci se javljaju tek posle Tvrtka."}
+        pomoc:
+          - "Između ta dva događaja prošle su decenije slabljenja."
+          - "Do kada su vladali Kotromanići?"
+          - "Iz lekcije: Tvrtko vlada do 1391, a pad je 1463."
+        objasnjenje: "Netačno. Posle Tvrtkove smrti počinje slabljenje, ali Bosna pada tek 1463."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Kotromanići su na vlasti do pada pod tursku vlast 1463."
+        osa: {naziv: "Pad Bosne", od: 1463, traka: dogadjaji}
+
+      - id: l07-jac-tn-ban-kralj-tesko
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [stjepan-ii-kotromanic, tvrtko-i]
+        tvrdnja: "Stjepan II Kotromanić je kao prvi bosanski kralj osvojio Boku Kotorsku."
+        tacno: false
+        ispravke:
+          - {tekst: "Stjepan II je bio ban i osvojio je Hum; krunu i izlazak do Boke Kotorske donosi Tvrtko I.", tacan: true}
+          - {tekst: "Prvi bosanski kralj bio je ban Kulin.", tacan: false, zasto: "Kulin je ban i prvi nezavisni vladar, a kraljevsku krunu uzima Tvrtko I 1377."}
+          - {tekst: "Stjepan II je izgubio Hum.", tacan: false, zasto: "Stjepan II je Hum osvojio od Srbije."}
+        pomoc:
+          - "U tvrdnji su pomešana dva vladara."
+          - "Ko je od njih imao titulu bana, a ko kralja?"
+          - "Iz lekcije: ban Stjepan II osvaja Hum; Tvrtko I stiže do Boke Kotorske i kruniše se."
+        objasnjenje: "Netačno. Stjepan II postavlja temelje kao ban, a kruna i najveći prostor dolaze pod Tvrtkom I."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Ban Stjepan II osvaja Hum, a pod Tvrtkom I Bosna se širi do Boke Kotorske."
+
+      - id: l07-jac-dopuni-vladari
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [stjepan-ii-kotromanic, tvrtko-i, mileseva, hum]
+        pitanje: "Dopuni rečenice o usponu Bosne."
+        tekst: "Ban {{Stjepan II}} osvojio je {{Hum}}, a {{Tvrtko I}} se 1377. u manastiru {{Mileševi}} proglasio za kralja."
+        ponudjene: [Stjepan II, Tvrtko I, Hum, Mileševi, Kulin, Trogir]
+        pomoc:
+          - "Kulin vlada u XII veku."
+          - "Trogir se pominje u papinom pismu."
+          - "Iz lekcije: Stjepan II osvaja Hum; Tvrtko I se kruniše u Mileševi."
+        objasnjenje: "Dva vladara XIV veka nose uspon Bosne: Stjepan II širenjem, a Tvrtko I širenjem i krunom."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Stjepan II je osvojio Hum, a Tvrtko I se 1377. krunisao u Mileševi."
+
+      - id: l07-jac-dopuni-granice
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [tvrtko-i, bosna]
+        pitanje: "Dopuni opis granica Tvrtkove države."
+        tekst: "Država se protezala od {{Lima}} i {{Drine}} do {{Boke Kotorske}}, a Tvrtko je zauzeo i deo {{Dalmacije}} i Hrvatske."
+        ponudjene: [Lima, Drine, Boke Kotorske, Dalmacije, Dunava, Soluna]
+        pomoc:
+          - "Prve dve reči su reke na istoku."
+          - "Treća je primorje na jugu, a četvrta oblast na Jadranu."
+          - "Iz lekcije: od Lima i Drine do Boke Kotorske; deo Dalmacije i Hrvatske."
+        objasnjenje: "Tvrtkova Bosna je dopirala do Lima i Drine i izlazila na more kod Boke Kotorske."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Teritorija se protezala od Lima i Drine do Boke Kotorske, sa delom Dalmacije i Hrvatske."
+
+      - id: l07-jac-dopuni-izbor-tesko
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [vlastela, kotromanici, tvrtko-i]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Naslednika bana birala je {{vlastela}}, ali samo među članovima vladarske {{dinastije}}. Uzimanjem imena {{Stefan}} Tvrtko se povezao sa Nemanjićima."
+        pomoc:
+          - "Ko je u feudalnoj državi bio moćan sloj?"
+          - "Birati se moglo samo iz jedne porodice."
+          - "Iz lekcije: bira vlastela iz dinastije; Tvrtko uzima ime Stefan."
+        objasnjenje: "Izbor unutar dinastije i preuzimanje imena Stefan pokazuju koliko su poreklo i tradicija bili važni za vlast."
+        iz_udzbenika:
+          strana: 35
+          odeljak: "Posebnost bosanske države"
+          tekst: "Naslednika je birala vlastela samo među članovima dinastije."
+
+      - id: l07-jac-povezi-vladari
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [ban-kulin, stjepan-ii-kotromanic, tvrtko-i]
+        pitanje: "Poveži vladara sa onim po čemu ga pamtimo."
+        parovi:
+          - ["Ban Kulin", "Prima bogumile u Bosnu"]
+          - ["Stjepan II Kotromanić", "Osvaja Hum od Srbije"]
+          - ["Tvrtko I", "Kruniše se za kralja Srba i Bosne"]
+        pomoc:
+          - "Razmisli o redu: XII vek, pa dva vladara XIV veka."
+          - "Samo jedan od njih nosi krunu."
+          - "Iz lekcije: Kulin i bogumili; Stjepan II i Hum; Tvrtko I i kruna."
+        objasnjenje: "Tri vladara predstavljaju tri faze: nastanak, širenje i vrhunac."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Kulin je primio bogumile, Stjepan II osvojio Hum, a Tvrtko I se krunisao za kralja."
+
+      - id: l07-jac-povezi-teritorije
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [hum, tvrtko-i, mileseva, patareni]
+        pitanje: "Poveži mesto ili oblast sa onim što se o njemu kaže u lekciji."
+        parovi:
+          - ["Hum", "Deo današnje Hercegovine"]
+          - ["Boka Kotorska", "Južna tačka Tvrtkove države"]
+          - ["Mileševa", "Manastir gde se Tvrtko krunisao"]
+          - ["Split i Trogir", "Gradovi iz kojih su proterani patareni"]
+        pomoc:
+          - "Dva pojma su oblasti, a jedan je manastir."
+          - "Gradovi su iz papinog pisma."
+          - "Iz lekcije: Hum je deo današnje Hercegovine; Boka Kotorska je granica Tvrtkove države."
+        objasnjenje: "Geografija lekcije prati priču o Bosni: od verskih progona do najvećeg širenja."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Hum je deo današnje Hercegovine, a Tvrtkova država dopire do Boke Kotorske."
+
+      - id: l07-jac-povezi-pojmovi-tesko
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [tvrtko-i, turci, vlastela, ugarska]
+        pitanje: "Poveži pojavu sa njenim značenjem za bosansku državu."
+        parovi:
+          - ["Formalno priznanje ugarske vlasti", "Zavisnost na papiru, a samostalnost u praksi"]
+          - ["Izbor vladara među dinastijom", "Moć vlastele, ali uz čuvanje dinastije"]
+          - ["Ime Stefan", "Oslanjanje na nemanjićku tradiciju"]
+          - ["Osamostaljivanje feudalaca", "Unutrašnje slabljenje države"]
+        pomoc:
+          - "Svaki par traži značenje, a ne samo činjenicu."
+          - "Šta se menja kada veliki gospodari više ne slušaju vladara?"
+          - "Iz lekcije: formalna ugarska vlast; izbor iz dinastije; nemanjićko ime; osamostaljivanje posle Tvrtka."
+        objasnjenje: "Svaka od ovih pojava pokazuje odnos snaga: prema Ugarskoj, unutar vlastele, prema Nemanjićima i unutar same države."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Bosanski vladari formalno priznaju Ugarsku, Tvrtko uzima ime Stefan, a posle njega feudalci se osamostaljuju."
+
+      - id: l07-jac-zakljuci-formalno
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [ugarska, bosna]
+        pitanje: "Šta znači da su bosanski vladari u XIII veku ugarsku vlast priznavali samo formalno?"
+        odgovori:
+          - {tekst: "Na rečima su je priznavali, a zemljom su upravljali sami", tacan: true}
+          - {tekst: "Ugarski kralj je lično upravljao Bosnom", tacan: false, zasto: "Upravo ne: zemljom su potpuno samostalno upravljali bosanski vladari."}
+          - {tekst: "Bosna je tada nestala kao država", tacan: false, zasto: "Bosna je i dalje postojala i imala je svoje vladare."}
+          - {tekst: "Bosanski vladari su ratovali protiv Ugarske", tacan: false, zasto: "Formalno priznanje nije rat; to je priznavanje vlasti bez stvarne zavisnosti."}
+        pomoc:
+          - "Korak 1: Šta znači reč formalno?"
+          - "Korak 2: Ko je stvarno upravljao zemljom?"
+          - "Iz lekcije: formalno priznaju ugarsku vlast, ali upravljaju potpuno samostalno."
+        objasnjenje: "Formalno znači samo po obliku: Ugarska je imala priznanje, a Bosna stvarnu samostalnost."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "U XIII veku bosanski vladari formalno priznaju ugarsku vlast, a zemljom upravljaju potpuno samostalno."
+
+      - id: l07-jac-zakljuci-stefan
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [tvrtko-i, mileseva]
+        pitanje: "Zašto je Tvrtku I, kada je uzeo titulu kralja Srba i Bosne, bilo važno ime Stefan?"
+        odgovori:
+          - {tekst: "To je bilo vladarsko ime Nemanjića, pa ga je povezivalo sa srpskom vladarskom tradicijom", tacan: true}
+          - {tekst: "Tako ga je zvala Crkva bosanska", tacan: false, zasto: "Lekcija to ne kaže; ime dolazi od dinastije Nemanjić."}
+          - {tekst: "Tako mu je naredio papa", tacan: false, zasto: "Papa se u lekciji javlja zbog bogumila, u mnogo ranijem vremenu."}
+          - {tekst: "Bilo mu je to rođeno ime", tacan: false, zasto: "Lekcija kaže da je Stefan vladarsko ime koje je uzeo."}
+        pomoc:
+          - "Korak 1: Čije je to ime bilo?"
+          - "Korak 2: Na šta se Tvrtko poziva titulom kralja Srba?"
+          - "Iz lekcije: uzeo je vladarsko ime dinastije Nemanjić, Stefan."
+        objasnjenje: "Titula kralja Srba zahtevala je oslonac na tradiciju, a ime Stefan ga je povezivalo sa Nemanjićima."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Tvrtko je uzeo vladarsko ime dinastije Nemanjić, Stefan."
+
+      - id: l07-jac-datum-krunisanje
+        vrsta: datum
+        tezina: lako
+        pojmovi: [tvrtko-i, mileseva]
+        dogadjaj: "Krunisanje Tvrtka I"
+        pitanje: "Koje godine se Tvrtko I krunisao za kralja Srba i Bosne?"
+        godina: 1377
+        traka: dogadjaji
+        pomoc:
+          - "To je u drugoj polovini XIV veka."
+          - "Tvrtko je tada vladao već više od dvadeset godina."
+          - "Iz lekcije: 1377."
+        objasnjenje: "Tvrtko se krunisao 1377. u manastiru Mileševi."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Godine 1377. Tvrtko se u Mileševi proglasio za kralja Srba i Bosne."
+
+      - id: l07-jac-datum-pad
+        vrsta: datum
+        tezina: lako
+        pojmovi: [turci, bosna, kotromanici]
+        dogadjaj: "Pad Bosne"
+        pitanje: "Koje godine je Bosna pala pod tursku vlast?"
+        godina: 1463
+        traka: dogadjaji
+        pomoc:
+          - "To je u XV veku."
+          - "Sredina veka je već prošla."
+          - "Iz lekcije: pad pod tursku vlast je 1463."
+        objasnjenje: "Bosna je pala pod tursku vlast 1463, a time se završila i vlast Kotromanića."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Kotromanići su na vlasti do pada pod tursku vlast 1463."
+
+      - id: l07-jac-datum-stjepan
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [stjepan-ii-kotromanic]
+        dogadjaj: "Stjepan II Kotromanić"
+        pitanje: "Od koje do koje godine je vladao Stjepan II Kotromanić?"
+        od: 1322
+        do: 1353
+        traka: vladari
+        pomoc:
+          - "Počinje u prvoj polovini XIV veka."
+          - "Vladavina se završava kada počinje Tvrtko I."
+          - "Iz lekcije: Stjepan II Kotromanić (1322–1353)."
+        objasnjenje: "Stjepan II je vladao od 1322. do 1353, a nasledio ga je Tvrtko I."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Stjepan II Kotromanić vladao je od 1322. do 1353."
+          slika: 07-bosna-xii-xiv-vek/01-pecat-stjepana-ii-kotromanica.jpg
+
+      - id: l07-jac-datum-tvrtko
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [tvrtko-i]
+        dogadjaj: "Tvrtko I"
+        pitanje: "Od koje do koje godine je vladao Tvrtko I?"
+        od: 1353
+        do: 1391
+        traka: vladari
+        pomoc:
+          - "Počinje iste godine kada se završava vladavina Stjepana II."
+          - "Završava pred kraj XIV veka."
+          - "Iz lekcije: Tvrtko I (1353–1391)."
+        objasnjenje: "Tvrtko I je vladao od 1353. do 1391. godine."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Vrhunac Bosne je vladavina Tvrtka I, od 1353. do 1391."
+
+      - id: l07-jac-datum-pad-racun-tesko
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [turci, tvrtko-i]
+        dogadjaj: "Pad Bosne"
+        pitanje: "Od kraja Tvrtkove vladavine do pada države prošle su 72 godine. Koje godine je Bosna pala?"
+        godina: 1463
+        traka: dogadjaji
+        pomoc:
+          - "Prvo se seti poslednje godine vladavine Tvrtka I."
+          - "Na 1391. dodaj 72."
+          - "Iz lekcije: Tvrtko vlada do 1391, a pad je 1463."
+        objasnjenje: "1391 + 72 = 1463. Slabljenje države trajalo je više od sedamdeset godina."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Tvrtko I vlada do 1391, a Bosna pada pod tursku vlast 1463."
+
+      - id: l07-jac-poredjaj-vladari
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [ban-kulin, stjepan-ii-kotromanic, tvrtko-i]
+        pitanje: "Poređaj događaje hronološki, od najranijeg."
+        stavke:
+          - {tekst: "Ban Kulin počinje da vlada", godina: 1180, do: 1204, naziv: "Ban Kulin", traka: vladari}
+          - {tekst: "Stjepan II Kotromanić počinje da vlada", godina: 1322, do: 1353, naziv: "Stjepan II Kotromanić", traka: vladari}
+          - {tekst: "Tvrtko I počinje da vlada", godina: 1353, do: 1391, naziv: "Tvrtko I", traka: vladari}
+          - {tekst: "Tvrtko I se kruniše za kralja", godina: 1377, naziv: "Krunisanje Tvrtka I", traka: dogadjaji}
+        pomoc:
+          - "Prvi je vladar iz XII veka."
+          - "Krunisanje je za vreme vladavine, a ne pre nje."
+          - "Iz lekcije: 1180, 1322, 1353, 1377."
+        objasnjenje: "Kulin (1180) → Stjepan II (1322) → Tvrtko I (1353) → krunisanje (1377)."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Ban Kulin vlada od 1180, Stjepan II od 1322, Tvrtko I od 1353, a krunisanje je 1377."
+
+      - id: l07-jac-poredjaj-sve-tesko
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [bosna, ugarska, tvrtko-i, turci]
+        pitanje: "Poređaj celu istoriju Bosne iz ove lekcije, od najranijeg do najkasnijeg."
+        stavke:
+          - {tekst: "Nastaje bosanska država", godina: 1180, do: 1200, naziv: "Nastanak bosanske države", traka: dogadjaji, oznaka: "kraj XII veka"}
+          - {tekst: "Vladari formalno priznaju ugarsku vlast", godina: 1200, do: 1300, naziv: "Bosna priznaje ugarsku vlast", traka: dogadjaji, oznaka: "XIII vek"}
+          - {tekst: "Stjepan II osvaja Hum", godina: 1322, do: 1353, naziv: "Stjepan II Kotromanić", traka: vladari}
+          - {tekst: "Tvrtko I se kruniše za kralja", godina: 1377, naziv: "Krunisanje Tvrtka I", traka: dogadjaji}
+          - {tekst: "Bosna pada pod tursku vlast", godina: 1463, naziv: "Pad Bosne", traka: dogadjaji}
+        pomoc:
+          - "Podeli događaje po vekovima: XII, XIII, XIV, XV."
+          - "Stjepan II je pre Tvrtka I."
+          - "Iz lekcije: kraj XII veka, XIII vek, 1322–1353, 1377, 1463."
+        objasnjenje: "Država nastaje, formalno priznaje Ugarsku, zatim jača, dostiže vrhunac i na kraju pada pod Turke."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Priča ide od nastanka krajem XII veka, preko uspona u XIV veku, do pada 1463."
+
+      - id: l07-jac-lanac-kruna
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [tvrtko-i, mileseva]
+        karike:
+          - "Tvrtko osvaja velike teritorije"
+          - "?"
+          - "Uzima nemanjićko ime Stefan"
+        praznina: 1
+        odgovori:
+          - {tekst: "Proglašava se za kralja Srba i Bosne", tacan: true}
+          - {tekst: "Priznaje vlast Ugarske", tacan: false, zasto: "To je stanje iz XIII veka; Tvrtko jača i uzima kraljevsku krunu."}
+          - {tekst: "Proteruje bogumile", tacan: false, zasto: "To je radio Nemanja u Srbiji, a ne Tvrtko."}
+        pomoc:
+          - "Koju novu titulu je uzeo?"
+          - "To se desilo u Mileševi."
+          - "Iz lekcije: Tvrtkova osvajanja → kruna kralja Srba i Bosne → ime Stefan."
+        objasnjenje: "Osvajanja su dovela do krune, a titula kralja Srba do imena Stefan."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Tvrtko se 1377. proglasio za kralja Srba i Bosne i uzeo ime Stefan."
+
+      - id: l07-jac-lanac-uspon
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [stjepan-ii-kotromanic, hum, zapadna-bosna]
+        karike:
+          - "Privredni polet u XIV veku"
+          - "?"
+          - "Bosna jača pod Stjepanom II"
+        praznina: 1
+        odgovori:
+          - {tekst: "Osvajanje Huma i oblasti u zapadnoj Bosni", tacan: true}
+          - {tekst: "Pad pod tursku vlast", tacan: false, zasto: "Pad je kraj države 1463, a ne deo uspona."}
+          - {tekst: "Gubitak delova zemlje", tacan: false, zasto: "To je posledica Tvrtkove smrti; Stjepan II je širio zemlju."}
+        pomoc:
+          - "Pored privrede, šta još jača državu?"
+          - "Traži osvajanja Stjepana II."
+          - "Iz lekcije: privredni polet i osvajanja (Hum, zapadna Bosna) → uspon."
+        objasnjenje: "Privreda i osvajanja zajedno daju uspon Bosne pod Stjepanom II."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "U XIV veku privredni i politički polet prate osvajanja Huma i oblasti u zapadnoj Bosni."
+
+      - id: l07-jac-lanac-pad
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [tvrtko-i, turci, vlastela]
+        karike:
+          - "Tvrtko I umire"
+          - "Velikaši se osamostaljuju i država gubi zemlje"
+          - "?"
+          - "Bosna pada 1463."
+        praznina: 2
+        odgovori:
+          - {tekst: "Turci počinju da upadaju u oslabljenu Bosnu", tacan: true}
+          - {tekst: "Ugarska postaje bogumilska", tacan: false, zasto: "Toga se papa bojao mnogo ranije; ovde je pitanje turska opasnost."}
+          - {tekst: "Bosna osvaja Boku Kotorsku", tacan: false, zasto: "To je Tvrtkov uspeh, a ne deo pada države."}
+        pomoc:
+          - "Ko koristi slabost Bosne?"
+          - "Pod čiju vlast pada zemlja?"
+          - "Iz lekcije: slabija država → turski upadi → pad 1463."
+        objasnjenje: "Unutrašnje slabljenje otvara put spoljnom neprijatelju."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Slabljenje posle Tvrtkove smrti koriste Turci, koji počinju da upadaju u Bosnu."
+
+      - id: l07-jac-lanac-vrhunac-tesko
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [stjepan-ii-kotromanic, tvrtko-i, turci]
+        karike:
+          - "Stjepan II osvaja Hum i zapadne oblasti"
+          - "Tvrtko I širi državu i kruniše se"
+          - "?"
+          - "Moćni gospodari se osamostaljuju"
+          - "Turci koriste slabost države"
+        praznina: 2
+        odgovori:
+          - {tekst: "Umire Tvrtko I, a posle njega vladari gube delove zemlje", tacan: true}
+          - {tekst: "Papa poziva Ugarsku u krstaški rat", tacan: false, zasto: "To je iz vremena bana Kulina, pre Stjepana II."}
+          - {tekst: "Nastaje Crkva bosanska", tacan: false, zasto: "Nastaje u doba Kulina, mnogo pre Tvrtka."}
+        pomoc:
+          - "Korak 1: Šta je prekretnica posle vrhunca?"
+          - "Korak 2: Od kada država počinje da slabi?"
+          - "Iz lekcije: smrt Tvrtka I → gubitak teritorija i osamostaljivanje velikaša."
+        objasnjenje: "Bosna je jaka dok je vodi snažan vladar; njegova smrt je prelomna tačka."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Posle Tvrtkove smrti vladari gube delove zemlje, a feudalci se osamostaljuju."
+
+      - id: l07-jac-izvor-karta
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [pavle-radenovic, bosna, tvrtko-i]
+        izvor:
+          autor: "Karta iz udžbenika"
+          naslov: "Bosna početkom XV veka (opis karte)"
+          tekst: "Karta je podeljena na oblast bosanskog kralja i, istočno i južno od nje, na područja označena imenom kneza Pavla Radenovića."
+          napomena: "Odlomak je prepričan; udžbenik, str. 35."
+        pitanje: "Šta nam ova karta govori o Bosni posle Tvrtka I?"
+        odgovori:
+          - {tekst: "Kralj više nije držao celu zemlju, a moćni gospodari su imali svoje oblasti", tacan: true}
+          - {tekst: "Bosna je bila jedinstvenija nego ikada", tacan: false, zasto: "Karta pokazuje suprotno: pored kralja i drugi gospodari drže oblasti."}
+          - {tekst: "Pavle Radenović je bio turski sultan", tacan: false, zasto: "Knez je oznaka bosanskog gospodara, a ne sultana."}
+          - {tekst: "Bosna je tada već bila pod Turcima", tacan: false, zasto: "Karta prikazuje početak XV veka, a pad je tek 1463."}
+        pomoc:
+          - "Koliko imena gospodara vidiš na karti?"
+          - "Šta se desilo sa velikašima posle Tvrtkove smrti?"
+          - "Iz lekcije: posle Tvrtka moćni gospodari se osamostaljuju."
+        objasnjenje: "Karta početkom XV veka potvrđuje tekst: država je izgubila jedinstvo, a velikaši kao Pavle Radenović imaju svoje oblasti."
+        iz_udzbenika:
+          strana: 35
+          odeljak: "Jačanje bosanske države"
+          tekst: "Karta Bosne početkom XV veka pokazuje oblast kralja i oblasti kneza Pavla Radenovića."
+          slika: 07-bosna-xii-xiv-vek/02-bosna-pocetkom-xv-veka.jpg
+        osa: {naziv: "Bosna početkom XV veka", od: 1400, do: 1410, traka: dogadjaji, oznaka: "početak XV veka"}
+
+      - id: l07-jac-izvor-karta-ko
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [pavle-radenovic, dubrovnik]
+        izvor:
+          autor: "Karta iz udžbenika"
+          naslov: "Bosna početkom XV veka (opis karte)"
+          tekst: "Na karti je označena oblast bosanskog kralja, a na dva mesta ime kneza Pavla Radenovića. Na jugu se vide Jadransko more, ostrva Hvar, Korčula i Lastovo i gradovi Dubrovnik, Cavtat i Kotor."
+          napomena: "Odlomak je prepričan; udžbenik, str. 35."
+        pitanje: "Koji je gospodar, pored bosanskog kralja, istaknut na karti?"
+        odgovori:
+          - {tekst: "Knez Pavle Radenović", tacan: true}
+          - {tekst: "Ban Kulin", tacan: false, zasto: "Kulin je vladao oko dva veka ranije, a karta prikazuje početak XV veka."}
+          - {tekst: "Stefan Nemanja", tacan: false, zasto: "Nemanja je vladar Srbije iz XII veka; na karti je knez Pavle Radenović."}
+          - {tekst: "Papa Inoćentije III", tacan: false, zasto: "Papa nije gospodar oblasti u Bosni; na karti je knez Pavle Radenović."}
+        pomoc:
+          - "Pročitaj odlomak: ko se pominje uz bosanskog kralja?"
+          - "Titula mu je knez."
+          - "Iz lekcije: uz bosanskog kralja na karti je upisan knez Pavle Radenović."
+        objasnjenje: "Na karti Bosne početkom XV veka pored oblasti kralja stoji i knez Pavle Radenović."
+        iz_udzbenika:
+          strana: 35
+          odeljak: "Jačanje bosanske države"
+          tekst: "Karta pokazuje oblast kralja i dva upisa imena kneza Pavla Radenovića, a na jugu more, ostrva i primorske gradove."
+          slika: 07-bosna-xii-xiv-vek/02-bosna-pocetkom-xv-veka.jpg
+
+      - id: l07-jac-uporedi-stjepan-tvrtko
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [stjepan-ii-kotromanic, tvrtko-i]
+        a: "Stjepan II Kotromanić"
+        b: "Tvrtko I"
+        pitanje: "Na koga se odnosi tvrdnja: Stjepana II, Tvrtka I, oba ili nijednog?"
+        tvrdnje:
+          - {tekst: "Osvojio je Hum od Srbije.", odgovor: a, zasto: "Hum je osvojio Stjepan II."}
+          - {tekst: "Stigao je do Boke Kotorske.", odgovor: b, zasto: "Tvrtkova država se protezala do Boke Kotorske."}
+          - {tekst: "Proglasio se za kralja Srba i Bosne.", odgovor: b, zasto: "Tvrtko I, 1377. u Mileševi."}
+          - {tekst: "Širio je teritoriju Bosne u XIV veku.", odgovor: oba, zasto: "Obojica su širili državu u XIV veku."}
+          - {tekst: "Pripadao je dinastiji Kotromanića.", odgovor: oba, zasto: "Kotromanići drže vlast do 1463, a Stjepan i Tvrtko vladaju u tom nizu."}
+          - {tekst: "Prvi je primio bogumile u Bosnu.", odgovor: nijedan, zasto: "To je uradio ban Kulin."}
+        pomoc:
+          - "Stjepan II osvaja Hum, a Tvrtko I ide dalje."
+          - "Krunu ima samo jedan."
+          - "Iz lekcije: Stjepan II: Hum i zapadna Bosna; Tvrtko I: Lim i Drina do Boke Kotorske, kruna."
+        objasnjenje: "Stjepan II postavlja temelje, a Tvrtko I ih nadograđuje do vrhunca i krune."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Stjepan II osvaja Hum i zapadne oblasti, a Tvrtko I širi državu do Boke Kotorske i uzima krunu."
+
+      - id: l07-jac-uporedi-vek-tesko
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [bosna, ugarska, tvrtko-i]
+        a: "Bosna u XIII veku"
+        b: "Bosna u doba Tvrtka I"
+        pitanje: "Na koje vreme se odnosi tvrdnja: XIII vek, doba Tvrtka I, oba ili nijedno?"
+        tvrdnje:
+          - {tekst: "Formalno priznaje vlast Ugarske.", odgovor: a, zasto: "To je stanje XIII veka, pre uspona."}
+          - {tekst: "Vladar nosi titulu kralja.", odgovor: b, zasto: "Krunu uzima Tvrtko I 1377."}
+          - {tekst: "Zemljom stvarno upravljaju bosanski vladari.", odgovor: oba, zasto: "I u XIII veku uprava je samostalna, a pod Tvrtkom je Bosna na vrhuncu."}
+          - {tekst: "Zemlja je pod turskom vlašću.", odgovor: nijedan, zasto: "Turska vlast počinje tek 1463."}
+          - {tekst: "Država se proteže do Boke Kotorske.", odgovor: b, zasto: "To je najveći obim, pod Tvrtkom I."}
+        pomoc:
+          - "Razlikuj formalnu vlast od stvarne vlasti."
+          - "Šta je zajedničko u oba perioda?"
+          - "Iz lekcije: XIII vek: formalno Ugarska; Tvrtko I: vrhunac i kruna."
+        objasnjenje: "Stvarna samostalnost je zajednička, a promena je u moći i tituli."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "U XIII veku Bosna formalno priznaje Ugarsku, a pod Tvrtkom I dostiže vrhunac."
+
+      - id: l07-jac-ko-sam-stjepan
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [stjepan-ii-kotromanic, hum]
+        tragovi:
+          - "Vladao sam u prvoj polovini XIV veka."
+          - "Moj pečat se nalazi u vašem udžbeniku."
+          - "Srbiji sam oduzeo Hum."
+        odgovori:
+          - {tekst: "Stjepan II Kotromanić", tacan: true}
+          - {tekst: "Tvrtko I", tacan: false, zasto: "Tvrtko I nasleđuje Stjepana II 1353; Hum je osvojio Stjepan II."}
+          - {tekst: "Ban Kulin", tacan: false, zasto: "Kulin vlada u XII veku."}
+          - {tekst: "Stefan Nemanja", tacan: false, zasto: "Nemanja je vladar Srbije, a Hum je od Srbije oduzet."}
+        objasnjenje: "To je Stjepan II Kotromanić (1322–1353)."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Pečat Stjepana II Kotromanića stoji uz tekst o njegovim osvajanjima."
+          slika: 07-bosna-xii-xiv-vek/01-pecat-stjepana-ii-kotromanica.jpg
+
+      - id: l07-jac-ko-sam-tvrtko
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [tvrtko-i, mileseva]
+        tragovi:
+          - "Moja država je dopirala do Boke Kotorske."
+          - "Uzeo sam ime koje nije bilo porodično, nego pozajmljeno od druge dinastije."
+          - "U jednom manastiru sam postao kralj."
+        odgovori:
+          - {tekst: "Tvrtko I", tacan: true}
+          - {tekst: "Stjepan II Kotromanić", tacan: false, zasto: "On je ban koji je osvojio Hum; ime Stefan i kruna su Tvrtkovi."}
+          - {tekst: "Ban Kulin", tacan: false, zasto: "Kulin je vladao krajem XII veka i nije se krunisao."}
+          - {tekst: "Pavle Radenović", tacan: false, zasto: "On je knez sa karte početkom XV veka, a ne kralj."}
+        objasnjenje: "To je Tvrtko I, koji je 1377. u Mileševi postao kralj Srba i Bosne i uzeo ime Stefan."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Tvrtko I je širio državu do Boke Kotorske, krunisao se u Mileševi i uzeo ime Stefan."
+
+      - id: l07-jac-objasni-formalna
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [ugarska, bosna]
+        pitanje: "Objasni kako je Bosna u XIII veku mogla da prizna ugarsku vlast, a da ipak bude samostalna."
+        uzor: "Priznanje je bilo formalno: bosanski vladari su priznavali Ugarsku samo po obliku. U stvarnosti su sami upravljali zemljom. Tako je Bosna izbegavala otvoren sukob sa moćnim susedom, a čuvala je samostalnost."
+        ideje:
+          - "Formalno znači samo po obliku."
+          - "Stvarnu upravu vode bosanski vladari."
+          - "Bosna time čuva samostalnost."
+        objasnjenje: "Razlika između formalne i stvarne vlasti važna je za razumevanje srednjovekovnih država."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "U XIII veku Bosna formalno priznaje ugarsku vlast, a upravlja se potpuno samostalno."
+
+      - id: l07-jac-objasni-uspon-pad
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [tvrtko-i, turci, bosna]
+        pitanje: "Zašto je Bosna pod Tvrtkom I bila na vrhuncu, a već posle njegove smrti počela da slabi? Objasni uzrok i posledicu."
+        uzor: "Tvrtko je oslonjen na privredni polet širio državu i krunom učvrstio svoj ugled. Posle njegove smrti vladari gube delove zemlje, a moćni gospodari se osamostaljuju. Država nije imala isti oslonac, pa su Turci iskoristili slabost, a Bosna je 1463. pala."
+        ideje:
+          - "Uspon počiva na privredi i osvajanjima."
+          - "Tvrtko jača državu i krunom."
+          - "Posle njega feudalci se osamostaljuju."
+          - "Slabost koriste Turci, a pad je 1463."
+        objasnjenje: "Snaga srednjovekovne države zavisila je i od vladara koji drži velikaše na okupu."
+        iz_udzbenika:
+          strana: 34
+          odeljak: "Jačanje bosanske države"
+          tekst: "Pod Tvrtkom I Bosna je na vrhuncu, a posle njegove smrti država slabi i Turci počinju da upadaju."

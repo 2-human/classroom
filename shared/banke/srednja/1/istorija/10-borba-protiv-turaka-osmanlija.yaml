@@ -1,0 +1,1768 @@
+# Banka pitanja: Srbi i ostali balkanski narodi u borbi protiv Turaka Osmanlija (istorija, 1. razred srednje škole, str. 41–44). Sopstvenim rečima, po belešci lekcije.
+lekcija: 10
+naslov: "Srbi i ostali balkanski narodi u borbi protiv Turaka Osmanlija"
+pojmovi:
+  osmanlije: "Turci Osmanlije"
+  osmansko-carstvo: "Osmansko carstvo"
+  feudalizam: "razvijeni feudalizam"
+  feudalna-anarhija: "feudalna anarhija"
+  anarhija: "anarhija"
+  vazal: "vazal"
+  car-dusan: "car Dušan"
+  car-uros: "car Uroš"
+  epir: "Epir"
+  tesalija: "Tesalija"
+  zeta: "Zeta"
+  balsici: "Balšići"
+  mrnjavcevici: "Mrnjavčevići"
+  kralj-vukasin: "kralj Vukašin"
+  despot-ugljesa: "despot Uglješa"
+  nikola-altomanovic: "Nikola Altomanović"
+  knez-lazar: "knez Lazar"
+  vuk-brankovic: "Vuk Branković"
+  krusevac: "Kruševac"
+  bugarska: "Bugarska"
+  bosna: "Bosna"
+  cimpe: "Cimpe"
+  sultan-murat: "sultan Murat"
+  plocnik: "Pločnik"
+  nis: "Niš"
+  solun: "Solun"
+  bajazit-i: "Bajazit I"
+  janicari: "janičari"
+  bitka-na-marici: "bitka na Marici"
+  marko-kraljevic: "Marko Kraljević"
+  kosovski-boj: "Kosovski boj"
+  gazimestan: "Gazimestan"
+  milos-obilic: "Miloš Obilić"
+  vlatko-vukovic: "Vlatko Vuković"
+  ivan-palizna: "Ivan Paližna"
+  ravanica: "Ravanica"
+  lazarica: "Lazarica"
+  ljubostinja: "Ljubostinja"
+  kalenic: "Kalenić"
+  trnovsko-carstvo: "Trnovsko carstvo"
+  vidinsko-carstvo: "Vidinsko carstvo"
+  mongoli: "Mongoli"
+  bitka-kod-angore: "bitka kod Angore"
+  jovan-vi-kantakuzin: "Jovan VI Kantakuzin"
+  vizantija: "Vizantija"
+  tribali: "Tribali"
+  knjeginja-milica: "kneginja Milica"
+delovi:
+  - naslov: "Slabljenje balkanskih država u drugoj polovini XIV veka"
+    zadaci:
+      - id: l10-lazar-sediste-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [knez-lazar, krusevac]
+        pitanje: "Gde je bilo sedište kneza Lazara?"
+        odgovori:
+          - {tekst: "U Kruševcu", tacan: true}
+          - {tekst: "U Solunu", tacan: false, zasto: "Solun je grad koji su Turci osvojili 1387. godine; nije bio Lazarevo sedište."}
+          - {tekst: "U Zeti", tacan: false, zasto: "Zeta je stara srpska oblast u kojoj su najjači bili Balšići, a ne Lazar."}
+          - {tekst: "U Epiru", tacan: false, zasto: "Epir je daleki jug, gde su se plemići među prvima osamostalili; Lazar je vladao severnije."}
+        pomoc: ["Traži grad u oblasti između Dunava i Kosova.", "Naziv grada počinje slovom K.", "Iz lekcije: sedište kneza Lazara bilo je u Kruševcu."]
+        objasnjenje: "Lazar je iz Kruševca vladao prostorom od Dunava na severu do Kosova na jugu."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Knez Lazar je bio najistaknutiji oblasni gospodar, a sedište mu je bilo u Kruševcu.", slika: "10-borba-protiv-turaka-osmanlija/02-knez-lazar-i-knjeginja-milica.jpg"}
+      - id: l10-balsici-zeta-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [balsici, zeta]
+        pitanje: "Koja je porodica bila najjača u Zeti?"
+        odgovori:
+          - {tekst: "Balšići", tacan: true}
+          - {tekst: "Mrnjavčevići", tacan: false, zasto: "Braća Mrnjavčević izdvojila su se u Makedoniji, ne u Zeti."}
+          - {tekst: "Nemanjići", tacan: false, zasto: "Nemanjić je bio car Uroš, a Zeta se odvajala upravo od njegove centralne vlasti."}
+          - {tekst: "Brankovići", tacan: false, zasto: "Vuk Branković se pominje među velikašima, ali lekcija u Zeti ističe Balšiće."}
+        pomoc: ["Zeta je stara srpska oblast.", "Prezime počinje na B, ali nije Branković.", "Iz lekcije: u Zeti su najjači bili Balšići."]
+        objasnjenje: "Osamostaljivanje se sa dalekog juga proširilo i na stare srpske oblasti, pa su u Zeti vlast držali Balšići."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Velikaši se osamostaljuju i u starim srpskim oblastima, na primer u Zeti, gde su najjači Balšići."}
+      - id: l10-mrnjavcevici-makedonija-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [mrnjavcevici, kralj-vukasin, despot-ugljesa]
+        pitanje: "U kojoj oblasti su se izdvojila braća Mrnjavčević, Vukašin i Uglješa?"
+        odgovori:
+          - {tekst: "U Makedoniji", tacan: true}
+          - {tekst: "U Zeti", tacan: false, zasto: "Zeta je oblast Balšića."}
+          - {tekst: "U Bosni", tacan: false, zasto: "Bosna je posebna država u kojoj je takođe vladala feudalna anarhija; Mrnjavčevići su bili srpski velikaši."}
+          - {tekst: "U Epiru", tacan: false, zasto: "Epir je daleki jug, gde su se osamostalili drugi plemići."}
+        pomoc: ["Seti se gde su Turci posle Marice nametnuli vazalne obaveze.", "To je oblast južno od Kosova.", "Iz lekcije: braća Mrnjavčević izdvojila su se u Makedoniji."]
+        objasnjenje: "Vukašin i Uglješa bili su moćni velikaši u Makedoniji, zato ih je turski pritisak prve i pogodio."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "U Makedoniji se izdvajaju braća Mrnjavčević, Vukašin i Uglješa."}
+      - id: l10-anarhija-znacenje-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [anarhija, feudalna-anarhija]
+        pitanje: "Šta je anarhija?"
+        odgovori:
+          - {tekst: "Stanje u kome nema zakona i reda, jer ih niko ne sprovodi", tacan: true}
+          - {tekst: "Podređenost plemića jačem feudalnom gospodaru", tacan: false, zasto: "To opisuje vazala; vazal ima gospodara, dok je anarhija stanje bez reda."}
+          - {tekst: "Stajaća vojska plaćena doživotno", tacan: false, zasto: "To su janičari, turska vojska, a ne stanje u državi."}
+          - {tekst: "Vlast dvojice vladara u isto vreme", tacan: false, zasto: "To bi bilo savladarstvo, kao kod Uroša i Vukašina; anarhija znači da reda uopšte nema."}
+        pomoc: ["Reč opisuje stanje u državi, a ne osobu.", "Zamisli zemlju u kojoj zakoni postoje, ali ih niko ne sprovodi.", "Iz lekcije: anarhija je stanje bez zakona i reda, jer ih niko ne sprovodi."]
+        objasnjenje: "Kada niko ne sprovodi zakone, svaki moćnik radi po svome. Takvo stanje vladalo je i u Bosni."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Anarhija je stanje u kome nema zakona i reda, jer ih niko ne sprovodi."}
+      - id: l10-osamostaljivanje-prvo-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [epir, tesalija, car-uros]
+        pitanje: "Gde su se plemići pod carem Urošem najpre osamostalili?"
+        odgovori:
+          - {tekst: "Na dalekom jugu, u Epiru i Tesaliji", tacan: true}
+          - {tekst: "U Zeti i starim srpskim oblastima", tacan: false, zasto: "I tamo su se velikaši osamostalili, ali tek posle dalekog juga."}
+          - {tekst: "U Kruševcu i Braničevu", tacan: false, zasto: "To su Lazarevi posedi, a ne prva otcepljena područja."}
+          - {tekst: "U Trnovu i Vidinu", tacan: false, zasto: "To su delovi podeljene Bugarske, ne srpske oblasti."}
+        pomoc: ["Razmisli: koje oblasti su najdalje od središta države?", "Te oblasti su na dalekom jugu.", "Iz lekcije: plemići se prvo osamostaljuju u Epiru i Tesaliji, a zatim i u starim srpskim oblastima."]
+        objasnjenje: "Raspad je krenuo sa dalekog juga, iz Epira i Tesalije, pa se proširio i na stare srpske oblasti poput Zete."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Plemići se prvo osamostaljuju u Epiru i Tesaliji, a zatim i u starim srpskim oblastima."}
+      - id: l10-lazarevi-posedi-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [knez-lazar, nis, krusevac]
+        pitanje: "Koji su od ovih poseda pripadali knezu Lazaru? (više tačnih)"
+        odgovori:
+          - {tekst: "Braničevo", tacan: true}
+          - {tekst: "Golubac", tacan: true}
+          - {tekst: "Rudnik", tacan: true}
+          - {tekst: "Novo Brdo", tacan: true}
+          - {tekst: "Zeta", tacan: false, zasto: "Zeta je bila oblast Balšića."}
+          - {tekst: "Tesalija", tacan: false, zasto: "Tesalija je na dalekom jugu i među prvima se odvojila; Lazarova vlast je išla od Dunava do Kosova."}
+          - {tekst: "Solun", tacan: false, zasto: "Solun nije među Lazarevim posedima; lekcija ga pominje kao grad koji su Turci osvojili 1387."}
+        pomoc: ["Lazareva oblast se prostirala od Dunava do Kosova.", "Odbaci mesta na dalekom jugu i na moru.", "Iz lekcije: pored Kruševca, važni posedi su Braničevo, Golubac, Rudnik, Užice, Niš i Novo Brdo."]
+        objasnjenje: "Lazarevi najvažniji posedi bili su, pored Kruševca, Braničevo, Golubac, Rudnik, Užice, Niš i Novo Brdo."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Među najvažnijim Lazarevim posedima, pored Kruševca, bili su Braničevo, Golubac, Rudnik, Užice, Niš i Novo Brdo."}
+      - id: l10-vukasin-savladar-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [kralj-vukasin, car-uros, mrnjavcevici]
+        pitanje: "Kakav je zaista bio položaj kralja Vukašina prema caru Urošu?"
+        odgovori:
+          - {tekst: "Bio je krunisan za kralja i savladar, ali se ponašao potpuno nezavisno", tacan: true}
+          - {tekst: "Bio je Urošev verni zapovednik bez ikakve sopstvene vlasti", tacan: false, zasto: "Vukašin je imao svoju oblast u Makedoniji i ponašao se nezavisno od Uroša."}
+          - {tekst: "Zbacio je Uroša i sam postao car", tacan: false, zasto: "Uroš je ostao car do 1371; Vukašin je bio kralj i savladar."}
+          - {tekst: "Bio je turski sultan u Makedoniji", tacan: false, zasto: "Vukašin je bio srpski velikaš koji je krenuo protiv Osmanlija na Maricu; sultan je bio Murat."}
+        pomoc: ["Titula i stvarna moć ne moraju da se poklapaju.", "Formalno je delio vlast sa carem, ali da li ga je slušao?", "Iz lekcije: Vukašin je krunisan za kralja i bio je savladar, ali se ponašao potpuno nezavisno."]
+        objasnjenje: "Vukašin je primer raspada vlasti: na papiru savladar, u stvari samostalan gospodar."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Vukašin je krunisan za kralja i bio je savladar cara Uroša, ali se ponašao potpuno nezavisno.", slika: "10-borba-protiv-turaka-osmanlija/01-car-uros-i-kralj-vukasin.jpg"}
+      - id: l10-feudalni-sukobi-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [feudalizam, osmanlije]
+        tvrdnja: "Feudalni sukobi na Balkanu olakšali su tursko osvajanje."
+        tacno: true
+        pomoc: ["Da li je lakše osvojiti složnu ili podeljenu zemlju?", "Iz lekcije: feudalni sukobi su u velikoj meri olakšali tursko osvajanje."]
+        objasnjenje: "Tačno. Takvi sukobi su bili uobičajeni u srednjem veku, a ovde su Turcima otvorili put."
+        iz_udzbenika: {strana: 41, odeljak: "Uvod", tekst: "Feudalni sukobi bili su uobičajeni u srednjovekovnim državama, a ovde su u velikoj meri olakšali tursko osvajanje."}
+      - id: l10-uros-jak-vladar-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [car-uros, feudalizam]
+        tvrdnja: "Pod carem Urošem Nemanjićem centralna vlast je ojačala, pa se vlastela nije odvajala."
+        tacno: false
+        ispravke:
+          - {tekst: "Pod nejakim Urošem vlastela se odvajala od centralne vlasti.", tacan: true}
+          - {tekst: "Pod Urošem je centralna vlast ojačala samo u Epiru i Tesaliji.", tacan: false, zasto: "Upravo su se Epir i Tesalija prvi osamostalili."}
+          - {tekst: "Vlastela se odvajala tek posle Kosovskog boja.", tacan: false, zasto: "Odvajanje je počelo znatno ranije, pod Urošem (1355–1371)."}
+        pomoc: ["Seti se kakvim su Uroša smatrali savremenici.", "Šta rade velikaši kad je vladar nejak?", "Iz lekcije: vlastela se često odvajala od centralne vlasti, posebno pod nejakim vladarom, kakav je bio Uroš."]
+        objasnjenje: "Netačno. Slab vladar znači da se moćna vlastela lakše izdvaja, pa se država cepa na oblasti."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "U razvijenom feudalizmu vlastela se odvajala od centralne vlasti, a u Srbiji se to dešava pod carem Urošem."}
+        osa: {naziv: "Car Uroš", od: 1355, do: 1371, traka: vladari}
+      - id: l10-bosna-anarhija-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [bosna, feudalna-anarhija]
+        tvrdnja: "I u Bosni je vladala feudalna anarhija, a velikaši su samostalno držali velike oblasti."
+        tacno: true
+        pomoc: ["Kriza nije zahvatila samo Srbiju.", "Iz lekcije: Bosna je takođe u feudalnoj anarhiji."]
+        objasnjenje: "Tačno. Slična slika bila je u Srbiji, Bosni i Bugarskoj: mnogo gospodara i slaba centralna vlast."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "I Bosna je u feudalnoj anarhiji, a velikaši samostalno vladaju velikim oblastima."}
+      - id: l10-bugarska-podela-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [bugarska, trnovsko-carstvo, vidinsko-carstvo]
+        tvrdnja: "Bugarska je dočekala Turke kao jedinstvena i jaka država."
+        tacno: false
+        ispravke:
+          - {tekst: "Bugarska je bila podeljena: car je pred smrt razdelio državu na dva dela, a neki delovi su se dalje usitnjavali.", tacan: true}
+          - {tekst: "Bugarska je bila podeljena između Srbije i Bosne.", tacan: false, zasto: "Državu je podelio sam bugarski car; delovi su bili Trnovsko i Vidinsko carstvo."}
+          - {tekst: "Bugarska je bila jaka, ali ju je napala Vizantija.", tacan: false, zasto: "Bugarska je oslabila unutrašnjom podelom, a pala je pod Turke."}
+        pomoc: ["Seti se dva bugarska carstva koja su kasnije pala.", "Koliko je delova bilo?", "Iz lekcije: car pred smrt deli državu na dva dela, a neki se kasnije dalje usitnjavaju."]
+        objasnjenje: "Netačno. Bugarska je, kao i Srbija, bila podeljena, zato je i pala samo nekoliko godina posle Kosova."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Bugarski car je pred smrt podelio državu na dva dela, a neki delovi su se kasnije usitnjavali."}
+      - id: l10-lazar-prostor-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [knez-lazar]
+        tvrdnja: "Vlast kneza Lazara prostirala se od Dunava na severu do Kosova na jugu."
+        tacno: true
+        pomoc: ["Priseti se najistaknutijeg oblasnog gospodara.", "Iz lekcije: Lazareva vlast se prostire od Dunava do Kosova."]
+        objasnjenje: "Tačno. Zbog tolikog prostora Lazar je bio najistaknutiji među oblasnim gospodarima."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Lazareva vlast prostirala se od Dunava na severu do Kosova na jugu."}
+      - id: l10-feudalizam-red-tn
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [feudalizam, knez-lazar, kralj-vukasin]
+        tvrdnja: "Velikaši poput Vukašina i Lazara dobili su moć tek kada su Turci srušili carsku vlast."
+        tacno: false
+        ispravke:
+          - {tekst: "Velikaši su jačali zbog slabe centralne vlasti još pre turskih osvajanja u Srbiji.", tacan: true}
+          - {tekst: "Velikaše su na vlast postavili Turci kao svoje namesnike.", tacan: false, zasto: "Turci su velikašima u Makedoniji nametnuli vazalne obaveze tek posle Marice; oni su već imali svoje oblasti."}
+          - {tekst: "Velikaši su moć dobili od Vizantije posle Dušanove smrti.", tacan: false, zasto: "Oni su jačali unutar srpske države, odvajanjem od slabog cara."}
+        pomoc: ["Uporedi vreme: kada je Uroš vladao, a kada je bila Marica?", "Da li su se oblasti već izdvojile pre 1371?", "Iz lekcije: u razvijenom feudalizmu oblasni gospodari jačaju, a vlast cara slabi; Turci stižu do već oslabljenih država."]
+        objasnjenje: "Netačno. Redosled je obrnut: najpre slabi centralna vlast, pa Turci nailaze na već podeljene države."
+        iz_udzbenika: {strana: 44, odeljak: "Zapamtite", tekst: "Turci su stigli do granica hrišćanskih država u razvijenom feudalizmu, kada jačaju oblasni gospodari, a slabi vlast kralja ili cara."}
+      - id: l10-velikasi-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [balsici, zeta, mrnjavcevici, knez-lazar, krusevac]
+        pitanje: "Dopuni rečenice o srpskim oblasnim gospodarima."
+        tekst: "U Zeti su najjači bili {{Balšići}}. U Makedoniji su se izdvojila braća {{Mrnjavčević}}. Najistaknutiji oblasni gospodar bio je knez {{Lazar}}, sa sedištem u {{Kruševcu}}."
+        ponudjene: ["Balšići", "Mrnjavčević", "Lazar", "Kruševcu", "Murat", "Solunu"]
+        pomoc: ["Murat je turski sultan, pa ne spada među srpske velikaše.", "Solun nije bio sedište nijednog od ovih gospodara.", "Iz lekcije: Balšići u Zeti, Mrnjavčevići u Makedoniji, Lazar u Kruševcu."]
+        objasnjenje: "Svaka oblast imala je svog gospodara: Balšići Zetu, Mrnjavčevići Makedoniju, a Lazar prostor sa sedištem u Kruševcu."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Lekcija navodi Balšiće u Zeti, Mrnjavčeviće u Makedoniji i kneza Lazara sa sedištem u Kruševcu."}
+      - id: l10-uvod-kriza-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [bosna, bugarska, osmanlije]
+        pitanje: "Dopuni uvod lekcije."
+        tekst: "Srbija, Bosna, Bugarska i Ugarska bile su oslabljene slabom {{centralnom}} vlašću i unutrašnjim borbama kada su počeli upadi {{turskih}} četa na Balkan."
+        ponudjene: ["centralnom", "turskih", "crkvenom", "mongolskih"]
+        pomoc: ["Vlast može biti centralna ili oblasna.", "Mongoli se u lekciji pojavljuju tek kod Angore.", "Iz lekcije: države su bile pogođene slabom centralnom vlašću kada su počeli upadi turskih četa."]
+        objasnjenje: "Turci su na Balkan stigli u najgorem trenutku za te države, kada su bile razjedinjene."
+        iz_udzbenika: {strana: 41, odeljak: "Uvod", tekst: "Srbija, Bosna, Bugarska i Ugarska bile su oslabljene upravo kada su počeli upadi turskih četa."}
+      - id: l10-lazarevi-gradovi-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [knez-lazar, nis, krusevac]
+        pitanje: "Dopuni spisak važnih Lazarevih poseda."
+        tekst: "Pored Kruševca, važni Lazarevi posedi bili su {{Braničevo}}, {{Golubac}}, Rudnik, {{Užice}}, Niš i {{Novo Brdo}}."
+        ponudjene: ["Braničevo", "Golubac", "Užice", "Novo Brdo", "Cimpe", "Solun"]
+        pomoc: ["Cimpe je tvrđava koju su zauzeli Turci.", "Solun je Turcima pao 1387. i nije među Lazarevim posedima.", "Iz lekcije: Braničevo, Golubac, Rudnik, Užice, Niš i Novo Brdo."]
+        objasnjenje: "Ovi posedi pokazuju koliki je prostor držao Lazar, od Dunava do Kosova."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Lekcija navodi Kruševac, Braničevo, Golubac, Rudnik, Užice, Niš i Novo Brdo."}
+      - id: l10-uros-opis-dopuni
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [car-dusan, car-uros, epir, tesalija, zeta]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Posle smrti cara {{Dušana}} vladao je njegov sin {{Uroš}}. Plemići su se prvo osamostalili u Epiru i {{Tesaliji}}, a zatim i u starim oblastima kao što je {{Zeta}}."
+        pomoc: ["Prva praznina je otac, druga sin.", "Daleki jug čine dve oblasti, a u staroj oblasti su jačali Balšići.", "Iz lekcije: Dušan, pa Uroš; Epir i Tesalija, zatim Zeta."]
+        objasnjenje: "Posle Dušana, pod slabim Urošem, država se raspadala od dalekog juga prema starim oblastima."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Pod Dušanovim sinom Urošem plemići se osamostaljuju u Epiru, Tesaliji i Zeti."}
+      - id: l10-gospodari-oblasti-povezi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [balsici, mrnjavcevici, knez-lazar, bosna]
+        pitanje: "Poveži gospodare i oblasti u kojima su se isticali."
+        parovi:
+          - ["Balšići", "Zeta"]
+          - ["Braća Mrnjavčević", "Makedonija"]
+          - ["Knez Lazar", "Kruševac i prostor od Dunava do Kosova"]
+          - ["Samostalni velikaši u feudalnoj anarhiji", "Bosna"]
+        pomoc: ["Počni od Lazara, jer je njegovo sedište najpoznatije.", "Balšići su u staroj srpskoj oblasti.", "Iz lekcije: Balšići u Zeti, Mrnjavčevići u Makedoniji, Lazar u Kruševcu, a anarhija i u Bosni."]
+        objasnjenje: "Uz svakog gospodara ide njegova oblast; svuda je slika ista, slaba centralna vlast i jaki velikaši."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Lekcija navodi oblasne gospodare i prostor na kome su delovali."}
+      - id: l10-pojmovi-znacenje-povezi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [anarhija, vazal, janicari, feudalizam]
+        pitanje: "Poveži pojam i njegovo značenje."
+        parovi:
+          - ["Anarhija", "Nema zakona i reda, jer ih niko ne sprovodi"]
+          - ["Vazal", "Plemić podređen jačem gospodaru, kome se zaklinje na vernost"]
+          - ["Janičari", "Vojnici plaćeni doživotno, stajaća vojska"]
+          - ["Razvijeni feudalizam", "Oblasni gospodari jačaju, a vlast kralja ili cara slabi"]
+        pomoc: ["Dva pojma opisuju osobu ili vojnika, dva stanje.", "Zakletva na vernost vezuje se za odnos gospodara i plemića.", "Iz lekcije: anarhija je stanje bez reda, vazal je podređeni plemić, janičari su stajaća vojska."]
+        objasnjenje: "Ova četiri pojma zajedno objašnjavaju krizu: raspad vlasti s jedne, a tursku organizovanost s druge strane."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Vazal je plemić podređen jačem gospodaru i obavezan da mu se zakune na vernost."}
+      - id: l10-velikasi-titule-povezi
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [nikola-altomanovic, knez-lazar, vuk-brankovic, kralj-vukasin, despot-ugljesa]
+        pitanje: "Poveži ličnost sa titulom ili odrednicom koju joj daje lekcija."
+        parovi:
+          - ["Nikola Altomanović", "župan"]
+          - ["Lazar Hrebeljanović", "knez"]
+          - ["Vukašin Mrnjavčević", "kralj"]
+          - ["Uglješa Mrnjavčević", "despot"]
+          - ["Vuk Branković", "velikaš"]
+        pomoc: ["Jedina krunisana ličnost bila je savladar cara.", "Bratu krunisanog kralja lekcija daje titulu despota.", "Iz lekcije: župan Nikola Altomanović, knez Lazar, kralj Vukašin, despot Uglješa, velikaš Vuk Branković."]
+        objasnjenje: "Različite titule pokazuju koliko je gospodara bilo: svaki je vladao svojim delom, a jedinstvene vlasti više nije bilo."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Pored Mrnjavčevića, značajni su župan Nikola Altomanović, knez Lazar Hrebeljanović i velikaš Vuk Branković."}
+      - id: l10-osamostaljivanje-zakljuci
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [car-uros, feudalizam]
+        pitanje: "Zašto se vlastela baš pod Urošem počela odvajati od centralne vlasti?"
+        odgovori:
+          - {tekst: "Zato što je Uroš bio nejak vladar, a jaka vlastela je to iskoristila", tacan: true}
+          - {tekst: "Zato što su to tražili Turci sa Marice", tacan: false, zasto: "Odvajanje je počelo pre Marice; Turci su kasnije samo iskoristili podelu."}
+          - {tekst: "Zato što je Uroš podelio državu sinovima", tacan: false, zasto: "Državu je pred smrt podelio bugarski car; u Srbiji su se velikaši sami izdvajali."}
+          - {tekst: "Zato što je vlastela želela da pomogne Vizantiji", tacan: false, zasto: "Velikaši su gledali sopstveni interes, ne Vizantiju."}
+        pomoc: ["Korak 1: Kakav je bio Uroš kao vladar?", "Korak 2: Šta velikaš radi kad centralna vlast nema snage da ga obuzda?", "Iz lekcije: vlastela se odvajala posebno pod nejakim vladarom."]
+        objasnjenje: "U razvijenom feudalizmu vlastela je već bila jaka, a slab vladar joj je dozvolio da se izdvoji."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Vlastela se često odvajala od centralne vlasti, posebno pod nejakim vladarom."}
+      - id: l10-vukasin-freska-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [kralj-vukasin, car-uros]
+        pitanje: "Na freski stoje zajedno, kao ravnopravni, car Uroš i kralj Vukašin. Šta to najbolje govori o srpskoj državi tog doba?"
+        odgovori:
+          - {tekst: "Car više nije imao vlast iznad moćnog velikaša koji je bio krunisan kao savladar", tacan: true}
+          - {tekst: "Uroš je bio Vukašinov vazal, a Vukašin car", tacan: false, zasto: "Car je bio Uroš, a Vukašin kralj i savladar; o vazalstvu lekcija govori u vezi sa Turcima."}
+          - {tekst: "Srbija je tada bila potpuno jedinstvena država", tacan: false, zasto: "Baš tada se država cepala na oblasti."}
+          - {tekst: "Vukašin je bio sultanov namesnik u Srbiji", tacan: false, zasto: "Vukašin je bio srpski velikaš koji je krenuo u sukob sa Osmanlijama na Maricu."}
+        pomoc: ["Korak 1: Ko je Vukašin bio po tituli?", "Korak 2: Da li se ponašao kao podređen?", "Iz lekcije: Vukašin je bio savladar, ali se ponašao potpuno nezavisno."]
+        objasnjenje: "Prikaz dvojice vladara jedan pored drugog odgovara stvarnosti u kojoj carska vlast više nije bila jedina."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Freska prikazuje odnos cara Uroša i kralja Vukašina, koji je bio savladar, ali je vladao samostalno.", slika: "10-borba-protiv-turaka-osmanlija/01-car-uros-i-kralj-vukasin.jpg"}
+      - id: l10-nesloga-primena-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [feudalizam, bosna, bugarska, osmanlije]
+        pitanje: "Zamisli državu čiji se velikaši svađaju, a spolja stiže novi jak neprijatelj. Po iskustvu iz ove lekcije, šta je najverovatnije?"
+        odgovori:
+          - {tekst: "Neprijatelj će lakše osvajati, jer svaki velikaš brani samo svoj deo", tacan: true}
+          - {tekst: "Velikaši će se odmah i trajno ujediniti pod jednim vladarom", tacan: false, zasto: "Kantakuzin opisuje suprotno: neki su čekali da se pridruže pobedniku."}
+          - {tekst: "Neprijatelj neće smeti da napadne tako veliku državu", tacan: false, zasto: "Veličina ne pomaže ako je država podeljena; Turci su napredovali upravo u takvim državama."}
+          - {tekst: "Država će jačati jer sukobi vežbaju vojsku", tacan: false, zasto: "Lekcija kaže suprotno: unutrašnje borbe slabe državu i olakšavaju osvajanje."}
+        pomoc: ["Korak 1: Šta je bilo zajedničko Srbiji, Bosni i Bugarskoj?", "Korak 2: Kako su im to Turci iskoristili?", "Iz lekcije: feudalni sukobi su u velikoj meri olakšali tursko osvajanje."]
+        objasnjenje: "Zajedničko pravilo lekcije: nesloga u državi je prednost za spoljnog osvajača."
+        iz_udzbenika: {strana: 41, odeljak: "Uvod", tekst: "Unutrašnji sukobi su u velikoj meri olakšali tursko osvajanje."}
+      - id: l10-uros-oblasti-lanac
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [car-uros, feudalizam]
+        karike: ["Slab vladar Uroš", "?", "Država se cepa na oblasti"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Vlastela se izdvaja iz centralne vlasti", tacan: true}
+          - {tekst: "Janičari preuzimaju vlast u državi", tacan: false, zasto: "Janičari su turska vojska; srpska država se cepala zbog svoje vlastele."}
+          - {tekst: "Vizantija zauzima celu Srbiju", tacan: false, zasto: "Vizantinci su imali priliku da povrate izgubljeno, ali su je uludo potrošili."}
+        pomoc: ["Korak 1: Ko je mogao da iskoristi slabost cara?", "Korak 2: Šta rade moćni plemići bez jakog gospodara?", "Iz lekcije: slab vladar → vlastela se izdvaja → država se cepa na oblasti."]
+        objasnjenje: "Osnovni lanac raspada: slab vladar, jaka vlastela, podeljena država."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "U razvijenom feudalizmu vlastela se odvajala od centralne vlasti, posebno pod nejakim vladarom."}
+        osa: {naziv: "Car Uroš", od: 1355, do: 1371, traka: vladari}
+      - id: l10-sukobi-osvajanje-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [feudalizam, feudalna-anarhija, osmanlije]
+        karike: ["U Srbiji, Bosni i Bugarskoj jačaju velikaši", "Unutrašnji sukobi i slaba centralna vlast", "?"]
+        praznina: 2
+        odgovori:
+          - {tekst: "Turcima je osvajanje mnogo lakše", tacan: true}
+          - {tekst: "Balkanske države zajedno teraju Turke iz Evrope", tacan: false, zasto: "Do toga nije došlo; srpske zemlje i Bugarska postepeno su dolazile pod tursku vlast."}
+          - {tekst: "Velikaši se odriču svojih oblasti", tacan: false, zasto: "Baš naprotiv: velikaši su samostalno vladali velikim oblastima."}
+        pomoc: ["Korak 1: Ko je spoljna opasnost u to vreme?", "Korak 2: Da li je podeljena država jača ili slabija pred njim?", "Iz lekcije: feudalni sukobi na Balkanu olakšali su tursko osvajanje."]
+        objasnjenje: "Unutrašnji sukobi nisu bili neobični u srednjem veku, ali su ovde došli u trenutku spoljne opasnosti."
+        iz_udzbenika: {strana: 41, odeljak: "Uvod", tekst: "Feudalni sukobi su u velikoj meri olakšali tursko osvajanje."}
+      - id: l10-srbija-bugarska-uporedi
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [bugarska, car-uros, bosna, feudalna-anarhija]
+        a: "Srbija"
+        b: "Bugarska"
+        pitanje: "Na koju se državu odnosi tvrdnja: Srbiju, Bugarsku, obe ili nijednu?"
+        tvrdnje:
+          - {tekst: "Car je pred smrt podelio državu na dva dela.", odgovor: b, zasto: "To je učinio bugarski car; u Srbiji su se velikaši sami izdvajali."}
+          - {tekst: "Velikaši su se izdvajali pod slabim carem Urošem.", odgovor: a, zasto: "Uroš je bio srpski car (1355–1371)."}
+          - {tekst: "Država je bila oslabljena unutrašnjim borbama kada su stigli Turci.", odgovor: oba, zasto: "Obe države su bile oslabljene, što je Turcima olakšalo osvajanje."}
+          - {tekst: "Posle pobede kod Angore osvojila je Tursku.", odgovor: nijedan, zasto: "Kod Angore su pobedili Mongoli i zarobili sultana Bajazita."}
+          - {tekst: "Knez Lazar je vladao od Dunava do Kosova na njenom tlu.", odgovor: a, zasto: "Lazar je bio srpski oblasni gospodar sa sedištem u Kruševcu."}
+        pomoc: ["Koji car je sam podelio državu?", "Koja se država raspadala bez takve podele?", "Iz lekcije: u Bugarskoj car deli državu, a u Srbiji se vlastela izdvaja pod Urošem."]
+        objasnjenje: "Način podele se razlikovao, ali je posledica bila ista: slaba država pred Turcima."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Slično Srbiji, i Bugarska je bila podeljena, jer je car pred smrt razdelio državu."}
+      - id: l10-lazar-ko-sam
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [knez-lazar, krusevac, kosovski-boj]
+        tragovi: ["Bio sam najistaknutiji među oblasnim gospodarima.", "Sedište mi je bilo u Kruševcu, a vlast od Dunava do Kosova.", "Izgubio sam život 1389, u boju sa vojskom sultana Murata."]
+        odgovori:
+          - {tekst: "Knez Lazar", tacan: true}
+          - {tekst: "Kralj Vukašin", tacan: false, zasto: "Vukašin je bio u Makedoniji i vezuje se za Maricu 1371."}
+          - {tekst: "Vuk Branković", tacan: false, zasto: "Branković je bio značajan velikaš, ali sedište u Kruševcu imao je Lazar."}
+          - {tekst: "Car Uroš", tacan: false, zasto: "Uroš je umro 1371, mnogo pre Kosova."}
+        objasnjenje: "To je knez Lazar Hrebeljanović, najjači srpski gospodar uoči Kosovskog boja."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Knez Lazar je najistaknutiji oblasni gospodar, sa sedištem u Kruševcu.", slika: "10-borba-protiv-turaka-osmanlija/02-knez-lazar-i-knjeginja-milica.jpg"}
+      - id: l10-vukasin-ko-sam
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [kralj-vukasin, mrnjavcevici, marko-kraljevic]
+        tragovi: ["Imao sam krunu, ali nisam bio car.", "Bio sam savladar, a ponašao sam se potpuno nezavisno.", "Brat mi je bio despot Uglješa, a sin Marko."]
+        odgovori:
+          - {tekst: "Kralj Vukašin", tacan: true}
+          - {tekst: "Knez Lazar", tacan: false, zasto: "Lazar je bio knez i nije bio krunisan za savladara."}
+          - {tekst: "Nikola Altomanović", tacan: false, zasto: "Altomanović je bio župan, a ne krunisani savladar."}
+          - {tekst: "Marko Kraljević", tacan: false, zasto: "Marko je sin ličnosti koju tražimo."}
+        objasnjenje: "Vukašin Mrnjavčević je bio krunisan za kralja i savladar cara Uroša, a Marko Kraljević mu je sin."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Vukašin je bio krunisan za kralja i bio savladar cara Uroša, ali potpuno nezavisan."}
+      - id: l10-zasto-oslabila-objasni
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [car-uros, feudalizam]
+        pitanje: "Objasni svojim rečima zašto se Srbija posle Dušana raspala na oblasti."
+        uzor: "Posle Dušana vladao je slab car Uroš, koji nije mogao da obuzda moćnu vlastelu. Velikaši su se odvajali od centralne vlasti, najpre u Epiru i Tesaliji, a zatim i u starim oblastima. Tako je država ostala podeljena među oblasnim gospodarima."
+        ideje: ["Uroš je bio slab vladar.", "Vlastela je bila jaka i odvajala se od centralne vlasti.", "Odvajanje je išlo od dalekog juga ka starim oblastima."]
+        objasnjenje: "Uzrok je spoj slabog vladara i jake vlastele u razvijenom feudalizmu."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Pod Urošem se plemići osamostaljuju, prvo na jugu, pa i u starim srpskim oblastima."}
+      - id: l10-nesloga-vlastele-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [feudalizam, jovan-vi-kantakuzin]
+        pitanje: "Zašto vlastela hrišćanskih država krajem XIV veka nije bila složna?"
+        uzor: "U razvijenom feudalizmu oblasni gospodari su jačali, a centralna vlast je slabila. Svaki velikaš je gledao svoj interes i svoju oblast. Zato se nisu okupljali oko jednog vladara čak ni pred turskom opasnošću."
+        ideje: ["Oblasni gospodari jačaju, a centralna vlast slabi.", "Svaki velikaš gleda sopstveni interes.", "Kantakuzin opisuje velikaše koji čekaju da se pridruže pobedniku."]
+        objasnjenje: "Ovo je pitanje iz udžbenika: odgovor spaja feudalno društvo i lični interes velikaša."
+        iz_udzbenika: {strana: 44, odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika", tekst: "Razvijeni feudalizam jača oblasne gospodare i slabi centralnu vlast, a svaki velikaš gleda svoj interes."}
+  - naslov: "Turci Osmanlije i njihova prva osvajanja"
+    zadaci:
+      - id: l10-cimpe-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [cimpe, osmanlije]
+        pitanje: "Koju su tvrđavu Turci zauzeli 1352. i odatle počeli da se naseljavaju u Evropi?"
+        odgovori:
+          - {tekst: "Cimpe", tacan: true}
+          - {tekst: "Golubac", tacan: false, zasto: "Golubac je bio Lazarev posed, a ne prva turska tačka u Evropi."}
+          - {tekst: "Niš", tacan: false, zasto: "Niš su Turci uzeli tek 1386, više od trideset godina kasnije."}
+          - {tekst: "Gazimestan", tacan: false, zasto: "Gazimestan nije tvrđava, nego mesto na Kosovu gde je vođena bitka 1389."}
+        pomoc: ["Tvrđava je bila napuštena kada su je Turci zauzeli.", "Ime joj počinje na C.", "Iz lekcije: 1352. Turci zauzimaju napuštenu tvrđavu Cimpe."]
+        objasnjenje: "Cimpe je prva turska tačka oslonca u Evropi; odatle počinje njihovo naseljavanje."
+        iz_udzbenika: {strana: 41, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Turci su 1352. zauzeli napuštenu tvrđavu Cimpe, i odatle je počelo njihovo naseljavanje Evrope."}
+        osa: {naziv: "Turci zauzimaju Cimpe", od: 1352, traka: dogadjaji}
+      - id: l10-janicari-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [janicari, osmanlije]
+        pitanje: "Ko su bili janičari?"
+        odgovori:
+          - {tekst: "Turski vojnici plaćeni doživotno, prva stajaća vojska u Evropi", tacan: true}
+          - {tekst: "Srpski velikaši u Makedoniji", tacan: false, zasto: "Velikaši u Makedoniji bili su turski vazali, a ne janičari."}
+          - {tekst: "Vizantijski istoričari", tacan: false, zasto: "Vizantijski car i istoričar bio je Kantakuzin; janičari su vojnici."}
+          - {tekst: "Mongolski osvajači", tacan: false, zasto: "Mongoli su pobedili Turke kod Angore; janičari su bili osmanska vojska."}
+        pomoc: ["Pojam je vezan za uspeh turske vojske.", "Glavna reč je „stajaća”: vojnici koji su uvek u službi.", "Iz lekcije: janičari su prva stajaća vojska u Evropi, vojnici plaćeni doživotno."]
+        objasnjenje: "Janičari su stalno bili u službi i plaćeni doživotno, pa je to bio deo razloga za turski uspeh."
+        iz_udzbenika: {strana: 42, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Osmanlije su prve u Evropi imale stajaću vojsku, janičare, vojnike plaćene doživotno."}
+      - id: l10-pozvani-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [osmanlije, vizantija]
+        pitanje: "Kako su Turci došli na Balkan?"
+        odgovori:
+          - {tekst: "Kao pozvani učesnici u unutrašnjim sukobima u Vizantiji", tacan: true}
+          - {tekst: "Kao saveznici kneza Lazara", tacan: false, zasto: "Lazar se protiv njih borio; na Balkan su došli pre njegovog uspona, zbog vizantijskih sukoba."}
+          - {tekst: "Bežeći pred Mongolima posle Angore", tacan: false, zasto: "Angora je 1402, a Turci su već 1352. u Cimpama."}
+          - {tekst: "Kao trgovci iz Dubrovnika", tacan: false, zasto: "Lekcija ih ne opisuje kao trgovce, nego kao učesnike u vizantijskim sukobima."}
+        pomoc: ["Nisu došli sami od sebe: neko ih je pozvao.", "Sukob je bio u jednoj staroj carevini.", "Iz lekcije: na Balkan dolaze kao pozvani učesnici u unutrašnjim vizantijskim sukobima."]
+        objasnjenje: "Unutrašnji sukobi u Vizantiji doveli su Turke na Balkan, a onda su oni tu ostali."
+        iz_udzbenika: {strana: 41, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Turci na Balkan dolaze kao pozvani učesnici u unutrašnjim vizantijskim sukobima."}
+      - id: l10-murat-namera-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [sultan-murat, osmanlije]
+        pitanje: "Šta je bio glavni cilj sultana Murata?"
+        odgovori:
+          - {tekst: "Da učvrsti tursku vlast u Evropi", tacan: true}
+          - {tekst: "Da se povuče iz Evrope i brani od Mongola", tacan: false, zasto: "Mongolski poraz stiže tek 1402, pod Bajazitom; Murat je širio vlast u Evropi."}
+          - {tekst: "Da pomogne caru Urošu protiv velikaša", tacan: false, zasto: "Murat nije pomagao Urošu; Turci su se primicali srpskim oblastima."}
+          - {tekst: "Da obnovi Vizantiju", tacan: false, zasto: "Turci su u vizantijske sukobe ušli kao pozvani, a zatim osvajali za sebe."}
+        pomoc: ["Murat vlada 1362–1389.", "Pogledaj kuda su išla njegova osvajanja.", "Iz lekcije: Murat čvrsto namerava da učvrsti tursku vlast u Evropi."]
+        objasnjenje: "Pod Muratom se osvajanja približavaju srpskim oblastima, sve do Kosova 1389."
+        iz_udzbenika: {strana: 41, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Sultan Murat (1362–1389) čvrsto namerava da učvrsti tursku vlast u Evropi."}
+        osa: {naziv: "Sultan Murat", od: 1362, do: 1389, traka: vladari}
+      - id: l10-pocetak-mala-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [osmansko-carstvo]
+        tvrdnja: "Na početku XIV veka Osmanska država je bila mala kneževina."
+        tacno: true
+        pomoc: ["Velika sila nije nastala odjednom.", "Iz lekcije: na početku XIV veka to je mala kneževina, koja postepeno prerasta u veliku silu."]
+        objasnjenje: "Tačno. Osmanska država je od male kneževine postepeno izrasla u veliku silu."
+        iz_udzbenika: {strana: 41, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Na početku XIV veka Osmanska država je mala kneževina, koja postepeno prerasta u veliku silu."}
+      - id: l10-plocnik-pobeda-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [plocnik, osmanlije]
+        tvrdnja: "Kod Pločnika 1386. Turci su potukli srpsku vojsku."
+        tacno: false
+        ispravke:
+          - {tekst: "Kod Pločnika 1386. srpska vojska je pobedila Turke.", tacan: true}
+          - {tekst: "Kod Pločnika 1386. Mongoli su pobedili Turke.", tacan: false, zasto: "Mongoli su pobedili kod Angore 1402."}
+          - {tekst: "Kod Pločnika 1386. Turci su zarobili kneza Lazara.", tacan: false, zasto: "Lazar je zarobljen na Kosovu 1389."}
+        pomoc: ["Ovo je retka srpska pobeda u lekciji.", "Reč „ali” iz knjige kaže da je posle pobede ipak pao Niš.", "Iz lekcije: srpska vojska pobeđuje Turke kod Pločnika 1386."]
+        objasnjenje: "Netačno. Pločnik je srpska pobeda, ali Turci iste godine ipak uzimaju Niš."
+        iz_udzbenika: {strana: 41, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Srpska vojska pobedila je Turke kod Pločnika 1386, ali su Osmanlije iste godine uzele Niš."}
+        osa: {naziv: "Bitka kod Pločnika", od: 1386, traka: dogadjaji}
+      - id: l10-bajazit-sin-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [bajazit-i, sultan-murat]
+        tvrdnja: "Bajazit I bio je Muratov sin i nastavio je širenje Osmanske države."
+        tacno: true
+        pomoc: ["Pogledaj kada se završava Muratova vladavina, a kada počinje Bajazitova.", "Iz lekcije: Muratov sin Bajazit I (1389–1402) nastavlja širenje države."]
+        objasnjenje: "Tačno. Posle Muratove pogibije 1389. nasledio ga je sin Bajazit, a osvajanja su se nastavila."
+        iz_udzbenika: {strana: 42, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Muratov sin Bajazit I (1389–1402) nastavio je širenje države."}
+        osa: {naziv: "Bajazit I", od: 1389, do: 1402, traka: vladari}
+      - id: l10-janicari-privremeni-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [janicari, osmanlije]
+        tvrdnja: "Janičari su se okupljali samo za vreme rata, a posle bitke su se vraćali kućama."
+        tacno: false
+        ispravke:
+          - {tekst: "Janičari su bili stajaća vojska, plaćena doživotno.", tacan: true}
+          - {tekst: "Janičari su bili plaćeni samo jednom, po završenoj bici.", tacan: false, zasto: "Bili su plaćeni doživotno, to je i bila njihova posebnost."}
+          - {tekst: "Janičari su bili odredi iz Bosne.", tacan: false, zasto: "Odredi iz Bosne pomagali su Srbima na Kosovu; janičari su bili turska vojska."}
+        pomoc: ["Šta znači reč „stajaća” vojska?", "Da li takav vojnik ide kući posle bitke?", "Iz lekcije: janičari su stajaća vojska, vojnici plaćeni doživotno."]
+        objasnjenje: "Netačno. Stalna vojska je uvek spremna, i to je Turcima davalo prednost."
+        iz_udzbenika: {strana: 42, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Janičari su bili prva stajaća vojska u Evropi, plaćena doživotno."}
+      - id: l10-nis-plocnik-tn
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [plocnik, nis, knez-lazar]
+        tvrdnja: "Pobeda kod Pločnika nije zaustavila Turke: iste godine pao je Niš, jedan od važnih Lazarevih poseda."
+        tacno: true
+        pomoc: ["Spoji dve činjenice: godinu pada Niša i spisak Lazarevih poseda.", "Iz lekcije: Pločnik 1386, ali Osmanlije iste godine uzimaju Niš; Niš je među važnim Lazarevim posedima."]
+        objasnjenje: "Tačno. Ni dobijena bitka nije promenila pravac: Turci su se i dalje primicali srpskim oblastima."
+        iz_udzbenika: {strana: 41, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Srpska vojska pobeđuje kod Pločnika 1386, ali Turci iste godine uzimaju Niš."}
+        osa: {naziv: "Turci osvajaju Niš", od: 1386, traka: dogadjaji}
+      - id: l10-prva-osvajanja-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [cimpe, plocnik, nis, solun]
+        pitanje: "Dopuni pregled turskih osvajanja."
+        tekst: "Turci su 1352. zauzeli tvrđavu {{Cimpe}}. Srpska vojska ih je pobedila kod {{Pločnika}} 1386, ali su iste godine uzeli {{Niš}}, a 1387. i {{Solun}}."
+        ponudjene: ["Cimpe", "Pločnika", "Niš", "Solun", "Angore", "Kruševac"]
+        pomoc: ["Kod Angore su Turci izgubili od Mongola, i to mnogo kasnije.", "Kruševac je bio Lazarevo sedište.", "Iz lekcije: Cimpe 1352, Pločnik i Niš 1386, Solun 1387."]
+        objasnjenje: "Niz pokazuje pravac napredovanja: od male tvrđave do velikih gradova na Balkanu."
+        iz_udzbenika: {strana: 42, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Turci zauzimaju Cimpe 1352, Niš 1386. i Solun 1387, a kod Pločnika gube 1386."}
+      - id: l10-sultani-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [sultan-murat, bajazit-i]
+        pitanje: "Dopuni rečenicu o sultanima."
+        tekst: "Sultan {{Murat}} vladao je od 1362. do {{1389}}. Nasledio ga je sin {{Bajazit}} I, koji je vladao do {{1402}}."
+        ponudjene: ["Murat", "1389", "Bajazit", "1402", "1371", "1352"]
+        pomoc: ["Muratova vladavina se završava godinom Kosovskog boja.", "Bajazitova se završava godinom Angore.", "Iz lekcije: Murat 1362–1389, Bajazit I 1389–1402."]
+        objasnjenje: "Dve bitke, Kosovo i Angora, zatvaraju vladavine dvojice sultana."
+        iz_udzbenika: {strana: 42, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Sultan Murat vlada 1362–1389, a njegov sin Bajazit I 1389–1402."}
+      - id: l10-janicari-dopuni
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [janicari, cimpe]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Turci su u Evropi prvi imali {{stajaću}} vojsku. Njeni vojnici zvali su se {{janičari|janicari}} i bili su plaćeni {{doživotno|dozivotno}}."
+        pomoc: ["Prva reč znači: vojska koja postoji stalno, a ne samo u ratu.", "Naziv tih vojnika počinje na j.", "Iz lekcije: stajaća vojska, janičari, plaćeni doživotno."]
+        objasnjenje: "Stalna i doživotno plaćena vojska objašnjava deo turskog uspeha."
+        iz_udzbenika: {strana: 42, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Osmanlije su prve u Evropi imale stajaću vojsku, janičare, plaćene doživotno."}
+      - id: l10-sultani-osvajanja-povezi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [cimpe, plocnik, solun, bitka-kod-angore]
+        pitanje: "Poveži mesto sa onim što se tamo dogodilo."
+        parovi:
+          - ["Cimpe", "Napuštena tvrđava, početak naseljavanja Evrope"]
+          - ["Pločnik", "Srpska vojska pobeđuje Turke"]
+          - ["Solun", "Turci ga osvajaju 1387."]
+          - ["Angora", "Mongoli zarobljavaju sultana Bajazita"]
+        pomoc: ["Jedna bitka je srpska pobeda, a jedna turski poraz od nekog drugog.", "Cimpe je najranije po vremenu.", "Iz lekcije: Cimpe 1352, Pločnik 1386, Solun 1387, Angora 1402."]
+        objasnjenje: "Četiri mesta pokazuju početak, uspone, jedan poraz i privremeni prekid osvajanja."
+        iz_udzbenika: {strana: 42, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Lekcija beleži Cimpe, Pločnik, Niš, Solun, a zatim i Angoru."}
+      - id: l10-janicari-prednost-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [janicari, feudalizam]
+        pitanje: "Zašto je stajaća vojska bila velika prednost u odnosu na vojske feudalnih gospodara?"
+        odgovori:
+          - {tekst: "Vojnici su stalno u službi i plaćeni doživotno, pa je vojska uvek spremna", tacan: true}
+          - {tekst: "Bila je sastavljena od Mongola", tacan: false, zasto: "Mongoli su bili protivnici Turaka kod Angore."}
+          - {tekst: "Nije morala da se bori", tacan: false, zasto: "Janičari su bili upravo borbena vojska."}
+          - {tekst: "Bila je pod komandom Vlatka Vukovića", tacan: false, zasto: "Vukovićevi odredi iz Bosne pomagali su Srbima na Kosovu."}
+        pomoc: ["Korak 1: Šta je „stajaća” vojska?", "Korak 2: Šta dobija država koja vojsku ima i kad nema rata?", "Iz lekcije: deo turskog uspeha objašnjava se stajaćom, doživotno plaćenom vojskom."]
+        objasnjenje: "Stalna, doživotno plaćena vojska bila je deo turskog uspeha, dok su balkanske države bile podeljene među velikašima."
+        iz_udzbenika: {strana: 42, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Deo turskog uspeha objašnjava se time što su Osmanlije prve imale stajaću vojsku."}
+      - id: l10-vizantija-greska-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [vizantija, osmanlije, cimpe]
+        pitanje: "Šta je najvažnija pouka iz načina na koji su Turci stigli na Balkan?"
+        odgovori:
+          - {tekst: "Unutrašnji sukob može da uvede spoljnu silu koja ostane i postane opasnija od protivnika", tacan: true}
+          - {tekst: "Vizantija je tim pozivom ojačala i proterala ih", tacan: false, zasto: "Nije ih proterala: Turci su 1352. zauzeli Cimpe i počeli naseljavanje."}
+          - {tekst: "Turci su samo prošli kroz Balkan i vratili se", tacan: false, zasto: "Ostali su i širili se sve do Kosova, Soluna i Bugarske."}
+          - {tekst: "Poziv nije imao nikakve posledice", tacan: false, zasto: "Upravo je to bio početak turskog prisustva na Balkanu."}
+        pomoc: ["Korak 1: Zašto su Turci pozvani?", "Korak 2: Šta su uradili 1352. i kasnije?", "Iz lekcije: sukobi u Vizantiji → Turci pozvani → dolazak na Balkan → Cimpe 1352."]
+        objasnjenje: "Pozvani saveznik postao je osvajač, jer je onaj ko ga je zvao bio razdiran sukobima."
+        iz_udzbenika: {strana: 41, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Turci dolaze kao pozvani učesnici vizantijskih sukoba, a 1352. počinju naseljavanje Evrope."}
+        osa: {naziv: "Turci zauzimaju Cimpe", od: 1352, traka: dogadjaji}
+      - id: l10-cimpe-datum
+        vrsta: datum
+        tezina: lako
+        pojmovi: [cimpe, osmanlije]
+        dogadjaj: "Turci zauzimaju Cimpe"
+        pitanje: "Koje godine su Turci zauzeli tvrđavu Cimpe?"
+        godina: 1352
+        traka: dogadjaji
+        pomoc: ["To je sredina XIV veka, pre Dušanove smrti.", "Smrt cara Dušana je 1355, a ovo je tri godine ranije.", "Iz lekcije: Cimpe je zauzeto 1352."]
+        objasnjenje: "Godine 1352. Turci se učvršćuju u Cimpama i počinje njihovo naseljavanje Evrope."
+        iz_udzbenika: {strana: 41, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Turci su 1352. zauzeli napuštenu tvrđavu Cimpe."}
+      - id: l10-plocnik-datum
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [plocnik]
+        dogadjaj: "Bitka kod Pločnika"
+        pitanje: "Koje godine je srpska vojska pobedila Turke kod Pločnika?"
+        godina: 1386
+        traka: dogadjaji
+        pomoc: ["Bilo je to nekoliko godina pre Kosova.", "Tri godine pre Kosovskog boja.", "Iz lekcije: Pločnik je 1386."]
+        objasnjenje: "Pločnik je 1386, tri godine pre Kosova; iste godine pao je i Niš."
+        iz_udzbenika: {strana: 41, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Srpska vojska pobedila je Turke kod Pločnika 1386."}
+      - id: l10-solun-datum
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [solun]
+        dogadjaj: "Turci osvajaju Solun"
+        pitanje: "Koje godine su Turci osvojili Solun?"
+        godina: 1387
+        traka: dogadjaji
+        pomoc: ["Godinu dana posle Pločnika.", "Dve godine pre Kosova.", "Iz lekcije: Solun je pao 1387."]
+        objasnjenje: "Solun je pao 1387, između Pločnika i Kosova."
+        iz_udzbenika: {strana: 42, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Turci su 1387. osvojili i Solun."}
+      - id: l10-murat-datum
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [sultan-murat]
+        dogadjaj: "Sultan Murat"
+        pitanje: "U kom periodu je vladao sultan Murat?"
+        od: 1362
+        do: 1389
+        traka: vladari
+        pomoc: ["Završetak znaš: Kosovo. Početak je sedam godina posle Dušanove smrti.", "Dušan je umro 1355.", "Iz lekcije: Murat je vladao 1362–1389."]
+        objasnjenje: "Murat je vladao od 1362. do pogibije na Kosovu 1389."
+        iz_udzbenika: {strana: 41, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Sultan Murat vlada 1362–1389."}
+      - id: l10-turska-osvajanja-poredjaj
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [cimpe, plocnik, solun]
+        pitanje: "Poređaj događaje hronološki, od najranijeg."
+        stavke:
+          - {tekst: "Turci zauzimaju Cimpe", godina: 1352, naziv: "Turci zauzimaju Cimpe", traka: dogadjaji}
+          - {tekst: "Srpska pobeda kod Pločnika", godina: 1386, naziv: "Bitka kod Pločnika", traka: dogadjaji}
+          - {tekst: "Turci osvajaju Solun", godina: 1387, naziv: "Turci osvajaju Solun", traka: dogadjaji}
+        pomoc: ["Počinje se od prve tačke u Evropi.", "Solun pada godinu dana posle srpske pobede.", "Iz lekcije: Cimpe 1352, Pločnik 1386, Solun 1387."]
+        objasnjenje: "Prvo oslonac u Evropi 1352, pa 1386. Pločnik i 1387. Solun."
+        iz_udzbenika: {strana: 42, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Lekcija beleži Cimpe 1352, Pločnik 1386. i Solun 1387."}
+      - id: l10-vizantija-cimpe-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [vizantija, osmanlije, cimpe]
+        karike: ["Sukobi u Vizantiji", "?", "Turci dolaze na Balkan", "Zauzimanje Cimpa 1352."]
+        praznina: 1
+        odgovori:
+          - {tekst: "Turci su pozvani kao pomoć", tacan: true}
+          - {tekst: "Srbi su pozvali Turke protiv Dušana", tacan: false, zasto: "Sukobi su bili unutrašnji vizantijski, pa su tu Turci i pozvani."}
+          - {tekst: "Mongoli su proterali Turke iz Azije", tacan: false, zasto: "Mongoli su u lekciji tek 1402, kod Angore."}
+        pomoc: ["Korak 1: Čiji je bio unutrašnji sukob?", "Korak 2: Kako je neka strana mogla da dobije pomoć?", "Iz lekcije: sukobi u Vizantiji → Turci pozvani u pomoć → dolazak na Balkan → Cimpe 1352."]
+        objasnjenje: "Pozivom u vizantijski sukob Turci su dobili priliku da uđu u Evropu."
+        iz_udzbenika: {strana: 41, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Na Balkan dolaze kao pozvani učesnici u unutrašnjim vizantijskim sukobima."}
+        osa: {naziv: "Turci zauzimaju Cimpe", od: 1352, traka: dogadjaji}
+      - id: l10-janicari-uspeh-lanac
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [janicari]
+        karike: ["Vojnici plaćeni doživotno", "?", "Turski vojni uspeh"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Osmanlije prve u Evropi imaju stajaću vojsku", tacan: true}
+          - {tekst: "Srbi prvi dobijaju plaćenu vojsku", tacan: false, zasto: "Stajaću vojsku prve su imale Osmanlije."}
+          - {tekst: "Vojska se raspušta posle svake bitke", tacan: false, zasto: "To je suprotno od stajaće vojske, koja stalno postoji."}
+        pomoc: ["Korak 1: Kako se zove vojska koja stalno postoji?", "Korak 2: Ko ju je prvi imao?", "Iz lekcije: stajaća, doživotno plaćena vojska (janičari) → turski vojni uspeh."]
+        objasnjenje: "Stalna služba i doživotna plata stvorile su pouzdanu vojsku."
+        iz_udzbenika: {strana: 42, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Janičari, kao stajaća vojska, deo su objašnjenja turskog uspeha."}
+      - id: l10-vojska-uporedi
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [janicari, feudalizam, osmanlije]
+        a: "Turci Osmanlije"
+        b: "Hrišćanske balkanske države"
+        pitanje: "Na koga se odnosi tvrdnja: Turke, hrišćanske države, oba ili nijedan?"
+        tvrdnje:
+          - {tekst: "Imali su prvu stajaću vojsku u Evropi.", odgovor: a, zasto: "Janičari su bili turska vojska."}
+          - {tekst: "Oblasni gospodari su jačali, a centralna vlast slabila.", odgovor: b, zasto: "To je razvijeni feudalizam u balkanskim državama, a ne stanje pod Muratom."}
+          - {tekst: "Doživeli su velike gubitke na Kosovu.", odgovor: oba, zasto: "Gubici su bili veliki na obe strane."}
+          - {tekst: "Vladar im je lično došao na Kosovo.", odgovor: oba, zasto: "Došli su i knez Lazar i sultan Murat."}
+          - {tekst: "Pobedili su Mongole kod Angore.", odgovor: nijedan, zasto: "Mongoli su tamo pobedili Turke, a hrišćanske države nisu učestvovale po lekciji."}
+        pomoc: ["Ko ima jednu vojsku, a ko mnogo gospodara?", "Na Kosovu su neke stvari važile za obe strane.", "Iz lekcije: Turci imaju stajaću vojsku; hrišćanske države su podeljene; na Kosovu ginu oba vladara."]
+        objasnjenje: "Razlika nije samo u broju vojnika, već u organizaciji: jedna vojska pod sultanom naspram mnogo gospodara."
+        iz_udzbenika: {strana: 44, odeljak: "Zapamtite", tekst: "Turci stižu do država u kojima jačaju oblasni gospodari, a slabi vlast kralja ili cara."}
+      - id: l10-murat-ko-sam
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [sultan-murat, kosovski-boj]
+        tragovi: ["Čvrsto sam nameravao da učvrstim tursku vlast u Evropi.", "Za moje vladavine pali su Niš i Solun.", "Lično sam došao na Kosovo 1389, gde sam izgubio život."]
+        odgovori:
+          - {tekst: "Sultan Murat", tacan: true}
+          - {tekst: "Bajazit I", tacan: false, zasto: "Bajazit je Muratov sin; zarobili su ga Mongoli kod Angore."}
+          - {tekst: "Knez Lazar", tacan: false, zasto: "Lazar je branio srpske zemlje, a nije učvršćivao tursku vlast."}
+          - {tekst: "Jovan VI Kantakuzin", tacan: false, zasto: "On je bio vizantijski car i istoričar."}
+        objasnjenje: "Sultan Murat (1362–1389) poginuo je na Kosovu; ubio ga je jedan srpski plemić."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Kosovu 1389.", tekst: "Na bojište lično dolaze knez Lazar i sultan Murat, i obojica gube život."}
+      - id: l10-janicari-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [janicari, osmanlije]
+        pitanje: "Objasni zašto su janičari bili važni za uspeh Turaka."
+        uzor: "Janičari su bili prva stajaća vojska u Evropi. Vojnici su bili plaćeni doživotno, pa je vojska stalno postojala. Time su Turci imali prednost nad podeljenim hrišćanskim državama, u kojima su velikaši bili samostalni."
+        ideje: ["Stajaća vojska postoji stalno.", "Vojnici su plaćeni doživotno.", "Turci su je prvi imali u Evropi.", "To je prednost nad podeljenim protivnicima."]
+        objasnjenje: "Janičari objašnjavaju deo uspeha, uz neslogu protivnika."
+        iz_udzbenika: {strana: 42, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Deo turskog uspeha objašnjava se stajaćom vojskom, janičarima, plaćenim doživotno."}
+      - id: l10-dolazak-turaka-objasni
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [osmanlije, cimpe, vizantija]
+        pitanje: "Objasni kako su Turci Osmanlije stigli na Balkan i gde su se prvo učvrstili."
+        uzor: "Turci su na Balkan došli kao pozvani učesnici u unutrašnjim sukobima u Vizantiji. Godine 1352. zauzeli su napuštenu tvrđavu Cimpe. Odatle je počelo njihovo naseljavanje Evrope."
+        ideje: ["Pozvani su u vizantijske sukobe.", "Zauzeli su Cimpe 1352.", "Odatle počinje naseljavanje Evrope."]
+        objasnjenje: "Unutrašnji sukob u Vizantiji otvorio je Turcima put u Evropu."
+        iz_udzbenika: {strana: 41, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Turci dolaze kao pozvani učesnici vizantijskih sukoba, a 1352. zauzimaju tvrđavu Cimpe."}
+        osa: {naziv: "Turci zauzimaju Cimpe", od: 1352, traka: dogadjaji}
+  - naslov: "Bitka na Marici 1371."
+    zadaci:
+      - id: l10-marica-braca-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [bitka-na-marici, mrnjavcevici]
+        pitanje: "Ko je predvodio srpsku vojsku na Marici?"
+        odgovori:
+          - {tekst: "Braća Mrnjavčević, kralj Vukašin i despot Uglješa", tacan: true}
+          - {tekst: "Knez Lazar", tacan: false, zasto: "Lazar je predvodio vojsku na Kosovu 1389."}
+          - {tekst: "Car Dušan", tacan: false, zasto: "Dušan je umro 1355, šesnaest godina pre Marice."}
+          - {tekst: "Vlatko Vuković", tacan: false, zasto: "Vuković je 1389. predvodio odrede iz Bosne na Kosovu."}
+        pomoc: ["Oni su bili najjači u Makedoniji.", "Dva brata, kralj i despot.", "Iz lekcije: na Maricu kreću kralj Vukašin i despot Uglješa."]
+        objasnjenje: "Vukašin i Uglješa krenuli su ka Marici protiv Osmanlija i doživeli težak poraz."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Braća Mrnjavčević, kralj Vukašin i despot Uglješa, kreću ka Marici u sukob sa Osmanlijama."}
+        osa: {naziv: "Bitka na Marici", od: 1371, traka: dogadjaji}
+      - id: l10-marica-posledica-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [bitka-na-marici, vazal]
+        pitanje: "Šta je bila posledica poraza na Marici za srpske velikaše u Makedoniji?"
+        odgovori:
+          - {tekst: "Turci su im nametnuli vazalne obaveze", tacan: true}
+          - {tekst: "Dobili su nezavisnost od Turaka", tacan: false, zasto: "Baš suprotno: postali su podređeni Turcima."}
+          - {tekst: "Prešli su pod vlast kneza Lazara", tacan: false, zasto: "Lekcija kaže da su postali vazali Turaka, ne Lazara."}
+          - {tekst: "Proterali su Turke sa Balkana", tacan: false, zasto: "Turci su ostali i dalje širili vlast."}
+        pomoc: ["Ko je pobedio na Marici?", "Pobednik traži vernost od poraženih.", "Iz lekcije: velikašima u Makedoniji Turci nameću vazalne obaveze."]
+        objasnjenje: "Pobedom Turci nisu morali da zauzimaju sve: bilo je dovoljno da velikaše učine svojim vazalima."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Posle poraza Turci srpskim velikašima u Makedoniji nameću vazalne obaveze."}
+        osa: {naziv: "Bitka na Marici", od: 1371, traka: dogadjaji}
+      - id: l10-marko-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [marko-kraljevic, vazal, kralj-vukasin]
+        pitanje: "Ko je u narodnom predanju Marko Kraljević?"
+        odgovori:
+          - {tekst: "Vukašinov sin Marko Mrnjavčević, turski vazal", tacan: true}
+          - {tekst: "Sin kneza Lazara", tacan: false, zasto: "Marko je Vukašinov sin, iz porodice Mrnjavčević."}
+          - {tekst: "Plemić koji je ubio sultana Murata", tacan: false, zasto: "Sultanovog ubicu legenda naziva Miloš Obilić."}
+          - {tekst: "Zapovednik janičara", tacan: false, zasto: "Bio je srpski velikaš i vazal, a janičari su turska vojska."}
+        pomoc: ["Ime „Kraljević” govori da mu je otac bio kralj.", "Otac mu je kralj sa Marice.", "Iz lekcije: turski vazal je i Vukašinov sin Marko Mrnjavčević, u predanju Marko Kraljević."]
+        objasnjenje: "Marko je istorijska ličnost, sin kralja Vukašina, i turski vazal, a u narodnom predanju Marko Kraljević."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Turski vazal je i Vukašinov sin Marko Mrnjavčević, u narodnom predanju Marko Kraljević."}
+      - id: l10-marica-prvi-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [bitka-na-marici]
+        tvrdnja: "Bitka na Marici bila je prvi veliki ratni sukob hrišćanske Evrope i Turaka."
+        tacno: true
+        pomoc: ["Razmisli koja je od velikih bitaka u lekciji najranija.", "Iz lekcije: to je prvi veliki ratni sukob hrišćanske Evrope i Turaka."]
+        objasnjenje: "Tačno. Zato je Marica važan korak turskog napredovanja u Evropi."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Bitka na Marici je prvi veliki ratni sukob hrišćanske Evrope i Turaka."}
+        osa: {naziv: "Bitka na Marici", od: 1371, traka: dogadjaji}
+      - id: l10-marica-spremni-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [bitka-na-marici]
+        tvrdnja: "Na Marici je srpska vojska iznenadila Turke i potpuno ih potukla."
+        tacno: false
+        ispravke:
+          - {tekst: "Turci su iznenadili nespremnu srpsku vojsku i potpuno je potukli.", tacan: true}
+          - {tekst: "Bitka je ostala nerešena, a obe vojske su se povukle.", tacan: false, zasto: "Srpska vojska je potpuno potučena."}
+          - {tekst: "Srpsku vojsku potukli su Mongoli.", tacan: false, zasto: "Protivnici su bili Turci; Mongoli su pobedili tek kod Angore."}
+        pomoc: ["Ko je bio nespreman?", "Pogledaj posledice: ko je kome postao vazal?", "Iz lekcije: Turci iznenade nespremnu srpsku vojsku i potpuno je potuku."]
+        objasnjenje: "Netačno. Iznenađenje je bilo na turskoj strani, a srpski poraz potpun."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Turci iznenade nespremnu srpsku vojsku i potpuno je potuku."}
+        osa: {naziv: "Bitka na Marici", od: 1371, traka: dogadjaji}
+      - id: l10-uros-pre-marice-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [car-uros, bitka-na-marici]
+        tvrdnja: "Car Uroš je umro nekoliko godina pre bitke na Marici."
+        tacno: false
+        ispravke:
+          - {tekst: "Car Uroš je umro nekoliko meseci posle bitke na Marici.", tacan: true}
+          - {tekst: "Car Uroš je poginuo u bici na Marici.", tacan: false, zasto: "Lekcija kaže da je umro nekoliko meseci posle bitke."}
+          - {tekst: "Car Uroš je umro posle Kosovskog boja.", tacan: false, zasto: "Umro je 1371, a Kosovo je 1389."}
+        pomoc: ["Uroš vlada do 1371, a koje je godine Marica?", "Iste godine, ali koji događaj je prvi?", "Iz lekcije: nekoliko meseci posle bitke umire car Uroš."]
+        objasnjenje: "Netačno. Oba događaja su iz 1371, a Uroš je umro nekoliko meseci posle Marice."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Nekoliko meseci posle bitke umire car Uroš."}
+        osa: {naziv: "Smrt cara Uroša", od: 1371, traka: dogadjaji}
+      - id: l10-vazal-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [vazal, bitka-na-marici]
+        pitanje: "Dopuni objašnjenje pojma."
+        tekst: "Vazal je {{plemić}} podređen jačem feudalnom {{gospodaru}}, kome mora da se zakune na {{vernost}}."
+        ponudjene: ["plemić", "gospodaru", "vernost", "seljak", "plaćanje"]
+        pomoc: ["Vazal je pripadnik vlastele.", "Zakletva se daje na nešto što se ne plaća novcem.", "Iz lekcije: vazal je plemić podređen jačem gospodaru i obavezan da mu se zakune na vernost."]
+        objasnjenje: "Vazal zadržava svoju oblast, ali duguje vernost jačem gospodaru."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Vazal je plemić podređen jačem feudalnom gospodaru i obavezan da mu se zakune na vernost."}
+      - id: l10-marica-opis-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [bitka-na-marici, kralj-vukasin, despot-ugljesa]
+        pitanje: "Dopuni opis bitke."
+        tekst: "Na reci {{Marici}} 1371. kralj {{Vukašin}} i despot {{Uglješa}} izgubili su bitku, jer su Turci {{iznenadili}} nespremnu srpsku vojsku."
+        ponudjene: ["Marici", "Vukašin", "Uglješa", "iznenadili", "Lazar", "opkolili u Kruševcu"]
+        pomoc: ["Lazar nije bio na Marici.", "Lekcija naglašava da vojska nije bila spremna.", "Iz lekcije: Vukašin i Uglješa, Marica, Turci iznenade nespremnu vojsku."]
+        objasnjenje: "Iznenađenje i nespremnost doveli su do potpunog poraza."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Turci iznenade nespremnu vojsku braće Mrnjavčević i potpuno je potuku."}
+        osa: {naziv: "Bitka na Marici", od: 1371, traka: dogadjaji}
+      - id: l10-marica-zakljuci-znacaj
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [bitka-na-marici, vazal, mrnjavcevici]
+        pitanje: "Zašto je posle Marice bilo teže braniti se od Turaka iako Srbija nije odmah bila osvojena?"
+        odgovori:
+          - {tekst: "Velikaši u Makedoniji postali su turski vazali, a Srbija je znatno oslabila", tacan: true}
+          - {tekst: "Zato što je Lazar te godine umro", tacan: false, zasto: "Lazar je živeo do 1389."}
+          - {tekst: "Zato što su Mongoli napali Srbiju", tacan: false, zasto: "Mongoli su se sukobili sa Turcima tek 1402, kod Angore."}
+          - {tekst: "Zato što su janičari prešli na srpsku stranu", tacan: false, zasto: "Janičari su ostali turska vojska."}
+        pomoc: ["Korak 1: Ko je poražen na Marici?", "Korak 2: Šta su Turci nametnuli velikašima u Makedoniji?", "Iz lekcije: poraz znatno slabi Srbiju, a velikaši u Makedoniji postaju vazali."]
+        objasnjenje: "Marica je uklonila jaku porodicu sa bojišta i dala Turcima vazale, pa su mogli polako da šire vlast."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Poraz znatno slabi Srbiju, a velikaši u Makedoniji postaju turski vazali."}
+        osa: {naziv: "Bitka na Marici", od: 1371, traka: dogadjaji}
+      - id: l10-marica-datum
+        vrsta: datum
+        tezina: lako
+        pojmovi: [bitka-na-marici]
+        dogadjaj: "Bitka na Marici"
+        pitanje: "Koje godine se odigrala bitka na Marici?"
+        godina: 1371
+        traka: dogadjaji
+        pomoc: ["Iste godine umro je car Uroš.", "Osamnaest godina pre Kosova.", "Iz lekcije: bitka na Marici je 1371."]
+        objasnjenje: "Bitka na Marici je 1371, a nekoliko meseci kasnije umro je car Uroš."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Bitka na Marici bila je 1371."}
+      - id: l10-smrt-urosa-datum
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [car-uros]
+        dogadjaj: "Smrt cara Uroša"
+        pitanje: "Koje godine je umro car Uroš?"
+        godina: 1371
+        traka: dogadjaji
+        pomoc: ["To je kraj njegove vladavine.", "Iste godine kada i bitka na Marici.", "Iz lekcije: Uroš vlada 1355–1371 i umire nekoliko meseci posle Marice."]
+        objasnjenje: "Uroš je umro 1371, nekoliko meseci posle Marice."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Nekoliko meseci posle bitke na Marici umro je car Uroš."}
+      - id: l10-marica-lanac
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [bitka-na-marici, vazal]
+        karike: ["Turci iznenade nespremnu srpsku vojsku", "?", "Velikaši u Makedoniji postaju vazali"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Potpun poraz braće Mrnjavčević", tacan: true}
+          - {tekst: "Velika srpska pobeda", tacan: false, zasto: "Pobeda ne bi vodila u vazalstvo; na Marici su Srbi poraženi."}
+          - {tekst: "Mir sa Mongolima", tacan: false, zasto: "Mongoli nisu učestvovali u sukobima na Marici."}
+        pomoc: ["Korak 1: Kako se završava bitka u kojoj je jedna strana nespremna?", "Korak 2: Zašto bi neko postao vazal pobednika?", "Iz lekcije: iznenađenje i nespremnost → potpun poraz → velikaši postaju vazali."]
+        objasnjenje: "Iz poraza je došlo vazalstvo: pobednik nameće obaveze poraženima."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Posle poraza velikašima u Makedoniji nametnute su vazalne obaveze."}
+        osa: {naziv: "Bitka na Marici", od: 1371, traka: dogadjaji}
+      - id: l10-marko-ko-sam
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [marko-kraljevic, vazal]
+        tragovi: ["Otac mi je bio kralj.", "Bio sam turski vazal.", "U narodnom predanju zovu me Kraljević."]
+        odgovori:
+          - {tekst: "Marko Mrnjavčević", tacan: true}
+          - {tekst: "Miloš Obilić", tacan: false, zasto: "To je ime koje legenda daje plemiću koji je ubio Murata."}
+          - {tekst: "Vuk Branković", tacan: false, zasto: "Branković se pominje među srpskim velikašima, ali nije Vukašinov sin."}
+          - {tekst: "Car Uroš", tacan: false, zasto: "Uroš je bio car, a ne turski vazal."}
+        objasnjenje: "Marko Mrnjavčević, sin kralja Vukašina, u predanju je poznat kao Marko Kraljević."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Turski vazal je i Vukašinov sin Marko, u narodnom predanju Marko Kraljević."}
+      - id: l10-marica-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [bitka-na-marici, vazal]
+        pitanje: "Objasni zašto je bitka na Marici bila važan korak turskog napredovanja u Evropi."
+        uzor: "Na Marici je potučena vojska moćne braće Mrnjavčević, što je znatno oslabilo Srbiju. Bio je to prvi veliki sukob hrišćanske Evrope i Turaka. Velikaši u Makedoniji postali su turski vazali, pa su Turci mogli polako da šire vlast."
+        ideje: ["Prvi veliki sukob hrišćanske Evrope i Turaka.", "Potpun poraz braće Mrnjavčević slabi Srbiju.", "Velikaši u Makedoniji postaju vazali.", "Turci zatim polako šire vlast."]
+        objasnjenje: "Značaj Marice je u posledicama: Turci su dobili vazale i sigurnije polazište."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Marica je prvi veliki sukob hrišćanske Evrope i Turaka; poraz slabi Srbiju i donosi vazalstvo."}
+        osa: {naziv: "Bitka na Marici", od: 1371, traka: dogadjaji}
+      - id: l10-vazal-objasni
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [vazal, bitka-na-marici]
+        pitanje: "Ko je vazal i kako su srpski velikaši u Makedoniji postali turski vazali?"
+        uzor: "Vazal je plemić podređen jačem feudalnom gospodaru, kome mora da se zakune na vernost. Posle poraza na Marici 1371. Turci su srpskim velikašima u Makedoniji nametnuli vazalne obaveze. Među njima je bio i Marko Mrnjavčević."
+        ideje: ["Vazal je podređeni plemić.", "Zaklinje se na vernost jačem gospodaru.", "Do toga je došlo posle poraza na Marici."]
+        objasnjenje: "Vazalstvo je bilo način da Turci vladaju oblastima i bez potpunog osvajanja."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Marici 1371.", tekst: "Posle Marice Turci srpskim velikašima u Makedoniji nameću vazalne obaveze."}
+        osa: {naziv: "Bitka na Marici", od: 1371, traka: dogadjaji}
+  - naslov: "Bitka na Kosovu 1389."
+    zadaci:
+      - id: l10-kosovo-mesto-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [kosovski-boj, gazimestan]
+        pitanje: "Na kom mestu je vođena velika bitka 1389?"
+        odgovori:
+          - {tekst: "Na Gazimestanu, na Kosovu", tacan: true}
+          - {tekst: "Kod Pločnika", tacan: false, zasto: "Pločnik je srpska pobeda iz 1386, tri godine ranije."}
+          - {tekst: "Na Marici", tacan: false, zasto: "Na Marici je bitka vođena 1371, a tada su potučeni Mrnjavčevići."}
+          - {tekst: "Kod Angore", tacan: false, zasto: "Kod Angore su se 1402. borili Turci i Mongoli."}
+        pomoc: ["Sama bitka nosi ime oblasti.", "Tačno mesto u toj oblasti zove se Gazimestan.", "Iz lekcije: 15. (28) juna 1389. bitka se vodi na Gazimestanu, na Kosovu."]
+        objasnjenje: "Bitka se zove Kosovski boj, a tačno mesto je Gazimestan."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Kosovu 1389.", tekst: "Velika bitka vođena je 15. (28) juna 1389. na Gazimestanu, na Kosovu."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-kosovo-vladari-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [kosovski-boj, knez-lazar, sultan-murat]
+        pitanje: "Šta se dogodilo sa dvojicom vladara u Kosovskom boju?"
+        odgovori:
+          - {tekst: "Obojica su izgubila život", tacan: true}
+          - {tekst: "Obojica su preživela i sklopila mir", tacan: false, zasto: "Lazar je zarobljen i pogubljen, a sultana je ubio jedan srpski plemić."}
+          - {tekst: "Poginuo je samo sultan Murat", tacan: false, zasto: "Život je izgubio i knez Lazar."}
+          - {tekst: "Nijedan nije lično došao na bojište", tacan: false, zasto: "Baš zbog značaja bitke došla su obojica."}
+        pomoc: ["Na bojište su došla obojica.", "Seti se ko je Muratov naslednik.", "Iz lekcije: knez Lazar i sultan Murat obojica su izgubili život."]
+        objasnjenje: "To je retkost: oba vladara poginula su u istoj bici."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Kosovu 1389.", tekst: "Na bojište lično dolaze oba vladara, i obojica gube život."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-zaduzbine-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [knez-lazar, ravanica, lazarica]
+        pitanje: "Koje je dve zadužbine podigao knez Lazar? (više tačnih)"
+        odgovori:
+          - {tekst: "Ravanicu", tacan: true}
+          - {tekst: "Lazaricu", tacan: true}
+          - {tekst: "Gazimestan", tacan: false, zasto: "Gazimestan je bojište na Kosovu, a ne manastir."}
+          - {tekst: "Cimpe", tacan: false, zasto: "Cimpe je tvrđava koju su zauzeli Turci."}
+        pomoc: ["Jedna zadužbina nosi ime slično Lazarevom.", "Druga se završava na -nica.", "Iz lekcije: Lazar je podigao Ravanicu i Lazaricu."]
+        objasnjenje: "Ravanica i Lazarica su dve zadužbine kneza Lazara."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "Lazar je podigao dve zadužbine, manastire Ravanicu i Lazaricu.", slika: "10-borba-protiv-turaka-osmanlija/04-manastir-ravanica.jpg"}
+      - id: l10-saveznici-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [vlatko-vukovic, ivan-palizna, bosna]
+        pitanje: "Odakle su Srbima na Kosovu stigli pomoćni odredi? (više tačnih)"
+        odgovori:
+          - {tekst: "Iz Bosne, pod Vlatkom Vukovićem", tacan: true}
+          - {tekst: "Iz Hrvatske, pod Ivanom Paližnom", tacan: true}
+          - {tekst: "Iz Vizantije, pod Kantakuzinom", tacan: false, zasto: "Kantakuzin je opisivao nemire posle Dušana; on ne učestvuje u ovoj bici."}
+          - {tekst: "Iz Bugarske, pod Bajazitom", tacan: false, zasto: "Bajazit je turski sultan, Muratov sin."}
+        pomoc: ["Pomoć je stigla iz dva pravca.", "Obe zemlje su zapadno od Srbije.", "Iz lekcije: odredi iz Bosne pod Vlatkom Vukovićem i iz Hrvatske pod Ivanom Paližnom."]
+        objasnjenje: "Kosovski boj nije bio samo srpski: pomogli su odredi iz Bosne i Hrvatske."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "Srbima su pomogli odredi iz Bosne pod Vlatkom Vukovićem i iz Hrvatske pod Ivanom Paližnom."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-lazar-smrt-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [knez-lazar, kosovski-boj]
+        pitanje: "Kako je knez Lazar izgubio život?"
+        odgovori:
+          - {tekst: "Zarobljen je u borbi i pogubljen", tacan: true}
+          - {tekst: "Umro je u ropstvu u Aziji", tacan: false, zasto: "U ropstvu je umro sultan Bajazit, posle Angore."}
+          - {tekst: "Ubio ga je jedan srpski plemić", tacan: false, zasto: "Srpski plemić je ubio sultana Murata, a ne Lazara."}
+          - {tekst: "Umro je nekoliko meseci posle bitke", tacan: false, zasto: "To se odnosi na cara Uroša posle Marice."}
+        pomoc: ["Nije poginuo na isti način kao sultan.", "Prvo je pao u ruke Turcima.", "Iz lekcije: Lazar je zarobljen u borbi i pogubljen."]
+        objasnjenje: "Lazar je zarobljen i pogubljen, a sultana je ubio srpski plemić."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "Lazar je zarobljen u borbi i pogubljen."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-slika44-manastiri-izbor
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [lazarica, ljubostinja, kalenic]
+        pitanje: "Koja tri manastira zajedno prikazuje slika na poslednjoj strani lekcije? (više tačnih)"
+        odgovori:
+          - {tekst: "Lazarica", tacan: true}
+          - {tekst: "Ljubostinja", tacan: true}
+          - {tekst: "Kalenić", tacan: true}
+          - {tekst: "Gazimestan", tacan: false, zasto: "Gazimestan je bojište, a ne manastir."}
+          - {tekst: "Kruševac", tacan: false, zasto: "Kruševac je Lazarevo sedište, grad, a ne manastir."}
+        pomoc: ["Jedan je Lazareva zadužbina.", "Druga dva se u tekstu lekcije ne opisuju, ali su na zajedničkoj slici.", "Iz lekcije: zajednički natpis navodi Lazaricu, Ljubostinju i Kalenić."]
+        objasnjenje: "Sva tri manastira navedena su u zajedničkom natpisu ispod fotografija."
+        iz_udzbenika: {strana: 44, odeljak: "Slike i karte", tekst: "Jedan natpis na str. 44 navodi manastire Lazaricu, Ljubostinju i Kalenić."}
+      - id: l10-kosovo-pobeda-izbor
+        vrsta: izbor
+        tezina: tesko
+        pojmovi: [kosovski-boj, feudalizam]
+        pitanje: "Koji je podatak presudan da se Kosovski boj na kraju računa kao srpski poraz?"
+        odgovori:
+          - {tekst: "Srpsko društvo nije moglo da nadoknadi gubitak većine vlastele", tacan: true}
+          - {tekst: "Turci su posle bitke ostali na Kosovu", tacan: false, zasto: "Turci su napustili Kosovo, zato se u prvi mah verovalo u srpsku pobedu."}
+          - {tekst: "Sultan Murat je preživeo", tacan: false, zasto: "Murat je izgubio život u boju."}
+          - {tekst: "Gubici su bili veliki samo na srpskoj strani", tacan: false, zasto: "Gubici su bili veliki na obe strane; razlika je u tome ko je mogao da ih nadoknadi."}
+        pomoc: ["Pitanje nije ko je ostao na bojištu.", "Razmisli o tome ko je mogao da nadoknadi gubitke posle bitke.", "Iz lekcije: društvo nije moglo da nadoknadi gubitak većine vlastele, zato se vojska računa kao poražena."]
+        objasnjenje: "Presudile su posledice: većina vlastele je izginula, a društvo taj gubitak nije moglo da nadoknadi."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "Srpsko društvo nije moglo da nadoknadi gubitak većine vlastele, pa se Lazareva vojska računa kao poražena."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-lazar-murat-licno-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [kosovski-boj, knez-lazar, sultan-murat]
+        tvrdnja: "Na Kosovo su lično došla oba vladara, knez Lazar i sultan Murat."
+        tacno: true
+        pomoc: ["Razmisli koliko je bitka bila važna.", "Iz lekcije: zbog značaja bitke lično dolaze oba vladara."]
+        objasnjenje: "Tačno. Njihov lični dolazak pokazuje koliko je bitka bila važna."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Kosovu 1389.", tekst: "Zbog značaja bitke na bojište lično dolaze knez Lazar i sultan Murat."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-posle-marice-odmah-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [bitka-na-marici, osmanlije]
+        tvrdnja: "Turci su odmah posle Marice prodrli u unutrašnjost Srbije i zauzeli je."
+        tacno: false
+        ispravke:
+          - {tekst: "Posle Marice Turci su polako širili vlast, preko vazala i manjih jedinica za pljačku i širenje straha.", tacan: true}
+          - {tekst: "Posle Marice Turci su se povukli i nisu se vraćali do Angore.", tacan: false, zasto: "Nisu se povukli: Niš, Solun i Kosovo dolaze posle Marice."}
+          - {tekst: "Posle Marice Turci su Srbiju dali Mongolima.", tacan: false, zasto: "Mongoli nemaju veze sa Srbijom; lekcija ih pominje samo kod Angore."}
+        pomoc: ["Između Marice i Kosova prošlo je 18 godina.", "Šta su Turci slali u oblasti van Makedonije?", "Iz lekcije: Turci ne prodiru odmah, nego polako šire vlast."]
+        objasnjenje: "Netačno. Turci su širili vlast postepeno: preko vazala u Makedoniji i manjih pljačkaških jedinica."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Kosovu 1389.", tekst: "Posle Marice Turci ne prodiru odmah u unutrašnjost Srbije, već polako šire vlast."}
+      - id: l10-prvo-verovanje-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [kosovski-boj]
+        tvrdnja: "U prvi mah se verovalo da su na Kosovu pobedili Srbi, jer su Turci napustili Kosovo."
+        tacno: true
+        pomoc: ["Razlikuj šta se verovalo odmah od onoga što se kasnije pokazalo.", "Iz lekcije: u prvi mah se verovalo u srpsku pobedu, jer su Turci napustili Kosovo."]
+        objasnjenje: "Tačno. Povlačenje Turaka ličilo je na srpsku pobedu, ali se uskoro pokazalo drugačije."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "Gubici su veliki na obe strane; u prvi mah se verovalo da su pobedili Srbi, jer su Turci napustili Kosovo."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-ime-obilica-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [milos-obilic, sultan-murat]
+        tvrdnja: "Ime Miloš Obilić zabeleženo je u trenutku bitke, u službenom izveštaju kneza Lazara."
+        tacno: false
+        ispravke:
+          - {tekst: "Lekcija kaže da je sultana ubio jedan srpski plemić, a da je legenda da se zvao Miloš Obilić nastala u narednim vekovima.", tacan: true}
+          - {tekst: "Sultana je ubio Vuk Branković, a ime Miloš je kasnija greška.", tacan: false, zasto: "Lekcija ne kaže da je to bio Branković; navodi samo jednog srpskog plemića."}
+          - {tekst: "Sultana niko nije ubio, on je umro od bolesti.", tacan: false, zasto: "Lekcija izričito kaže da ga je ubio jedan srpski plemić."}
+        pomoc: ["Razlikuj šta je sigurno od onoga što je dodalo predanje.", "Kada je nastala priča o imenu?", "Iz lekcije: u narednim vekovima nastaje legenda da se on zvao Miloš Obilić."]
+        objasnjenje: "Netačno. Činjenica je da je sultana ubio srpski plemić; ime dolazi iz legende stvorene kasnije."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "Sultana je ubio jedan srpski plemić, a u narednim vekovima nastala je legenda da se zvao Miloš Obilić."}
+      - id: l10-gubici-jednaki-tn
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [kosovski-boj, sultan-murat, bajazit-i]
+        tvrdnja: "Obe strane su na Kosovu izgubile vladara i mnogo ljudi, ali su posledice za Srbiju bile teže, jer je izgubila većinu vlastele."
+        tacno: true
+        pomoc: ["Uporedi šta je ostalo posle bitke: ko je nasledio Murata i kakva je država nastavila dalje.", "Iz lekcije: gubici su veliki na obe strane, ali srpsko društvo ne može da nadoknadi gubitak većine vlastele."]
+        objasnjenje: "Tačno. Isti gubitak nije isto težak: Bajazit je nastavio širenje države, a srpsko društvo nije moglo da nadoknadi izginulu vlastelu."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "Gubici su bili veliki na obe strane, ali srpsko društvo nije moglo da nadoknadi gubitak većine vlastele."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-kosovo-dan-dopuni
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [kosovski-boj, gazimestan, knez-lazar, sultan-murat]
+        pitanje: "Dopuni osnovne podatke o Kosovskom boju."
+        tekst: "Kosovski boj vođen je 15. (28) juna {{1389}}. godine na {{Gazimestanu}}. Srpsku vojsku predvodio je knez {{Lazar}}, a tursku sultan {{Murat}}."
+        ponudjene: ["1389", "Gazimestanu", "Lazar", "Murat", "1371", "Bajazit"]
+        pomoc: ["1371. je godina Marice.", "Bajazit je nasledio sultana poginulog na Kosovu.", "Iz lekcije: 15. (28) juna 1389, Gazimestan, knez Lazar i sultan Murat."]
+        objasnjenje: "Ovo su osnovni podaci: datum, mesto i dvojica vladara."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Kosovu 1389.", tekst: "Bitka se vodi 15. (28) juna 1389. na Gazimestanu, a na bojište dolaze knez Lazar i sultan Murat."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-saveznici-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [vlatko-vukovic, ivan-palizna, bosna]
+        pitanje: "Dopuni rečenicu o pomoći Srbima."
+        tekst: "Srbima su na Kosovu pomogli odredi iz {{Bosne}} pod komandom Vlatka {{Vukovića}} i iz {{Hrvatske}}, koje je predvodio feudalac Ivan {{Paližna}}."
+        ponudjene: ["Bosne", "Vukovića", "Hrvatske", "Paližna", "Bugarske", "Balšića"]
+        pomoc: ["Balšići su bili u Zeti.", "Bugarska je tada već bila podeljena i uskoro je pala.", "Iz lekcije: Bosna i Vlatko Vuković; Hrvatska i Ivan Paližna."]
+        objasnjenje: "Dve zemlje poslale su pomoć, ali to nije nadoknadilo gubitke."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "Pomogli su odredi iz Bosne pod Vlatkom Vukovićem i iz Hrvatske pod Ivanom Paližnom."}
+      - id: l10-posle-marice-dopuni
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [bitka-na-marici, vazal, kosovski-boj]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Posle Marice velikaši u Makedoniji bili su turski {{vazali}}, a u druge oblasti Turci su slali manje jedinice da {{pljačkaju}} i šire strah. U prvi mah se verovalo da su na Kosovu pobedili {{Srbi}}, jer su Turci {{napustili}} Kosovo."
+        pomoc: ["Prva praznina je pojam iz okvira uz Maricu.", "Manje jedinice nisu osvajale, već su oduzimale plen.", "Iz lekcije: vazali; pljačka i širenje straha; Turci su napustili Kosovo."]
+        objasnjenje: "Turci su između dve bitke polako slabili protivnika, a posle Kosova su se povukli, što je zavaralo savremenike."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Kosovu 1389.", tekst: "Velikaši u Makedoniji su turski vazali, a manje jedinice pljačkaju i šire strah."}
+      - id: l10-kosovo-ucesnici-povezi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [kosovski-boj, knez-lazar, sultan-murat, vlatko-vukovic, ivan-palizna]
+        pitanje: "Poveži učesnika Kosovskog boja sa njegovom ulogom."
+        parovi:
+          - ["Knez Lazar", "Srpski vladar, zarobljen i pogubljen"]
+          - ["Sultan Murat", "Turski vladar, ubio ga je srpski plemić"]
+          - ["Vlatko Vuković", "Zapovednik odreda iz Bosne"]
+          - ["Ivan Paližna", "Hrvatski feudalac koji predvodi odrede iz Hrvatske"]
+        pomoc: ["Prvo razdvoji vladare od zapovednika pomoćnih odreda.", "Vlatko je iz Bosne, Ivan iz Hrvatske.", "Iz lekcije: Lazar pogubljen, Murat ubijen, Vuković iz Bosne, Paližna iz Hrvatske."]
+        objasnjenje: "Dva vladara i dva zapovednika pomoćnih odreda."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "Lekcija navodi kneza Lazara, sultana Murata, Vlatka Vukovića i Ivana Paližnu."}
+      - id: l10-bitke-povezi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [bitka-na-marici, plocnik, kosovski-boj, bitka-kod-angore]
+        pitanje: "Poveži bitku sa njenim ishodom."
+        parovi:
+          - ["Marica 1371.", "Potpun poraz braće Mrnjavčević"]
+          - ["Pločnik 1386.", "Srpska pobeda, ali Niš pada iste godine"]
+          - ["Kosovo 1389.", "Pogibija oba vladara i gubitak većine vlastele"]
+          - ["Angora 1402.", "Mongoli zarobljavaju sultana Bajazita"]
+        pomoc: ["Samo je jedna srpska pobeda.", "Pred Mongolima je izgubio Bajazit.", "Iz lekcije: Marica poraz, Pločnik pobeda, Kosovo gubitak vlastele, Angora Bajazit zarobljen."]
+        objasnjenje: "Četiri bitke čine okosnicu lekcije; njihov redosled i ishodi su osnov za razumevanje."
+        iz_udzbenika: {strana: 44, odeljak: "Zapamtite", tekst: "Lekcija beleži poraz na Marici 1371, gubitak bitke na Kosovu 1389. i Angoru 1402."}
+      - id: l10-istina-predanje-povezi
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [milos-obilic, marko-kraljevic, kosovski-boj]
+        pitanje: "Poveži podatak iz lekcije sa onim što je o istom čoveku ili događaju rečeno kasnije ili u predanju."
+        parovi:
+          - ["Sultana je ubio jedan srpski plemić", "Legenda iz narednih vekova kaže da se zvao Miloš Obilić"]
+          - ["Marko Mrnjavčević bio je turski vazal", "U narodnom predanju je Marko Kraljević"]
+          - ["Turci su napustili Kosovo", "U prvi mah se verovalo da su pobedili Srbi"]
+        pomoc: ["Traži par u kome istu stvar imenuju drugačije izvori.", "Marko i Miloš idu svaki sa svojim predanjem.", "Iz lekcije: legenda o Milošu, predanje o Marku, prvobitno verovanje u pobedu."]
+        objasnjenje: "Istorija razlikuje ono što je potvrđeno od onoga što su kasnije dodali predanje i prvi utisak."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "Lekcija razlikuje činjenice od legende o Milošu Obiliću i prvog verovanja u pobedu."}
+      - id: l10-verovanje-pobeda-zakljuci
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [kosovski-boj]
+        pitanje: "Zašto se u prvi mah verovalo da su Srbi pobedili na Kosovu?"
+        odgovori:
+          - {tekst: "Zato što su Turci napustili Kosovo", tacan: true}
+          - {tekst: "Zato što je knez Lazar preživeo", tacan: false, zasto: "Lazar je zarobljen i pogubljen."}
+          - {tekst: "Zato što Turci nisu imali gubitke", tacan: false, zasto: "Gubici su bili veliki na obe strane."}
+          - {tekst: "Zato što su Mongoli stigli u pomoć", tacan: false, zasto: "Mongoli nisu bili na Kosovu."}
+        pomoc: ["Korak 1: Šta se očekuje od poražene vojske?", "Korak 2: Šta su uradili Turci posle bitke?", "Iz lekcije: Turci napustili Kosovo → prvobitno verovanje u srpsku pobedu."]
+        objasnjenje: "Povlačenje sa bojišta izgleda kao poraz, zato je prvi utisak bio da su Srbi pobedili."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "U prvi mah se verovalo da su pobedili Srbi, jer su Turci napustili Kosovo."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-pre-kosova-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [osmanlije, vazal, bitka-na-marici]
+        pitanje: "Zašto su Turci posle Marice slali u srpske oblasti manje jedinice, a ne celu vojsku?"
+        odgovori:
+          - {tekst: "Širili su vlast polako, pljačkom i strahom slabeći oblasti koje još nisu držali", tacan: true}
+          - {tekst: "Zato što su bili u savezu sa knezom Lazarom", tacan: false, zasto: "Nisu bili u savezu; Lazar se protiv njih borio."}
+          - {tekst: "Zato što je Murat tada već bio mrtav", tacan: false, zasto: "Murat je vladao do 1389, dakle i posle Marice."}
+          - {tekst: "Zato što nisu imali stajaću vojsku", tacan: false, zasto: "Upravo su je imali, prvi u Evropi."}
+        pomoc: ["Korak 1: Šta su Turci već imali u Makedoniji?", "Korak 2: Čemu služe pljačka i širenje straha?", "Iz lekcije: u druge oblasti šalju manje jedinice da pljačkaju i šire strah."]
+        objasnjenje: "Postepeno širenje štedelo je snage i slabilo protivnika pre odlučne bitke."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Kosovu 1389.", tekst: "U druge oblasti Turci šalju manje jedinice da pljačkaju i šire strah."}
+      - id: l10-licni-dolazak-zakljuci
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [kosovski-boj, knez-lazar, sultan-murat]
+        pitanje: "Šta nam lični dolazak oba vladara govori o Kosovskom boju?"
+        odgovori:
+          - {tekst: "Obe strane su znale da je bitka odlučujuće važna", tacan: true}
+          - {tekst: "Da je to bio manji sukob oko pljačke", tacan: false, zasto: "Za pljačku su Turci slali manje jedinice, bez sultana."}
+          - {tekst: "Da su se vladari sastali radi mira", tacan: false, zasto: "Došli su da se bore, a ne da pregovaraju."}
+          - {tekst: "Da velikaši nisu postojali", tacan: false, zasto: "Vlastela je učestvovala, a veći deo je izginuo."}
+        pomoc: ["Korak 1: Kada vladar ide lično u bitku?", "Korak 2: U čemu se Kosovo razlikuje od manjih upada?", "Iz lekcije: zbog značaja bitke lično dolaze oba vladara."]
+        objasnjenje: "Vladar rizikuje život samo kada je sve na kocki; zato je dolazak znak značaja bitke."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Kosovu 1389.", tekst: "Zbog značaja bitke na bojište lično dolaze oba vladara."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-pobeda-i-poraz-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [kosovski-boj, sultan-murat, bajazit-i]
+        pitanje: "Turci su napustili bojište i izgubili sultana, a ipak se Kosovo računa kao srpski poraz. Šta to pokazuje o procenjivanju bitke?"
+        odgovori:
+          - {tekst: "Ishod se meri i posledicama za društvo, a ne samo time ko je ostao na bojištu", tacan: true}
+          - {tekst: "Bitka se računa samo po broju izginulih vladara", tacan: false, zasto: "Po tome bi bilo nerešeno, jer su izginula obojica."}
+          - {tekst: "Bitku uvek dobija strana koja prva napusti bojište", tacan: false, zasto: "Upravo napuštanje bojišta ovde je zavaralo; odlučile su posledice."}
+          - {tekst: "Bitka nikada nije bila vođena, nego je samo legenda", tacan: false, zasto: "Bitka je istorijska činjenica; legenda se odnosi samo na ime sultanovog ubice."}
+        pomoc: ["Korak 1: Ko je mogao da nadoknadi gubitke?", "Korak 2: Da li su Turci nastavili širenje?", "Iz lekcije: gubitak većine vlastele → društvo to ne može da nadoknadi → bitka se računa kao poraz."]
+        objasnjenje: "Na bojištu je izgledalo drugačije, ali se bitka računa kao poraz, jer Srbija nije mogla da nadoknadi izginulu vlastelu."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "Lazareva vojska se ipak računa kao poražena, jer društvo nije moglo da nadoknadi gubitak vlastele."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-kosovo-datum
+        vrsta: datum
+        tezina: lako
+        pojmovi: [kosovski-boj]
+        dogadjaj: "Bitka na Kosovu"
+        pitanje: "Koje godine se odigrao Kosovski boj?"
+        godina: 1389
+        traka: dogadjaji
+        pomoc: ["Bilo je to pred kraj XIV veka.", "Osamnaest godina posle Marice.", "Iz lekcije: Kosovski boj je 15. (28) juna 1389."]
+        objasnjenje: "Kosovski boj vođen je 15. (28) juna 1389."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Kosovu 1389.", tekst: "Velika bitka vođena je 15. (28) juna 1389."}
+      - id: l10-kosovo-poredjaj-srednje
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [bitka-na-marici, plocnik, solun, kosovski-boj]
+        pitanje: "Poređaj događaje hronološki, od najranijeg."
+        stavke:
+          - {tekst: "Bitka na Marici", godina: 1371, naziv: "Bitka na Marici", traka: dogadjaji}
+          - {tekst: "Bitka kod Pločnika", godina: 1386, naziv: "Bitka kod Pločnika", traka: dogadjaji}
+          - {tekst: "Turci osvajaju Solun", godina: 1387, naziv: "Turci osvajaju Solun", traka: dogadjaji}
+          - {tekst: "Bitka na Kosovu", godina: 1389, naziv: "Bitka na Kosovu", traka: dogadjaji}
+        pomoc: ["Marica je najranija.", "Pad Soluna je između Pločnika i Kosova.", "Iz lekcije: Marica 1371, Pločnik 1386, Solun 1387, Kosovo 1389."]
+        objasnjenje: "Između Marice i Kosova prošlo je 18 godina, ali su poslednje tri godine bile vrlo brze."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Kosovu 1389.", tekst: "Hronologija lekcije: Marica 1371, Pločnik 1386, Solun 1387, Kosovo 1389."}
+      - id: l10-sve-poredjaj-tesko
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [cimpe, car-dusan, bitka-na-marici, kosovski-boj, vidinsko-carstvo, bitka-kod-angore]
+        pitanje: "Poređaj šest događaja iz cele lekcije, od najranijeg."
+        stavke:
+          - {tekst: "Turci zauzimaju Cimpe", godina: 1352, naziv: "Turci zauzimaju Cimpe", traka: dogadjaji}
+          - {tekst: "Umire car Dušan", godina: 1355, naziv: "Smrt cara Dušana", traka: dogadjaji}
+          - {tekst: "Bitka na Marici", godina: 1371, naziv: "Bitka na Marici", traka: dogadjaji}
+          - {tekst: "Bitka na Kosovu", godina: 1389, naziv: "Bitka na Kosovu", traka: dogadjaji}
+          - {tekst: "Pada Vidinsko carstvo", godina: 1396, naziv: "Pad Vidinskog carstva", traka: dogadjaji}
+          - {tekst: "Bitka kod Angore", godina: 1402, naziv: "Bitka kod Angore", traka: dogadjaji}
+        pomoc: ["Turci su već bili u Evropi kada je Dušan umro.", "Bugarska pada posle Kosova, a Angora je već u XV veku.", "Iz lekcije: 1352, 1355, 1371, 1389, 1396, 1402."]
+        objasnjenje: "Niz obuhvata pedeset godina: od prve tačke u Evropi do privremenog prekida osvajanja."
+        iz_udzbenika: {strana: 43, odeljak: "Pad Bugarske", tekst: "Lekcija vodi od Cimpa 1352. do Angore 1402."}
+      - id: l10-vlastela-lanac
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [kosovski-boj]
+        karike: ["Na Kosovu gine većina vlastele", "?", "Bitka se računa kao srpski poraz"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Srpsko društvo ne može da nadoknadi taj gubitak", tacan: true}
+          - {tekst: "Turci ostaju i zauzimaju Kosovo odmah", tacan: false, zasto: "Turci su napustili Kosovo; odlučio je srpski gubitak."}
+          - {tekst: "Lazar se vraća u Kruševac", tacan: false, zasto: "Lazar je zarobljen i pogubljen."}
+        pomoc: ["Korak 1: Šta je vlastela značila u feudalnoj državi?", "Korak 2: Može li se toliki gubitak brzo nadoknaditi?", "Iz lekcije: gubitak većine vlastele → društvo to ne može da nadoknadi → računa se kao poraz."]
+        objasnjenje: "Odlučujuća karika nije bojište, već nemogućnost da se vlastela nadoknadi."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "Srpsko društvo nije moglo da nadoknadi gubitak većine vlastele."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-povlacenje-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [kosovski-boj]
+        karike: ["Turci napuštaju Kosovo", "U prvi mah se veruje u srpsku pobedu", "?", "Lazareva vojska se ipak računa kao poražena"]
+        praznina: 2
+        odgovori:
+          - {tekst: "Pokazuje se da društvo ne može da nadoknadi izgubljenu vlastelu", tacan: true}
+          - {tekst: "Mongoli stižu na Kosovo", tacan: false, zasto: "Mongoli nisu učestvovali u ovom sukobu."}
+          - {tekst: "Lazar potpisuje mir i postaje vazal", tacan: false, zasto: "Lazar je pogubljen u bici."}
+        pomoc: ["Korak 1: Šta je promenilo prvi utisak?", "Korak 2: Šta je Srbija izgubila u boju?", "Iz lekcije: uskoro se pokazalo da društvo ne može da nadoknadi gubitak većine vlastele."]
+        objasnjenje: "Prvi utisak je opovrgnut kada su se videle posledice."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "Verovalo se u pobedu, ali se pokazalo da se gubitak vlastele ne može nadoknaditi."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-od-marice-do-kosova-lanac
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [bitka-na-marici, vazal, kosovski-boj, plocnik, nis]
+        karike: ["Poraz na Marici 1371.", "Velikaši u Makedoniji postaju vazali", "?", "Bitka na Kosovu 1389."]
+        praznina: 2
+        odgovori:
+          - {tekst: "Turci postepeno šire vlast i primiču se Lazarevoj oblasti, uzimaju i Niš", tacan: true}
+          - {tekst: "Turci se povlače iz Evrope, pa se vraćaju posle Angore", tacan: false, zasto: "Angora je tek 1402; Kosovo je mnogo ranije."}
+          - {tekst: "Srbi osvajaju Solun", tacan: false, zasto: "Solun su 1387. osvojili Turci."}
+        pomoc: ["Korak 1: Šta su Turci radili između dve bitke?", "Korak 2: Šta je 1386. pokazalo koliko su blizu?", "Iz lekcije: Turci polako šire vlast, primiču se srpskim oblastima i uzimaju Niš."]
+        objasnjenje: "Kosovo nije bilo iznenadan događaj: postepeno napredovanje dovelo je Turke do Lazarevih oblasti."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Kosovu 1389.", tekst: "Posle Marice Turci polako šire vlast, a osvajanjima se primiču srpskim oblastima."}
+      - id: l10-letopis-izvor
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [kosovski-boj]
+        izvor:
+          autor: "Slika iz udžbenika"
+          naslov: "Crtež iz ruskog letopisa (opis)"
+          tekst: "Konjanici u oklopu i sa kopljima sukobljavaju se pred gradom sa kulama. Iznad i ispod crteža ćirilicom je ispisan rukopisni tekst. Crtež je iz ruskog letopisa iz XVI veka i prikazuje Kosovski boj."
+          napomena: "Odlomak je prepričan; udžbenik, str. 42."
+        pitanje: "Kakav je ovo izvor o Kosovskom boju?"
+        odgovori:
+          - {tekst: "Crtež iz ruskog letopisa iz XVI veka", tacan: true}
+          - {tekst: "Fotografija iz bitke", tacan: false, zasto: "Fotografija u XIV veku nije postojala; ovo je crtež iz letopisa."}
+          - {tekst: "Lazarev lični dnevnik", tacan: false, zasto: "Izvor je ruski letopis, nastao vekovima posle Lazara."}
+          - {tekst: "Freska iz Ravanice", tacan: false, zasto: "Ravanica je prikazana na fotografiji; ovo je crtež iz rukopisa."}
+        pomoc: ["Pročitaj poslednju rečenicu opisa.", "Letopis je rukopisna knjiga događaja.", "Iz lekcije: to je prikaz Kosovskog boja u ruskom letopisu iz XVI veka."]
+        objasnjenje: "Bitka je iz XIV, a ovaj crtež iz XVI veka."
+        iz_udzbenika: {strana: 42, odeljak: "Slike i karte", tekst: "Prikaz Kosovskog boja u ruskom letopisu iz XVI veka.", slika: "10-borba-protiv-turaka-osmanlija/03-kosovski-boj-ruski-letopis.jpg"}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-letopis-zakljucak-izvor
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [kosovski-boj]
+        izvor:
+          autor: "Slika iz udžbenika"
+          naslov: "Crtež iz ruskog letopisa (opis)"
+          tekst: "Crtež sa rukopisnim tekstom iz ruskog letopisa XVI veka prikazuje Kosovski boj: konjanike u oklopima pred gradom sa kulama."
+          napomena: "Odlomak je prepričan; udžbenik, str. 42."
+        pitanje: "Šta pokazuje to što se Kosovski boj nalazi u ruskom letopisu iz XVI veka?"
+        odgovori:
+          - {tekst: "Da se za bitku znalo i pričalo daleko van Srbije, i vekovima kasnije", tacan: true}
+          - {tekst: "Da su Rusi učestvovali u bici", tacan: false, zasto: "Lekcija navodi pomoć iz Bosne i Hrvatske, ne iz Rusije."}
+          - {tekst: "Da je crtež nastao tokom same bitke", tacan: false, zasto: "Bitka je iz XIV, a letopis iz XVI veka."}
+          - {tekst: "Da je bitka vođena u Rusiji", tacan: false, zasto: "Bitka je vođena na Gazimestanu, na Kosovu."}
+        pomoc: ["Uporedi vreme bitke i vreme nastanka letopisa.", "Uporedi mesto bitke i mesto nastanka letopisa.", "Iz lekcije: crtež pokazuje da se za Kosovski boj znalo daleko van Srbije."]
+        objasnjenje: "Bitka iz XIV veka prikazana je u ruskom letopisu iz XVI veka, što govori koliko je odjeknula."
+        iz_udzbenika: {strana: 42, odeljak: "Slike i karte", tekst: "Crtež iz ruskog letopisa XVI veka pokazuje da se za Kosovski boj znalo daleko van Srbije.", slika: "10-borba-protiv-turaka-osmanlija/03-kosovski-boj-ruski-letopis.jpg"}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-marica-kosovo-uporedi
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [bitka-na-marici, kosovski-boj]
+        a: "Marica 1371."
+        b: "Kosovo 1389."
+        pitanje: "Na koju bitku se odnosi tvrdnja: Maricu, Kosovo, obe ili nijednu?"
+        tvrdnje:
+          - {tekst: "Srpsku vojsku vode Vukašin i Uglješa.", odgovor: a, zasto: "Braća Mrnjavčević su krenula na Maricu; na Kosovu je bio Lazar."}
+          - {tekst: "U boju dolazi i sultan i tu gine.", odgovor: b, zasto: "Sultan Murat je poginuo na Kosovu."}
+          - {tekst: "Srbima pomažu odredi iz Bosne i Hrvatske.", odgovor: b, zasto: "Odredi Vlatka Vukovića i Ivana Paližne stigli su na Kosovo."}
+          - {tekst: "Protivnik su Turci Osmanlije.", odgovor: oba, zasto: "U obe bitke Srbi se bore protiv Turaka."}
+          - {tekst: "Turci iznenade nespremnu srpsku vojsku.", odgovor: a, zasto: "Iznenađenje je obeležje Marice."}
+          - {tekst: "Srbi pobeđuju, a Niš ostaje slobodan.", odgovor: nijedan, zasto: "Srpska pobeda bila je kod Pločnika 1386, a Niš je iste godine pao."}
+        pomoc: ["Ko predvodi svaku bitku?", "U kojoj bici gine sultan?", "Iz lekcije: Marica: Mrnjavčevići, iznenađenje; Kosovo: Lazar i Murat, odredi iz Bosne i Hrvatske."]
+        objasnjenje: "Obe bitke su srpski porazi, ali se razlikuju po vođama, toku i posledicama."
+        iz_udzbenika: {strana: 44, odeljak: "Zapamtite", tekst: "Turci su porazili braću Mrnjavčević na Marici 1371, a knez Lazar je izgubio bitku na Kosovu 1389."}
+      - id: l10-lazar-murat-uporedi
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [knez-lazar, sultan-murat, kosovski-boj]
+        a: "Knez Lazar"
+        b: "Sultan Murat"
+        pitanje: "Na koga se odnosi tvrdnja: Lazara, Murata, obojicu ili nijednog?"
+        tvrdnje:
+          - {tekst: "Sedište mu je bilo u Kruševcu.", odgovor: a, zasto: "Kruševac je Lazarevo sedište."}
+          - {tekst: "Nasledio ga je sin Bajazit I.", odgovor: b, zasto: "Bajazit je Muratov sin i naslednik na turskom prestolu."}
+          - {tekst: "Lično je došao na Kosovo.", odgovor: oba, zasto: "Oba vladara su došla, jer je bitka bila veoma važna."}
+          - {tekst: "Izgubio je život 1389.", odgovor: oba, zasto: "Obojica su izgubila život na Kosovu."}
+          - {tekst: "Umro je u mongolskom ropstvu.", odgovor: nijedan, zasto: "U ropstvu je umro Bajazit, posle Angore 1402."}
+        pomoc: ["Traži šta je zajedničko dvojici vladara na Kosovu.", "Ko ima sedište u Kruševcu?", "Iz lekcije: oba vladara dolaze na Kosovo i obojica gube život."]
+        objasnjenje: "Lazar i Murat stoje na suprotnim stranama, ali im je kraj isti."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Kosovu 1389.", tekst: "Oba vladara lično dolaze na bojište i obojica gube život."}
+      - id: l10-kneginja-milica-ko-sam
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [knjeginja-milica, knez-lazar]
+        tragovi: ["Prikazana sam na oštećenoj zidnoj slici, sa oreolom i u dugoj svečanoj haljini.", "Pored mene stoji čovek sa krunom.", "Bila sam žena kneza Lazara."]
+        odgovori:
+          - {tekst: "Kneginja Milica", tacan: true}
+          - {tekst: "Žena kralja Vukašina", tacan: false, zasto: "Na slici je Lazar, a ne Vukašin."}
+          - {tekst: "Žena cara Uroša", tacan: false, zasto: "Na slici je Lazar, a ne Uroš."}
+        objasnjenje: "Zidna slika prikazuje kneza Lazara i njegovu ženu, kneginju Milicu."
+        iz_udzbenika: {strana: 42, odeljak: "Slike i karte", tekst: "Knez Lazar i kneginja Milica prikazani su na oštećenoj zidnoj slici.", slika: "10-borba-protiv-turaka-osmanlija/02-knez-lazar-i-knjeginja-milica.jpg"}
+      - id: l10-vlatko-ko-sam
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [vlatko-vukovic, bosna, kosovski-boj]
+        tragovi: ["Nisam bio srpski velikaš, ali sam 1389. bio na Kosovu.", "Stigao sam kao zapovednik pomoćnih odreda.", "Moji vojnici došli su iz Bosne."]
+        odgovori:
+          - {tekst: "Vlatko Vuković", tacan: true}
+          - {tekst: "Ivan Paližna", tacan: false, zasto: "Paližna je predvodio odrede iz Hrvatske."}
+          - {tekst: "Vuk Branković", tacan: false, zasto: "Branković je bio srpski velikaš, ne bosanski zapovednik."}
+          - {tekst: "Marko Mrnjavčević", tacan: false, zasto: "Marko je bio turski vazal."}
+        objasnjenje: "Vlatko Vuković je predvodio odrede iz Bosne."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "Srbima su pomogli odredi iz Bosne pod komandom Vlatka Vukovića."}
+      - id: l10-palizna-ko-sam
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [ivan-palizna, kosovski-boj]
+        tragovi: ["Na Kosovu se nisam borio ni pod sultanom ni kao srpski velikaš.", "Bio sam feudalac.", "Predvodio sam odrede koji su na Kosovo stigli iz Hrvatske."]
+        odgovori:
+          - {tekst: "Ivan Paližna", tacan: true}
+          - {tekst: "Vlatko Vuković", tacan: false, zasto: "Vuković je predvodio odrede iz Bosne."}
+          - {tekst: "Nikola Altomanović", tacan: false, zasto: "Altomanović je srpski župan, među velikašima iz doba Uroša."}
+          - {tekst: "Vuk Branković", tacan: false, zasto: "Branković je srpski velikaš."}
+        objasnjenje: "Ivan Paližna je feudalac koji je predvodio odrede iz Hrvatske."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "Odrede iz Hrvatske predvodio je feudalac Ivan Paližna."}
+      - id: l10-kosovo-poraz-objasni
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [kosovski-boj, knez-lazar, sultan-murat]
+        pitanje: "Objasni zašto je u prvi mah izgledalo da su Srbi pobedili na Kosovu, a zašto se bitka ipak računa kao poraz."
+        uzor: "Oba vladara su izgubila život, gubici su bili veliki na obe strane, a Turci su napustili Kosovo, pa se verovalo u srpsku pobedu. Uskoro se pokazalo da srpsko društvo ne može da nadoknadi gubitak većine vlastele. Zato se Lazareva vojska računa kao poražena."
+        ideje: ["Turci su napustili Kosovo.", "Gubici su bili veliki na obe strane.", "Srbija je izgubila većinu vlastele.", "Taj gubitak nije mogao da se nadoknadi."]
+        objasnjenje: "Razlika između prvog utiska i posledica ključ je za razumevanje Kosovskog boja."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "U prvi mah se verovalo u srpsku pobedu, ali društvo nije moglo da nadoknadi gubitak vlastele."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+      - id: l10-predanje-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [milos-obilic, marko-kraljevic, sultan-murat]
+        pitanje: "Šta u pričama o Kosovu i Marici lekcija razlikuje kao činjenicu, a šta kao predanje? Navedi primer."
+        uzor: "Činjenica je da je sultana Murata ubio jedan srpski plemić, a tek je legenda iz narednih vekova rekla da se zvao Miloš Obilić. Slično, Marko Mrnjavčević je istorijski turski vazal, a u predanju je Marko Kraljević."
+        ideje: ["Sultana je ubio srpski plemić, to je činjenica.", "Ime Miloš Obilić dolazi iz legende.", "Marko je bio turski vazal, a u predanju je Kraljević."]
+        objasnjenje: "Istoričar razlikuje šta je potvrđeno, a šta je narod kasnije stvorio."
+        iz_udzbenika: {strana: 43, odeljak: "Bitka na Kosovu 1389.", tekst: "U narednim vekovima nastaje legenda da se sultanov ubica zvao Miloš Obilić."}
+      - id: l10-pomoc-saveznika-objasni
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [kosovski-boj, gazimestan, vlatko-vukovic, ivan-palizna]
+        pitanje: "Ispričaj ukratko šta se dogodilo u Kosovskom boju."
+        uzor: "Bitka je vođena 15. (28) juna 1389. na Gazimestanu. Došli su knez Lazar i sultan Murat, a Srbima su pomogli odredi iz Bosne i Hrvatske. Sultana je ubio srpski plemić, a Lazar je zarobljen i pogubljen."
+        ideje: ["Datum i mesto bitke.", "Oba vladara su došla lično.", "Pomoć iz Bosne i Hrvatske.", "Obojica vladara gube život."]
+        objasnjenje: "Dobar prikaz bitke sadrži kada, gde, ko i kako se završilo."
+        iz_udzbenika: {strana: 42, odeljak: "Bitka na Kosovu 1389.", tekst: "Bitka je vođena na Gazimestanu, a u njoj gube život i Lazar i Murat."}
+        osa: {naziv: "Bitka na Kosovu", od: 1389, traka: dogadjaji}
+  - naslov: "Pad Bugarske"
+    zadaci:
+      - id: l10-bajazit-ropstvo-izbor
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [bajazit-i, mongoli, bitka-kod-angore]
+        pitanje: "Ko je zarobio sultana Bajazita u bici kod Angore 1402?"
+        odgovori:
+          - {tekst: "Mongoli", tacan: true}
+          - {tekst: "Srbi", tacan: false, zasto: "Srpska pobeda bila je kod Pločnika 1386, a Angora je borba Mongola i Turaka."}
+          - {tekst: "Bugari", tacan: false, zasto: "Bugarska je tada već bila pod turskom vlašću."}
+          - {tekst: "Janičari", tacan: false, zasto: "Janičari su bili turska vojska."}
+        pomoc: ["To je sila koja nije sa Balkana.", "Naziv počinje na M.", "Iz lekcije: Mongoli zarobljavaju sultana Bajazita kod Angore 1402."]
+        objasnjenje: "Poraz od Mongola doveo je do privremenog prekida turskih osvajanja."
+        iz_udzbenika: {strana: 43, odeljak: "Pad Bugarske", tekst: "Mongoli zarobljavaju sultana Bajazita u bici kod Angore 1402, a sultan umire u ropstvu."}
+        osa: {naziv: "Bitka kod Angore", od: 1402, traka: dogadjaji}
+      - id: l10-bugarska-pala-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [bugarska, trnovsko-carstvo, vidinsko-carstvo]
+        tvrdnja: "Podeljeno Bugarsko carstvo palo je pod tursku vlast samo nekoliko godina posle Kosova."
+        tacno: true
+        pomoc: ["Uporedi 1389. sa 1393. i 1396.", "Iz lekcije: Trnovsko carstvo pada 1393, a Vidinsko 1396."]
+        objasnjenje: "Tačno. Oba dela Bugarske pala su u narednih sedam godina posle Kosova."
+        iz_udzbenika: {strana: 43, odeljak: "Pad Bugarske", tekst: "Već podeljeno Bugarsko carstvo pada pod tursku vlast samo nekoliko godina posle Kosova."}
+      - id: l10-osvajanja-nastavak-tn
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [bitka-kod-angore, osmanlije]
+        tvrdnja: "Posle Angore Turci su odmah krenuli u nova, još veća osvajanja."
+        tacno: false
+        ispravke:
+          - {tekst: "Posle Angore državu su potresale unutrašnje borbe, pa su osvajanja privremeno prestala.", tacan: true}
+          - {tekst: "Posle Angore Osmanska država je trajno nestala.", tacan: false, zasto: "Prekid je bio samo privremen; država je ostala."}
+          - {tekst: "Posle Angore Bajazit je pobedio Mongole i proširio državu.", tacan: false, zasto: "Bajazit je zarobljen i umro je u ropstvu."}
+        pomoc: ["Šta se događa državi kad joj vladar završi u ropstvu?", "Da li je prekid bio trajan?", "Iz lekcije: unutrašnje borbe potresaju državu nekoliko godina, pa osvajanja privremeno prestaju."]
+        objasnjenje: "Netačno. Turci su sada iskusili isto što i njihovi protivnici: unutrašnje borbe zaustavljaju državu."
+        iz_udzbenika: {strana: 43, odeljak: "Pad Bugarske", tekst: "Tursku državu nekoliko godina potresaju unutrašnje borbe, pa osvajanja privremeno prestaju."}
+        osa: {naziv: "Bitka kod Angore", od: 1402, traka: dogadjaji}
+      - id: l10-pad-bugarske-dopuni
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [trnovsko-carstvo, vidinsko-carstvo, bugarska]
+        pitanje: "Dopuni rečenicu o padu Bugarske."
+        tekst: "Trnovsko carstvo palo je {{1393}}. godine, a Vidinsko {{1396}}. godine."
+        ponudjene: ["1393", "1396", "1389", "1402"]
+        pomoc: ["1389. je Kosovo, a 1402. Angora.", "Trnovsko carstvo je palo prvo.", "Iz lekcije: Trnovsko 1393, Vidinsko 1396."]
+        objasnjenje: "Oba dela Bugarske pala su između Kosova i Angore."
+        iz_udzbenika: {strana: 43, odeljak: "Pad Bugarske", tekst: "Trnovsko carstvo pada 1393, a Vidinsko 1396."}
+      - id: l10-trnovo-datum
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [trnovsko-carstvo]
+        dogadjaj: "Pad Trnovskog carstva"
+        pitanje: "Koje godine je palo Trnovsko carstvo?"
+        godina: 1393
+        traka: dogadjaji
+        pomoc: ["Četiri godine posle Kosova.", "Tri godine pre pada Vidinskog carstva.", "Iz lekcije: Trnovsko carstvo pada 1393."]
+        objasnjenje: "Trnovsko carstvo palo je 1393, četiri godine posle Kosova."
+        iz_udzbenika: {strana: 43, odeljak: "Pad Bugarske", tekst: "Trnovsko carstvo palo je 1393."}
+      - id: l10-vidin-datum
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [vidinsko-carstvo]
+        dogadjaj: "Pad Vidinskog carstva"
+        pitanje: "Koje godine je palo Vidinsko carstvo?"
+        godina: 1396
+        traka: dogadjaji
+        pomoc: ["Sedam godina posle Kosova.", "Šest godina pre Angore.", "Iz lekcije: Vidinsko carstvo pada 1396."]
+        objasnjenje: "Vidinsko carstvo palo je 1396, tri godine posle Trnovskog."
+        iz_udzbenika: {strana: 43, odeljak: "Pad Bugarske", tekst: "Vidinsko carstvo palo je 1396."}
+      - id: l10-angora-datum
+        vrsta: datum
+        tezina: lako
+        pojmovi: [bitka-kod-angore]
+        dogadjaj: "Bitka kod Angore"
+        pitanje: "Koje godine je bila bitka kod Angore?"
+        godina: 1402
+        traka: dogadjaji
+        pomoc: ["To je kraj vladavine Bajazita I.", "Početak XV veka.", "Iz lekcije: bitka kod Angore je 1402."]
+        objasnjenje: "Angora je 1402; sa njom se završava vladavina Bajazita I."
+        iz_udzbenika: {strana: 43, odeljak: "Pad Bugarske", tekst: "Bajazit je zarobljen u bici kod Angore 1402."}
+      - id: l10-bajazit-datum
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [bajazit-i]
+        dogadjaj: "Bajazit I"
+        pitanje: "U kom periodu je vladao Bajazit I?"
+        od: 1389
+        do: 1402
+        traka: vladari
+        pomoc: ["Počeo je da vlada kada je otac poginuo.", "Završio je kod Angore.", "Iz lekcije: Bajazit I vlada 1389–1402."]
+        objasnjenje: "Bajazit je vladao od Kosova do Angore, 1389–1402."
+        iz_udzbenika: {strana: 42, odeljak: "Turci Osmanlije i njihova prva osvajanja", tekst: "Muratov sin Bajazit I vlada 1389–1402."}
+      - id: l10-pad-bugarske-poredjaj
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [kosovski-boj, trnovsko-carstvo, vidinsko-carstvo, bitka-kod-angore]
+        pitanje: "Poređaj događaje od najranijeg."
+        stavke:
+          - {tekst: "Bitka na Kosovu", godina: 1389, naziv: "Bitka na Kosovu", traka: dogadjaji}
+          - {tekst: "Pad Trnovskog carstva", godina: 1393, naziv: "Pad Trnovskog carstva", traka: dogadjaji}
+          - {tekst: "Pad Vidinskog carstva", godina: 1396, naziv: "Pad Vidinskog carstva", traka: dogadjaji}
+          - {tekst: "Bitka kod Angore", godina: 1402, naziv: "Bitka kod Angore", traka: dogadjaji}
+        pomoc: ["Bugarska pada posle Kosova.", "Angora je najkasnije.", "Iz lekcije: 1389, 1393, 1396, 1402."]
+        objasnjenje: "Posle Kosova pala je Bugarska, a tek je Angora privremeno zaustavila Turke."
+        iz_udzbenika: {strana: 43, odeljak: "Pad Bugarske", tekst: "Trnovsko carstvo pada 1393, Vidinsko 1396, a bitka kod Angore je 1402."}
+      - id: l10-prekid-zakljuci
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [bitka-kod-angore, bajazit-i]
+        pitanje: "Zašto su turska osvajanja privremeno stala posle 1402?"
+        odgovori:
+          - {tekst: "Bajazit je zarobljen, a državu su potresle unutrašnje borbe", tacan: true}
+          - {tekst: "Zato što su ih pobedili Srbi na Kosovu", tacan: false, zasto: "Posle Kosova Bugarska je pala; prekid dolazi tek posle Angore."}
+          - {tekst: "Zato što više nisu imali janičare", tacan: false, zasto: "Lekcija navodi drugi uzrok: poraz od Mongola i unutrašnje borbe."}
+          - {tekst: "Zato što su sklopili mir sa Bugarskom", tacan: false, zasto: "Bugarska je tada već bila osvojena."}
+        pomoc: ["Korak 1: Šta se dogodilo sa sultanom?", "Korak 2: Šta se dešava u državi bez vladara?", "Iz lekcije: zarobljavanje Bajazita → unutrašnje borbe → privremeni prekid osvajanja."]
+        objasnjenje: "Prekid nije doneo balkanski otpor, već poraz od Mongola i unutrašnje borbe kod Turaka."
+        iz_udzbenika: {strana: 44, odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika", tekst: "Bajazit je zarobljen kod Angore i umro je u ropstvu, a državu su potresale unutrašnje borbe."}
+        osa: {naziv: "Bitka kod Angore", od: 1402, traka: dogadjaji}
+      - id: l10-turci-kao-balkan-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [bitka-kod-angore, feudalizam, osmanlije]
+        pitanje: "Šta je zajedničko Srbiji posle Dušana i Turcima posle Angore?"
+        odgovori:
+          - {tekst: "Unutrašnje borbe posle gubitka jakog vladara zaustavile su državu", tacan: true}
+          - {tekst: "Obe države su osvojili Mongoli", tacan: false, zasto: "Mongoli su pobedili Turke kod Angore; lekcija ne kaže da su osvojili Srbiju."}
+          - {tekst: "Obe su dobile stajaću vojsku", tacan: false, zasto: "Stajaću vojsku su imali samo Turci."}
+          - {tekst: "Oba puta vlast je preuzeo knez Lazar", tacan: false, zasto: "Lazar nije imao veze sa Turcima posle 1402, jer je poginuo 1389."}
+        pomoc: ["Korak 1: Šta se desilo u Srbiji posle Dušana?", "Korak 2: Šta se desilo kod Turaka posle Bajazita?", "Iz lekcije: u oba slučaja slede unutrašnje borbe."]
+        objasnjenje: "Isti obrazac važi za obe strane: kad nestane jake vlasti, unutrašnje borbe zaustave državu."
+        iz_udzbenika: {strana: 43, odeljak: "Pad Bugarske", tekst: "Tursku državu nekoliko godina potresaju unutrašnje borbe, pa osvajanja privremeno prestaju."}
+      - id: l10-angora-lanac
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [bitka-kod-angore, bajazit-i, mongoli]
+        karike: ["Mongoli zarobljavaju Bajazita kod Angore", "?", "Privremeni prekid turskih osvajanja"]
+        praznina: 1
+        odgovori:
+          - {tekst: "Unutrašnje borbe potresaju tursku državu", tacan: true}
+          - {tekst: "Bugarska oslobađa Vidin", tacan: false, zasto: "Lekcija ne pominje oslobođenje; Vidinsko carstvo je palo 1396."}
+          - {tekst: "Sultan se vraća kao pobednik", tacan: false, zasto: "Bajazit je umro u ropstvu."}
+        pomoc: ["Korak 1: Ko sada vlada Turskom?", "Korak 2: Šta može da se desi u državi kada vladar nestane?", "Iz lekcije: zarobljavanje Bajazita → unutrašnje borbe → privremeni prekid."]
+        objasnjenje: "Zarobljavanje vladara stvorilo je unutrašnju krizu kod Turaka."
+        iz_udzbenika: {strana: 43, odeljak: "Pad Bugarske", tekst: "Sultan umire u ropstvu, državu potresaju unutrašnje borbe, a osvajanja privremeno prestaju."}
+        osa: {naziv: "Bitka kod Angore", od: 1402, traka: dogadjaji}
+      - id: l10-bajazit-ko-sam
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [bajazit-i, bitka-kod-angore]
+        tragovi: ["Moj otac je izgubio život na Kosovu.", "Za moje vladavine pala je Bugarska.", "Mongoli su me zarobili i umro sam u ropstvu."]
+        odgovori:
+          - {tekst: "Sultan Bajazit I", tacan: true}
+          - {tekst: "Sultan Murat", tacan: false, zasto: "Murat je Bajazitov otac; on je poginuo na Kosovu."}
+          - {tekst: "Marko Mrnjavčević", tacan: false, zasto: "Marko je bio turski vazal, a ne sultan."}
+          - {tekst: "Jovan VI Kantakuzin", tacan: false, zasto: "Kantakuzin je vizantijski car i istoričar."}
+        objasnjenje: "Bajazit I (1389–1402) nastavio je širenje, a zaustavili su ga Mongoli kod Angore."
+        iz_udzbenika: {strana: 43, odeljak: "Pad Bugarske", tekst: "Mongoli zarobljavaju sultana Bajazita kod Angore, i on umire u ropstvu."}
+      - id: l10-angora-objasni
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [bitka-kod-angore, bajazit-i]
+        pitanje: "Zašto su turska osvajanja zastala? Objasni svojim rečima."
+        uzor: "Mongoli su 1402. kod Angore zarobili sultana Bajazita, i on je umro u ropstvu. Državu su zatim nekoliko godina potresale unutrašnje borbe. Zato su osvajanja privremeno prestala."
+        ideje: ["Angora 1402.", "Bajazit je zarobljen i umro je u ropstvu.", "Unutrašnje borbe kod Turaka.", "Prekid je bio privremen."]
+        objasnjenje: "Ovo je pitanje iz udžbenika; važno je reći da je prekid samo privremen."
+        iz_udzbenika: {strana: 44, odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika", tekst: "Bajazit je zarobljen kod Angore, a državu su potresale unutrašnje borbe."}
+        osa: {naziv: "Bitka kod Angore", od: 1402, traka: dogadjaji}
+  - naslov: "Iz istorijskih izvora i pregled lekcije"
+    zadaci:
+      - id: l10-kantakuzin-ko-izvor
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [jovan-vi-kantakuzin, car-dusan, tribali]
+        izvor:
+          autor: "Jovan VI Kantakuzin"
+          naslov: "Zapis o nemirima posle Dušanove smrti"
+          tekst: "Kada je pri kraju 1355. umro car Dušan, vladar Tribala, među Srbima je izbio veliki nered. Najjači velikaši uklonili su slabije i potčinjavali okolne gradove."
+          napomena: "Odlomak je prepričan; udžbenik, str. 43–44."
+        pitanje: "Šta je po ovom odlomku izazvalo nered među Srbima?"
+        odgovori:
+          - {tekst: "Smrt cara Dušana", tacan: true}
+          - {tekst: "Bitka na Marici", tacan: false, zasto: "Marica je 1371, a nered je počeo odmah posle 1355."}
+          - {tekst: "Dolazak Mongola", tacan: false, zasto: "Mongoli se pojavljuju tek 1402, kod Angore."}
+          - {tekst: "Osvajanje Soluna", tacan: false, zasto: "Solun je pao 1387, mnogo kasnije."}
+        pomoc: ["Pročitaj prvu rečenicu.", "Koje godine je događaj?", "Iz lekcije: Kantakuzin kaže da je nered izbio posle smrti cara Dušana."]
+        objasnjenje: "Smrću jakog vladara nestalo je onoga ko drži velikaše pod kontrolom."
+        iz_udzbenika: {strana: 43, odeljak: "Iz istorijskih izvora", tekst: "Kantakuzin piše da se posle Dušanove smrti među Srbima razbuktao veliki nered."}
+        osa: {naziv: "Smrt cara Dušana", od: 1355, traka: dogadjaji}
+      - id: l10-kantakuzin-velikasi-izvor
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [jovan-vi-kantakuzin, car-uros, feudalizam]
+        izvor:
+          autor: "Jovan VI Kantakuzin"
+          naslov: "Zapis o nemirima posle Dušanove smrti"
+          tekst: "Jedni velikaši pomagali su Urošu, ali nisu učestvovali u borbi niti su ga priznavali za gospodara. Drugi su pomagali njegovog strica Simeona. Treći nisu prišli nikome, nego su čuvali vojsku i čekali da se pridruže pobedniku."
+          napomena: "Odlomak je prepričan; udžbenik, str. 43–44."
+        pitanje: "Šta odlomak najbolje pokazuje o srpskim velikašima?"
+        odgovori:
+          - {tekst: "Svaki je gledao svoj interes, a ne interes države", tacan: true}
+          - {tekst: "Svi su se složno borili za Uroša", tacan: false, zasto: "Podelili su se u tri grupe, a Urošu niko nije bio pravi podanik."}
+          - {tekst: "Svi su otišli u službu Turaka", tacan: false, zasto: "Odlomak ne govori o Turcima, nego o Urošu i Simeonu."}
+          - {tekst: "Svi su priznali Simeona za cara", tacan: false, zasto: "Simeona su pomagali samo neki velikaši."}
+        pomoc: ["Prebroj koliko je grupa.", "Šta rade oni koji čekaju pobednika?", "Iz lekcije: jedni pomažu Urošu bez priznavanja, drugi Simeonu, a treći čekaju."]
+        objasnjenje: "Odlomak je dokaz o neslozi: neki velikaši čuvaju vojsku i čekaju ko će pobediti."
+        iz_udzbenika: {strana: 44, odeljak: "Iz istorijskih izvora", tekst: "Velikaši su se podelili: jedni uz Uroša, drugi uz Simeona, a treći su čekali pobednika."}
+      - id: l10-kantakuzin-tribali-izvor
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [jovan-vi-kantakuzin, tribali]
+        izvor:
+          autor: "Jovan VI Kantakuzin"
+          naslov: "Zapis o nemirima posle Dušanove smrti"
+          tekst: "Pisac cara Dušana naziva vladarem Tribala i tako zove njegov narod, Srbe."
+          napomena: "Odlomak je prepričan; udžbenik, str. 43–44."
+        pitanje: "Zašto vizantijski pisac Srbe zove Tribalima?"
+        odgovori:
+          - {tekst: "Starim imenom naziva narod koji živi na prostoru na kome su nekada živeli Tribali", tacan: true}
+          - {tekst: "Zato što su se Srbi zaista zvali Tribali", tacan: false, zasto: "Tribali su bili tračko pleme iz antičkog doba."}
+          - {tekst: "Zato što je tako glasila Dušanova titula u zakonu", tacan: false, zasto: "Taj naziv dolazi od pisca, a odlomak ne govori o Dušanovoj tituli."}
+          - {tekst: "Zato što su Tribali bili vizantijska vojska", tacan: false, zasto: "Tribali su bili tračko pleme, a ne vizantijska vojska."}
+        pomoc: ["Priseti se Tribala iz lekcije o antičkom dobu.", "Tribali su živeli na tlu današnje Srbije i severne Bugarske.", "Iz lekcije: vizantijski pisac starim imenom naziva narod koji živi na tom prostoru."]
+        objasnjenje: "Naziv dolazi iz antike: pisac je stari naziv preneo na novi narod na istom prostoru."
+        iz_udzbenika: {strana: 44, odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika", tekst: "Kantakuzin Srbe zove Tribalima; Tribali su bili tračko pleme na tlu današnje Srbije i severne Bugarske."}
+      - id: l10-kantakuzin-romeji-izvor
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [jovan-vi-kantakuzin, vizantija]
+        izvor:
+          autor: "Jovan VI Kantakuzin"
+          naslov: "Zapis o nemirima posle Dušanove smrti"
+          tekst: "Romeji, koji su dugo trpeli od Srba, dobili su priliku da povrate izgubljeno i kazne varvare. Međutim, tu priliku su zbog građanskog rata i pobuna uludo potrošili."
+          napomena: "Odlomak je prepričan; udžbenik, str. 44."
+        pitanje: "Šta iz odlomka zaključuješ o stanju u Vizantiji i o stavu pisca?"
+        odgovori:
+          - {tekst: "I Vizantija je bila oslabljena unutrašnjim sukobima, a pisac gleda na Srbe kao na protivnike", tacan: true}
+          - {tekst: "Vizantija je bila jača nego ikad i povratila je sve", tacan: false, zasto: "Pisac kaže da je priliku uludo potrošila."}
+          - {tekst: "Pisac je bio srpski monah i slavi Srbe", tacan: false, zasto: "Kantakuzin je bio vizantijski car, i Srbe naziva varvarima."}
+          - {tekst: "Romeji su ime za Turke", tacan: false, zasto: "Romeji su Vizantinci."}
+        pomoc: ["Ko su Romeji?", "Kako pisac zove Srbe i zašto bi to bilo važno?", "Iz lekcije: Vizantinci (Romeji) su priliku potrošili zbog građanskog rata i pobuna."]
+        objasnjenje: "Odlomak pokazuje dve stvari: ni Vizantija nije bila stabilna, a svaki pisac gleda sa svoje strane."
+        iz_udzbenika: {strana: 44, odeljak: "Iz istorijskih izvora", tekst: "Romeji su dobili priliku da povrate izgubljeno, ali su je zbog građanskog rata i pobuna potrošili."}
+      - id: l10-tn-zapamtite-ugarska
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [bugarska, osmanlije]
+        tvrdnja: "Turci su osvojili i veliki deo Ugarske kraljevine."
+        tacno: true
+        pomoc: ["Pogledaj završni pregled lekcije.", "Iz lekcije: sve srpske zemlje postepeno dolaze pod tursku vlast, slično prolazi Bugarska, a Turci osvajaju i veliki deo Ugarske."]
+        objasnjenje: "Tačno. Tursko širenje nije stalo na srpskim i bugarskim zemljama."
+        iz_udzbenika: {strana: 44, odeljak: "Zapamtite", tekst: "Sve srpske zemlje postepeno dolaze pod tursku vlast, a Turci osvajaju i veliki deo Ugarske kraljevine."}
+      - id: l10-kantakuzin-ko-tn
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [jovan-vi-kantakuzin]
+        tvrdnja: "Jovan VI Kantakuzin bio je turski sultan."
+        tacno: false
+        ispravke:
+          - {tekst: "Jovan VI Kantakuzin bio je vizantijski car i istoričar.", tacan: true}
+          - {tekst: "Jovan VI Kantakuzin bio je srpski velikaš u Zeti.", tacan: false, zasto: "U Zeti su bili Balšići; Kantakuzin je bio Vizantinac."}
+          - {tekst: "Jovan VI Kantakuzin bio je mongolski vojskovođa.", tacan: false, zasto: "On je vizantijski car; sa Mongolima nije imao veze."}
+        pomoc: ["Sultani u lekciji su Murat i Bajazit.", "Pisac je bio i car i istoričar, ali ne turski.", "Iz lekcije: Jovan VI Kantakuzin bio je vizantijski car i istoričar."]
+        objasnjenje: "Netačno. Kantakuzin je vizantijski car i istoričar koji je pisao o nemirima posle Dušana."
+        iz_udzbenika: {strana: 43, odeljak: "Iz istorijskih izvora", tekst: "Jovan VI Kantakuzin bio je vizantijski car i istoričar."}
+      - id: l10-sta-znaci-zakljuci
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [jovan-vi-kantakuzin, car-uros]
+        pitanje: "Zašto je Kantakuzinov zapis o Srbima koristan, ali se mora čitati oprezno?"
+        odgovori:
+          - {tekst: "Savremenik je i dobro obavešten, ali je protivnik Srba i naziva ih varvarima", tacan: true}
+          - {tekst: "Zato što je pisan u XVI veku u Rusiji", tacan: false, zasto: "To je ruski letopis; Kantakuzin je pisao o svom vremenu."}
+          - {tekst: "Zato što je pisac bio sin kneza Lazara", tacan: false, zasto: "Bio je vizantijski car."}
+          - {tekst: "Nije koristan, jer ne govori ništa o Srbiji", tacan: false, zasto: "Upravo opisuje stanje među srpskim velikašima posle Dušana."}
+        pomoc: ["Korak 1: Ko je pisac i kada piše?", "Korak 2: Kakav je njegov stav prema Srbima?", "Iz lekcije: Vizantinci su dugo trpeli od Srba, a Kantakuzin ih zove varvarima."]
+        objasnjenje: "Dobar čitalac izvora pita ko piše i na čijoj je strani, pa tek onda veruje podacima."
+        iz_udzbenika: {strana: 44, odeljak: "Iz istorijskih izvora", tekst: "Kantakuzin piše o nemirima među Srbima i spominje želju Romeja da kazne varvare."}
+      - id: l10-uros-datum
+        vrsta: datum
+        tezina: lako
+        pojmovi: [car-uros]
+        dogadjaj: "Car Uroš"
+        pitanje: "U kom periodu je vladao car Uroš Nemanjić?"
+        od: 1355
+        do: 1371
+        traka: vladari
+        pomoc: ["Počeo je kada mu je otac umro.", "Završio je godine Marice.", "Iz lekcije: Uroš vlada 1355–1371."]
+        objasnjenje: "Uroš je vladao od Dušanove smrti 1355. do svoje smrti 1371."
+        iz_udzbenika: {strana: 41, odeljak: "Slabljenje balkanskih država u drugoj polovini XIV veka", tekst: "Car Uroš Nemanjić vlada 1355–1371.", slika: "10-borba-protiv-turaka-osmanlija/01-car-uros-i-kralj-vukasin.jpg"}
+      - id: l10-dusan-smrt-datum
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [car-dusan]
+        dogadjaj: "Smrt cara Dušana"
+        pitanje: "Koje godine je umro car Dušan?"
+        godina: 1355
+        traka: dogadjaji
+        pomoc: ["Tri godine posle Cimpa.", "Tada počinje Uroševa vladavina.", "Iz lekcije: car Dušan je umro kraj 1355."]
+        objasnjenje: "Dušan je umro pri kraju 1355, posle čega počinje raspad."
+        iz_udzbenika: {strana: 43, odeljak: "Iz istorijskih izvora", tekst: "Kraj 1355. umro je car Dušan."}
+      - id: l10-zaokruzi-lanac
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [feudalizam, osmanlije, kosovski-boj]
+        karike: ["Velikaši jačaju, centralna vlast slabi", "Nema jedinstvene odbrane Balkana", "?", "Srpske zemlje postepeno dolaze pod tursku vlast"]
+        praznina: 2
+        odgovori:
+          - {tekst: "Turci redom poražavaju gospodare jednog po jednog", tacan: true}
+          - {tekst: "Mongoli zauzimaju sve srpske zemlje", tacan: false, zasto: "Mongoli su pobedili Turke kod Angore, a nisu osvajali Srbiju."}
+          - {tekst: "Velikaši se okupljaju oko Vizantije i pobeđuju", tacan: false, zasto: "Vizantija je i sama bila zauzeta građanskim ratom."}
+        pomoc: ["Korak 1: Koliko je gospodara trebalo pobediti?", "Korak 2: Kako su padali, odjednom ili redom?", "Iz lekcije: Marica, Kosovo i pad Bugarske pokazuju postepeno osvajanje."]
+        objasnjenje: "Jedan po jedan: Mrnjavčevići na Marici, Lazar na Kosovu, pa Bugarska."
+        iz_udzbenika: {strana: 44, odeljak: "Zapamtite", tekst: "Sve srpske zemlje postepeno dolaze pod tursku vlast; slično prolazi Bugarska."}
+      - id: l10-pre-posle-uporedi
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [car-uros, knez-lazar, bugarska]
+        a: "Posle Dušanove smrti"
+        b: "Posle Kosovskog boja"
+        pitanje: "Kada važi tvrdnja: posle Dušanove smrti, posle Kosova, u oba perioda ili ni u jednom?"
+        tvrdnje:
+          - {tekst: "Velikaši čekaju da se pridruže pobedniku u borbi Uroša i Simeona.", odgovor: a, zasto: "Tako piše Kantakuzin o neredu posle 1355."}
+          - {tekst: "Bugarska pada pod Turke.", odgovor: b, zasto: "Trnovsko carstvo pada 1393, a Vidinsko 1396."}
+          - {tekst: "Unutrašnje teškoće slabe srpske zemlje.", odgovor: oba, zasto: "Prvo sukobi velikaša, a zatim gubitak vlastele."}
+          - {tekst: "Srbija proteruje Turke sa Balkana.", odgovor: nijedan, zasto: "To se nije dogodilo; srpske zemlje su postepeno dolazile pod tursku vlast."}
+        pomoc: ["Pogledaj godine: 1355. i 1389.", "Kantakuzin je pisao o prvom periodu.", "Iz lekcije: nered posle Dušana; Bugarska pada posle Kosova."]
+        objasnjenje: "Slabost je stalna, ali različitih uzroka: prvo nesloga, a zatim gubitak vlastele."
+        iz_udzbenika: {strana: 44, odeljak: "Zapamtite", tekst: "Posle Dušanove smrti velikaši se međusobno sukobljavaju, a sve srpske zemlje postepeno dolaze pod tursku vlast."}
+      - id: l10-kantakuzin-ko-sam
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [jovan-vi-kantakuzin, tribali]
+        tragovi: ["Bio sam car, ali nisam bio ni srpski ni turski vladar.", "Pisao sam istoriju.", "Srbe sam nazivao Tribalima."]
+        odgovori:
+          - {tekst: "Jovan VI Kantakuzin", tacan: true}
+          - {tekst: "Car Uroš", tacan: false, zasto: "Uroš je bio srpski car, a pisac je vizantijski car."}
+          - {tekst: "Sultan Murat", tacan: false, zasto: "Murat je bio turski sultan."}
+          - {tekst: "Bajazit I", tacan: false, zasto: "Bajazit je bio turski sultan."}
+        objasnjenje: "Jovan VI Kantakuzin bio je vizantijski car i istoričar."
+        iz_udzbenika: {strana: 43, odeljak: "Iz istorijskih izvora", tekst: "Jovan VI Kantakuzin bio je vizantijski car i istoričar koji je pisao o nemirima u Srpskom carstvu."}
+      - id: l10-srednji-vek-objasni
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [feudalizam, janicari, osmanlije]
+        pitanje: "Zašto su Turci uspeli da osvoje Balkan? Navedi bar dva razloga sa obe strane."
+        uzor: "Balkanske države su bile podeljene: u razvijenom feudalizmu jačali su velikaši, a slabila je centralna vlast. Turci su, s druge strane, imali stajaću vojsku, janičare, i sultane koji su čvrsto širili vlast. Zato su mogli da pobeđuju gospodare jednog po jednog."
+        ideje: ["Podeljene balkanske države.", "Slaba centralna vlast, jaki velikaši.", "Stajaća vojska, janičari.", "Odlučni sultani."]
+        objasnjenje: "Celina lekcije je u spoju dve strane: slabost Balkana i organizovanost Turaka."
+        iz_udzbenika: {strana: 44, odeljak: "Zapamtite", tekst: "Turci stižu do granica balkanskih država u razvijenom feudalizmu, kada jačaju oblasni gospodari."}
+      - id: l10-kantakuzin-objasni
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [jovan-vi-kantakuzin, tribali]
+        pitanje: "Kako Kantakuzin zove Srbe i zašto? Šta nam to govori o tome kako je pisac gledao na njih?"
+        uzor: "Kantakuzin Srbe zove Tribalima, po starom tračkom plemenu sa tla današnje Srbije i severne Bugarske. Vizantijski pisac je starim imenom nazvao narod koji živi na tom prostoru. Pošto Srbe zove i varvarima, vidi se da je gledao na njih kao protivnike."
+        ideje: ["Zove ih Tribalima.", "Tribali su staro tračko pleme.", "Staro ime prenosi na narod na istom prostoru.", "Na Srbe gleda kao na protivnike."]
+        objasnjenje: "Odgovor spaja lekciju iz antike i čitanje izvora."
+        iz_udzbenika: {strana: 44, odeljak: "Pitanja za razmišljanje / Zadaci iz udžbenika", tekst: "Na str. 12 Tribali su tračko pleme, pa pisac starim imenom naziva narod na tom prostoru."}
