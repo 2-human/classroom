@@ -1,0 +1,3070 @@
+# Banka zadataka — 2.3. Engleska i Američka revolucija (istorija, 7. razred, str. 40–44). Spaja se u spec.yaml.
+# Pitanja sopstvenim rečima na osnovu beleške tools/istorija/_source/lekcije-7/05-engleska-i-americka-revolucija.md.
+# Svaki pogrešan ponuđeni odgovor ima `zasto` — greška treba da nauči, ne samo da kazni.
+# Vremenska osa — isti događaj uvek sa istim nazivom i godinama:
+#   Građanski rat u Engleskoj 1642–1649 · Obnova monarhije u Engleskoj 1660 · Slavna revolucija 1688 ·
+#   Povelja o pravima 1689 · Bostonska čajanka 1773 · Prvi kongres kolonista u Filadelfiji 1774 ·
+#   Američka revolucija 1775–1783 (lekcija 1 ima „Američki rat za nezavisnost” sa oznakom „kraj XVIII veka”, zato drugi naziv) ·
+#   Britanci pokušavaju da uhapse vođe kolonista 1775 · Deklaracija nezavisnosti 1776 · Karikatura „Državne kotlokrpe” 1780 ·
+#   Bitka kod Jorktauna 1781 · Pariski mir 1783 · Ustav SAD 1787 · Džordž Vašington, prvi predsednik SAD 1789 ·
+#   Osnovan grad Vašington 1800 · SAD kupuju teritoriju od Francuske 1803 · SAD kupuju Floridu od Španije 1819 ·
+#   Teksas pripojen SAD 1845 · Pripajanje posle Meksičkog rata 1848
+# Str. 45 (rezime, pitanja) nije snimljena; godina poslednje stavke legende karte (kupovina od Meksika) nije pouzdana, pa se ne pita.
+
+lekcija: 5
+naslov: "2.3. Engleska i Američka revolucija"
+pojmovi:
+  revolucija: revolucija
+  engleska-revolucija: Engleska revolucija
+  parlament: parlament
+  britanski-parlament: britanski parlament
+  plemstvo: plemstvo
+  svestenstvo: sveštenstvo
+  stjuarti: Stjuarti
+  gradjanski-rat-u-engleskoj: Građanski rat u Engleskoj
+  oliver-kromvel: Oliver Kromvel
+  carls-i-stjuart: Čarls I Stjuart
+  republika: republika
+  lord-zastitnik: lord zaštitnik
+  obnova-monarhije: obnova monarhije
+  slavna-revolucija: Slavna revolucija
+  povelja-o-pravima: Povelja o pravima
+  parlamentarna-monarhija: parlamentarna monarhija
+  engleska: Engleska
+  skotska: Škotska
+  velika-britanija: Velika Britanija
+  gornji-dom: Gornji dom (Dom lordova)
+  donji-dom: Donji dom
+  vigovci: vigovci
+  torijevci: torijevci
+  vlada: vlada
+  pravo-glasa: pravo glasa
+  francuska: Francuska
+  severna-amerika: Severna Amerika
+  trinaest-kolonija: trinaest kolonija
+  kolonija: kolonija
+  kolonisti: kolonisti
+  protestanti: protestanti
+  boston: Boston
+  filadelfija: Filadelfija
+  njujork: Njujork
+  robovlasnistvo: robovlasništvo
+  plantaze: plantaže
+  pamuk: pamuk
+  duvan: duvan
+  carine: carine
+  gradjanstvo: građanstvo
+  karikatura: karikatura
+  americka-revolucija: Američka revolucija
+  americki-rat-za-nezavisnost: Američki rat za nezavisnost
+  bostonska-cajanka: Bostonska čajanka
+  kongres: Kongres
+  dzordz-vasington: Džordž Vašington
+  deklaracija-nezavisnosti: Deklaracija nezavisnosti
+  tomas-dzeferson: Tomas Džeferson
+  prosvetitelji: prosvetitelji
+  neotudjiva-prava: neotuđiva prava
+  jorktaun: Jorktaun
+  pariski-mir-1783: Pariski mir 1783.
+  sjedinjene-americke-drzave: Sjedinjene Američke Države
+  kanada: Kanada
+  karipsko-more: Karipsko more
+  federacija: federacija
+  ustav: ustav
+  podela-vlasti: podela vlasti
+  predsednik: predsednik
+  senat: Senat
+  predstavnicki-dom: Predstavnički dom
+  vrhovni-sud: Vrhovni sud
+  vasington-grad: Vašington (grad)
+  indijanci: Indijanci (starosedeoci)
+delovi:
+  # ==========================================================================
+  - naslov: Uvod
+    zadaci:
+      - id: l05-uvod-izbor-revolucija
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [revolucija]
+        pitanje: "Šta je revolucija?"
+        odgovori:
+          - {tekst: "Nagli i koreniti preobražaj", tacan: true}
+          - {tekst: "Spora i neprimetna promena koja traje vekovima", tacan: false, zasto: "Revolucija je upravo suprotno — brza i duboka promena."}
+          - {tekst: "Svaki rat između dve države", tacan: false, zasto: "Rat nije isto što i revolucija; revolucija je preobražaj društva, države ili privrede."}
+          - {tekst: "Krunisanje novog kralja", tacan: false, zasto: "Smena vladara po naslednom pravu ništa korenito ne menja."}
+        pomoc:
+          - "Seti se kako je Prva industrijska revolucija promenila proizvodnju."
+          - "Promena je bila i brza i duboka."
+          - "Iz lekcije: revolucija je nagli i koreniti preobražaj."
+        objasnjenje: "Revolucija je nagli i koreniti preobražaj — najčešće u politici, ali može se desiti u bilo kojoj oblasti života."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Uvod
+          tekst: "Revolucija je nagli i koreniti preobražaj; obično je vezujemo za političke promene."
+
+      - id: l05-uvod-dopuni-revolucija
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [revolucija]
+        pitanje: "Dopuni objašnjenje pojma."
+        tekst: "Revolucija je {{nagli}} i {{koreniti}} preobražaj. Najčešće je vezujemo za {{političke}} promene, ali može se desiti u bilo kojoj oblasti života."
+        ponudjene: [nagli, koreniti, političke, spori, površni, verske]
+        pomoc:
+          - "Revolucija se ne dešava polako."
+          - "Ona menja stvari iz korena."
+          - "Iz lekcije: nagli i koreniti preobražaj, najčešće u politici (npr. državno uređenje)."
+        objasnjenje: "Revolucija je nagli i koreniti preobražaj; najčešće se misli na političke promene, kao što je promena državnog uređenja."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Uvod
+          tekst: "Revoluciju obično vezujemo za političke promene, npr. u državnom uređenju, ali može se desiti u svakoj oblasti života."
+
+      - id: l05-uvod-tn-samo-politika
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [revolucija]
+        tvrdnja: "Revolucija može biti samo promena državnog uređenja."
+        tacno: false
+        ispravke:
+          - {tekst: "Revolucija se može desiti u bilo kojoj oblasti života, npr. i u proizvodnji.", tacan: true}
+          - {tekst: "Revolucija je samo promena vere u nekoj zemlji.", tacan: false, zasto: "Ni to nije jedina vrsta — revolucija može biti politička, privredna ili neka druga."}
+          - {tekst: "Revolucija je samo smena kralja istom porodicom.", tacan: false, zasto: "Smena po naslednom pravu nije koreniti preobražaj."}
+        pomoc:
+          - "Seti se naslova prethodne lekcije o mašinama i fabrikama."
+          - "I ona se zove revolucija, a nije politička."
+          - "Iz lekcije: revolucije se mogu desiti u svakoj oblasti života."
+        objasnjenje: "Netačno — najčešće govorimo o političkim revolucijama, ali postoji i, na primer, industrijska revolucija u proizvodnji."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Uvod
+          tekst: "Revoluciju najčešće vezujemo za političke promene, ali ona se može desiti u svakoj oblasti života."
+
+      - id: l05-uvod-zakljuci-industrijska
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [revolucija]
+        pitanje: "Zašto se i velike promene u proizvodnji krajem XVIII veka nazivaju revolucijom?"
+        odgovori:
+          - {tekst: "Jer su naglo i iz korena promenile način proizvodnje i život ljudi", tacan: true}
+          - {tekst: "Jer su radnici zbacili kralja i proglasili republiku", tacan: false, zasto: "To bi bila politička promena; industrijska revolucija je promena u proizvodnji (mašine, fabrike)."}
+          - {tekst: "Jer su se odigrale tokom Građanskog rata u Engleskoj", tacan: false, zasto: "Građanski rat je 1642–1649, a industrijska revolucija počinje u drugoj polovini XVIII veka."}
+          - {tekst: "Jer su trajale nekoliko vekova bez većih promena", tacan: false, zasto: "Revolucija je nagla, a ne spora promena."}
+        pomoc:
+          - "Korak 1: Šta znači reč revolucija?"
+          - "Korak 2: Da li su mašine i fabrike promenile proizvodnju naglo i duboko?"
+          - "Iz lekcije: revolucija je nagli i koreniti preobražaj u bilo kojoj oblasti."
+        objasnjenje: "Mašine su zamenile ljudsku ruku, nastale su fabrike i novi društveni slojevi — nagli i koreniti preobražaj, dakle revolucija, ali u privredi."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Uvod
+          tekst: "Udžbenik traži da se podsetiš kakve je promene donela Prva industrijska revolucija."
+
+      - id: l05-uvod-izbor-slike-parlament
+        vrsta: izbor
+        slika_u_pitanju: true
+        tezina: lako
+        pojmovi: [parlament, engleska]
+        pitanje: "Šta prikazuju dve slike na početku lekcije?"
+        odgovori:
+          - {tekst: "Engleski parlament u XIII i u XVII veku", tacan: true}
+          - {tekst: "Američki Kongres 1776. i 1787.", tacan: false, zasto: "Slike su mnogo starije — prikazuju engleski parlament u srednjem veku i u XVII veku."}
+          - {tekst: "Krunisanje dva engleska kralja", tacan: false, zasto: "Prikazana su zasedanja skupa predstavnika, a ne krunisanja."}
+          - {tekst: "Francuske prosvetitelje na skupu", tacan: false, zasto: "Prosvetitelji su iz XVIII veka; slike prikazuju englesku skupštinu."}
+        pomoc:
+          - "Pogledaj: mnogo ljudi sedi oko kralja i u klupama."
+          - "To je skup koji je savetovao engleskog kralja."
+          - "Iz lekcije: predstava engleskog parlamenta u XIII veku (levo) i XVII veku (desno)."
+        objasnjenje: "Leva slika prikazuje engleski parlament u XIII veku, desna u XVII veku."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Uvod
+          tekst: "Na dve slike prikazan je engleski parlament u XIII i u XVII veku."
+          slika: 05-engleska-i-americka-revolucija/01-engleski-parlament-xiii-i-xvii-vek.jpg
+
+      - id: l05-uvod-zakljuci-slike-poredjenje
+        vrsta: zakljuci
+        slika_u_pitanju: true
+        tezina: tesko
+        pojmovi: [parlament, engleska]
+        pitanje: "Uporedi dve slike engleskog parlamenta. Šta se najviše promenilo od XIII do XVII veka?"
+        odgovori:
+          - {tekst: "U XVII veku parlament ima mnogo više članova — dvorana je puna klupa sa poslanicima", tacan: true}
+          - {tekst: "U XVII veku parlament više ne postoji, a kralj sedi sam", tacan: false, zasto: "Na desnoj slici dvorana je puna ljudi — parlament postoji i veći je."}
+          - {tekst: "U XIII veku parlament je bio veći nego u XVII veku", tacan: false, zasto: "Na levoj slici je mali broj ljudi oko kralja; na desnoj stotine poslanika."}
+          - {tekst: "Na obe slike nema kralja ni prestola", tacan: false, zasto: "Na obe slike vidi se presto na čelu skupa."}
+        pomoc:
+          - "Korak 1: Prebroj otprilike ljude na levoj slici."
+          - "Korak 2: Uporedi sa redovima klupa na desnoj."
+          - "Iz lekcije: levo je parlament u XIII veku, desno u XVII veku."
+        objasnjenje: "Parlament je rastao — u XVII veku zasedaju stotine poslanika, što pokazuje koliko je postao važan; baš u tom veku izbija sukob kralja i parlamenta."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Uvod
+          tekst: "Udžbenik upoređuje predstave engleskog parlamenta iz XIII i XVII veka."
+          slika: 05-engleska-i-americka-revolucija/01-engleski-parlament-xiii-i-xvii-vek.jpg
+
+      - id: l05-uvod-uporedi-revolucije
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [revolucija, engleska-revolucija]
+        a: Revolucija u politici (Engleska u XVII veku)
+        b: Industrijska revolucija
+        pitanje: "Na koju revoluciju se odnosi tvrdnja — prvu, drugu, obe ili nijednu?"
+        tvrdnje:
+          - {tekst: "Menja se državno uređenje — ko i kako vlada.", odgovor: a, zasto: "To je politička revolucija, npr. kad Engleska postaje republika."}
+          - {tekst: "Mašine zamenjuju rad ljudske ruke.", odgovor: b, zasto: "To je promena u proizvodnji — industrijska revolucija."}
+          - {tekst: "To je nagli i koreniti preobražaj.", odgovor: oba, zasto: "Svaka revolucija je nagli i koreniti preobražaj, ma u kojoj oblasti."}
+          - {tekst: "Odigrala se u Engleskoj (Velikoj Britaniji).", odgovor: oba, zasto: "Građanski rat i Slavna revolucija su u Engleskoj, a industrijska revolucija počinje u Velikoj Britaniji."}
+          - {tekst: "Počela je u Rusiji.", odgovor: nijedan, zasto: "Nijedna nije počela u Rusiji."}
+        pomoc:
+          - "Pitaj se: menja li se vlast ili proizvodnja?"
+          - "Zajedničko im je ono što svaku promenu čini revolucijom."
+          - "Iz lekcije: revolucija je nagli i koreniti preobražaj — u politici ili bilo kojoj oblasti."
+        objasnjenje: "Politička revolucija menja vlast, industrijska proizvodnju; obe su nagle i korenite i obe se vezuju za Englesku."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Uvod
+          tekst: "Revolucija može biti politička, ali i u bilo kojoj drugoj oblasti, kao Prva industrijska revolucija."
+
+      - id: l05-uvod-objasni-revolucija
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [revolucija]
+        pitanje: "Šta je revolucija? Navedi primer političke i primer nepolitičke revolucije."
+        uzor: "Revolucija je nagli i koreniti preobražaj. Najčešće se misli na političke promene, kao kad je Engleska u XVII veku postala republika. Ali revolucija može biti i u privredi — Prva industrijska revolucija promenila je proizvodnju jer su mašine zamenile ljudsku ruku."
+        ideje:
+          - "Revolucija je nagla i korenita promena."
+          - "Najčešće se vezuje za politiku i državno uređenje."
+          - "Može se desiti i u drugim oblastima."
+          - "Primer: Prva industrijska revolucija (mašine)."
+        objasnjenje: "Bitno je da je promena brza i duboka; oblast može biti politika, privreda ili nešto drugo."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Uvod
+          tekst: "Revolucija je nagli i koreniti preobražaj, najčešće politički, ali moguć u svakoj oblasti života."
+
+  # ==========================================================================
+  - naslov: Građanski rat i republika u Engleskoj
+    zadaci:
+      - id: l05-grat-izbor-parlament-ko
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [parlament, plemstvo, svestenstvo]
+        pitanje: "Čiji su predstavnici činili engleski parlament? (više tačnih)"
+        odgovori:
+          - {tekst: "Plemstva", tacan: true}
+          - {tekst: "Sveštenstva", tacan: true}
+          - {tekst: "Gradova", tacan: true}
+          - {tekst: "Robova", tacan: false, zasto: "Robovi nisu imali nikakva prava, pa ni predstavnike."}
+          - {tekst: "Svih seljaka", tacan: false, zasto: "Seljaci nisu bili među grupama koje su slale predstavnike u parlament."}
+        pomoc:
+          - "Seti se tri grupe koje su bile najuticajnije u srednjem veku."
+          - "Među njima su i oni koji služe crkvi i stanovnici varoši."
+          - "Iz lekcije: parlament su činili predstavnici plemstva, sveštenstva i gradova."
+        objasnjenje: "Parlament su činili predstavnici plemstva, sveštenstva i gradova; s njima se kralj savetovao još od kasnog srednjeg veka."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Parlament su činili predstavnici plemstva, sveštenstva i gradova."
+          slika: 05-engleska-i-americka-revolucija/01-engleski-parlament-xiii-i-xvii-vek.jpg
+
+      - id: l05-grat-izbor-stjuarti
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [stjuarti, parlament]
+        pitanje: "Vladari iz koje dinastije su u XVII veku narušili odnos kralja i parlamenta u Engleskoj?"
+        odgovori:
+          - {tekst: "Stjuart", tacan: true}
+          - {tekst: "Habzburg", tacan: false, zasto: "Habzburzi su vladali Habzburškom monarhijom (Austrija, Češka, Ugarska), ne Engleskom."}
+          - {tekst: "Romanov", tacan: false, zasto: "Romanovi su ruska dinastija."}
+          - {tekst: "Hoencolern", tacan: false, zasto: "Hoencolerni su vladali Pruskom."}
+        pomoc:
+          - "Pogubljeni kralj nosi ime te dinastije u svom imenu."
+          - "Taj kralj je Čarls I …"
+          - "Iz lekcije: poredak su u XVII veku narušili vladari iz dinastije Stjuart."
+        objasnjenje: "Vladari iz dinastije Stjuart u XVII veku pokušali su da vladaju mimo parlamenta, što je dovelo do Građanskog rata."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Vekovni poredak saradnje kralja i parlamenta narušili su u XVII veku Stjuarti."
+
+      - id: l05-grat-izbor-sudjenje
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [carls-i-stjuart, gradjanski-rat-u-engleskoj]
+        pitanje: "Šta je bilo nezabeleženo (bez presedana) posle pobede pristalica parlamenta?"
+        odgovori:
+          - {tekst: "Kralj je izveden pred sud i osuđen", tacan: true}
+          - {tekst: "Kralj je pobegao u Francusku", tacan: false, zasto: "Čarls I je bio zarobljen, a ne pobegao."}
+          - {tekst: "Parlament je izabrao novog kralja iz Škotske", tacan: false, zasto: "Engleska je proglašena republikom, a ne kraljevinom sa novim kraljem."}
+          - {tekst: "Plemstvo je izgubilo mesto u parlamentu", tacan: false, zasto: "Lekcija o tome ne govori; novina je bila suđenje kralju."}
+        pomoc:
+          - "Šta su pobednici uradili sa zarobljenim kraljem?"
+          - "Vladari su do tada smatrani iznad zakona."
+          - "Iz lekcije: pobednici su kralja izveli pred sud — do tada nezabeležen slučaj."
+        objasnjenje: "Do tada se smatralo da kralj vlada po božjoj milosti i da je iznad zakona; zato je suđenje Čarlsu I bilo bez presedana."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Pobednici su kralja izveli pred sud, što je bio do tada nezabeležen slučaj."
+
+      - id: l05-grat-izbor-kromvel-portret
+        vrsta: izbor
+        slika_u_pitanju: true
+        tezina: lako
+        pojmovi: [oliver-kromvel, lord-zastitnik]
+        pitanje: "Kako je na portretu prikazan Oliver Kromvel?"
+        odgovori:
+          - {tekst: "U oklopu, kao vojskovođa", tacan: true}
+          - {tekst: "Sa krunom i plaštom od hermelina", tacan: false, zasto: "Kromvel nije bio krunisan — na portretu nosi oklop."}
+          - {tekst: "U sveštenićkoj odeždi", tacan: false, zasto: "Bio je plemić i vojskovođa, a ne sveštenik."}
+          - {tekst: "Sa belom perikom, kao američki predsednik", tacan: false, zasto: "To je opis Vašingtonovog portreta; Kromvel ima dugu kosu i oklop."}
+        pomoc:
+          - "Pogledaj šta nosi na grudima i ramenu."
+          - "Predvodio je vojsku pristalica parlamenta."
+          - "Iz lekcije: Oliver Kromvel kao lord zaštitnik — u oklopu."
+        objasnjenje: "Kromvel je prikazan u oklopu — kao vojskovođa koji je pobedio u Građanskom ratu i potom vladao kao lord zaštitnik."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Portret prikazuje Olivera Kromvela kao lorda zaštitnika."
+          slika: 05-engleska-i-americka-revolucija/02-oliver-kromvel.jpg
+
+      - id: l05-grat-tn-kromvel
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [oliver-kromvel, gradjanski-rat-u-engleskoj]
+        tvrdnja: "U Građanskom ratu pristalice parlamenta predvodio je plemić Oliver Kromvel."
+        tacno: true
+        pomoc:
+          - "Ko je kasnije dobio titulu lord zaštitnik?"
+          - "Iz lekcije: pristalice parlamenta vodio je plemić Oliver Kromvel."
+        objasnjenje: "Tačno — Kromvel je predvodio pristalice parlamenta i porazio kralja Čarlsa I."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Pristalice parlamenta pod vođstvom plemića Olivera Kromvela porazile su i zarobile kralja."
+        osa: {naziv: Građanski rat u Engleskoj, od: 1642, do: 1649, traka: dogadjaji}
+
+      - id: l05-grat-tn-kralj-pobedio
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [carls-i-stjuart, gradjanski-rat-u-engleskoj]
+        tvrdnja: "Čarls I je pobedio u Građanskom ratu i raspustio parlament."
+        tacno: false
+        ispravke:
+          - {tekst: "Čarls I je poražen, zarobljen, izveden pred sud i osuđen na smrt.", tacan: true}
+          - {tekst: "Čarls I je pobedio, ali je kasnije abdicirao u korist Kromvela.", tacan: false, zasto: "Kralj nije pobedio niti predao vlast — poražen je i pogubljen."}
+          - {tekst: "Rat se završio bez pobednika, sporazumom kralja i parlamenta.", tacan: false, zasto: "Pobedile su pristalice parlamenta; mirno rešenje dolazi tek sa Slavnom revolucijom 1688."}
+        pomoc:
+          - "Ko je zarobljen u ratu?"
+          - "Kako se završio život Čarlsa I?"
+          - "Iz lekcije: pristalice parlamenta porazile su i zarobile Čarlsa I, a sud ga je osudio na smrt."
+        objasnjenje: "Netačno — pobedio je parlament, a kralj je osuđen na smrt kao tiranin, izdajnik, ubica i neprijatelj naroda."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Pristalice parlamenta zarobile su Čarlsa I, a on je osuđen na smrt."
+
+      - id: l05-grat-tn-republika-izbori
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [republika, oliver-kromvel, lord-zastitnik]
+        tvrdnja: "Engleskom republikom upravljao je predsednik biran svake četiri godine."
+        tacno: false
+        ispravke:
+          - {tekst: "Republikom je doživotno upravljao Oliver Kromvel sa titulom lord zaštitnik.", tacan: true}
+          - {tekst: "Republikom je upravljao Čarls I, ali bez krune.", tacan: false, zasto: "Čarls I je osuđen na smrt; vladao je Kromvel."}
+          - {tekst: "Republikom je upravljao Džordž Vašington.", tacan: false, zasto: "Vašington je prvi predsednik SAD (1789), više od sto godina kasnije."}
+        pomoc:
+          - "Predsednik biran na četiri godine postoji u SAD — ne u Engleskoj XVII veka."
+          - "Ko je imao titulu lord zaštitnik?"
+          - "Iz lekcije: republikom je poput nekrunisanog kralja doživotno upravljao Kromvel."
+        objasnjenje: "Netačno — republika je u stvari bila doživotna vlast Kromvela, lorda zaštitnika."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Republikom je, poput nekrunisanog kralja, doživotno upravljao Kromvel kao lord zaštitnik."
+
+      - id: l05-grat-dopuni-rat
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [gradjanski-rat-u-engleskoj, oliver-kromvel, carls-i-stjuart, parlament]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Tokom {{Građanskog rata}} (1642–1649) pristalice {{parlamenta}}, pod vođstvom {{Olivera Kromvela}}, porazile su i zarobile kralja {{Čarlsa I}}."
+        ponudjene: [Građanskog rata, parlamenta, Olivera Kromvela, Čarlsa I, Džordža Vašingtona, kralja, Tridesetogodišnjeg rata]
+        pomoc:
+          - "Rat se vodio između pristalica kralja i pristalica parlamenta."
+          - "Pobednički vođa kasnije postaje lord zaštitnik."
+          - "Iz lekcije: u Građanskom ratu pristalice parlamenta pod Kromvelom zarobile su Čarlsa I."
+        objasnjenje: "U Građanskom ratu (1642–1649) Kromvelove pristalice parlamenta pobedile su kralja Čarlsa I Stjuarta."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "U Građanskom ratu (1642–1649) pristalice parlamenta pod Kromvelom zarobile su Čarlsa I."
+
+      - id: l05-grat-dopuni-lord
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [lord-zastitnik, republika, oliver-kromvel]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Engleska je proglašena za {{republiku}}, ali njome je doživotno upravljao Kromvel sa titulom {{lord zaštitnik|lorda zaštitnika|protektor|lord protektor}}."
+        pomoc:
+          - "Kakav je oblik države bez kralja?"
+          - "Kromvelova titula na srpskom znači „onaj koji štiti”."
+          - "Iz lekcije: republika; titula lord zaštitnik (protektor)."
+        objasnjenje: "Engleska je postala republika, ali Kromvel je vladao doživotno kao lord zaštitnik — poput nekrunisanog kralja."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Engleska je proglašena republikom, kojom je doživotno upravljao Kromvel kao lord zaštitnik."
+
+      - id: l05-grat-datum-rat
+        vrsta: datum
+        tezina: lako
+        pojmovi: [gradjanski-rat-u-engleskoj]
+        dogadjaj: Građanski rat u Engleskoj
+        pitanje: "Kada je trajao Građanski rat u Engleskoj?"
+        od: 1642
+        do: 1649
+        traka: dogadjaji
+        pomoc:
+          - "Bio je sredinom XVII veka i trajao sedam godina."
+          - "Počeo je početkom četrdesetih godina XVII veka."
+          - "Iz lekcije: Građanski rat (1642–1649)."
+        objasnjenje: "Građanski rat u Engleskoj trajao je od 1642. do 1649. godine."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Građanski rat u Engleskoj vodio se 1642–1649."
+
+      - id: l05-grat-datum-obnova
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [obnova-monarhije, oliver-kromvel]
+        dogadjaj: Obnova monarhije u Engleskoj
+        pitanje: "Koje godine je, posle Kromvelove smrti, u Engleskoj ponovo uspostavljena monarhija?"
+        godina: 1660
+        traka: dogadjaji
+        pomoc:
+          - "Desilo se jedanaest godina posle kraja Građanskog rata."
+          - "Godina je okrugla — početak sedme decenije XVII veka."
+          - "Iz lekcije: posle Kromvelove smrti, 1660. godine, monarhija je obnovljena."
+        objasnjenje: "Posle smrti Kromvela, 1660, monarhija je obnovljena; a sa naslednicima Čarlsa I usledili su novi sukobi sa parlamentom."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Posle Kromvelove smrti, 1660. godine, u Engleskoj je ponovo uspostavljena monarhija."
+
+      - id: l05-grat-povezi-licnosti
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [oliver-kromvel, carls-i-stjuart, stjuarti, parlament]
+        pitanje: "Poveži pojam ili ličnost sa opisom."
+        parovi:
+          - ["Oliver Kromvel", "vođa pristalica parlamenta, lord zaštitnik"]
+          - ["Čarls I", "kralj osuđen na smrt"]
+          - ["Stjuarti", "dinastija koja je narušila poredak u XVII veku"]
+          - ["Parlament", "predstavnici plemstva, sveštenstva i gradova"]
+        pomoc:
+          - "Jedan je pobednik, drugi poraženi kralj."
+          - "Dinastija i skupština su preostala dva."
+          - "Iz lekcije: Kromvel vodi parlament, Čarls I Stjuart je osuđen, parlament čine plemstvo, sveštenstvo i gradovi."
+        objasnjenje: "Stjuarti narušavaju poredak, Kromvel predvodi parlament, a Čarls I je osuđen na smrt."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Lekcija opisuje sukob Stjuarta i parlamenta, Kromvelovu pobedu i osudu Čarlsa I."
+
+      - id: l05-grat-zakljuci-bozja-milost
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [carls-i-stjuart, parlament]
+        pitanje: "Zašto su vladari smatrali da im niko ne može suditi?"
+        odgovori:
+          - {tekst: "Tvrdili su da vladaju po božjoj milosti, pa su iznad zakona", tacan: true}
+          - {tekst: "Zato što ih je izabrao narod na izborima", tacan: false, zasto: "Kraljevi su vlast nasleđivali, a ne dobijali na izborima."}
+          - {tekst: "Zato što je to pisalo u Povelji o pravima", tacan: false, zasto: "Povelja (1689) dolazi posle i upravo ograničava kralja."}
+          - {tekst: "Zato što je parlament tako odlučio", tacan: false, zasto: "Parlament je, naprotiv, sudio kralju."}
+        pomoc:
+          - "Korak 1: Odakle su kraljevi tvrdili da dolazi njihova vlast?"
+          - "Korak 2: Ako vlast dolazi od Boga, da li važe ljudski zakoni?"
+          - "Iz lekcije: vladari su isticali da vladaju po božjoj milosti i da su zato iznad zakona."
+        objasnjenje: "Vladari su tvrdili da vlast dobijaju od Boga, pa su se smatrali iznad zakona — zato je suđenje kralju bilo nečuveno."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Vladari su isticali da vladaju po božjoj milosti i da se zato nalaze iznad zakona."
+
+      - id: l05-grat-zakljuci-republika-po-imenu
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [republika, oliver-kromvel, lord-zastitnik]
+        pitanje: "Zašto se za Kromvela kaže da je vladao „poput nekrunisanog kralja”?"
+        odgovori:
+          - {tekst: "Iako je Engleska bila republika, on je imao vlast doživotno, kao kralj", tacan: true}
+          - {tekst: "Zato što je bio sin Čarlsa I", tacan: false, zasto: "Kromvel je bio plemić i vođa protivnika kralja, a ne kraljev sin."}
+          - {tekst: "Zato što ga je parlament krunisao posle rata", tacan: false, zasto: "Nije krunisan — zato i „nekrunisani” kralj."}
+          - {tekst: "Zato što je vlast predavao svake godine drugom", tacan: false, zasto: "Vladao je doživotno, do smrti."}
+        pomoc:
+          - "Korak 1: Po čemu se republika razlikuje od monarhije?"
+          - "Korak 2: Koliko dugo je Kromvel upravljao?"
+          - "Iz lekcije: republikom je doživotno upravljao Kromvel kao lord zaštitnik."
+        objasnjenje: "U republici vlast treba da se bira na određeno vreme, a Kromvel je vladao doživotno — kao kralj, samo bez krune."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Republikom je doživotno, poput nekrunisanog kralja, upravljao Kromvel."
+
+      - id: l05-grat-lanac-rat
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [stjuarti, gradjanski-rat-u-engleskoj, carls-i-stjuart]
+        karike:
+          - "Stjuarti u XVII veku narušavaju saradnju kralja i parlamenta"
+          - "?"
+          - "Čarls I je poražen i zarobljen"
+        praznina: 1
+        odgovori:
+          - {tekst: "Izbija Građanski rat (1642–1649)", tacan: true}
+          - {tekst: "Izbija Bostonska čajanka", tacan: false, zasto: "Bostonska čajanka je 1773. u Americi."}
+          - {tekst: "Kralj prihvata Povelju o pravima", tacan: false, zasto: "Povelja dolazi tek 1689, posle Slavne revolucije."}
+        pomoc:
+          - "Šta se dešava kad se kralj i parlament ne slože, a nijedan ne popušta?"
+          - "Sukob se rešava oružjem."
+          - "Iz lekcije: sledi Građanski rat (1642–1649) u kome Čarls I biva zarobljen."
+        objasnjenje: "Narušeni poredak doveo je do Građanskog rata u kome su pristalice parlamenta zarobile kralja."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Stjuarti su narušili poredak; u Građanskom ratu kralj je zarobljen."
+        osa: {naziv: Građanski rat u Engleskoj, od: 1642, do: 1649, traka: dogadjaji}
+
+      - id: l05-grat-lanac-republika
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [carls-i-stjuart, republika]
+        karike:
+          - "Pristalice parlamenta pobeđuju"
+          - "Čarls I je osuđen na smrt"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Engleska je proglašena republikom", tacan: true}
+          - {tekst: "Engleska postaje parlamentarna monarhija", tacan: false, zasto: "To se dešava tek posle Slavne revolucije i Povelje o pravima (1688–1689)."}
+          - {tekst: "Engleska se ujedinjuje sa Škotskom", tacan: false, zasto: "Ujedinjenje je početkom XVIII veka."}
+        pomoc:
+          - "Ako kralja više nema, kakva je država?"
+          - "Država bez kralja zove se …"
+          - "Iz lekcije: posle osude kralja Engleska je proglašena republikom."
+        objasnjenje: "Kad je kralj osuđen, Engleska je proglašena republikom."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Posle osude Čarlsa I Engleska je proglašena republikom."
+
+      - id: l05-grat-lanac-obnova
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [lord-zastitnik, oliver-kromvel, obnova-monarhije]
+        karike:
+          - "Kromvel vlada doživotno kao lord zaštitnik"
+          - "Kromvel umire"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "1660. monarhija se ponovo uspostavlja", tacan: true}
+          - {tekst: "Engleska postaje deo Francuske", tacan: false, zasto: "Ništa slično se nije desilo; vratila se monarhija."}
+          - {tekst: "Parlament bira predsednika na četiri godine", tacan: false, zasto: "Predsednik na četiri godine je američko rešenje iz 1787."}
+        pomoc:
+          - "Korak 1: Ko je posle Kromvela mogao da vlada Engleskom?"
+          - "Korak 2: Na str. 41 se govori o „naslednicima Čarlsa I”."
+          - "Iz lekcije: posle Kromvelove smrti, 1660, monarhija je obnovljena."
+        objasnjenje: "Republika je počivala na Kromvelu; posle njegove smrti, 1660, vratila se monarhija."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Posle Kromvelove smrti, 1660. godine, monarhija je obnovljena."
+        osa: {naziv: Obnova monarhije u Engleskoj, od: 1660, traka: dogadjaji}
+
+      - id: l05-grat-ko-sam-kromvel
+        vrsta: ko_sam
+        tezina: srednje
+        pojmovi: [oliver-kromvel, lord-zastitnik, gradjanski-rat-u-engleskoj]
+        tragovi:
+          - "Bio sam plemić, ali sam se borio protiv kralja."
+          - "Predvodio sam pristalice parlamenta u Građanskom ratu."
+          - "Upravljao sam republikom doživotno, sa titulom lord zaštitnik."
+        odgovori:
+          - {tekst: "Oliver Kromvel", tacan: true}
+          - {tekst: "Čarls I Stjuart", tacan: false, zasto: "Čarls I je bio kralj protiv koga se Kromvel borio."}
+          - {tekst: "Džordž Vašington", tacan: false, zasto: "Vašington je vodio američke koloniste protiv Britanije u XVIII veku."}
+          - {tekst: "Tomas Džeferson", tacan: false, zasto: "Džeferson je sastavio američku Deklaraciju nezavisnosti."}
+        objasnjenje: "To je Oliver Kromvel — vođa pristalica parlamenta i doživotni lord zaštitnik engleske republike."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Kromvel je predvodio pristalice parlamenta i doživotno upravljao republikom kao lord zaštitnik."
+          slika: 05-engleska-i-americka-revolucija/02-oliver-kromvel.jpg
+
+      - id: l05-grat-ko-sam-carls
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [carls-i-stjuart, stjuarti]
+        tragovi:
+          - "Bio sam engleski kralj iz dinastije Stjuart."
+          - "Zarobile su me pristalice parlamenta u Građanskom ratu."
+          - "Sud me je osudio na smrt kao tiranina i neprijatelja naroda."
+        odgovori:
+          - {tekst: "Čarls I", tacan: true}
+          - {tekst: "Oliver Kromvel", tacan: false, zasto: "Kromvel je pobedio kralja i nije bio iz dinastije Stjuart."}
+          - {tekst: "Luj XIV", tacan: false, zasto: "Luj XIV je bio francuski kralj."}
+          - {tekst: "Fridrih II Veliki", tacan: false, zasto: "Fridrih II je bio pruski kralj iz dinastije Hoencolern."}
+        objasnjenje: "To je Čarls I Stjuart — prvi kralj koga su podanici izveli pred sud i osudili na smrt."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Čarls I Stjuart je zarobljen u Građanskom ratu i osuđen na smrt."
+
+      - id: l05-grat-izvor-presuda
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [carls-i-stjuart, parlament]
+        izvor:
+          autor: Udžbenik (prepričano)
+          naslov: Suđenje Čarlsu I
+          tekst: "Pobednici u Građanskom ratu izveli su kralja pred sud. Do tada su vladari tvrdili da vladaju po božjoj milosti i da su iznad zakona. Čarls I je osuđen na smrt kao tiranin, izdajnik, ubica i neprijatelj naroda."
+          napomena: "Odlomak je prepričan; udžbenik, str. 40."
+        pitanje: "Koju ideju o vlasti je ovo suđenje srušilo?"
+        odgovori:
+          - {tekst: "Da je vladar iznad zakona jer vlada po božjoj milosti", tacan: true}
+          - {tekst: "Da parlament ima pravo da savetuje kralja", tacan: false, zasto: "Tu ideju suđenje nije srušilo — naprotiv, parlament je pobedio."}
+          - {tekst: "Da kralj mora da poštuje zakone", tacan: false, zasto: "Suđenje je upravo pokazalo da i kralj mora da odgovara pred zakonom."}
+          - {tekst: "Da je Engleska republika", tacan: false, zasto: "Republika je proglašena tek posle osude kralja."}
+        pomoc:
+          - "Šta su vladari do tada tvrdili o sebi?"
+          - "Ako kralju može da se sudi, da li je on iznad zakona?"
+          - "Iz lekcije: vladari su govorili da vladaju po božjoj milosti i da su iznad zakona."
+        objasnjenje: "Suđenje je pokazalo da ni kralj nije iznad zakona — srušena je ideja da vlast po božjoj milosti stoji iznad svakog suda."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Kralj je izveden pred sud iako su vladari tvrdili da su iznad zakona; osuđen je na smrt."
+
+      - id: l05-grat-uporedi-carls-kromvel
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [carls-i-stjuart, oliver-kromvel]
+        a: Čarls I
+        b: Oliver Kromvel
+        pitanje: "Na koga se odnosi tvrdnja — Čarlsa I, Kromvela, obojicu ili nijednog?"
+        tvrdnje:
+          - {tekst: "Bio je iz dinastije Stjuart.", odgovor: a, zasto: "Čarls I Stjuart; Kromvel je bio plemić, ne član dinastije."}
+          - {tekst: "Nosio je titulu lord zaštitnik.", odgovor: b, zasto: "Tu titulu imao je Kromvel kao vladar republike."}
+          - {tekst: "Osuđen je na smrt.", odgovor: a, zasto: "Osuđen je kralj; Kromvel je umro kao vladar."}
+          - {tekst: "Vladao je Engleskom.", odgovor: oba, zasto: "Čarls I kao kralj, Kromvel kao lord zaštitnik republike."}
+          - {tekst: "Bio je izabran na izborima na četiri godine.", odgovor: nijedan, zasto: "Kralj je nasledio presto, a Kromvel je vladao doživotno."}
+        pomoc:
+          - "Ko je pobednik, a ko poraženi u Građanskom ratu?"
+          - "Obojica su u nekom trenutku stajali na čelu Engleske."
+          - "Iz lekcije: Čarls I Stjuart osuđen; Kromvel doživotni lord zaštitnik."
+        objasnjenje: "Čarls I je Stjuart osuđen na smrt; Kromvel je vladao republikom kao lord zaštitnik; nijedan nije biran na određeno vreme."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Lekcija suprotstavlja kralja Čarlsa I Stjuarta i Kromvela, pobednika i lorda zaštitnika."
+
+      - id: l05-grat-objasni-sudjenje
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [carls-i-stjuart, gradjanski-rat-u-engleskoj]
+        pitanje: "Zašto je suđenje kralju Čarlsu I bilo događaj bez presedana?"
+        uzor: "Vladari su do tada tvrdili da vladaju po božjoj milosti i da su zato iznad zakona, pa im niko nije mogao suditi. Posle Građanskog rata pristalice parlamenta izvele su Čarlsa I pred sud i osudile ga na smrt. Time su pokazale da i kralj mora da odgovara za svoja dela."
+        ideje:
+          - "Vladari su se smatrali iznad zakona (božja milost)."
+          - "Pobednici u Građanskom ratu su kralju sudili."
+          - "Čarls I je osuđen na smrt."
+          - "Pokazano je da ni kralj nije iznad zakona."
+        objasnjenje: "Suđenje je srušilo ideju da je kralj iznad zakona."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Vladari su tvrdili da su po božjoj milosti iznad zakona, a Čarlsu I je ipak suđeno."
+
+      - id: l05-grat-objasni-prava-republika
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [republika, oliver-kromvel, lord-zastitnik]
+        pitanje: "Da li je Engleska pod Kromvelom bila prava republika? Obrazloži."
+        uzor: "Engleska je posle osude Čarlsa I proglašena republikom, ali njom je doživotno upravljao Kromvel sa titulom lord zaštitnik. To liči na vlast kralja bez krune, a ne na republiku u kojoj se vlast bira na određeno vreme. Posle Kromvelove smrti, 1660, monarhija je obnovljena."
+        ideje:
+          - "Engleska je zvanično proglašena republikom."
+          - "Kromvel je vladao doživotno, kao nekrunisani kralj."
+          - "U pravoj republici vlast se bira na određeno vreme."
+          - "Posle njegove smrti vraćena je monarhija (1660)."
+        objasnjenje: "Republika je postojala po imenu, ali vlast jednog čoveka doživotno ličila je na monarhiju."
+        iz_udzbenika:
+          strana: 40
+          odeljak: Građanski rat i republika u Engleskoj
+          tekst: "Engleska je proglašena republikom, ali Kromvel je njom upravljao doživotno, poput nekrunisanog kralja."
+
+  # ==========================================================================
+  - naslov: Stvaranje parlamentarne monarhije
+    zadaci:
+      - id: l05-parl-izbor-beskrvna
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [slavna-revolucija]
+        pitanje: "Zašto se revolucija iz 1688. naziva Beskrvnom?"
+        odgovori:
+          - {tekst: "Jer se odigrala bez sukoba i nasilja", tacan: true}
+          - {tekst: "Jer je u njoj kralj pogubljen", tacan: false, zasto: "Kralj je pogubljen u Građanskom ratu (Čarls I), a 1688. nije bilo nasilja."}
+          - {tekst: "Jer je trajala sedam godina", tacan: false, zasto: "Sedam godina trajao je Građanski rat (1642–1649)."}
+          - {tekst: "Jer su je vodili kolonisti u Americi", tacan: false, zasto: "Slavna revolucija je u Engleskoj; Američka je počela 1775."}
+        pomoc:
+          - "Šta znači reč „beskrvna”?"
+          - "Nije bilo ni borbi ni žrtava."
+          - "Iz lekcije: Slavna ili Beskrvna revolucija (1688) prošla je bez sukoba i nasilja."
+        objasnjenje: "Slavna revolucija 1688. dobila je ime „Beskrvna” jer je prošla bez sukoba i nasilja."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Sukobi naslednika Čarlsa I i parlamenta završeni su Slavnom ili Beskrvnom revolucijom 1688, bez sukoba i nasilja."
+        osa: {naziv: Slavna revolucija, od: 1688, traka: dogadjaji}
+
+      - id: l05-parl-izbor-povelja
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [povelja-o-pravima]
+        pitanje: "Koji dokument je engleski kralj prihvatio 1689. godine?"
+        odgovori:
+          - {tekst: "Povelju o pravima", tacan: true}
+          - {tekst: "Deklaraciju nezavisnosti", tacan: false, zasto: "Deklaraciju nezavisnosti su 1776. izglasali američki kolonisti."}
+          - {tekst: "Ustav SAD", tacan: false, zasto: "Ustav SAD donet je 1787. u Americi."}
+          - {tekst: "Patent o verskoj toleranciji", tacan: false, zasto: "Patent o verskoj toleranciji izdao je Josif II u Habzburškoj monarhiji 1781."}
+        pomoc:
+          - "Dokument govori o pravima i slobodama."
+          - "Odmah posle Slavne revolucije."
+          - "Iz lekcije: kralj je 1689. prihvatio Povelju o pravima."
+        objasnjenje: "Posle Slavne revolucije kralj je 1689. prihvatio Povelju o pravima, kojom je ograničena njegova vlast."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Engleski kralj je prihvatio Povelju o pravima 1689."
+
+      - id: l05-parl-izbor-sustina-povelje
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [povelja-o-pravima, parlamentarna-monarhija]
+        pitanje: "Šta je, pre svega, utvrđeno Poveljom o pravima?"
+        odgovori:
+          - {tekst: "Da vladar mora da vlada u skladu sa odlukama parlamenta", tacan: true}
+          - {tekst: "Da se ukida monarhija i uvodi republika", tacan: false, zasto: "Povelja zadržava kralja, ali ga vezuje za odluke parlamenta."}
+          - {tekst: "Da kralj vlada po božjoj milosti, bez parlamenta", tacan: false, zasto: "Upravo suprotno — vladar više ne može mimo parlamenta."}
+          - {tekst: "Da svi stanovnici dobijaju pravo glasa", tacan: false, zasto: "Pravo glasa je i u XVIII i u većem delu XIX veka imao mali deo stanovništva."}
+        pomoc:
+          - "Ko posle 1689. ima poslednju reč — kralj ili parlament?"
+          - "Kralj ostaje, ali je ograničen."
+          - "Iz lekcije: vladar mora da vlada u saglasnosti sa odlukama parlamenta."
+        objasnjenje: "Povelja o pravima obavezuje vladara da vlada u skladu sa odlukama parlamenta — tako nastaje parlamentarna monarhija."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Povelja o pravima je utvrdila da vladar mora da vlada u skladu sa odlukama parlamenta."
+
+      - id: l05-parl-izbor-gornji-dom
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [gornji-dom, plemstvo]
+        pitanje: "Ko je činio Gornji dom (Dom lordova) i kako se postajalo njegov član?"
+        odgovori:
+          - {tekst: "Krupno plemstvo, po naslednom pravu", tacan: true}
+          - {tekst: "Izabrani poslanici sitnog plemstva i građanstva", tacan: false, zasto: "To je sastav Donjeg doma."}
+          - {tekst: "Predstavnici kolonija, izabrani u Americi", tacan: false, zasto: "Kolonisti nisu dobili predstavnike u britanskom parlamentu — to je bio njihov neispunjen zahtev."}
+          - {tekst: "Sveštenici koje imenuje papa", tacan: false, zasto: "Lekcija Gornji dom opisuje kao skup krupnog plemstva."}
+        pomoc:
+          - "Ime „Dom lordova” govori ko tu sedi."
+          - "Na izbore se ne ide — mesto se nasleđuje."
+          - "Iz lekcije: Gornji dom čine predstavnici krupnog plemstva, po naslednom pravu."
+        objasnjenje: "Članovi Gornjeg doma bili su krupni plemići koji su mesto nasleđivali."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Gornji dom ili Dom lordova činili su predstavnici krupnog plemstva, članovi po naslednom pravu."
+
+      - id: l05-parl-izbor-donji-dom
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [donji-dom, plemstvo, gradjanstvo]
+        pitanje: "Koje tvrdnje važe za Donji dom? (više tačnih)"
+        odgovori:
+          - {tekst: "Činili su ga izabrani poslanici", tacan: true}
+          - {tekst: "Poslanici su uglavnom bili sitno plemstvo i bogato građanstvo", tacan: true}
+          - {tekst: "Stranka sa najviše poslanika u njemu sastavljala je vladu", tacan: true}
+          - {tekst: "Njegove odluke nije morao niko da odobri", tacan: false, zasto: "Sve odluke Donjeg doma morao je najpre da odobri Gornji dom."}
+          - {tekst: "Članom se postajalo naslednim pravom", tacan: false, zasto: "Nasledno pravo važi za Gornji dom; u Donji dom se biralo."}
+        pomoc:
+          - "Donji dom je izborni dom."
+          - "Seti se uloge Gornjeg doma u odlukama."
+          - "Iz lekcije: Donji dom — izabrani poslanici sitnog plemstva i bogatog građanstva; pobednička stranka sastavlja vladu."
+        objasnjenje: "Donji dom je bio izborni dom sitnog plemstva i bogatog građanstva; iz njega je nastajala vlada, ali su njegove odluke prolazile i kroz Gornji dom."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Donji dom su činili izabrani poslanici, uglavnom sitno plemstvo i bogato građanstvo."
+
+      - id: l05-parl-tn-velika-britanija
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [velika-britanija, engleska, skotska]
+        tvrdnja: "Velika Britanija je nastala početkom XVIII veka ujedinjenjem Engleske i Škotske."
+        tacno: true
+        pomoc:
+          - "Koja zemlja je susedna Engleskoj na severu?"
+          - "Iz lekcije: početkom XVIII veka Engleska se ujedinila sa Škotskom — nastala je Velika Britanija."
+        objasnjenje: "Tačno — ujedinjenjem Engleske i susedne Škotske početkom XVIII veka nastala je Velika Britanija."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Početkom XVIII veka Engleska se ujedinila sa Škotskom i tako je stvorena Velika Britanija."
+        osa: {naziv: Ujedinjenje Engleske i Škotske, od: 1700, do: 1720, traka: dogadjaji, oznaka: "početak XVIII veka"}
+
+      - id: l05-parl-tn-nasledno
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [gornji-dom]
+        tvrdnja: "Članovi Gornjeg doma postajali su članovi parlamenta po naslednom pravu."
+        tacno: true
+        pomoc:
+          - "Da li se u Dom lordova biralo?"
+          - "Iz lekcije: krupni plemići u Gornjem domu postaju članovi po naslednom pravu."
+        objasnjenje: "Tačno — mesto u Gornjem domu se nasleđivalo, a u Donji dom se biralo."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Predstavnici krupnog plemstva su po naslednom pravu postajali članovi parlamenta."
+
+      - id: l05-parl-tn-svi-glasaju
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [pravo-glasa, velika-britanija]
+        tvrdnja: "U XVIII veku svi odrasli stanovnici Velike Britanije imali su pravo glasa."
+        tacno: false
+        ispravke:
+          - {tekst: "U XVIII i većem delu XIX veka pravo glasa imao je samo mali deo stanovništva.", tacan: true}
+          - {tekst: "Pravo glasa imali su samo kralj i lordovi.", tacan: false, zasto: "Poslanici Donjeg doma su se birali, pa je glasalo više ljudi — ali ipak mali deo stanovništva."}
+          - {tekst: "Pravo glasa imale su samo žene.", tacan: false, zasto: "Ništa takvo lekcija ne kaže; glasao je mali deo stanovništva."}
+        pomoc:
+          - "Seti se šta lekcija kaže kao „međutim” posle opisa parlamenta."
+          - "Glasalo se, ali ne svi."
+          - "Iz lekcije: samo mali deo stanovništva imao je pravo glasa."
+        objasnjenje: "Netačno — i u XVIII i u većem delu XIX veka pravo glasa imao je samo mali deo stanovništva."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "U XVIII i većem delu XIX veka samo je mali deo stanovništva Velike Britanije imao pravo glasa."
+
+      - id: l05-parl-tn-donji-sam
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [donji-dom, gornji-dom]
+        tvrdnja: "Odluke Donjeg doma stupale su na snagu odmah, bez ičijeg odobrenja."
+        tacno: false
+        ispravke:
+          - {tekst: "Sve odluke Donjeg doma morao je najpre da odobri Gornji dom.", tacan: true}
+          - {tekst: "Odluke Donjeg doma morao je da odobri američki Kongres.", tacan: false, zasto: "Kongres je američki parlament i nema veze sa britanskim domovima."}
+          - {tekst: "Odluke Donjeg doma morala je da odobri vlada.", tacan: false, zasto: "Obrnuto — vlada je odgovarala parlamentu i podnosila mu izveštaje."}
+        pomoc:
+          - "Parlament ima dva doma."
+          - "Nasledni dom je imao pravo da odobrava odluke izbornog doma."
+          - "Iz lekcije: sve odluke Donjeg doma najpre je morao da odobri Gornji dom."
+        objasnjenje: "Netačno — Gornji dom, sastavljen od naslednog plemstva, odobravao je sve odluke Donjeg doma."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Sve odluke Donjeg doma morao je najpre da odobri Gornji dom."
+
+      - id: l05-parl-dopuni-definicije
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [parlamentarna-monarhija, vigovci, torijevci]
+        pitanje: "Dopuni objašnjenja pojmova."
+        tekst: "U parlamentarnoj monarhiji vladar deli vlast sa {{parlamentom}}. Vigovci su stranka {{protivnika}} apsolutističke kraljevske vlasti, a torijevci stranka {{pristalica}} snažne kraljevske vlasti."
+        ponudjene: [parlamentom, protivnika, pristalica, crkvom, vojskom, robova]
+        pomoc:
+          - "Vladar ne vlada sam — s kim deli vlast?"
+          - "Jedna stranka je za jakog kralja, druga protiv."
+          - "Iz lekcije: vigovci — protivnici apsolutističke vlasti; torijevci — pristalice snažne kraljevske vlasti."
+        objasnjenje: "Parlamentarna monarhija: vladar deli vlast sa parlamentom. Vigovci su protiv apsolutizma, torijevci za snažnog kralja."
+        iz_udzbenika:
+          strana: 41
+          odeljak: "Definicije: parlamentarna monarhija, vigovci, torijevci"
+          tekst: "Parlamentarna monarhija je oblik monarhije u kome vladar deli vlast sa parlamentom; vigovci i torijevci su dve stranke."
+
+      - id: l05-parl-dopuni-vlada
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [vlada, donji-dom, parlament]
+        pitanje: "Dopuni opis kako je radila britanska vlada."
+        tekst: "Stranka koja dobije najviše poslanika u {{Donjem domu}} sastavlja {{vladu}}. Vlada podnosi {{izveštaje}} o svom radu parlamentu, a parlament može da izglasa njenu {{smenu}} i raspiše nove izbore."
+        ponudjene: [Donjem domu, vladu, izveštaje, smenu, Gornjem domu, krunu, platu]
+        pomoc:
+          - "U koji dom se biralo?"
+          - "Ko kome polaže račune — vlada parlamentu ili obrnuto?"
+          - "Iz lekcije: pobednik izbora za Donji dom sastavlja vladu; vlada izveštava parlament, koji je može smeniti."
+        objasnjenje: "Vladu sastavlja pobednička stranka u Donjem domu; ona odgovara parlamentu, koji je može smeniti i raspisati izbore."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Pobednička stranka sastavlja vladu, koja podnosi izveštaje parlamentu; parlament može da izglasa smenu vlade."
+
+      - id: l05-parl-povezi-domovi
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [vigovci, torijevci, gornji-dom, donji-dom]
+        pitanje: "Poveži pojam sa opisom."
+        parovi:
+          - ["Vigovci", "protivnici apsolutističke kraljevske vlasti"]
+          - ["Torijevci", "pristalice snažne kraljevske vlasti"]
+          - ["Gornji dom", "krupno plemstvo po naslednom pravu"]
+          - ["Donji dom", "izabrani poslanici sitnog plemstva i građanstva"]
+        pomoc:
+          - "Dve stranke i dva doma parlamenta."
+          - "Jedan dom je nasledni, drugi izborni."
+          - "Iz lekcije: vigovci protiv apsolutizma, torijevci za jakog kralja; Gornji dom — lordovi, Donji dom — izabrani."
+        objasnjenje: "Vigovci i torijevci su stranke; Gornji dom je nasledni (lordovi), Donji dom izborni."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Parlament ima Gornji i Donji dom; poslanici se dele na vigovce i torijevce."
+
+      - id: l05-parl-datum-slavna
+        vrsta: datum
+        tezina: lako
+        pojmovi: [slavna-revolucija]
+        dogadjaj: Slavna revolucija
+        pitanje: "Koje godine je bila Slavna (Beskrvna) revolucija?"
+        godina: 1688
+        traka: dogadjaji
+        pomoc:
+          - "Bila je krajem XVII veka."
+          - "Samo godinu dana pre Povelje o pravima (1689)."
+          - "Iz lekcije: Slavna revolucija 1688."
+        objasnjenje: "Slavna revolucija bila je 1688, a godinu kasnije kralj je prihvatio Povelju o pravima."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Slavna ili Beskrvna revolucija dogodila se 1688."
+
+      - id: l05-parl-datum-povelja
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [povelja-o-pravima]
+        dogadjaj: Povelja o pravima
+        pitanje: "Koje godine je engleski kralj prihvatio Povelju o pravima?"
+        godina: 1689
+        traka: dogadjaji
+        pomoc:
+          - "Desilo se odmah posle Slavne revolucije."
+          - "Poslednja godina pred kraj osamdesetih godina XVII veka."
+          - "Iz lekcije: Povelja o pravima 1689."
+        objasnjenje: "Povelju o pravima kralj je prihvatio 1689; time je uspostavljena parlamentarna monarhija."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Engleski kralj je prihvatio Povelju o pravima 1689. godine."
+
+      - id: l05-parl-poredjaj-engleska
+        vrsta: poredjaj
+        tezina: lako
+        pojmovi: [gradjanski-rat-u-engleskoj, obnova-monarhije, slavna-revolucija, povelja-o-pravima]
+        pitanje: "Poređaj događaje engleske istorije od najranijeg."
+        stavke:
+          - {tekst: "Građanski rat između kralja i parlamenta", godina: 1642, do: 1649, naziv: Građanski rat u Engleskoj, traka: dogadjaji}
+          - {tekst: "Posle Kromvelove smrti obnovljena je monarhija", godina: 1660, naziv: Obnova monarhije u Engleskoj, traka: dogadjaji}
+          - {tekst: "Slavna (Beskrvna) revolucija", godina: 1688, naziv: Slavna revolucija, traka: dogadjaji}
+          - {tekst: "Kralj prihvata Povelju o pravima", godina: 1689, naziv: Povelja o pravima, traka: dogadjaji}
+        pomoc:
+          - "Prvo je bio rat, a na kraju dokument koji ograničava kralja."
+          - "Republika posle rata nije dugo trajala."
+          - "Iz lekcije: 1642–1649 rat, 1660 obnova monarhije, 1688 Slavna revolucija, 1689 Povelja."
+        objasnjenje: "Građanski rat (1642–1649) → obnova monarhije (1660) → Slavna revolucija (1688) → Povelja o pravima (1689)."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Lekcija prati Englesku od Građanskog rata do Povelje o pravima i parlamentarne monarhije."
+
+      - id: l05-parl-zakljuci-kontrola-vlade
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [vlada, parlament]
+        pitanje: "Kako je britanski parlament mogao da nadzire vladu?"
+        odgovori:
+          - {tekst: "Vlada mu je podnosila izveštaje, a on je mogao da izglasa njenu smenu i nove izbore", tacan: true}
+          - {tekst: "Parlament je mogao da pogubi ministre bez suđenja", tacan: false, zasto: "O tome lekcija ništa ne kaže; nadzor je išao kroz izveštaje i smenu vlade."}
+          - {tekst: "Nikako — vladu je postavljao i nadzirao samo kralj", tacan: false, zasto: "Vladu je sastavljala stranka sa najviše poslanika i ona je odgovarala parlamentu."}
+          - {tekst: "Preko Vrhovnog suda", tacan: false, zasto: "Vrhovni sud koji nadzire sva tela vlasti je odlika uređenja SAD."}
+        pomoc:
+          - "Korak 1: Kome je vlada morala da podnosi izveštaje?"
+          - "Korak 2: Šta je parlament mogao da uradi ako nije zadovoljan?"
+          - "Iz lekcije: vlada podnosi izveštaje parlamentu; parlament može da izglasa smenu vlade i raspiše izbore."
+        objasnjenje: "Vlada je odgovarala parlamentu: izveštavala ga je o radu, a parlament je mogao da je smeni i raspiše nove izbore."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Vlada je morala da podnosi izveštaje parlamentu, koji je mogao da izglasa smenu vlade i nove izbore."
+
+      - id: l05-parl-zakljuci-ne-za-sve
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [pravo-glasa, gornji-dom, parlamentarna-monarhija]
+        pitanje: "Zašto britanski parlament u XVIII veku nije predstavljao većinu stanovnika?"
+        odgovori:
+          - {tekst: "Pravo glasa imao je mali deo ljudi, a odluke izabranog doma odobravalo je nasledno plemstvo", tacan: true}
+          - {tekst: "Parlament se uopšte nije sastajao", tacan: false, zasto: "Parlament je imao glavnu ulogu u političkom životu zemlje."}
+          - {tekst: "Svi poslanici su bili sveštenici", tacan: false, zasto: "Gornji dom je krupno plemstvo, Donji dom sitno plemstvo i bogato građanstvo."}
+          - {tekst: "Kralj je i dalje vladao apsolutistički", tacan: false, zasto: "Posle Povelje o pravima kralj vlada u skladu sa odlukama parlamenta."}
+        pomoc:
+          - "Korak 1: Koliko je ljudi moglo da glasa?"
+          - "Korak 2: Ko je imao poslednju reč o odlukama Donjeg doma?"
+          - "Iz lekcije: mali deo stanovništva ima pravo glasa; Gornji dom odobrava odluke Donjeg doma."
+        objasnjenje: "Glasao je samo mali deo stanovništva, a nasledni Gornji dom je odobravao odluke izabranog Donjeg doma — moć je ostajala u rukama malobrojnih."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Pravo glasa je imao mali deo stanovništva, a odluke Donjeg doma morao je da odobri Gornji dom."
+
+      - id: l05-parl-zakljuci-dve-revolucije
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [slavna-revolucija, gradjanski-rat-u-engleskoj]
+        pitanje: "Po čemu se Slavna revolucija (1688) najviše razlikuje od Građanskog rata (1642–1649)?"
+        odgovori:
+          - {tekst: "Prošla je bez nasilja, a završila se trajnim dogovorom — kralj prihvata vlast parlamenta", tacan: true}
+          - {tekst: "U njoj je pogubljen kralj", tacan: false, zasto: "Kralj je pogubljen posle Građanskog rata, ne 1688."}
+          - {tekst: "Posle nje Engleska je postala republika", tacan: false, zasto: "Republika je bila posle Građanskog rata; 1688–1689. nastaje parlamentarna monarhija."}
+          - {tekst: "Vodili su je američki kolonisti", tacan: false, zasto: "Obe su engleski događaji; kolonisti se bune tek 1775."}
+        pomoc:
+          - "Korak 1: Kako se završio Građanski rat — za kralja i za državu?"
+          - "Korak 2: Šta je 1688–1689. bilo drugačije: krv, ishod?"
+          - "Iz lekcije: Beskrvna revolucija bez sukoba i nasilja → Povelja o pravima → parlamentarna monarhija."
+        objasnjenje: "Građanski rat je krvav i daje republiku pod Kromvelom; Slavna revolucija je bez nasilja i daje parlamentarnu monarhiju."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Slavna revolucija prošla je bez sukoba i nasilja i dovela do parlamentarne monarhije."
+
+      - id: l05-parl-lanac-monarhija
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [slavna-revolucija, povelja-o-pravima, parlamentarna-monarhija]
+        karike:
+          - "Slavna revolucija (1688)"
+          - "Kralj prihvata Povelju o pravima (1689)"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "U Engleskoj je uspostavljena parlamentarna monarhija", tacan: true}
+          - {tekst: "Engleska je proglašena republikom", tacan: false, zasto: "Republika je bila posle Građanskog rata; Povelja zadržava kralja."}
+          - {tekst: "Kralj ponovo vlada apsolutistički", tacan: false, zasto: "Povelja upravo ograničava kralja odlukama parlamenta."}
+        pomoc:
+          - "Kralj ostaje, ali mora da poštuje parlament."
+          - "Kako se zove takva monarhija?"
+          - "Iz lekcije: tako je u Engleskoj uspostavljena parlamentarna monarhija."
+        objasnjenje: "Povelja vezuje kralja za odluke parlamenta → parlamentarna monarhija."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Povelja o pravima obavezuje vladara na odluke parlamenta i tako nastaje parlamentarna monarhija."
+        osa: {naziv: Povelja o pravima, od: 1689, traka: dogadjaji}
+
+      - id: l05-parl-lanac-vlada
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [donji-dom, vlada, vigovci, torijevci]
+        karike:
+          - "Stranka dobija najviše poslanika na izborima za Donji dom"
+          - "?"
+          - "Vlada podnosi izveštaje o svom radu parlamentu"
+        praznina: 1
+        odgovori:
+          - {tekst: "Ta stranka dobija priliku da sastavi vladu", tacan: true}
+          - {tekst: "Kralj raspušta parlament", tacan: false, zasto: "Posle Povelje o pravima kralj vlada u skladu sa parlamentom."}
+          - {tekst: "Gornji dom bira predsednika", tacan: false, zasto: "U Britaniji nema predsednika — na čelu je kralj, a vladu sastavlja pobednička stranka."}
+        pomoc:
+          - "Šta dobija pobednik izbora?"
+          - "Pobednik izbora vodi državne poslove."
+          - "Iz lekcije: stranka sa najviše poslanika sastavlja vladu."
+        objasnjenje: "Pobednička stranka u Donjem domu sastavlja vladu, a vlada odgovara parlamentu."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Stranka sa najviše poslanika u Donjem domu dobija mogućnost da sastavi vladu."
+
+      - id: l05-parl-izvor-zakoni
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [povelja-o-pravima, parlament]
+        izvor:
+          autor: Povelja o pravima, 1689.
+          naslov: Prava i slobode (sažetak odlomka)
+          tekst: "Nezakonito je da kraljevska vlast bez pristanka parlamenta obustavlja zakone ili ih primenjuje po svom nahođenju. Izbori za članove parlamenta treba da budu slobodni."
+          napomena: "Odlomak je prepričan; udžbenik, str. 41."
+        pitanje: "Čiji je pristanak, prema ovom odlomku, potreban da bi se zakon obustavio?"
+        odgovori:
+          - {tekst: "Parlamenta", tacan: true}
+          - {tekst: "Samo kralja", tacan: false, zasto: "Upravo to Povelja zabranjuje — kralj ne može sam."}
+          - {tekst: "Pape", tacan: false, zasto: "Crkva se u odlomku ne pominje."}
+          - {tekst: "Američkih kolonista", tacan: false, zasto: "Kolonisti nisu imali predstavnike u britanskom parlamentu."}
+        pomoc:
+          - "Pročitaj prvu rečenicu odlomka."
+          - "Bez čijeg pristanka je to nezakonito?"
+          - "Iz lekcije: kralj ne može bez pristanka parlamenta da obustavi ili primeni zakone."
+        objasnjenje: "Povelja zahteva pristanak parlamenta — kralj više ne može sam da menja ili obustavlja zakone."
+        iz_udzbenika:
+          strana: 41
+          odeljak: "Svedočanstvo: Povelja o pravima"
+          tekst: "Povelja zabranjuje kralju da bez pristanka parlamenta obustavlja ili primenjuje zakone."
+
+      - id: l05-parl-izvor-sloboda-govora
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [povelja-o-pravima, parlament]
+        izvor:
+          autor: Povelja o pravima, 1689.
+          naslov: Prava i slobode (sažetak odlomka)
+          tekst: "Za ono što se u parlamentu kaže, raspravlja i radi, niko ne sme da bude osuđen ni pozvan na odgovornost na sudu ili bilo gde van parlamenta. Parlament treba da se sastaje često, da bi se žalbe i izmene zakona rešavale na vreme."
+          napomena: "Odlomak je prepričan; udžbenik, str. 41."
+        pitanje: "Šta ova tačka znači za poslanike?"
+        odgovori:
+          - {tekst: "Mogu slobodno da govore u parlamentu, bez straha da će zbog toga biti kažnjeni", tacan: true}
+          - {tekst: "Ne smeju ništa da govore bez kraljeve dozvole", tacan: false, zasto: "Odlomak štiti upravo slobodu govora u parlamentu."}
+          - {tekst: "Smeju da se sastaju samo jednom u deset godina", tacan: false, zasto: "Povelja traži da se parlament sastaje često."}
+          - {tekst: "Mogu da sude kralju kad god žele", tacan: false, zasto: "Odlomak govori o zaštiti poslanika, a ne o suđenju kralju."}
+        pomoc:
+          - "Ko je zaštićen ovom tačkom?"
+          - "Šta se ne sme raditi zbog onoga što je rečeno u parlamentu?"
+          - "Iz lekcije: sloboda govora, rasprave i postupaka u parlamentu ne sme se kažnjavati van parlamenta."
+        objasnjenje: "Poslanici mogu slobodno da govore i kritikuju, jer ih niko van parlamenta ne može goniti zbog toga."
+        iz_udzbenika:
+          strana: 41
+          odeljak: "Svedočanstvo: Povelja o pravima"
+          tekst: "Povelja štiti slobodu govora, rasprave i postupaka u parlamentu i traži da se parlament često sastaje."
+
+      - id: l05-parl-izvor-nasledje
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [povelja-o-pravima]
+        izvor:
+          autor: Udžbenik (prepričano)
+          naslov: Uvod u odlomak Povelje o pravima
+          tekst: "Odlomak iz Povelje o pravima iz 1689. je deo kojim se proglašavaju prava i slobode pojedinaca i rešava pitanje nasleđivanja krune."
+          napomena: "Prepričano; udžbenik, str. 41."
+        pitanje: "Koja dva pitanja, prema ovom opisu, rešava Povelja o pravima?"
+        odgovori:
+          - {tekst: "Prava i slobode pojedinaca i nasleđivanje krune", tacan: true}
+          - {tekst: "Nezavisnost američkih kolonija i ropstvo", tacan: false, zasto: "Povelja je engleski dokument iz 1689; kolonije se odvajaju tek 1776."}
+          - {tekst: "Ujedinjenje sa Škotskom i granice sa Francuskom", tacan: false, zasto: "Ujedinjenje sa Škotskom je početkom XVIII veka i ne pominje se u Povelji."}
+          - {tekst: "Gradnju fabrika i rad dece", tacan: false, zasto: "To su teme industrijske revolucije, ne Povelje o pravima."}
+        pomoc:
+          - "Pročitaj uvodnu rečenicu iznad odlomka."
+          - "Jedno se tiče ljudi, drugo kralja."
+          - "Iz lekcije: Povelja proglašava prava i slobode pojedinaca i rešava nasleđivanje krune."
+        objasnjenje: "Povelja o pravima proglašava prava i slobode pojedinaca i uređuje ko nasleđuje krunu."
+        iz_udzbenika:
+          strana: 41
+          odeljak: "Svedočanstvo: Povelja o pravima"
+          tekst: "Odlomak proglašava prava i slobode pojedinaca i rešava pitanje nasleđivanja krune."
+
+      - id: l05-parl-izvor-najvaznije
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [povelja-o-pravima, parlamentarna-monarhija]
+        izvor:
+          autor: Povelja o pravima, 1689.
+          naslov: Četiri tačke (sažetak)
+          tekst: "1) Kralj bez pristanka parlamenta ne sme da obustavlja niti po svom nahođenju primenjuje zakone. 2) Izbori za parlament su slobodni. 3) Za reči i postupke u parlamentu niko ne sme biti gonjen van parlamenta. 4) Parlament treba često da se sastaje."
+          napomena: "Odlomak je prepričan; udžbenik, str. 41."
+        pitanje: "Koja tačka najneposrednije pretvara Englesku u parlamentarnu monarhiju?"
+        odgovori:
+          - {tekst: "Prva — kralj ne može mimo parlamenta da menja i obustavlja zakone", tacan: true}
+          - {tekst: "Treća — sloboda govora poslanika", tacan: false, zasto: "Važna je za rad parlamenta, ali ne određuje odnos kralja i parlamenta prema zakonima."}
+          - {tekst: "Četvrta — česta zasedanja", tacan: false, zasto: "Česta zasedanja pomažu, ali sama ne oduzimaju kralju vlast nad zakonima."}
+          - {tekst: "Nijedna — Povelja ne ograničava kralja", tacan: false, zasto: "Povelja upravo vezuje kralja za odluke parlamenta."}
+        pomoc:
+          - "Parlamentarna monarhija = vladar deli vlast sa parlamentom."
+          - "Koja tačka direktno govori o kralju i zakonima?"
+          - "Iz lekcije: vladar mora da vlada u skladu sa odlukama parlamenta."
+        objasnjenje: "Kad kralj ne može bez parlamenta da obustavi ili primeni zakon, on deli vlast sa parlamentom — to je parlamentarna monarhija."
+        iz_udzbenika:
+          strana: 41
+          odeljak: "Svedočanstvo: Povelja o pravima"
+          tekst: "Udžbenik traži da navedeš šta Povelja utvrđuje i koju tačku smatraš najvažnijom."
+
+      - id: l05-parl-uporedi-domovi
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [gornji-dom, donji-dom]
+        a: Gornji dom (Dom lordova)
+        b: Donji dom
+        pitanje: "Na koji dom britanskog parlamenta se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Članovi su bili predstavnici krupnog plemstva.", odgovor: a, zasto: "Dom lordova je bio dom krupnog plemstva."}
+          - {tekst: "Članovi su bili izabrani poslanici.", odgovor: b, zasto: "U Donji dom se biralo."}
+          - {tekst: "Mesto se dobijalo naslednim pravom.", odgovor: a, zasto: "Lordovi su nasleđivali mesto u parlamentu."}
+          - {tekst: "Stranka sa najviše poslanika u njemu sastavlja vladu.", odgovor: b, zasto: "Vlada je zavisila od izbora za Donji dom."}
+          - {tekst: "Deo je britanskog parlamenta.", odgovor: oba, zasto: "Parlament je imao oba doma."}
+          - {tekst: "Činili su ga predstavnici američkih kolonija.", odgovor: nijedan, zasto: "Zahtev kolonista da uđu u britanski parlament bio je odbijen."}
+        pomoc:
+          - "Jedan dom je nasledni, drugi izborni."
+          - "Vlada potiče iz izbornog doma."
+          - "Iz lekcije: Gornji dom — krupno plemstvo, nasledno; Donji dom — izabrani poslanici, iz njega vlada."
+        objasnjenje: "Gornji dom = nasledno krupno plemstvo; Donji dom = izabrani poslanici sitnog plemstva i građanstva, iz kojih nastaje vlada."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Gornji dom činili su krupni plemići po naslednom pravu, a Donji dom izabrani poslanici."
+
+      - id: l05-parl-uporedi-stranke
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [vigovci, torijevci]
+        a: Vigovci
+        b: Torijevci
+        pitanje: "Na koju stranku se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Protive se apsolutističkoj vlasti kralja.", odgovor: a, zasto: "Vigovci su protivnici apsolutističke kraljevske vlasti."}
+          - {tekst: "Zalažu se za snažnu kraljevsku vlast.", odgovor: b, zasto: "Torijevci su pristalice snažne kraljevske vlasti."}
+          - {tekst: "Njeni poslanici sede u britanskom parlamentu.", odgovor: oba, zasto: "Poslanici su se delili na ove dve stranke."}
+          - {tekst: "Ako dobije najviše poslanika, može da sastavi vladu.", odgovor: oba, zasto: "To pravilo važi za svaku stranku koja pobedi na izborima za Donji dom."}
+          - {tekst: "To je stranka u američkom Kongresu iz 1787.", odgovor: nijedan, zasto: "Vigovci i torijevci su britanske stranke; lekcija ne govori o strankama u Kongresu."}
+        pomoc:
+          - "Jedna stranka je za jakog kralja, druga protiv."
+          - "Obe se takmiče na istim izborima."
+          - "Iz lekcije: vigovci — protivnici apsolutizma; torijevci — pristalice snažne kraljevske vlasti."
+        objasnjenje: "Razlikuju se po stavu prema kraljevskoj vlasti, a obe su britanske parlamentarne stranke koje mogu sastaviti vladu."
+        iz_udzbenika:
+          strana: 41
+          odeljak: "Definicije: parlamentarna monarhija, vigovci, torijevci"
+          tekst: "Vigovci su protivnici apsolutističke vlasti, torijevci pristalice snažne kraljevske vlasti."
+
+      - id: l05-parl-objasni-parlamentarna
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [parlamentarna-monarhija, povelja-o-pravima]
+        pitanje: "Šta je parlamentarna monarhija i kako je nastala u Engleskoj?"
+        uzor: "Parlamentarna monarhija je monarhija u kojoj vladar deli vlast sa parlamentom. U Engleskoj je nastala posle Slavne revolucije 1688, kada je kralj 1689. prihvatio Povelju o pravima. Njom je utvrđeno da vladar mora da vlada u skladu sa odlukama parlamenta."
+        ideje:
+          - "Vladar deli vlast sa parlamentom."
+          - "Slavna revolucija 1688."
+          - "Povelja o pravima 1689."
+          - "Kralj mora da poštuje odluke parlamenta."
+        objasnjenje: "Kralj ostaje na prestolu, ali ne vlada sam — vezan je odlukama parlamenta."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Povelja o pravima (1689) je utvrdila da vladar vlada u skladu sa odlukama parlamenta; uspostavljena je parlamentarna monarhija."
+
+      - id: l05-parl-objasni-povelja-tacka
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [povelja-o-pravima, parlament]
+        pitanje: "Navedi šta je utvrđeno Poveljom o pravima. Koju tačku smatraš najvažnijom i zašto?"
+        uzor: "Povelja o pravima zabranjuje kralju da bez pristanka parlamenta obustavlja ili primenjuje zakone, traži slobodne izbore za parlament, štiti slobodu govora u parlamentu i traži da se parlament često sastaje. Najvažnija mi je prva tačka, jer kralj više ne može da vlada mimo parlamenta — vlast više nije u rukama jednog čoveka."
+        ideje:
+          - "Kralj ne može bez parlamenta da obustavlja ili primenjuje zakone."
+          - "Slobodni izbori i sloboda govora u parlamentu."
+          - "Parlament treba često da se sastaje."
+          - "Izabrana tačka je obrazložena (npr. ograničava kralja)."
+        objasnjenje: "Svaki izbor je dobar ako je obrazložen; ključno je da Povelja ograničava kralja i štiti parlament."
+        iz_udzbenika:
+          strana: 41
+          odeljak: "Svedočanstvo: Povelja o pravima"
+          tekst: "Udžbenik traži da navedeš šta je utvrđeno Poveljom o pravima i obrazložiš koja je tačka najvažnija."
+
+      - id: l05-parl-objasni-slavna
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [slavna-revolucija, parlamentarna-monarhija]
+        pitanje: "Zašto se revolucija iz 1688. zove Slavna ili Beskrvna i šta je njome postignuto?"
+        uzor: "Posle novih sukoba naslednika Čarlsa I i parlamenta, 1688. je došlo do promene vlasti bez sukoba i nasilja, pa je revolucija nazvana Beskrvnom ili Slavnom. Kralj je 1689. prihvatio Povelju o pravima i Engleska je postala parlamentarna monarhija."
+        ideje:
+          - "Prošla je bez sukoba i nasilja."
+          - "Okončala je sukobe kralja i parlamenta."
+          - "Kralj prihvata Povelju o pravima 1689."
+          - "Nastaje parlamentarna monarhija."
+        objasnjenje: "Za razliku od Građanskog rata, promena je bila mirna, a ishod trajan — parlamentarna monarhija."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Stvaranje parlamentarne monarhije
+          tekst: "Slavna ili Beskrvna revolucija (1688) prošla je bez nasilja i dovela do Povelje o pravima."
+
+  # ==========================================================================
+  - naslov: Britanske kolonije u Severnoj Americi
+    zadaci:
+      - id: l05-kol-izbor-broj
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [trinaest-kolonija, severna-amerika]
+        pitanje: "Koliko je britanskih kolonija nastalo na atlantskoj obali Severne Amerike?"
+        odgovori:
+          - {tekst: "Trinaest", tacan: true}
+          - {tekst: "Tri", tacan: false, zasto: "Tri su samo najveća trgovačka središta (Boston, Filadelfija, Njujork), a kolonija je bilo trinaest."}
+          - {tekst: "Pedeset", tacan: false, zasto: "Pedeset je broj saveznih država SAD danas; kolonija je bilo trinaest."}
+          - {tekst: "Sedam", tacan: false, zasto: "Kolonija je bilo trinaest."}
+        pomoc:
+          - "Na karti su kolonije iz 1775. obojene istom bojom uz istočnu obalu."
+          - "Broj je veći od deset."
+          - "Iz lekcije: na atlantskoj obali stvoreno je trinaest kolonija."
+        objasnjenje: "Na atlantskoj obali Severne Amerike nastalo je trinaest britanskih kolonija."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Na atlantskoj obali Severne Amerike stvoreno je trinaest britanskih kolonija."
+
+      - id: l05-kol-izbor-francuzi
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [francuska, severna-amerika]
+        pitanje: "Od koga su Britanci u XVIII veku preoteli posede u Severnoj Americi?"
+        odgovori:
+          - {tekst: "Od Francuza", tacan: true}
+          - {tekst: "Od Rusa", tacan: false, zasto: "Lekcija navodi Francuze."}
+          - {tekst: "Od Amerikanaca", tacan: false, zasto: "SAD tada još nisu postojale — nastaju tek 1776–1783."}
+          - {tekst: "Od Holanđana", tacan: false, zasto: "Lekcija kao suparnika u XVIII veku navodi Francuze."}
+        pomoc:
+          - "Ta zemlja je kasnije pomogla kolonistima protiv Britanije."
+          - "Velika suparnica Britanije u XVIII veku."
+          - "Iz lekcije: tokom XVIII veka Britanci su preoteli Francuzima posede u Severnoj Americi."
+        objasnjenje: "Britanci su u XVIII veku preoteli Francuzima posede u Severnoj Americi — zato je Francuska kasnije rado pomogla kolonistima."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Tokom XVIII veka Britanci su preoteli Francuzima posede u Severnoj Americi."
+
+      - id: l05-kol-izbor-doseljenici
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [kolonisti, protestanti]
+        pitanje: "Ko su bili stanovnici britanskih kolonija u Severnoj Americi?"
+        odgovori:
+          - {tekst: "Doseljenici sa Britanskih ostrva i iz drugih delova zapadne i severne Evrope, većinom protestanti", tacan: true}
+          - {tekst: "Samo Francuzi katolici", tacan: false, zasto: "Doseljenici su bili sa Britanskih ostrva i iz zapadne i severne Evrope, a većina protestanti."}
+          - {tekst: "Samo starosedeoci Indijanci", tacan: false, zasto: "Kolonije su naselili evropski doseljenici."}
+          - {tekst: "Doseljenici iz Rusije i sa Balkana, pravoslavni", tacan: false, zasto: "Lekcija navodi zapadnu i severnu Evropu i protestantsku veru."}
+        pomoc:
+          - "Kolonije su britanske — odakle je većina došla?"
+          - "Bilo je i ljudi iz drugih zemalja zapada i severa Evrope."
+          - "Iz lekcije: doseljenici sa Britanskih ostrva i iz zapadne i severne Evrope; većina protestanti."
+        objasnjenje: "Kolonije su naselili doseljenici sa Britanskih ostrva i iz zapadne i severne Evrope; većina su bili protestanti."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Stanovništvo kolonija činili su doseljenici sa Britanskih ostrva i iz zapadne i severne Evrope, većinom protestanti."
+
+      - id: l05-kol-izbor-gradovi
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [boston, filadelfija, njujork]
+        pitanje: "Koji gradovi su bili glavna središta trgovine, zanatstva i bankarstva u kolonijama? (više tačnih)"
+        odgovori:
+          - {tekst: "Boston", tacan: true}
+          - {tekst: "Filadelfija", tacan: true}
+          - {tekst: "Njujork", tacan: true}
+          - {tekst: "Vašington", tacan: false, zasto: "Grad Vašington je osnovan tek 1800, kao glavni grad SAD."}
+          - {tekst: "Liverpul", tacan: false, zasto: "Liverpul je engleski lučki grad, ne kolonijalni."}
+        pomoc:
+          - "U jednom je bila čajanka, u drugom Kongres."
+          - "Treći je danas najveći grad SAD."
+          - "Iz lekcije: Boston, Filadelfija i Njujork bili su glavni centri trgovine, zanatstva i bankarstva."
+        objasnjenje: "Boston, Filadelfija i Njujork bili su središta trgovine, zanatstva i bankarstva u kolonijama."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Boston, Filadelfija i Njujork bili su glavni centri trgovine, zanatstva i bankarstva."
+
+      - id: l05-kol-tn-protestanti
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [kolonisti, protestanti]
+        tvrdnja: "Većina kolonista u Severnoj Americi bila je protestantske vere."
+        tacno: true
+        pomoc:
+          - "Iz kojih delova Evrope su dolazili doseljenici?"
+          - "Iz lekcije: većina kolonista bila je protestantske vere."
+        objasnjenje: "Tačno — doseljenici sa Britanskih ostrva i iz zapadne i severne Evrope bili su većinom protestanti."
+        iz_udzbenika:
+          strana: 41
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Većina kolonista bila je protestantske vere."
+
+      - id: l05-kol-tn-bez-robova
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [robovlasnistvo, plantaze]
+        tvrdnja: "U britanskim kolonijama u Severnoj Americi nije bilo robovlasništva."
+        tacno: false
+        ispravke:
+          - {tekst: "Robovlasništvo je postojalo: robovi poreklom iz Afrike radili su na plantažama pamuka i duvana.", tacan: true}
+          - {tekst: "Robovi su postojali samo u Bostonu i radili u bankama.", tacan: false, zasto: "Robovi su radili na plantažama pamuka i duvana."}
+          - {tekst: "Robovi su bili doseljenici iz severne Evrope.", tacan: false, zasto: "Robovi su bili poreklom iz Afrike."}
+        pomoc:
+          - "Seti se odakle je Britanija dobijala jeftin pamuk (lekcija 2.1)."
+          - "Ko je radio na plantažama?"
+          - "Iz lekcije: u kolonijama je postojalo robovlasništvo; robovi iz Afrike radili su na plantažama pamuka i duvana."
+        objasnjenje: "Netačno — robovi poreklom iz Afrike radili su na plantažama pamuka i duvana."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "U kolonijama je postojalo robovlasništvo; robovi iz Afrike radili su na plantažama pamuka i duvana."
+
+      - id: l05-kol-tn-predstavnici
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [kolonisti, britanski-parlament]
+        tvrdnja: "Britanci su prihvatili zahtev kolonista da njihovi predstavnici uđu u britanski parlament."
+        tacno: false
+        ispravke:
+          - {tekst: "Zahtev je odbijen, pa su kolonisti počeli proteste i bojkot britanske robe.", tacan: true}
+          - {tekst: "Zahtev je prihvaćen, ali kolonisti su ipak digli ustanak.", tacan: false, zasto: "Zahtev nije prihvaćen — upravo je odbijanje izazvalo proteste."}
+          - {tekst: "Kolonisti takav zahtev nikada nisu postavili.", tacan: false, zasto: "Jesu — tražili su da njihovi predstavnici učestvuju u radu parlamenta."}
+        pomoc:
+          - "Šta su kolonisti uradili posle odgovora Britanaca?"
+          - "Da li bi protestovali da je zahtev prihvaćen?"
+          - "Iz lekcije: zahtevi su odbijeni, pa su kolonisti protestovali i prestali da kupuju britansku robu."
+        objasnjenje: "Netačno — zahtev je odbijen, a kolonisti su odgovorili protestima i bojkotom britanske robe."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Kolonisti su tražili predstavnike u britanskom parlamentu; kad je zahtev odbijen, počeli su proteste i bojkot."
+
+      - id: l05-kol-dopuni-robovi
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [robovlasnistvo, pamuk, duvan, plantaze]
+        pitanje: "Dopuni rečenicu."
+        tekst: "U kolonijama je postojalo i {{robovlasništvo}}: robovi poreklom iz {{Afrike}} radili su na plantažama {{pamuka}} i {{duvana}}."
+        ponudjene: [robovlasništvo, Afrike, pamuka, duvana, Azije, čaja, kmetstvo]
+        pomoc:
+          - "Ljudi su bili vlasništvo drugih ljudi."
+          - "Na plantažama su se gajile biljke za tkanine i za pušenje."
+          - "Iz lekcije: robovi iz Afrike radili su na plantažama pamuka i duvana."
+        objasnjenje: "Robovi poreklom iz Afrike radili su na plantažama pamuka i duvana."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Robovi poreklom iz Afrike radili su na plantažama pamuka i duvana."
+
+      - id: l05-kol-dopuni-mere
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [carine, gradjanstvo, kolonija]
+        pitanje: "Dopuni opis britanskih mera."
+        tekst: "Britanske vlasti nametale su kolonijama stroga pravila u {{trgovini}} sa evropskim kontinentom i uvele razne {{carine}} i druge dažbine. Zato je {{građanstvo}} u kolonijama bilo nezadovoljno, jer su mere ograničavale razvoj {{privrede}}."
+        ponudjene: [trgovini, carine, građanstvo, privrede, plemstvo, umetnosti, ratovanju]
+        pomoc:
+          - "Pravila su se ticala kupovine i prodaje robe."
+          - "Nezadovoljni su bili trgovci, zanatlije i bankari."
+          - "Iz lekcije: stroga pravila u trgovini, carine i dažbine → nezadovoljno građanstvo, sputana privreda."
+        objasnjenje: "Stroga trgovačka pravila, carine i dažbine sputavale su privredu kolonija, pa je građanstvo bilo nezadovoljno."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Britanci su nametali stroga pravila u trgovini, carine i dažbine, što je ograničavalo privredu kolonija."
+
+      - id: l05-kol-povezi-kolonije
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [kolonisti, robovlasnistvo, boston, plantaze]
+        pitanje: "Poveži pojam sa opisom iz lekcije."
+        parovi:
+          - ["Doseljenici", "sa Britanskih ostrva i iz zapadne i severne Evrope"]
+          - ["Robovi", "poreklom iz Afrike"]
+          - ["Plantaže", "pamuk i duvan"]
+          - ["Boston, Filadelfija, Njujork", "trgovina, zanatstvo i bankarstvo"]
+        pomoc:
+          - "Ko je došao dobrovoljno, a ko doveden?"
+          - "Gradovi su bili privredna središta."
+          - "Iz lekcije: doseljenici iz Evrope, robovi iz Afrike na plantažama pamuka i duvana, gradovi kao centri trgovine."
+        objasnjenje: "Kolonije su naselili Evropljani; robovi iz Afrike radili su na plantažama; Boston, Filadelfija i Njujork bili su središta trgovine i bankarstva."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Lekcija opisuje stanovništvo, gradove i plantaže kolonija."
+
+      - id: l05-kol-datum-1775
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [kolonisti, americka-revolucija]
+        dogadjaj: Britanci pokušavaju da uhapse vođe kolonista
+        pitanje: "Koje godine je britanska vojska neuspešno pokušala da uhapsi vođe protesta i oduzme oružje kolonistima?"
+        godina: 1775
+        traka: dogadjaji
+        pomoc:
+          - "Desilo se u proleće, iste godine kada počinje Američka revolucija."
+          - "Dve godine posle Bostonske čajanke (1773)."
+          - "Iz lekcije: u proleće 1775. britanska vojska je neuspešno pokušala da uhapsi vođe protesta."
+        objasnjenje: "U proleće 1775. propao je pokušaj hapšenja vođa i oduzimanja oružja, a sukobi su prerasli u Američku revoluciju."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "U proleće 1775. britanska vojska je neuspešno pokušala da pohapsi vođe protesta i oduzme oružje kolonistima."
+
+      - id: l05-kol-lanac-nezadovoljstvo
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [carine, gradjanstvo, kolonisti]
+        karike:
+          - "Britanci uvode stroga pravila u trgovini i carine"
+          - "?"
+          - "Kolonisti traže predstavnike u britanskom parlamentu"
+        praznina: 1
+        odgovori:
+          - {tekst: "Građanstvo u kolonijama je nezadovoljno jer je privreda sputana", tacan: true}
+          - {tekst: "Kolonije se brzo bogate i zadovoljne su", tacan: false, zasto: "Mere su ograničavale razvoj privrede, pa su kolonisti bili nezadovoljni."}
+          - {tekst: "Francuska ulazi u rat", tacan: false, zasto: "Francuska ulazi u rat tek tokom revolucije, posle 1775."}
+        pomoc:
+          - "Kako trgovci reaguju na nove namete?"
+          - "Ako im privreda ne može da raste, šta osećaju?"
+          - "Iz lekcije: građanstvo je bilo nezadovoljno, jer su mere ograničavale privredu."
+        objasnjenje: "Namete i trgovinska ograničenja građanstvo je doživelo kao nepravdu i zatražilo glas u parlamentu."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Pravila i carine izazvali su nezadovoljstvo građanstva; kolonisti traže predstavnike u parlamentu."
+
+      - id: l05-kol-lanac-bojkot
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [kolonisti, britanski-parlament]
+        karike:
+          - "Zahtev kolonista za predstavnicima u parlamentu je odbijen"
+          - "?"
+          - "Britanska vojska pokušava da uhapsi vođe protesta (1775)"
+        praznina: 1
+        odgovori:
+          - {tekst: "Kolonisti protestuju i prestaju da kupuju britansku robu", tacan: true}
+          - {tekst: "Kolonisti biraju Kromvela za vođu", tacan: false, zasto: "Kromvel je iz XVII veka i vodio je engleski parlament."}
+          - {tekst: "Kolonisti donose ustav", tacan: false, zasto: "Ustav dolazi tek 1787, posle pobede."}
+        pomoc:
+          - "Šta možeš da uradiš kad te ne slušaju, a ne želiš odmah rat?"
+          - "Prestaneš da kupuješ njihovu robu."
+          - "Iz lekcije: kolonisti su počeli proteste i obustavili kupovinu britanskih proizvoda."
+        objasnjenje: "Posle odbijanja kolonisti protestuju i bojkotuju britansku robu, a Britanci pokušavaju da uhapse vođe."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Kad su zahtevi odbijeni, kolonisti su počeli proteste i obustavili kupovinu britanskih proizvoda."
+
+      - id: l05-kol-lanac-revolucija
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [americka-revolucija, kolonisti]
+        karike:
+          - "Protesti i bojkot britanske robe"
+          - "Britanska vojska neuspešno pokušava da uhapsi vođe i oduzme oružje (proleće 1775)"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Sukobi prerastaju u Američku revoluciju", tacan: true}
+          - {tekst: "Kolonisti odustaju i plaćaju sve carine", tacan: false, zasto: "Pokušaj hapšenja je propao, a sukobi su se rasplamsali."}
+          - {tekst: "Odmah se sklapa mir u Parizu", tacan: false, zasto: "Mir u Parizu sklopljen je tek 1783, posle osam godina rata."}
+        pomoc:
+          - "Korak 1: Da li je britanski pokušaj uspeo?"
+          - "Korak 2: Šta se dešava kad se nasilje proširi?"
+          - "Iz lekcije: sukobi su ubrzo prerasli u Američku revoluciju."
+        objasnjenje: "Neuspeo pokušaj razoružanja kolonista doveo je do otvorenog rata — Američke revolucije."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Posle neuspelog pokušaja hapšenja vođa u proleće 1775. sukobi su prerasli u Američku revoluciju."
+        osa: {naziv: Američka revolucija, od: 1775, do: 1783, traka: dogadjaji}
+
+      - id: l05-kol-zakljuci-nezadovoljstvo
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [gradjanstvo, carine]
+        pitanje: "Zašto je baš građanstvo u kolonijama bilo najnezadovoljnije britanskim merama?"
+        odgovori:
+          - {tekst: "Bavilo se trgovinom, zanatstvom i bankarstvom, a mere su sputavale privredu", tacan: true}
+          - {tekst: "Jer je građanstvo bilo katoličke vere", tacan: false, zasto: "Većina kolonista bila je protestantske vere; razlog je bio privredni."}
+          - {tekst: "Jer su građani bili robovi na plantažama", tacan: false, zasto: "Na plantažama su radili robovi iz Afrike, a ne građanstvo."}
+          - {tekst: "Jer je Britanija ukinula sve gradove", tacan: false, zasto: "Ništa slično; gradovi poput Bostona su cvetali, ali ih je kočila britanska politika."}
+        pomoc:
+          - "Korak 1: Čime se bavilo građanstvo u Bostonu, Filadelfiji i Njujorku?"
+          - "Korak 2: Koga najviše pogađaju pravila u trgovini i carine?"
+          - "Iz lekcije: mere su ograničavale razvoj privrede u kolonijama."
+        objasnjenje: "Trgovina, zanatstvo i bankarstvo bili su posao građanstva, a britanska pravila i carine pogađali su upravo njih."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Građanstvo je bilo nezadovoljno, jer su mere britanskih vlasti ograničavale razvoj privrede."
+
+      - id: l05-kol-zakljuci-bojkot
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [kolonisti, britanski-parlament]
+        pitanje: "Čemu je služio bojkot (prestanak kupovine) britanske robe?"
+        odgovori:
+          - {tekst: "Da se Britanija pogodi u privredi i natera da popusti kolonistima", tacan: true}
+          - {tekst: "Da kolonisti uštede novac za plaćanje carina", tacan: false, zasto: "Cilj je bio pritisak na Britaniju, ne štednja za carine."}
+          - {tekst: "Da se pokaže podrška britanskom kralju", tacan: false, zasto: "Bojkot je bio oblik protesta protiv britanske politike."}
+          - {tekst: "Da se ubrzaju izbori za Donji dom", tacan: false, zasto: "Kolonisti nisu ni imali predstavnike u parlamentu."}
+        pomoc:
+          - "Korak 1: Ko zarađuje kada kolonisti kupuju britansku robu?"
+          - "Korak 2: Šta se dešava kad prestanu?"
+          - "Iz lekcije: posle odbijenih zahteva kolonisti su protestovali i obustavili kupovinu britanskih proizvoda."
+        objasnjenje: "Bojkot je pritisak bez oružja: britanski trgovci gube zaradu, pa vlada treba da popusti."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Kolonisti su odgovorili protestima i prestali da kupuju britanske proizvode."
+
+      - id: l05-kol-izbor-kotao
+        vrsta: izbor
+        slika_u_pitanju: true
+        tezina: lako
+        pojmovi: [karikatura, americka-revolucija]
+        pitanje: "Šta na britanskoj karikaturi iz 1780. predstavlja ogromni kotao koji državnici krpe?"
+        odgovori:
+          - {tekst: "Državu, kojoj pobuna američkih kolonija pravi „rupe”", tacan: true}
+          - {tekst: "Kotao za kuvanje čaja iz Bostona", tacan: false, zasto: "Kotao je simbol države; državnici pokušavaju da „zakrpe” pobunu."}
+          - {tekst: "Parnu mašinu Džejmsa Vata", tacan: false, zasto: "Karikatura nije o industriji, nego o pobuni kolonija."}
+          - {tekst: "Krunu engleskog kralja", tacan: false, zasto: "Kruna nije prikazana kao kotao; kotao je cela država."}
+        pomoc:
+          - "Pročitaj naslov karikature: „Državne kotlokrpe”."
+          - "Šta državnici pokušavaju da „zakrpe”?"
+          - "Iz lekcije: državnici pokušavaju da zakrpe državni kotao, tj. da uguše pobunu kolonija."
+        objasnjenje: "Kotao je država; rupe su pobuna kolonija; državnici su „kotlokrpe” koje ih krpe."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Karikatura „Državne kotlokrpe”
+          tekst: "Karikatura iz 1780. prikazuje britanske državnike kako krpe državni kotao, tj. guše pobunu kolonija."
+          slika: 05-engleska-i-americka-revolucija/03-karikatura-drzavne-kotlokrpe.jpg
+        osa: {naziv: "Karikatura „Državne kotlokrpe”", od: 1780, traka: ideje}
+
+      - id: l05-kol-izvor-karikatura
+        vrsta: izvor
+        slika_u_pitanju: true
+        tezina: tesko
+        pojmovi: [karikatura, americka-revolucija]
+        izvor:
+          autor: Britanski karikaturista, 1780.
+          naslov: Državne kotlokrpe (opis karikature)
+          tekst: "Nekoliko britanskih državnika stoji oko ogromnog, već iskrpljenog kotla. Jedan zamahuje velikim čekićem, drugi kleči i petlja oko dna. Kotao je pun rupa i zakrpa."
+          napomena: "Opis karikature; udžbenik, str. 42."
+        pitanje: "Šta autor karikature misli o merama britanske vlade protiv pobune?"
+        odgovori:
+          - {tekst: "Da su grube i nespretne i da ne uspevaju — „krpljenje” čekićem samo pravi nove rupe", tacan: true}
+          - {tekst: "Da su veoma uspešne i da je pobuna već ugušena", tacan: false, zasto: "Karikatura je izašla 1780, usred rata, i prikazuje nespretne „majstore” — pobuna se nastavlja."}
+          - {tekst: "Da kolonisti treba da plaćaju više poreza", tacan: false, zasto: "Karikatura ismeva državnike, a ne koloniste."}
+          - {tekst: "Da je kotao potpuno nov i čitav", tacan: false, zasto: "Kotao je star, izubijan i pun zakrpa."}
+        pomoc:
+          - "Karikatura se uvek nečemu podsmeva — kome ovde?"
+          - "Da li se rupa popravlja velikim čekićem?"
+          - "Iz lekcije: udžbenik pita jesu li mere, prema karikaturi, delotvorne."
+        objasnjenje: "Karikaturista ismeva vladu: grubim merama „krpi” državu, a rupe — pobuna — samo rastu."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Karikatura „Državne kotlokrpe”
+          tekst: "Udžbenik pita kako izgleda kotao, kojim sredstvima ga krpe i jesu li mere delotvorne."
+          slika: 05-engleska-i-americka-revolucija/03-karikatura-drzavne-kotlokrpe.jpg
+
+      - id: l05-kol-izbor-karta-obala
+        vrsta: izbor
+        slika_u_pitanju: true
+        tezina: lako
+        pojmovi: [trinaest-kolonija, severna-amerika]
+        pitanje: "Gde se, prema karti teritorijalnog razvoja SAD, nalazilo 13 britanskih kolonija 1775?"
+        odgovori:
+          - {tekst: "Duž istočne, atlantske obale", tacan: true}
+          - {tekst: "Na obali Tihog okeana", tacan: false, zasto: "Pacifička obala je pripala SAD mnogo kasnije (npr. posle Meksičkog rata 1848)."}
+          - {tekst: "Oko Meksičkog zaliva i na Floridi", tacan: false, zasto: "Florida je kupljena od Španije tek 1819."}
+          - {tekst: "U Teksasu", tacan: false, zasto: "Teksas je pripojen tek 1845."}
+        pomoc:
+          - "Potraži na karti imena Virdžinija, Pensilvanija, Masačusets."
+          - "Te kolonije su uz okean koji gleda ka Evropi."
+          - "Iz lekcije: trinaest kolonija nastalo je na atlantskoj obali."
+        objasnjenje: "Trinaest kolonija ležalo je uz atlantsku obalu; ostatak teritorije SAD dobile su kasnije."
+        iz_udzbenika:
+          strana: 42
+          odeljak: "Karta: teritorijalni razvoj SAD"
+          tekst: "Karta pokazuje 13 britanskih kolonija 1775. uz atlantsku obalu i kasnije širenje SAD."
+          slika: 05-engleska-i-americka-revolucija/04-karta-teritorijalni-razvoj-sad.jpg
+
+      - id: l05-kol-izbor-karta-kolonije
+        vrsta: izbor
+        slika_u_pitanju: true
+        tezina: tesko
+        pojmovi: [trinaest-kolonija]
+        pitanje: "Koje su od navedenih teritorija, prema karti, bile među 13 britanskih kolonija? (više tačnih)"
+        odgovori:
+          - {tekst: "Virdžinija", tacan: true}
+          - {tekst: "Masačusets", tacan: true}
+          - {tekst: "Pensilvanija", tacan: true}
+          - {tekst: "Džordžija", tacan: true}
+          - {tekst: "Teksas", tacan: false, zasto: "Teksas je pripojen SAD tek 1845."}
+          - {tekst: "Florida", tacan: false, zasto: "Floridu su SAD kupile od Španije 1819."}
+        pomoc:
+          - "Kolonije su na karti imenovane uz istočnu obalu."
+          - "Izbaci teritorije dobijene u XIX veku."
+          - "Iz lekcije (karta): kolonije su npr. Nju Hempšir, Masačusets, Pensilvanija, Virdžinija, Karoline, Džordžija."
+        objasnjenje: "Virdžinija, Masačusets, Pensilvanija i Džordžija su među 13 kolonija; Florida (1819) i Teksas (1845) dolaze kasnije."
+        iz_udzbenika:
+          strana: 42
+          odeljak: "Karta: teritorijalni razvoj SAD"
+          tekst: "Na karti su imenovane kolonije na istočnoj obali, od Nju Hempšira do Džordžije."
+          slika: 05-engleska-i-americka-revolucija/04-karta-teritorijalni-razvoj-sad.jpg
+
+      - id: l05-kol-poredjaj-karta
+        vrsta: poredjaj
+        slika_u_pitanju: true
+        tezina: tesko
+        pojmovi: [sjedinjene-americke-drzave]
+        pitanje: "Prema legendi karte, poređaj širenje SAD od najranijeg."
+        stavke:
+          - {tekst: "Teritorija dobijena sticanjem nezavisnosti", godina: 1783, naziv: Pariski mir, traka: dogadjaji}
+          - {tekst: "Teritorija kupljena od Francuske", godina: 1803, naziv: SAD kupuju teritoriju od Francuske, traka: dogadjaji}
+          - {tekst: "Florida kupljena od Španije", godina: 1819, naziv: SAD kupuju Floridu od Španije, traka: dogadjaji}
+          - {tekst: "Teksas pripojen", godina: 1845, naziv: Teksas pripojen SAD, traka: dogadjaji}
+          - {tekst: "Teritorija pripojena posle Meksičkog rata", godina: 1848, naziv: Pripajanje posle Meksičkog rata, traka: dogadjaji}
+        pomoc:
+          - "Prva teritorija dolazi sa priznanjem nezavisnosti."
+          - "Teksas i rat sa Meksikom su susedni u vremenu, Teksas prvi."
+          - "Iz lekcije (legenda): 1783, 1803 (Francuska), 1819 (Florida), 1845 (Teksas), 1848 (Meksički rat)."
+        objasnjenje: "1783 nezavisnost → 1803 kupovina od Francuske → 1819 Florida → 1845 Teksas → 1848 posle Meksičkog rata."
+        iz_udzbenika:
+          strana: 42
+          odeljak: "Karta: teritorijalni razvoj SAD"
+          tekst: "Legenda karte pokazuje kako su se SAD širile od 1783. do sredine XIX veka."
+          slika: 05-engleska-i-americka-revolucija/04-karta-teritorijalni-razvoj-sad.jpg
+
+      - id: l05-kol-uporedi-strane
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [kolonisti, velika-britanija, carine]
+        a: Britanske vlasti
+        b: Kolonisti
+        pitanje: "Ko je to uradio — britanske vlasti, kolonisti, obe strane ili niko?"
+        tvrdnje:
+          - {tekst: "Uvele su carine i druge dažbine.", odgovor: a, zasto: "Carine i dažbine nametale su britanske vlasti."}
+          - {tekst: "Tražili su predstavnike u britanskom parlamentu.", odgovor: b, zasto: "To je bio zahtev kolonista."}
+          - {tekst: "Prestali su da kupuju britansku robu.", odgovor: b, zasto: "Bojkot je bio odgovor kolonista na odbijanje."}
+          - {tekst: "Pokušala je da uhapsi vođe protesta 1775.", odgovor: a, zasto: "Britanska vojska je pokušala hapšenje i razoružavanje."}
+          - {tekst: "Učestvovali su u sukobima koji su prerasli u Američku revoluciju.", odgovor: oba, zasto: "Rat su vodile obe strane."}
+          - {tekst: "Ukinuli su robovlasništvo u kolonijama.", odgovor: nijedan, zasto: "Robovlasništvo je postojalo i nije ga ukinula nijedna strana u ovom periodu."}
+        pomoc:
+          - "Ko je nametao pravila, a ko se bunio?"
+          - "Rat uvek ima dve strane."
+          - "Iz lekcije: Britanci — pravila, carine, pokušaj hapšenja; kolonisti — zahtev za predstavnicima, protesti, bojkot."
+        objasnjenje: "Britanske vlasti su nametale mere i poslale vojsku; kolonisti su tražili prava, protestovali i bojkotovali robu."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Lekcija opisuje mere Britanaca i odgovor kolonista do 1775."
+
+      - id: l05-kol-objasni-nezadovoljstvo
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [kolonisti, carine, britanski-parlament]
+        pitanje: "Zašto su američki kolonisti bili nezadovoljni britanskom vlašću i kako su to pokazali?"
+        uzor: "Britanske vlasti su kolonijama nametale stroga pravila u trgovini, carine i druge dažbine, pa je razvoj privrede bio sputan. Kolonisti su tražili da njihovi predstavnici učestvuju u radu britanskog parlamenta. Kad je zahtev odbijen, počeli su da protestuju i prestali su da kupuju britansku robu."
+        ideje:
+          - "Stroga trgovačka pravila, carine i dažbine."
+          - "Sputan razvoj privrede, nezadovoljno građanstvo."
+          - "Zahtev za predstavnicima u parlamentu je odbijen."
+          - "Protesti i bojkot britanske robe."
+        objasnjenje: "Kolonisti su plaćali namete, a nisu imali glas u parlamentu koji ih je uvodio."
+        iz_udzbenika:
+          strana: 42
+          odeljak: Britanske kolonije u Severnoj Americi
+          tekst: "Mere britanskih vlasti sputavale su privredu; kolonisti su tražili predstavnike, a posle odbijanja protestovali i bojkotovali robu."
+
+  # ==========================================================================
+  - naslov: Američka revolucija
+    zadaci:
+      - id: l05-amr-izbor-vasington
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [dzordz-vasington, kongres]
+        pitanje: "Koga je Kongres pobunjenih kolonija imenovao za glavnog zapovednika vojske?"
+        odgovori:
+          - {tekst: "Džordža Vašingtona", tacan: true}
+          - {tekst: "Tomasa Džefersona", tacan: false, zasto: "Džeferson je sastavio Deklaraciju nezavisnosti; vojsku je vodio Vašington."}
+          - {tekst: "Olivera Kromvela", tacan: false, zasto: "Kromvel je vodio engleski parlament u XVII veku."}
+          - {tekst: "Luja XVI", tacan: false, zasto: "Luj XVI je bio francuski kralj."}
+        pomoc:
+          - "Po njemu je kasnije nazvan glavni grad SAD."
+          - "Postao je i prvi američki predsednik."
+          - "Iz lekcije: Kongres je za glavnog zapovednika imenovao generala Džordža Vašingtona."
+        objasnjenje: "General Džordž Vašington, koji se ranije istakao u britanskoj službi, postao je glavni zapovednik vojske kolonija."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Kongres je za glavnog zapovednika imenovao generala Džordža Vašingtona."
+
+      - id: l05-amr-izbor-dzeferson
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [tomas-dzeferson, deklaracija-nezavisnosti]
+        pitanje: "Ko je sastavio Deklaraciju nezavisnosti?"
+        odgovori:
+          - {tekst: "Tomas Džeferson", tacan: true}
+          - {tekst: "Džordž Vašington", tacan: false, zasto: "Vašington je bio zapovednik vojske, a Deklaraciju je sastavio Džeferson."}
+          - {tekst: "Volter", tacan: false, zasto: "Volter je francuski prosvetitelj; Džeferson se služio idejama prosvetitelja, ali je sam pisao Deklaraciju."}
+          - {tekst: "Engleski kralj", tacan: false, zasto: "Deklaracija je upravo odvajanje od engleskog (britanskog) kralja."}
+        pomoc:
+          - "Nije vojskovođa, nego pisac dokumenta."
+          - "Ime mu počinje na T."
+          - "Iz lekcije: Deklaraciju je sastavio Tomas Džeferson."
+        objasnjenje: "Deklaraciju nezavisnosti sastavio je Tomas Džeferson, po idejama francuskih prosvetitelja."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Deklaraciju je, prema idejama francuskih prosvetitelja, sastavio Tomas Džeferson."
+
+      - id: l05-amr-izbor-ideje
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [deklaracija-nezavisnosti, prosvetitelji]
+        pitanje: "Na čijim idejama je zasnovana Deklaracija nezavisnosti?"
+        odgovori:
+          - {tekst: "Francuskih prosvetitelja", tacan: true}
+          - {tekst: "Ruskih careva", tacan: false, zasto: "Ruski carevi su bili apsolutistički vladari; ideje su došle od prosvetitelja."}
+          - {tekst: "Engleskih kraljeva iz dinastije Stjuart", tacan: false, zasto: "Stjuarti su bili za jaku vlast kralja — suprotno idejama Deklaracije."}
+          - {tekst: "Luditi", tacan: false, zasto: "Luditi su engleski radnici koji su lomili mašine; nisu imali veze sa Deklaracijom."}
+        pomoc:
+          - "Seti se prethodne lekcije: ko je govorio o razumu, pravima i volji naroda?"
+          - "Monteskje, Ruso, Volter …"
+          - "Iz lekcije: Deklaracija je sastavljena prema idejama francuskih prosvetitelja."
+        objasnjenje: "Džeferson je pisao Deklaraciju po idejama francuskih prosvetitelja — o prirodnim pravima i vlasti koja potiče od naroda."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Deklaracija je sastavljena prema idejama francuskih prosvetitelja."
+
+      - id: l05-amr-izbor-francuska
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [francuska, americka-revolucija]
+        pitanje: "Ulazak koje države u rat bio je važna prekretnica za koloniste?"
+        odgovori:
+          - {tekst: "Francuske", tacan: true}
+          - {tekst: "Rusije", tacan: false, zasto: "Lekcija kao prekretnicu navodi ulazak Francuske."}
+          - {tekst: "Škotske", tacan: false, zasto: "Škotska je bila deo Velike Britanije."}
+          - {tekst: "Kanade", tacan: false, zasto: "Kanada je ostala britanska i posle rata."}
+        pomoc:
+          - "Ta država je ranije izgubila posede u Americi od Britanaca."
+          - "Poslala je ratne brodove i vojsku."
+          - "Iz lekcije: važna prekretnica bio je ulazak Francuske u rat."
+        objasnjenje: "Francuska je ušla u rat na strani kolonista i pomogla im brodovima i vojskom."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Za koloniste je važna prekretnica bila ulazak Francuske u rat."
+
+      - id: l05-amr-izbor-kanada
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [pariski-mir-1783, kanada, karipsko-more]
+        pitanje: "Šta su Britanci zadržali u Severnoj Americi posle mira 1783?"
+        odgovori:
+          - {tekst: "Kanadu i ostrva u Karipskom moru", tacan: true}
+          - {tekst: "Boston i Njujork", tacan: false, zasto: "Ti gradovi su u bivšim kolonijama, koje su postale SAD."}
+          - {tekst: "Virdžiniju i Džordžiju", tacan: false, zasto: "To su bile dve od 13 kolonija koje su postale nezavisne."}
+          - {tekst: "Ništa — izgubili su sve posede u Americi", tacan: false, zasto: "Zadržali su Kanadu i karipska ostrva."}
+        pomoc:
+          - "Jedna teritorija je severno od SAD."
+          - "Druga su ostrva u toplom moru."
+          - "Iz lekcije: Britanci su zadržali Kanadu i ostrva u Karipskom moru."
+        objasnjenje: "Britanija je priznala SAD, ali je zadržala Kanadu i ostrva u Karipskom moru."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Britanci su u Severnoj Americi zadržali Kanadu i ostrva u Karipskom moru."
+
+      - id: l05-amr-izbor-cajanka-slika
+        vrsta: izbor
+        slika_u_pitanju: true
+        tezina: lako
+        pojmovi: [bostonska-cajanka, boston]
+        pitanje: "Šta rade ljudi na brodu na slici Bostonske čajanke?"
+        odgovori:
+          - {tekst: "Bacaju sanduke čaja u more", tacan: true}
+          - {tekst: "Istovaraju čaj i plaćaju carinu", tacan: false, zasto: "Kolonisti su upravo odbijali da plate carinu i bacili su čaj."}
+          - {tekst: "Piju čaj sa britanskim vojnicima", tacan: false, zasto: "„Čajanka” je ironičan naziv — čaj je završio u moru."}
+          - {tekst: "Potpisuju Deklaraciju nezavisnosti", tacan: false, zasto: "Deklaracija je izglasana u Filadelfiji 1776, ne na brodu."}
+        pomoc:
+          - "Pogledaj ruke ljudi na palubi."
+          - "Šta pada u vodu?"
+          - "Iz lekcije: prerušeni kolonisti su upali na brodove i bacili tovare čaja u more."
+        objasnjenje: "Kolonisti prerušeni u Indijance bacaju britanski čaj u more, a gomila na obali ih bodri."
+        iz_udzbenika:
+          strana: 43
+          odeljak: "Znatiželja: Bostonska čajanka"
+          tekst: "Grupa kolonista prerušenih u Indijance bacila je tovare čaja sa britanskih brodova u more."
+          slika: 05-engleska-i-americka-revolucija/06-bostonska-cajanka.jpg
+
+      - id: l05-amr-izbor-indija
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [bostonska-cajanka]
+        pitanje: "Šta je britanska vlada 1773. pokušala da uradi u američkim kolonijama?"
+        odgovori:
+          - {tekst: "Da rasproda zalihe čaja iz Indije", tacan: true}
+          - {tekst: "Da zabrani pijenje čaja", tacan: false, zasto: "Naprotiv, htela je da proda što više čaja."}
+          - {tekst: "Da kupi čaj od kolonista", tacan: false, zasto: "Čaj je dolazio iz Indije i Britanija ga je prodavala kolonijama."}
+          - {tekst: "Da kolonistima pokloni čaj", tacan: false, zasto: "Uvezeni čaj je trebalo i ocariniti — kolonisti su to sprečavali."}
+        pomoc:
+          - "Odakle je dolazio čaj?"
+          - "Vlada je imala viškove i htela je da ih proda."
+          - "Iz lekcije: britanska vlada je pokušala da u kolonijama rasproda zalihe čaja iz Indije."
+        objasnjenje: "Britanska vlada je htela da u kolonijama rasproda čaj iz Indije; kolonisti su sprečavali da se on ocarini i istovari."
+        iz_udzbenika:
+          strana: 43
+          odeljak: "Znatiželja: Bostonska čajanka"
+          tekst: "Britanska vlada pokušala je da u kolonijama rasproda zalihe čaja iz Indije."
+
+      - id: l05-amr-tn-deklaracija
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [deklaracija-nezavisnosti, filadelfija, kongres]
+        tvrdnja: "Kongres je u Filadelfiji 4. jula 1776. izglasao Deklaraciju nezavisnosti."
+        tacno: true
+        pomoc:
+          - "Seti se američkog praznika nezavisnosti."
+          - "Iz lekcije: Kongres je u Filadelfiji izglasao Deklaraciju nezavisnosti 4. jula 1776."
+        objasnjenje: "Tačno — 4. jul 1776. je dan kada je u Filadelfiji izglasana Deklaracija nezavisnosti."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Kongres je u Filadelfiji izglasao Deklaraciju nezavisnosti 4. jula 1776."
+          slika: 05-engleska-i-americka-revolucija/05-proglasenje-deklaracije-nezavisnosti.jpg
+        osa: {naziv: Deklaracija nezavisnosti, od: 1776, traka: dogadjaji}
+
+      - id: l05-amr-tn-francuska-zasto
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [francuska, americka-revolucija]
+        tvrdnja: "Francuska je pomogla kolonistima jer je i sama želela da postane republika."
+        tacno: false
+        ispravke:
+          - {tekst: "Francuska je pomogla kolonistima da bi nanela što veću štetu Britaniji.", tacan: true}
+          - {tekst: "Francuska je pomogla jer su kolonisti bili Francuzi.", tacan: false, zasto: "Kolonisti su većinom bili doseljenici sa Britanskih ostrva i iz zapadne i severne Evrope."}
+          - {tekst: "Francuska je pomogla jer je htela da dobije Kanadu od kolonista.", tacan: false, zasto: "Lekcija kao razlog navodi štetu Britaniji; Kanada je ostala britanska."}
+        pomoc:
+          - "Ko je bio najveći suparnik Francuske?"
+          - "Ko je Francuzima oteo posede u Americi?"
+          - "Iz lekcije: Francuska je želela da pomogne kolonistima kako bi nanela što veću štetu Britaniji."
+        objasnjenje: "Netačno — Francuska je htela da oslabi suparnicu Britaniju."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Francuska je želela da pomogne kolonistima kako bi nanela što veću štetu Britaniji."
+
+      - id: l05-amr-tn-mir-kolonije
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [pariski-mir-1783, sjedinjene-americke-drzave]
+        tvrdnja: "Mirom u Parizu 1783. Velika Britanija je zadržala svih trinaest kolonija, ali im je dala više prava."
+        tacno: false
+        ispravke:
+          - {tekst: "Mirom u Parizu Britanija je priznala nezavisnost SAD i zadržala samo Kanadu i karipska ostrva.", tacan: true}
+          - {tekst: "Mirom u Parizu kolonije su pripale Francuskoj.", tacan: false, zasto: "Kolonije su postale nezavisne SAD, a ne francuske."}
+          - {tekst: "Mir u Parizu sklopljen je pre početka rata, 1774.", tacan: false, zasto: "Mir je sklopljen 1783, na kraju rata; 1774. je bio prvi kongres u Filadelfiji."}
+        pomoc:
+          - "Čime se završila Američka revolucija?"
+          - "Šta je Britanija morala da prizna?"
+          - "Iz lekcije: mirom u Parizu 1783. Britanija je priznala nezavisnost SAD."
+        objasnjenje: "Netačno — mir u Parizu doneo je priznanje nezavisnosti SAD; Britanija je zadržala Kanadu i ostrva u Karipskom moru."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Mir je sklopljen u Parizu 1783; Velika Britanija je priznala nezavisnost SAD."
+        osa: {naziv: Pariski mir, od: 1783, traka: dogadjaji}
+
+      - id: l05-amr-tn-indijanci
+        vrsta: tacno_netacno
+        tezina: srednje
+        pojmovi: [bostonska-cajanka, kolonisti, indijanci]
+        tvrdnja: "Tovare čaja u Bostonu bacili su u more pravi Indijanci, starosedeoci Amerike."
+        tacno: false
+        ispravke:
+          - {tekst: "Čaj su bacili kolonisti prerušeni u Indijance.", tacan: true}
+          - {tekst: "Čaj su bacili britanski vojnici jer je bio pokvaren.", tacan: false, zasto: "Britanci su hteli da prodaju čaj; uništili su ga kolonisti."}
+          - {tekst: "Čaj su bacili francuski mornari.", tacan: false, zasto: "Francuska ulazi u rat tek kasnije; akcija u Bostonu bila je delo kolonista."}
+        pomoc:
+          - "Pročitaj pažljivo: ljudi su bili „maskirani”."
+          - "Ko je imao razlog da protestuje protiv britanskog čaja?"
+          - "Iz lekcije: grupa kolonista, maskirana u Indijance, upala je na brodove."
+        objasnjenje: "Netačno — to su bili kolonisti prerušeni u Indijance."
+        iz_udzbenika:
+          strana: 43
+          odeljak: "Znatiželja: Bostonska čajanka"
+          tekst: "Grupa kolonista, prerušena u Indijance, upala je na usidrene britanske brodove."
+          slika: 05-engleska-i-americka-revolucija/06-bostonska-cajanka.jpg
+
+      - id: l05-amr-datum-deklaracija
+        vrsta: datum
+        tezina: lako
+        pojmovi: [deklaracija-nezavisnosti]
+        dogadjaj: Deklaracija nezavisnosti
+        pitanje: "Koje godine je izglasana Deklaracija nezavisnosti?"
+        godina: 1776
+        traka: dogadjaji
+        pomoc:
+          - "Dan nezavisnosti SAD je 4. jul — koje godine?"
+          - "Godinu dana posle početka rata (1775)."
+          - "Iz lekcije: Deklaracija nezavisnosti, 4. jul 1776."
+        objasnjenje: "Deklaracija nezavisnosti izglasana je 4. jula 1776. u Filadelfiji."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Deklaracija nezavisnosti izglasana je 4. jula 1776."
+
+      - id: l05-amr-datum-revolucija
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [americka-revolucija, americki-rat-za-nezavisnost]
+        dogadjaj: Američka revolucija
+        pitanje: "Kada je trajao Američki rat za nezavisnost (Američka revolucija)?"
+        od: 1775
+        do: 1783
+        traka: dogadjaji
+        pomoc:
+          - "Počeo je posle neuspelog pokušaja hapšenja vođa u proleće."
+          - "Završio se mirom u Parizu."
+          - "Iz lekcije: Američka revolucija (1775–1783)."
+        objasnjenje: "Američka revolucija trajala je od 1775. do mira u Parizu 1783."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Američki rat za nezavisnost ili Američka revolucija trajala je 1775–1783."
+
+      - id: l05-amr-datum-jorktaun
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [jorktaun, dzordz-vasington]
+        dogadjaj: Bitka kod Jorktauna
+        pitanje: "Koje godine je Vašington naterao britanske snage na predaju kod Jorktauna?"
+        godina: 1781
+        traka: dogadjaji
+        pomoc:
+          - "Bilo je to pred kraj rata, uz francusku pomoć."
+          - "Dve godine pre mira u Parizu (1783)."
+          - "Iz lekcije: predaja Britanaca kod Jorktauna 1781."
+        objasnjenje: "Kod Jorktauna 1781. Vašington je, uz francuske brodove i vojsku, primorao Britance na predaju."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Vašington je kod Jorktauna 1781. naterao britanske snage na predaju."
+
+      - id: l05-amr-datum-cajanka
+        vrsta: datum
+        tezina: lako
+        pojmovi: [bostonska-cajanka]
+        dogadjaj: Bostonska čajanka
+        pitanje: "Koje godine se dogodila Bostonska čajanka?"
+        godina: 1773
+        traka: dogadjaji
+        pomoc:
+          - "Bila je nekoliko godina pre početka rata (1775)."
+          - "Godinu dana pre prvog kongresa u Filadelfiji (1774)."
+          - "Iz lekcije: Bostonska čajanka 1773."
+        objasnjenje: "Bostonska čajanka bila je 1773, a već sledeće godine sazvan je prvi kongres kolonista."
+        iz_udzbenika:
+          strana: 43
+          odeljak: "Znatiželja: Bostonska čajanka"
+          tekst: "Bostonska čajanka dogodila se 1773."
+
+      - id: l05-amr-datum-mir
+        vrsta: datum
+        tezina: lako
+        pojmovi: [pariski-mir-1783, sjedinjene-americke-drzave]
+        dogadjaj: Pariski mir
+        pitanje: "Koje godine je sklopljen mir u Parizu kojim je Britanija priznala nezavisnost SAD?"
+        godina: 1783
+        traka: dogadjaji
+        pomoc:
+          - "To je kraj Američke revolucije."
+          - "Dve godine posle Jorktauna (1781)."
+          - "Iz lekcije: mir u Parizu 1783."
+        objasnjenje: "Mir u Parizu 1783. okončao je rat; Velika Britanija je priznala SAD."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Mir je sklopljen u Parizu 1783."
+
+      - id: l05-amr-poredjaj-rat
+        vrsta: poredjaj
+        tezina: srednje
+        pojmovi: [bostonska-cajanka, americka-revolucija, deklaracija-nezavisnosti, jorktaun, pariski-mir-1783]
+        pitanje: "Poređaj događaje Američke revolucije od najranijeg."
+        stavke:
+          - {tekst: "Bostonska čajanka", godina: 1773, naziv: Bostonska čajanka, traka: dogadjaji}
+          - {tekst: "Prvi kongres kolonista u Filadelfiji", godina: 1774, naziv: Prvi kongres kolonista u Filadelfiji, traka: dogadjaji}
+          - {tekst: "Britanci neuspešno pokušavaju da uhapse vođe kolonista", godina: 1775, naziv: Britanci pokušavaju da uhapse vođe kolonista, traka: dogadjaji}
+          - {tekst: "Deklaracija nezavisnosti", godina: 1776, naziv: Deklaracija nezavisnosti, traka: dogadjaji}
+          - {tekst: "Predaja Britanaca kod Jorktauna", godina: 1781, naziv: Bitka kod Jorktauna, traka: dogadjaji}
+          - {tekst: "Mir u Parizu", godina: 1783, naziv: Pariski mir, traka: dogadjaji}
+        pomoc:
+          - "Povod rata dolazi pre samog rata."
+          - "Deklaracija je godinu dana posle početka rata, a mir na kraju."
+          - "Iz lekcije: 1773, 1774, 1775, 1776, 1781, 1783."
+        objasnjenje: "Čajanka (1773) → kongres (1774) → početak rata (1775) → Deklaracija (1776) → Jorktaun (1781) → mir u Parizu (1783)."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Lekcija prati put od Bostonske čajanke do mira u Parizu."
+
+      - id: l05-amr-dopuni-deklaracija
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [deklaracija-nezavisnosti, filadelfija, tomas-dzeferson]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Kongres je u gradu {{Filadelfiji}} 4. jula {{1776}}. izglasao Deklaraciju nezavisnosti, koju je sastavio {{Tomas Džeferson}}."
+        ponudjene: [Filadelfiji, "1776", Tomas Džeferson, Bostonu, "1783", Džordž Vašington]
+        pomoc:
+          - "Grad u kome se okupljao Kongres."
+          - "Pisac Deklaracije nije zapovednik vojske."
+          - "Iz lekcije: Filadelfija, 4. jul 1776, Tomas Džeferson."
+        objasnjenje: "Deklaraciju je Kongres izglasao u Filadelfiji 4. jula 1776; sastavio ju je Tomas Džeferson."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Kongres je u Filadelfiji 4. jula 1776. izglasao Deklaraciju koju je sastavio Džeferson."
+
+      - id: l05-amr-dopuni-kraj-rata
+        vrsta: dopuni
+        tezina: tesko
+        pojmovi: [jorktaun, pariski-mir-1783, francuska]
+        pitanje: "Dopuni bez ponuđenih reči."
+        tekst: "Uz pomoć ratnih brodova i vojske iz {{Francuske}}, Vašington je primorao Britance na predaju kod {{Jorktauna}} 1781. Mir je sklopljen u {{Parizu}} {{1783}}. godine."
+        pomoc:
+          - "Pomoć je stigla od velike suparnice Britanije."
+          - "Mir je potpisan u glavnom gradu te iste zemlje."
+          - "Iz lekcije: francuska pomoć, Jorktaun 1781, mir u Parizu 1783."
+        objasnjenje: "Francuska pomoć donela je pobedu kod Jorktauna (1781), a mir u Parizu (1783) priznao je SAD."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Uz francusku pomoć Britanci su se predali kod Jorktauna 1781; mir je sklopljen u Parizu 1783."
+
+      - id: l05-amr-povezi-godine
+        vrsta: povezi
+        tezina: tesko
+        pojmovi: [bostonska-cajanka, deklaracija-nezavisnosti, jorktaun, pariski-mir-1783]
+        pitanje: "Poveži godinu sa događajem."
+        parovi:
+          - ["1773.", "Bostonska čajanka"]
+          - ["1774.", "prvi kongres kolonista u Filadelfiji"]
+          - ["1776.", "Deklaracija nezavisnosti"]
+          - ["1781.", "predaja Britanaca kod Jorktauna"]
+          - ["1783.", "mir u Parizu"]
+        pomoc:
+          - "Povod je bio pre kongresa."
+          - "Mir je poslednji, dve godine posle odlučujuće predaje."
+          - "Iz lekcije: 1773 čajanka, 1774 kongres, 1776 Deklaracija, 1781 Jorktaun, 1783 mir."
+        objasnjenje: "1773 Bostonska čajanka; 1774 prvi kongres; 1776 Deklaracija; 1781 Jorktaun; 1783 mir u Parizu."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Lekcija daje godine ključnih događaja Američke revolucije."
+
+      - id: l05-amr-lanac-cajanka
+        vrsta: lanac
+        tezina: lako
+        pojmovi: [bostonska-cajanka, kolonisti]
+        karike:
+          - "Britanska vlada hoće da u kolonijama rasproda čaj iz Indije"
+          - "Kolonisti sprečavaju da se čaj ocarini i istovari"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "U Bostonu prerušeni kolonisti bacaju tovare čaja u more (1773)", tacan: true}
+          - {tekst: "Kolonisti kupuju sav čaj po dvostrukoj ceni", tacan: false, zasto: "Kolonisti su se bunili protiv čaja i carina, a ne kupovali ga."}
+          - {tekst: "Kralj prihvata Povelju o pravima", tacan: false, zasto: "Povelja o pravima je engleski dokument iz 1689."}
+        pomoc:
+          - "Gde se odigrala najveća protestna akcija?"
+          - "Šta se desilo sa čajem?"
+          - "Iz lekcije: u Bostonu su kolonisti, prerušeni u Indijance, bacili čaj u more."
+        objasnjenje: "Protest protiv britanskog čaja vrhunac je dostigao u Bostonu, gde je čaj bačen u more."
+        iz_udzbenika:
+          strana: 43
+          odeljak: "Znatiželja: Bostonska čajanka"
+          tekst: "U lukama su kolonisti sprečavali carinjenje i istovar čaja; u Bostonu su ga bacili u more."
+        osa: {naziv: Bostonska čajanka, od: 1773, traka: dogadjaji}
+
+      - id: l05-amr-lanac-kongres
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [bostonska-cajanka, kongres, filadelfija]
+        karike:
+          - "Bostonska čajanka (1773)"
+          - "Britanci zatvaraju bostonsku luku i dovode nove trupe"
+          - "?"
+        praznina: 2
+        odgovori:
+          - {tekst: "Sazvan je prvi kongres predstavnika kolonista u Filadelfiji (1774)", tacan: true}
+          - {tekst: "Kolonisti plaćaju naknadu i prekidaju protest", tacan: false, zasto: "Kolonisti su mere nazvali „nepodnošljivim” i okupili se na kongresu."}
+          - {tekst: "Kongres donosi ustav SAD", tacan: false, zasto: "Ustav je donet tek 1787."}
+        pomoc:
+          - "Kako su kolonisti nazvali britanske mere?"
+          - "Te mere su bile povod za okupljanje predstavnika svih kolonija."
+          - "Iz lekcije: „nepodnošljive” mere bile su povod za prvi kongres u Filadelfiji 1774."
+        objasnjenje: "Kazne posle čajanke kolonisti su nazvali nepodnošljivim i zato su sazvali prvi kongres u Filadelfiji 1774."
+        iz_udzbenika:
+          strana: 43
+          odeljak: "Znatiželja: Bostonska čajanka"
+          tekst: "Zatvaranje luke i nove trupe bile su povod za prvi kongres kolonista u Filadelfiji 1774."
+        osa: {naziv: Prvi kongres kolonista u Filadelfiji, od: 1774, traka: dogadjaji}
+
+      - id: l05-amr-lanac-mir
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [francuska, jorktaun, pariski-mir-1783, sjedinjene-americke-drzave]
+        karike:
+          - "Francuska ulazi u rat na strani kolonista"
+          - "Britanci se predaju kod Jorktauna (1781)"
+          - "?"
+          - "Velika Britanija priznaje nezavisnost SAD"
+        praznina: 2
+        odgovori:
+          - {tekst: "Mešanje Francuske i drugih sila tera Britaniju na mirovne pregovore — mir u Parizu 1783.", tacan: true}
+          - {tekst: "Kongres bira Vašingtona za predsednika", tacan: false, zasto: "Vašington postaje predsednik tek 1789, posle ustava."}
+          - {tekst: "Bostonska čajanka", tacan: false, zasto: "Čajanka je 1773, na početku sukoba."}
+        pomoc:
+          - "Korak 1: Šta posle poraza preostaje Britaniji?"
+          - "Korak 2: Gde je sklopljen mir?"
+          - "Iz lekcije: uplitanje Francuske i drugih sila nateralo je Britaniju na pregovore; mir u Parizu 1783."
+        objasnjenje: "Poraz kod Jorktauna i pritisak evropskih sila doveli su do pregovora i mira u Parizu, kojim je priznata nezavisnost SAD."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Uplitanje Francuske i drugih sila nateralo je Britaniju na pregovore; mirom u Parizu 1783. priznata je nezavisnost SAD."
+
+      - id: l05-amr-zakljuci-vasington
+        vrsta: zakljuci
+        tezina: lako
+        pojmovi: [dzordz-vasington, kongres]
+        pitanje: "Zašto je Kongres poverio komandu baš Džordžu Vašingtonu?"
+        odgovori:
+          - {tekst: "Imao je vojno iskustvo — ranije se istakao u britanskoj službi", tacan: true}
+          - {tekst: "Bio je sin britanskog kralja", tacan: false, zasto: "Vašington je bio kolonista i general, ne kraljev sin."}
+          - {tekst: "Bio je već predsednik SAD", tacan: false, zasto: "Predsednik je postao tek 1789."}
+          - {tekst: "Napisao je Deklaraciju nezavisnosti", tacan: false, zasto: "Deklaraciju je napisao Džeferson."}
+        pomoc:
+          - "Korak 1: Šta je potrebno zapovedniku vojske?"
+          - "Korak 2: Gde je Vašington ranije služio?"
+          - "Iz lekcije: general Vašington se ranije istakao u britanskoj službi."
+        objasnjenje: "Vašington je kao general u britanskoj službi stekao iskustvo, pa je bio prirodan izbor za zapovednika."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Kongres je imenovao generala Vašingtona, koji se ranije istakao u britanskoj službi."
+
+      - id: l05-amr-zakljuci-opravdanje
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [deklaracija-nezavisnosti, tomas-dzeferson]
+        pitanje: "Kako je Džeferson u Deklaraciji opravdao pravo kolonista da stvore svoju državu?"
+        odgovori:
+          - {tekst: "Britanske vlasti su odbile zahteve svojih podanika, pa podanici imaju pravo da se odvoje", tacan: true}
+          - {tekst: "Kolonisti su bili bogatiji od Britanaca", tacan: false, zasto: "Deklaracija ne govori o bogatstvu, nego o pravima i odbijenim zahtevima."}
+          - {tekst: "Tako je odlučio francuski kralj", tacan: false, zasto: "Francuska ulazi u rat kasnije; Deklaracija se poziva na prava naroda."}
+          - {tekst: "Kolonije su bile daleko od Engleske", tacan: false, zasto: "Udaljenost nije razlog koji Deklaracija navodi."}
+        pomoc:
+          - "Korak 1: Šta su kolonisti tražili od Britanaca pre rata?"
+          - "Korak 2: Šta su Britanci uradili sa tim zahtevima?"
+          - "Iz lekcije: kolonisti imaju pravo da stvore državu jer su britanske vlasti odbile zahteve podanika."
+        objasnjenje: "Vlast koja odbija opravdane zahteve podanika gubi pravo na njihovu poslušnost — zato kolonisti mogu da stvore svoju državu."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Džeferson ističe da kolonisti imaju pravo na svoju državu jer su britanske vlasti odbile njihove zahteve."
+
+      - id: l05-amr-zakljuci-nepodnosljive
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [bostonska-cajanka, boston]
+        pitanje: "Zašto su kolonisti britanske mere posle Bostonske čajanke nazvali „nepodnošljivim”?"
+        odgovori:
+          - {tekst: "Zatvaranje luke i dovođenje trupa kažnjavali su ceo grad i njegovu trgovinu", tacan: true}
+          - {tekst: "Jer su Britanci ukinuli čaj u celom svetu", tacan: false, zasto: "Britanci su, naprotiv, hteli da prodaju čaj."}
+          - {tekst: "Jer je Britanija priznala nezavisnost Bostona", tacan: false, zasto: "Nezavisnost je priznata tek 1783, i to svim kolonijama."}
+          - {tekst: "Jer su morali da glasaju za vigovce", tacan: false, zasto: "Kolonisti nisu imali predstavnike u britanskom parlamentu."}
+        pomoc:
+          - "Korak 1: Šta su Britanci uradili sa bostonskom lukom?"
+          - "Korak 2: Šta znači luka bez trgovine za grad trgovaca?"
+          - "Iz lekcije: luka je zatvorena za trgovinu, a u grad su dovedene nove trupe."
+        objasnjenje: "Boston je živeo od trgovine; zatvorena luka i strane trupe bile su kolektivna kazna — zato „nepodnošljive mere”."
+        iz_udzbenika:
+          strana: 43
+          odeljak: "Znatiželja: Bostonska čajanka"
+          tekst: "Bostonska luka zatvorena je za trgovinu, a u grad su dovedene nove trupe; kolonisti su to nazvali nepodnošljivim."
+
+      - id: l05-amr-izvor-prava
+        vrsta: izvor
+        tezina: lako
+        pojmovi: [deklaracija-nezavisnosti, neotudjiva-prava]
+        izvor:
+          autor: Deklaracija nezavisnosti, 1776.
+          naslov: O pravima ljudi (sažetak odlomka)
+          tekst: "Očigledno je da su svi ljudi stvoreni jednaki i da imaju neka prava koja im se ne mogu oduzeti: pravo na život, na slobodu i na težnju ka sreći."
+          napomena: "Odlomak je prepričan; udžbenik, str. 44."
+        pitanje: "Koja su neotuđiva prava navedena u ovom odlomku?"
+        odgovori:
+          - {tekst: "Život, sloboda i težnja ka sreći", tacan: true}
+          - {tekst: "Pravo na krunu, plemićku titulu i zemlju", tacan: false, zasto: "Deklaracija govori o pravima svih ljudi, a ne o povlasticama plemstva."}
+          - {tekst: "Pravo kralja da obustavi zakone", tacan: false, zasto: "To je ono što je i engleska Povelja o pravima zabranila kralju."}
+          - {tekst: "Pravo na robove", tacan: false, zasto: "Odlomak ne govori o tome; govori o jednakosti ljudi."}
+        pomoc:
+          - "Prava su tri."
+          - "Jedno je da živiš, drugo da budeš slobodan, treće …"
+          - "Iz lekcije: neotuđiva prava su život, sloboda i težnja ka sreći."
+        objasnjenje: "Deklaracija navodi tri neotuđiva prava: život, slobodu i težnju ka sreći."
+        iz_udzbenika:
+          strana: 44
+          odeljak: "Svedočanstvo: Deklaracija nezavisnosti"
+          tekst: "Deklaracija navodi da su svi ljudi jednaki i da imaju pravo na život, slobodu i težnju ka sreći."
+
+      - id: l05-amr-izvor-vlade
+        vrsta: izvor
+        tezina: srednje
+        pojmovi: [deklaracija-nezavisnosti, neotudjiva-prava]
+        izvor:
+          autor: Deklaracija nezavisnosti, 1776.
+          naslov: O vladama (sažetak odlomka)
+          tekst: "Da bi se ta prava osigurala, ljudi ustanovljavaju vlade. Pravedna moć vlade potiče iz volje onih kojima ona upravlja."
+          napomena: "Odlomak je prepričan; udžbenik, str. 44."
+        pitanje: "Odakle, prema Deklaraciji, vlada dobija svoju pravednu moć?"
+        odgovori:
+          - {tekst: "Iz volje ljudi kojima upravlja", tacan: true}
+          - {tekst: "Od Boga, po božjoj milosti", tacan: false, zasto: "Tako su govorili kraljevi poput Stjuarta; Deklaracija vlast izvodi iz volje naroda."}
+          - {tekst: "Od britanskog parlamenta", tacan: false, zasto: "Kolonisti se upravo odvajaju od britanske vlasti."}
+          - {tekst: "Iz snage vojske", tacan: false, zasto: "Deklaracija govori o volji naroda, ne o sili."}
+        pomoc:
+          - "Šta je suprotno od „božje milosti”?"
+          - "Ko daje vlast vladi?"
+          - "Iz lekcije: pravedna moć vlade proističe iz volje onih kojima vlada."
+        objasnjenje: "Deklaracija kaže da vlast dolazi od naroda — suprotno ideji o vlasti po božjoj milosti."
+        iz_udzbenika:
+          strana: 44
+          odeljak: "Svedočanstvo: Deklaracija nezavisnosti"
+          tekst: "Vlade se osnivaju da čuvaju prava, a njihova pravedna moć potiče iz volje onih kojima vladaju."
+
+      - id: l05-amr-izvor-smena
+        vrsta: izvor
+        tezina: tesko
+        pojmovi: [deklaracija-nezavisnosti, neotudjiva-prava]
+        izvor:
+          autor: Deklaracija nezavisnosti, 1776.
+          naslov: O pravu naroda (sažetak odlomka)
+          tekst: "Kad god neki oblik vlade počne da šteti ciljevima zbog kojih je osnovan, narod ima pravo da ga promeni ili ukine i da osnuje novu vladu, onako kako smatra da će najbolje obezbediti svoju sigurnost i sreću."
+          napomena: "Odlomak je prepričan; udžbenik, str. 44."
+        pitanje: "Pod kojim uslovom, prema Deklaraciji, narod sme da smeni vladu?"
+        odgovori:
+          - {tekst: "Kad vlada počne da ugrožava prava zbog kojih je osnovana", tacan: true}
+          - {tekst: "Nikada — vladi se mora uvek pokoravati", tacan: false, zasto: "Deklaracija izričito daje narodu pravo da promeni ili ukine vladu."}
+          - {tekst: "Samo kada to dozvoli kralj", tacan: false, zasto: "Deklaracija se ne oslanja na kralja; pravo pripada narodu."}
+          - {tekst: "Svake godine, bez razloga", tacan: false, zasto: "Uslov je da vlada šteti pravima naroda."}
+        pomoc:
+          - "Zbog čega se, prema odlomku, vlade uopšte osnivaju?"
+          - "Šta ako vlada počne da radi suprotno tom cilju?"
+          - "Iz lekcije: kad oblik vlade postane štetan po te ciljeve, narod ima pravo da ga promeni ili ukine."
+        objasnjenje: "Vlada postoji da čuva prava; ako ih ugrožava, narod može da je promeni ili ukine — tako kolonisti opravdavaju odvajanje od Britanije."
+        iz_udzbenika:
+          strana: 44
+          odeljak: "Svedočanstvo: Deklaracija nezavisnosti"
+          tekst: "Udžbenik pita ima li narod pravo da smeni vladu i pod kojim uslovima."
+
+      - id: l05-amr-ko-sam-dzeferson
+        vrsta: ko_sam
+        tezina: tesko
+        pojmovi: [tomas-dzeferson, deklaracija-nezavisnosti, prosvetitelji]
+        tragovi:
+          - "Bio sam jedan od vođa američkih kolonista."
+          - "Ideje sam crpeo od francuskih prosvetitelja."
+          - "Sastavio sam dokument koji je Kongres izglasao 4. jula 1776."
+        odgovori:
+          - {tekst: "Tomas Džeferson", tacan: true}
+          - {tekst: "Džordž Vašington", tacan: false, zasto: "Vašington je bio glavni zapovednik vojske, a ne pisac Deklaracije."}
+          - {tekst: "Monteskje", tacan: false, zasto: "Monteskje je francuski prosvetitelj, a ne američki kolonista."}
+          - {tekst: "Oliver Kromvel", tacan: false, zasto: "Kromvel je engleski vođa iz XVII veka."}
+        objasnjenje: "To je Tomas Džeferson, pisac Deklaracije nezavisnosti."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Deklaraciju je, prema idejama francuskih prosvetitelja, sastavio Tomas Džeferson."
+
+      - id: l05-amr-uporedi-cajanka-jorktaun
+        vrsta: uporedi
+        tezina: lako
+        pojmovi: [bostonska-cajanka, jorktaun]
+        a: Bostonska čajanka
+        b: Jorktaun
+        pitanje: "Na koji događaj se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Dogodio se 1773.", odgovor: a, zasto: "Bostonska čajanka je 1773."}
+          - {tekst: "Dogodio se 1781.", odgovor: b, zasto: "Predaja kod Jorktauna je 1781."}
+          - {tekst: "Kolonisti prerušeni u Indijance bacaju čaj u more.", odgovor: a, zasto: "To je Bostonska čajanka."}
+          - {tekst: "Pomogli su francuski ratni brodovi i vojska.", odgovor: b, zasto: "Kod Jorktauna Vašington pobeđuje uz francusku pomoć."}
+          - {tekst: "Deo je borbe kolonista protiv britanske vlasti.", odgovor: oba, zasto: "Čajanka je povod, a Jorktaun odlučujuća pobeda iste borbe."}
+          - {tekst: "Tu je potpisan mir 1783.", odgovor: nijedan, zasto: "Mir je potpisan u Parizu."}
+        pomoc:
+          - "Jedan događaj je povod, drugi odlučujuća pobeda."
+          - "Ko je pomagao Vašingtonu na kraju rata?"
+          - "Iz lekcije: Bostonska čajanka 1773; Jorktaun 1781 uz francusku pomoć; mir u Parizu 1783."
+        objasnjenje: "Čajanka (1773) je povod revolucije, Jorktaun (1781) odlučujuća pobeda; mir je potpisan u Parizu."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Lekcija opisuje Bostonsku čajanku kao povod i predaju kod Jorktauna kao odlučujući događaj."
+
+      - id: l05-amr-uporedi-revolucije
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [engleska-revolucija, americka-revolucija, republika]
+        a: Engleska u XVII veku (Građanski rat i Slavna revolucija)
+        b: Američka revolucija
+        pitanje: "Na koju revoluciju se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Kralj je izveden pred sud i osuđen na smrt.", odgovor: a, zasto: "Čarls I je osuđen posle Građanskog rata; u Americi kralj nije suđen."}
+          - {tekst: "Nastala je nova, nezavisna država.", odgovor: b, zasto: "Iz kolonija su nastale SAD; Engleska je ostala ista država."}
+          - {tekst: "Pomogla je strana sila, Francuska.", odgovor: b, zasto: "Francuska je pomagala američke koloniste."}
+          - {tekst: "Vodila se protiv neograničene vlasti kralja (krune).", odgovor: oba, zasto: "U Engleskoj protiv Stjuarta, u Americi protiv britanske krune i njenih mera."}
+          - {tekst: "Posle nje je bila uspostavljena republika.", odgovor: oba, zasto: "Engleska je posle Građanskog rata proglašena republikom, a SAD su republika od nastanka."}
+          - {tekst: "Počela je u Francuskoj.", odgovor: nijedan, zasto: "Jedna je u Engleskoj, druga u Severnoj Americi."}
+        pomoc:
+          - "Šta se desilo sa kraljem u Engleskoj, a šta sa kolonijama u Americi?"
+          - "U obe se vodi borba protiv vlasti krune."
+          - "Iz lekcije: Engleska — suđenje kralju, republika, pa parlamentarna monarhija; Amerika — nezavisnost uz pomoć Francuske, republika."
+        objasnjenje: "Obe revolucije ograničavaju ili odbacuju vlast krune i vode do republike, ali samo američka stvara novu državu i to uz francusku pomoć."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Lekcija opisuje dve revolucije: englesku u XVII i američku u XVIII veku."
+
+      - id: l05-amr-objasni-cajanka
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [bostonska-cajanka, kongres, americka-revolucija]
+        pitanje: "Šta je bila Bostonska čajanka i zašto se smatra povodom Američke revolucije?"
+        uzor: "Britanska vlada je 1773. htela da u kolonijama rasproda čaj iz Indije. Kolonisti su to sprečavali, a u Bostonu su, prerušeni u Indijance, bacili tovare čaja sa britanskih brodova u more. Britanci su zatvorili luku i doveli nove trupe, a te „nepodnošljive” mere bile su povod za prvi kongres kolonista u Filadelfiji 1774, što neki istoričari smatraju početkom revolucije."
+        ideje:
+          - "Britanija hoće da proda čaj iz Indije u kolonijama."
+          - "Kolonisti prerušeni u Indijance bacaju čaj u more (1773)."
+          - "Britanci zatvaraju luku i dovode trupe („nepodnošljive mere”)."
+          - "Povod za prvi kongres u Filadelfiji 1774."
+        objasnjenje: "Čajanka je izazvala oštre britanske kazne, a one su ujedinile koloniste na prvom kongresu."
+        iz_udzbenika:
+          strana: 43
+          odeljak: "Znatiželja: Bostonska čajanka"
+          tekst: "Bostonska čajanka 1773. i britanske kazne bile su povod za prvi kongres kolonista 1774."
+          slika: 05-engleska-i-americka-revolucija/06-bostonska-cajanka.jpg
+
+      - id: l05-amr-objasni-francuska
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [francuska, jorktaun, pariski-mir-1783]
+        pitanje: "Zašto je ulazak Francuske u rat bio prekretnica za američke koloniste?"
+        uzor: "Francuska je želela da nanese što veću štetu Britaniji, pa je pomogla kolonistima ratnim brodovima i redovnom vojskom. Uz tu pomoć Vašington je 1781. primorao Britance na predaju kod Jorktauna. Mešanje Francuske i drugih sila nateralo je Britaniju na mir u Parizu 1783. i priznanje SAD."
+        ideje:
+          - "Francuska hoće da naudi Britaniji."
+          - "Pomaže ratnim brodovima i vojskom."
+          - "Pobeda kod Jorktauna 1781."
+          - "Britanija pristaje na mir u Parizu 1783."
+        objasnjenje: "Bez francuske flote i vojske kolonisti teško da bi pobedili kod Jorktauna i izborili mir."
+        iz_udzbenika:
+          strana: 43
+          odeljak: Američka revolucija
+          tekst: "Uz francusku pomoć Britanci su se predali kod Jorktauna 1781, a mir u Parizu 1783. priznao je SAD."
+
+      - id: l05-amr-objasni-deklaracija
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [deklaracija-nezavisnosti, neotudjiva-prava]
+        pitanje: "Prema Deklaraciji nezavisnosti, zašto nastaju vlade i ima li narod pravo da smeni vladu? Šta ti misliš o tome?"
+        uzor: "Prema Deklaraciji, svi ljudi su jednaki i imaju neotuđiva prava na život, slobodu i težnju ka sreći. Vlade nastaju da bi čuvale ta prava, a moć dobijaju od naroda. Ako vlada počne da ugrožava ta prava, narod ima pravo da je promeni ili ukine i osnuje novu. Mislim da je to pravedno, jer vlast treba da služi ljudima."
+        ideje:
+          - "Neotuđiva prava: život, sloboda, težnja ka sreći."
+          - "Vlade nastaju da čuvaju ta prava."
+          - "Moć vlade potiče iz volje naroda."
+          - "Narod može da promeni vladu koja ugrožava ta prava (+ lični stav)."
+        objasnjenje: "Deklaracija vlast zasniva na narodu, a ne na božjoj milosti — zato narod može i da je smeni."
+        iz_udzbenika:
+          strana: 44
+          odeljak: "Svedočanstvo: Deklaracija nezavisnosti"
+          tekst: "Udžbenik pita koja su neotuđiva prava, zašto nastaju vlade i ima li narod pravo da smeni vladu."
+
+  # ==========================================================================
+  - naslov: Uređenje Sjedinjenih Američkih Država
+    zadaci:
+      - id: l05-sad-izbor-republika
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [republika, sjedinjene-americke-drzave]
+        pitanje: "Kako je bila uređena nova američka država?"
+        odgovori:
+          - {tekst: "Kao republika", tacan: true}
+          - {tekst: "Kao apsolutistička monarhija", tacan: false, zasto: "SAD nisu imale kralja; predsednika su birali građani."}
+          - {tekst: "Kao parlamentarna monarhija", tacan: false, zasto: "To je britansko uređenje; u SAD nema vladara."}
+          - {tekst: "Kao kolonija Francuske", tacan: false, zasto: "SAD su postale nezavisne; Francuska im je samo pomogla u ratu."}
+        pomoc:
+          - "Ko je na čelu SAD — kralj ili izabrani predsednik?"
+          - "Država bez kralja je …"
+          - "Iz lekcije: nova država bila je organizovana kao republika."
+        objasnjenje: "SAD su republika: na čelu je predsednik koga biraju građani."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Nova država bila je organizovana kao republika."
+
+      - id: l05-sad-izbor-mandat
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [predsednik]
+        pitanje: "Na koliko godina se birao američki predsednik?"
+        odgovori:
+          - {tekst: "Na četiri godine", tacan: true}
+          - {tekst: "Doživotno", tacan: false, zasto: "Doživotno je vladao Kromvel u Engleskoj; u SAD predsednik se bira na četiri godine."}
+          - {tekst: "Na jednu godinu", tacan: false, zasto: "Mandat je četiri godine."}
+          - {tekst: "Na četrdeset godina", tacan: false, zasto: "Mandat je četiri, ne četrdeset godina."}
+        pomoc:
+          - "Mandat je kraći od deset godina."
+          - "Izbori su svake … godine."
+          - "Iz lekcije: predsednik je biran na četiri godine."
+        objasnjenje: "Izvršnu vlast u SAD ima predsednik biran na četiri godine."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Izvršnu vlast je predstavljao predsednik biran na četiri godine."
+
+      - id: l05-sad-izbor-kongres
+        vrsta: izbor
+        tezina: lako
+        pojmovi: [kongres, senat, predstavnicki-dom]
+        pitanje: "Od koja dva tela se sastojao američki Kongres?"
+        odgovori:
+          - {tekst: "Senata i Predstavničkog doma", tacan: true}
+          - {tekst: "Gornjeg doma i Donjeg doma", tacan: false, zasto: "To su domovi britanskog parlamenta."}
+          - {tekst: "Predsednika i Vrhovnog suda", tacan: false, zasto: "Predsednik je izvršna, a Vrhovni sud sudska vlast — nisu delovi Kongresa."}
+          - {tekst: "Vigovaca i torijevaca", tacan: false, zasto: "To su britanske stranke, ne tela Kongresa."}
+        pomoc:
+          - "Kongres je zakonodavna vlast SAD."
+          - "Jedno telo ima ime koje podseća na stari Rim."
+          - "Iz lekcije: Kongres čine Senat i Predstavnički dom."
+        objasnjenje: "Zakonodavnu vlast u SAD ima Kongres sa dva tela — Senatom i Predstavničkim domom."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Zakonodavnu vlast predstavljao je Kongres, sastavljen od Senata i Predstavničkog doma."
+
+      - id: l05-sad-izbor-bez-prava
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [pravo-glasa, indijanci, robovlasnistvo]
+        pitanje: "Ko je u SAD krajem XVIII veka bio lišen političkih prava? (više tačnih)"
+        odgovori:
+          - {tekst: "Siromašni belci", tacan: true}
+          - {tekst: "Žene", tacan: true}
+          - {tekst: "Crni robovi", tacan: true}
+          - {tekst: "Starosedeoci (Indijanci)", tacan: true}
+          - {tekst: "Beli vlasnici zemlje", tacan: false, zasto: "Samo su oni imali pravo da biraju i budu birani."}
+        pomoc:
+          - "Ko je JEDINI imao pravo glasa?"
+          - "Svi ostali su bez prava."
+          - "Iz lekcije: pravo glasa samo beli zemljoposednici; siromašni belci, žene, crni robovi i Indijanci bez političkih prava."
+        objasnjenje: "Pravo da biraju i budu birani imali su samo beli vlasnici zemlje; svi ostali — siromašni belci, žene, robovi i Indijanci — bili su bez političkih prava."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Siromašni belci, žene, crni robovi i starosedeoci bili su lišeni političkih prava."
+
+      - id: l05-sad-izbor-ime-grada
+        vrsta: izbor
+        tezina: srednje
+        pojmovi: [vasington-grad, dzordz-vasington]
+        pitanje: "Zašto je glavni grad SAD, osnovan 1800, dobio ime po Džordžu Vašingtonu?"
+        odgovori:
+          - {tekst: "Kao junak revolucije i prvi predsednik uživao je veliki ugled", tacan: true}
+          - {tekst: "Zato što je on lično sagradio grad", tacan: false, zasto: "Lekcija razlog vidi u njegovom ugledu, ne u gradnji."}
+          - {tekst: "Zato što je sastavio Deklaraciju nezavisnosti", tacan: false, zasto: "Deklaraciju je sastavio Džeferson."}
+          - {tekst: "Zato što je bio britanski kralj", tacan: false, zasto: "Vašington je vodio vojsku protiv Britanije."}
+        pomoc:
+          - "Šta je Vašington radio u ratu, a šta posle njega?"
+          - "Ljudi su ga veoma poštovali."
+          - "Iz lekcije: kao jedan od junaka revolucije uživao je veliki ugled; glavni grad je nazvan po njemu."
+        objasnjenje: "Vašington je bio junak revolucije i prvi predsednik, pa je po njemu nazvan glavni grad osnovan 1800."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Vašington je kao junak revolucije uživao veliki ugled; glavni grad SAD, osnovan 1800, dobio je ime po njemu."
+          slika: 05-engleska-i-americka-revolucija/07-dzordz-vasington.jpg
+
+      - id: l05-sad-tn-prvi-predsednik
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [dzordz-vasington, predsednik]
+        tvrdnja: "Za prvog američkog predsednika 1789. izabran je Džordž Vašington."
+        tacno: true
+        pomoc:
+          - "Ko je vodio vojsku kolonista?"
+          - "Iz lekcije: prvi predsednik bio je Džordž Vašington, izabran 1789."
+        objasnjenje: "Tačno — Džordž Vašington je 1789. postao prvi predsednik SAD."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Za prvog američkog predsednika izabran je Džordž Vašington 1789."
+          slika: 05-engleska-i-americka-revolucija/07-dzordz-vasington.jpg
+        osa: {naziv: "Džordž Vašington, prvi predsednik SAD", od: 1789, traka: vladari}
+
+      - id: l05-sad-tn-federacija
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [federacija]
+        tvrdnja: "Bivše kolonije su se ujedinile u savez država — federaciju."
+        tacno: true
+        pomoc:
+          - "Svaka kolonija je postala posebna država — šta su onda uradile?"
+          - "Iz lekcije: bivše kolonije su se ujedinile u savez država (federaciju)."
+        objasnjenje: "Tačno — samostalne bivše kolonije ujedinile su se u federaciju."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Bivše kolonije bile su zasebne države i ujedinile su se u savez država (federaciju)."
+
+      - id: l05-sad-tn-dzeferson-grad
+        vrsta: tacno_netacno
+        tezina: lako
+        pojmovi: [vasington-grad, tomas-dzeferson]
+        tvrdnja: "Glavni grad SAD, osnovan 1800, dobio je ime po Tomasu Džefersonu."
+        tacno: false
+        ispravke:
+          - {tekst: "Glavni grad je dobio ime po Džordžu Vašingtonu.", tacan: true}
+          - {tekst: "Glavni grad je dobio ime po Filadelfiji.", tacan: false, zasto: "Filadelfija je poseban grad, gde je zasedao Kongres."}
+          - {tekst: "Glavni grad je Boston, osnovan 1800.", tacan: false, zasto: "Boston je stari kolonijalni grad; glavni grad je Vašington."}
+        pomoc:
+          - "Ko je prvi predsednik i junak revolucije?"
+          - "Grad se zove kao on."
+          - "Iz lekcije: glavni grad SAD, osnovan 1800, dobio je ime po Vašingtonu."
+        objasnjenje: "Netačno — glavni grad nosi ime Džordža Vašingtona."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Glavni grad SAD, osnovan 1800, dobio je ime po Vašingtonu."
+
+      - id: l05-sad-tn-vrhovni-sud
+        vrsta: tacno_netacno
+        tezina: tesko
+        pojmovi: [vrhovni-sud, podela-vlasti, predsednik]
+        tvrdnja: "U SAD su Kongres i Vrhovni sud bili podređeni predsedniku."
+        tacno: false
+        ispravke:
+          - {tekst: "Svaka od tri grane vlasti je nezavisna; one sarađuju i nadziru jedna drugu, a sva tela su pod nadzorom Vrhovnog suda.", tacan: true}
+          - {tekst: "Predsednik i Vrhovni sud bili su podređeni britanskom kralju.", tacan: false, zasto: "SAD su nezavisne od 1783; nemaju kralja."}
+          - {tekst: "Vrhovni sud je birao predsednika svake godine.", tacan: false, zasto: "Predsednika biraju građani na izborima, na četiri godine."}
+        pomoc:
+          - "Seti se podele vlasti iz lekcije o prosvetiteljima (Monteskje)."
+          - "Da li je ijedna grana iznad drugih?"
+          - "Iz lekcije: svaka grana vlasti je nezavisna; sva tela su pod nadzorom Vrhovnog suda."
+        objasnjenje: "Netačno — grane vlasti su nezavisne i nadziru jedna drugu; tako se sprečava kršenje ustava."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Sva tela vlasti su pod nadzorom Vrhovnog suda; svaka grana je nezavisna, a grane sarađuju i nadziru jedna drugu."
+
+      - id: l05-sad-dopuni-grane
+        vrsta: dopuni
+        tezina: lako
+        pojmovi: [podela-vlasti, ustav]
+        pitanje: "Dopuni rečenicu."
+        tekst: "Ustav je predvideo podelu vlasti na tri grane: {{izvršnu}}, {{zakonodavnu}} i {{sudsku}}."
+        ponudjene: [izvršnu, zakonodavnu, sudsku, crkvenu, plemićku, kraljevsku]
+        pomoc:
+          - "Jedna grana sprovodi, druga donosi zakone, treća sudi."
+          - "Isto je predlagao Monteskje."
+          - "Iz lekcije: izvršna, zakonodavna i sudska vlast."
+        objasnjenje: "Ustav SAD deli vlast na izvršnu (predsednik), zakonodavnu (Kongres) i sudsku (Vrhovni sud)."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Ustav je predvideo podelu vlasti na izvršnu, zakonodavnu i sudsku."
+
+      - id: l05-sad-dopuni-definicije
+        vrsta: dopuni
+        tezina: srednje
+        pojmovi: [federacija, ustav, kongres]
+        pitanje: "Dopuni objašnjenja pojmova."
+        tekst: "Federacija je {{savez}} država u kome svaka savezna jedinica ima poseban položaj i samostalno odlučuje o državnim poslovima. Ustav je {{najviši}} pravni akt jedne zemlje. Kongres je naziv za američki {{parlament}}."
+        ponudjene: [savez, najviši, parlament, najniži, sud, rat]
+        pomoc:
+          - "Federacija spaja više država."
+          - "Iznad ustava nema drugog zakona."
+          - "Iz lekcije: federacija — savez država; ustav — najviši pravni akt; kongres — američki parlament."
+        objasnjenje: "Federacija = savez država; ustav = najviši pravni akt; Kongres = američki parlament."
+        iz_udzbenika:
+          strana: 44
+          odeljak: "Definicije: federacija, ustav, kongres"
+          tekst: "Federacija je savez država, ustav najviši pravni akt, a kongres naziv za američki parlament."
+
+      - id: l05-sad-povezi-grane
+        vrsta: povezi
+        tezina: lako
+        pojmovi: [podela-vlasti, predsednik, kongres, vrhovni-sud]
+        pitanje: "Poveži granu vlasti sa telom koje je predstavlja u SAD."
+        parovi:
+          - ["Izvršna vlast", "predsednik"]
+          - ["Zakonodavna vlast", "Kongres (Senat i Predstavnički dom)"]
+          - ["Sudska vlast", "Vrhovni sud"]
+        pomoc:
+          - "Zakone donosi skupština predstavnika."
+          - "Predsednik sprovodi odluke."
+          - "Iz lekcije: izvršna — predsednik; zakonodavna — Kongres; nadzor nad svim telima — Vrhovni sud."
+        objasnjenje: "Predsednik je izvršna, Kongres zakonodavna, a Vrhovni sud sudska vlast."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Izvršnu vlast ima predsednik, zakonodavnu Kongres, a sva tela su pod nadzorom Vrhovnog suda."
+
+      - id: l05-sad-povezi-pojmovi
+        vrsta: povezi
+        tezina: srednje
+        pojmovi: [federacija, ustav, kongres, parlamentarna-monarhija]
+        pitanje: "Poveži pojam sa objašnjenjem."
+        parovi:
+          - ["Federacija", "savez država sa samostalnim jedinicama"]
+          - ["Ustav", "najviši pravni akt zemlje"]
+          - ["Kongres", "američki parlament"]
+          - ["Parlamentarna monarhija", "vladar deli vlast sa parlamentom"]
+        pomoc:
+          - "Dva pojma su iz američkog, jedan iz britanskog uređenja, a jedan važi za svaku zemlju."
+          - "Najviši zakon je …"
+          - "Iz lekcije: federacija — savez država; ustav — najviši pravni akt; kongres — američki parlament; parlamentarna monarhija — vladar deli vlast sa parlamentom."
+        objasnjenje: "Pojmovi iz „?” kućica na str. 41 i 44."
+        iz_udzbenika:
+          strana: 44
+          odeljak: "Definicije: federacija, ustav, kongres"
+          tekst: "Udžbenik objašnjava pojmove federacija, ustav, kongres i parlamentarna monarhija."
+
+      - id: l05-sad-datum-ustav
+        vrsta: datum
+        tezina: lako
+        pojmovi: [ustav, kongres]
+        dogadjaj: Ustav SAD
+        pitanje: "Koje godine je Kongres doneo američki ustav?"
+        godina: 1787
+        traka: dogadjaji
+        pomoc:
+          - "Nekoliko godina posle mira u Parizu (1783)."
+          - "Dve godine pre izbora prvog predsednika (1789)."
+          - "Iz lekcije: Kongres je 1787. doneo američki ustav."
+        objasnjenje: "Američki ustav donet je 1787; po njemu je 1789. izabran prvi predsednik."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Kongres je 1787. doneo američki ustav."
+
+      - id: l05-sad-datum-predsednik
+        vrsta: datum
+        tezina: srednje
+        pojmovi: [dzordz-vasington, predsednik]
+        dogadjaj: Džordž Vašington, prvi predsednik SAD
+        pitanje: "Koje godine je Džordž Vašington izabran za prvog predsednika SAD?"
+        godina: 1789
+        traka: vladari
+        pomoc:
+          - "Dve godine posle ustava (1787)."
+          - "Iste godine počinje i Francuska revolucija."
+          - "Iz lekcije: Vašington je izabran 1789."
+        objasnjenje: "Džordž Vašington postao je prvi predsednik SAD 1789."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Za prvog američkog predsednika izabran je Džordž Vašington 1789."
+
+      - id: l05-sad-datum-grad
+        vrsta: datum
+        tezina: tesko
+        pojmovi: [vasington-grad]
+        dogadjaj: Osnovan grad Vašington
+        pitanje: "Koje godine je osnovan glavni grad SAD, Vašington?"
+        godina: 1800
+        traka: dogadjaji
+        pomoc:
+          - "Na samom prelazu iz XVIII u XIX vek."
+          - "Okrugla godina."
+          - "Iz lekcije: glavni grad SAD osnovan je 1800."
+        objasnjenje: "Grad Vašington, glavni grad SAD, osnovan je 1800. i nazvan po prvom predsedniku."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Glavni grad SAD, osnovan 1800, dobio je ime po Vašingtonu."
+
+      - id: l05-sad-poredjaj-lekcija
+        vrsta: poredjaj
+        tezina: tesko
+        pojmovi: [gradjanski-rat-u-engleskoj, slavna-revolucija, bostonska-cajanka, deklaracija-nezavisnosti, ustav, dzordz-vasington]
+        pitanje: "Poređaj događaje iz cele lekcije od najranijeg."
+        stavke:
+          - {tekst: "Građanski rat u Engleskoj", godina: 1642, do: 1649, naziv: Građanski rat u Engleskoj, traka: dogadjaji}
+          - {tekst: "Slavna (Beskrvna) revolucija", godina: 1688, naziv: Slavna revolucija, traka: dogadjaji}
+          - {tekst: "Bostonska čajanka", godina: 1773, naziv: Bostonska čajanka, traka: dogadjaji}
+          - {tekst: "Deklaracija nezavisnosti", godina: 1776, naziv: Deklaracija nezavisnosti, traka: dogadjaji}
+          - {tekst: "Ustav SAD", godina: 1787, naziv: Ustav SAD, traka: dogadjaji}
+          - {tekst: "Vašington postaje prvi predsednik SAD", godina: 1789, naziv: "Džordž Vašington, prvi predsednik SAD", traka: vladari}
+        pomoc:
+          - "Engleski događaji su u XVII veku, američki u XVIII."
+          - "U Americi: povod, pa nezavisnost, pa uređenje države."
+          - "Iz lekcije: 1642, 1688, 1773, 1776, 1787, 1789."
+        objasnjenje: "Građanski rat (1642–1649) → Slavna revolucija (1688) → Bostonska čajanka (1773) → Deklaracija (1776) → ustav (1787) → Vašington predsednik (1789)."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Lekcija vodi od engleskog Građanskog rata do prvog američkog predsednika."
+
+      - id: l05-sad-lanac-federacija
+        vrsta: lanac
+        tezina: srednje
+        pojmovi: [federacija, ustav, kongres]
+        karike:
+          - "Bivše kolonije postaju zasebne države"
+          - "?"
+          - "Kongres 1787. donosi američki ustav"
+        praznina: 1
+        odgovori:
+          - {tekst: "Ujedinjuju se u savez država — federaciju", tacan: true}
+          - {tekst: "Ponovo postaju britanske kolonije", tacan: false, zasto: "Britanija je 1783. priznala njihovu nezavisnost."}
+          - {tekst: "Biraju zajedničkog kralja", tacan: false, zasto: "Nova država je republika — bez kralja."}
+        pomoc:
+          - "Male države su se udružile."
+          - "Kako se zove savez država?"
+          - "Iz lekcije: bivše kolonije ujedinile su se u savez država (federaciju)."
+        objasnjenje: "Zasebne države udružile su se u federaciju, a zajednički ustav dobile su 1787."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Bivše kolonije ujedinile su se u federaciju; Kongres je 1787. doneo ustav."
+        osa: {naziv: Ustav SAD, od: 1787, traka: dogadjaji}
+
+      - id: l05-sad-lanac-pravo-glasa
+        vrsta: lanac
+        tezina: tesko
+        pojmovi: [pravo-glasa, indijanci]
+        karike:
+          - "Pravo da biraju i budu birani imaju samo beli vlasnici zemlje"
+          - "?"
+          - "U politici SAD učestvuje samo manji deo stanovništva"
+        praznina: 1
+        odgovori:
+          - {tekst: "Siromašni belci, žene, crni robovi i Indijanci ostaju bez političkih prava", tacan: true}
+          - {tekst: "Svi građani dobijaju pravo glasa", tacan: false, zasto: "Pravo glasa imali su samo beli zemljoposednici."}
+          - {tekst: "Vlast prelazi na britanskog kralja", tacan: false, zasto: "SAD su nezavisna republika."}
+        pomoc:
+          - "Korak 1: Ko sve NIJE beli zemljoposednik?"
+          - "Korak 2: Šta to znači za njihova prava?"
+          - "Iz lekcije: siromašni belci, žene, crni robovi i starosedeoci bili su lišeni političkih prava."
+        objasnjenje: "Pošto su glasali samo beli zemljoposednici, većina ljudi bila je bez političkih prava — kao i u Britaniji, politika je bila stvar manjine."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Samo beli zemljoposednici imali su pravo glasa, pa je u politici učestvovao manji deo stanovništva."
+
+      - id: l05-sad-zakljuci-nadzor
+        vrsta: zakljuci
+        tezina: srednje
+        pojmovi: [podela-vlasti, vrhovni-sud, ustav]
+        pitanje: "Zašto su tri grane vlasti u SAD nezavisne i nadziru jedna drugu?"
+        odgovori:
+          - {tekst: "Da nijedna ne bi zloupotrebila vlast i da se spreči kršenje ustava", tacan: true}
+          - {tekst: "Da bi predsednik mogao da vlada doživotno", tacan: false, zasto: "Predsednik se bira na četiri godine; nadzor upravo ograničava moć."}
+          - {tekst: "Da bi britanski kralj lakše upravljao Amerikom", tacan: false, zasto: "SAD su nezavisne i nemaju kralja."}
+          - {tekst: "Da bi se ukinuli izbori", tacan: false, zasto: "Predsednik i Kongres se biraju na izborima."}
+        pomoc:
+          - "Korak 1: Šta bi se moglo desiti da jedna grana ima svu vlast?"
+          - "Korak 2: Šta grane međusobno sprečavaju?"
+          - "Iz lekcije: grane sarađuju, ali i nadziru jedna drugu i sprečavaju kršenje ustava."
+        objasnjenje: "Podela i međusobni nadzor sprečavaju da se vlast skupi u jednim rukama i da se krši ustav — ideja Monteskjea."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Tri grane vlasti sarađuju, ali i nadziru jedna drugu i sprečavaju kršenje ustava."
+
+      - id: l05-sad-zakljuci-ustav-bez-vladara
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [ustav, republika]
+        pitanje: "Po čemu se ustav SAD razlikovao od ustava u državama zapadne Evrope?"
+        odgovori:
+          - {tekst: "Nije služio da ograniči moć vladara, jer vladara nije bilo — sve vlasti birali su građani", tacan: true}
+          - {tekst: "Davao je kralju neograničenu vlast", tacan: false, zasto: "U SAD nije bilo kralja."}
+          - {tekst: "Davao je pravo glasa svim stanovnicima", tacan: false, zasto: "Pravo glasa imali su samo beli zemljoposednici."}
+          - {tekst: "Nije predviđao nikakvu podelu vlasti", tacan: false, zasto: "Predviđao je tri grane vlasti."}
+        pomoc:
+          - "Korak 1: Čemu su služili ustavi u evropskim monarhijama?"
+          - "Korak 2: Da li je u SAD postojao kralj ili car?"
+          - "Iz lekcije: ustav u SAD nije služio ograničavanju moći vladara jer vladara nije bilo."
+        objasnjenje: "U Evropi je ustav ograničavao kralja; u SAD kralja nije bilo, pa je ustav uredio vlast koju biraju građani."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Za razliku od zapadne Evrope, ustav u SAD nije služio ograničavanju moći vladara, jer vladara nije bilo."
+
+      - id: l05-sad-zakljuci-jednakost
+        vrsta: zakljuci
+        tezina: tesko
+        pojmovi: [deklaracija-nezavisnosti, pravo-glasa, robovlasnistvo]
+        pitanje: "Deklaracija kaže da su svi ljudi stvoreni jednaki. Koja suprotnost postoji između te ideje i stvarnog uređenja SAD?"
+        odgovori:
+          - {tekst: "Pravo glasa imali su samo beli zemljoposednici, a robovi, žene, siromašni i Indijanci bili su bez prava", tacan: true}
+          - {tekst: "SAD su imale kralja koji je vladao po božjoj milosti", tacan: false, zasto: "SAD su republika bez kralja."}
+          - {tekst: "Predsednik je vladao doživotno", tacan: false, zasto: "Predsednik se birao na četiri godine."}
+          - {tekst: "Nema suprotnosti — svi su imali ista prava", tacan: false, zasto: "Većina stanovnika bila je lišena političkih prava, a postojalo je i ropstvo."}
+        pomoc:
+          - "Korak 1: Ko je imao pravo glasa?"
+          - "Korak 2: Da li su svi ljudi tada bili jednaki pred zakonom?"
+          - "Iz lekcije: samo beli vlasnici zemlje biraju i biraju se; žene, siromašni belci, robovi i Indijanci su bez političkih prava."
+        objasnjenje: "Ideja jednakosti iz Deklaracije nije važila za sve: ropstvo je ostalo, a pravo glasa imala je samo manjina."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Iako Deklaracija govori o jednakosti, pravo glasa imali su samo beli zemljoposednici."
+
+      - id: l05-sad-ko-sam-vasington
+        vrsta: ko_sam
+        tezina: lako
+        pojmovi: [dzordz-vasington, predsednik, jorktaun]
+        tragovi:
+          - "Pre revolucije istakao sam se u britanskoj službi."
+          - "Kao glavni zapovednik kolonista primorao sam Britance na predaju kod Jorktauna."
+          - "Postao sam prvi predsednik SAD 1789, a po meni je nazvan glavni grad."
+        odgovori:
+          - {tekst: "Džordž Vašington", tacan: true}
+          - {tekst: "Tomas Džeferson", tacan: false, zasto: "Džeferson je sastavio Deklaraciju, nije vodio vojsku."}
+          - {tekst: "Oliver Kromvel", tacan: false, zasto: "Kromvel je vodio engleski parlament u XVII veku."}
+          - {tekst: "Čarls I", tacan: false, zasto: "Čarls I je engleski kralj iz XVII veka."}
+        objasnjenje: "To je Džordž Vašington — zapovednik kolonista, prvi predsednik SAD."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Vašington je, kao junak revolucije, 1789. izabran za prvog predsednika SAD."
+          slika: 05-engleska-i-americka-revolucija/07-dzordz-vasington.jpg
+
+      - id: l05-sad-ko-sam-vasington-portret
+        vrsta: ko_sam
+        slika_u_pitanju: true
+        tezina: srednje
+        pojmovi: [dzordz-vasington, vasington-grad]
+        tragovi:
+          - "Na portretu iz udžbenika imam belu kosu i belu čipkastu maramu oko vrata."
+          - "Kongres mi je poverio komandu nad vojskom pobunjenih kolonija."
+          - "Glavni grad SAD, osnovan 1800, nosi moje ime."
+        odgovori:
+          - {tekst: "Džordž Vašington", tacan: true}
+          - {tekst: "Oliver Kromvel", tacan: false, zasto: "Kromvel je na portretu u oklopu, sa dugom tamnom kosom."}
+          - {tekst: "Tomas Džeferson", tacan: false, zasto: "Po Džefersonu nije nazvan glavni grad, niti je komandovao vojskom."}
+          - {tekst: "Volter", tacan: false, zasto: "Volter je francuski prosvetitelj."}
+        objasnjenje: "Portret prikazuje Džordža Vašingtona, po kome je nazvan glavni grad SAD."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Uz tekst o uređenju SAD nalazi se portret Džordža Vašingtona."
+          slika: 05-engleska-i-americka-revolucija/07-dzordz-vasington.jpg
+
+      - id: l05-sad-uporedi-britanija-sad
+        vrsta: uporedi
+        tezina: srednje
+        pojmovi: [velika-britanija, sjedinjene-americke-drzave, pravo-glasa]
+        a: Velika Britanija (XVIII vek)
+        b: SAD (kraj XVIII veka)
+        pitanje: "Na koju državu se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Na čelu države je kralj.", odgovor: a, zasto: "Velika Britanija je parlamentarna monarhija; SAD imaju predsednika."}
+          - {tekst: "Na čelu je predsednik biran na četiri godine.", odgovor: b, zasto: "To je američko rešenje."}
+          - {tekst: "Članovi jednog doma parlamenta mesto nasleđuju.", odgovor: a, zasto: "Dom lordova je nasledni; u SAD se biraju i predsednik i Kongres."}
+          - {tekst: "Samo manji deo stanovništva učestvuje u politici.", odgovor: oba, zasto: "Lekcija izričito kaže: kao i u Velikoj Britaniji, i u SAD je u politici učestvovao manji deo stanovništva."}
+          - {tekst: "Parlament ima dva doma (tela).", odgovor: oba, zasto: "Britanija: Gornji i Donji dom; SAD: Senat i Predstavnički dom."}
+          - {tekst: "Vladar vlada apsolutistički, bez ikakvog parlamenta.", odgovor: nijedan, zasto: "Britanski kralj je posle 1689. vezan za parlament, a SAD nemaju vladara."}
+        pomoc:
+          - "Jedna država je monarhija, druga republika."
+          - "Seti se šta lekcija kaže za pravo glasa u obe zemlje."
+          - "Iz lekcije: Britanija — kralj, nasledni Dom lordova; SAD — predsednik na 4 godine; u obe mali deo stanovništva glasa."
+        objasnjenje: "Britanija je parlamentarna monarhija, SAD republika; obe imaju dvodomni parlament i u obe politiku vodi manjina."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Kao i u Velikoj Britaniji, u politici SAD je krajem XVIII i u prvoj polovini XIX veka učestvovao manji deo stanovništva."
+
+      - id: l05-sad-uporedi-grane
+        vrsta: uporedi
+        tezina: tesko
+        pojmovi: [predsednik, kongres, podela-vlasti]
+        a: Izvršna vlast (predsednik)
+        b: Zakonodavna vlast (Kongres)
+        pitanje: "Na koju granu vlasti u SAD se odnosi tvrdnja?"
+        tvrdnje:
+          - {tekst: "Bira se na četiri godine i ima je jedna osoba.", odgovor: a, zasto: "Predsednik se bira na četiri godine."}
+          - {tekst: "Sastoji se od Senata i Predstavničkog doma.", odgovor: b, zasto: "To su dva tela Kongresa."}
+          - {tekst: "Biraju je građani na izborima.", odgovor: oba, zasto: "I predsednika i članove Kongresa birali su građani."}
+          - {tekst: "Pod nadzorom je Vrhovnog suda.", odgovor: oba, zasto: "Sva tela vlasti bila su pod nadzorom Vrhovnog suda."}
+          - {tekst: "Mesto se nasleđuje po rođenju.", odgovor: nijedan, zasto: "U SAD se ništa ne nasleđuje — sve se bira."}
+        pomoc:
+          - "Jedna grana je jedan čovek, druga skupština."
+          - "Obe su izborne i obe nadzire sud."
+          - "Iz lekcije: predsednik na 4 godine; Kongres — Senat i Predstavnički dom; sve biraju građani i nadzire Vrhovni sud."
+        objasnjenje: "Predsednik i Kongres su različite grane, ali obe biraju građani i obe nadzire Vrhovni sud."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Predsednika i članove Kongresa birali su građani, a sva tela vlasti nadzirao je Vrhovni sud."
+
+      - id: l05-sad-objasni-ustav
+        vrsta: objasni
+        tezina: lako
+        pojmovi: [ustav, republika, podela-vlasti]
+        pitanje: "Šta je ustav i šta je uredio ustav SAD iz 1787?"
+        uzor: "Ustav je najviši pravni akt jedne zemlje. Američki ustav iz 1787. uredio je SAD kao republiku i podelio vlast na tri grane: izvršnu (predsednik), zakonodavnu (Kongres) i sudsku (Vrhovni sud)."
+        ideje:
+          - "Ustav je najviši pravni akt."
+          - "Donet je 1787."
+          - "SAD su republika."
+          - "Podela vlasti na izvršnu, zakonodavnu i sudsku."
+        objasnjenje: "Ustav SAD je temelj republike i podele vlasti."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Kongres je 1787. doneo ustav: SAD su republika sa podelom vlasti na tri grane."
+
+      - id: l05-sad-objasni-podela
+        vrsta: objasni
+        tezina: srednje
+        pojmovi: [podela-vlasti, predsednik, kongres, vrhovni-sud]
+        pitanje: "Objasni kako je bila podeljena vlast u SAD i zašto je to važno."
+        uzor: "Izvršnu vlast imao je predsednik biran na četiri godine, zakonodavnu Kongres (Senat i Predstavnički dom), a sva tela vlasti nadzirao je Vrhovni sud. Svaka grana je nezavisna; grane sarađuju, ali se i nadziru, pa nijedna ne može da zloupotrebi vlast i krši ustav."
+        ideje:
+          - "Izvršna vlast — predsednik (4 godine)."
+          - "Zakonodavna — Kongres (Senat i Predstavnički dom)."
+          - "Vrhovni sud nadzire sva tela vlasti."
+          - "Grane se međusobno nadziru i sprečavaju kršenje ustava."
+        objasnjenje: "Podela vlasti po Monteskjeovoj ideji sprečava da se moć skupi u jednim rukama."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Predsednik, Kongres i Vrhovni sud su nezavisni, sarađuju i nadziru jedni druge."
+
+      - id: l05-sad-objasni-ucesce
+        vrsta: objasni
+        tezina: tesko
+        pojmovi: [pravo-glasa, velika-britanija, sjedinjene-americke-drzave]
+        pitanje: "Uporedi ko je mogao da učestvuje u politici u SAD i u Velikoj Britaniji krajem XVIII veka."
+        uzor: "U SAD je pravo da bira i bude biran imao samo beli vlasnik zemlje; siromašni belci, žene, crni robovi i Indijanci nisu imali političkih prava. U Velikoj Britaniji je pravo glasa takođe imao samo mali deo stanovništva, a članovi Gornjeg doma mesto su nasleđivali. Dakle, u obe zemlje u politici je učestvovala manjina, iako SAD nisu imale kralja i nasledne lordove."
+        ideje:
+          - "SAD: pravo glasa samo beli zemljoposednici."
+          - "Bez prava: siromašni belci, žene, robovi, Indijanci."
+          - "Britanija: mali deo stanovništva glasa; nasledni Gornji dom."
+          - "Zaključak: u obe zemlje politiku vodi manjina."
+        objasnjenje: "Iako su uređenja različita, ni u jednoj zemlji većina ljudi nije učestvovala u politici."
+        iz_udzbenika:
+          strana: 44
+          odeljak: Uređenje Sjedinjenih Američkih Država
+          tekst: "Kao i u Velikoj Britaniji, u politici SAD učestvovao je samo manji deo stanovništva."

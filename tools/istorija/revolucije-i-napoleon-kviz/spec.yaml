@@ -1,0 +1,25 @@
+# Kviz za lekcije 2.3–2.5 (tip: lesson-quiz; vidi templates/lesson-quiz/README.md). Kviz se definiše ovde:
+# bira lekcije iz banke pitanja predmeta (shared/banke/osnovna/7/istorija/) i sastav; zadaci nisu ovde.
+title: Revolucije i Napoleon — kviz
+title_short: Revolucije i Napoleon
+locale: sr
+nivo: osnovna
+razred: 7
+banka_lekcije: [5, 6, 7]
+description: >-
+  Kviz za lekcije Engleska i Američka revolucija, Francuska revolucija i Napoleonovo doba: uzroci i
+  posledice revolucija, ustavi i prava, Napoleonov uspon i pad, Bečki kongres. Svaki kviz izvlači nova
+  pitanja iz banke ovih lekcija, srazmerno njihovoj dužini.
+
+# Vremenska osa: rešeni zadaci sa datumom stavljaju svoj događaj na osu (kartica u Pregledu).
+osa:
+  od: 1640
+  do: 1830
+  trake:
+    - {id: dogadjaji, label: Događaji, color: '#b1271f'}
+    - {id: vladari, label: Vladari, color: '#3a6ba5'}
+    - {id: ideje, label: Ideje i dokumenti, color: '#1f7a3a'}
+
+sastav:
+  pitanja: 25
+  odnos: [40, 40, 20]

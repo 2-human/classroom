@@ -1,7 +1,7 @@
 # Istorija — 7. razred osnovne škole: poglavlja i lekcije po udžbeniku (period 1780–1918).
 # Alati se vezuju za lekcije poljem `lekcije: [broj, ...]` u svom spec.yaml.
-# Brojevi su redosled lekcija; oznaka iz knjige (1.1, 2.1 …) je u naslovu. Snimljene su str. 10–38
-# (bez 15, 20–27, 33): ako na str. 20–27 postoji lekcija 1.3, lekcije posle nje se prenumerišu.
+# Brojevi su redosled lekcija; oznaka iz knjige (1.1, 2.1 …) je u naslovu. Snimljene su str. 10–59
+# (bez 15, 20–27, 33, 39, 45 i delova 2.5): ako na str. 20–27 postoji lekcija 1.3, lekcije posle nje se prenumerišu.
 nivo: osnovna
 razred: 7
 predmet: istorija
@@ -14,3 +14,6 @@ poglavlja:
     lekcije:
       - {broj: 3, naslov: "2.1. Industrijska revolucija"}
       - {broj: 4, naslov: "2.2. Doba prosvetiteljstva"}
+      - {broj: 5, naslov: "2.3. Engleska i Američka revolucija"}
+      - {broj: 6, naslov: "2.4. Francuska revolucija"}
+      - {broj: 7, naslov: "2.5. Napoleonovo doba"}
