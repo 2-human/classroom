@@ -1,0 +1,18 @@
+# Kviz: hemijski simbol → element (tip: lesson-quiz; vidi templates/lesson-quiz/README.md). Pitanja su u
+# banci shared/banke/osnovna/7/hemija/, generisanoj iz shared/data/elementi.yaml (scripts/banka_elementi.py).
+# Lako i srednje: izbor naziva; teško: upiši pun naziv. Posle odgovora periodni sistem sa elementom.
+title: Hemijski elementi — kviz
+title_short: Hemijski elementi
+locale: sr
+nivo: osnovna
+razred: 7
+banka_lekcije: [1]
+periodni_sistem: true
+description: >-
+  Prepoznaj hemijski element po simbolu. U lakšim pitanjima biraš među ponuđenim nazivima, u težim
+  upisuješ pun naziv. Posle greške stiže nagoveštaj, a posle odgovora vidiš element u periodnom sistemu
+  i sve o njemu.
+
+sastav:
+  pitanja: 25
+  odnos: [40, 40, 20]

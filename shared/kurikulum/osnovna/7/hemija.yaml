@@ -1,0 +1,9 @@
+# Hemija — 7. razred osnovne škole. Strane udžbenika još nisu snimljene; lekcija za simbole je tu da bi
+# banka pitanja i kviz imali mesto. Kad stignu strane, poglavlja se uređuju po udžbeniku.
+nivo: osnovna
+razred: 7
+predmet: hemija
+poglavlja:
+  - naslov: Hemijski elementi
+    lekcije:
+      - {broj: 1, naslov: Hemijski elementi i njihovi simboli}

@@ -1,0 +1,1882 @@
+# Banka pitanja: hemijski elementi i simboli (hemija, 7. razred). GENERISANO iz shared/data/elementi.yaml
+# skriptom scripts/banka_elementi.py: menja se podatak, ne ovaj fajl.
+lekcija: 1
+naslov: Hemijski elementi i njihovi simboli
+pojmovi:
+  vodonik: vodonik
+  helijum: helijum
+  litijum: litijum
+  berilijum: berilijum
+  bor: bor
+  ugljenik: ugljenik
+  azot: azot
+  kiseonik: kiseonik
+  fluor: fluor
+  neon: neon
+  natrijum: natrijum
+  magnezijum: magnezijum
+  aluminijum: aluminijum
+  silicijum: silicijum
+  fosfor: fosfor
+  sumpor: sumpor
+  hlor: hlor
+  argon: argon
+  kalijum: kalijum
+  kalcijum: kalcijum
+  gvozde: gvožđe
+  bakar: bakar
+  cink: cink
+  srebro: srebro
+  zlato: zlato
+  ziva: živa
+  olovo: olovo
+  kalaj: kalaj
+  jod: jod
+  brom: brom
+  nikl: nikl
+  hrom: hrom
+  mangan: mangan
+  platina: platina
+delovi:
+- naslov: Metali
+  zadaci:
+  - id: l01-li-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Li
+    pojmovi:
+    - litijum
+    pitanje: Koji hemijski element ima simbol **Li**?
+    odgovori:
+    - tekst: bakar
+      tacan: false
+      zasto: Bakar ima simbol Cu, a ne Li.
+    - tekst: natrijum
+      tacan: false
+      zasto: Natrijum ima simbol Na, a ne Li.
+    - tekst: olovo
+      tacan: false
+      zasto: Olovo ima simbol Pb, a ne Li.
+    - tekst: litijum
+      tacan: true
+    pomoc: &id001
+    - Nalazi se u baterijama telefona.
+    - Najlakši metal, prvi u prvoj grupi posle vodonika.
+    - Ime počinje slovom L.
+    objasnjenje: '**Li** je simbol elementa koji se zove litijum. Simbol potiče od: grčki lithos: kamen.'
+  - id: l01-li-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Li
+    pojmovi:
+    - litijum
+    pitanje: Koji hemijski element ima simbol **Li**?
+    odgovori:
+    - tekst: berilijum
+      tacan: false
+      zasto: Berilijum ima simbol Be, a ne Li.
+    - tekst: fosfor
+      tacan: false
+      zasto: Fosfor ima simbol P, a ne Li.
+    - tekst: natrijum
+      tacan: false
+      zasto: Natrijum ima simbol Na, a ne Li.
+    - tekst: litijum
+      tacan: true
+    pomoc: *id001
+    objasnjenje: '**Li** je simbol elementa koji se zove litijum. Simbol potiče od: grčki lithos: kamen.'
+  - id: l01-li-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Li
+    pojmovi:
+    - litijum
+    tekst: Hemijski simbol **Li** označava element {{litijum}}.
+    pomoc: *id001
+    objasnjenje: '**Li** je simbol elementa koji se zove litijum. Simbol potiče od: grčki lithos: kamen.'
+  - id: l01-be-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Be
+    pojmovi:
+    - berilijum
+    pitanje: Koji hemijski element ima simbol **Be**?
+    odgovori:
+    - tekst: helijum
+      tacan: false
+      zasto: Helijum ima simbol He, a ne Be.
+    - tekst: litijum
+      tacan: false
+      zasto: Litijum ima simbol Li, a ne Be.
+    - tekst: berilijum
+      tacan: true
+    - tekst: sumpor
+      tacan: false
+      zasto: Sumpor ima simbol S, a ne Be.
+    pomoc: &id002
+    - Ime dolazi od minerala od koga je i smaragd.
+    - Lak metal, četvrti po redu u periodnom sistemu.
+    - Ime počinje slovom B.
+    objasnjenje: '**Be** je simbol elementa koji se zove berilijum. Simbol potiče od: od minerala berila (od koga je i dragi kamen smaragd).'
+  - id: l01-be-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Be
+    pojmovi:
+    - berilijum
+    pitanje: Koji hemijski element ima simbol **Be**?
+    odgovori:
+    - tekst: bor
+      tacan: false
+      zasto: Bor ima simbol B, a ne Be.
+    - tekst: brom
+      tacan: false
+      zasto: Brom ima simbol Br, a ne Be.
+    - tekst: berilijum
+      tacan: true
+    - tekst: litijum
+      tacan: false
+      zasto: Litijum ima simbol Li, a ne Be.
+    pomoc: *id002
+    objasnjenje: '**Be** je simbol elementa koji se zove berilijum. Simbol potiče od: od minerala berila (od koga je i dragi kamen smaragd).'
+  - id: l01-be-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Be
+    pojmovi:
+    - berilijum
+    tekst: Hemijski simbol **Be** označava element {{berilijum}}.
+    pomoc: *id002
+    objasnjenje: '**Be** je simbol elementa koji se zove berilijum. Simbol potiče od: od minerala berila (od koga je i dragi kamen smaragd).'
+  - id: l01-na-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Na
+    pojmovi:
+    - natrijum
+    pitanje: Koji hemijski element ima simbol **Na**?
+    odgovori:
+    - tekst: bakar
+      tacan: false
+      zasto: Bakar ima simbol Cu, a ne Na.
+    - tekst: fluor
+      tacan: false
+      zasto: Fluor ima simbol F, a ne Na.
+    - tekst: srebro
+      tacan: false
+      zasto: Srebro ima simbol Ag, a ne Na.
+    - tekst: natrijum
+      tacan: true
+    pomoc: &id003
+    - Sa hlorom gradi kuhinjsku so.
+    - Mekan metal koji burno reaguje sa vodom.
+    - Ime počinje slovom N.
+    objasnjenje: '**Na** je simbol elementa koji se zove natrijum. Simbol potiče od: latinski natrium (od reči natron, vrste sode).'
+  - id: l01-na-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Na
+    pojmovi:
+    - natrijum
+    pitanje: Koji hemijski element ima simbol **Na**?
+    odgovori:
+    - tekst: azot
+      tacan: false
+      zasto: Azot ima simbol N, a ne Na.
+    - tekst: neon
+      tacan: false
+      zasto: Neon ima simbol Ne, a ne Na.
+    - tekst: nikl
+      tacan: false
+      zasto: Nikl ima simbol Ni, a ne Na.
+    - tekst: natrijum
+      tacan: true
+    pomoc: *id003
+    objasnjenje: '**Na** je simbol elementa koji se zove natrijum. Simbol potiče od: latinski natrium (od reči natron, vrste sode).'
+  - id: l01-na-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Na
+    pojmovi:
+    - natrijum
+    tekst: Hemijski simbol **Na** označava element {{natrijum}}.
+    pomoc: *id003
+    objasnjenje: '**Na** je simbol elementa koji se zove natrijum. Simbol potiče od: latinski natrium (od reči natron, vrste sode).'
+  - id: l01-mg-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Mg
+    pojmovi:
+    - magnezijum
+    pitanje: Koji hemijski element ima simbol **Mg**?
+    odgovori:
+    - tekst: kalaj
+      tacan: false
+      zasto: Kalaj ima simbol Sn, a ne Mg.
+    - tekst: magnezijum
+      tacan: true
+    - tekst: kalcijum
+      tacan: false
+      zasto: Kalcijum ima simbol Ca, a ne Mg.
+    - tekst: fluor
+      tacan: false
+      zasto: Fluor ima simbol F, a ne Mg.
+    pomoc: &id004
+    - Gori zaslepljujuće belim plamenom u vatrometu.
+    - Lak metal; nalazi se u hlorofilu biljaka.
+    - Ime počinje slovom M.
+    objasnjenje: '**Mg** je simbol elementa koji se zove magnezijum. Simbol potiče od: od grčke oblasti Magnezija.'
+  - id: l01-mg-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Mg
+    pojmovi:
+    - magnezijum
+    pitanje: Koji hemijski element ima simbol **Mg**?
+    odgovori:
+    - tekst: mangan
+      tacan: false
+      zasto: Mangan ima simbol Mn, a ne Mg.
+    - tekst: magnezijum
+      tacan: true
+    - tekst: kalcijum
+      tacan: false
+      zasto: Kalcijum ima simbol Ca, a ne Mg.
+    - tekst: živa
+      tacan: false
+      zasto: Živa ima simbol Hg, a ne Mg.
+    pomoc: *id004
+    objasnjenje: '**Mg** je simbol elementa koji se zove magnezijum. Simbol potiče od: od grčke oblasti Magnezija.'
+  - id: l01-mg-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Mg
+    pojmovi:
+    - magnezijum
+    tekst: Hemijski simbol **Mg** označava element {{magnezijum}}.
+    pomoc: *id004
+    objasnjenje: '**Mg** je simbol elementa koji se zove magnezijum. Simbol potiče od: od grčke oblasti Magnezija.'
+  - id: l01-al-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Al
+    pojmovi:
+    - aluminijum
+    pitanje: Koji hemijski element ima simbol **Al**?
+    odgovori:
+    - tekst: bakar
+      tacan: false
+      zasto: Bakar ima simbol Cu, a ne Al.
+    - tekst: aluminijum
+      tacan: true
+    - tekst: živa
+      tacan: false
+      zasto: Živa ima simbol Hg, a ne Al.
+    - tekst: berilijum
+      tacan: false
+      zasto: Berilijum ima simbol Be, a ne Al.
+    pomoc: &id005
+    - Od njega su folija za pečenje i limenke za sokove.
+    - Lak, srebrnast metal koji ne rđa.
+    - Ime počinje slovom A.
+    objasnjenje: '**Al** je simbol elementa koji se zove aluminijum. Simbol potiče od: latinski alumen: stipsa.'
+  - id: l01-al-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Al
+    pojmovi:
+    - aluminijum
+    pitanje: Koji hemijski element ima simbol **Al**?
+    odgovori:
+    - tekst: srebro
+      tacan: false
+      zasto: Srebro ima simbol Ag, a ne Al.
+    - tekst: argon
+      tacan: false
+      zasto: Argon ima simbol Ar, a ne Al.
+    - tekst: zlato
+      tacan: false
+      zasto: Zlato ima simbol Au, a ne Al.
+    - tekst: aluminijum
+      tacan: true
+    pomoc: *id005
+    objasnjenje: '**Al** je simbol elementa koji se zove aluminijum. Simbol potiče od: latinski alumen: stipsa.'
+  - id: l01-al-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Al
+    pojmovi:
+    - aluminijum
+    tekst: Hemijski simbol **Al** označava element {{aluminijum}}.
+    pomoc: *id005
+    objasnjenje: '**Al** je simbol elementa koji se zove aluminijum. Simbol potiče od: latinski alumen: stipsa.'
+  - id: l01-k-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: K
+    pojmovi:
+    - kalijum
+    pitanje: Koji hemijski element ima simbol **K**?
+    odgovori:
+    - tekst: kalijum
+      tacan: true
+    - tekst: azot
+      tacan: false
+      zasto: Azot ima simbol N, a ne K.
+    - tekst: cink
+      tacan: false
+      zasto: Cink ima simbol Zn, a ne K.
+    - tekst: hlor
+      tacan: false
+      zasto: Hlor ima simbol Cl, a ne K.
+    pomoc: &id006
+    - Banane su poznate po tome što ga imaju mnogo.
+    - Mekan metal iz prve grupe, kao natrijum.
+    - Ime počinje slovom K.
+    objasnjenje: '**K** je simbol elementa koji se zove kalijum. Simbol potiče od: latinski kalium (od arapske reči za pepeo biljaka).'
+  - id: l01-k-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: K
+    pojmovi:
+    - kalijum
+    pitanje: Koji hemijski element ima simbol **K**?
+    odgovori:
+    - tekst: kalijum
+      tacan: true
+    - tekst: fosfor
+      tacan: false
+      zasto: Fosfor ima simbol P, a ne K.
+    - tekst: kalcijum
+      tacan: false
+      zasto: Kalcijum ima simbol Ca, a ne K.
+    - tekst: bakar
+      tacan: false
+      zasto: Bakar ima simbol Cu, a ne K.
+    pomoc: *id006
+    objasnjenje: '**K** je simbol elementa koji se zove kalijum. Simbol potiče od: latinski kalium (od arapske reči za pepeo biljaka).'
+  - id: l01-k-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: K
+    pojmovi:
+    - kalijum
+    tekst: Hemijski simbol **K** označava element {{kalijum}}.
+    pomoc: *id006
+    objasnjenje: '**K** je simbol elementa koji se zove kalijum. Simbol potiče od: latinski kalium (od arapske reči za pepeo biljaka).'
+  - id: l01-ca-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Ca
+    pojmovi:
+    - kalcijum
+    pitanje: Koji hemijski element ima simbol **Ca**?
+    odgovori:
+    - tekst: platina
+      tacan: false
+      zasto: Platina ima simbol Pt, a ne Ca.
+    - tekst: azot
+      tacan: false
+      zasto: Azot ima simbol N, a ne Ca.
+    - tekst: kalcijum
+      tacan: true
+    - tekst: neon
+      tacan: false
+      zasto: Neon ima simbol Ne, a ne Ca.
+    pomoc: &id007
+    - Mleko je važno za kosti jer ga ima mnogo.
+    - Ima ga u kredi, krečnjaku i kostima.
+    - Ime počinje slovom K.
+    objasnjenje: '**Ca** je simbol elementa koji se zove kalcijum. Simbol potiče od: latinski calx: kreč.'
+  - id: l01-ca-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Ca
+    pojmovi:
+    - kalcijum
+    pitanje: Koji hemijski element ima simbol **Ca**?
+    odgovori:
+    - tekst: kalcijum
+      tacan: true
+    - tekst: hlor
+      tacan: false
+      zasto: Hlor ima simbol Cl, a ne Ca.
+    - tekst: ugljenik
+      tacan: false
+      zasto: Ugljenik ima simbol C, a ne Ca.
+    - tekst: bakar
+      tacan: false
+      zasto: Bakar ima simbol Cu, a ne Ca.
+    pomoc: *id007
+    objasnjenje: '**Ca** je simbol elementa koji se zove kalcijum. Simbol potiče od: latinski calx: kreč.'
+  - id: l01-ca-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Ca
+    pojmovi:
+    - kalcijum
+    tekst: Hemijski simbol **Ca** označava element {{kalcijum}}.
+    pomoc: *id007
+    objasnjenje: '**Ca** je simbol elementa koji se zove kalcijum. Simbol potiče od: latinski calx: kreč.'
+  - id: l01-fe-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Fe
+    pojmovi:
+    - gvozde
+    pitanje: Koji hemijski element ima simbol **Fe**?
+    odgovori:
+    - tekst: bor
+      tacan: false
+      zasto: Bor ima simbol B, a ne Fe.
+    - tekst: kalcijum
+      tacan: false
+      zasto: Kalcijum ima simbol Ca, a ne Fe.
+    - tekst: gvožđe
+      tacan: true
+    - tekst: kiseonik
+      tacan: false
+      zasto: Kiseonik ima simbol O, a ne Fe.
+    pomoc: &id008
+    - Od njega se prave ekseri, šine i čelik.
+    - Metal koji rđa na vlažnom vazduhu; privlači ga magnet.
+    - Ime počinje slovom G.
+    objasnjenje: '**Fe** je simbol elementa koji se zove gvožđe. Simbol potiče od: latinski ferrum.'
+  - id: l01-fe-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Fe
+    pojmovi:
+    - gvozde
+    pitanje: Koji hemijski element ima simbol **Fe**?
+    odgovori:
+    - tekst: fluor
+      tacan: false
+      zasto: Fluor ima simbol F, a ne Fe.
+    - tekst: natrijum
+      tacan: false
+      zasto: Natrijum ima simbol Na, a ne Fe.
+    - tekst: gvožđe
+      tacan: true
+    - tekst: platina
+      tacan: false
+      zasto: Platina ima simbol Pt, a ne Fe.
+    pomoc: *id008
+    objasnjenje: '**Fe** je simbol elementa koji se zove gvožđe. Simbol potiče od: latinski ferrum.'
+  - id: l01-fe-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Fe
+    pojmovi:
+    - gvozde
+    tekst: Hemijski simbol **Fe** označava element {{gvožđe}}.
+    pomoc: *id008
+    objasnjenje: '**Fe** je simbol elementa koji se zove gvožđe. Simbol potiče od: latinski ferrum.'
+  - id: l01-cu-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Cu
+    pojmovi:
+    - bakar
+    pitanje: Koji hemijski element ima simbol **Cu**?
+    odgovori:
+    - tekst: bakar
+      tacan: true
+    - tekst: zlato
+      tacan: false
+      zasto: Zlato ima simbol Au, a ne Cu.
+    - tekst: mangan
+      tacan: false
+      zasto: Mangan ima simbol Mn, a ne Cu.
+    - tekst: srebro
+      tacan: false
+      zasto: Srebro ima simbol Ag, a ne Cu.
+    pomoc: &id009
+    - Od njega su žice u električnim kablovima.
+    - Crvenkast metal koji odlično provodi struju.
+    - Ime počinje slovom B.
+    objasnjenje: '**Cu** je simbol elementa koji se zove bakar. Simbol potiče od: latinski cuprum (od ostrva Kipar, odakle se vadio).'
+  - id: l01-cu-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Cu
+    pojmovi:
+    - bakar
+    pitanje: Koji hemijski element ima simbol **Cu**?
+    odgovori:
+    - tekst: ugljenik
+      tacan: false
+      zasto: Ugljenik ima simbol C, a ne Cu.
+    - tekst: kalcijum
+      tacan: false
+      zasto: Kalcijum ima simbol Ca, a ne Cu.
+    - tekst: bakar
+      tacan: true
+    - tekst: hrom
+      tacan: false
+      zasto: Hrom ima simbol Cr, a ne Cu.
+    pomoc: *id009
+    objasnjenje: '**Cu** je simbol elementa koji se zove bakar. Simbol potiče od: latinski cuprum (od ostrva Kipar, odakle se vadio).'
+  - id: l01-cu-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Cu
+    pojmovi:
+    - bakar
+    tekst: Hemijski simbol **Cu** označava element {{bakar}}.
+    pomoc: *id009
+    objasnjenje: '**Cu** je simbol elementa koji se zove bakar. Simbol potiče od: latinski cuprum (od ostrva Kipar, odakle se vadio).'
+  - id: l01-zn-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Zn
+    pojmovi:
+    - cink
+    pitanje: Koji hemijski element ima simbol **Zn**?
+    odgovori:
+    - tekst: bor
+      tacan: false
+      zasto: Bor ima simbol B, a ne Zn.
+    - tekst: argon
+      tacan: false
+      zasto: Argon ima simbol Ar, a ne Zn.
+    - tekst: hrom
+      tacan: false
+      zasto: Hrom ima simbol Cr, a ne Zn.
+    - tekst: cink
+      tacan: true
+    pomoc: &id010
+    - Njime se prevlači gvozdeni lim da ne bi rđao (pocinkovan lim).
+    - Sivkast metal; sa bakrom gradi mesing.
+    - Ime počinje slovom C.
+    objasnjenje: '**Zn** je simbol elementa koji se zove cink. Simbol potiče od: nemački Zink.'
+  - id: l01-zn-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Zn
+    pojmovi:
+    - cink
+    pitanje: Koji hemijski element ima simbol **Zn**?
+    odgovori:
+    - tekst: cink
+      tacan: true
+    - tekst: natrijum
+      tacan: false
+      zasto: Natrijum ima simbol Na, a ne Zn.
+    - tekst: kalaj
+      tacan: false
+      zasto: Kalaj ima simbol Sn, a ne Zn.
+    - tekst: bakar
+      tacan: false
+      zasto: Bakar ima simbol Cu, a ne Zn.
+    pomoc: *id010
+    objasnjenje: '**Zn** je simbol elementa koji se zove cink. Simbol potiče od: nemački Zink.'
+  - id: l01-zn-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Zn
+    pojmovi:
+    - cink
+    tekst: Hemijski simbol **Zn** označava element {{cink}}.
+    pomoc: *id010
+    objasnjenje: '**Zn** je simbol elementa koji se zove cink. Simbol potiče od: nemački Zink.'
+  - id: l01-ag-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Ag
+    pojmovi:
+    - srebro
+    pitanje: Koji hemijski element ima simbol **Ag**?
+    odgovori:
+    - tekst: magnezijum
+      tacan: false
+      zasto: Magnezijum ima simbol Mg, a ne Ag.
+    - tekst: srebro
+      tacan: true
+    - tekst: kalaj
+      tacan: false
+      zasto: Kalaj ima simbol Sn, a ne Ag.
+    - tekst: vodonik
+      tacan: false
+      zasto: Vodonik ima simbol H, a ne Ag.
+    pomoc: &id011
+    - Od njega je medalja za drugo mesto.
+    - Sjajan beo plemeniti metal; tamni na vazduhu.
+    - Ime počinje slovom S.
+    objasnjenje: '**Ag** je simbol elementa koji se zove srebro. Simbol potiče od: latinski argentum (po njemu je Argentina dobila ime).'
+  - id: l01-ag-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Ag
+    pojmovi:
+    - srebro
+    pitanje: Koji hemijski element ima simbol **Ag**?
+    odgovori:
+    - tekst: aluminijum
+      tacan: false
+      zasto: Aluminijum ima simbol Al, a ne Ag.
+    - tekst: argon
+      tacan: false
+      zasto: Argon ima simbol Ar, a ne Ag.
+    - tekst: zlato
+      tacan: false
+      zasto: Zlato ima simbol Au, a ne Ag.
+    - tekst: srebro
+      tacan: true
+    pomoc: *id011
+    objasnjenje: '**Ag** je simbol elementa koji se zove srebro. Simbol potiče od: latinski argentum (po njemu je Argentina dobila ime).'
+  - id: l01-ag-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Ag
+    pojmovi:
+    - srebro
+    tekst: Hemijski simbol **Ag** označava element {{srebro}}.
+    pomoc: *id011
+    objasnjenje: '**Ag** je simbol elementa koji se zove srebro. Simbol potiče od: latinski argentum (po njemu je Argentina dobila ime).'
+  - id: l01-au-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Au
+    pojmovi:
+    - zlato
+    pitanje: Koji hemijski element ima simbol **Au**?
+    odgovori:
+    - tekst: neon
+      tacan: false
+      zasto: Neon ima simbol Ne, a ne Au.
+    - tekst: zlato
+      tacan: true
+    - tekst: jod
+      tacan: false
+      zasto: Jod ima simbol I, a ne Au.
+    - tekst: azot
+      tacan: false
+      zasto: Azot ima simbol N, a ne Au.
+    pomoc: &id012
+    - Od njega je medalja za prvo mesto.
+    - Žut plemeniti metal koji nikad ne tamni.
+    - Ime počinje slovom Z.
+    objasnjenje: '**Au** je simbol elementa koji se zove zlato. Simbol potiče od: latinski aurum: sjajno, zlatno.'
+  - id: l01-au-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Au
+    pojmovi:
+    - zlato
+    pitanje: Koji hemijski element ima simbol **Au**?
+    odgovori:
+    - tekst: zlato
+      tacan: true
+    - tekst: aluminijum
+      tacan: false
+      zasto: Aluminijum ima simbol Al, a ne Au.
+    - tekst: srebro
+      tacan: false
+      zasto: Srebro ima simbol Ag, a ne Au.
+    - tekst: argon
+      tacan: false
+      zasto: Argon ima simbol Ar, a ne Au.
+    pomoc: *id012
+    objasnjenje: '**Au** je simbol elementa koji se zove zlato. Simbol potiče od: latinski aurum: sjajno, zlatno.'
+  - id: l01-au-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Au
+    pojmovi:
+    - zlato
+    tekst: Hemijski simbol **Au** označava element {{zlato}}.
+    pomoc: *id012
+    objasnjenje: '**Au** je simbol elementa koji se zove zlato. Simbol potiče od: latinski aurum: sjajno, zlatno.'
+  - id: l01-hg-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Hg
+    pojmovi:
+    - ziva
+    pitanje: Koji hemijski element ima simbol **Hg**?
+    odgovori:
+    - tekst: živa
+      tacan: true
+    - tekst: bor
+      tacan: false
+      zasto: Bor ima simbol B, a ne Hg.
+    - tekst: kiseonik
+      tacan: false
+      zasto: Kiseonik ima simbol O, a ne Hg.
+    - tekst: hlor
+      tacan: false
+      zasto: Hlor ima simbol Cl, a ne Hg.
+    pomoc: &id013
+    - Bila je u starim toplomerima.
+    - Jedini metal koji je tečan na sobnoj temperaturi.
+    - Ime počinje slovom Ž.
+    objasnjenje: '**Hg** je simbol elementa koji se zove živa. Simbol potiče od: latinski hydrargyrum: „tečno srebro”.'
+  - id: l01-hg-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Hg
+    pojmovi:
+    - ziva
+    pitanje: Koji hemijski element ima simbol **Hg**?
+    odgovori:
+    - tekst: živa
+      tacan: true
+    - tekst: helijum
+      tacan: false
+      zasto: Helijum ima simbol He, a ne Hg.
+    - tekst: srebro
+      tacan: false
+      zasto: Srebro ima simbol Ag, a ne Hg.
+    - tekst: vodonik
+      tacan: false
+      zasto: Vodonik ima simbol H, a ne Hg.
+    pomoc: *id013
+    objasnjenje: '**Hg** je simbol elementa koji se zove živa. Simbol potiče od: latinski hydrargyrum: „tečno srebro”.'
+  - id: l01-hg-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Hg
+    pojmovi:
+    - ziva
+    tekst: Hemijski simbol **Hg** označava element {{živa}}.
+    pomoc: *id013
+    objasnjenje: '**Hg** je simbol elementa koji se zove živa. Simbol potiče od: latinski hydrargyrum: „tečno srebro”.'
+  - id: l01-pb-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Pb
+    pojmovi:
+    - olovo
+    pitanje: Koji hemijski element ima simbol **Pb**?
+    odgovori:
+    - tekst: srebro
+      tacan: false
+      zasto: Srebro ima simbol Ag, a ne Pb.
+    - tekst: silicijum
+      tacan: false
+      zasto: Silicijum ima simbol Si, a ne Pb.
+    - tekst: olovo
+      tacan: true
+    - tekst: magnezijum
+      tacan: false
+      zasto: Magnezijum ima simbol Mg, a ne Pb.
+    pomoc: &id014
+    - Zubar ti stavlja olovnu kecelju kad snima zube; tegovi za pecanje.
+    - Težak, mekan, sivi metal; otrovan je.
+    - Ime počinje slovom O.
+    objasnjenje: '**Pb** je simbol elementa koji se zove olovo. Simbol potiče od: latinski plumbum (otuda i reč „plomba”).'
+  - id: l01-pb-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Pb
+    pojmovi:
+    - olovo
+    pitanje: Koji hemijski element ima simbol **Pb**?
+    odgovori:
+    - tekst: litijum
+      tacan: false
+      zasto: Litijum ima simbol Li, a ne Pb.
+    - tekst: platina
+      tacan: false
+      zasto: Platina ima simbol Pt, a ne Pb.
+    - tekst: olovo
+      tacan: true
+    - tekst: fosfor
+      tacan: false
+      zasto: Fosfor ima simbol P, a ne Pb.
+    pomoc: *id014
+    objasnjenje: '**Pb** je simbol elementa koji se zove olovo. Simbol potiče od: latinski plumbum (otuda i reč „plomba”).'
+  - id: l01-pb-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Pb
+    pojmovi:
+    - olovo
+    tekst: Hemijski simbol **Pb** označava element {{olovo}}.
+    pomoc: *id014
+    objasnjenje: '**Pb** je simbol elementa koji se zove olovo. Simbol potiče od: latinski plumbum (otuda i reč „plomba”).'
+  - id: l01-sn-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Sn
+    pojmovi:
+    - kalaj
+    pitanje: Koji hemijski element ima simbol **Sn**?
+    odgovori:
+    - tekst: olovo
+      tacan: false
+      zasto: Olovo ima simbol Pb, a ne Sn.
+    - tekst: kalaj
+      tacan: true
+    - tekst: fluor
+      tacan: false
+      zasto: Fluor ima simbol F, a ne Sn.
+    - tekst: vodonik
+      tacan: false
+      zasto: Vodonik ima simbol H, a ne Sn.
+    pomoc: &id015
+    - Njime se leme žice u elektronici.
+    - Mekan, srebrnast metal; sa bakrom gradi bronzu.
+    - Ime počinje slovom K.
+    objasnjenje: '**Sn** je simbol elementa koji se zove kalaj. Simbol potiče od: latinski stannum.'
+  - id: l01-sn-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Sn
+    pojmovi:
+    - kalaj
+    pitanje: Koji hemijski element ima simbol **Sn**?
+    odgovori:
+    - tekst: cink
+      tacan: false
+      zasto: Cink ima simbol Zn, a ne Sn.
+    - tekst: kalaj
+      tacan: true
+    - tekst: sumpor
+      tacan: false
+      zasto: Sumpor ima simbol S, a ne Sn.
+    - tekst: silicijum
+      tacan: false
+      zasto: Silicijum ima simbol Si, a ne Sn.
+    pomoc: *id015
+    objasnjenje: '**Sn** je simbol elementa koji se zove kalaj. Simbol potiče od: latinski stannum.'
+  - id: l01-sn-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Sn
+    pojmovi:
+    - kalaj
+    tekst: Hemijski simbol **Sn** označava element {{kalaj|kositar}}.
+    pomoc: *id015
+    objasnjenje: '**Sn** je simbol elementa koji se zove kalaj. Simbol potiče od: latinski stannum.'
+  - id: l01-ni-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Ni
+    pojmovi:
+    - nikl
+    pitanje: Koji hemijski element ima simbol **Ni**?
+    odgovori:
+    - tekst: nikl
+      tacan: true
+    - tekst: bor
+      tacan: false
+      zasto: Bor ima simbol B, a ne Ni.
+    - tekst: gvožđe
+      tacan: false
+      zasto: Gvožđe ima simbol Fe, a ne Ni.
+    - tekst: hlor
+      tacan: false
+      zasto: Hlor ima simbol Cl, a ne Ni.
+    pomoc: &id016
+    - Ima ga u kovanicama i u nerđajućem čeliku.
+    - Srebrnast metal koji privlači magnet.
+    - Ime počinje slovom N.
+    objasnjenje: '**Ni** je simbol elementa koji se zove nikl. Simbol potiče od: nemački Kupfernickel („đavolji bakar”, ime koje su mu dali rudari).'
+  - id: l01-ni-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Ni
+    pojmovi:
+    - nikl
+    pitanje: Koji hemijski element ima simbol **Ni**?
+    odgovori:
+    - tekst: neon
+      tacan: false
+      zasto: Neon ima simbol Ne, a ne Ni.
+    - tekst: nikl
+      tacan: true
+    - tekst: natrijum
+      tacan: false
+      zasto: Natrijum ima simbol Na, a ne Ni.
+    - tekst: azot
+      tacan: false
+      zasto: Azot ima simbol N, a ne Ni.
+    pomoc: *id016
+    objasnjenje: '**Ni** je simbol elementa koji se zove nikl. Simbol potiče od: nemački Kupfernickel („đavolji bakar”, ime koje su mu dali rudari).'
+  - id: l01-ni-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Ni
+    pojmovi:
+    - nikl
+    tekst: Hemijski simbol **Ni** označava element {{nikl}}.
+    pomoc: *id016
+    objasnjenje: '**Ni** je simbol elementa koji se zove nikl. Simbol potiče od: nemački Kupfernickel („đavolji bakar”, ime koje su mu dali rudari).'
+  - id: l01-cr-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Cr
+    pojmovi:
+    - hrom
+    pitanje: Koji hemijski element ima simbol **Cr**?
+    odgovori:
+    - tekst: hrom
+      tacan: true
+    - tekst: platina
+      tacan: false
+      zasto: Platina ima simbol Pt, a ne Cr.
+    - tekst: argon
+      tacan: false
+      zasto: Argon ima simbol Ar, a ne Cr.
+    - tekst: brom
+      tacan: false
+      zasto: Brom ima simbol Br, a ne Cr.
+    pomoc: &id017
+    - Slavine i ukrasi na autu sijaju jer su njime prevučeni.
+    - Tvrd, sjajan metal; ime znači „boja”.
+    - Ime počinje slovom H.
+    objasnjenje: '**Cr** je simbol elementa koji se zove hrom. Simbol potiče od: grčki chroma: boja (jedinjenja su mu šarena).'
+  - id: l01-cr-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Cr
+    pojmovi:
+    - hrom
+    pitanje: Koji hemijski element ima simbol **Cr**?
+    odgovori:
+    - tekst: hrom
+      tacan: true
+    - tekst: ugljenik
+      tacan: false
+      zasto: Ugljenik ima simbol C, a ne Cr.
+    - tekst: kalcijum
+      tacan: false
+      zasto: Kalcijum ima simbol Ca, a ne Cr.
+    - tekst: hlor
+      tacan: false
+      zasto: Hlor ima simbol Cl, a ne Cr.
+    pomoc: *id017
+    objasnjenje: '**Cr** je simbol elementa koji se zove hrom. Simbol potiče od: grčki chroma: boja (jedinjenja su mu šarena).'
+  - id: l01-cr-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Cr
+    pojmovi:
+    - hrom
+    tekst: Hemijski simbol **Cr** označava element {{hrom}}.
+    pomoc: *id017
+    objasnjenje: '**Cr** je simbol elementa koji se zove hrom. Simbol potiče od: grčki chroma: boja (jedinjenja su mu šarena).'
+  - id: l01-mn-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Mn
+    pojmovi:
+    - mangan
+    pitanje: Koji hemijski element ima simbol **Mn**?
+    odgovori:
+    - tekst: silicijum
+      tacan: false
+      zasto: Silicijum ima simbol Si, a ne Mn.
+    - tekst: mangan
+      tacan: true
+    - tekst: bor
+      tacan: false
+      zasto: Bor ima simbol B, a ne Mn.
+    - tekst: berilijum
+      tacan: false
+      zasto: Berilijum ima simbol Be, a ne Mn.
+    pomoc: &id018
+    - Dodaje se čeliku da bude tvrđi.
+    - Lako se pomeša sa magnezijumom; simboli su im slični.
+    - Ime počinje slovom M.
+    objasnjenje: '**Mn** je simbol elementa koji se zove mangan. Simbol potiče od: latinski magnes, od Magnezije, kao i magnezijum.'
+  - id: l01-mn-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Mn
+    pojmovi:
+    - mangan
+    pitanje: Koji hemijski element ima simbol **Mn**?
+    odgovori:
+    - tekst: magnezijum
+      tacan: false
+      zasto: Magnezijum ima simbol Mg, a ne Mn.
+    - tekst: mangan
+      tacan: true
+    - tekst: berilijum
+      tacan: false
+      zasto: Berilijum ima simbol Be, a ne Mn.
+    - tekst: natrijum
+      tacan: false
+      zasto: Natrijum ima simbol Na, a ne Mn.
+    pomoc: *id018
+    objasnjenje: '**Mn** je simbol elementa koji se zove mangan. Simbol potiče od: latinski magnes, od Magnezije, kao i magnezijum.'
+  - id: l01-mn-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Mn
+    pojmovi:
+    - mangan
+    tekst: Hemijski simbol **Mn** označava element {{mangan}}.
+    pomoc: *id018
+    objasnjenje: '**Mn** je simbol elementa koji se zove mangan. Simbol potiče od: latinski magnes, od Magnezije, kao i magnezijum.'
+  - id: l01-pt-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Pt
+    pojmovi:
+    - platina
+    pitanje: Koji hemijski element ima simbol **Pt**?
+    odgovori:
+    - tekst: kalcijum
+      tacan: false
+      zasto: Kalcijum ima simbol Ca, a ne Pt.
+    - tekst: platina
+      tacan: true
+    - tekst: vodonik
+      tacan: false
+      zasto: Vodonik ima simbol H, a ne Pt.
+    - tekst: berilijum
+      tacan: false
+      zasto: Berilijum ima simbol Be, a ne Pt.
+    pomoc: &id019
+    - Skuplja je od zlata; „platinasti album” je nagrada za muziku.
+    - Sivobeo plemeniti metal koji ne rđa.
+    - Ime počinje slovom P.
+    objasnjenje: '**Pt** je simbol elementa koji se zove platina. Simbol potiče od: španski platina: „malo srebro”.'
+  - id: l01-pt-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Pt
+    pojmovi:
+    - platina
+    pitanje: Koji hemijski element ima simbol **Pt**?
+    odgovori:
+    - tekst: fosfor
+      tacan: false
+      zasto: Fosfor ima simbol P, a ne Pt.
+    - tekst: platina
+      tacan: true
+    - tekst: mangan
+      tacan: false
+      zasto: Mangan ima simbol Mn, a ne Pt.
+    - tekst: olovo
+      tacan: false
+      zasto: Olovo ima simbol Pb, a ne Pt.
+    pomoc: *id019
+    objasnjenje: '**Pt** je simbol elementa koji se zove platina. Simbol potiče od: španski platina: „malo srebro”.'
+  - id: l01-pt-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Pt
+    pojmovi:
+    - platina
+    tekst: Hemijski simbol **Pt** označava element {{platina}}.
+    pomoc: *id019
+    objasnjenje: '**Pt** je simbol elementa koji se zove platina. Simbol potiče od: španski platina: „malo srebro”.'
+- naslov: Nemetali
+  zadaci:
+  - id: l01-h-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: H
+    pojmovi:
+    - vodonik
+    pitanje: Koji hemijski element ima simbol **H**?
+    odgovori:
+    - tekst: nikl
+      tacan: false
+      zasto: Nikl ima simbol Ni, a ne H.
+    - tekst: bor
+      tacan: false
+      zasto: Bor ima simbol B, a ne H.
+    - tekst: vodonik
+      tacan: true
+    - tekst: fluor
+      tacan: false
+      zasto: Fluor ima simbol F, a ne H.
+    pomoc: &id020
+    - Ulazi u sastav vode, zajedno sa kiseonikom.
+    - Najlakši je od svih elemenata; nalazi se na prvom mestu periodnog sistema.
+    - Ime počinje slovom V.
+    objasnjenje: '**H** je simbol elementa koji se zove vodonik. Simbol potiče od: latinski hydrogenium: „onaj koji stvara vodu”.'
+  - id: l01-h-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: H
+    pojmovi:
+    - vodonik
+    pitanje: Koji hemijski element ima simbol **H**?
+    odgovori:
+    - tekst: vodonik
+      tacan: true
+    - tekst: helijum
+      tacan: false
+      zasto: Helijum ima simbol He, a ne H.
+    - tekst: platina
+      tacan: false
+      zasto: Platina ima simbol Pt, a ne H.
+    - tekst: živa
+      tacan: false
+      zasto: Živa ima simbol Hg, a ne H.
+    pomoc: *id020
+    objasnjenje: '**H** je simbol elementa koji se zove vodonik. Simbol potiče od: latinski hydrogenium: „onaj koji stvara vodu”.'
+  - id: l01-h-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: H
+    pojmovi:
+    - vodonik
+    tekst: Hemijski simbol **H** označava element {{vodonik}}.
+    pomoc: *id020
+    objasnjenje: '**H** je simbol elementa koji se zove vodonik. Simbol potiče od: latinski hydrogenium: „onaj koji stvara vodu”.'
+  - id: l01-c-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: C
+    pojmovi:
+    - ugljenik
+    pitanje: Koji hemijski element ima simbol **C**?
+    odgovori:
+    - tekst: ugljenik
+      tacan: true
+    - tekst: berilijum
+      tacan: false
+      zasto: Berilijum ima simbol Be, a ne C.
+    - tekst: argon
+      tacan: false
+      zasto: Argon ima simbol Ar, a ne C.
+    - tekst: mangan
+      tacan: false
+      zasto: Mangan ima simbol Mn, a ne C.
+    pomoc: &id021
+    - Od njega su i dijamant i grafit u olovci.
+    - Ima ga u svakom živom biću; ime podseća na ugalj.
+    - Ime počinje slovom U.
+    objasnjenje: '**C** je simbol elementa koji se zove ugljenik. Simbol potiče od: latinski carbo: ugalj.'
+  - id: l01-c-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: C
+    pojmovi:
+    - ugljenik
+    pitanje: Koji hemijski element ima simbol **C**?
+    odgovori:
+    - tekst: hlor
+      tacan: false
+      zasto: Hlor ima simbol Cl, a ne C.
+    - tekst: ugljenik
+      tacan: true
+    - tekst: kalcijum
+      tacan: false
+      zasto: Kalcijum ima simbol Ca, a ne C.
+    - tekst: bakar
+      tacan: false
+      zasto: Bakar ima simbol Cu, a ne C.
+    pomoc: *id021
+    objasnjenje: '**C** je simbol elementa koji se zove ugljenik. Simbol potiče od: latinski carbo: ugalj.'
+  - id: l01-c-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: C
+    pojmovi:
+    - ugljenik
+    tekst: Hemijski simbol **C** označava element {{ugljenik|ugljen}}.
+    pomoc: *id021
+    objasnjenje: '**C** je simbol elementa koji se zove ugljenik. Simbol potiče od: latinski carbo: ugalj.'
+  - id: l01-n-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: N
+    pojmovi:
+    - azot
+    pitanje: Koji hemijski element ima simbol **N**?
+    odgovori:
+    - tekst: azot
+      tacan: true
+    - tekst: bor
+      tacan: false
+      zasto: Bor ima simbol B, a ne N.
+    - tekst: jod
+      tacan: false
+      zasto: Jod ima simbol I, a ne N.
+    - tekst: berilijum
+      tacan: false
+      zasto: Berilijum ima simbol Be, a ne N.
+    pomoc: &id022
+    - Ima ga najviše u vazduhu, više nego kiseonika.
+    - Bezbojan gas koji ne podržava gorenje.
+    - Ime počinje slovom A.
+    objasnjenje: '**N** je simbol elementa koji se zove azot. Simbol potiče od: latinski nitrogenium: „onaj koji stvara salitru”.'
+  - id: l01-n-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: N
+    pojmovi:
+    - azot
+    pitanje: Koji hemijski element ima simbol **N**?
+    odgovori:
+    - tekst: natrijum
+      tacan: false
+      zasto: Natrijum ima simbol Na, a ne N.
+    - tekst: azot
+      tacan: true
+    - tekst: neon
+      tacan: false
+      zasto: Neon ima simbol Ne, a ne N.
+    - tekst: nikl
+      tacan: false
+      zasto: Nikl ima simbol Ni, a ne N.
+    pomoc: *id022
+    objasnjenje: '**N** je simbol elementa koji se zove azot. Simbol potiče od: latinski nitrogenium: „onaj koji stvara salitru”.'
+  - id: l01-n-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: N
+    pojmovi:
+    - azot
+    tekst: Hemijski simbol **N** označava element {{azot}}.
+    pomoc: *id022
+    objasnjenje: '**N** je simbol elementa koji se zove azot. Simbol potiče od: latinski nitrogenium: „onaj koji stvara salitru”.'
+  - id: l01-o-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: O
+    pojmovi:
+    - kiseonik
+    pitanje: Koji hemijski element ima simbol **O**?
+    odgovori:
+    - tekst: argon
+      tacan: false
+      zasto: Argon ima simbol Ar, a ne O.
+    - tekst: azot
+      tacan: false
+      zasto: Azot ima simbol N, a ne O.
+    - tekst: kiseonik
+      tacan: true
+    - tekst: vodonik
+      tacan: false
+      zasto: Vodonik ima simbol H, a ne O.
+    pomoc: &id023
+    - Bez njega ne možeš da dišeš.
+    - Podržava gorenje; sa vodonikom gradi vodu.
+    - Ime počinje slovom K.
+    objasnjenje: '**O** je simbol elementa koji se zove kiseonik. Simbol potiče od: latinski oxygenium: „onaj koji stvara kiseline”.'
+  - id: l01-o-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: O
+    pojmovi:
+    - kiseonik
+    pitanje: Koji hemijski element ima simbol **O**?
+    odgovori:
+    - tekst: argon
+      tacan: false
+      zasto: Argon ima simbol Ar, a ne O.
+    - tekst: gvožđe
+      tacan: false
+      zasto: Gvožđe ima simbol Fe, a ne O.
+    - tekst: kiseonik
+      tacan: true
+    - tekst: ugljenik
+      tacan: false
+      zasto: Ugljenik ima simbol C, a ne O.
+    pomoc: *id023
+    objasnjenje: '**O** je simbol elementa koji se zove kiseonik. Simbol potiče od: latinski oxygenium: „onaj koji stvara kiseline”.'
+  - id: l01-o-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: O
+    pojmovi:
+    - kiseonik
+    tekst: Hemijski simbol **O** označava element {{kiseonik}}.
+    pomoc: *id023
+    objasnjenje: '**O** je simbol elementa koji se zove kiseonik. Simbol potiče od: latinski oxygenium: „onaj koji stvara kiseline”.'
+  - id: l01-f-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: F
+    pojmovi:
+    - fluor
+    pitanje: Koji hemijski element ima simbol **F**?
+    odgovori:
+    - tekst: kalaj
+      tacan: false
+      zasto: Kalaj ima simbol Sn, a ne F.
+    - tekst: fluor
+      tacan: true
+    - tekst: kalcijum
+      tacan: false
+      zasto: Kalcijum ima simbol Ca, a ne F.
+    - tekst: kiseonik
+      tacan: false
+      zasto: Kiseonik ima simbol O, a ne F.
+    pomoc: &id024
+    - Njegova jedinjenja su u pasti za zube.
+    - Najreaktivniji nemetal; prvi u grupi halogenih elemenata.
+    - Ime počinje slovom F.
+    objasnjenje: '**F** je simbol elementa koji se zove fluor. Simbol potiče od: latinski fluere: teći (od minerala fluorita).'
+  - id: l01-f-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: F
+    pojmovi:
+    - fluor
+    pitanje: Koji hemijski element ima simbol **F**?
+    odgovori:
+    - tekst: hlor
+      tacan: false
+      zasto: Hlor ima simbol Cl, a ne F.
+    - tekst: cink
+      tacan: false
+      zasto: Cink ima simbol Zn, a ne F.
+    - tekst: fluor
+      tacan: true
+    - tekst: gvožđe
+      tacan: false
+      zasto: Gvožđe ima simbol Fe, a ne F.
+    pomoc: *id024
+    objasnjenje: '**F** je simbol elementa koji se zove fluor. Simbol potiče od: latinski fluere: teći (od minerala fluorita).'
+  - id: l01-f-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: F
+    pojmovi:
+    - fluor
+    tekst: Hemijski simbol **F** označava element {{fluor}}.
+    pomoc: *id024
+    objasnjenje: '**F** je simbol elementa koji se zove fluor. Simbol potiče od: latinski fluere: teći (od minerala fluorita).'
+  - id: l01-p-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: P
+    pojmovi:
+    - fosfor
+    pitanje: Koji hemijski element ima simbol **P**?
+    odgovori:
+    - tekst: fosfor
+      tacan: true
+    - tekst: kiseonik
+      tacan: false
+      zasto: Kiseonik ima simbol O, a ne P.
+    - tekst: jod
+      tacan: false
+      zasto: Jod ima simbol I, a ne P.
+    - tekst: živa
+      tacan: false
+      zasto: Živa ima simbol Hg, a ne P.
+    pomoc: &id025
+    - Nalazi se na traci kutije šibica.
+    - Jedan oblik ovog nemetala svetli u mraku.
+    - Ime počinje slovom F.
+    objasnjenje: '**P** je simbol elementa koji se zove fosfor. Simbol potiče od: grčki phosphoros: „nosilac svetlosti”.'
+  - id: l01-p-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: P
+    pojmovi:
+    - fosfor
+    pitanje: Koji hemijski element ima simbol **P**?
+    odgovori:
+    - tekst: olovo
+      tacan: false
+      zasto: Olovo ima simbol Pb, a ne P.
+    - tekst: fosfor
+      tacan: true
+    - tekst: kalijum
+      tacan: false
+      zasto: Kalijum ima simbol K, a ne P.
+    - tekst: platina
+      tacan: false
+      zasto: Platina ima simbol Pt, a ne P.
+    pomoc: *id025
+    objasnjenje: '**P** je simbol elementa koji se zove fosfor. Simbol potiče od: grčki phosphoros: „nosilac svetlosti”.'
+  - id: l01-p-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: P
+    pojmovi:
+    - fosfor
+    tekst: Hemijski simbol **P** označava element {{fosfor}}.
+    pomoc: *id025
+    objasnjenje: '**P** je simbol elementa koji se zove fosfor. Simbol potiče od: grčki phosphoros: „nosilac svetlosti”.'
+  - id: l01-s-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: S
+    pojmovi:
+    - sumpor
+    pitanje: Koji hemijski element ima simbol **S**?
+    odgovori:
+    - tekst: brom
+      tacan: false
+      zasto: Brom ima simbol Br, a ne S.
+    - tekst: sumpor
+      tacan: true
+    - tekst: vodonik
+      tacan: false
+      zasto: Vodonik ima simbol H, a ne S.
+    - tekst: fluor
+      tacan: false
+      zasto: Fluor ima simbol F, a ne S.
+    pomoc: &id026
+    - Pokvarena jaja smrde zbog njegovog jedinjenja.
+    - Žuti nemetal koji se nalazi oko vulkana.
+    - Ime počinje slovom S.
+    objasnjenje: '**S** je simbol elementa koji se zove sumpor. Simbol potiče od: latinski sulfur.'
+  - id: l01-s-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: S
+    pojmovi:
+    - sumpor
+    pitanje: Koji hemijski element ima simbol **S**?
+    odgovori:
+    - tekst: sumpor
+      tacan: true
+    - tekst: natrijum
+      tacan: false
+      zasto: Natrijum ima simbol Na, a ne S.
+    - tekst: silicijum
+      tacan: false
+      zasto: Silicijum ima simbol Si, a ne S.
+    - tekst: kalaj
+      tacan: false
+      zasto: Kalaj ima simbol Sn, a ne S.
+    pomoc: *id026
+    objasnjenje: '**S** je simbol elementa koji se zove sumpor. Simbol potiče od: latinski sulfur.'
+  - id: l01-s-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: S
+    pojmovi:
+    - sumpor
+    tekst: Hemijski simbol **S** označava element {{sumpor}}.
+    pomoc: *id026
+    objasnjenje: '**S** je simbol elementa koji se zove sumpor. Simbol potiče od: latinski sulfur.'
+  - id: l01-cl-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Cl
+    pojmovi:
+    - hlor
+    pitanje: Koji hemijski element ima simbol **Cl**?
+    odgovori:
+    - tekst: berilijum
+      tacan: false
+      zasto: Berilijum ima simbol Be, a ne Cl.
+    - tekst: silicijum
+      tacan: false
+      zasto: Silicijum ima simbol Si, a ne Cl.
+    - tekst: neon
+      tacan: false
+      zasto: Neon ima simbol Ne, a ne Cl.
+    - tekst: hlor
+      tacan: true
+    pomoc: &id027
+    - Njime se dezinfikuje voda u bazenima.
+    - Žutozelen otrovan gas; halogeni element.
+    - Ime počinje slovom H.
+    objasnjenje: '**Cl** je simbol elementa koji se zove hlor. Simbol potiče od: grčki chloros: žutozelen.'
+  - id: l01-cl-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Cl
+    pojmovi:
+    - hlor
+    pitanje: Koji hemijski element ima simbol **Cl**?
+    odgovori:
+    - tekst: kalcijum
+      tacan: false
+      zasto: Kalcijum ima simbol Ca, a ne Cl.
+    - tekst: hlor
+      tacan: true
+    - tekst: bakar
+      tacan: false
+      zasto: Bakar ima simbol Cu, a ne Cl.
+    - tekst: ugljenik
+      tacan: false
+      zasto: Ugljenik ima simbol C, a ne Cl.
+    pomoc: *id027
+    objasnjenje: '**Cl** je simbol elementa koji se zove hlor. Simbol potiče od: grčki chloros: žutozelen.'
+  - id: l01-cl-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Cl
+    pojmovi:
+    - hlor
+    tekst: Hemijski simbol **Cl** označava element {{hlor}}.
+    pomoc: *id027
+    objasnjenje: '**Cl** je simbol elementa koji se zove hlor. Simbol potiče od: grčki chloros: žutozelen.'
+  - id: l01-i-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: I
+    pojmovi:
+    - jod
+    pitanje: Koji hemijski element ima simbol **I**?
+    odgovori:
+    - tekst: hrom
+      tacan: false
+      zasto: Hrom ima simbol Cr, a ne I.
+    - tekst: cink
+      tacan: false
+      zasto: Cink ima simbol Zn, a ne I.
+    - tekst: vodonik
+      tacan: false
+      zasto: Vodonik ima simbol H, a ne I.
+    - tekst: jod
+      tacan: true
+    pomoc: &id028
+    - Dodaje se kuhinjskoj soli da bi bila „jodirana”.
+    - Tamnoljubičasti kristali; halogeni element.
+    - Ime počinje slovom J.
+    objasnjenje: '**I** je simbol elementa koji se zove jod. Simbol potiče od: grčki iodes: ljubičast.'
+  - id: l01-i-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: I
+    pojmovi:
+    - jod
+    pitanje: Koji hemijski element ima simbol **I**?
+    odgovori:
+    - tekst: jod
+      tacan: true
+    - tekst: aluminijum
+      tacan: false
+      zasto: Aluminijum ima simbol Al, a ne I.
+    - tekst: hrom
+      tacan: false
+      zasto: Hrom ima simbol Cr, a ne I.
+    - tekst: zlato
+      tacan: false
+      zasto: Zlato ima simbol Au, a ne I.
+    pomoc: *id028
+    objasnjenje: '**I** je simbol elementa koji se zove jod. Simbol potiče od: grčki iodes: ljubičast.'
+  - id: l01-i-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: I
+    pojmovi:
+    - jod
+    tekst: Hemijski simbol **I** označava element {{jod}}.
+    pomoc: *id028
+    objasnjenje: '**I** je simbol elementa koji se zove jod. Simbol potiče od: grčki iodes: ljubičast.'
+  - id: l01-br-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Br
+    pojmovi:
+    - brom
+    pitanje: Koji hemijski element ima simbol **Br**?
+    odgovori:
+    - tekst: brom
+      tacan: true
+    - tekst: jod
+      tacan: false
+      zasto: Jod ima simbol I, a ne Br.
+    - tekst: litijum
+      tacan: false
+      zasto: Litijum ima simbol Li, a ne Br.
+    - tekst: olovo
+      tacan: false
+      zasto: Olovo ima simbol Pb, a ne Br.
+    pomoc: &id029
+    - Jedini nemetal koji je tečan na sobnoj temperaturi.
+    - Crvenosmeđa tečnost oštrog mirisa; halogeni element.
+    - Ime počinje slovom B.
+    objasnjenje: '**Br** je simbol elementa koji se zove brom. Simbol potiče od: grčki bromos: smrad.'
+  - id: l01-br-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Br
+    pojmovi:
+    - brom
+    pitanje: Koji hemijski element ima simbol **Br**?
+    odgovori:
+    - tekst: bor
+      tacan: false
+      zasto: Bor ima simbol B, a ne Br.
+    - tekst: živa
+      tacan: false
+      zasto: Živa ima simbol Hg, a ne Br.
+    - tekst: berilijum
+      tacan: false
+      zasto: Berilijum ima simbol Be, a ne Br.
+    - tekst: brom
+      tacan: true
+    pomoc: *id029
+    objasnjenje: '**Br** je simbol elementa koji se zove brom. Simbol potiče od: grčki bromos: smrad.'
+  - id: l01-br-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Br
+    pojmovi:
+    - brom
+    tekst: Hemijski simbol **Br** označava element {{brom}}.
+    pomoc: *id029
+    objasnjenje: '**Br** je simbol elementa koji se zove brom. Simbol potiče od: grčki bromos: smrad.'
+- naslov: Plemeniti gasovi i polumetali
+  zadaci:
+  - id: l01-he-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: He
+    pojmovi:
+    - helijum
+    pitanje: Koji hemijski element ima simbol **He**?
+    odgovori:
+    - tekst: helijum
+      tacan: true
+    - tekst: litijum
+      tacan: false
+      zasto: Litijum ima simbol Li, a ne He.
+    - tekst: azot
+      tacan: false
+      zasto: Azot ima simbol N, a ne He.
+    - tekst: kiseonik
+      tacan: false
+      zasto: Kiseonik ima simbol O, a ne He.
+    pomoc: &id030
+    - Njime se pune baloni koji odlete ako ih pustiš.
+    - Plemeniti gas, drugi po redu u periodnom sistemu.
+    - Ime počinje slovom H.
+    objasnjenje: '**He** je simbol elementa koji se zove helijum. Simbol potiče od: grčki helios: Sunce (prvo je otkriven u svetlosti Sunca).'
+  - id: l01-he-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: He
+    pojmovi:
+    - helijum
+    pitanje: Koji hemijski element ima simbol **He**?
+    odgovori:
+    - tekst: helijum
+      tacan: true
+    - tekst: jod
+      tacan: false
+      zasto: Jod ima simbol I, a ne He.
+    - tekst: živa
+      tacan: false
+      zasto: Živa ima simbol Hg, a ne He.
+    - tekst: vodonik
+      tacan: false
+      zasto: Vodonik ima simbol H, a ne He.
+    pomoc: *id030
+    objasnjenje: '**He** je simbol elementa koji se zove helijum. Simbol potiče od: grčki helios: Sunce (prvo je otkriven u svetlosti Sunca).'
+  - id: l01-he-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: He
+    pojmovi:
+    - helijum
+    tekst: Hemijski simbol **He** označava element {{helijum}}.
+    pomoc: *id030
+    objasnjenje: '**He** je simbol elementa koji se zove helijum. Simbol potiče od: grčki helios: Sunce (prvo je otkriven u svetlosti Sunca).'
+  - id: l01-b-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: B
+    pojmovi:
+    - bor
+    pitanje: Koji hemijski element ima simbol **B**?
+    odgovori:
+    - tekst: silicijum
+      tacan: false
+      zasto: Silicijum ima simbol Si, a ne B.
+    - tekst: bor
+      tacan: true
+    - tekst: platina
+      tacan: false
+      zasto: Platina ima simbol Pt, a ne B.
+    - tekst: zlato
+      tacan: false
+      zasto: Zlato ima simbol Au, a ne B.
+    pomoc: &id031
+    - Ime mu je isto kao ime jednog četinara.
+    - Polumetal, peti po redu u periodnom sistemu.
+    - Ime počinje slovom B.
+    objasnjenje: '**B** je simbol elementa koji se zove bor. Simbol potiče od: od minerala boraksa.'
+  - id: l01-b-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: B
+    pojmovi:
+    - bor
+    pitanje: Koji hemijski element ima simbol **B**?
+    odgovori:
+    - tekst: berilijum
+      tacan: false
+      zasto: Berilijum ima simbol Be, a ne B.
+    - tekst: vodonik
+      tacan: false
+      zasto: Vodonik ima simbol H, a ne B.
+    - tekst: brom
+      tacan: false
+      zasto: Brom ima simbol Br, a ne B.
+    - tekst: bor
+      tacan: true
+    pomoc: *id031
+    objasnjenje: '**B** je simbol elementa koji se zove bor. Simbol potiče od: od minerala boraksa.'
+  - id: l01-b-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: B
+    pojmovi:
+    - bor
+    tekst: Hemijski simbol **B** označava element {{bor}}.
+    pomoc: *id031
+    objasnjenje: '**B** je simbol elementa koji se zove bor. Simbol potiče od: od minerala boraksa.'
+  - id: l01-ne-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Ne
+    pojmovi:
+    - neon
+    pitanje: Koji hemijski element ima simbol **Ne**?
+    odgovori:
+    - tekst: olovo
+      tacan: false
+      zasto: Olovo ima simbol Pb, a ne Ne.
+    - tekst: neon
+      tacan: true
+    - tekst: platina
+      tacan: false
+      zasto: Platina ima simbol Pt, a ne Ne.
+    - tekst: kalcijum
+      tacan: false
+      zasto: Kalcijum ima simbol Ca, a ne Ne.
+    pomoc: &id032
+    - Po njemu su svetleće reklame dobile ime.
+    - Plemeniti gas, deseti po redu.
+    - Ime počinje slovom N.
+    objasnjenje: '**Ne** je simbol elementa koji se zove neon. Simbol potiče od: grčki neos: nov.'
+  - id: l01-ne-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Ne
+    pojmovi:
+    - neon
+    pitanje: Koji hemijski element ima simbol **Ne**?
+    odgovori:
+    - tekst: natrijum
+      tacan: false
+      zasto: Natrijum ima simbol Na, a ne Ne.
+    - tekst: nikl
+      tacan: false
+      zasto: Nikl ima simbol Ni, a ne Ne.
+    - tekst: neon
+      tacan: true
+    - tekst: azot
+      tacan: false
+      zasto: Azot ima simbol N, a ne Ne.
+    pomoc: *id032
+    objasnjenje: '**Ne** je simbol elementa koji se zove neon. Simbol potiče od: grčki neos: nov.'
+  - id: l01-ne-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Ne
+    pojmovi:
+    - neon
+    tekst: Hemijski simbol **Ne** označava element {{neon}}.
+    pomoc: *id032
+    objasnjenje: '**Ne** je simbol elementa koji se zove neon. Simbol potiče od: grčki neos: nov.'
+  - id: l01-si-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Si
+    pojmovi:
+    - silicijum
+    pitanje: Koji hemijski element ima simbol **Si**?
+    odgovori:
+    - tekst: silicijum
+      tacan: true
+    - tekst: kalijum
+      tacan: false
+      zasto: Kalijum ima simbol K, a ne Si.
+    - tekst: neon
+      tacan: false
+      zasto: Neon ima simbol Ne, a ne Si.
+    - tekst: azot
+      tacan: false
+      zasto: Azot ima simbol N, a ne Si.
+    pomoc: &id033
+    - Od njega su čipovi u računarima i telefonima.
+    - Glavni sastojak peska; polumetal.
+    - Ime počinje slovom S.
+    objasnjenje: '**Si** je simbol elementa koji se zove silicijum. Simbol potiče od: latinski silex: kremen.'
+  - id: l01-si-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Si
+    pojmovi:
+    - silicijum
+    pitanje: Koji hemijski element ima simbol **Si**?
+    odgovori:
+    - tekst: silicijum
+      tacan: true
+    - tekst: sumpor
+      tacan: false
+      zasto: Sumpor ima simbol S, a ne Si.
+    - tekst: srebro
+      tacan: false
+      zasto: Srebro ima simbol Ag, a ne Si.
+    - tekst: kalaj
+      tacan: false
+      zasto: Kalaj ima simbol Sn, a ne Si.
+    pomoc: *id033
+    objasnjenje: '**Si** je simbol elementa koji se zove silicijum. Simbol potiče od: latinski silex: kremen.'
+  - id: l01-si-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Si
+    pojmovi:
+    - silicijum
+    tekst: Hemijski simbol **Si** označava element {{silicijum}}.
+    pomoc: *id033
+    objasnjenje: '**Si** je simbol elementa koji se zove silicijum. Simbol potiče od: latinski silex: kremen.'
+  - id: l01-ar-izbor-lako
+    vrsta: izbor
+    tezina: lako
+    element: Ar
+    pojmovi:
+    - argon
+    pitanje: Koji hemijski element ima simbol **Ar**?
+    odgovori:
+    - tekst: argon
+      tacan: true
+    - tekst: helijum
+      tacan: false
+      zasto: Helijum ima simbol He, a ne Ar.
+    - tekst: hrom
+      tacan: false
+      zasto: Hrom ima simbol Cr, a ne Ar.
+    - tekst: bor
+      tacan: false
+      zasto: Bor ima simbol B, a ne Ar.
+    pomoc: &id034
+    - Puni sijalice da se žarna nit ne bi zapalila.
+    - Plemeniti gas; ime znači „lenj” jer skoro ništa ne reaguje.
+    - Ime počinje slovom A.
+    objasnjenje: '**Ar** je simbol elementa koji se zove argon. Simbol potiče od: grčki argos: lenj (skoro ništa ne reaguje).'
+  - id: l01-ar-izbor-srednje
+    vrsta: izbor
+    tezina: srednje
+    element: Ar
+    pojmovi:
+    - argon
+    pitanje: Koji hemijski element ima simbol **Ar**?
+    odgovori:
+    - tekst: zlato
+      tacan: false
+      zasto: Zlato ima simbol Au, a ne Ar.
+    - tekst: argon
+      tacan: true
+    - tekst: srebro
+      tacan: false
+      zasto: Srebro ima simbol Ag, a ne Ar.
+    - tekst: aluminijum
+      tacan: false
+      zasto: Aluminijum ima simbol Al, a ne Ar.
+    pomoc: *id034
+    objasnjenje: '**Ar** je simbol elementa koji se zove argon. Simbol potiče od: grčki argos: lenj (skoro ništa ne reaguje).'
+  - id: l01-ar-dopuni
+    vrsta: dopuni
+    tezina: tesko
+    element: Ar
+    pojmovi:
+    - argon
+    tekst: Hemijski simbol **Ar** označava element {{argon}}.
+    pomoc: *id034
+    objasnjenje: '**Ar** je simbol elementa koji se zove argon. Simbol potiče od: grčki argos: lenj (skoro ništa ne reaguje).'

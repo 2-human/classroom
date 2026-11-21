@@ -381,6 +381,14 @@ def _ai_config():
     return {"url": url, "token": token} if url and token else {}
 
 
+def _elements(root):
+    """`periodni_sistem: true`: the periodic table (all symbols, in order) and the details of the quiz's
+    elements, from shared/data/elementi.yaml. An item with `element: Fe` shows it after the answer."""
+    data = yaml.safe_load((pathlib.Path(root) / "shared" / "data" / "elementi.yaml").read_text())
+    keep = ("naziv", "vrsta", "stanje", "poreklo", "gde", "zanimljivost")
+    return {"simboli": data["simboli"], "detalji": {e["simbol"]: {k: e[k] for k in keep if k in e} for e in data["elementi"]}}
+
+
 def _bank_links(spec, output_path, root):
     """[{broj, naslov, url, n}]: the question-bank pages of this quiz's lessons (scripts/build_banke.py)."""
     import veze
@@ -533,6 +541,18 @@ __SHELL_CSS__
  .qfig{margin:16px 0 0;max-width:720px} .qfig img{display:block;max-width:100%;max-height:62vh;border-radius:8px;border:1px solid var(--border);cursor:zoom-in}
  .qfig.zoom{max-width:none;overflow-x:auto} .qfig.zoom img{max-width:none;max-height:none;cursor:zoom-out}
  .qfig figcaption{font-size:12.5px;color:var(--muted);margin-top:5px}
+ .pt-wrap{margin:18px 0 0;max-width:760px}
+ .pt-cap{margin:0 0 8px;font-size:14.5px;color:var(--ink)}
+ .ptab{display:grid;grid-template-columns:repeat(18,minmax(0,1fr));grid-template-rows:repeat(7,auto) 8px repeat(2,auto);gap:2px;min-width:0}
+ .pt-c{aspect-ratio:1;border-radius:3px;background:#f1ede3;color:#9b9387;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1;font-size:clamp(7px,1.1vw,12px);overflow:hidden}
+ .pt-c i{font-style:normal;font-size:.62em;opacity:.8} .pt-c b{font-weight:600}
+ .pt-c.q{background:#e6eef7;color:#3a5b8c}
+ .pt-c.cur{background:var(--edge);color:#fff;transform:scale(1.25);box-shadow:0 2px 8px rgba(0,0,0,.25);z-index:2;position:relative}
+ .pt-c.pt-f{font-size:clamp(6px,.8vw,9px);background:#f6f2e8}
+ .hl .el-card{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-start}
+ .hl .el-sym{flex:0 0 74px;height:84px;border-radius:8px;background:var(--edge);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.1}
+ .hl .el-sym i{font-style:normal;font-size:12px;opacity:.85} .hl .el-sym b{font-size:30px} .hl .el-sym span{font-size:11px}
+ .hl .el-t{flex:1 1 220px;min-width:0;border-collapse:collapse;font-size:13.5px} .hl .el-t td{overflow-wrap:anywhere} .hl .el-t th{text-align:left;color:var(--muted);font-weight:400;padding:2px 8px 2px 0;vertical-align:top;width:38%} .hl .el-t td{padding:2px 0}
  .hl figcaption{font-size:11.5px;color:var(--muted);margin-top:4px}
  .hl .book{border-left:3px solid #e1d8c2;padding:2px 0 2px 12px;margin:6px 0 4px}
  .hl .odeljak{margin:10px 0 4px;padding:8px 12px;background:#fefcf7;border:1px solid #e6e0d2;border-radius:8px;font-size:14px;line-height:1.5}
@@ -674,7 +694,7 @@ __SHELL_CSS__
 <script>
 const SPEC = __SPEC_JSON__;
 const MAPI = __MAP_JSON__;            // {proj:{lon0,lat1,sx,sy,w,h}, drzave:{ISO:naziv}, mesta:{slug:{naziv,lat,lon,radius_km}}}
-const INFO = __INFO_JSON__;           // {pojmovi, lekcijePojma:{slug:[broj]}, naslovi:{broj:naslov}, katalog, lekcije:[broj], slike: base URL, slikeNaslovi:{path:caption}, slikeData:{path:dataURI} (protected copy only), zasticeno: href of the protected copy, tekst: see _lesson_text}
+const INFO = __INFO_JSON__;           // {elementi: periodic table + element details (periodni_sistem), pojmovi, lekcijePojma:{slug:[broj]}, naslovi:{broj:naslov}, katalog, lekcije:[broj], slike: base URL, slikeNaslovi:{path:caption}, slikeData:{path:dataURI} (protected copy only), zasticeno: href of the protected copy, tekst: see _lesson_text}
 const LEKS = (INFO.tekst || {}).lekcije || [];   // the lessons of this quiz; `html` and `toc` only in the protected copy
 const STATE_KEY = 'classroom:kviz:' + SPEC.slug, OLD_KEY = 'classroom:' + window.location.pathname;
 const ODG_KEY = 'classroom:odgovori:' + INFO.predmet;   // every answer per item, read by the question-bank pages
@@ -898,12 +918,16 @@ function drawSession(n, seed) {
     for (const z of bank.filter(x => x.tezina === t)) (bySec[z.deo] = bySec[z.deo] || []).push(z);
     return [t, Object.fromEntries(Object.entries(bySec).map(([d, zs]) => [d, rr(zs, x => x.vrsta)]))];
   }));
+  const usedEl = new Set(rep.concat(again).map(z => z.element).filter(Boolean));   // one question per element in an instance
   const takeOne = t => {
+    for (const k of Object.keys(pools[t])) pools[t][k] = pools[t][k].filter(z => !z.element || !usedEl.has(z.element));
     const ks = Object.keys(pools[t]).filter(k => pools[t][k].length);
     if (!ks.length) return null;
     const k = ks.reduce((a, x) => ((taken[x] || 0) + r()) / size[x] < ((taken[a] || 0) + r()) / size[a] ? x : a);
     taken[k] = (taken[k] || 0) + 1;
-    return pools[t][k].shift();
+    const z = pools[t][k].shift();
+    if (z.element) usedEl.add(z.element);
+    return z;
   };
   const picked = [];
   for (const t of TEZ) for (let i = 0; i < want[t]; i++) { const z = takeOne(t); if (z) picked.push(z); }
@@ -944,6 +968,7 @@ function refreshScore() {
   document.getElementById('mReset').textContent = a && a.end ? 'Novi kviz' : 'Odustani i generiši novi kviz';
 }
 function rowLabel(z) {
+  if (z.element) return 'Simbol ' + z.element;   // all element items ask the same question
   if (z.vrsta === 'gde_sam') return 'Gde sam? ' + z.tragovi[0];
   if (z.vrsta === 'ko_sam') return 'Ko sam? ' + z.tragovi[0];
   if (z.vrsta === 'datum') return 'Kada: ' + z.dogadjaj;
@@ -970,7 +995,7 @@ function renderNav() {
         const cls = s.first === true ? 'ok' : s.first === false ? 'rev' : '';
         const icon = s.first === true ? '✓' : s.first === false ? '✗' : '○';
         h += '<button type="button" class="it-row ' + cls + (z.id === state.cur ? ' sel' : '') + '" data-id="' + z.id + '" data-filter="' + esc(rowLabel(z) + ' ' + VRSTA_LBL[z.vrsta] + ' ' + TEZ_LBL[z.tezina]) + '">' +
-             '<span class="st">' + icon + '</span>' + tzBadge(z) + '<span class="lbl">' + numOf(z) + '. ' + (z.ponovo ? '↻ ' : '') + esc(rowLabel(z)) + '</span><span class="pt">' + (s.pts != null ? s.pts + ' b' : '') + '</span></button>';
+             '<span class="st">' + icon + '</span>' + tzBadge(z) + '<span class="lbl">' + numOf(z) + '. ' + (z.ponovo ? '↻ ' : '') + esc(rowLabel(z)) + '</span></button>';
       }
       h += '</div>';
     });
@@ -1054,8 +1079,8 @@ function lessonHTML(z) {   // more from the lesson: the section's notes (protect
     (bank ? '<a href="' + esc(bank.url + '#' + z.id) + '" target="_blank" rel="opener">U banci pitanja ›</a>' : '') + '</p>';
 }
 function moreHTML(z) {
-  const slugs = z.pojmovi || [];
-  let h = bookHTML(z);
+  const slugs = (z.pojmovi || []).filter(() => !z.element);   // an element's own name needs no concept chip
+  let h = elementHTML(z) + bookHTML(z);
   if (slugs.length) h += '<h3>Pojmovi</h3><div class="chips">' + slugs.map(s => '<span class="pchip">' + esc(INFO.pojmovi[s] || s) + '</span>').join('') + '</div>';
   const other = {};
   for (const s of slugs) for (const b of INFO.lekcijePojma[s] || []) if (!INFO.lekcije.includes(b)) (other[b] = other[b] || []).push(INFO.pojmovi[s] || s);
@@ -1141,7 +1166,38 @@ function frame(z, s, inner) {
   const pts = s.first === true ? '✓ tačno' : s.first === false ? '✗ netačno u prvom pokušaju' : '';
   return '<div class="item"><div class="ihead"><span class="vchip">' + VRSTA_LBL[z.vrsta] + '</span>' + tzBadge(z) + ' ' + TEZ_LBL[z.tezina] + '<span>' + esc(deoNaslov(z)) + ' · zadatak ' + n + ' / ' + curItems().length + '</span><span>' + pts + '</span></div>' +
     inner + '<div class="help-inline" id="helpInline"></div><div class="iactions" id="actions"></div>' +
-    (isDone(s) ? '<div class="expl' + (s.status === 'ok' ? '' : ' rev') + '">' + fmt(z.objasnjenje || '') + '</div>' : '') + questionFig(z, s) + '</div>';
+    (isDone(s) ? '<div class="expl' + (s.status === 'ok' ? '' : ' rev') + '">' + fmt(z.objasnjenje || '') + '</div>' : '') + questionFig(z, s) + elementFig(z, s) + '</div>';
+}
+// ---------- periodic table (`periodni_sistem: true`; items with `element`) ----------
+const ELEM = INFO.elementi || null;
+function ptPos(n) {   // atomic number → [row, column]; rows 9–10 are the lanthanides and actinides
+  if (n === 1) return [1, 1]; if (n === 2) return [1, 18];
+  if (n <= 4) return [2, n - 2]; if (n <= 10) return [2, n + 8];
+  if (n <= 12) return [3, n - 10]; if (n <= 18) return [3, n];
+  if (n <= 36) return [4, n - 18]; if (n <= 54) return [5, n - 36];
+  if (n <= 56) return [6, n - 54]; if (n <= 71) return [9, n - 54]; if (n <= 86) return [6, n - 68];
+  if (n <= 88) return [7, n - 86]; if (n <= 103) return [10, n - 86]; return [7, n - 100];
+}
+function elementInfo(sym) {
+  const n = ELEM.simboli.indexOf(sym) + 1, [r, c] = ptPos(n);
+  return { n, perioda: r > 7 ? r - 3 : r, grupa: r > 7 ? 3 : c, d: ELEM.detalji[sym] || {} };
+}
+function elementFig(z, s) {   // after the answer: the periodic table with this element highlighted
+  if (!ELEM || !z.element || !isDone(s)) return '';
+  const cells = ELEM.simboli.map((sym, i) => {
+    const [r, c] = ptPos(i + 1), cls = sym === z.element ? ' cur' : ELEM.detalji[sym] ? ' q' : '';
+    return '<div class="pt-c' + cls + '" style="grid-row:' + r + ';grid-column:' + c + '" title="' + (i + 1) + ' ' + sym + '"><i>' + (i + 1) + '</i><b>' + sym + '</b></div>';
+  }).join('') + '<div class="pt-c pt-f" style="grid-row:6;grid-column:3">57–71</div><div class="pt-c pt-f" style="grid-row:7;grid-column:3">89–103</div>';
+  const e = elementInfo(z.element);
+  return '<div class="pt-wrap"><p class="pt-cap"><b>' + esc(z.element) + '</b> · ' + esc(e.d.naziv || '') + ' · atomski broj ' + e.n + ' · ' + e.perioda + '. perioda, ' + e.grupa + '. grupa</p>' +
+    '<div class="ptab">' + cells + '</div></div>';
+}
+function elementHTML(z) {   // the drawer: about the element
+  if (!ELEM || !z.element) return '';
+  const e = elementInfo(z.element), d = e.d, row = (k, v) => v ? '<tr><th>' + k + '</th><td>' + esc(v) + '</td></tr>' : '';
+  return '<h3>O elementu</h3><div class="el-card"><div class="el-sym"><i>' + e.n + '</i><b>' + esc(z.element) + '</b><span>' + esc(d.naziv || '') + '</span></div>' +
+    '<table class="el-t">' + row('Atomski broj', String(e.n)) + row('Mesto', e.perioda + '. perioda, ' + e.grupa + '. grupa') + row('Vrsta', d.vrsta) + row('Na sobnoj temperaturi', d.stanje) +
+    row('Simbol potiče od', d.poreklo) + row('Gde ga srećemo', d.gde) + row('Zanimljivo', d.zanimljivost) + '</table></div>';
 }
 function questionFig(z, s) {   // `slika_u_pitanju`: the question asks to look at the picture, so it stands under the answers (caption only once answered)
   const b = z.iz_udzbenika; if (!z.slika_u_pitanju || !b || !b.slika) return '';
@@ -1711,7 +1767,8 @@ def render_html(spec, output_path, embed_images=False, write=True):
             "katalog": katalog, "lekcije": spec.get("lekcije") or [], "slike": slike, "slikeNaslovi": naslovi_slika, "slikeData": slike_data, "zasticeno": zasticeno,
             "tekst": _lesson_text(spec, output_path, root, embed_images), "banka": _bank_links(spec, output_path, root),
             "predmet": f'{spec.get("nivo")}/{spec.get("razred")}/{tool.parent.name}',
-            "ai": _ai_config() if embed_images else {}}
+            "ai": _ai_config() if embed_images else {},
+            "elementi": _elements(root) if spec.get("periodni_sistem") else None}
     mapj = {"proj": proj, "drzave": k.get("drzave") or {}, "mesta": k.get("mesta") or {}}
     js = lambda o: _json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
     repl = {

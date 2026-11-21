@@ -47,8 +47,8 @@ def main(args):
     for f in files:
         b = yaml.safe_load(f.read_text()) or {}
         broj = int(f.name[:2])
-        note = note_path(ROOT, predmet, razred, broj)
-        od, do = (parse_note(note)["fm"].get("strane") or [0, 999])[:2]
+        note = note_path(ROOT, predmet, razred, broj)   # a lesson without textbook pages has no note
+        od, do = (parse_note(note)["fm"].get("strane") or [0, 999])[:2] if note else (None, None)
         # map items are checked with their quiz (the map lives in its spec.yaml)
         plain = [{"naslov": d["naslov"], "zadaci": [z for z in d["zadaci"] if z["vrsta"] not in ("karta_klik", "gde_sam")]} for d in b["delovi"]]
         check_spec({"delovi": plain, "osa": {"trake": trake}, "sastav": {}})
@@ -63,7 +63,7 @@ def main(args):
                 warnings.append(f"{i}: uporedi statement without zasto")
             errors += [f"{i}: pojam {s} is not in pojmovi" for s in z.get("pojmovi") or [] if s not in pojmovi]
             iz = z.get("iz_udzbenika") or {}
-            if not (isinstance(iz.get("strana"), int) and od <= iz["strana"] <= do):
+            if note and not (isinstance(iz.get("strana"), int) and od <= iz["strana"] <= do):
                 warnings.append(f"{i}: iz_udzbenika.strana {iz.get('strana')!r} is outside pages {od}–{do}")
             if z["vrsta"] not in ("ko_sam", "objasni") and len(z.get("pomoc") or []) < 2:
                 warnings.append(f"{i}: needs at least 2 pomoc steps")

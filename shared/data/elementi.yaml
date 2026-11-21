@@ -1,0 +1,325 @@
+# Hemijski elementi za kvizove (hemija, 7. razred). Javni, opšte poznati podaci, napisani za učenike.
+# `kviz: true` = element koji se ispituje (simbol → naziv). Ostali elementi periodnog sistema crtaju se
+# samo kao simbol i atomski broj (lista `simboli`, redom po atomskom broju).
+#   naziv / varijante  ime na srpskom i drugi prihvatljivi zapisi (bez dijakritika se prihvata i inače)
+#   vrsta              metal | nemetal | polumetal | plemeniti gas
+#   stanje             na sobnoj temperaturi: čvrsto | tečno | gasovito
+#   poreklo            odakle dolazi simbol
+#   gde                gde ga srećemo u svakodnevnom životu
+#   pomoc              tri stepenika pomoći posle greške: upotreba → svojstvo → prvo slovo imena
+#   slicni             simboli koji se lako pomešaju sa ovim (za teže izborne zadatke)
+
+simboli: [H, He, Li, Be, B, C, N, O, F, Ne, Na, Mg, Al, Si, P, S, Cl, Ar, K, Ca, Sc, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn,
+  Ga, Ge, As, Se, Br, Kr, Rb, Sr, Y, Zr, Nb, Mo, Tc, Ru, Rh, Pd, Ag, Cd, In, Sn, Sb, Te, I, Xe, Cs, Ba, La, Ce, Pr, Nd,
+  Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, Hf, Ta, W, Re, Os, Ir, Pt, Au, Hg, Tl, Pb, Bi, Po, At, Rn, Fr, Ra, Ac, Th,
+  Pa, U, Np, Pu, Am, Cm, Bk, Cf, Es, Fm, Md, No, Lr, Rf, Db, Sg, Bh, Hs, Mt, Ds, Rg, Cn, Nh, Fl, Mc, Lv, Ts, Og]
+
+elementi:
+  - simbol: H
+    naziv: vodonik
+    vrsta: nemetal
+    stanje: gasovito
+    poreklo: "latinski hydrogenium: „onaj koji stvara vodu”"
+    gde: "Gradi vodu (H₂O) zajedno sa kiseonikom; najviše ga ima na Suncu i zvezdama."
+    zanimljivost: "Najlakši je i najrasprostranjeniji element u svemiru."
+    pomoc: ["Ulazi u sastav vode, zajedno sa kiseonikom.", "Najlakši je od svih elemenata; nalazi se na prvom mestu periodnog sistema.", "Ime počinje slovom V."]
+    slicni: [He, Hg]
+  - simbol: He
+    naziv: helijum
+    vrsta: plemeniti gas
+    stanje: gasovito
+    poreklo: "grčki helios: Sunce (prvo je otkriven u svetlosti Sunca)"
+    gde: "Njime se pune baloni koji lete uvis."
+    zanimljivost: "Lakši je od vazduha i ne gori, pa je bezbedan za balone."
+    pomoc: ["Njime se pune baloni koji odlete ako ih pustiš.", "Plemeniti gas, drugi po redu u periodnom sistemu.", "Ime počinje slovom H."]
+    slicni: [H, Hg]
+  - simbol: Li
+    naziv: litijum
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "grčki lithos: kamen"
+    gde: "U baterijama mobilnih telefona i laptopova."
+    zanimljivost: "Toliko je lak da pluta na ulju."
+    pomoc: ["Nalazi se u baterijama telefona.", "Najlakši metal, prvi u prvoj grupi posle vodonika.", "Ime počinje slovom L."]
+    slicni: [Be, Na]
+  - simbol: Be
+    naziv: berilijum
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "od minerala berila (od koga je i dragi kamen smaragd)"
+    gde: "U lakim i čvrstim delovima aviona i svemirskih letelica."
+    zanimljivost: "Smaragd je zelena vrsta minerala berila, koji sadrži ovaj element."
+    pomoc: ["Ime dolazi od minerala od koga je i smaragd.", "Lak metal, četvrti po redu u periodnom sistemu.", "Ime počinje slovom B."]
+    slicni: [B, Br, Ba]
+  - simbol: B
+    naziv: bor
+    vrsta: polumetal
+    stanje: čvrsto
+    poreklo: "od minerala boraksa"
+    gde: "U vatrostalnom staklu (posude za rernu) i u boraksu za čišćenje."
+    zanimljivost: "Isto se zove kao drvo, ali nema veze sa njim."
+    pomoc: ["Ime mu je isto kao ime jednog četinara.", "Polumetal, peti po redu u periodnom sistemu.", "Ime počinje slovom B."]
+    slicni: [Be, Br, Ba]
+  - simbol: C
+    naziv: ugljenik
+    varijante: [ugljen]
+    vrsta: nemetal
+    stanje: čvrsto
+    poreklo: "latinski carbo: ugalj"
+    gde: "U olovci (grafit), u dijamantu i u svim živim bićima."
+    zanimljivost: "I dijamant i grafit iz olovke građeni su samo od ovog elementa."
+    pomoc: ["Od njega su i dijamant i grafit u olovci.", "Ima ga u svakom živom biću; ime podseća na ugalj.", "Ime počinje slovom U."]
+    slicni: [Ca, Cl, Cu]
+  - simbol: N
+    naziv: azot
+    vrsta: nemetal
+    stanje: gasovito
+    poreklo: "latinski nitrogenium: „onaj koji stvara salitru”"
+    gde: "Ima ga najviše u vazduhu koji dišemo (oko 78%)."
+    zanimljivost: "Tečni azot je toliko hladan da trenutno zamrzava cveće."
+    pomoc: ["Ima ga najviše u vazduhu, više nego kiseonika.", "Bezbojan gas koji ne podržava gorenje.", "Ime počinje slovom A."]
+    slicni: [Na, Ne, Ni]
+  - simbol: O
+    naziv: kiseonik
+    vrsta: nemetal
+    stanje: gasovito
+    poreklo: "latinski oxygenium: „onaj koji stvara kiseline”"
+    gde: "Udišemo ga; bez njega nema ni disanja ni gorenja."
+    zanimljivost: "Najviše ga ima u Zemljinoj kori, a čini oko petinu vazduha."
+    pomoc: ["Bez njega ne možeš da dišeš.", "Podržava gorenje; sa vodonikom gradi vodu.", "Ime počinje slovom K."]
+    slicni: [Os, Co]
+  - simbol: F
+    naziv: fluor
+    vrsta: nemetal
+    stanje: gasovito
+    poreklo: "latinski fluere: teći (od minerala fluorita)"
+    gde: "Njegova jedinjenja su u pasti za zube i štite zube od karijesa."
+    zanimljivost: "Najreaktivniji je od svih elemenata."
+    pomoc: ["Njegova jedinjenja su u pasti za zube.", "Najreaktivniji nemetal; prvi u grupi halogenih elemenata.", "Ime počinje slovom F."]
+    slicni: [Fe, Cl]
+  - simbol: Ne
+    naziv: neon
+    vrsta: plemeniti gas
+    stanje: gasovito
+    poreklo: "grčki neos: nov"
+    gde: "U svetlećim reklamama, koje svetle crvenonarandžasto."
+    zanimljivost: "Reklame zovemo „neonke” po ovom gasu."
+    pomoc: ["Po njemu su svetleće reklame dobile ime.", "Plemeniti gas, deseti po redu.", "Ime počinje slovom N."]
+    slicni: [N, Na, Ni]
+  - simbol: Na
+    naziv: natrijum
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "latinski natrium (od reči natron, vrste sode)"
+    gde: "U kuhinjskoj soli (natrijum-hlorid)."
+    zanimljivost: "Toliko je mekan da se seče nožem, a sa vodom burno reaguje."
+    pomoc: ["Sa hlorom gradi kuhinjsku so.", "Mekan metal koji burno reaguje sa vodom.", "Ime počinje slovom N."]
+    slicni: [N, Ne, Ni]
+  - simbol: Mg
+    naziv: magnezijum
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "od grčke oblasti Magnezija"
+    gde: "Gori jarko belim plamenom, pa se koristi u vatrometu; ima ga i u zelenom povrću."
+    zanimljivost: "Nalazi se u središtu molekula hlorofila, koji biljkama daje zelenu boju."
+    pomoc: ["Gori zaslepljujuće belim plamenom u vatrometu.", "Lak metal; nalazi se u hlorofilu biljaka.", "Ime počinje slovom M."]
+    slicni: [Mn, Hg]
+  - simbol: Al
+    naziv: aluminijum
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "latinski alumen: stipsa"
+    gde: "Folija za pečenje, limenke za sokove, delovi aviona."
+    zanimljivost: "Najrasprostranjeniji metal u Zemljinoj kori."
+    pomoc: ["Od njega su folija za pečenje i limenke za sokove.", "Lak, srebrnast metal koji ne rđa.", "Ime počinje slovom A."]
+    slicni: [Ag, Au, Ar]
+  - simbol: Si
+    naziv: silicijum
+    vrsta: polumetal
+    stanje: čvrsto
+    poreklo: "latinski silex: kremen"
+    gde: "U pesku i staklu, i u čipovima računara."
+    zanimljivost: "Po njemu je nazvana „Silicijumska dolina”, središte računarske industrije."
+    pomoc: ["Od njega su čipovi u računarima i telefonima.", "Glavni sastojak peska; polumetal.", "Ime počinje slovom S."]
+    slicni: [S, Sn, Ag]
+  - simbol: P
+    naziv: fosfor
+    vrsta: nemetal
+    stanje: čvrsto
+    poreklo: "grčki phosphoros: „nosilac svetlosti”"
+    gde: "Na kutiji šibica, na traci o koju se šibica pali."
+    zanimljivost: "Beli fosfor svetli u mraku."
+    pomoc: ["Nalazi se na traci kutije šibica.", "Jedan oblik ovog nemetala svetli u mraku.", "Ime počinje slovom F."]
+    slicni: [Pb, Pt, K]
+  - simbol: S
+    naziv: sumpor
+    vrsta: nemetal
+    stanje: čvrsto
+    poreklo: "latinski sulfur"
+    gde: "Žut prah; njegova jedinjenja daju miris pokvarenim jajima."
+    zanimljivost: "Ima ga oko vulkana, gde se taloži kao žuti kristali."
+    pomoc: ["Pokvarena jaja smrde zbog njegovog jedinjenja.", "Žuti nemetal koji se nalazi oko vulkana.", "Ime počinje slovom S."]
+    slicni: [Si, Sn, Na]
+  - simbol: Cl
+    naziv: hlor
+    vrsta: nemetal
+    stanje: gasovito
+    poreklo: "grčki chloros: žutozelen"
+    gde: "Za dezinfekciju vode u bazenima; sa natrijumom gradi kuhinjsku so."
+    zanimljivost: "Miris bazena potiče od jedinjenja ovog elementa."
+    pomoc: ["Njime se dezinfikuje voda u bazenima.", "Žutozelen otrovan gas; halogeni element.", "Ime počinje slovom H."]
+    slicni: [C, Ca, Cu]
+  - simbol: Ar
+    naziv: argon
+    vrsta: plemeniti gas
+    stanje: gasovito
+    poreklo: "grčki argos: lenj (skoro ništa ne reaguje)"
+    gde: "U običnim sijalicama sa žarnom niti i u vazduhu (oko 1%)."
+    zanimljivost: "Najrasprostranjeniji plemeniti gas u vazduhu."
+    pomoc: ["Puni sijalice da se žarna nit ne bi zapalila.", "Plemeniti gas; ime znači „lenj” jer skoro ništa ne reaguje.", "Ime počinje slovom A."]
+    slicni: [Al, Ag, Au]
+  - simbol: K
+    naziv: kalijum
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "latinski kalium (od arapske reči za pepeo biljaka)"
+    gde: "Ima ga mnogo u bananama; njegova jedinjenja su u veštačkom đubrivu."
+    zanimljivost: "Mekan je kao vosak i burno reaguje sa vodom."
+    pomoc: ["Banane su poznate po tome što ga imaju mnogo.", "Mekan metal iz prve grupe, kao natrijum.", "Ime počinje slovom K."]
+    slicni: [Ca, Kr, P]
+  - simbol: Ca
+    naziv: kalcijum
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "latinski calx: kreč"
+    gde: "U kostima i zubima, u mleku, u krečnjaku i kredi."
+    zanimljivost: "Kamenac u bojleru i kotliću uglavnom je njegovo jedinjenje."
+    pomoc: ["Mleko je važno za kosti jer ga ima mnogo.", "Ima ga u kredi, krečnjaku i kostima.", "Ime počinje slovom K."]
+    slicni: [C, Cl, Cu, K]
+  - simbol: Fe
+    naziv: gvožđe
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "latinski ferrum"
+    gde: "Ekseri, šine, mostovi; čelik je legura gvožđa."
+    zanimljivost: "Daje krvi crvenu boju, jer se nalazi u hemoglobinu."
+    pomoc: ["Od njega se prave ekseri, šine i čelik.", "Metal koji rđa na vlažnom vazduhu; privlači ga magnet.", "Ime počinje slovom G."]
+    slicni: [F, Fr]
+  - simbol: Cu
+    naziv: bakar
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "latinski cuprum (od ostrva Kipar, odakle se vadio)"
+    gde: "Električni kablovi, crveni metal na novčićima i lulama."
+    zanimljivost: "Kip slobode je od njega; zelen je zbog patine."
+    pomoc: ["Od njega su žice u električnim kablovima.", "Crvenkast metal koji odlično provodi struju.", "Ime počinje slovom B."]
+    slicni: [C, Ca, Co]
+  - simbol: Zn
+    naziv: cink
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "nemački Zink"
+    gde: "Pocinkovani limovi i oluci koji ne rđaju; u baterijama."
+    zanimljivost: "Mesing je legura bakra i ovog metala."
+    pomoc: ["Njime se prevlači gvozdeni lim da ne bi rđao (pocinkovan lim).", "Sivkast metal; sa bakrom gradi mesing.", "Ime počinje slovom C."]
+    slicni: [Sn, Na]
+  - simbol: Ag
+    naziv: srebro
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "latinski argentum (po njemu je Argentina dobila ime)"
+    gde: "Nakit, pribor za jelo, medalje za drugo mesto."
+    zanimljivost: "Najbolji provodnik struje od svih metala."
+    pomoc: ["Od njega je medalja za drugo mesto.", "Sjajan beo plemeniti metal; tamni na vazduhu.", "Ime počinje slovom S."]
+    slicni: [Au, Al, Ar]
+  - simbol: Au
+    naziv: zlato
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "latinski aurum: sjajno, zlatno"
+    gde: "Nakit, medalje za prvo mesto, poluge u bankama."
+    zanimljivost: "Ne rđa i ne tamni, pa drevni zlatni predmeti i danas sijaju."
+    pomoc: ["Od njega je medalja za prvo mesto.", "Žut plemeniti metal koji nikad ne tamni.", "Ime počinje slovom Z."]
+    slicni: [Ag, Al, Ar]
+  - simbol: Hg
+    naziv: živa
+    vrsta: metal
+    stanje: tečno
+    poreklo: "latinski hydrargyrum: „tečno srebro”"
+    gde: "U starim termometrima (toplomerima)."
+    zanimljivost: "Jedini metal koji je tečan na sobnoj temperaturi; otrovna je."
+    pomoc: ["Bila je u starim toplomerima.", "Jedini metal koji je tečan na sobnoj temperaturi.", "Ime počinje slovom Ž."]
+    slicni: [H, He, Ag]
+  - simbol: Pb
+    naziv: olovo
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "latinski plumbum (otuda i reč „plomba”)"
+    gde: "Akumulatori u automobilima, zaštita od rendgenskog zračenja, tegovi za pecanje."
+    zanimljivost: "Grafitna olovka nema ovog metala, iako se tako zove."
+    pomoc: ["Zubar ti stavlja olovnu kecelju kad snima zube; tegovi za pecanje.", "Težak, mekan, sivi metal; otrovan je.", "Ime počinje slovom O."]
+    slicni: [P, Pt, Sb]
+  - simbol: Sn
+    naziv: kalaj
+    varijante: [kositar]
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "latinski stannum"
+    gde: "Za lemljenje žica i prevlačenje limenki za konzerve."
+    zanimljivost: "Bronza je legura bakra i ovog metala."
+    pomoc: ["Njime se leme žice u elektronici.", "Mekan, srebrnast metal; sa bakrom gradi bronzu.", "Ime počinje slovom K."]
+    slicni: [S, Si, Zn]
+  - simbol: I
+    naziv: jod
+    vrsta: nemetal
+    stanje: čvrsto
+    poreklo: "grčki iodes: ljubičast"
+    gde: "Jodirana kuhinjska so i jod za dezinfekciju rana."
+    zanimljivost: "Kad se zagreje, odmah prelazi u ljubičastu paru."
+    pomoc: ["Dodaje se kuhinjskoj soli da bi bila „jodirana”.", "Tamnoljubičasti kristali; halogeni element.", "Ime počinje slovom J."]
+    slicni: [In, Ir]
+  - simbol: Br
+    naziv: brom
+    vrsta: nemetal
+    stanje: tečno
+    poreklo: "grčki bromos: smrad"
+    gde: "U lekovima i u sredstvima koja sprečavaju požar."
+    zanimljivost: "Jedini nemetal koji je tečan na sobnoj temperaturi; crvenosmeđ je."
+    pomoc: ["Jedini nemetal koji je tečan na sobnoj temperaturi.", "Crvenosmeđa tečnost oštrog mirisa; halogeni element.", "Ime počinje slovom B."]
+    slicni: [B, Be, Ba]
+  - simbol: Ni
+    naziv: nikl
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "nemački Kupfernickel („đavolji bakar”, ime koje su mu dali rudari)"
+    gde: "U nekim kovanicama i u nerđajućem čeliku."
+    zanimljivost: "Kao i gvožđe, privlači ga magnet."
+    pomoc: ["Ima ga u kovanicama i u nerđajućem čeliku.", "Srebrnast metal koji privlači magnet.", "Ime počinje slovom N."]
+    slicni: [N, Na, Ne]
+  - simbol: Cr
+    naziv: hrom
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "grčki chroma: boja (jedinjenja su mu šarena)"
+    gde: "Sjajne slavine i delovi automobila (hromirani)."
+    zanimljivost: "Daje rubinu crvenu, a smaragdu zelenu boju."
+    pomoc: ["Slavine i ukrasi na autu sijaju jer su njime prevučeni.", "Tvrd, sjajan metal; ime znači „boja”.", "Ime počinje slovom H."]
+    slicni: [C, Kr, Co]
+  - simbol: Mn
+    naziv: mangan
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "latinski magnes, od Magnezije, kao i magnezijum"
+    gde: "U čeliku; kalijum-permanganat je ljubičasto sredstvo za dezinfekciju."
+    zanimljivost: "Često ga mešaju sa magnezijumom jer imaju slično poreklo imena."
+    pomoc: ["Dodaje se čeliku da bude tvrđi.", "Lako se pomeša sa magnezijumom; simboli su im slični.", "Ime počinje slovom M."]
+    slicni: [Mg, Na]
+  - simbol: Pt
+    naziv: platina
+    vrsta: metal
+    stanje: čvrsto
+    poreklo: "španski platina: „malo srebro”"
+    gde: "Skupoceni nakit i katalizatori u auspuhu automobila."
+    zanimljivost: "Ređa je i skuplja od zlata."
+    pomoc: ["Skuplja je od zlata; „platinasti album” je nagrada za muziku.", "Sivobeo plemeniti metal koji ne rđa.", "Ime počinje slovom P."]
+    slicni: [P, Pb]
