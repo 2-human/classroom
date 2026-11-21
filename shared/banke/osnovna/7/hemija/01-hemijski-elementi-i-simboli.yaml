@@ -89,6 +89,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Li
+    oblici:
+    - litijuma
+    - litijumu
+    - litijumom
+    priblizno: true
     pojmovi:
     - litijum
     tekst: Hemijski simbol **Li** označava element {{litijum}}.
@@ -143,6 +148,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Be
+    oblici:
+    - berilijuma
+    - berilijumu
+    - berilijumom
+    priblizno: true
     pojmovi:
     - berilijum
     tekst: Hemijski simbol **Be** označava element {{berilijum}}.
@@ -197,6 +207,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Na
+    oblici:
+    - natrijuma
+    - natrijumu
+    - natrijumom
+    priblizno: true
     pojmovi:
     - natrijum
     tekst: Hemijski simbol **Na** označava element {{natrijum}}.
@@ -251,6 +266,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Mg
+    oblici:
+    - magnezijuma
+    - magnezijumu
+    - magnezijumom
+    priblizno: true
     pojmovi:
     - magnezijum
     tekst: Hemijski simbol **Mg** označava element {{magnezijum}}.
@@ -305,6 +325,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Al
+    oblici:
+    - aluminijuma
+    - aluminijumu
+    - aluminijumom
+    priblizno: true
     pojmovi:
     - aluminijum
     tekst: Hemijski simbol **Al** označava element {{aluminijum}}.
@@ -359,6 +384,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: K
+    oblici:
+    - kalijuma
+    - kalijumu
+    - kalijumom
+    priblizno: true
     pojmovi:
     - kalijum
     tekst: Hemijski simbol **K** označava element {{kalijum}}.
@@ -413,6 +443,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Ca
+    oblici:
+    - kalcijuma
+    - kalcijumu
+    - kalcijumom
+    priblizno: true
     pojmovi:
     - kalcijum
     tekst: Hemijski simbol **Ca** označava element {{kalcijum}}.
@@ -467,6 +502,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Fe
+    oblici:
+    - gvožđa
+    - gvožđu
+    - gvožđem
+    priblizno: true
     pojmovi:
     - gvozde
     tekst: Hemijski simbol **Fe** označava element {{gvožđe}}.
@@ -521,6 +561,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Cu
+    oblici:
+    - bakra
+    - bakru
+    - bakrom
+    priblizno: true
     pojmovi:
     - bakar
     tekst: Hemijski simbol **Cu** označava element {{bakar}}.
@@ -575,6 +620,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Zn
+    oblici:
+    - cinka
+    - cinku
+    - cinkom
+    priblizno: true
     pojmovi:
     - cink
     tekst: Hemijski simbol **Zn** označava element {{cink}}.
@@ -629,6 +679,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Ag
+    oblici:
+    - srebra
+    - srebru
+    - srebrom
+    priblizno: true
     pojmovi:
     - srebro
     tekst: Hemijski simbol **Ag** označava element {{srebro}}.
@@ -683,6 +738,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Au
+    oblici:
+    - zlata
+    - zlatu
+    - zlatom
+    priblizno: true
     pojmovi:
     - zlato
     tekst: Hemijski simbol **Au** označava element {{zlato}}.
@@ -737,6 +797,12 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Hg
+    oblici:
+    - žive
+    - živi
+    - živu
+    - živom
+    priblizno: true
     pojmovi:
     - ziva
     tekst: Hemijski simbol **Hg** označava element {{živa}}.
@@ -791,6 +857,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Pb
+    oblici:
+    - olova
+    - olovu
+    - olovom
+    priblizno: true
     pojmovi:
     - olovo
     tekst: Hemijski simbol **Pb** označava element {{olovo}}.
@@ -845,6 +916,14 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Sn
+    oblici:
+    - kalaja
+    - kalaju
+    - kalajem
+    - kositra
+    - kositru
+    - kositrom
+    priblizno: true
     pojmovi:
     - kalaj
     tekst: Hemijski simbol **Sn** označava element {{kalaj|kositar}}.
@@ -899,6 +978,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Ni
+    oblici:
+    - nikla
+    - niklu
+    - niklom
+    priblizno: true
     pojmovi:
     - nikl
     tekst: Hemijski simbol **Ni** označava element {{nikl}}.
@@ -953,6 +1037,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Cr
+    oblici:
+    - hroma
+    - hromu
+    - hromom
+    priblizno: true
     pojmovi:
     - hrom
     tekst: Hemijski simbol **Cr** označava element {{hrom}}.
@@ -1007,6 +1096,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Mn
+    oblici:
+    - mangana
+    - manganu
+    - manganom
+    priblizno: true
     pojmovi:
     - mangan
     tekst: Hemijski simbol **Mn** označava element {{mangan}}.
@@ -1061,6 +1155,12 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Pt
+    oblici:
+    - platine
+    - platini
+    - platinu
+    - platinom
+    priblizno: true
     pojmovi:
     - platina
     tekst: Hemijski simbol **Pt** označava element {{platina}}.
@@ -1117,6 +1217,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: H
+    oblici:
+    - vodonika
+    - vodoniku
+    - vodonikom
+    priblizno: true
     pojmovi:
     - vodonik
     tekst: Hemijski simbol **H** označava element {{vodonik}}.
@@ -1171,6 +1276,14 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: C
+    oblici:
+    - ugljenika
+    - ugljeniku
+    - ugljenikom
+    - ugljena
+    - ugljenu
+    - ugljenom
+    priblizno: true
     pojmovi:
     - ugljenik
     tekst: Hemijski simbol **C** označava element {{ugljenik|ugljen}}.
@@ -1225,6 +1338,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: N
+    oblici:
+    - azota
+    - azotu
+    - azotom
+    priblizno: true
     pojmovi:
     - azot
     tekst: Hemijski simbol **N** označava element {{azot}}.
@@ -1279,6 +1397,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: O
+    oblici:
+    - kiseonika
+    - kiseoniku
+    - kiseonikom
+    priblizno: true
     pojmovi:
     - kiseonik
     tekst: Hemijski simbol **O** označava element {{kiseonik}}.
@@ -1333,6 +1456,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: F
+    oblici:
+    - fluora
+    - fluoru
+    - fluorom
+    priblizno: true
     pojmovi:
     - fluor
     tekst: Hemijski simbol **F** označava element {{fluor}}.
@@ -1387,6 +1515,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: P
+    oblici:
+    - fosfora
+    - fosforu
+    - fosforom
+    priblizno: true
     pojmovi:
     - fosfor
     tekst: Hemijski simbol **P** označava element {{fosfor}}.
@@ -1441,6 +1574,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: S
+    oblici:
+    - sumpora
+    - sumporu
+    - sumporom
+    priblizno: true
     pojmovi:
     - sumpor
     tekst: Hemijski simbol **S** označava element {{sumpor}}.
@@ -1495,6 +1633,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Cl
+    oblici:
+    - hlora
+    - hloru
+    - hlorom
+    priblizno: true
     pojmovi:
     - hlor
     tekst: Hemijski simbol **Cl** označava element {{hlor}}.
@@ -1549,6 +1692,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: I
+    oblici:
+    - joda
+    - jodu
+    - jodom
+    priblizno: true
     pojmovi:
     - jod
     tekst: Hemijski simbol **I** označava element {{jod}}.
@@ -1603,6 +1751,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Br
+    oblici:
+    - broma
+    - bromu
+    - bromom
+    priblizno: true
     pojmovi:
     - brom
     tekst: Hemijski simbol **Br** označava element {{brom}}.
@@ -1659,6 +1812,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: He
+    oblici:
+    - helijuma
+    - helijumu
+    - helijumom
+    priblizno: true
     pojmovi:
     - helijum
     tekst: Hemijski simbol **He** označava element {{helijum}}.
@@ -1713,6 +1871,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: B
+    oblici:
+    - bora
+    - boru
+    - borom
+    priblizno: true
     pojmovi:
     - bor
     tekst: Hemijski simbol **B** označava element {{bor}}.
@@ -1767,6 +1930,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Ne
+    oblici:
+    - neona
+    - neonu
+    - neonom
+    priblizno: true
     pojmovi:
     - neon
     tekst: Hemijski simbol **Ne** označava element {{neon}}.
@@ -1821,6 +1989,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Si
+    oblici:
+    - silicijuma
+    - silicijumu
+    - silicijumom
+    priblizno: true
     pojmovi:
     - silicijum
     tekst: Hemijski simbol **Si** označava element {{silicijum}}.
@@ -1875,6 +2048,11 @@ delovi:
     vrsta: dopuni
     tezina: tesko
     element: Ar
+    oblici:
+    - argona
+    - argonu
+    - argonom
+    priblizno: true
     pojmovi:
     - argon
     tekst: Hemijski simbol **Ar** označava element {{argon}}.

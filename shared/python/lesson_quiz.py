@@ -541,6 +541,7 @@ __SHELL_CSS__
  .qfig{margin:16px 0 0;max-width:720px} .qfig img{display:block;max-width:100%;max-height:62vh;border-radius:8px;border:1px solid var(--border);cursor:zoom-in}
  .qfig.zoom{max-width:none;overflow-x:auto} .qfig.zoom img{max-width:none;max-height:none;cursor:zoom-out}
  .qfig figcaption{font-size:12.5px;color:var(--muted);margin-top:5px}
+ .napomena{margin:10px 0 0;padding:8px 12px;border-radius:8px;background:#fbf3e3;border:1px solid #ecd3a8;color:#5a3d0f;font-size:14.5px;max-width:720px}
  .pt-wrap{margin:18px 0 0;max-width:760px}
  .pt-cap{margin:0 0 8px;font-size:14.5px;color:var(--ink)}
  .ptab{display:grid;grid-template-columns:repeat(18,minmax(0,1fr));grid-template-rows:repeat(7,auto) 8px repeat(2,auto);gap:2px;min-width:0}
@@ -1166,6 +1167,7 @@ function frame(z, s, inner) {
   const pts = s.first === true ? '✓ tačno' : s.first === false ? '✗ netačno u prvom pokušaju' : '';
   return '<div class="item"><div class="ihead"><span class="vchip">' + VRSTA_LBL[z.vrsta] + '</span>' + tzBadge(z) + ' ' + TEZ_LBL[z.tezina] + '<span>' + esc(deoNaslov(z)) + ' · zadatak ' + n + ' / ' + curItems().length + '</span><span>' + pts + '</span></div>' +
     inner + '<div class="help-inline" id="helpInline"></div><div class="iactions" id="actions"></div>' +
+    (isDone(s) && s.ui.napomena ? '<div class="napomena">Prihvaćeno. Piše se: <b>' + s.ui.napomena.map(esc).join('</b>, <b>') + '</b> (nominativ jednine, sa slovima č, ć, š, ž, đ).</div>' : '') +
     (isDone(s) ? '<div class="expl' + (s.status === 'ok' ? '' : ' rev') + '">' + fmt(z.objasnjenje || '') + '</div>' : '') + questionFig(z, s) + elementFig(z, s) + '</div>';
 }
 // ---------- periodic table (`periodni_sistem: true`; items with `element`) ----------
@@ -1304,6 +1306,26 @@ function parseCloze(t) {   // → [text, {answers}, text, …]
   parts.push(t.slice(last));
   return parts;
 }
+function lev(a, b) {   // edit distance
+  const d = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    let prev = d[0]; d[0] = i;
+    for (let j = 1; j <= b.length; j++) { const t = d[j]; d[j] = Math.min(d[j] + 1, d[j - 1] + 1, prev + (a[i - 1] === b[j - 1] ? 0 : 1)); prev = t; }
+  }
+  return d[b.length];
+}
+function clozeMatch(z, blank, v) {   // ok, and note = accepted but not written as the nominative (case form, no diacritics, typo)
+  const raw = String(v || '').trim().toLowerCase(), n = norm(v);
+  if (blank.answers.some(a => a.toLowerCase() === raw)) return { ok: true };
+  if (blank.answers.map(norm).includes(n)) return { ok: true, note: z.oblici || z.priblizno };
+  const forms = blank.answers.concat(z.oblici || []).map(norm);
+  if (forms.includes(n)) return { ok: true, note: true };
+  if (!z.priblizno) return { ok: false };
+  const tol = w => w.length >= 8 ? 2 : w.length >= 4 ? 1 : 0, best = Math.min(...forms.map(f => lev(n, f) <= tol(f) ? lev(n, f) : 99));
+  if (best === 99) return { ok: false };
+  const others = ELEM ? Object.entries(ELEM.detalji).filter(([s]) => s !== z.element).map(([, d]) => norm(d.naziv)) : [];
+  return others.some(o => lev(n, o) <= best) ? { ok: false } : { ok: true, note: true };   // never closer to another element's name
+}
 function renderCloze(z, s) {
   const ui = s.ui; ui.val = ui.val || {}; ui.lock = ui.lock || {};
   const parts = parseCloze(z.tekst), blanks = parts.filter(p => typeof p === 'object');
@@ -1340,7 +1362,12 @@ function renderCloze(z, s) {
     if (open.some(i => !norm(ui.val[i]))) { toast('Popuni sve praznine', false); return; }
     ui.bad = [];
     const given = open.map(i => ui.val[i]).join(' / ');
-    for (const i of open) { if (blanks[i].answers.map(norm).includes(norm(ui.val[i]))) ui.lock[i] = true; else { ui.bad.push(i); delete ui.val[i]; } }
+    const notes = [];
+    for (const i of open) {
+      const m = clozeMatch(z, blanks[i], ui.val[i]);
+      if (m.ok) { ui.lock[i] = true; if (m.note) notes.push(blanks[i].answers[0]); } else { ui.bad.push(i); delete ui.val[i]; }
+    }
+    ui.napomena = notes.length ? notes : null;
     if (!ui.bad.length) succeed(z, given); else fail(z, ui.bad.length === 1 ? 'Jedna praznina nije tačna' : 'Neke praznine nisu tačne', given);
   });
   nextButton(z);

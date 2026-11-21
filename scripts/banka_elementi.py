@@ -9,7 +9,8 @@ file, not the bank). Per element three items, all tied to it with `element: SIMB
 the periodic table with it highlighted and its details in the drawer):
     lako     izbor  — the name among three other elements with different initials
     srednje  izbor  — the name among elements with similar symbols (`slicni`)
-    tesko    dopuni — the full name typed in, no word bank
+    tesko    dopuni — the full name typed in, no word bank; any case form (`oblici`) and small typos
+                      (`priblizno`) count as correct, and the pupil is told the nominative spelling
 Every wrong option says whose symbol it is; the help ladder is the element's `pomoc`.
 """
 import pathlib
@@ -20,6 +21,27 @@ import yaml
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "shared" / "banke" / "osnovna" / "7" / "hemija" / "01-hemijski-elementi-i-simboli.yaml"
 DELOVI = [("Metali", {"metal"}), ("Nemetali", {"nemetal"}), ("Plemeniti gasovi i polumetali", {"plemeniti gas", "polumetal"})]
+
+
+FLEETING_A = {"bakar": "bakr", "kositar": "kositr"}   # a that drops in the other cases (bakar → bakra)
+
+
+def oblici(n):
+    """The other singular case forms of an element's name (genitive, dative, accusative, instrumental, locative)."""
+    if n.endswith("um"):
+        s = n[:-2] + "um"
+        return [s + "a", s + "u", s + "om"]
+    if n.endswith("a"):
+        s = n[:-1]
+        return [s + "e", s + "i", s + "u", s + "om"]
+    if n.endswith("o"):
+        s = n[:-1]
+        return [s + "a", s + "u", s + "om"]
+    if n.endswith("e"):
+        s = n[:-1]
+        return [s + "a", s + "u", s + "em"]
+    s = FLEETING_A.get(n, n)
+    return [s + "a", s + "u", s + ("em" if s[-1] in "jcčćđšž" or s.endswith(("lj", "nj")) else "om")]
 
 
 def slug(s):
@@ -58,6 +80,7 @@ def main():
             zadaci.append(izbor(e, near, "srednje"))
             names = [e["naziv"]] + e.get("varijante", [])
             zadaci.append({"id": f"l01-{slug(e['simbol'])}-dopuni", "vrsta": "dopuni", "tezina": "tesko", "element": e["simbol"],
+                           "oblici": [o for n in names for o in oblici(n)], "priblizno": True,
                            "pojmovi": [slug(e["naziv"])], "tekst": f"Hemijski simbol **{e['simbol']}** označava element {{{{{'|'.join(names)}}}}}.",
                            "pomoc": e["pomoc"], "objasnjenje": f"**{e['simbol']}** je simbol elementa koji se zove {e['naziv']}. Simbol potiče od: {e['poreklo']}."})
         delovi.append({"naslov": naslov, "zadaci": zadaci})

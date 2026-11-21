@@ -123,3 +123,10 @@ upisuje broj i bira „pre n. e.” ili „n. e.”.
 Ako pitanje traži gledanje slike ili karte, zadatak dobija `slika_u_pitanju: true`, a slika je
 `iz_udzbenika.slika`. Prikazuje se u glavnoj koloni ispod odgovora (potpis tek posle odgovora, da ne
 otkrije rešenje); javna kopija umesto slike vodi na verziju sa slikama.
+
+## Upis naziva: padeži i male greške
+
+Zadatak `dopuni` može imati `oblici` (ostali padežni oblici odgovora) i `priblizno: true` (prihvata malu
+slovnu grešku: 1 slovo za reč od 4–7 slova, 2 za duže; nikad ako je upisano bliže drugom elementu).
+Takav odgovor je tačan, a učenik dobija napomenu kako se piše u nominativu jednine. Odgovor bez kvačica
+(gvozdje) se i inače prihvata; uz `oblici`/`priblizno` dobija istu napomenu.
